@@ -60,7 +60,13 @@ Die Anwendung ist modular aufgebaut und folgt dem Prinzip der Trennung von Zust�
 npm install
 ```
 
-3. Anwendung bauen:
+3. Playwright-Browser installieren:
+
+```bash
+npx playwright install
+```
+
+4. Anwendung bauen:
 
 ```bash
 npm run build
@@ -181,6 +187,35 @@ Nach jedem Crawling-Durchlauf werden zwei Arten von Berichten erstellt:
 
 1. **Crawl-Ergebnisse**: Detaillierte Informationen zu jedem Crawling-Versuch
 2. **Crawl-Zusammenfassung**: Zusammenfassung des gesamten Crawling-Durchlaufs
+
+## Hinweise zur Implementierung
+
+### Verzeichnisstruktur und Kompilierung
+
+Die TypeScript-Dateien werden gemäß der Verzeichnisstruktur in das `dist`-Verzeichnis kompiliert. Die Hauptanwendungsdatei befindet sich nach der Kompilierung unter `dist/src/app.js`. Dies ist in der `package.json` entsprechend konfiguriert:
+
+```json
+{
+  "main": "dist/src/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/src/app.js",
+    ...
+  }
+}
+```
+
+Diese Struktur spiegelt die Quellcode-Organisation wider, wobei die app.ts-Datei im src-Verzeichnis liegt und entsprechend in das dist/src-Verzeichnis kompiliert wird.
+
+### Fortschrittsanzeige
+
+Die Anwendung zeigt den Fortschritt des Crawlings in der Konsole an. Um die Ausgabe übersichtlich zu halten, werden Fortschrittsmeldungen nur bei signifikanten Änderungen angezeigt:
+
+- Bei Erreichen von vollen 10% Fortschritt (0%, 10%, 20%, ..., 100%)
+- Nach jeweils 50 verarbeiteten Websites
+- Bei Abschluss des Crawlings
+
+Dies reduziert die Konsolenausgabe erheblich und macht den Fortschritt leichter nachvollziehbar, besonders bei großen Website-Listen.
 
 ## Fehlerbehebung
 

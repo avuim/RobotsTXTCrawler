@@ -28,6 +28,7 @@ export class CrawlOrchestrator {
   private failedDomainManager: FailedDomainManager;
   private progressMonitor: ProgressMonitor;
   private logger: ReturnType<typeof createLogger>;
+  private lastReportedProgress?: { completed: number };
   
   constructor(
     config: CrawlerConfig,
@@ -54,13 +55,24 @@ export class CrawlOrchestrator {
     this.progressMonitor.on(ProgressEvent.PROGRESS, (progress) => {
       this.logger.info('Fortschritt', { progress });
       
-      // Fortschritt in der Konsole ausgeben
-      const percent = progress.percentComplete.toFixed(2);
-      const remaining = progress.estimatedTimeRemaining 
-        ? Math.round(progress.estimatedTimeRemaining)
-        : 'unbekannt';
+      // Fortschritt in der Konsole ausgeben, aber nur bei signifikanten Änderungen
+      // Ausgabe nur bei 0%, 10%, 20%, ..., 100% oder alle 50 verarbeiteten Websites
+      const percent = progress.percentComplete;
+      const percentRounded = Math.floor(percent / 10) * 10;
+      const isSignificantProgress = 
+        (progress.completed % 50 === 0) || // Alle 50 Websites
+        (Math.floor(percent) === percentRounded && // Volle 10% erreicht
+         (this.lastReportedProgress === undefined || progress.completed > this.lastReportedProgress.completed));
       
-      console.log(`Fortschritt: ${percent}% (${progress.completed}/${progress.total}) - Verbleibend: ${remaining}s`);
+      if (isSignificantProgress || progress.completed === progress.total) {
+        this.lastReportedProgress = { ...progress };
+        const percentFormatted = percent.toFixed(2);
+        const remaining = progress.estimatedTimeRemaining 
+          ? Math.round(progress.estimatedTimeRemaining)
+          : 'unbekannt';
+        
+        console.log(`Fortschritt: ${percentFormatted}% (${progress.completed}/${progress.total}) - Verbleibend: ${remaining}s`);
+      }
     });
     
     this.progressMonitor.on(ProgressEvent.COMPLETE, (progress, results) => {
