@@ -13,7 +13,6 @@ Der Robots.txt Crawler ist eine leistungsstarke TypeScript-Anwendung, die entwic
 - **Batch-Verarbeitung**: Teilt die zu verarbeitenden Websites in Batches auf
 - **Browser-Fallback**: Verwendet Playwright als Fallback, wenn HTTP-Anfragen fehlschlagen
 - **Anti-Blocking-Maßnahmen**: Implementiert User-Agent-Rotation und zufällige Verzögerungen
-- **Fortschrittsüberwachung**: Zeigt Echtzeit-Fortschrittsinformationen während des Crawlings
 - **Umfangreiche Protokollierung**: Detaillierte Logs für Debugging und Analyse
 - **Fehlerbehandlung**: Robuste Fehlerbehandlung mit automatischen Wiederholungsversuchen
 - **Konfigurierbarkeit**: Umfangreiche Konfigurationsmöglichkeiten über Kommandozeilenargumente
@@ -206,16 +205,6 @@ Die TypeScript-Dateien werden gemäß der Verzeichnisstruktur in das `dist`-Verz
 ```
 
 Diese Struktur spiegelt die Quellcode-Organisation wider, wobei die app.ts-Datei im src-Verzeichnis liegt und entsprechend in das dist/src-Verzeichnis kompiliert wird.
-
-### Fortschrittsanzeige
-
-Die Anwendung zeigt den Fortschritt des Crawlings in der Konsole an. Um die Ausgabe übersichtlich zu halten, werden Fortschrittsmeldungen nur bei signifikanten Änderungen angezeigt:
-
-- Bei Erreichen von vollen 10% Fortschritt (0%, 10%, 20%, ..., 100%)
-- Nach jeweils 50 verarbeiteten Websites
-- Bei Abschluss des Crawlings
-
-Dies reduziert die Konsolenausgabe erheblich und macht den Fortschritt leichter nachvollziehbar, besonders bei großen Website-Listen.
 
 ## Fehlerbehebung
 

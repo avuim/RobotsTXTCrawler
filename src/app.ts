@@ -87,23 +87,12 @@ async function main(): Promise<void> {
       }
     );
     
-    // Services initialisieren
-    console.log('Initialisiere Services...');
+    // Services initialisieren (Meldung wird vom Orchestrator ausgegeben)
     await orchestrator.initialize();
     
-    // Crawling starten
-    console.log('Starte Crawling...');
+    // Crawling starten (Meldung wird vom Orchestrator ausgegeben)
     const summary = await orchestrator.crawlAllSites();
     
-    // Ergebnisse anzeigen
-    console.log('\nCrawling abgeschlossen!');
-    console.log(`- Gesamtdauer: ${summary.totalDuration.toFixed(2)} Sekunden`);
-    console.log(`- Verarbeitete Websites: ${summary.totalSites}`);
-    console.log(`- Erfolgreich: ${summary.successful}`);
-    console.log(`- Fehlgeschlagen: ${summary.failed}`);
-    console.log(`- Übersprungen: ${summary.skipped}`);
-    console.log(`- Durchschnittliche Antwortzeit: ${summary.avgResponseTime.toFixed(2)} ms`);
-    console.log(`\nErgebnisse wurden in ${config.outputDir} gespeichert.`);
     
   } catch (error) {
     console.error('Fehler in der Hauptanwendung:', error);

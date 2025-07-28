@@ -2,6 +2,7 @@ import { Worker } from 'worker_threads';
 import path from 'path';
 import { v4 as uuidv4 } from 'uuid';
 import pLimit from 'p-limit';
+import * as cliProgress from 'cli-progress';
 
 import { CrawlerConfig } from '../../config/crawler.config';
 import { PlaywrightConfig } from '../../config/playwright.config';
@@ -28,7 +29,7 @@ export class CrawlOrchestrator {
   private failedDomainManager: FailedDomainManager;
   private progressMonitor: ProgressMonitor;
   private logger: ReturnType<typeof createLogger>;
-  private lastReportedProgress?: { completed: number };
+  private progressBar!: cliProgress.SingleBar;
   
   constructor(
     config: CrawlerConfig,
@@ -51,33 +52,51 @@ export class CrawlOrchestrator {
     this.failedDomainManager = new FailedDomainManager();
     this.progressMonitor = new ProgressMonitor();
     
+    // Fortschrittsbalken initialisieren (wird später im crawlAllSites erstellt)
+    
     // Event-Listener für den Fortschritt
     this.progressMonitor.on(ProgressEvent.PROGRESS, (progress) => {
-      this.logger.info('Fortschritt', { progress });
-      
-      // Fortschritt in der Konsole ausgeben, aber nur bei signifikanten Änderungen
-      // Ausgabe nur bei 0%, 10%, 20%, ..., 100% oder alle 50 verarbeiteten Websites
-      const percent = progress.percentComplete;
-      const percentRounded = Math.floor(percent / 10) * 10;
-      const isSignificantProgress = 
-        (progress.completed % 50 === 0) || // Alle 50 Websites
-        (Math.floor(percent) === percentRounded && // Volle 10% erreicht
-         (this.lastReportedProgress === undefined || progress.completed > this.lastReportedProgress.completed));
-      
-      if (isSignificantProgress || progress.completed === progress.total) {
-        this.lastReportedProgress = { ...progress };
-        const percentFormatted = percent.toFixed(2);
+      // Fortschrittsbalken aktualisieren
+      if (this.progressBar) {
         const remaining = progress.estimatedTimeRemaining 
           ? Math.round(progress.estimatedTimeRemaining)
-          : 'unbekannt';
+          : 0;
         
-        console.log(`Fortschritt: ${percentFormatted}% (${progress.completed}/${progress.total}) - Verbleibend: ${remaining}s`);
+        this.progressBar.update(progress.completed, {
+          successful: progress.successful,
+          failed: progress.failed,
+          skipped: progress.skipped,
+          remaining: `${remaining}s`
+        });
       }
     });
     
     this.progressMonitor.on(ProgressEvent.COMPLETE, (progress, results) => {
-      this.logger.info('Crawling abgeschlossen', { progress });
-      console.log(`Crawling abgeschlossen: ${progress.successful} erfolgreich, ${progress.failed} fehlgeschlagen, ${progress.skipped} übersprungen`);
+      // Logging für Crawling-Abschluss deaktiviert, um die Zusammenfassung nicht zu stören
+      
+      // Fortschrittsbalken stoppen
+      if (this.progressBar) {
+        this.progressBar.stop();
+      }
+      
+      // Zusammenfassung anzeigen
+      console.log('\nCrawling abgeschlossen!');
+      console.log(`- Gesamtdauer: ${progress.elapsedTime.toFixed(2)} Sekunden`);
+      console.log(`- Verarbeitete Websites: ${progress.total}`);
+      console.log(`- Erfolgreich: ${progress.successful}`);
+      console.log(`- Fehlgeschlagen: ${progress.failed}`);
+      console.log(`- Übersprungen: ${progress.skipped}`);
+      
+      // Durchschnittliche Antwortzeit berechnen (wenn verfügbar)
+      if (results && results.length > 0) {
+        const successfulResults = results.filter((r: CrawlResult) => r.status === 'success');
+        if (successfulResults.length > 0) {
+          const avgResponseTime = successfulResults.reduce((sum: number, r: CrawlResult) => sum + (r.responseTime || 0), 0) / successfulResults.length;
+          console.log(`- Durchschnittliche Antwortzeit: ${avgResponseTime.toFixed(2)} ms`);
+        }
+      }
+      
+      console.log('\nErgebnisse wurden in ' + this.config.outputDir + ' gespeichert.');
     });
     
     this.progressMonitor.on(ProgressEvent.ERROR, (error) => {
@@ -90,7 +109,8 @@ export class CrawlOrchestrator {
    * Initialisiert alle Services
    */
   async initialize(): Promise<void> {
-    this.logger.info('Initialisiere Services');
+    // Logging für Initialisierung deaktiviert, um die Konsolenausgabe nicht zu stören
+    console.log('Initialisiere Services...');
     
     await this.fileManager.initialize();
     await this.failedDomainManager.initialize();
@@ -107,23 +127,36 @@ export class CrawlOrchestrator {
     const startTime = new Date();
     const crawlId = uuidv4();
     
-    this.logger.info('Starte Crawling', { crawlId, startTime });
+    // Logging für Crawling-Start deaktiviert, um die Konsolenausgabe nicht zu stören
+    console.log('Starte Crawling...');
     
     try {
       // Websites laden und normalisieren
       const websites = await this.websiteLoader.loadNormalizedWebsites();
+      
+      // Fortschrittsbalken initialisieren und starten, wenn er noch nicht existiert
+      if (!this.progressBar) {
+        this.progressBar = new cliProgress.SingleBar({
+          format: 'Crawling [{bar}] {percentage}% | {value}/{total} Websites | Erfolgreich: {successful} | Fehlgeschlagen: {failed} | Übersprungen: {skipped} | Verbleibend: {remaining}',
+          barCompleteChar: '\u2588',
+          barIncompleteChar: '\u2591',
+          hideCursor: true
+        });
+        
+        // Fortschrittsbalken starten
+        this.progressBar.start(websites.length, 0, {
+          successful: 0,
+          failed: 0,
+          skipped: 0,
+          remaining: 'berechne...'
+        });
+      }
       
       // Fortschrittsmonitor starten
       this.progressMonitor.start(websites.length);
       
       // Websites in Batches aufteilen
       const batches = this.websiteLoader.splitIntoBatches(websites, this.config.batchSize);
-      
-      this.logger.info('Websites geladen', { 
-        totalWebsites: websites.length,
-        batches: batches.length,
-        batchSize: this.config.batchSize
-      });
       
       // Parallelisierung mit p-limit
       const limit = pLimit(this.config.parallelWorkers);
@@ -146,11 +179,11 @@ export class CrawlOrchestrator {
         startTime: startTime.toISOString(),
         endTime: endTime.toISOString(),
         totalSites: websites.length,
-        successful: results.filter(r => r.status === 'success').length,
-        failed: results.filter(r => r.status === 'failed').length,
-        skipped: results.filter(r => r.status === 'skipped').length,
+        successful: results.filter((r: CrawlResult) => r.status === 'success').length,
+        failed: results.filter((r: CrawlResult) => r.status === 'failed').length,
+        skipped: results.filter((r: CrawlResult) => r.status === 'skipped').length,
         totalDuration: (endTime.getTime() - startTime.getTime()) / 1000,
-        avgResponseTime: results.reduce((sum, r) => sum + (r.responseTime || 0), 0) / results.length,
+        avgResponseTime: results.reduce((sum: number, r: CrawlResult) => sum + (r.responseTime || 0), 0) / results.length,
         config: {
           parallelWorkers: this.config.parallelWorkers,
           batchSize: this.config.batchSize,
@@ -162,7 +195,7 @@ export class CrawlOrchestrator {
       await this.fileManager.saveCrawlResults(results);
       await this.fileManager.saveCrawlSummary(summary);
       
-      this.logger.info('Crawling abgeschlossen', { summary });
+      // Logging für Crawling-Abschluss deaktiviert, um die Zusammenfassung nicht zu stören
       
       return summary;
     } catch (error) {
@@ -183,7 +216,7 @@ export class CrawlOrchestrator {
    * Verarbeitet einen Batch von Websites
    */
   private async processBatch(batch: NormalizedWebsite[], batchIndex: number): Promise<CrawlResult[]> {
-    this.logger.info(`Verarbeite Batch ${batchIndex + 1}`, { batchSize: batch.length });
+    // Logging für Batch-Verarbeitung deaktiviert, um den Fortschrittsbalken nicht zu stören
     
     const results: CrawlResult[] = [];
     

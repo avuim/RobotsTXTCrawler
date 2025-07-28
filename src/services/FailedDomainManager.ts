@@ -27,6 +27,13 @@ export class FailedDomainManager {
       } catch (error) {
         console.error('Fehler beim Laden der fehlgeschlagenen Domains:', error);
         this.failedDomains = {};
+        
+        // Bei JSON-Parsing-Fehlern die Datei zurücksetzen
+        if (error instanceof SyntaxError) {
+          console.log('Beschädigte JSON-Datei erkannt. Datei wird zurückgesetzt...');
+          await this.save();
+          console.log('Datei wurde zurückgesetzt.');
+        }
       }
     } else {
       // Leere Datei erstellen
