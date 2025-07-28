@@ -1,0 +1,118 @@
+import { loadConfig } from '../config/crawler.config';
+import { defaultPlaywrightConfig } from '../config/playwright.config';
+import { defaultLoggingConfig } from '../config/logging.config';
+import { CrawlOrchestrator } from './services/CrawlOrchestrator';
+
+// Funktion zum Parsen der Kommandozeilenargumente
+function parseArgs(): Record<string, any> {
+  const args: Record<string, any> = {};
+  
+  process.argv.slice(2).forEach(arg => {
+    if (arg.startsWith('--')) {
+      const [key, value] = arg.substring(2).split('=');
+      
+      if (value === undefined) {
+        args[key] = true;
+      } else if (value === 'true') {
+        args[key] = true;
+      } else if (value === 'false') {
+        args[key] = false;
+      } else if (!isNaN(Number(value))) {
+        args[key] = Number(value);
+      } else {
+        args[key] = value;
+      }
+    }
+  });
+  
+  return args;
+}
+
+// Hilfsfunktion zum Anzeigen der Hilfe
+function showHelp(): void {
+  console.log(`
+Robots.txt Crawler - Ein moderner Webcrawler zum Extrahieren von robots.txt-Dateien
+
+Verwendung:
+  npm start -- [Optionen]
+
+Optionen:
+  --parallelWorkers=<Anzahl>   Anzahl der parallelen Worker (Standard: 15)
+  --batchSize=<Anzahl>         Anzahl der Websites pro Batch (Standard: 100)
+  --browserFallback=<bool>     Browser-Fallback aktivieren (Standard: true)
+  --outputDir=<Pfad>           Ausgabeverzeichnis (Standard: ./output)
+  --logLevel=<Level>           Log-Level (debug, info, warn, error) (Standard: info)
+  --help                       Diese Hilfe anzeigen
+  `);
+}
+
+// Hauptfunktion
+async function main(): Promise<void> {
+  try {
+    // Kommandozeilenargumente parsen
+    const args = parseArgs();
+    
+    // Hilfe anzeigen, wenn angefordert
+    if (args.help) {
+      showHelp();
+      return;
+    }
+    
+    console.log('Robots.txt Crawler wird gestartet...');
+    
+    // Konfiguration laden
+    const config = loadConfig({
+      parallelWorkers: args.parallelWorkers,
+      batchSize: args.batchSize,
+      browserFallback: args.browserFallback,
+      outputDir: args.outputDir,
+      logLevel: args.logLevel
+    });
+    
+    // Konfiguration anzeigen
+    console.log('Konfiguration:');
+    console.log(`- Parallele Worker: ${config.parallelWorkers}`);
+    console.log(`- Batch-Größe: ${config.batchSize}`);
+    console.log(`- Browser-Fallback: ${config.browserFallback ? 'Aktiviert' : 'Deaktiviert'}`);
+    console.log(`- Ausgabeverzeichnis: ${config.outputDir}`);
+    console.log(`- Log-Level: ${config.logLevel}`);
+    
+    // Orchestrator erstellen
+    const orchestrator = new CrawlOrchestrator(
+      config,
+      defaultPlaywrightConfig,
+      {
+        ...defaultLoggingConfig,
+        logLevel: config.logLevel
+      }
+    );
+    
+    // Services initialisieren
+    console.log('Initialisiere Services...');
+    await orchestrator.initialize();
+    
+    // Crawling starten
+    console.log('Starte Crawling...');
+    const summary = await orchestrator.crawlAllSites();
+    
+    // Ergebnisse anzeigen
+    console.log('\nCrawling abgeschlossen!');
+    console.log(`- Gesamtdauer: ${summary.totalDuration.toFixed(2)} Sekunden`);
+    console.log(`- Verarbeitete Websites: ${summary.totalSites}`);
+    console.log(`- Erfolgreich: ${summary.successful}`);
+    console.log(`- Fehlgeschlagen: ${summary.failed}`);
+    console.log(`- Übersprungen: ${summary.skipped}`);
+    console.log(`- Durchschnittliche Antwortzeit: ${summary.avgResponseTime.toFixed(2)} ms`);
+    console.log(`\nErgebnisse wurden in ${config.outputDir} gespeichert.`);
+    
+  } catch (error) {
+    console.error('Fehler in der Hauptanwendung:', error);
+    process.exit(1);
+  }
+}
+
+// Anwendung starten
+main().catch(error => {
+  console.error('Unbehandelter Fehler:', error);
+  process.exit(1);
+});
