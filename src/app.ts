@@ -45,6 +45,9 @@ Optionen:
   --outputDir=<Pfad>           Ausgabeverzeichnis (Standard: ./output)
   --logLevel=<Level>           Log-Level (debug, info, warn, error) (Standard: info)
   --crawlOnly=<bool>           Nur Crawling durchführen, keine Analyse oder API (Standard: false)
+  --analyzeOnly=<bool>         Nur Analyse durchführen, kein Crawling (Standard: false)
+  --apiOnly=<bool>             Nur API-Server starten, kein Crawling oder Analyse (Standard: false)
+  --skipCrawl=<bool>           Analyse und API starten, ohne Crawling durchzuführen (Standard: false)
   --help                       Diese Hilfe anzeigen
   `);
 }
@@ -61,9 +64,50 @@ async function main(): Promise<void> {
       return;
     }
     
+    // Prüfen, ob nur die API gestartet werden soll
+    if (args.apiOnly) {
+      console.log('API-Server wird gestartet...');
+      startApiServer();
+      console.log('API-Server gestartet auf Port 3001.');
+      // Kein return, damit der Prozess nicht beendet wird
+      // Der API-Server hält den Prozess am Laufen
+      return new Promise(() => {}); // Verhindert, dass die Funktion beendet wird
+    }
+    
+    // Prüfen, ob nur die Analyse durchgeführt werden soll
+    if (args.analyzeOnly) {
+      console.log('Robots.txt-Analyse wird gestartet...');
+      const analysisOrchestrator = new AnalysisOrchestrator();
+      await analysisOrchestrator.initialize();
+      await analysisOrchestrator.runAnalysis();
+      console.log('Analyse abgeschlossen.');
+      process.exit(0);
+    }
+    
+    // Prüfen, ob das Crawling übersprungen werden soll
+    if (args.skipCrawl) {
+      console.log('Robots.txt-Analyse und API-Server werden gestartet...');
+      
+      // Analyse der robots.txt-Daten durchführen
+      console.log('Starte Analyse der robots.txt-Daten...');
+      const analysisOrchestrator = new AnalysisOrchestrator();
+      await analysisOrchestrator.initialize();
+      await analysisOrchestrator.runAnalysis();
+      console.log('Analyse abgeschlossen.');
+      
+      // API-Server starten
+      console.log('Starte API-Server...');
+      startApiServer();
+      console.log('API-Server gestartet auf Port 3001.');
+      // Kein return, damit der Prozess nicht beendet wird
+      // Der API-Server hält den Prozess am Laufen
+      return new Promise(() => {}); // Verhindert, dass die Funktion beendet wird
+    }
+    
+    // Wenn wir hier ankommen, wird ein Crawling durchgeführt
     console.log('Robots.txt Crawler wird gestartet...');
     
-    // Konfiguration laden
+    // Konfiguration laden (nur für Crawling-Modi)
     const config = loadConfig({
       parallelWorkers: args.parallelWorkers,
       batchSize: args.batchSize,
@@ -73,13 +117,14 @@ async function main(): Promise<void> {
     });
     
     // Konfiguration anzeigen
-    console.log('Konfiguration:');
+    console.log('Crawling-Konfiguration:');
     console.log(`- Parallele Worker: ${config.parallelWorkers}`);
     console.log(`- Batch-Größe: ${config.batchSize}`);
     console.log(`- Browser-Fallback: ${config.browserFallback ? 'Aktiviert' : 'Deaktiviert'}`);
     console.log(`- Ausgabeverzeichnis: ${config.outputDir}`);
     console.log(`- Log-Level: ${config.logLevel}`);
     
+    // Standardmodus: Crawling, Analyse und API
     // Orchestrator erstellen
     const orchestrator = new CrawlOrchestrator(
       config,
@@ -96,6 +141,12 @@ async function main(): Promise<void> {
     // Crawling starten (Meldung wird vom Orchestrator ausgegeben)
     const summary = await orchestrator.crawlAllSites();
     
+    // Bei Crawling-only-Modus: Prozess beenden
+    if (args.crawlOnly) {
+      console.log('Crawling-only-Modus: Prozess wird beendet.');
+      process.exit(0);
+    }
+    
     // Analyse der robots.txt-Daten durchführen
     console.log('Starte Analyse der robots.txt-Daten...');
     const analysisOrchestrator = new AnalysisOrchestrator();
@@ -108,11 +159,8 @@ async function main(): Promise<void> {
     startApiServer();
     console.log('API-Server gestartet auf Port 3001.');
     
-    // Bei Crawling-only-Modus: Prozess beenden
-    if (args.crawlOnly) {
-      console.log('Crawling-only-Modus: Prozess wird beendet.');
-      process.exit(0);
-    }
+    // Prozess am Laufen halten
+    return new Promise(() => {}); // Verhindert, dass die Funktion beendet wird
     
   } catch (error) {
     console.error('Fehler in der Hauptanwendung:', error);

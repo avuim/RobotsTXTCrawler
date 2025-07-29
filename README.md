@@ -140,6 +140,34 @@ Die Konfiguration ist in mehrere Dateien aufgeteilt:
 
 ### Konfigurationsoptionen
 
+#### Ausführungsmodus
+Die Anwendung kann in verschiedenen Modi gestartet werden, die über npm-Skripte aufgerufen werden:
+
+```bash
+npm start                # Standardmodus: Crawling, Analyse und API
+npm run start:api        # Nur API-Server starten
+npm run start:analyze    # Nur Analyse durchführen
+npm run start:skip-crawl # Analyse und API starten, ohne Crawling
+npm run start:crawl-only # Nur Crawling durchführen
+```
+
+Für CI/CD-Umgebungen wie GitHub Actions kann der entsprechende Modus direkt aufgerufen werden:
+
+```yaml
+# Beispiel für GitHub Actions
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - run: npm ci
+      - run: npm run build
+      - run: npm run start:crawl-only  # Nur Crawling durchführen
+```
+
 #### Parallelisierung
 - **parallelWorkers**: Anzahl der parallelen Worker (Standard: 15)
 - **batchSize**: Anzahl der Websites pro Batch (Standard: 100)
@@ -231,15 +259,21 @@ Die API wird automatisch gestartet, wenn die Hauptanwendung ohne die Option `--c
 Robots.txt Crawler und Analyzer - Ein moderner Webcrawler zum Extrahieren und Analysieren von robots.txt-Dateien
 
 Verwendung:
-  npm start -- [Optionen]
+  npm run <Befehl>
 
-Optionen:
+Befehle:
+  start                # Standardmodus: Crawling, Analyse und API
+  start:api            # Nur API-Server starten
+  start:analyze        # Nur Analyse durchführen
+  start:skip-crawl     # Analyse und API starten, ohne Crawling
+  start:crawl-only     # Nur Crawling durchführen
+
+Optionen für den Standardmodus (npm start -- [Optionen]):
   --parallelWorkers=<Anzahl>   Anzahl der parallelen Worker (Standard: 15)
   --batchSize=<Anzahl>         Anzahl der Websites pro Batch (Standard: 100)
   --browserFallback=<bool>     Browser-Fallback aktivieren (Standard: true)
   --outputDir=<Pfad>           Ausgabeverzeichnis (Standard: ./output)
   --logLevel=<Level>           Log-Level (debug, info, warn, error) (Standard: info)
-  --crawlOnly=<bool>           Nur Crawling durchführen, keine Analyse oder API (Standard: false)
   --help                       Diese Hilfe anzeigen
 ```
 

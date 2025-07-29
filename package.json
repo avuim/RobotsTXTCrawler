@@ -6,6 +6,10 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/src/app.js",
+    "start:api": "node dist/src/app.js --apiOnly",
+    "start:analyze": "node dist/src/app.js --analyzeOnly",
+    "start:skip-crawl": "node dist/src/app.js --skipCrawl",
+    "start:crawl-only": "node dist/src/app.js --crawlOnly",
     "dev": "ts-node src/app.ts",
     "test": "jest",
     "lint": "eslint . --ext .ts"

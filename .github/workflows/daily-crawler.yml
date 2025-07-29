@@ -48,7 +48,7 @@ jobs:
         run: npm run build
         
       - name: Run Crawler
-        run: npm start -- --parallelWorkers=10 --logLevel=info
+        run: npm run start:crawl-only -- --parallelWorkers=10 --logLevel=info
         env:
           NODE_ENV: production
           
