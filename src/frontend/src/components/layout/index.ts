@@ -1,5 +1,5 @@
-import Header from './Header';
-import Footer from './Footer';
-import Sidebar from './Sidebar';
+import Header from './Header.tsx';
+import Footer from './Footer.tsx';
+import Sidebar from './Sidebar.tsx';
 
 export { Header, Footer, Sidebar };

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { NavLink as RouterNavLink } from 'react-router-dom';
-import { getCategoryName, getAllCategoryIds } from '../../utils/categoryUtils';
+import { getCategoryName, getAllCategoryIds } from '../../utils/categoryUtils.ts';
 
 const SidebarContainer = styled.aside`
   width: 250px;
