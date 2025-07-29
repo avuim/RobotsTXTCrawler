@@ -64,19 +64,49 @@ export class FailedDomainManager {
       this.failedDomains[domain].lastAttempt = now;
       this.failedDomains[domain].lastError = error;
       
-      // Nächsten Retry-Zeitpunkt berechnen (exponentielles Backoff)
-      const nextRetryMinutes = Math.min(Math.pow(2, this.failedDomains[domain].attempts), 1440); // Max 24h
+      // Nächsten Retry-Zeitpunkt basierend auf dem Fehlertyp berechnen
       const nextRetryDate = new Date();
-      nextRetryDate.setMinutes(nextRetryDate.getMinutes() + nextRetryMinutes);
+      
+      if (error.includes('ERR_CERT_COMMON_NAME_INVALID')) {
+        // Bei ERR_CERT_COMMON_NAME_INVALID - Verzögerung um einen ganzen Tag
+        nextRetryDate.setDate(nextRetryDate.getDate() + 1);
+      } else if (error.includes('HTTP 404')) {
+        // Bei HTTP 404 - Verzögerung um einen Monat
+        nextRetryDate.setMonth(nextRetryDate.getMonth() + 1);
+      } else if (error.includes('ERR_NAME_NOT_RESOLVED')) {
+        // Bei ERR_NAME_NOT_RESOLVED - Verzögerung um ein Jahr
+        nextRetryDate.setFullYear(nextRetryDate.getFullYear() + 1);
+      } else {
+        // Bei anderen Fehlern - exponentielles Backoff (wie bisher)
+        const nextRetryMinutes = Math.min(Math.pow(2, this.failedDomains[domain].attempts), 1440); // Max 24h
+        nextRetryDate.setMinutes(nextRetryDate.getMinutes() + nextRetryMinutes);
+      }
+      
       this.failedDomains[domain].nextRetry = nextRetryDate.toISOString();
     } else {
       // Neue fehlgeschlagene Domain
+      const nextRetryDate = new Date();
+      
+      if (error.includes('ERR_CERT_COMMON_NAME_INVALID')) {
+        // Bei ERR_CERT_COMMON_NAME_INVALID - Verzögerung um einen ganzen Tag
+        nextRetryDate.setDate(nextRetryDate.getDate() + 1);
+      } else if (error.includes('HTTP 404')) {
+        // Bei HTTP 404 - Verzögerung um einen Monat
+        nextRetryDate.setMonth(nextRetryDate.getMonth() + 1);
+      } else if (error.includes('ERR_NAME_NOT_RESOLVED')) {
+        // Bei ERR_NAME_NOT_RESOLVED - Verzögerung um ein Jahr
+        nextRetryDate.setFullYear(nextRetryDate.getFullYear() + 1);
+      } else {
+        // Bei anderen Fehlern - Standard-Verzögerung von 5 Minuten (wie bisher)
+        nextRetryDate.setMinutes(nextRetryDate.getMinutes() + 5);
+      }
+      
       this.failedDomains[domain] = {
         domain,
         lastAttempt: now,
         attempts: 1,
         lastError: error,
-        nextRetry: new Date(Date.now() + 5 * 60 * 1000).toISOString() // 5 Minuten
+        nextRetry: nextRetryDate.toISOString()
       };
     }
     

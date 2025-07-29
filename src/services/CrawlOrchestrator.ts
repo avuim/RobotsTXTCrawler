@@ -12,6 +12,7 @@ import { CrawlResult, CrawlSummary } from '../types/CrawlResult';
 import { WebsiteLoader } from './WebsiteLoader';
 import { HttpCrawler } from './HttpCrawler';
 import { PlaywrightCrawler } from './PlaywrightCrawler';
+import { EnhancedPlaywrightCrawler } from './EnhancedPlaywrightCrawler';
 import { BrowserPool } from './BrowserPool';
 import { FileManager } from './FileManager';
 import { FailedDomainManager } from './FailedDomainManager';
@@ -24,6 +25,7 @@ export class CrawlOrchestrator {
   private websiteLoader: WebsiteLoader;
   private httpCrawler: HttpCrawler;
   private playwrightCrawler: PlaywrightCrawler;
+  private enhancedPlaywrightCrawler: EnhancedPlaywrightCrawler;
   private browserPool: BrowserPool;
   private fileManager: FileManager;
   private failedDomainManager: FailedDomainManager;
@@ -48,6 +50,7 @@ export class CrawlOrchestrator {
     this.httpCrawler = new HttpCrawler(config);
     this.browserPool = new BrowserPool(playwrightConfig);
     this.playwrightCrawler = new PlaywrightCrawler(config, playwrightConfig);
+    this.enhancedPlaywrightCrawler = new EnhancedPlaywrightCrawler(config, playwrightConfig);
     this.fileManager = new FileManager(config.outputDir);
     this.failedDomainManager = new FailedDomainManager();
     this.progressMonitor = new ProgressMonitor();
@@ -117,6 +120,7 @@ export class CrawlOrchestrator {
     
     if (this.config.browserFallback) {
       await this.browserPool.initialize();
+      await this.enhancedPlaywrightCrawler.initialize();
     }
   }
   
@@ -208,6 +212,7 @@ export class CrawlOrchestrator {
       // Ressourcen freigeben
       if (this.config.browserFallback) {
         await this.browserPool.close();
+        await this.enhancedPlaywrightCrawler.close();
       }
     }
   }
@@ -275,23 +280,74 @@ export class CrawlOrchestrator {
           // Wenn HTTP fehlschlägt und Browser-Fallback aktiviert ist
           if (this.config.browserFallback) {
             try {
-              const result = await this.playwrightCrawler.crawlRobotsTxt(website);
+              // Prüfen, ob es sich um einen HTTP 403-Fehler handelt
+              const errorMessage = httpError instanceof Error ? httpError.message : 'Unbekannter Fehler';
+              const isHttp403 = errorMessage.includes('HTTP 403');
               
-              // robots.txt speichern
-              if (result.content) {
-                const fileName = await this.fileManager.saveRobotsTxt(website, result.content);
-                result.outputFile = fileName;
-              }
-              
-              results.push(result);
-              this.progressMonitor.update(result);
-              
-              // Bei fehlgeschlagenen Domains den Eintrag entfernen, wenn erfolgreich
-              if (this.failedDomainManager.isFailedDomain(website.domain)) {
-                await this.failedDomainManager.removeFailedDomain(website.domain);
+              // Bei HTTP 403 den EnhancedPlaywrightCrawler verwenden
+              if (isHttp403) {
+                try {
+                  this.logger.info('HTTP 403 erkannt, verwende EnhancedPlaywrightCrawler', { domain: website.domain });
+                  
+                  const result = await this.enhancedPlaywrightCrawler.crawlRobotsTxt(website);
+                  
+                  // robots.txt speichern
+                  if (result.content) {
+                    const fileName = await this.fileManager.saveRobotsTxt(website, result.content);
+                    result.outputFile = fileName;
+                  }
+                  
+                  results.push(result);
+                  this.progressMonitor.update(result);
+                  
+                  // Bei fehlgeschlagenen Domains den Eintrag entfernen, wenn erfolgreich
+                  if (this.failedDomainManager.isFailedDomain(website.domain)) {
+                    await this.failedDomainManager.removeFailedDomain(website.domain);
+                  }
+                } catch (enhancedError) {
+                  // Auch der EnhancedPlaywrightCrawler ist fehlgeschlagen, Standard-Playwright versuchen
+                  this.logger.warn('EnhancedPlaywrightCrawler fehlgeschlagen, versuche Standard-Playwright', { 
+                    domain: website.domain,
+                    error: enhancedError instanceof Error ? enhancedError.message : 'Unbekannter Fehler'
+                  });
+                  
+                  // Weiter mit dem Standard-Playwright-Crawler
+                  const result = await this.playwrightCrawler.crawlRobotsTxt(website);
+                  
+                  // robots.txt speichern
+                  if (result.content) {
+                    const fileName = await this.fileManager.saveRobotsTxt(website, result.content);
+                    result.outputFile = fileName;
+                  }
+                  
+                  results.push(result);
+                  this.progressMonitor.update(result);
+                  
+                  // Bei fehlgeschlagenen Domains den Eintrag entfernen, wenn erfolgreich
+                  if (this.failedDomainManager.isFailedDomain(website.domain)) {
+                    await this.failedDomainManager.removeFailedDomain(website.domain);
+                  }
+                }
+              } else {
+                // Kein HTTP 403, Standard-Playwright verwenden
+                const result = await this.playwrightCrawler.crawlRobotsTxt(website);
+                
+                // robots.txt speichern
+                if (result.content) {
+                  const fileName = await this.fileManager.saveRobotsTxt(website, result.content);
+                  result.outputFile = fileName;
+                }
+                
+                results.push(result);
+                this.progressMonitor.update(result);
+                
+                // Bei fehlgeschlagenen Domains den Eintrag entfernen, wenn erfolgreich
+                if (this.failedDomainManager.isFailedDomain(website.domain)) {
+                  await this.failedDomainManager.removeFailedDomain(website.domain);
+                }
               }
             } catch (browserError) {
-              // Beide Methoden fehlgeschlagen
+              // Alle Methoden fehlgeschlagen
               const errorMessage = browserError instanceof Error ? browserError.message : 'Unbekannter Fehler';
               
               const result: CrawlResult = {

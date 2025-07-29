@@ -2,7 +2,7 @@
 export type CrawlStatus = 'success' | 'failed' | 'pending' | 'skipped';
 
 // Mögliche Methoden für das Crawling
-export type CrawlMethod = 'http' | 'playwright' | 'both_failed' | 'not_attempted';
+export type CrawlMethod = 'http' | 'playwright' | 'enhanced_playwright' | 'both_failed' | 'not_attempted';
 
 // Interface für ein einzelnes Crawling-Ergebnis
 export interface CrawlResult {
