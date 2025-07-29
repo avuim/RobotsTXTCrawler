@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { NavLink as RouterNavLink } from 'react-router-dom';
+import { getCategoryName, getAllCategoryIds } from '../../utils/categoryUtils';
 
 const SidebarContainer = styled.aside`
   width: 250px;
@@ -72,18 +73,13 @@ const Sidebar: React.FC = () => {
       
       <SectionTitle>Bot-Kategorien</SectionTitle>
       <NavList>
-        <NavItem>
-          <NavLink to="/bots/category/searchEngine">Suchmaschinen</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink to="/bots/category/seo">SEO-Tools</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink to="/bots/category/aiScraper">KI/LLM-Scraper</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink to="/bots/category/other">Andere</NavLink>
-        </NavItem>
+        {getAllCategoryIds().map(categoryId => (
+          <NavItem key={categoryId}>
+            <NavLink to={`/bots/category/${categoryId}`}>
+              {getCategoryName(categoryId)}
+            </NavLink>
+          </NavItem>
+        ))}
       </NavList>
     </SidebarContainer>
   );

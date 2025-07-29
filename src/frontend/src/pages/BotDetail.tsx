@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { apiService } from '../services/api';
 import { BotInfo, BotCategory } from '../types';
 import { PieChart, BarChart } from '../components/charts';
+import { getCategoryName, getCategoryColor } from '../utils/categoryUtils';
 
 const PageContainer = styled.div`
   display: flex;
@@ -39,7 +40,7 @@ const CategoryBadge = styled.span<{ category: BotCategory }>`
   border-radius: ${({ theme }) => theme.borderRadius.small};
   font-size: 0.9rem;
   font-weight: 500;
-  background-color: ${({ category, theme }) => theme.colors[category]};
+  background-color: ${({ category }) => getCategoryColor(category)};
   color: ${({ theme }) => theme.colors.white};
   margin-left: ${({ theme }) => theme.spacing.sm};
 `;
@@ -289,10 +290,7 @@ const BotDetail: React.FC = () => {
           <h1>
             {bot.name}
             <CategoryBadge category={bot.category}>
-              {bot.category === 'searchEngine' && 'Suchmaschine'}
-              {bot.category === 'seo' && 'SEO-Tool'}
-              {bot.category === 'aiScraper' && 'KI/LLM-Scraper'}
-              {bot.category === 'other' && 'Andere'}
+              {getCategoryName(bot.category)}
             </CategoryBadge>
           </h1>
         </BotTitle>

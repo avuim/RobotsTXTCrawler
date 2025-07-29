@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { apiService } from '../services/api';
 import { TrendsData } from '../types';
 import { BarChart } from '../components/charts';
+import { getCategoryName, getCategoryColor, getAllCategoryIds } from '../utils/categoryUtils';
 
 const PageContainer = styled.div`
   display: flex;
@@ -143,28 +144,11 @@ const Trends: React.FC = () => {
   // Daten für das Kategorie-Trend-Diagramm
   const categoryTrendChartData = {
     labels: trendsData.months,
-    datasets: [
-      {
-        label: 'Suchmaschinen',
-        data: trendsData.categoryTrends.searchEngine,
-        backgroundColor: '#3498db'
-      },
-      {
-        label: 'SEO-Tools',
-        data: trendsData.categoryTrends.seo,
-        backgroundColor: '#2ecc71'
-      },
-      {
-        label: 'KI/LLM-Scraper',
-        data: trendsData.categoryTrends.aiScraper,
-        backgroundColor: '#e74c3c'
-      },
-      {
-        label: 'Andere',
-        data: trendsData.categoryTrends.other,
-        backgroundColor: '#f39c12'
-      }
-    ]
+    datasets: Object.keys(trendsData.categoryTrends).map(categoryId => ({
+      label: getCategoryName(categoryId),
+      data: trendsData.categoryTrends[categoryId],
+      backgroundColor: getCategoryColor(categoryId)
+    }))
   };
   
   // Daten für das Website-Trend-Diagramm

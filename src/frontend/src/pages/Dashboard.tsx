@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { apiService } from '../services/api';
 import { Summary } from '../types';
 import { PieChart } from '../components/charts';
+import { getCategoryName, getCategoryColor, getAllCategoryIds } from '../utils/categoryUtils';
 
 const PageContainer = styled.div`
   display: flex;
@@ -169,21 +170,11 @@ const Dashboard: React.FC = () => {
   
   // Daten für das Bot-Kategorien-Diagramm
   const categoryChartData = {
-    labels: ['Suchmaschinen', 'SEO-Tools', 'KI/LLM-Scraper', 'Andere'],
+    labels: Object.keys(summary.botCategories).map(categoryId => getCategoryName(categoryId)),
     datasets: [
       {
-        data: [
-          summary.botCategories.searchEngine,
-          summary.botCategories.seo,
-          summary.botCategories.aiScraper,
-          summary.botCategories.other
-        ],
-        backgroundColor: [
-          '#3498db',
-          '#2ecc71',
-          '#e74c3c',
-          '#f39c12'
-        ]
+        data: Object.keys(summary.botCategories).map(categoryId => summary.botCategories[categoryId]),
+        backgroundColor: Object.keys(summary.botCategories).map(categoryId => getCategoryColor(categoryId))
       }
     ]
   };

@@ -1,18 +1,13 @@
 import fs from 'fs-extra';
 import path from 'path';
-import { BotStatistics } from '../../types/Analysis';
+import { BotStatistics, BotCategories } from '../../types/Analysis';
 import { AnalysisConfig } from '../../types/Analysis';
 
 interface MonthlyTrend {
   month: string;
   totalBots: number;
   totalWebsites: number;
-  botCategories: {
-    searchEngine: number;
-    seo: number;
-    aiScraper: number;
-    other: number;
-  };
+  botCategories: BotCategories;
   topBots: {
     name: string;
     websites: number;
@@ -59,16 +54,21 @@ export class TemporalAnalyzer {
     
     // Für jeden Monat einen Trend erstellen
     for (const month of sortedMonths) {
+      // Kategorien aus den Bot-Statistiken extrahieren
+      const botCategories: BotCategories = {};
+      
+      // Alle Kategorien aus den Bot-Statistiken initialisieren
+      Object.values(botStats.bots).forEach(bot => {
+        if (!botCategories[bot.category]) {
+          botCategories[bot.category] = 0;
+        }
+      });
+      
       const trend: MonthlyTrend = {
         month,
         totalBots: 0,
         totalWebsites: 0,
-        botCategories: {
-          searchEngine: 0,
-          seo: 0,
-          aiScraper: 0,
-          other: 0
-        },
+        botCategories,
         topBots: []
       };
       

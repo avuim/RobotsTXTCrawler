@@ -1,5 +1,5 @@
 // Bot-Kategorien
-export type BotCategory = 'searchEngine' | 'seo' | 'aiScraper' | 'other';
+export type BotCategory = string;
 
 // Monatliche Bot-Statistiken
 export interface MonthlyBotStats {
@@ -27,12 +27,7 @@ export interface BotInfo {
 // Bot-Statistiken
 export interface BotStatistics {
   totalBots: number;
-  categories: {
-    searchEngine: number;
-    seo: number;
-    aiScraper: number;
-    other: number;
-  };
+  categories: Record<string, number>;
   bots: {
     [botName: string]: BotInfo;
   };
@@ -53,12 +48,7 @@ export interface WebsiteAnalysis {
 export interface Summary {
   totalBots: number;
   totalWebsites: number;
-  botCategories: {
-    searchEngine: number;
-    seo: number;
-    aiScraper: number;
-    other: number;
-  };
+  botCategories: Record<string, number>;
   topBots: {
     name: string;
     category: BotCategory;
@@ -74,12 +64,7 @@ export interface TrendsData {
   botTrends: {
     totalBots: number[];
   };
-  categoryTrends: {
-    searchEngine: number[];
-    seo: number[];
-    aiScraper: number[];
-    other: number[];
-  };
+  categoryTrends: Record<string, number[]>;
   websiteTrends: {
     totalWebsites: number[];
   };

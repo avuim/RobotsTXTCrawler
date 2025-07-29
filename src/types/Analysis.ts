@@ -1,5 +1,5 @@
 // Typen für die Bot-Kategorien
-export type BotCategory = 'searchEngine' | 'seo' | 'aiScraper' | 'other';
+export type BotCategory = string;
 
 // Interface für die monatlichen Statistiken eines Bots
 export interface BotMonthlyStat {
@@ -23,12 +23,7 @@ export interface BotInfo {
 }
 
 // Interface für die Kategorisierung der Bots
-export interface BotCategories {
-  searchEngine: number;
-  seo: number;
-  aiScraper: number;
-  other: number;
-}
+export type BotCategories = Record<string, number>;
 
 // Interface für die Bot-Statistiken
 export interface BotStatistics {
@@ -67,9 +62,6 @@ export interface AnalysisConfig {
     botStatistics: string;
   };
   botCategories: {
-    searchEngine: string[];
-    seo: string[];
-    aiScraper: string[];
     defaultCategory: string;
   };
   settings: {

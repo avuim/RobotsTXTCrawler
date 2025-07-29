@@ -1,6 +1,6 @@
 import fs from 'fs-extra';
 import path from 'path';
-import { BotCategory, BotInfo, BotStatistics } from '../../types/Analysis';
+import { BotCategory, BotInfo, BotStatistics, BotCategories } from '../../types/Analysis';
 import { AnalysisConfig } from '../../types/Analysis';
 
 interface BotCategoriesFile {
@@ -68,17 +68,25 @@ export class BotAnalyzer {
     
     console.log(`${robotsFiles.length} robots.txt-Dateien gefunden.`);
     
+    // Kategorien aus der Kategorien-Datei extrahieren
+    const botCategories: BotCategories = {};
+    
+    // Wenn Bot-Kategorien geladen wurden, diese verwenden
+    if (this.botCategories && this.botCategories.categories) {
+      Object.keys(this.botCategories.categories).forEach(category => {
+        botCategories[category] = 0;
+      });
+    } else {
+      // Fallback: Nur die Default-Kategorie aus der Konfiguration verwenden
+      botCategories[this.config.botCategories.defaultCategory] = 0;
+    }
+    
     // Statistiken initialisieren
     const botStats: BotStatistics = {
       lastUpdated: new Date().toISOString(),
       totalWebsites: robotsFiles.length,
       totalBots: 0,
-      botCategories: {
-        searchEngine: 0,
-        seo: 0,
-        aiScraper: 0,
-        other: 0
-      },
+      botCategories,
       bots: {}
     };
     
@@ -187,8 +195,10 @@ export class BotAnalyzer {
    */
   private determineBotCategory(userAgent: string): BotCategory {
     if (!this.botCategories) {
-      return 'other';
+      return this.config.botCategories.defaultCategory as BotCategory;
     }
+    
+    const userAgentLower = userAgent.toLowerCase();
     
     // Durch alle Kategorien iterieren
     for (const [category, data] of Object.entries(this.botCategories.categories)) {
@@ -199,37 +209,15 @@ export class BotAnalyzer {
       
       // Prüfen, ob der Bot-Name in einem der definierten Bots enthalten ist
       for (const botName of Object.keys(data.bots || {})) {
-        if (userAgent.includes(botName) || botName.includes(userAgent)) {
+        if (userAgentLower.includes(botName.toLowerCase()) || 
+            botName.toLowerCase().includes(userAgentLower)) {
           return category as BotCategory;
         }
       }
     }
     
-    // Kategorisierung basierend auf der Konfiguration
-    const userAgentLower = userAgent.toLowerCase();
-    
-    // Suchmaschinen-Bots
-    for (const botPattern of this.config.botCategories.searchEngine) {
-      if (userAgentLower.includes(botPattern.toLowerCase())) {
-        return 'searchEngine';
-      }
-    }
-    
-    // SEO-Bots
-    for (const botPattern of this.config.botCategories.seo) {
-      if (userAgentLower.includes(botPattern.toLowerCase())) {
-        return 'seo';
-      }
-    }
-    
-    // KI/LLM-Scraper-Bots
-    for (const botPattern of this.config.botCategories.aiScraper) {
-      if (userAgentLower.includes(botPattern.toLowerCase())) {
-        return 'aiScraper';
-      }
-    }
-    
-    return 'other';
+    // Wenn keine Kategorie gefunden wurde, Standardkategorie verwenden
+    return this.config.botCategories.defaultCategory as BotCategory;
   }
   
   /**

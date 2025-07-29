@@ -17,44 +17,8 @@ export const analysisConfig = {
     botStatistics: path.resolve(process.cwd(), 'data/bot-statistics.json'),
   },
   
-  // Bot-Kategorien und ihre Zuordnungen
+  // Bot-Kategorien Konfiguration
   botCategories: {
-    // Suchmaschinen-Bots
-    searchEngine: [
-      'googlebot',
-      'bingbot',
-      'yandexbot',
-      'duckduckbot',
-      'baiduspider',
-      'petalbot',
-      'slurp',
-      'applebot',
-      'sogou'
-    ],
-    
-    // SEO-Tool-Bots
-    seo: [
-      'ahrefsbot',
-      'mj12bot',
-      'semrushbot',
-      'screaming frog',
-      'seokicks',
-      'sistrix',
-      'seobility'
-    ],
-    
-    // KI/LLM-Scraper-Bots
-    aiScraper: [
-      'gptbot',
-      'ccbot',
-      'claudebot',
-      'anthropic-ai',
-      'cohere-ai',
-      'omgilibot',
-      'perplexitybot',
-      'bard'
-    ],
-    
     // Standardkategorie für unbekannte Bots
     defaultCategory: 'other'
   },

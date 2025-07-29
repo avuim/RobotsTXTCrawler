@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { apiService } from '../services/api';
 import { BotStatistics, BotInfo, BotCategory } from '../types';
+import { getCategoryName, getCategoryColor, getAllCategoryIds } from '../utils/categoryUtils';
 
 const PageContainer = styled.div`
   display: flex;
@@ -136,7 +137,7 @@ const CategoryBadge = styled.span<{ category: BotCategory }>`
   border-radius: ${({ theme }) => theme.borderRadius.small};
   font-size: 0.8rem;
   font-weight: 500;
-  background-color: ${({ category, theme }) => theme.colors[category]};
+  background-color: ${({ category }) => getCategoryColor(category)};
   color: ${({ theme }) => theme.colors.white};
 `;
 
@@ -268,30 +269,15 @@ const BotList: React.FC = () => {
         >
           Alle
         </FilterButton>
-        <FilterButton 
-          active={activeFilter === 'searchEngine'} 
-          onClick={() => handleFilterClick('searchEngine')}
-        >
-          Suchmaschinen
-        </FilterButton>
-        <FilterButton 
-          active={activeFilter === 'seo'} 
-          onClick={() => handleFilterClick('seo')}
-        >
-          SEO-Tools
-        </FilterButton>
-        <FilterButton 
-          active={activeFilter === 'aiScraper'} 
-          onClick={() => handleFilterClick('aiScraper')}
-        >
-          KI/LLM-Scraper
-        </FilterButton>
-        <FilterButton 
-          active={activeFilter === 'other'} 
-          onClick={() => handleFilterClick('other')}
-        >
-          Andere
-        </FilterButton>
+        {getAllCategoryIds().map(categoryId => (
+          <FilterButton 
+            key={categoryId}
+            active={activeFilter === categoryId} 
+            onClick={() => handleFilterClick(categoryId as BotCategory)}
+          >
+            {getCategoryName(categoryId)}
+          </FilterButton>
+        ))}
       </FilterContainer>
       
       {filteredBots.length === 0 ? (
@@ -307,10 +293,7 @@ const BotList: React.FC = () => {
               </BotName>
               
               <CategoryBadge category={bot.category}>
-                {bot.category === 'searchEngine' && 'Suchmaschine'}
-                {bot.category === 'seo' && 'SEO-Tool'}
-                {bot.category === 'aiScraper' && 'KI/LLM-Scraper'}
-                {bot.category === 'other' && 'Andere'}
+                {getCategoryName(bot.category)}
               </CategoryBadge>
               
               <BotDescription>
