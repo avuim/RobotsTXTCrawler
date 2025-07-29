@@ -1,1 +1,75 @@
-[]
+[
+  {
+    "month": "2025-07",
+    "totalBots": 1187,
+    "totalWebsites": 656,
+    "botCategories": {
+      "aiScraper": 14,
+      "other": 1117,
+      "seo": 27,
+      "searchEngine": 29
+    },
+    "topBots": [
+      {
+        "name": "*",
+        "websites": 846,
+        "allowed": 262,
+        "disallowed": 584
+      },
+      {
+        "name": "GPTBot",
+        "websites": 264,
+        "allowed": 35,
+        "disallowed": 229
+      },
+      {
+        "name": "CCBot",
+        "websites": 220,
+        "allowed": 31,
+        "disallowed": 189
+      },
+      {
+        "name": "ChatGPT-User",
+        "websites": 153,
+        "allowed": 10,
+        "disallowed": 143
+      },
+      {
+        "name": "Google-Extended",
+        "websites": 137,
+        "allowed": 9,
+        "disallowed": 128
+      },
+      {
+        "name": "ClaudeBot",
+        "websites": 126,
+        "allowed": 2,
+        "disallowed": 124
+      },
+      {
+        "name": "anthropic-ai",
+        "websites": 104,
+        "allowed": 5,
+        "disallowed": 99
+      },
+      {
+        "name": "Bytespider",
+        "websites": 101,
+        "allowed": 2,
+        "disallowed": 99
+      },
+      {
+        "name": "PerplexityBot",
+        "websites": 96,
+        "allowed": 7,
+        "disallowed": 89
+      },
+      {
+        "name": "Claude-Web",
+        "websites": 79,
+        "allowed": 2,
+        "disallowed": 77
+      }
+    ]
+  }
+]

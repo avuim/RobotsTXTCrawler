@@ -52,7 +52,31 @@ export class ApiServer {
         const filePath = this.config.paths.botStatistics;
         if (await fs.pathExists(filePath)) {
           const data = await fs.readFile(filePath, 'utf-8');
-          res.json(JSON.parse(data));
+          const botStats = JSON.parse(data);
+          
+          // Transformiere die Bots in das erwartete Format für die Frontend-Komponente
+          const botList = Object.entries(botStats.bots).map(([name, botInfo]: [string, any]) => {
+            // Berechne die Gesamtzahlen über alle Monate
+            const totalWebsites = Object.values(botInfo.monthlyStats).reduce(
+              (sum: number, stats: any) => sum + stats.totalWebsites, 0
+            );
+            const allowedWebsites = Object.values(botInfo.monthlyStats).reduce(
+              (sum: number, stats: any) => sum + stats.allowedWebsites, 0
+            );
+            const disallowedWebsites = Object.values(botInfo.monthlyStats).reduce(
+              (sum: number, stats: any) => sum + stats.disallowedWebsites, 0
+            );
+            
+            return {
+              name,
+              category: botInfo.category,
+              totalWebsites,
+              allowedWebsites,
+              disallowedWebsites
+            };
+          });
+          
+          res.json(botList);
         } else {
           res.status(404).json({ error: 'Bot-Statistiken nicht gefunden' });
         }
@@ -95,9 +119,37 @@ export class ApiServer {
           const files = await fs.readdir(websitesDir);
           const jsonFiles = files.filter(file => file.endsWith('.json'));
           
-          // Nur die Domainnamen zurückgeben
-          const domains = jsonFiles.map(file => file.replace('.json', ''));
-          res.json(domains);
+          // Detaillierte Informationen für jede Website laden
+          const websiteList = await Promise.all(
+            jsonFiles.map(async (file) => {
+              const domain = file.replace('.json', '');
+              const filePath = path.join(websitesDir, file);
+              try {
+                const data = await fs.readFile(filePath, 'utf-8');
+                const websiteData = JSON.parse(data);
+                
+                // Extrahiere die benötigten Informationen
+                return {
+                  domain,
+                  totalBots: websiteData.totalBots || 0,
+                  allowedBots: websiteData.allowedBots || 0,
+                  disallowedBots: websiteData.disallowedBots || 0,
+                  lastUpdated: websiteData.lastUpdated || null
+                };
+              } catch (err) {
+                console.error(`Fehler beim Laden der Website ${domain}:`, err);
+                return {
+                  domain,
+                  totalBots: 0,
+                  allowedBots: 0,
+                  disallowedBots: 0,
+                  lastUpdated: null
+                };
+              }
+            })
+          );
+          
+          res.json(websiteList);
         } else {
           res.status(404).json({ error: 'Website-Verzeichnis nicht gefunden' });
         }

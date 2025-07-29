@@ -4,6 +4,8 @@ output/logs/
 output/reports/
 # output/robots-files/ - Nicht ignorieren, da diese Dateien im Repository gespeichert werden sollen
 !output/robots-files/
+data/analysis/trends/
+data/analysis/websites/
 
 # Kompilierte Dateien
 dist/

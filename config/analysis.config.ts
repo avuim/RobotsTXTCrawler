@@ -8,7 +8,7 @@ export const analysisConfig = {
   // Pfade für Eingabe- und Ausgabedaten
   paths: {
     // Eingabedaten aus dem Crawler
-    crawlResults: path.resolve(process.cwd(), 'output'),
+    crawlResults: path.resolve(process.cwd(), 'output/robots-files'),
     
     // Ausgabedaten für die Analyse
     analysisOutput: path.resolve(process.cwd(), 'data/analysis'),
