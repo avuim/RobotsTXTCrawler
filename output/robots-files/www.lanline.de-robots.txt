@@ -1,0 +1,4613 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head><script data-cmp-ab="1">window.cmp_block_ignoredomains=["connect-professional.de"];window.cmp_block_unkown=true;window.cmp_privacyurl="https://www.connect-professional.de/datenschutz/";window.cmp_pur_enable=true;window.cmp_pur_mode=1;</script><script>if(!("gdprAppliesGlobally" in window)){window.gdprAppliesGlobally=true}if(!("cmp_id" in window)||window.cmp_id<1){window.cmp_id=0}if(!("cmp_cdid" in window)){window.cmp_cdid="d25dc06192108"}if(!("cmp_params" in window)){window.cmp_params=""}if(!("cmp_host" in window)){window.cmp_host="d.delivery.consentmanager.net"}if(!("cmp_cdn" in window)){window.cmp_cdn="cdn.consentmanager.net"}if(!("cmp_proto" in window)){window.cmp_proto="https:"}if(!("cmp_codesrc" in window)){window.cmp_codesrc="1"}window.cmp_getsupportedLangs=function(){var b=["DE","EN","FR","IT","NO","DA","FI","ES","PT","RO","BG","ET","EL","GA","HR","LV","LT","MT","NL","PL","SV","SK","SL","CS","HU","RU","SR","ZH","TR","UK","AR","BS","JA","CY"];if("cmp_customlanguages" in window){for(var a=0;a<window.cmp_customlanguages.length;a++){b.push(window.cmp_customlanguages[a].l.toUpperCase())}}return b};window.cmp_getRTLLangs=function(){var a=["AR"];if("cmp_customlanguages" in window){for(var b=0;b<window.cmp_customlanguages.length;b++){if("r" in window.cmp_customlanguages[b]&&window.cmp_customlanguages[b].r){a.push(window.cmp_customlanguages[b].l)}}}return a};window.cmp_getlang=function(a){if(typeof(a)!="boolean"){a=true}if(a&&typeof(cmp_getlang.usedlang)=="string"&&cmp_getlang.usedlang!==""){return cmp_getlang.usedlang}return window.cmp_getlangs()[0]};window.cmp_extractlang=function(a){if(a.indexOf("cmplang=")!=-1){a=a.substr(a.indexOf("cmplang=")+8,2).toUpperCase();if(a.indexOf("&")!=-1){a=a.substr(0,a.indexOf("&"))}}else{a=""}return a};window.cmp_getlangs=function(){var g=window.cmp_getsupportedLangs();var c=[];var f=location.hash;var e=location.search;var j="cmp_params" in window?window.cmp_params:"";var a="languages" in navigator?navigator.languages:[];if(cmp_extractlang(f)!=""){c.push(cmp_extractlang(f))}else{if(cmp_extractlang(e)!=""){c.push(cmp_extractlang(e))}else{if(cmp_extractlang(j)!=""){c.push(cmp_extractlang(j))}else{if("cmp_setlang" in window&&window.cmp_setlang!=""){c.push(window.cmp_setlang.toUpperCase())}else{if("cmp_langdetect" in window&&window.cmp_langdetect==1){c.push(window.cmp_getPageLang())}else{if(a.length>0){for(var d=0;d<a.length;d++){c.push(a[d])}}if("language" in navigator){c.push(navigator.language)}if("userLanguage" in navigator){c.push(navigator.userLanguage)}}}}}}var h=[];for(var d=0;d<c.length;d++){var b=c[d].toUpperCase();if(b.length<2){continue}if(g.indexOf(b)!=-1){h.push(b)}else{if(b.indexOf("-")!=-1){b=b.substr(0,2)}if(g.indexOf(b)!=-1){h.push(b)}}}if(h.length==0&&typeof(cmp_getlang.defaultlang)=="string"&&cmp_getlang.defaultlang!==""){return[cmp_getlang.defaultlang.toUpperCase()]}else{return h.length>0?h:["EN"]}};window.cmp_getPageLangs=function(){var a=window.cmp_getXMLLang();if(a!=""){a=[a.toUpperCase()]}else{a=[]}a=a.concat(window.cmp_getLangsFromURL());return a.length>0?a:["EN"]};window.cmp_getPageLang=function(){var a=window.cmp_getPageLangs();return a.length>0?a[0]:""};window.cmp_getLangsFromURL=function(){var c=window.cmp_getsupportedLangs();var b=location;var m="toUpperCase";var g=b.hostname[m]()+".";var a=b.pathname[m]()+"/";a=a.split("_").join("-");var f=[];for(var e=0;e<c.length;e++){var j=a.substring(0,c[e].length+1);if(g.substring(0,c[e].length+1)==c[e]+"."){f.push(c[e][m]())}else{if(c[e].length==5){var k=c[e].substring(3,5)+"-"+c[e].substring(0,2);if(g.substring(0,k.length+1)==k+"."){f.push(c[e][m]())}}else{if(j==c[e]+"/"||j=="/"+c[e]){f.push(c[e][m]())}else{if(j==c[e].replace("-","/")+"/"||j=="/"+c[e].replace("-","/")){f.push(c[e][m]())}else{if(c[e].length==5){var k=c[e].substring(3,5)+"-"+c[e].substring(0,2);var h=a.substring(0,k.length+1);if(h==k+"/"||h==k.replace("-","/")+"/"){f.push(c[e][m]())}}}}}}}return f};window.cmp_getXMLLang=function(){var c=document.getElementsByTagName("html");if(c.length>0){c=c[0]}else{c=document.documentElement}if(c&&c.getAttribute){var a=c.getAttribute("xml:lang");if(typeof(a)!="string"||a==""){a=c.getAttribute("lang")}if(typeof(a)=="string"&&a!=""){var b=window.cmp_getsupportedLangs();return b.indexOf(a.toUpperCase())!=-1||b.indexOf(a.substr(0,2).toUpperCase())!=-1?a:""}else{return""}}};(function(){var C=document;var D=C.getElementsByTagName;var o=window;var t="";var h="";var k="";var E=function(e){var i="cmp_"+e;e="cmp"+e+"=";var d="";var l=e.length;var I=location;var J=I.hash;var w=I.search;var u=J.indexOf(e);var H=w.indexOf(e);if(u!=-1){d=J.substring(u+l,9999)}else{if(H!=-1){d=w.substring(H+l,9999)}else{return i in o&&typeof(o[i])!=="function"?o[i]:""}}var G=d.indexOf("&");if(G!=-1){d=d.substring(0,G)}return d};var j=E("lang");if(j!=""){t=j;k=t}else{if("cmp_getlang" in o){t=o.cmp_getlang().toLowerCase();h=o.cmp_getlangs().slice(0,3).join("_");k=o.cmp_getPageLangs().slice(0,3).join("_");if("cmp_customlanguages" in o){var m=o.cmp_customlanguages;for(var y=0;y<m.length;y++){var a=m[y].l.toLowerCase();if(a==t){t="en"}}}}}var q=("cmp_proto" in o)?o.cmp_proto:"https:";if(q!="http:"&&q!="https:"){q="https:"}var n=("cmp_ref" in o)?o.cmp_ref:location.href;if(n.length>300){n=n.substring(0,300)}var A=function(d){var K=C.createElement("script");K.setAttribute("data-cmp-ab","1");K.type="text/javascript";K.async=true;K.src=d;var J=["body","div","span","script","head"];var w="currentScript";var H="parentElement";var l="appendChild";var I="body";if(C[w]&&C[w][H]){C[w][H][l](K)}else{if(C[I]){C[I][l](K)}else{for(var u=0;u<J.length;u++){var G=D(J[u]);if(G.length>0){G[0][l](K);break}}}}};var b=E("design");var c=E("regulationkey");var z=E("gppkey");var s=E("att");var f=o.encodeURIComponent;var g;try{g=C.cookie.length>0}catch(B){g=false}var x=E("darkmode");if(x=="0"){x=0}else{if(x=="1"){x=1}else{try{if("matchMedia" in window&&window.matchMedia){var F=window.matchMedia("(prefers-color-scheme: dark)");if("matches" in F&&F.matches){x=1}}}catch(B){x=0}}}var p=q+"//"+o.cmp_host+"/delivery/cmp.php?";p+=("cmp_id" in o&&o.cmp_id>0?"id="+o.cmp_id:"")+("cmp_cdid" in o?"&cdid="+o.cmp_cdid:"")+"&h="+f(n);p+=(b!=""?"&cmpdesign="+f(b):"")+(c!=""?"&cmpregulationkey="+f(c):"")+(z!=""?"&cmpgppkey="+f(z):"");p+=(s!=""?"&cmpatt="+f(s):"")+("cmp_params" in o?"&"+o.cmp_params:"")+(g?"&__cmpfcc=1":"");p+=(x>0?"&cmpdarkmode=1":"");A(p+"&l="+f(t)+"&ls="+f(h)+"&lp="+f(k)+"&o="+(new Date()).getTime());var r="js";var v=E("debugunminimized")!=""?"":".min";if(E("debugcoverage")=="1"){r="instrumented";v=""}if(E("debugtest")=="1"){r="jstests";v=""}A(q+"//"+o.cmp_cdn+"/delivery/"+r+"/cmp_final"+v+".js")})();window.cmp_rc=function(c,b){var l;try{l=document.cookie}catch(h){l=""}var j="";var f=0;var g=false;while(l!=""&&f<100){f++;while(l.substr(0,1)==" "){l=l.substr(1,l.length)}var k=l.substring(0,l.indexOf("="));if(l.indexOf(";")!=-1){var m=l.substring(l.indexOf("=")+1,l.indexOf(";"))}else{var m=l.substr(l.indexOf("=")+1,l.length)}if(c==k){j=m;g=true}var d=l.indexOf(";")+1;if(d==0){d=l.length}l=l.substring(d,l.length)}if(!g&&typeof(b)=="string"){j=b}return(j)};window.cmp_stub=function(){var a=arguments;__cmp.a=__cmp.a||[];if(!a.length){return __cmp.a}else{if(a[0]==="ping"){if(a[1]===2){a[2]({gdprApplies:gdprAppliesGlobally,cmpLoaded:false,cmpStatus:"stub",displayStatus:"hidden",apiVersion:"2.2",cmpId:31},true)}else{a[2](false,true)}}else{if(a[0]==="getUSPData"){a[2]({version:1,uspString:window.cmp_rc("__cmpccpausps","1---")},true)}else{if(a[0]==="getTCData"){__cmp.a.push([].slice.apply(a))}else{if(a[0]==="addEventListener"||a[0]==="removeEventListener"){__cmp.a.push([].slice.apply(a))}else{if(a.length==4&&a[3]===false){a[2]({},false)}else{__cmp.a.push([].slice.apply(a))}}}}}}};window.cmp_dsastub=function(){var a=arguments;a[0]="dsa."+a[0];window.cmp_gppstub(a)};window.cmp_gppstub=function(){var c=arguments;__gpp.q=__gpp.q||[];if(!c.length){return __gpp.q}var h=c[0];var g=c.length>1?c[1]:null;var f=c.length>2?c[2]:null;var a=null;var j=false;if(h==="ping"){a=window.cmp_gpp_ping();j=true}else{if(h==="addEventListener"){__gpp.e=__gpp.e||[];if(!("lastId" in __gpp)){__gpp.lastId=0}__gpp.lastId++;var d=__gpp.lastId;__gpp.e.push({id:d,callback:g});a={eventName:"listenerRegistered",listenerId:d,data:true,pingData:window.cmp_gpp_ping()};j=true}else{if(h==="removeEventListener"){__gpp.e=__gpp.e||[];a=false;for(var e=0;e<__gpp.e.length;e++){if(__gpp.e[e].id==f){__gpp.e[e].splice(e,1);a=true;break}}j=true}else{__gpp.q.push([].slice.apply(c))}}}if(a!==null&&typeof(g)==="function"){g(a,j)}};window.cmp_gpp_ping=function(){return{gppVersion:"1.1",cmpStatus:"stub",cmpDisplayStatus:"hidden",signalStatus:"not ready",supportedAPIs:["2:tcfeuv2","5:tcfcav1","7:usnat","8:usca","9:usva","10:usco","11:usut","12:usct","13:usfl","14:usmt","15:usor","16:ustx"],cmpId:31,sectionList:[],applicableSections:[0],gppString:"",parsedSections:{}}};window.cmp_addFrame=function(b){if(!window.frames[b]){if(document.body){var a=document.createElement("iframe");a.style.cssText="display:none";if("cmp_cdn" in window&&"cmp_ultrablocking" in window&&window.cmp_ultrablocking>0){a.src="//"+window.cmp_cdn+"/delivery/empty.html"}a.name=b;a.setAttribute("title","Intentionally hidden, please ignore");a.setAttribute("role","none");a.setAttribute("tabindex","-1");document.body.appendChild(a)}else{window.setTimeout(window.cmp_addFrame,10,b)}}};window.cmp_msghandler=function(d){var a=typeof d.data==="string";try{var c=a?JSON.parse(d.data):d.data}catch(f){var c=null}if(typeof(c)==="object"&&c!==null&&"__cmpCall" in c){var b=c.__cmpCall;window.__cmp(b.command,b.parameter,function(h,g){var e={__cmpReturn:{returnValue:h,success:g,callId:b.callId}};d.source.postMessage(a?JSON.stringify(e):e,"*")})}if(typeof(c)==="object"&&c!==null&&"__uspapiCall" in c){var b=c.__uspapiCall;window.__uspapi(b.command,b.version,function(h,g){var e={__uspapiReturn:{returnValue:h,success:g,callId:b.callId}};d.source.postMessage(a?JSON.stringify(e):e,"*")})}if(typeof(c)==="object"&&c!==null&&"__tcfapiCall" in c){var b=c.__tcfapiCall;window.__tcfapi(b.command,b.version,function(h,g){var e={__tcfapiReturn:{returnValue:h,success:g,callId:b.callId}};d.source.postMessage(a?JSON.stringify(e):e,"*")},b.parameter)}if(typeof(c)==="object"&&c!==null&&"__gppCall" in c){var b=c.__gppCall;window.__gpp(b.command,function(h,g){var e={__gppReturn:{returnValue:h,success:g,callId:b.callId}};d.source.postMessage(a?JSON.stringify(e):e,"*")},"parameter" in b?b.parameter:null,"version" in b?b.version:1)}if(typeof(c)==="object"&&c!==null&&"__dsaCall" in c){var b=c.__dsaCall;window.__dsa(b.command,function(h,g){var e={__dsaReturn:{returnValue:h,success:g,callId:b.callId}};d.source.postMessage(a?JSON.stringify(e):e,"*")},"parameter" in b?b.parameter:null,"version" in b?b.version:1)}};window.cmp_setStub=function(a){if(!(a in window)||(typeof(window[a])!=="function"&&typeof(window[a])!=="object"&&(typeof(window[a])==="undefined"||window[a]!==null))){window[a]=window.cmp_stub;window[a].msgHandler=window.cmp_msghandler;window.addEventListener("message",window.cmp_msghandler,false)}};window.cmp_setGppStub=function(a){if(!(a in window)||(typeof(window[a])!=="function"&&typeof(window[a])!=="object"&&(typeof(window[a])==="undefined"||window[a]!==null))){window[a]=window.cmp_gppstub;window[a].msgHandler=window.cmp_msghandler;window.addEventListener("message",window.cmp_msghandler,false)}};if(!("cmp_noiframepixel" in window)){window.cmp_addFrame("__cmpLocator")}if((!("cmp_disableusp" in window)||!window.cmp_disableusp)&&!("cmp_noiframepixel" in window)){window.cmp_addFrame("__uspapiLocator")}if((!("cmp_disabletcf" in window)||!window.cmp_disabletcf)&&!("cmp_noiframepixel" in window)){window.cmp_addFrame("__tcfapiLocator")}if((!("cmp_disablegpp" in window)||!window.cmp_disablegpp)&&!("cmp_noiframepixel" in window)){window.cmp_addFrame("__gppLocator")}if((!("cmp_disabledsa" in window)||!window.cmp_disabledsa)&&!("cmp_noiframepixel" in window)){window.cmp_addFrame("__dsaLocator")}window.cmp_setStub("__cmp");if(!("cmp_disabletcf" in window)||!window.cmp_disabletcf){window.cmp_setStub("__tcfapi")}if(!("cmp_disableusp" in window)||!window.cmp_disableusp){window.cmp_setStub("__uspapi")}if(!("cmp_disablegpp" in window)||!window.cmp_disablegpp){window.cmp_setGppStub("__gpp")}if(!("cmp_disabledsa" in window)||!window.cmp_disabledsa){window.cmp_setGppStub("__dsa")};</script>
+<meta charset="utf-8">
+
+
+<title>connect professional</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="connect professional macht Kommunikationstechnik für ITK-Entscheider transparent: Unified-Communications, Datacenter, M2M-Kommunikation, Mobile-Solutions, Security." />
+<meta name="copyright" content="WEKA Media Publishing GmbH, Haar, Germany" />
+<meta name="twitter:url" content="https://www.connect-professional.de/" />
+<meta name="twitter:description" content="connect professional macht Kommunikationstechnik für ITK-Entscheider transparent: Unified-Communications, Datacenter, M2M-Kommunikation, Mobile-Solutions, Security." />
+
+<link href="https://cdn.prod.connect-professional.de/css/live/theme-cp.css?v=1738081081" rel="stylesheet" type="text/css" >
+
+
+<script data-cmp-ab="1" async="async" src="https://script.ioam.de/iam.js"></script>
+<script src="/fileadmin/sitedesign/Resources/Public/Js/lozad.min.js?1747302571"></script>
+<script async="async" src="/fileadmin/sitedesign/Resources/Public/Js/object-assign-auto.min.js?1747302571"></script>
+
+
+<meta property="og:site_name" content="connect professional">
+
+<meta property="og:type" content="website">
+
+<meta property="og:description" content="connect professional macht Kommunikationstechnik f&uuml;r ITK-Entscheider transparent: Unified-Communications, Datacenter, M2M-Kommunikation, Mobile-Solutions, Security.">
+
+<meta property="og:url" content="https://www.connect-professional.de/">
+
+<meta property="og:locale" content="de_DE">
+
+<link rel="canonical" href="https://www.connect-professional.de/"/>
+<link rel="preload" href="//data-179369af40.connect-professional.de/iomm/latest/manager/base/es6/bundle.js" as="script" id="IOMmBundle">
+<link rel="preload" href="//data-179369af40.connect-professional.de/iomm/latest/bootstrap/loader.js" as="script">
+<script src="//data-179369af40.connect-professional.de/iomm/latest/bootstrap/loader.js" data-cmp-ab="2"></script>
+<link rel="preconnect" href="https://delivery.consentmanager.net">
+<link rel="preconnect" href="https://cdn.consentmanager.net">
+<script class="cmplazyload" data-cmp-vendor="s1474" data-cmp-src="https://static.cleverpush.com/channel/loader/GvcvtjW7nnsFAv5sr.js" async></script>
+<script type="text/plain" class="cmplazyload" data-cmp-vendor="s905" data-cmp-src="https://cdn.prod.connect-professional.de/js/gtm/aGTM_connect_professional.js" data-cmp-block="contentpass"></script>
+                    <script>
+                        window.dataLayer = window.dataLayer || [];
+                        window.dataLayer.push({
+                            event: 'brand_update',
+                            brand: 'connect professional'
+                        });
+                    </script>
+<script type="text/javascript">
+    window.ADNPM = window.ADNPM || {};
+    ADNPM.cmd = ADNPM.cmd || [];
+    
+    ADNPM.cmd.push(function(){ADNPM.setKv({'Funkschau-Kategorie':['Homepage']})});
+    ADNPM.cmd.push(function(){ADNPM.setKv({'Funkschau-Keywords':['']})});
+</script>
+<script type="text/plain" src="https://cdn.netpoint-media.de/1270896.js" data-cmp-vendor="s2455" class="cmplazyload"></script>
+</head>
+<body>
+
+
+
+
+<div class="flex-order page">
+    
+
+<div id="FS_M_ROS_Interstitial"></div>
+
+
+    
+
+<div id="FS_D_ROS_Background" class="page__ad-top"></div>
+
+
+    
+
+<div id="FS_D_ROS_Sky_Left" class="ad js-ad js-ad-left is-hidden"></div>
+
+
+    
+
+<div id="FS_D_ROS_Sky_Right" class="ad ad--right js-ad js-ad-right"></div>
+
+
+    
+
+<div id="FS_D_ROS_Leaderboard" class="ad-leaderboard"></div>
+
+
+    
+
+<div class="topbar">
+    <div class="topbar__burger">
+        <input type="checkbox" id="burger">
+
+<label for="burger" class="burger js-burger">
+    <span class="burger__line"></span>
+    <span class="burger__line"></span>
+    <span class="burger__line"></span>
+</label>
+
+    </div>
+
+    <div class="topbar__logo">
+        <a href="/" title="Zur Startseite">
+            <img src="/fileadmin/sitedesign/Resources/Public/Svg/Logos/ConnectProfessional.svg"
+                 class="topbar__logo-main" alt="ConnectProfessional Logo" title="ConnectProfessional Logo"
+                 width="157" height="52">
+        </a>
+
+        
+    </div>
+
+    <div class="topbar__search js-search">
+        <img src="/fileadmin/sitedesign/Resources/Public/Svg/Icons/SearchIcon.svg"
+             class="js-search-icon" alt="Search Icon" title="Search Icon" width="20" height="20">
+        <img src="/fileadmin/sitedesign/Resources/Public/Svg/Icons/CloseIcon.svg"
+             class="js-close-icon is-hidden" alt="Close Icon" title="Close Icon" width="20" height="20">
+    </div>
+
+    
+
+    
+
+
+        
+    
+
+<div class="js-searchbox searchbox searchbox--mobile">
+    <form class="searchbox__form" action="/suche" method="get">
+        <input class="searchbox__input js-searchbox-input" type="text" name="q" placeholder="Suchen">
+    </form>
+</div>
+
+
+</div>
+
+
+
+    
+            
+                    
+
+<header class="header-top hide-for-small js-header-top js-nav">
+    <nav class="topnav">
+        <ul class="nav-ul nav-ul--top"><li class="nav-ul__li"><a href="/7-tage/" title="7 Tage" class="nav-ul__a">7 Tage</a></li><li class="nav-ul__li"><a href="/videos/" title="Videos" class="nav-ul__a">Videos</a></li><li class="nav-ul__li"><a href="/bilder/" title="Bilder" class="nav-ul__a">Bilder</a></li><li class="nav-ul__li"><a href="https://www.connect-professional.de/markt/e-paper-ausgaben-der-connect-professional.179187.html" target="_blank" title="E-Paper" class="nav-ul__a">E-Paper</a></li><li class="nav-ul__li"><a href="/termine/" title="Termine" class="nav-ul__a">Termine</a></li><li class="nav-ul__li"><a href="/webinare/" title="Webinare" class="nav-ul__a">Webinare</a></li><li class="nav-ul__li"><a href="/whitepaper/" title="Whitepaper" class="nav-ul__a">Whitepaper</a></li><li class="nav-ul__li"><a href="/glossar/" title="Glossar" class="nav-ul__a">Glossar</a></li></ul>
+    </nav>
+
+    <nav class="topnav">
+        <ul class="nav-ul nav-ul--top"><li class="nav-ul__li"><a href="https://shop.weka-business-communication.com/connect-professional/Abos/connect-professional-Digital.html" target="_blank" title="Abo" class="nav-ul__a">Abo</a></li><li class="nav-ul__li"><a href="https://www.weka-media-publishing.de/connect-professional/" target="_blank" title="Media" class="nav-ul__a">Media</a></li><li class="nav-ul__li"><a href="https://newsletter-wmp-2.lianacms.com/" target="_blank" title="Newsletter" class="nav-ul__a">Newsletter</a></li><li class="nav-ul__li"><a href="https://www.weka-media-publishing.de/event-team/" target="_blank" title="Events" class="nav-ul__a">Events</a></li><li class="nav-ul__li"><a href="/rss/" title="RSS" class="nav-ul__a">RSS</a></li></ul>
+    </nav>
+</header>
+
+<header class="header-main js-header-main js-nav-flex">
+    <div class="logonav logonav--default">
+        <div class="logonav__logos">
+            
+
+<a href="/" title="Zur Startseite">
+    <img src="/fileadmin/sitedesign/Resources/Public/Svg/Logos/ConnectProfessional.svg"
+         class="logonav__logo-main" alt="ConnectProfessional Logo" title="ConnectProfessional Logo"
+         width="157" height="52">
+</a>
+
+
+
+            
+        </div>
+
+        <nav>
+            
+
+<ul class="nav-ul nav-ul--social">
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+        <li class="nav-ul__li nav-ul__li--social">
+            <a href="https://www.linkedin.com/company/connect-professional/" title="Zu LinkedIn" target="_blank">
+                <img src="/fileadmin/sitedesign/Resources/Public/Svg/Social/LinkedinGrey.svg"
+                     alt="LinkedIn Icon" title="LinkedIn" width="19" height="24">
+            </a>
+        </li>
+    
+
+    
+
+    
+        <li class="nav-ul__li nav-ul__li--social">
+            <a href="https://www.youtube.com/@connect-professional" title="Zu YouTube" target="_blank">
+                <img src="/fileadmin/sitedesign/Resources/Public/Svg/Social/YoutubeGrey.svg"
+                     alt="YouTube Icon" title="YouTube" width="20" height="24">
+            </a>
+        </li>
+    
+
+    
+        <li class="nav-ul__li nav-ul__li--social">
+            <a href="mailto:redaktion@connect-professional.de" title="E-Mail schreiben" target="_blank">
+                <img src="/fileadmin/sitedesign/Resources/Public/Svg/Social/EmailGrey.svg"
+                     alt="Email Icon" title="Email" width="18" height="24">
+            </a>
+        </li>
+    
+</ul>
+
+
+        </nav>
+    </div>
+
+    <div class="mainnav">
+        <nav>
+            <ul class="nav-ul nav-ul--main"><li class="nav-ul__li"><a href="/office-kommunikation/" title="Office &amp; Kommunikation" class="nav-ul__a">Office & Kommunikation</a></li><li class="nav-ul__li"><a href="/software-services/" title="Software &amp; Services" class="nav-ul__a">Software & Services</a></li><li class="nav-ul__li"><a href="/hardware/" title="Hardware" class="nav-ul__a">Hardware</a></li><li class="nav-ul__li"><a href="/netzwerke-it-infrastruktur/" title="Netzwerke &amp; IT-Infrastruktur" class="nav-ul__a">Netzwerke & IT-Infrastruktur</a></li><li class="nav-ul__li"><a href="/datacenter-verkabelung/" title="Datacenter &amp; Verkabelung" class="nav-ul__a">Datacenter & Verkabelung</a></li><li class="nav-ul__li"><a href="/security/" title="Security" class="nav-ul__a">Security</a></li><li class="nav-ul__li"><a href="/markt/" title="Markt" class="nav-ul__a">Markt</a></li><li class="nav-ul__li"><a href="/anbieterkompass/" title="Matchmaker+" class="nav-ul__a"><span class="nav-ul__highlighted">Matchmaker+</span></a></li></ul>
+        </nav>
+
+        <nav class="is-hidden-m">
+            <ul class="nav-ul nav-ul--top"><li class="nav-ul__li"><a href="/7-tage/" title="7 Tage" class="nav-ul__a">7 Tage</a></li><li class="nav-ul__li"><a href="/videos/" title="Videos" class="nav-ul__a">Videos</a></li><li class="nav-ul__li"><a href="/bilder/" title="Bilder" class="nav-ul__a">Bilder</a></li><li class="nav-ul__li"><a href="https://www.connect-professional.de/markt/e-paper-ausgaben-der-connect-professional.179187.html" target="_blank" title="E-Paper" class="nav-ul__a">E-Paper</a></li><li class="nav-ul__li"><a href="/termine/" title="Termine" class="nav-ul__a">Termine</a></li><li class="nav-ul__li"><a href="/webinare/" title="Webinare" class="nav-ul__a">Webinare</a></li><li class="nav-ul__li"><a href="/whitepaper/" title="Whitepaper" class="nav-ul__a">Whitepaper</a></li><li class="nav-ul__li"><a href="/glossar/" title="Glossar" class="nav-ul__a">Glossar</a></li></ul>
+        </nav>
+
+        <html data-namespace-typo3-fluid="true">
+
+<div class="js-search hide-for-small cursor-pointer">
+    <img src="/fileadmin/sitedesign/Resources/Public/Svg/Icons/SearchIcon.svg"
+         class="js-search-icon" alt="Search Icon" title="Search Icon" width="20" height="20">
+    <img src="/fileadmin/sitedesign/Resources/Public/Svg/Icons/CloseIcon.svg"
+         class="js-close-icon is-hidden" alt="Close Icon" title="Close Icon" width="20" height="20">
+</div>
+
+</html>
+    </div>
+
+    
+
+
+        
+    
+
+<div class="js-searchbox searchbox">
+    <form class="searchbox__form" action="/suche" method="get">
+        <input class="searchbox__input js-searchbox-input" type="text" name="q" placeholder="Suchen">
+    </form>
+</div>
+
+
+</header>
+
+
+
+
+    <header class="header-bottom hide-for-small js-nav">
+        <nav class="specialnav">
+            <label class="nav-ul__li nav-ul__li--label">Schwerpunkte</label>
+
+            <ul class="nav-ul nav-ul--special js-special js-special-initial">
+                
+                    <li class="nav-ul__li">
+                        
+                                <a href="/schwerpunkte/windows-11/" title="Windows 11" class="nav-ul__a nav-ul__a--special">
+                                    Windows 11
+                                </a>
+                            
+                    </li>
+                
+                    <li class="nav-ul__li">
+                        
+                                <a href="/schwerpunkte/tests-studien/" title="Tests &amp; Studien" class="nav-ul__a nav-ul__a--special">
+                                    Tests &amp; Studien
+                                </a>
+                            
+                    </li>
+                
+                    <li class="nav-ul__li">
+                        
+                                <a href="/schwerpunkte/channel/" title="Channel" class="nav-ul__a nav-ul__a--special">
+                                    Channel
+                                </a>
+                            
+                    </li>
+                
+                    <li class="nav-ul__li">
+                        
+                                <a href="/schwerpunkte/public-sector/" title="Public Sector" class="nav-ul__a nav-ul__a--special">
+                                    Public Sector
+                                </a>
+                            
+                    </li>
+                
+                    <li class="nav-ul__li">
+                        
+                                <a href="/schwerpunkte/digitalpioniere/" title="Digitalpioniere" class="nav-ul__a nav-ul__a--special">
+                                    Digitalpioniere
+                                </a>
+                            
+                    </li>
+                
+                    <li class="nav-ul__li">
+                        
+                                <a href="/schwerpunkte/kuenstliche-intelligenz/" title="KI" class="nav-ul__a nav-ul__a--special">
+                                    KI
+                                </a>
+                            
+                    </li>
+                
+                    <li class="nav-ul__li">
+                        
+                                <a href="/schwerpunkte/itk-koepfe/" title="ITK-Köpfe" class="nav-ul__a nav-ul__a--special">
+                                    ITK-Köpfe
+                                </a>
+                            
+                    </li>
+                
+                    <li class="nav-ul__li">
+                        
+                                <a href="/schwerpunkte/kaisers-kolumne/" title="Kaisers Kolumne" class="nav-ul__a nav-ul__a--special">
+                                    Kaisers Kolumne
+                                </a>
+                            
+                    </li>
+                
+            </ul>
+
+            <img src="/fileadmin/sitedesign/Resources/Public/Svg/Icons/ChevronDown.svg"
+                 class="cursor-pointer js-specials-toggle is-hidden"
+                 alt="Chevron Down Icon" title="Chevron Down Icon" width="24" height="24">
+        </nav>
+    </header>
+
+
+
+
+
+                
+        
+
+    
+        
+
+<div id="FS_D_ROS_Billboard" class="content-width pb-24 text-center"></div>
+<div id="FS_M_ROS_Top" class="ad-top pb-24 text-center"></div>
+
+
+    
+
+    
+            
+
+<main class="main js-main">
+    <section>
+        
+
+
+
+
+
+
+
+    
+
+
+    
+
+<a class="box box--horizontal-2-1" href="/office-kommunikation/enreach-zeigt-ki-im-praxiseinsatz.334650.html" title="Enreach zeigt KI im Praxiseinsatz">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Perfekte Location für die Tech-Revolution des 21. Jahrhunderts: Das deutsche Bergbau-Museum Bochum">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753783483-53445-woru4s6hl.jpg.650x366.webp" width="650" height="366">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© Mario Bok / Enreach</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Enreach Partnerkonferenz 2025
+    </h3>
+
+
+
+    
+
+    <h2>
+        Enreach zeigt KI im Praxiseinsatz
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        KI für alle und das möglichst einfach – das will Enreach seinen Partnern ermöglichen. Auf der Partnerkonferenz zeigte der Hersteller deshalb konkrete KI-Anwendungen, die sie bei ihren Kunden einfach umsetzen könne, wie den schlauen KI-Assistenten „Shomi".
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+    <section>
+        
+<div class="matchmaker-banner"><picture><source media="(min-width:480px)"
+            srcset="https://cdn.prod.connect-professional.de/thumbs/wmp/matchmaker-banner-bg-desktop.jpg.970x160.webp"><source media="(min-width:0px)"
+            srcset="https://cdn.prod.connect-professional.de/thumbs/wmp/matchmaker-banner-bg-mobile.jpg.480x260.webp"><img src="https://cdn.prod.connect-professional.de/thumbs/wmp/matchmaker-banner-bg-desktop.jpg.970x160.webp"
+         class="matchmaker-banner__img" alt="Matchmaker+ Banner Background" width="970" height="160"></picture><a href="/anbieterkompass/" class="matchmaker-banner__cta">Matchmaker+</a><div class="matchmaker-banner__content"><div class="matchmaker-banner__claim">
+            Wir verbinden Sie mit<br>relevanten Unternehmen für Ihr Business!
+        </div><div class="matchmaker-banner__form"><div id="aksearch-data" data-apiurl="https://wcos.wmpdev.de/2"></div><div id="app"></div><script src="https://cdn.prod.connect-professional.de/aksearch/js/app.js" type="text/javascript"></script></div></div></div>
+
+
+    </section>
+
+    <section class="columns columns--2-1">
+        <div class="list">
+            
+
+
+
+    
+
+
+    
+        
+
+        
+
+        
+
+<a class="box box--horizontal" href="/markt/telemaxx-stellt-neue-cloud-infrastruktur-vor.334640.html" title="Telemaxx stellt neue Cloud-Infrastruktur vor">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Cloud-Markt in Bewegung">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1746693453-53463-worjvupwx.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1746693453-53463-worjvupwx.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© vs148 - shutterstock.com</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        OpenStack-basierte Plattform für Hosting
+    </h3>
+
+
+
+    
+
+    <h2>
+        Telemaxx stellt neue Cloud-Infrastruktur vor
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Der Rechenzentrumsbetreiber Telemaxx stellt eine neue OpenStack-basierte Plattform vor.&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+    
+        
+
+        
+
+        
+
+<a class="box box--horizontal" href="/markt/grossauftrag-fuer-deutsche-ki-chips-von-spinncloud.334642.html" title="Großauftrag für deutsche KI-Chips von Spinncloud">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="SpiNNcloud">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753777650-53445-worwurmuz.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753777650-53445-worwurmuz.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© SpiNNcloud</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Dresdner Start-up
+    </h3>
+
+
+
+    
+
+    <h2>
+        Großauftrag für deutsche KI-Chips von Spinncloud
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Die Zukunft der KI könnte in einer Art künstlichem Gehirn liegen. Das Dresdner Start-up&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+    
+        
+            
+
+
+
+
+
+<div id="FS_D_ROS_InContent" class="list__ad"></div>
+<div id="FS_M_ROS_InContent_1" class="list__ad"></div>
+
+
+        
+
+        
+
+        
+
+<a class="box box--horizontal" href="/netzwerke-it-infrastruktur/netzwerke-in-deutschen-unternehmen-modernisierungsbeduerftig.334645.html" title="Netzwerke in deutschen Unternehmen modernisierungsbedürftig">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Studie">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753779319-53466-wor6pqgys.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753779319-53466-wor6pqgys.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© 1&amp;1 Versatel</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Studie von 1&amp;1 Versatel und Lancom
+    </h3>
+
+
+
+    
+
+    <h2>
+        Netzwerke in deutschen Unternehmen modernisierungsbedürftig
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Veraltete Technik und mangelndes Monitoring in standortübergreifenden Netzwerken&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+    
+        
+
+        
+
+        
+
+<a class="box box--horizontal" href="/software-services/teamviewer-beendet-2-quartal-mit-verlust.334647.html" title="Teamviewer beendet 2. Quartal mit Verlust">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Teamviewers Headquarter in Göppingen">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1736763922-53445-worlmankn.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1736763922-53445-worlmankn.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© Teamviewer</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Hoffnung ruht auf zweiter Jahreshälfte
+    </h3>
+
+
+
+    
+
+    <h2>
+        Teamviewer beendet 2. Quartal mit Verlust
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Angesichts der wirtschaftlichen Unsicherheiten schlägt sich der Göppinger Softwareanbieter&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+    
+        
+
+        
+
+        
+
+<a class="box box--horizontal" href="/software-services/ki-anwendung-soll-erklaerbare-daten-liefern.334638.html" title="KI-Anwendung soll erklärbare Daten liefern">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="KI">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753776039-53466-wor328gxu.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753776039-53466-wor328gxu.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© Moresophy</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Münchner KI-Spezialist stellt Lösung vor
+    </h3>
+
+
+
+    
+
+    <h2>
+        KI-Anwendung soll erklärbare Daten liefern
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Der deutsche KI-Spezialist Moresophy hat mit ContextChat eine Anwendung vorgestellt, die&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+    
+        
+
+        
+
+        
+
+<a class="box box--horizontal" href="/netzwerke-it-infrastruktur/vernetzte-einfachheit-reduzierte-komplexitaet-mit-einer-plattform.334616.html" title="Vernetzte Einfachheit: Reduzierte Komplexität mit einer Plattform">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Extreme Platform ONE_rund_Aufmacher.jpg">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753686862-53448-worm6sbye.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753686862-53448-worm6sbye.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© Extreme Networks</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Advertorial
+    </h3>
+
+
+
+    
+
+    <h2>
+        Vernetzte Einfachheit: Reduzierte Komplexität mit einer Plattform
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Extreme Platform ONE verbindet Netzwerkbetrieb, Sicherheit und Automatisierung in einer&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+    
+        
+
+        
+            
+
+
+
+
+
+<div id="FS_D_ROS_InContent_1" class="list__ad"></div>
+<div id="FS_M_ROS_InContent_2" class="list__ad"></div>
+
+
+        
+
+        
+
+<a class="box box--horizontal" href="/netzwerke-it-infrastruktur/intel-will-auch-netzwerk-und-edge-sparte-loswerden.334625.html" title="Intel will auch Netzwerk- und Edge-Sparte loswerden">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Intels neuer CEO Lip-Bu Tan">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1741862629-53445-wor9ceqpn.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1741862629-53445-wor9ceqpn.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© Intel</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Konzentration aufs Kerngeschäft
+    </h3>
+
+
+
+    
+
+    <h2>
+        Intel will auch Netzwerk- und Edge-Sparte loswerden
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Intel-Chef Lip-Bu Tan durchforstet den Konzern nach weiteren Einsparmöglichkeiten. Einem&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+    
+        
+
+        
+
+        
+
+<a class="box box--horizontal" href="/markt/illegale-produkte-online-plattform-temu-droht-eu-strafe.334636.html" title="Illegale Produkte: Online-Plattform Temu droht EU-Strafe">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Temu_Päckchen_Bild_PenguinLens_shutterstock_2347320611.jpg">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753714337-53448-worimtpwl.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753714337-53448-worimtpwl.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© PenguinLens – shutterstock.com</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Verstoß gegen europäisches Digitalrecht?
+    </h3>
+
+
+
+    
+
+    <h2>
+        Illegale Produkte: Online-Plattform Temu droht EU-Strafe
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Viele Verbraucher lassen sich von den günstigen Preisen von asiatischen Shopping-Portalen&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+    
+        
+
+        
+
+        
+
+<a class="box box--horizontal" href="/netzwerke-it-infrastruktur/dexxit-baut-enterprise-segment-weiter-aus.334626.html" title="DexxIT baut Enterprise-Segment weiter aus">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Marcel Futterer (links) und Michael Thedens (rechts)">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753694476-53445-worgfn0bk.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753694476-53445-worgfn0bk.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© DexxIT</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Storage-Lösungen von Micron
+    </h3>
+
+
+
+    
+
+    <h2>
+        DexxIT baut Enterprise-Segment weiter aus
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        DexxIT stärkt das Geschäft mit Enterprise-Storage-Lösungen durch eine erweiterte&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+    
+        
+
+        
+
+        
+
+<a class="box box--horizontal" href="/hardware/panels-fuer-vernetzte-sichere-und-flexible-fertigungsprozesse.334632.html" title="Panels für vernetzte, sichere und flexible Fertigungsprozesse">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="DOP">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753706494-53466-worgkdni7.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753706494-53466-worgkdni7.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© Delta</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Delta: DOP-300S-Serie
+    </h3>
+
+
+
+    
+
+    <h2>
+        Panels für vernetzte, sichere und flexible Fertigungsprozesse
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Delta, weltweit agierender Anbieter von Energie- und intelligenten grünen Lösungen, hat&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+    
+        
+
+        
+
+        
+
+<a class="box box--horizontal" href="/markt/intel-gibt-geplante-chip-fabrik-in-magdeburg-auf.334613.html" title="Intel gibt geplante Chip-Fabrik in Magdeburg auf">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Intel will in Magdeburg 2 Chipfabriken errichten, die 2027 die Produktion aufnehmen sollen">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads_crn/images/1647352192-352-woryzony2.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads_crn/images/1647352192-352-woryzony2.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© Intel</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Intel Chef zieht die Reißleine
+    </h3>
+
+
+
+    
+
+    <h2>
+        Intel gibt geplante Chip-Fabrik in Magdeburg auf
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Es sollte ein High-Tech-Projekt für Sachsen-Anhalt mit 3.000 Jobs werden. Doch das&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <aside class="sidebar">
+            
+<div id="FS_D_ROS_MPU_1" class="sidebar__widget"></div>
+
+
+<div id="FS_D_ROS_MPU_2" class="sidebar__widget"></div>
+
+
+<div id="FS_D_ROS_MPU_3"  class="sidebar__widget"></div>
+
+
+<div class="sidebar__widget"><a class="box" href="https://www.connect-professional.de/markt/diese-produkte-und-anbieter-ueberzeugen-im-leservotum.334220.html" title="Die Favoriten der Branche"><figure class="figure fallback-image"><img loading="lazy" class="figure__img" width="298" height="168"
+                 title="Die Favoriten der Branche" alt="Die Favoriten der Branche" src="/fileadmin/user_upload/IMG_7447.JPG"></figure><section class="box__content"><h2>
+        Die Favoriten der Branche
+    </h2><p class="box__teaser">
+        Fast 7.600 Leser haben abgestimmt und ihre „products of the year 2025“ gewählt. Die Gewinner wurden im stilvollen Ambiente des Seehauses ausgezeichnet.
+    </p></section></a></div>
+
+
+<div class="sidebar__widget"><a class="box" href="https://bit.ly/3Gg3m01" title="NIS2 E-Paper"><figure class="figure fallback-image"><img loading="lazy" class="figure__img" width="298" height="168"
+                 title="NIS2 E-Paper" alt="NIS2 E-Paper" src="/fileadmin/user_upload/Warten_gross_2640186251.psd_preview.jpg"></figure><section class="box__content"><h2>
+        NIS2 E-Paper
+    </h2><p class="box__teaser">
+        Die Uhr tickt. Die gesetzliche Umsetzung der NIS2-Richtlinie mag sich verzögern. Doch wer jetzt nicht handelt, riskiert Sanktionen und Sicherheitslücken. Mehr dazu in der Sonderpublikation von connect professional.
+    </p></section></a></div>
+
+
+
+
+
+    
+
+    
+
+
+    <div class="sidebar__widget">
+        <h2 class="sidebar__widget-title">Meistgelesen</h2>
+
+        
+            
+                    
+
+<a class="box" href="/office-kommunikation/cloud-telefonie-in-der-alpenrepublik.334561.html" title="Cloud-Telefonie in der Alpenrepublik">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Cloud-Telefonie in der Alpenrepublik">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753269761-53442-woryquvsi.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753269761-53442-woryquvsi.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© shutterstock.com</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Cloud-PBX-Angebote in Österreich
+    </h3>
+
+
+
+    
+
+    <h2>
+        Cloud-Telefonie in der Alpenrepublik
+    </h2>
+
+
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+                
+        
+            
+                    
+
+<a class="box box--content" href="/markt/ki-verdraengt-suchmaschinen-als-shopping-ratgeber.334567.html" title="KI verdrängt Suchmaschinen als Shopping-Ratgeber">
+    
+
+    
+
+
+    <h3>
+        Schwere Zeiten für Google und Co.
+    </h3>
+
+
+
+    
+
+    <h2>
+        KI verdrängt Suchmaschinen als Shopping-Ratgeber
+    </h2>
+
+
+
+
+
+</a>
+
+
+                
+        
+            
+                    
+
+<a class="box box--content" href="/netzwerke-it-infrastruktur/lars-neumann-ist-neuer-geschaeftsfuehrer-bei-itenos.334611.html" title="Lars Neumann ist neuer Geschäftsführer bei Itenos">
+    
+
+    
+
+
+    <h3>
+        Verantwortlich für Vertrieb und Lösungen
+    </h3>
+
+
+
+    
+
+    <h2>
+        Lars Neumann ist neuer Geschäftsführer bei Itenos
+    </h2>
+
+
+
+
+
+</a>
+
+
+                
+        
+            
+                    
+
+<a class="box box--content" href="/office-kommunikation/zoom-setzt-auf-channel-first.334606.html" title="Zoom setzt auf „Channel first“">
+    
+
+    
+
+
+    <h3>
+        DACH-Raum: Strategische Neuausrichtung
+    </h3>
+
+
+
+    
+
+    <h2>
+        Zoom setzt auf „Channel first“
+    </h2>
+
+
+
+
+
+</a>
+
+
+                
+        
+            
+                    
+
+<a class="box box--content" href="/markt/arrow-zeigt-partnern-die-ki-zukunft-schon-heute.334572.html" title="Arrow zeigt Partnern die KI-Zukunft schon heute">
+    
+
+    
+
+
+    <h3>
+        Arrow Sommerforum 2025
+    </h3>
+
+
+
+    
+
+    <h2>
+        Arrow zeigt Partnern die KI-Zukunft schon heute
+    </h2>
+
+
+
+
+
+</a>
+
+
+                
+        
+    </div>
+
+
+
+
+
+
+
+
+        </aside>
+    </section>
+
+    
+
+
+<section>
+    <a class="columns-heading" href="/whitepaper/" title="Zur Listenansicht von ">
+        <h2>Whitepaper</h2>
+    </a>
+
+    <div class="columns columns--four">
+        
+            <a class="box-local" href="/whitepaper/erste-schritte-zur-umsetzung-der-nis-2-richtlinie.1033.html" title="Erste Schritte zur Umsetzung der NIS-2 Richtlinie">
+                <figure class="box-local__figure">
+                    <img title="Aagon Logo" alt="Aagon Logo" src="/fileadmin/user_upload/Aagon_logo.JPG" width="684" height="291" />
+                </figure>
+
+                
+                    <section class="box-local__content">
+                        
+
+
+
+
+    
+
+    <h2>
+        Erste Schritte zur Umsetzung der NIS-2 Richtlinie
+    </h2>
+
+
+
+
+
+                    </section>
+                
+            </a>
+        
+            <a class="box-local" href="/whitepaper/sophos-whitepaper-zur-umsetzung-von-nis2.1031.html" title="Sophos-Whitepaper zur Umsetzung von NIS2">
+                <figure class="box-local__figure">
+                    <img title="Sophos Logo" alt="Sophos Logo" src="/fileadmin/user_upload/sophos-logo-blue-rgb-de.png" width="253" height="124" />
+                </figure>
+
+                
+                    <section class="box-local__content">
+                        
+
+
+
+
+    
+
+    <h2>
+        Sophos-Whitepaper zur Umsetzung von NIS2
+    </h2>
+
+
+
+
+
+                    </section>
+                
+            </a>
+        
+            <a class="box-local" href="/whitepaper/vom-breakfix-zum-managed-service-provider.1029.html" title="Vom Breakfix zum Managed Service Provider">
+                <figure class="box-local__figure">
+                    <img title="Infinigate / N-able Logo" alt="Infinigate / N-able Logo" src="/fileadmin/user_upload/InfinigateN-Able-Logo_50x30_aktuell.jpg" width="450" height="254" />
+                </figure>
+
+                
+                    <section class="box-local__content">
+                        
+
+
+
+
+    
+
+    <h2>
+        Vom Breakfix zum Managed Service Provider
+    </h2>
+
+
+
+
+
+                    </section>
+                
+            </a>
+        
+            <a class="box-local" href="/whitepaper/cybersicherheit-und-it-compliance-im-unternehmen-juristische-informationen-fuer-die-unternehmensleitung.1026.html" title="Cybersicherheit und  IT-Compliance im Unternehmen: Juristische Informationen für die Unternehmensleitung">
+                <figure class="box-local__figure">
+                    <img title="Trend Micro Logo" alt="Trend Micro Logo" src="/fileadmin/user_upload/Horizontal_Logo_RGB_Colour.jpg" width="2400" height="750" />
+                </figure>
+
+                
+                    <section class="box-local__content">
+                        
+
+
+
+
+    
+
+    <h2>
+        Cybersicherheit und  IT-Compliance im Unternehmen: Juristische Informationen für die&hellip;
+    </h2>
+
+
+
+
+
+                    </section>
+                
+            </a>
+        
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <section>
+        <a class="columns-heading" href="/bilder" title="Zur Listenansicht von Bilder">
+            <h2>Bilder</h2>
+        </a>
+
+        <div class="
+        columns columns--four
+    ">
+            
+                
+
+<a class="box" href="/bilder/products-of-the-year-2025-business-kommunikation-zusammenarbeit.15988.html" title="products of the year 2025 – Business-Kommunikation &amp; Zusammenarbeit">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Bild">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1751963558-53445-01-business-internet-festnetz-deutschland-3-mnet-elena-schroth-img-7568.jpg.650x366.webp" width="650" height="366">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© connect professional/Andreas Juranits</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+         9. Juli 2025, 33 Bilder
+    </h3>
+
+
+
+    
+
+    <h2>
+        products of the year 2025 – Business-Kommunikation &amp; Zusammenarbeit
+    </h2>
+
+
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+                
+
+<a class="box" href="/bilder/products-of-the-year-2025-infrastruktur-rechenzentrum.15986.html" title="products of the year 2025 – Infrastruktur &amp; Rechenzentrum">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Bild">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1751887440-53466-001-12-industrie-pcs-3-bluechip-matthias-geburzi.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1751887440-53466-001-12-industrie-pcs-3-bluechip-matthias-geburzi.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© connect professional/Andreas Juranits</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+         7. Juli 2025, 24 Bilder
+    </h3>
+
+
+
+    
+
+    <h2>
+        products of the year 2025 – Infrastruktur &amp; Rechenzentrum
+    </h2>
+
+
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+                
+
+<a class="box" href="/bilder/products-of-the-year-2025-it-management-software-loesungen.15985.html" title="products of the year 2025 – IT-Management &amp; Software-Lösungen">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Bild">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1751880750-53463-01-cloudspeicher-3-nextcloud-kim-pohlmann-img-7731-kleiner-30.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1751880750-53463-01-cloudspeicher-3-nextcloud-kim-pohlmann-img-7731-kleiner-30.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© connect professional/Andreas Juranits</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+         7. Juli 2025, 9 Bilder
+    </h3>
+
+
+
+    
+
+    <h2>
+        products of the year 2025 – IT-Management &amp; Software-Lösungen
+    </h2>
+
+
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+                
+
+<a class="box" href="/bilder/products-of-the-year-2025-security-energie-mobilitaet.15983.html" title="products of the year 2025 – Security, Energie &amp; Mobilität">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Bild">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1751871529-53442-001img-7873.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1751871529-53442-001img-7873.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© connect professional/Andreas Juranits</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+         7. Juli 2025, 8 Bilder
+    </h3>
+
+
+
+    
+
+    <h2>
+        products of the year 2025 – Security, Energie &amp; Mobilität
+    </h2>
+
+
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <section>
+        <a class="columns-heading" href="/videos" title="Zur Listenansicht von Videos">
+            <h2>Videos</h2>
+        </a>
+
+        <div class="
+        columns columns--four
+    ">
+            
+                
+
+<a class="box" href="/videos/arrow-zeigt-die-ki-zukunft-schon-heute-kw-30.835417.html" title="Arrow zeigt die KI-Zukunft schon heute – KW 30">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="">
+    
+        <source media="(min-width: 0px)" srcset="https://img.youtube.com/vi/sDHuprc4G5Q/maxresdefault.jpg" width="" height="">
+    
+</picture>
+
+
+
+    
+        <img src="/fileadmin/sitedesign/Resources/Public/video-play-icon.png"
+             class="figure__play" alt="Play Icon" width="85" height="85">
+    
+
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+
+
+    
+
+    <h2>
+        Arrow zeigt die KI-Zukunft schon heute – KW 30
+    </h2>
+
+
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+                
+
+<a class="box" href="/videos/itk-highlights-am-see.835243.html" title="ITK-Highlights am See">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="">
+    
+        <source media="(min-width: 0px)" srcset="https://img.youtube.com/vi/ss_N9Lp6hfo/maxresdefault.jpg" width="" height="">
+    
+</picture>
+
+
+
+    
+        <img src="/fileadmin/sitedesign/Resources/Public/video-play-icon.png"
+             class="figure__play" alt="Play Icon" width="85" height="85">
+    
+
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+
+
+    
+
+    <h2>
+        ITK-Highlights am See
+    </h2>
+
+
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+                
+
+<a class="box" href="/videos/kiwiko-und-comteam-bilden-allianz-fuer-it-sicherheit-kw-29.835238.html" title="Kiwiko und Comteam bilden Allianz für IT-Sicherheit – KW 29">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="">
+    
+        <source media="(min-width: 0px)" srcset="https://img.youtube.com/vi/ngimK7tledI/maxresdefault.jpg" width="" height="">
+    
+</picture>
+
+
+
+    
+        <img src="/fileadmin/sitedesign/Resources/Public/video-play-icon.png"
+             class="figure__play" alt="Play Icon" width="85" height="85">
+    
+
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+
+
+    
+
+    <h2>
+        Kiwiko und Comteam bilden Allianz für IT-Sicherheit – KW 29
+    </h2>
+
+
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+                
+
+<a class="box" href="/videos/so-feiern-die-favoriten-der-itk-branche-kw-28.835058.html" title="So feiern die Favoriten der ITK-Branche – KW 28">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="">
+    
+        <source media="(min-width: 0px)" srcset="https://img.youtube.com/vi/h9yCSMQH4yQ/maxresdefault.jpg" width="" height="">
+    
+</picture>
+
+
+
+    
+        <img src="/fileadmin/sitedesign/Resources/Public/video-play-icon.png"
+             class="figure__play" alt="Play Icon" width="85" height="85">
+    
+
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+
+
+    
+
+    <h2>
+        So feiern die Favoriten der ITK-Branche – KW 28
+    </h2>
+
+
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+<section>
+    <a class="columns-heading" href="/anbieterkompass" title="Zu Matchmaker+">
+        <h2>Matchmaker+</h2>
+    </a>
+
+    <div class="columns columns--six">
+        
+            <a class="box box--provider" href="/anbieterkompass/goto-technologies-germany-gmbh.39787618/index.html" title="Zum Anbieter: GoTo Technologies Germany GmbH">
+                
+
+
+        
+    
+
+
+        <figure class="figure">
+            <img loading="lazy" class="figure__img" title="GoTo Technologies Germany GmbH" alt="GoTo Technologies Germany GmbH" src="https://cdn.prod.connect-professional.de/thumbs/anbieter/b4c7742bc2ea0fa8f6d12213caf14335.jpg.300x200.logo.png"
+                 data-src="https://cdn.prod.connect-professional.de/thumbs/anbieter/b4c7742bc2ea0fa8f6d12213caf14335.jpg.300x200.logo.png">
+
+            
+
+            
+
+            
+
+            
+        </figure>
+    
+
+
+
+
+                <section class="box__content">
+                    <h2 class="box__title--provider">GoTo Technologies Germany GmbH</h2>
+                </section>
+            </a>
+        
+            <a class="box box--provider" href="/anbieterkompass/aixpertsoft-gmbh.39100527/index.html" title="Zum Anbieter: AixpertSoft GmbH">
+                
+
+
+        
+    
+
+
+        <figure class="figure">
+            <img loading="lazy" class="figure__img" title="AixpertSoft GmbH" alt="AixpertSoft GmbH" src="https://cdn.prod.connect-professional.de/thumbs/anbieter/cd59280a31f297d7d5b7810de57940a6.jpg.300x200.logo.png"
+                 data-src="https://cdn.prod.connect-professional.de/thumbs/anbieter/cd59280a31f297d7d5b7810de57940a6.jpg.300x200.logo.png">
+
+            
+
+            
+
+            
+
+            
+        </figure>
+    
+
+
+
+
+                <section class="box__content">
+                    <h2 class="box__title--provider">AixpertSoft GmbH</h2>
+                </section>
+            </a>
+        
+            <a class="box box--provider" href="/anbieterkompass/vertiv-gmbh.39067785/index.html" title="Zum Anbieter: Vertiv GmbH">
+                
+
+
+        
+    
+
+
+        <figure class="figure">
+            <img loading="lazy" class="figure__img" title="Vertiv GmbH" alt="Vertiv GmbH" src="https://cdn.prod.connect-professional.de/thumbs/anbieter/fd7c09011f7c246e6485f9e78dc86e71.png.300x200.logo.png"
+                 data-src="https://cdn.prod.connect-professional.de/thumbs/anbieter/fd7c09011f7c246e6485f9e78dc86e71.png.300x200.logo.png">
+
+            
+
+            
+
+            
+
+            
+        </figure>
+    
+
+
+
+
+                <section class="box__content">
+                    <h2 class="box__title--provider">Vertiv GmbH</h2>
+                </section>
+            </a>
+        
+            <a class="box box--provider" href="/anbieterkompass/softing-it-networks-gmbh.8872189/index.html" title="Zum Anbieter: Softing IT Networks GmbH">
+                
+
+
+        
+    
+
+
+        <figure class="figure">
+            <img loading="lazy" class="figure__img" title="Softing IT Networks GmbH" alt="Softing IT Networks GmbH" src="https://cdn.prod.connect-professional.de/thumbs/anbieter/bb60db5e98f9117b389593488e63d06b.png.300x200.logo.png"
+                 data-src="https://cdn.prod.connect-professional.de/thumbs/anbieter/bb60db5e98f9117b389593488e63d06b.png.300x200.logo.png">
+
+            
+
+            
+
+            
+
+            
+        </figure>
+    
+
+
+
+
+                <section class="box__content">
+                    <h2 class="box__title--provider">Softing IT Networks GmbH</h2>
+                </section>
+            </a>
+        
+            <a class="box box--provider" href="/anbieterkompass/d-velop-ag.8824042/index.html" title="Zum Anbieter: d.velop AG">
+                
+
+
+        
+    
+
+
+        <figure class="figure">
+            <img loading="lazy" class="figure__img" title="d.velop AG" alt="d.velop AG" src="https://cdn.prod.connect-professional.de/thumbs/anbieter/0230ac2ea35321f28dbd76c9ae7c75f3.png.300x200.logo.png"
+                 data-src="https://cdn.prod.connect-professional.de/thumbs/anbieter/0230ac2ea35321f28dbd76c9ae7c75f3.png.300x200.logo.png">
+
+            
+
+            
+
+            
+
+            
+        </figure>
+    
+
+
+
+
+                <section class="box__content">
+                    <h2 class="box__title--provider">d.velop AG</h2>
+                </section>
+            </a>
+        
+            <a class="box box--provider" href="/anbieterkompass/dahua-technology-gmbh.39806158/index.html" title="Zum Anbieter: Dahua Technology GmbH">
+                
+
+
+        
+    
+
+
+        <figure class="figure">
+            <img loading="lazy" class="figure__img" title="Dahua Technology GmbH" alt="Dahua Technology GmbH" src="https://cdn.prod.connect-professional.de/thumbs/anbieter/db6d072b1533b566382bff1f67d87378.png.300x200.logo.png"
+                 data-src="https://cdn.prod.connect-professional.de/thumbs/anbieter/db6d072b1533b566382bff1f67d87378.png.300x200.logo.png">
+
+            
+
+            
+
+            
+
+            
+        </figure>
+    
+
+
+
+
+                <section class="box__content">
+                    <h2 class="box__title--provider">Dahua Technology GmbH</h2>
+                </section>
+            </a>
+        
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+    <section>
+        <a class="columns-heading" href="/office-kommunikation" title="Zur Listenansicht von Office &amp; Kommunikation">
+            <h2>Office &amp; Kommunikation</h2>
+        </a>
+
+        <div class="
+        columns
+    ">
+            
+                
+
+<a class="box" href="/office-kommunikation/enreach-zeigt-ki-im-praxiseinsatz.334650.html" title="Enreach zeigt KI im Praxiseinsatz">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Perfekte Location für die Tech-Revolution des 21. Jahrhunderts: Das deutsche Bergbau-Museum Bochum">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753783483-53445-woru4s6hl.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753783483-53445-woru4s6hl.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© Mario Bok / Enreach</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Enreach Partnerkonferenz 2025
+    </h3>
+
+
+
+    
+
+    <h2>
+        Enreach zeigt KI im Praxiseinsatz
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        KI für alle und das möglichst einfach – das will Enreach seinen Partnern ermöglichen. Auf&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+                
+
+<a class="box" href="/office-kommunikation/zoom-setzt-auf-channel-first.334606.html" title="Zoom setzt auf „Channel first“">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Zoom">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753363749-53463-worpyaoku.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753363749-53463-worpyaoku.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© connect professional</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        DACH-Raum: Strategische Neuausrichtung
+    </h3>
+
+
+
+    
+
+    <h2>
+        Zoom setzt auf „Channel first“
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Zoom ist dabei, sich im DACH-Markt neu aufzustellen und seine Partnerstrategie neu zu&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+                
+
+<a class="box" href="/office-kommunikation/generationswechsel-bei-easybell.334599.html" title="Generationswechsel bei Easybell">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Hensche_Bahr_Huth_vo_li_Bild_Easybell.jpg">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753350059-53448-wormdbesv.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753350059-53448-wormdbesv.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© Easybell</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Andreas Bahr übergibt an Führungsduo
+    </h3>
+
+
+
+    
+
+    <h2>
+        Generationswechsel bei Easybell
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Nach fast 20 Jahren an der Unternehmensspitze von Easybell gibt Gründer und&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+    <section>
+        <a class="columns-heading" href="/software-services" title="Zur Listenansicht von Software &amp; Services">
+            <h2>Software &amp; Services</h2>
+        </a>
+
+        <div class="
+        columns
+    ">
+            
+                
+
+<a class="box" href="/software-services/teamviewer-beendet-2-quartal-mit-verlust.334647.html" title="Teamviewer beendet 2. Quartal mit Verlust">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Teamviewers Headquarter in Göppingen">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1736763922-53445-worlmankn.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1736763922-53445-worlmankn.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© Teamviewer</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Hoffnung ruht auf zweiter Jahreshälfte
+    </h3>
+
+
+
+    
+
+    <h2>
+        Teamviewer beendet 2. Quartal mit Verlust
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Angesichts der wirtschaftlichen Unsicherheiten schlägt sich der Göppinger Softwareanbieter&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+                
+
+<a class="box" href="/software-services/ki-anwendung-soll-erklaerbare-daten-liefern.334638.html" title="KI-Anwendung soll erklärbare Daten liefern">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="KI">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753776039-53466-wor328gxu.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753776039-53466-wor328gxu.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© Moresophy</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Münchner KI-Spezialist stellt Lösung vor
+    </h3>
+
+
+
+    
+
+    <h2>
+        KI-Anwendung soll erklärbare Daten liefern
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Der deutsche KI-Spezialist Moresophy hat mit ContextChat eine Anwendung vorgestellt, die&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+                
+
+<a class="box" href="/software-services/deutsche-unternehmen-bei-ki-nutzung-an-der-spitze.334605.html" title="Deutsche Unternehmen bei KI-Nutzung an der Spitze">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="KI-Nutzung Laptop">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753351079-53442-worgoygp0.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753351079-53442-worgoygp0.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© Zakharchuk – shutterstock.com</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        AWS-Studie
+    </h3>
+
+
+
+    
+
+    <h2>
+        Deutsche Unternehmen bei KI-Nutzung an der Spitze
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Eine neue AWS-Studie zeigt: Deutschland liegt bei der KI-Nutzung europaweit vorne. 53&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+    <section>
+        <a class="columns-heading" href="/hardware" title="Zur Listenansicht von Hardware">
+            <h2>Hardware</h2>
+        </a>
+
+        <div class="
+        columns
+    ">
+            
+                
+
+<a class="box" href="/hardware/panels-fuer-vernetzte-sichere-und-flexible-fertigungsprozesse.334632.html" title="Panels für vernetzte, sichere und flexible Fertigungsprozesse">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="DOP">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753706494-53466-worgkdni7.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753706494-53466-worgkdni7.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© Delta</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Delta: DOP-300S-Serie
+    </h3>
+
+
+
+    
+
+    <h2>
+        Panels für vernetzte, sichere und flexible Fertigungsprozesse
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Delta, weltweit agierender Anbieter von Energie- und intelligenten grünen Lösungen, hat&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+                
+
+<a class="box" href="/hardware/neue-chipfabrik-bei-magdeburg-geplant.334520.html" title="Neue Chipfabrik bei Magdeburg geplant">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Intel Irland Leixlip">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1652248370-360-worxjfphz.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1652248370-360-worxjfphz.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© Intel Corporation</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Intel-Fab noch nicht vom Tisch
+    </h3>
+
+
+
+    
+
+    <h2>
+        Neue Chipfabrik bei Magdeburg geplant
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Vor einem Jahr hatte der US-Chiphersteller Intel seine Pläne für mehrere Chip-Fabriken in&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+                
+
+<a class="box" href="/hardware/mini-pc-fuer-den-24-7-betrieb.334438.html" title="Mini-PC für den 24/7-Betrieb">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Bluechip BUSINESSline S3159">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1752504954-53445-worio6e9b.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1752504954-53445-worio6e9b.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© Bluechip</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        „Bluechip BUSINESSline S3159” im Test
+    </h3>
+
+
+
+    
+
+    <h2>
+        Mini-PC für den 24/7-Betrieb
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Der Bluechip „BUSINESSline S3159“ wurde für den 24/7-Betrieb konzipiert und bringt bei nur&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+    <section>
+        <a class="columns-heading" href="/netzwerke-it-infrastruktur" title="Zur Listenansicht von Netzwerke &amp; IT-Infrastruktur">
+            <h2>Netzwerke &amp; IT-Infrastruktur</h2>
+        </a>
+
+        <div class="
+        columns
+    ">
+            
+                
+
+<a class="box" href="/netzwerke-it-infrastruktur/netzwerke-in-deutschen-unternehmen-modernisierungsbeduerftig.334645.html" title="Netzwerke in deutschen Unternehmen modernisierungsbedürftig">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Studie">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753779319-53466-wor6pqgys.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753779319-53466-wor6pqgys.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© 1&amp;1 Versatel</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Studie von 1&amp;1 Versatel und Lancom
+    </h3>
+
+
+
+    
+
+    <h2>
+        Netzwerke in deutschen Unternehmen modernisierungsbedürftig
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Veraltete Technik und mangelndes Monitoring in standortübergreifenden Netzwerken&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+                
+
+<a class="box" href="/netzwerke-it-infrastruktur/vernetzte-einfachheit-reduzierte-komplexitaet-mit-einer-plattform.334616.html" title="Vernetzte Einfachheit: Reduzierte Komplexität mit einer Plattform">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Extreme Platform ONE_rund_Aufmacher.jpg">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753686862-53448-worm6sbye.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753686862-53448-worm6sbye.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© Extreme Networks</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Advertorial
+    </h3>
+
+
+
+    
+
+    <h2>
+        Vernetzte Einfachheit: Reduzierte Komplexität mit einer Plattform
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Extreme Platform ONE verbindet Netzwerkbetrieb, Sicherheit und Automatisierung in einer&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+                
+
+<a class="box" href="/netzwerke-it-infrastruktur/dexxit-baut-enterprise-segment-weiter-aus.334626.html" title="DexxIT baut Enterprise-Segment weiter aus">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Marcel Futterer (links) und Michael Thedens (rechts)">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753694476-53445-worgfn0bk.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753694476-53445-worgfn0bk.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© DexxIT</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Storage-Lösungen von Micron
+    </h3>
+
+
+
+    
+
+    <h2>
+        DexxIT baut Enterprise-Segment weiter aus
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        DexxIT stärkt das Geschäft mit Enterprise-Storage-Lösungen durch eine erweiterte&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+    <section>
+        <a class="columns-heading" href="/datacenter-verkabelung" title="Zur Listenansicht von Datacenter &amp; Verkabelung">
+            <h2>Datacenter &amp; Verkabelung</h2>
+        </a>
+
+        <div class="
+        columns
+    ">
+            
+                
+
+<a class="box" href="/datacenter-verkabelung/racks-fuer-industrie-und-edge-anwendungen.334622.html" title="Racks für Industrie- und Edge-Anwendungen">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Racks">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753689604-53466-worqnnz0h.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753689604-53466-worqnnz0h.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© DTM Group</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        DTM Group erweitert Angebot
+    </h3>
+
+
+
+    
+
+    <h2>
+        Racks für Industrie- und Edge-Anwendungen
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Die DTM Group hat ihr Portfolio um Rack-Systeme für Industrie- und Edge-Anwendungen&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+                
+
+<a class="box" href="/datacenter-verkabelung/modulare-usv-fuer-ki-lastige-rechenzentren.334596.html" title="Modulare USV für KI-lastige Rechenzentren">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Keor Flex">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753348010-53466-worb5euek.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753348010-53466-worb5euek.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© Legrand</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Legrand stellt Keor Flex vor
+    </h3>
+
+
+
+    
+
+    <h2>
+        Modulare USV für KI-lastige Rechenzentren
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Legrand, weltweit agierender Anbieter elektrischer und digitaler Gebäudeinfrastruktur, hat&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+                
+
+<a class="box" href="/datacenter-verkabelung/wettbewerbsfaktor-energieeffizienz.334547.html" title="Wettbewerbsfaktor Energieeffizienz">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="F.Sippel">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753176898-53466-workzo67h.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753176898-53466-workzo67h.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© Noris Network</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Interview: Florian Sippel, Noris Network
+    </h3>
+
+
+
+    
+
+    <h2>
+        Wettbewerbsfaktor Energieeffizienz
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Nachhaltigkeit und Energieeffizienz haben sich zu geschäftskritischen Faktoren entwickelt.&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+    <section>
+        <a class="columns-heading" href="/security" title="Zur Listenansicht von Security">
+            <h2>Security</h2>
+        </a>
+
+        <div class="
+        columns
+    ">
+            
+                
+
+<a class="box" href="/security/lumma-ist-wieder-auf-diebestour.334619.html" title="Lumma ist wieder auf Diebestour">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Theft">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753688385-53466-wornmo8mt.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753688385-53466-wornmo8mt.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© PeopleImages.com - Yuri A - shutterstock.com</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Trend Micro: Stealer aktualisiert
+    </h3>
+
+
+
+    
+
+    <h2>
+        Lumma ist wieder auf Diebestour
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Sicherheitsforscher von Trend Micro berichten in einer neuen Research-Report, dass die&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+                
+
+<a class="box" href="/security/sicherheit-von-mobilen-daten-nicht-unterbewerten.334612.html" title="Sicherheit von mobilen Daten nicht unterbewerten">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="N.Howe">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753441560-53466-wor159epz.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753441560-53466-wor159epz.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© Zscaler</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Kontrolle der mobilen Datenströme 
+    </h3>
+
+
+
+    
+
+    <h2>
+        Sicherheit von mobilen Daten nicht unterbewerten
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Die meisten Unternehmen gehen davon aus, dass ein mobiles Gerät automatisch abgesichert&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+                
+
+<a class="box" href="/security/schluessel-zur-modernen-unternehmensverteidigung.334607.html" title="Schlüssel zur modernen Unternehmensverteidigung">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Hackerangriff">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753078680-53442-woraeusob.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753078680-53442-woraeusob.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© Sebastian Gollnow/dpa</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Keeper Security veröffentlicht Report
+    </h3>
+
+
+
+    
+
+    <h2>
+        Schlüssel zur modernen Unternehmensverteidigung
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Die Umfrageergebnisse eines Reports von Keeper Security zeigen, dass 49 Prozent der&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+    <section>
+        <a class="columns-heading" href="/markt" title="Zur Listenansicht von Markt">
+            <h2>Markt</h2>
+        </a>
+
+        <div class="
+        columns
+    ">
+            
+                
+
+<a class="box" href="/markt/telemaxx-stellt-neue-cloud-infrastruktur-vor.334640.html" title="Telemaxx stellt neue Cloud-Infrastruktur vor">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Cloud-Markt in Bewegung">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1746693453-53463-worjvupwx.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1746693453-53463-worjvupwx.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© vs148 - shutterstock.com</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        OpenStack-basierte Plattform für Hosting
+    </h3>
+
+
+
+    
+
+    <h2>
+        Telemaxx stellt neue Cloud-Infrastruktur vor
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Der Rechenzentrumsbetreiber Telemaxx stellt eine neue OpenStack-basierte Plattform vor.&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+                
+
+<a class="box" href="/markt/grossauftrag-fuer-deutsche-ki-chips-von-spinncloud.334642.html" title="Großauftrag für deutsche KI-Chips von Spinncloud">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="SpiNNcloud">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753777650-53445-worwurmuz.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753777650-53445-worwurmuz.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© SpiNNcloud</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Dresdner Start-up
+    </h3>
+
+
+
+    
+
+    <h2>
+        Großauftrag für deutsche KI-Chips von Spinncloud
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Die Zukunft der KI könnte in einer Art künstlichem Gehirn liegen. Das Dresdner Start-up&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+                
+
+<a class="box" href="/markt/illegale-produkte-online-plattform-temu-droht-eu-strafe.334636.html" title="Illegale Produkte: Online-Plattform Temu droht EU-Strafe">
+    
+            
+
+<figure class="figure">
+    
+
+
+        
+    
+
+<picture class="lozad fallback-image" data-alt="Temu_Päckchen_Bild_PenguinLens_shutterstock_2347320611.jpg">
+    
+        <source media="(min-width: 682px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753714337-53448-worimtpwl.jpg.390x219.webp" width="390" height="220">
+    
+        <source media="(min-width: 0px)" srcset="https://cdn.prod.connect-professional.de/thumbs/media_uploads/images/1753714337-53448-worimtpwl.jpg.648x365.webp" width="648" height="365">
+    
+</picture>
+
+
+
+    
+
+    
+        <footer class="figure__footer">
+            <small class="figure__small">© PenguinLens – shutterstock.com</small>
+        </footer>
+    
+
+    
+
+    
+</figure>
+
+
+
+        
+
+    
+        <section class="box__content">
+            
+
+            
+
+
+    <h3>
+        Verstoß gegen europäisches Digitalrecht?
+    </h3>
+
+
+
+    
+
+    <h2>
+        Illegale Produkte: Online-Plattform Temu droht EU-Strafe
+    </h2>
+
+
+
+    
+
+    <p class="box__teaser">
+        Viele Verbraucher lassen sich von den günstigen Preisen von asiatischen Shopping-Portalen&hellip;
+    </p>
+
+
+
+
+            
+
+            
+        </section>
+    
+</a>
+
+
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+</main>
+
+
+        
+
+    
+
+<footer class="footer">
+    <a href="/" class="logo-footer-href" title="Zur Startseite">
+        <img src="/fileadmin/sitedesign/Resources/Public/Svg/Logos/ConnectProfessional.svg"
+             class="footer__logo-main" alt="ConnectProfessional Logo" title="ConnectProfessional Logo"
+             width="157" height="52">
+    </a>
+
+    <div class="nav-footer">
+        <nav>
+            <ul class="nav-ul nav-ul--footer"><li class="nav-ul__li nav-ul__li--label-footer"><strong>Rubriken</strong></li><li class="nav-ul__li"><a href="/office-kommunikation/" title="Office &amp; Kommunikation" class="nav-ul__a nav-ul__a--footer">Office & Kommunikation</a></li><li class="nav-ul__li"><a href="/software-services/" title="Software &amp; Services" class="nav-ul__a nav-ul__a--footer">Software & Services</a></li><li class="nav-ul__li"><a href="/hardware/" title="Hardware" class="nav-ul__a nav-ul__a--footer">Hardware</a></li><li class="nav-ul__li"><a href="/netzwerke-it-infrastruktur/" title="Netzwerke &amp; IT-Infrastruktur" class="nav-ul__a nav-ul__a--footer">Netzwerke & IT-Infrastruktur</a></li><li class="nav-ul__li"><a href="/datacenter-verkabelung/" title="Datacenter &amp; Verkabelung" class="nav-ul__a nav-ul__a--footer">Datacenter & Verkabelung</a></li><li class="nav-ul__li"><a href="/security/" title="Security" class="nav-ul__a nav-ul__a--footer">Security</a></li><li class="nav-ul__li"><a href="/markt/" title="Markt" class="nav-ul__a nav-ul__a--footer">Markt</a></li><li class="nav-ul__li"><a href="/anbieterkompass/" title="Matchmaker+" class="nav-ul__a nav-ul__a--footer">Matchmaker+</a></li></ul>
+        </nav>
+
+        <nav>
+            <ul class="nav-ul nav-ul--footer"><li class="nav-ul__li nav-ul__li--label-footer"><strong>Schwerpunkte</strong></li><li class="nav-ul__li"><a href="/schwerpunkte/windows-11/" title="Windows 11" class="nav-ul__a nav-ul__a--footer">Windows 11</a></li><li class="nav-ul__li"><a href="/schwerpunkte/tests-studien/" title="Tests &amp; Studien" class="nav-ul__a nav-ul__a--footer">Tests & Studien</a></li><li class="nav-ul__li"><a href="/schwerpunkte/channel/" title="Channel" class="nav-ul__a nav-ul__a--footer">Channel</a></li><li class="nav-ul__li"><a href="/schwerpunkte/public-sector/" title="Public Sector" class="nav-ul__a nav-ul__a--footer">Public Sector</a></li><li class="nav-ul__li"><a href="/schwerpunkte/digitalpioniere/" title="Digitalpioniere" class="nav-ul__a nav-ul__a--footer">Digitalpioniere</a></li><li class="nav-ul__li"><a href="/schwerpunkte/kuenstliche-intelligenz/" title="KI" class="nav-ul__a nav-ul__a--footer">KI</a></li><li class="nav-ul__li"><a href="/schwerpunkte/itk-koepfe/" title="ITK-Köpfe" class="nav-ul__a nav-ul__a--footer">ITK-Köpfe</a></li><li class="nav-ul__li"><a href="/schwerpunkte/kaisers-kolumne/" title="Kaisers Kolumne" class="nav-ul__a nav-ul__a--footer">Kaisers Kolumne</a></li></ul>
+        </nav>
+
+        <nav>
+            <ul class="nav-ul nav-ul--footer"><li class="nav-ul__li nav-ul__li--label-footer"><strong>Service</strong></li><li class="nav-ul__li"><a href="/7-tage/" title="7 Tage" class="nav-ul__a nav-ul__a--footer">7 Tage</a></li><li class="nav-ul__li"><a href="/videos/" title="Videos" class="nav-ul__a nav-ul__a--footer">Videos</a></li><li class="nav-ul__li"><a href="/bilder/" title="Bilder" class="nav-ul__a nav-ul__a--footer">Bilder</a></li><li class="nav-ul__li"><a href="https://www.connect-professional.de/markt/e-paper-ausgaben-der-connect-professional.179187.html" target="_blank" title="E-Paper" class="nav-ul__a nav-ul__a--footer">E-Paper</a></li><li class="nav-ul__li"><a href="/termine/" title="Termine" class="nav-ul__a nav-ul__a--footer">Termine</a></li><li class="nav-ul__li"><a href="/webinare/" title="Webinare" class="nav-ul__a nav-ul__a--footer">Webinare</a></li><li class="nav-ul__li"><a href="/whitepaper/" title="Whitepaper" class="nav-ul__a nav-ul__a--footer">Whitepaper</a></li><li class="nav-ul__li"><a href="/glossar/" title="Glossar" class="nav-ul__a nav-ul__a--footer">Glossar</a></li></ul>
+        </nav>
+
+        <nav>
+            <ul class="nav-ul nav-ul--footer"><li class="nav-ul__li nav-ul__li--label-footer"><strong>Magazin</strong></li><li class="nav-ul__li"><a href="https://shop.weka-business-communication.com/connect-professional/Abos/connect-professional-Digital.html" target="_blank" title="Abo" class="nav-ul__a nav-ul__a--footer">Abo</a></li><li class="nav-ul__li"><a href="https://www.weka-media-publishing.de/connect-professional/" target="_blank" title="Media" class="nav-ul__a nav-ul__a--footer">Media</a></li><li class="nav-ul__li"><a href="https://newsletter-wmp-2.lianacms.com/" target="_blank" title="Newsletter" class="nav-ul__a nav-ul__a--footer">Newsletter</a></li><li class="nav-ul__li"><a href="https://www.weka-media-publishing.de/event-team/" target="_blank" title="Events" class="nav-ul__a nav-ul__a--footer">Events</a></li><li class="nav-ul__li"><a href="/rss/" title="RSS" class="nav-ul__a nav-ul__a--footer">RSS</a></li></ul>
+        </nav>
+
+        <nav class="nav-footer__network">
+            <ul class="nav-ul nav-ul--footer"><li class="nav-ul__li nav-ul__li--label-footer"><strong>Unser Netzwerk</strong></li><li class="nav-ul__li"><a href="https://www.connect.de" target="_blank" title="connect" class="nav-ul__a nav-ul__a--footer">connect</a></li><li class="nav-ul__li"><a href="https://www.connect-living.de" target="_blank" title="connect living" class="nav-ul__a nav-ul__a--footer">connect living</a></li></ul>
+        </nav>
+    </div>
+</footer>
+
+
+    
+
+
+
+<div id="FS_M_ROS_Bottom"></div>
+
+
+
+<footer class="footer-bottom">
+    <div class="nav-footer nav-footer--bottom">
+        <nav>
+            <ul class="nav-ul nav-ul--footer-bottom"><li class="nav-ul__li"><a href="/agb/" title="AGB" class="nav-ul__a nav-ul__a--footer">AGB</a></li><li class="nav-ul__li"><a href="/datenschutz/" title="Datenschutz" class="nav-ul__a nav-ul__a--footer">Datenschutz</a></li><li class="nav-ul__li"><a href="/impressum/" title="Impressum" class="nav-ul__a nav-ul__a--footer">Impressum</a></li></ul>
+        </nav>
+
+        <p class="nav-footer__copyright">
+            
+                    © 2025 WEKA Media Publishing GmbH. Alle Rechte vorbehalten.
+                
+        </p>
+    </div>
+</footer>
+
+
+
+    
+
+<script src="https://cdn.prod.connect-professional.de/js/live/app.js?v=1738081081"></script>
+
+<script type="text/plain" class="cmplazyload" data-cmp-vendor="c11265,461,s2341" data-cmp-src="https://cdn.prod.connect-professional.de/js/b2b/funkschau.js"></script>
+
+
+    <script type='text/javascript'>
+        // SZM 2.0
+        let stVar = 'fuschau';
+        let cpVar = 'FUSCHAU_P009992';
+        let cnameVar = 'data-179369af40.connect-professional.de';
+        let iam_data = {
+            'st': stVar,
+            'cp': cpVar,
+            'sv': 'ke',
+            'co': '',
+            'sc': 'yes'
+        }
+
+        if (typeof iom !== 'undefined') {
+            iom.c(iam_data, 1);
+        }
+
+        if (typeof IOMm === 'function') {
+            IOMm('configure', { st: stVar, dn: cnameVar });
+            IOMm('pageview', { cp: cpVar, co: '' });
+        }
+    </script>
+
+
+<script type="text/javascript">
+    const observer = lozad();
+    observer.observe();
+</script>
+
+<script src="https://cdn.prod.connect-professional.de/js/advertorial.js?v=1723623134"></script>
+<adx-snippet><script type="module" class="cmplazyload" data-cmp-vendor="c54236" data-cmp-src="https://cdn.adnx.de/dist/adnamics-snippet.js"></script></adx-snippet><adx-admatic campaign-id="fac2da9e-0568-44a4-99bc-0327fa8236b3"></adx-admatic>
+
+
+    <script type="text/javascript">
+        _linkedin_partner_id = "7178729";
+        window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+        window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script>
+    <script type="text/plain" class="cmplazyload" data-cmp-vendor="s2">
+        (function (l) {
+            if (!l) {
+                window.lintrk = function (a, b) {
+                    window.lintrk.q.push([a, b])
+                };
+                window.lintrk.q = []
+            }
+            var s = document.getElementsByTagName("script")[0];
+            var b = document.createElement("script");
+            b.type = "text/javascript";
+            b.async = true;
+            b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+            s.parentNode.insertBefore(b, s);
+        })(window.lintrk);
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none;" alt=""
+             src="https://px.ads.linkedin.com/collect/?pid=7178729&fmt=gif"/>
+    </noscript>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
+<!-- Cached page generated 29-07-25 06:11. Expires 30-07-25 06:11 -->

@@ -1,0 +1,26 @@
+User-agent: *
+Disallow: /administrator/
+Disallow: /bin/
+Disallow: /cache/
+Disallow: /cli/
+Disallow: /components/
+Disallow: /includes/
+Disallow: /installation/
+Disallow: /language/
+Disallow: /layouts/
+Disallow: /libraries/
+Disallow: /logs/
+Disallow: /modules/
+Disallow: /plugins/
+Disallow: /tmp/
+Allow: /components/com_seoglossary/assets/css/style.css
+Allow: /components/com_k2/js/k2.js
+Allow: /components/com_seoglossary/assets/js/jqseog.min.js
+Allow: /components/com_seoglossary/assets/js/jqseog.fpss.js
+Allow: /modules/mod_facebook_likeboxpopup/css/fb-likebox-popup.css
+Allow: /modules/mod_facebook_likeboxpopup/js/all.js
+
+
+
+Sitemap: http://www.entertainweb.de/sitemap.xml
+

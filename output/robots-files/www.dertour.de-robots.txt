@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /hotel/search?*
+Disallow: /en/hotel/search?*
+Disallow: /de/hotel/search?*
+Disallow: /hotel/*?travelType=*
+Disallow: /hotel/*&travelType=*
+Disallow: *?icid=*
+Disallow: *?bcid=*
+Disallow: *?ap=*
+Disallow: *?refat=*
+Disallow: *?tab=*
+Disallow: *?provider=*
+Disallow: *?ecid=*
+Disallow: *?fbclid=*
+Disallow: *?web_winter*
+Disallow: *?ajax_handler=*
+Disallow: *earliestStart=*
+Disallow: *?__historyState=*
+Disallow:  /logos/holidaycheck.svg
+
+Sitemap: https://www.dertour.de/sitemaps/sitemap.xml

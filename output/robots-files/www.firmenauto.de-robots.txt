@@ -1,0 +1,25 @@
+User-agent: *
+disallow: /irapi/*
+disallow: /irelements/*
+Disallow: /ajax/
+Disallow: /*?module=*
+disallow: /suche/*
+
+ # Allow sitemap
+Sitemap: https://www.firmenauto.de/sitemap/news-sitemap.xml
+Sitemap: https://www.firmenauto.de/sitemap/sitemap-index.xml
+Sitemap: https://www.firmenauto.de/sitemap/video-sitemap-index.xml
+Sitemap: https://www.firmenauto.de/sitemap/navigation-sitemap.xml
+Sitemap: https://www.firmenauto.de/sitemap/themenseiten-sitemap.xml
+
+Disallow: /heft*
+Disallow: *ePaper*.pdf
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /

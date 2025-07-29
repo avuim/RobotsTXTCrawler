@@ -1,0 +1,72 @@
+#robots.txt for https://www.1und1.de
+#22. März, 2023
+
+#Sitemap 
+Sitemap:https://www.1und1.de/sitemap.xml
+
+User-agent:*
+
+#Disallow folders and search
+Disallow:/.well-known/
+Disallow:/france/
+Disallow:/xml/
+Disallow:/static/
+Disallow:/suche*
+
+#BVB Aktion double indexing prevention
+Disallow:/bvb-aktion/
+
+#Parameter and Suffix indexing
+Allow:/*?ac=
+Allow:/*?color=
+Allow:/*?size=
+Allow:/*?chosenTariff=
+Allow:/*?cdpFlow=
+Disallow:/*?kwk=
+Disallow:/*?ps_id=
+Disallow:/*?hwid=
+Disallow:/*?article=
+Disallow:/*?actioncode=
+Disallow:/*?__lf=
+Disallow:/*?__sign=
+Disallow:/*?bk-special=
+Disallow:/*?contact.category=
+Disallow:/*?fbclid=
+Disallow:/*?hotline=
+Disallow:/*?ID=
+Disallow:/*?label=
+Disallow:/*?linkId=
+Disallow:/*?linkOrigin=
+Disallow:/*?mc=
+Disallow:/*?new_sLanguage=
+Disallow:/*?owner=
+Disallow:/*?ref=
+Disallow:/*?tags=
+Disallow:/*?ucuoId=
+Disallow:/*?zanpid=
+Disallow:/*?zxuid=
+Disallow:/*.php
+#Cart Parameter indexing
+Disallow:/*?cart.action=
+Disallow:/*?cart.bundle=
+Disallow:/*?cart.prepend=
+Disallow:/*?__sendingdata=
+Disallow:/*?__forcestop=
+
+#All general disallows
+User-agent:SlySearch
+Disallow:/
+User-agent:SmartDownload
+Disallow:/
+User-agent:SpankBot
+Disallow:/
+User-agent:spanner
+Disallow:/
+User-agent:SuperBot
+Disallow:/
+User-agent:SupperHTTP
+Disallow:/
+User-agent:Surfbot
+Disallow:/
+User-agent:ia_archiver
+Disallow:/

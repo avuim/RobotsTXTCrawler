@@ -1,0 +1,22 @@
+# This robots.txt file controls crawling of URLs under https://www.computer-spezial.de
+
+User-agent: *
+Allow: /
+
+User-agent: SiteAuditBot
+Crawl-delay: 1
+Allow: /
+Disallow: /download
+Disallow: /downloads_protected
+Disallow: /imgs
+Disallow: /media
+
+User-agent: Semrushbot-SI
+Allow: /
+Disallow: /download
+Disallow: /downloads_protected
+Disallow: /imgs
+Disallow: /media
+
+# Sitemap file
+Sitemap: https://www.computer-spezial.de/sitemap.xml

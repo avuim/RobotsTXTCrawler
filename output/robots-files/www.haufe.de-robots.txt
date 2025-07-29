@@ -1,0 +1,62 @@
+User-agent: Slurp
+Disallow: /image/
+
+User-agent: firefly
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: vebidoo
+Disallow: / 
+
+User-agent: unido-bot
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+# ChatGP Bots
+User-agent: ChatGPT-User
+Disallow: /id/*
+
+User-agent: GPTBot
+Disallow: /id/*
+
+# Perplexity Bots
+User-agent: PerplexityBot
+Disallow: /id/*
+
+User-agent: Perplexity‑User	
+Disallow: /id/*
+
+# Claude Bots
+User-agent: ClaudeBot
+Disallow: /id/*
+
+User-agent: Claude-User
+Disallow: /id/*
+
+# Meta Bot
+User-agent: meta-externalagent
+Disallow: /id/*
+
+# Google Bots
+# Crawler for Google's Bard and Vertex AI
+User-agent: Google-Extended
+Disallow: /id/*
+
+User-agent: Google-CloudVertexBot
+Disallow: /id/*
+
+User-agent: *
+Allow: /lazyloading/*
+Allow: /forms/kontakt.html$
+Disallow: /forms/*
+Disallow: /suche/*
+Disallow: *emos_*
+
+#sitemap:
+Sitemap: https://www.haufe.de/siteindex.xml
+Sitemap: https://www.haufe.de/www.haufe.de.xml
+Sitemap: https://www.haufe.de/hr/sitemap.xml

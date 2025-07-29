@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /preview/*
+Disallow: /werbemitteltest/*
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+
+Sitemap: https://www.elektroniknet.de/fileadmin/sitemaps/index.xml

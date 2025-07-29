@@ -1,0 +1,10 @@
+User-agent: *
+
+Disallow: /suche/
+Disallow: /typo3/
+Disallow: /typo3temp/
+Disallow: /typo3conf/
+Disallow: /alle-artikel/
+Disallow: /fileadmin/_temp_/
+
+Sitemap: https://www.ikz.de/sitemap.xml

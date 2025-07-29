@@ -1,0 +1,38 @@
+User-agent: msnbot-media/1.1
+Disallow: /
+
+User-agent: msnbot-media/2.0b
+Disallow: /
+
+User-agent: scrapy
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: proximic
+Disallow: /*&ampshare=*
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: *
+Disallow: /action/
+Disallow: /sn/
+Disallow: /elastic/
+Disallow: /search?
+Disallow: /p-api/
+Disallow: /p-user/
+

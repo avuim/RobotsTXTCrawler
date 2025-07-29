@@ -1,0 +1,16 @@
+User-agent: *
+
+Disallow: /email/
+Disallow: /Email/
+
+Disallow: /news/list/
+Disallow: /fachartikel/list/
+Disallow: /webnews/list/
+Disallow: /advertisement/
+Disallow: /article/
+Disallow: /search/
+Disallow: /textanzeige/
+Disallow: /post/
+
+Sitemap: https://www.marketing-boerse.de/sitemap.xml
+crawl-delay: 3

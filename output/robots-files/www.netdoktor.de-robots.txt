@@ -1,0 +1,39 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /preview/
+Disallow: /api/
+Disallow: /nested_admin/
+Disallow: /select2/
+Disallow: /cms_wizard/
+Disallow: /imagegallery*/
+Disallow: /swf/
+Disallow: /preview/newsletter/
+Disallow: /redesign/
+Disallow: /facts/
+Disallow: /datenschutz-faq/
+Disallow: /gesundheitsratgeber/
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+
+Sitemap: https://www.netdoktor.de/sitemap.xml
+

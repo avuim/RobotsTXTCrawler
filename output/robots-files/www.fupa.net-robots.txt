@@ -1,0 +1,37 @@
+User-agent: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+User-agent: facebookexternalhit/1.1
+User-agent: facebookcatalog/1.0
+User-agent: grapeshot
+Allow: /
+
+User-agent: Googlebot
+User-agent: Bingbot
+Disallow: /rss/
+Disallow: /fupa/admin/
+Disallow: /fupa/front/content_k.php
+Disallow: /fupa/api.php
+Disallow: /region/*/marketplace/detail/*
+Disallow: /photos/
+Disallow: /my/
+Disallow: /auth/*redirectUrl=*
+Disallow: /news/archive-*
+Disallow: /player/nv-*
+Disallow: /player/*/rankings
+Disallow: /player/*/news
+Disallow: /match/
+Disallow: /league/*/season/*
+Disallow: /cup/*/season/*
+Disallow: /team/*/playerstats
+Disallow: /team/*/playerstats/*
+Disallow: /tv/match/*
+Disallow: /test_*
+Disallow: /region/*/media
+Disallow: *.js
+
+User-agent: dotbot
+User-agent: proximic
+User-agent: trendkite-akashic-crawler
+Disallow: /
+
+Sitemap: https://www.fupa.net/sitemap.xml
+Sitemap: https://www.fupa.net/google-news-sitemap.xml

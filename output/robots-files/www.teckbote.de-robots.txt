@@ -1,0 +1,9 @@
+# global live settings :
+User-agent: *
+Disallow: /cms_addon
+Disallow: /cms_docs
+Disallow: /redFACT
+Disallow: /REST/frontend/itemstatistics
+Sitemap: https://www.teckbote.de/sitemap-index_2-Google_Sitemap.xml
+Sitemap: https://www.teckbote.de/sitemap-index_3-Google_News_Sitemap.xml
+Sitemap: https://www.teckbote.de/sitemap-index_4-Artikel_Sitemap.xml

@@ -1,0 +1,35 @@
+#
+# Bot-Konfigurationen www.moz.de
+#
+
+User-agent: *
+Disallow: /checkout/
+Disallow: /register/
+Disallow: /suche/
+Disallow: /service/magiclink/
+Disallow: /service/magiclink/token/
+Disallow: *.pdf
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+Sitemap: https://www.moz.de/sitemap.xml
+Sitemap: https://www.moz.de/sitemap-news-alle-news.xml
+
+# Legal notice: moz.de expressly reserves the right to use its content for commercial text and data mining (§ 44 b UrhG).
+# The use of robots or other automated means to access moz.de or collect or mine data without
+# the express permission of moz.de is strictly prohibited.
+# moz.de may, in its discretion, permit certain automated access to certain moz.de pages,
+# If you would like to apply for permission to crawl moz.de, collect or use data, please email digitalservice@moz.de

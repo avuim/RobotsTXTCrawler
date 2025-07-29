@@ -1,0 +1,12 @@
+User-agent: Mozilla/5.0 (compatible; OGDWCtxCrawler)
+Allow: /
+
+User-agent: GPTBot
+Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
+
+User-Agent: *
+Disallow: /1pixel.php
+Disallow: /js/mask.js
+Disallow: /user/*

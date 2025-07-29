@@ -1,0 +1,175 @@
+# robots.txt for grin.com
+
+# ----------------------------------------
+# Spezifische Bot-Regeln
+# ----------------------------------------
+User-agent: PetalBot
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Googlebot-Image
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Googlebot-Video
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Googlebot-News
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Storebot-Google
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Google-InspectionTool
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: GoogleOther
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: GoogleOther-Image
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: GoogleOther-Video
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Google-CloudVertexBot
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Google-Extended
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: APIs-Google
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Mediapartners-Google
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Google-Read-Aloud
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Google-Safety
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Feedfetcher
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Google-Publisher-Center
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: GPTBot
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Amazonbot
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: bingbot
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: MJ12bot
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: RyteBot
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: OAI-SearchBot
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: CCBot
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: AhrefsBot
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: SemrushBot
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: DotBot
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: YandexBot
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Baiduspider
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Sogou
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: SeznamBot
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Bytespider
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Exabot
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Meanpathbot
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: SerpstatBot
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Cliqzbot
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Zoominfobot
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Trendictionbot
+Disallow: /search/
+Disallow: /search?*
+
+User-agent: Linkdexbot
+Disallow: /search/
+Disallow: /search?*
+
+# ----------------------------------------
+# Globale Regeln für alle übrigen Bots
+# ----------------------------------------
+User-agent: *
+Disallow: /search/
+Disallow: /search?*
+Disallow: /*?*
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://www.grin.com/xmlsitemap/index.xml

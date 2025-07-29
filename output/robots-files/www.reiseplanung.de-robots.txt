@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /adblocker
+Disallow: /products
+Disallow: /error
+User-agent: ImagesiftBot 
+Disallow: /
+User-agent: Sogou web spider
+Disallow: /
+Sitemap: https://routenet.nl/sitemaps/postcode/sitemapindexpostcode.xml
+Sitemap: https://routenet.nl/sitemaps/city/sitemapcityindex.xml

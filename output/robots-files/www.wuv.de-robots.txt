@@ -1,0 +1,36 @@
+# Robots.txt file for a standard eZ Platform website
+# All robots will spider all the domain, except for search
+
+User-agent: *
+Disallow: /layout/set/
+Disallow: /ezjscore/call/
+Disallow: /content/
+Disallow: /content/search/
+Disallow: /content/advancedsearch/
+Disallow: /content/pdf/
+Disallow: /content/tipafriend/
+Disallow: /vote/add/
+Disallow: /leute/
+Disallow: /leute
+Disallow: /leute/personalien
+Disallow: /videos
+Disallow: /videos/redaktionsarchiv
+Disallow: /videos/events
+Disallow: /videos/empfohlen_von_der_redaktion
+Disallow: /videos/w_v_videos
+Disallow: /videos/featured
+Disallow: /Werbeformen/
+Disallow: /Werbeformen
+Disallow: /Werbeformen/test1
+Disallow: /Werbeformen/test2
+Disallow: /Werbeformen/debug1
+Disallow: /Werbeformen/debug2
+
+# Massendownloader vom CGI Verzeichnis fernhalten
+User-agent: wget
+User-agent: webzip
+User-agent: webmirror
+User-agent: webcopy
+Disallow: /cgi-bin/
+
+Sitemap: https://www.wuv.de/sitemaps/index.xml

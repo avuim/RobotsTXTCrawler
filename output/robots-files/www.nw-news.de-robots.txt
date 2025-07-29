@@ -1,0 +1,5539 @@
+
+
+
+    
+
+    
+    
+        
+
+
+
+
+    
+
+
+
+    
+
+        
+        
+            
+        
+    
+
+            
+            
+        
+        
+        ePaper
+        Abo
+        Abo
+
+        
+
+        
+
+
+
+
+    var userstatus_matomo = 'unknown';
+    var userstatus_upscore = 0;
+    var userstatus_drive = 'anonym';
+    var userstatus_pur = 0;
+    var content_blocked = document.getElementById('paywall') ? 1 : 0;
+    var sso_hash = '';
+    var user_token = '';
+
+    var getCMPData      = __cmp('getCMPData') ?? {};
+    var consentStatus   = __cmp('consentStatus');
+    var user_firstname  = '';
+    var user_lastname   = '';
+
+            window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        "userstatus":  "0",
+        "articletype": "0"
+    });
+    
+                    var sso_id = '';
+        var pw_cookie = '';
+        var plus_article = 0;
+
+        triggerMatomo(userstatus_matomo);
+        triggerUpscore(userstatus_upscore, content_blocked);
+        // triggerCacheLog(userstatus_upscore, sso_id, sso_hash, user_token, pw_cookie, plus_article);
+        // triggerAboFooter(userstatus_upscore);
+    
+    
+    function waitForConsentString() {
+        getCMPData = __cmp('getCMPData') ?? {};
+        consentStatus = __cmp('consentStatus');
+        // show abofooter after closing consent-dialog
+                if (typeof triggerAboFooter !== 'undefined') {
+            __cmp('addEventListener', ['consentscreenoff', triggerAboFooter, false], null);
+        }
+        // Pur-Abonnenten ohne Consent-Screen
+        if (userstatus_pur) {
+            __cmp("setConsent", 0);
+            __cmp("setVendorConsent",["c26049", 1 ]);
+            __cmp("setVendorConsent",["s2589", 1 ]);
+            __cmp("setVendorConsent",["s2570", 1 ]);
+            __cmp("setVendorConsent",["s37", 1 ]);
+            __cmp("close", 0);
+        }
+        
+        var interval = setInterval(function() {
+            if (typeof getCMPData.vendorConsents !== 'undefined' && Object.keys(getCMPData?.vendorConsents).length === 0) {
+                console.log('wait for cmp-data');
+                clearInterval(interval);
+                waitForConsentString();
+            }else {
+                triggerDrive && triggerDrive(userstatus_drive, content_blocked);
+                // Upscore Paywall nur auf NW.de
+                if (document.location.host == 'www.nw.de' && typeof triggerUpscorePaywall !== 'undefined' ) {
+                    triggerUpscorePaywall && triggerUpscorePaywall();
+                }
+                // console.log(consentStatus);
+                                // show abofooter if consentbox is not open
+                if (consentStatus && consentStatus.consentExists && typeof triggerAboFooter !== 'undefined'  ) {
+                    triggerAboFooter && triggerAboFooter();
+                }
+                                console.log('cmp-data available');
+                // console.log(getCMPData.vendorConsents);
+                clearInterval(interval);
+            }
+        }, 200);
+    }
+    waitForConsentString();
+    // Check function loaded or not
+    let checkInterval;
+    let totalTime = 0;
+    const maxTime = 30000;
+    const intervalTime = 5000;
+
+    function isAboFooterLoaded() {
+        if (typeof triggerAboFooter !== 'function') {
+            console.log("Waiting for Abofooter")
+            checkInterval = setInterval(function (){
+                if (typeof triggerAboFooter === 'function' && parent.document.getElementById('checkoutjump') != null) {
+                    clearInterval(checkInterval);
+                    triggerAboFooter();
+                } else {
+                    totalTime += intervalTime;
+                    if (totalTime >= maxTime) {
+                        clearInterval(checkInterval);
+                    }
+                }
+            }, intervalTime)
+        }else{
+            console.log("Abofooter loaded");
+            triggerAboFooter();
+        }
+
+    }
+    isAboFooterLoaded();
+    // Check function loaded or not
+
+    __cmp('addEventListener', ['consentscreenoff', waitForConsentString, false], null);
+
+    async function reinitEngagently(){
+        console.log('reinitEngagently');
+        if(user_token != '' && user_token != 'Array'){
+            let egy_alert = document.querySelector('.egy-alerts');
+            if (egy_alert) {
+                egy_alert.classList.add('nw-hidden');
+            }
+        }else{
+            document.querySelector('.egy-alerts').classList.remove('nw-hidden');
+        }
+
+        let loader_container = document.querySelector('.loader-container');
+        if(loader_container.getAttribute('data-setup') === '1'){
+            loader_container.classList.add('nw-hidden');
+        }
+        window.engagently?.signIn({
+            token: user_token,
+        });
+    }
+
+    async function setUserInfo(){
+            if(document.querySelector('.feedback-button') !== null){
+            document.getElementById('my_firstname').value = '';
+            document.getElementById('my_lastname').value = '';
+                document.getElementById('my_email').value = '';
+        }
+    }
+
+
+
+    .alert {
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+
+    .alert-danger {
+        background-color: #f2dede;
+        border-color: #ebccd1;
+        color: #a94442;
+    }
+
+    @media (max-width: 767px) {
+        .alert {
+            font-size: 16px !important;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .alert {
+            font-size: 16px !important;
+        }
+    }
+    .hidden {
+        display: none !important;
+        visibility: hidden !important;
+    }
+    .confirmation-loginbox {
+        height: auto;
+        width: 320px !important;
+        top: 30%;
+        left: 0;
+        right: 0;
+        border-radius:8px !important;
+    }
+
+    @media (max-width: 639px) {
+        .confirmation-loginbox {
+            height: auto;
+            width: 100% !important;
+            border-radius: 24px 24px 0 0 !important;
+            left: 0;
+            right: 0;
+            top: auto;
+            bottom: 0 !important;
+        }
+    }
+
+    @media (max-width: 639px) {
+        @keyframes slideInLoginbox {
+            from {
+                transform: translate(0, 100%);
+            }
+            to {
+                transform: translate(0, 0);
+            }
+        }
+
+        @keyframes slideOutLoginbox {
+            from {
+                transform: translate(0, 0);
+            }
+            to {
+                transform: translate(0%, 100%);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeOut {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+            }
+        }
+    }
+
+
+    
+
+        
+            
+                
+            
+        
+        
+             Jetzt anmelden
+            
+        
+        
+             Diese Funktion steht nur angemeldeten Nutzern/Nutzerinnen zur Verfügung Bitte melden Sie sich an oder registrieren Sie sich kostenlos. 
+
+        
+
+        
+            
+            
+                E-Mail Adresse
+                
+            
+            
+                Passwort
+                
+                    
+                        
+              
+                
+              
+                        
+                    
+                    
+                
+            
+            
+                
+                    
+                        Passwort vergessen?
+                    
+                
+            
+            
+                
+                    
+                    Angemeldet bleiben
+                
+            
+                        
+                
+                    Anmelden
+                
+            
+        
+
+        
+            Sie haben noch keinen Zugang?
+            
+                
+                    
+                        Hier kostenlos registrieren
+                    
+                
+            
+        
+    
+
+    
+
+
+    var passwordField = document.getElementById('loginPassword');
+
+    if (passwordField) {
+        passwordField.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                document.getElementById('my_anmeldung_navbar').submit();
+            }
+        });
+    }
+
+    
+        
+    ul#nw-menu-section {
+        font-size: 14px !important;
+    }
+    ul#nw-menu-section a:hover,
+    ul#nw-menu-section a:focus {
+        color: black !important;
+    }
+
+
+
+    
+    
+    
+            
+                
+                    
+                
+                Menü
+            
+    
+
+    
+
+            
+        
+            
+                Newsticker
+            
+            
+            
+                
+                    
+                    
+                
+            
+        
+        
+        
+    
+    
+    
+    
+        
+            
+                    
+        
+            Ortscheck
+            
+        
+    
+    
+        
+            Arminia
+            
+        
+    
+    
+        
+            Lokal
+            
+        
+    
+    
+        
+            Nachrichten
+            
+        
+    
+    
+        
+            Sport
+            
+        
+    
+    
+        
+            Gesundheit
+            
+        
+    
+    
+        
+            Lifestyle
+            
+        
+    
+    
+        
+            Umwelt
+            
+        
+    
+
+            
+        
+        
+            
+                vorheriger Inhalt
+                
+                    
+                
+            
+            
+                nächster Inhalt
+                
+                    
+                
+            
+        
+    
+
+        
+    
+                
+    
+            
+                
+                    
+                
+                Menü
+            
+    
+
+
+        
+
+                
+            
+                
+                
+            
+        
+        
+
+        
+        
+                
+    
+        
+            
+                    
+        
+            Ortscheck
+            
+        
+    
+    
+        
+            Arminia
+            
+        
+    
+    
+        
+            Lokal
+            
+        
+    
+    
+        
+            Nachrichten
+            
+        
+    
+    
+        
+            Sport
+            
+        
+    
+    
+        
+            Gesundheit
+            
+        
+    
+    
+        
+            Lifestyle
+            
+        
+    
+    
+        
+            Umwelt
+            
+        
+    
+
+            
+        
+        
+            
+                vorheriger Inhalt
+                
+                    
+                
+            
+            
+                nächster Inhalt
+                
+                    
+                
+            
+        
+    
+
+
+    
+
+                    
+    
+        
+            
+                                        
+                            
+                                    Laura Dahlmeier beim Bergsteigen verunglückt
+                            
+                            vor 4 Min.
+                        
+                                        
+                            
+                                    Es kracht gleich zwei Mal: Zwei Verletzte nach Unfall im Kreis Gütersloh
+                            
+                            vor 13 Min.
+                        
+                                        
+                            
+                                    Plötzlicher Anruf in der Nacht: Spenderherz rettet Frau im Kreis Gütersloh das Leben
+                            
+                            vor 13 Min.
+                        
+                                        
+                            
+                                    Ralph Brinkhaus aus dem Kreis Gütersloh: „Letzte Patrone“ daneben geschossen?
+                            
+                            vor 13 Min.
+                        
+                                        
+                            
+                                    Kein Einzug ins Mansergh-Quartier? Hochschule Bielefeld prüft Alternativen in Gütersloh
+                            
+                            vor 14 Min.
+                        
+                                        
+                            
+                                    Kollision mit Baum in Gütersloh: Alkoholisierte BMW-Fahrerin verletzt sich schwer
+                            
+                            vor 14 Min.
+                        
+                                        
+                            
+                                    Supermarkt im Kreis Gütersloh zeitweise geschlossen - die anderen Märkte profitieren
+                            
+                            vor 14 Min.
+                        
+                                        
+                            
+                                    Familie im Kreis Gütersloh bekommt plötzlich ungewollt eine neue Hausnummer
+                            
+                            vor 15 Min.
+                        
+                                        
+                            
+                                    Hilfe bei schmerzhafter Krankheit: Neues Zentrum am Gütersloher Klinikum eröffnet
+                            
+                            vor 15 Min.
+                        
+                                        
+                            
+                                    Immobilieneigentümer parkt Schrottautos im Kreis Gütersloh: Ärger um Autofriedhof
+                            
+                            vor 15 Min.
+                        
+                                
+                     Alle Schlagzeilen 
+                
+            
+        
+    
+    
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+                {
+                "@type":"ListItem",
+                "position":"1",
+                "url":"https://www.nw.de/nachrichten/panorama/24146098_Laura-Dahlmeier-beim-Bergsteigen-verunglueckt.html"
+            },
+                {
+                "@type":"ListItem",
+                "position":"2",
+                "url":"https://www.nw.de/lokal/kreis_guetersloh/verl/24145837_Es-kracht-gleich-zwei-Mal-Zwei-Verletzte-nach-Unfall-im-Kreis-Guetersloh.html"
+            },
+                {
+                "@type":"ListItem",
+                "position":"3",
+                "url":"https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24145515_Ploetzlicher-Anruf-in-der-Nacht-Spenderherz-rettet-Frau-im-Kreis-Guetersloh-das-Leben.html"
+            },
+                {
+                "@type":"ListItem",
+                "position":"4",
+                "url":"https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24145327_Ralph-Brinkhaus-aus-dem-Kreis-Guetersloh-Letzte-Patrone-daneben-geschossen.html"
+            },
+                {
+                "@type":"ListItem",
+                "position":"5",
+                "url":"https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24145571_Kein-Einzug-ins-Mansergh-Quartier-Hochschule-Bielefeld-prueft-Alternativen-in-Guetersloh.html"
+            },
+                {
+                "@type":"ListItem",
+                "position":"6",
+                "url":"https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24145449_Kollision-mit-Baum-in-Guetersloh-Alkoholisierte-BMW-Fahrerin-verletzt-sich-schwer.html"
+            },
+                {
+                "@type":"ListItem",
+                "position":"7",
+                "url":"https://www.nw.de/lokal/kreis_guetersloh/schloss_holte_stukenbrock/24145214_Supermarkt-im-Kreis-Guetersloh-zeitweise-geschlossen-die-anderen-Maerkte-profitieren.html"
+            },
+                {
+                "@type":"ListItem",
+                "position":"8",
+                "url":"https://www.nw.de/lokal/kreis_guetersloh/versmold/24144719_Familie-im-Kreis-Guetersloh-bekommt-ploetzlich-ungewollt-eine-neue-Hausnummer.html"
+            },
+                {
+                "@type":"ListItem",
+                "position":"9",
+                "url":"https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24144712_Hilfe-bei-schmerzhafter-Krankheit-Neues-Zentrum-am-Guetersloher-Klinikum-eroeffnet.html"
+            },
+                {
+                "@type":"ListItem",
+                "position":"10",
+                "url":"https://www.nw.dehttps://www.nw.de/lokal/kreis_guetersloh/verl/24144187_Immobilieneigentuemer-parkt-Schrottautos-im-Kreis-Guetersloh-Aerger-um-Autofriedhof-v1.html"
+            }
+        ]
+}
+
+
+        
+        
+
+    
+        
+            
+                
+            
+        
+    
+        
+        
+            Suche
+            
+                
+                    
+                    
+                    
+                    
+                    
+                        
+                            
+                            
+                                
+                            
+                        
+                    
+                    
+                
+            
+        
+        
+            form = document.getElementById('em_form4');
+
+            window.addEventListener("DOMContentLoaded", function () {
+                document.getElementById('glasssubmit').addEventListener('click', function () {
+                    disableFormFields();
+                    form.submit();
+                });
+            });
+
+            function disableFormFields() {
+                document.getElementById('such').readonly = true;
+                document.getElementById('glasssubmit').disabled = true;
+            }
+        
+    
+
+    
+        
+            Startseite
+        
+    
+    
+        
+            Newsticker
+        
+    
+    
+        
+            Events
+        
+    
+
+                
+            
+                
+                    Lokal
+                                    
+                                        
+    
+    
+        
+            
+        
+    
+
+    
+  
+      
+        
+      
+  
+
+
+                            
+                                
+                    
+                
+                    
+                        Bielefeld
+                                            
+                                                
+    
+    
+        
+            
+        
+    
+
+    
+  
+      
+        
+      
+  
+
+
+                                    
+                                        
+                    
+                
+                    Brackwede
+                    
+                
+            
+                    
+                
+                    Dornberg
+                    
+                
+            
+                    
+                
+                    Gadderbaum
+                    
+                
+            
+                    
+                
+                    Heepen
+                    
+                
+            
+                    
+                
+                    Jöllenbeck
+                    
+                
+            
+                    
+                
+                    Mitte
+                    
+                
+            
+                    
+                
+                    Schildesche
+                    
+                
+            
+                    
+                
+                    Senne
+                    
+                
+            
+                    
+                
+                    Sennestadt
+                    
+                
+            
+                    
+                
+                    Stieghorst
+                    
+                
+            
+            
+
+                            
+                    
+                
+                    
+                        Kreis Gütersloh
+                                            
+                                                
+    
+    
+        
+            
+        
+    
+
+    
+  
+      
+        
+      
+  
+
+
+                                    
+                                        
+                    
+                
+                    Borgholzhausen
+                    
+                
+            
+                    
+                
+                    Gütersloh
+                    
+                
+            
+                    
+                
+                    Halle
+                    
+                
+            
+                    
+                
+                    Harsewinkel
+                    
+                
+            
+                    
+                
+                    Herzebrock-Clarholz
+                    
+                
+            
+                    
+                
+                    Langenberg
+                    
+                
+            
+                    
+                
+                    Rheda-Wiedenbrück
+                    
+                
+            
+                    
+                
+                    Rietberg
+                    
+                
+            
+                    
+                
+                    Schloß Holte-Stukenbrock
+                    
+                
+            
+                    
+                
+                    Steinhagen
+                    
+                
+            
+                    
+                
+                    Verl
+                    
+                
+            
+                    
+                
+                    Versmold
+                    
+                
+            
+                    
+                
+                    Werther
+                    
+                
+            
+            
+
+                            
+                    
+                
+                    
+                        Kreis Herford
+                                            
+                                                
+    
+    
+        
+            
+        
+    
+
+    
+  
+      
+        
+      
+  
+
+
+                                    
+                                        
+                    
+                
+                    Bünde
+                    
+                
+            
+                    
+                
+                    Enger
+                    
+                
+            
+                    
+                
+                    Herford
+                    
+                
+            
+                    
+                
+                    Hiddenhausen
+                    
+                
+            
+                    
+                
+                    Kirchlengern
+                    
+                
+            
+                    
+                
+                    Löhne
+                    
+                
+            
+                    
+                
+                    Rödinghausen
+                    
+                
+            
+                    
+                
+                    Spenge
+                    
+                
+            
+                    
+                
+                    Vlotho
+                    
+                
+            
+            
+
+                            
+                    
+                
+                    
+                        Kreis Höxter
+                                            
+                                                
+    
+    
+        
+            
+        
+    
+
+    
+  
+      
+        
+      
+  
+
+
+                                    
+                                        
+                    
+                
+                    Bad Driburg
+                    
+                
+            
+                    
+                
+                    Beverungen
+                    
+                
+            
+                    
+                
+                    Boffzen
+                    
+                
+            
+                    
+                
+                    Borgentreich
+                    
+                
+            
+                    
+                
+                    Brakel
+                    
+                
+            
+                    
+                
+                    Höxter
+                    
+                
+            
+                    
+                
+                    Holzminden
+                    
+                
+            
+                    
+                
+                    Marienmünster
+                    
+                
+            
+                    
+                
+                    Nieheim
+                    
+                
+            
+                    
+                
+                    Steinheim
+                    
+                
+            
+                    
+                
+                    Warburg
+                    
+                
+            
+                    
+                
+                    Willebadessen
+                    
+                
+            
+            
+
+                            
+                    
+                
+                    
+                        Kreis Lippe
+                                            
+                                                
+    
+    
+        
+            
+        
+    
+
+    
+  
+      
+        
+      
+  
+
+
+                                    
+                                        
+                    
+                
+                    Augustdorf
+                    
+                
+            
+                    
+                
+                    Bad Salzuflen
+                    
+                
+            
+                    
+                
+                    Barntrup
+                    
+                
+            
+                    
+                
+                    Blomberg
+                    
+                
+            
+                    
+                
+                    Detmold
+                    
+                
+            
+                    
+                
+                    Dörentrup
+                    
+                
+            
+                    
+                
+                    Extertal
+                    
+                
+            
+                    
+                
+                    Horn-Bad Meinberg
+                    
+                
+            
+                    
+                
+                    Kalletal
+                    
+                
+            
+                    
+                
+                    Lage
+                    
+                
+            
+                    
+                
+                    Lemgo
+                    
+                
+            
+                    
+                
+                    Lügde
+                    
+                
+            
+                    
+                
+                    Leopoldshöhe
+                    
+                
+            
+                    
+                
+                    Oerlinghausen
+                    
+                
+            
+                    
+                
+                    Schieder-Schwalenberg
+                    
+                
+            
+                    
+                
+                    Schlangen
+                    
+                
+            
+            
+
+                            
+                    
+                
+                    
+                        Kreis Minden-Lübbecke
+                                            
+                                                
+    
+    
+        
+            
+        
+    
+
+    
+  
+      
+        
+      
+  
+
+
+                                    
+                                        
+                    
+                
+                    Bad Oeynhausen
+                    
+                
+            
+                    
+                
+                    Espelkamp
+                    
+                
+            
+                    
+                
+                    Hille
+                    
+                
+            
+                    
+                
+                    Hüllhorst
+                    
+                
+            
+                    
+                
+                    Lübbecke
+                    
+                
+            
+                    
+                
+                    Minden
+                    
+                
+            
+                    
+                
+                    Petershagen
+                    
+                
+            
+                    
+                
+                    Porta Westfalica
+                    
+                
+            
+                    
+                
+                    Pr Oldendorf
+                    
+                
+            
+                    
+                
+                    Rahden
+                    
+                
+            
+                    
+                
+                    Stemwede
+                    
+                
+            
+            
+
+                            
+                    
+                
+                    
+                        Kreis Paderborn
+                                            
+                                                
+    
+    
+        
+            
+        
+    
+
+    
+  
+      
+        
+      
+  
+
+
+                                    
+                                        
+                    
+                
+                    Altenbeken
+                    
+                
+            
+                    
+                
+                    Bad Lippspringe
+                    
+                
+            
+                    
+                
+                    Bad Wünnenberg
+                    
+                
+            
+                    
+                
+                    Borchen
+                    
+                
+            
+                    
+                
+                    Büren
+                    
+                
+            
+                    
+                
+                    Delbrück
+                    
+                
+            
+                    
+                
+                    Hövelhof
+                    
+                
+            
+                    
+                
+                    Lichtenau
+                    
+                
+            
+                    
+                
+                    Paderborn
+                    
+                
+            
+                    
+                
+                    Salzkotten
+                    
+                
+            
+            
+
+                            
+            
+
+                    
+            
+            
+                
+                    Nachrichten
+                                    
+                                        
+    
+    
+        
+            
+        
+    
+
+    
+  
+      
+        
+      
+  
+
+
+                            
+                                
+                    
+                
+                    
+                        Zwischen Weser und Rhein
+                                            
+                                    
+                            
+                    
+                
+                    
+                        Politik
+                                            
+                                    
+                            
+                    
+                
+                    
+                        Meinung
+                                            
+                                    
+                            
+                    
+                
+                    
+                        Wirtschaft
+                                            
+                                    
+                            
+                    
+                
+                    
+                        Panorama
+                                            
+                                    
+                            
+                    
+                
+                    
+                        Kultur
+                                            
+                                                
+    
+    
+        
+            
+        
+    
+
+    
+  
+      
+        
+      
+  
+
+
+                                    
+                                        
+                    
+                
+                    TV-Programm
+                    
+                
+            
+            
+
+                            
+                    
+                
+                    
+                        Wissenschaft
+                                            
+                                    
+                            
+            
+
+                    
+            
+            
+                
+                    Sport
+                                    
+                                        
+    
+    
+        
+            
+        
+    
+
+    
+  
+      
+        
+      
+  
+
+
+                            
+                                
+                    
+                
+                    
+                        Lokalsport
+                                            
+                                    
+                            
+                    
+                
+                    
+                        DSC Arminia Bielefeld
+                                            
+                                    
+                            
+                    
+                
+                    
+                        Fußball
+                                            
+                                    
+                            
+                    
+                
+                    
+                        SC Paderborn 07
+                                            
+                                    
+                            
+                    
+                
+                    
+                        Basketball
+                                            
+                                    
+                            
+                    
+                
+                    
+                        Handball
+                                            
+                                    
+                            
+                    
+                
+                    
+                        Hermannslauf
+                                            
+                                    
+                            
+                    
+                
+                    
+                        Terra Wortmann Open
+                                            
+                                    
+                            
+            
+
+                    
+            
+            
+                
+                    Gesundheit
+                                    
+                            
+                    
+            
+            
+                
+                    Lifestyle
+                                    
+                                        
+    
+    
+        
+            
+        
+    
+
+    
+  
+      
+        
+      
+  
+
+
+                            
+                                
+                    
+                
+                    
+                        Essen & Trinken
+                                            
+                                    
+                            
+                    
+                
+                    
+                        Familie
+                                            
+                                    
+                            
+                    
+                
+                    
+                        Garten
+                                            
+                                    
+                            
+                    
+                
+                    
+                        Lust und Liebe
+                                            
+                                    
+                            
+                    
+                
+                    
+                        Medien
+                                            
+                                    
+                            
+                    
+                
+                    
+                        Netzwelt
+                                            
+                                    
+                            
+                    
+                
+                    
+                        Reise
+                                            
+                                    
+                            
+                    
+                
+                    
+                        Wohnen
+                                            
+                                    
+                            
+                    
+                
+                    
+                        Lotto
+                                                    Anzeige
+                                            
+                                    
+                            
+                    
+                
+                    
+                        Mobilität
+                                            
+                                    
+                            
+            
+
+                    
+            
+            
+                
+                    Umwelt
+                                    
+                            
+                    
+    
+        
+        
+            
+                Abo
+            
+            
+                ePaper
+            
+            
+                News-App
+            
+            
+                Lesezeichen
+            
+            
+                NW-Karte
+            
+            
+                Shop
+            
+            
+                Anzeigen
+            
+
+            
+                Archiv
+            
+
+                                                
+                Kontakt
+            
+            
+                Newsletter
+            
+            
+                Podcast
+            
+            
+                Gewinnspiele
+            
+            
+                Push-Einstellungen
+            
+        
+        
+            Folgen Sie uns
+        
+        
+            
+                Facebook
+                
+                    
+                
+            
+            
+                Pinterest
+                
+                    
+                
+            
+
+            
+                Instagram
+                
+                    
+                
+            
+        
+    
+
+
+
+    
+
+
+
+    
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+        var loginInitiated = false;
+        if (!loginInitiated) {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', '/_em_cms/globals/modul.php?modul=modul_login_box', true);
+            xhr.setRequestHeader('Cache-Control', 'no-cache');
+            xhr.responseType = "document";
+            xhr.onload = function () {
+                if (xhr.status >= 200 && xhr.status < 300) {
+                    //var html = xhr.response.documentElement.innerHTML;
+
+                    var responseDoc = xhr.response;
+                    var html = responseDoc.documentElement.innerHTML;
+                    var container = document.createElement('div');
+                    container.innerHTML = html;
+                    document.getElementById("em_login_head").insertAdjacentHTML('beforeend', container.innerHTML);
+
+                    // Extract and execute scripts
+                    var scripts = container.getElementsByTagName('script');
+                    for (var i = 0; i < scripts.length; i++) {
+                        var script = document.createElement('script');
+                        if (scripts[i].src) {
+                            // If the script has a src attribute, dynamically create a script element
+                            script.src = scripts[i].src;
+                        } else {
+                            // If the script contains inline code, set its text content
+                            script.textContent = scripts[i].textContent;
+                        }
+                        document.head.appendChild(script);
+                    }
+
+                    if (window.location.href.indexOf("#open-login") !== -1) {
+                        document.getElementById('nw-loginbox').classList.remove("nw-hidden");
+                        document.getElementById('nw-loginbox').scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                    document.getElementById('nw-loginbox').style.zIndex = 9999999999;
+
+                    var loginboxNavbarDestination = document.getElementById("#loginbox-navbar-destination");
+                    var loginboxNavbar = document.getElementById("#loginbox-navbar");
+                    if (loginboxNavbarDestination && loginboxNavbar) {
+                        loginboxNavbarDestination.parentNode.replaceChild(loginboxNavbar, loginboxNavbarDestination);
+                    }
+
+                    var loginErrorSource = document.getElementById("em_login_error_source");
+                    var loginErrorDestination = document.getElementById("em_login_error_destination");
+                    if (loginErrorSource && loginErrorDestination) {
+                        loginErrorDestination.innerHTML = loginErrorSource.innerHTML;
+                        toggleLoginBox(false);
+                    }
+
+                    var xsLogin = document.getElementById("xs-login");
+                    var xsLoginSource = document.getElementById("xs-login-source");
+                    if (xsLogin && xsLoginSource) {
+                        xsLogin.parentNode.replaceChild(xsLoginSource, xsLogin);
+                    }
+
+                    if (loginErrorSource) {
+                        document.getElementById('nw-loginbox').classList.remove('nw-hidden') ;
+                        document.getElementById('background-popup').classList.remove('nw-hidden');
+                    }
+                }
+            };
+            xhr.send();
+            loginInitiated = true;
+        }
+    });
+
+
+
+        function triggerCacheLog(userstatus_upscore, sso_id, sso_hash, user_token, pw_cookie, plus_article) {
+        console.log('cache-log: ' + document.getElementsByClassName('nw-overlay').length + ':' + userstatus_upscore);
+        if (document.getElementsByClassName('nw-overlay').length === 1 && userstatus_upscore === 2 ) {
+            var url = '/_apps/nw/test/sub-paywall-log.php';
+            var data = { sso_id: sso_id, sso_hash: sso_hash, user_token: user_token, pw_cookie: pw_cookie, userstatus: userstatus_upscore, url: document.URL, useragent: window.navigator.userAgent, time: new Date};
+            postAjax(url, data, function(data){ console.log(data); });
+        }
+        if (plus_article && document.getElementsByClassName('nw-overlay').length === 0 && userstatus_upscore < 2 ) {
+            var url = '/_apps/nw/test/noabo-plusread-log.php';
+            var data = { sso_id: sso_id, sso_hash: sso_hash, user_token: user_token, pw_cookie: pw_cookie, userstatus: userstatus_upscore, url: document.URL, useragent: window.navigator.userAgent, time: new Date};
+            postAjax(url, data, function(data){ console.log(data); });
+        }
+
+    }
+
+    function postAjax(url, data, success) {
+        var params = typeof data == 'string' ? data : Object.keys(data).map(
+            function(k){ return encodeURIComponent(k) + '=' + encodeURIComponent(data[k]) }
+        ).join('&');
+
+        var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        xhr.open('POST', url);
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState>3 && xhr.status==200) { success(xhr.responseText); }
+        };
+        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.send(params);
+        return xhr;
+    }
+
+
+
+
+
+    
+
+    
+
+
+.article-list a:hover {
+color: inherit;
+}
+.article {
+padding: 15px;
+margin-bottom:10px;
+}
+.article:hover {
+background-color: #f7f7f7;
+}
+.article img{
+margin-bottom:10px;
+}
+.article .img-wrap img{
+width:100%;
+}
+.article img.img-responsive{
+height:auto;
+}
+.article-teaser-12sp{
+margin-top:0px;
+}
+@media (min-width:768px){
+.article .img-wrap img{
+width:auto;
+}
+}
+@media (min-width:1008px){
+.article img{
+margin-bottom:0px;
+}
+.article-teaser-12sp.article-teaser-bot{
+display:none;
+}
+}
+
+.author-image-container {
+background-color: #F2F5F9;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+height: 194px;
+padding: 10px;
+}
+
+@media (max-width: 767px) {
+.author-image-container {
+margin-bottom: 10px; /* Adjust or remove the margin as needed */
+}
+}
+
+.author-image-new {
+flex-shrink: 0;
+border-radius: 50%;
+object-fit: cover;
+border: 6px solid white;
+max-width: 100%;
+height: auto;
+}
+
+@media (max-width: 767px) {
+.author-image-new {
+width: 120px; /* Your desired width for mobile */
+height: 120px; /* Your desired height for mobile */
+}
+}
+
+.author-name {
+color: #333;
+font-weight: 600;
+font-size: 16px;
+margin-top: 16px;
+}
+
+@media (max-width: 767px) {
+.author-name {
+margin-top: 0; /* Adjust or remove the margin as needed */
+}
+}
+
+
+
+
+
+News-Artikel
+
+
+
+
+
+
+
+
+
+
+
+Bundeswehr
+
+
+ „Wir nehmen die Bedrohung sehr ernst“: Die Kriegsgefahr ist in OWL angekommen
+
+ 
+
+11
+Die Soldaten am Standort Augustdorf nehmen die Bedrohung durch Russland in ihrem Arbeitsalltag ernst. Die Panzerbrigade 21 wurde deutlich umstrukturiert.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+News-Artikel
+
+  
+
+
+
+
+
+
+
+
+Strandgut in Holland
+
+
+Zwei Jahre auf See: Junge Nie­der­län­de­rin sucht Bielefelder Fla­schen­post-Au­tor
+ 
+ 
+
+1
+
+Eine junge Holländerin findet eine vermutlich im April 2023 ins Meer gelangte Flaschenpost. Jetzt sucht sie den Verfasser der Zeilen.
+
+
+
+
+
+
+
+
+
+  
+
+
+News-Artikel
+
+  
+
+
+
+
+
+
+
+
+2. Bundesliga
+
+
+ Schwere Verletzung beim SC Paderborn 07: David Kinsombi fällt monatelang aus
+ 
+ 
+
+
+
+Rückkehrer David Kinsombi hat sich gerade in den Vordergrund gespielt, nun zwingt ihn eine Verletzung zu einer langen Pause. Doch es gibt auch gute Nachrichten.
+
+
+
+
+
+
+
+    
+        .themeTeaser {
+            background-image: url('https://www.nw.de/_em_daten/_cache/image/1xTldRcVg2aFYyMkpORXVnbHZYQ3ZpS0h6ZFBEWSszam9lb3BGa0pZMzNHYVNRQkRlSkdTeDA4SVFES2p2clF5Q2JjeXMrejVrd2R6Qkx1eWhWQXYrQW5yVGZWVUxMZDFSUW92ZFBRdnhKRDA9/250728-1629-642453929.jpg');
+            min-width: 300px;
+            max-width: 660px;
+            min-height: 400px;
+        }
+    
+
+    
+        
+        
+            
+                
+                    
+                        Klage eingereicht
+                    
+                    
+                        Handgepäck im Flugzeug: Ändern sich die Regeln bald für alle?
+                    
+                    
+                        Zum Thema
+                    
+                
+                
+                
+                                
+                    
+                        Ohne Zuzahlung
+                        Mit dem Deutschlandticket ins Ausland: Diese zehn Städte sind eine Reise wert
+                    
+                    
+                        Griechenland, Italien, Adria
+                        Waldbrände in Südeuropa: Was Urlauber wissen müssen
+                    
+                
+                            
+        
+    
+
+
+  
+
+
+News-Artikel
+
+  
+
+
+
+
+
+
+
+
+Organtransplantation
+
+
+ Plötzlicher Anruf in der Nacht: Spenderherz rettet Frau im Kreis Gütersloh das Leben
+ 
+ 
+
+
+
+Durch Zufall wird bei Lena Peter eine Herzschwäche festgestellt. Sie braucht ein neues Organ. Wochenlang wartet sie. Dann muss alles plötzlich schnell gehen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+News-Artikel
+
+  
+
+
+
+
+
+
+
+
+Nachruf
+
+
+Trauer um Gold­beck-Ge­schäfts­füh­rer Uwe Brackmann
+ 
+ 
+
+
+
+Er trieb die Internationalisierung voran und setzte Maßstäbe bei Bau von Logistikhallen.
+
+
+
+
+
+
+
+
+
+  
+
+
+News-Artikel
+
+  
+
+
+
+
+
+
+
+
+Personen fühlen sich komisch
+
+
+ Vorfälle in Paderborner Kneipe: K.o.-Tropfen in Gläsern von Gästen im Limericks
+ 
+
+
+Die Betroffenen melden sich bei dem Wirt der Paderborner Kneipe Limericks. Sie klagen über Halluzinationen und Erbrechen. Der Gastronom kündigt Maßnahmen an.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+News-Artikel
+
+  
+
+
+
+
+
+
+
+
+25 Jahre FHM
+
+
+ Karriere nach dem Studium: Fünf Er­folgs­ge­schich­ten made in Bielefeld
+ 
+ 
+
+
+
+15.000 Alumni zählt die Fachhochschule des Mittelstands zum 25-jährigen Jubiläum. Fünf von ihnen zeigen, wie sehr sie ihre Zeit in Bielefeld geprägt hat.
+
+
+
+
+
+
+
+    
+        
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                
+                            
+                            
+                                
+                                    Loveparade-Ersthelfer
+                                
+                                
+                                    Trauer um Bielefelder Michael Korth: Kämpfer für den Ret­tungs­dienst ist gestorben
+                                                                                                            
+                                        
+                                            
+                                                
+                                            
+                                            
+                                        
+                                    
+                                
+                                Anderen zu helfen war für ihn Lebensaufgabe. Michael Korth erhielt für seine Arbeit das Bundesverdienstkreuz und war Ersthelfer bei der Loveparade-Katastrophe.
+
+                            
+                        
+                    
+                
+            
+        
+    
+    
+        
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                
+                            
+                            
+                                
+                                    Infos im Überblick
+                                
+                                
+                                    Libori 2025 in Paderborn: Programm, Öff­nungs­zei­ten, Parken – das müssen Besucher wissen
+                                                                                                            
+                                        
+                                            
+                                                
+                                            
+                                            
+                                        
+                                    
+                                
+                                Höhepunkte des Programms, Parkplätze, Öffnungszeiten, verkaufsoffener Sonntag und mehr: Die NW hat alle wichtigen Infos zu Libori 2025 zusammengestellt.
+
+                            
+                        
+                    
+                
+            
+        
+    
+    
+        
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                
+                            
+                            
+                                
+                                    2. Bundesliga
+                                
+                                
+                                    Was wurde aus Manuel Riemann? SC Paderborn schafft Klarheit im Tor­wart-Rät­sel
+                                                                                                            
+                                        
+                                            
+                                                
+                                            
+                                            
+                                        
+                                    
+                                
+                                Noch im Winter wechselte Manuel Riemann als neue Nummer eins zum SCP. Doch seit dieser Saison fehlt der Routinier. Viele Fans fragen sich: Wo ist er hin?
+
+                            
+                        
+                    
+                
+            
+        
+    
+
+            
+            
+                Umfrage des Tages
+            
+            
+        
+        
+    
+        
+        
+    
+
+
+    const pinpollWrappers = document.querySelectorAll('.pinpoll-wrapper');
+
+    const pinpollObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                const pinpollElement = entry.target.querySelector('[data-pinpoll-id]');
+                const spinner = entry.target.querySelector('.loading-spinner');
+
+                // Check if the poll is already loaded hide the spinner
+                if (pinpollElement) {
+                    pinpollElement.dataset.pollLoaded = 'true';
+                    setTimeout(function () {
+                        spinner.classList.add('nw-hidden');
+                    }, 1000);
+
+                    const wrapper = entry.target;
+
+                    // MutationObserver for the iframe and if exist add title attribute
+                    const iframeObserver = new MutationObserver((iframeMutationsList, iframeObserver) => {
+                        const iframe = wrapper.querySelector('iframe');
+                        if (iframe) {
+                            iframe.title = 'Umfrage';
+                            iframeObserver.disconnect();
+                        }
+                    });
+
+                    // Existinf mutationObserver for the iframe and if exist add title attribute
+                    const existingIframe = wrapper.querySelector('iframe');
+                    if (existingIframe) {
+                        existingIframe.title = 'Umfrage';
+                        iframeObserver.disconnect();
+                    } else {
+                        iframeObserver.observe(wrapper, { childList: true, subtree: true });
+                    }
+                }
+                pinpollObserver.unobserve(entry.target);
+            }
+        });
+    });
+
+    pinpollWrappers.forEach((wrapper) => {
+        pinpollObserver.observe(wrapper);
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Meistgelesen
+
+
+
+
+
+
+
+
+
+
+
+1
+
+Zwei Jahre auf See: Junge Nie­der­län­de­rin sucht Bielefelder Fla­schen­post-Au­tor  
+
+
+
+
+
+
+2
+
+Tipps für Eltern: Diese 25 Dinge hätten wir gerne vor der Einschulung gewusst  
+
+
+
+
+
+
+3
+
+Vorfälle in Paderborner Kneipe: K.o.-Tropfen in Gläsern von Gästen im Limericks  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Zum Artikel
+
+
+
+
+
+
+
+
+
+
+    .confirmation-loginbox {
+        height: auto;
+        width: 320px !important;
+        top: 30%;
+        left: 0;
+        right: 0;
+        border-radius:8px !important;
+    }
+
+    @media (max-width: 639px) {
+        .confirmation-loginbox {
+            height: auto;
+            width: 100% !important;
+            border-radius: 24px 24px 0 0 !important;
+            left: 0;
+            right: 0;
+            top: auto;
+            bottom: 0 !important;
+        }
+
+        @keyframes slideInLoginbox {
+            from {
+                transform: translate(0, 100%);
+            }
+            to {
+                transform: translate(0, 0);
+            }
+        }
+
+        @keyframes slideOutLoginbox {
+            from {
+                transform: translate(0, 0);
+            }
+            to {
+                transform: translate(0%, 100%);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeOut {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+            }
+        }
+    }
+    .nw-dropdown ul {
+        max-height: 200px;
+    }
+
+    input[type=text] {
+        -webkit-appearance: none;
+    }
+
+    .dialog-box-p-full-width {
+        width: 100% !important;
+    }
+
+
+    $(document).ready(function () {
+        // Store the base URL in a variable for use in the AJAX requests
+        var baseUrl = window.location.href;
+        $('input[id^="referrer_url"]').val(baseUrl);
+        $(document).on('submit', '.nl-anmeldung-form', function (event) {
+            event.preventDefault();
+
+
+            var frm = $(this);
+            var isFormValid = true;
+
+            var nl_id = frm.find('input[name="nl_id"], select[name="nl_id"]').val();
+            if (!nl_id) {
+                frm.find('.error-message-nl_id').show();
+                isFormValid = false;
+            } else {
+                frm.find('.error-message-nl_id').hide();
+            }
+
+            var email = frm.find('input[type="email"]').val();
+            var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!email || !emailRegex.test(email)) {
+                frm.find('.error-message-mail').show();
+                isFormValid = false;
+            } else {
+                frm.find('.error-message-mail').hide();
+            }
+
+            if (!isFormValid) {
+                event.preventDefault();
+                return;
+            }
+
+            var frm = $(this);
+            var trackEventName = frm.attr('name');
+            var eventCategory = frm.find('input[name="event_category"]').val();
+            $.ajax({
+                url: frm.attr('action'),
+                type: frm.attr('method'),
+                data: frm.serialize(),
+                success: function(data) {
+                    var resp = JSON.parse(data);
+                    switch (resp.status_code) {
+                        case 1:
+                            showModal('confirmation_fehler_aufgetreten', frm);
+                            break;
+                        case 6:
+                            showModal('confirmation_bestätigung', frm);
+                            break;
+                        case 5:
+                            showModal('confirmation_not_bestätigung', frm);
+                            break;
+                        case 4:
+                            showModal('confirmation_erfolgreich', frm);
+                            break;
+                        case 7:
+                            showModal('confirmation_bereits_angemeldet', frm);
+                            break;
+                        default:
+                            break;
+                    }
+                    _paq.push(["trackEvent", eventCategory, "click", trackEventName]);
+                }
+            });
+        });
+
+        // Close modal function
+        function closeModal(modalId) {
+            const confirmation = document.getElementById(modalId);
+            const overlay = document.getElementById('overlay');
+            if(confirmation && overlay) {
+                if (window.innerWidth <= 639) {
+                    confirmation.style.animation = 'slideOutLoginbox 1s forwards';
+                    overlay.style.animation = 'fadeOut 0.5s forwards';
+
+                    confirmation.addEventListener('animationend', function() {
+                        confirmation.style.display = 'none';
+                        overlay.style.display = 'none';
+                        hideNewsletterBox();
+                    }, { once: true });
+                } else {
+                    confirmation.style.display = 'none';
+                    overlay.style.display = 'none';
+                    hideNewsletterBox();
+                }
+            }
+        }
+
+        // hide the Article newsletter sign-up box
+        function hideNewsletterBox() {
+            var newsletterBox = $('.hide-article-newsletter-box');
+            if (newsletterBox.length) {
+                newsletterBox.hide();
+            }
+        }
+
+        // Show modal function
+        function showModal(modalId, frm) {
+            const overlay = document.getElementById('overlay');
+            const confirmation = document.getElementById(modalId);
+            if (confirmation && overlay) {
+                confirmation.style.display = 'block';
+                confirmation.style.animation = 'slideInLoginbox 1s forwards';
+                overlay.style.animation = 'fadeIn 0.5s forwards';
+                overlay.style.display = 'block';
+                frm.find('input[type="email"]').val(''); // Clear the email input for the specific form
+            }
+
+        }
+        // Attach close event to all close buttons in any modal
+        document.querySelectorAll('.modal .x-svg').forEach(function(closeButton) {
+            closeButton.addEventListener('click', function() {
+                const modal = this.closest('.modal');
+                if (modal) {
+                    closeModal(modal.id);
+                }
+            });
+        });
+    });
+
+    function trackEvent(category, action, name, c_float) {
+        var trackingData = ['trackEvent', category, action, name, c_float];
+        _paq.push(trackingData);
+        //console.log('Tracking data sent:', trackingData);
+    }
+
+
+
+
+    
+        ×
+    
+    
+        
+        
+    
+    
+        
+            Sie erhalten in wenigen Minuten eine E-Mail zur Bestätigung Ihrer Anmeldung.
+        
+        
+            Erst danach ist diese abgeschlossen.
+            Bitte prüfen Sie auch den Spam-Ordner.
+        
+    
+
+
+    
+        ×
+    
+    
+        
+        
+    
+    
+        
+            Sie haben bisher Ihre E-Mail-Adresse noch nicht bestätigt.
+        
+        
+            Erst danach ist diese abgeschlossen.
+            Bitte prüfen Sie auch den Spam-Ordner.
+        
+    
+
+
+    
+        ×
+    
+    
+        
+        
+    
+    
+        
+            Ihre Anmeldung
+            war erfolgreich.
+        
+                    
+                Weitere Newsletter entdecken
+            
+            
+
+
+
+    
+        ×
+    
+    
+        
+        
+    
+    
+        
+            Sie sind bereits für den
+            Newsletter angemeldet.
+        
+                    
+                Weitere Newsletter entdecken
+            
+            
+
+
+
+    
+        ×
+    
+    
+        
+        
+    
+    
+        
+            Es ist einen Fehler aufgetreten
+        
+        
+            Bei Fragen hilft unser Newsletter-Support
+                         newsletter@nw.de
+                    
+    
+
+
+
+            
+    @media screen and (min-width: 767px) {
+        .newsletter-single-box-float {
+           float:left;
+        }
+    }
+
+
+    
+        
+            
+                Newsletter
+            
+            
+                
+                    
+                    
+                
+            
+        
+    
+    
+        
+            
+                
+            
+            
+                
+                    
+                        Update zum Mittag
+                        täglich (Mo - So)
+                        Erhalten Sie die wichtigsten News des Tages aus OWL, Deutschland und der Welt per E-Mail direkt aus der Chefredaktion.
+                    
+                    
+                        E-Mail-Adresse für Newsletteranmeldung
+                        
+                    
+                    Mit meiner Anmeldung zum Newsletter stimme ich der Werbevereinbarung zu. Weitere Informationen finden Sie in der
+                        Datenschutzerklärung.
+                    
+
+                    
+                        
+                            Abonnieren
+                        
+                    
+                    
+                    
+                        
+    
+    
+    
+    
+
+                
+            
+        
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+    console.log('Lokalbox User-ID' + )
+    
+        
+            
+            
+                
+                    Lokales
+                
+            
+            
+        
+
+        
+            
+                
+                    Bielefeld
+                
+                    Kreis Gütersloh
+                
+                    Kreis Herford
+                
+                    Kreis Höxter
+                
+                    Kreis Lippe
+                
+                    Kreis Minden-Lübbecke
+                
+                    Kreis Paderborn
+            
+        
+        
+            
+                
+                                        
+                                                
+                        
+                            
+                                
+                        
+                        
+                            Loveparade-Ersthelfer
+                            
+                                
+                                     Trauer um Bielefelder Michael Korth: Kämpfer für den Ret­tungs­dienst ist gestorben
+                                
+                            
+                                                        
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                            
+                        
+                    
+                    
+                                                            
+                                                
+                        
+                            
+                                
+                        
+                        
+                            Infos im Überblick
+                            
+                                
+                                     Libori 2025 in Paderborn: Programm, Öff­nungs­zei­ten, Parken – das müssen Besucher wissen
+                                
+                            
+                                                        
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                            
+                        
+                    
+                    
+                                    
+
+                
+                                                            
+                                                
+                        
+                            
+                                
+                        
+                        
+                            Lebensgefährlicher Vorgang
+                            
+                                
+                                     Unfassbare Aktion: Unbekannte werfen E-Scooter auf den Bielefelder Ost­west­fa­len­damm
+                                
+                            
+                                                        
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                            
+                        
+                    
+                    
+                                                            
+                                                
+                        
+                            
+                                
+                        
+                        
+                            Gewalt gegen Frauen
+                            
+                                
+                                     Stress vor Bielefelder Club „Prime“: Discogänger schlägt junge Frauen
+                                
+                            
+                                                        
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                            
+                        
+                    
+                    
+                                        
+                    
+                
+            
+        
+        
+            Weitere Meldungen aus:
+            
+                Ostwestfalen-Lippe
+            
+            
+                Bielefeld
+                
+                Kreis
+                        Gütersloh
+                Kreis
+                        Herford
+                Kreis
+                        Höxter
+                Kreis
+                        Lippe
+                Kreis
+                        Minden-Lübbecke
+                Kreis
+                        Paderborn
+            
+        
+    
+    
+    
+        Weitere Meldungen
+        
+    
+
+
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+        // console.log('Cookie: ' + parent.NW.getCookieValue('show-drive'));
+        // setCookie no-drive
+
+
+                    if (window.location.href == 'https://www.nw.de/' || window.location.href.includes('jdbg')) {
+                checkVendorConsent('c26049', ajaxCallDriveRecos('lokales')); //'c26049' - drive vendor id
+                checkVendorConsent('c26049', ajaxCallDriveRecos('top-individual')); //'c26049' - drive vendor id
+            }
+            }, false);
+    
+    function checkVendorConsent(vendorId, callback) {
+        let interval = setInterval(function () {
+            if (typeof getCMPData === 'undefined' || Object.keys(getCMPData.vendorConsents).length === 0) {
+                clearInterval(interval);
+                checkVendorConsent(vendorId, callback);
+            } else {
+                if (vendorId in getCMPData.vendorConsents && getCMPData.vendorConsents[vendorId]) {
+                    callback && callback();
+                }
+                clearInterval(interval);
+                return;
+            }
+        }, 200);
+    }
+
+        let options = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 1.0
+    }
+    let alreadyIntersected = [];
+    let IntersectionObservercallback = (entries, observer) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                let property = {
+                    article_id: entry.target.getAttribute('data-article-id'),
+                    correlation_id: entry.target.getAttribute('data-correlation-id'),
+                    is_plus: (entry.target.getAttribute('data-is-plus') == 1),
+                    plus_sign_visible: (entry.target.getAttribute('data-plus-sign-visible') == 1),
+                    box_type: 'box',  // Box-Typ: slider, box oder null
+                    position_in_box: parseInt(entry.target.getAttribute('data-article-position'))
+                }
+
+                if (!alreadyIntersected.includes(property.article_id)) {
+                    window.drive && window.drive(
+                        "trackSelfDescribingEvent",
+                        {
+                            schema: "iglu:de.drive/recommendation_exposure/jsonschema/1-0-0",
+                            data: property,
+                        },
+                        [
+                            {
+                                schema: 'iglu:de.drive/box_context/jsonschema/1-0-0',
+                                data: {
+                                    box_title: entry.target.getAttribute('data-boxname'),  // Titel der Personalisierungsbox
+                                    num_articles_in_box: 3,  // Anzahl Artikel in der Box
+                                    box_x_start: 100.0000, // Startposition X der Box
+                                    box_y_start: 100.0000, // Startposition Y der Box
+                                    width: 100.0000,  // Breite in Pixel
+                                    height: 100.0000, // Höhe in Pixel
+                                }
+                            },
+                            {
+                                schema: "iglu:de.drive/recommendation_retrieval_context/jsonschema/1-0-0",
+                                data: {
+                                    load_time_ms: 120.0 // Antwortzeit der DRIVE API
+                                }
+                            }
+                        ]
+                    );
+                }
+                // nur einmal Intersection als exposure an drive senden
+                alreadyIntersected.push(property.article_id);
+                return;
+            }
+        });
+    };
+    let observer = new IntersectionObserver(IntersectionObservercallback, options);
+
+    function monitorDriveRecoExposure() {
+        let target = document.querySelectorAll('.drive-reco');
+        target.forEach((elem) => {
+            observer.observe(elem);
+        });
+    }
+    
+        function addClickEventsToDriveRecos() {
+        // Reco-Clicks
+        var driveRecoLinks = document.getElementsByClassName('drive-reco');
+        var i = driveRecoLinks.length;
+        while (i--) {
+            driveRecoLinks[i].addEventListener('click', driveRecoClick);
+        }
+    }
+
+    function driveRecoClick() {
+        let property = {
+            "article_id": this.getAttribute('data-article-id'),
+            "correlation_id": this.getAttribute('data-correlation-id')
+        }
+        // let experimentGroup = this.getAttribute('data-exp-group');
+
+        // window.drive('trackStructEvent', 'experiment', 'click', 'owl-personalisierung-baumfalke', JSON.stringify(property), experimentGroup);
+        window.drive(
+            "trackSelfDescribingEvent",
+            {
+                schema: "iglu:de.drive/recommendation_click/jsonschema/1-0-0",
+                data: property
+            },
+            [
+                {
+                    schema: 'iglu:de.drive/box_context/jsonschema/1-0-0',
+                    data: {
+                        box_title: this.getAttribute('data-boxname'),  // Titel der Personalisierungsbox
+                        num_articles_in_box: 4,  // Anzahl Artikel in der Box
+                        box_x_start: 100.0000, // Startposition X der Box
+                        box_y_start: 100.0000, // Startposition Y der Box
+                        width: 100.0000,  // Breite in Pixel
+                        height: 100.0000, // Höhe in Pixel
+                    }
+                },
+                {
+                    schema: "iglu:de.drive/recommendation_retrieval_context/jsonschema/1-0-0",
+                    data: {
+                        load_time_ms: 120.0 // Antwortzeit der DRIVE API
+                    }
+                }
+            ]
+        );
+    }
+    
+        function ajaxCallDriveRecos(id) {
+        var xhr = new XMLHttpRequest();
+        xhr.onload = function () {
+
+            if (xhr.status >= 200 && xhr.status < 300) {
+                let response = xhr.response;
+                if (response.length > 200 && document.getElementById(id) !== null) {
+                    document.getElementById(id).innerHTML = response;
+                }
+
+                // CMS-Teaser mit drive-Attributen bestücken
+                try {
+                                            if (id === 'top-individual' && document.getElementById(id) !== null) {
+                                            var attributes = JSON.parse(response);
+                        var i = 1;
+
+                            if (id == 'modul_13226') {
+                                // alert("Gruppe: B, Fallback: " + ((attributes['data-fallback'] === '1' ) ? 'Ja' : 'Nein'));
+                                console.log(document.getElementById(id).querySelectorAll('article'));
+                            }
+
+                        document.getElementById(id).querySelectorAll('article').forEach(function (element) {
+                            for (const key in attributes) {
+                                element.setAttribute(`${key}`, `${attributes[key]}`);
+                            }
+                            element.setAttribute(`data-article-position`, i);
+                            i++;
+                            element.classList.add('drive-reco');
+                        });
+                    }
+                } catch(err) {
+                    // console.log(err);
+                }
+                // bind drive reco click event
+                addClickEventsToDriveRecos();
+                // monitor drive reco exposure
+                monitorDriveRecoExposure();
+
+                return response;
+            } else {
+                // Runs when it's not
+                // console.log(xhr.responseText);
+            }
+        }
+
+        xhr.open('GET', 'https://www.nw.de/_em_daten/locals/module/nw/_includes/twig/current/public/scripts/drive-ajax.php?id=' + id + '&mandant=nw' + '&' + Date.now());
+        xhr.send();
+                    setTimeout(function (){loadEngagentlyCounters();}, 2000);
+            }
+        // This function is called after your AJAX call completes
+        function loadEngagentlyCounters() {
+            // Find all elements that have a data-egy-dsc attribute within the newly loaded content
+            engagentlyCommentCount('.customTeasers[data-egy-dsc]')
+        }
+
+
+
+
+
+
+
+
+Themenspecial
+
+
+
+
+
+
+Arminia BielefeldWeitere MeldungenFamilieWeitere MeldungenMieten, Bauen und WohnenWeitere MeldungenTrue Crime in OWLWeitere Meldungen
+    
+
+
+
+
+
+
+
+
+      
+
+  
+
+0:3 gegen Monaco
+
+
+ Ar­mi­nia-Ka­pi­tän Corboz: „Erwarte, dass wir das fitteste Team der 2. Liga sind“
+
+
+
+
+
+20 
+
+
+
+
+
+
+
+
+      
+
+  
+
+Virus-Welle und Verletzungen
+
+
+ „Hat ein bisschen Qualität gefehlt“: Im Angriff drückt bei Arminia der Schuh
+
+
+
+
+
+24 
+
+
+
+
+
+
+
+
+
+
+Weitere Meldungen aus:
+
+Weitere Meldungen
+Arminia BielefeldWeitere MeldungenFamilieWeitere MeldungenMieten, Bauen und WohnenWeitere MeldungenTrue Crime in OWLWeitere Meldungen
+
+
+
+
+
+Weitere Meldungen
+
+
+
+
+
+
+
+
+
+
+
+
+
+Zwischen Weser und Rhein
+
+
+
+
+
+
+Zwischen Weser und RheinWeitere Meldungen
+    
+
+
+
+
+
+
+
+
+      
+
+  
+
+AOK-Auswertung
+
+
+Mehr Menschen nutzen Krebs­früh­er­ken­nung in West­fa­len-Lip­pe
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+      
+
+  
+
+Folgen der Asylpolitik
+
+
+ OWL spürt erste Effekte des schärferen Mi­gra­ti­ons­kur­ses der Bun­des­re­gie­rung
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+      
+
+  
+
+Boom geht weiter
+
+
+ Waffenbesitz in OWL: Immer mehr Bürger mit kleinem Waffenschein unterwegs
+
+
+
+ 
+
+
+
+
+
+
+
+
+      
+
+  
+
+Lehrerengpass in NRW
+
+
+ Lehrermangel in OWL: Pensionierte Lehrkräfte als Lösung im Klassenzimmer
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Weitere Meldungen aus:
+
+Weitere Meldungen
+Zwischen Weser und RheinWeitere Meldungen
+
+
+
+
+
+Weitere Meldungen
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sport
+
+
+
+
+
+
+Arminia BielefeldWeitere MeldungenSC PaderbornWeitere MeldungenLokalsportWeitere MeldungenFußballWeitere MeldungenHandballWeitere MeldungenBasketballWeitere Meldungen
+    
+
+
+
+
+
+
+
+
+      
+
+  
+
+3. Liga
+
+
+ SC Verl wird erstmals nicht als Ab­stiegs­kan­di­dat gehandelt: „Das macht mir Sorgen“
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+      
+
+  
+
+Para Sport in Bielefeld
+
+
+ Roll­stuhl­ten­nis-Spie­le­rin Britta Wend hat die Paralympics in Los Angeles fest im Blick
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+      
+
+  
+
+Fußball-Bundesliga
+
+
+Díaz startet bei Bayern: Hohe Erwartung an 75-Mil­lio­nen-Mann
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+      
+
+  
+
+2. Bundesliga
+
+
+ Schwere Verletzung beim SC Paderborn 07: David Kinsombi fällt monatelang aus
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Weitere Meldungen aus:
+
+SportWeitere Meldungen
+Arminia BielefeldWeitere MeldungenSC PaderbornWeitere MeldungenLokalsportWeitere MeldungenFußballWeitere MeldungenHandballWeitere MeldungenBasketballWeitere Meldungen
+
+
+
+
+
+Weitere Meldungen
+
+
+
+
+
+
+
+
+    /* markt-komponente svg   */
+
+
+.nw-immobilien-markt-svg::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23D20A11' class='size-5'%3E%3Cpath fill-rule='evenodd' d='M9.293 2.293a1 1 0 0 1 1.414 0l7 7A1 1 0 0 1 17 11h-1v6a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6H3a1 1 0 0 1-.707-1.707l7-7Z' clip-rule='evenodd' /%3E%3C/svg%3E%0A");
+  min-height: 18px;
+  min-width: 18px;
+  background-size: contain;
+  content: "";
+  margin-right: 4px;
+  margin-bottom: -2px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.nw-ausbildung-markt-svg::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23D20A11' class='size-5'%3E%3Cpath d='m2.695 14.762-1.262 3.155a.5.5 0 0 0 .65.65l3.155-1.262a4 4 0 0 0 1.343-.886L17.5 5.501a2.121 2.121 0 0 0-3-3L3.58 13.419a4 4 0 0 0-.885 1.343Z' /%3E%3C/svg%3E%0A");
+  min-height: 18px;
+  min-width: 18px;
+  background-size: contain;
+  content: "";
+  margin-right: 4px;
+  margin-bottom: -2px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.nw-stelle-markt-svg::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23D20A11' class='size-5'%3E%3Cpath fill-rule='evenodd' d='M6 3.75A2.75 2.75 0 0 1 8.75 1h2.5A2.75 2.75 0 0 1 14 3.75v.443c.572.055 1.14.122 1.706.2C17.053 4.582 18 5.75 18 7.07v3.469c0 1.126-.694 2.191-1.83 2.54-1.952.599-4.024.921-6.17.921s-4.219-.322-6.17-.921C2.694 12.73 2 11.665 2 10.539V7.07c0-1.321.947-2.489 2.294-2.676A41.047 41.047 0 0 1 6 4.193V3.75Zm6.5 0v.325a41.622 41.622 0 0 0-5 0V3.75c0-.69.56-1.25 1.25-1.25h2.5c.69 0 1.25.56 1.25 1.25ZM10 10a1 1 0 0 0-1 1v.01a1 1 0 0 0 1 1h.01a1 1 0 0 0 1-1V11a1 1 0 0 0-1-1H10Z' clip-rule='evenodd' /%3E%3Cpath d='M3 15.055v-.684c.126.053.255.1.39.142 2.092.642 4.313.987 6.61.987 2.297 0 4.518-.345 6.61-.987.135-.041.264-.089.39-.142v.684c0 1.347-.985 2.53-2.363 2.686a41.454 41.454 0 0 1-9.274 0C3.985 17.585 3 16.402 3 15.055Z' /%3E%3C/svg%3E%0A");
+  min-height: 18px;
+  min-width: 18px;
+  background-size: contain;
+  content: "";
+  margin-right: 4px;
+  margin-bottom: -2px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.nw-reise-markt-svg::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23D20A11' class='size-6'%3E%3Cpath d='M21.721 12.752a9.711 9.711 0 0 0-.945-5.003 12.754 12.754 0 0 1-4.339 2.708 18.991 18.991 0 0 1-.214 4.772 17.165 17.165 0 0 0 5.498-2.477ZM14.634 15.55a17.324 17.324 0 0 0 .332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 0 0 .332 4.647 17.385 17.385 0 0 0 5.268 0ZM9.772 17.119a18.963 18.963 0 0 0 4.456 0A17.182 17.182 0 0 1 12 21.724a17.18 17.18 0 0 1-2.228-4.605ZM7.777 15.23a18.87 18.87 0 0 1-.214-4.774 12.753 12.753 0 0 1-4.34-2.708 9.711 9.711 0 0 0-.944 5.004 17.165 17.165 0 0 0 5.498 2.477ZM21.356 14.752a9.765 9.765 0 0 1-7.478 6.817 18.64 18.64 0 0 0 1.988-4.718 18.627 18.627 0 0 0 5.49-2.098ZM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 0 0 1.988 4.718 9.765 9.765 0 0 1-7.478-6.816ZM13.878 2.43a9.755 9.755 0 0 1 6.116 3.986 11.267 11.267 0 0 1-3.746 2.504 18.63 18.63 0 0 0-2.37-6.49ZM12 2.276a17.152 17.152 0 0 1 2.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0 1 12 2.276ZM10.122 2.43a18.629 18.629 0 0 0-2.37 6.49 11.266 11.266 0 0 1-3.746-2.504 9.754 9.754 0 0 1 6.116-3.985Z' /%3E%3C/svg%3E%0A");
+  min-height: 18px;
+  min-width: 18px;
+  background-size: contain;
+  content: "";
+  margin-right: 4px;
+  margin-bottom: -2px;
+  display: inline-block;
+  background-repeat: no-repeat;
+
+}
+.nw-trauer-markt-svg::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' stroke-width='3' fill='%23D20A11' class=''%3E%3Cpath fill-rule='evenodd' d='M12 3.75a.75.75 0 0 1 .75.75v6.75h6.75a.75.75 0 0 1 0 1.5h-6.75v6.75a.75.75 0 0 1-1.5 0v-6.75H4.5a.75.75 0 0 1 0-1.5h6.75V4.5a.75.75 0 0 1 .75-.75Z' clip-rule='evenodd' /%3E%3C/svg%3E%0A");
+  min-width: 18px;
+  min-height: 18px;
+  background-size: contain;
+  content: "";
+  margin-right: 4px;
+  margin-bottom: -2px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.nw-erwinsdate-markt-svg::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23D20A11' class='size-5'%3E%3Cpath d='m9.653 16.915-.005-.003-.019-.01a20.759 20.759 0 0 1-1.162-.682 22.045 22.045 0 0 1-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 0 1 8-2.828A4.5 4.5 0 0 1 18 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 0 1-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 0 1-.69.001l-.002-.001Z' /%3E%3C/svg%3E%0A");
+  min-height: 18px;
+  min-width: 18px;
+  background-size: contain;
+  content: "";
+  margin-right: 4px;
+  margin-bottom: -2px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+
+
+     Markt
+    
+    
+
+        
+            Immobilienmarkt
+        
+
+        
+            Ausbildungsmarkt
+        
+
+        
+            Stellenmarkt
+        
+
+        
+            Reisemarkt
+        
+
+        
+            Traueranzeigen
+        
+
+        
+            Erwinsdate
+        
+    
+    
+        
+            Anzeige aufgeben
+        
+    
+
+
+
+
+
+
+
+Politik
+
+
+
+
+
+
+PolitikWeitere Meldungen
+    
+
+
+
+
+
+
+
+
+      
+
+  
+
+Parteinachwuchs
+
+
+Grü­ne-Ju­gend-Che­fin Nietzard geht – und rechnet ab
+
+
+
+ 
+
+
+
+
+
+
+
+
+      
+
+  
+
+Krieg gegen die Ukraine
+
+
+Gouverneur: 17 Tote bei russischem Angriff auf Gefängnis
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+      
+
+  
+
+Haushalt
+
+
+Klingbeil schwört Koalition auf größere Sparzwänge ein
+
+
+
+ 
+
+
+
+
+
+
+
+
+      
+
+  
+
+Politik
+
+
+Anklage nach Angriff am Ho­lo­caust-Mahn­mal erhoben
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Weitere Meldungen aus:
+
+Weitere Meldungen
+PolitikWeitere Meldungen
+
+
+
+
+
+Weitere Meldungen
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wirtschaft
+
+
+
+
+
+
+Wirtschaft in OWLWeitere MeldungenJetzt abonnieren:NewsletterWeitere Meldungen
+    
+
+
+
+
+
+
+
+
+      
+
+  
+
+Versicherung zahlt nicht immer
+
+
+Sommerurlaub? Wie Sie Hausrat im Außenbereich gut sichern
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+      
+
+  
+
+Vergütungsberichte ausgewertet
+
+
+Mehr Gehalt für Dax-Vorstände - zwei über 10 Millionen
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+      
+
+  
+
+Halbjahresbilanz
+
+
+Bahn im ersten Halbjahr mit dreistelligem Mil­lio­nen­ver­lust
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+      
+
+  
+
+Verbraucherinformation
+
+
+Achtung, Rückruf: Feigen von Aldi und Cashewmus von DM betroffen
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Weitere Meldungen aus:
+
+WirtschaftWeitere Meldungen
+Wirtschaft in OWLWeitere MeldungenJetzt abonnieren:NewsletterWeitere Meldungen
+
+
+
+
+
+Weitere Meldungen
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gesundheit
+
+
+
+
+
+
+GesundheitWeitere Meldungen
+    
+
+
+
+
+
+
+
+
+      
+
+  
+
+Psychologie
+
+
+Vergeben für sich selbst: Wie Verzeihen auch befreien kann
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+      
+
+  
+
+Vorsorge
+
+
+Sehtest: Wie oft sollte ich meine Augen checken lassen?
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+      
+
+  
+
+Von wegen 10.000!
+
+
+Auch schon 7.000 Schritte am Tag sind gut für die Gesundheit
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+      
+
+  
+
+Schutz vor Infektionen
+
+
+Reise geplant? Was Sie über Hepatitis A und B wissen sollten
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Weitere Meldungen aus:
+
+Weitere Meldungen
+GesundheitWeitere Meldungen
+
+
+
+
+
+Weitere Meldungen
+
+
+
+
+
+
+
+
+
+
+
+
+
+Panorama
+
+
+
+
+
+
+PanoramaWeitere Meldungen
+    
+
+
+
+
+
+
+
+
+      
+
+  
+
+Bergunfall
+
+
+Laura Dahlmeier beim Bergsteigen verunglückt
+
+
+
+ 
+
+
+
+
+
+
+
+
+      
+
+  
+
+Zootiere
+
+
+Proteste gegen Pavian-Tötung - Tiergarten für einen Tag zu
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+      
+
+  
+
+Schüsse in Manhattan
+
+
+Medien: New Yorker Todesschütze hinterließ Ab­schieds­brief
+
+
+
+ 
+
+
+
+
+
+
+
+
+      
+
+  
+
+Notfälle
+
+
+Womöglich Hubschrauber in Fluss bei Grimma gestürzt
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Weitere Meldungen aus:
+
+Weitere Meldungen
+PanoramaWeitere Meldungen
+
+
+
+
+
+Weitere Meldungen
+
+
+
+
+
+
+
+
+
+
+
+
+
+Umwelt
+
+
+
+
+
+
+UmweltWeitere Meldungen
+    
+
+
+
+
+
+
+
+
+      
+
+  
+
+Ohne Chemie
+
+
+So werden Sie Schnecken im Garten los
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+      
+
+  
+
+Tipps von Hunde-Profis
+
+
+Kläffen, springen, jagen: Wie man es Hunden abgewöhnt
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+      
+
+  
+
+Vertrauen statt Zwang
+
+
+Hun­de­er­zie­hung - ja, aber ohne Gewalt
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+      
+
+  
+
+Vogelschutz
+
+
+Wuchernde Hecke: Was beim Schneiden jetzt erlaubt ist
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Weitere Meldungen aus:
+
+Weitere Meldungen
+UmweltWeitere Meldungen
+
+
+
+
+
+Weitere Meldungen
+
+
+
+
+
+
+
+
+
+
+
+
+
+Lifestyle
+
+
+
+
+
+
+NetzweltWeitere Meldungen Essen und TrinkenWeitere Meldungen MedienWeitere Meldungen Lust und LiebeWeitere Meldungen FamilieWeitere Meldungen ReiseWeitere Meldungen LottoWeitere Meldungen
+    
+
+
+
+
+
+
+
+
+      
+
+  
+
+Immer weniger Datenträger
+
+
+Lad's runter: Down­load-Trend bei Games verstärkt sich
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+      
+
+  
+
+Reisemängel
+
+
+Meerblick? Strandnähe? Was Urlauber dann erwarten dürfen
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+      
+
+  
+
+Türspion 2.0
+
+
+«Who can it be now?» - Vi­deo-Tür­klin­geln im Test
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+      
+
+  
+
+Alles Essig!
+
+
+Fiese Fruchtfliegen im Wein: Ist er dann ruiniert?
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Weitere Meldungen aus:
+
+LifestyleWeitere Meldungen
+NetzweltWeitere Meldungen Essen und TrinkenWeitere Meldungen MedienWeitere Meldungen Lust und LiebeWeitere Meldungen FamilieWeitere Meldungen ReiseWeitere Meldungen LottoWeitere Meldungen
+
+
+
+
+
+Weitere Meldungen
+
+
+
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+    .paywall-footer-rebrush-2024{
+        position: fixed;
+        bottom: 0;
+        min-width: 100%;
+        left:50%;
+        height: auto;
+        transform: translate(-50%);
+    }
+
+    /** MIN WIDTH SIMULATE **/
+    @media screen and (min-width: 1023px) {
+        .paywall-footer-rebrush-2024{
+            min-width: 1064px !important;
+        }
+    }
+
+
+    
+        
+            
+                
+            
+        
+    
+
+    
+    
+        
+            
+            Alles lesen für nur 1 € 0,75 €/ Woche 🌞
+        
+
+        
+            
+                Deal sichern
+            
+            
+            
+                ✕
+            
+            
+            
+                ✕
+            
+        
+    
+
+    
+    
+
+        
+        
+            ✕
+        
+
+        
+            
+                
+                Alles lesen für nur 1 € 0,75 €/ Woche 🌞
+            
+            
+                Jetzt Sommer-Deal sichern – Zugriff auf alle Artikel &
+                    praktische NW+-Updates direkt per Mail erhalten!
+            
+        
+
+        
+            
+                Deal sichern
+            
+            
+            
+                ✕
+            
+        
+    
+
+
+
+    function triggerAboFooter() {
+
+        const footer = document.getElementById('nw-paywall-footer');
+        const aboFooterClosed = localStorage.getItem('abofooterClosedSommer');
+        console.log('Footer :', aboFooterClosed);
+
+
+        if ((aboFooterClosed === null || aboFooterClosed === "false")&&userstatus_upscore<2) {
+            console.log("No-Plus"+ userstatus_upscore);
+            footer.classList.remove('nw-hidden');
+            _paq.push(["trackEvent", "footer-widget", "view", "Abofooter", 4738]);
+        }
+    }
+    function toggleFooter() {
+        const collapsed = document.getElementById('footerCollapsed');
+        const expanded = document.getElementById('footerExpanded');
+        const arrow = document.querySelector('#toggleArrow svg');
+        const toggleButton = document.getElementById('toggleArrow');
+
+        collapsed.classList.toggle('nw-hidden');
+        expanded.classList.toggle('nw-hidden');
+
+        arrow.classList.toggle('nw-rotate-180');
+
+        const isExpanded = expanded.classList.contains('nw-hidden') === false;
+        toggleButton.setAttribute('aria-expanded', isExpanded);
+    }
+
+    function closeFooter() {
+        const footer = document.getElementById('nw-paywall-footer');
+        if (footer) {
+            localStorage.setItem('abofooterClosedSommer', 'true');
+            footer.classList.add('nw-hidden');
+        }
+    }
+
+
+
+
+
+
+
+
+        
+
+            
+    
+  {
+    "@context": "https:\/\/schema.org",
+    "@type": "CollectionPage",
+    "headline": "Startseite",
+    "url": "",
+    "description": "Nachrichten aus OWL, Deutschland und aller Welt &#9658; Die NW berichtet &uuml;ber Politik &#9989; Wirtschaft &#9989; Sport &#9989; und mehr &#9658; Jetzt auf nw.de",
+    "dateModified": "2025-07-29T13:44:08+02:00",
+    "hasPart": [
+        {
+            "@context": "https:\/\/schema.org",
+            "@type": "NewsArticle",
+            "url": "https:\/\/www.nw.de\/nachrichten\/zwischen_weser_und_rhein\/24145927_Wir-nehmen-die-Bedrohung-sehr-ernst-Die-Kriegsgefahr-ist-in-OWL-angekommen.html",
+            "headline": "&bdquo;Wir nehmen die Bedrohung sehr ernst&ldquo;: Die Kriegsgefahr ist in OWL angekommen",
+            "datePublished": "2025-07-29T12:00:00+02:00",
+            "dateModified": "2025-07-29T13:44:08+02:00",
+            "articleSection": "Mantel",
+            "keywords": "Logistik,A2,Fahrzeug,Wehrpflicht,&Uuml;berfall,Kriegsgefahr,Bedrohung,Panzerbrigade 21,Bundeswehr,Nato,Till Hey,S&ouml;nke Neitzel,Olaf Scholz,Ukraine,Bielefeld,Augustdorf,OWL,Litauen,Baltikum,USA,Taiwan,China,Europa,Deutschland,Russland,serie_nlmittagsnotiz,label_xl 160,label_foto,label_startseite,label_grafik,label_umfrage,label_plus ok,label_mach mich schlau,meta_artikelklasse_Hintergrund,meta_themen_Politik,meta_copyrights_NW,meta_userneeds_erklaeremir",
+            "publisher": {
+                "@type": "NewsMediaOrganization",
+                "name": "Neue Westf\u00e4lische",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/www.nw.de\/_em_daten\/locals\/module\/nw\/_includes\/twig\/current\/public\/images\/logo_nw.png",
+                    "width": 512,
+                    "height": 512
+                },
+                "sameAs": [
+                    "https:\/\/de-de.facebook.com\/NeueWestfaelische",
+                    "https:\/\/x.com\/nwnews",
+                    "https:\/\/www.instagram.com\/nw.de\/",
+                    "https:\/\/www.youtube.com\/@NeueWestfaelische",
+                    "https:\/\/de.wikipedia.org\/wiki\/Neue_Westf%C3%A4lische",
+                    "https:\/\/apps.apple.com\/de\/app\/nw-epaper\/id418896804",
+                    "https:\/\/apps.apple.com\/de\/app\/nw-news\/id1532888930",
+                    "https:\/\/play.google.com\/store\/apps\/details?id=de.nw.news.ampapp",
+                    "https:\/\/play.google.com\/store\/apps\/details?id=de.msh.android.nw"
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-(0)521-555-0",
+                    "email": "kundenservice@nw.de"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Niedernstra\u00dfe 21-27",
+                    "addressLocality": "Bielefeld",
+                    "addressCountry": "DE",
+                    "postalCode": "33602"
+                }
+            },
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/www.nw.de\/_em_daten\/_cache\/image\/1xanJPa1FYVnlqcnNrSFRaNTI2S25ZM05tWWNFdTJSWTVZeWpJQ21DWndFQWtDUSs1N1NaZVNoTmhESllrVmJjZDFNRmhacXhuUU5YT0pxbk8zcklXdlErUmE5SWRSTm1uV01VT2lLODFDMVE9\/250729-1051-497161538.jpg"
+                }
+            ],
+            "author": [
+                [
+                    {
+                        "@type": "Person",
+                        "name": "Carsten Heil",
+                        "jobTitle": "Redakteur",
+                        "url": "https:\/\/www.nw.de\/autoren\/carsten-heil-306",
+                        "sameAs": [
+                            "https:\/\/www.twitter.com\/CarstenHeil",
+                            "https:\/\/www.twitter.com\/heilcarsten"
+                        ]
+                    }
+                ]
+            ]
+        },
+        {
+            "@context": "https:\/\/schema.org",
+            "@type": "NewsArticle",
+            "url": "https:\/\/www.nw.de\/lokal\/bielefeld\/mitte\/24145561_Zwei-Jahre-auf-See-Junge-Niederlaenderin-sucht-Bielefelder-Flaschenpost-Autor.html",
+            "headline": "Zwei Jahre auf See: Junge Niederl&auml;nderin sucht Bielefelder Flaschenpost-Autor",
+            "datePublished": "2025-07-29T05:00:00+02:00",
+            "dateModified": "2025-07-28T17:20:55+02:00",
+            "articleSection": "Bielefeld",
+            "keywords": "Strandgut,Flaschenpost,Joshua H.,Bielefeld,Rossum,Mallorca,label_m 80,label_foto,label_top-news,label_grafik,label_umfrage,label_plus ok,label_familie\/freizeit,label_unterhalte mich,meta_artikelklasse_Nachricht,meta_themen_Familie_Bildung_Freizeit,meta_copyrights_NW,meta_userneeds_lenkeab",
+            "publisher": {
+                "@type": "NewsMediaOrganization",
+                "name": "Neue Westf\u00e4lische",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/www.nw.de\/_em_daten\/locals\/module\/nw\/_includes\/twig\/current\/public\/images\/logo_nw.png",
+                    "width": 512,
+                    "height": 512
+                },
+                "sameAs": [
+                    "https:\/\/de-de.facebook.com\/NeueWestfaelische",
+                    "https:\/\/x.com\/nwnews",
+                    "https:\/\/www.instagram.com\/nw.de\/",
+                    "https:\/\/www.youtube.com\/@NeueWestfaelische",
+                    "https:\/\/de.wikipedia.org\/wiki\/Neue_Westf%C3%A4lische",
+                    "https:\/\/apps.apple.com\/de\/app\/nw-epaper\/id418896804",
+                    "https:\/\/apps.apple.com\/de\/app\/nw-news\/id1532888930",
+                    "https:\/\/play.google.com\/store\/apps\/details?id=de.nw.news.ampapp",
+                    "https:\/\/play.google.com\/store\/apps\/details?id=de.msh.android.nw"
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-(0)521-555-0",
+                    "email": "kundenservice@nw.de"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Niedernstra\u00dfe 21-27",
+                    "addressLocality": "Bielefeld",
+                    "addressCountry": "DE",
+                    "postalCode": "33602"
+                }
+            },
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/www.nw.de\/_em_daten\/_cache\/image\/1xanJPa1FYVnlqcnNrSFRaNTI2S25ZMFdVeFlUT2FaUkoycHh2cm9Kcnc5bFQzV1lYY05QdzVIMHAxN1pmb1o2ODF6TllyTUMzUDJpVUIwb1FLcEUvamlFenlxcm8zOVdGNEhVejN2aGV0dkE9\/250728-1720-642397139.jpg"
+                }
+            ],
+            "author": [
+                [
+                    {
+                        "@type": "Person",
+                        "name": "Eike J. Horstmann",
+                        "jobTitle": "Redakteur in der Lokalredaktion Bielefeld und im Printhub",
+                        "url": "https:\/\/www.nw.de\/autoren\/eike-j.-horstmann-381",
+                        "sameAs": ""
+                    }
+                ]
+            ]
+        },
+        {
+            "@context": "https:\/\/schema.org",
+            "@type": "NewsArticle",
+            "url": "https:\/\/www.nw.de\/sport\/sc_paderborn_07\/24146072_Schwere-Verletzung-beim-SC-Paderborn-07-David-Kinsombi-faellt-monatelang-aus.html",
+            "headline": "Schwere Verletzung beim SC Paderborn 07: David Kinsombi f&auml;llt monatelang aus",
+            "datePublished": "2025-07-29T13:46:00+02:00",
+            "dateModified": "2025-07-29T13:53:09+02:00",
+            "articleSection": "Sport_Bund",
+            "keywords": "Verletzung,Hannover 96,Preu&szlig;en M&uuml;nster,SC Paderborn,SC Paderborn 07,David Kinsombi,Sven Michel,Felix G&ouml;tze,Ralf Kettemann,Sebastian Lange,Paderborn,Hannover,serie_nlscp07,label_m 80,label_knaller,label_top-news,label_grafik,label_push,label_social,label_cm ok,label_informiere mich,meta_artikelklasse_Nachricht,meta_themen_SC_Paderborn,meta_copyrights_NW,meta_userneeds_informieremich",
+            "publisher": {
+                "@type": "NewsMediaOrganization",
+                "name": "Neue Westf\u00e4lische",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/www.nw.de\/_em_daten\/locals\/module\/nw\/_includes\/twig\/current\/public\/images\/logo_nw.png",
+                    "width": 512,
+                    "height": 512
+                },
+                "sameAs": [
+                    "https:\/\/de-de.facebook.com\/NeueWestfaelische",
+                    "https:\/\/x.com\/nwnews",
+                    "https:\/\/www.instagram.com\/nw.de\/",
+                    "https:\/\/www.youtube.com\/@NeueWestfaelische",
+                    "https:\/\/de.wikipedia.org\/wiki\/Neue_Westf%C3%A4lische",
+                    "https:\/\/apps.apple.com\/de\/app\/nw-epaper\/id418896804",
+                    "https:\/\/apps.apple.com\/de\/app\/nw-news\/id1532888930",
+                    "https:\/\/play.google.com\/store\/apps\/details?id=de.nw.news.ampapp",
+                    "https:\/\/play.google.com\/store\/apps\/details?id=de.msh.android.nw"
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-(0)521-555-0",
+                    "email": "kundenservice@nw.de"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Niedernstra\u00dfe 21-27",
+                    "addressLocality": "Bielefeld",
+                    "addressCountry": "DE",
+                    "postalCode": "33602"
+                }
+            },
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/www.nw.de\/_em_daten\/_cache\/image\/1xanJPa1FYVnlqcnNrSFRaNTI2S25ZOUtMTy9zcnZXNW1RZC9ocW9TY011bnpmd05qdzUyTUt0K2NNWWw1V09DY1VueC80cUw4ZDIxaWJSVUJtd2tqTUsrbEl4WWU5UHJyM1hVZnVVL21scDQ9\/250729-1348-642558047.jpg"
+                }
+            ],
+            "author": [
+                [
+                    {
+                        "@type": "Person",
+                        "name": "Christian Geisler",
+                        "jobTitle": "Redakteur in der Lokalredaktion Paderborn",
+                        "url": "https:\/\/www.nw.de\/autoren\/christian-geisler-1773",
+                        "sameAs": ""
+                    }
+                ]
+            ]
+        },
+        {
+            "@context": "https:\/\/schema.org",
+            "@type": "NewsArticle",
+            "url": "https:\/\/www.nw.de\/lokal\/kreis_guetersloh\/guetersloh\/24145515_Ploetzlicher-Anruf-in-der-Nacht-Spenderherz-rettet-Frau-im-Kreis-Guetersloh-das-Leben.html",
+            "headline": "Pl&ouml;tzlicher Anruf in der Nacht: Spenderherz rettet Frau im Kreis G&uuml;tersloh das Leben",
+            "datePublished": "2025-07-29T14:20:00+02:00",
+            "dateModified": "2025-07-29T14:20:22+02:00",
+            "articleSection": "G&uuml;tersloh",
+            "keywords": "Herzschw&auml;che,Organtransplantation,Spenderherz,Lena Peters,Lena Peter,Harsewinkel,G&uuml;tersloh,Lena,label_xl 160,label_foto,label_knaller,label_startseite,label_top-news,label_grafik,label_umfrage,label_republish,label_cm ok,label_plus ok,label_ber&uuml;hre mich,meta_artikelklasse_Portraet,meta_themen_Gesundheit,meta_copyrights_NW,meta_userneeds_beruehremich",
+            "publisher": {
+                "@type": "NewsMediaOrganization",
+                "name": "Neue Westf\u00e4lische",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/www.nw.de\/_em_daten\/locals\/module\/nw\/_includes\/twig\/current\/public\/images\/logo_nw.png",
+                    "width": 512,
+                    "height": 512
+                },
+                "sameAs": [
+                    "https:\/\/de-de.facebook.com\/NeueWestfaelische",
+                    "https:\/\/x.com\/nwnews",
+                    "https:\/\/www.instagram.com\/nw.de\/",
+                    "https:\/\/www.youtube.com\/@NeueWestfaelische",
+                    "https:\/\/de.wikipedia.org\/wiki\/Neue_Westf%C3%A4lische",
+                    "https:\/\/apps.apple.com\/de\/app\/nw-epaper\/id418896804",
+                    "https:\/\/apps.apple.com\/de\/app\/nw-news\/id1532888930",
+                    "https:\/\/play.google.com\/store\/apps\/details?id=de.nw.news.ampapp",
+                    "https:\/\/play.google.com\/store\/apps\/details?id=de.msh.android.nw"
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-(0)521-555-0",
+                    "email": "kundenservice@nw.de"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Niedernstra\u00dfe 21-27",
+                    "addressLocality": "Bielefeld",
+                    "addressCountry": "DE",
+                    "postalCode": "33602"
+                }
+            },
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/www.nw.de\/_em_daten\/_cache\/image\/1xanJPa1FYVnlqcnNrSFRaNTI2S25ZK2Q2NVo1bnMxcndwUnFjOVFJK0RIek1WbEQraFRJY0lNMko5Nlc3dUJIOFZiZ3ZTSnk0azQzdVJsbmRJOWk0RVlrNjlYYUVDRjlsSkRDL21HRko2cGc9\/250728-1613-642085140.jpg"
+                }
+            ],
+            "author": [
+                [
+                    {
+                        "@type": "Person",
+                        "name": "Lena Vanessa Bleck",
+                        "jobTitle": "Redakteurin in der Lokalredaktion G&uuml;tersloh",
+                        "url": "https:\/\/www.nw.de\/autoren\/lena-vanessa-bleck-3390",
+                        "sameAs": ""
+                    }
+                ]
+            ]
+        },
+        {
+            "@context": "https:\/\/schema.org",
+            "@type": "NewsArticle",
+            "url": "https:\/\/www.nw.de\/lokal\/bielefeld\/mitte\/24145596_Trauer-um-Goldbeck-Geschaeftsfuehrer-Uwe-Brackmann.html",
+            "headline": "Trauer um Goldbeck-Gesch&auml;ftsf&uuml;hrer Uwe Brackmann",
+            "datePublished": "2025-07-29T06:43:00+02:00",
+            "dateModified": "2025-07-29T06:48:18+02:00",
+            "articleSection": "Bielefeld",
+            "keywords": "Traditionsunternehmen,Internationalisierung,Logistikhalle,Uwe Brackmann,Ostwestfalen,Bielefeld,Zentraleuropa,Goldbeck,Deutschland,label_informiere mich,meta_artikelklasse_Nachricht,meta_themen_Sonstiges,meta_copyrights_NW,meta_userneeds_informieremich",
+            "publisher": {
+                "@type": "NewsMediaOrganization",
+                "name": "Neue Westf\u00e4lische",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/www.nw.de\/_em_daten\/locals\/module\/nw\/_includes\/twig\/current\/public\/images\/logo_nw.png",
+                    "width": 512,
+                    "height": 512
+                },
+                "sameAs": [
+                    "https:\/\/de-de.facebook.com\/NeueWestfaelische",
+                    "https:\/\/x.com\/nwnews",
+                    "https:\/\/www.instagram.com\/nw.de\/",
+                    "https:\/\/www.youtube.com\/@NeueWestfaelische",
+                    "https:\/\/de.wikipedia.org\/wiki\/Neue_Westf%C3%A4lische",
+                    "https:\/\/apps.apple.com\/de\/app\/nw-epaper\/id418896804",
+                    "https:\/\/apps.apple.com\/de\/app\/nw-news\/id1532888930",
+                    "https:\/\/play.google.com\/store\/apps\/details?id=de.nw.news.ampapp",
+                    "https:\/\/play.google.com\/store\/apps\/details?id=de.msh.android.nw"
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-(0)521-555-0",
+                    "email": "kundenservice@nw.de"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Niedernstra\u00dfe 21-27",
+                    "addressLocality": "Bielefeld",
+                    "addressCountry": "DE",
+                    "postalCode": "33602"
+                }
+            },
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/www.nw.de\/_em_daten\/_cache\/image\/1xanJPa1FYVnlqcnNrSFRaNTI2S25ZeGtpc3AzM3BOaFJLN2xQcW9oT25ha1lWa1R5V05mcXBncW5HejJJeFltUk1DWjFhOXRxcFNoR2Y1Y01iUFJUK2N4UzRVOWx2SjF0TGVSQytsVlVMWk09\/250728-1852-642471406.jpg"
+                }
+            ],
+            "author": [
+                []
+            ]
+        },
+        {
+            "@context": "https:\/\/schema.org",
+            "@type": "NewsArticle",
+            "url": "https:\/\/www.nw.de\/lokal\/kreis_paderborn\/paderborn\/24145595_Vorfaelle-in-Paderborner-Kneipe-K.o.-Tropfen-in-Glaesern-von-Gaesten-im-Limericks.html",
+            "headline": "Vorf&auml;lle in Paderborner Kneipe: K.o.-Tropfen in Gl&auml;sern von G&auml;sten im Limericks",
+            "datePublished": "2025-07-28T19:00:00+02:00",
+            "dateModified": "2025-07-29T13:58:44+02:00",
+            "articleSection": "Paderborn",
+            "keywords": "",
+            "publisher": {
+                "@type": "NewsMediaOrganization",
+                "name": "Neue Westf\u00e4lische",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/www.nw.de\/_em_daten\/locals\/module\/nw\/_includes\/twig\/current\/public\/images\/logo_nw.png",
+                    "width": 512,
+                    "height": 512
+                },
+                "sameAs": [
+                    "https:\/\/de-de.facebook.com\/NeueWestfaelische",
+                    "https:\/\/x.com\/nwnews",
+                    "https:\/\/www.instagram.com\/nw.de\/",
+                    "https:\/\/www.youtube.com\/@NeueWestfaelische",
+                    "https:\/\/de.wikipedia.org\/wiki\/Neue_Westf%C3%A4lische",
+                    "https:\/\/apps.apple.com\/de\/app\/nw-epaper\/id418896804",
+                    "https:\/\/apps.apple.com\/de\/app\/nw-news\/id1532888930",
+                    "https:\/\/play.google.com\/store\/apps\/details?id=de.nw.news.ampapp",
+                    "https:\/\/play.google.com\/store\/apps\/details?id=de.msh.android.nw"
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-(0)521-555-0",
+                    "email": "kundenservice@nw.de"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Niedernstra\u00dfe 21-27",
+                    "addressLocality": "Bielefeld",
+                    "addressCountry": "DE",
+                    "postalCode": "33602"
+                }
+            },
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/www.nw.de\/_em_daten\/_cache\/image\/1xanJPa1FYVnlqcnNrSFRaNTI2S25ZM2Yyd3VTNXMxYVpyeHNNY2FPOXNvY2Fadk51NmJYMkxKMTJTL3dkT2ZPZmVIZ2Vhby9jdEZ2QmNyRGRVcmRSQnlYcENxa2E0WnVFd0UxRWtmZi9paVk9\/250728-1833-642470446.jpg"
+                }
+            ],
+            "author": [
+                [
+                    {
+                        "@type": "Person",
+                        "name": "Holger Kosbab",
+                        "jobTitle": "Redakteur in der Lokalredaktion Paderborn",
+                        "url": "https:\/\/www.nw.de\/autoren\/holger-kosbab-327",
+                        "sameAs": ""
+                    }
+                ]
+            ]
+        },
+        {
+            "@context": "https:\/\/schema.org",
+            "@type": "NewsArticle",
+            "url": "https:\/\/www.nw.de\/nachrichten\/zwischen_weser_und_rhein\/24145583_Karriere-nach-dem-Studium-Fuenf-Erfolgsgeschichten-made-in-Bielefeld.html",
+            "headline": "Karriere nach dem Studium: F&uuml;nf Erfolgsgeschichten made in Bielefeld",
+            "datePublished": "2025-07-29T05:00:00+02:00",
+            "dateModified": "2025-07-29T09:21:35+02:00",
+            "articleSection": "Mantel",
+            "keywords": "Familie,B&auml;ckerei,F&uuml;hrungsnachwuchs,Erfolgsgeschichte,DMG Mori,Fachhochschule Bielefeld,Fachhochschule des Mittelstands,Miele,Alexander G&uuml;nther,Nadja J&uuml;stel,Marc-Philip Lamm,Bielefeld,Heilbronn,Open Innovation City,NRW,serie_nlmittagsnotiz,label_xxl 200,label_top-news,label_grafik,label_plus ok,label_inspiriere mich,meta_artikelklasse_Hintergrund,meta_themen_Familie_Bildung_Freizeit,meta_copyrights_RGOWL_Freier_Mitarbeiter,meta_userneeds_inspirieremich",
+            "publisher": {
+                "@type": "NewsMediaOrganization",
+                "name": "Neue Westf\u00e4lische",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/www.nw.de\/_em_daten\/locals\/module\/nw\/_includes\/twig\/current\/public\/images\/logo_nw.png",
+                    "width": 512,
+                    "height": 512
+                },
+                "sameAs": [
+                    "https:\/\/de-de.facebook.com\/NeueWestfaelische",
+                    "https:\/\/x.com\/nwnews",
+                    "https:\/\/www.instagram.com\/nw.de\/",
+                    "https:\/\/www.youtube.com\/@NeueWestfaelische",
+                    "https:\/\/de.wikipedia.org\/wiki\/Neue_Westf%C3%A4lische",
+                    "https:\/\/apps.apple.com\/de\/app\/nw-epaper\/id418896804",
+                    "https:\/\/apps.apple.com\/de\/app\/nw-news\/id1532888930",
+                    "https:\/\/play.google.com\/store\/apps\/details?id=de.nw.news.ampapp",
+                    "https:\/\/play.google.com\/store\/apps\/details?id=de.msh.android.nw"
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-(0)521-555-0",
+                    "email": "kundenservice@nw.de"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Niedernstra\u00dfe 21-27",
+                    "addressLocality": "Bielefeld",
+                    "addressCountry": "DE",
+                    "postalCode": "33602"
+                }
+            },
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/www.nw.de\/_em_daten\/_cache\/image\/1xanJPa1FYVnlqcnNrSFRaNTI2S25ZLzg1bFl0MzkwWUF5b3l3RklTK2VsWUYzY2tVYlFCaklmdWVJK2R0NEM3RXAyeUxGQlJPRnEwUjY5Z0p0SmVOcXZSOXhCNjQwcktrenRyeEF3TUJQd2s9\/250729-0639-642490705.jpg"
+                }
+            ],
+            "author": [
+                [
+                    {
+                        "@type": "Person",
+                        "name": "Carolin Nieder-Entgelmeier",
+                        "jobTitle": "Redaktionsgemeinschaft OWL",
+                        "url": "https:\/\/www.nw.de\/autoren\/carolin-nieder-entgelmeier-186",
+                        "sameAs": ""
+                    }
+                ]
+            ]
+        },
+        {
+            "@context": "https:\/\/schema.org",
+            "@type": "NewsArticle",
+            "url": "https:\/\/www.nw.de\/lokal\/kreis_hoexter\/brakel\/24145994_Gab-es-eine-Straftat-Polizei-Hoexter-bittet-um-Hinweise-zu-Auto-bei-Brakel.html",
+            "headline": "Gab es eine Straftat? Polizei H&ouml;xter bittet um Hinweise zu Auto bei Brakel",
+            "datePublished": "2025-07-29T13:01:00+02:00",
+            "dateModified": "2025-07-29T13:01:56+02:00",
+            "articleSection": "H&ouml;xter",
+            "keywords": "Auto,Spurensuche,Straftat,Polizei,Hinnenburg,Brakel,H&ouml;xter,label_s 50,label_foto,label_top-news,label_grafik,label_cm ok,label_frei,label_blaulicht,label_informiere mich,meta_artikelklasse_Nachricht,meta_themen_Blaulicht_Sicherheit,meta_copyrights_NW,meta_userneeds_informieremich",
+            "publisher": {
+                "@type": "NewsMediaOrganization",
+                "name": "Neue Westf\u00e4lische",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/www.nw.de\/_em_daten\/locals\/module\/nw\/_includes\/twig\/current\/public\/images\/logo_nw.png",
+                    "width": 512,
+                    "height": 512
+                },
+                "sameAs": [
+                    "https:\/\/de-de.facebook.com\/NeueWestfaelische",
+                    "https:\/\/x.com\/nwnews",
+                    "https:\/\/www.instagram.com\/nw.de\/",
+                    "https:\/\/www.youtube.com\/@NeueWestfaelische",
+                    "https:\/\/de.wikipedia.org\/wiki\/Neue_Westf%C3%A4lische",
+                    "https:\/\/apps.apple.com\/de\/app\/nw-epaper\/id418896804",
+                    "https:\/\/apps.apple.com\/de\/app\/nw-news\/id1532888930",
+                    "https:\/\/play.google.com\/store\/apps\/details?id=de.nw.news.ampapp",
+                    "https:\/\/play.google.com\/store\/apps\/details?id=de.msh.android.nw"
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-(0)521-555-0",
+                    "email": "kundenservice@nw.de"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Niedernstra\u00dfe 21-27",
+                    "addressLocality": "Bielefeld",
+                    "addressCountry": "DE",
+                    "postalCode": "33602"
+                }
+            },
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/www.nw.de\/_em_daten\/_cache\/image\/1xanJPa1FYVnlqcnNrSFRaNTI2S25ZMkU1Mnhta2lBR0dDOW1PU0ZjSS9nTVVINFlJb044UFh0UXFwTm9wcXpnYVpKRXJKOFZRa3BmclJkTi9nU1V6Mk1FTUduVUNiZnl1ZnM2U0RCRmVtek09\/250729-1220-642532962.jpg"
+                }
+            ],
+            "author": [
+                [
+                    {
+                        "@type": "Person",
+                        "name": "Simone Fl&ouml;rke",
+                        "jobTitle": "Leiterin der Lokalredaktion H&ouml;xter",
+                        "url": "https:\/\/www.nw.de\/autoren\/simone-floerke-797",
+                        "sameAs": ""
+                    }
+                ]
+            ]
+        },
+        {
+            "@context": "https:\/\/schema.org",
+            "@type": "NewsArticle",
+            "url": "https:\/\/www.nw.de\/nachrichten\/wirtschaft\/24145778_Hannes-Ametsreiter-verlaesst-die-Guetersloher-Bertelsmann-Stiftung.html",
+            "headline": "Hannes Ametsreiter verl&auml;sst die G&uuml;tersloher Bertelsmann-Stiftung",
+            "datePublished": "2025-07-29T12:33:00+02:00",
+            "dateModified": "2025-07-29T12:34:19+02:00",
+            "articleSection": "Mantel",
+            "keywords": "Personalwechsel,Bertelsmann,Bertelsmann-Stiftung,Vodafone,Brigitte Mohn,Hannes Ametsreiter,G&uuml;tersloh,Deutschland,label_informiere mich,meta_artikelklasse_Nachricht,meta_themen_wirtschaft,meta_copyrights_DPA,meta_userneeds_informieremich",
+            "publisher": {
+                "@type": "NewsMediaOrganization",
+                "name": "Neue Westf\u00e4lische",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/www.nw.de\/_em_daten\/locals\/module\/nw\/_includes\/twig\/current\/public\/images\/logo_nw.png",
+                    "width": 512,
+                    "height": 512
+                },
+                "sameAs": [
+                    "https:\/\/de-de.facebook.com\/NeueWestfaelische",
+                    "https:\/\/x.com\/nwnews",
+                    "https:\/\/www.instagram.com\/nw.de\/",
+                    "https:\/\/www.youtube.com\/@NeueWestfaelische",
+                    "https:\/\/de.wikipedia.org\/wiki\/Neue_Westf%C3%A4lische",
+                    "https:\/\/apps.apple.com\/de\/app\/nw-epaper\/id418896804",
+                    "https:\/\/apps.apple.com\/de\/app\/nw-news\/id1532888930",
+                    "https:\/\/play.google.com\/store\/apps\/details?id=de.nw.news.ampapp",
+                    "https:\/\/play.google.com\/store\/apps\/details?id=de.msh.android.nw"
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-(0)521-555-0",
+                    "email": "kundenservice@nw.de"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Niedernstra\u00dfe 21-27",
+                    "addressLocality": "Bielefeld",
+                    "addressCountry": "DE",
+                    "postalCode": "33602"
+                }
+            },
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/www.nw.de\/_em_daten\/_cache\/image\/1xanJPa1FYVnlqcnNrSFRaNTI2S25ZMGpITWU2aC9UVnFZOEhBMHhhVzkxeUlPUzN2bUl1WTJNcXlmdkhrUUFsSURCQmhQRStkLzljREpTOUt2NHpoWllSTGRLaWk3WGtWY1BXRktXdjN3cm89\/250729-0602-642490333.jpg"
+                }
+            ],
+            "author": [
+                []
+            ]
+        },
+        {
+            "@context": "https:\/\/schema.org",
+            "@type": "NewsArticle",
+            "url": "https:\/\/www.nw.de\/nachrichten\/panorama\/24145767_Bis-zu-elf-Jahre-Gefaengnis-nach-Diebstahl-von-Keltengold.html",
+            "headline": "Bis zu elf Jahre Gef&auml;ngnis nach Diebstahl von Keltengold",
+            "datePublished": "2025-07-29T12:23:00+02:00",
+            "dateModified": "2025-07-29T12:59:56+02:00",
+            "articleSection": "\/regiolinegeo\/mecklenburgvorpommern",
+            "keywords": "Strafkammer,Einbruch,Diebstahl,Museumseinbruch,Keltengold,LKA,Staatsanwaltschaft,Konrad Kliegl,Museumsinsel,&Ouml;sterreich,Deutschland,Berlin,Schwerin,Ostdeutschland,Ingolstadt,Oberbayern,Manching,meta_dpa_regiolinegeo_mecklenburgvorpommern",
+            "publisher": {
+                "@type": "NewsMediaOrganization",
+                "name": "Neue Westf\u00e4lische",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/www.nw.de\/_em_daten\/locals\/module\/nw\/_includes\/twig\/current\/public\/images\/logo_nw.png",
+                    "width": 512,
+                    "height": 512
+                },
+                "sameAs": [
+                    "https:\/\/de-de.facebook.com\/NeueWestfaelische",
+                    "https:\/\/x.com\/nwnews",
+                    "https:\/\/www.instagram.com\/nw.de\/",
+                    "https:\/\/www.youtube.com\/@NeueWestfaelische",
+                    "https:\/\/de.wikipedia.org\/wiki\/Neue_Westf%C3%A4lische",
+                    "https:\/\/apps.apple.com\/de\/app\/nw-epaper\/id418896804",
+                    "https:\/\/apps.apple.com\/de\/app\/nw-news\/id1532888930",
+                    "https:\/\/play.google.com\/store\/apps\/details?id=de.nw.news.ampapp",
+                    "https:\/\/play.google.com\/store\/apps\/details?id=de.msh.android.nw"
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-(0)521-555-0",
+                    "email": "kundenservice@nw.de"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Niedernstra\u00dfe 21-27",
+                    "addressLocality": "Bielefeld",
+                    "addressCountry": "DE",
+                    "postalCode": "33602"
+                }
+            },
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/www.nw.de\/_em_daten\/_cache\/image\/1xanJPa1FYVnlqcnNrSFRaNTI2S25ZNEQ2ODZoaThXUitoUHJwck9La1kxYnN6M3F4a2l1NDlqVlFJRTJvMzNobVhlUWFNSkRDNzRnb2ZBODRZREFPL1Mzdi9YTEI5b2RvUlFzb2RLRGhxWTRXVjlkY0lKOEw0bzRPWFc1YWQ5MHY\/250729-1225-urn-newsml-dpa-com-20090101-250729-935-739687.jpg"
+                }
+            ],
+            "author": [
+                [
+                    {
+                        "@type": "Person",
+                        "name": "Ulf Vogler",
+                        "jobTitle": "",
+                        "url": "https:\/\/www.nw.de\/autoren\/ulf-vogler-9097",
+                        "sameAs": ""
+                    }
+                ]
+            ]
+        }
+    ]
+}
+
+
+
+        
+    
+        
+            Footer
+            
+                
+                    
+                        
+                            
+                                
+                                    NW App
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                        
+                                    
+                                
+                            
+                            
+                                
+                                    Portale
+                                
+
+                                
+                                    
+                                        
+                                            Stellen
+                                        
+                                    
+                                    
+                                        
+                                            Immobilien
+                                        
+                                    
+                                    
+                                        
+                                            Events
+                                        
+                                    
+                                    
+                                        
+                                            Erwins Date
+                                        
+                                    
+                                    
+                                        
+                                            Trauer
+                                        
+                                    
+                                    
+                                        
+                                            Themenseiten
+                                        
+                                    
+
+                                
+
+                            
+                        
+                        
+                            
+                                
+                                    Service
+                                
+                                
+                                    
+                                        
+                                            Abo-Service
+                                        
+                                    
+                                    
+                                        
+                                            Preisliste
+                                        
+                                    
+                                    
+                                        
+                                            ePaper-Login
+                                        
+                                    
+
+                                    
+                                        
+                                            Anzeigen-Service
+                                        
+                                    
+                                    
+                                        
+                                            Archiv
+                                        
+                                    
+                                    
+                                        
+                                            Newsletter
+                                        
+                                    
+
+                                    
+                                        
+                                            Mediadaten
+                                        
+                                    
+                                    
+                                        
+                                            Vertrag kündigen
+                                        
+                                    
+
+                                
+
+                            
+                            
+                                
+                                    Unternehmen
+                                
+
+                                
+                                    
+                                        
+                                            Kontakt
+                                        
+                                    
+                                    
+                                        
+                                            NW-Karte
+                                        
+                                    
+                                    
+                                        
+                                            Karriere
+                                        
+                                    
+                                    
+                                        
+                                            Ausbildung
+                                        
+                                    
+                                    
+                                        
+                                            Impressum
+                                        
+                                    
+                                    
+                                        
+                                            Barrierefreiheit
+                                        
+                                    
+                                    
+                                        
+                                            Datenschutz
+                                        
+                                    
+                                    
+                                        
+                                            AGB
+                                        
+                                    
+
+                                
+
+                            
+                        
+                    
+                    
+                        
+                            Newsletter abonnieren
+                        
+                        
+                            NW-Newsletter - die wichtigsten News
+                        
+                        
+                            $(document).ready(function () {
+                                var frm_footer = $('#nl-anmeldung-footer');
+                                var message = '';
+                                $('#referrer_url-footer').val(window.location.href);
+
+                                frm_footer.submit(function (event) {
+                                    event.preventDefault();
+
+                                    $.ajax({
+                                        url: frm_footer.attr('action'),
+                                        type: "POST",
+                                        data: frm_footer.serialize(),
+                                        success: function (data) {
+                                            var resp = JSON.parse(data);
+                                            $('#nl-anmeldung-footer').hide();
+                                            if (resp.success == 1) {
+                                                if (resp.message == "Sie sind bereits angemeldet.") {
+                                                    $('#nl-message-footer').text(resp.message);
+                                                } else {
+                                                    $('#nl-message-footer').show().text('Wunderbar. Fast geschafft!');
+                                                }
+                                                _paq.push(["trackEvent", "NL-Footer", "click", "Red_Newsletter__Mittagsnotiz"]);
+                                            }
+                                            message = escape(resp.message);
+                                            $('#nl-selligent-message-footer').show().text(decodeURIComponent(unescape(message)));
+                                            //_paq.push(['FormAnalytics::trackFormConversion', 'nl_update_zum_mittag', 'nl-anmeldung']);
+                                        },
+                                        error: function (data) {
+                                            var resp = JSON.parse(data);
+                                            $('#nl-selligent-message-footer').show().text(resp.message);
+                                        }
+                                    });
+                                });
+                            });
+                        
+                        
+                        
+                        
+                            
+                            
+
+                            
+                            
+                            E-Mail Adresse
+                            
+                            
+                                
+                                    Abonnieren
+                                
+                            
+                            
+                                Mit meiner Anmeldung zum Newsletter stimme ich der Werbevereinbarung
+                                zu.
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            Facebook
+                            
+                                
+                            
+                        
+                                                
+                            Pinterest
+                            
+                                
+                            
+                        
+                        
+                            Instagram
+                            
+                                
+                            
+                        
+                    
+                    
+                        © Zeitungsverlag Neue Westfälische GmbH & Co. KG
+                    
+                
+            
+            
+                
+                
+                
+                
+                
+            
+            
+                
+                
+                
+                
+                
+            
+            
+                
+                
+                
+                
+                
+            
+            
+                
+                
+                
+                
+                
+            
+        
+    
+
+
+
+
+window.focus();window.addEventListener("blur",function(){setTimeout(function(){document.activeElement.tagName=="IFRAME"&&document.activeElement.id.startsWith("google_ads_iframe_")&&(dataLayer.push({event:"google_ad_iframe_click"}),document.activeElement.blur())})});.cleverpush-confirm-buttons {
+   flex-wrap: wrap;flex-direction: column-reverse;float: none !important;display: flex !important;
+}
+
+.cleverpush-confirm-btn {
+    width: 100% !important;
+}
+.cleverpush-confirm-btn.cleverpush-confirm-btn-deny {
+font-weight: normal !important; text-transform: none !important;
+color: #999 !important;
+font-size: 12px !important;}
+.cleverpush-confirm-branding { text-align: center !important; float: none; }
+
+@media (min-width: 768px) { .cleverpush-confirm-branding { position: absolute;
+    bottom: 85px;text-align: left !important;
+      left: 75px; } .cleverpush-confirm-info  { margin-bottom: 25px !important; } .cleverpush-confirm-buttons {margin-top: 15px !important; margin-left: 60px !important; } }.cleverpush-confirm-buttons {
+   flex-wrap: wrap;flex-direction: column-reverse;float: none !important;display: flex !important;
+}
+
+.cleverpush-confirm-btn {
+    width: 100% !important;
+}
+.cleverpush-confirm-btn.cleverpush-confirm-btn-deny {
+font-weight: normal !important; text-transform: none !important;
+color: #999 !important;
+font-size: 12px !important;}
+.cleverpush-confirm-branding { text-align: center !important; float: none; }
+
+@media (min-width: 768px) { .cleverpush-confirm-branding { position: absolute;
+    bottom: 85px;text-align: left !important;
+      left: 75px; } .cleverpush-confirm-info  { margin-bottom: 25px !important; } .cleverpush-confirm-buttons {margin-top: 15px !important; margin-left: 60px !important; } }@media (min-width: 768px) {
+    .cleverpush-confirm-branding {
+      bottom: 0 !important;
+      left: 0 !important;
+    }
+
+    .cleverpush-confirm-buttons {
+      max-width: calc(100% - 80px);
+      margin-left: auto !important;
+    }
+  }div.cmpwrapper:empty, div.cmpwrapper, div#cmpwrapper.cmpwrapper, div#cmpwrapper.cmpwrapper:empty{ display: block !important;}

@@ -1,0 +1,38 @@
+Sitemap: https://www.news.de/resources/xml/metasitemap.xml
+Sitemap: https://www.news.de/googlesitemap/
+
+User-agent: *
+Disallow: /print/
+Disallow: /search/
+Disallow: /article/
+Disallow: /index/
+Disallow: /newsfrontend/video/
+Disallow: /newsfrontend/imagegallery/
+Disallow: /newsfrontend/flash/
+Disallow: /newsfrontend/article/
+Disallow: /newsfrontend/search/
+Disallow: /image/
+Disallow: /newsclub/
+Disallow: /landing/
+Disallow: /textgallery/
+Disallow: /resources/
+Disallow: /track.php
+Disallow: /module/cms/
+Allow: /resources/xml/
+Allow: /images/
+Allow: /resources/images/
+Allow: /resources/thumbs/
+
+User-agent: Googlebot-News
+Disallow: /article/
+Disallow: /morgenattacke/
+Disallow: /special/
+Disallow: /fotostrecke/
+Disallow: /video/
+
+User-agent: Yahoo!-AdCrawler
+Allow: /search/
+Crawl-delay: 0.5
+
+User-agent: Mediapartners-Google
+Allow: /search/

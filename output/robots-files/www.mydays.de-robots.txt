@@ -1,0 +1,122 @@
+Sitemap: https://www.mydays.de/assets/sitemap.xml
+
+User-agent: *
+Disallow: /cart*
+Disallow: /checkout*
+Disallow: /last-check*
+Disallow: /checkout-confirmation*
+Disallow: /search*
+Disallow: /search*?page=*
+Disallow: /experiences*
+Disallow: /availabilities*
+Disallow: /*?q=*
+Disallow: /*?pid*
+Disallow: *.pdf
+Allow: *priceMin=*
+Allow: *priceMax=*
+Allow: *lat=*
+Allow: *long=*
+Allow: *locationName=*
+Allow: *distance=*
+Allow: *?page=*
+Allow: /*?cgid&#x3D;fuer-*
+Allow: /einloesen
+
+User-agent: Googlebot
+Allow: /*?src=googlebase*
+Allow: /*?src=googleshopping*
+Allow: *priceMin=*
+Allow: *priceMax=*
+Allow: *lat=*
+Allow: *long=*
+Allow: *locationName=*
+Allow: *distance=*
+Allow: *?page=*
+Allow: /*?cgid&#x3D;fuer-*
+Allow: /einloesen
+Disallow: /cart*
+Disallow: /checkout*
+Disallow: /last-check*
+Disallow: /checkout-confirmation*
+Disallow: /search*
+Disallow: /search*?page=*
+Disallow: /experiences*
+Disallow: /availabilities*
+Disallow: /*?q=*
+Disallow: /*?pid*
+Disallow: *.pdf
+
+# empty disallow = allow all
+User-agent: Adsbot-Google
+Disallow:
+
+User-agent: Adsbot-Google-Mobile
+Disallow:
+
+User-agent: Googlebot-image
+Allow: /*?src=googlebase*
+Allow: *priceMin=*
+Allow: *priceMax=*
+Allow: *lat=*
+Allow: *long=*
+Allow: *locationName=*
+Allow: *distance=*
+Allow: *?page=*
+Allow: /einloesen
+Disallow: /cart*
+Disallow: /checkout*
+Disallow: /last-check*
+Disallow: /checkout-confirmation*
+Disallow: /search*
+Disallow: /search*?page=*
+Disallow: /experiences*
+Disallow: /availabilities*
+Disallow: /*?q=*
+Disallow: /*?pid*
+Disallow: *.pdf
+
+User-agent: AhrefsBot
+Disallow: /cart*
+Disallow: /checkout*
+Disallow: /last-check*
+Disallow: /checkout-confirmation*
+Disallow: /search*
+Disallow: /search*?page=*
+Disallow: /experiences*
+Disallow: /availabilities*
+Disallow: /*?q=*
+Disallow: /*?pid*
+Disallow: *.pdf
+Allow: *priceMin=*
+Allow: *priceMax=*
+Allow: *lat=*
+Allow: *long=*
+Allow: *locationName=*
+Allow: *distance=*
+Allow: *?page=*
+Allow: /einloesen
+Disallow: /images*
+# Ahrefs spams /images
+
+User-agent: RyteBot
+Disallow: /cart*
+Disallow: /checkout*
+Disallow: /last-check*
+Disallow: /checkout-confirmation*
+Disallow: /search*
+Disallow: /search*?page=*
+Disallow: /experiences*
+Disallow: /availabilities*
+Disallow: /*?q=*
+Disallow: /*?pid*
+Disallow: *.pdf
+Allow: *priceMin=*
+Allow: *priceMax=*
+Allow: *lat=*
+Allow: *long=*
+Allow: *locationName=*
+Allow: *distance=*
+Allow: *?page=*
+Allow: /einloesen
+Disallow: /images*
+# RyteBot spams /images

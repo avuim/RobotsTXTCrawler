@@ -1,0 +1,149 @@
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+# CSS, JS, Images
+Allow: /core/*.css$
+Allow: /core/*.css?
+Allow: /core/*.js$
+Allow: /core/*.js?
+Allow: /core/*.gif
+Allow: /core/*.jpg
+Allow: /core/*.jpeg
+Allow: /core/*.png
+Allow: /core/*.svg
+Allow: /profiles/*.css$
+Allow: /profiles/*.css?
+Allow: /profiles/*.js$
+Allow: /profiles/*.js?
+Allow: /profiles/*.gif
+Allow: /profiles/*.jpg
+Allow: /profiles/*.jpeg
+Allow: /profiles/*.png
+Allow: /profiles/*.svg
+# Directories
+Disallow: /core/
+Disallow: /profiles/
+# Files
+Disallow: /README.txt
+Disallow: /web.config
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips
+Disallow: /node/add/
+Disallow: /user/register
+Disallow: /user/password
+Disallow: /user/login
+Disallow: /user/logout
+# Paths (no clean URLs)
+Disallow: /index.php/admin/
+Disallow: /index.php/comment/reply/
+Disallow: /index.php/filter/tips
+Disallow: /index.php/node/add/
+Disallow: /index.php/search/
+Disallow: /index.php/user/password
+Disallow: /index.php/user/register
+Disallow: /index.php/user/login
+Disallow: /index.php/user/logout
+# wissen.de
+# URL parameters
+Disallow: /?*
+Disallow: /*?page=*
+Disallow: /*?keyword=*
+Disallow: /*?nl
+Disallow: /wissenstest/*?*
+Disallow: /podcast/*?*
+Disallow: /bilder/*?*
+Disallow: /service/*?*
+Disallow: /thema/*?*
+Disallow: /video/*?*
+Disallow: /uebersetzung/*?*
+Disallow: /fest-feiertage/*?*
+Disallow: /redewendung/*?*
+Disallow: /fragen/*?*
+Disallow: /zitate/*?*
+Disallow: /fremdwoerter/*?*
+Disallow: /raetsel/*?*
+
+# Block only URLs under these specific paths when they include ?chunk= or ?cache=
+Disallow: /medizin/*?chunk=*
+Disallow: /medizin/*?cache=*
+Disallow: /synonym/*?chunk=*
+Disallow: /synonym/*?cache=*
+Disallow: /ddwg/*?chunk=*
+Disallow: /ddwg/*?cache=*
+Disallow: /wortherkunft/*?chunk=*
+Disallow: /wortherkunft/*?cache=*
+Disallow: /fremdwort/*?chunk=*
+Disallow: /fremdwort/*?cache=*
+Disallow: /vorname/*?chunk=*
+Disallow: /vorname/*?cache=*
+Disallow: /rechtschreibung/*?chunk=*
+Disallow: /rechtschreibung/*?cache=*
+Disallow: /bildwb/*?chunk=*
+Disallow: /bildwb/*?cache=*
+Disallow: /kalendar/*?chunk=*
+Disallow: /kalendar/*?cache=*
+Disallow: /lexikon/*?cache=*
+
+# Search
+Disallow: /search
+Disallow: /search/
+# geboren am
+Disallow: /geburtstage
+Disallow: /geburtstage/
+# was geschah am
+Disallow: /was_geschah_am
+Disallow: /was_geschah_am/*
+# print
+Disallow: /print
+Disallow: /print/
+Allow: /sitemap.xml?*
+Allow: /default/sitemap.xml
+Allow: /ddwg/sitemap.xml
+Allow: /medizin/sitemap.xml
+Allow: /rechtschreibung/sitemap.xml
+Allow: /kalendar/sitemap.xml
+Allow: /lexikon/sitemap.xml
+Allow: /vorname/sitemap.xml
+Allow: /fremdwort/sitemap.xml
+Allow: /wortherkunft/sitemap.xml
+Allow: /synonym/sitemap.xml
+Allow: /bildwb/sitemap.xml
+Allow: /default/sitemap.xml?*
+Allow: /ddwg/sitemap.xml?*
+Allow: /medizin/sitemap.xml?*
+Allow: /rechtschreibung/sitemap.xml?*
+Allow: /kalendar/sitemap.xml?*
+Allow: /lexikon/sitemap.xml?*
+Allow: /vorname/sitemap.xml?*
+Allow: /fremdwort/sitemap.xml?*
+Allow: /wortherkunft/sitemap.xml?*
+Allow: /synonym/sitemap.xml?*
+Allow: /bildwb/sitemap.xml?*
+Allow: /*?itok=*
+
+Sitemap: https://www.wissen.de/sitemap.xml
+Sitemap: https://www.wissen.de/ddwg/sitemap.xml
+Sitemap: https://www.wissen.de/medizin/sitemap.xml
+Sitemap: https://www.wissen.de/rechtschreibung/sitemap.xml
+Sitemap: https://www.wissen.de/kalendar/sitemap.xml
+Sitemap: https://www.wissen.de/lexikon/sitemap.xml
+Sitemap: https://www.wissen.de/vorname/sitemap.xml
+Sitemap: https://www.wissen.de/fremdwort/sitemap.xml
+Sitemap: https://www.wissen.de/wortherkunft/sitemap.xml
+Sitemap: https://www.wissen.de/synonym/sitemap.xml
+Sitemap: https://www.wissen.de/bildwb/sitemap.xml

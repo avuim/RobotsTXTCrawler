@@ -1,0 +1,22 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wpt10b/
+Disallow: /node/
+Disallow: /phpydmin
+Disallow: */feed
+Disallow: */feed/
+Disallow: */author/
+Disallow: /plugins/search/
+
+# Disallow REST
+Disallow: /wp-json
+
+Allow: /wp-admin/admin-ajax.php
+Allow: /wp-admin/load-scripts.php
+Allow: /wp-admin/load-styles.php
+
+Sitemap: https://www.top10berlin.de/sitemap.xml
+
+#WP Import Export Rule
+User-agent: *
+Disallow: /wp-content/uploads/wp-import-export-lite/

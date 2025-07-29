@@ -1,0 +1,261 @@
+User-agent: Googlebot-News
+Disallow: /a/
+Disallow: /ad/
+Disallow: /ads/
+Disallow: /adv/
+Disallow: /auskunft/
+Disallow: /blitz/
+Disallow: /cebit/
+Disallow: /cgi-bin/
+Disallow: /chronik/
+Disallow: /click/
+Disallow: /computer/
+Disallow: /consumer-electronics-show/
+Disallow: /content/
+Disallow: /db/
+Disallow: /dienste/
+Disallow: /discounter/
+Disallow: /facebook/
+Disallow: /fernsehen/
+Disallow: /festnetz/
+Disallow: /flatrate/
+Disallow: /forum/
+Disallow: /gewinnspiel/
+Disallow: /h/
+Disallow: /handy/
+Disallow: /hardware/
+Disallow: /hausbau/
+Disallow: /heimvernetzung/
+Disallow: /i/
+Disallow: /ifa-berlin/
+Disallow: /intern/
+Disallow: /internet/
+Disallow: /jobs/
+Disallow: /kids-und-teens/
+Disallow: /kommunikation-zuhause/
+Disallow: /lifestyle/
+Disallow: /media/
+Disallow: /mobile-kommunikation/
+Disallow: /mobile-world-congres/
+Disallow: /mobilfunk/
+Disallow: /moderne-netze/
+Disallow: /multimedia/
+Disallow: /navigation/
+Disallow: /netbook/
+Disallow: /newsticker/
+Disallow: /nl/
+Disallow: /podcast/
+Disallow: /presse/
+Disallow: /promotion/
+Disallow: /radio/
+Disallow: /ratgeber/
+Disallow: /reise/
+Disallow: /roaming/
+Disallow: /senioren/
+Disallow: /service/
+Disallow: /sicherheit/
+Disallow: /smartphone/
+Disallow: /smartwatch/
+Disallow: /specials/
+Disallow: /sport/
+Disallow: /tablet/
+Disallow: /tarif-rechner/
+Disallow: /tarife-und-geraete/
+Disallow: /tarife/
+Disallow: /technik/
+Disallow: /telefonanlage/
+Disallow: /telefonieren-zuhause/
+Disallow: /teltarif-hilft/
+Disallow: /test/
+Disallow: /umfrage/
+Disallow: /umzug/
+Disallow: /unterwegs/
+Disallow: /ttt.gif
+Disallow: /ttt.go
+Disallow: /ttt.png
+Disallow: /user/
+Disallow: /verbraucher/
+Disallow: /video/
+Disallow: /voip/
+Disallow: /widget/
+Disallow: /wlan/
+
+# Ai Systeme exkludieren
+# https://netfuture.ch/2023/07/blocking-ai-crawlers-robots-txt-chatgpt/
+# https://darkvisitors.com/agents
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Omgilibot
+User-agent: Omgili
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+# Unklar nicht direkt nur Training auch Websuche mit AI?
+#User-agent: PerplexityBot
+#Disallow: /
+User-agent: cohere-ai
+Disallow: /
+
+# https://darkvisitors.com/agents/anthropic-ai
+User-agent: anthropic-ai
+Disallow: /
+
+# Bild-Generator + Rückwärtsuche; Aber Bild-Rückwärtssuche ist
+# nicht Traffi relevant (nie vorkgekommen von dieser Domain)
+# https://darkvisitors.com/agents/imagesiftbot
+User-Agent: ImagesiftBot
+Disallow: /
+
+# https://darkvisitors.com/agents/bytespider
+User-agent: Bytespider
+Disallow: /
+
+# https://darkvisitors.com/agents/diffbot
+User-agent: Diffbot
+Disallow: /
+
+# Block SEO Tools die wir nicht selbst benutzen warum unsere
+# Server-Zeit dafür verschwenden?
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+User-agent: dotbot
+Disallow: /
+
+User-agent: SEOkicks
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: SEBot-WA
+Disallow: /
+
+User-agent: barkrowler
+Disallow: /
+
+# http://velen.io
+User-agent: VelenPublicWebCrawler
+Disallow: /
+
+User-agent: *
+# Nötig weil da einige uralte Redirects drüber laufen
+Allow: /cgi-bin/xdial/
+Allow: /cgi-bin/forum
+Disallow: /cgi-bin/
+Disallow: /ad/
+# Test: kann man damit alte urls loswerden? Pixel selbst enthalten ein noindex
+Allow: /ads/*.a=22
+Allow: /ads/*.a=40
+Allow: /ads/*.a=41
+Allow: /ads/*.a=42
+Allow: /ads/*.a=43
+Allow: /ads/*.a=44
+Allow: /ads/*.a=45
+Allow: /ads/*.a=46
+# Fehler aussortiere ohne id!
+Allow: /ads/*.a=$
+# Dito für inzwischen sehr alte Click-Urls (11/2023 ergänzt)
+# Diese gehen zu 99% auf 404 da die belegung deaktiviert
+Allow: /click/*.a=40
+Allow: /click/*.a=41
+Allow: /click/*.a=42
+Allow: /click/*.a=43
+Allow: /click/*.a=44
+Allow: /click/*.a=45
+Allow: /click/*.a=46
+# News-Slider&Unterstützen Banner Bereich
+Allow: /click/*.a=4713
+Allow: /ads/*.a=4713
+# Neuerdings will google fast alles mitnehmen egal welches rel :/
+# das hier ist eine amazon werbung
+Allow: /click/*.a=47146
+Allow: /click/*.a=47148
+Allow: /click/*.a=47140
+Allow: /click/*.a=47185
+# Advertorial Lotto
+Allow: /ads/*.a=47153
+Allow: /ads/*.a=47154
+Allow: /ads/*.a=47155
+Allow: /ads/*.a=47156
+Allow: /ads/*.a=47157
+Allow: /click/*.a=47153
+Allow: /click/*.a=47154
+Allow: /click/*.a=47155
+Allow: /click/*.a=47156
+Allow: /click/*.a=47157
+# Lotto Floatbox
+Allow: /ads/*.a=47172
+Allow: /click/*.a=47172
+Allow: /ads/*.a=47188
+Allow: /click/*.a=47188
+Allow: /ads/*.a=47189
+Allow: /click/*.a=47189
+Allow: /ads/*.a=47182
+Allow: /click/*.a=47182
+Allow: /ads/*.a=47195
+Allow: /click/*.a=47195
+Allow: /ads/*.a=47196
+Allow: /click/*.a=47196
+# Advertorial Edeka
+Allow: /ads/*.a=47201
+Allow: /ads/*.a=47203
+Allow: /click/*.a=47201
+Disallow: /ads/
+Disallow: /click/
+Disallow: /user/
+# Versuch: Kann man das ohne Nachteile erlauben um das "indiziert trotz robots.txt"
+# Problem dort endlich zu lösen? Aktuelle News zunächst ausgenommen!
+Allow: /intern/action/print/*/news/5*
+Allow: /intern/action/print/*/news/6*
+Allow: /intern/action/print/*/news/7*
+Allow: /intern/action/print/*/news/8*
+Disallow: /intern/action/print/
+Disallow: /ttt.gif
+Disallow: /ttt.go
+Disallow: /ttt.png
+Disallow: /app/news/
+Disallow: /app/netzbewertung/
+# Alter Link; Seite gibt es nicht mehr daher google auch hier
+# erlauben das er diese einträge hoffentlich irgendwann vergisst
+Allow: /widget/idealo/price_hdb.html*
+Disallow: /widget/idealo/
+Disallow: /widget/newsfeed/
+Disallow: /db/res.html*city=*
+# Beachte das /search/ nicht dabei ist die Suchmaschinen sollten
+# heute schlauer damit umgehen und es wird von google auch nicht mehr
+# empfohlen - weil die eigentlich allen Links folgen wollen.
+# Die seiten selbst haben ja ein noindex.
+# OB das aber wirklich sinnvoll ist müsste man mal abschließend klären
+
+
+Sitemap: https://www.teltarif.de/h/sitemap.xml
+Sitemap: https://www.teltarif.de/sitemap-geraete.xml
+Sitemap: https://www.teltarif.de/sitemap-info.xml
+Sitemap: https://www.teltarif.de/sitemap-tarife.xml
+# Aktuelle News-Sitemap
+Sitemap: https://www.teltarif.de/sitemap-news.xml
+# Index-Sitemap für alle Archiv-News
+Sitemap: https://www.teltarif.de/arch/sitemap.xml

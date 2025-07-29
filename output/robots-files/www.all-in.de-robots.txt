@@ -1,0 +1,23 @@
+User-agent: *
+User-agent: GPTBot Disallow: /
+User-agent: ChatGPT-User Disallow: /
+User-agent: CCBot Disallow: /
+User-agent: MMETest Disallow: /
+User-agent: MyBot Disallow: /
+
+# Sitemaps
+Sitemap: https://www.all-in.de/sitemap.xml
+Sitemap: https://www.all-in.de/sitemap-image.xml
+Sitemap: https://www.all-in.de/sitemap-video.xml
+Sitemap: https://www.all-in.de/news.xml
+
+
+Disallow: /*.ece*
+Disallow: /titelseiten/
+Disallow: /verwaltung/
+Disallow: /werbung/
+Disallow: /meine*
+Disallow: /community*
+Disallow: /*?wt_*
+Disallow: /*?utm_campaign*
+Disallow: /suche?q=

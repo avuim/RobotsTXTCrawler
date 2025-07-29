@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /fileadmin/_temp_/
+Disallow: /typo3/
+Disallow: /typo3conf/
+Disallow: /clear.gif
+Crawl-delay: 10
+Sitemap: https://www.leichtathletik.de/sitemap.xml

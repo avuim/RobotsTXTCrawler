@@ -1,0 +1,12 @@
+# Zugriff auf alle Dateien erlauben
+User-agent: Slurp
+Disallow: /
+
+User-agent: *
+Disallow: /okaz/antworten.asp
+Disallow: /okaz/suchen.asp
+Disallow: /cgi-shl/
+Disallow: /werbung/
+Disallow: /WasWerWo/
+Disallow: /gaeste/
+

@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /payment
+User-agent: *
+Disallow: /profile
+User-agent: *
+Disallow: /registration
+User-agent: *
+Disallow: /welcomepage
+User-agent: *
+Disallow: /messenger
+User-agent: *
+Disallow: /lists
+User-agent: *
+Disallow: /settings
+User-agent: *
+Disallow: /j_acegi_security_check
+
+User-agent: TurnitinBot
+Disallow: /
+User-agent: ia_archiver
+Disallow: /
+
+Sitemap: https://www.elitepartner.de/wp-sitemap.xml

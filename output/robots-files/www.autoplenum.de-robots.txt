@@ -1,0 +1,8 @@
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: *
+Disallow: /de
+Disallow: /api/internal
+
+Sitemap: https://www.autoplenum.de/sitemap-de.xml.gz

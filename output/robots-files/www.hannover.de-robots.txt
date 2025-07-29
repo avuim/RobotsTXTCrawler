@@ -1,0 +1,14 @@
+# Robots.txt file for a standard eZ Platform website
+# All robots will spider all the domain, except for search
+
+User-agent: *
+Disallow: /content/search/
+Disallow: /content/advancedsearch/
+Disallow: /content/pdf/
+Disallow: /content/tipafriend/
+Disallow: /layout/set/
+
+Sitemap: https://www.hannover.de/sitemaps/index.xml
+Sitemap: https://www.hannover.de/en/sitemaps/index.xml
+Sitemap: https://www.hannover.de/Stiftungsinitiative-Hannover/sitemaps/index.xml
+

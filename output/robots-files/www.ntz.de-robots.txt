@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /typo3/
+Disallow: /typo3_src/
+Allow: /typo3/sysext/frontend/Resources/Public/*
+Allow: /template/Resources/Public/*
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Mozilla/5.0 (compatible; OGDWCtxCrawler)
+Disallow: /
+
+Sitemap: https://www.ntz.de/?type=1533906435

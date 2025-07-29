@@ -1,0 +1,91 @@
+# Robots.txt file for www.alpin.de + www.alpin-tiefschneetage.de
+
+User-agent: *
+Disallow: /*/ext_tour_
+
+User-agent: BluechipBacklinks
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: magpie-crawler
+Disallow: /
+
+User-agent: Yeti
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SirdataBot
+Disallow: /
+
+User-agent: LCC
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: proximic
+Disallow: /
+
+User-agent: ecoresearchCrawler/0.9
+Disallow: /
+
+User-agent: ecoresearchCrawler
+Disallow: /
+
+User-agent: Clickagy Intelligence Bot
+Disallow: /
+
+User-agent: Clickagy Intelligence Bot v2
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+‍User-agent: Claude-Web
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /

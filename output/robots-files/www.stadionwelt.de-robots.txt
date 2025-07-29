@@ -1,0 +1,6 @@
+Sitemap: https://www.stadionwelt.de/sitemap/sitemap_index.xml
+User-agent: *
+Disallow: /search*
+Disallow: /*?logout$
+Noindex: /search*
+Noindex: /*?logout$

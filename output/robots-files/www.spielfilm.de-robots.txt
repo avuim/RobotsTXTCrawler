@@ -1,0 +1,27 @@
+# robots.txt file for http://www.spielfilm.de/
+# mail redaktion@spielfilm.de for constructive criticism
+
+Sitemap: http://www.spielfilm.de/sitemap.xml
+
+User-agent: *
+Disallow: /admin/
+Disallow: /ajax/
+Disallow: /login/
+Disallow: /layout/
+Disallow: /suche/
+Disallow: /suche.html
+Disallow: /spielfilm.html?*
+Disallow: /filme/*/*/dvd-blu-ray
+
+User-agent: Googlebot
+Disallow: /admin/
+Disallow: /ajax/
+Disallow: /login/
+Disallow: /layout/
+Disallow: /suche/
+Disallow: /suche.html
+Disallow: /spielfilm.html?*
+Disallow: /filme/*/*/dvd-blu-ray
+
+User-agent: GPTBot
+Disallow: /

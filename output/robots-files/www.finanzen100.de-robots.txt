@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /benutzer/
+Disallow: /widget/
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+Sitemap: https://www.finanzen100.de/sitemap/sitemap-index.xml
+Sitemap: https://www.finanzen100.de/news-sitemap-index.xml
+Sitemap: https://www.finanzen100.de/videos-sitemap-index.xml

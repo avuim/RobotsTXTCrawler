@@ -1,0 +1,10 @@
+# Ganze Site freigeben
+User-agent: *
+Disallow: /*.pdf$
+Disallow: /*.speak$
+Disallow: *tools.advise.advise*
+Disallow: *ima.calculator*
+Disallow: *ibs/out*
+Disallow: *comment.public.new*
+Disallow: *slimhtml*
+Disallow: /public/fad-server/class/cms/mod/cookieconsent/cookieconsent.js

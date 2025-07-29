@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /cdn-cgi/
+Allow: /wp-admin/admin-ajax.php
+
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://www.businessinsider.de/news-sitemap.xml
+Sitemap: https://www.businessinsider.de/sitemap_index.xml

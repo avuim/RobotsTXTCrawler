@@ -1,0 +1,11 @@
+Sitemap: https://www.klassikradio.de/api/sitemap
+
+User-agent: *
+Allow: /*
+Allow: /_next/static/*
+Allow: /_next/static/css/*
+Allow: /_next/static/chunks/*
+
+Disallow: /api/*
+Allow: /api/sitemap
+Disallow: /serverless/*

@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /cache
+Disallow: /epaper
+Disallow: /fehler_melden.html
+Disallow: /versenden.html
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-Agent: PerplexityBot
+Disallow: /

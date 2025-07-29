@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-includes/js/tinymce/plugins/wordpress/img/trans.gif
+Disallow: /53302250/
+Disallow: /api/
+Disallow: /web-api/
+
+Sitemap: https://www.golfpost.de/sitemap_index.xml
+
+User-agent: Amazonbot
+Disallow: /login/
+Disallow: /register/

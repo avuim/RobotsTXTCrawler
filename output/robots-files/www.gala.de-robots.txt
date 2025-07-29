@@ -1,0 +1,64 @@
+User-agent: msnbot-media/1.1
+Disallow: /
+
+User-agent: msnbot-media/2.0b
+Disallow: /
+
+User-agent: scrapy
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: proximic
+Disallow: /*&ampshare=*
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: *
+Disallow: /p/
+Disallow: /p-api/
+Disallow: /action/
+Disallow: /sn/
+Disallow: /syndication/
+Disallow: /elastic/
+Disallow: /search?
+Disallow: /gutscheine/wp-admin/
+

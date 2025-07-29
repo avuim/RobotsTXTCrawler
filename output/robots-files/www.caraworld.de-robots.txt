@@ -1,0 +1,12 @@
+User-Agent: *
+Disallow: /*/ajax/*
+Disallow: /*/json/*
+Disallow: /*/html/*
+Disallow: /frontend/*
+Disallow: /api/*
+Disallow: /*/sort/*
+Disallow: /*:*
+Disallow: /*|*
+Allow: /*/preis:vk-brutto/*
+Allow: /
+Sitemap: https://www.caraworld.de/sitemaps_index.xml

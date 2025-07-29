@@ -1,0 +1,80 @@
+# Siehe haupt robots.txt
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Omgili
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-Agent: ImagesiftBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: SEOkicks
+Disallow: /
+
+User-agent: *
+Disallow: /cgi-bin/
+# Siehe haupt robots.txt
+Allow: /ads/*.a=22
+Allow: /ads/*.a=40
+Allow: /ads/*.a=41
+Allow: /ads/*.a=42
+Allow: /ads/*.a=43
+Allow: /ads/*.a=44
+Allow: /ads/*.a=45
+Allow: /ads/*.a=46
+Allow: /ads/*.a=$
+Allow: /click/*.a=40
+Allow: /click/*.a=41
+Allow: /click/*.a=42
+Allow: /click/*.a=43
+Allow: /click/*.a=44
+Allow: /click/*.a=45
+Allow: /click/*.a=46
+Disallow: /ads/
+Disallow: /click/
+Disallow: /forum/action/
+Disallow: /user/
+Disallow: /intern/action/
+Disallow: /ttt.gif
+Disallow: /ttt.go
+Disallow: /ttt.png
+Disallow: /app/
+Disallow: /widget/idealo/
+Disallow: /widget/newsfeed/
+Sitemap: https://www.0180.info/sitemap-search.xml

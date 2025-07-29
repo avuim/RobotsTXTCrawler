@@ -1,0 +1,45 @@
+User-Agent: *
+Allow: /
+
+# folders
+Disallow: /typo3/
+Disallow: /typo3conf/
+
+# explicitly allow extension and temp directory
+Allow: /typo3conf/ext/
+Allow: /typo3temp/
+
+# same for sitemap.xml urls
+Allow: /sitemap.xml?sitemap*
+Allow: /sitemap.xml?page=*
+
+# disallow url parameters
+Disallow: /*?id=*                          # non speaking URLs
+Disallow: /*&id=*
+Disallow: /*cHash                          # no cHash
+Disallow: /*tx_felogin_pi1                 # no felogin
+Disallow: /*tx_saltpsychologieheute_detail # no psycho-specific
+Disallow: /*tx_saltpsychologie_heute_list
+Disallow: /*tx_powermail_pi1               # no powermail (thanks) pages
+
+# disallow script files
+Disallow: /*.inc$
+Disallow: /*.php$
+
+# disallow document files
+Disallow: /*.doc$
+Disallow: /*.pdf$
+Disallow: /*.xls$
+
+# disallow pdf downloads
+Disallow: /*/download.html
+# disallow download folder
+Disallow: /fileadmin/download/
+
+# disallow user-specific, already has meta noindex
+Disallow: /warenkorb/
+Disallow: /mein-konto/
+# disallow search page, already has meta noindex
+Disallow: /suche.html
+
+Sitemap: https://www.psychologie-heute.de/sitemap.xml

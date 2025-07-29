@@ -1,0 +1,44 @@
+User-agent: AhrefsBot
+User-agent: AwarioRssBot
+User-agent: AwarioSmartBot
+User-agent: barkrowler
+User-agent: BLEXBot
+User-agent: DataForSeoBot
+User-agent: dotbot
+User-agent: ecoresearch
+User-agent: MJ12bot
+User-agent: relemindbot
+User-agent: SeekportBot
+User-agent: SemrushBot
+User-agent: sentibot
+User-agent: serpstatbot
+User-agent: SirdataBot
+User-agent: trendictionbot
+User-agent: uipbot
+User-agent: uipbot/1.0
+User-agent: uipbot/1.0 (uipbot@semasio.net)
+User-agent: um-IC
+User-agent: VelenPublicWebCrawler
+User-agent: weborama-fetcher
+Disallow: /
+
+User-agent: *
+Disallow: /analytics
+Disallow: /api/
+Disallow: /forum/account/
+Disallow: /forum/conversations/
+Disallow: /forum/find-new/
+Disallow: /forum/goto/
+Disallow: /forum/members/
+Disallow: /forum/misc/
+Disallow: /forum/online/
+Disallow: /forum/posts/
+Disallow: /forum/search/
+Disallow: /forum/whats-new/
+Disallow: /forum/admin.php
+Disallow: /forum/proxy.php
+Disallow: /preisvergleich/
+Disallow: /suche/
+
+Sitemap: https://www.computerbase.de/sitemap.xml
+Sitemap: https://www.computerbase.de/forum/sitemap.php

@@ -1,0 +1,26 @@
+User-Agent: *
+Allow: /
+
+# folders
+Disallow: /fileadmin/_temp_/
+Disallow: /t3lib/
+Disallow: /typo3/
+Allow: /typo3/sysext/frontend/Resources/Public/*
+Disallow: /typo3_src/
+Disallow: /typo3conf/
+Disallow: /piwik/
+Disallow: /matomo/
+Disallow: /fileadmin/
+Allow: /fileadmin/content/
+Allow: /fileadmin/user_upload/
+Disallow: /fileadmin/content/Intern/
+
+# parameters
+Disallow: /*?id=*
+Disallow: /*cHash
+Allow: /*sitemap*cHash
+Disallow: /*tx_powermail_pi1
+Disallow: /*&type=9818
+
+# sitemap
+Sitemap: https://p-vj0njy.project.space/sitemap.xml

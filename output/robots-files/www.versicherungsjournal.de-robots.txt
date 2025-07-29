@@ -1,0 +1,35 @@
+User-Agent: *
+Disallow: /anzeigentemp/
+Disallow: /daten/download/
+Disallow: /download/
+Disallow: /libs/
+Disallow: /pressedienst/
+Disallow: /umfrage*
+Disallow: /verwaltung/
+Disallow: /vorschau/
+Disallow: /werbung/
+Disallow: /anzeigenauftrag.php
+Disallow: /anzeigenplaetze.php
+Disallow: */artikel_druckversion.php
+Disallow: */artikel_kopieren.php
+Disallow: /passwort.php
+Disallow: /termine_link.php
+Disallow: /werbung_link.php
+Disallow: /kontakt.php
+Disallow: /empfehlen.php
+Disallow: /verifizierung.php
+Disallow: /abmelden.php
+Disallow: /archiv-treffer.php
+Disallow: /infobrief-bestellen.php
+Disallow: /verifizierung-infobrief.php
+Disallow: /verifizierung-newsletter.php
+Disallow: /dossier.php
+Disallow: /dossiers.php
+Disallow: /umfrage.php
+
+User-Agent: Googlebot-News
+Disallow: /anzeigen.php
+
+Sitemap: https://www.versicherungsjournal.de/vj_de_weekly_sitemap.xml
+Sitemap: https://www.versicherungsjournal.de/vjournal_sitemap.xml
+

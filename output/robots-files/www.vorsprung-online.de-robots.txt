@@ -1,0 +1,57 @@
+# If the Joomla site is installed within a folder such as at
+# e.g. www.example.com/joomla/ the robots.txt file MUST be
+# moved to the site root at e.g. www.example.com/robots.txt
+# AND the joomla folder name MUST be prefixed to the disallowed
+# path, e.g. the Disallow rule for the /administrator/ folder
+# MUST be changed to read Disallow: /joomla/administrator/
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/orig.html
+#
+# For syntax checking, see:
+# http://tool.motoricerca.info/robots-checker.phtml
+
+User-agent: *
+Allow: /*.js*
+Allow: /*.css*
+Allow: /*.png*
+Allow: /*.jpg*
+Allow: /*.gif*
+
+Disallow: /administrator/
+Disallow: /bin/
+Disallow: /cache/
+Disallow: /cli/
+
+Disallow: /includes/
+Disallow: /installation/
+Disallow: /language/
+Disallow: /layouts/
+Disallow: /libraries/
+Disallow: /logs/
+
+
+Disallow: /tmp/
+
+User-agent: bingbot
+User-agent: WebReaper
+User-agent: WebCopier
+User-agent: Offline Explorer
+User-agent: HTTrack
+User-agent: Microsoft.URL.Control
+User-agent: EmailCollector
+User-agent: penthesilea
+User-agent: Wfuzz
+User-agent: casper
+User-agent: checkpriv
+User-agent: Seekport
+User-agent: MegaIndex
+User-agent: Scrapy
+User-agent: PetalBot
+Disallow: /
+Sitemap: https://vorsprung-online.de/sitemap-index.xml
+
+# JSitemap entries
+Sitemap: https://vorsprung-online.de/index.php?option=com_jmap&view=sitemap&format=gnews
+Sitemap: https://vorsprung-online.de/index.php?option=com_jmap&view=sitemap&format=xml
+Sitemap: https://vorsprung-online.de/component/jmap/sitemap/gnews

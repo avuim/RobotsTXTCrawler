@@ -1,0 +1,38 @@
+User-agent: *
+
+Allow: /
+
+User-agent: auskunftbot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: pimeyes.com crawler
+Disallow: /
+
+User-agent: JobboerseBot
+Disallow: /
+
+User-agent: CrazyWebCrawler-Spider
+Disallow: /
+
+User-agent: Jobsearch1.5
+Disallow: /
+
+User-agent: Cliqzbot
+Disallow: /
+
+User-agent: thesubot
+Disallow: /
+
+User-agent: ACONTBOT
+Disallow: /
+
+User-agent: MAINSEEK_BOT
+Disallow: /
+
+Sitemap: https://www.auskunft.de/sitemap.xml

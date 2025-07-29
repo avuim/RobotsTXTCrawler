@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /typo3/
+Disallow: /typo3_src/
+Disallow: /nc/
+Disallow: */katlist/*
+Disallow: *?tx_ttnews[swords]=*
+Disallow: *?tx_ttnews[tt_news]=*
+Disallow: *?tx_feuserfriends_pi1*
+Disallow: *?tx_bddbflvvideogallery_pi1[video]=*
+Disallow: *?utm_source=*
+Disallow: */haus-in-hamburg-zu-verkaufen.html
+Allow: /typo3/sysext/frontend/Resources/Public/*
+
+Sitemap: https://www.soll-galabau.de/sitemap.xml

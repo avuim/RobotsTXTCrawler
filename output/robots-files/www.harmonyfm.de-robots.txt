@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: *.pdf
+Disallow: /suche/
+Disallow: /app/
+Disallow: /facebook-includes/
+Disallow: /radioplayer-includes/
+Disallow: /login.html
+Disallow: /events/ticketshop/atsController/Ticketshop/atsAction/search.html
+Disallow: /testseiten/
+Disallow: /app-hilfe-android/
+Disallow: /app-hilfe-ios/
+Disallow: /logo/
+Disallow: /kontakt/logo.html
+Disallow: /nachrichten/
+Disallow: /themen/aktionen/formulare/
+Disallow: /*?*
+
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://www.harmonyfm.de/index.sitemap

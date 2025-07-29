@@ -1,0 +1,44 @@
+# Rules for specific AI crawlers
+User-agent: CCBot
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: Google-Extended
+Disallow: /
+
+# Rules for all other crawlers, incl. Googlebot
+User-agent: *
+
+# --- Temporary Allow rules for GSC validation ---
+Allow: /_em_cms/globals/print.php
+Allow: /_em_cms/globals/send.php
+Allow: /microsites/dpa_fotostrecken/
+Allow: /microsites/dpa_bilder_des_tages/
+Allow: /tagsuche/
+
+
+# ---------------------------------------------------------
+
+# --- Permanent Allow rules for e.g. legal pages ---
+Allow: /_em_cms/globals/csslibs.php
+Allow: /_em_cms/globals/jslibs.php
+Allow: /_em_cms/globals/acon.php
+Allow: /_em_cms/globals/aauth.php
+Allow: /microsites/autorenprofil/
+Allow: /microsites/impressum
+Allow: /microsites/datenschutz
+Allow: /microsites/barrierefreiheitserklaerung
+Allow: /microsites/agb
+# ----------------------------------------------------------------
+
+# Disallow rules for system, technical or unimportant paths
+Disallow: /_em_cms/
+Disallow: /cms7/
+Disallow: /frage/
+Disallow: /suche/
+Disallow: /profil/
+
+# Location of the Sitemaps
+Sitemap: https://www.lz.de/sitemap_lz_index.xml.gz
+Sitemap: https://www.lz.de/sitemap_lz_index_news.xml.gz
+Sitemap: https://www.lz.de/sitemap_lz_index_media.xml.gz
+Sitemap: https://www.lz.de/_retresco/sitemap/index.xml

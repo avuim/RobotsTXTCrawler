@@ -1,0 +1,53 @@
+User-agent: *
+Disallow: /irapi/*
+Disallow: /irelements/*
+Disallow: /ajax/
+Disallow: /*?module=*
+Disallow: /heft/*
+Disallow: *ePaper*.pdf
+
+ # Allow sitemap
+Sitemap: https://www.promobil.de/sitemap/news-sitemap.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-index.xml
+Sitemap: https://www.promobil.de/sitemap/markenbaum-sitemap-index.xml
+Sitemap: https://www.promobil.de/sitemap/themenseiten-sitemap.xml
+Sitemap: https://www.promobil.de/sitemap/video-sitemap-index.xml
+Sitemap: https://www.promobil.de/sitemap/authors-sitemap.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Wohnmobile.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Wohnwagen.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Zubehoer.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Platzfinder.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Reiseplanung.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Ratgeber.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Wohnmobile_Neuheiten.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Wohnmobile_Einzeltest.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Wohnmobile_Vergleichstest.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Wohnmobile_Kaufberatung.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Wohnwagen_Neuheiten.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Wohnwagen_Einzeltest.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Wohnwagen_Vergleichstest.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Wohnwagen_Zugfahrzeug.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Platzfinder_Platzfinder.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Reiseplanung_TourenUndTipps.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Reiseplanung_Reportagen.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Reiseplanung_Uebernachtungstipps.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Ratgeber_Werkstatt.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Ratgeber_TippsUndTicks.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Ratgeber_sonstige_Ratgeber.xml
+Sitemap: https://www.promobil.de/sitemap/sitemap-Produkttest.xml
+
+
+# Diese Crawler blockieren
+User-agent: AI2Bot
+User-agent: omgili
+User-agent: TimpiBot
+User-agent: BLEXBot
+User-agent: dotbot
+User-agent: MJ12bot
+User-agent: Barkrowler
+User-agent: Optimizer
+Disallow: /
+
+# Legal notice: [https://www.promobil.de/] expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).
+# The use of robots or other automated means to access [https://www.promobil.de/] or collect or mine data without the express permission of [https://www.promobil.de/] is strictly prohibited.
+# If you would like to apply for permission to crawl [https://www.promobil.de/], collect or use data, please contact [ompi@motorpresse.de]

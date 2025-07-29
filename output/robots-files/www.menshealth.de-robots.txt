@@ -1,0 +1,84 @@
+# Allow sitemap
+Sitemap: https://www.menshealth.de/sitemap/navigation-sitemap.xml
+sitemap: https://www.menshealth.de/sitemap/news-sitemap.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-index.xml
+sitemap: https://www.menshealth.de/sitemap/footer-sitemap.xml
+sitemap: https://www.menshealth.de/sitemap/themenseiten-sitemap.xml
+sitemap: https://www.menshealth.de/sitemap/video-sitemap-index.xml
+sitemap: https://www.menshealth.de/sitemap/recipe-sitemap.xml
+sitemap: https://www.menshealth.de/sitemap/authors-sitemap.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Trainingsplaene.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Fitness.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Food.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Health.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Life.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Style.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Deals.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-News.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Trainingsplaene_Muskelaufbau.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Trainingsplaene_Gesund-abnehmen.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Trainingsplaene_Oberkoerper.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Trainingsplaene_Unterkoerper.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Trainingsplaene_AusdauerUndPerformance.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Trainingsplaene_GesundUndFit.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Fitness_Trainingsplaene.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Fitness_Krafttraining.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Fitness_Ausdauer.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Fitness_AbnehmenAndFatburning.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Fitness_SportAndOutdoor.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Food_Muskelaufbau.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Food_Fitness-Ernaehrung.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Food_Abnehmen.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Food_Gesunde-Ernaehrung.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Food_Rezepte.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Food_Ernaehrungsplaene.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Food_Trends.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Health_Vorsorge.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Health_Behandlung.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Life_TechAndEntertainment.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Life_Mobilitaet.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Life_ReiseAndAktivitaeten.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Life_FamilieAndVaterschaft.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Life_Mind.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Life_Nachhaltigkeit.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Life_Karriere.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Style_Mode.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Style_BodyAndCare.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Style_Haare.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Style_News.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Deals_Produktberatungen.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Deals_DealsDerWoche.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Deals_Mitmach_Aktionen.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Deals_Gewinnspiele.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Deals_Redaktionslieblinge.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Deals_Aktuelles.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Deals_Trainingstools.xml
+sitemap: https://www.menshealth.de/sitemap/sitemap-Deals_Leserlieblinge.xml
+
+
+# disallow api calls
+User-agent: *
+Disallow: /irapi/*
+Disallow: /irelements/element/*
+Disallow: /irelements/standalone/*
+Disallow: /irelements/element
+Disallow: /irelements/elements
+Disallow: /irelements/elements/*
+
+Disallow: /heft*
+Disallow: *ePaper*.pdf
+
+# Diese Crawler blockieren
+User-agent: AI2Bot
+User-agent: omgili
+User-agent: TimpiBot
+User-agent: BLEXBot
+User-agent: dotbot
+User-agent: MJ12bot
+User-agent: Barkrowler
+User-agent: Optimizer
+Disallow: /
+
+# Legal notice: [https://www.menshealth.de/] expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).
+# The use of robots or other automated means to access [https://www.menshealth.de/] or collect or mine data without the express permission of [https://www.menshealth.de/] is strictly prohibited.
+# If you would like to apply for permission to crawl [https://www.menshealth.de/], collect or use data, please contact [ompi@motorpresse.de]

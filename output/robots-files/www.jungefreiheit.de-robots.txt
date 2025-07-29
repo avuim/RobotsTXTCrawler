@@ -1,0 +1,50 @@
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: sogou spider
+Disallow: /
+
+User-agent: SemrushBot-SA
+Disallow: /
+
+User-agent: Flamingo_SearchEngine 
+Disallow: /
+
+User-agent: VoilaBot
+Disallow: /
+ 
+User-agent: Baiduspider
+Disallow: /
+ 
+User-agent: MJ12bot
+Disallow: /
+ 
+User-agent: BecomeJPBot
+Disallow: /
+ 
+User-agent: Exabot
+Disallow: /
+ 
+User-agent: 008
+Disallow: /	
+ 
+User-agent: Sosospider
+Disallow: /
+
+User-Agent: *
+Disallow: /wp-admin/
+Disallow: /anmeldung/
+Disallow: /anmeldung/*
+Disallow: /wp-login.php?action=logout
+Disallow: /page/*/?s*
+Disallow: */0/0/page/*
+Disallow: /search/*
+Disallow: /page/*
+Disallow: /thema/*
+Disallow: /*/embed/
+Disallow: /*/feed/
+Disallow: /wp-content/cache/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://jungefreiheit.de/sitemap_index.xml
+Sitemap: https://jungefreiheit.de/sitemap-news.xml

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-include/
+Disallow: /wp-content/themes/newspack-dbn/fonts/
+Allow: /wp-admin/admin-ajax.php 
+Sitemap: https://www.futurezone.de/news-sitemap.xml
+Sitemap: https://www.futurezone.de/sitemap_index.xml 

@@ -1,0 +1,75 @@
+User-agent: *
+Disallow: /images/overlay
+Disallow: /images/scale
+Disallow: /ajax
+Disallow: /ajax_pub
+Disallow: /*/ajax
+Disallow: /*/ajax_pub
+Disallow: /api
+Disallow: /widget
+
+User-agent: AhrefsBot  
+Disallow: /images/overlay
+Disallow: /images/scale
+Disallow: /ajax
+Disallow: /ajax_pub
+Disallow: /*/ajax
+Disallow: /*/ajax_pub
+Disallow: /api
+Disallow: /widget
+Crawl-Delay: 30
+
+User-agent: ClaudeBot
+Disallow: /images/overlay
+Disallow: /images/scale
+Disallow: /ajax
+Disallow: /ajax_pub
+Disallow: /*/ajax
+Disallow: /*/ajax_pub
+Disallow: /api
+Disallow: /widget
+Crawl-Delay: 30
+
+User-agent: grapeshot
+Disallow: /images/overlay
+Disallow: /images/scale
+Disallow: /ajax
+Disallow: /ajax_pub
+Disallow: /*/ajax
+Disallow: /*/ajax_pub
+Disallow: /api
+Disallow: /widget
+Crawl-Delay: 30
+
+User-agent: Bingbot
+Disallow: /images/overlay
+Disallow: /images/scale
+Disallow: /ajax
+Disallow: /ajax_pub
+Disallow: /*/ajax
+Disallow: /*/ajax_pub
+Disallow: /api
+Disallow: /widget
+Crawl-Delay: 1
+
+User-agent: BingPreview
+Disallow: /images/overlay
+Disallow: /images/scale
+Disallow: /ajax
+Disallow: /ajax_pub
+Disallow: /*/ajax
+Disallow: /*/ajax_pub
+Disallow: /api
+Disallow: /widget
+Crawl-Delay: 1
+
+User-agent: AdIdxBot
+Disallow: /images/overlay
+Disallow: /images/scale
+Disallow: /ajax
+Disallow: /ajax_pub
+Disallow: /*/ajax
+Disallow: /*/ajax_pub
+Disallow: /api
+Disallow: /widget
+Crawl-Delay: 1

@@ -1,0 +1,20 @@
+Sitemap: https://www.yacht.de/api/sitemap
+
+User-agent: *
+Allow: /*
+Allow: /_next/static/*
+Allow: /_next/static/css/*
+Allow: /_next/static/chunks/*
+
+Disallow: /api/*
+Allow: /api/sitemap
+Disallow: /serverless/*
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /

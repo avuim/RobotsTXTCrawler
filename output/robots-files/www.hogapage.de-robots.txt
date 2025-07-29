@@ -1,0 +1,19 @@
+User-agent: *
+Allow: *
+Disallow: /jobs/hit/ajax/
+Disallow: /jobs/*/print
+Disallow: /jobs/*.pdf
+Disallow: /jobs/profil/*
+Disallow: /jobs/firmenprofil/*
+Disallow: /jobs/suche*
+Disallow: /jobs/social-auth*
+Disallow: /jobs/firmensuche*
+Disallow: /admin*
+Disallow: /nachrichten/suche*
+
+Sitemap: https://www.hogapage.de/jobs/sitemap.xml
+Sitemap: https://www.hogapage.de/jobs/sitemap-companies.xml
+Sitemap: https://www.hogapage.de/jobs/sitemap-jobs.xml
+Sitemap: https://www.hogapage.de/magazin/sitemap.xml
+Sitemap: https://www.hogapage.de/nachrichten/sitemap.xml
+Sitemap: https://www.hogapage.de/nachrichten/sitemap-news.xml

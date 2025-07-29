@@ -1,0 +1,208 @@
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+# CSS, JS, Images
+Allow: /core/*.css$
+Allow: /core/*.css?
+Allow: /core/*.js$
+Allow: /core/*.js?
+Allow: /core/*.gif
+Allow: /core/*.jpg
+Allow: /core/*.jpeg
+Allow: /core/*.png
+Allow: /core/*.svg
+Allow: /profiles/*.css$
+Allow: /profiles/*.css?
+Allow: /profiles/*.js$
+Allow: /profiles/*.js?
+Allow: /profiles/*.gif
+Allow: /profiles/*.jpg
+Allow: /profiles/*.jpeg
+Allow: /profiles/*.png
+Allow: /profiles/*.svg
+# Directories
+Disallow: /core/
+Disallow: /profiles/
+# Files
+Disallow: /README.md
+Disallow: /composer/Metapackage/README.txt
+Disallow: /composer/Plugin/ProjectMessage/README.md
+Disallow: /composer/Plugin/Scaffold/README.md
+Disallow: /composer/Plugin/VendorHardening/README.txt
+Disallow: /composer/Template/README.txt
+Disallow: /modules/README.txt
+Disallow: /sites/README.txt
+Disallow: /themes/README.txt
+Disallow: /web.config
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips
+Disallow: /node/add/
+Disallow: /search/
+Disallow: /user/register
+Disallow: /user/password
+Disallow: /user/login
+Disallow: /user/logout
+Disallow: /media/oembed
+Disallow: /*/media/oembed
+# Paths (no clean URLs)
+Disallow: /index.php/admin/
+Disallow: /index.php/comment/reply/
+Disallow: /index.php/filter/tips
+Disallow: /index.php/node/add/
+Disallow: /index.php/search/
+Disallow: /index.php/user/password
+Disallow: /index.php/user/register
+Disallow: /index.php/user/login
+Disallow: /index.php/user/logout
+Disallow: /index.php/media/oembed
+Disallow: /index.php/*/media/oembed
+
+# explicitly allow sitemaps with page parameter (page-parameter disallowed see below)
+Allow: /sitemap.xml*
+Allow: /sitemap.xml?page=1
+Allow: /sitemap.xml?page=2
+Allow: /sitemap.xml?page=3
+Allow: /sitemap.xml?page=4
+Allow: /sitemap.xml?page=5
+Allow: /sitemap.xml?page=6
+Allow: /sitemap.xml?page=7
+Allow: /sitemap.xml?page=8
+Allow: /sitemap.xml?page=9
+Allow: /sitemap.xml?page=10
+Allow: /sitemap.xml?page=11
+Allow: /sitemap.xml?page=12
+Allow: /sitemap.xml?page=13
+Allow: /sitemap.xml?page=14
+Allow: /sitemap.xml?page=15
+Allow: /sitemap.xml?page=16
+Allow: /sitemap.xml?page=17
+Allow: /sitemap.xml?page=18
+Allow: /sitemap.xml?page=19
+Allow: /sitemap.xml?page=20
+
+Sitemap: https://www.visitberlin.de/sitemap.xml
+
+
+
+
+# Disallow 2-click resolve links
+
+Disallow: /de/two-click/resolve/nojs/*
+Disallow: /en/two-click/resolve/nojs/*
+Disallow: /it/two-click/resolve/nojs/*
+Disallow: /es/two-click/resolve/nojs/*
+Disallow: /fr/two-click/resolve/nojs/*
+
+
+######################
+# German site version
+######################
+# Directories
+Disallow: /de/core/
+Disallow: /de/profiles/
+
+# Paths (clean URLs)
+Disallow: /de/filter/tips
+
+# Paths (no clean URLs)
+Disallow: /de/index.php/filter/tips
+
+######################
+# English site version
+######################
+# Directories
+Disallow: /en/core/
+Disallow: /en/profiles/
+
+# Paths (clean URLs)
+Disallow: /en/filter/tips
+
+# Paths (no clean URLs)
+Disallow: /en/index.php/filter/tips
+
+
+######################
+# French site version
+######################
+# Directories
+Disallow: /fr/core/
+Disallow: /fr/profiles/
+
+# Paths (clean URLs)
+Disallow: /fr/filter/tips
+
+# Paths (no clean URLs)
+Disallow: /fr/index.php/filter/tips
+
+
+#######################
+# Italian site version
+#######################
+# Directories
+Disallow: /it/core/
+Disallow: /it/profiles/
+
+# Paths (clean URLs)
+Disallow: /it/filter/tips
+
+# Paths (no clean URLs)
+Disallow: /it/index.php/filter/tips
+
+
+#######################
+# Spanish site version
+#######################
+# Directories
+Disallow: /es/core/
+Disallow: /es/profiles/
+
+# Paths (clean URLs)
+Disallow: /es/filter/tips
+
+# Paths (no clean URLs)
+Disallow: /es/index.php/filter/tips
+
+#Such-URLs sperren
+Disallow: */search
+Disallow: */cerca
+Disallow: */suche
+Disallow: */busca
+Disallow: */recherche
+
+#Hotelübersicht DE & EN
+Disallow: */hotel-guide?*
+Disallow: */hotel-guide-karte?*
+Disallow: */hotel-guide-map?*
+
+#ES
+Disallow: */lista-hoteles?*
+Disallow: */lista-hoteles-mapa?*
+
+#FR
+Disallow: */liste-hotels?*
+Disallow: */liste-hotels-plan?*
+
+#IT
+Disallow: */lista-hotel?*
+Disallow: */lista-hotel-mappa?*
+
+#weitere Parameter
+Disallow: *?date_
+Disallow: *?month
+Disallow: *?items_per_page
+Disallow: *?event_expired

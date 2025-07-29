@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /count.php
+#Disallow: /out.php
+Disallow: /pricetool_trend.php
+Disallow: /forum/avatar.php
+Disallow: /rss.php
+
+User-agent: *
+Sitemap: https://bluray-disc.de/sitemap.xml

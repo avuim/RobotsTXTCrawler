@@ -1,0 +1,37 @@
+User-agent: *
+Disallow: /hotel/search?*
+Disallow: /en/hotel/search?*
+Disallow: /de/hotel/search?*
+Disallow: /hotel/*?travelType=*
+Disallow: /hotel/*&travelType=*
+Disallow: /static/
+Disallow: *?travelType=*
+Disallow: *?utm_source=*
+Disallow: *?marke=*
+Disallow: *earliestStart=*
+Disallow: *?duration=*
+Disallow: *?awc=*
+Disallow: *?sortByLowestPrice=*
+Disallow: *?bdid=*
+Disallow: *?ttid=*
+Disallow: *?locale=*
+Disallow: *?icid=*
+Disallow: *?bcid=*
+Disallow: *?ap=*
+Disallow: *?refat=*
+Disallow: *?tab=*
+Disallow: *?provider=*
+Disallow: *?ecid=*
+Disallow: *?fbclid=*
+Disallow: *?web_winter*
+Disallow: *?ajax_handler=*
+Disallow: *?__historyState=*
+Disallow:  /logos/holidaycheck.svg
+
+Sitemap: https://www.meiers-weltreisen.de/sitemaps/sitemap.xml
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Cliqzbot
+Disallow: /

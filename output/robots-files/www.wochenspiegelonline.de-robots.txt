@@ -1,0 +1,37 @@
+User-Agent: *
+Disallow: /index.php?id=*
+Disallow: /typo3/
+Disallow: /fileadmin/
+Disallow: /kcs-test/*
+Disallow: /hene-test/*
+
+User-Agent: Googlebot
+Allow: /news/
+Allow: /notdienst/
+Allow: /fileadmin/epaper/*
+
+User-agent: Twitterbot
+Allow: /fileadmin/swvimportnews/media/*
+
+User-Agent: SlySearch
+User-Agent: SmartDownload
+User-Agent: SpankBot
+User-Agent: spanner
+User-Agent: SuperBot
+User-Agent: SuperHTTP
+User-Agent: Surfbot
+User-Agent: Lydia
+User-Agent: Clearware
+User-Agent: ShablastBot
+User-Agent: BlitzBOT
+User-Agent: claudebot
+User-Agent: YandexBot
+User-Agent: 2ip bot
+User-Agent: Scrapy
+User-Agent: DotBot
+User-Agent: bingbot
+User-Agent: OAI-SearchBot
+User-Agent: SentiBot
+User-Agent: MJ12bot
+Disallow: /
+

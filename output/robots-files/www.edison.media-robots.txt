@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://edison.media/page-sitemap.xml
+Sitemap: https://edison.media/post-sitemap1.xml
+Sitemap: https://edison.media/post-sitemap2.xml
+Sitemap: https://edison.media/post-sitemap3.xml

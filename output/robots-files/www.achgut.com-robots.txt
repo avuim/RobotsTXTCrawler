@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /dadgdx/*
+Disallow: /new_login/*
+Disallow: /wp-admin/
+Disallow: /?ACT*
+Disallow: /artikel/islamisten_auf_staatlich_gefoerderter_bildungsmesse
+Disallow: /autor/krischke/
+Disallow: /suche/
+Crawl-delay: 10
+
+User-agent: BUbiNG
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /

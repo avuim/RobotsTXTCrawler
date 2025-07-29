@@ -1,0 +1,11 @@
+Sitemap: https://www.digitalfernsehen.de/sitemap.xml
+Sitemap: https://www.digitalfernsehen.de/sitemap-news.xml
+
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /cgi/
+Disallow: /cdn-cgi/
+Disallow: /trackback/
+
+User-agent: Googlebot
+Disallow: /page/*/?filter_by=
