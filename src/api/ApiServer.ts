@@ -202,9 +202,21 @@ export class ApiServer {
       }
     });
     
-    // Fallback für alle anderen Routen (SPA-Support)
-    this.app.get('*', (req: Request, res: Response) => {
-      res.sendFile(path.join(__dirname, '../../src/frontend/build/index.html'));
+    // API-Dokumentation
+    this.app.get('/api', (req: Request, res: Response) => {
+      res.json({
+        message: 'Robots.txt Crawler API',
+        endpoints: [
+          '/api/summary',
+          '/api/bots',
+          '/api/bots/:botName',
+          '/api/websites',
+          '/api/websites/:domain',
+          '/api/trends',
+          '/api/search/bots?q=<suchbegriff>',
+          '/api/search/websites?q=<suchbegriff>'
+        ]
+      });
     });
   }
   

@@ -8,13 +8,13 @@ export const analysisConfig = {
   // Pfade für Eingabe- und Ausgabedaten
   paths: {
     // Eingabedaten aus dem Crawler
-    crawlResults: path.resolve(__dirname, '../output'),
+    crawlResults: path.resolve(process.cwd(), 'output'),
     
     // Ausgabedaten für die Analyse
-    analysisOutput: path.resolve(__dirname, '../data/analysis'),
+    analysisOutput: path.resolve(process.cwd(), 'data/analysis'),
     
     // Bot-Statistiken
-    botStatistics: path.resolve(__dirname, '../data/bot-statistics.json'),
+    botStatistics: path.resolve(process.cwd(), 'data/bot-statistics.json'),
   },
   
   // Bot-Kategorien und ihre Zuordnungen
