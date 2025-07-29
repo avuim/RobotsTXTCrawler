@@ -51,6 +51,72 @@
           "owner": "Exalead",
           "description": "Der Crawler der französischen Suchmaschine Exalead",
           "website": "http://www.exabot.com/go/robot"
+        },
+        "Googlebot-News": {
+          "name": "Googlebot-News",
+          "owner": "Google LLC",
+          "description": "A specialized crawler for Google News that discovers, indexes, and keeps news content up to date for Google's search index and news portal.",
+          "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
+        },
+        "Yandex": {
+          "name": "YandexBot",
+          "owner": "Yandex LLC",
+          "description": "Web crawler operated by Yandex, Russia's largest search engine, for indexing and updating web pages in search results.",
+          "website": "https://yandex.com/bots"
+        },
+        "msnbot": {
+          "name": "msnbot",
+          "owner": "Microsoft",
+          "description": "Microsoft's bot for Bing Search, crawling the web to index and update content for search results.",
+          "website": "https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0"
+        },
+        "PetalBot": {
+          "name": "PetalBot",
+          "owner": "Huawei",
+          "description": "Der Crawler von Huawei für Petal Search",
+          "website": "https://aspiegel.com/petalbot"
+        },
+        "Yeti": {
+          "name": "Yeti",
+          "owner": "Naver Corp.",
+          "description": "Web crawler for Naver, a leading Korean search engine, tasked with content discovery and indexing.",
+          "website": "https://naver.com"
+        },
+        "Flamingo_SearchEngine": {
+          "name": "Flamingo_SearchEngine",
+          "owner": "Unknown",
+          "description": "Appears to be related to a search engine with web crawling and indexing capabilities.",
+          "website": ""
+        },
+        "YouBot": {
+          "name": "YouBot",
+          "owner": "You.com",
+          "description": "Crawler for You.com's AI-powered search engine, indexing web content for discovery and analysis.",
+          "website": "https://you.com"
+        },
+        "GoogleOther": {
+          "name": "GoogleOther",
+          "owner": "Google LLC",
+          "description": "A generic Google crawler for various internal research, indexing, and analysis not related to search.",
+          "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
+        },
+        "OmgiliBot": {
+          "name": "OmgiliBot",
+          "owner": "Webz.io",
+          "description": "Forum and discussion board indexing bot for Omgili's proprietary search and aggregation engine.",
+          "website": "https://webz.io"
+        },
+        "omgili": {
+          "name": "Omgili",
+          "owner": "Webz.io",
+          "description": "Specialized web crawler indexing discussion forums and user-generated content to power their conversational search engine and data products.",
+          "website": "https://webz.io"
+        },
+        "omgilibot": {
+          "name": "omgilibot",
+          "owner": "Webz.io",
+          "description": "Web crawler for extracting and aggregating discussion forum content and threads for enhanced conversational search.",
+          "website": "https://webz.io"
         }
       }
     },
@@ -105,6 +171,72 @@
           "owner": "DataForSEO",
           "description": "Der Crawler des SEO-API-Dienstes DataForSEO",
           "website": "https://dataforseo.com/dataforseo-bot"
+        },
+        "Semrushbot-SI": {
+          "name": "SemrushBot-SI",
+          "owner": "Semrush",
+          "description": "SEO crawler for collecting and analyzing web data to provide comprehensive SEO analytics and insights.",
+          "website": "https://www.semrush.com/bot/"
+        },
+        "SiteAuditBot": {
+          "name": "SiteAuditBot",
+          "owner": "Semrush",
+          "description": "Performs in-depth technical SEO audits as part of the Semrush platform, only running when a site audit is triggered by a user.",
+          "website": "https://www.semrush.com/bot.html"
+        },
+        "SearchmetricsBot": {
+          "name": "SearchmetricsBot",
+          "owner": "Searchmetrics GmbH",
+          "description": "SEO crawler for auditing web pages and collecting ranking data for Searchmetrics' suite of tools.",
+          "website": "https://www.searchmetrics.com"
+        },
+        "SEOkicks-Robot": {
+          "name": "SEOkicks-Robot",
+          "owner": "SEOkicks.de",
+          "description": "SEO crawler gathering backlink data for the German SEO tool SEOkicks.",
+          "website": "https://www.seokicks.de"
+        },
+        "backlink-check.de": {
+          "name": "backlink-check.de",
+          "owner": "backlink-check.de",
+          "description": "Crawler for backlink and SEO analysis platform, collecting and evaluating incoming links.",
+          "website": "https://www.backlink-check.de"
+        },
+        "BacklinkCrawler": {
+          "name": "BacklinkCrawler",
+          "owner": "Unknown",
+          "description": "Bot collecting backlinks and link profile data for SEO or analytics tools.",
+          "website": ""
+        },
+        "SEODAT": {
+          "name": "SEODAT",
+          "owner": "Unknown",
+          "description": "Crawler or tool for SEO data collection and analysis.",
+          "website": ""
+        },
+        "SEOENGBot": {
+          "name": "SEOENGBot",
+          "owner": "Unknown",
+          "description": "Web crawler for SEO analysis and English language indexing.",
+          "website": ""
+        },
+        "xovi": {
+          "name": "XoviBot",
+          "owner": "XOVI GmbH",
+          "description": "SEO tool crawler for comprehensive website and competitor analysis, backlink and keyword research.",
+          "website": "https://www.xovi.com"
+        },
+        "sistrix": {
+          "name": "SISTRIX Bot",
+          "owner": "SISTRIX GmbH",
+          "description": "Crawler bot from the SISTRIX SEO Suite, used for on-page analysis and web monitoring.",
+          "website": "https://www.sistrix.de"
+        },
+        "VelenPublicWebCrawler": {
+          "name": "VelenPublicWebCrawler",
+          "owner": "VelenPublicWeb",
+          "description": "Crawler for SEO, web indexing, or public website data aggregation.",
+          "website": ""
         }
       }
     },
@@ -159,6 +291,102 @@
           "owner": "ByteDance",
           "description": "Der Crawler von ByteDance (TikTok) für KI-Trainingsdaten",
           "website": "https://www.bytedance.com/"
+        },
+        "CCbot": {
+          "name": "CCBot",
+          "owner": "Common Crawl",
+          "description": "Crawls the web on behalf of Common Crawl to build open datasets used for research, analytics, and training AI models.",
+          "website": "https://commoncrawl.org/faq/"
+        },
+        "Google-CloudVertexBot": {
+          "name": "Google-CloudVertexBot",
+          "owner": "Google LLC",
+          "description": "Crawls websites on behalf of Google Cloud Vertex AI customers for AI agent training and data integration (not public search).",
+          "website": "https://cloud.google.com/vertex-ai"
+        },
+        "Google-Extended": {
+          "name": "Google-Extended",
+          "owner": "Google LLC",
+          "description": "A user agent to control content access for AI model training in Google Gemini Apps and Vertex AI, providing opt-out capability for web publishers.",
+          "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
+        },
+        "Meta-ExternalAgent": {
+          "name": "Meta-ExternalAgent",
+          "owner": "Meta Platforms, Inc.",
+          "description": "Crawling tool used to index and retrieve external website data for services like Facebook link previews and AI training.",
+          "website": "https://developers.facebook.com/docs/sharing/webmasters/crawler"
+        },
+        "meta-externalagent": {
+          "name": "Meta-ExternalAgent",
+          "owner": "Meta Platforms, Inc.",
+          "description": "See Meta-ExternalAgent entry above.",
+          "website": "https://developers.facebook.com/docs/sharing/webmasters/crawler"
+        },
+        "ChatGPT-User": {
+          "name": "ChatGPT-User",
+          "owner": "OpenAI",
+          "description": "Automates user-like web browsing to gather data for AI model training, research, and enhancement of ChatGPT's capabilities.",
+          "website": "https://www.openai.com"
+        },
+        "PerplexityBot": {
+          "name": "PerplexityBot",
+          "owner": "Perplexity AI",
+          "description": "Crawls web pages to index and surface content in Perplexity's AI-powered search engine without training foundation models.",
+          "website": "https://perplexity.ai/perplexitybot"
+        },
+        "Perplexity-User": {
+          "name": "Perplexity-User",
+          "owner": "Perplexity AI",
+          "description": "User or agent representing queries from Perplexity's search and answer platform.",
+          "website": "https://perplexity.ai"
+        },
+        "AI2Bot": {
+          "name": "AI2Bot",
+          "owner": "Allen Institute for AI",
+          "description": "Bot operated by AI2 to gather open web data for training open-source AI models.",
+          "website": "https://allenai.org/crawler"
+        },
+        "Ai2Bot-Dolma": {
+          "name": "Ai2Bot-Dolma",
+          "owner": "Allen Institute for AI",
+          "description": "Crawling agent for academic data collection or LLM research, managed by the Allen Institute for AI.",
+          "website": "https://allenai.org"
+        },
+        "DeepSeek": {
+          "name": "DeepSeekBot",
+          "owner": "DeepSeek",
+          "description": "Crawling agent associated with deep learning or web content indexing for AI purposes.",
+          "website": "https://deepseek.com"
+        },
+        "DeepSeekBot": {
+          "name": "DeepSeekBot",
+          "owner": "DeepSeek",
+          "description": "See DeepSeek entry above.",
+          "website": "https://deepseek.com"
+        },
+        "img2dataset": {
+          "name": "img2dataset",
+          "owner": "Unknown/Open source community",
+          "description": "Open source tool for downloading images and metadata from URLs to build datasets, commonly used in AI research.",
+          "website": "https://github.com/rom1504/img2dataset"
+        },
+        "OAI-SearchBot": {
+          "name": "OAI-SearchBot",
+          "owner": "OpenAI",
+          "description": "OpenAI's bot for search indexing in SearchGPT, collecting content for search result inclusion (not for AI model training).",
+          "website": "https://openai.com/searchbot"
+        },
+        "Claude-User": {
+          "name": "Claude-User",
+          "owner": "Anthropic",
+          "description": "Bots or agents acting as external agents for Anthropic's Claude AI assistant, potentially browsing or querying web data.",
+          "website": "https://www.anthropic.com"
+        },
+        "cohere-training-data-crawler": {
+          "name": "cohere-training-data-crawler",
+          "owner": "Cohere",
+          "description": "Web crawler collecting publicly available data to train Cohere's enterprise large language models (LLMs).",
+          "website": "https://cohere.com"
         }
       }
     },
@@ -208,11 +436,185 @@
           "description": "Der Crawler von Amazon",
           "website": "https://developer.amazon.com/support/amazonbot"
         },
-        "PetalBot": {
-          "name": "PetalBot",
-          "owner": "Huawei",
-          "description": "Der Crawler von Huawei für Petal Search",
-          "website": "https://aspiegel.com/petalbot"
+        "TurnitinBot": {
+          "name": "TurnitinBot",
+          "owner": "Turnitin LLC",
+          "description": "Crawls web content to support Turnitin's plagiarism detection database, focusing on academic and educational resources.",
+          "website": "https://turnitin.com/robot/crawlerinfo.html"
+        },
+        "Timpibot": {
+          "name": "Timpibot",
+          "owner": "Timpi",
+          "description": "Decentralized web crawler operated by Timpi nodes, gathering diverse content to support a decentralized search and AI training dataset.",
+          "website": "https://www.timpi.io"
+        },
+        "ImagesiftBot": {
+          "name": "ImagesiftBot",
+          "owner": "Hive AI",
+          "description": "Specialized image crawler designed to discover and index images for visual intelligence solutions and AI dataset creation.",
+          "website": "https://imagesift.com"
+        },
+        "Diffbot": {
+          "name": "Diffbot",
+          "owner": "Diffbot, Inc.",
+          "description": "AI-powered web crawler and data extraction platform that creates structured knowledge graphs from web content using computer vision.",
+          "website": "https://www.diffbot.com"
+        },
+        "*": {
+          "name": "*",
+          "owner": "",
+          "description": "",
+          "website": ""
+        },
+        "magpie-crawler": {
+          "name": "magpie-crawler",
+          "owner": "Unknown",
+          "description": "Web content indexing and crawling bot, likely for data aggregation or search engine indexing.",
+          "website": ""
+        },
+        "sentibot": {
+          "name": "Sentibot",
+          "owner": "Unknown (emotion AI chat developer)",
+          "description": "Interactive AI bot specialized in analyzing and responding to the emotional tone of text for empathetic chat experiences.",
+          "website": "https://yeschat.ai/gpts-2OToXQFY6o-Sentibot"
+        },
+        "ExtractorPro": {
+          "name": "ExtractorPro",
+          "owner": "Unknown",
+          "description": "Presumed to be a web extractor tool for scanning and collecting structured web data for SEO or data analysis.",
+          "website": ""
+        },
+        "LinkWalker": {
+          "name": "LinkWalker",
+          "owner": "Unknown",
+          "description": "Web crawling bot designed to automate link extraction and collect web data for indexing and analysis.",
+          "website": ""
+        },
+        "LinkextractorPro": {
+          "name": "LinkextractorPro",
+          "owner": "Unknown",
+          "description": "Generally refers to tools that grab internal and external links for SEO and site audits.",
+          "website": ""
+        },
+        "URL_Spider_Pro": {
+          "name": "URL_Spider_Pro",
+          "owner": "Unknown",
+          "description": "Uncategorized web crawling agent assumed to analyze and index URLs for data retrieval or SEO purposes.",
+          "website": ""
+        },
+        "True_Robot": {
+          "name": "True_Robot",
+          "owner": "Unknown",
+          "description": "Uncategorized agent with unspecified web crawling, data scraping, or testing purposes.",
+          "website": ""
+        },
+        "Openbot": {
+          "name": "OpenBot",
+          "owner": "OpenBot Project (isl-org/ETH Zurich)",
+          "description": "An open-source robotics framework leveraging smartphones for AI and robotics research, rather than a web crawler.",
+          "website": "https://isl-org.github.io/OpenBot"
+        },
+        "URL Control": {
+          "name": "URL Control",
+          "owner": "Unknown",
+          "description": "Ambiguous bot; likely involved in controlling or analyzing URLs in some automated context.",
+          "website": ""
+        },
+        "searchpreview": {
+          "name": "SearchPreview",
+          "owner": "Unknown/Browser extension developer",
+          "description": "Browser tool for adding site previews to search results; may crawl sites to collect snapshots or link meta-data.",
+          "website": ""
+        },
+        "proximic": {
+          "name": "proximic",
+          "owner": "Comscore",
+          "description": "Contextual intelligence gatherer used to collect web data for ad targeting, brand safety, and content categorization.",
+          "website": "https://comscore.com/Web-Crawler"
+        },
+        "Fasterfox": {
+          "name": "Fasterfox",
+          "owner": "Mozdev.org",
+          "description": "A Firefox browser extension to optimize browsing speed and tweak loading/performance settings. Not a crawler bot.",
+          "website": "https://fasterfox.de.softonic.com"
+        },
+        "trendictionbot": {
+          "name": "trendictionbot",
+          "owner": "Trendiction (Meltwater)",
+          "description": "Crawls media and web content for social listening, trend analysis, and media monitoring.",
+          "website": "https://meltwater.com"
+        },
+        "AwarioSmartBot": {
+          "name": "AwarioSmartBot",
+          "owner": "Awario",
+          "description": "Crawling tool by Awario for social media listening, monitoring, and brand mention analysis.",
+          "website": "https://awario.com"
+        },
+        "Ezooms": {
+          "name": "Ezooms",
+          "owner": "Unknown",
+          "description": "Bot associated with link analysis, SEO, or website performance analytics.",
+          "website": ""
+        },
+        "Scrapy": {
+          "name": "Scrapy",
+          "owner": "Scrapy Project/Scrapinghub",
+          "description": "Open-source framework and bot for building custom web scrapers and spiders in Python.",
+          "website": "https://scrapy.org"
+        },
+        "DuckAssistBot": {
+          "name": "DuckAssistBot",
+          "owner": "DuckDuckGo",
+          "description": "On-demand bot fetching content from trusted sources such as Wikipedia to generate real-time answers in DuckDuckGo's DuckAssist feature.",
+          "website": "https://duckduckgo.com/duckassistbot.html"
+        },
+        "FriendlyCrawler": {
+          "name": "FriendlyCrawler",
+          "owner": "Unknown",
+          "description": "Bot with a 'friendly' user agent, purpose and ownership unclear.",
+          "website": ""
+        },
+        "ICC-Crawler": {
+          "name": "ICC-Crawler",
+          "owner": "Unknown",
+          "description": "Crawling agent possibly associated with institutional or academic content cataloging.",
+          "website": ""
+        },
+        "ISSCyberRiskCrawler": {
+          "name": "ISSCyberRiskCrawler",
+          "owner": "Unknown",
+          "description": "Specialized crawler potentially focused on cyber risk data or threat intelligence.",
+          "website": ""
+        },
+        "Kangaroo Bot": {
+          "name": "Kangaroo Bot",
+          "owner": "Unknown",
+          "description": "Ambiguous; likely a web crawler or site auditor related to web measurement or security.",
+          "website": ""
+        },
+        "Meta-ExternalFetcher": {
+          "name": "Meta-ExternalFetcher",
+          "owner": "Meta Platforms, Inc.",
+          "description": "Variant of Meta's external data fetching bots for retrieving and previewing shared web links or metadata.",
+          "website": ""
+        },
+        "PanguBot": {
+          "name": "PanguBot",
+          "owner": "Unknown",
+          "description": "Web crawler possibly related to research or analytics; exact scope unclear.",
+          "website": ""
+        },
+        "Webzio-Extended": {
+          "name": "Webzio-Extended",
+          "owner": "Webzio",
+          "description": "Presumed crawler or data collection agent from Webzio, for web indexing or AI research.",
+          "website": ""
+        },
+        "um-IC": {
+          "name": "um-IC",
+          "owner": "Unknown",
+          "description": "Bot with ambiguous identity; may be related to crawling or indexing.",
+          "website": ""
         }
       }
     }

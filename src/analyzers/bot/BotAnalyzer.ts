@@ -185,6 +185,9 @@ export class BotAnalyzer {
     // Statistiken speichern
     await this.saveBotStatistics(botStats);
     
+    // Bot-Kategorien aktualisieren
+    await this.updateBotCategories(botStats);
+    
     console.log(`Analyse abgeschlossen. ${botStats.totalBots} Bots in ${botStats.totalWebsites} Websites gefunden.`);
     
     return botStats;
@@ -317,6 +320,95 @@ export class BotAnalyzer {
       console.log(`Bot-Statistiken gespeichert in ${filePath}`);
     } catch (error) {
       console.error('Fehler beim Speichern der Bot-Statistiken:', error);
+    }
+  }
+  
+  /**
+   * Aktualisiert die Bot-Kategorien-Datei mit neuen Bots
+   */
+  private async updateBotCategories(botStats: BotStatistics): Promise<void> {
+    // Prüfen, ob botCategories geladen wurde
+    if (!this.botCategories) {
+      console.warn('Bot-Kategorien nicht geladen, keine Aktualisierung möglich');
+      return;
+    }
+    
+    let categoriesUpdated = false;
+    const MIN_WEBSITES_THRESHOLD = 10; // Schwellenwert: Bot muss in mehr als 10 Websites gefunden werden
+    
+    // Alle Bots aus den Statistiken durchgehen
+    for (const [botName, botInfo] of Object.entries(botStats.bots)) {
+      // Prüfen, ob der Bot bereits in einer Kategorie existiert
+      let botExists = false;
+      
+      for (const category of Object.values(this.botCategories.categories)) {
+        if (category.bots && category.bots[botName]) {
+          botExists = true;
+          break;
+        }
+      }
+      
+      // Wenn der Bot nicht existiert, zur entsprechenden Kategorie hinzufügen
+      if (!botExists) {
+        // Gesamtzahl der Websites berechnen, in denen der Bot gefunden wurde
+        let totalWebsites = 0;
+        for (const monthStats of Object.values(botInfo.monthlyStats)) {
+          totalWebsites += monthStats.totalWebsites;
+        }
+        
+        // Nur hinzufügen, wenn der Bot in mehr als der Mindestzahl von Websites gefunden wurde
+        if (totalWebsites > MIN_WEBSITES_THRESHOLD) {
+          const categoryName = botInfo.category;
+          
+          // Sicherstellen, dass die Kategorie existiert
+          if (!this.botCategories.categories[categoryName]) {
+            this.botCategories.categories[categoryName] = {
+              name: this.getCategoryDisplayName(categoryName),
+              description: "",
+              bots: {}
+            };
+          }
+          
+          // Bot zur Kategorie hinzufügen
+          this.botCategories.categories[categoryName].bots[botName] = {
+            name: botName,
+            owner: "",
+            description: "",
+            website: ""
+          };
+          
+          categoriesUpdated = true;
+          console.log(`Neuer Bot "${botName}" zur Kategorie "${categoryName}" hinzugefügt (gefunden in ${totalWebsites} Websites)`);
+        } else {
+          console.log(`Bot "${botName}" nicht hinzugefügt, da er nur in ${totalWebsites} Websites gefunden wurde (Schwellenwert: ${MIN_WEBSITES_THRESHOLD})`);
+        }
+      }
+    }
+    
+    // Wenn Änderungen vorgenommen wurden, die aktualisierte Datei speichern
+    if (categoriesUpdated) {
+      const filePath = path.join(this.config.paths.analysisOutput, 'bot-categories.json');
+      try {
+        await fs.writeFile(filePath, JSON.stringify(this.botCategories, null, 2), 'utf-8');
+        console.log(`Bot-Kategorien aktualisiert und in ${filePath} gespeichert`);
+      } catch (error) {
+        console.error('Fehler beim Speichern der Bot-Kategorien:', error);
+      }
+    } else {
+      console.log('Keine neuen Bots gefunden, die den Schwellenwert überschreiten. Bot-Kategorien nicht aktualisiert.');
+    }
+  }
+  
+  /**
+   * Hilfsmethode zum Ermitteln des Anzeigenamens einer Kategorie
+   */
+  private getCategoryDisplayName(categoryName: string): string {
+    switch (categoryName) {
+      case 'searchEngine': return 'Suchmaschinen';
+      case 'seo': return 'SEO-Tools';
+      case 'aiScraper': return 'KI/LLM-Scraper';
+      case 'other': return 'Andere';
+      default: return categoryName;
     }
   }
 }
