@@ -1,0 +1,220 @@
+{
+  "categories": {
+    "searchEngine": {
+      "name": "Suchmaschinen",
+      "description": "Bots von Suchmaschinen, die Websites für Suchergebnisse indexieren",
+      "bots": {
+        "Googlebot": {
+          "name": "Googlebot",
+          "owner": "Google",
+          "description": "Der Hauptcrawler von Google für die Websuche",
+          "website": "https://developers.google.com/search/docs/crawling-indexing/googlebot"
+        },
+        "bingbot": {
+          "name": "Bingbot",
+          "owner": "Microsoft",
+          "description": "Der Crawler von Microsoft Bing",
+          "website": "https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0"
+        },
+        "Slurp": {
+          "name": "Yahoo Slurp",
+          "owner": "Yahoo",
+          "description": "Der Crawler von Yahoo",
+          "website": "https://help.yahoo.com/kb/search/slurp-crawling-page-sln22600.html"
+        },
+        "DuckDuckBot": {
+          "name": "DuckDuckBot",
+          "owner": "DuckDuckGo",
+          "description": "Der Crawler von DuckDuckGo",
+          "website": "https://duckduckgo.com/duckduckbot"
+        },
+        "Baiduspider": {
+          "name": "Baiduspider",
+          "owner": "Baidu",
+          "description": "Der Crawler der chinesischen Suchmaschine Baidu",
+          "website": "https://www.baidu.com/search/spider.html"
+        },
+        "YandexBot": {
+          "name": "YandexBot",
+          "owner": "Yandex",
+          "description": "Der Crawler der russischen Suchmaschine Yandex",
+          "website": "https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html"
+        },
+        "Sogou": {
+          "name": "Sogou Spider",
+          "owner": "Sogou",
+          "description": "Der Crawler der chinesischen Suchmaschine Sogou",
+          "website": "http://www.sogou.com/docs/help/webmasters.html"
+        },
+        "Exabot": {
+          "name": "Exabot",
+          "owner": "Exalead",
+          "description": "Der Crawler der französischen Suchmaschine Exalead",
+          "website": "http://www.exabot.com/go/robot"
+        }
+      }
+    },
+    "seo": {
+      "name": "SEO-Tools",
+      "description": "Bots von SEO-Tools, die Websites für SEO-Analysen crawlen",
+      "bots": {
+        "AhrefsBot": {
+          "name": "AhrefsBot",
+          "owner": "Ahrefs",
+          "description": "Der Crawler des SEO-Tools Ahrefs",
+          "website": "https://ahrefs.com/robot"
+        },
+        "SemrushBot": {
+          "name": "SemrushBot",
+          "owner": "Semrush",
+          "description": "Der Crawler des SEO-Tools Semrush",
+          "website": "https://www.semrush.com/bot/"
+        },
+        "MJ12bot": {
+          "name": "MJ12bot",
+          "owner": "Majestic",
+          "description": "Der Crawler des SEO-Tools Majestic",
+          "website": "https://majestic.com/support/about-majestic-robot"
+        },
+        "Screaming Frog SEO Spider": {
+          "name": "Screaming Frog SEO Spider",
+          "owner": "Screaming Frog",
+          "description": "Der Crawler des SEO-Tools Screaming Frog",
+          "website": "https://www.screamingfrog.co.uk/seo-spider/"
+        },
+        "rogerbot": {
+          "name": "Rogerbot",
+          "owner": "Moz",
+          "description": "Der Crawler des SEO-Tools Moz",
+          "website": "https://moz.com/help/guides/moz-procedures/what-is-rogerbot"
+        },
+        "dotbot": {
+          "name": "Dotbot",
+          "owner": "OpenSiteExplorer",
+          "description": "Der Crawler des SEO-Tools Open Site Explorer",
+          "website": "https://moz.com/researchtools/ose/"
+        },
+        "BLEXBot": {
+          "name": "BLEXBot",
+          "owner": "WebMeUp",
+          "description": "Der Crawler des SEO-Tools WebMeUp",
+          "website": "http://webmeup-crawler.com/"
+        },
+        "DataForSeoBot": {
+          "name": "DataForSeoBot",
+          "owner": "DataForSEO",
+          "description": "Der Crawler des SEO-API-Dienstes DataForSEO",
+          "website": "https://dataforseo.com/dataforseo-bot"
+        }
+      }
+    },
+    "aiScraper": {
+      "name": "KI/LLM-Scraper",
+      "description": "Bots, die Websites für KI-Trainingsdaten crawlen",
+      "bots": {
+        "GPTBot": {
+          "name": "GPTBot",
+          "owner": "OpenAI",
+          "description": "Der Crawler von OpenAI für ChatGPT-Trainingsdaten",
+          "website": "https://platform.openai.com/docs/gptbot"
+        },
+        "CCBot": {
+          "name": "CCBot",
+          "owner": "Common Crawl",
+          "description": "Der Crawler von Common Crawl, dessen Daten von vielen KI-Modellen genutzt werden",
+          "website": "https://commoncrawl.org/ccbot"
+        },
+        "anthropic-ai": {
+          "name": "Anthropic AI",
+          "owner": "Anthropic",
+          "description": "Der Crawler von Anthropic für Claude-Trainingsdaten",
+          "website": "https://www.anthropic.com/"
+        },
+        "Claude-Web": {
+          "name": "Claude Web",
+          "owner": "Anthropic",
+          "description": "Der Web-Crawler für Claude",
+          "website": "https://www.anthropic.com/"
+        },
+        "ClaudeBot": {
+          "name": "ClaudeBot",
+          "owner": "Anthropic",
+          "description": "Der Bot für Claude",
+          "website": "https://www.anthropic.com/"
+        },
+        "cohere-ai": {
+          "name": "Cohere AI",
+          "owner": "Cohere",
+          "description": "Der Crawler von Cohere für KI-Trainingsdaten",
+          "website": "https://cohere.com/"
+        },
+        "FacebookBot": {
+          "name": "FacebookBot",
+          "owner": "Meta",
+          "description": "Der Crawler von Meta für KI-Trainingsdaten",
+          "website": "https://www.facebook.com/"
+        },
+        "Bytespider": {
+          "name": "Bytespider",
+          "owner": "ByteDance",
+          "description": "Der Crawler von ByteDance (TikTok) für KI-Trainingsdaten",
+          "website": "https://www.bytedance.com/"
+        }
+      }
+    },
+    "other": {
+      "name": "Andere",
+      "description": "Andere Arten von Bots",
+      "bots": {
+        "ia_archiver": {
+          "name": "Internet Archive",
+          "owner": "Internet Archive",
+          "description": "Der Crawler des Internet Archive (Wayback Machine)",
+          "website": "https://archive.org/details/archive.org_bot"
+        },
+        "Twitterbot": {
+          "name": "Twitterbot",
+          "owner": "Twitter",
+          "description": "Der Crawler von Twitter für Link-Vorschauen",
+          "website": "https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started"
+        },
+        "LinkedInBot": {
+          "name": "LinkedInBot",
+          "owner": "LinkedIn",
+          "description": "Der Crawler von LinkedIn für Link-Vorschauen",
+          "website": "https://www.linkedin.com/legal/crawler-statement"
+        },
+        "Applebot": {
+          "name": "Applebot",
+          "owner": "Apple",
+          "description": "Der Crawler von Apple für Siri und Spotlight-Vorschläge",
+          "website": "https://support.apple.com/en-us/HT204683"
+        },
+        "Applebot-Extended": {
+          "name": "Applebot Extended",
+          "owner": "Apple",
+          "description": "Der erweiterte Crawler von Apple",
+          "website": "https://support.apple.com/en-us/HT204683"
+        },
+        "Mediapartners-Google": {
+          "name": "Mediapartners-Google",
+          "owner": "Google",
+          "description": "Der Crawler von Google AdSense",
+          "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
+        },
+        "Amazonbot": {
+          "name": "Amazonbot",
+          "owner": "Amazon",
+          "description": "Der Crawler von Amazon",
+          "website": "https://developer.amazon.com/support/amazonbot"
+        },
+        "PetalBot": {
+          "name": "PetalBot",
+          "owner": "Huawei",
+          "description": "Der Crawler von Huawei für Petal Search",
+          "website": "https://aspiegel.com/petalbot"
+        }
+      }
+    }
+  }
+}

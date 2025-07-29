@@ -1,6 +1,6 @@
-# Robots.txt Crawler
+# Robots.txt Crawler und Analyzer
 
-Ein moderner Webcrawler zum Extrahieren von robots.txt-Dateien von Websites.
+Ein moderner Webcrawler zum Extrahieren von robots.txt-Dateien von Websites mit Analyse- und Visualisierungsfunktionen.
 
 ## Übersicht
 
@@ -42,6 +42,55 @@ Die Anwendung ist modular aufgebaut und folgt dem Prinzip der Trennung von Zust�
 6. Die Ergebnisse werden vom FileManager gespeichert
 7. Der ProgressMonitor aktualisiert den Fortschritt
 8. Fehlgeschlagene Domains werden vom FailedDomainManager verwaltet
+9. Nach dem Crawling werden die Daten vom AnalysisOrchestrator analysiert
+10. Die Analyseergebnisse werden in JSON-Dateien gespeichert
+11. Der API-Server stellt die Daten für das Frontend bereit
+
+## Analyse und Visualisierung
+
+Die Anwendung bietet umfangreiche Funktionen zur Analyse und Visualisierung der gecrawlten robots.txt-Daten:
+
+### Analyse-Komponenten
+
+- **AnalysisOrchestrator**: Koordiniert die verschiedenen Analyzer und führt die Analyse durch
+- **BotAnalyzer**: Analysiert alle robots.txt-Dateien und extrahiert Informationen zu Bots
+- **WebsiteAnalyzer**: Analysiert die robots.txt-Dateien für jede Website
+- **TemporalAnalyzer**: Analysiert die zeitlichen Trends basierend auf den Bot-Statistiken
+
+### Visualisierungs-Komponenten
+
+- **API-Server**: Stellt die Analysedaten über eine REST-API bereit
+- **Frontend**: Modernes Web-Frontend zur Visualisierung der Analysedaten
+  - **Dashboard**: Übersicht der wichtigsten Statistiken und Diagramme
+  - **BotList**: Liste aller Bots mit Filtermöglichkeiten
+  - **BotDetail**: Detaillierte Informationen zu einem einzelnen Bot
+  - **WebsiteList**: Liste aller Websites mit Suchfunktion
+  - **WebsiteDetail**: Detaillierte Informationen zu einer einzelnen Website
+  - **Trends**: Zeitliche Trends für Bots, Kategorien und Websites
+
+### Analysierte Daten
+
+- **Bot-Kategorisierung**: Bots werden in Kategorien wie Suchmaschinen-Bots, SEO-Bots und KI/LLM-Scraper-Bots eingeteilt
+- **Bot-Statistiken**: Häufigkeit der Listung in robots.txt-Dateien, Allow/Disallow-Verhältnis
+- **Website-Statistiken**: Welche Bots sind in der robots.txt einer Website konfiguriert
+- **Zeitliche Trends**: Entwicklung der Bot-Nutzung über die Zeit
+
+### Datenmodell
+
+Die Analysedaten werden in JSON-Dateien gespeichert:
+
+- **bot-statistics.json**: Enthält Kerninformationen zu den Bots, wie Grundinformationen, Anzahl der Websites und Allow/Disallow-Konfigurationen
+- **summary.json**: Enthält eine Zusammenfassung der Analyse
+- **websites/*.json**: Enthält Informationen zu jeder Website
+- **trends/monthly-trends.json**: Enthält zeitliche Trends
+
+### Modulare Architektur
+
+Die Analyse- und Visualisierungskomponenten sind modular aufgebaut, sodass weitere Analysen und Visualisierungen einfach hinzugefügt werden können:
+
+- **Analyzer-Module**: Neue Analyzer können hinzugefügt werden, um weitere Aspekte der robots.txt-Daten zu analysieren
+- **API-Endpunkte**: Neue API-Endpunkte können hinzugefügt werden, um weitere Daten bereitzustellen
+- **Frontend-Komponenten**: Neue Seiten und Komponenten können hinzugefügt werden, um weitere Visualisierungen zu erstellen
 
 ## Installation
 
@@ -151,10 +200,35 @@ npm start -- --websitesPath=./websites.json
 npm start
 ```
 
+### Frontend starten
+
+Das Frontend befindet sich im Verzeichnis `src/frontend` und kann separat gestartet werden:
+
+```bash
+cd src/frontend
+npm install
+npm start
+```
+
+Das Frontend ist dann unter `http://localhost:3000` erreichbar.
+
+### API verwenden
+
+Die API wird automatisch gestartet, wenn die Hauptanwendung ohne die Option `--crawlOnly` gestartet wird. Die API ist dann unter `http://localhost:3001` erreichbar und bietet folgende Endpunkte:
+
+- `GET /api/summary`: Liefert eine Zusammenfassung der Analyse
+- `GET /api/bots`: Liefert Informationen zu allen Bots
+- `GET /api/bots/:botName`: Liefert detaillierte Informationen zu einem bestimmten Bot
+- `GET /api/websites`: Liefert eine Liste aller analysierten Websites
+- `GET /api/websites/:domain`: Liefert detaillierte Informationen zu einer bestimmten Website
+- `GET /api/trends`: Liefert zeitliche Trends
+- `GET /api/search/bots?q=<Suchbegriff>`: Sucht nach Bots, die den Suchbegriff enthalten
+- `GET /api/search/websites?q=<Suchbegriff>`: Sucht nach Websites, die den Suchbegriff enthalten
+
 ### Kommandozeilenoptionen
 
 ```
-Robots.txt Crawler - Ein moderner Webcrawler zum Extrahieren von robots.txt-Dateien
+Robots.txt Crawler und Analyzer - Ein moderner Webcrawler zum Extrahieren und Analysieren von robots.txt-Dateien
 
 Verwendung:
   npm start -- [Optionen]
@@ -165,6 +239,7 @@ Optionen:
   --browserFallback=<bool>     Browser-Fallback aktivieren (Standard: true)
   --outputDir=<Pfad>           Ausgabeverzeichnis (Standard: ./output)
   --logLevel=<Level>           Log-Level (debug, info, warn, error) (Standard: info)
+  --crawlOnly=<bool>           Nur Crawling durchführen, keine Analyse oder API (Standard: false)
   --help                       Diese Hilfe anzeigen
 ```
 
@@ -186,6 +261,15 @@ Nach jedem Crawling-Durchlauf werden zwei Arten von Berichten erstellt:
 
 1. **Crawl-Ergebnisse**: Detaillierte Informationen zu jedem Crawling-Versuch
 2. **Crawl-Zusammenfassung**: Zusammenfassung des gesamten Crawling-Durchlaufs
+
+### Analyse-Ausgabe
+
+Nach der Analyse werden folgende Dateien erstellt:
+
+1. **data/bot-statistics.json**: Enthält detaillierte Informationen zu allen Bots, einschließlich ihrer Kategorisierung, Beschreibung, Eigentümer und monatlichen Statistiken
+2. **data/analysis/summary.json**: Enthält eine Zusammenfassung der Analyse, einschließlich der Gesamtzahl der Bots und Websites, der Bot-Kategorien und der Top-Bots
+3. **data/analysis/websites/**: Enthält für jede Website eine JSON-Datei mit Informationen zu den Bots, die in der robots.txt-Datei konfiguriert sind
+4. **data/analysis/trends/monthly-trends.json**: Enthält zeitliche Trends für Bots, Kategorien und Websites
 
 ## Hinweise zur Implementierung
 
@@ -234,9 +318,10 @@ robots-txt-crawler/
 ├── config/                  # Konfigurationsdateien
 │   ├── crawler.config.ts    # Hauptkonfiguration
 │   ├── logging.config.ts    # Logging-Konfiguration
-│   └── playwright.config.ts # Playwright-Konfiguration
+│   ├── playwright.config.ts # Playwright-Konfiguration
+│   └── analysis.config.ts   # Analyse-Konfiguration
 ├── src/                     # Quellcode
-│   ├── services/            # Dienste
+│   ├── services/            # Crawler-Dienste
 │   │   ├── BrowserPool.ts
 │   │   ├── CrawlOrchestrator.ts
 │   │   ├── FailedDomainManager.ts
@@ -245,23 +330,50 @@ robots-txt-crawler/
 │   │   ├── PlaywrightCrawler.ts
 │   │   ├── ProgressMonitor.ts
 │   │   └── WebsiteLoader.ts
+│   ├── analyzers/           # Analyse-Dienste
+│   │   ├── AnalysisOrchestrator.ts
+│   │   ├── bot/
+│   │   │   └── BotAnalyzer.ts
+│   │   ├── website/
+│   │   │   └── WebsiteAnalyzer.ts
+│   │   └── temporal/
+│   │       └── TemporalAnalyzer.ts
+│   ├── api/                 # API-Server
+│   │   ├── index.ts
+│   │   └── ApiServer.ts
+│   ├── frontend/            # Web-Frontend
+│   │   ├── public/
+│   │   ├── src/
+│   │   │   ├── components/
+│   │   │   │   ├── charts/
+│   │   │   │   └── layout/
+│   │   │   ├── pages/
+│   │   │   ├── services/
+│   │   │   ├── types/
+│   │   │   ├── App.tsx
+│   │   │   └── index.tsx
+│   │   └── package.json
 │   ├── types/               # Typdefinitionen
 │   │   ├── Config.ts
 │   │   ├── CrawlResult.ts
-│   │   └── Website.ts
+│   │   ├── Website.ts
+│   │   └── Analysis.ts
 │   ├── utils/               # Hilfsfunktionen
 │   ├── workers/             # Worker-Threads
 │   └── app.ts               # Hauptanwendung
 ├── tests/                   # Tests
 │   ├── integration/
 │   └── unit/
-├── output/                  # Ausgabeverzeichnis
+├── data/                    # Eingabe- und Analysedaten
+│   ├── websites.json        # Liste der zu crawlenden Websites
+│   ├── analysis/            # Analyseergebnisse
+│   └── bot-statistics.json  # Bot-Statistiken
+├── output/                  # Ausgabeverzeichnis für Crawling
 │   ├── logs/
 │   ├── reports/
 │   └── robots-files/
 ├── package.json
-├── tsconfig.json
-└── websites.json            # Liste der zu crawlenden Websites
+└── tsconfig.json
 ```
 
 ### Entwicklungsbefehle

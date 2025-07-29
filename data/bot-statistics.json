@@ -1,0 +1,343 @@
+{
+  "lastUpdated": "2025-07-29T15:30:00Z",
+  "bots": {
+    "Googlebot": {
+      "category": "searchEngine",
+      "description": "Der Hauptcrawler von Google, der Webseiten für den Google-Suchindex durchsucht.",
+      "owner": "Google LLC",
+      "website": "https://developers.google.com/search/docs/crawling-indexing/googlebot",
+      "monthlyStats": {
+        "2025-06": {
+          "totalWebsites": 1250,
+          "allowedWebsites": 1180,
+          "disallowedWebsites": 70,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 1320,
+          "allowedWebsites": 1240,
+          "disallowedWebsites": 80,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        }
+      }
+    },
+    "Bingbot": {
+      "category": "searchEngine",
+      "description": "Der Webcrawler von Microsoft Bing, der Webseiten für den Bing-Suchindex durchsucht.",
+      "owner": "Microsoft Corporation",
+      "website": "https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0",
+      "monthlyStats": {
+        "2025-06": {
+          "totalWebsites": 980,
+          "allowedWebsites": 920,
+          "disallowedWebsites": 60,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 1050,
+          "allowedWebsites": 975,
+          "disallowedWebsites": 75,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        }
+      }
+    },
+    "GPTBot": {
+      "category": "aiScraper",
+      "description": "Der Webcrawler von OpenAI, der Webseiten für das Training von GPT-Modellen durchsucht.",
+      "owner": "OpenAI",
+      "website": "https://platform.openai.com/docs/gptbot",
+      "monthlyStats": {
+        "2025-06": {
+          "totalWebsites": 850,
+          "allowedWebsites": 320,
+          "disallowedWebsites": 530,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 920,
+          "allowedWebsites": 340,
+          "disallowedWebsites": 580,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        }
+      }
+    },
+    "CCBot": {
+      "category": "aiScraper",
+      "description": "Der Webcrawler von Common Crawl, der Webseiten für das Common Crawl-Archiv durchsucht, das von vielen KI-Unternehmen genutzt wird.",
+      "owner": "Common Crawl Foundation",
+      "website": "https://commoncrawl.org/",
+      "monthlyStats": {
+        "2025-06": {
+          "totalWebsites": 780,
+          "allowedWebsites": 350,
+          "disallowedWebsites": 430,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 840,
+          "allowedWebsites": 370,
+          "disallowedWebsites": 470,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        }
+      }
+    },
+    "AhrefsBot": {
+      "category": "seo",
+      "description": "Der Webcrawler von Ahrefs, der Webseiten für SEO-Analysen durchsucht.",
+      "owner": "Ahrefs Pte. Ltd.",
+      "website": "https://ahrefs.com/robot",
+      "monthlyStats": {
+        "2025-06": {
+          "totalWebsites": 720,
+          "allowedWebsites": 450,
+          "disallowedWebsites": 270,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 780,
+          "allowedWebsites": 480,
+          "disallowedWebsites": 300,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        }
+      }
+    },
+    "MJ12bot": {
+      "category": "seo",
+      "description": "Der Webcrawler von Majestic, der Webseiten für SEO-Analysen durchsucht.",
+      "owner": "Majestic-12 Ltd.",
+      "website": "https://majestic.com/bot",
+      "monthlyStats": {
+        "2025-06": {
+          "totalWebsites": 680,
+          "allowedWebsites": 420,
+          "disallowedWebsites": 260,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 730,
+          "allowedWebsites": 440,
+          "disallowedWebsites": 290,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        }
+      }
+    },
+    "SemrushBot": {
+      "category": "seo",
+      "description": "Der Webcrawler von Semrush, der Webseiten für SEO-Analysen durchsucht.",
+      "owner": "Semrush Inc.",
+      "website": "https://www.semrush.com/bot/",
+      "monthlyStats": {
+        "2025-06": {
+          "totalWebsites": 650,
+          "allowedWebsites": 400,
+          "disallowedWebsites": 250,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 700,
+          "allowedWebsites": 420,
+          "disallowedWebsites": 280,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        }
+      }
+    },
+    "ClaudeBot": {
+      "category": "aiScraper",
+      "description": "Der Webcrawler von Anthropic, der Webseiten für das Training von Claude-Modellen durchsucht.",
+      "owner": "Anthropic",
+      "website": "https://www.anthropic.com/",
+      "monthlyStats": {
+        "2025-06": {
+          "totalWebsites": 620,
+          "allowedWebsites": 280,
+          "disallowedWebsites": 340,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 680,
+          "allowedWebsites": 300,
+          "disallowedWebsites": 380,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        }
+      }
+    },
+    "YandexBot": {
+      "category": "searchEngine",
+      "description": "Der Webcrawler von Yandex, der Webseiten für den Yandex-Suchindex durchsucht.",
+      "owner": "Yandex LLC",
+      "website": "https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html",
+      "monthlyStats": {
+        "2025-06": {
+          "totalWebsites": 580,
+          "allowedWebsites": 520,
+          "disallowedWebsites": 60,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 620,
+          "allowedWebsites": 550,
+          "disallowedWebsites": 70,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        }
+      }
+    },
+    "DuckDuckBot": {
+      "category": "searchEngine",
+      "description": "Der Webcrawler von DuckDuckGo, der Webseiten für den DuckDuckGo-Suchindex durchsucht.",
+      "owner": "DuckDuckGo, Inc.",
+      "website": "https://duckduckgo.com/duckduckbot",
+      "monthlyStats": {
+        "2025-06": {
+          "totalWebsites": 540,
+          "allowedWebsites": 500,
+          "disallowedWebsites": 40,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 580,
+          "allowedWebsites": 530,
+          "disallowedWebsites": 50,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        }
+      }
+    },
+    "FacebookBot": {
+      "category": "other",
+      "description": "Der Webcrawler von Facebook, der Webseiten für die Vorschauanzeige von Links auf Facebook durchsucht.",
+      "owner": "Meta Platforms, Inc.",
+      "website": "https://developers.facebook.com/docs/sharing/webmasters/crawler/",
+      "monthlyStats": {
+        "2025-06": {
+          "totalWebsites": 520,
+          "allowedWebsites": 480,
+          "disallowedWebsites": 40,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 560,
+          "allowedWebsites": 510,
+          "disallowedWebsites": 50,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        }
+      }
+    },
+    "TwitterBot": {
+      "category": "other",
+      "description": "Der Webcrawler von Twitter, der Webseiten für die Vorschauanzeige von Links auf Twitter durchsucht.",
+      "owner": "X Corp.",
+      "website": "https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started",
+      "monthlyStats": {
+        "2025-06": {
+          "totalWebsites": 500,
+          "allowedWebsites": 460,
+          "disallowedWebsites": 40,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 540,
+          "allowedWebsites": 490,
+          "disallowedWebsites": 50,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        }
+      }
+    },
+    "PetalBot": {
+      "category": "searchEngine",
+      "description": "Der Webcrawler von Huawei, der Webseiten für den Petal Search-Suchindex durchsucht.",
+      "owner": "Huawei Technologies Co., Ltd.",
+      "website": "https://webmaster.petalsearch.com/site/petalbot",
+      "monthlyStats": {
+        "2025-06": {
+          "totalWebsites": 480,
+          "allowedWebsites": 420,
+          "disallowedWebsites": 60,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 520,
+          "allowedWebsites": 450,
+          "disallowedWebsites": 70,
+          "websites": {
+            "allowed": ["example.com", "example.org", "..."],
+            "disallowed": ["private-example.com", "..."]
+          }
+        }
+      }
+    }
+  }
+}

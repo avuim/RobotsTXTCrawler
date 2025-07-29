@@ -2,6 +2,8 @@ import { loadConfig } from '../config/crawler.config';
 import { defaultPlaywrightConfig } from '../config/playwright.config';
 import { defaultLoggingConfig } from '../config/logging.config';
 import { CrawlOrchestrator } from './services/CrawlOrchestrator';
+import { AnalysisOrchestrator } from './analyzers/AnalysisOrchestrator';
+import { startApiServer } from './api';
 
 // Funktion zum Parsen der Kommandozeilenargumente
 function parseArgs(): Record<string, any> {
@@ -42,6 +44,7 @@ Optionen:
   --browserFallback=<bool>     Browser-Fallback aktivieren (Standard: true)
   --outputDir=<Pfad>           Ausgabeverzeichnis (Standard: ./output)
   --logLevel=<Level>           Log-Level (debug, info, warn, error) (Standard: info)
+  --crawlOnly=<bool>           Nur Crawling durchführen, keine Analyse oder API (Standard: false)
   --help                       Diese Hilfe anzeigen
   `);
 }
@@ -93,8 +96,23 @@ async function main(): Promise<void> {
     // Crawling starten (Meldung wird vom Orchestrator ausgegeben)
     const summary = await orchestrator.crawlAllSites();
     
-    // Prozess explizit beenden, um hängende Handles zu vermeiden
-    process.exit(0);
+    // Analyse der robots.txt-Daten durchführen
+    console.log('Starte Analyse der robots.txt-Daten...');
+    const analysisOrchestrator = new AnalysisOrchestrator();
+    await analysisOrchestrator.initialize();
+    await analysisOrchestrator.runAnalysis();
+    console.log('Analyse abgeschlossen.');
+    
+    // API-Server starten
+    console.log('Starte API-Server...');
+    startApiServer();
+    console.log('API-Server gestartet auf Port 3001.');
+    
+    // Bei Crawling-only-Modus: Prozess beenden
+    if (args.crawlOnly) {
+      console.log('Crawling-only-Modus: Prozess wird beendet.');
+      process.exit(0);
+    }
     
   } catch (error) {
     console.error('Fehler in der Hauptanwendung:', error);
