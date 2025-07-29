@@ -16,13 +16,13 @@ jobs:
     
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           # Volle Git-Historie abrufen, um Commits zu ermöglichen
           fetch-depth: 0
         
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
           cache: 'npm'
@@ -34,7 +34,7 @@ jobs:
         run: npx playwright install --with-deps chromium
         
       - name: Restore Previous Data
-        uses: actions/cache/restore@v3
+        uses: actions/cache/restore@v4
         with:
           path: |
             data/failed-domains.json
@@ -52,7 +52,7 @@ jobs:
           NODE_ENV: production
           
       - name: Save Crawler Data
-        uses: actions/cache/save@v3
+        uses: actions/cache/save@v4
         with:
           path: |
             data/failed-domains.json
@@ -60,7 +60,7 @@ jobs:
           key: crawler-data-${{ github.run_id }}
           
       - name: Upload Crawler Results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: crawler-results-${{ github.run_id }}
           path: |
