@@ -80,7 +80,8 @@ jobs:
           # Prüfen, ob es Änderungen gibt
           if [[ -d "output/robots-files" && "$(ls -A output/robots-files)" ]]; then
             # Änderungen direkt im output/robots-files Verzeichnis committen
-            git add output/robots-files/
+            # -f Flag verwendet, um ignorierte Dateien hinzuzufügen (falls .gitignore nicht sofort wirksam wird)
+            git add -f output/robots-files/
             git commit -m "Update robots.txt files from crawler run on $(date +"%Y-%m-%d")" || echo "No changes to commit"
             
             # Änderungen pushen

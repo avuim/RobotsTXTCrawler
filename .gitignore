@@ -2,7 +2,8 @@
 output/
 output/logs/
 output/reports/
-output/robots-files/
+# output/robots-files/ - Nicht ignorieren, da diese Dateien im Repository gespeichert werden sollen
+!output/robots-files/
 
 # Kompilierte Dateien
 dist/
