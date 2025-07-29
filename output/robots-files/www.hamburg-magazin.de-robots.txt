@@ -1,0 +1,18 @@
+# robots.txt - 2023 - Dumrath & Fassnacht KG (GmbH & Co.) - hamburg-magazin.de
+# service@hamburg-magazin.de
+#
+# Aenderungen: 
+# 19.02.2020 - Launch
+# 22.03.2023 - Laravel / Kubernetes-Cluster
+# 28.03.2025 - vcard disallow
+# 09.07.2025 - llms.txt
+
+Sitemap: https://www.hamburg-magazin.de/sitemaps/hamburg-magazin-de/cms_indexSitemap.xml
+Sitemap: https://www.hamburg-magazin.de/sitemaps/hamburg-magazin-de/detail_indexSitemap.xml
+Sitemap: https://www.hamburg-magazin.de/sitemaps/hamburg-magazin-de/resultlists_indexSitemap.xml
+Sitemap: https://www.hamburg-magazin.de/feed/rss	
+Sitemap: https://www.hamburg-magazin.de/feed/google-news	
+Sitemap: https://www.hamburg-magazin.de/llms.txt
+
+User-agent: *
+Disallow: /vcard/

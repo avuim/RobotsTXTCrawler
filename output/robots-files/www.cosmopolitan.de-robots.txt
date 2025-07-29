@@ -1,0 +1,14 @@
+
+User-agent: *
+Allow: /
+Disallow: /fonts/whitelabel/
+Disallow: /images/whitelabel/
+Disallow: /status
+Disallow: /suche
+Disallow: *?exclude*=*
+Disallow: /*&exclude*=*
+Disallow: *?print=*
+Disallow: *&print=*
+Disallow: /wer-streamt?query=
+
+Sitemap: https://www.cosmopolitan.de/sitemap.xml

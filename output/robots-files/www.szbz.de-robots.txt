@@ -1,0 +1,13 @@
+User-agent: Chat-GPT
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: *
+Disallow: /wetter/
+Disallow: /ajax-json/
+Disallow: /vorschau/
+Crawl-delay: 10
+
+Sitemap: https://www.szbz.de/sitemap.xml

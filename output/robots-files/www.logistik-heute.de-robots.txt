@@ -1,0 +1,141 @@
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Crawl-delay: 1
+# CSS, JS, Images
+Allow: /core/*.css$
+Allow: /core/*.css?
+Allow: /core/*.js$
+Allow: /core/*.js?
+Allow: /core/*.gif
+Allow: /core/*.jpg
+Allow: /core/*.jpeg
+Allow: /core/*.png
+Allow: /core/*.svg
+Allow: /profiles/*.css$
+Allow: /profiles/*.css?
+Allow: /profiles/*.js$
+Allow: /profiles/*.js?
+Allow: /profiles/*.gif
+Allow: /profiles/*.jpg
+Allow: /profiles/*.jpeg
+Allow: /profiles/*.png
+Allow: /profiles/*.svg
+# Directories
+Disallow: /core/
+Disallow: /profiles/
+# Files
+Disallow: /README.txt
+Disallow: /web.config
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips/
+Disallow: /node/add/
+Disallow: /search/
+Disallow: /user/register/
+Disallow: /user/password/
+Disallow: /user/login/
+Disallow: /user/logout/
+Disallow: /de/admin/
+Disallow: /de/comment/reply/
+Disallow: /de/filter/tips/
+Disallow: /de/node/add/
+Disallow: /de/search/
+Disallow: /de/user/register/
+Disallow: /de/user/password/
+Disallow: /de/user/login/
+Disallow: /de/user/logout/
+# Paths (no clean URLs)
+Disallow: /index.php/admin/
+Disallow: /index.php/comment/reply/
+Disallow: /index.php/filter/tips/
+Disallow: /index.php/node/add/
+Disallow: /index.php/search/
+Disallow: /index.php/user/password/
+Disallow: /index.php/user/register/
+Disallow: /index.php/user/login/
+Disallow: /index.php/user/logout/
+Disallow: /sites/default/files/public/styles/_bilder_uebersicht_mobile_900x600_/public/images-personal/Personen-felscher-s5.jpg
+Disallow: /dtm/
+Disallow: /node/
+Disallow: /en/node/
+Disallow: /de/node/
+Disallow: /intellitxt/front.asp?ipid=
+Disallow: /*?id=
+Disallow: /1011064
+Disallow: /sites/all/modules/
+# Disallow: /*node/
+Disallow: /de/suche
+Disallow: /en/suche
+Disallow: /de/suche/
+Disallow: /en/suche/
+Disallow: /suche
+Disallow: /suche/
+Disallow: /suche404
+Disallow: /branchenguide/glossar
+Allow: /sites/default/files/public/php/
+Allow: /sites/default/files/public/js/
+Disallow: /sites/default/files/public/language/
+Allow: /sites/default/files/public/css/
+Disallow: /sites/default/files/public/color/
+
+User-agent: amazonbot
+Crawl-delay: 3
+
+User-agent: AmazonAdBot
+Crawl-delay: 3
+
+User-agent: Slurp
+Crawl-delay: 3
+
+User-agent: Msnbot
+Crawl-delay: 3
+
+User-agent: bingbot
+Crawl-delay: 1
+
+User-agent: Teoma
+Crawl-delay: 3
+
+User-agent: ia_archiver
+Crawl-delay: 3
+
+User-agent: Exabot
+Crawl-delay: 3
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+Sitemap: https://logistik-heute.de/sitemap.xml

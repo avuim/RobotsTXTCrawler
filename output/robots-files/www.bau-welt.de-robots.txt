@@ -1,0 +1,56 @@
+User-agent:	*
+Allow: /
+
+# Temporarily disallow amazon and pentalbot
+
+User-agent: Amazonbot
+Disallow: /haus-konfigurator.html
+
+User-agent: PetalBot
+Disallow: /haus-konfigurator.html
+
+
+# disallow ai crawler
+User-agent: anthropic-ai
+Disallow: /
+User-agent: ClaudeBot
+Disallow: /
+User-agent: Claude-Web
+Disallow: /
+User-agent: GPTBot
+Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
+
+Disallow: /prototype/
+Disallow: /typo3/
+Disallow: /typo3conf/
+
+# allow assets and assets of extensions
+Allow: /typo3conf/ext/
+Allow: /typo3temp/
+
+# parameters (keep the index clean)
+Disallow: /*?id=*                       # no non-speaking URLs
+Disallow: /*&id=*                       # no non-speaking URLs
+Disallow: /*?L=0*                       # no default lang
+Disallow: /*&L=0*                       # no default lang
+Disallow: /*cHash                       # no cHash
+Disallow: /*?type=98                    # no print pages
+Disallow: /*&type=98                    # no print pages
+Disallow: /*tx_form_formframework       # no forms
+Disallow: /*tx_solr[q]=*                # no search results
+Disallow: /*tx_solr*=kategorie*         # forbidden filter
+Disallow: /*tx_solr*=wohnflaeche*       # forbidden filter
+Disallow: /*tx_solr*=preis*             # forbidden filter
+Disallow: /*tx_solr*                    # no solr results of any kind
+
+
+# sitemap
+Sitemap: https://www.bau-welt.de/sitemap.xml
+# allow sitemaps with chash
+Allow: /*sitemap=*&cHash=*
+
+
+# robots.txt for site bau-welt.de
+# NB: file is cached (ttl 4h)

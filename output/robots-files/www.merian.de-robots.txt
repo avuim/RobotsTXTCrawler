@@ -1,0 +1,30 @@
+Sitemap: https://www.merian.de/sitemap.xml
+Sitemap: https://www.merian.de/sitemaps/pages-1.xml
+Sitemap: https://www.merian.de/sitemaps/articles-1.xml
+User-agent: *
+Disallow: /admin/
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bingbot
+Allow: /

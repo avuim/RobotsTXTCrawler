@@ -1,0 +1,12 @@
+# global live settings :
+User-agent: *
+Disallow: /cms_addon
+Disallow: /cms_docs
+Disallow: /redFACT
+Disallow: /REST/frontend/itemstatistics
+Sitemap: https://www.rnz.de/sitemap-index/40-Sitemap_Relaunch.xml
+Sitemap: https://www.rnz.de/sitemap-index/43-News_Sitemap_Relaunch.xml
+Sitemap: https://www.rnz.de/sitemap-index/46-Artikel_Sitemap_Relaunch.xml
+Disallow: /pu_zvw/ajax/upscore.php
+User-agent: Mozilla/5.0 (compatible; OGDWCtxCrawler)
+Allow: /

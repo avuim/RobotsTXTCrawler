@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /typo3/
+Disallow: /typo3_src/
+Allow: /typo3/sysext/frontend/Resources/Public/*
+Disallow: /fileadmin/Anzeigen/Stellenangebote/
+Sitemap: https://www.zfk.de/sitemap.xml

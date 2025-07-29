@@ -1,0 +1,31 @@
+# robots.txt for https://www.dasoertliche.de/
+# last update: 20250715
+
+User-agent: *
+Disallow:
+
+# Sitemap files
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_dynamic.xml
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_wnt_tl_network.xml
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_wnt_tl.xml
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_street.xml
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_faq_hitlist.xml
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_wnt_detail.xml
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_detail_ta1.xml
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_detail_ta2.xml
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_detail_ta3.xml
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_lr.xml
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_lp.xml
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_landingpage_1.xml.gz
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_near_by.xml
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_emergency_vet.xml
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_gel.xml
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_not.xml
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_plz.xml
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_vor.xml
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_ben_tl.xml
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_ben_ds.xml
+Sitemap: https://www.dasoertliche.de/freibad/sitemaps/sitemap_index.xml
+Sitemap: https://www.dasoertliche.de/weihnachtsmarkt/sitemaps/sitemap_index.xml
+Sitemap: https://www.dasoertliche.de/unternehmen/sitemap.xml
+Sitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_landingpage_1.xml.gz

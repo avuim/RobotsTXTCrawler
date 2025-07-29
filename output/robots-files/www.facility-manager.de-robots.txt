@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /download/downloads/
+
+Crawl-delay: 20
+
+
+Sitemap: http://www.facility-manager.de/sitemap.xml

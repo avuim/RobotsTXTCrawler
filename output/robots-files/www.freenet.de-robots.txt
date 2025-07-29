@@ -1,0 +1,10 @@
+User-agent: PetalBot
+Disallow: /
+ 
+User-agent: *
+Disallow: /fznt
+Disallow: /fashion/export/brand-meta.csv
+Disallow: /messages
+Disallow: /snippet
+ 
+Sitemap: https://www.freenet.de/sitemap.xml

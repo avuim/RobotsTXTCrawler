@@ -1,0 +1,48 @@
+User-agent: *
+Disallow: /rezepte/?OK*
+Disallow: /suche/?OK*
+Disallow: /user/
+Disallow: /stats/c/
+Disallow: */admin/
+Disallow: *?login*
+Disallow: *?thankyou*
+Disallow: *&login*
+Disallow: *&thankyou*
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+Sitemap: https://www.abzonline.de/sitemap.xml
+Sitemap: https://www.abzonline.de/sitemap_news.xml
+Sitemap: https://www.abzonline.de/sitemap_image.xml
+
+# Legal notice: Deutscher Fachverlag GmbH expressly reserves the right to use all content available under [abzonline.de] for commercial text and data mining (§ 44b UrhG).
+# The use of robots or other automated means to access [abzonline.de] or collect or mine data without the express permission of Deutscher Fachverlag GmbH is strictly prohibited.
+# If you would like to apply for permission to crawl [abzonline.de], collect or use data for commercial text and data mining, please contact content-syndication@dfv.de.

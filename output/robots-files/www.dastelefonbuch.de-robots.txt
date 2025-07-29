@@ -1,0 +1,106 @@
+# robots.txt for https://www.dastelefonbuch.de/ ResponsiveApp
+# sc20250530; Vorgaengerversion: ne20241009
+
+User-agent: *
+Disallow: /api-doc/
+Disallow: /catalogs/
+Disallow: /katalog/img/
+Disallow: /katalog/image/
+Disallow: /loglink.jsp
+Disallow: /nocrawl/
+Disallow: /Rubriken/
+
+User-agent: Googlebot
+Disallow: /catalogs/
+Disallow: /katalog/img/
+Disallow: /katalog/image/
+Disallow: /loglink.jsp
+Disallow: /nocrawl/
+Disallow: /Rubriken/
+
+User-agent: bingbot
+Disallow: /api-doc/
+Disallow: /catalogs/
+Disallow: /katalog/img/
+Disallow: /katalog/image/
+Disallow: /loglink.jsp
+Disallow: /nocrawl/
+Disallow: /Rubriken/
+
+Crawl-delay: 5
+# Eine Seite dieser Subdomain pro 5 Sekunden(=Crawl-delay) aufrufen
+
+User-agent: AhrefsBot
+Crawl-delay: 5
+
+User-agent: grapeshot
+Crawl-delay: 5
+
+User-agent: SemrushBot
+Crawl-delay: 5
+
+
+User-agent: Clickagy Intelligence Bot v2
+Crawl-delay: 10
+
+User-agent: CriteoBot/0.1
+Crawl-delay: 10
+
+User-agent: ias-va/3.1
+Crawl-delay: 10
+
+
+User-agent: Cityreview
+Disallow: /
+
+User-agent: trovitBot
+Disallow: /
+
+User-agent: zyklop
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-Agent: Neevabot
+Disallow: /
+
+User-agent: MegaIndex.ru	
+Disallow: /	
+
+User-agent: Mega-Index	
+Disallow: /
+
+User-agent: Yandex
+Disallow: / 
+
+User-agent: ChatGPT-User
+Disallow: /
+
+# Sitemap files
+Sitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_branchen_sitemap_index.xml
+Sitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_branchen_ort_sitemap_index.xml
+Sitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_branchen_ort_stadtteil_sitemap_index.xml
+Sitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_firmen_sitemap_index.xml
+Sitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_firmen_ort_sitemap_index.xml
+Sitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_firmen_ort_stadtteil_sitemap_index.xml
+Sitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_nachnamen_sitemap_index.xml
+Sitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_nachnamen_ort_sitemap_index.xml
+Sitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_nachnamen_ort_stadtteil_sitemap_index.xml
+Sitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_vorname_nachname_sitemap_index.xml
+Sitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_vorname_nachname_ort_sitemap_index.xml
+Sitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_vorname_nachname_ort_stadtteil_sitemap_index.xml
+Sitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_ort_sitemap_index.xml
+
+Sitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_zip_search_sitemap_index.xml
+Sitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_area_code_search_sitemap_index.xml
+
+Sitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_apotheken-notdienste_ort_sitemap_00001.xml.gz
+Sitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_apotheken-notdienste_ort_stadtteil_sitemap_00001.xml.gz
+Sitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_ki_sitemap_index.xml
+Sitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_video_sitemap_index.xml
+
+Sitemap: https://www.dastelefonbuch.de/xml-sitemaps/statisch_sitemap_index.xml

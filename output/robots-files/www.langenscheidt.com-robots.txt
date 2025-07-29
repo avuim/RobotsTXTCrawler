@@ -1,0 +1,11 @@
+user-agent:*
+disallow:/contao/
+disallow:/_contao/
+disallow:/shop/admin#
+disallow:/shop/store-api/
+disallow:/shop/api/
+disallow:/shop/account
+disallow:/account
+
+sitemap:https://www.langenscheidt.com/shop/sitemap.xml
+sitemap:https://www.langenscheidt.com/sitemap

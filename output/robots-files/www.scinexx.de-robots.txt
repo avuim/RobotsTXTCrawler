@@ -1,0 +1,8 @@
+User-agent: Yandex
+Disallow: / # blocks access to whole site
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: *
+Disallow:

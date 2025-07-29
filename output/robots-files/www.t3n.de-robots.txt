@@ -1,0 +1,33 @@
+User-agent: *
+Disallow: /suche*
+Disallow: /news/kommentar-benachrichtigungen/*
+Disallow: /account/
+Disallow: /login*
+Disallow: /app/
+Disallow: /fragen/
+Disallow: /jobs/neos/
+Disallow: /jobs/suche/
+Disallow: /magazin/media/
+Disallow: /magazin/wp-admin/
+Disallow: /neos/
+Disallow: /news/wp-admin/
+Disallow: /firmen/*tag=
+Disallow: /firmen/*category=
+Disallow: /firmen/*city=
+Disallow: /firmen/*country=
+Disallow: /firmen/*page=
+Allow: /account/_Resources/
+
+User-agent: Googlebot-News
+Allow: /
+Disallow: /jobs/
+Disallow: /firmen/
+Disallow: /pioneers/
+Disallow: /store/
+Disallow: /events/
+Disallow: /guides/
+Disallow: /online-kurse/
+Disallow: /podcast/
+Disallow: /suche/
+
+Sitemap: https://t3n.de/sitemap-index.xml

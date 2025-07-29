@@ -1,0 +1,43 @@
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: *
+Disallow: /*v_detail_tab_print*.html$
+Disallow: /ajaxentry/
+Disallow: /*imagelightbox?elementId*
+Disallow: /user-registrierung/
+Disallow: /*;jsessionid=*
+Disallow: /*jsessionid=*
+Disallow: /*action=activate*
+Disallow: /lesezeichen/
+Disallow: /registrierung/
+Disallow: /*?ajaxelementid=*
+Disallow: /*ajaxelementid=*
+Disallow: /*?view=print*
+Disallow: /*view=print*
+Disallow: /*?view=lightbox
+Disallow: /*view=lightbox*
+Disallow: /channelizer/*
+Disallow: /cdn-cgi/rum*
+Disallow: /ext/stepstone/*
+Disallow: /preparesite/empty.js*
+Disallow: /cdn-cgi/beacon/*
+Disallow: /amp-analytics-infonline.html*
+Disallow: /js/29202932*
+
+Sitemap: https://www.wiwo.de/sitemapExternal/sitemaps_index.xml
+Sitemap: https://www.wiwo.de/sitemapExternal/news.xml
+Sitemap: https://www.wiwo.de/sitemapExternal/premium-news.xml
+Sitemap: https://www.wiwo.de/sitemapExternal/agentur-news.xml

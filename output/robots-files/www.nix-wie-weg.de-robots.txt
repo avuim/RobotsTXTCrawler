@@ -1,0 +1,26 @@
+Sitemap: https://www.nix-wie-weg.de/sitemap.xml.gz
+
+User-agent: *
+Disallow: /vacancy_request
+Disallow: /buchung-*/*
+Disallow: /payment/*
+Disallow: /danke
+Disallow: /giata/
+Disallow: /hotel-*/question
+Disallow: /hotel-*/ratings
+Disallow: /hotel-*/ratings/*
+Disallow: /hotel-*/searched
+Disallow: /hotel-*/inquiry
+Disallow: /hotel-*/descriptions
+Disallow: /anfrage/inquiry
+Disallow: /urlaub-*/inquiry
+Disallow: /*-hotels-*/inquiry
+Disallow: /merkzettel/inquiry
+Disallow: /danke
+Disallow: /bestaetigung/danke
+Disallow: /admin
+Disallow: /events
+Disallow: /newsletter_subscription
+Disallow: /nl/*
+Disallow: /nl/*/*
+Disallow: /veranstalter_agb

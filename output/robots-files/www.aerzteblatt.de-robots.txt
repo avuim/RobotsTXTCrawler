@@ -1,0 +1,100 @@
+Sitemap: https://www.aerzteblatt.de/sitemap.xml
+User-Agent: *
+Allow: /
+# Perplexity
+User-agent: PerplexityBot
+Disallow: /
+# OpenAI ChatGPT
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: GPTBot
+Disallow: /
+User-agent: OAI-SearchBot
+Disallow: /
+# Google Bard
+User-agent: Google-Extended
+Disallow: /
+# Common Crawl
+User-agent: CCBot
+Disallow: /
+User-agent: CCBot/1.0
+Disallow: /
+User-agent: CCBot/2.0
+Disallow: /
+User-agent: CCBot/3.0
+Disallow: /
+# Anthropic
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: FacebookBot
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+# Magpie Crawler
+User-agent: magpie-crawler
+Disallow: /
+
+# IA Archiver
+User-agent: ia_archiver
+Disallow: /
+
+# Omgili
+User-agent: omgili
+Disallow: /
+
+# OmgiliBot
+User-agent: omgilibot
+Disallow: /
+
+# Baidu Spider
+User-agent: Baiduspider
+Disallow: /
+
+# Ahrefs Bot
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: OpenAI
+Disallow: /
+
+User-agent: AI-TrainingBot
+Disallow: /
+
+User-agent: AIDataCollector
+Disallow: /
+
+User-agent: DataMiner
+Disallow: /
+
+User-agent: DataMiningBot
+Disallow: /
+
+User-agent: AI-Bot
+Disallow: /
+
+User-agent: *
+Disallow: /static/impressum.html
+Disallow: /static/kontakt.html
+
+# Legal notice: aerzteblatt.de expressly reserves the right to use its content for commercial text and data mining (§ 44 b UrhG).
+# The use of robots or other automated means to access aerzteblatt.de or collect or mine data without
+# the express permission of aerzteblatt.de is strictly prohibited.
+# aerzteblatt.de may, in its discretion, permit certain automated access to certain aerzteblatt.de pages.
+# If you would like to apply for permission to crawl aerzteblatt.de, collect or use data, please email aerzteblatt@aerzteblatt.de

@@ -1,0 +1,31 @@
+User-agent: *
+Disallow: /downloads/c1_downloads_auswahl
+Disallow: /downloader/
+Disallow: /js/spmsg-*
+Disallow: /*/irprev_*
+Disallow: /vid/
+Disallow: /breadcrumbs/navigation-tree.json
+
+# GPTBot - OpenAI
+User-agent: GPTBot
+Disallow: /
+
+# ChatGPT - OpenAI
+User-agent: ChatGPT-User
+Disallow: /
+
+# Common Crawl
+User-agent: CCBot
+Disallow: /
+
+# MegaIndex.ru crawler
+User-agent: MegaIndex.ru
+Disallow: /
+
+# trendkite-akashic-crawler
+User-agent: trendkite-akashic-crawler
+Disallow: /
+
+Sitemap: https://www.chip.de/sitemap_news.xml
+Sitemap: https://www.chip.de/sitemap_full_index.xml
+Sitemap: https://www.chip.de/sitemap_c1_video.xml

@@ -1,0 +1,74 @@
+# Allow sitemap
+Sitemap: https://www.motorradonline.de/sitemap/news-sitemap.xml
+Sitemap: https://www.motorradonline.de/sitemap/sitemap-index.xml
+Sitemap: https://www.motorradonline.de/sitemap/markenbaum-sitemap-index.xml
+Sitemap: https://www.motorradonline.de/sitemap/navigation-sitemap.xml
+Sitemap: https://www.motorradonline.de/sitemap/themenseiten-sitemap.xml
+sitemap: https://www.motorradonline.de/sitemap/video-sitemap-index.xml
+sitemap: https://www.motorradonline.de/sitemap/authors-sitemap.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Motorraeder.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Bekleidung.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Zubehoer.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Reisen.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Ratgeber.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-SportUndSzene.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Club.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Motorraeder_NakedBike.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Motorraeder_Supersportler.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Motorraeder_Supermoto.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Motorraeder_Tourer.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Motorraeder_Enduro.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Motorraeder_ChopperCruiser.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Motorraeder_ModernClassic.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Motorraeder_Elektro.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Motorraeder_Klassiker.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Motorraeder_Roller.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Bekleidung_Helme.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Bekleidung_Stiefel.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Bekleidung_Handschuhe.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Bekleidung_KombisJackenUndHosen.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Bekleidung_Produkttest.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Zubehoer_Reifen.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Zubehoer_AuspuffAndSchalldaempfer.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Zubehoer_FahrwerkAndFederelemente.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Zubehoer_Gepaeck.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Zubehoer_NavisKommunikationApps.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Zubehoer_Produkttest.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Ratgeber_Werkstatt.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Ratgeber_FahrpraxisAndFahrtipps.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Ratgeber_Gebrauchtkauf.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Ratgeber_VerkehrAndWirtschaft.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Ratgeber_TechnologieAndZukunft.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-SportUndSzene_Motorsport.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-SportUndSzene_Events.xml
+sitemap: https://www.motorradonline.de/sitemap/sitemap-Produkttest.xml
+
+
+# disallow api calls
+User-agent: *
+Disallow: /irapi/*
+Disallow: /irelements/element/*
+Disallow: /irelements/standalone/*
+Disallow: /irelements/element
+Disallow: /irelements/elements
+Disallow: /irelements/elements/*
+Disallow: /tour/gpx/*
+Disallow: /tourentipps/*
+
+Disallow: /heft*
+Disallow: *ePaper*.pdf
+
+# Diese Crawler blockieren
+User-agent: AI2Bot
+User-agent: omgili
+User-agent: TimpiBot
+User-agent: BLEXBot
+User-agent: dotbot
+User-agent: MJ12bot
+User-agent: Barkrowler
+User-agent: Optimizer
+Disallow: /
+
+# Legal notice: [https://www.motorradonline.de/] expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).
+# The use of robots or other automated means to access [https://www.motorradonline.de/] or collect or mine data without the express permission of [https://www.motorradonline.de/] is strictly prohibited.
+# If you would like to apply for permission to crawl [https://www.motorradonline.de/], collect or use data, please contact [ompi@motorpresse.de]

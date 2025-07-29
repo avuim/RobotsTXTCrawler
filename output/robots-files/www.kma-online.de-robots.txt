@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /typo3/
+Disallow: /typo3_src/
+Disallow: /termine/
+Disallow: /suche/
+Disallow: /service/suche
+Disallow: /service/suche/
+Disallow: /backend/
+Disallow: /fileadmin/KMA/Download/Stellenanzeigen/
+Allow: /typo3/sysext/frontend/Resources/Public/*

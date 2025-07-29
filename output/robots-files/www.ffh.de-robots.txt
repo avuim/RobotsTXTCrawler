@@ -1,0 +1,30 @@
+User-agent: *
+Disallow: *.pdf
+Disallow: /suche/
+Disallow: /index/native-ads/anzeige.html
+Disallow: /wdw/
+Disallow: /wdw2018/
+Disallow: /urlaub/
+Disallow: /index/zeitlos/
+Disallow: /login.html
+Disallow: /freizeit/ticketshop/atsController/Ticketshop/atsAction/search.html
+Disallow: /intern/
+Disallow: /testseiten/
+Disallow: /app-hilfe-android/
+Disallow: /app-hilfe-ios/
+Disallow: /aktionen/formulare/
+Disallow: /logo/
+Disallow: /*?*
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Twitterbot
+Allow: /wdw
+Allow: /urlaub
+
+User-agent: facebookexternalhit
+Allow: /wdw
+Allow: /urlaub
+
+Sitemap: https://www.ffh.de/index.sitemap

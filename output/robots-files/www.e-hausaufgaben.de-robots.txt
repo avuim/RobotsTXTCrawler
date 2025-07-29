@@ -1,0 +1,26 @@
+User-agent: *
+Disallow: /community/
+Disallow: /images/
+Disallow: /job.php
+
+
+Sitemap: https://e-hausaufgaben.de/a/sitemap_schuldokumente.xml
+Sitemap: https://e-hausaufgaben.de/a/sitemap_schulthemen.xml
+Sitemap: https://e-hausaufgaben.de/a/sitemap_forumthreads.xml
+Sitemap: https://e-hausaufgaben.de/a/sitemap_forumthreads2.xml
+Sitemap: https://e-hausaufgaben.de/a/sitemap_forumthreads3.xml
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SemrushBot-SA
+Disallow: /
+
+User-agent: AhrefsBot 
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Cliqzbot
+Disallow: /

@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /typo3/
+Disallow: /typo3_src/
+Allow: /typo3/sysext/frontend/Resources/Public/*
+
+Sitemap: https://www.natursteinonline.de/sitemap.xml
+
+Sitemap: https://www.naturalstone-online.com/sitemap.xml

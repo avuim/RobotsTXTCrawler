@@ -1,0 +1,54 @@
+#Sistrix
+#User-agent: 007ac9
+#Disallow: /
+
+# 80legs ausschließen
+# 27.10.2012
+User-agent: 008
+Disallow: /
+
+User-agent: Nutch
+Disallow: /
+
+User-agent: "Spiderbot/Nutch-1.7"
+Disallow: /
+
+User-agent: Spiderbot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+user-agent: AhrefsBot
+Disallow: /
+
+User-agent: Flamingo_SearchEngine
+Disallow: /
+
+User-agent: ICCrawler - iCjobs
+Disallow: /
+
+User-agent: MegaIndex.ru
+Disallow: /
+
+User-agent: semantic-visions.com crawler
+Disallow: /
+
+User-agent: SEOkicks-Robot
+Disallow: /
+
+User-agent: yacybot
+Disallow: /
+
+User-agent: XoviOnpageCrawler
+Disallow: /
+
+
+User-agent: *
+#Crawl-delay: 5
+
+Disallow: /img/
+Disallow: /css/
+Disallow: /pdf/
+
+Sitemap: https://www.business-wissen.de/sitemap/index.xml

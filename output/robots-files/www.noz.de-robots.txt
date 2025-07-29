@@ -1,0 +1,48 @@
+User-Agent: Mediapartners-Google
+Disallow:
+
+User-Agent: *
+Disallow: /pagebuilding/
+Disallow: /new-articles/
+Disallow: /files/
+Disallow: /cre-1.0/tracking/
+Disallow:
+
+Sitemap: https://www.noz.de/sitemap.xml
+Sitemap: https://www.noz.de/sitemap/googleNewsList.xml
+Sitemap: https://www.noz.de/sitemap/artikel/sitemap-current.xml
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+
+# Legal notice: noz.de expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).
+# The use of robots or other automated means to access noz.de or collect or mine data without the express permission of noz.de is strictly prohibited.
+# If you would like to apply for permission to crawl noz.de, collect or use data, please contact info+nutzungsrecht@noz-digital.de

@@ -1,0 +1,49 @@
+# See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+#
+User-agent: *
+Disallow: /auth/
+Disallow: /assets/browser-update*.js
+Disallow: /users/
+Disallow: /u/
+Disallow: /my/
+Disallow: /badges/
+Disallow: /search
+Disallow: /search/
+Disallow: /tags
+Disallow: /tags/
+Disallow: /email/
+Disallow: /session
+Disallow: /session/
+Disallow: /admin
+Disallow: /admin/
+Disallow: /user-api-key
+Disallow: /user-api-key/
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /groups
+Disallow: /groups/
+Disallow: /t/*/*.rss
+Disallow: /tags/*.rss
+Disallow: /c/*.rss
+Disallow:/t/faq/*
+
+
+User-agent: mauibot
+Disallow: /
+
+
+User-agent: semrushbot
+Disallow: /
+
+
+User-agent: ahrefsbot
+Disallow: /
+
+
+User-agent: blexbot
+Disallow: /
+
+User-agent: sentibot
+Disallow: /
+
+

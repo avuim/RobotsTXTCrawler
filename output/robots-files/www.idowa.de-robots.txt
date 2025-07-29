@@ -1,0 +1,44 @@
+# ID: 1
+User-agent: *
+
+Disallow: /admin/
+Disallow: /_/admin/
+Disallow: /_/tools/
+Disallow: /_/sendmail/
+Disallow: /_/sendmail.html*
+Disallow: /_CPiX/
+Disallow: /_LPW*
+Disallow: /_AUTH*
+Disallow: /_EXEC*
+Disallow: /*?_FRAME=*
+Disallow: /*_FORMAT=PRINT*
+Disallow: /fcms/
+Disallow: /register/
+Disallow: /member/
+Disallow: /importe/
+Disallow: /import/
+Disallow: /abfall/
+
+Sitemap: https://www.idowa.de/news-artikel.sitemap.xml
+Sitemap: https://www.idowa.de/news-ticker.sitemap.xml
+Sitemap: https://www.idowa.de/portal-artikel.sitemap.xml
+Sitemap: https://www.idowa.de/portal-ticker.sitemap.xml
+
+# Legal notice: idowa.de expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).
+# The use of robots or other automated means to access  idowa.de or collect or mine data without the express permission of  idowa.de is strictly prohibited.
+
+# OpenAI
+User-agent: GPTBot
+Disallow: /
+
+#ChatGPT
+User-agent: ChatGPT-User
+Disallow: /
+
+# Google Bard
+User-agent: Google-Extended
+Disallow: /
+
+# Common Crawl Foundation
+User-agent: CCBot
+Disallow: /

@@ -1,0 +1,36 @@
+User-agent: Twitterbot
+Disallow: /mail.php
+Disallow: /search.php
+Disallow: /trackback/
+Disallow: /news/*.amp.html
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: *
+Disallow: /mail.php
+Disallow: /search.php
+Disallow: /trackback/
+
+
+Sitemap: https://www.golem.de/gsiteindex.xml
+
+# Legal notice: golem.de expressly reserves the right to use its content for commercial text and data mining (� 44 b UrhG).
+# The use of robots or other automated means to access golem.de or collect or mine data without the express permission of golem.de is strictly prohibited.
+# golem.de may, in its discretion, permit certain automated access to certain golem.de pages.
+# If you would like to apply for permission to crawl golem.de, collect or use data, please email recht@golem.de

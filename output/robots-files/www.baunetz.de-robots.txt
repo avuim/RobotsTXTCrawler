@@ -1,0 +1,28 @@
+User-Agent: *
+Disallow: /stellenmarkt/suche*
+Disallow: /admin*
+Disallow: /___admin___*
+Disallow: /rd/*
+Disallow: /test/*
+Disallow: /forum/*
+Disallow: /dwhpagedots/*
+Disallow: /0/*
+Disallow: /1/*
+Disallow: /2/*
+Disallow: /3/*
+Disallow: /4/*
+Disallow: /5/*
+Disallow: /6/*
+Disallow: /7/*
+Disallow: /8/*
+Disallow: /9/*
+
+User-Agent: Mediapartners-Google
+Disallow: /
+
+User-Agent: Adsbot-Google
+Disallow: /
+
+User-Agent: JoobleBot
+Disallow: /
+Allow: /stellenmarkt/*

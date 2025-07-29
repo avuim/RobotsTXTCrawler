@@ -1,0 +1,14 @@
+# This robots.txt file controls crawling of URLs under https://www.dach-holzbau.de
+
+User-agent: *
+Allow: /
+
+User-agent: SiteAuditBot
+Crawl-delay: 1
+Allow: /
+
+User-agent: Semrushbot-SI
+Allow: /
+
+# Sitemap file
+Sitemap: https://www.dach-holzbau.de/sitemap.xml

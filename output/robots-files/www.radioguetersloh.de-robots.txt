@@ -1,0 +1,8 @@
+# Alle Robots ausschlie�en
+User-agent: *
+Disallow: /nachrichten/archiv-lokales/
+Disallow: /service/flohmarkt/flohmarkt-admin.html
+Disallow: /nc/service/flohmarkt/flohmarkt-admin.html
+
+User-agent: GPTBot
+Disallow: /

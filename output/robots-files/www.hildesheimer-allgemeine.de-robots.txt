@@ -1,0 +1,101 @@
+# www.robotstxt.org/
+
+# Legal notice: www.hildesheimer-allgemeine.de expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG). 
+
+# The use of robots or other automated means to access www.hildesheimer-allgemeine.de or collect or mine data without the express permission of www.hildesheimer-allgemeine.de is strictly prohibited. 
+
+# If you would like to apply for permission to crawl www.hildesheimer-allgemeine.de, collect or use data, please contact info(at)hildesheimer-allgemeine.de
+
+User-agent: backlink-check.de
+Disallow: /
+
+User-agent: BacklinkCrawler
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended{*}
+Disallow: /{*}
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ExtractorPro
+Disallow: /
+
+User-agent: Fasterfox
+Disallow: /
+
+User-agent: LinkextractorPro
+Disallow: /
+
+User-agent: LinkWalker
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Openbot
+Disallow: /
+
+User-agent: rogerbot 
+Disallow: /
+
+User-agent: searchpreview
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SEODAT
+Disallow: /
+
+User-agent: SEOENGBot
+Disallow: /
+
+User-agent: SEOkicks-Robot
+Disallow: /
+
+User-agent: sistrix
+Disallow: /
+
+User-agent: True_Robot
+Disallow: /
+
+User-agent: URL Control
+Disallow: /
+
+User-agent: URL_Spider_Pro
+Disallow: /
+
+User-agent: xovi
+Disallow: /
+
+
+# Allow crawling of some content
+User-agent: *
+
+Allow: /fileadmin/templates/*.css
+Allow: /fileadmin/templates/*.js
+Allow: /fileadmin/templates/*.jpg
+Allow: /fileadmin/templates/*.png
+Allow: /fileadmin/templates/*.gif
+Disallow: /fileadmin/templates/
+
+Disallow: /t3lib/
+Disallow: /typo3/
+Disallow: /typo3_src/
+
+Allow: /typo3conf/*.css
+Allow: /typo3conf/*.js
+Allow: /typo3conf/*.jpg
+Allow: /typo3conf/*.png
+Disallow: /typo3conf/
+
+Disallow: /*.rss$
+Disallow: /suche.html
+Disallow: /newsletter-services/newsletter.html
+Disallow: /korrekturvorschlag.html*
+
+Sitemap: https://www.hildesheimer-allgemeine.de/sitemap.xml

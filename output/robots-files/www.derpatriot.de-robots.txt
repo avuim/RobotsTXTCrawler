@@ -1,0 +1,44 @@
+# ===================================
+# Generator: http://pixelfolk.net/tools/robots
+# Erstellt am: 02.09.2021, 10:11
+# Webseite: https://www.derpatriot.de
+# ===================================
+
+Sitemap: https://www.derpatriot.de/sitemap.xml
+Sitemap: https://www.derpatriot.de/sitemap-news.xml
+Sitemap: https://www.derpatriot.de/sitemap-article.xml
+
+# ===================================
+# Folgende Seiten sollen nicht indexiert werden:
+# ===================================
+
+User-agent: *
+User-agent: Mozilla/5.0 (compatible; OGDWCtxCrawler)
+Allow: /fileadmin/*pdf$
+Allow: /fileadmin/*PDF$
+Allow: /fileadmin/_processed_/
+Allow: /fileadmin/images/
+Allow: /fileadmin/templates/
+Allow: /typo3conf/ext/*/Resources/Public/
+Allow: /fileadmin/patriot_edv/
+Disallow: /fileadmin/
+Disallow: /typo3/
+Disallow: /typo3conf/
+Disallow: /service/index.php
+Disallow: /verlag/agb.html?type=1
+Disallow: /verlag/impressum.html?type=1
+Disallow: /onlinepass-kaufen.html
+Disallow: /seite-nicht-gefunden.html
+
+# ===================================
+# Schließe folgende Spider komplett aus:
+# ===================================
+
+User-agent: WebReaper
+User-agent: WebCopier
+User-agent: Offline Explorer
+User-agent: HTTrack
+User-agent: Microsoft.URL.Control
+User-agent: EmailCollector
+User-agent: penthesilea
+Disallow: /

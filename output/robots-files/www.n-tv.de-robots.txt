@@ -1,0 +1,27 @@
+# robots.txt for n-tv.de
+
+
+
+User-agent: *
+Disallow: /*?service=print
+Disallow: /*id9253371?ctxArt=*view=ajax-send
+Disallow: /ratgeber/check/*
+Disallow: /*-hds.f4m
+Disallow: /suche/
+Disallow: /boersenkurse/suche/
+Disallow: /stats/
+Disallow: /jobboerse/
+Disallow: /archiv/*
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: *
+Allow: /news.xml
+Allow: /

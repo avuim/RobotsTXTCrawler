@@ -1,0 +1,29 @@
+Sitemap: http://www.babyclub.de/d93e43a9d59b2e5e53b1551762359319.xml
+
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: *
+Disallow: /Suche.asp
+Disallow: /ad-redirect
+Disallow: */add/
+Disallow: *login-redirect
+Disallow: */male
+Disallow: */female
+Disallow: */freund-hinzufuegen.html
+Disallow: */postfach/verfassen
+Disallow: */clubmitglied-werden.html
+Disallow: */thema-erstellen
+Disallow: *antwort-redirect.html
+Disallow: /community/mein-profil/
+Disallow: /community/mitglied
+Disallow: /community/weiterempfehlen.html
+Disallow: /community/club/suchergebnis/
+Disallow: /mybabyclub/community/foren/*kommentarforum.html
+Disallow: /mybabyclub/community/foren/*kommentare.html
+Disallow: /hebammen/
+Disallow: /hebamme/*/pinnwand.html
+Disallow: /hebamme/*/fotos.html
+Disallow: /hebamme/*/clubs.html
+Disallow: /hebammensprechstunde/bewerten/*
+Disallow: /test/*

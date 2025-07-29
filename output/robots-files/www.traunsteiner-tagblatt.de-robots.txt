@@ -1,0 +1,21 @@
+# global live settings :
+User-agent: *
+Disallow: /cms_addon
+Disallow: /cms_docs
+Disallow: /redFACT
+Disallow: /REST/frontend/itemstatistics
+Sitemap: https://www.traunsteiner-tagblatt.de/sitemap-index/40-google-sitemap-traunsteiner-tagblatt-2017.xml
+Sitemap: https://www.traunsteiner-tagblatt.de/sitemap-index/43-google-news-sitemap-traunsteiner-tagblatt-2017.xml
+# customised settings :
+User-agent: GPTBot
+Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+#
+# Legal notice: traunsteiner-tagblatt.de expressly reserves the right to use its content for commercial text and data mining (§44b UrhG).
+# The use of robots or other automated means to access traunsteiner-tagblatt.de or collect or mine data without the express permission of traunsteiner-tagblatt.de is strictly prohibited.
+# If you would like to apply for permission to crawl traunsteiner-tagblatt.de, collect or use data, please contact datenschutz@traunsteiner-tagblatt.de

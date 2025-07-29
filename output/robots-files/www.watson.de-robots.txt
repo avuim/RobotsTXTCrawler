@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Disallow: /slideshow
+Disallow: /u/zoom
+
+Sitemap: https://www.watson.de/api/2.0/tags/sitemap.xml
+Sitemap: https://www.watson.de/api/2.0/feed/googlesitemap.xml
+Sitemap: https://www.watson.de/api/2.0/videos/sitemap.xml
+Sitemap: https://www.watson.de/sitemap.xml
+
+Sitemap: https://politik.watson.de/api/2.0/feed/googlesitemap.xml
+Sitemap: https://politik.watson.de/api/2.0/tags/sitemap.xml
+Sitemap: https://politik.watson.de/api/2.0/videos/sitemap.xml
+Sitemap: https://politik.watson.de/sitemap.xml
+
+Disallow: /api/1.0/accumulatedsocialshares/
+
+Crawl-delay: 2

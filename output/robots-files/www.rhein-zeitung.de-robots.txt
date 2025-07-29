@@ -1,0 +1,15 @@
+# global live settings :
+User-agent: *
+Disallow: /cms_addon
+Disallow: /cms_docs
+Disallow: /redFACT
+Disallow: /REST/frontend/itemstatistics
+Sitemap: https://www.rhein-zeitung.de/sitemap-index_22-Google_Sitemap_Dossiers.xml
+Sitemap: https://www.rhein-zeitung.de/sitemap-index_23-Google_News_Sitemap.xml
+Sitemap: https://www.rhein-zeitung.de/sitemap-index_24-Google_Sitemap.xml
+Disallow: /module_ob/
+Disallow: /pu_all/
+Disallow: /pu_base23/
+Disallow: /pu_pz24/
+Disallow: /sporttabellen/
+Disallow: /REST/frontend/redirecttoadvertiser/

@@ -1,0 +1,32 @@
+# robots.txt updated 2020-02-21
+
+User-agent: *
+Disallow: /*?bPrint=true
+Disallow: /User/
+Disallow: /Custom/Modules
+Disallow: /*?error-login
+Disallow: /*?error-notfound
+Disallow: /Dateien/
+Disallow: /Sso/
+Disallow: /E-Paper/
+
+User-agent: Meltwater
+User-agent: NewsNowUser-agent: SemrushBot-SA
+User-agent: Flamingo_SearchEngine 
+User-agent: Audisto
+User-agent: Bloodhound
+User-agent: cydralspider
+User-agent: downloadexpress
+User-agent: gammaSpider
+User-agent: ObjectsSearch
+User-agent: Pimptrain
+User-agent: Raven
+User-agent: wapspider
+User-agent: WebZinger
+User-agent: Fasterfox
+User-agent: sentibot
+User-agent: Baiduspider
+User-agent: AhrefsBot
+Disallow: /
+
+Sitemap: https://www.aerztezeitung.de/Sitemap_Index.xml.gz

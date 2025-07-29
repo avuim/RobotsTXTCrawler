@@ -1,0 +1,37 @@
+User-agent: *
+Allow:/
+
+
+User-agent: *
+Disallow: /*?tx_kesearch_pi1
+
+# Legal notice: die-glocke.de expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).
+# The use of robots or other automated means to access die-glocke.de or collect or mine data without the express permission of die-glocke.de is strictly prohibited.
+# If you would like to apply for permission to crawl die-glocke.de, collect or use data, please contact redaktionsleitung@die-glocke.de
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+Sitemap: https://www.die-glocke.de/rss/google-news
+Sitemap: https://www.die-glocke.de/sitemap.xml?sitemap=pages

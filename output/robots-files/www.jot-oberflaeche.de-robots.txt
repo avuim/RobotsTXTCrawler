@@ -1,0 +1,12 @@
+# www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+
+User-agent: *
+Disallow:
+Disallow: /rubriken/nachrichten/empfehlen/
+Disallow: /login?returnUrl
+Disallow: */recommend/*
+Disallow: */empfehlen/*
+Disallow: /login?returnUrl
+
+Sitemap: https://www.jot-oberflaeche.de/sitemap.xml

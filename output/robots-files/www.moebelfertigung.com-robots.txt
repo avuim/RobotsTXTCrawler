@@ -1,0 +1,25 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-login.php
+Disallow: /xmlrpc.php
+Allow: /wp-content/uploads/
+
+Sitemap: https://www.moebelfertigung.com/sitemap.xml
+
+# Legal notice: This domain expressly reserves the right to use its content for commercialtext and data mining (§ 44b UrhG).
+# The use of robots or other automated means to access this Domain or collect or mine data without the express permission of Vincentz Network is strictly prohibited.
+# If you would like to apply for permission to crawl thei Domain, collect or use data, please contact Vincentz Network
+
+#User-agent: GPTBot
+#Disallow: /
+
+#User-agent: ChatGPT-User
+#Disallow: /
+
+#User-agent: CCBot
+#Disallow: /
+
+#User-agent: Google-Extended
+#Disallow: /

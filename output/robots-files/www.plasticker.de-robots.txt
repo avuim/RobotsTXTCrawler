@@ -1,0 +1,28 @@
+User-agent: :newsexpress/1.0
+Disallow: /
+
+User-agent: *
+Disallow: /admin/
+Disallow: /admin2/
+Disallow: /inkl/rate2.php
+
+User-agent: Googlebot
+Disallow: /search
+Disallow: /requipment/requipment
+Disallow: /requipment/products
+Disallow: /requipment/preise
+Disallow: /requipment/marktplatz
+Disallow: /requipment/avz
+Disallow: /requipment/recybase
+Disallow: /requipment/news
+Disallow: /requipment/avz
+Disallow: /recybase/products
+Disallow: /recybase/news
+Disallow: /recybase/avz
+Disallow: /rohstoffe
+Disallow: /maschinen
+Disallow: /lohnarbeit
+Disallow: /service
+Disallow: /studien
+Disallow: /books
+Disallow: /bookshop

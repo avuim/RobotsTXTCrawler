@@ -1,0 +1,74 @@
+User-agent: Mediapartners-Google*
+Disallow:
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+User-agent: ClaudeBot
+Disallow: /
+User-agent: Claude-Web
+Disallow: /
+
+User-Agent: Applebot
+Disallow: /
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-Agent: FacebookBot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: *
+# Misc.
+Disallow: /avw-bin/
+Disallow: /api/
+Disallow: /bestenlisten/galleries/
+Disallow: /bilderstrecke/
+Disallow: /*/bilderstrecke/
+Disallow: /community*
+Allow: /community
+Disallow: /download/feed/
+Disallow: /extras/evileye/
+Disallow: /fastbin/
+Disallow: /forum/*
+Allow: /forum/
+Disallow: /foto/galerie/*
+Allow: /foto/galerie/
+Disallow: /home/
+Disallow: /ivw-bin/
+Disallow: /netze/netzwerk-tools/imonitor-internet-stoerungen/feed/
+Disallow: /netze/tools/whois/
+Disallow: /plus/abonnieren.html*
+Disallow: /select/api/
+Disallow: /sso/
+Disallow: /userdb/
+Disallow: /testtest/
+
+# Suche
+Disallow: /suche
+Disallow: /download/search
+Disallow: /netze/netzwerk-tools/imonitor-internet-stoerungen/stoerungsmeldungen-suchen/?*
+Disallow: /netze/netzwerk-tools/imonitor-internet-stoerungen/schnellsuche/?*
+Disallow: /bestenlisten/suche
+
+#heise online
+Sitemap: https://www.heise.de/sitemapindex.xml
+
+#bestenlisten
+Sitemap: https://www.heise.de/bestenlisten/sitemap-articles-index.xml.gz
+Sitemap: https://www.heise.de/bestenlisten/sitemap-stories-latest.xml.gz
+Sitemap: https://www.heise.de/bestenlisten/sitemap-categories.xml.gz
+Sitemap: https://www.heise.de/bestenlisten/sitemap-topics.xml.gz
+Sitemap: https://www.heise.de/bestenlisten/sitemap-news.xml.gz

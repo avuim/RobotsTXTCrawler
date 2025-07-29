@@ -1,0 +1,68 @@
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: Yandex
+Host: www.motor1.com
+
+User-agent: proximic
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Claudebot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: Meltwater
+Disallow: /
+
+User-agent: Seekr
+Disallow: /
+
+User-Agent: Amazon-Advertising-ad-standards-bot/1.0
+User-Agent: APS-ad-standards-bot/1.0
+Allow: /ads.txt
+
+User-agent: Googlebot-News
+Disallow: /products-services/
+
+User-agent: *
+Disallow: /logout/
+Disallow: /login/
+Disallow: /motorshow/
+Disallow: /search/
+Disallow: /layout-auth-data/
+Disallow: /most-recent/
+Disallow: /get-disqus-count/
+
+Sitemap: https://www.motor1.com/sitemaps/www/sitemap.xml
+
+User-agent: YandexNews
+Allow: /rss_export/www_export.rss

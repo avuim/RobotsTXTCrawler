@@ -1,0 +1,93 @@
+User-agent: *
+Disallow: /ajax
+Disallow: /pdf
+Disallow: /bezahleneinkaufswagen/
+Disallow: /bezahleneinkaufswagen.html
+Disallow: /bezahlenadresse/
+Disallow: /bezahlenadresse.html
+Disallow: /bezahlenuebersicht/
+Disallow: /bezahlenuebersicht.html
+Disallow: /bezahlenlieferung/
+Disallow: /bezahleneinloggen/
+Disallow: /bezahlenzahlungsart/
+Disallow: /bestellung/
+Disallow: /bestellung.html
+Disallow: /bestellung_abbrechen/
+Disallow: /bestellung_abbrechen.html
+Disallow: /bestellung_error/
+Disallow: /bestellung_error.html
+Disallow: /kasse/
+Disallow: /kasse.html
+Disallow: /zeigebestellung.html
+Disallow: /widerruf.html
+Disallow: /danke.html
+Disallow: /suchen.html
+Disallow: /bewertung.html
+Disallow: /account/
+Disallow: /neukunden-register/
+Disallow: /rechnung/
+Disallow: /passwort-vergessen/
+Disallow: /suchen*
+Disallow: /catalogsearch*
+Disallow: /ttnl/
+Disallow: /ttbe/
+Disallow: /ttde/
+Disallow: /kundenservice/allgemeine-geschaeftsbedingungen.html
+Sitemap: https://www.amorelie.de/sitemap_index.xml
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Crawl-Delay: 5
+
+User-agent: TwengaBot-2.0
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-Agent: Baiduspider
+Disallow: /
+
+User-Agent: CazoodleBot
+Disallow: /
+
+User-Agent: Fasterfox
+Disallow: /
+
+User-Agent: Jyxobot
+Disallow: /
+
+User-Agent: ShopWiki
+Disallow: /
+
+User-Agent: msnbot
+Crawl-Delay: 20
+
+User-Agent: Slurp
+Crawl-delay: 20
+
+User-Agent: Yahoo! Slurp
+Crawl-delay: 5
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: Exabot
+Disallow: /
+
+User-agent: webcrawler
+Disallow: /
+
+User-agent: spbot
+Disallow: /
+
+User-agent: Aboundexbot
+Disallow: /
+
+User-agent: GeedoProductSearch
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /

@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /wp/wp-admin/
+Allow: /wp/wp-admin/admin-ajax.php
+
+Sitemap: https://www.print.de/sitemap.xml
+
+Sitemap: https://www.print.de/sitemap-news.xml
+User-agent: *
+Disallow: /heftarchiv/?article_search=
+Disallow: /?suche=
+Disallow: /?search=

@@ -1,0 +1,22 @@
+User-agent: *
+Disallow:
+
+# Block MegaIndex.ru crawler
+User-agent: MegaIndex.ru
+Disallow: /
+
+# Block trendkite-akashic-crawler
+User-agent: trendkite-akashic-crawler
+Disallow: /
+
+# GPTBot - OpenAI
+User-agent: GPTBot
+Disallow: /
+
+# ChatGPT - OpenAI
+User-agent: ChatGPT-User
+Disallow: /
+
+# Common Crawl
+User-agent: CCBot
+Disallow: /

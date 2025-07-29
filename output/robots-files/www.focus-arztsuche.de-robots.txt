@@ -1,0 +1,28 @@
+# focus-gesundheit.de
+# www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+
+# API & Filter & Sonstige
+User-agent: *
+Disallow: /admin
+Disallow: /api
+Disallow: /login
+Disallow: /magazin/api
+Disallow: /publicapi
+Disallow: /benutzerkonto/
+Disallow: /top-aerzte/*
+Disallow: /*?filters
+Disallow: /*?fbclid=
+Disallow: /*?Ic9%5B0%5D=
+Disallow: /*?eId=
+Disallow: /*&eId=
+Disallow: /magazin/taxonomy/term/*/feed$
+Disallow: /registrierung/?origin=*
+
+Sitemap: https://www.focus-gesundheit.de/sitemap/sitemap.gesundheit.content.xml
+Sitemap: https://www.focus-gesundheit.de/sitemap/sitemap.gesundheit.profiles.xml
+Sitemap: https://www.focus-gesundheit.de/sitemap/sitemap.gesundheit.profiles_0.xml
+Sitemap: https://www.focus-gesundheit.de/sitemap/sitemap.gesundheit.profiles_1.xml
+Sitemap: https://www.focus-gesundheit.de/sitemap/sitemap.gesundheit.search.xml
+Sitemap: https://www.focus-gesundheit.de/sitemap/sitemap.gesundheit.toplists.xml
+Sitemap: https://www.focus-gesundheit.de/recently-updated-content.rss

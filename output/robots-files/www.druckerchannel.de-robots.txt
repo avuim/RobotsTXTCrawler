@@ -1,0 +1,29 @@
+# robots.txt zu https://www.druckerchannel.de
+User-agent: *
+Disallow: /admin/
+Disallow: /archiv/
+Disallow: /cache/
+Disallow: /eigene_php/
+Disallow: /font/
+Disallow: /test/
+Disallow: /includes/
+Disallow: /redirect/
+Disallow: /teaser_homepage/
+Disallow: /popup/
+#Disallow: /prouser/
+Disallow: /uploads/
+Disallow: /selection.php
+Disallow: /uexec.php
+Disallow: /script/
+
+#Disallow: /artikel_druckansicht.php
+Disallow: /user_info.php
+Disallow: /bildgalerie.php
+Disallow: /bingoschein.php
+
+Disallow: /bilder/_ext/
+
+Sitemap: https://www.druckerchannel.de/_sitemap/index.xml
+Sitemap: https://www.druckerchannel.de/_sitemap/feed_news.xml
+
+Crawl-delay: 1

@@ -1,0 +1,82 @@
+# ID: 1
+User-Agent: *
+Disallow: /echo/
+Disallow: /alt/
+Disallow: /alfa/
+Disallow: /testdir/
+Disallow: /dpa/
+Disallow: /echodev/
+Disallow: /abfall/
+Disallow: /teleschau/
+Disallow: /video_alt/
+Disallow: /alfaxml/
+Disallow: /test/
+Disallow: /replizierung/
+Disallow: /backup/
+Disallow: /lostnfound/
+Disallow: /detail/
+Disallow: /online-extra/
+Disallow: /abfallartikel/
+Disallow: /mediencenter/
+Disallow: /export/
+Disallow: /storage/rss/
+Disallow: /bb_redirect/
+Disallow: /_/bb_redirect/
+Disallow: /member/
+Disallow: /_/admin/
+Disallow: /_/tools/picview.html
+Disallow: /_/tools/diaview.html
+Disallow: /tools/diaview.html
+Disallow: /_/tools/
+Disallow: /_/sendmail/
+Disallow: /_/sendmail.html*
+Disallow: /_CPiX/*
+Disallow: /_LPW*
+Disallow: /_AUTH*
+Disallow: /_EXEC*
+Disallow: /*?_FRAME=*
+Disallow: /*?_FRAME=33$
+Disallow: /*?_FRAME=33
+Disallow: /*?_FRAME=33#
+Disallow: /*?_FRAME=64$
+Disallow: /*?po_id=*
+Disallow: /*?SID*
+Disallow: /*?fcms=*
+Disallow: /*?link2=*
+Disallow: /*?select1=*
+Disallow: /*?pin_type=*
+Disallow: /*&list=1$
+Disallow: /*xmv*,*,*
+Disallow: /*?page*
+Disallow: /*_FORMAT=PRINT$
+Disallow: /*_FORMAT=PRINT*
+Disallow: /*?mobileVersion=*
+Disallow: /fcms/*
+Disallow: /*PRINT?_FRAME=33
+Disallow:/*PRINT?_
+Disallow: /eo-preview/
+
+User-Agent: Googlebot-Image
+Disallow: /echo/
+Disallow: /alt/
+Disallow: /alfa/
+Disallow: /testdir/
+Disallow: /member/
+Allow: /
+
+User-Agent: OGDWCtxCrawler
+Allow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+Sitemap: https://www.stimme.de/indexsitemap.sitemap.xml

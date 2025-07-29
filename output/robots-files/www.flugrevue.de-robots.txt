@@ -1,0 +1,54 @@
+User-agent: *
+Disallow: /ajax/
+Disallow: /irapi/*
+Disallow: /irelements/element/*
+Disallow: /irelements/standalone/*
+Disallow: /irelements/element
+Disallow: /irelements/elements
+Disallow: /irelements/elements/*
+Disallow: /*?module=*
+
+# Allow sitemap
+Sitemap: https://www.flugrevue.de/sitemap/news-sitemap.xml
+Sitemap: https://www.flugrevue.de/sitemap/sitemap-index.xml
+Sitemap: https://www.flugrevue.de/sitemap/navigation-sitemap.xml
+Sitemap: https://www.flugrevue.de/sitemap/themenseiten-sitemap.xml
+Sitemap: https://www.flugrevue.de/sitemap/footer-sitemap.xml
+sitemap: https://www.flugrevue.de/sitemap/video-sitemap-index.xml
+sitemap: https://www.flugrevue.de/sitemap/authors-sitemap.xml
+sitemap: https://www.flugrevue.de/sitemap/sitemap-Zivil.xml
+sitemap: https://www.flugrevue.de/sitemap/sitemap-Militaer.xml
+sitemap: https://www.flugrevue.de/sitemap/sitemap-Flugzeugtechnik.xml
+sitemap: https://www.flugrevue.de/sitemap/sitemap-Klassiker.xml
+sitemap: https://www.flugrevue.de/sitemap/sitemap-Raumfahrt.xml
+sitemap: https://www.flugrevue.de/sitemap/sitemap-Zivil_Flugzeuge.xml
+sitemap: https://www.flugrevue.de/sitemap/sitemap-Zivil_Airlines.xml
+sitemap: https://www.flugrevue.de/sitemap/sitemap-Militaer_Kampfflugzeuge.xml
+sitemap: https://www.flugrevue.de/sitemap/sitemap-Militaer_Helikopter.xml
+sitemap: https://www.flugrevue.de/sitemap/sitemap-Militaer_Waffensysteme.xml
+sitemap: https://www.flugrevue.de/sitemap/sitemap-Militaer_DrohnenOrderUAV.xml
+sitemap: https://www.flugrevue.de/sitemap/sitemap-Flugzeugtechnik_Triebwerke.xml
+sitemap: https://www.flugrevue.de/sitemap/sitemap-Flugzeugtechnik_Avionik.xml
+sitemap: https://www.flugrevue.de/sitemap/sitemap-Flugzeugtechnik_Maintenance.xml
+sitemap: https://www.flugrevue.de/sitemap/sitemap-Klassiker_Flugzeuge.xml
+sitemap: https://www.flugrevue.de/sitemap/sitemap-Klassiker_Szene.xml
+sitemap: https://www.flugrevue.de/sitemap/sitemap-Klassiker_Museum.xml
+
+
+Disallow: /heft*
+Disallow: *ePaper*.pdf
+
+# Diese Crawler blockieren
+User-agent: AI2Bot
+User-agent: omgili
+User-agent: TimpiBot
+User-agent: BLEXBot
+User-agent: dotbot
+User-agent: MJ12bot
+User-agent: Barkrowler
+User-agent: Optimizer
+Disallow: /
+
+# Legal notice: [https://www.flugrevue.de/] expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).
+# The use of robots or other automated means to access [https://www.flugrevue.de/] or collect or mine data without the express permission of [https://www.flugrevue.de/] is strictly prohibited.
+# If you would like to apply for permission to crawl [https://www.flugrevue.de/], collect or use data, please contact [ompi@motorpresse.de]

@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Disallow: /search
+Disallow: /feed/
+Disallow: /wp/
+Disallow: /et-posts-daily-newsletter
+Disallow: /newsletter-daily-tag-feed
+Disallow: /et-posts-weekly-newsletter
+Disallow: /newsletter-weekly-tag-feed
+Disallow: /feed/rss
+Disallow: /feed/atom
+
+User-agent: ChatGPT-User
+Disallow: /
+
+# Sitemaps
+Sitemap: https://www.watchtime.net/sitemap

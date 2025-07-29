@@ -1,0 +1,27 @@
+User-agent: AdsBot-Google
+
+# all access
+Disallow:
+
+
+User-agent: *
+
+# web brochure viewer (BV3)
+Disallow: /Prospekt/
+# mobile brochure viewer
+Disallow: /mv/
+# responsive brochure viewer
+Disallow: /brochure-viewer/brochure
+
+# Ajax calls
+Disallow: /*/*/ajax/
+Disallow: /dyn/
+Disallow: /api/febe/
+Disallow: /api/frontend/
+Disallow: /sessionData
+Disallow: /portal/
+
+# BWA
+Disallow: /webapp/
+Disallow: /aktuelle-Prospekte
+Disallow: /contentViewer/

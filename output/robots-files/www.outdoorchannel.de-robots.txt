@@ -1,0 +1,82 @@
+# Allow sitemap
+Sitemap: https://www.outdoor-magazin.com/sitemap/od-sitemap-news.xml
+Sitemap: https://www.outdoor-magazin.com/sitemap/od-sitemap-index.xml
+Sitemap: https://www.outdoor-magazin.com/sitemap/od-sitemap-navigation.xml
+Sitemap: https://www.outdoor-magazin.com/sitemap/od-sitemap-footer.xml
+Sitemap: https://www.outdoor-magazin.com/sitemap/od-sitemap-themenseiten.xml
+Sitemap: https://www.outdoor-magazin.com/sitemap/od-video-sitemap-index.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/authors-sitemap.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Klettern.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Zeltplatzsuche.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Nachhaltigkeit.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Touren.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Jacken.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Schuhe.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Outdoor-Kleidung.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Rucksaecke.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Zelte.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Schlafsack.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Isomatte.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Kocher.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Zubehoer.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Wintersport.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Produkttest.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Klettern_Kletterszene.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Klettern_Training.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Klettern_Skills.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Klettern_Sicherheit.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Klettern_Bouldern.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Klettern_Spots.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Klettern_Gear.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Klettern_Schwierigkeitsgrade-im-Vergleich.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Klettern_Produkttest.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_Szene.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_CampAndEquipment.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_TourenAndPlanung.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_FitnessAndErnaehrung.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_FloraAndFauna.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_Klettersteig.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_Bushcraft.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_Reise-News.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_Videos.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_Sonstiges.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_Produkttest.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Touren_Deutschland.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Touren_Oesterreich.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Touren_Schweiz.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Touren_Italien.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Touren_Skandinavien.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Touren_Europa.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Touren_Weltweit.xml
+sitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Produkttest.xml
+
+
+
+# disallow api calls
+User-agent: *
+Disallow: /irapi/*
+Disallow: /irelements/element/*
+Disallow: /irelements/standalone/*
+Disallow: /irelements/element
+Disallow: /irelements/elements
+Disallow: /irelements/elements/*
+
+Disallow: /heft/*
+Disallow: *ePaper*.pdf
+
+# Diese Crawler blockieren
+User-agent: AI2Bot
+User-agent: omgili
+User-agent: TimpiBot
+User-agent: BLEXBot
+User-agent: dotbot
+User-agent: MJ12bot
+User-agent: Barkrowler
+User-agent: Optimizer
+Disallow: /
+
+# Legal notice: [https://www.outdoor-magazin.com/] expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).
+# The use of robots or other automated means to access [https://www.outdoor-magazin.com/] or collect or mine data without the express permission of [https://www.outdoor-magazin.com/] is strictly prohibited.
+# If you would like to apply for permission to crawl [https://www.outdoor-magazin.com/], collect or use data, please contact [ompi@motorpresse.de]

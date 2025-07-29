@@ -1,0 +1,7 @@
+# robots.txt https://www.volksstimme.de
+
+User-agent: *
+Disallow: /api/
+
+Sitemap: https://www.volksstimme.de/sitemaps/newssitemap-index.xml
+Sitemap: https://www.volksstimme.de/sitemaps/sitemap-index.xml

@@ -1,0 +1,11 @@
+# global live settings :
+User-agent: *
+Disallow: /cms_addon
+Disallow: /cms_docs
+Disallow: /redFACT
+Disallow: /REST/frontend/itemstatistics
+Sitemap: https://www.gea.de/sitemap-index/3-gea_de-sitemap.xml
+Sitemap: https://www.gea.de/sitemap-index/4-gea_de_-_news-sitemap.xml
+# customised settings :
+User-agent: Google-Extended
+Disallow: /

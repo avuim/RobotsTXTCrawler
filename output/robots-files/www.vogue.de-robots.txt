@@ -1,0 +1,87 @@
+User-agent: *
+Disallow: /graphql
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /js/
+Disallow: /flags/
+Disallow: /preview/
+Disallow: /layout/set/
+Disallow: /content/search/
+Disallow: /jscontent/
+Disallow: /errorview/
+Disallow: /1147.1/
+Disallow: /5574/
+Disallow: /*bolt
+Disallow: /content/view/full/
+Disallow: *?image=
+Disallow: */image/
+Disallow: /*?redirectURL=
+Disallow: /*{{url}}
+Disallow: /*%7B%7Burl%7D%7D
+Disallow: /*{{section}}
+Disallow: /*%7B%7Bsection%7D%7D
+Disallow: /product/
+Disallow: /user-context?referrer
+Disallow: /services.min.js?_=
+Disallow: /com.condenast/yv8*
+
+User-agent: Google-InspectionTool
+Allow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: cohere-training-data-crawler
+Disallow: /
+
+Sitemap: https://www.vogue.de/sitemap.xml
+Sitemap: https://www.vogue.de/feed/sitemap-news/sitemap-google-news
+Sitemap: https://www.vogue.de/feed/rss
+Sitemap: https://www.vogue.de/horoskope/sitemap.xml
+Sitemap: https://www.vogue.de/gewinnspiele/sitemap.xml
+Sitemap: https://www.vogue.de/categories-sitemap.xml
+Sitemap: https://www.vogue.de/contributors-sitemap.xml
+Sitemap: https://www.vogue.de/branded-sitemap.xml
+Sitemap: https://www.vogue.de/bundles-sitemap.xml

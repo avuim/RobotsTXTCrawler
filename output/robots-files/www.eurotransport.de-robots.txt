@@ -1,0 +1,19 @@
+# Allow sitemap
+Sitemap: https://www.eurotransport.de/sitemap/sitemap-index.xml
+Sitemap: https://www.eurotransport.de/sitemap/video-sitemap-index.xml
+
+# disallow api calls
+User-agent: *
+disallow: /irapi/*
+disallow: /irelements/*
+disallow: /suche/*
+Disallow: *ePaper*.pdf
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /

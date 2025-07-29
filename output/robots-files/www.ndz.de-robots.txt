@@ -1,0 +1,42 @@
+User-agent: *
+Disallow: /mandanten/
+Disallow: /mediabox/
+Disallow: /politik/politik-extern/
+Disallow: /wirtschaft/wirtschaft-extern
+Disallow: /suche/
+Disallow: /ellipsis-preview/
+Disallow: /zeitung/
+Disallow: /metaseiten/
+Disallow: /var/storage
+Disallow: /var/storage/*
+
+
+Disallow: /bundles/
+Disallow: /cms/
+Disallow: /security/
+Disallow: /newsletter/abmeldung/
+Disallow: /angebot/
+
+Disallow: /veranstaltungskalender/
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot 
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: ClaudeBot 
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+# Legal notice: ndz.de expressly reserves the right to use its content for commercialtext and data mining (§ 44b UrhG).
+# The use of robots or other automated means to access ndz.de or collect or minedata without the express permission of ndz.de is strictly prohibited.
+# If you would like to apply for permission to crawl ndz.de, collect or use data, please contact lizenzen@rnd.de

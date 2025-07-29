@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /category/
+Disallow: /hotel/search?*
+Disallow: /en/hotel/search?*
+Disallow: /de/hotel/search?*
+Disallow: *?icid=*
+Disallow: *?bcid=*
+Disallow: *?ap=*
+Disallow: *?refat=*
+Disallow: *?tab=*
+Disallow: *?provider=*
+Disallow: *?ecid=*
+Disallow: *?fbclid=*
+Disallow: *?web_winter*
+Disallow: *?ajax_handler=*
+Disallow: *earliestStart=*
+Disallow: *?__historyState=*
+Disallow:  /logos/holidaycheck.svg
+
+Sitemap: https://www.its.de/sitemaps/sitemap.xml

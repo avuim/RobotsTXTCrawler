@@ -1,0 +1,25 @@
+User-agent: *
+Disallow: /native/
+Disallow: /auth/
+Disallow: /?artid
+Disallow: /preisvergleich/
+Disallow: /spiele/weihnachtsspiele/
+Disallow: /studiopreview_
+Disallow: /vid_1/
+Disallow: /,ei=
+Disallow: /,linkId=
+Disallow: /,pt=pictureEnlarge
+Disallow: /,pt=print
+Disallow: /,pt=self
+Disallow: /,tid=print
+Disallow: /,vv=P5
+Disallow: /,vv=enlarge
+Disallow: */tid_external_content_proxy/
+Disallow: /-/id_62530634/tid_tsr_iframe_loginbox/index
+Disallow: /-/id_62530634/tid_tsr_iframe_loginbox_buzz/index
+Disallow: /gtm.js
+Disallow: /metatag/
+Disallow: /ki-ratgeber/
+
+User-agent: OAI-SearchBot
+Allow: /

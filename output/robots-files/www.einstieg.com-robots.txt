@@ -1,0 +1,33 @@
+User-agent: *
+Disallow: /frontend_frontend/
+Disallow: /messe-ausdruck.html
+
+Disallow: /reload-teaser.json
+Disallow: /reload-reallife.html
+Disallow: /loadmore-trainingsearch.html
+Disallow: /loadmore-trainings.html
+Disallow: /loadmore-exhibitorsearch.html
+Disallow: /sms-validation.html
+Disallow: /profil-tracking.php
+Disallow: /inserat-tracking.php
+Disallow: /termine-mit-messe-ausstellern-vereinbaren.php
+Disallow: /termine-mit-messe-ausstellern-absagen.php
+Disallow: /profilebookmark.php
+
+Disallow: /*tx_solr*
+Disallow: *tx_twteinstiegfrontend_twteinstiegfrontend*
+Disallow: *type=1513157926*
+Disallow: /*?*tx_felogin_login=
+
+Disallow: /detailansichten/abe-vorschau
+
+Sitemap: https://www.einstieg.com/sitemap.xml?sitemap=pages
+Sitemap: https://www.einstieg.com/sitemap.xml?sitemap=inserat_beruf
+Sitemap: https://www.einstieg.com/sitemap.xml?sitemap=inserat_studium
+Sitemap: https://www.einstieg.com/sitemap.xml?sitemap=anbieterprofil
+Sitemap: https://www.einstieg.com/sitemap.xml?sitemap=beruf
+Sitemap: https://www.einstieg.com/sitemap.xml?sitemap=studiengang
+Sitemap: https://www.einstieg.com/sitemap.xml?sitemap=gapyear_option
+Sitemap: https://www.einstieg.com/sitemap.xml?sitemap=news_blog
+Sitemap: https://www.einstieg.com/sitemap.xml?sitemap=news_allgemein
+Sitemap: https://www.einstieg.com/sitemap.xml

@@ -1,0 +1,79 @@
+# Robots.txt for crawler
+
+User-agent: *
+
+# Disallow Crawler
+Disallow: /User
+Disallow: /Dateien
+Disallow: /Nachrichten/Suche
+# Crawler often creates invalid script/webresource resource request
+Disallow: /ScriptResource
+Disallow: /WebResource
+
+User-agent: Meltwater
+Disallow: /
+
+User-agent: NewsNow
+Disallow: /
+
+User-agent: Bloodhound
+Disallow: /
+
+User-agent: cydralspider
+Disallow: /
+
+User-agent: downloadexpress
+Disallow: /
+
+User-agent: gammaSpider
+Disallow: /
+
+User-agent: ObjectsSearch
+Disallow: /
+
+User-agent: Pimptrain
+Disallow: /
+
+User-agent: Raven
+Disallow: /
+
+User-agent: wapspider
+Disallow: /
+
+User-agent: WebZinger
+Disallow: /
+
+User-agent: Fasterfox
+Disallow: /
+
+User-agent: sentibot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-Agent: omgili
+Disallow: /
+
+User-Agent: omgilibot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+# Max crawler Time per page in sec
+Crawl-Delay: 2
+
+#Sitemap
+#Sitemap: https://www.muehlacker-tagblatt.de/Sitemap_Index.xml.gz
+
+# Legal notice: muehlacker-tagblatt.de / Karl Elser GmbH expressly reserves the right to use its content for commercial text and data mining (� 44 b UrhG).
+# The use of robots or other automated means to access muehlacker-tagblatt.de or collect or mine data without the express permission of muehlacker-tagblatt.de / Karl Elser GmbH is strictly prohibited.
+# muehlacker-tagblatt.de / Karl Elser GmbH may, in its discretion, permit certain automated access to certain muehlacker-tagblatt.de pages.
+# If you would like to apply for permission to crawl muehlacker-tagblatt.de / Karl Elser GmbH, collect or use data, please email info@muehlacker-tagblatt.de

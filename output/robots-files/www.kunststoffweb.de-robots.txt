@@ -1,0 +1,26 @@
+User-agent: * 
+Disallow: /caching/
+Disallow: /stellenmarkt/anzeigen/_iframe/
+Disallow: /_assets/stellenmarkt/_iframe/
+
+User-agent: Baiduspider
+User-agent: 360Spider
+User-agent: Yisouspider
+User-agent: PetalBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Sogou web spider
+Disallow: /
+
+User-agent: Sogou inst spider
+Disallow: /
+
+Disallow: /wiki/
+Disallow: /startseite/
+
+Sitemap: https://www.kunststoffweb.de/sitemap.xml
+Sitemap: https://www.kunststoffweb.de/sitemap/news
+Sitemap: https://www.kunststoffweb.de/sitemap/jobs

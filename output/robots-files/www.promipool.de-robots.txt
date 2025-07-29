@@ -1,0 +1,18 @@
+User-agent: *
+Disallow: /layout/
+Disallow: /bm/ajax/*
+Disallow: /*?gallery&image=*
+Disallow: /*?gallery*
+Disallow: /?gallery
+Disallow: /tags/Rubriks/*
+Disallow: /search/*
+Disallow: /artikel/*
+Disallow: /bildergalerie-spezial/*
+Disallow: /bilder/*
+Disallow: /promis/*
+Disallow: /hollywood/*
+Disallow: /ngadminui/*
+Disallow: /administration/*
+
+Sitemap: https://www.promipool.de/sitemap.xml
+Sitemap: https://www.promipool.de/news-sitemap.xml

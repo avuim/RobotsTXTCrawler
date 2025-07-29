@@ -1,0 +1,45 @@
+User-agent: *
+Disallow: /count*.m
+Disallow: /client_test.m
+Disallow: /test/
+Disallow: /forum/bewertung/bewertung.js
+Disallow: /forum/buddy/
+Disallow: /forum/lesezeichen
+Disallow: /forum/rater.m
+Disallow: /search/
+Disallow: /suche_result
+Disallow: /suche/
+Disallow: /suche.m
+Disallow: /finder/
+Disallow: /finder.m
+Disallow: /user/
+Disallow: /agb.pdf
+Disallow: /themenspecials/msci_disclaimer.m
+Disallow: */chart/chartanalyse*
+Disallow: */szenario_rechner
+Disallow: */auszahlungsprofil
+Disallow: /hebelprodukte/*/kurse/*
+Disallow: /zertifikate/*/kurse/*
+Disallow: /js/prg*
+Disallow: /js/menu*
+Disallow: /js/progressive/menu*
+Disallow: /media*
+Disallow: *_ajax.m
+Disallow: *_ajax
+Disallow: */ajax
+Disallow: *_modal
+Disallow: *_ratings_detail
+Disallow: */anlageprodukte*
+
+
+Disallow: /aktien/finder
+Disallow: */chart?
+Disallow: /push?
+Disallow: /api/
+Disallow: /extras/fertig.m
+
+Disallow: */rss
+Disallow: */feed.xml
+
+Sitemap: https://www.ariva.de/sitemap.xml
+Sitemap: https://www.ariva.de/sitemap_news.xml

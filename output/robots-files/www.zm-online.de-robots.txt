@@ -1,0 +1,10 @@
+# robots.txt for www.zm-online.de
+# IP: 10.66.80.200
+User-agent: *
+Allow: /
+Disallow: /typo3/
+Disallow: /*?id=*
+Disallow: /*&type=123
+Disallow: /suche
+Disallow: /suche-nach-autoren
+Sitemap: https://www.zm-online.de/sitemap.xml

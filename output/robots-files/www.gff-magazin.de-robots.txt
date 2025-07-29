@@ -1,0 +1,21 @@
+# robots.txt
+
+# Suche raus
+User-agent: *
+Disallow: /*search=*
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Ezooms
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+# Legal notice: gff-magazin.de expressly reserves the right to use its content for commercial text and data mining (§ 44 b UrhG).
+# The use of robots or other automated means to access gff-magazin.de or collect or mine data without the express permission of gff-magazin.de is strictly prohibited.
+# If you would like to apply for permission to crawl gff-magazin.de, collect or use data, please email produktmanager@holzmann-medien.de

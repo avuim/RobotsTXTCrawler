@@ -1,0 +1,21 @@
+Sitemap: http://www.spielenxxl.de/sitemap/sitemap.xml
+
+User-agent: *
+Disallow: /admin/
+Disallow: /adserver/
+Disallow: /ajax/
+Disallow: /exec/
+Disallow: /functions/
+Disallow: /include/
+Disallow: /subdomains/
+Disallow: /swf/
+Disallow: /templates/
+Disallow: /tfeed/
+Disallow: /spieler/
+Disallow: /shop/
+Disallow: /community/
+Disallow: /daten/
+Disallow: /abonnements/
+Disallow: /test/
+Disallow: /*.swf$
+Disallow: /spieler/
