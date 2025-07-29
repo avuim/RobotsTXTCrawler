@@ -93,6 +93,8 @@ async function main(): Promise<void> {
     // Crawling starten (Meldung wird vom Orchestrator ausgegeben)
     const summary = await orchestrator.crawlAllSites();
     
+    // Prozess explizit beenden, um hängende Handles zu vermeiden
+    process.exit(0);
     
   } catch (error) {
     console.error('Fehler in der Hauptanwendung:', error);
