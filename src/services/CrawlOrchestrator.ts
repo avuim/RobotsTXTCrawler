@@ -287,7 +287,8 @@ export class CrawlOrchestrator {
               // Bei HTTP 403 den EnhancedPlaywrightCrawler verwenden
               if (isHttp403) {
                 try {
-                  this.logger.info('HTTP 403 erkannt, verwende EnhancedPlaywrightCrawler', { domain: website.domain });
+                  // Logging auf debug-Level reduziert, um den Fortschrittsbalken nicht zu stören
+                  this.logger.debug('HTTP 403 erkannt, verwende EnhancedPlaywrightCrawler', { domain: website.domain });
                   
                   const result = await this.enhancedPlaywrightCrawler.crawlRobotsTxt(website);
                   
@@ -306,7 +307,8 @@ export class CrawlOrchestrator {
                   }
                 } catch (enhancedError) {
                   // Auch der EnhancedPlaywrightCrawler ist fehlgeschlagen, Standard-Playwright versuchen
-                  this.logger.warn('EnhancedPlaywrightCrawler fehlgeschlagen, versuche Standard-Playwright', { 
+                  // Logging auf debug-Level reduziert, um den Fortschrittsbalken nicht zu stören
+                  this.logger.debug('EnhancedPlaywrightCrawler fehlgeschlagen, versuche Standard-Playwright', { 
                     domain: website.domain,
                     error: enhancedError instanceof Error ? enhancedError.message : 'Unbekannter Fehler'
                   });
