@@ -10,9 +10,10 @@ jobs:
   crawl:
     name: Run Robots.txt Crawler
     runs-on: ubuntu-latest
-    # Berechtigungen für den Workflow, um Änderungen zu pushen
+    # Berechtigungen für den Workflow, um Änderungen zu pushen und Issues zu erstellen
     permissions:
       contents: write  # Erlaubt das Schreiben von Repository-Inhalten
+      issues: write    # Erlaubt das Erstellen von Issues
     
     steps:
       - name: Checkout Repository

@@ -271,6 +271,33 @@ robots-txt-crawler/
 - **Tests**: `npm test`
 - **Linting**: `npm run lint`
 
+## Technische Schulden und geplante Verbesserungen
+
+### ESM-Kompatibilität
+
+Der Crawler verwendet derzeit eine ältere Version (3.1.0) der Bibliothek `p-limit`, da neuere Versionen als ES-Module (ESM) veröffentlicht werden und nicht direkt mit CommonJS `require()` importiert werden können. Dies führt zu Fehlern wie:
+
+```
+Error [ERR_REQUIRE_ESM]: require() of ES Module [...]/node_modules/p-limit/index.js not supported.
+Instead change the require of index.js to a dynamic import() which is available in all CommonJS modules.
+```
+
+#### Geplante Verbesserung
+
+Ein zukünftiges Refactoring sollte die Umstellung auf dynamische Imports beinhalten:
+
+```typescript
+// Aktuell (CommonJS-Stil):
+import pLimit from 'p-limit';
+const limit = pLimit(concurrency);
+
+// Zukünftig (ESM-kompatibel):
+const pLimit = await import('p-limit').then(module => module.default);
+const limit = pLimit(concurrency);
+```
+
+Diese Änderung würde es ermöglichen, die neueste Version von `p-limit` zu verwenden und die Codebase zukunftssicherer zu machen. Da dynamische Imports asynchron sind, erfordert diese Änderung jedoch eine umfassendere Refaktorierung der betroffenen Codeteile.
+
 ### Erweiterung
 
 Die Anwendung ist modular aufgebaut und kann leicht erweitert werden:
