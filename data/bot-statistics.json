@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-07-29T20:12:34.140Z",
+  "lastUpdated": "2025-07-29T20:46:16.155Z",
   "totalWebsites": 706,
   "totalBots": 1187,
   "botCategories": {
-    "searchEngine": 29,
-    "seo": 27,
-    "aiScraper": 14,
-    "other": 1117
+    "searchEngine": 54,
+    "seo": 44,
+    "aiScraper": 31,
+    "other": 1058
   },
   "bots": {
     "GPTBot": {
@@ -535,7 +535,7 @@
     },
     "Google-Extended": {
       "name": "Google-Extended",
-      "category": "other",
+      "category": "aiScraper",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 137,
@@ -685,7 +685,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Google LLC",
+      "description": "A user agent to control content access for AI model training in Google Gemini Apps and Vertex AI, providing opt-out capability for web publishers.",
+      "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
     },
     "ClaudeBot": {
       "name": "ClaudeBot",
@@ -835,7 +838,7 @@
     },
     "Omgili": {
       "name": "Omgili",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 4,
@@ -851,7 +854,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Webz.io",
+      "description": "Forum and discussion board indexing bot for Omgili's proprietary search and aggregation engine.",
+      "website": "https://webz.io"
     },
     "Timpibot": {
       "name": "Timpibot",
@@ -900,7 +906,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Timpi",
+      "description": "Decentralized web crawler operated by Timpi nodes, gathering diverse content to support a decentralized search and AI training dataset.",
+      "website": "https://www.timpi.io"
     },
     "Applebot-Extended": {
       "name": "Applebot-Extended",
@@ -1155,7 +1164,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Hive AI",
+      "description": "Specialized image crawler designed to discover and index images for visual intelligence solutions and AI dataset creation.",
+      "website": "https://imagesift.com"
     },
     "Bytespider": {
       "name": "Bytespider",
@@ -1341,7 +1353,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Diffbot, Inc.",
+      "description": "AI-powered web crawler and data extraction platform that creates structured knowledge graphs from web content using computer vision.",
+      "website": "https://www.diffbot.com"
     },
     "AhrefsBot": {
       "name": "AhrefsBot",
@@ -1604,7 +1619,7 @@
     },
     "SEOkicks": {
       "name": "SEOkicks",
-      "category": "other",
+      "category": "seo",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 4,
@@ -1620,7 +1635,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "SEOkicks.de",
+      "description": "SEO crawler gathering backlink data for the German SEO tool SEOkicks.",
+      "website": "https://www.seokicks.de"
     },
     "*": {
       "name": "*",
@@ -2483,7 +2501,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "",
+      "description": "",
+      "website": ""
     },
     "emetriqContextualBot": {
       "name": "emetriqContextualBot",
@@ -2546,7 +2567,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Web content indexing and crawling bot, likely for data aggregation or search engine indexing.",
+      "website": ""
     },
     "ia_archiver": {
       "name": "ia_archiver",
@@ -2595,7 +2619,7 @@
     },
     "omgili": {
       "name": "omgili",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 42,
@@ -2649,11 +2673,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Webz.io",
+      "description": "Specialized web crawler indexing discussion forums and user-generated content to power their conversational search engine and data products.",
+      "website": "https://webz.io"
     },
     "omgilibot": {
       "name": "omgilibot",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 31,
@@ -2696,7 +2723,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Webz.io",
+      "description": "Web crawler for extracting and aggregating discussion forum content and threads for enhanced conversational search.",
+      "website": "https://webz.io"
     },
     "Baiduspider": {
       "name": "Baiduspider",
@@ -2787,7 +2817,7 @@
     },
     "Yeti": {
       "name": "Yeti",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 23,
@@ -2822,7 +2852,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Naver Corp.",
+      "description": "Web crawler for Naver, a leading Korean search engine, tasked with content discovery and indexing.",
+      "website": "https://naver.com"
     },
     "sentibot": {
       "name": "sentibot",
@@ -2849,7 +2882,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown (emotion AI chat developer)",
+      "description": "Interactive AI bot specialized in analyzing and responding to the emotional tone of text for empathetic chat experiences.",
+      "website": "https://yeschat.ai/gpts-2OToXQFY6o-Sentibot"
     },
     "SirdataBot": {
       "name": "SirdataBot",
@@ -2944,7 +2980,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Turnitin LLC",
+      "description": "Crawls web content to support Turnitin's plagiarism detection database, focusing on academic and educational resources.",
+      "website": "https://turnitin.com/robot/crawlerinfo.html"
     },
     "BLEXBot": {
       "name": "BLEXBot",
@@ -3215,7 +3254,7 @@
     },
     "Meta-ExternalAgent": {
       "name": "Meta-ExternalAgent",
-      "category": "other",
+      "category": "aiScraper",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 24,
@@ -3251,7 +3290,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Meta Platforms, Inc.",
+      "description": "Crawling tool used to index and retrieve external website data for services like Facebook link previews and AI training.",
+      "website": "https://developers.facebook.com/docs/sharing/webmasters/crawler"
     },
     "FacebookBot": {
       "name": "FacebookBot",
@@ -3492,9 +3534,9 @@
           }
         }
       },
-      "owner": "Google",
-      "description": "Der Hauptcrawler von Google für die Websuche",
-      "website": "https://developers.google.com/search/docs/crawling-indexing/googlebot"
+      "owner": "Google LLC",
+      "description": "A specialized crawler for Google News that discovers, indexes, and keeps news content up to date for Google's search index and news portal.",
+      "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
     },
     "Amazonbot": {
       "name": "Amazonbot",
@@ -3567,7 +3609,7 @@
     },
     "ChatGPT-User": {
       "name": "ChatGPT-User",
-      "category": "other",
+      "category": "aiScraper",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 153,
@@ -3733,11 +3775,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "OpenAI",
+      "description": "Automates user-like web browsing to gather data for AI model training, research, and enhancement of ChatGPT's capabilities.",
+      "website": "https://www.openai.com"
     },
     "PerplexityBot": {
       "name": "PerplexityBot",
-      "category": "other",
+      "category": "aiScraper",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 96,
@@ -3846,11 +3891,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Perplexity AI",
+      "description": "Crawls web pages to index and surface content in Perplexity's AI-powered search engine without training foundation models.",
+      "website": "https://perplexity.ai/perplexitybot"
     },
     "Google-CloudVertexBot": {
       "name": "Google-CloudVertexBot",
-      "category": "other",
+      "category": "aiScraper",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 17,
@@ -3879,11 +3927,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Google LLC",
+      "description": "Crawls websites on behalf of Google Cloud Vertex AI customers for AI agent training and data integration (not public search).",
+      "website": "https://cloud.google.com/vertex-ai"
     },
     "meta-externalagent": {
       "name": "meta-externalagent",
-      "category": "other",
+      "category": "aiScraper",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 34,
@@ -3929,7 +3980,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Meta Platforms, Inc.",
+      "description": "See Meta-ExternalAgent entry above.",
+      "website": "https://developers.facebook.com/docs/sharing/webmasters/crawler"
     },
     "meta-externalfetcher": {
       "name": "meta-externalfetcher",
@@ -4011,13 +4065,13 @@
           }
         }
       },
-      "owner": "Yandex",
-      "description": "Der Crawler der russischen Suchmaschine Yandex",
-      "website": "https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html"
+      "owner": "Yandex LLC",
+      "description": "Web crawler operated by Yandex, Russia's largest search engine, for indexing and updating web pages in search results.",
+      "website": "https://yandex.com/bots"
     },
     "SiteAuditBot": {
       "name": "SiteAuditBot",
-      "category": "other",
+      "category": "seo",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 24,
@@ -4054,11 +4108,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Semrush",
+      "description": "Performs in-depth technical SEO audits as part of the Semrush platform, only running when a site audit is triggered by a user.",
+      "website": "https://www.semrush.com/bot.html"
     },
     "OAI-SearchBot": {
       "name": "OAI-SearchBot",
-      "category": "other",
+      "category": "aiScraper",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 49,
@@ -4120,7 +4177,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "OpenAI",
+      "description": "OpenAI's bot for search indexing in SearchGPT, collecting content for search result inclusion (not for AI model training).",
+      "website": "https://openai.com/searchbot"
     },
     "BUbiNG": {
       "name": "BUbiNG",
@@ -4167,7 +4227,7 @@
     },
     "Omgilibot": {
       "name": "Omgilibot",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 10,
@@ -4193,7 +4253,7 @@
     },
     "YouBot": {
       "name": "YouBot",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 60,
@@ -4265,11 +4325,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "You.com",
+      "description": "Crawler for You.com's AI-powered search engine, indexing web content for discovery and analysis.",
+      "website": "https://you.com"
     },
     "cohere-training-data-crawler": {
       "name": "cohere-training-data-crawler",
-      "category": "other",
+      "category": "aiScraper",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 20,
@@ -4301,7 +4364,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Cohere",
+      "description": "Web crawler collecting publicly available data to train Cohere's enterprise large language models (LLMs).",
+      "website": "https://cohere.com"
     },
     "CCBot/1.0": {
       "name": "CCBot/1.0",
@@ -4467,7 +4533,7 @@
     },
     "AI2Bot": {
       "name": "AI2Bot",
-      "category": "other",
+      "category": "aiScraper",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 17,
@@ -4496,7 +4562,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Allen Institute for AI",
+      "description": "Bot operated by AI2 to gather open web data for training open-source AI models.",
+      "website": "https://allenai.org/crawler"
     },
     "claude-web": {
       "name": "claude-web",
@@ -4601,7 +4670,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "DuckDuckGo",
+      "description": "On-demand bot fetching content from trusted sources such as Wikipedia to generate real-time answers in DuckDuckGo's DuckAssist feature.",
+      "website": "https://duckduckgo.com/duckassistbot.html"
     },
     "LinkedInBot": {
       "name": "LinkedInBot",
@@ -4629,7 +4701,7 @@
     },
     "SearchmetricsBot": {
       "name": "SearchmetricsBot",
-      "category": "other",
+      "category": "seo",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 37,
@@ -4678,7 +4750,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Searchmetrics GmbH",
+      "description": "SEO crawler for auditing web pages and collecting ranking data for Searchmetrics' suite of tools.",
+      "website": "https://www.searchmetrics.com"
     },
     "MyBot Disallow: /": {
       "name": "MyBot Disallow: /",
@@ -5006,7 +5081,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Presumed to be a web extractor tool for scanning and collecting structured web data for SEO or data analysis.",
+      "website": ""
     },
     "CopyRightCheck": {
       "name": "CopyRightCheck",
@@ -5502,7 +5580,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Ambiguous bot; likely involved in controlling or analyzing URLs in some automated context.",
+      "website": ""
     },
     "URLy Warning": {
       "name": "URLy Warning",
@@ -5604,7 +5685,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Web crawling bot designed to automate link extraction and collect web data for indexing and analysis.",
+      "website": ""
     },
     "cosmos": {
       "name": "cosmos",
@@ -5704,7 +5788,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Generally refers to tools that grab internal and external links for SEO and site audits.",
+      "website": ""
     },
     "Mata Hari": {
       "name": "Mata Hari",
@@ -5907,7 +5994,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Uncategorized web crawling agent assumed to analyze and index URLs for data retrieval or SEO purposes.",
+      "website": ""
     },
     "CherryPicker": {
       "name": "CherryPicker",
@@ -6235,7 +6325,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Ambiguous bot; likely involved in controlling or analyzing URLs in some automated context.",
+      "website": ""
     },
     "Foobot": {
       "name": "Foobot",
@@ -6444,7 +6537,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Uncategorized agent with unspecified web crawling, data scraping, or testing purposes.",
+      "website": ""
     },
     "BlowFish": {
       "name": "BlowFish",
@@ -6799,7 +6895,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "OpenBot Project (isl-org/ETH Zurich)",
+      "description": "An open-source robotics framework leveraging smartphones for AI and robotics research, rather than a web crawler.",
+      "website": "https://isl-org.github.io/OpenBot"
     },
     "URL Control": {
       "name": "URL Control",
@@ -6833,7 +6932,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Ambiguous bot; likely involved in controlling or analyzing URLs in some automated context.",
+      "website": ""
     },
     "EroCrawler": {
       "name": "EroCrawler",
@@ -7140,7 +7242,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown/Browser extension developer",
+      "description": "Browser tool for adding site previews to search results; may crawl sites to collect snapshots or link meta-data.",
+      "website": ""
     },
     "The Intraformant": {
       "name": "The Intraformant",
@@ -7526,7 +7631,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Meta Platforms, Inc.",
+      "description": "Variant of Meta's external data fetching bots for retrieving and previewing shared web links or metadata.",
+      "website": ""
     },
     "WebZIP": {
       "name": "WebZIP",
@@ -7810,7 +7918,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Comscore",
+      "description": "Contextual intelligence gatherer used to collect web data for ad targeting, brand safety, and content categorization.",
+      "website": "https://comscore.com/Web-Crawler"
     },
     "ecoresearchCrawler/0.9": {
       "name": "ecoresearchCrawler/0.9",
@@ -7953,7 +8064,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Mozdev.org",
+      "description": "A Firefox browser extension to optimize browsing speed and tweak loading/performance settings. Not a crawler bot.",
+      "website": "https://fasterfox.de.softonic.com"
     },
     "Jyxobot": {
       "name": "Jyxobot",
@@ -8024,7 +8138,7 @@
     },
     "webcrawler": {
       "name": "webcrawler",
-      "category": "other",
+      "category": "seo",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 1,
@@ -8227,7 +8341,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Semrush",
+      "description": "SEO crawler for collecting and analyzing web data to provide comprehensive SEO analytics and insights.",
+      "website": "https://www.semrush.com/bot/"
     },
     "auskunftbot": {
       "name": "auskunftbot",
@@ -8635,7 +8752,7 @@
     },
     "xovi": {
       "name": "xovi",
-      "category": "other",
+      "category": "seo",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 45,
@@ -8692,11 +8809,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "XOVI GmbH",
+      "description": "SEO tool crawler for comprehensive website and competitor analysis, backlink and keyword research.",
+      "website": "https://www.xovi.com"
     },
     "sistrix": {
       "name": "sistrix",
-      "category": "other",
+      "category": "seo",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 29,
@@ -8737,7 +8857,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "SISTRIX GmbH",
+      "description": "Crawler bot from the SISTRIX SEO Suite, used for on-page analysis and web monitoring.",
+      "website": "https://www.sistrix.de"
     },
     "bingbot": {
       "name": "bingbot",
@@ -8795,7 +8918,7 @@
     },
     "msnbot": {
       "name": "msnbot",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 29,
@@ -8836,7 +8959,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Microsoft",
+      "description": "Microsoft's bot for Bing Search, crawling the web to index and update content for search results.",
+      "website": "https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0"
     },
     "AwarioSmartBot": {
       "name": "AwarioSmartBot",
@@ -8869,7 +8995,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Awario",
+      "description": "Crawling tool by Awario for social media listening, monitoring, and brand mention analysis.",
+      "website": "https://awario.com"
     },
     "Kraken": {
       "name": "Kraken",
@@ -8980,11 +9109,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "",
+      "description": "",
+      "website": ""
     },
     "PetalBot": {
       "name": "PetalBot",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 29,
@@ -9032,7 +9164,7 @@
     },
     "YandexImages": {
       "name": "YandexImages",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 1,
@@ -9045,7 +9177,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Yandex LLC",
+      "description": "Web crawler operated by Yandex, Russia's largest search engine, for indexing and updating web pages in search results.",
+      "website": "https://yandex.com/bots"
     },
     "HubSpot": {
       "name": "HubSpot",
@@ -9353,7 +9488,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Ambiguous bot; likely involved in controlling or analyzing URLs in some automated context.",
+      "website": ""
     },
     "Microsoft URL Control - 6.00.8169": {
       "name": "Microsoft URL Control - 6.00.8169",
@@ -9371,7 +9509,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Ambiguous bot; likely involved in controlling or analyzing URLs in some automated context.",
+      "website": ""
     },
     "Wget/1.6": {
       "name": "Wget/1.6",
@@ -9411,7 +9552,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Uncategorized agent with unspecified web crawling, data scraping, or testing purposes.",
+      "website": ""
     },
     "BlowFish/1.0": {
       "name": "BlowFish/1.0",
@@ -10294,7 +10438,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Bot associated with link analysis, SEO, or website performance analytics.",
+      "website": ""
     },
     "UnisterBot": {
       "name": "UnisterBot",
@@ -10338,7 +10485,7 @@
     },
     "seokicks": {
       "name": "seokicks",
-      "category": "other",
+      "category": "seo",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 2,
@@ -11306,7 +11453,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Scrapy Project/Scrapinghub",
+      "description": "Open-source framework and bot for building custom web scrapers and spiders in Python.",
+      "website": "https://scrapy.org"
     },
     "test Crawl": {
       "name": "test Crawl",
@@ -11346,7 +11496,7 @@
     },
     "VelenPublicWebCrawler": {
       "name": "VelenPublicWebCrawler",
-      "category": "other",
+      "category": "seo",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 17,
@@ -11375,7 +11525,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "VelenPublicWeb",
+      "description": "Crawler for SEO, web indexing, or public website data aggregation.",
+      "website": ""
     },
     "YahooCacheSystem": {
       "name": "YahooCacheSystem",
@@ -11424,7 +11577,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Common Crawl",
+      "description": "Crawls the web on behalf of Common Crawl to build open datasets used for research, analytics, and training AI models.",
+      "website": "https://commoncrawl.org/faq/"
     },
     "cookiebot": {
       "name": "cookiebot",
@@ -11479,7 +11635,7 @@
     },
     "GoogleOther": {
       "name": "GoogleOther",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 11,
@@ -11502,11 +11658,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Google LLC",
+      "description": "A generic Google crawler for various internal research, indexing, and analysis not related to search.",
+      "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
     },
     "GoogleOther-Image": {
       "name": "GoogleOther-Image",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 9,
@@ -11527,11 +11686,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Google LLC",
+      "description": "A generic Google crawler for various internal research, indexing, and analysis not related to search.",
+      "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
     },
     "OmgiliBot": {
       "name": "OmgiliBot",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 12,
@@ -11555,7 +11717,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Webz.io",
+      "description": "Forum and discussion board indexing bot for Omgili's proprietary search and aggregation engine.",
+      "website": "https://webz.io"
     },
     "trendictionbot": {
       "name": "trendictionbot",
@@ -11594,11 +11759,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Trendiction (Meltwater)",
+      "description": "Crawls media and web content for social listening, trend analysis, and media monitoring.",
+      "website": "https://meltwater.com"
     },
     "Claude-User": {
       "name": "Claude-User",
-      "category": "other",
+      "category": "aiScraper",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 22,
@@ -11633,11 +11801,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Anthropic",
+      "description": "Bots or agents acting as external agents for Anthropic's Claude AI assistant, potentially browsing or querying web data.",
+      "website": "https://www.anthropic.com"
     },
     "DeepSeek": {
       "name": "DeepSeek",
-      "category": "other",
+      "category": "aiScraper",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 13,
@@ -11662,11 +11833,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "DeepSeek",
+      "description": "Crawling agent associated with deep learning or web content indexing for AI purposes.",
+      "website": "https://deepseek.com"
     },
     "DeepSeekBot": {
       "name": "DeepSeekBot",
-      "category": "other",
+      "category": "aiScraper",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 13,
@@ -11691,7 +11865,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "DeepSeek",
+      "description": "See DeepSeek entry above.",
+      "website": "https://deepseek.com"
     },
     "Googlebot-Video": {
       "name": "Googlebot-Video",
@@ -11799,7 +11976,7 @@
     },
     "Flamingo_SearchEngine": {
       "name": "Flamingo_SearchEngine",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 11,
@@ -11822,11 +11999,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Appears to be related to a search engine with web crawling and indexing capabilities.",
+      "website": ""
     },
     "Ai2Bot-Dolma": {
       "name": "Ai2Bot-Dolma",
-      "category": "other",
+      "category": "aiScraper",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 13,
@@ -11851,7 +12031,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Allen Institute for AI",
+      "description": "Crawling agent for academic data collection or LLM research, managed by the Allen Institute for AI.",
+      "website": "https://allenai.org"
     },
     "aiHitBot": {
       "name": "aiHitBot",
@@ -11921,7 +12104,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Awario",
+      "description": "Crawling tool by Awario for social media listening, monitoring, and brand mention analysis.",
+      "website": "https://awario.com"
     },
     "bedrockbot": {
       "name": "bedrockbot",
@@ -12213,7 +12399,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Bot with a 'friendly' user agent, purpose and ownership unclear.",
+      "website": ""
     },
     "Gemini-Deep-Research": {
       "name": "Gemini-Deep-Research",
@@ -12263,7 +12452,7 @@
     },
     "GoogleOther-Video": {
       "name": "GoogleOther-Video",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 8,
@@ -12283,7 +12472,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Google LLC",
+      "description": "A generic Google crawler for various internal research, indexing, and analysis not related to search.",
+      "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
     },
     "iaskspider/2.0": {
       "name": "iaskspider/2.0",
@@ -12334,11 +12526,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Crawling agent possibly associated with institutional or academic content cataloging.",
+      "website": ""
     },
     "img2dataset": {
       "name": "img2dataset",
-      "category": "other",
+      "category": "aiScraper",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 16,
@@ -12366,7 +12561,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown/Open source community",
+      "description": "Open source tool for downloading images and metadata from URLs to build datasets, commonly used in AI research.",
+      "website": "https://github.com/rom1504/img2dataset"
     },
     "ISSCyberRiskCrawler": {
       "name": "ISSCyberRiskCrawler",
@@ -12394,7 +12592,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Specialized crawler potentially focused on cyber risk data or threat intelligence.",
+      "website": ""
     },
     "Kangaroo Bot": {
       "name": "Kangaroo Bot",
@@ -12422,7 +12623,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Ambiguous; likely a web crawler or site auditor related to web measurement or security.",
+      "website": ""
     },
     "Meta-ExternalFetcher": {
       "name": "Meta-ExternalFetcher",
@@ -12450,7 +12654,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Meta Platforms, Inc.",
+      "description": "Variant of Meta's external data fetching bots for retrieving and previewing shared web links or metadata.",
+      "website": ""
     },
     "MistralAI-User": {
       "name": "MistralAI-User",
@@ -12618,7 +12825,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Web crawler possibly related to research or analytics; exact scope unclear.",
+      "website": ""
     },
     "Panscient": {
       "name": "Panscient",
@@ -12646,7 +12856,7 @@
     },
     "Perplexity-User": {
       "name": "Perplexity-User",
-      "category": "other",
+      "category": "aiScraper",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 13,
@@ -12671,7 +12881,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Perplexity AI",
+      "description": "User or agent representing queries from Perplexity's search and answer platform.",
+      "website": "https://perplexity.ai"
     },
     "PhindBot": {
       "name": "PhindBot",
@@ -13008,7 +13221,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Webzio",
+      "description": "Presumed crawler or data collection agent from Webzio, for web indexing or AI research.",
+      "website": ""
     },
     "wpbot": {
       "name": "wpbot",
@@ -13035,7 +13251,7 @@
     },
     "YandexAdditional": {
       "name": "YandexAdditional",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 7,
@@ -13054,11 +13270,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Yandex LLC",
+      "description": "Web crawler operated by Yandex, Russia's largest search engine, for indexing and updating web pages in search results.",
+      "website": "https://yandex.com/bots"
     },
     "YandexAdditionalBot": {
       "name": "YandexAdditionalBot",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 7,
@@ -13077,11 +13296,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Yandex LLC",
+      "description": "Web crawler operated by Yandex, Russia's largest search engine, for indexing and updating web pages in search results.",
+      "website": "https://yandex.com/bots"
     },
     "msnbot-media/1.1": {
       "name": "msnbot-media/1.1",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 8,
@@ -13101,11 +13323,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Microsoft",
+      "description": "Microsoft's bot for Bing Search, crawling the web to index and update content for search results.",
+      "website": "https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0"
     },
     "msnbot-media/2.0b": {
       "name": "msnbot-media/2.0b",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 8,
@@ -13125,7 +13350,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Microsoft",
+      "description": "Microsoft's bot for Bing Search, crawling the web to index and update content for search results.",
+      "website": "https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0"
     },
     "scrapy": {
       "name": "scrapy",
@@ -13249,7 +13477,7 @@
     },
     "SEOkicks-Robot": {
       "name": "SEOkicks-Robot",
-      "category": "other",
+      "category": "seo",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 18,
@@ -13279,7 +13507,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "SEOkicks.de",
+      "description": "SEO crawler gathering backlink data for the German SEO tool SEOkicks.",
+      "website": "https://www.seokicks.de"
     },
     "yacybot": {
       "name": "yacybot",
@@ -13301,7 +13532,7 @@
     },
     "XoviOnpageCrawler": {
       "name": "XoviOnpageCrawler",
-      "category": "other",
+      "category": "seo",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 1,
@@ -13590,7 +13821,7 @@
     },
     "MSNBot": {
       "name": "MSNBot",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 1,
@@ -13675,7 +13906,7 @@
     },
     "yeti": {
       "name": "yeti",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 1,
@@ -13929,7 +14160,7 @@
     },
     "msnbot-media": {
       "name": "msnbot-media",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 5,
@@ -13946,7 +14177,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Microsoft",
+      "description": "Microsoft's bot for Bing Search, crawling the web to index and update content for search results.",
+      "website": "https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0"
     },
     "SemrushBot-SA": {
       "name": "SemrushBot-SA",
@@ -14182,7 +14416,7 @@
     },
     "backlink-check.de": {
       "name": "backlink-check.de",
-      "category": "other",
+      "category": "seo",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 15,
@@ -14209,11 +14443,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "backlink-check.de",
+      "description": "Crawler for backlink and SEO analysis platform, collecting and evaluating incoming links.",
+      "website": "https://www.backlink-check.de"
     },
     "BacklinkCrawler": {
       "name": "BacklinkCrawler",
-      "category": "other",
+      "category": "seo",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 17,
@@ -14242,7 +14479,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Bot collecting backlinks and link profile data for SEO or analytics tools.",
+      "website": ""
     },
     "rogerbot": {
       "name": "rogerbot",
@@ -14282,7 +14522,7 @@
     },
     "SEODAT": {
       "name": "SEODAT",
-      "category": "other",
+      "category": "seo",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 15,
@@ -14309,11 +14549,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Crawler or tool for SEO data collection and analysis.",
+      "website": ""
     },
     "SEOENGBot": {
       "name": "SEOENGBot",
-      "category": "other",
+      "category": "seo",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 14,
@@ -14339,7 +14582,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Web crawler for SEO analysis and English language indexing.",
+      "website": ""
     },
     "um-IC": {
       "name": "um-IC",
@@ -14366,7 +14612,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Bot with ambiguous identity; may be related to crawling or indexing.",
+      "website": ""
     },
     "GumGum Bot": {
       "name": "GumGum Bot",
@@ -14724,7 +14973,7 @@
     },
     "seekbot": {
       "name": "seekbot",
-      "category": "other",
+      "category": "aiScraper",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 1,
@@ -15583,7 +15832,7 @@
     },
     "Google-Extended{*}": {
       "name": "Google-Extended{*}",
-      "category": "other",
+      "category": "aiScraper",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 1,
@@ -15596,11 +15845,14 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Google LLC",
+      "description": "A user agent to control content access for AI model training in Google Gemini Apps and Vertex AI, providing opt-out capability for web publishers.",
+      "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
     },
     "petalbot": {
       "name": "petalbot",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 1,
@@ -15812,7 +16064,7 @@
     },
     "msnbot-UDiscovery": {
       "name": "msnbot-UDiscovery",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 2,
@@ -15827,7 +16079,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Microsoft",
+      "description": "Microsoft's bot for Bing Search, crawling the web to index and update content for search results.",
+      "website": "https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0"
     },
     "Sogou web spider": {
       "name": "Sogou web spider",
@@ -16083,7 +16338,7 @@
     },
     "YandexNews": {
       "name": "YandexNews",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 1,
@@ -16096,7 +16351,10 @@
             "disallowed": []
           }
         }
-      }
+      },
+      "owner": "Yandex LLC",
+      "description": "Web crawler operated by Yandex, Russia's largest search engine, for indexing and updating web pages in search results.",
+      "website": "https://yandex.com/bots"
     },
     "Adsbot-Google-Mobile": {
       "name": "Adsbot-Google-Mobile",
@@ -16169,7 +16427,10 @@
             "disallowed": []
           }
         }
-      }
+      },
+      "owner": "",
+      "description": "",
+      "website": ""
     },
     "01h4x.com": {
       "name": "01h4x.com",
@@ -18159,7 +18420,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Unknown",
+      "description": "Presumed to be a web extractor tool for scanning and collecting structured web data for SEO or data analysis.",
+      "website": ""
     },
     "Extreme Picture Finder": {
       "name": "Extreme Picture Finder",
@@ -21038,7 +21302,7 @@
     },
     "Petalbot": {
       "name": "Petalbot",
-      "category": "other",
+      "category": "searchEngine",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 1,
@@ -21578,7 +21842,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Scrapy Project/Scrapinghub",
+      "description": "Open-source framework and bot for building custom web scrapers and spiders in Python.",
+      "website": "https://scrapy.org"
     },
     "Ripper": {
       "name": "Ripper",
@@ -21701,7 +21968,7 @@
     },
     "SISTRIX": {
       "name": "SISTRIX",
-      "category": "other",
+      "category": "seo",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 1,
@@ -22724,7 +22991,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "Turnitin LLC",
+      "description": "Crawls web content to support Turnitin's plagiarism detection database, focusing on academic and educational resources.",
+      "website": "https://turnitin.com/robot/crawlerinfo.html"
     },
     "TwengaBot": {
       "name": "TwengaBot",
@@ -24004,7 +24274,7 @@
     },
     "backlink-check": {
       "name": "backlink-check",
-      "category": "other",
+      "category": "seo",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 1,
@@ -24017,7 +24287,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "backlink-check.de",
+      "description": "Crawler for backlink and SEO analysis platform, collecting and evaluating incoming links.",
+      "website": "https://www.backlink-check.de"
     },
     "cah.io.community": {
       "name": "cah.io.community",
@@ -25448,7 +25721,10 @@
             ]
           }
         }
-      }
+      },
+      "owner": "",
+      "description": "",
+      "website": ""
     },
     "NewspointBot/1.0 (http://www.netsprint.eu/)": {
       "name": "NewspointBot/1.0 (http://www.netsprint.eu/)",
@@ -25469,7 +25745,7 @@
     },
     "XoviBot": {
       "name": "XoviBot",
-      "category": "other",
+      "category": "seo",
       "monthlyStats": {
         "2025-07": {
           "totalWebsites": 1,

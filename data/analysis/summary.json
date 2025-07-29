@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-07-29T20:12:35.095Z",
+  "lastUpdated": "2025-07-29T20:46:17.100Z",
   "totalBots": 1187,
   "totalWebsites": 706,
   "botCategories": {
-    "searchEngine": 29,
-    "seo": 27,
-    "aiScraper": 14,
-    "other": 1117
+    "searchEngine": 54,
+    "seo": 44,
+    "aiScraper": 31,
+    "other": 1058
   },
   "topBots": [
     {
@@ -32,14 +32,14 @@
     },
     {
       "name": "ChatGPT-User",
-      "category": "other",
+      "category": "aiScraper",
       "totalWebsites": 153,
       "allowedWebsites": 10,
       "disallowedWebsites": 143
     },
     {
       "name": "Google-Extended",
-      "category": "other",
+      "category": "aiScraper",
       "totalWebsites": 137,
       "allowedWebsites": 9,
       "disallowedWebsites": 128
@@ -67,7 +67,7 @@
     },
     {
       "name": "PerplexityBot",
-      "category": "other",
+      "category": "aiScraper",
       "totalWebsites": 96,
       "allowedWebsites": 7,
       "disallowedWebsites": 89
@@ -102,7 +102,7 @@
     },
     {
       "name": "YouBot",
-      "category": "other",
+      "category": "searchEngine",
       "totalWebsites": 60,
       "allowedWebsites": 0,
       "disallowedWebsites": 60
@@ -144,7 +144,7 @@
     },
     {
       "name": "OAI-SearchBot",
-      "category": "other",
+      "category": "aiScraper",
       "totalWebsites": 49,
       "allowedWebsites": 13,
       "disallowedWebsites": 36
