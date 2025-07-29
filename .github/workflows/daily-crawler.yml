@@ -1,0 +1,101 @@
+name: Daily Robots.txt Crawler
+
+on:
+  schedule:
+    # Täglich um 6:00 UTC ausführen (8:00 CEST)
+    - cron: '0 6 * * *'
+  workflow_dispatch:  # Ermöglicht manuelle Ausführung über die GitHub UI
+
+jobs:
+  crawl:
+    name: Run Robots.txt Crawler
+    runs-on: ubuntu-latest
+    # Berechtigungen für den Workflow, um Änderungen zu pushen
+    permissions:
+      contents: write  # Erlaubt das Schreiben von Repository-Inhalten
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          # Volle Git-Historie abrufen, um Commits zu ermöglichen
+          fetch-depth: 0
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Install Dependencies
+        run: npm ci
+        
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps chromium
+        
+      - name: Restore Previous Data
+        uses: actions/cache/restore@v3
+        with:
+          path: |
+            data/failed-domains.json
+            output/
+          key: crawler-data-${{ github.run_id }}
+          restore-keys: |
+            crawler-data-
+            
+      - name: Build Project
+        run: npm run build
+        
+      - name: Run Crawler
+        run: npm start -- --parallelWorkers=10 --logLevel=info
+        env:
+          NODE_ENV: production
+          
+      - name: Save Crawler Data
+        uses: actions/cache/save@v3
+        with:
+          path: |
+            data/failed-domains.json
+            output/
+          key: crawler-data-${{ github.run_id }}
+          
+      - name: Upload Crawler Results
+        uses: actions/upload-artifact@v3
+        with:
+          name: crawler-results-${{ github.run_id }}
+          path: |
+            output/
+            data/failed-domains.json
+          retention-days: 7 # Aufbewahrungsdauer der Artefakte
+      
+      # Persistieren der Robots.txt-Dateien im Repository
+      - name: Commit and Push Robots.txt Files
+        if: success()
+        run: |
+          # Git-Benutzer konfigurieren
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Prüfen, ob es Änderungen gibt
+          if [[ -d "output/robots-files" && "$(ls -A output/robots-files)" ]]; then
+            # Änderungen direkt im output/robots-files Verzeichnis committen
+            git add output/robots-files/
+            git commit -m "Update robots.txt files from crawler run on $(date +"%Y-%m-%d")" || echo "No changes to commit"
+            
+            # Änderungen pushen
+            git push
+          else
+            echo "No robots.txt files found to commit"
+          fi
+          
+      - name: Notify on Failure
+        if: failure()
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Crawler Failure: ${new Date().toISOString()}`,
+              body: `The daily crawler job failed. Please check the [workflow run](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}) for details.`
+            })
