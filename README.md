@@ -267,15 +267,20 @@ Der Crawler implementiert eine intelligente Update-Logik, um zu verhindern, dass
 #### Beispiel-Konfigurationen
 
 ```bash
-# Alle 7 Tage aktualisieren
+# Alle 7 Tage aktualisieren (Standardmodus: Crawling + Analyse + API)
 npm start -- --updateAfterDays=7
 
-# Bei jedem Crawl aktualisieren
-npm start -- --forceUpdate=true
+# Bei jedem Crawl aktualisieren (nur mit --crawlOnly)
+npm run start:crawl-only -- --forceUpdate=true
+
+# Kombiniert: Force Update mit anderen Parametern
+npm run start:crawl-only -- --forceUpdate=true --parallelWorkers=10
 
 # Standard: Alle 30 Tage aktualisieren (keine Parameter nötig)
 npm start
 ```
+
+**Wichtiger Hinweis**: Die `--forceUpdate` Option funktioniert nur im Crawling-Only-Modus (`npm run start:crawl-only`), da sie spezifisch für das Crawling-Verhalten ist.
 
 #### Verhalten
 
