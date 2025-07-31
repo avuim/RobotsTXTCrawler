@@ -141,16 +141,6 @@ npm start -- --parallelWorkers=20 --batchSize=50 --browserFallback=true
 - **--logLevel=<Level>**: Log-Level (debug, info, warn, error) (Standard: info)
 - **--help**: Diese Hilfe anzeigen
 
-### 2. Konfigurationsdateien
-
-Die Konfiguration ist in mehrere Dateien aufgeteilt:
-
-- **crawler.config.ts**: Hauptkonfiguration für den Crawler
-- **playwright.config.ts**: Konfiguration für Playwright
-- **logging.config.ts**: Konfiguration für die Protokollierung
-
-### Konfigurationsoptionen
-
 #### Ausführungsmodus
 Die Anwendung kann in verschiedenen Modi gestartet werden, die über npm-Skripte aufgerufen werden:
 
@@ -178,6 +168,14 @@ jobs:
       - run: npm run build
       - run: npm run start:crawl-only  # Nur Crawling durchführen
 ```
+
+### 2. Konfigurationsdateien
+
+Die Konfiguration ist in mehrere Dateien aufgeteilt:
+
+- **crawler.config.ts**: Hauptkonfiguration für den Crawler
+- **playwright.config.ts**: Konfiguration für Playwright
+- **logging.config.ts**: Konfiguration für die Protokollierung
 
 #### Parallelisierung
 - **parallelWorkers**: Anzahl der parallelen Worker (Standard: 15)
