@@ -96,11 +96,22 @@ const WebsiteDetailPage: React.FC = () => {
     domain ? API.getWebsiteByDomain(decodedDomain) : Promise.reject('No domain provided')
   );
 
+  // Lade Bot-Liste für Kategorien
+  const { data: botList } = useApi(() => API.getBots());
+
   const categoryLabels = {
     searchEngine: 'Suchmaschine',
     seo: 'SEO-Tool',
     aiScraper: 'KI/LLM-Scraper',
     other: 'Andere',
+  };
+
+  // Funktion zum Ermitteln der Bot-Kategorie
+  const getBotCategory = (botName: string): string => {
+    if (!botList) return 'other';
+    
+    const bot = botList.find((b: any) => b.name === botName);
+    return bot?.category || 'other';
   };
 
   const columns: TableColumn<BotEntry>[] = [
@@ -159,14 +170,14 @@ const WebsiteDetailPage: React.FC = () => {
 
   // Erstelle Bot-Einträge aus den Website-Daten
   const botEntries: BotEntry[] = [
-    ...(website.allowedBots || []).map((botName: string) => ({
+    ...(website.bots?.allowed || []).map((botName: string) => ({
       name: botName,
-      category: 'other', // Default, könnte aus Bot-Daten geholt werden
+      category: getBotCategory(botName),
       allowed: true
     })),
-    ...(website.disallowedBots || []).map((botName: string) => ({
+    ...(website.bots?.disallowed || []).map((botName: string) => ({
       name: botName,
-      category: 'other', // Default, könnte aus Bot-Daten geholt werden
+      category: getBotCategory(botName),
       allowed: false
     }))
   ];
@@ -202,15 +213,6 @@ const WebsiteDetailPage: React.FC = () => {
                 {website.totalBots && website.totalBots > 0 
                   ? `${((website.allowedBots / website.totalBots) * 100).toFixed(1)}%`
                   : '0%'
-                }
-              </InfoValue>
-            </InfoItem>
-            <InfoItem>
-              <InfoLabel>Zuletzt aktualisiert</InfoLabel>
-              <InfoValue>
-                {website.lastUpdated 
-                  ? new Date(website.lastUpdated).toLocaleDateString('de-DE')
-                  : 'Unbekannt'
                 }
               </InfoValue>
             </InfoItem>

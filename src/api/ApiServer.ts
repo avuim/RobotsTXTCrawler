@@ -158,13 +158,17 @@ export class ApiServer {
                 const data = await fs.readFile(filePath, 'utf-8');
                 const websiteData = JSON.parse(data);
                 
-                // Extrahiere die benötigten Informationen
+                // Berechne Bot-Statistiken aus dem bots Array
+                const bots = websiteData.bots || [];
+                const totalBots = bots.length;
+                const allowedBots = bots.filter((bot: any) => bot.allowed === true).length;
+                const disallowedBots = bots.filter((bot: any) => bot.allowed === false).length;
+                
                 return {
-                  domain,
-                  totalBots: websiteData.totalBots || 0,
-                  allowedBots: websiteData.allowedBots || 0,
-                  disallowedBots: websiteData.disallowedBots || 0,
-                  lastUpdated: websiteData.lastUpdated || null
+                  domain: websiteData.domain || domain,
+                  totalBots,
+                  allowedBots,
+                  disallowedBots
                 };
               } catch (err) {
                 console.error(`Fehler beim Laden der Website ${domain}:`, err);
@@ -197,7 +201,40 @@ export class ApiServer {
         
         if (await fs.pathExists(filePath)) {
           const data = await fs.readFile(filePath, 'utf-8');
-          res.json(JSON.parse(data));
+          const websiteData = JSON.parse(data);
+          
+          // Berechne Bot-Statistiken aus dem bots Array
+          const bots = websiteData.bots || [];
+          const totalBots = bots.length;
+          const allowedBots = bots.filter((bot: any) => bot.allowed === true).length;
+          const disallowedBots = bots.filter((bot: any) => bot.allowed === false).length;
+          
+          // Erstelle separate Arrays für erlaubte und verbotene Bots
+          const allowedBotNames = bots
+            .filter((bot: any) => bot.allowed === true)
+            .map((bot: any) => bot.name);
+          const disallowedBotNames = bots
+            .filter((bot: any) => bot.allowed === false)
+            .map((bot: any) => bot.name);
+          
+          // Transformiere in das erwartete Frontend-Format
+          const response = {
+            domain: websiteData.domain || domain,
+            robotsTxt: websiteData.robotsTxt || '',
+            totalBots,
+            allowedBots,
+            disallowedBots,
+            bots: {
+              allowed: allowedBotNames,
+              disallowed: disallowedBotNames
+            },
+            paths: {
+              allowed: [],
+              disallowed: []
+            }
+          };
+          
+          res.json(response);
         } else {
           res.status(404).json({ error: `Website "${domain}" nicht gefunden` });
         }

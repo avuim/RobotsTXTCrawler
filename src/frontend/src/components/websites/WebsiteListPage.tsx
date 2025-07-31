@@ -56,17 +56,12 @@ const StatValue = styled.span<{ $type: 'allowed' | 'disallowed' | 'total' }>`
   font-weight: 500;
 `;
 
-const LastUpdatedText = styled.span`
-  color: ${({ theme }) => theme.colors.lightText};
-  font-size: 0.8rem;
-`;
 
 interface Website {
   domain: string;
   totalBots: number;
   allowedBots: number;
   disallowedBots: number;
-  lastUpdated: string | null;
 }
 
 const WebsiteListPage: React.FC = () => {
@@ -125,18 +120,6 @@ const WebsiteListPage: React.FC = () => {
           : '0';
         return `${rate}%`;
       },
-    },
-    {
-      key: 'lastUpdated',
-      header: 'Zuletzt aktualisiert',
-      render: (website) => (
-        <LastUpdatedText>
-          {website.lastUpdated 
-            ? new Date(website.lastUpdated).toLocaleDateString('de-DE')
-            : 'Unbekannt'
-          }
-        </LastUpdatedText>
-      ),
     },
   ];
 

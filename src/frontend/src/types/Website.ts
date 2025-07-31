@@ -1,7 +1,6 @@
 export interface Website {
   domain: string;
   robotsTxt: string;
-  lastUpdated: string;
   totalBots: number;
   allowedBots: number;
   disallowedBots: number;
@@ -20,5 +19,4 @@ export interface WebsiteSummary {
   totalBots: number;
   allowedBots: number;
   disallowedBots: number;
-  lastUpdated: string;
 }
