@@ -130,6 +130,17 @@ Die Anwendung kann über verschiedene Methoden konfiguriert werden:
 npm start -- --parallelWorkers=20 --batchSize=50 --browserFallback=true
 ```
 
+#### Verfügbare Optionen
+
+- **--parallelWorkers=<Anzahl>**: Anzahl der parallelen Worker (Standard: 15)
+- **--batchSize=<Anzahl>**: Anzahl der Websites pro Batch (Standard: 100)
+- **--browserFallback=<bool>**: Browser-Fallback aktivieren (Standard: true)
+- **--forceUpdate=<bool>**: Alle robots.txt Dateien aktualisieren (Standard: false)
+- **--updateAfterDays=<Anzahl>**: Tage bis robots.txt als veraltet gilt (Standard: 30)
+- **--outputDir=<Pfad>**: Ausgabeverzeichnis (Standard: ./output)
+- **--logLevel=<Level>**: Log-Level (debug, info, warn, error) (Standard: info)
+- **--help**: Diese Hilfe anzeigen
+
 ### 2. Konfigurationsdateien
 
 Die Konfiguration ist in mehrere Dateien aufgeteilt:
@@ -272,15 +283,7 @@ Befehle:
   start:skip-crawl     # Analyse und API starten, ohne Crawling
   start:crawl-only     # Nur Crawling durchführen
 
-Optionen für den Standardmodus (npm start -- [Optionen]):
-  --parallelWorkers=<Anzahl>   Anzahl der parallelen Worker (Standard: 15)
-  --batchSize=<Anzahl>         Anzahl der Websites pro Batch (Standard: 100)
-  --browserFallback=<bool>     Browser-Fallback aktivieren (Standard: true)
-  --forceUpdate=<bool>         Alle robots.txt Dateien aktualisieren (Standard: false)
-  --updateAfterDays=<Anzahl>   Tage bis robots.txt als veraltet gilt (Standard: 30)
-  --outputDir=<Pfad>           Ausgabeverzeichnis (Standard: ./output)
-  --logLevel=<Level>           Log-Level (debug, info, warn, error) (Standard: info)
-  --help                       Diese Hilfe anzeigen
+
 ```
 
 ## Ausgabe

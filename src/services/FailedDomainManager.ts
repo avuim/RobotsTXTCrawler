@@ -19,37 +19,75 @@ export class FailedDomainManager {
     if (await fs.pathExists(this.storagePath)) {
       try {
         const data = await fs.readFile(this.storagePath, 'utf-8');
+        
+        // Prüfen, ob die Datei leer oder nur Whitespace enthält
+        if (!data.trim()) {
+          console.log('Leere failed-domains.json Datei erkannt. Wird mit Standard-Struktur initialisiert...');
+          this.failedDomains = {};
+          await this.save();
+          return;
+        }
+        
         const storage = JSON.parse(data) as FailedDomainsStorage;
         
-        if (storage && storage.failedDomains) {
+        if (storage && typeof storage === 'object' && storage.failedDomains) {
           this.failedDomains = storage.failedDomains;
+          console.log(`${Object.keys(this.failedDomains).length} fehlgeschlagene Domains geladen.`);
+        } else {
+          console.log('Ungültige Struktur in failed-domains.json erkannt. Wird zurückgesetzt...');
+          this.failedDomains = {};
+          await this.save();
         }
       } catch (error) {
         console.error('Fehler beim Laden der fehlgeschlagenen Domains:', error);
         this.failedDomains = {};
         
-        // Bei JSON-Parsing-Fehlern die Datei zurücksetzen
+        // Bei JSON-Parsing-Fehlern oder anderen Fehlern die Datei zurücksetzen
         if (error instanceof SyntaxError) {
-          console.log('Beschädigte JSON-Datei erkannt. Datei wird zurückgesetzt...');
-          await this.save();
-          console.log('Datei wurde zurückgesetzt.');
+          console.log('Beschädigte JSON-Datei erkannt. Erstelle Backup und setze Datei zurück...');
+          
+          // Backup der beschädigten Datei erstellen
+          const backupPath = this.storagePath + '.backup.' + Date.now();
+          try {
+            await fs.copy(this.storagePath, backupPath);
+            console.log(`Backup der beschädigten Datei erstellt: ${backupPath}`);
+          } catch (backupError) {
+            console.warn('Konnte kein Backup erstellen:', backupError);
+          }
         }
+        
+        // Datei zurücksetzen
+        await this.save();
+        console.log('Datei wurde zurückgesetzt.');
       }
     } else {
       // Leere Datei erstellen
+      console.log('Erstelle neue failed-domains.json Datei...');
       await this.save();
     }
   }
   
   /**
-   * Speichert die fehlgeschlagenen Domains
+   * Speichert die fehlgeschlagenen Domains (atomisch)
    */
   async save(): Promise<void> {
     const storage: FailedDomainsStorage = {
       failedDomains: this.failedDomains
     };
     
-    await fs.writeFile(this.storagePath, JSON.stringify(storage, null, 2), 'utf-8');
+    // Atomisches Schreiben: Erst in temporäre Datei schreiben, dann umbenennen
+    const tempPath = this.storagePath + '.tmp';
+    
+    try {
+      await fs.writeFile(tempPath, JSON.stringify(storage, null, 2), 'utf-8');
+      await fs.move(tempPath, this.storagePath, { overwrite: true });
+    } catch (error) {
+      // Temporäre Datei löschen, falls sie existiert
+      if (await fs.pathExists(tempPath)) {
+        await fs.remove(tempPath);
+      }
+      throw error;
+    }
   }
   
   /**

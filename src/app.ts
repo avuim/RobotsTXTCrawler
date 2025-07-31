@@ -42,6 +42,8 @@ Optionen:
   --parallelWorkers=<Anzahl>   Anzahl der parallelen Worker (Standard: 15)
   --batchSize=<Anzahl>         Anzahl der Websites pro Batch (Standard: 100)
   --browserFallback=<bool>     Browser-Fallback aktivieren (Standard: true)
+  --forceUpdate=<bool>         Alle robots.txt Dateien aktualisieren (Standard: false)
+  --updateAfterDays=<Anzahl>   Tage bis robots.txt als veraltet gilt (Standard: 30)
   --outputDir=<Pfad>           Ausgabeverzeichnis (Standard: ./output)
   --logLevel=<Level>           Log-Level (debug, info, warn, error) (Standard: info)
   --crawlOnly=<bool>           Nur Crawling durchführen, keine Analyse oder API (Standard: false)
@@ -113,7 +115,9 @@ async function main(): Promise<void> {
       batchSize: args.batchSize,
       browserFallback: args.browserFallback,
       outputDir: args.outputDir,
-      logLevel: args.logLevel
+      logLevel: args.logLevel,
+      forceUpdate: args.forceUpdate,
+      updateAfterDays: args.updateAfterDays
     });
     
     // Konfiguration anzeigen
@@ -121,6 +125,8 @@ async function main(): Promise<void> {
     console.log(`- Parallele Worker: ${config.parallelWorkers}`);
     console.log(`- Batch-Größe: ${config.batchSize}`);
     console.log(`- Browser-Fallback: ${config.browserFallback ? 'Aktiviert' : 'Deaktiviert'}`);
+    console.log(`- Force Update: ${config.forceUpdate ? 'Aktiviert' : 'Deaktiviert'}`);
+    console.log(`- Update nach Tagen: ${config.updateAfterDays}`);
     console.log(`- Ausgabeverzeichnis: ${config.outputDir}`);
     console.log(`- Log-Level: ${config.logLevel}`);
     
