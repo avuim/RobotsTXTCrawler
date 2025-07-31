@@ -71,6 +71,66 @@ export class FileManager {
   }
   
   /**
+   * Prüft, ob eine robots.txt-Datei aktualisiert werden sollte
+   */
+  async shouldUpdateRobotsTxt(website: NormalizedWebsite, forceUpdate: boolean, updateAfterDays: number): Promise<boolean> {
+    // Wenn forceUpdate aktiviert ist, immer aktualisieren
+    if (forceUpdate) {
+      return true;
+    }
+    
+    const fileName = `${website.normalizedDomain}-robots.txt`;
+    const filePath = path.join(this.robotsFilesDir, fileName);
+    
+    // Wenn Datei nicht existiert, sollte sie erstellt werden
+    if (!(await fs.pathExists(filePath))) {
+      return true;
+    }
+    
+    // Prüfen, ob die Datei älter als updateAfterDays ist oder Monatsende-Regel greift
+    try {
+      const stats = await fs.stat(filePath);
+      const now = new Date();
+      const fileDate = new Date(stats.mtime);
+      
+      // Standard-Alterscheck
+      const fileAge = now.getTime() - fileDate.getTime();
+      const maxAge = updateAfterDays * 24 * 60 * 60 * 1000; // Tage in Millisekunden
+      
+      if (fileAge > maxAge) {
+        return true;
+      }
+      
+      // Monatsende-Regel: Aktualisieren wenn Datei aus vorherigem Monat stammt 
+      // und aktueller Monat maximal noch einen Tag dauert
+      const fileMonth = fileDate.getMonth();
+      const fileYear = fileDate.getFullYear();
+      const currentMonth = now.getMonth();
+      const currentYear = now.getFullYear();
+      
+      // Prüfen, ob Datei aus einem vorherigen Monat stammt
+      const isFromPreviousMonth = (fileYear < currentYear) || 
+                                  (fileYear === currentYear && fileMonth < currentMonth);
+      
+      if (isFromPreviousMonth) {
+        // Prüfen, ob aktueller Monat maximal noch einen Tag dauert
+        const lastDayOfMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
+        const currentDay = now.getDate();
+        const daysRemainingInMonth = lastDayOfMonth - currentDay;
+        
+        if (daysRemainingInMonth <= 1) {
+          return true;
+        }
+      }
+      
+      return false;
+    } catch (error) {
+      // Bei Fehlern beim Lesen der Datei-Stats, sicherheitshalber aktualisieren
+      return true;
+    }
+  }
+  
+  /**
    * Liest eine robots.txt-Datei
    */
   async readRobotsTxt(website: NormalizedWebsite): Promise<string | null> {

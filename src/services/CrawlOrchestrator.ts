@@ -244,14 +244,15 @@ export class CrawlOrchestrator {
           continue;
         }
         
-        // Prüfen, ob die robots.txt bereits existiert
-        if (await this.fileManager.robotsTxtExists(website)) {
+        // Prüfen, ob die robots.txt aktualisiert werden sollte
+        if (!(await this.fileManager.shouldUpdateRobotsTxt(website, this.config.forceUpdate, this.config.updateAfterDays))) {
           const result: CrawlResult = {
             domain: website.domain,
             status: 'skipped',
             method: 'not_attempted',
             timestamp: new Date().toISOString(),
-            outputFile: `${website.normalizedDomain}-robots.txt`
+            outputFile: `${website.normalizedDomain}-robots.txt`,
+            error: 'robots.txt ist noch aktuell (weniger als ' + this.config.updateAfterDays + ' Tage alt und Monatsende-Regel nicht erfüllt)'
           };
           
           results.push(result);

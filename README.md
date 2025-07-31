@@ -193,6 +193,10 @@ jobs:
 - **outputDir**: Ausgabeverzeichnis (Standard: ./output)
 - **logLevel**: Log-Level (debug, info, warn, error) (Standard: info)
 
+#### Update-Verhalten
+- **forceUpdate**: Alle robots.txt Dateien bei jedem Crawl aktualisieren (Standard: false)
+- **updateAfterDays**: Anzahl der Tage, nach denen eine robots.txt Datei als veraltet gilt (Standard: 30)
+
 #### Performance
 - **maxConcurrentRequests**: Maximale Anzahl gleichzeitiger Anfragen (Standard: 50)
 - **connectionPoolSize**: Größe des Verbindungspools (Standard: 20)
@@ -272,6 +276,8 @@ Optionen für den Standardmodus (npm start -- [Optionen]):
   --parallelWorkers=<Anzahl>   Anzahl der parallelen Worker (Standard: 15)
   --batchSize=<Anzahl>         Anzahl der Websites pro Batch (Standard: 100)
   --browserFallback=<bool>     Browser-Fallback aktivieren (Standard: true)
+  --forceUpdate=<bool>         Alle robots.txt Dateien aktualisieren (Standard: false)
+  --updateAfterDays=<Anzahl>   Tage bis robots.txt als veraltet gilt (Standard: 30)
   --outputDir=<Pfad>           Ausgabeverzeichnis (Standard: ./output)
   --logLevel=<Level>           Log-Level (debug, info, warn, error) (Standard: info)
   --help                       Diese Hilfe anzeigen
@@ -289,6 +295,42 @@ Die Anwendung erstellt folgende Ausgabeverzeichnisse:
 
 Die extrahierten robots.txt-Dateien werden im Verzeichnis `output/robots-files/` gespeichert. Der Dateiname folgt dem Format `[normalisierte-domain]-robots.txt`.
 
+
+#### Update-Verhalten für robots.txt Dateien
+
+Der Crawler implementiert eine intelligente Update-Logik, um zu verhindern, dass robots.txt Dateien dauerhaft übersprungen werden:
+
+##### `forceUpdate` (boolean, Standard: false)
+- **true**: Alle robots.txt Dateien werden bei jedem Crawl-Durchgang aktualisiert, unabhängig vom Alter
+- **false**: robots.txt Dateien werden nur aktualisiert, wenn sie älter als `updateAfterDays` sind
+
+##### `updateAfterDays` (number, Standard: 30)
+- Anzahl der Tage, nach denen eine robots.txt Datei als "veraltet" gilt und aktualisiert werden sollte
+- Wird nur berücksichtigt, wenn `forceUpdate` auf `false` steht
+
+#### Beispiel-Konfigurationen
+
+```bash
+# Alle 7 Tage aktualisieren
+npm start -- --updateAfterDays=7
+
+# Bei jedem Crawl aktualisieren
+npm start -- --forceUpdate=true
+
+# Standard: Alle 30 Tage aktualisieren (keine Parameter nötig)
+npm start
+```
+
+#### Verhalten
+
+1. **Neue Websites**: Werden immer gecrawlt (robots.txt existiert noch nicht)
+2. **Existierende robots.txt mit `forceUpdate: true`**: Werden bei jedem Crawl aktualisiert
+3. **Existierende robots.txt mit `forceUpdate: false`**: Werden aktualisiert wenn:
+   - Die Datei älter als `updateAfterDays` ist, ODER
+   - Die Datei aus einem vorherigen Monat stammt UND der aktuelle Monat maximal noch einen Tag dauert (Monatsende-Regel)
+4. **Failed Domains**: Bleiben weiterhin von der intelligenten Retry-Logik betroffen
+
+
 ### Berichte
 
 Nach jedem Crawling-Durchlauf werden zwei Arten von Berichten erstellt:
@@ -304,6 +346,7 @@ Nach der Analyse werden folgende Dateien erstellt:
 2. **data/analysis/summary.json**: Enthält eine Zusammenfassung der Analyse, einschließlich der Gesamtzahl der Bots und Websites, der Bot-Kategorien und der Top-Bots
 3. **data/analysis/websites/**: Enthält für jede Website eine JSON-Datei mit Informationen zu den Bots, die in der robots.txt-Datei konfiguriert sind
 4. **data/analysis/trends/monthly-trends.json**: Enthält zeitliche Trends für Bots, Kategorien und Websites
+
 
 ## Hinweise zur Implementierung
 

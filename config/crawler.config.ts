@@ -27,6 +27,10 @@ export const CrawlerConfigSchema = z.object({
   outputDir: z.string().default('./output'),
   logLevel: z.enum(['debug', 'info', 'warn', 'error']).default('info'),
   
+  // Update-Verhalten
+  forceUpdate: z.boolean().default(false),
+  updateAfterDays: z.number().int().nonnegative().default(30),
+  
   // Performance
   maxConcurrentRequests: z.number().int().positive().default(50),
   connectionPoolSize: z.number().int().positive().default(20),
@@ -61,6 +65,10 @@ export const defaultConfig: CrawlerConfig = {
   // Output
   outputDir: './output',
   logLevel: 'info',
+  
+  // Update-Verhalten
+  forceUpdate: false,
+  updateAfterDays: 30,
   
   // Performance
   maxConcurrentRequests: 50,
