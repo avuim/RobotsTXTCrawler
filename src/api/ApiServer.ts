@@ -97,7 +97,37 @@ export class ApiServer {
           const botStats = JSON.parse(data);
           
           if (botStats.bots && botStats.bots[botName]) {
-            res.json(botStats.bots[botName]);
+            const botData = botStats.bots[botName];
+            
+            // Lade Bot-Kategorien-Informationen
+            const categoriesPath = path.join(__dirname, '../../data/analysis/bot-categories.json');
+            let botDetails = null;
+            
+            if (await fs.pathExists(categoriesPath)) {
+              try {
+                const categoriesData = await fs.readFile(categoriesPath, 'utf-8');
+                const categories = JSON.parse(categoriesData);
+                
+                // Suche nach dem Bot in allen Kategorien
+                for (const [categoryKey, categoryData] of Object.entries(categories.categories)) {
+                  const categoryBots = (categoryData as any).bots;
+                  if (categoryBots && categoryBots[botName]) {
+                    botDetails = categoryBots[botName];
+                    break;
+                  }
+                }
+              } catch (err) {
+                console.warn('Fehler beim Laden der Bot-Kategorien:', err);
+              }
+            }
+            
+            // Kombiniere Bot-Statistiken mit Detail-Informationen
+            const response = {
+              ...botData,
+              details: botDetails
+            };
+            
+            res.json(response);
           } else {
             res.status(404).json({ error: `Bot "${botName}" nicht gefunden` });
           }
