@@ -52,11 +52,17 @@ jobs:
         env:
           NODE_ENV: production
           
+      - name: Run Analysis
+        run: npm run start:analyze
+        env:
+          NODE_ENV: production
+          
       - name: Save Crawler Data
         uses: actions/cache/save@v4
         with:
           path: |
             data/failed-domains.json
+            data/analysis/
             output/
           key: crawler-data-${{ github.run_id }}
           
@@ -67,10 +73,11 @@ jobs:
           path: |
             output/
             data/failed-domains.json
+            data/analysis/
           retention-days: 7 # Aufbewahrungsdauer der Artefakte
       
-      # Persistieren der Robots.txt-Dateien im Repository
-      - name: Commit and Push Robots.txt Files
+      # Persistieren der Robots.txt-Dateien und Analyseergebnisse im Repository
+      - name: Commit and Push Results
         if: success()
         run: |
           # Git-Benutzer konfigurieren
@@ -78,16 +85,28 @@ jobs:
           git config --local user.name "github-actions[bot]"
           
           # Prüfen, ob es Änderungen gibt
+          has_changes=false
+          
           if [[ -d "output/robots-files" && "$(ls -A output/robots-files)" ]]; then
-            # Änderungen direkt im output/robots-files Verzeichnis committen
-            # -f Flag verwendet, um ignorierte Dateien hinzuzufügen (falls .gitignore nicht sofort wirksam wird)
             git add -f output/robots-files/
-            git commit -m "Update robots.txt files from crawler run on $(date +"%Y-%m-%d")" || echo "No changes to commit"
-            
-            # Änderungen pushen
+            has_changes=true
+          fi
+          
+          if [[ -d "data/analysis" && "$(ls -A data/analysis)" ]]; then
+            git add -f data/analysis/
+            has_changes=true
+          fi
+          
+          if [[ -f "data/bot-statistics.json" ]]; then
+            git add -f data/bot-statistics.json
+            has_changes=true
+          fi
+          
+          if [[ "$has_changes" == "true" ]]; then
+            git commit -m "Update robots.txt files and analysis results from crawler run on $(date +"%Y-%m-%d")" || echo "No changes to commit"
             git push
           else
-            echo "No robots.txt files found to commit"
+            echo "No files found to commit"
           fi
           
       - name: Notify on Failure
