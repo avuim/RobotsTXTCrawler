@@ -1,0 +1,22 @@
+{
+  "domain": "www.gamestar.de",
+  "normalizedDomain": "www.gamestar.de",
+  "bots": [
+    {
+      "name": "YouBot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

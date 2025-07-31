@@ -1,0 +1,14 @@
+{
+  "domain": "www.taz.de",
+  "normalizedDomain": "www.taz.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    }
+  ]
+}

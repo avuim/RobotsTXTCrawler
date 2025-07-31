@@ -1,0 +1,26 @@
+{
+  "domain": "www.rw-textilservice.de",
+  "normalizedDomain": "www.rw-textilservice.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false
+    }
+  ]
+}

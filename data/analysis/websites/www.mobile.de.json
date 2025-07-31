@@ -1,0 +1,18 @@
+{
+  "domain": "www.mobile.de",
+  "normalizedDomain": "www.mobile.de",
+  "bots": [
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true
+    },
+    {
+      "name": "Opebot-v (https://www.1plusx.com)",
+      "allowed": true
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

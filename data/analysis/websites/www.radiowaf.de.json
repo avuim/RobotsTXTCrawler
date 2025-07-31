@@ -1,0 +1,14 @@
+{
+  "domain": "www.radiowaf.de",
+  "normalizedDomain": "www.radiowaf.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "www.desired.de",
+  "normalizedDomain": "www.desired.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true
+    }
+  ]
+}

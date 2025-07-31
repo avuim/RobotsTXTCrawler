@@ -1,0 +1,30 @@
+{
+  "domain": "www.jameda.de",
+  "normalizedDomain": "www.jameda.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "petalbot",
+      "allowed": false
+    },
+    {
+      "name": "neticle.hu",
+      "allowed": false
+    }
+  ]
+}

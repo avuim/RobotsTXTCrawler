@@ -1,0 +1,14 @@
+{
+  "domain": "www.harmonyfm.de",
+  "normalizedDomain": "www.harmonyfm.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    }
+  ]
+}

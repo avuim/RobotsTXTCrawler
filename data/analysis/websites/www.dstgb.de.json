@@ -1,0 +1,14 @@
+{
+  "domain": "www.dstgb.de",
+  "normalizedDomain": "www.dstgb.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    }
+  ]
+}

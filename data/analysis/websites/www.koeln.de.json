@@ -1,0 +1,38 @@
+{
+  "domain": "www.koeln.de",
+  "normalizedDomain": "www.koeln.de",
+  "bots": [
+    {
+      "name": "Googlebot-Mobile",
+      "allowed": true
+    },
+    {
+      "name": "Mediapartners-Google*",
+      "allowed": true
+    },
+    {
+      "name": "msnbot-UDiscovery",
+      "allowed": true
+    },
+    {
+      "name": "Yandex",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": false
+    },
+    {
+      "name": "UnisterBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

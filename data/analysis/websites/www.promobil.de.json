@@ -1,0 +1,14 @@
+{
+  "domain": "www.promobil.de",
+  "normalizedDomain": "www.promobil.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "domain": "www.parship.de",
+  "normalizedDomain": "www.parship.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    }
+  ]
+}

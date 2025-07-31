@@ -1,0 +1,126 @@
+{
+  "domain": "www.faz.net",
+  "normalizedDomain": "www.faz.net",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false
+    },
+    {
+      "name": "NewsNow",
+      "allowed": false
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false
+    },
+    {
+      "name": "Raven",
+      "allowed": false
+    },
+    {
+      "name": "wapspider",
+      "allowed": false
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false
+    },
+    {
+      "name": "sentibot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "YouBot",
+      "allowed": false
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "DeepSeekBot",
+      "allowed": false
+    },
+    {
+      "name": "DeepSeek",
+      "allowed": false
+    }
+  ]
+}

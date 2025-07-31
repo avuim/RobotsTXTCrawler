@@ -1,0 +1,14 @@
+{
+  "domain": "www.radiolippe.de",
+  "normalizedDomain": "www.radiolippe.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "www.watchtime.net",
+  "normalizedDomain": "www.watchtime.net",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    }
+  ]
+}

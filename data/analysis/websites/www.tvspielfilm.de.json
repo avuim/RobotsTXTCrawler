@@ -1,0 +1,22 @@
+{
+  "domain": "www.tvspielfilm.de",
+  "normalizedDomain": "www.tvspielfilm.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    }
+  ]
+}

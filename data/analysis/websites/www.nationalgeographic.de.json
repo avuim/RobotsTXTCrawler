@@ -1,0 +1,14 @@
+{
+  "domain": "www.nationalgeographic.de",
+  "normalizedDomain": "www.nationalgeographic.de",
+  "bots": [
+    {
+      "name": "TurnitinBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

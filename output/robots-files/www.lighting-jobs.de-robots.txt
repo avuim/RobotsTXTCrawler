@@ -1,580 +1,437 @@
-<!doctype html>
-<html lang="de" class="size1">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width">
-        <meta name="description" content="Der Stellenmarkt der Lichtbranche. Finden Sie den richtigen Job, der Ihren Qualifikationen und Fähigkeiten entspricht.. Wir sind seit 2008 erfolgreich für die Branche tätig und bringen Ihre Stellenanzeigen über unsere Medien in die Lichtbranche.">
-    <meta property="og:url" content="https://www.highlight-web.de/stellenmarkt/" />
-    <meta property="og:title" content="Stellenmarkt für Entscheider aus der Lichtbranche - HIGHLIGHT" />
-    <meta property="og:description" content="Der Stellenmarkt der Lichtbranche. Finden Sie den richtigen Job, der Ihren Qualifikationen und Fähigkeiten entspricht.. Wir sind seit 2008 erfolgreich für die Branche tätig und bringen Ihre Stellenanzeigen über unsere Medien in die Lichtbranche." />
-    <meta property="og:image" content="https://www.highlight-web.de/build/theme/images/hl/og-img-logo.png?20190814" />
-    <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-
-            <script type="application/ld+json">
-        [
-            {
-                "@context": "https://schema.org",
-                "@type": "Organization",
-                "url": "https://www.highlight-web.de",
-                "logo": "https://www.highlight-web.de/build/theme/images/hl/logo_structured_data.png?20190814"
-            },
-            {
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              "url": "https://www.highlight-web.de",
-              "potentialAction": {
-                "@type": "SearchAction",
-                "target": "https://www.highlight-web.de/suche/?search_filter%5Bterm%5D={search_term_string}",
-                "query-input": "required name=search_term_string"
-              }
-            }
-        ]
-        </script>
-        
-    <link rel="canonical" href="https://www.highlight-web.de/stellenmarkt/" />
-    <title>Stellenmarkt für Entscheider aus der Lichtbranche - HIGHLIGHT</title>
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    <!--[if IE 9]>
-    <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css" rel="stylesheet">
-    <![endif]-->
-    <!--[if lte IE 8]>
-    <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
-    <![endif]-->
-
-    <link rel="shortcut icon" href="/img/hl/favicon.ico">
-
 
     
-                                
-    <!-- begin preload of IOM web manager -->
-    <link rel='preload' href='//data-4a5f71b500.highlight-web.de/iomm/latest/manager/base/es6/bundle.js' as='script' id='IOMmBundle'>
-    <link rel='preload' href='//data-4a5f71b500.highlight-web.de/iomm/latest/bootstrap/loader.js' as='script'>
-    <!-- end preload of IOM web manager -->
-    <!-- begin loading of IOMm bootstrap code -->
-    <script type='text/javascript' src="//data-4a5f71b500.highlight-web.de/iomm/latest/bootstrap/loader.js"></script>
-    <!-- end loading of IOMm bootstrap code -->
     
-    <link rel="stylesheet" type="text/css" href="/build/theme/assets/hl-BC9rvT-T.css" />
-    <!-- Pre block stylesheets -->
-        
-    
-    <!-- Post block stylesheets -->
-
-    
-        
-                    <!-- Matomo -->
-        <script>
-            var _paq = window._paq = window._paq || [];
-            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-            _paq.push(['trackPageView']);
-            _paq.push(['enableLinkTracking']);
-            (function() {
-                var u="//matomo.huethig.de/";
-                _paq.push(['setTrackerUrl', u+'matomo.php']);
-                _paq.push(['setSiteId', '2']);
-                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-                g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-            })();
-        </script>
-        <!-- End Matomo Code -->
-    
-            <!-- Sourcepoint integration -->
-                            <script>function _typeof(t){return(_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t})(t)}!function(){for(var t,e,o=[],n=window,r=n;r;){try{if(r.frames.__tcfapiLocator){t=r;break}}catch(t){}if(r===n.top)break;r=n.parent}t||(function t(){var e=n.document,o=!!n.frames.__tcfapiLocator;if(!o)if(e.body){var r=e.createElement("iframe");r.style.cssText="display:none",r.name="__tcfapiLocator",e.body.appendChild(r)}else setTimeout(t,5);return!o}(),n.__tcfapi=function(){for(var t=arguments.length,n=new Array(t),r=0;r<t;r++)n[r]=arguments[r];if(!n.length)return o;"setGdprApplies"===n[0]?n.length>3&&2===parseInt(n[1],10)&&"boolean"==typeof n[3]&&(e=n[3],"function"==typeof n[2]&&n[2]("set",!0)):"ping"===n[0]?"function"==typeof n[2]&&n[2]({gdprApplies:e,cmpLoaded:!1,cmpStatus:"stub"}):o.push(n)},n.addEventListener("message",(function(t){var e="string"==typeof t.data,o={};if(e)try{o=JSON.parse(t.data)}catch(t){}else o=t.data;var n="object"===_typeof(o)?o.__tcfapiCall:null;n&&window.__tcfapi(n.command,n.version,(function(o,r){var a={__tcfapiReturn:{returnValue:o,success:r,callId:n.callId}};t&&t.source&&t.source.postMessage&&t.source.postMessage(e?JSON.stringify(a):a,"*")}),n.parameter)}),!1))}();</script>
-            <script>
-                window._sp_queue = [];
-                window._sp_ = {
-                    config: {
-                        accountId: 348,
-                        baseEndpoint: 'https://consent.highlight-web.de',
-                        gdpr: { },
-                        events: {
-                            onMessageChoiceSelect: function() {
-                                console.log('[event] onMessageChoiceSelect', arguments);
-                            },
-                            onMessageReady: function() {
-                                console.log('[event] onMessageReady', arguments);
-                            },
-                            onMessageChoiceError: function() {
-                                console.log('[event] onMessageChoiceError', arguments);
-                            },
-                            onPrivacyManagerAction: function() {
-                                console.log('[event] onPrivacyManagerAction', arguments);
-                            },
-                            onPMCancel: function() {
-                                console.log('[event] onPMCancel', arguments);
-                            },
-                            onMessageReceiveData: function() {
-                                console.log('[event] onMessageReceiveData', arguments);
-                            },
-                            onSPPMObjectReady: function() {
-                                console.log('[event] onSPPMObjectReady', arguments);
-                            },
-                            onConsentReady: function (consentUUID, euconsent) {
-                                console.log('[event] onConsentReady', arguments);
-                            },
-                            onError: function() {
-                                console.log('[event] onError', arguments);
-                            },
-                        }
-                    }
-                }
-            </script>
-            <script src='https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js' async></script>
-                <!-- End Sourcepoint integration -->
-    
-            <link rel="modulepreload" href="/build/theme/assets/Application-D7IEOXh_.js" />
-<link rel="modulepreload" href="/build/theme/assets/AjaxForm-CiAI5tgj.js" />
-<link rel="modulepreload" href="/build/theme/assets/EmbedGuard-4ofRF0Ct.js" />
-<link rel="modulepreload" href="/build/theme/assets/LoadMore-DX25ul8y.js" />
-<link rel="modulepreload" href="/build/theme/assets/Barrierefreiheit-DHmq4HgG.js" />
-<link rel="modulepreload" href="/build/theme/assets/ProductOrderForm-Di91lUq1.js" />
-<link rel="modulepreload" href="/build/theme/assets/MediaFrontend-BpPrykVZ.js" />
-    
-</head>
-<body class="portal-page portal-hl " data-sitepage=www.highlight-web.de data-test=/stellenmarkt/ data-query=?  data-no-ads>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THHCZ32" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
+    
+    
 
-    <!-- Start Piwik PRO Tag Manager code --><script type="text/javascript">
+    
     (function(window, document, script, dataLayer, id) {
         function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}var isStgDebug=(window.location.href.match("stg_debug")||window.document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
         window[dataLayer]=window[dataLayer]||[],window[dataLayer].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName(script)[0],tags=document.createElement(script),dl="dataLayer"!=dataLayer?"?dataLayer="+dataLayer:"";tags.async=!0,tags.src="//tag.aumago.com/"+id+".js"+dl,isStgDebug&&(tags.src=tags.src+"?stg_debug"),scripts.parentNode.insertBefore(tags,scripts);
         !function(a,n,i,t){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0),t=a;"string"==typeof a[0]&&(t={event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)}),window[dataLayer].push(t)}}(i[c])}(window,"ppms",["tm","cp","cm"]);
     })(window, document, 'script', 'dataLayer', 'c0fd69ee-a71e-40d8-af6b-1361882b6b31');
-</script><noscript><iframe src="//tag.aumago.com/c0fd69ee-a71e-40d8-af6b-1361882b6b31/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Piwik PRO Tag Manager code -->
-<div id="outer-container">
+<iframe src="//tag.aumago.com/c0fd69ee-a71e-40d8-af6b-1361882b6b31/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe>
 
-                        <div id="bannerarea-left" class="bannerarea-left" data-high-element>
-            <div id="pos_outer_left_1" style="float:right;"></div>
-            <div id="pos_outer_left_2" style="float:right;margin-top: 10px;"></div>
-        </div>
-    
-        <div id="main-part-center" class="main-center">
-                                <div id="bannerarea-top" class="bannerarea-top">
-                <div id="pos_outer_top_1"></div>
-                            </div>
-        
-            <div class="main-content-container">
-            <header class="page-header" data-page-header>
-                <a href="/user/login" class="mobile-search-toggle"><i class="fas fa-user"></i></a>
-                <div class="mobile-menu-toggle" data-mobile-menu-toggle><i class="fas fa-bars closed"></i><i class="fas fa-times open"></i></div>
-                <div class="page-header-region page-header-region__logo">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-auto align-self-center">
-                                <a href="/">
-                                                                            <img src="/build/theme/images/hl/logo.svg?20190814?2" class="page-header-logo" alt="HIGHLIGHT - Logo">
-                                                                    </a>
-                            </div>
 
-                            <div class="col align-self-center page-header-region__slogan">
-                                Das Fachmagazin der Lichtbranche
-                            </div>
-
-                                                                                    <div class="col align-self-center top-menu-container">
-                                                                <ul class="nav nav__header-mini justify-content-end">
                         
-<li class="nav-item "><a class="nav-link " href="/newsletter/">Newsletter</a></li>
-                    
-<li class="nav-item "><a class="nav-link " href="/mediabereich/">Media</a></li>
             
-            <li class="nav-item dropdown top-login-menu" role="none">
-                            <a class="nav-link dropdown-toggle nav-link--bold" role="button" href="#" onclick="return false;">Anmelden</a>
-                        <div class="dropdown-menu dropdown-menu-right dropdown-menu--login" role="menu" aria-label="Login-Menü">
-                <div class="px-2 pt-2 pb-2">
-                                            <a class="btn btn-primary btn-sm btn-block" href="/user/login" role="menuitem"><b>Abo-Login</b></a>
-                        <a class="dropdown-item" href="/abo/" role="menuitem">Abo abschließen</a>
-                                        <div class="dropdown-divider mb-3"></div>
-                    <a class="btn btn-secondary btn-sm btn-block" href="/firmen/anmelden/" role="menuitem"><b>Firmen-Login</b></a>
-                    <a class="dropdown-item" href="/firmen/anmelden/" role="menuitem">Als Firma registrieren</a>
-                </div>
-            </div>
-        </li>
-    </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            
+        
+    
+        
+                                
+                
+                            
+        
+            
+            
+                
+                
+                
+                    
+                        
+                            
+                                
+                                                                            
+                                                                    
+                            
 
-                <div class="page-header-region page-header-region__navigation main-menu-container">
-                    <div class="container">
-                        <div class="row">
-                            <div class="page-header-region__navigation__inner align-self-center">
-                                                                                                                                    <ul class="nav nav__header-main justify-content-start" data-main-navigation>
-    <li class="nav-item home-link"><a class="nav-link" href="/"><i class="fas fa-home fa-lg"></i></a></li>
-                            <li class="menu-categories-item single-depths">
-                <a class="nav-link dropdown-toggle" href="/news/">News</a>
-        <div class="dropdown-menu dropdown-menu--simple">
-            <div class="dropdown-menu-inner">
-                                    <a class="dropdown-submenu-item" href="/news/design/">Design</a>
-                                    <a class="dropdown-submenu-item" href="/news/projekte/">Projekte</a>
-                                    <a class="dropdown-submenu-item" href="/news/wirtschaft/">Wirtschaft</a>
-                                    <a class="dropdown-submenu-item" href="/news/technik/">Technik</a>
-                                    <a class="dropdown-submenu-item" href="/szene/">Szene</a>
-                            </div>
-        </div>
-    </li>
+                            
+                                Das Fachmagazin der Lichtbranche
+                            
+
+                                                                                    
+                                                                
+                        
+Newsletter
+                    
+Media
+            
+            
+                            Anmelden
+                        
+                
+                                            Abo-Login
+                        Abo abschließen
+                                        
+                    Firmen-Login
+                    Als Firma registrieren
+                
+            
+        
+    
+                            
+                        
+                    
+                
+
+                
+                    
+                        
+                            
+                                                                                                                                    
+    
+                            
+                News
+        
+            
+                                    Design
+                                    Projekte
+                                    Wirtschaft
+                                    Technik
+                                    Szene
+                            
+        
+    
 
                     
-<li class="nav-item "><a class="nav-link active" href="/stellenmarkt/">Stellenmarkt</a></li>
+Stellenmarkt
                     
-<li class="nav-item "><a class="nav-link " href="/veranstaltungen/">Veranstaltungen</a></li>
+Veranstaltungen
                     
-<li class="nav-item "><a class="nav-link " href="/firmen/">Firmen</a></li>
-                    <li class="nav-item "><a class="nav-link " target="_self" href="https://shop.huethig.de/">Fachbücher</a></li>
+Firmen
+                    Fachbücher
                     
-<li class="nav-item "><a class="nav-link " href="/bildergalerie/">Bilder</a></li>
+Bilder
                     
-<li class="nav-item "><a class="nav-link " href="/alle-videos/">Videos</a></li>
-            </ul>
+Videos
+            
 
-                                <form class="page-header-search" action="/suche/" method="GET" data-top-search>
-                                    <input class="page-header-search__input" type="text" placeholder="HIGHLIGHT durchsuchen" name="search_filter[term]" data-top-search-input>
-                                    <button class="page-header-search__cancel btn btn-link" data-top-search-cancel><i class="fas fa-times fa-lg"></i></button>
-                                    <button class="page-header-search__button btn btn-primary" type="submit" data-top-search-button><i class="fas fa-search fa-lg"></i></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                                
+                                    
+                                    
+                                    
+                                
+                            
+                        
+                    
+                
 
-                <div class="mobile-search-container">
-                    <form action="/suche/" method="GET">
-                        <input type="text" placeholder="HIGHLIGHT durchsuchen" name="search_filter[term]" class="form-control">
-                        <button type="submit"><i class="fas fa-search fa-lg"></i></button>
-                    </form>
-                </div>
-                <div class="mobile-menu">
-                                                                                    <form class="form-inline mb-3" action="/suche/" method="GET">
-        <div class="input-group">
-            <input type="text" placeholder="HIGHLIGHT durchsuchen" name="search_filter[term]" class="form-control">
-            <div class="input-group-append">
-                <button type="submit" class="btn btn-primary pl-0"><i class="fas fa-search"></i></button>
-            </div>
-        </div>
-    </form>
+                
+                    
+                        
+                        
+                    
+                
+                
+                                                                                    
+        
+            
+            
+                
+            
+        
+    
 
-    <ul class="text-left">
-                        <li>
-                <div>
-            <a class="dropdown-toggle" data-toggle="collapse" href="#news-toggle" role="button" aria-expanded="false" aria-controls="News-toggle">
-                News            </a>
-        </div>
-        <ul class="collapse" id="news-toggle">
-            <li><a class="dropdown-submenu-item" href="/news/">News</a></li>
-                            <li><a class="dropdown-submenu-item" href="/news/design/">Design</a></li>
-                            <li><a class="dropdown-submenu-item" href="/news/projekte/">Projekte</a></li>
-                            <li><a class="dropdown-submenu-item" href="/news/wirtschaft/">Wirtschaft</a></li>
-                            <li><a class="dropdown-submenu-item" href="/news/technik/">Technik</a></li>
-                            <li><a class="dropdown-submenu-item" href="/szene/">Szene</a></li>
-                    </ul>
-    </li>
+    
+                        
+                
+            
+                News            
+        
+        
+            News
+                            Design
+                            Projekte
+                            Wirtschaft
+                            Technik
+                            Szene
+                    
+    
     
                     
                     
                     
                     
                     
-                    <li class=""><a class="" href="/veranstaltungen/">Veranstaltungen</a></li>
-                    <li class=""><a class="" href="/firmen/">Firmen</a></li>
-                    <li class=""><a class="" target="_self" href="https://marktuebersichten.highlight-web.de/start">LIGHTGUIDE</a></li>
-                    <li class=""><a class="" href="/bildergalerie/">Bilder</a></li>
-                    <li class=""><a class="" href="/alle-videos/">Videos</a></li>
-                    <li class=""><a class="active" href="/stellenmarkt/">Stellenmarkt</a></li>
-                    <li class=""><a class="" href="/heftarchiv/">Heftarchiv</a></li>
-                    <li class=""><a class="" href="/gesamtarchiv/">Gesamtarchiv</a></li>
-                    <li class=""><a class="" target="_self" href="https://shop.huethig.de/">Fachbücher</a></li>
-            </ul>
+                    Veranstaltungen
+                    Firmen
+                    LIGHTGUIDE
+                    Bilder
+                    Videos
+                    Stellenmarkt
+                    Heftarchiv
+                    Gesamtarchiv
+                    Fachbücher
+            
 
-                </div>
-
-                                </header>
-            <main id="main-area">
-                                                <div class="bannerarea-main">
-                        <div id="pos_inner_head_2"></div>
-                    </div>
-                    <div class="bannerarea-mobile">
-                        <div id="pos_mobile1"></div>
-                    </div>
                 
-                    <div id="main-content" style="min-height: 1250px;">
-                        <div class="region region-detailpage">
-                                                <div class="grid-column one-column-padding">
-            <div class="grid-item">    <div class="ejobs">
-                <header class="header d-flex align-items-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 my-1">
-                        <h1 class="mr-3">Das Jobportal der Lichtbranche</h1>
-                        <h2 class="h5">Finden Sie den Job, der Ihren Qualifikationen und Fähigkeiten entspricht</h2>
-                    </div>
-                                            <div class="col-md-4 my-1">
-                            <div>
-                                <div class="h6">Für Arbeitgeber:</div>
-                                <a class="btn btn-primary font-weight-bold" href="/stellenanzeige-buchen/" role="button">Stellenanzeige aufgeben</a>
-                            </div>
-                        </div>
-                                    </div>
-            </div>
-                    </header>
+
+                                
+            
+                                                
                         
-        <section class="container pt-5">
-            <div class="row">
-                <div class="col-md-8">
-                    <div data-job-list="/stellenmarkt/more-jobs/">
-                        <div class="h4 mb-3">Aktuelle Jobs</div>
-                                                    <p>Aktuell sind keine Stellenanzeigen vorhanden.</p>
-                                            </div>
-                </div>
-                <div class="col-md-4 sidebar">
-                                                <div class="grid-item" data-advertisement-item="pos_inner_sidebar_1">    <div class="card widget-advertisement card-transparent">
-        <div id="pos_inner_sidebar_1"></div>
-    </div>
-</div><div class="grid-item grid-item-sidebar-box">
-    <div class="card
-                    card-transparent
-            ">
-        <div class="card-header">
-            <div class="card-header-title">Stellenanzeige aufgeben</div>
-        </div>
-        <div class="card-body">
-                <div class="grid-item grid-item-picture">
-        <figure role="group">
-                            <div class="image-container">
-                                            <a href="/stellenanzeige-buchen/" title="Jetzt Anzeige schalten" target="_self">
+                    
+                    
+                        
+                    
+                
+                    
+                        
+                                                
+                
+                
+            
+                
+                    
+                        Das Jobportal der Lichtbranche
+                        Finden Sie den Job, der Ihren Qualifikationen und Fähigkeiten entspricht
+                    
+                                            
+                            
+                                Für Arbeitgeber:
+                                Stellenanzeige aufgeben
+                            
+                        
+                                    
+            
+                    
+                        
+        
+            
+                
+                    
+                        Aktuelle Jobs
+                                                    Aktuell sind keine Stellenanzeigen vorhanden.
+                                            
+                
+                
+                                                    
+        
+    
+
+    
+        
+            Stellenanzeige aufgeben
+        
+        
+                
+        
+                            
+                                            
                     
                                                                 
-                                                                                                                    <img src="/build/theme/images/ll-placeholder.png?20190814" data-lazy-load-img-src="/media/format/UF6qlPPTBf/articleMainPictureLandscape/7ab409a0/jobs-image.jpeg" data-lazy-loaded="0"
-             alt="placeholder"             class="lazy-loading image" />
+                                                                                                                    
     
 
-                                            </a>
-                                    </div>
-                                </figure>
-    </div>
-<div class="grid-item grid-item-text">
-    <p>Sie sind noch auf der Suche nach einem passenden Kadidaten? Nutzen Sie jetzt ganz einfach unser Selbstschaltungs-Tool!</p>
-</div>
-        </div>
-        <div class="card-footer">
-                                                                                <a class="btn btn-block btn-secondary font-weight-bold" href="/mediabereich/" target="_blank" role="button">Mediadaten ansehen</a>
-                                                                                <a class="btn btn-block btn-primary font-weight-bold" href="/stellenanzeige-buchen/" target="_self" role="button">Jetzt Anzeige schalten</a>
-                    </div>
-    </div>
-</div><div class="grid-item" data-advertisement-item="Right1">    <div class="card widget-advertisement card-transparent">
-        <div id="Right1"></div>
-    </div>
-</div><div class="grid-item grid-item-sidebar-box">
-    <div class="card
-                    card-transparent
-            ">
-        <div class="card-header">
-            <div class="card-header-title">SIE HABEN FRAGEN?</div>
-        </div>
-        <div class="card-body">
-            <div class="grid-item grid-item-text">
-    <p>Ihre Ansprechpartnerin hilft Ihnen gerne weiter.</p>
-<p><strong>Karin Bielemeier</strong><br /><a href="mailto:karin.bielemeier@huethig.de" target="_blank" rel="noreferrer noopener">karin.bielemeier@huethig.de </a><br />T: +49 (0) 2952 9759-203</p>
-</div>
-        </div>
-        <div class="card-footer">
-                                                                                <a class="btn btn-block btn-primary font-weight-bold" href="mailto:karin.bielemeier@huethig.de" target="_blank" role="button">E-Mail schreiben</a>
-                    </div>
-    </div>
-</div>
-
-
-                                    </div>
-            </div>
-        </section>
-            </div>
-</div>
-    </div>
-
-                        </div>
-                </div>
-            </main>
-        </div>
-    </div>
-                        <div id="bannerarea-right" class="bannerarea-right clearfix" data-high-element>
-            <div id="pos_outer_right_1"></div>
-            <div id="pos_outer_right_2" style="margin-top: 10px;"></div>
-        </div>
+                                            
+                                    
+                                
     
-        <footer class="page-footer">
 
-                    <div class="page-footer__magazines">
-    <div class="page-footer__magazines-headline">Das Medienangebot von HIGHLIGHT</div>
-    <div class="container">
-        <div class="slider-container">
-            <div class="items" data-magazine-carousel>
-                                    <div class="item" data-magazine-carousel-item>
-                        <a href="/hefte/highlight/highlight-05-06-2025/">
-                            <div class="img-container">
-                                                                    <img src="/build/theme/images/ll-placeholder.png?20190814" data-lazy-load-img-src="/media/format/vteMMXDQZx/magazineThumbnail/ad7b446a/Highlight_05-06_Titelseite.jpg" data-lazy-loaded="0"
-             alt="HIGHLIGHT 05/06 2025"
-                         title="HIGHLIGHT 05/06 2025" class="lazy-loading" />
-    
-                            </div>
-                        </a>
-                    </div>
-                            </div>
-        </div>
-    </div>
-</div>
+    Sie sind noch auf der Suche nach einem passenden Kadidaten? Nutzen Sie jetzt ganz einfach unser Selbstschaltungs-Tool!
 
         
-        <div class="page-footer__menus">
-    <div class="container">
-        <div class="row">
-                            <div class="col-sm-10">
-                    <div class="row">
-                                                    <div class="col-menu">
-    <div class="page-footer__menu-title">Ressorts</div>
-    <ul class="nav nav-footer ">
-                        <li class="nav-item">
-        <a class="nav-link active" href="/news/design/">
-            Design        </a>
-    </li>
+        
+                                                                                Mediadaten ansehen
+                                                                                Jetzt Anzeige schalten
+                    
+    
+    
+        
+    
 
-                        <li class="nav-item">
-        <a class="nav-link active" href="/news/projekte/">
-            Projekte        </a>
-    </li>
-
-                        <li class="nav-item">
-        <a class="nav-link active" href="/news/wirtschaft/">
-            Wirtschaft        </a>
-    </li>
-
-                        <li class="nav-item">
-        <a class="nav-link active" href="/news/technik/">
-            Technik        </a>
-    </li>
-
-                        <li class="nav-item">
-        <a class="nav-link active" href="/szene/">
-            Szene        </a>
-    </li>
-
-            </ul>
-</div>
-                                                    <div class="col-menu">
-    <div class="page-footer__menu-title">Für Unternehmen</div>
-    <ul class="nav nav-footer ">
-                    
-<li class="nav-item "><a class="nav-link " href="/mediabereich/">Mediadaten</a></li>
-                    
-<li class="nav-item "><a class="nav-link " href="/firmen/">Firmenverzeichnis</a></li>
-                    
-<li class="nav-item "><a class="nav-link active" href="/stellenmarkt/">Stellenmarkt</a></li>
-                    
-<li class="nav-item "><a class="nav-link " href="/veranstaltungen/">Veranstaltungen</a></li>
-                    <li class="nav-item "><a class="nav-link " target="_self" href="https://www.highlight-web.de/hefte/lightguide/lightguide-2021/">LIGHTGUIDE</a></li>
-            </ul>
-</div>
-                                                    <div class="col-menu">
-    <div class="page-footer__menu-title">Für Abonnenten</div>
-    <ul class="nav nav-footer ">
-                    <li class="nav-item "><a class="nav-link " target="_self" href="/user/login">Abo-Login</a></li>
-                    
-<li class="nav-item "><a class="nav-link " href="/abo/">Abo abschließen</a></li>
-                    <li class="nav-item "><a class="nav-link " target="_self" href="https://www.highlight-web.de/abo/">Leseprobe</a></li>
-                    <li class="nav-item "><a class="nav-link " target="_self" href="/abo/kuendigen/">Abo kündigen</a></li>
-                    
-<li class="nav-item "><a class="nav-link " href="/leserservice/">Leserservice</a></li>
-            </ul>
-</div>
-                                                    <div class="col-menu">
-    <div class="page-footer__menu-title">Archiv</div>
-    <ul class="nav nav-footer ">
-                    
-<li class="nav-item "><a class="nav-link " href="/heftarchiv/">Hefte</a></li>
-                    
-<li class="nav-item "><a class="nav-link " href="/gesamtarchiv/">Gesamtarchiv</a></li>
-                    
-<li class="nav-item "><a class="nav-link " href="/news-2/">Newsticker</a></li>
-            </ul>
-</div>
-                                            </div>
-                </div>
+    
+        
+            SIE HABEN FRAGEN?
+        
+        
             
-                            <div class="col-sm-2">
-                                        <div class="mb-3">
-                        <a href="http://www.ivw.de/" class="nav-link d-block text-center" target="_blank">
-                            <img src="/build/theme/images/ivw-logo.svg?20190814" width="70" alt="IVW geprüft" style="fill:#fff;"><br/>
-                            IVW-geprüft
-                        </a>
-                    </div>
-                                                            <div class="text-center">
-                        <a class="consent-settings-link" style="color: #7b7b7d;text-decoration: none; font-weight: 400;" href="javascript:window._sp_.gdpr.loadPrivacyManagerModal(191366)">Datenschutz-Einstellungen</a>
-                    </div>
-                </div>
-                    </div>
-    </div>
-</div>
+    Ihre Ansprechpartnerin hilft Ihnen gerne weiter.
+Karin Bielemeierkarin.bielemeier@huethig.de T: +49 (0) 2952 9759-203
 
-        <div class="page-footer__end">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-2">
-                        © Hüthig GmbH
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="nav">
-                                                                                                                                                <li class="nav-item">
-                                    <a title="Neuer Tab: Zu Xing" class="nav-link" target="_blank" href="https://www.xing.com/news/pages/highlight-lightingjobs-931"><i class="fab fa-xing fa-2x"></i></a>
-                                </li>
-                                                                                                                <li class="nav-item">
-                                <a class="nav-link" href="/rss/"><i class="fas fa-rss fa-2x"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <ul class="nav footer-bottom-menu align-items-center">
+        
+        
+                                                                                E-Mail schreiben
+                    
+    
+
+
+
+                                    
+            
+        
+            
+
+    
+
                         
-<li class="nav-item "><a class="nav-link " href="/impressum/">Impressum</a></li>
-                    <li class="nav-item "><a class="nav-link " target="_blank" href="https://www.huethig.de/agb/">AGB</a></li>
-                    <li class="nav-item "><a class="nav-link " target="_blank" href="https://swmh-datenschutz.de/huethig">Datenschutz</a></li>
+                
+            
+        
+    
+                        
+            
+            
+        
+    
+        
+
                     
-<li class="nav-item "><a class="nav-link " href="/ueber-uns/">Über uns</a></li>
+    Das Medienangebot von HIGHLIGHT
+    
+        
+            
+                                    
+                        
+                            
+                                                                    
+    
+                            
+                        
                     
-<li class="nav-item "><a class="nav-link " href="/kontakt/">Kontakt</a></li>
-            </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-</div>
+                            
+        
+    
 
 
+        
+        
+    
+        
+                            
+                    
+                                                    
+    Ressorts
+    
+                        
+        
+            Design        
+    
+
+                        
+        
+            Projekte        
+    
+
+                        
+        
+            Wirtschaft        
+    
+
+                        
+        
+            Technik        
+    
+
+                        
+        
+            Szene        
+    
+
+            
+
+                                                    
+    Für Unternehmen
+    
+                    
+Mediadaten
+                    
+Firmenverzeichnis
+                    
+Stellenmarkt
+                    
+Veranstaltungen
+                    LIGHTGUIDE
+            
+
+                                                    
+    Für Abonnenten
+    
+                    Abo-Login
+                    
+Abo abschließen
+                    Leseprobe
+                    Abo kündigen
+                    
+Leserservice
+            
+
+                                                    
+    Archiv
+    
+                    
+Hefte
+                    
+Gesamtarchiv
+                    
+Newsticker
+            
+
+                                            
+                
+            
+                            
+                                        
+                        
+                            
+                            IVW-geprüft
+                        
+                    
+                                                            
+                        Datenschutz-Einstellungen
+                    
+                
+                    
+    
 
 
-<script>
+        
+            
+                
+                    
+                        © Hüthig GmbH
+                    
+                    
+                        
+                                                                                                                                                
+                                    
+                                
+                                                                                                                
+                                
+                            
+                        
+                    
+                    
+                        
+                        
+Impressum
+                    AGB
+                    Datenschutz
+                    
+Über uns
+                    
+Kontakt
+            
+                    
+                
+            
+        
+    
+
+
+
+
+
+
+
     var oas_tag = oas_tag || {};
     var rev6 = rev6 || {};
-</script>
 
 
 
 
-                <script>
+
+                
             dataLayer = [{
                 'sitepage': 'none',
                 'slug': '/stellenmarkt/'
             }];
-        </script>
+        
     
-    <!-- Google Tag Manager -->
-    <script type="text/javascript">
+    
+    
 
                         function gtag() { dataLayer.push(arguments); }
         // default behaviour
@@ -592,10 +449,10 @@
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-THHCZ32');
-    </script>
-    <!-- End Google Tag Manager -->
+    
+    
 
-<script>
+
     if(document.querySelectorAll('[data-widget-jobs-search]').length > 0) {
         var script = document.createElement('script');
         script.onload = function () {
@@ -613,30 +470,59 @@
         script.src = "https://www.industriejobs.de/api/js/base/f0fed347c476f5acdf00762c21ef6231.js";
         document.body.appendChild(script);
     }
-</script>
 
-            <script type='text/javascript'>
+
+            
             IOMm('configure', { st: 'highligh', dn: 'data-4a5f71b500.highlight-web.de', mh: 5 });
-        </script>
+        
     
                 
-    <script type='text/javascript'>
+    
         IOMm('pageview', { cp: 'jobs' });
-    </script>
+    
 
     
-<!--[if IE 9]>
-<script src="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/js/bootstrap-ie9.min.js"></script>
-<![endif]-->
-<!--[if lte IE 8]>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/js/bootstrap-ie8.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.js"></script>
-<![endif]-->
 
-        <script type="module" src="/build/theme/assets/hl-D3VdU-bZ.js"></script>
 
-    <script type="module" src="/build/theme/assets/page-DE7l_oCV.js"></script>
 
-</body>
-</html>
+        
+
+    
+
+
+
+
+(function() {
+    
+    var axd = document.createElement('script'); axd.type = 'text/javascript'; axd.async = 1;
+    axd.src = ('http:' === location.protocol ? 'http://' : 'https://') + "dmp.theadex.com/d/506/3014/s/adex.js";
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(axd, s);
+})();
+ (function(){ var myrtbHost = (("https:" == document.location.protocol) ? "https://lib." : "http://lib."); var myrtbScript = document.createElement("script");myrtbScript.type = "text/javascript";myrtbScript.async = true; myrtbScript.src=myrtbHost+"selfcampaign.com/tag/158757_55772a482215f82e110e434e7157d9a4?async=1"; (document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(myrtbScript); })();
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'DC-5366353');
+
+
+
+  gtag('event', 'conversion', {
+    'allow_custom_scripts': true,
+    'u1': window.location.href,
+    'u26': '',
+    'u5': window.location.hostname,
+    'u6': window.location.pathname,
+    'send_to': 'DC-5366353/remarket/cm360007+standard'
+  });
+
+(function (w,d,t) {
+  _ml = w._ml || {};
+  _ml.eid = '54280';
+  var s, cd, tag; s = d.getElementsByTagName(t)[0]; cd = new Date();
+  tag = d.createElement(t); tag.async = 1;
+  tag.src = 'https://ml314.com/tag.aspx?' + cd.getDate() + cd.getMonth();
+  s.parentNode.insertBefore(tag, s);
+})(window,document,'script');
+(function(){var a=document.createElement("script");a.type="text/javascript";a.async=1;a.src="https://dmp.theadex.com/d/876/6055/s/adex.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();

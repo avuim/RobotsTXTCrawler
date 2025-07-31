@@ -1,0 +1,18 @@
+{
+  "domain": "www.facility-management.de",
+  "normalizedDomain": "www.facility-management.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "SiteAuditBot",
+      "allowed": true
+    },
+    {
+      "name": "Semrushbot-SI",
+      "allowed": true
+    }
+  ]
+}

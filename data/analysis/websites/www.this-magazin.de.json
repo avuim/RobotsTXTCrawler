@@ -1,0 +1,18 @@
+{
+  "domain": "www.this-magazin.de",
+  "normalizedDomain": "www.this-magazin.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "SiteAuditBot",
+      "allowed": true
+    },
+    {
+      "name": "Semrushbot-SI",
+      "allowed": true
+    }
+  ]
+}

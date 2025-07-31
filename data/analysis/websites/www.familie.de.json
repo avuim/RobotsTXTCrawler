@@ -1,0 +1,14 @@
+{
+  "domain": "www.familie.de",
+  "normalizedDomain": "www.familie.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true
+    }
+  ]
+}

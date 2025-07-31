@@ -1,0 +1,26 @@
+{
+  "domain": "www.gmx.net",
+  "normalizedDomain": "www.gmx.net",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Applebot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    }
+  ]
+}

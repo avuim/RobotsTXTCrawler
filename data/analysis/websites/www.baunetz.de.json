@@ -1,0 +1,22 @@
+{
+  "domain": "www.baunetz.de",
+  "normalizedDomain": "www.baunetz.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": false
+    },
+    {
+      "name": "Adsbot-Google",
+      "allowed": false
+    },
+    {
+      "name": "JoobleBot",
+      "allowed": true
+    }
+  ]
+}

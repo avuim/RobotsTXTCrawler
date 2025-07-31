@@ -1,0 +1,74 @@
+{
+  "domain": "www.dev-insider.de",
+  "normalizedDomain": "www.dev-insider.de",
+  "bots": [
+    {
+      "name": "Yandex",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "CCbot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "OmgiliBot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "trendictionbot",
+      "allowed": true
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-User",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "DeepSeek",
+      "allowed": false
+    },
+    {
+      "name": "DeepSeekBot",
+      "allowed": false
+    }
+  ]
+}

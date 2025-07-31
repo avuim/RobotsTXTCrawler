@@ -1,0 +1,14 @@
+{
+  "domain": "www.aerztezeitung.de",
+  "normalizedDomain": "www.aerztezeitung.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "www.lz.de",
+  "normalizedDomain": "www.lz.de",
+  "bots": [
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

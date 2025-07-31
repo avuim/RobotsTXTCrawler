@@ -1,0 +1,42 @@
+{
+  "domain": "www.hanauer.de",
+  "normalizedDomain": "www.hanauer.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "xovi",
+      "allowed": false
+    },
+    {
+      "name": "sistrix",
+      "allowed": false
+    },
+    {
+      "name": "SearchmetricsBot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "msnbot",
+      "allowed": false
+    },
+    {
+      "name": "YouBot",
+      "allowed": false
+    }
+  ]
+}

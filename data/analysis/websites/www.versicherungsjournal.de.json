@@ -1,0 +1,14 @@
+{
+  "domain": "www.versicherungsjournal.de",
+  "normalizedDomain": "www.versicherungsjournal.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot-News",
+      "allowed": false
+    }
+  ]
+}

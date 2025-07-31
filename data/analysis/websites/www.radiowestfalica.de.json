@@ -1,0 +1,14 @@
+{
+  "domain": "www.radiowestfalica.de",
+  "normalizedDomain": "www.radiowestfalica.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "www.flugrevue.de",
+  "normalizedDomain": "www.flugrevue.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    }
+  ]
+}

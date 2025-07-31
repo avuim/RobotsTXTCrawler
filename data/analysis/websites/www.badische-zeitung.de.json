@@ -1,0 +1,26 @@
+{
+  "domain": "www.badische-zeitung.de",
+  "normalizedDomain": "www.badische-zeitung.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    }
+  ]
+}

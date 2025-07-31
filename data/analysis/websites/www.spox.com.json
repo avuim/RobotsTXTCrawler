@@ -1,0 +1,14 @@
+{
+  "domain": "www.spox.com",
+  "normalizedDomain": "www.spox.com",
+  "bots": [
+    {
+      "name": "Perplexity-User",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "domain": "www.hurriyet.de",
+  "normalizedDomain": "www.hurriyet.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    }
+  ]
+}

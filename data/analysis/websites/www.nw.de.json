@@ -1,0 +1,14 @@
+{
+  "domain": "www.nw.de",
+  "normalizedDomain": "www.nw.de",
+  "bots": [
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

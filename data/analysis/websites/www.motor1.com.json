@@ -1,0 +1,82 @@
+{
+  "domain": "www.motor1.com",
+  "normalizedDomain": "www.motor1.com",
+  "bots": [
+    {
+      "name": "Mediapartners-Google",
+      "allowed": false
+    },
+    {
+      "name": "proximic",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "Omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "YouBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "Claudebot",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false
+    },
+    {
+      "name": "Seekr",
+      "allowed": false
+    },
+    {
+      "name": "APS-ad-standards-bot/1.0",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot-News",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "YandexNews",
+      "allowed": true
+    }
+  ]
+}

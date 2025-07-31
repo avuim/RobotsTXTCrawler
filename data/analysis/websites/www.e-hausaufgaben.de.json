@@ -1,0 +1,30 @@
+{
+  "domain": "www.e-hausaufgaben.de",
+  "normalizedDomain": "www.e-hausaufgaben.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false
+    },
+    {
+      "name": "SemrushBot-SA",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Cliqzbot",
+      "allowed": false
+    }
+  ]
+}

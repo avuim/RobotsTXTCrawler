@@ -1,0 +1,14 @@
+{
+  "domain": "www.businessinsider.de",
+  "normalizedDomain": "www.businessinsider.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    }
+  ]
+}

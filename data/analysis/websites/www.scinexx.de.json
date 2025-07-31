@@ -1,0 +1,18 @@
+{
+  "domain": "www.scinexx.de",
+  "normalizedDomain": "www.scinexx.de",
+  "bots": [
+    {
+      "name": "Yandex",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

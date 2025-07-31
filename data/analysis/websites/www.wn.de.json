@@ -1,0 +1,34 @@
+{
+  "domain": "www.wn.de",
+  "normalizedDomain": "www.wn.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "AwarioSmartBot",
+      "allowed": false
+    },
+    {
+      "name": "Kraken",
+      "allowed": false
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false
+    },
+    {
+      "name": "peer39_crawler/1.0",
+      "allowed": false
+    },
+    {
+      "name": "Axiom",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    }
+  ]
+}

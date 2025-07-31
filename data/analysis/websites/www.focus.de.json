@@ -1,0 +1,38 @@
+{
+  "domain": "www.focus.de",
+  "normalizedDomain": "www.focus.de",
+  "bots": [
+    {
+      "name": "Mediapartners-Google",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "Applebot",
+      "allowed": true
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "domain": "www.kachelmannwetter.com",
+  "normalizedDomain": "www.kachelmannwetter.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false
+    },
+    {
+      "name": "Bingbot",
+      "allowed": false
+    },
+    {
+      "name": "BingPreview",
+      "allowed": false
+    },
+    {
+      "name": "AdIdxBot",
+      "allowed": false
+    }
+  ]
+}

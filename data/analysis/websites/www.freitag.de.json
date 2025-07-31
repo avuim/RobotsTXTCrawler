@@ -1,0 +1,54 @@
+{
+  "domain": "www.freitag.de",
+  "normalizedDomain": "www.freitag.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "Applebot/0.1",
+      "allowed": false
+    },
+    {
+      "name": "SeznamBot",
+      "allowed": false
+    },
+    {
+      "name": "Yandex",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "img2dataset",
+      "allowed": false
+    },
+    {
+      "name": "Pinterest/Nutch-2.3",
+      "allowed": false
+    },
+    {
+      "name": "Xenu's Link Sleuth 1.1c",
+      "allowed": false
+    },
+    {
+      "name": "Zeus Link Scout",
+      "allowed": false
+    },
+    {
+      "name": "IconSurf",
+      "allowed": false
+    }
+  ]
+}

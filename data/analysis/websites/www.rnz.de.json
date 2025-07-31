@@ -1,0 +1,14 @@
+{
+  "domain": "www.rnz.de",
+  "normalizedDomain": "www.rnz.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Mozilla/5.0 (compatible; OGDWCtxCrawler)",
+      "allowed": true
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "domain": "www.aerzteblatt.de",
+  "normalizedDomain": "www.aerzteblatt.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "CCBot/1.0",
+      "allowed": false
+    },
+    {
+      "name": "CCBot/2.0",
+      "allowed": false
+    },
+    {
+      "name": "CCBot/3.0",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "OpenAI",
+      "allowed": false
+    },
+    {
+      "name": "AI-TrainingBot",
+      "allowed": false
+    },
+    {
+      "name": "AIDataCollector",
+      "allowed": false
+    },
+    {
+      "name": "DataMiner",
+      "allowed": false
+    },
+    {
+      "name": "DataMiningBot",
+      "allowed": false
+    },
+    {
+      "name": "AI-Bot",
+      "allowed": false
+    }
+  ]
+}

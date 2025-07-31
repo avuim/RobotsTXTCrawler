@@ -1,0 +1,18 @@
+{
+  "domain": "www.deutschland-spielt.de",
+  "normalizedDomain": "www.deutschland-spielt.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "GagaRobot",
+      "allowed": false
+    }
+  ]
+}

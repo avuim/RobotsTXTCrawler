@@ -1,0 +1,18 @@
+{
+  "domain": "www.plasticker.de",
+  "normalizedDomain": "www.plasticker.de",
+  "bots": [
+    {
+      "name": ":newsexpress/1.0",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot",
+      "allowed": false
+    }
+  ]
+}

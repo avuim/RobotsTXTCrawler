@@ -1,0 +1,34 @@
+{
+  "domain": "www.onvista.de",
+  "normalizedDomain": "www.onvista.de",
+  "bots": [
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": false
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": false
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "008",
+      "allowed": false
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false
+    }
+  ]
+}

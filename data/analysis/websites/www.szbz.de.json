@@ -1,0 +1,18 @@
+{
+  "domain": "www.szbz.de",
+  "normalizedDomain": "www.szbz.de",
+  "bots": [
+    {
+      "name": "Chat-GPT",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

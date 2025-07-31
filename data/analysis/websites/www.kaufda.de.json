@@ -1,0 +1,14 @@
+{
+  "domain": "www.kaufda.de",
+  "normalizedDomain": "www.kaufda.de",
+  "bots": [
+    {
+      "name": "AdsBot-Google",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

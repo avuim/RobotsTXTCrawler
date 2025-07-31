@@ -1,0 +1,30 @@
+{
+  "domain": "www.web.de",
+  "normalizedDomain": "www.web.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "googlebot-news",
+      "allowed": true
+    },
+    {
+      "name": "Applebot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    }
+  ]
+}

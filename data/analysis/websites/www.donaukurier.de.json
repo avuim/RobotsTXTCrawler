@@ -1,0 +1,30 @@
+{
+  "domain": "www.donaukurier.de",
+  "normalizedDomain": "www.donaukurier.de",
+  "bots": [
+    {
+      "name": "Google_InspectionTool",
+      "allowed": false
+    },
+    {
+      "name": "msnbot-media",
+      "allowed": false
+    },
+    {
+      "name": "Yandex",
+      "allowed": false
+    },
+    {
+      "name": "xovi",
+      "allowed": false
+    },
+    {
+      "name": "YouBot",
+      "allowed": false
+    },
+    {
+      "name": "Yeti",
+      "allowed": false
+    }
+  ]
+}

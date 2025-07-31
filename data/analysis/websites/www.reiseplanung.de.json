@@ -1,0 +1,18 @@
+{
+  "domain": "www.reiseplanung.de",
+  "normalizedDomain": "www.reiseplanung.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "Sogou web spider",
+      "allowed": false
+    }
+  ]
+}

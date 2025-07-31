@@ -1,0 +1,18 @@
+{
+  "domain": "www.elektroniknet.de",
+  "normalizedDomain": "www.elektroniknet.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    }
+  ]
+}

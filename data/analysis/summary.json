@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-07-31T17:08:53.508Z",
+  "lastUpdated": "2025-07-31T17:27:34.117Z",
   "totalBots": 1187,
-  "totalWebsites": 705,
+  "totalWebsites": 702,
   "botCategories": {
     "searchEngine": 54,
     "seo": 44,
@@ -13,43 +13,43 @@
       "name": "*",
       "category": "other",
       "totalWebsites": 843,
-      "allowedWebsites": 261,
-      "disallowedWebsites": 582
+      "allowedWebsites": 262,
+      "disallowedWebsites": 581
     },
     {
       "name": "GPTBot",
       "category": "aiScraper",
-      "totalWebsites": 263,
+      "totalWebsites": 262,
       "allowedWebsites": 35,
-      "disallowedWebsites": 228
+      "disallowedWebsites": 227
     },
     {
       "name": "CCBot",
       "category": "aiScraper",
-      "totalWebsites": 219,
+      "totalWebsites": 218,
       "allowedWebsites": 31,
-      "disallowedWebsites": 188
+      "disallowedWebsites": 187
     },
     {
       "name": "ChatGPT-User",
       "category": "aiScraper",
-      "totalWebsites": 152,
+      "totalWebsites": 151,
       "allowedWebsites": 10,
-      "disallowedWebsites": 142
+      "disallowedWebsites": 141
     },
     {
       "name": "Google-Extended",
       "category": "aiScraper",
-      "totalWebsites": 137,
+      "totalWebsites": 135,
       "allowedWebsites": 9,
-      "disallowedWebsites": 128
+      "disallowedWebsites": 126
     },
     {
       "name": "ClaudeBot",
       "category": "aiScraper",
-      "totalWebsites": 125,
+      "totalWebsites": 124,
       "allowedWebsites": 2,
-      "disallowedWebsites": 123
+      "disallowedWebsites": 122
     },
     {
       "name": "anthropic-ai",
@@ -61,16 +61,16 @@
     {
       "name": "Bytespider",
       "category": "aiScraper",
-      "totalWebsites": 101,
+      "totalWebsites": 99,
       "allowedWebsites": 2,
-      "disallowedWebsites": 99
+      "disallowedWebsites": 97
     },
     {
       "name": "PerplexityBot",
       "category": "aiScraper",
-      "totalWebsites": 95,
+      "totalWebsites": 94,
       "allowedWebsites": 7,
-      "disallowedWebsites": 88
+      "disallowedWebsites": 87
     },
     {
       "name": "Claude-Web",
@@ -89,9 +89,9 @@
     {
       "name": "Applebot-Extended",
       "category": "other",
-      "totalWebsites": 72,
+      "totalWebsites": 70,
       "allowedWebsites": 2,
-      "disallowedWebsites": 70
+      "disallowedWebsites": 68
     },
     {
       "name": "MJ12bot",
@@ -143,11 +143,11 @@
       "disallowedWebsites": 44
     },
     {
-      "name": "xovi",
-      "category": "seo",
-      "totalWebsites": 45,
-      "allowedWebsites": 0,
-      "disallowedWebsites": 45
+      "name": "OAI-SearchBot",
+      "category": "aiScraper",
+      "totalWebsites": 47,
+      "allowedWebsites": 13,
+      "disallowedWebsites": 34
     }
   ]
 }

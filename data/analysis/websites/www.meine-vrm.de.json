@@ -1,0 +1,38 @@
+{
+  "domain": "www.meine-vrm.de",
+  "normalizedDomain": "www.meine-vrm.de",
+  "bots": [
+    {
+      "name": "^Pixray",
+      "allowed": false
+    },
+    {
+      "name": "^echobot",
+      "allowed": false
+    },
+    {
+      "name": "UnisterBot",
+      "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false
+    },
+    {
+      "name": "SEOkicks",
+      "allowed": false
+    },
+    {
+      "name": "myurlcrawler",
+      "allowed": false
+    },
+    {
+      "name": "wotbox",
+      "allowed": false
+    },
+    {
+      "name": "proximic",
+      "allowed": false
+    }
+  ]
+}

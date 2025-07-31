@@ -1,0 +1,38 @@
+{
+  "domain": "www.katholisch.de",
+  "normalizedDomain": "www.katholisch.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "msnbot",
+      "allowed": false
+    },
+    {
+      "name": "Slurp",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot",
+      "allowed": false
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": false
+    },
+    {
+      "name": "Yahoo Pipes 1.0",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": true
+    }
+  ]
+}

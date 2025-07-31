@@ -1,0 +1,30 @@
+{
+  "domain": "www.wer-weiss-was.de",
+  "normalizedDomain": "www.wer-weiss-was.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "mauibot",
+      "allowed": false
+    },
+    {
+      "name": "semrushbot",
+      "allowed": false
+    },
+    {
+      "name": "ahrefsbot",
+      "allowed": false
+    },
+    {
+      "name": "blexbot",
+      "allowed": false
+    },
+    {
+      "name": "sentibot",
+      "allowed": false
+    }
+  ]
+}

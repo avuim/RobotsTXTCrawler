@@ -1,0 +1,18 @@
+{
+  "domain": "www.ntz.de",
+  "normalizedDomain": "www.ntz.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Mozilla/5.0 (compatible; OGDWCtxCrawler)",
+      "allowed": false
+    }
+  ]
+}

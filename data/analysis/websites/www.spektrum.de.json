@@ -1,0 +1,22 @@
+{
+  "domain": "www.spektrum.de",
+  "normalizedDomain": "www.spektrum.de",
+  "bots": [
+    {
+      "name": "MS Search 4.0 Robot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

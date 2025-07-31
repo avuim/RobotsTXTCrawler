@@ -1,0 +1,58 @@
+{
+  "domain": "www.stern.de",
+  "normalizedDomain": "www.stern.de",
+  "bots": [
+    {
+      "name": "msnbot-media/1.1",
+      "allowed": false
+    },
+    {
+      "name": "msnbot-media/2.0b",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot-News",
+      "allowed": false
+    },
+    {
+      "name": "scrapy",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "RyteBot",
+      "allowed": false
+    },
+    {
+      "name": "proximic",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

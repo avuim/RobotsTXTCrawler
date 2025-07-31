@@ -1,0 +1,14 @@
+{
+  "domain": "www.wetter.com",
+  "normalizedDomain": "www.wetter.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "RyteBot",
+      "allowed": false
+    }
+  ]
+}

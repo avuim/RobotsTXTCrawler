@@ -7,3 +7,14 @@ Disallow: /gtm.js
 Disallow: /metatag/
 Disallow: /quiz-enricher/*
 Disallow: /quiz-suggestions/*
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /go.php?*
+Disallow: /:preview/*
+Disallow: /oembed/
+Disallow: */null$
+Disallow: /gtm.js
+Disallow: /metatag/
+Disallow: /quiz-enricher/*
+Disallow: /quiz-suggestions/*

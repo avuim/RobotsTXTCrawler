@@ -1,0 +1,14 @@
+{
+  "domain": "www.goal.com",
+  "normalizedDomain": "www.goal.com",
+  "bots": [
+    {
+      "name": "Perplexity-User",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

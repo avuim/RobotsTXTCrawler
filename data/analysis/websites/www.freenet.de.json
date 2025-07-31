@@ -1,0 +1,14 @@
+{
+  "domain": "www.freenet.de",
+  "normalizedDomain": "www.freenet.de",
+  "bots": [
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "domain": "www.jungefreiheit.de",
+  "normalizedDomain": "www.jungefreiheit.de",
+  "bots": [
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    },
+    {
+      "name": "sogou spider",
+      "allowed": false
+    },
+    {
+      "name": "SemrushBot-SA",
+      "allowed": false
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false
+    },
+    {
+      "name": "VoilaBot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "BecomeJPBot",
+      "allowed": false
+    },
+    {
+      "name": "Exabot",
+      "allowed": false
+    },
+    {
+      "name": "008",
+      "allowed": false
+    },
+    {
+      "name": "Sosospider",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "domain": "www.elitepartner.de",
+  "normalizedDomain": "www.elitepartner.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    }
+  ]
+}
