@@ -27,17 +27,3 @@ export interface Summary {
     disallowedWebsites: number;
   }>;
 }
-
-export interface TrendData {
-  months: Array<{
-    month: string;
-    totalWebsites: number;
-    totalBots: number;
-    botCategories: {
-      searchEngine: number;
-      seo: number;
-      aiScraper: number;
-      other: number;
-    };
-  }>;
-}

@@ -1,7 +1,7 @@
 import axios, { AxiosResponse } from 'axios';
 import { Bot } from '../types/Bot.ts';
 import { Website } from '../types/Website.ts';
-import { Summary, TrendData } from '../types/Common.ts';
+import { Summary } from '../types/Common.ts';
 
 const API_BASE_URL = 'http://localhost:3001/api';
 
@@ -51,11 +51,6 @@ export const API = {
     return response.data;
   },
 
-  // Trends endpoints
-  getTrends: async (): Promise<TrendData> => {
-    const response = await apiClient.get<TrendData>('/trends');
-    return response.data;
-  },
 };
 
 export default API;

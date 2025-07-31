@@ -66,7 +66,6 @@ const navigationItems: NavItem[] = [
   { path: '/', label: 'Dashboard', icon: '📊' },
   { path: '/bots', label: 'Alle Bots', icon: '🤖' },
   { path: '/websites', label: 'Alle Websites', icon: '🌐' },
-  { path: '/trends', label: 'Trends', icon: '📈' },
 ];
 
 const Sidebar: React.FC = () => {

@@ -1,7 +1,8 @@
 import React from 'react';
 import {
-  BarChart,
+  ComposedChart,
   Bar,
+  Line,
   XAxis,
   YAxis,
   CartesianGrid,
@@ -30,6 +31,7 @@ interface MonthlyStatsData {
   allowedWebsites: number;
   disallowedWebsites: number;
   totalWebsites: number;
+  totalBots?: number;
 }
 
 interface MonthlyStatsChartProps {
@@ -37,6 +39,7 @@ interface MonthlyStatsChartProps {
     totalWebsites: number;
     allowedWebsites: number;
     disallowedWebsites: number;
+    totalBots?: number;
     websites: {
       allowed: string[];
       disallowed: string[];
@@ -51,7 +54,8 @@ const MonthlyStatsChart: React.FC<MonthlyStatsChartProps> = ({ monthlyStats }) =
       month: formatMonth(month),
       allowedWebsites: stats.allowedWebsites,
       disallowedWebsites: stats.disallowedWebsites,
-      totalWebsites: stats.totalWebsites
+      totalWebsites: stats.totalWebsites,
+      totalBots: stats.totalBots
     }))
     .sort((a, b) => a.month.localeCompare(b.month)); // Sortiere chronologisch
 
@@ -83,16 +87,21 @@ const MonthlyStatsChart: React.FC<MonthlyStatsChartProps> = ({ monthlyStats }) =
         }}>
           <p style={{ margin: '0 0 5px 0', fontWeight: 'bold' }}>{`${label}`}</p>
           <p style={{ margin: '0 0 3px 0', color: '#10b981' }}>
-            {`Erlaubt: ${data.allowedWebsites.toLocaleString()}`}
+            {`Erlaubte Bots: ${data.allowedWebsites.toLocaleString()}`}
           </p>
           <p style={{ margin: '0 0 3px 0', color: '#ef4444' }}>
-            {`Verboten: ${data.disallowedWebsites.toLocaleString()}`}
+            {`Verbotene Bots: ${data.disallowedWebsites.toLocaleString()}`}
           </p>
+          {data.totalBots && (
+            <p style={{ margin: '0 0 3px 0', color: '#3b82f6' }}>
+              {`Anzahl Bots: ${data.totalBots.toLocaleString()}`}
+            </p>
+          )}
           <p style={{ margin: '0', color: '#6b7280' }}>
-            {`Gesamt: ${data.totalWebsites.toLocaleString()}`}
+            {`Websites: ${data.totalWebsites.toLocaleString()}`}
           </p>
           <p style={{ margin: '3px 0 0 0', color: '#6b7280', fontSize: '0.9em' }}>
-            {`Erlaubt-Quote: ${data.totalWebsites > 0 ? ((data.allowedWebsites / data.totalWebsites) * 100).toFixed(1) : 0}%`}
+            {`Erlaubt-Quote: ${data.allowedWebsites + data.disallowedWebsites > 0 ? ((data.allowedWebsites / (data.allowedWebsites + data.disallowedWebsites)) * 100).toFixed(1) : 0}%`}
           </p>
         </div>
       );
@@ -113,9 +122,9 @@ const MonthlyStatsChart: React.FC<MonthlyStatsChartProps> = ({ monthlyStats }) =
 
   return (
     <ChartContainer>
-      <ChartTitle>Monatlicher Verlauf - Erlaubte vs. Verbotene Websites</ChartTitle>
+      <ChartTitle>Monatlicher Verlauf - Erlaubte vs. Verbotene Bots</ChartTitle>
       <ResponsiveContainer width="100%" height="100%">
-        <BarChart
+        <ComposedChart
           data={chartData}
           margin={{
             top: 20,
@@ -131,24 +140,42 @@ const MonthlyStatsChart: React.FC<MonthlyStatsChartProps> = ({ monthlyStats }) =
             fontSize={12}
           />
           <YAxis 
+            yAxisId="left"
             stroke="#6b7280"
+            fontSize={12}
+          />
+          <YAxis 
+            yAxisId="right"
+            orientation="right"
+            stroke="#3b82f6"
             fontSize={12}
           />
           <Tooltip content={<CustomTooltip />} />
           <Legend />
           <Bar 
+            yAxisId="left"
             dataKey="allowedWebsites" 
-            name="Erlaubte Websites"
+            name="Erlaubte Bots"
             fill="#10b981" 
             radius={[2, 2, 0, 0]}
           />
           <Bar 
+            yAxisId="left"
             dataKey="disallowedWebsites" 
-            name="Verbotene Websites"
+            name="Verbotene Bots"
             fill="#ef4444" 
             radius={[2, 2, 0, 0]}
           />
-        </BarChart>
+          <Line 
+            yAxisId="right"
+            type="monotone" 
+            dataKey="totalBots" 
+            name="Anzahl Bots"
+            stroke="#3b82f6" 
+            strokeWidth={3}
+            dot={{ fill: '#3b82f6', strokeWidth: 2, r: 4 }}
+          />
+        </ComposedChart>
       </ResponsiveContainer>
     </ChartContainer>
   );

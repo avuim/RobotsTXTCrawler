@@ -114,13 +114,18 @@ const WebsiteDetailPage: React.FC = () => {
     return bot?.category || 'other';
   };
 
+  // Funktion zum Formatieren des Bot-Namens
+  const formatBotName = (botName: string): string => {
+    return botName === '*' ? 'Bot Wildcard *' : botName;
+  };
+
   const columns: TableColumn<BotEntry>[] = [
     {
       key: 'name',
       header: 'Bot Name',
       render: (entry) => (
         <TableLink href={`/bots/${encodeURIComponent(entry.name)}`}>
-          {entry.name}
+          {formatBotName(entry.name)}
         </TableLink>
       ),
     },

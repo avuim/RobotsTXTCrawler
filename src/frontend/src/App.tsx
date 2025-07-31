@@ -7,7 +7,6 @@ import BotListPage from './components/bots/BotListPage.tsx';
 import BotDetailPage from './components/bots/BotDetailPage.tsx';
 import WebsiteListPage from './components/websites/WebsiteListPage.tsx';
 import WebsiteDetailPage from './components/websites/WebsiteDetailPage.tsx';
-import TrendsPage from './components/trends/TrendsPage.tsx';
 
 
 const App: React.FC = () => {
@@ -21,7 +20,6 @@ const App: React.FC = () => {
           <Route path="/bots/:botName" element={<BotDetailPage />} />
           <Route path="/websites" element={<WebsiteListPage />} />
           <Route path="/websites/:domain" element={<WebsiteDetailPage />} />
-          <Route path="/trends" element={<TrendsPage />} />
         </Routes>
       </Router>
     </ThemeProvider>

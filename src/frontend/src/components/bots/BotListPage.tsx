@@ -94,24 +94,25 @@ const BotListPage: React.FC = () => {
   const filteredBots = bots?.filter(bot => {
     const matchesSearch = bot.name.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesCategory = categoryFilter === 'all' || bot.category === categoryFilter;
-    return matchesSearch && matchesCategory;
+    const isNotWildcard = bot.name !== '*';
+    return matchesSearch && matchesCategory && isNotWildcard;
   }).sort((a, b) => b.totalWebsites - a.totalWebsites) || [];
 
   const columns: TableColumn<Bot>[] = [
     {
       key: 'name',
       header: 'Bot Name',
-      width: '35%',
+      width: '40%',
       render: (bot) => (
         <TableLink href={`/bots/${encodeURIComponent(bot.name)}`}>
-          {bot.name === '*' ? 'Bot Wildcard *' : bot.name}
+          {bot.name}
         </TableLink>
       ),
     },
     {
       key: 'category',
       header: 'Kategorie',
-      width: '20%',
+      width: '25%',
       render: (bot) => (
         <CategoryBadge category={bot.category}>
           {categoryLabels[bot.category as keyof typeof categoryLabels] || bot.category}
@@ -119,16 +120,9 @@ const BotListPage: React.FC = () => {
       ),
     },
     {
-      key: 'totalWebsites',
-      header: 'Websites',
-      width: '15%',
-      align: 'right',
-      render: (bot) => bot.totalWebsites.toLocaleString(),
-    },
-    {
       key: 'stats',
       header: 'Erlaubt / Verboten',
-      width: '30%',
+      width: '35%',
       align: 'right',
       render: (bot) => (
         <StatsContainer>
