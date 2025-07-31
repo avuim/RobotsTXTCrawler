@@ -66,7 +66,6 @@ Die Anwendung bietet umfangreiche Funktionen zur Analyse und Visualisierung der 
   - **BotDetail**: Detaillierte Informationen zu einem einzelnen Bot
   - **WebsiteList**: Liste aller Websites mit Suchfunktion
   - **WebsiteDetail**: Detaillierte Informationen zu einer einzelnen Website
-  - **Trends**: Zeitliche Trends für Bots, Kategorien und Websites
 
 ### Analysierte Daten
 
@@ -101,14 +100,20 @@ Die Analyse- und Visualisierungskomponenten sind modular aufgebaut, sodass weite
 
 ### Schritte
 
-1. Repository klonen oder Quellcode herunterladen
+1. Repository klonen:
+
+```bash
+git clone https://github.com/avuim/RobotsTXTCrawler.git
+cd RobotsTXTCrawler
+```
+
 2. Abhängigkeiten installieren:
 
 ```bash
 npm install
 ```
 
-3. Playwright-Browser installieren:
+3. Playwright-Browser (zwecks alternativer Crawlmethode) installieren:
 
 ```bash
 npx playwright install
@@ -120,11 +125,13 @@ npx playwright install
 npm run build
 ```
 
-## Konfiguration
+## Konfiguration & Ausführung der Applikation (Crawler, Analyse, API)
 
 Die Anwendung kann über verschiedene Methoden konfiguriert werden:
 
-### 1. Kommandozeilenargumente
+### Kommandozeilenargumente
+
+Die Standardausführung:
 
 ```bash
 npm start -- --parallelWorkers=20 --batchSize=50 --browserFallback=true
@@ -142,14 +149,14 @@ npm start -- --parallelWorkers=20 --batchSize=50 --browserFallback=true
 - **--help**: Diese Hilfe anzeigen
 
 #### Ausführungsmodus
-Die Anwendung kann in verschiedenen Modi gestartet werden, die über npm-Skripte aufgerufen werden:
+Die Teil-Anwendungskomponenten können in verschiedenen Modi gestartet werden, die über npm-Skripte aufgerufen werden:
 
 ```bash
-npm start                # Standardmodus: Crawling, Analyse und API
-npm run start:api        # Nur API-Server starten
-npm run start:analyze    # Nur Analyse durchführen
-npm run start:skip-crawl # Analyse und API starten, ohne Crawling
 npm run start:crawl-only # Nur Crawling durchführen
+npm run start:analyze    # Nur Analyse durchführen
+npm run start:api        # Nur API-Server starten
+npm run start:skip-crawl # Analyse und API starten, ohne Crawling
+
 ```
 
 Für CI/CD-Umgebungen wie GitHub Actions kann der entsprechende Modus direkt aufgerufen werden:
@@ -169,7 +176,7 @@ jobs:
       - run: npm run start:crawl-only  # Nur Crawling durchführen
 ```
 
-### 2. Konfigurationsdateien
+### Konfigurationsdateien
 
 Die Konfiguration ist in mehrere Dateien aufgeteilt:
 
@@ -210,37 +217,6 @@ Die Konfiguration ist in mehrere Dateien aufgeteilt:
 - **maxConcurrentRequests**: Maximale Anzahl gleichzeitiger Anfragen (Standard: 50)
 - **connectionPoolSize**: Größe des Verbindungspools (Standard: 20)
 
-## Verwendung
-
-### Websites definieren
-
-Standardmäßig erwartet die Anwendung die `websites.json`-Datei im Verzeichnis `./data/websites.json` relativ zum aktuellen Arbeitsverzeichnis. Sie können jedoch auch einen benutzerdefinierten Pfad über die Umgebungsvariable `ROBOTS_CRAWLER_WEBSITES_PATH` oder beim Starten der Anwendung angeben.
-
-Die Datei sollte eine Liste von Websites im folgenden Format enthalten:
-
-```json
-[
-  {
-    "site": "https://www.example.com"
-  },
-  {
-    "site": "https://www.example.org"
-  }
-]
-```
-
-Wenn Sie die Datei im Hauptverzeichnis des Projekts platzieren möchten, können Sie die Anwendung wie folgt starten:
-
-```bash
-npm start -- --websitesPath=./websites.json
-```
-
-### Anwendung starten
-
-```bash
-npm start
-```
-
 ### Frontend starten
 
 Das Frontend befindet sich im Verzeichnis `src/frontend` und kann separat gestartet werden:
@@ -262,27 +238,6 @@ Die API wird automatisch gestartet, wenn die Hauptanwendung ohne die Option `--c
 - `GET /api/bots/:botName`: Liefert detaillierte Informationen zu einem bestimmten Bot
 - `GET /api/websites`: Liefert eine Liste aller analysierten Websites
 - `GET /api/websites/:domain`: Liefert detaillierte Informationen zu einer bestimmten Website
-- `GET /api/trends`: Liefert zeitliche Trends
-- `GET /api/search/bots?q=<Suchbegriff>`: Sucht nach Bots, die den Suchbegriff enthalten
-- `GET /api/search/websites?q=<Suchbegriff>`: Sucht nach Websites, die den Suchbegriff enthalten
-
-### Kommandozeilenoptionen
-
-```
-Robots.txt Crawler und Analyzer - Ein moderner Webcrawler zum Extrahieren und Analysieren von robots.txt-Dateien
-
-Verwendung:
-  npm run <Befehl>
-
-Befehle:
-  start                # Standardmodus: Crawling, Analyse und API
-  start:api            # Nur API-Server starten
-  start:analyze        # Nur Analyse durchführen
-  start:skip-crawl     # Analyse und API starten, ohne Crawling
-  start:crawl-only     # Nur Crawling durchführen
-
-
-```
 
 ## Ausgabe
 
@@ -348,25 +303,6 @@ Nach der Analyse werden folgende Dateien erstellt:
 3. **data/analysis/websites/**: Enthält für jede Website eine JSON-Datei mit Informationen zu den Bots, die in der robots.txt-Datei konfiguriert sind
 4. **data/analysis/trends/monthly-trends.json**: Enthält zeitliche Trends für Bots, Kategorien und Websites
 
-
-## Hinweise zur Implementierung
-
-### Verzeichnisstruktur und Kompilierung
-
-Die TypeScript-Dateien werden gemäß der Verzeichnisstruktur in das `dist`-Verzeichnis kompiliert. Die Hauptanwendungsdatei befindet sich nach der Kompilierung unter `dist/src/app.js`. Dies ist in der `package.json` entsprechend konfiguriert:
-
-```json
-{
-  "main": "dist/src/app.js",
-  "scripts": {
-    "build": "tsc",
-    "start": "node dist/src/app.js",
-    ...
-  }
-}
-```
-
-Diese Struktur spiegelt die Quellcode-Organisation wider, wobei die app.ts-Datei im src-Verzeichnis liegt und entsprechend in das dist/src-Verzeichnis kompiliert wird.
 
 ## Fehlerbehebung
 
