@@ -3,51 +3,175 @@ import { Bot } from '../types/Bot.ts';
 import { Website } from '../types/Website.ts';
 import { Summary } from '../types/Common.ts';
 
-const API_BASE_URL = 'http://localhost:3001/api';
+// Bestimme ob statische API oder Live-API verwendet werden soll
+const isStaticMode = process.env.REACT_APP_API_BASE_URL === '/RobotsTXTCrawler/api';
+const API_BASE_URL = isStaticMode ? '/RobotsTXTCrawler/api' : 'http://localhost:3001/api';
 
-const apiClient = axios.create({
+const apiClient = !isStaticMode ? axios.create({
   baseURL: API_BASE_URL,
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json',
   },
-});
+}) : null;
 
-// Response interceptor for error handling
-apiClient.interceptors.response.use(
-  (response: AxiosResponse) => response,
-  (error) => {
-    console.error('API Error:', error);
-    return Promise.reject(error);
+// Response interceptor for error handling (nur für Live-API)
+if (apiClient) {
+  apiClient.interceptors.response.use(
+    (response: AxiosResponse) => response,
+    (error) => {
+      console.error('API Error:', error);
+      return Promise.reject(error);
+    }
+  );
+}
+
+// Hilfsfunktion für statische API-Calls
+const fetchStaticData = async (endpoint: string) => {
+  try {
+    const response = await fetch(`${API_BASE_URL}${endpoint}.json`);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return await response.json();
+  } catch (error) {
+    console.error(`Error fetching static data from ${endpoint}:`, error);
+    throw error;
   }
-);
+};
 
 export const API = {
   // Summary endpoints
   getSummary: async (): Promise<Summary> => {
-    const response = await apiClient.get<Summary>('/summary');
+    if (isStaticMode) {
+      return await fetchStaticData('/analysis/summary');
+    }
+    const response = await apiClient!.get<Summary>('/summary');
     return response.data;
   },
 
   // Bot endpoints
   getBots: async (): Promise<Bot[]> => {
-    const response = await apiClient.get<Bot[]>('/bots');
+    if (isStaticMode) {
+      const botStats = await fetchStaticData('/bot-statistics');
+      
+      // Transformiere die Bots in das erwartete Format
+      const botList = Object.entries(botStats.bots).map(([name, botInfo]: [string, any]) => {
+        const totalWebsites = Object.values(botInfo.monthlyStats).reduce(
+          (sum: number, stats: any) => sum + stats.totalWebsites, 0
+        );
+        const allowedWebsites = Object.values(botInfo.monthlyStats).reduce(
+          (sum: number, stats: any) => sum + stats.allowedWebsites, 0
+        );
+        const disallowedWebsites = Object.values(botInfo.monthlyStats).reduce(
+          (sum: number, stats: any) => sum + stats.disallowedWebsites, 0
+        );
+        
+        return {
+          name,
+          category: botInfo.category,
+          owner: botInfo.owner,
+          description: botInfo.description,
+          website: botInfo.website,
+          totalWebsites,
+          allowedWebsites,
+          disallowedWebsites,
+          monthlyStats: botInfo.monthlyStats
+        };
+      });
+      
+      return botList;
+    }
+    const response = await apiClient!.get<Bot[]>('/bots');
     return response.data;
   },
 
   getBotByName: async (name: string): Promise<Bot> => {
-    const response = await apiClient.get<Bot>(`/bots/${encodeURIComponent(name)}`);
+    if (isStaticMode) {
+      const botStats = await fetchStaticData('/bot-statistics');
+      
+      if (botStats.bots && botStats.bots[name]) {
+        const botData = botStats.bots[name];
+        
+        // Lade Bot-Kategorien-Informationen
+        try {
+          const categories = await fetchStaticData('/analysis/bot-categories');
+          
+          let botDetails = null;
+          for (const [categoryKey, categoryData] of Object.entries(categories.categories)) {
+            const categoryBots = (categoryData as any).bots;
+            if (categoryBots && categoryBots[name]) {
+              botDetails = categoryBots[name];
+              break;
+            }
+          }
+          
+          return {
+            ...botData,
+            details: botDetails
+          };
+        } catch (err) {
+          console.warn('Fehler beim Laden der Bot-Kategorien:', err);
+          return botData;
+        }
+      } else {
+        throw new Error(`Bot "${name}" nicht gefunden`);
+      }
+    }
+    const response = await apiClient!.get<Bot>(`/bots/${encodeURIComponent(name)}`);
     return response.data;
   },
 
   // Website endpoints
   getWebsites: async (): Promise<Website[]> => {
-    const response = await apiClient.get<Website[]>('/websites');
+    if (isStaticMode) {
+      try {
+        return await fetchStaticData('/websites-list');
+      } catch (error) {
+        // Fallback: Leere Liste
+        return [];
+      }
+    }
+    const response = await apiClient!.get<Website[]>('/websites');
     return response.data;
   },
 
   getWebsiteByDomain: async (domain: string): Promise<Website> => {
-    const response = await apiClient.get<Website>(`/websites/${encodeURIComponent(domain)}`);
+    if (isStaticMode) {
+      return await fetchStaticData(`/analysis/websites/${domain}`);
+    }
+    const response = await apiClient!.get<Website>(`/websites/${encodeURIComponent(domain)}`);
+    return response.data;
+  },
+
+  // Zusätzliche Funktionen für statische API
+  getTrends: async () => {
+    if (isStaticMode) {
+      return await fetchStaticData('/analysis/trends/monthly-trends');
+    }
+    const response = await apiClient!.get('/trends');
+    return response.data;
+  },
+
+  searchBots: async (query: string): Promise<Bot[]> => {
+    if (isStaticMode) {
+      const bots = await API.getBots();
+      return bots.filter(bot => 
+        bot.name.toLowerCase().includes(query.toLowerCase())
+      );
+    }
+    const response = await apiClient!.get('/search/bots', { params: { q: query } });
+    return response.data;
+  },
+
+  searchWebsites: async (query: string): Promise<Website[]> => {
+    if (isStaticMode) {
+      const websites = await API.getWebsites();
+      return websites.filter((website: any) => 
+        website.domain.toLowerCase().includes(query.toLowerCase())
+      );
+    }
+    const response = await apiClient!.get('/search/websites', { params: { q: query } });
     return response.data;
   },
 

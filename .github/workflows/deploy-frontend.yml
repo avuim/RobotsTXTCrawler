@@ -1,0 +1,104 @@
+name: Deploy Frontend to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'src/frontend/**'
+      - 'data/**'
+      - '.github/workflows/deploy-frontend.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Frontend Build und Deploy Job
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+      
+      - name: Install frontend dependencies
+        run: |
+          cd src/frontend
+          npm ci
+      
+      - name: Prepare static data for frontend
+        run: |
+          cd src/frontend
+          # Erstelle API-Verzeichnis im Frontend
+          mkdir -p public/api
+          
+          # Kopiere verfügbare Analysedaten ins Frontend public Verzeichnis
+          if [ -f "../../data/bot-statistics.json" ]; then
+            cp ../../data/bot-statistics.json public/api/
+          fi
+          
+          if [ -d "../../data/analysis" ]; then
+            cp -r ../../data/analysis public/api/
+          fi
+          
+          # Erstelle Website-Liste falls Daten vorhanden
+          if [ -d "../../data/analysis/websites" ]; then
+            node -e "
+              const fs = require('fs');
+              const path = require('path');
+              const websitesDir = '../../data/analysis/websites';
+              const files = fs.readdirSync(websitesDir).filter(f => f.endsWith('.json'));
+              const websiteList = files.map(file => {
+                const domain = file.replace('.json', '');
+                try {
+                  const data = JSON.parse(fs.readFileSync(path.join(websitesDir, file), 'utf-8'));
+                  const bots = data.bots || [];
+                  return {
+                    domain: data.domain || domain,
+                    totalBots: bots.length,
+                    allowedBots: bots.filter(bot => bot.allowed === true).length,
+                    disallowedBots: bots.filter(bot => bot.allowed === false).length
+                  };
+                } catch (err) {
+                  return { domain, totalBots: 0, allowedBots: 0, disallowedBots: 0 };
+                }
+              });
+              fs.writeFileSync('public/api/websites-list.json', JSON.stringify(websiteList, null, 2));
+              console.log('Created website list with', websiteList.length, 'entries');
+            "
+          fi
+      
+      - name: Build frontend
+        run: |
+          cd src/frontend
+          # Setze API Base URL für GitHub Pages
+          echo "REACT_APP_API_BASE_URL=/RobotsTXTCrawler/api" > .env.production
+          
+          npm run build
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: 'src/frontend/build'
+      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
