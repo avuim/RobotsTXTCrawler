@@ -174,18 +174,16 @@ const WebsiteDetailPage: React.FC = () => {
   }
 
   // Erstelle Bot-Einträge aus den Website-Daten
-  const botEntries: BotEntry[] = [
-    ...(website.bots?.allowed || []).map((botName: string) => ({
-      name: botName,
-      category: getBotCategory(botName),
-      allowed: true
-    })),
-    ...(website.bots?.disallowed || []).map((botName: string) => ({
-      name: botName,
-      category: getBotCategory(botName),
-      allowed: false
-    }))
-  ];
+  const botEntries: BotEntry[] = website.bots ? website.bots.map((bot: any) => ({
+    name: bot.name,
+    category: getBotCategory(bot.name),
+    allowed: bot.allowed
+  })) : [];
+
+  // Berechne Statistiken aus den Bot-Einträgen
+  const totalBots = botEntries.length;
+  const allowedBots = botEntries.filter(bot => bot.allowed).length;
+  const disallowedBots = botEntries.filter(bot => !bot.allowed).length;
 
   return (
     <Layout pageTitle={`Website: ${decodedDomain}`}>
@@ -198,25 +196,25 @@ const WebsiteDetailPage: React.FC = () => {
             </InfoItem>
             <InfoItem>
               <InfoLabel>Anzahl Bots</InfoLabel>
-              <InfoValue>{website.totalBots?.toLocaleString() || '0'}</InfoValue>
+              <InfoValue>{totalBots.toLocaleString()}</InfoValue>
             </InfoItem>
             <InfoItem>
               <InfoLabel>Erlaubte Bots</InfoLabel>
               <InfoValue style={{ color: '#10b981' }}>
-                {website.allowedBots?.toLocaleString() || '0'}
+                {allowedBots.toLocaleString()}
               </InfoValue>
             </InfoItem>
             <InfoItem>
               <InfoLabel>Verbotene Bots</InfoLabel>
               <InfoValue style={{ color: '#ef4444' }}>
-                {website.disallowedBots?.toLocaleString() || '0'}
+                {disallowedBots.toLocaleString()}
               </InfoValue>
             </InfoItem>
             <InfoItem>
               <InfoLabel>Erlaubt-Quote</InfoLabel>
               <InfoValue>
-                {website.totalBots && website.totalBots > 0 
-                  ? `${((website.allowedBots / website.totalBots) * 100).toFixed(1)}%`
+                {totalBots > 0 
+                  ? `${((allowedBots / totalBots) * 100).toFixed(1)}%`
                   : '0%'
                 }
               </InfoValue>
