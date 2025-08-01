@@ -8,12 +8,21 @@ import BotDetailPage from './components/bots/BotDetailPage.tsx';
 import WebsiteListPage from './components/websites/WebsiteListPage.tsx';
 import WebsiteDetailPage from './components/websites/WebsiteDetailPage.tsx';
 
+// Bestimme basename basierend auf der Umgebung
+const getBasename = () => {
+  // In Entwicklung (localhost) kein basename verwenden
+  if (process.env.NODE_ENV === 'development') {
+    return '';
+  }
+  // In Produktion (GitHub Pages) basename verwenden
+  return '/RobotsTXTCrawler';
+};
 
 const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <Router basename="/RobotsTXTCrawler">
+      <Router basename={getBasename()}>
         <Routes>
           <Route path="/" element={<DashboardPage />} />
           <Route path="/bots" element={<BotListPage />} />

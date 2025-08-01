@@ -219,15 +219,43 @@ Die Konfiguration ist in mehrere Dateien aufgeteilt:
 
 ### Frontend starten
 
-Das Frontend befindet sich im Verzeichnis `src/frontend` und kann separat gestartet werden:
+Das Frontend befindet sich im Verzeichnis `src/frontend` und kann sowohl für lokale Entwicklung als auch für GitHub Pages konfiguriert werden.
+
+#### Lokale Entwicklung
+
+Für die lokale Entwicklung mit korrektem Routing:
 
 ```bash
 cd src/frontend
 npm install
-npm start
+npm start  # Verwendet automatisch umgebungsabhängige Konfiguration
 ```
 
-Das Frontend ist dann unter `http://localhost:3000` erreichbar.
+Das Frontend ist dann unter `http://localhost:3000` erreichbar und funktioniert mit Standard-Routing (z.B. `http://localhost:3000/websites/example.com`).
+
+**Wichtig**: Das `start` Script wurde so konfiguriert, dass es automatisch die korrekte Routing-Konfiguration für lokale Entwicklung verwendet (ohne `/RobotsTXTCrawler` Prefix).
+
+#### GitHub Pages Deployment
+
+Für das Deployment auf GitHub Pages wird automatisch die korrekte Konfiguration verwendet:
+
+```bash
+cd src/frontend
+npm run build  # Verwendet GitHub Pages Konfiguration mit /RobotsTXTCrawler Prefix
+```
+
+#### Umgebungsabhängige Konfiguration
+
+Das Frontend erkennt automatisch die Umgebung:
+
+- **Entwicklung** (`NODE_ENV=development`): Kein basename, API läuft auf `http://localhost:3001`
+- **Produktion** (GitHub Pages): Basename `/RobotsTXTCrawler`, statische API-Daten
+
+#### Verfügbare Scripts
+
+- `npm start` / `npm run start:dev`: Lokale Entwicklung mit korrektem Routing
+- `npm run build`: Produktions-Build für GitHub Pages
+- `npm run build:dev`: Entwicklungs-Build ohne GitHub Pages Prefix
 
 ### API verwenden
 
