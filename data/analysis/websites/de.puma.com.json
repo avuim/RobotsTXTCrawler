@@ -1,0 +1,38 @@
+{
+  "domain": "de.puma.com",
+  "normalizedDomain": "de.puma.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "trendictionbot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "360Spider",
+      "allowed": false
+    },
+    {
+      "name": "HaosouSpider",
+      "allowed": false
+    },
+    {
+      "name": "Pinterestbot",
+      "allowed": false
+    }
+  ]
+}

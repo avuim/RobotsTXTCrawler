@@ -1,0 +1,14 @@
+{
+  "domain": "www.primark.com",
+  "normalizedDomain": "www.primark.com",
+  "bots": [
+    {
+      "name": "StoreBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

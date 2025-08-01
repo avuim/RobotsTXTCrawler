@@ -1,0 +1,18 @@
+{
+  "domain": "www.etoro.com",
+  "normalizedDomain": "www.etoro.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "BaiduSpider",
+      "allowed": true
+    },
+    {
+      "name": "heritrix",
+      "allowed": false
+    }
+  ]
+}

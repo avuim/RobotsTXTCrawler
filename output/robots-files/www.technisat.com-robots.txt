@@ -1,0 +1,43 @@
+User-agent: *
+Disallow: /img/
+Allow: /img/fw/
+Disallow: /assets/
+Disallow: /chat/
+Disallow: /ajax/
+Disallow: /newsletter/
+Disallow: /isiolive/
+Disallow: /?pvergleich_add
+Disallow: /?*&pvergleich_add
+Disallow: /?pvergleich_remove
+Disallow: /de_DE/Grillen-Braten-Kochen/352-100099/
+
+
+User-agent: Googlebot
+Disallow: /ajax/
+Disallow: /newsletter/
+Disallow: /isiolive/
+Disallow: /?pvergleich_add
+Disallow: /?*&pvergleich_add
+Disallow: /?pvergleich_remove
+
+
+User-agent: Googlebot-Image
+Allow: /img/fw/
+Disallow: /img/
+Disallow: /assets/
+Disallow: /newsletter/
+Disallow: /isiolive/
+
+# Sitemap files
+Sitemap: https://www.technisat.com/data/sitemap/6/sitemap.xml
+Sitemap: https://www.technisat.com/data/sitemap/10/sitemap.xml
+Sitemap: https://www.technisat.com/data/sitemap/199/sitemap.xml
+Sitemap: https://www.technisat.com/data/sitemap/607/sitemap.xml
+Sitemap: https://www.technisat.com/data/sitemap/784/sitemap.xml
+Sitemap: https://www.technisat.com/data/sitemap/937/sitemap.xml
+Sitemap: https://www.technisat.com/data/sitemap/352/sitemap.xml
+Sitemap: https://www.technisat.com/data/sitemap/352/de_DE.xml
+Sitemap: https://www.technisat.com/data/sitemap/352/de_AT.xml
+Sitemap: https://www.technisat.com/data/sitemap/352/de_CH.xml
+Sitemap: https://www.technisat.com/data/sitemap/352/en_XX.xml
+Sitemap: https://www.technisat.com/data/sitemap/352/pl_PL.xml

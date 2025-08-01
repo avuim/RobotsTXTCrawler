@@ -1,0 +1,38 @@
+{
+  "domain": "www.geers.de",
+  "normalizedDomain": "www.geers.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot-Mobile",
+      "allowed": true
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "SEMrushBot",
+      "allowed": false
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    }
+  ]
+}

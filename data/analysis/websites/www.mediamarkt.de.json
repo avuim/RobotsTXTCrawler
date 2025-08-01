@@ -1,0 +1,174 @@
+{
+  "domain": "www.mediamarkt.de",
+  "normalizedDomain": "www.mediamarkt.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Storebot-Google",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true
+    },
+    {
+      "name": "Operator",
+      "allowed": true
+    },
+    {
+      "name": "Claude-SearchBot",
+      "allowed": true
+    },
+    {
+      "name": "Claude-User",
+      "allowed": true
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": true
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": true
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
+      "name": "Google-CloudVertexBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "Applebot",
+      "allowed": true
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": true
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": true
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": true
+    },
+    {
+      "name": "Meta-ExternalFetcher",
+      "allowed": true
+    },
+    {
+      "name": "Perplexity-User",
+      "allowed": true
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true
+    },
+    {
+      "name": "Bytespider",
+      "allowed": true
+    },
+    {
+      "name": "TikTokSpider",
+      "allowed": true
+    },
+    {
+      "name": "MistralAI-User",
+      "allowed": false
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false
+    },
+    {
+      "name": "PanguBot",
+      "allowed": false
+    },
+    {
+      "name": "iaskspider",
+      "allowed": false
+    },
+    {
+      "name": "Timpibot",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "DigitalOceanGenAICrawler",
+      "allowed": false
+    },
+    {
+      "name": "Sidetrade",
+      "allowed": false
+    },
+    {
+      "name": "ISSCyberRiskCrawler",
+      "allowed": false
+    },
+    {
+      "name": "img2dataset",
+      "allowed": false
+    },
+    {
+      "name": "imgproxy",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "Cotoyogi",
+      "allowed": false
+    },
+    {
+      "name": "FriendlyCrawler",
+      "allowed": false
+    },
+    {
+      "name": "NovaAct",
+      "allowed": false
+    },
+    {
+      "name": "YouBot",
+      "allowed": false
+    },
+    {
+      "name": "aiHitBot",
+      "allowed": false
+    }
+  ]
+}

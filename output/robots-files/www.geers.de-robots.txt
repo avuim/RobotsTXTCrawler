@@ -1,0 +1,33 @@
+# robots.txt for https://www.geers.de/
+
+# Allow all web crawlers full access
+User-agent: *
+Disallow:
+
+# Allow all content for Googlebot-Mobile
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Specific SEO Crawlers user agents have full crawl access
+User-agent: AhrefsBot
+Disallow: 
+
+User-agent: MJ12bot
+Disallow: 
+
+User-agent: SEMrushBot
+Disallow: 
+
+# Special Directives for Ads Bots
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+# Blocking Everything for GPTBot
+User-agent: GPTBot 
+Disallow: /
+
+# Sitemap
+Sitemap: https://www.geers.de/sitemap.xml

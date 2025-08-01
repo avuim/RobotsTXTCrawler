@@ -1,0 +1,21 @@
+User-agent: QualidatorSiteAnalyzer
+User-agent: QualidatorWebSiteAnalyzer
+User-agent: QualidatorBot
+Disallow: /
+
+User-agent: *
+Disallow: /diba-forms/jobapplication/
+Disallow: /newforms3/plz-pruefung/layer_form/
+Disallow: /newforms4/depotuebertrag/
+Disallow: /presse/pressecenter/details/
+Disallow: /templates/
+Disallow: /ueber-uns/happybanking/
+Disallow: /ueber-uns/wissenswert/wissenswert_markup_liste.ssi
+Disallow: /vorteile/presse/pressemitteilungen/noheader/
+Disallow: /werbung/
+Disallow: /imperia/md/content/partner/intern/
+Disallow: */hidden/
+Disallow: /app/
+Disallow: /static/usercentrics/
+
+Sitemap: https://www.ing.de/sitemap.xml

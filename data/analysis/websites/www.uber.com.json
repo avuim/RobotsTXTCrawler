@@ -1,0 +1,18 @@
+{
+  "domain": "www.uber.com",
+  "normalizedDomain": "www.uber.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": false
+    }
+  ]
+}

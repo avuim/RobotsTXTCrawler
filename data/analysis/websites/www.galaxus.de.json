@@ -1,0 +1,26 @@
+{
+  "domain": "www.galaxus.de",
+  "normalizedDomain": "www.galaxus.de",
+  "bots": [
+    {
+      "name": "sogou spider",
+      "allowed": false
+    },
+    {
+      "name": "Yandex",
+      "allowed": false
+    },
+    {
+      "name": "EventMachine HttpClient",
+      "allowed": false
+    },
+    {
+      "name": "niki-bot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "domain": "www.otto.de",
+  "normalizedDomain": "www.otto.de",
+  "bots": [
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "Adsbot-Google",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

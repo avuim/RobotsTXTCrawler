@@ -1,0 +1,18 @@
+User-agent: *
+Disallow: /pbc/
+Disallow: /forms/
+Disallow: /pdf/
+Disallow: /cip/
+Disallow: /dam/deutschebank/de/shared/files/
+Disallow: /dam/deutschebank/de/shared/trxm/pdf/tb-gutscheine/
+Disallow: /dam/deutschebank/de/shared/miles-and-more/
+Disallow: /content/dam/deutschebank/de/shared/pdf/mitarbeiterfiliale/uebersicht-leistungsspektrum-mitarbeiterkonditionen-deutsche-bank-mitarbeiterfilialen.pdf
+Disallow: /content/dam/deutschebank/de/shared/pdf/mitarbeiterfiliale/konditionen-im-mitarbeitergeschaeft-deutsche-bank-mitarbeiterfilialen.pdf
+Disallow: /content/dam/deutschebank/de/shared/pdf/mitarbeiterfiliale/leistungsspektrum-mitarbeiterkonditionen-deutsche-bank-mitarbeiterfilialen.pdf
+Disallow: /content/dam/deutschebank/de/shared/pdf/mitarbeiterfiliale/konditionen-mitarbeitergeschaeft-deutsche-bank-mitarbeiterfilialen.pdf
+
+User-agent: DBSearch
+Disallow: /css/
+
+Sitemap: https://www.deutsche-bank.de/sitemap.xml 
+

@@ -1,0 +1,33 @@
+# robots txt for zooplus
+# created 07.10.2019
+#
+Sitemap: https://www.zooplus.de/info/sitemap.xml
+Sitemap: https://www.zooplus.de/de/l2/sitemap.xml
+Sitemap: https://www.zooplus.de/de/l3/sitemap.xml
+Sitemap: https://www.zooplus.de/de/l4/sitemap.xml
+Sitemap: https://www.zooplus.de/de/details/sitemap.xml
+Sitemap: https://www.zooplus.de/de/tactical/sitemap.xml
+
+Sitemap: https://www.zooplus.de/magazin/sitemap/post-sitemap.xml
+Sitemap: https://www.zooplus.de/magazin/sitemap/page-sitemap.xml
+User-agent: *
+Disallow: /ov?
+Disallow: /detailedQuestion.htm$
+
+User-agent: bingbot
+Disallow: /ov?
+Disallow: /detailedQuestion.htm$
+Crawl-delay: 5
+
+User-agent: msnbot
+Disallow: /ov?
+Disallow: /detailedQuestion.htm$
+Crawl-delay: 5
+
+User-agent: msnbot-media
+Disallow: /ov?
+Disallow: /detailedQuestion.htm$
+Crawl-delay: 5
+
+User-agent: ia_archiver
+Disallow: /

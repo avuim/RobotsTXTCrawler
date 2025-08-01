@@ -1,0 +1,26 @@
+{
+  "domain": "www.ebay.de",
+  "normalizedDomain": "www.ebay.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "bingbot",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": false
+    },
+    {
+      "name": "AdIdxBot",
+      "allowed": false
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+# ( ___( \/ ( ___/ __)   _| |_   (  \/  (  _  (  _ ( ___)
+#  )__) \  / )__)\__ \  (_   _)   )    ( )(_)( )   /)__) 
+# (____)(__)(____(___/    |_|    (_/\/\_(_____(_)\_(____)
+# @Competition, thanks for visiting
+# Only friendly fire here, hope you do the same 
+# (⌐O_O) >> ⌐O-O > ⌐■-■ >> (⌐■_■)
+
+User-agent: *
+
+# SFCC Paths - Check Pipelines in URL Rules Setup
+Disallow: /warenkorb/*
+Disallow: /pagemeta-*
+Disallow: /glassbook-hidden*
+Disallow: /checkout*
+Disallow: */TryInStore-AddProduct*
+Disallow: /order*
+
+
+# Parameters
+Disallow: *?fdid=*
+Disallow: *?pid=*
+Disallow: *?hideCategory=*
+Disallow: /search*
+Disallow: *?cgid=*
+Disallow: *Login-Show?*
+Disallow: */demandware.store/*
+Disallow: *?prefv1=*
+Disallow: *?prefn1=*
+Disallow: *?srule=*
+Disallow: *?pmax=*
+Disallow: *?src=*
+Disallow: *?prefv2=*
+Disallow: *?prefn2=*
+Disallow: *?prefv3=*
+Disallow: *?prefn3=*
+Disallow: *?prefv4=*
+Disallow: *?prefn4=*
+Disallow: *?prefv5=*
+Disallow: *?prefn5=*
+Disallow: *?prefv6=*
+Disallow: *?prefn6=*
+Disallow: *?pmin=*
+Disallow: *?start=*
+Disallow: *Promotion-XML*
+Allow: *?start=*sz=24*
+
+# hier adres van index sitemap
+Sitemap: https://www.eyesandmore.de/sitemap_index.xml

@@ -1,0 +1,16 @@
+User-agent: *
+Crawl-delay: 10
+Disallow: /team.htm
+Disallow: /notre-equipe.htm
+Disallow: /car_detail.php
+Disallow: /ajax/offer/conditions.php
+Disallow: /countdown-auktion-anmeldung.php
+Disallow: /feedbacks/
+Disallow: /karriere/teammitglieder/
+Disallow: /account/registration/beta.php
+
+User-agent: AdsBot-Google
+Disallow: /car_detail.php
+Disallow: /ajax/offer/conditions.php
+
+Sitemap: https://www.billiger-mietwagen.de/sitemap.xml

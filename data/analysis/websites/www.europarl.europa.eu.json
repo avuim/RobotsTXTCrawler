@@ -1,0 +1,14 @@
+{
+  "domain": "www.europarl.europa.eu",
+  "normalizedDomain": "www.europarl.europa.eu",
+  "bots": [
+    {
+      "name": "008",
+      "allowed": true
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

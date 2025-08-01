@@ -1,0 +1,14 @@
+{
+  "domain": "www.plan.de",
+  "normalizedDomain": "www.plan.de",
+  "bots": [
+    {
+      "name": "Googlebot-News",
+      "allowed": true
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

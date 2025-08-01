@@ -1,0 +1,12 @@
+#seven.one robots.txt - last update: 20/06/2024
+
+User-Agent: *
+Disallow: *?p_p_id=
+Disallow: *?p_p_state=
+Disallow: *?t=
+Disallow: *?img_id=
+Disallow: *?portletId=
+Disallow: *?version=
+Disallow: */login?redirect=
+
+Sitemap: https://www.seven.one/sitemap.xml

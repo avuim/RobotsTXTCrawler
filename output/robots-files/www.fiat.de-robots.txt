@@ -1,0 +1,16 @@
+User-agent: *
+
+Disallow: /content/dam/fiat/formpdf
+Disallow: */nodotrimpadre
+Disallow: *.pdf$
+Disallow: */tabs-container
+Disallow: */pack-detail-carousel
+Disallow: */packs/
+Disallow: */CarouselAdditionalSlides
+Disallow: *backup
+Disallow: *-old
+Disallow: */engines/
+
+Sitemap: https://www.fiat.de/sitemap.xml
+
+Sitemap: https://www.fiat.de/mopar/sitemap.xml

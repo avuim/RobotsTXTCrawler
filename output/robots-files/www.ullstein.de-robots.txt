@@ -1,0 +1,17 @@
+# robots.txt for https://www.ullstein.de/
+
+sitemap: https://www.ullstein.de/sitemaps-2-sitemap.xml
+
+# live - don't allow web crawlers to index frontend-only routes
+
+User-agent: *
+Disallow: /search
+Disallow: /cart
+Disallow: /cookiePrefs
+Disallow: /newsletter/preferences
+Disallow: /newsletter/thanks
+Disallow: /gewinnspiele
+
+User-agent: AhrefsBot
+Disallow: /
+

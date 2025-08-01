@@ -1,0 +1,13 @@
+User-Agent: *
+
+Allow: /DependencyHandler.axd
+
+Disallow: /aspnet_client/
+Disallow: /bin/
+Disallow: /config/
+Disallow: /umbraco/
+Disallow: /umbraco_client/
+Disallow: /usercontrols/
+Disallow: /*.axd
+
+Sitemap: https://www.stada.de/sitemap

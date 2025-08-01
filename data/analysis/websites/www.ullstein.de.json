@@ -1,0 +1,14 @@
+{
+  "domain": "www.ullstein.de",
+  "normalizedDomain": "www.ullstein.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    }
+  ]
+}

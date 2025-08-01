@@ -1,0 +1,22 @@
+{
+  "domain": "www.bosch.de",
+  "normalizedDomain": "www.bosch.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Mindbreeze-P",
+      "allowed": true
+    },
+    {
+      "name": "facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
+    }
+  ]
+}

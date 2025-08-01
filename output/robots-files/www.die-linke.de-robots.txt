@@ -1,0 +1,52 @@
+# allgemein
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /archiv/
+Disallow: /logfiles/
+Disallow: /logfiles.kreise/
+Disallow: /seite_versenden/
+Disallow: /statistik/
+Disallow: /test/
+Disallow: /typo3/
+Disallow: /typo3conf/
+Disallow: /druckversion.html
+Disallow: /download.pdf
+Disallow: /*&type=*
+Disallow: /*&swords=*
+Disallow: /*&eID=*
+Disallow: /*&tipURL=*
+Disallow: /*&cHash=*
+Disallow: /baustelle.html
+Disallow: /service/seite_versenden
+Disallow: /service/suche
+Disallow: /partei/weitere_strukturen/andere_gremien/marxistischer_arbeitskreis/geschichtskorrespondenz
+Disallow: /partei/weiterestrukturen/anderegremien/marxistischerarbeitskreis/geschichtskorrespondenz
+Disallow: /index.php?id=882$
+Disallow: /fileadmin/download/geschichtskorrespondenz/
+Disallow: /vorlagen/
+Disallow: /suche/
+Disallow: /index.php?id=15002
+Disallow: /politik/aktionen/zukunftskongress-2015/wortmeldungen-intern
+Disallow: /politik/aktionen/linke-woche-der-zukunft/wortmeldungen-intern
+Disallow: /politik/disput/archiv/detail/artikel/dominik-dueber
+Disallow: /fileadmin/download/zusammenschlüsse/mak/geschichtskorrespondenz/*
+Crawl-delay: 1
+
+# Boese Bots
+User-agent: jobs.de-Robot
+Disallow: /
+
+User-agent: JobSpider
+Disallow: /
+
+User-agent: iCjobs
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: Ezooms
+Disallow: /
+
+User-agent: BUbiNG
+Disallow: /

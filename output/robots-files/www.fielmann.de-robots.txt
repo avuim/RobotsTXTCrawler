@@ -1,0 +1,16 @@
+User-agent: *
+Allow: *
+Disallow: */checkout/
+Disallow: */success/
+Disallow: /account/
+Disallow: /wishlist/
+Disallow: /basket/
+Disallow: /order/
+Disallow: /search/
+Sitemap: https://www.fielmann.de/sitemap_index.xml
+User-agent: BLEXBot
+User-agent: dotbot
+User-agent: MJ12bot
+User-agent: Barkrowler
+User-agent: Optimizer
+Disallow: /

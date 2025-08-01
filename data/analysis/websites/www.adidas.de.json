@@ -1,0 +1,14 @@
+{
+  "domain": "www.adidas.de",
+  "normalizedDomain": "www.adidas.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    }
+  ]
+}

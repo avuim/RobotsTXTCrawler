@@ -1,0 +1,22 @@
+{
+  "domain": "www.walbusch.de",
+  "normalizedDomain": "www.walbusch.de",
+  "bots": [
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true
+    },
+    {
+      "name": "AdIdxBot",
+      "allowed": true
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# robots.txt
+
+User-agent: msnbot
+Crawl-delay: 1
+
+User-agent: bingbot
+Crawl-delay: 1
+
+User-agent: lyticsbot
+Crawl-delay: 10
+
+User-agent: *
+
+Sitemap: https://www.universal-music.de/sitemap/www.universal-music.de_sitemap.xml
+Sitemap: https://www.universal-music.de/sitemap/www.universal-music.de_news_sitemap.xml
+Sitemap: https://www.universal-music.de/sitemap/www.universal-music.de_images_sitemap.xml
+Sitemap: https://www.universal-music.de/sitemap/www.universal-music.de_video_sitemap.xml

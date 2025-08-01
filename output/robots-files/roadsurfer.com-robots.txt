@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: /*?
+Disallow: /wp-admin/
+Disallow: /wp-content/wp-rocket-config/
+Disallow: /wp-login.php
+Disallow: */clkn/*
+Disallow: */clkg/*
+
+Sitemap: https://roadsurfer.com/sitemap_index.xml

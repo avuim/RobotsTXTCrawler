@@ -1,0 +1,37 @@
+
+
+User-agent: *
+Disallow: /crsc/
+Disallow: /content/
+Disallow: /healthcare/crsc/
+Sitemap: https://www.philips.de/sitemap-B2C-de_DE-web-index.xml
+Sitemap: https://www.philips.de/sitemap-B2B_HC-de_DE-web-index.xml
+Sitemap: https://www.philips.de/sitemap-corporate-de_DE-web-index.xml
+Sitemap: https://www.philips.de/prx/sitemap-B2C-de_DE-sfdc-index.xml
+Sitemap: https://www.philips.de/prx/sitemap-B2C-de_DE-products-index.xml
+Disallow: /healthcare/solutions/ultraschall/intervention/transeusophageale-echo
+Disallow: /healthcare/solutions/ultraschall/gefaessdiagnostik/unser-software
+Disallow: /healthcare/solutions/ultraschall/intervention/unser-system
+Disallow: /healthcare/solutions/ultraschall/gefaessdiagnostik/unser-system
+Disallow: /healthcare/solutions/ultraschall/kardiologie/unser-software
+Disallow: /healthcare/solutions/ultraschall/allgemeine-bildgebung-sonographie/unser-software
+Disallow: /healthcare/solutions/ultraschall/notfallmedizin/unser-system
+Disallow: /healthcare/solutions/ultraschall/allgemeine-bildgebung-sonographie/unser-system
+Disallow: /healthcare/solutions/ultraschall/gynaekologie-und-geburtshilfe/unser-system
+Disallow: /healthcare/solutions/ultraschall/kardiologie/unser-system
+Disallow: /healthcare/resources/landing/azurion/clinical-carousel
+Disallow: /shop/search
+Disallow: /shop/DE_Zahnarztempfehlung/
+Disallow: /shop/DE_Mitarbeiterangebot/login
+Disallow: /shop/DE_Mitarbeiterangebot/cart
+Disallow: /shop/DE_Mitarbeiterangebot//faq
+Disallow: /healthcare/resources/n13-config-pages/
+Disallow: /healthcare/sandbox/
+Disallow: /a-w/sandbox/
+Disallow: /c-w/sandbox/
+Disallow: /sandbox
+Disallow: */n19_*
+Disallow: /healthcare/sandbox
+Disallow: /a-w/sandbox
+Disallow: /c-w/sandbox
+

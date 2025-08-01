@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /*.swf$
+Disallow: /*?theme=
+Disallow: /*?cookiesAllowed=
+Disallow: /*?page=
+Disallow: /redirect/
+Disallow: /site/axa-de/get/
+Disallow: /site/axa-de/search/
+Disallow: /flipviewer/
+Disallow: /mediathek/audio/*
+
+Sitemap: https://www.axa.de/sitemap.xml

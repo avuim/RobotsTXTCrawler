@@ -1,0 +1,26 @@
+# START nuxt-robots (indexable)
+User-agent: *
+Allow: /*css?
+Allow: /*js?
+Allow: /filialfinder/
+Allow: /vyhledat-prodejnu/
+Allow: /znajdz-sklep/
+Allow: /filiaalzoeker/
+Allow: /*?*page=1&
+Allow: /*?*page=2&
+Allow: /*?*page=3&
+Allow: /*?*page=1$
+Allow: /*?*page=2$
+Allow: /*?*page=3$
+Allow: /search?*search=*
+Allow: /*?utm_source=SEA*
+Allow: /*?utm_source=SEAB*
+Disallow: /*?
+Disallow: /c/searchresult/
+Disallow: /my-account/
+Disallow: /checkout/
+Disallow: /*?*page=
+Disallow: /storefinderAssets
+
+Sitemap: https://www.kik.de/sitemap-index.xml
+# END nuxt-robots

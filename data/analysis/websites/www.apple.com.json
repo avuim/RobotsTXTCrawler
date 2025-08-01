@@ -1,0 +1,30 @@
+{
+  "domain": "www.apple.com",
+  "normalizedDomain": "www.apple.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": true
+    },
+    {
+      "name": "HaoSouSpider",
+      "allowed": true
+    },
+    {
+      "name": "Sogou web spider",
+      "allowed": true
+    },
+    {
+      "name": "Sogou inst spider",
+      "allowed": true
+    },
+    {
+      "name": "Sogou spider2",
+      "allowed": true
+    }
+  ]
+}

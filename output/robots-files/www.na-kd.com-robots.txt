@@ -1,0 +1,59 @@
+User-agent: *
+
+Allow: /
+
+Disallow: */checkout 
+Disallow: /*zendesk
+Disallow: /*nakdwardrobe*
+
+## Do not index the shared files EPI 
+
+Disallow: /*catwalk$ 
+Disallow: /*ReturnUrl*
+
+# Sitemap Index Files
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=0&language=da-DK
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=1&language=da-DK
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=2&language=da-DK
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=3&language=da-DK
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=4&language=da-DK
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=0&language=de-DE
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=1&language=de-DE
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=2&language=de-DE
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=3&language=de-DE
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=4&language=de-DE
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=0&language=en-US
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=1&language=en-US
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=2&language=en-US
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=3&language=en-US
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=4&language=en-US
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=0&language=fr-FR
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=1&language=fr-FR
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=2&language=fr-FR
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=3&language=fr-FR
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=4&language=fr-FR
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=0&language=nb-NO
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=1&language=nb-NO
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=2&language=nb-NO
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=3&language=nb-NO
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=4&language=nb-NO
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=0&language=nl-NL
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=1&language=nl-NL
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=2&language=nl-NL
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=3&language=nl-NL
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=4&language=nl-NL
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=0&language=pl-PL
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=1&language=pl-PL
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=2&language=pl-PL
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=3&language=pl-PL
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=4&language=pl-PL
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=0&language=sv-SE
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=1&language=sv-SE
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=2&language=sv-SE
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=3&language=sv-SE
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=4&language=sv-SE
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=0&language=fi-FI
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=1&language=fi-FI
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=2&language=fi-FI
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=3&language=fi-FI
+Sitemap: https://www.na-kd.com/sitemap?ssw=1&batch=4&language=fi-FI

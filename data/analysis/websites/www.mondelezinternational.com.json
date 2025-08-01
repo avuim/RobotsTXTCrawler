@@ -1,0 +1,14 @@
+{
+  "domain": "www.mondelezinternational.com",
+  "normalizedDomain": "www.mondelezinternational.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    }
+  ]
+}

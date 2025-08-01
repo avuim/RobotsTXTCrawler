@@ -1,0 +1,22 @@
+{
+  "domain": "www.netflix.com",
+  "normalizedDomain": "www.netflix.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "Adidxbot",
+      "allowed": true
+    },
+    {
+      "name": "Facebot",
+      "allowed": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# robots.txt zu https://www.barmenia.de
+
+User-agent: *
+Disallow: /deu/fehler/
+Disallow: /deu/suche/
+Disallow: /deu/technische-seiten/
+Disallow: /deu/pressespiegel/
+Disallow: /deu/produkte/
+Disallow: /deu/externe_verlinkungen/
+Disallow: /media/global_media/pressespiegel/
+
+Sitemap: https://www.barmenia.de/xml_sitemap.xml

@@ -1,0 +1,21 @@
+User-agent: *
+
+Disallow: /*product-*
+Disallow: /*productlinks*
+Disallow: /*asam-acf-gallery*
+Disallow: /*catalog*
+Disallow: /*component*
+Disallow: /*contentful*
+Disallow: /*filterage*
+Disallow: /*home_infomercial_*
+Disallow: /*result*
+Disallow: /*test*
+Disallow: /*variant=
+Disallow: /*view/*
+Disallow: /middleware-rest/V1/get-ip
+Disallow: /.html
+
+Allow: /static/media/*
+#uptime
+
+Sitemap: https://www.asambeauty.com/media/sitemap/masam/de_DE/sitemap.xml

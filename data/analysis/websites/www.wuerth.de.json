@@ -1,0 +1,18 @@
+{
+  "domain": "www.wuerth.de",
+  "normalizedDomain": "www.wuerth.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot",
+      "allowed": false
+    },
+    {
+      "name": "Slurp",
+      "allowed": false
+    }
+  ]
+}

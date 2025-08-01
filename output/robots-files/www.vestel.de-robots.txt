@@ -1,0 +1,1883 @@
+
+    
+
+
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6JGGV7F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+
+
+
+    
+    
+    
+        
+
+
+        
+            
+        
+    
+﻿
+
+
+#mobile-header{
+border-bottom: #df2027
+}
+
+
+
+TV 
+
+
+
+	
+	QLED 4K
+	
+	
+	OLED 4K
+	
+	
+	4K TV
+	
+	
+	MINI LED
+	
+	
+	HD
+	
+	
+	FHD
+	
+	
+	TRAGBARE FERNSEHER
+	
+	
+	ALLE FERNSEHER
+	
+
+
+
+HAUSHALTSGROßGERÄTE 
+
+
+
+	
+	
+	KÜHLEN & GEFRIEREN
+
+	
+	
+		Side-by-Side/Multi-Door
+		Kühl- Gefrierkombinationen
+		Kühlschränke
+		Tischkühlrschränke
+		Gefrierschränke
+		Retro-Serie
+		Vestel x Aslı Filinta Retro Serie
+		Alle Kühlen & Gefrieren
+	
+	
+	
+
+	
+	WASCHEN & TROCKNEN 
+
+	
+	
+		Waschmaschinen
+		Trockner
+	
+	
+	
+
+	
+	SPÜLEN 
+
+	
+	
+		Freistehende Geschirrspülmaschinen
+		Retro Geschirrspülmaschinen
+		Vestel x Aslı Filinta Retro Serie
+		Alle Geschirrspülmaschinen
+	
+	
+	
+
+	
+	KOCHEN & BACKEN
+
+	
+	
+		Freistehende Standherde
+		Alle Kochen & Backen
+	
+	
+	
+
+	ALLE HAUSHALTSGROßGERÄTE 
+	
+
+
+
+EINBAUGROßGERÄTE 
+
+
+
+	
+	EINBAUHERD-SET
+	
+	
+	
+	KÜHLEN
+
+	
+	
+		Einbau Kühlschränke
+		Einbau Tischkühlrschränke
+		Einbau Kühl - Gefrierkombinationen
+		Alle Einbaukühlschränke 
+	
+	
+	
+	
+	
+	
+	SPÜLEN
+
+	
+	
+		Vollintegrierbar Geschirrspülmaschinen
+		Teilintegrierbar Geschirrspülmaschinen 
+		Alle Geschirrspülmaschinen
+	
+	
+	
+	
+	
+	
+	KOCHEN & BACKEN
+
+	
+	
+		Backöfen
+		Kochfelder
+		Dunstabzugshauben
+		Alle Koch- & Backgeräte
+	
+	
+
+	ALLE EINBAUGROßGERÄTE
+	
+	
+
+
+
+BODENPFLEGE 
+
+
+BODENSTAUBSAUGER
+
+
+	
+	AKKU-STAUBSAUGE 
+	
+	
+	ALLE BODENPFLEGE
+	
+
+
+
+HAUSHALTSGERÄTE
+
+
+
+	
+	ALLE HAUSHALTSGERÄTE
+
+	
+	KAFFEE
+
+	
+	
+		Kaffee & Espressovolautomaten
+		Siebträgermaschinen
+		Siebträger
+		Filterkaffee
+		Türkischer Mokka
+		Alle Kaffeemaschinen
+	
+	
+	
+	
+	
+	TOASTER
+	
+	
+	WASSERKOCHER
+	
+	
+	VAKUUMIERGERÄTE
+	
+	
+	SMOOTHIE MAKER
+	
+	
+	AIRFRYER
+	
+	
+	BLENDER
+	
+	
+	KÜCHENMASCHINE
+	
+
+
+
+MOBILITY
+
+
+
+	
+	EVC01 
+	
+	
+	EVC01 STAND
+	
+
+
+
+
+
+
+
+    
+        Kampagnen
+        Vestel Services
+    
+    
+        Service
+        Unsere Shops
+        Unternehmenslösungen
+        Über uns
+        
+        
+        Sendungsverfolgung
+    
+
+
+    
+    
+
+    
+        
+            
+
+	Privatkundenverkauf 
+	Unternehmenslösungen 
+
+
+
+            
+                
+                    Service
+                    Unsere Shops
+                    
+                    
+                    Sendungsverfolgung
+                
+            
+        
+    
+
+    
+        
+            
+                
+                    
+                        V
+                        
+                    
+                    
+                        VESTEL
+                    
+                    
+
+
+	Über Uns
+	Kampagnen
+
+
+
+                
+                
+                    
+                        
+
+
+    
+        
+            
+            
+        
+    
+    
+    
+
+
+
+    var timeOut = null;
+    $(function () {
+        //alert(!!navigator.platform && /iPhone/.test(navigator.platform))
+        $("#btnsearch").on('click', function () {
+            var searchKey = $("#txtsearch").val();
+            searchKey = searchKey.split(" ").join("");
+
+            if (searchKey.length < 1) {
+                return false;
+            }
+        });
+
+        
+
+    });
+
+                        
+
+
+
+
+
+    
+            
+                ANMELDEN
+            
+
+        
+            
+                0
+            
+                
+
+    groupCartItemList = [];
+
+
+    
+        0
+    
+
+
+
+
+
+
+
+    $(document).ready(function () {
+        $('.basketCount').text("0");
+    });
+    if ("0" != "0") {
+        if ($('.cart-area .cart .quantity').length > 0) {
+            if ($('.cart-area .cart .quantity').hasClass("active") == false)
+                $('.cart-area .cart .quantity').addClass("active");
+        }
+        else {
+            if ($('.mobile-header .basket .quantity').hasClass("active") == false)
+                $('.mobile-header .basket .quantity').addClass("active");
+        }
+    }
+    else {
+        if ($('.cart-area .cart .quantity').hasClass("active") == false) {
+                $('.cart-area .cart .quantity').addClass("active");
+        }
+        else {
+            if ($('.mobile-header .basket .quantity').hasClass("active") == false)
+                $('.mobile-header .basket .quantity').addClass("active");
+        }
+    }
+
+        
+    
+
+    
+
+
+
+
+    var optionsMenuUser = {
+        cognitoClientId: "7ckbjst6m10kovtknm1j77l8h",
+        cognitoUserPoolId: "eu-west-1_EgDdXOayO",
+        cognitoCookieStorage: "www.vestel.com",
+        isCaptchaEnabled:"true"
+    }
+    $(document).ready(function () {
+        menuUser(optionsMenuUser)
+    })
+
+
+                    
+                
+            
+        
+    
+    
+
+
+
+
+
+
+
+
+	TV
+	
+	
+	
+		QLED 4K
+		OLED 4K
+		4K TV
+		Mini LED
+		HD
+		FHD
+		Tragbare Fernseher
+		Smart TV
+		Alle Fernseher
+	
+	
+	
+	
+	HAUSHALTSGROßGERÄTE
+	
+	
+	
+		Kühlen & Gefrieren
+		
+		
+			Side-by-Side/Multi-Door
+			Kühl- Gefrierkombinationen
+			Kühlschränke
+			Tischkühlrschränke
+			Gefrierschränke
+			Retro-Serie
+			Vestel x Aslı Filinta Retro Serie
+			Alle Kühlen & Gefrieren
+		
+		
+		
+		Waschen & Trocknen
+		
+		
+			Waschmaschinen
+			Trockner
+		
+		
+		
+		Spülen
+		
+		
+			Freistehende Geschirrspülmaschinen
+			Retro Geschirrspülmaschinen
+			Vestel x Aslı Filinta Retro Serie
+			Alle Geschirrspülmaschinen
+		
+		
+		
+		Kochen & Backen
+		
+		
+			Freistehende Standherde
+			Alle Kochen & Backen
+		
+		
+		
+	
+	
+	
+	
+	EINBAUGROßGERÄTE
+	
+	
+	
+		Einbauherd-Set
+		Spülen
+		
+		
+			Vollintegrierbar Geschirrspülmaschinen 
+			Teilintegrierbar Geschirrspülmaschinen 
+			Alle Geschirrspülmaschinen
+		
+		
+		
+		Kühlen
+		
+		
+			Einbau Kühlschränke
+			Einbau Tischkühlrschränke
+			Einbau Kühl - Gefrierkombinationen
+			Alle Einbaukühlschränke 
+		
+		
+		
+		Kochen & Backen
+		
+		
+			Backöfen
+			Kochfelder
+			Dunstabzugshauben
+			Eingebaute Mikrowelle
+			Alle Koch- & Backgeräte
+		
+		
+		
+	
+	
+	
+	
+	BODENPFLEGE
+	
+	
+	
+		Akku-Staubsauger
+		Bodenstaubsauger
+		Alle Bodenpflegegeräte
+	
+	
+	
+	
+	HAUSHALTSGERÄTE
+	
+	
+	
+		Kaffee
+		
+		
+			Kaffee & Espressovolautomaten
+			Siebträgermaschinenn
+			Filterkaffee
+			Türkischer Mokka
+			Alle Kaffeemaschinen
+		
+		
+		
+		Toaster
+		Wasserkocher
+		Vakuumiergeräte
+		Smoothie Maker
+		Airfryer
+		Blender
+		Küchenmaschine
+		Alle Haushaltsgeräte
+		a
+	
+	
+	
+	
+	MOBILITY
+	
+	
+	
+		EVC01
+		EVC01 Stand
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Service 
+ 
+
+
+
+Vestel Services 
+
+
+
+
+Über Uns
+
+
+
+    var slider = document.getElementById('mobile-header-slider');
+    var slides = slider.getElementsByClassName('mobile-header-slide');
+    var index = 0;
+
+    function slide() {
+        slides[index].style.display = 'none';
+        index = (index + 1) % slides.length;
+        slides[index].style.display = 'block';
+    }
+    setInterval(slide, 5000);
+
+
+
+    
+    
+        
+            
+                
+                
+            
+            
+                
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+
+    groupCartItemList = [];
+
+
+    
+        0
+    
+
+
+
+
+
+
+
+    $(document).ready(function () {
+        $('.basketCount').text("0");
+    });
+    if ("0" != "0") {
+        if ($('.cart-area .cart .quantity').length > 0) {
+            if ($('.cart-area .cart .quantity').hasClass("active") == false)
+                $('.cart-area .cart .quantity').addClass("active");
+        }
+        else {
+            if ($('.mobile-header .basket .quantity').hasClass("active") == false)
+                $('.mobile-header .basket .quantity').addClass("active");
+        }
+    }
+    else {
+        if ($('.cart-area .cart .quantity').hasClass("active") == false) {
+                $('.cart-area .cart .quantity').addClass("active");
+        }
+        else {
+            if ($('.mobile-header .basket .quantity').hasClass("active") == false)
+                $('.mobile-header .basket .quantity').addClass("active");
+        }
+    }
+
+                        
+                     
+                
+            
+        
+    
+    
+        
+            
+            
+        
+        
+    
+
+
+    var optionsHeaderContent = {
+        cognitoClientId: "7ckbjst6m10kovtknm1j77l8h",
+        cognitoUserPoolId: "eu-west-1_EgDdXOayO",
+        cognitoCookieStorage: "www.vestel.com",
+        isCaptchaEnabled:"true"
+    }
+    $(document).ready(function () {
+        headerContent(optionsHeaderContent)
+    })
+
+        
+        
+            
+
+    var google_tag_params = {
+        ecomm_prodid: null,
+        ecomm_totalvalue: null,
+        pCat: null,
+        ecomm_pagetype: 'home',
+        pName: null,
+        pbrand: null,
+        pMember: false,
+        pCard: null,
+        pGender: 'null',
+        ecomm_pprice: null,
+    };
+
+
+    .js-birthday-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(0.5,0.5,0.5,.5);
+        content: "";
+        height: 100%;
+        z-index: 999999;
+    }
+
+    .birthdayModalArea {
+        position: fixed;
+        z-index: 999999;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .btnBirthdayPopup {
+        position: absolute;
+        color: red;
+        top: -10px;
+        right: -11px;
+        font-size: 30px;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        line-height: 27px;
+        background: white;
+        border-radius: 50%;
+        border: 2px solid red;
+        text-align: center;
+        z-index: 9999;
+    }
+
+
+    { "@context" : "https://schema.org", "@type" : "WebSite", "name" : "VESTEL GLOBAL", "alternateName" : "Efor - Online Alışveriş Sitesi", "url" : "https://www.vestel.com/" }
+
+
+
+
+    
+    
+        
+        
+          
+
+ 
+
+1
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+Lieferung Und Installation
+
+
+
+
+
+
+
+Abholung Von Altgeräten
+Altgerätemitnahme nach Elektro- und Elektronikgerätegesetz – ElektroG
+
+
+
+
+
+Virtuelles Erlebnis
+
+
+
+
+
+Sicheres Einkaufen
+
+
+
+
+
+Vestel Assistent
+
+
+
+
+
+
+
+
+	$(document).ready(function(){
+		$(".operation-tiles").on('click', function(e) {
+  window.location.href = $(this).attr("data-url")
+});
+});
+$(".operation-tiles").mousedown(function(e){
+    switch(e.which)
+    {
+        case 1:     
+  window.location.href = $(this).attr("data-url")
+        break;
+        case 2: 
+  window.location.href = $(this).attr("data-url")
+        break;
+    }
+});
+
+	
+
+#cat-slider .text-box p {
+  line-height: 1.4em;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .bx-viewport {
+     height: 438.073px !important;
+	
+}
+ #cat-slider .text-box p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 8px;
+    font-family: "League Regular", sans-serif;
+  }
+
+
+
+
+
+
+
+
+
+
+Vestel Smart Technologies
+
+Die smarte Revolution für jedes Zuhause beginnt!
+
+Bei Vestel finden Sie Technologien, die Ihr Leben mit Innovation bereichern und vereinfachen.
+ENTDECKEN SIE DIE PRODUKTE
+
+
+
+
+
+
+Die Mega-Fabrik Vestel City, die sich über 1,3 Millionen Quadratmeter erstreckt, ist der größte Industriekomplex Europas, der Unterhaltungselektronik und Haushaltsgeräte an einem einzigen Standort produziert.
+DETAIL
+
+
+
+
+
+
+Vestel, seit 1984 tätig und seit 1994 Teil der Zorlu Holding, ist eine globale Organisation, die Lösungen für verschiedene Sektoren entwickelt, von der Automobilindustrie bis hin zu intelligenten Lebensökosystemen, künstlicher Intelligenz, IoT und visuellen Lösungen. Mit starker Designfähigkeit und Innovationskraft ist Vestel einer der größten integrierten Elektronikhersteller Europas und eine weltweit anerkannte Marke.
+ÜBER UNS
+
+
+
+
+
+
+
+
+
+
+
+	ALLE PRODUKTE
+	VESTEL CITY
+	ÜBER UNS
+
+
+
+
+
+
+
+
+
+VESTEL. FASHION FOR HOME, PASSION FOR LIFE
+
+
+
+
+
+
+
+
+
+
+
+
+
+$("body").on("click", ".bx-viewport .text-box a", function () {
+        window.location.replace($(this).attr("href"));
+    });
+
+
+BESONDERE PRODUKTE UND DIENSTLEISTUNGEN
+
+
+
+
+
+	
+	
+
+	Vestel Services
+
+	
+	
+	
+	
+	 
+	Ihre Ladestation für Elektrofahrzeuge ist bei Vestel!
+
+	
+	
+	
+	
+	 
+	Vestel x Aslı Filinta Retro-Produkte von künstlerischer Qualität!
+
+	
+	
+	
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+Hervorgehobene Kategorien
+
+
+	
+	 
+	Fernseher 
+	
+	 
+	Kühlen & Gefrieren 
+	
+	 
+	Waschmaschinen 
+	
+	 
+	Geschirrspüler 
+	
+	 
+	Einbaugeräte 
+	
+	 
+	Freistehende Standherde
+	
+	 
+	Trockner 
+	
+	 
+	Kleine Haushaltsgeräte 
+
+
+
+
+@media (max-width: 992px) {
+    #aboutVestel .itemBox .text {
+        width: 100%;
+        height: 370px;
+        padding-bottom: 40%;
+        background-size: cover !important;
+        background-position: right center !important;
+    }
+}
+  
+  #aboutVestel .text {
+
+height: 563px;
+
+}
+ 
+#aboutVestel .title {
+ 
+margin-bottom: 5px;
+
+}
+
+
+
+
+
+
+
+VESTEL EXPRESS
+
+
+
+
+ 
+ 
+
+FINDEN SIE EIN GESCHÄFT
+ 
+
+ 
+
+
+
+
+
+
+
+
+    function setCookie(cname, cvalue, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+        var expires = "expires=" + d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+
+    var cityList = [{"Disabled":false,"Group":null,"Selected":false,"Text":"Wählen Sie","Value":""},{"Disabled":false,"Group":null,"Selected":false,"Text":"CITY","Value":"82"}]
+    $(document).ready(function () {
+        var html = "";
+        for (var i = 0; i < cityList.length; i++) {
+            var city = cityList[i];
+            if (city.Value <= 81) {
+                html += '<option value="' + city.Value + '">' + city.Text + '</option>'
+            }
+        }
+        $("#drpCity").html("");
+        $("#drpCity").append(html);
+        $("#drpCity").on("change", function () {
+            var date = new Date();
+            date.setTime(date.getTime() + (60 * 1000));
+            var expires = "expires=" + date.toUTCString();
+            document.cookie = "ILID=" + $(this).val() + ";" + expires + ";path=/";
+
+            var url = $("#drpCity option:selected").text().toLowerCase() + "-magazalari";
+            url = url.replace("ç","c").replace("ğ","g").replace("ü","u").replace("ş","s").replace("ö","o");
+            window.location.replace("../content/" + url);
+        });
+    })
+
+    $(function () {
+        if ("" != "" && "" != null) {
+            showCustomInfo("");
+        }
+        $('.lazy').Lazy(
+            {
+                scrollDirection: 'vertical',
+                effect: 'fadeIn',
+                visibleOnly: true,
+            }
+        );
+        $(".slide-youtube").on("click", function () {
+            var url = $(this).data("href");
+            $.colorbox({
+                iframe: true,
+                fixed: true,
+                width: '90%',
+                height: $(window).height() - 150,
+                href: function () {
+                    var videoId = new RegExp('[\\?&]v=([^&#]*)').exec(url);
+                    if (videoId && videoId[1]) {
+                        return 'https://youtube.com/embed/' + videoId[1] + '?rel=0&wmode=transparent';
+                    }
+                },
+                onClosed: function () {
+                    $.colorbox.remove();
+                }
+            });
+
+        });
+    });
+
+
+
+    let params = (new URL(document.location)).searchParams;
+    let code = params.get("code");
+    if (code !== null) {
+        try {
+            const data = {
+                grant_type: "authorization_code",
+                redirect_uri: "https://www.vestel.com",
+                client_id: "7ckbjst6m10kovtknm1j77l8h",
+                code: code,
+            };
+            $(".custom-loading-div").show();
+            $.ajax({
+                url: "https://hosted-kimlik.vestel.com.tr/oauth2/token",
+                method: 'POST',
+                data: data,
+                headers: { contentType: 'application/x-www-form-urlencoded' },
+                success: function (response) {
+                    $(".custom-loading-div").hide();
+                    authenticateUser(
+                        response.access_token,
+                        response.id_token,
+                        response.refresh_token,
+                        {
+                            cognitoUrl: "https://account.vestel.com",
+                            cognitoClientId: "7ckbjst6m10kovtknm1j77l8h",
+                            cognitoUserPoolId: "eu-west-1_EgDdXOayO",
+                            cognitoCookieStorage: "www.vestel.com",
+                            cognitoRedirectUri: "https://www.vestel.com",
+                            isCaptchaEnabled:"true"
+                        },
+                    );
+                },
+                error: function (err) {
+                    console.log(`Error : ${err}`);
+                }
+            })
+
+        } catch (error) {
+            $(".custom-loading-div").hide();
+            showCustomError(error);
+        }
+    }
+    
+
+            
+        
+
+        
+        var pushedPage = ["Listing Page", "Product Detail Page", "Basket Page", "Transaction Page"];
+            if (pushedPage.indexOf("Home Page") == -1) {
+                dataLayer.push({
+                'cd_user_id' : '', //User id
+                //'cd_client_id' : '475186255.1474274192', //Client ID
+                'cd_logged_in' : 'False', //Logged in (true/false)
+                'cd_session_id' : 'oi3utyk0klx5zc0ntkrvfdtb', //Session ID
+                'cd_pagetype' : 'Home Page', //Pagetype
+                //'cd_timestamp' : '2018-04-03T18:55:27.466+03:00', //Timestamp
+                //'cd_last_transaction_date' : '20180319', //Kullanıcının son alışveriş tarihi
+                //'cd_last_visit_date' : '20180319', //Kullanıcın son ziyaret tarihi
+                //'cd_product_category' : 'TV - Ses/Televizyonlar/4K Oled TV', //Kullanıcın son satın aldığı ürün kategorisi
+                //'cd_first_transaction_date' : '20180319', //Kullanıcın ilk alışveriş tarihi
+                'cd_email_hash' : '', //Email Hash/MD5
+                'cd_phone_hash' : '', //Phone Hash/MD5
+                //'cd_signup_date': '20171022', // Kullanıcının üye olduğu tarih
+                'cd_user_age': '0', // Kullanıcının yaşı
+                'cd_user_gender': '', // Kullanıcının cinsiyeti
+                //'cd_total_transaction_amount' : '4', //Kullanıcın şimdiye kadar yaptığı alışveriş adedi
+                //'cd_total_transaction_value' : '15000.00', //Kullanıcının bütün alışverişlerinin toplam değeri
+                'cd_cart_product_amount' : '0', //Sepette varolan ürün adedi
+                'cd_cart_product_value' : '0', //Sepette yer alan ürünlerin toplam değeri
+                })
+        }
+        
+        
+        
+
+
+        
+
+        
+        
+    var googleUser = {};
+
+    var baseurl = "https://localhost/ECOM.Store.VSGlobal";
+        var isDev = false;
+        if (isDev == false)
+        {
+            baseurl = "";
+        }
+
+    var initGoogle = function () {
+        gapi.load('auth2', function () {
+            // Retrieve the singleton for the GoogleAuth library and set up the client.
+            auth2 = gapi.auth2.init({
+                client_id: '974325728696-8hjqlk12ei8ir81ft2gcp3ft51mffe3f.apps.googleusercontent.com',
+                cookiepolicy: 'single_host_origin',
+                // Request scopes in addition to 'profile' and 'email'
+                //scope: 'additional_scope'
+            });
+            $('.js-google div div span span').text("Mit Google anmelden");
+        });
+    };
+
+    function onSignIn(googleUser) {
+        var profile = googleUser.getBasicProfile();
+        //console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+        //console.log('Name: ' + profile.getName());
+        //console.log('Image URL: ' + profile.getImageUrl());
+        //console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+        var profile = googleUser.getBasicProfile();
+        var googleId = profile.getId();
+        var email = profile.getEmail();
+        var firstName = profile.getGivenName();
+        var lastName = profile.getFamilyName();
+        $('.custom-loading-div').show();
+        $.ajax({
+            type: "POST",
+            url: '/de/customer/checkgoogleauth',
+            data: {
+                GoogleId: googleId,
+                Email: email.toLowerCase(),
+                FirstName: firstName.toUpperCase(),
+                LastName: lastName.toUpperCase()
+            },
+            error: function (response) {
+                console.log('error from check user created');
+                console.log(response);
+            },
+            success: function (response) {
+                console.log('success from check user created');
+                console.log(response);
+                if (response.Success) {
+
+                    //means there is a user redirect to home page
+                    window.location = baseurl;
+                    $('.custom-loading-div').hide();
+                    return false;
+                }
+                //no user created send to register page
+                window.location = baseurl + "/customer/register";
+                $('.custom-loading-div').hide();
+                return false;
+
+            }
+        });
+    }
+    
+
+
+        
+
+
+
+        window.fbAsyncInit = function () {
+            FB.init({
+                
+                appId: '1052022436174102',
+                
+                cookie: true,  // enable cookies to allow the server to access
+                // the session
+                xfbml: true,  // parse social plugins on this page
+                version: 'v3.0' // use version 2.2
+            });
+
+            // Now that we've initialized the JavaScript SDK, we call
+            // FB.getLoginStatus().  This function gets the state of the
+            // person visiting this page and can return one of three states to
+            // the callback you provide.  They can be:
+            //
+            // 1. Logged into your app ('connected')
+            // 2. Logged into Facebook, but not your app ('not_authorized')
+            // 3. Not logged into Facebook and can't tell if they are logged into
+            //    your app or not.
+            //
+            // These three cases are handled in the callback function.
+
+
+        };
+
+        // Load the SDK asynchronously
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+        js.async = true;
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+        $(document).on("click", ".js-fb", function () {
+            FB.login(function (response) {
+                console.log(response);
+
+                if (response.status == 'connected') {
+                    FB.api('/me', { fields: 'first_name, last_name, email, id, gender' }, function (resp) {
+                        checkUserCreated(resp);
+                    });
+                }
+            }, { scope: 'email' });
+        });
+
+        var baseurl = "";
+
+        function checkUserCreated(response) {
+            console.log('check user created');
+            console.log(response);
+            $.ajax({
+                type: "POST",
+                url: '/de/customer/checkfacebookauth',
+                data: {
+                    email: response.email.toLowerCase(),
+                    facebookid: response.id,
+                    name: response.first_name.toUpperCase(),
+                    surname: response.last_name.toUpperCase(),
+                    gender: response.gender,
+                    
+                    genderid: response.gender = 'male' ? 1 : 3,
+                },
+                error: function (response) {
+                    console.log('error from check user created');
+                    console.log(response);
+                },
+                success: function (response) {
+                    console.log('success from check user created');
+                    console.log(response);
+                    if (response.Success ) {
+
+                        //means there is a user redirect to home page
+                        window.location = baseurl;
+                        return false;
+                    }
+                    //no user created send to register page
+                    window.location = baseurl + "/customer/register";
+                    return false;
+
+
+                }
+            });
+        }
+
+
+
+
+
+        
+        
+
+            
+            
+
+            
+
+            
+
+    .icon-yt:hover, .icon-pt:hover {
+        background-color: none !important;
+        border: none !important;
+    }
+
+    .icon-yt .hover {
+        display: none;
+    }
+
+    .icon-yt:hover .hover {
+        display: block;
+    }
+
+    .icon-yt:hover .default {
+        display: none;
+    }
+
+    .icon-pt .hover {
+        display: none;
+    }
+
+    .icon-pt:hover .hover {
+        display: block;
+    }
+
+    .icon-pt:hover .default {
+        display: none;
+    }
+
+    @media only screen and (max-device-width: 1200px) {
+        .vestelgormeengelsiz {
+            display: table;
+            float: none;
+            margin: auto;
+        }
+    }
+
+    @media only screen and (min-device-width: 1200px) {
+        .vestelgormeengelsiz {
+            position: relative;
+            left: -10px;
+        }
+    }
+
+    @media only screen and (min-device-width: 1200px) {
+        .vestelgormeengelsiz, .vestelguvendamgasi, .etbis {
+            height: 64px;
+        }
+
+        .img-area {
+            float: left;
+            padding-top: 12px;
+        }
+
+        .vestelgormeengelsiz-button, .vestelguvendamgasi-button {
+            float: left;
+        }
+
+        .vestelguvendamgasi-button {
+            margin-left: 4px;
+        }
+
+        #ETBIS {
+            float: left;
+            margin-left: 22px;
+        }
+    }
+
+    @media only screen and (max-device-width: 1199px) {
+        .vestelgormeengelsiz, .vestelguvendamgasi, .etbis {
+            height: 50px;
+        }
+
+        .img-area {
+            display: table;
+            margin: 0 auto;
+            position: relative;
+            top: 12px;
+        }
+
+        .vestelgormeengelsiz-button, .vestelgormeengelsiz-button, .vestelguvendamgasi-button, #ETBIS {
+            float: none;
+            display: table;
+            margin: 0 auto;
+            margin-bottom: 15px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+window.GuvenDamgasi = {
+	apiKey:null,
+	apiId:null,
+	ip:"https://www.guvendamgasi.org.tr/_logo_js/client.php",
+	promise:null,
+	init:function(callback){
+		var url = this.ip;
+		var Http = new XMLHttpRequest();
+		if ("withCredentials" in Http) 
+		{
+  	 		 Http.open('POST', url, true);
+  	 		 var data = GuvenDamgasi.header(Http);
+			 Http.send(data);
+			 GuvenDamgasi.onReady(Http);
+  	 	}
+  	 	else if (typeof XDomainRequest != "undefined") 
+  	 	{
+		    Http = new XDomainRequest();
+		    Http.open('POST', url,true);
+		    var data = GuvenDamgasi.header(Http);
+			Http.send(data);
+			GuvenDamgasi.onReady(Http);
+		} 
+		else 
+		{
+			Http = null;
+		}
+	},
+	header:function(Http){
+		var host = window.location.hostname;
+		host = "vestel.com.tr";
+      
+		console.log("host:" + host);
+
+		Http.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+  	 	var data = 	"apilogin=1&";
+  	 		data += "hostname="+host+"&";
+  	 		data += "apikey="+this.apiKey+"&";
+  	 		data += "apiid="+this.apiId;
+  	 	return data
+	},
+	onReady:function(Http,promise){
+		this.promise = new Promise(function(resolve, reject){
+			Http.onreadystatechange = function (e) {
+				if(Http.readyState==4 || Http.readyState==200)
+		    	{
+
+		    		var response = JSON.parse(Http.responseText);
+		    		if(response.success==true)
+		    		{
+		    			resolve(response);
+		    		}
+		    		else
+		    		{
+		    			reject(response);
+		    		}
+		    	}
+			};
+		});
+	},
+	client:function()
+	{
+		if(this.promise!=null)
+			return this.promise;
+		else
+			return null;
+	}
+}	
+
+		GuvenDamgasi.init();
+		GuvenDamgasi.client().then(function(response){ 
+          console.log(response);
+			document.getElementById('guvendamgasi').src=response.img;
+			document.getElementById('guvendamgasi').alt=response.message;
+			document.getElementById('guvendamgasi').tab=response.message;
+			}).catch(function(response){
+			
+		});
+	
+
+
+    
+        
+            
+                
+                
+                    SOCIAL MEDIA
+                    
+                        
+                        
+                            
+                        
+                        
+                        
+                            
+                                
+                                
+                            
+                        
+                        
+                    
+                
+            
+        
+    
+
+
+
+
+
+
+
+
+KATEGORIEN
+
+
+	TV
+	Haushaltsgroßgeräte
+	Einbaugroßgeräte
+	Bodenpflege
+	Haushaltsgeräte
+	Mobility
+
+
+VESTEL SERVICES 
+
+VESTEL UNTERNEHMENSLÖSUNGEN
+
+ANTRAGSFORMULAR FÜR BETROFFENE 
+
+
+
+
+
+
+UNTERSTÜTZUNG
+
+
+	Kommunikation
+	Häufig gestellte Fragen
+
+
+
+
+
+
+
+UNTERNEHMEN
+
+
+	Über Vestel
+	Cookie-Richtlinie
+	Verarbeitung Personenbezogener Daten
+	Allgemeine Geschäftsbedingungen
+	Impressum 
+
+  VESTEL INTERNATIONAL
+
+
+
+
+
+
+Copyright © 2024
+
+
+
+
+.footer-container {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+}
+
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.footer-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-container ul li {
+  margin-bottom: 8px;
+}
+
+#copyright {
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+
+        
+
+        
+
+close
+Um Ihnen einen besseren Service zu bieten, verwenden wir auf unserer Website Cookies. Durch das Klicken auf die Schaltfläche „Akzeptieren“ stimmen Sie der Verwendung von Cookies durch die Vestel Holland B.V. Germany Branch Office zu den folgenden Zwecken zu: Anpassung unserer Website an Benutzerpräferenzen, Verbesserung der Leistung, Analyse des Benutzerverhaltens (ohne Sie direkt zu identifizieren) und Durchführung personalisierter Werbeaktivitäten. Sie stimmen auch der Übermittlung Ihrer persönlichen Daten in Länder außerhalb der EU und des EWR zu. Detaillierte Informationen zu Cookies finden Sie in unserer Cookie-Richtlinie. Sie können Ihre Präferenzen jederzeit anpassen, indem Sie auf das „Cookie-Symbol“ klicken, das auf unserer Website immer verfügbar ist.
+
+ Cookies Bearbeiten 
+
+
+
+
+
+
+COOKIE-VERWALTUNG
+
+
+
+Sie können die von Vestel Holland B.V. Germany Branch Office auf unserer Website verwendeten Cookies jederzeit kontrollieren. Wenn Sie die Verwendung von Cookies nicht akzeptieren, können Sie direkt auf die Schaltfläche „Speichern“ unten klicken. Detaillierte Informationen zu Cookies finden Sie in unserer Cookie-Richtlinie.
+
+
+
+
+STRIKT NOTWENDIGE COOKIES
+
+
+
+Wir möchten darauf hinweisen, dass technisch notwendige Cookies verwendet werden, um die Hauptfunktionen unserer Website zu erfüllen. Die Verwendung dieser Cookies unterliegt nicht Ihrer Zustimmung, da Sie für das ordnungsgemäße Funktionieren unserer Website zwingend erforderlich sind. Diese Cookies sind hauptsächlich Drittanbieter-Cookies, enthalten aber auch Erstanbieter-Cookies, und sie werden ein Jahr lang auf Ihrem Gerät gespeichert. Eine Liste der strikt notwendigen Cookies finden Sie in unserer Cookie-Richtlinie.
+
+
+  
+
+
+
+FUNKTIONALITÄTS- UND PRÄFERENZ-COOKIES
+
+
+
+Funktionalitäts- und Präferenz-Cookies werden verwendet, um die von Ihnen getroffenen Entscheidungen zu speichern und Ihr Erlebnis auf der Website zu verbessern. Diese Cookies speichern Ihre vorherigen Einstellungen, wie Spracheinstellungen, Region oder Anmeldedaten, und ermöglichen Funktionen wie automatisches Anmelden und personalisierte Inhalte. Diese Cookies sind hauptsächlich Drittanbieter-Cookies, enthalten aber auch Erstanbieter-Cookies und sorgen dafür, dass Ihre Besuche auf der Website so reibungslos und persönlich wie möglich ablaufen. Sie werden 30 Tage lang auf Ihrem Gerät gespeichert. Eine Liste der Funktionalitäts- und Präferenz-Cookies finden Sie in unserer Cookie-Richtlinie.
+
+
+  
+
+
+
+PERFORMANCE- UND ANALYSE-COOKIES
+
+
+
+Performance- und Analyse-Cookies werden verwendet, um Daten darüber zu sammeln, wie Besucher mit der Website interagieren, einschließlich Informationen darüber, welche Seiten besucht werden und wie Benutzer auf der Website navigieren. Diese Cookies helfen bei der Bewertung der Leistung der Website und sind entscheidend für die Optimierung der Benutzererfahrung, indem Sie Bereiche für Verbesserungen identifizieren. Sie umfassen sowohl Drittanbieter- als auch Erstanbieter-Cookies und bleiben in der Regel bis zu einem Jahr auf Ihrem Gerät gespeichert. Eine Liste der Performance- und Analyse-Cookies finden Sie in unserer Cookie-Richtlinie.
+
+
+  
+
+
+
+TARGETING- ODER WERBECOOKIES
+
+
+
+Targeting- oder Werbecookies sind darauf ausgelegt, Ihre Online-Aktivitäten zu verfolgen, um Ihnen personalisierte Werbung zu liefern, die Ihren Interessen entspricht. Diese Cookies sammeln Daten über Ihr Surfverhalten und können diese Informationen mit Drittanbieter-Werbetreibenden teilen, um die Wirksamkeit von Online-Marketingkampagnen zu steigern. Diese Cookies sind in der Regel Drittanbieter-Cookies und verbleiben für eine festgelegte Dauer auf Ihrem Gerät, um sicherzustellen, dass die Ihnen angezeigten Anzeigen auf Ihre Präferenzen und Ihr Online-Verhalten abgestimmt sind. Eine Liste der Targeting- oder Werbe-Cookies finden Sie in unserer Cookie-Richtlinie.
+
+
+  
+
+
+
+
+
+Alle Cookies Akzeptieren
+
+Alle Cookies Ablehnen 
+
+
+
+
+
+
+        
+        
+            
+            SPRACHE WÄHLEN
+            
+            
+                
+                     
+                
+            
+            
+            Bitte Sprache auswählen
+            
+            Mehr Erfahren
+        
+    
+    
+
+    
+
+    
+
+    
+
+    load_css_async('/bundles/bodyCss?v=deyzwYjyYaLkAVBPx6ixt-LuUTVPrhcTfBf25mo0W_g1', false)
+
+    
+
+    load_css_async('/assets/swiper/swiper-bundle.min.css', false)
+
+
+    if(window._jetlink!=void 0)console.error("Jetlink snippet included twice!");else{var _jetlink=document.createElement("script");_jetlink.setAttribute("src","https://public.jetlink.io/Sdk/Jetlink.js?j\x3d"+(new Date(Date())).getTime()/1E3);_jetlink.onload=function(){Jetlink.Init("jetlink-web-chat-e2368bd3-a991-4b62","a10ebe86d0f74472a8621efd3b09fa18")};document.head.appendChild(_jetlink)};
+(function(){var a=document.createElement("script");a.type="module";a.src="https://pl.weaccess.ai/static/tool/wetool.js";document.body.appendChild(a);a.onload=function(){weTool.mount({hash:"6bbd42ca-9db6-4cf9-948e-b0ff22baa9ef",icon_alignment:"topright"})}})();
+
+
+    
+
+
+    
+
+
+        
+
+
+
+
+    
+    
+        
+        
+
+    
+    
+        window.pc_callback = function (node) {
+            var pcSwiper = new Swiper('.personaclick-recommend .personaclick-container', {
+                loop: $(node).find(".recommended-item").length > 4 ? true : false,
+                slidesPerView: 4,
+                slidesPerGroup: 4,
+                spaceBetween: 10,
+                lazy: true,
+                loopFillGroupWithBlank: false,
+                breakpoints: {
+                    0: {
+                        slidesPerView: 2,
+                        slidesPerGroup: 2,
+                        loop: $(node).find(".recommended-item").length > 2 ? true : false,
+                    },
+                    600: {
+                        slidesPerView: 3,
+                        slidesPerGroup: 3,
+                        loop: $(node).find(".recommended-item").length > 3 ? true : false,
+                    },
+                    1000: {
+                        slidesPerView: 4,
+                        slidesPerGroup: 4,
+                        loop: $(node).find(".recommended-item").length > 4 ? true : false,
+                    },
+                },
+                navigation: {
+                    nextEl: '.pc-button-next',
+                    prevEl: '.pc-button-prev',
+                },
+            });
+        };
+        $(document).ready(function () {
+            showInfo("");
+            showError("");
+            showWarning("");
+            showSuccess("");
+            initSuggestion();
+            initGoogle();
+            //search initialize
+            reloadCartSummary(function () {
+                //overflowfix.disengage();
+                if ($('.cart-area .cart .quantity').length > 0) {
+                    if ($('.cart-area .cart .quantity').hasClass("active") == false && $('.cart-area .quantity').text() != "0")
+                        $('.cart-area .cart .quantity').addClass("active");
+                }
+                else {
+                    if ($('.mobile-header .basket .quantity').hasClass("active") == false && $('.mobile-header .basket .quantity').text() != "0")
+                        $('.mobile-header .basket .quantity').addClass("active");
+                }
+                $(".customScrollBarDiv").mCustomScrollbar();
+                //sidebasket.init();
+                $('.custom-loading-div').hide();
+                //sidebasket.show();
+                //setTimeout(function () { sidebasket.hide(); }, 3000);
+            });
+            $(document).on('click', '.button12', function (e) {
+                $(this).parent().hide();
+            }).on('click', '#cookie_management', function (e) {
+                $('.js-cookie-modal').show();
+            });
+
+        });
+    
+
+
+
+(function(){let stateCheck = setInterval(() => {    if (        document.readyState == "interactive" ||        document.readyState === "complete"    ) {        clearInterval(stateCheck);        try {            if (document.location.pathname == "/de/search") {                const mediaQuery = window.matchMedia("(max-width: 1200px)");                function handleCheck(matches) {                    const params = new URLSearchParams(window.location.search);                    let fullSearchTag;                    let personaFullSearchCheckedFilters = {};                    let personaFullSearchCheckedBrands = [];                    let personaFullSearchCheckedCategories = [];                    const pathnames = location.search;                    const searchParts = pathnames.split(/[=&]/);                    const pcFullSearchQeury = searchParts[1];                    var queries = decodeURIComponent(pcFullSearchQeury);                    {                        var query = decodeURIComponent(pcFullSearchQeury);                    }                    var sortType = "popular";                    var sortDirection = "desc";                    var personaMaxPrice = "";                    var personaMinPrice = "";                    var personaMaxPriceNew = "";                    var personaMinPriceNew = "";                    let personaCreateMobileModalStyle = document.createElement("style");                    var sortingSearchStyle = document.createElement("style");                    var sortingSearchProductQuantityStyle =                        document.createElement("style");                    let personaPriceRangeSliderDivStyle = document.createElement("style");                    window.personaRemoveFullSearchAndFilters = function () {                        [].forEach.call(                            document.querySelectorAll("#personaFullSearchDiv"),                            (element) => {                                if (element) {                                    element.remove();                                }                            }                        );                        [].forEach.call(                            document.querySelectorAll(".personaclick-full-search-results"),                            (element) => {                                if (element) {                                    element.remove();                                }                            }                        );                        [].forEach.call(                            document.querySelectorAll("#filter-popup-persona"),                            (element) => {                                if (element) {                                    element.remove();                                }                            }                        );                        [].forEach.call(                            document.querySelectorAll("#filter-popup-persona-desktop"),                            (element) => {                                if (element) {                                    element.remove();                                }                            }                        );                        if (!matches) {                            if (document.querySelector(".personaclick-search-filters")) {                                if (                                    document.querySelector(".personaclick-search-filters")                                        .parentElement                                ) {                                    document                                        .querySelector(".personaclick-search-filters")                                        .parentElement.remove();                                }                            }                        }                        /* Remove Styles to avoid multiplation */                        if (sortingSearchStyle) {                            sortingSearchStyle.remove();                        }                        if (personaCreateMobileModalStyle) {                            personaCreateMobileModalStyle.remove();                        }                        if (sortingSearchProductQuantityStyle) {                            sortingSearchProductQuantityStyle.remove();                        }                        if (personaPriceRangeSliderDivStyle) {                            personaPriceRangeSliderDivStyle.remove();                        }                        /* Remove Styles to avoid multiplation */                    };                    window.personaRemoveFullSearchPriceFilter = function () {                        [].forEach.call(                            document.querySelectorAll("#personaPriceRangeSliderDiv"),                            (element) => {                                if (element) {                                    element.remove();                                }                            }                        );                    };                    window.personaAddPriceRangeSlider = function () {                        let personaPriceRangeSliderDiv = document.createElement("div");                        personaPriceRangeSliderDiv.id = "personaPriceRangeSliderDiv";                        if (personaMaxPriceNew != "" && personaMinPriceNew != "") {                            personaPriceRangeSliderDiv.innerHTML =                                '<div class="personaPriceRangeTitle">Preis</div><div class="range-slider"><span><div class="persona-range-slider__leftTextArr"><label class="persona-range-slider__leftTextArrLabel">Min Euro</label><input type="number" class="range-slider__minTextArr"  value="' +                                personaMinPriceNew +                                '" min="' +                                personaMinPrice +                                '" max="' +                                personaMaxPrice +                                '" /></div><div class="persona-range-slider__rightTextArr"><label class="persona-range-slider__leftTextArrLabel"l>Max Euro</label><input class="range-slider__maxTextArr" type="number" value="' +                                personaMaxPriceNew +                                '" min="' +                                personaMinPrice +                                '" max="' +                                personaMaxPrice +                                '" /></div></span><input  value="' +                                personaMinPriceNew +                                '" min="' +                                personaMinPrice +                                '" max="' +                                personaMaxPrice +                                '" step="2" type="range" /><input  value="' +                                personaMaxPriceNew +                                '" min="' +                                personaMinPrice +                                '" max="' +                                personaMaxPrice +                                '" step="2" type="range" /></div>';                        } else {                            personaPriceRangeSliderDiv.innerHTML =                                '<div class="personaPriceRangeTitle">Preis</div><div class="range-slider"><span><div class="persona-range-slider__leftTextArr"><label class="persona-range-slider__leftTextArrLabel">Min Euro</label><input  type="number" value="' +                                personaMinPrice +                                '" min="' +                                personaMinPrice +                                '" max="' +                                personaMaxPrice +                                '" /></div><div class="persona-range-slider__rightTextArr"><label class="persona-range-slider__leftTextArrLabel"l>Max Euro</label><input type="number"value="' +                                personaMaxPrice +                                '" min="' +                                personaMinPrice +                                '" max="' +                                personaMaxPrice +                                '" /></div></span><input  value="' +                                personaMinPrice +                                '" min="' +                                personaMinPrice +                                '" max="' +                                personaMaxPrice +                                '" step="2" type="range" /><input   value="' +                                personaMaxPrice +                                '" min="' +                                personaMinPrice +                                '" max="' +                                personaMaxPrice +                                '" step="2" type="range" /></div>';                        }                        personaPriceRangeSliderDivStyle.innerText = `#personaPriceRangeSliderDiv{background-color: #f9f9f9;  border-left: 2px solid #df2126; }.persona-range-slider__leftTextArr{width: 30%; float: left; margin: 12px 0;}.persona-range-slider__leftTextArr .persona-range-slider__leftTextArrLabel{text-align: left;float: left; width: 100%; height: 20px; line-height: 20px; font-family: "League Medium",sans-serif; font-size: 12px; color: #666; margin: 0; }#personaPriceRangeSliderDiv .personaPriceRangeTitle{text-align: left; display: block; cursor: pointer; color: #000; height: 50px; border-radius: 0; padding: 0!important; font-family: 'League Medium',sans-serif!important; font-size: 14px; background: #f9f9f9!important; line-height: 50px; text-indent: 20px; border: 1px solid #dedede!important; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding-right: 30px;margin: 0; position: relative; letter-spacing: 1px; outline: 0!important; margin: 2px 0 0 0; font-size: 100%;}#personaPriceRangeSliderDiv .range-slider{width: 99%; text-align: center; position: relative; height: 6em; margin: 1rem 0; padding: 16px; display: none;}.deneyelim::-webkit-slider-runnable-track{background: #e9e9e9; height: 0.7rem; border-radius: 5px; border: 1px solid #c5c5c5;}#personaPriceRangeSliderDiv .range-slider svg, #personaPriceRangeSliderDiv .range-slider input[type=range]::-webkit-slider-runnable-track{background: #e9e9e9; height: 0.7rem; border-radius: 5px; border: 1px solid #c5c5c5;}#personaPriceRangeSliderDiv .range-slider svg, #personaPriceRangeSliderDiv .range-slider input[type="range"]::-webkit-slider-thumb:last-child{background: #e9e9e9; height: 0.7rem; border-radius: 5px; border: 1px solid #c5c5c5;}#personaPriceRangeSliderDiv .range-slider svg,#personaPriceRangeSliderDiv .range-slider input[type=range]{position: absolute;left: 0;top: 0; padding:0px 16px;}#personaPriceRangeSliderDiv .range-slider svg, #personaPriceRangeSliderDiv .range-slider input[type=range]::-webkit-slider-thumb{ border-radius: 50%;  cursor: pointer; margin-top: -4px; background: #df2027!important; outline: 0!important; width: 1.2em; height: 1.2em; border-color: #df2027;} #personaPriceRangeSliderDiv input[type=number]{letter-spacing: 0!important; margin: 0; box-sizing: border-box; border: solid 2px #dedede!important; font-family: "League Medium",sans-serif!important; color: #000!important; padding: 0 10px; transition: all .3s cubic-bezier(.77,0,.175,1); text-indent: 0; width: 100%; height: 30px; font-size: 11px!important; border-width: 1px!important; -moz-appearance: textfield;} #personaPriceRangeSliderDiv input[type=number]:focus{border-color: #666!important;}  .persona-range-slider__rightTextArr{width: 30%; float: right; margin: 12px 0;text-align: left;}.persona-range-slider__leftTextArrLabel{float: left; width: 100%; height: 20px; line-height: 20px; font-family: "League Medium",sans-serif; font-size: 12px; color: #666; margin: 0;}#personaPriceRangeSliderDiv input[type=number]::-webkit-outer-spin-button,#personaPriceRangeSliderDiv input[type=number]::-webkit-inner-spin-button{-webkit-appearance: none;}#personaPriceRangeSliderDiv input[type=number]:invalid,#personaPriceRangeSliderDiv input[type=number]:out-of-range{border: 2px solid #ff6347;}#personaPriceRangeSliderDiv input[type=range]{-webkit-appearance: none;width: 100%;}#personaPriceRangeSliderDiv input[type=range]:focus{outline: none;}#personaPriceRangeSliderDiv input[type=range]:focus::-webkit-slider-runnable-track{background: #5c5c5c;}#personaPriceRangeSliderDiv input[type=range]:focus::-ms-fill-lower{background: #5c5c5c;}#personaPriceRangeSliderDiv input[type=range]:focus::-ms-fill-upper{background: #5c5c5c;}#personaPriceRangeSliderDiv input[type=range]::-webkit-slider-runnable-track{width: 100%;height: 3px;cursor: pointer;animate: 0.2s;background: #5c5c5c;border-radius: 1px;box-shadow: none;border: 0;}#personaPriceRangeSliderDiv input[type=range]::-webkit-slider-thumb{z-index: 2;position: relative;box-shadow: 0px 0px 0px #000;border: 1px solid #5c5c5c;height: 10px;width: 10px;border-radius: 25px;background: #5c5c5c;cursor: pointer;-webkit-appearance: none;margin-top: -3px;}#personaPriceRangeSliderDiv input[type=range]::-moz-range-track{width: 100%;height: 3px;cursor: pointer;animate: 0.2s;background: #5c5c5c;border-radius: 1px;box-shadow: none;border: 0;}#personaPriceRangeSliderDiv input[type=range]::-moz-range-thumb{z-index: 2;position: relative;box-shadow: 0px 0px 0px #000;border: 1px solid #5c5c5c;height: 10px;width: 10px;border-radius: 25px;background: #5c5c5c;cursor: pointer;}#personaPriceRangeSliderDiv input[type=range]::-ms-track{width: 100%;height: 3px;cursor: pointer;animate: 0.2s;background: transparent;border-color: transparent;color: transparent;}.range-slider__maxTextArr{width: 30%; float: left; margin: 12px 0; font-weight: 300; letter-spacing: .5px;  height: 30px; font-size: 11px!important; border-width: 1px!important; text-indent: 10px; height: 50px; border: solid 1px #7a7a7a; letter-spacing: 0!important; font-family: "League Book",sans-serif; font-size: 14px; color: #7a7a7a; -webkit-transition: border-color .3s linear; -moz-transition: border-color .3s linear; -o-transition: border-color .3s linear; transition: border-color .3s linear; margin: 0; padding: 0; float: right; height: 50px; box-sizing: border-box; border: solid 2px #dedede!important; font-family: "League Medium",sans-serif!important; font-size: 14px!important; color: #000!important; padding: 0 15px; transition: all .3s cubic-bezier(.77,0,.175,1); text-indent: 0;}.range-slider__minTextArr{width: 30%; float: left; margin: 12px 0; font-weight: 300; letter-spacing: .5px;  height: 30px; font-size: 11px!important; border-width: 1px!important; text-indent: 10px; height: 50px; border: solid 1px #7a7a7a; letter-spacing: 0!important; font-family: "League Book",sans-serif; font-size: 14px; color: #7a7a7a; -webkit-transition: border-color .3s linear; -moz-transition: border-color .3s linear; -o-transition: border-color .3s linear; transition: border-color .3s linear; margin: 0; padding: 0; float: left; height: 50px; box-sizing: border-box; border: solid 2px #dedede!important; font-family: "League Medium",sans-serif!important; font-size: 14px!important; color: #000!important; padding: 0 15px; transition: all .3s cubic-bezier(.77,0,.175,1); text-indent: 0;}#personaPriceRangeSliderDiv input[type=range]::-ms-fill-lower,#personaPriceRangeSliderDiv input[type=range]::-ms-fill-upper{background: #5c5c5c;border-radius: 1px;box-shadow: none;border: 0;}#personaPriceRangeSliderDiv input[type=range]::-ms-thumb{z-index: 2;position: relative;box-shadow: 0px 0px 0px #000;border: 1px solid #5c5c5c;height: 10px;width: 10px;border-radius: 25px;background: #5c5c5c;cursor: pointer;}@media screen and (max-width:768px) {#personaPriceRangeSliderDiv input[type=number] {font-size: 0.8em;}#personaPriceRangeSliderDiv .range-slider{height: 6em;}}`;                        document                            .querySelector("body")                            .append(personaPriceRangeSliderDivStyle);                        if (matches) {                            document                                .querySelector("#personaFullSearchFiltersDiv")                                .prepend(personaPriceRangeSliderDiv);                        } else {                            document                                .querySelector("#personaFullSearchFiltersDiv")                                .before(personaPriceRangeSliderDiv);                        }                        [].forEach.call(                            document.querySelectorAll(                                "#personaPriceRangeSliderDiv input[type=number]"                            ),                            (element) => {                                if (element) {                                    element.addEventListener("keyup", function (event) {                                        if (event.keyCode === 13) {                                            event.preventDefault();                                            if (matches) {                                                personaVOverlayRemove();                                            }                                            personaRemoveFullSearchAndFilters();                                            personaFullSearchAdd();                                            console.log("1");                                            personaAddPriceRangeSlider();                                        }                                    });                                }                            }                        );                        [].forEach.call(                            document.querySelectorAll(                                "#personaPriceRangeSliderDiv input[type=range]"                            ),                            (element) => {                                if (element) {                                    element.addEventListener("change", function (event) {                                        event.preventDefault();                                        if (matches) {                                            personaVOverlayRemove();                                        }                                        personaRemoveFullSearchAndFilters();                                        personaFullSearchAdd();                                        console.log("2");                                        personaAddPriceRangeSlider();                                    });                                }                            }                        );                        (function () {                            var parent = document.querySelector(                                "#personaPriceRangeSliderDiv .range-slider"                            );                            if (!parent) return;                            var rangeS = parent.querySelectorAll("input[type=range]"),                                numberS = parent.querySelectorAll("input[type=number]");                            rangeS.forEach(function (el) {                                el.oninput = function () {                                    var slide1 = parseFloat(rangeS[0].value),                                        slide2 = parseFloat(rangeS[1].value);                                    if (slide1 > slide2) {                                        [slide1, slide2] = [slide2, slide1];                                    }                                    numberS[0].value = slide1;                                    numberS[1].value = slide2;                                    if (slide1 > slide2) {                                        personaMaxPriceNew = slide1;                                        personaMinPriceNew = slide2;                                    } else if (slide2 > slide1) {                                        personaMaxPriceNew = slide2;                                        personaMinPriceNew = slide1;                                    }                                };                            });                            numberS.forEach(function (el) {                                el.oninput = function () {                                    var number1 = parseFloat(numberS[0].value),                                        number2 = parseFloat(numberS[1].value);                                    if (number1 > number2) {                                        var tmp = number1;                                        numberS[0].value = number2;                                        numberS[1].value = tmp;                                    }                                    rangeS[0].value = number1;                                    rangeS[1].value = number2;                                    if (number1 > number2) {                                        personaMaxPriceNew = number1;                                        personaMinPriceNew = number2;                                    } else if (number2 > number1) {                                        personaMaxPriceNew = number2;                                        personaMinPriceNew = number1;                                    }                                };                            });                        })();                    };                    window.personaSortingCheck = function () {                        let filterCheck = setInterval(() => {                            if (document.querySelector("#personaSearchSort select")) {                                clearInterval(filterCheck);                                document.querySelector("#personaSearchSort select").onchange =                                    function () {                                        if (                                            document.querySelector("#personaSearchSort select")                                                .selectedIndex == "1"                                        ) {                                            sortType = "price";                                            sortDirection = "asc";                                            personaRemoveFullSearchAndFilters();                                            personaRemoveFullSearchPriceFilter();                                            personaFullSearchAdd();                                            console.log("3");                                            personaAddPriceRangeSlider();                                        } else if (                                            document.querySelector("#personaSearchSort select")                                                .selectedIndex == "2"                                        ) {                                            sortType = "price";                                            sortDirection = "desc";                                            personaRemoveFullSearchAndFilters();                                            personaRemoveFullSearchPriceFilter();                                            personaFullSearchAdd();                                            console.log("4");                                            personaAddPriceRangeSlider();                                        } else if (                                            document.querySelector("#personaSearchSort select")                                                .selectedIndex == "0"                                        ) {                                            sortType = "popular";                                            sortDirection = "desc";                                            personaRemoveFullSearchAndFilters();                                            personaRemoveFullSearchPriceFilter();                                            personaFullSearchAdd();                                            console.log("5");                                            personaAddPriceRangeSlider();                                        }                                    };                                if (sortType && sortDirection) {                                    if (sortType == "price" && sortDirection == "asc") {                                        document.querySelector(                                            "#personaSearchSort select"                                        ).selectedIndex = "1";                                    } else if (sortType == "price" && sortDirection == "desc") {                                        document.querySelector(                                            "#personaSearchSort select"                                        ).selectedIndex = "2";                                    } else if (sortType == "popular" && sortDirection == "desc") {                                        document.querySelector(                                            "#personaSearchSort select"                                        ).selectedIndex = "0";                                    }                                }                            }                        }, 100);                    };                    window.personaclickSearchCallback = function () {                        /* Karşılaştır Fonksyonu */                        {                            var selectedOrdersView = $(".js-compare-side-menu");                            var productTypeID = $(".js-compare")                                .parents(".js-product-item")                                .data("ptype");                            if (productTypeID != undefined && productTypeID != "") {                                $.ajax({                                    type: "POST",                                    url: "/product/getcompareproductlist",                                    data: { attributeOptionId: productTypeID, categoryID: 969 },                                    success: function (response) {                                        selectedOrdersView.html(response);                                        var result = miniCompareProducts;                                        $(".js-compare").each(function () {                                            $(this).removeClass("active");                                        });                                        for (var i = 0; i < result.length; i++) {                                            $(".compare-prod-" + result[i].ID).addClass("active");                                        }                                        if (result.length > 0) {                                            $(".js-compare-side-menu").show();                                            console.log("1 on");                                        } else {                                            console.log("1 off");                                            $(".js-compare-side-menu").hide();                                        }                                        $(".js-compare-side-menu").addClass("active");                                        $(".custom-loading-div").hide();                                    },                                    error: function (err) { },                                });                            }                            $(document).on("click", ".remove-item", function (e) {                                var param = $(".js-product-item").data("ptype");                                var selectedId = $(this).data("target");                                var selectedOrdersView = $(".js-compare-side-menu");                                $(".custom-loading-div").show();                                console.log("2 on");                                $.ajax({                                    type: "POST",                                    url: "/product/deletecomparetlist",                                    data: { productId: selectedId, attributeOptionId: param },                                    success: function (res) {                                        if (res) {                                            $.ajax({                                                type: "POST",                                                url: "/product/getcompareproductlist",                                                data: { attributeOptionId: param, categoryID: 969 },                                                success: function (response) {                                                    selectedOrdersView.html(response);                                                    var result = miniCompareProducts;                                                    $(".js-compare").each(function () {                                                        $(this).removeClass("active");                                                    });                                                    for (var i = 0; i < result.length; i++) {                                                        $(".compare-prod-" + result[i].ID).addClass(                                                            "active"                                                        );                                                    }                                                    if (result.length > 0) {                                                        console.log("2a on");                                                        $(".js-compare-side-menu").show();                                                    } else {                                                        $(".js-compare-side-menu").hide();                                                        $(".js-compare").removeClass("active");                                                        $(".js-compare").removeAttr("checked");                                                    }                                                    $(".js-compare-side-menu").addClass("active");                                                    console.log("2a off");                                                    $(".custom-loading-div").hide();                                                },                                                error: function (err) {                                                    showCustomError(                                                        "Karşılaştırma listenize 3'den fazla ürün ekleyemezsiniz."                                                    );                                                    $(".custom-loading-div").hide();                                                },                                            });                                        } else {                                            showCustomError(                                                "Ürün karşılaştırma listenizden silinirken bir hata oluştu. Sayfayı yenileyip tekrar deneyebilirsiniz."                                            );                                            $(".custom-loading-div").hide();                                        }                                    },                                    error: function (err) {                                        showCustomError(                                            "Ürün karşılaştırma listenizden silinirken bir hata oluştu. Sayfayı yenileyip tekrar deneyebilirsiniz."                                        );                                        $(".custom-loading-div").hide();                                    },                                });                            });                            $(".js-compare").on("click", function (e) {                                $(".custom-loading-div").show();                                console.log("compare on");                                var selectedElement = $(this);                                var element = $(this);                                var isactive = $(this).hasClass("active");                                var checked = false;                                if (isactive) {                                    checked = false;                                } else {                                    checked = true;                                }                                $(".js-compare-side-menu").removeClass("active");                                var productId = $(this).data("product-id");                                var productTypeID = $(this)                                    .parents(".js-product-item")                                    .data("ptype");                                $.ajax({                                    type: "POST",                                    url: "/product/addcomparetlist",                                    data: {                                        productId: productId,                                        productTypeID: productTypeID,                                        isChecked: checked,                                    },                                    success: function (res) {                                        if (res) {                                            if (isactive) {                                                selectedElement.removeClass("active");                                                var selectedOrdersView = $(".js-compare-side-menu");                                                $.ajax({                                                    type: "POST",                                                    url: "/product/getcompareproductlist",                                                    data: {                                                        attributeOptionId: productTypeID,                                                        categoryID: 969,                                                    },                                                    success: function (response) {                                                        selectedOrdersView.html(response);                                                        var result = miniCompareProducts;                                                        $(".js-compare").each(function () {                                                            $(this).removeClass("active");                                                        });                                                        for (var i = 0; i < result.length; i++) {                                                            $(".compare-prod-" + result[i].ID).addClass(                                                                "active"                                                            );                                                        }                                                        if (result.length > 0) {                                                            $(".js-compare-side-menu").show();                                                            console.log("comparem on");                                                        } else {                                                            $(".js-compare-side-menu").hide();                                                            $(".js-compare").removeClass("active");                                                            $(".js-compare").removeAttr("checked");                                                        }                                                        console.log("comparem off");                                                        $(".js-compare-side-menu").addClass("active");                                                        $(".custom-loading-div").hide();                                                    },                                                    error: function (err) {                                                        showCustomError(                                                            "Karşılaştırma listenize 3'den fazla ürün ekleyemezsiniz."                                                        );                                                        $(element).removeClass("active");                                                        $(".custom-loading-div").hide();                                                    },                                                });                                            } else {                                                selectedElement.addClass("active");                                                var selectedOrdersView = $(".js-compare-side-menu");                                                $.ajax({                                                    type: "POST",                                                    url: "/product/getcompareproductlist",                                                    data: {                                                        attributeOptionId: productTypeID,                                                        categoryID: 969,                                                    },                                                    success: function (response) {                                                        selectedOrdersView.html(response);                                                        var result = miniCompareProducts;                                                        $(".js-compare").each(function () {                                                            $(this).removeClass("active");                                                        });                                                        for (var i = 0; i < result.length; i++) {                                                            $(".compare-prod-" + result[i].ID).addClass(                                                                "active"                                                            );                                                        }                                                        if (result.length > 0) {                                                            $(".js-compare-side-menu").show();                                                            console.log("3 on");                                                        } else {                                                            console.log("3 off");                                                            $(".js-compare-side-menu").hide();                                                            $(".js-compare").removeClass("active");                                                            $(".js-compare").removeAttr("checked");                                                        }                                                        $(".js-compare-side-menu").addClass("active");                                                        $(".custom-loading-div").hide();                                                    },                                                    error: function (err) {                                                        $(".custom-loading-div").hide();                                                    },                                                });                                            }                                        } else {                                            showCustomError(                                                "Karşılaştırma listenize 3'den fazla ürün ekleyemezsiniz."                                            );                                            $(element).removeClass("active");                                            $(".custom-loading-div").hide();                                        }                                    },                                    error: function (err) { },                                });                            });                            $(document).on("click", ".remove-compare-button", function (e) {                                $(".custom-loading-div").show();                                console.log("removecompare on");                                var selectedOrdersView = $(".js-compare-side-menu");                                var productTypeID = $(".js-compare")                                    .parents(".js-product-item")                                    .data("ptype");                                $.ajax({                                    type: "POST",                                    url: "/product/deleteallcomparetlist",                                    data: { attributeOptionId: productTypeID },                                    success: function (response) {                                        $.ajax({                                            type: "POST",                                            url: "/product/getcompareproductlist",                                            data: {                                                attributeOptionId: productTypeID,                                                categoryID: 969,                                            },                                            success: function (compareResponse) {                                                selectedOrdersView.html(compareResponse);                                                var result = miniCompareProducts;                                                $(".js-compare").each(function () {                                                    $(this).removeClass("active");                                                    $(this).removeAttr("checked");                                                });                                                for (var i = 0; i < result.length; i++) {                                                    $(".compare-prod-" + result[i].ID).addClass("active");                                                }                                                if (result.length > 0) {                                                    console.log("rc on");                                                    $(".js-compare-side-menu").show();                                                } else {                                                    $(".js-compare-side-menu").hide();                                                    $(".js-compare").removeClass("active");                                                    $(".js-compare").removeAttr("checked");                                                }                                                $(".js-compare-side-menu").addClass("active");                                                console.log("rc off");                                                $(".custom-loading-div").hide();                                            },                                            error: function (err) {                                                showCustomError(                                                    "Karşılaştırma listenize 3'den fazla ürün ekleyemezsiniz."                                                );                                                $(".custom-loading-div").hide();                                            },                                        });                                    },                                    error: function (err) {                                        $(".custom-loading-div").hide();                                    },                                });                            });                        }                        const args = arguments;                        if (args.length > 1 && args[0] && args[1].price_range) {                            fullSearchTag = args[0];                            personaFullSearchCheckedFilters = {};                            personaFullSearchCheckedBrands = [];                            personaFullSearchCheckedCategories = [];                            var scrollControl = 0;                            var mobilePage = 1;                            window.onscroll = function (ev) {                                if (                                    window.innerHeight + window.scrollY >=                                    document.querySelector(".personaMainDiv").offsetHeight +                                    100 &&                                    mobilePage < Math.ceil(args[1].products_total / 30) &&                                    scrollControl == 0                                ) {                                    var scrollPosition = window.innerHeight + window.scrollY;                                    mobilePage++;                                    personaFullSearchCheckedFilters;                                    personaFullSearchCheckedCategories;                                    for (                                        let index = 0;                                        index < personaFullSearchCheckedFilters.length;                                        index++                                    ) {                                        var fname = personaFullSearchCheckedFilters[index].fname;                                        var tempFilter = {                                            fname: ["value1", "value2"],                                        };                                    }                                    scrollControl++;                                    personaclick(                                        "search",                                        {                                            search_query: query,                                            limit: fullSearchTag.dataset.searchLimit,                                            sort_by: fullSearchTag.dataset.searchSortBy,                                            order: fullSearchTag.dataset.searchOrder,                                            page: mobilePage,                                            price_min: fullSearchTag.dataset.searchPriceMin,                                            price_max: fullSearchTag.dataset.searchPriceMax,                                            categories: personaFullSearchCheckedCategories,                                            filters: personaFullSearchCheckedFilters,                                        },                                        function (response) {                                            setTimeout(() => {                                                scrollControl = 0;                                            }, 2000);                                            document                                                .querySelector(".personaclick-full-search-results")                                                .insertAdjacentHTML("beforeend", response.html);                                            personaAddFunc();                                        },                                        function (error) { }                                    );                                }                            };                            personaFullSearchCheckedFilters = Object.assign(                                {},                                personaFullSearchCheckedFilters                            );                            [].forEach.call(                                document.querySelectorAll(                                    "#personaclick_search_brands label[data-name]"                                ),                                (element) => {                                    if (element) {                                        if (element.querySelector("input").checked == true) {                                            let dataName = element.dataset.name;                                            personaFullSearchCheckedBrands.push(dataName);                                        }                                    }                                }                            );                            [].forEach.call(                                document.querySelectorAll(                                    "#personaclick_search_categories label[data-name]"                                ),                                (element) => {                                    if (element) {                                        if (element.querySelector("input").checked == true) {                                            let dataName = element.dataset.name;                                            personaFullSearchCheckedCategories.push(dataName);                                        }                                    }                                }                            );                            if (                                !document.querySelector(".category-filter-bar .categoryTitle")                            ) {                                document                                    .querySelector(".page-header .category-filter-bar")                                    .insertAdjacentHTML(                                        "afterbegin",                                        `<div class="categoryTitle"> <div id="personaSortandFilterDiv"> <button id="personaMobileFilter" onclick="personaMobileSearchFilterPopup();return false;">Filter</button> <div id="personaSearchSort"> <select onload="personaSortingCheck();return false;"> <option selected="">Bestseller</option> <option class="try">Preis aufteigend</option> <option class="try">Preis absteigend</option> </select> </div></div><div id="personaProductQuantityDiv"><li> <span>  Produkte anzeigen</span> </li></div></div>`                                    );                            }                            [].forEach.call(                                document.querySelectorAll(".page-title span"),                                (totalNumber) => {                                    if (totalNumber) {                                        totalNumber.innerText =                                            args[1].products_total + " Produkte anzeigen";                                    }                                }                            );                            var scrollControl = 0;                            var mobilePage = 1;                            window.onscroll = function (ev) {                                if (                                    window.innerHeight + window.scrollY + 200 >=                                    document.body.offsetHeight &&                                    mobilePage < Math.ceil(args[1].products_total / 60) &&                                    scrollControl == 0                                ) {                                    mobilePage++;                                    personaFullSearchCheckedFilters;                                    personaFullSearchCheckedBrands;                                    personaFullSearchCheckedCategories;                                    scrollControl++;                                    personaclick(                                        "search",                                        {                                            search_query: query,                                            limit: fullSearchTag.dataset.searchLimit,                                            sort_by: fullSearchTag.dataset.searchSortBy,                                            order: fullSearchTag.dataset.searchOrder,                                            page: mobilePage,                                            price_min: fullSearchTag.dataset.searchPriceMin,                                            price_max: fullSearchTag.dataset.searchPriceMax,                                            categories: personaFullSearchCheckedCategories,                                            brands: personaFullSearchCheckedBrands,                                        },                                        function (response) {                                            setTimeout(() => {                                                scrollControl = 0;                                            }, 2000);                                            document                                                .querySelector(".personaclick-full-search-results")                                                .insertAdjacentHTML("beforeend", response.html);                                        },                                        function (error) { }                                    );                                }                            };                        }                    };                    personaclick(                        "search",                        {                            search_query: query,                            limit: 60,                            sort_by: sortType,                            order: sortDirection,                        },                        function (response) {                            if (response) {                                if (response.products_total > 0) {                                    personaMaxPrice = Math.ceil(response.price_range.max);                                    personaMinPrice = Math.floor(response.price_range.min);                                    if (                                        document.querySelector(                                            ".personaclick-recommend[data-recommender-code='7bccbaf45fbd74aa3093a6074a581005']"                                        )                                    ) {                                        document                                            .querySelector(                                                ".personaclick-recommend[data-recommender-code='7bccbaf45fbd74aa3093a6074a581005']"                                            )                                            .remove();                                    }                                    if (document.querySelector("#product-list .container .row")) {                                        document.querySelector(                                            "#product-list .container .row"                                        ).innerHTML = ``;                                    }                                    if (document.querySelector("#product-list .container .row")) {                                        document.querySelector(                                            "#product-list .container .row"                                        ).innerHTML = ``;                                    }                                    if (document.querySelector(".filter-btn")) {                                        document.querySelector(".filter-btn").innerHTML = ``;                                    }                                    window.personaFullSearchAdd = function () {                                        var fullSearch = document.createElement("div");                                        fullSearch.id = "personaFullSearchDiv";                                        fullSearch.classList.add(                                            "col",                                            "col-12",                                            "col-lg-9",                                            "col-xl-9",                                            "product-list"                                        );                                        if (personaMaxPriceNew != "" && personaMinPriceNew != "") {                                            fullSearch.innerHTML =                                                '<div class="personaclick-full-search-results " style=" display: block!important; width: 100%; float: left; " data-search-query="' +                                                query +                                                '" data-search-order=' +                                                sortDirection +                                                " data-search-sort-by=" +                                                sortType +                                                " data-search-filters-block='.personaclick-search-filters' data-search-limit='60' data-search-price-min=" +                                                personaMinPriceNew +                                                " data-search-price-max=" +                                                personaMaxPriceNew +                                                " data-search-callback='personaclickSearchCallback' data-search-page='1'></div>";                                        } else {                                            fullSearch.innerHTML =                                                '<div class="personaclick-full-search-results  " style="display: block!important; width: 100%; float: left;" data-search-query="' +                                                query +                                                '" data-search-order=' +                                                sortDirection +                                                " data-search-sort-by=" +                                                sortType +                                                " data-search-filters-block='.personaclick-search-filters' data-search-limit='60' data-search-price-min=" +                                                personaMinPrice +                                                " data-search-price-max=" +                                                personaMaxPrice +                                                " data-search-callback='personaclickSearchCallback' data-search-page='1'></div>";                                        }                                        if (                                            document.querySelector("#product-list .container .row")                                        ) {                                            document                                                .querySelector("#product-list .container .row")                                                .append(fullSearch);                                        }                                        if (                                            document.querySelector(                                                ".category-filter-bar .dropdown.filterWrap"                                            )                                        ) {                                            document                                                .querySelector(                                                    ".category-filter-bar .dropdown.filterWrap"                                                )                                                .remove();                                        }                                        if (matches) {                                            window.personaVOverlayRemove = function () {                                                if (document.getElementById("personaOverlay")) {                                                    document.getElementById("personaOverlay").remove();                                                }                                                if (document.getElementById("personaOverlays")) {                                                    document.getElementById("personaOverlays").remove();                                                }                                                if (document.getElementById("filter-popup-persona")) {                                                    document                                                        .getElementById("filter-popup-persona")                                                        .remove();                                                }                                            };                                            let overlayPersona = document.createElement("div");                                            overlayPersona.id = "personaOverlays";                                            overlayPersona.setAttribute(                                                "onclick",                                                "personaMobileSearchFilterPopup();"                                            );                                            let personaCreateMobileModal =                                                document.createElement("div");                                            personaCreateMobileModal.id = "filter-popup-persona";                                            personaCreateMobileModal.innerHTML =                                                '<div class="mobil-filter-popup-persona-title">Filter</div><button class="persona-close-popup1" onclick="personaMobileSearchFilterPopup();">&#x2715</button><div style="" class="personaclick-search-filters" id="personaFullSearchFiltersDiv" data-categories-title="Kategoriler" data-brands-title="Markalar" data-filters-title="Filter" data-colors-title="RENK"></div><div id="personaFilterPopupClose"><button onclick="personaMobileSearchFilterPopup();">schließen</button></div>';                                            if (matches) {                                                if (                                                    !document.querySelector(                                                        ".personaclick-search-filters"                                                    )                                                ) {                                                    personaCreateMobileModalStyle.innerText =                                                        "#personaFullSearchFiltersDiv{ border-left: 0px solid #df2126;}#personaFullSearchFiltersDiv .personaclick-search-group-title, .personaclick-search-group-title-categories-param{ font-size: 14px; text-align: left; display: block; cursor: pointer; color: #000; height: 50px; border-radius: 0; padding: 0!important; font-family: 'League Medium',sans-serif!important; background: #f9f9f9!important; line-height: 50px; text-indent: 20px; border-bottom: 1px solid #dedede!important; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding-right: 30px; margin: 0; position: relative; letter-spacing: 1px; outline: 0!important;}#personaFullSearchFiltersDiv .personaclick-search__checkbox{display: flex; margin: 0.5rem 0px; width: 100%; justify-content: space-between; flex-direction: row-reverse; padding: 0px 15px;}div#personaFilterPopupClose button{background-color: #333333; color: #fff; float: right; height: auto; line-height: normal; position: relative; font-size: 15px; font-weight: bold; width: 100%; text-align: center; padding: 10px 20px; display: inline-block;}div#personaFilterPopupClose{position: relative; bottom: 0; left: 50%; transform: translate(-50%, -50%);margin-top: 2rem;}#filter-popup-persona.opened{overflow: auto; width: 100%; height: 100vh; visibility: visible; opacity: 1; top: 60px;}#personaOverlay.opened{display: block !important;}.close-persona-modal,.close-persona-overlay{display:none !important}#filter-popup-persona img{width:90vw;}.personaPopupArrow {float: right;margin-right: 15px;margin-top: 0.1rem;margin-bottom: 0.1rem;}.personaPopupArrow svg {width: 1rem;height: auto;margin-bottom: 5px;}#filter-popup-persona .persona-close-popup1 { background: none; border: none; color: #fff;position: absolute; right: 8px; top: 16px;}.mobil-filter-popup-persona-title{font-family: 'League Book',sans-serif; height: 60px; width: 100%; background-color: #3a3a3a; color: #fff; line-height: 60px; text-align: center; font-size: 16px; letter-spacing: 1px; margin: 0;}#filter-popup-persona .persona-close-popup1:hover {opacity: .7;}#personaOverlay {display: none !important;top: 0;left: 0;display: table;width: 100%;height: 100%;z-index: 1000;background: rgba(0, 0, 0, 0.5);transform: scale(1);position: fixed;}#filter-popup-persona {display: block;font-size: 14px; border-radius: 0;background-color: #fff;text-align: center;float: left;color: #000000;position: fixed;z-index: 999999; visibility: hidden; opacity: 0; transition: all .5s cubic-bezier(.77,0,.175,1); }.personaDialog {font-weight: 300;position: relative;display: flex;min-width: 280px;max-width: 500px;margin: auto;padding: 15px;border-radius: 5px;flex-wrap: wrap;background: #fff !important;z-index: 999999999999;}.personaDialog p {margin-bottom: 50px;text-align: center;font-size: 13px;width: 100%;margin: 1px auto 15px;display: block;letter-spacing: .4px;font-weight: 600;}.personaDialog::before {content: '';font-size: 50px;text-align: center;margin: 0 auto;color: #00c853;margin: 15px auto;}.personaConfirm {display: block;width: 100%;}.personaCont {display: block;width: 100%;text-align: center;margin-bottom: 10px;font-size: 13px;padding: 12px 0;background-color: #eaeaea !important;color: #5e5e5e;background: rgb(255, 108, 108);float: left;cursor: pointer;border-radius: 2px;}.personaFinish {display: block;width: 100%;text-align: center;font-size: 13px;padding: 12px 0;background-color: #56be67 !important;color: #fff !important;background: rgb(86, 190, 103);float: right;border-radius: 2px;cursor: pointer;}.personaFinish a {color: #fff;}.persona-close-popup1 {border: 1px solid #909090;border-radius: 15px;width: 30px;height: 30px;text-align: center;font-size: 19px;font-weight: 600;line-height: normal;color: #909090;position: absolute;right: 10px;top: 10px;text-decoration: none;}.personaConfirm::after {clear: both;display: table;content: '';}@media screen and (max-width:768px) {}";                                                    document                                                        .querySelector("body")                                                        .append(personaCreateMobileModalStyle);                                                    document.querySelector("body").append(overlayPersona);                                                    document                                                        .querySelector("body")                                                        .append(personaCreateMobileModal);                                                }                                            }                                            window.personaMobileSearchFilterPopup = function () {                                                if (                                                    document                                                        .querySelector("#filter-popup-persona")                                                        .classList.contains("opened")                                                ) {                                                    document                                                        .querySelector("#filter-popup-persona")                                                        .classList.remove("opened");                                                } else {                                                    document                                                        .querySelector("#filter-popup-persona")                                                        .classList.add("opened");                                                }                                                if (                                                    document                                                        .querySelector("#personaOverlay")                                                        .classList.contains("opened")                                                ) {                                                    document                                                        .querySelector("#personaOverlay")                                                        .classList.remove("opened");                                                } else {                                                    document                                                        .querySelector("#personaOverlay")                                                        .classList.add("opened");                                                }                                            };                                        } else {                                            window.personaVOverlayRemove = function () {                                                if (document.getElementById("personaOverlay")) {                                                    document.getElementById("personaOverlay").remove();                                                }                                                if (document.getElementById("filter-popup-persona")) {                                                    document                                                        .getElementById("filter-popup-persona")                                                        .remove();                                                }                                            };                                            let personaCreateMobileModal =                                                document.createElement("div");                                            personaCreateMobileModal.id =                                                "filter-popup-persona-desktop";                                            personaCreateMobileModal.innerHTML =                                                '<div class="mobil-filter-popup-persona-title">Filter</div><button class="persona-close-popup1" onclick="personaMobileSearchFilterPopup();">&#x2715</button><div style="" class="personaclick-search-filters" id="personaFullSearchFiltersDiv" data-categories-title="Kategoriler" data-brands-title="Markalar" data-filters-title="Filter" data-colors-title="RENK"></div><div id="personaFilterPopupClose"><button onclick="personaMobileSearchFilterPopup();">schließen</button></div>';                                            let overlayPersona = document.createElement("div");                                            overlayPersona.id = "personaOverlay";                                            overlayPersona.setAttribute(                                                "onclick",                                                "personaMobileSearchFilterPopup();"                                            );                                            document.querySelector("body").append(overlayPersona);                                            window.personaMobileSearchFilterPopup = function () {                                                if (                                                    document                                                        .querySelector("#filter-popup-persona")                                                        .classList.contains("opened")                                                ) {                                                    document                                                        .querySelector("#filter-popup-persona")                                                        .classList.remove("opened");                                                } else {                                                    document                                                        .querySelector("#filter-popup-persona")                                                        .classList.add("opened");                                                }                                                if (                                                    document                                                        .querySelector("#personaOverlay")                                                        .classList.contains("opened")                                                ) {                                                    document                                                        .querySelector("#personaOverlay")                                                        .classList.remove("opened");                                                } else {                                                    document                                                        .querySelector("#personaOverlay")                                                        .classList.add("opened");                                                }                                            };                                            if (                                                document.querySelector(                                                    "#product-list .container .row"                                                ) &&                                                !document.querySelector("#personaclick_search_filters")                                            ) {                                                var personaSearchFilters =                                                    document.createElement("div");                                                personaSearchFilters.id =                                                    "filter-popup-persona-desktop";                                                personaSearchFilters.classList.add(                                                    "personaclick-search-filter-All-Overlay",                                                    "col",                                                    "col-12",                                                    "col-lg-3",                                                    "col-xl-3"                                                );                                                document                                                    .querySelector("#product-list .container .row")                                                    .prepend(personaSearchFilters);                                                personaSearchFilters.innerHTML = `<div class="persona-remove-mobilFilter"><div class="personaclick-search-filters" id="personaFullSearchFiltersDiv" data-categories-title="Kategoriler" data-brands-title="Markalar" data-filters-title="Filter" data-colors-title="RENK"></div></div>`;                                            } else {                                                if (                                                    !document.querySelector("#divLeftBlock") &&                                                    !document.querySelector(                                                        "#personaclick_search_filters"                                                    )                                                ) {                                                    var personaSearchFilters =                                                        document.createElement("div");                                                    document                                                        .querySelector(                                                            "#product-list .container .row .product-list"                                                        )                                                        .before(personaSearchFilters);                                                    if (                                                        !!document.querySelector(                                                            "#product-list .container .row .product-list"                                                        )                                                    ) {                                                        document                                                            .querySelector(                                                                "#product-list .container .row .product-list"                                                            )                                                            .classList.remove("Middle");                                                        document                                                            .querySelector(                                                                "#product-list .container .row .product-list"                                                            )                                                            .classList.add("LeftMiddle");                                                    }                                                    personaSearchFilters.innerHTML = `<div id="divLeftBlock" class="leftBlock LeftMiddle"> <div class="Block_item filterBlock" style=""> <div class="Block_Text"> <div class="mobilFilterOpenBtn" style="display: none"> <a class="button mobilFilterBtn">Filtreleme</a> <a class="button mobilSiralamBtn">Sıralama</a> </div><div class="category-vertical-filters"> <div> <div class="personaclick-search-filters" id="personaFullSearchFiltersDiv" data-categories-title="Kategoriler" data-brands-title="Markalar" data-filters-title="Filter" data-colors-title="RENK"> </div></div></div></div><div class="Block_Alt"></div></div></div>`;                                                }                                            }                                            const personaLeftFilterStyle =                                                document.createElement("style");                                            personaLeftFilterStyle.innerText =                                                ".personaclick-search-group-title.personaclick-search-group-title-filters{display:none!important;} #personaclick_search_filters{display: none!important;} #personaFullSearchFiltersDiv .personaclick-search-group-title, .personaclick-search-group-title-categories-param{text-align: left;display: block; cursor: pointer; position: relative; margin: 2px 0 0 0; padding: 0.5em -100.5em 0.5em 0.7em; font-size: 100%; color: #000; height: 50px; border-radius: 0; padding: 0!important; font-family: 'League Medium',sans-serif!important; background: #f9f9f9!important; line-height: 50px; text-indent: 20px; border: 1px solid #dedede!important; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding-right: 30px; border-left: 2px solid #df2126!important; margin: 0; position: relative; letter-spacing: 1px; outline: 0!important;    margin: 2px 0 0 0; }#personaFullSearchFiltersDiv .personaclick-search__checkbox{line-height: 1.6em; cursor: pointer; margin-bottom: 10px; font-family: 'League Book',sans-serif; font-size: 14px; color: #000; display: flex;display: flex; justify-content: space-between; flex-direction: row-reverse; width: 100%;}#personaclick_search_categories,#personaclick_search_filters, .persona-search-filter-forparams-item{border-top: 0; overflow-y: auto!important; max-height: 40vh; border: 1px solid #ddd; background: #fff; color: #333; background-color: #f9f9f9; padding: 16px; border-left: 2px solid #df2126;}";                                            document                                                .querySelector("body")                                                .append(personaLeftFilterStyle);                                        }                                        personaclick("full_search_init");                                        setTimeout(() => {                                            /* Bu alanda kategoiler kısmını filtre alanından çekiyorum. Muhtemelen settimeout yeterli kalmadığı için biraz geç yükleniyor. */                                            const titleofParams = document.querySelectorAll(                                                "#personaclick_search_filters > div"                                            );                                            titleofParams.forEach((element) => {                                                if (                                                    element.dataset.name == "Ürün Kategorisi" &&                                                    !document.querySelector(                                                        ".personaclick-search-group-title-categories-param"                                                    )                                                ) {                                                    var nameofParamValues = element.dataset.name;                                                    const elementsTitleDiv =                                                        document.createElement("div");                                                    element.classList.add(                                                        "persona-search-filter-forparams-item",                                                        "pc-toggle-arrow"                                                    );                                                    elementsTitleDiv.classList.add(                                                        "personaclick-search-group-title-categories-param"                                                    );                                                    elementsTitleDiv.innerHTML = `Kategoriler`;                                                    document                                                        .querySelector("#personaFullSearchFiltersDiv")                                                        .append(elementsTitleDiv, element);                                                    element.before(elementsTitleDiv);                                                    if (                                                        !!document.querySelector(                                                            "#personaclick_search_filters"                                                        )                                                    ) {                                                        document                                                            .querySelector("#personaclick_search_filters")                                                            .remove();                                                    }                                                    element.setAttribute(                                                        "id",                                                        "personaclick_search_filters"                                                    );                                                }                                            });                                            let filerInterval = setInterval(() => {                                                if (                                                    !!document.querySelector(                                                        "#personaFullSearchFiltersDiv .personaclick-search-group-title-categories-param"                                                    ) ||                                                    !!document.querySelector(".personaPriceRangeTitle")                                                ) {                                                    clearInterval(filerInterval);                                                    const kategoriToggle = document.querySelectorAll(                                                        "#personaFullSearchFiltersDiv .personaclick-search-group-title-categories-param"                                                    );                                                    kategoriToggle.forEach((buttonKategori) => {                                                        buttonKategori.addEventListener(                                                            "click",                                                            function () {                                                                if (                                                                    document.querySelector(                                                                        ".persona-search-filter-forparams-item"                                                                    ).style.display === "none" ||                                                                    document.querySelector(                                                                        ".persona-search-filter-forparams-item"                                                                    ).style.display === ""                                                                ) {                                                                    buttonKategori.classList.add(                                                                        "pc-toggle-arrow"                                                                    );                                                                    document                                                                        .querySelectorAll(                                                                            ".persona-search-filter-forparams-item"                                                                        )                                                                        .forEach((buttonKategori2) => {                                                                            buttonKategori2.setAttribute(                                                                                "style",                                                                                "display:block !important"                                                                            );                                                                        });                                                                } else {                                                                    buttonKategori.classList.remove(                                                                        "pc-toggle-arrow"                                                                    );                                                                    document                                                                        .querySelectorAll(                                                                            ".persona-search-filter-forparams-item"                                                                        )                                                                        .forEach((buttonKategori3) => {                                                                            buttonKategori3.setAttribute(                                                                                "style",                                                                                "display:none !important"                                                                            );                                                                        });                                                                }                                                            }                                                        );                                                    });                                                    const priceToggle = document.querySelectorAll(                                                        ".personaPriceRangeTitle"                                                    );                                                    priceToggle.forEach((button) => {                                                        button.addEventListener("click", function () {                                                            if (                                                                document.querySelector(                                                                    "#personaPriceRangeSliderDiv .range-slider"                                                                ).style.display === "none" ||                                                                document.querySelector(                                                                    "#personaPriceRangeSliderDiv .range-slider"                                                                ).style.display === ""                                                            ) {                                                                button.classList.add("pc-toggle-arrow");                                                                document                                                                    .querySelectorAll(                                                                        "#personaPriceRangeSliderDiv .range-slider"                                                                    )                                                                    .forEach((button2) => {                                                                        button2.setAttribute(                                                                            "style",                                                                            "display:block !important"                                                                        );                                                                    });                                                            } else {                                                                button.classList.remove("pc-toggle-arrow");                                                                document                                                                    .querySelectorAll(                                                                        "#personaPriceRangeSliderDiv .range-slider"                                                                    )                                                                    .forEach((button3) => {                                                                        button3.setAttribute(                                                                            "style",                                                                            "display:none !important"                                                                        );                                                                    });                                                            }                                                        });                                                    });                                                }                                            }, 100);                                        }, 500);                                        sortingSearchStyle.innerText = `.personaclick-search-filter{display:none!important;} #personaFullSearchFiltersDiv .personaclick-search-group-title, #personaclick_search_categories{display: none!important}; .personaclick-search-group-title.personaclick-search-group-title-filters,  #personaclick_search_categories{display:none!important;} #personaclick_search_filters{display: none!important;} .pc-toggle-arrow:after{transform: rotate(0deg)!important;} #personaPriceRangeSliderDiv .personaPriceRangeTitle:after{content: ''; transform: rotate(180deg); background-image: url(/assets/img/bg-sprite.svg); background-repeat: no-repeat; position: absolute; width: 12px; height: 6px; right: 16px; top: 50%; margin-top: -3px; background-position: -140px -122px;} #personaFullSearchFiltersDiv .personaclick-search-group-title:after, .personaclick-search-group-title-categories-param:after{content: ''; transform: rotate(180deg); background-image: url(/assets/img/bg-sprite.svg); background-repeat: no-repeat; position: absolute; width: 12px; height: 6px; right: 16px; top: 50%; margin-top: -3px; background-position: -140px -122px;} #personaSearchSort{width: 200px !important; float: right !important; border-radius: 0; outline: 0!important; box-shadow: unset!important;}#personaMobileFilter{display: none;}div#personaSearchSort{display: inline-block;}#personaSearchSort select{line-height: 48px!important; box-sizing: border-box; padding: 0 10px!important; height: 50px; background-color: #fff; background-image: url(/assets/img/transformselect.gif); background-position: right center; background-repeat: no-repeat; margin: 0!important; font-family: "League Bold",sans-serif!important; font-size: 14px!important; text-align: left; color: #000; float: left; margin-left: 10px; border: solid 2px #dedede; width: 270px; border-radius: 0; outline: 0!important; box-shadow: unset!important;width: 200px !important; float: right !important;-webkit-appearance: none; -moz-appearance: none; appearance: none;}#personaSearchSort option{display: block; overflow: hidden; text-align: left; text-overflow: ellipsis; color: #000; line-height: 56px !important;}div#personaSearchSort:before{content: ""; position: absolute; right: 5px; top: 45%; transform: translate(0, -50%); width: 0; float: right; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #eeeeee;}div#personaSearchSort:after{content: ""; position: absolute; right: 40px; top: 18px; width: 0; right: 20px; top: 45%; transform: translate(0, -50%); height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #eeeeee;}@media only screen and (min-width: 1201px){#filter-popup-persona.opened{display: none!important;}} @media screen and (max-width:1200px) {.personaclick-search-filter{ font-weight: bold;}#personaclick_search_categories, #personaclick_search_filters, .persona-search-filter-forparams-item{border-left: 0px!important;} #personaFullSearchFiltersDiv .personaclick-search-group-title, .personaclick-search-group-title-categories-param{ border-left: 0px!important;} #personaPriceRangeSliderDiv {border-left: 0px!important;}  #personaSortandFilterDiv{100%!important; float: width: 100%; left!important;}#personaSearchSort select{float: right !important; width: 200px !important; right: 10px; min-width: 200px; position: absolute; top: 100%; left: 0; z-index: 1000;  font-size: 14px!important; color: #212529; text-align: left; list-style: none; background-color: #fff; background-clip: padding-box; border: 1px solid rgba(0,0,0,.15); border-radius: 0.25rem; margin: 0!important; }#personaSearchSort option{font-size: 14px; font-family: "League Book",sans-serif; height: 40px!important; box-sizing: border-box; border: 0; padding: 8px!important;}div#personaSearchSort{ position: relative;float: right !important; width: 200px !important; right: 0px; min-width: 200px; }.personaMidline{position: absolute; border-left: solid 1px #dcdddc; height: 90%; top: 20%; left: 50%;}#personaMobileFilter{display: block; float: left; box-sizing: border-box; height: 50px; border: solid 2px #dedede; line-height: 49px; font-family: "League Bold",sans-serif; font-size: 14px; color: #000; padding: 0 16px; position: relative; padding: 0 24px 0 12px; background: transparent;}div#personaSearchSort:after{ content: unset; position: absolute; right: 40px; top: 18px; width: 0; right: 20px; top: 45%; transform: translate(0, -50%); height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #fff;}div#personaSearchSort:before{ content: unset; position: relative; right: 20px; top: 50%; transform: translate(0, -50%); width: 0; float: right; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #000;}}@media only screen and (max-width:1200px){#personaFullSearchFiltersDiv{background-color: #f9f9f9; border-left: 3px solid #df2126;}#personaFullSearchFiltersDiv .personaclick-search-group-title, .personaclick-search-group-title-categories-param{ text-align: left; display: block; cursor: pointer; position: relative; margin: 2px 0 0 0; padding: 0.5em -100.5em 0.5em 0.7em; font-size: 100%; color: #000; height: 50px; border-radius: 0; padding: 0!important; font-family: 'League Medium',sans-serif!important; font-size: 14px; background: #f9f9f9!important; line-height: 50px; text-indent: 20px; border-bottom: 1px solid #dedede!important; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding-right: 30px; margin: 0; position: relative; letter-spacing: 1px; outline: 0!important;}#personaFullSearchFiltersDiv .personaclick-search__checkbox{display: flex; margin: 0.5rem 0px; width: 100%; justify-content: space-between; flex-direction: row-reverse; padding: 0px 15px;}div#personaFilterPopupClose button{background-color: #333333; color: #fff; float: right; height: auto; line-height: normal; position: relative; font-size: 15px; font-weight: bold; width: 100%; text-align: center; padding: 10px 20px; display: inline-block;}div#personaFilterPopupClose{position: relative; bottom: 0; left: 50%; transform: translate(-50%, -50%);margin-top: 2rem;}#filter-popup-persona.opened{overflow: auto; width: 100%; height: 100vh;  visibility: visible; opacity: 1; top: 60px;}#personaOverlay.opened{display: block !important;}.close-persona-modal,.close-persona-overlay{display:none !important}#filter-popup-persona img{width:90vw;}.personaPopupArrow {float: right;margin-right: 15px;margin-top: 0.1rem;margin-bottom: 0.1rem;}.personaPopupArrow svg {width: 1rem;height: auto;margin-bottom: 5px;}#filter-popup-persona .persona-close-popup1 { background: none; border: none; color: #fff;position: absolute; right: 8px; top: 16px;}.mobil-filter-popup-persona-title{font-family: 'League Book',sans-serif; height: 60px; width: 100%; background-color: #3a3a3a; color: #fff; line-height: 60px; text-align: center; font-size: 16px; letter-spacing: 1px; margin: 0;}#filter-popup-persona .persona-close-popup1:hover {opacity: .7;}#personaOverlay {display: none !important;top: 0;left: 0;display: table;width: 100%;height: 100%;z-index: 1000;background: rgba(0, 0, 0, 0.5);transform: scale(1);position: fixed;}#filter-popup-persona {display: block; float: left; font-size: 14px;border-radius: 0; text-align: center;color: #000000;position: fixed;}.personaDialog {font-weight: 300;position: relative;display: flex;min-width: 280px;max-width: 500px;margin: auto;padding: 15px;border-radius: 5px;flex-wrap: wrap;background: #fff !important;z-index: 999999999999;}.personaDialog p {margin-bottom: 50px;text-align: center;font-size: 13px;width: 100%;margin: 1px auto 15px;display: block;letter-spacing: .4px;font-weight: 600;}.personaDialog::before {content: '';font-size: 50px;text-align: center;margin: 0 auto;color: #00c853;margin: 15px auto;}.personaConfirm {display: block;width: 100%;}.personaCont {display: block;width: 100%;text-align: center;margin-bottom: 10px;font-size: 13px;padding: 12px 0;background-color: #eaeaea !important;color: #5e5e5e;background: rgb(255, 108, 108);float: left;cursor: pointer;border-radius: 2px;}.personaFinish {display: block;width: 100%;text-align: center;font-size: 13px;padding: 12px 0;background-color: #56be67 !important;color: #fff !important;background: rgb(86, 190, 103);float: right;border-radius: 2px;cursor: pointer;}.personaFinish a {color: #fff;}.persona-close-popup1 {border: 1px solid #909090;border-radius: 15px;width: 30px;height: 30px;text-align: center;font-size: 19px;font-weight: 600;line-height: normal;color: #909090;position: absolute;right: 10px;top: 10px;text-decoration: none;}.personaConfirm::after {clear: both;display: table;content: '';}}`;                                        document.querySelector("body").append(sortingSearchStyle);                                        sortingSearchProductQuantityStyle.innerText = `#personaProductQuantityDiv{float: right;margin-right: 1rem;display:none!important;}#personaProductQuantityDiv li{height: auto; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; zoom: 1; display: inline-block; float: left; margin: 0; padding: 4px 0 0 0; border-radius: 0; text-indent: 8px;}`;                                        document                                            .querySelector("body")                                            .append(sortingSearchProductQuantityStyle);                                        personaSortingCheck();                                    };                                    personaRemoveFullSearchAndFilters();                                    personaFullSearchAdd();                                    console.log("6");                                    personaAddPriceRangeSlider();                                }                            }                        }                    );                }                handleCheck(mediaQuery.matches);                mediaQuery.addListener((event) => {                    handleCheck(event.matches);                });                if (!(document.cookie.includes("personaclick_testmode=true"))) {                    let fixStyle = document.createElement("style");                    fixStyle.innerText = ".personaclick-sort{display:none !important}.personaclick-search-search-price-slider{display:none !important}";                    document.body.appendChild(fixStyle);                };            }        } catch (error) {            window["personaclickErrorMessage"] &&                window["personaclickErrorMessage"](document.location.href, error);            throw error;        }    }}, 100);})();(function(){if(window.location.pathname == "/de/search"){    var customStyle = document.createElement("style");    document.body.append(customStyle);    customStyle.id = "hide_full_search";    customStyle.innerText = ".personaclick-full-search-results{display:none!important;}";}})();

@@ -1,0 +1,61 @@
+User-agent: *
+Disallow: /*?sort=*
+Disallow: /*&sort=*
+Disallow: /*?priceValue=*
+Disallow: /*&priceValue=*
+Disallow: /*?theme=*
+Disallow: /*&theme=*
+Allow: /*/angebote/d.*?sort=theme&theme*
+Disallow: /*?text=*
+Disallow: /*&text=*
+Disallow: /*?q=*
+Disallow: /*&q=*
+Disallow: /*/login-registrierung.html?redirect=*
+Disallow: /*/garantie/formular.*
+Disallow: /*/mein-profil/
+Disallow: /libs/granite/csrf/token.json
+Disallow: /*get-cart.json
+Disallow: /*get-product-stock.json
+Disallow: /*loadcustomer.json*
+Disallow: /*currensessionUserInfo.json*
+Allow: /*?page=*
+
+Sitemap: https://www.aldi-sued.de/sitemap.xml
+Sitemap: https://www.aldi-sued.de/sitemap_products.xml
+Sitemap: https://www.aldi-sued.de/sitemap_recipes.xml
+Sitemap: https://www.aldi-sued.de/sitemap_images.xml
+
+User-Agent: GPTBot
+Allow: /
+User-Agent: ChatGPT-User
+Allow: /
+User-Agent: OAI-SearchBot
+Allow: /
+
+User-Agent: Google-Extended
+Allow: /
+
+User-Agent: Cohere-Ai
+Allow: /
+
+User-Agent: OmgiliBot
+Allow: /
+User-Agent: Omgili
+Allow: /
+
+User-Agent: Claude-Web
+Allow: /
+User-Agent: ClaudeBot
+Allow: /
+
+User-Agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: applebot-extended
+Allow: /

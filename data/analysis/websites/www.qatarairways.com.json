@@ -1,0 +1,18 @@
+{
+  "domain": "www.qatarairways.com",
+  "normalizedDomain": "www.qatarairways.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    }
+  ]
+}

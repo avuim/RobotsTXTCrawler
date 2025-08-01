@@ -1,0 +1,17 @@
+User-Agent: *
+Allow: /
+
+# folders
+Disallow: /typo3/
+Allow: /typo3temp/
+Allow: /fileadmin/
+
+# parameters
+Disallow: /*cHash               # no cHash
+#Disallow: /*?id=*               # non-realurl URLs
+Disallow: /*?					# all Parameter Urls that are not enhanced
+
+Allow: /*/sitemap.xml?sitemap=*&cHash=*
+
+Sitemap: https://www.dmk.de/de/sitemap.xml
+Sitemap: https://www.dmk.de/en/sitemap.xml

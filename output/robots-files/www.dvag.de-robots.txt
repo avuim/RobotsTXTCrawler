@@ -1,0 +1,28 @@
+# disable bots
+User-agent: AhrefsBot
+User-agent: Amazonbot
+User-agent: Applebot
+User-agent: BLEXBot
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: DataForSeoBot
+User-agent: Pandalytics/1.0
+User-agent: Pandalytics
+User-agent: domainsbot
+User-agent: trustoo
+Disallow: /
+
+
+# disable pages
+user-agent: *
+Disallow: *.lightbox*
+Disallow: /maria.muster/
+Disallow: /Maria.Muster/
+Disallow: /klaus.schultze.
+Disallow: /Klaus.Schultze.
+Disallow: /servlets/search
+Disallow: *search_result*
+Disallow: /etc/clientlibs/dvag/*/js
+Disallow: /servlets/vbfinder
+# Sitemap Path
+Sitemap: https://www.dvag.de/content/dvag-ug/tenants/dvag/sitemap-index.xml

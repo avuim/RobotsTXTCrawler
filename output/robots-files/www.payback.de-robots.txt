@@ -1,0 +1,17 @@
+User-agent: OnPageBot
+Disallow: /
+
+User-agent: RyteBot/1.0.0
+Disallow: /
+
+User-agent: rogerbot
+Disallow: /
+
+User-agent: *
+Disallow: /-/*
+Disallow: /test
+Disallow: /site-seeing
+ 
+Sitemap: https://www.payback.de/resources/action/sitemap/sitemap.xml
+Sitemap: https://www.payback.de/resources/action/sitemap/shop.xml
+

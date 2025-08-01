@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+Disallow:*/content/overlays/*
+Disallow:*/content/applications-labels/*
+Disallow:*/content/error-pages/*
+Disallow:*/content/forms/*
+Disallow:*/content/guxeu/de/de_de/site-wide-content
+Disallow:*/hilfe/online-service-buchung/händler/*
+Disallow:*/finanzen/fordbank-online-vertragmanager/*
+Disallow:*/dashboard/*
+Disallow:*/search*
+Disallow:*/forms/*
+Disallow:*/offer-*
+Disallow:*/teilnahmebedingungen-gewinnspiel-fordpass*
+Disallow:*/content/dam/guxeu/de/documents/target/BRO-trends-im-flottenmanagement
+Disallow:*/content/guxeu-beta/de/de_de/home/shop/buy-online/build-your-ford/mec/*
+Disallow:*/content/dam/guxeu/de/documents/terms-and-conditions/PDF-teilnahmebedingungen_teste_einen_gewinne_deinen.pdf
+
+
+
+Sitemap: https://www.ford.de/sitemap.xml

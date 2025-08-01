@@ -1,0 +1,22 @@
+{
+  "domain": "www.prosiebensat1.com",
+  "normalizedDomain": "www.prosiebensat1.com",
+  "bots": [
+    {
+      "name": "BLP_bbot/0.1",
+      "allowed": false
+    },
+    {
+      "name": "BLP_bbot",
+      "allowed": false
+    },
+    {
+      "name": "Rigor",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

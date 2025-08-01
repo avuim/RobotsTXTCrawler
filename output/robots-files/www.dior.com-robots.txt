@@ -1,0 +1,24 @@
+#DaumWebMasterTool:93a66eb6e45fb1dc6bd8c1f80b640e755c23937ffafaa89e28de6992e10b2ea5:MlFaNSf5e2FRQqF7R10L4Q==
+User-agent: *
+Crawl-Delay: 0.5
+Disallow: /beauty/*/search.html
+Disallow: /*.json
+Disallow: /beauty/master/
+Disallow: /email/
+Disallow: /invoices/
+Disallow: /file/lvmh*
+Disallow: /file/link*
+Disallow: /beauty/*/tinyWebSite/sendToFriend.ep
+Disallow: /google/
+Disallow: /couture/*/layout/set/print/*
+Disallow: /couture/layout/set/print/*
+Disallow: /couture/ecommerce/directory/*
+Disallow: /security/
+Allow: /fashion/stores/*/search$
+Disallow: */search
+Disallow: /horizon/*
+Disallow: *query=
+Disallow: */login
+Disallow: /fr_mc*
+Disallow: */lady-dior-csc
+Sitemap: https://www.dior.com/sitemap.xml

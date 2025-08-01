@@ -1,0 +1,73 @@
+User-Agent: *
+Allow: /
+
+Disallow: /international/search
+Disallow: /de/search
+Disallow: /ru/search
+Disallow: /br/search
+Disallow: /mx/search
+Disallow: /professional/en-AR/
+
+# Directories
+Disallow: /sites/default/files/rich-cards/
+Disallow: /core/
+Disallow: /profiles/
+# Files
+Disallow: /README.txt
+Disallow: /web.config
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips
+Disallow: /node/add/
+Disallow: /search/
+Disallow: /user/register
+Disallow: /user/password
+Disallow: /user/login
+Disallow: /user/logout
+# Paths (no clean URLs)
+Disallow: /index.php/admin/
+Disallow: /index.php/comment/reply/
+Disallow: /index.php/filter/tips
+Disallow: /index.php/node/add/
+Disallow: /index.php/search/
+Disallow: /index.php/user/password/
+Disallow: /index.php/user/register/
+Disallow: /index.php/user/login/
+Disallow: /index.php/user/logout/
+
+# Do not index EN-SA language.
+Disallow: /en-sa
+Disallow: /en-sa/
+Disallow: /en-arabia
+Disallow: /en-arabia/
+
+Sitemap: https://www.wella.com/international/sitemap.xml
+Sitemap: https://www.wella.com/br/sitemap.xml
+Sitemap: https://www.wella.com/de/sitemap.xml
+Sitemap: https://www.wella.com/mx/sitemap.xml
+Sitemap: https://www.wella.com/arabia/sitemap.xml
+Sitemap: https://www.wella.com/pl/sitemap.xml
+Sitemap: https://www.wella.com/pt-pt/sitemap.xml
+Sitemap: https://www.wella.com/tr/sitemap.xml
+Sitemap: https://www.wella.com/latam/sitemap.xml
+Sitemap: https://www.wella.com/professional/en-EN/sitemap.xml
+Sitemap: https://www.wella.com/professional/en-US/sitemap.xml
+Sitemap: https://www.wella.com/professional/de-DE/sitemap.xml
+Sitemap: https://www.wella.com/professional/es-ES/sitemap.xml
+Sitemap: https://www.wella.com/professional/fr-FR/sitemap.xml
+Sitemap: https://www.wella.com/professional/fr-CA/sitemap.xml
+Sitemap: https://www.wella.com/professional/it-IT/sitemap.xml
+Sitemap: https://www.wella.com/professional/pt-BR/sitemap.xml
+Sitemap: https://www.wella.com/professional/en-UK/sitemap.xml
+Sitemap: https://www.wella.com/professional/gr-GR/sitemap.xml
+Sitemap: https://www.wella.com/professional/nl-NL/sitemap.xml
+Sitemap: https://www.wella.com/professional/jp-JP/sitemap.xml
+Sitemap: https://www.wella.com/professional/sv-SE/sitemap.xml
+Sitemap: https://www.wella.com/professional/fi-FI/sitemap.xml
+Sitemap: https://www.wella.com/professional/nn-NO/sitemap.xml
+Sitemap: https://www.wella.com/professional/da-DK/sitemap.xml
+Sitemap: https://www.wella.com/professional/en-AU/sitemap.xml
+Sitemap: https://www.wella.com/professional/pt-PT/sitemap.xml
+Sitemap: https://www.wella.com/professional/ar-AR/sitemap.xml
+Sitemap: https://www.wella.com/professional/de-AT/sitemap.xml

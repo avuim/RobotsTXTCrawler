@@ -1,0 +1,43 @@
+# HUK COBURG STAND 2023-07-06
+# alle Bots erlauben:
+User-agent:*
+
+# Disallow misc and technical
+# keine Einschraenkung mehr ab 06.07.2023
+
+# Sonderfaelle
+Disallow: /Kontakt/Map/print_uebersicht.jsp
+Disallow: /Kontakt/Map/print_uebersicht_sas.jsp
+
+# Angabe der Sitemap ist Agent-unabhaengig:
+Sitemap: https://www.huk.de/sitemap.xml
+
+#disallow special user-agents gomezagent
+User-agent: gomezagent
+Disallow: / 
+User-agent: GomezAgent
+Disallow: /
+User-Agent: gomezagent+1.0
+Disallow: /
+User-Agent: GomezAgent+1.0
+Disallow: /
+User-Agent: gomezagent+2.0
+Disallow: /
+User-Agent: GomezAgent+2.0
+Disallow: /
+User-Agent: gomezagent+3.0
+Disallow: /
+User-Agent: GomezAgent+3.0
+Disallow: /
+User-agent: gomezagent 1.0
+Disallow: / 
+User-agent: GomezAgent 1.0
+Disallow: / 
+User-agent: gomezagent 2.0
+Disallow: / 
+User-agent: GomezAgent 2.0
+Disallow: / 
+User-agent: gomezagent 3.0
+Disallow: / 
+User-Agent: GomezAgent 3.0
+Disallow: /

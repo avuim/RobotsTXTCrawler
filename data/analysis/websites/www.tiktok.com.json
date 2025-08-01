@@ -1,0 +1,18 @@
+{
+  "domain": "www.tiktok.com",
+  "normalizedDomain": "www.tiktok.com",
+  "bots": [
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": false
+    }
+  ]
+}

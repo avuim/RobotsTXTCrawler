@@ -1,0 +1,14 @@
+{
+  "domain": "www.meta.com",
+  "normalizedDomain": "www.meta.com",
+  "bots": [
+    {
+      "name": "facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

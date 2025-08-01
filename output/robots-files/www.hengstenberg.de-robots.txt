@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /apps/
+Disallow: /captcha/
+Disallow: /cms/
+Disallow: /data/
+Disallow: /extern/
+Disallow: /int/
+Disallow: /test/
+Disallow: /upload/
+Disallow: /usage/
+Disallow: /vendor/
+Sitemap: https://www.hengstenberg.de/sitemap.xml

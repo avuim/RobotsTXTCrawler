@@ -1,0 +1,26 @@
+{
+  "domain": "www2.hm.com",
+  "normalizedDomain": "www2.hm.com",
+  "bots": [
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "Yeti",
+      "allowed": true
+    },
+    {
+      "name": "Daumoa",
+      "allowed": true
+    },
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    }
+  ]
+}

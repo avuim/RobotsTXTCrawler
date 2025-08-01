@@ -1,0 +1,18 @@
+{
+  "domain": "www.rewe.de",
+  "normalizedDomain": "www.rewe.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
+    }
+  ]
+}

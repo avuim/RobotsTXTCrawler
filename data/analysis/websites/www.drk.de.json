@@ -1,0 +1,526 @@
+{
+  "domain": "www.drk.de",
+  "normalizedDomain": "www.drk.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "grub-client",
+      "allowed": false
+    },
+    {
+      "name": "grub",
+      "allowed": false
+    },
+    {
+      "name": "looksmart",
+      "allowed": false
+    },
+    {
+      "name": "WebZip",
+      "allowed": false
+    },
+    {
+      "name": "larbin",
+      "allowed": false
+    },
+    {
+      "name": "b2w/0.1",
+      "allowed": false
+    },
+    {
+      "name": "psbot",
+      "allowed": false
+    },
+    {
+      "name": "Python-urllib",
+      "allowed": false
+    },
+    {
+      "name": "NetMechanic",
+      "allowed": false
+    },
+    {
+      "name": "URL_Spider_Pro",
+      "allowed": false
+    },
+    {
+      "name": "CherryPicker",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "EmailSiphon",
+      "allowed": false
+    },
+    {
+      "name": "WebBandit",
+      "allowed": false
+    },
+    {
+      "name": "EmailWolf",
+      "allowed": false
+    },
+    {
+      "name": "ExtractorPro",
+      "allowed": false
+    },
+    {
+      "name": "CopyRightCheck",
+      "allowed": false
+    },
+    {
+      "name": "Crescent",
+      "allowed": false
+    },
+    {
+      "name": "SiteSnagger",
+      "allowed": false
+    },
+    {
+      "name": "ProWebWalker",
+      "allowed": false
+    },
+    {
+      "name": "CheeseBot",
+      "allowed": false
+    },
+    {
+      "name": "LNSpiderguy",
+      "allowed": false
+    },
+    {
+      "name": "Alexibot",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver/1.6",
+      "allowed": false
+    },
+    {
+      "name": "Teleport",
+      "allowed": false
+    },
+    {
+      "name": "TeleportPro",
+      "allowed": false
+    },
+    {
+      "name": "MIIxpc",
+      "allowed": false
+    },
+    {
+      "name": "Telesoft",
+      "allowed": false
+    },
+    {
+      "name": "Website Quester",
+      "allowed": false
+    },
+    {
+      "name": "moget/2.1",
+      "allowed": false
+    },
+    {
+      "name": "WebZip/4.0",
+      "allowed": false
+    },
+    {
+      "name": "WebStripper",
+      "allowed": false
+    },
+    {
+      "name": "WebSauger",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "NetAnts",
+      "allowed": false
+    },
+    {
+      "name": "Mister PiX",
+      "allowed": false
+    },
+    {
+      "name": "WebAuto",
+      "allowed": false
+    },
+    {
+      "name": "TheNomad",
+      "allowed": false
+    },
+    {
+      "name": "WWW-Collector-E",
+      "allowed": false
+    },
+    {
+      "name": "RMA",
+      "allowed": false
+    },
+    {
+      "name": "libWeb/clsHTTP",
+      "allowed": false
+    },
+    {
+      "name": "asterias",
+      "allowed": false
+    },
+    {
+      "name": "httplib",
+      "allowed": false
+    },
+    {
+      "name": "turingos",
+      "allowed": false
+    },
+    {
+      "name": "spanner",
+      "allowed": false
+    },
+    {
+      "name": "InfoNaviRobot",
+      "allowed": false
+    },
+    {
+      "name": "Harvest/1.5",
+      "allowed": false
+    },
+    {
+      "name": "Bullseye/1.0",
+      "allowed": false
+    },
+    {
+      "name": "Mozilla/4.0 (compatible; BullsEye; Windows 95)",
+      "allowed": false
+    },
+    {
+      "name": "Crescent Internet ToolPak HTTP OLE Control v.1.0",
+      "allowed": false
+    },
+    {
+      "name": "CherryPickerSE/1.0",
+      "allowed": false
+    },
+    {
+      "name": "CherryPickerElite/1.0",
+      "allowed": false
+    },
+    {
+      "name": "WebBandit/3.50",
+      "allowed": false
+    },
+    {
+      "name": "NICErsPRO",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft URL Control - 5.01.4511",
+      "allowed": false
+    },
+    {
+      "name": "Not Your Business!",
+      "allowed": false
+    },
+    {
+      "name": "Hidden-Referrer",
+      "allowed": false
+    },
+    {
+      "name": "DittoSpyder",
+      "allowed": false
+    },
+    {
+      "name": "Foobot",
+      "allowed": false
+    },
+    {
+      "name": "WebmasterWorldForumBot",
+      "allowed": false
+    },
+    {
+      "name": "WebmasterWorld Extractor",
+      "allowed": false
+    },
+    {
+      "name": "SpankBot",
+      "allowed": false
+    },
+    {
+      "name": "BotALot",
+      "allowed": false
+    },
+    {
+      "name": "lwp-trivial/1.34",
+      "allowed": false
+    },
+    {
+      "name": "lwp-trivial",
+      "allowed": false
+    },
+    {
+      "name": "BunnySlippers",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft URL Control - 6.00.8169",
+      "allowed": false
+    },
+    {
+      "name": "URLy Warning",
+      "allowed": false
+    },
+    {
+      "name": "Wget/1.6",
+      "allowed": false
+    },
+    {
+      "name": "Wget/1.5.3",
+      "allowed": false
+    },
+    {
+      "name": "Wget",
+      "allowed": false
+    },
+    {
+      "name": "LinkWalker",
+      "allowed": false
+    },
+    {
+      "name": "cosmos",
+      "allowed": false
+    },
+    {
+      "name": "moget",
+      "allowed": false
+    },
+    {
+      "name": "hloader",
+      "allowed": false
+    },
+    {
+      "name": "humanlinks",
+      "allowed": false
+    },
+    {
+      "name": "LinkextractorPro",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "Mata Hari",
+      "allowed": false
+    },
+    {
+      "name": "LexiBot",
+      "allowed": false
+    },
+    {
+      "name": "Web Image Collector",
+      "allowed": false
+    },
+    {
+      "name": "The Intraformant",
+      "allowed": false
+    },
+    {
+      "name": "True_Robot/1.0",
+      "allowed": false
+    },
+    {
+      "name": "True_Robot",
+      "allowed": false
+    },
+    {
+      "name": "BlowFish/1.0",
+      "allowed": false
+    },
+    {
+      "name": "JennyBot",
+      "allowed": false
+    },
+    {
+      "name": "MIIxpc/4.2",
+      "allowed": false
+    },
+    {
+      "name": "BuiltBotTough",
+      "allowed": false
+    },
+    {
+      "name": "ProPowerBot/2.14",
+      "allowed": false
+    },
+    {
+      "name": "BackDoorBot/1.0",
+      "allowed": false
+    },
+    {
+      "name": "toCrawl/UrlDispatcher",
+      "allowed": false
+    },
+    {
+      "name": "WebEnhancer",
+      "allowed": false
+    },
+    {
+      "name": "suzuran",
+      "allowed": false
+    },
+    {
+      "name": "VCI WebViewer VCI WebViewer Win32",
+      "allowed": false
+    },
+    {
+      "name": "VCI",
+      "allowed": false
+    },
+    {
+      "name": "Szukacz/1.4",
+      "allowed": false
+    },
+    {
+      "name": "QueryN Metasearch",
+      "allowed": false
+    },
+    {
+      "name": "Openfind data gathere",
+      "allowed": false
+    },
+    {
+      "name": "Openfind",
+      "allowed": false
+    },
+    {
+      "name": "Xenu's Link Sleuth 1.1c",
+      "allowed": false
+    },
+    {
+      "name": "Xenu's",
+      "allowed": false
+    },
+    {
+      "name": "Zeus",
+      "allowed": false
+    },
+    {
+      "name": "RepoMonkey Bait & Tackle/v1.01",
+      "allowed": false
+    },
+    {
+      "name": "RepoMonkey",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft URL Control",
+      "allowed": false
+    },
+    {
+      "name": "Openbot",
+      "allowed": false
+    },
+    {
+      "name": "URL Control",
+      "allowed": false
+    },
+    {
+      "name": "Zeus Link Scout",
+      "allowed": false
+    },
+    {
+      "name": "Zeus 32297 Webster Pro V2.9 Win32",
+      "allowed": false
+    },
+    {
+      "name": "Webster Pro",
+      "allowed": false
+    },
+    {
+      "name": "EroCrawler",
+      "allowed": false
+    },
+    {
+      "name": "LinkScan/8.1a Unix",
+      "allowed": false
+    },
+    {
+      "name": "Keyword Density/0.9",
+      "allowed": false
+    },
+    {
+      "name": "Kenjin Spider",
+      "allowed": false
+    },
+    {
+      "name": "Iron33/1.0.2",
+      "allowed": false
+    },
+    {
+      "name": "Bookmark search tool",
+      "allowed": false
+    },
+    {
+      "name": "GetRight/4.2",
+      "allowed": false
+    },
+    {
+      "name": "FairAd Client",
+      "allowed": false
+    },
+    {
+      "name": "Gaisbot",
+      "allowed": false
+    },
+    {
+      "name": "Aqua_Products",
+      "allowed": false
+    },
+    {
+      "name": "Radiation Retriever 1.1",
+      "allowed": false
+    },
+    {
+      "name": "Flaming AttackBot",
+      "allowed": false
+    },
+    {
+      "name": "Oracle Ultra Search",
+      "allowed": false
+    },
+    {
+      "name": "MSIECrawler",
+      "allowed": false
+    },
+    {
+      "name": "PerMan",
+      "allowed": false
+    },
+    {
+      "name": "searchpreview",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot/5.0",
+      "allowed": false
+    }
+  ]
+}

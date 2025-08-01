@@ -1,0 +1,22 @@
+{
+  "domain": "www.samsung.com",
+  "normalizedDomain": "www.samsung.com",
+  "bots": [
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "Yandex",
+      "allowed": true
+    },
+    {
+      "name": "Sitereport",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": false
+    }
+  ]
+}

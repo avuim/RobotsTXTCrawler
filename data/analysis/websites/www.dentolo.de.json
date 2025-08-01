@@ -1,0 +1,22 @@
+{
+  "domain": "www.dentolo.de",
+  "normalizedDomain": "www.dentolo.de",
+  "bots": [
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

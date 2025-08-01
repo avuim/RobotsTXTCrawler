@@ -1,0 +1,36 @@
+User-agent: *
+Allow: /
+Disallow: /SearchDisplay
+Disallow: /UserRegistrationForm
+Disallow: /UserPasswordUpdate
+Disallow: /ShippingAddressView
+Disallow: /ProfileFormView
+Disallow: /WishListResultDisplayView
+Disallow: /TrackOrderStatus
+Disallow: /OrderDetail
+Disallow: /myAccountVoucher
+Disallow: /newsletterRegistration
+Disallow: /webapp/wcs/stores/  
+Disallow: /OrderBilling
+Disallow: /OrderShippingPayment
+Disallow: /personalkauf-online
+Disallow: /baby$
+Disallow: /befragung
+Disallow: /mab
+Disallow: /service
+
+Disallow: /api/tracking
+Disallow: /api/cart
+Disallow: /api/session
+Disallow: /api/wishlist
+Disallow: /api/auth
+Disallow: /my-account-
+Disallow: /checkout-login
+Disallow: /checkout-customer-data
+Disallow: /checkout-shipping-payment
+Disallow: /checkout-review
+Disallow: /checkout-success
+Disallow: /warenkorb
+
+Sitemap: https://www.ernstings-family.de/sitemap.xml
+Sitemap: https://filialen.ernstings-family.de/index.php?id=1&type=1533906435

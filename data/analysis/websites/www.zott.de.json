@@ -1,0 +1,18 @@
+{
+  "domain": "www.zott.de",
+  "normalizedDomain": "www.zott.de",
+  "bots": [
+    {
+      "name": "zgrab",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /typo3/
+Disallow: /typo3_src/
+Allow: /typo3/sysext/frontend/Resources/Public/*
+
+# parameters
+Disallow: /*?id=*               # non-realurl URLs
+Disallow: /*cHash               # no cHash
+
+# sitemap
+Sitemap: https://www.leoninestudios.com/sitemap.xml

@@ -1,0 +1,21 @@
+#For all robots
+User-agent: *
+#Block access to specific groups of pages
+Disallow: */cart/
+Disallow: */checkout
+Disallow: */my-account
+Disallow: /s/
+Disallow: */search
+Disallow: */displayShader
+Disallow: */account
+Disallow: */pvz
+Disallow: *viewtype=*
+Disallow: *sort=*
+Disallow: /*?q=%3AtopSeller
+Disallow: */modal
+Disallow: */register
+Disallow: *bvstate=*
+Disallow: *bvroute=*
+
+#Sitemap
+Sitemap: https://www.fressnapf.de/sitemap.xml

@@ -1,0 +1,30 @@
+{
+  "domain": "www.ikea.com",
+  "normalizedDomain": "www.ikea.com",
+  "bots": [
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

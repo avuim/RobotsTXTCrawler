@@ -1,0 +1,18 @@
+{
+  "domain": "www.disney.de",
+  "normalizedDomain": "www.disney.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    }
+  ]
+}

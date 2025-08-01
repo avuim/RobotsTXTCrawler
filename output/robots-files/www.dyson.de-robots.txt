@@ -1,0 +1,14 @@
+User-agent: *
+
+Disallow: /forms/
+Disallow: /products/
+Disallow: /search-results
+Disallow: /basket
+Disallow: /suchergebnisse
+
+
+Disallow: */support/journey/troubleshooting/*
+
+
+
+sitemap: https://www.dyson.de/sitemapindex.xml

@@ -1,0 +1,110 @@
+User-agent: *
+
+Disallow: *prefv*
+Disallow: *prefn*
+Disallow: *srule*
+Disallow: *sz*
+Disallow: */checkout*
+Disallow: */search
+Disallow: */account
+Disallow: *LoginV2*
+Disallow: *AccountV2*
+Disallow: /*search?cgid=*
+Disallow: /*?sortBy=*
+Disallow: /*?cgid*
+Disallow: /*?dwvar*
+Disallow: /*view*
+Disallow: */varb*
+Disallow: */account*
+Disallow: */authentication*
+Disallow: */accueil*
+Disallow: *?filters=*
+
+Disallow: /on/demandware.store/*
+Disallow: /mea*
+Disallow: /*/events/corporate/pdf*
+
+Disallow: /fr/homepage.html
+Disallow: /gb/homepage.html
+Disallow: /ie/homepage.html
+Disallow: /de/homepage.html
+Disallow: /at/homepage.html
+Disallow: /ch/de/homepage.html
+Disallow: /ch/en/homepage.html
+Disallow: /ch/fr/homepage.html
+Disallow: /dk/homepage.html
+Disallow: /se/homepage.html
+Disallow: /be/fr/homepage.html
+Disallow: /be/nl/homepage.html
+Disallow: /nl/homepage.html
+Disallow: /it/homepage.html
+Disallow: /pt/homepage.html
+Disallow: /es/homepage.html
+
+Allow: /fr/stores/france
+Allow: /de/stores/germany
+Allow: /at/stores/austria
+Allow: /gb/stores/united-kingdom
+Allow: /pt/stores/portugal
+Allow: /dk/stores/denmark
+Allow: /ie/stores/ireland
+Allow: /se/stores/sweden
+Allow: /ch/en/stores/switzerland
+Allow: /ch/de/stores/switzerland
+Allow: /ch/fr/stores/switzerland
+Allow: /ca/en/stores/canada
+Allow: /ca/fr/stores/canada
+Allow: /us/stores/united-states
+Allow: /it/stores/italy
+Allow: /kr/stores/korea
+Allow: /ae/stores/united-arab-emirates
+Allow: /mx/stores/mexico
+Allow: /be/fr/stores/belgium
+Allow: /be/nl/stores/belgium
+Allow: /nl/stores/netherlands
+Allow: /es/stores/spain
+Allow: /ar/stores/argentina
+Allow: /br/stores/brasil
+
+User-agent: AdIdxBot
+User-agent: AdsBot-Google
+User-agent: AdsBot-Google-Mobile
+User-agent: AdsBot-Google-Mobile-Apps
+User-agent: Mediapartners-Google
+Allow: /*?dwvar_*
+Allow: /on/demandware.store/*
+
+user-agent: Pinterestbot
+Crawl-delay: 0.5
+
+User-agent: OAI-SearchBot
+Allow: / 
+
+User-agent: ChatGPT-User
+Allow: / 
+
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://www.lacoste.com/at/sitemap_index.xml
+Sitemap: https://www.lacoste.com/de/sitemap_index.xml
+Sitemap: https://www.lacoste.com/dk/sitemap_index.xml
+Sitemap: https://www.lacoste.com/ch/sitemap_index.xml
+Sitemap: https://www.lacoste.com/fr/sitemap_index.xml
+Sitemap: https://www.lacoste.com/id/id/sitemap_index.xml
+Sitemap: https://www.lacoste.com/id/en/sitemap_index.xml
+Sitemap: https://www.lacoste.com/ie/sitemap_index.xml
+Sitemap: https://www.lacoste.com/gb/sitemap_index.xml
+Sitemap: https://www.lacoste.com/it/sitemap_index.xml
+Sitemap: https://www.lacoste.com/pt/sitemap_index.xml
+Sitemap: https://www.lacoste.com/se/sitemap_index.xml
+Sitemap: https://www.lacoste.com/es/sitemap_index.xml
+Sitemap: https://www.lacoste.com/za/sitemap_index.xml
+Sitemap: https://www.lacoste.com/us/sitemap_index.xml
+Sitemap: https://www.lacoste.com/kr/sitemap_index.xml
+Sitemap: https://www.lacoste.com/be/sitemap_index.xml
+Sitemap: https://www.lacoste.com/br/sitemap_index.xml
+Sitemap: https://www.lacoste.com/nl/sitemap_index.xml
+Sitemap: https://www.lacoste.com/mx/sitemap_index.xml
+Sitemap: https://www.lacoste.com/ar/sitemap_index.xml
+Sitemap: https://www.lacoste.com/ca/sitemap_index.xml

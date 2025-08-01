@@ -1,0 +1,24 @@
+# robots.txt for https://www.gothaer.de/ ||  BG 10.03.2023
+ 
+User-agent: *
+Disallow: /externe-seiten/ 
+Disallow: /publicservlet/ 
+Disallow: /system/ 
+Disallow: /app/
+Disallow: /sad/
+Disallow: /testseiten/ 
+Disallow: /de/system/ 
+Disallow: /de/de/system/ 
+Disallow: /de/app/ 
+Disallow: /de/de/app/
+Disallow: /gothaer-legacy/
+Disallow: /fs5preview/
+Disallow: /webapp-config/
+Disallow: /api/
+Disallow: /_nuxt/
+Disallow: /style/
+ 
+User-agent: ICCrawler 
+Disallow: / 
+ 
+Sitemap: https://www.gothaer.de/sitemap.xml

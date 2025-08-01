@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /typo3/
+Disallow: /typo3_src/
+Disallow: *.pdf
+Disallow: /unternehmen/presse/pressemitteilungen/*
+Allow: /typo3/sysext/frontend/Resources/Public/*
+
+# XML-Sitemap
+Sitemap:https://www.europa.de/sitemap.xml

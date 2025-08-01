@@ -1,0 +1,18 @@
+{
+  "domain": "www.malteser.de",
+  "normalizedDomain": "www.malteser.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Buck",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "domain": "www.google.de",
+  "normalizedDomain": "www.google.de",
+  "bots": [
+    {
+      "name": "Yandex",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+Disallow: /hr-hr/gdje-odsjesti/*/*
+Disallow: /en-gb/where-to-stay/*/*
+Disallow: /cs-cz/kde-se-ubytovat/*/*
+Disallow: /de-de/wo-absteigen/*/*
+Disallow: /es-es/donde-quedarse/*/*
+Disallow: /fr-fr/ou-loger/*/*
+Disallow: /it-it/dove-alloggiare/*/*
+Disallow: /hu-hu/hol-szalljon-meg/*/*
+Disallow: /pl-pl/gdzie-sie-zatrzymac/*/*
+Disallow: /ru-ru/where-to-stay/*/*
+Disallow: /sl-si/kje-prenociti/*/*
+
+Disallow: /health_check_ok.html
+Disallow: /status.html
+
+Sitemap: https://croatia.hr/sitemap_croatia.xml

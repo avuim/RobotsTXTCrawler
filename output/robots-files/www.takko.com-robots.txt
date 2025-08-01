@@ -1,0 +1,87 @@
+# I, For One, Welcome Our New Bot-Overlords
+#
+#      T   `~~~'   `~~~'   `~~'   )
+#      |   .    .   .  .   .      |
+#      t   |    |   |  |  /       )
+#       \__ \  _|...***""T        )
+#          |"""           )       |
+#          L-~~|  |~~-|   |       )
+#          I~'''  '''~I   )       |
+#          r      r   2   |       )
+#         f____/ f_____g  )      _|
+#         t  @/  t   @ J  L____r _ 2
+#          q-/    g___J         /|  )
+#          if    ~~__          L___J
+#          i|                    |
+#          /°----~     \         |
+#          |            H         \  
+#          +~-.....---~~~\        |
+#               | |####*, \      /
+#               J L###_/_,P,    /
+#               1.._           /
+#                   \        CN
+#
+
+
+User-agent: *
+
+#Disallow URLs:
+Disallow: /on/demandware.store/Sites-DE-Site/de_DE/Product-Variation
+Disallow: /on/demandware.store/Sites-DE-Site/de_DE/Wishlist-Add
+Disallow: /on/demandware.store/Sites-DE-Site/*
+Disallow: /on/demandware.store/Sites-INT-Site/*
+Disallow: /on/demandware.store/Sites-INT-Site/default/Search-Show
+
+Disallow: /on/demandware.store/Sites-DE-Site/default/Account-StartRegister
+Disallow: /on/demandware.store/Sites-DE-Site/default/Account-PasswordResetDialog
+Disallow: /on/demandware.store/Sites-DE-Site/default/GiftCert-Purchase
+Disallow: /on/demandware.store/Sites-DE-Site/default/GiftRegistry-Start
+Disallow: /on/demandware.store/Sites-DE-Site/default/Page-Show
+Disallow: /on/demandware.store/Sites-DE-Site/default/Wishlist-SetShippingAddress
+Disallow: /on/demandware.static/-/Library-Sites-Library-Takko/default/
+
+Disallow: /on/demandware.store/Sites-INT-Site/default/Account-StartRegister
+Disallow: /on/demandware.store/Sites-INT-Site/default/Account-PasswordResetDialog
+Disallow: /on/demandware.store/Sites-INT-Site/default/GiftCert-Purchase
+Disallow: /on/demandware.store/Sites-INT-Site/default/GiftRegistry-Start
+Disallow: /on/demandware.store/Sites-INT-Site/default/Page-Show
+Disallow: /on/demandware.store/Sites-INT-Site/default/Wishlist-SetShippingAddress
+
+Disallow: /login/
+Disallow: /login/loginform/
+Disallow: /cart/
+Disallow: /Cart-SubmitForm/
+Disallow: /account/
+Disallow: /account-landing.html
+
+Disallow: /suchergebnis/*
+Disallow: /search/show/*
+
+Disallow: /de-de/cs-contact-number.html
+Disallow: /de-de/takko-checkout-terms.html
+
+#Disallow Parameters
+Disallow: /*?sz=*
+Disallow: /*?pid*
+Disallow: /*?q*
+Disallow: /*?srule*
+Disallow: /*?cgid*
+Disallow: /*?original*
+Disallow: /*?hid*
+Disallow: /*?offset*
+Disallow: /*?cHash*
+Disallow: /*?utm_source*
+Disallow: /*?utm_medium*
+Disallow: /*?utm_campaign*
+Disallow: /*?intProm*
+
+#Disallow Files:
+Disallow: /*.pdf$
+
+#Allow Files:
+Allow: /on/demandware.static/-/Library-Sites-Library-Takko/default/*.jpg$
+Allow: /on/demandware.static/-/Library-Sites-Library-Takko/default/*.png$
+Allow: /on/demandware.static/-/Library-Sites-Library-Takko/default/*.svg$
+
+#Sitemaps
+Sitemap: https://www.takko.com/sitemap_0.xml

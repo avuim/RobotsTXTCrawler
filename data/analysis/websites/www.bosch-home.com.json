@@ -1,0 +1,14 @@
+{
+  "domain": "www.bosch-home.com",
+  "normalizedDomain": "www.bosch-home.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    }
+  ]
+}

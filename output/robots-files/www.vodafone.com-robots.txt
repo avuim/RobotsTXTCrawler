@@ -1,0 +1,37 @@
+User-agent: *
+Disallow: /node/
+Disallow: /overlays/
+Disallow: /api/
+Disallow: /undefined
+Disallow: /sites/default/files/2021-02/Vodafone%20Group-UK%20Benefits%20summary%20SLT%20Sept%202020.pdf
+Disallow: /sites/default/files/2021-02/Vodafone%20Group-UK%20Benefits%20summary%20F%20Band%20Sept%202020.pdf
+Disallow: /sites/default/files/2021-02/Vodafone%20Group-UK%20Benefits%20summary%20E%20Band%20Sept%202020.pdf
+Disallow: /sites/default/files/2021-02/Vodafone%20Group-UK%20Benefits%20Summary%20-%20Sept%202020.pdf
+Disallow: /GHR/documents/Vodafone-Group-UK-Benefits-summary-SLT-Sept-2020
+Disallow: /GHR/documents/Vodafone-Group-UK-Benefits-summary-F-Band-Sept-2020
+Disallow: /GHR/documents/Vodafone-Group-UK-Benefits-summary-E-Band-Sept-2020
+Disallow: /GHR/documents/Vodafone-Group-UK-Benefits-Summary-Sept-2020
+Disallow: /content/apps/external-redirects/VF.html
+Disallow: /content/apps/ext/callplus/android/en_ie/faqs.html
+Disallow: /content/apps/ext/callplus/android/en_za/faqs.html
+Disallow: /apps/rcs/german/vodafone.de/kontakt
+Disallow: /vodafone-foundation/focus-areas/dreamlab-app/Lesotho
+Disallow: /sites/default/files/2022-05/open-ran-system-integration-white-paper.pdf
+Disallow: /news/campaigns-events/best-corporate-website
+Disallow: /news/campaigns-events/best-use-of-content
+
+
+
+# Tag Pages
+
+Disallow: /news?tag=*
+
+
+# Sitemap files
+Sitemap: https://www.vodafone.com/sitemap.xml
+Sitemap: https://www.vodafone.com/business/sitemap.xml
+
+
+# URL with empty params
+Disallow: /?country=*
+

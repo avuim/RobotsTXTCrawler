@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: /p/variation-change/
+Disallow: /*?*mobileApp=
+Disallow: */before/
+Disallow: */add/
+Disallow: */remove/
+Disallow: /planungstools/
+Disallow: */prohibis/
+Disallow: /evaluate/javascript/
+Disallow: /store/news/
+Disallow: /app-api/
+
+User-agent: Pinterestbot
+Crawl-delay: 10
+
+Sitemap: https://www.hagebau.de/sitemap.xml

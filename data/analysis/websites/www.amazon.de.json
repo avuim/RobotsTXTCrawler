@@ -1,0 +1,42 @@
+{
+  "domain": "www.amazon.de",
+  "normalizedDomain": "www.amazon.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "EtaoSpider",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "GoogleAgent-Mariner",
+      "allowed": false
+    },
+    {
+      "name": "GoogleAgent-Shopping",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    }
+  ]
+}

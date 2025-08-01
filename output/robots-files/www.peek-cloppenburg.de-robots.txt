@@ -1,0 +1,22 @@
+User-agent: *
+
+
+
+# app links into android app
+Allow: /.well-known/assetlinks.json
+
+# universal links into ios app
+Allow: /.well-known/apple-app-site-association
+
+# cloudflare internals
+Disallow: /cdn-cgi/
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+Sitemap: https://www.peek-cloppenburg.de/sitemaps/de/spider-sitemapindex.xml.gz
+
+Sitemap: https://www.peek-cloppenburg.de/sitemaps-cms/de/cms-sitemapindex.xml.gz

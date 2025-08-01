@@ -1,0 +1,18 @@
+{
+  "domain": "www.fkpscorpio.com",
+  "normalizedDomain": "www.fkpscorpio.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot-image",
+      "allowed": false
+    }
+  ]
+}

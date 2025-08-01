@@ -1,0 +1,22 @@
+{
+  "domain": "www.charlottetilbury.com",
+  "normalizedDomain": "www.charlottetilbury.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "megaindex.com",
+      "allowed": false
+    }
+  ]
+}

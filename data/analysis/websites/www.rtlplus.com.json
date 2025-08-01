@@ -1,0 +1,22 @@
+{
+  "domain": "www.rtlplus.com",
+  "normalizedDomain": "www.rtlplus.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    }
+  ]
+}

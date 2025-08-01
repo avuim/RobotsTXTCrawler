@@ -1,0 +1,30 @@
+
+  Sitemap: https://www.benuta.de/sitemap.xml
+  Sitemap: https://www.benuta.de/images_sitemap.xml
+
+  User-agent: Pinterestbot
+  Crawl-delay: 2
+
+  User-agent: Pinterest
+  Crawl-delay: 2
+
+  User-agent: *
+  Disallow: /api
+  Disallow: /api/*
+  Disallow: /checkout
+  Disallow: /checkout/*
+  Disallow: /customer
+  Disallow: /customer/*
+  Disallow: /cart
+  Disallow: /cart/*
+  Disallow: /wishlist
+  Disallow: /*?dm_i=
+  Disallow: /*?filter=
+  Disallow: /*?dir=
+  Disallow: /*?order=
+  Disallow: /*?benuta_form_new=
+  Disallow: /*?benuta_pricegroup_new=
+  Disallow: /_next/image?*
+
+  Allow: /enhancedsearch/*
+ 

@@ -1,0 +1,23 @@
+User-agent: *
+
+Disallow: /INTERSHOP/
+Disallow: /media/private/
+Disallow: /online-bewerbung/
+Disallow: /media/handzettel/
+Disallow: /qr/
+Disallow: /frontend/catalogs/*/pdf/
+Disallow: /systeminclude.mmp.dialog.gtc.pagelet2-Include
+Disallow: /systeminclude.mmp.dialog.privacyPolicy.pagelet2-Include
+Disallow: /systeminclude.mmp.dialog.imprint.pagelet2-Include
+Disallow: /systeminclude.mmp.dialog.contact.pagelet2-Include
+Allow: /INTERSHOP/static/
+Allow: /INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPNavigation-GetNavigationJSON
+Allow: /INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPLoginStatus-StatusJSON
+Allow: /INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPMiniCart-StatusJSON
+Allow: /INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPWishlist-WishlistJSON
+Allow: *.js
+Allow: *.css
+Allow: *.jpg
+Allow: *.gif
+
+Sitemap: https://www.netto-online.de/sitemap.xml

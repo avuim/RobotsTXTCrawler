@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /box-week*
+Disallow: /images/intfood/thermomix/HF_icon_thermomix.svg*
+Disallow: /de/cms/Thermomix_Badge_rect_small.png*
+Disallow: /at/cms/Thermomix_Badge_rect_small.png*
+Disallow: /recipes/search/?q*
+Disallow: /my-account
+Disallow: /*?*page=
+#Disallow: /*?*collection=
+Disallow: /*?*route=
+Disallow: /*?*email=
+Disallow: /*?*resetKey=
+Disallow: /*?*u=
+#Disallow: /login*
+Allow: /my-account/deliveries/menu
+Disallow: /about/homepage
+
+Sitemap: https://www.hellofresh.de/sitemap_index.xml
+Sitemap: https://www.hellofresh.de/sitemap_transactional_pages.xml
+Sitemap: https://www.hellofresh.de/sitemap_others.xml
+Sitemap: https://www.hellofresh.de/sitemap_recipe_pages.xml
+Sitemap: https://www.hellofresh.de/sitemap_recipe_collections.xml
+Sitemap: https://www.hellofresh.de/sitemap_stories.xml

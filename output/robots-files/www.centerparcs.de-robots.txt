@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: */preview/
+Disallow: */ajax/
+Disallow: /de-de/searchbis/
+Disallow: /de-de/product/reviewsajax
+Disallow: /de-de/search-tab-photos_pop
+Disallow: /de-de/search/ajax?type=result
+Disallow: /de-de/*?*
+Allow: /*?utm_source=google&utm_medium=Maps*
+Allow: /*?gclsrc=aw.ds*
+Allow: /*?adlgid=m%7Cg%7Ccenterparknordsee%7C223281066124%7Ce&gclid=EAIaIQobChMItMSFo9Xp4QIVTOR3Ch3NwQoVEAAYASABEgJ_cPD_BwE*
+ 
+User-agent: bingbot
+Disallow: /booking/
+
+Sitemap: https://www.centerparcs.de/sitemap.xml

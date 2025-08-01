@@ -1,0 +1,39 @@
+User-agent: *
+
+# Exclude internal stuff and non-seo urls, global, not locale specific
+Disallow: */index.php/
+Disallow: */checkout/
+Disallow: */lib/
+Disallow: */*.php$
+Disallow: */catalog/
+Disallow: */catalogsearch/
+Disallow: */customer/
+Disallow: */sendfriend/
+Disallow: */review/
+Disallow: */*SID=
+Disallow: */wishlist/
+
+# Specific rules for /de/de/
+Disallow: /de/de/intern/
+Disallow: /de/de/kampagnen/
+Disallow: /de/de/rechtliches/
+
+# Specific rules for /de/en/
+Disallow: /de/en/internal/
+Disallow: /de/en/campaigns/
+Disallow: /de/en/disclaimer/
+
+# Specific rules for /es/, separate instance, they want to have everything crawled ...
+Allow: /es/
+
+# Allow access to catalog images, otherwise excluded by rules above
+Allow: /media/catalog/
+Allow: /es/media/catalog/
+
+# Sitemaps WMF Germany
+Sitemap: https://www.wmf.com/media/sitemap/sitemap_de.xml
+Sitemap: https://www.wmf.com/media/sitemap/sitemap_en.xml
+
+# Sitemaps WMF ES
+Sitemap: https://www.wmf.com/es/media/google_sitemap_1.xml
+Sitemap: https://www.wmf.com/es/media/sitemap.xml

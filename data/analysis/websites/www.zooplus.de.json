@@ -1,0 +1,26 @@
+{
+  "domain": "www.zooplus.de",
+  "normalizedDomain": "www.zooplus.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "msnbot",
+      "allowed": false
+    },
+    {
+      "name": "msnbot-media",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    }
+  ]
+}

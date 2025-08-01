@@ -1,0 +1,42 @@
+#newbalance.de
+User-agent: *
+
+# All spiders are allowed to access all static resources
+
+Disallow: */demandware.store*
+Disallow: /*prefv1=*
+Disallow: /*prefv2=*
+Disallow: /*prefv3=*
+Disallow: /*prefv4=*
+Disallow: /*prefv5=*
+Disallow: /*prefv6=*
+Disallow: /*prefv7=*
+Disallow: /*prefn=*
+Disallow: /*prefn1=*
+Disallow: /*prefn2=*
+Disallow: /*prefn3=*
+Disallow: /*prefn4=*
+Disallow: /*prefn5=*
+Disallow: /*prefn6=*
+Disallow: /*prefn7=*
+Disallow: /*pmin=*
+Disallow: /*pmax=*
+Disallow: /*srule=*
+Disallow: /*?ICID=*
+Disallow: */Cart-Show*
+Disallow: */Account-StartRegister*
+Disallow: */Account-Show*
+Disallow: */Wishlist-Show*
+Disallow: */Wishlist-Add*
+Disallow: */search*
+Disallow: *productZoom*
+Disallow: *Tealium*
+
+# Share Wishlist
+Disallow: */SendToFriend-Start*
+
+# Hreflang Sitemaps
+Sitemap: https://nbxml.com/href-sitemap-de-de.xml
+
+# Sitemap Index
+Sitemap: https://www.newbalance.de/sitemap_index.xml

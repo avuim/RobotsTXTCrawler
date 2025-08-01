@@ -1,0 +1,86 @@
+User-agent: *
+#
+### Misc
+Disallow: /public/services
+Disallow: /magazin/styleguide/
+Disallow: /store/popup/
+Disallow: /store/change
+Disallow: /*?*themeChoiceId
+Disallow: /customer-reviews/
+Disallow: /api/customerreviews/
+Disallow: /shopping-list/add
+Disallow: /add-cart-layer
+Disallow: /search-flyout
+Disallow: /cmssearchresult-filter
+Disallow: /searchresult-filter
+Disallow: /prudsys/recommit/
+Disallow: /author/
+Disallow: /customer-account/
+Disallow: /regi/header/
+Disallow: /cmssearch/
+Disallow: /buy/
+Disallow: /heyobi/
+Disallow: /heyobi-api/
+Disallow: /baustoffhalle/
+Disallow: /pflanzenlexikon/
+Disallow: *OBI_*
+Disallow: *LUX_*
+Disallow: /shopping-list/
+Disallow: /recommendations/
+Disallow: *index.html*
+Disallow: /ratgeber/
+Disallow: *context
+Disallow: *undefined
+Disallow: /de/
+Disallow: */CMS/*
+Disallow: */cms/*
+Disallow: */1000$
+Allow: */p/1000*
+Allow: */c/1000*
+Disallow: /campaign/
+Disallow: /images/
+Disallow: /gartenplaner/gartenhaus-finder/
+Disallow: */assortment
+Disallow: *.html
+Disallow: */sortiment/
+Disallow: /login*
+Disallow: /cart
+Disallow: *Bg_hash
+Disallow: /kontakt/
+Disallow: /suche/
+Disallow: /zzz*
+Disallow: /-non-browsable/*
+Disallow: /ifo/
+Disallow: /find/*/counting/
+#
+# Reco
+Disallow: /*?*template=
+Disallow: /*?*box=
+#
+# Sprachauszeichnung
+Disallow: /*?*isoCode=
+#
+# Marktzuweisungen
+Disallow: /*?*market=
+#
+# Tracking intern
+Disallow: /*?*isi=
+Disallow: /*?*log=
+#
+# Prudsys Tracking
+Disallow: /pdp/prudsys/*/productview
+# Availability request
+Disallow: /api/pdp/*/availability
+# Autosuggest
+Disallow: /find/suchen/autosuggest
+#
+# Safety
+Allow: *.css
+Allow: *.js
+Allow: */assets/*
+Allow: */api/*
+Allow: /sitemaps/*OBI*
+#
+# Sitemaps
+Sitemap: https://www.obi.de/assets/discover/cms-sitemaps/de/index.xml
+

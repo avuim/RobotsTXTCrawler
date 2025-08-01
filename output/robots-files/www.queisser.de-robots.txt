@@ -1,0 +1,15 @@
+User-agent: *
+
+# Folders
+Disallow: /typo3/
+Disallow: /typo3temp/
+Disallow: /fileadmin/_temp_/
+Allow: /typo3temp/assets/
+
+# Parameters
+Disallow: /*tx_*
+Disallow: /*cHash=*
+Disallow: /*type=*
+
+# Sitemap
+Sitemap: https://www.queisser.de/sitemap.xml

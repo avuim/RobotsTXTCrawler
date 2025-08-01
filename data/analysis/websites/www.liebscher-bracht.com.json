@@ -1,0 +1,18 @@
+{
+  "domain": "www.liebscher-bracht.com",
+  "normalizedDomain": "www.liebscher-bracht.com",
+  "bots": [
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

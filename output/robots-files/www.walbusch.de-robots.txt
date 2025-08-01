@@ -1,0 +1,90 @@
+# Google AdBot
+User-agent: AdsBot-Google
+Disallow:
+Allow: /search
+Disallow: /my-account/
+Disallow: /checkout/
+Disallow: /login/
+Disallow: /view/
+Disallow: /neukunde/
+Disallow: /ratings
+Disallow: *VARNISH*
+Disallow: /_Incapsula_Resource*
+Disallow: /messages
+Disallow: /layer?id=*
+Disallow: *.htm$
+Allow: */reviews/product/*/*.htm$
+Disallow: /variants/
+Disallow: /cart/
+Disallow: /lastVisitedProducts*
+Disallow: /noteslist
+
+# Google AdBot Mobile
+User-agent: AdsBot-Google-Mobile
+Disallow:
+Allow: /search
+Disallow: /my-account/
+Disallow: /checkout/
+Disallow: /login/
+Disallow: /view/
+Disallow: /neukunde/
+Disallow: /ratings
+Disallow: *VARNISH*
+Disallow: /_Incapsula_Resource*
+Disallow: /messages
+Disallow: /layer?id=*
+Disallow: *.htm$
+Allow: */reviews/product/*/*.htm$
+Disallow: /variants/
+Disallow: /cart/
+Disallow: /lastVisitedProducts*
+Disallow: /noteslist
+
+# Bing AdBot
+User-agent: AdIdxBot
+Disallow:
+Allow: /search
+Disallow: /my-account/
+Disallow: /checkout/
+Disallow: /login/
+Disallow: /view/
+Disallow: /neukunde/
+Disallow: /ratings
+Disallow: *VARNISH*
+Disallow: /_Incapsula_Resource*
+Disallow: /messages
+Disallow: /layer?id=*
+Disallow: *.htm$
+Allow: */reviews/product/*/*.htm$
+Disallow: /variants/
+Disallow: /cart/
+Disallow: /lastVisitedProducts*
+Disallow: /noteslist
+
+# For all robots
+User-agent: *
+Disallow:
+Disallow: *?cmpscreen
+Disallow: *?bvstate
+Disallow: /my-account/
+Disallow: /checkout/
+Disallow: /login/
+Disallow: /view/
+Disallow: /neukunde/
+Disallow: /ratings
+Disallow: /search
+Disallow: *VARNISH*
+Disallow: /_Incapsula_Resource*
+Disallow: /messages
+Disallow: /layer?id=*
+Disallow: *.htm$
+Allow: */reviews/product/*/*.htm$
+Disallow: /variants/
+Disallow: /cart/
+Disallow: /lastVisitedProducts*
+Disallow: *followSearch*
+Disallow: *&f_*
+Disallow: *csrfToken=*
+Disallow: /noteslist
+
+Sitemap: https://www.walbusch.de/sitemap.xml

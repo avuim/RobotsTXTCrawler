@@ -1,0 +1,14 @@
+{
+  "domain": "www.kia.com",
+  "normalizedDomain": "www.kia.com",
+  "bots": [
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

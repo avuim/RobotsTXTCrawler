@@ -1,0 +1,26 @@
+{
+  "domain": "www.sugarshape.de",
+  "normalizedDomain": "www.sugarshape.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "adsbot-google",
+      "allowed": false
+    },
+    {
+      "name": "Nutch",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsSiteAudit",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+User-agent: *
+Disallow:
+
+Disallow: /admin
+Disallow: /de/navigation/*
+Disallow: /de/404
+Disallow: /500
+
+Noindex: /admin
+Noindex: /de/navigation/*
+Noindex: /de/404
+Noindex: /500
+
+Sitemap: https://www.ruegenwalder.de/sitemap.site_1.xml

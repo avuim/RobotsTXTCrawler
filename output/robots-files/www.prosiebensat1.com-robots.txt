@@ -1,0 +1,21 @@
+User-agent: BLP_bbot/0.1
+Disallow: /
+
+User-agent: BLP_bbot
+Disallow: /
+
+User-agent: Rigor
+Disallow: /
+
+User-agent: *
+Sitemap: https://www.prosiebensat1.com/sitemap.xml
+Disallow: /unternehmen/events/feedback
+Disallow: /unternehmen/events/newsletter-optout
+Disallow: /e-sign_erfolgreich-abgeschlossen
+Disallow: /e-sign_successfully-completed
+Disallow: /e-sign_abgebrochen
+Disallow: /e-sign_canceled
+Disallow: /e-sign_vorgang_abgebrochen
+Disallow: /e-sign_signing_process_canceled
+
+Allow: /

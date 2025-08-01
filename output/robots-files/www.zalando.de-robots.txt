@@ -1,0 +1,15 @@
+User-agent: Pinterestbot
+Crawl-delay: 0.2
+
+User-agent: *
+Allow: /trend-rewind/*
+Disallow: /*&*&*&*
+Disallow: /cart/*
+Disallow: /wardrobe/*
+Disallow: /myaccount/*
+Disallow: /opinions*
+Allow: /api/navigation
+Allow: /api/graphql/
+Disallow: /api/navigation/*
+Disallow: /api/*
+Disallow: /consent/api/ucversion

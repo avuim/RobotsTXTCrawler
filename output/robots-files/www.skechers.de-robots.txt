@@ -1,0 +1,83 @@
+User-agent: *
+
+Disallow: /Account-EditProfile/
+Disallow: /Account-PasswordReset/
+Disallow: /Account-SetNewPassword/
+Disallow: /Account-SetNewPasswordConfirm/
+Disallow: /Account-Show/
+Disallow: /Account-StartRegister/
+Disallow: /Address-List/
+Disallow: /COBilling-Start/
+Disallow: /COCustomer-Start/
+Disallow: *PaymentInstruments-AddPayment
+Disallow: *Address-AddAddress
+
+
+Disallow: /*pmin*
+Disallow: /*pmax*
+Disallow: /search/?*
+Disallow: /*?viewAll=true 
+Disallow: /*prefn1=
+Disallow: /*prefn2=
+Disallow: /*prefn3=
+Disallow: /*prefn4=
+Disallow: /*prefv1=
+Disallow: /*prefv2=
+Disallow: /*prefv3=
+Disallow: /*prefv4=
+Disallow: /*subid=*
+Disallow: /*pmax=*
+Disallow: /*pmin=*
+Disallow: /*cgid=*
+Disallow: /*format=*
+Disallow: /*gclid=*
+Disallow: /*linksrc=*
+Disallow: /*variantID=*
+Disallow: /*?dwvar
+Disallow: /*?pr_rd_*
+Disallow: /*?_pxhc*
+
+# Pipeline URL Rules
+
+Disallow: /en/addressbook*
+Disallow: /adressen*
+Disallow: /en/billing*
+Disallow: /rechnung*
+Disallow: /en/cart*
+Disallow: /warenkorb*
+Disallow: /en/checkout*
+Disallow: /checkout*
+Disallow: /en/compare*
+Disallow: /vergleichen*
+Disallow: /en/confirmednewpassword*
+Disallow: /passwortbestaetigen*
+Disallow: /en/myaccount*
+Disallow: /meinkonto*
+Disallow: /orderconfirmation*
+Disallow: /en/orders*
+Disallow: /bestellungen*
+Disallow: /en/profile*
+Disallow: /konto*
+Disallow: /en/passwordreset*
+Disallow: /passwortreset*
+Disallow: /passworterstellent*
+Disallow: /en/register*
+Disallow: /registrieren*
+Disallow: /en/revieworder*
+Disallow: /bestellungpruefen*
+Disallow: /en/search*
+Disallow: /suche*
+Disallow: /setpassword*
+Disallow:/en/shipping*
+Disallow: /versand*
+Disallow: /en/wishlist*
+Disallow: /wunschliste*
+
+Sitemap: https://www.skechers.de/sitemap_index.xml
+
+
+         # _____ __ __ ______________ ____________ _____
+            # / __// //// ____/ ____/ / / / ____/ __ \/ ___/
+            # __ \/ ,< / _/ / / / // / _/ / // /__ \
+            # __/ / /| |/ /_/ /_/ __ / /_/ _, _/__/ /
+            # /___// |/___/__// //___// ||/___/

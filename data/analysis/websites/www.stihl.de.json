@@ -1,0 +1,50 @@
+{
+  "domain": "www.stihl.de",
+  "normalizedDomain": "www.stihl.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "Buck",
+      "allowed": false
+    },
+    {
+      "name": "VelenPublicWebCrawler",
+      "allowed": false
+    },
+    {
+      "name": "GeedoProductSearch",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "EzoicBot",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "domain": "www.peek-cloppenburg.de",
+  "normalizedDomain": "www.peek-cloppenburg.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": true
+    }
+  ]
+}

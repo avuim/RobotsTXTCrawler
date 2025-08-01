@@ -1,0 +1,22 @@
+{
+  "domain": "www.jysk.de",
+  "normalizedDomain": "www.jysk.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot-image",
+      "allowed": false
+    },
+    {
+      "name": "Storebot-Google",
+      "allowed": false
+    }
+  ]
+}

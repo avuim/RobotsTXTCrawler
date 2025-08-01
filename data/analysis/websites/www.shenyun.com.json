@@ -1,0 +1,14 @@
+{
+  "domain": "www.shenyun.com",
+  "normalizedDomain": "www.shenyun.com",
+  "bots": [
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

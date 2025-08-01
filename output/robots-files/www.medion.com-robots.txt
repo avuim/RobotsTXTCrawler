@@ -1,0 +1,41 @@
+user-agent: *
+disallow: /support
+disallow: /newsletter
+disallow: /mum
+disallow: /sso
+disallow: */electronics
+disallow: */shop/*.pdf$
+disallow: */shop/*?facet
+disallow: */shop/*?pAction
+disallow: */shop/add2Cart
+disallow: */shop/cat/
+disallow: */shop/changeQuantity
+disallow: */shop/credentials
+disallow: */shop/forgottenPassword
+disallow: */shop/login
+disallow: */shop/m/
+disallow: */shop/priceSuggestion
+disallow: */shop/productNotFound
+disallow: */shop/registerPage
+disallow: */shop/searchProduct
+disallow: */shop/showCart
+disallow: /lenovoserviceshop/offerProductRequest*? 
+disallow: /medionserviceshop/add2Cart
+disallow: /medionserviceshop/login
+disallow: /medionserviceshop/register
+disallow: /lenovoserviceshop/add2Cart
+disallow: /lenovoserviceshop/login
+disallow: /lenovoserviceshop/register
+
+disallow: */shop/cart*
+disallow: */shop/my-account*
+disallow: */shop/checkout*
+disallow: */shop/search*
+
+disallow: /coremedias
+
+allow: /
+sitemap: https://www.medion.com/de/shop/sitemap/Product-de-DE-medion-de-EUR.xml
+sitemap: https://www.medion.com/de/shop/content/sitemap.xml
+sitemap: https://www.medion.com/at/shop/sitemap/Product-de-AT-medion-at-EUR.xml
+sitemap: https://www.medion.com/at/shop/content/sitemap.xml

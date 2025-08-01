@@ -1,0 +1,17 @@
+# # Robots.txt
+# Enables robots.txt rules for all crawlers
+
+User-agent: *
+Allow: /
+
+# Rate limit Yahoo!, Bing and Yandex (Google ignores this)
+Crawl-delay: 5
+
+# SilverStripe sitemap:
+Sitemap: https://www.capri-sun.com/sitemap.xml
+
+Disallow: /admin/
+Disallow: /Security/
+Disallow: /sdotsform/
+Disallow: /dev/
+Disallow: /*?r=*

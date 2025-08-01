@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /restapi/
+Disallow: /checkout/
+Disallow: *?*srsltid=
+Disallow: /search?searchKey=
+Disallow: /api/
+
+
+User-agent: *
+Disallow: /api
+
+Sitemap: https://www.weleda.de/sitemap_index.xml

@@ -1,0 +1,128 @@
+# All spiders are allowed to access all static resources
+User-agent: *
+Allow: /
+
+Disallow: */CompareShades-Start
+Disallow: */Cart-PaypalExpressCheckout
+Disallow: */Wishlist-RemoveAll
+Disallow: */Cart-MiniAddProduct
+Disallow: */Cart-AddProduct
+Disallow: */Product-GetSetItem
+Disallow: */Wishlist-AddAll
+Disallow: */Resources-Load
+Disallow: */QAS-VerifyAddress
+Disallow: */QAS-UpdateAddress
+Disallow: */Product-Productnav
+Disallow: */Cart-AddBonusProduct
+Disallow: */wardrobe
+
+Disallow: */Cart
+Disallow: */COBilling
+Disallow: */COCustomer
+Disallow: */COPlaceOrder
+Disallow: */COSamples
+Disallow: */COShipping
+Disallow: */COSummary
+
+Disallow: */Product-GetAvailability
+Disallow: */Product-GetSetItem
+Disallow: */Product-Productnav
+
+Disallow: */Resources-Load
+
+Disallow: / *reviews
+Disallow: /*pid=*
+Disallow: /*pmax=*
+Disallow: /*pmin=*
+Disallow: /*prefn1*
+Disallow: /*prefn2*
+Disallow: /*prefn3*
+Disallow: /*prefn4*
+Disallow: /*prefn5*
+Disallow: /*prefn6*
+Disallow: /*prefn7*
+Disallow: /*prefn8*
+Disallow: /*prefv1*
+Disallow: /*prefv2*
+Disallow: /*prefv3*
+Disallow: /*prefv4*
+Disallow: /*prefv5*
+Disallow: /*prefv6*
+Disallow: /*prefv7*
+Disallow: /*prefv8*
+Disallow: /*srule=*
+Disallow: /cart
+Disallow: /Cart-SubmitForm
+Disallow: /checkout*
+Disallow: /my-account*
+Disallow: /search*
+Disallow: /hidden*
+Disallow: /adyen*
+Disallow: /demandware.store*
+Disallow: /foundation-finder*
+
+# All spiders are allowed to access all static resources
+User-agent: *
+Allow: /
+
+Disallow: */CompareShades-Start
+Disallow: */Cart-PaypalExpressCheckout
+Disallow: */Wishlist-RemoveAll
+Disallow: */Cart-MiniAddProduct
+Disallow: */Cart-AddProduct
+Disallow: */Product-GetSetItem
+Disallow: */Wishlist-AddAll
+Disallow: */Resources-Load
+Disallow: */QAS-VerifyAddress
+Disallow: */QAS-UpdateAddress
+Disallow: */Product-Productnav
+Disallow: */Cart-AddBonusProduct
+Disallow: */wardrobe
+
+Disallow: */Cart
+Disallow: */COBilling
+Disallow: */COCustomer
+Disallow: */COPlaceOrder
+Disallow: */COSamples
+Disallow: */COShipping
+Disallow: */COSummary
+
+Disallow: */Product-GetAvailability
+Disallow: */Product-GetSetItem
+Disallow: */Product-Productnav
+
+Disallow: */Resources-Load
+
+Disallow: / *reviews
+Disallow: /*pid=*
+Disallow: /*pmax=*
+Disallow: /*pmin=*
+Disallow: /*prefn1*
+Disallow: /*prefn2*
+Disallow: /*prefn3*
+Disallow: /*prefn4*
+Disallow: /*prefn5*
+Disallow: /*prefn6*
+Disallow: /*prefn7*
+Disallow: /*prefn8*
+Disallow: /*prefv1*
+Disallow: /*prefv2*
+Disallow: /*prefv3*
+Disallow: /*prefv4*
+Disallow: /*prefv5*
+Disallow: /*prefv6*
+Disallow: /*prefv7*
+Disallow: /*prefv8*
+Disallow: /*srule=*
+Disallow: /cart
+Disallow: /Cart-SubmitForm
+Disallow: /checkout*
+Disallow: /my-account*
+Disallow: /search*
+Disallow: /hidden*
+Disallow: /adyen*
+Disallow: /demandware.store*
+Disallow: /foundation-finder*
+Disallow: *full-ingredients*
+
+Sitemap: https://www.shiseido.de/sitemap_index.xml

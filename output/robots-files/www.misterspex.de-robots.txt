@@ -1,0 +1,24 @@
+User-agent: facebookexternalhit/1.1
+Crawl-delay: 10 
+
+User-Agent: *
+Disallow: /*?SearchTerm
+Disallow: /cart
+Disallow: *.htm$
+Disallow: *MiniCart
+Disallow: *MiniWishlist
+Disallow: *GetWishlistJSON
+Disallow: /?PageletEntryPointID
+Disallow: /x-ray-ban-brillen-glasses
+Disallow: /*/ViewProductGallery-ViewTemplate
+Disallow: /l/*?
+Disallow: /c/tst/
+Disallow: *ViewTryOn-GetCustomerData
+Disallow: /*/ViewData-Start
+
+Allow: *CatalogID=catalog*
+Allow: *SearchParameter*
+
+Sitemap: https://www.misterspex.de/__service/product-browse-service/categories.xml
+Sitemap: https://www.misterspex.de/__service/product-browse-service/api/sitemaps
+Sitemap: https://www.misterspex.de/__service/content-service/sitemap.xml

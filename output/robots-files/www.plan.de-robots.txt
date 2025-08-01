@@ -1,0 +1,84 @@
+User-Agent: Googlebot-News
+Disallow: /
+Allow: /magazin/artikel/
+Allow: /magazin.html
+Allow: /news/detail/
+Allow: /news.html
+
+User-Agent: *
+Allow: /
+Disallow: /*/Configuration/*
+Disallow: /*/Private/*
+Disallow: /typo3/
+Disallow: /typo3temp/var/*
+Disallow: /*?id=*
+Disallow: /*&id=*
+Disallow: /*type=104*
+Disallow: /*type=954*
+Disallow: /*type=960*
+Disallow: /*type=970*
+Disallow: /*type=972*
+Disallow: /*type=980*
+Disallow: /*type=981*
+Disallow: /*type=982*
+Disallow: /*type=983*
+Disallow: /*type=984*
+Disallow: /*type=986*
+Disallow: /*type=988*
+Disallow: /*type=989*
+Disallow: /*type=990*
+Disallow: /*type=992*
+Disallow: /*type=1000*
+Disallow: /*type=1002*
+Disallow: /*type=1014*
+Disallow: /*type=1018*
+Disallow: /*type=1032*
+Disallow: /*type=1034*
+Disallow: /*type=1050*
+Disallow: /*type=9502*
+Disallow: /*type=9506*
+Disallow: /*type=10202*
+Disallow: /*type=1587984968*
+Disallow: /*type=1588618169*
+Disallow: /*type=1604059774*
+Disallow: /*type=1604059847*
+Disallow: /*type=1630391084*
+Disallow: /*type=1654673345*
+Disallow: /*type=1666000968*
+Disallow: /*type=1666018140*
+Disallow: /*type=1677513579*
+Disallow: /*type=1720179235*
+Disallow: /*type=1720436111*
+Disallow: /patenschaft/geschenke-fuer-ihr-patenkind/geschenkekorb.html
+Disallow: /patenschaft/geschenke-fuer-ihr-patenkind/geschenkekorb/*
+Disallow: /patenschaft/geschenke-fuer-ihr-patenkind/geschenkekorb/anzeigen.html
+Disallow: /patenschaft/geschenke-fuer-ihr-patenkind/geschenkekorb/anzeigen/*
+Disallow: /spenden/eigene-spendenaktion/aktion.html
+Disallow: /spenden/eigene-spendenaktion/aktion/*
+Disallow: /warenkorb/anzeigen.html
+Disallow: /warenkorb/anzeigen/*
+Disallow: /zertifikatsgenerator/zertifikat/erstellen.html
+Disallow: /zertifikatsgenerator/zertifikat/erstellen/*
+Disallow: /zertifikatsgenerator/zertifikat/herunterladen.html
+Disallow: /zertifikatsgenerator/zertifikat/herunterladen/*
+Disallow: /zertifikatsgenerator.html
+Disallow: /zertifikatsgenerator/*
+Disallow: /downloads.html
+Disallow: /downloads/*
+
+Sitemap: https://www.plan.de/sitemap.xml
+
+#              ..,:cc::,..                                                                      
+#          .;ox0XWMMMMMWXK0ko:.                                                                 
+#       .;dKWMMMMMMWXKKXXNMMMMNOl.        ,dxxxxxddo:.  :xkl.          ;xkkd'     ;xko.   .lxxl.
+#     .:0WMMMMN0xoc,.':l:,:d0NMMMXo.     .xMMWXOKNMMWK;.OMMX;         :XMMMM0,   .kMMMKc. 'OMMO.
+#    .xWMMMNOl'.     'od:   .,dXMMMKc    .kMMNc .lXNMMx,kMMX;        ,0MNO0MMk.  .kMMMMNk''OMMO.
+#   .xWMMWO;     .:ol,.:;      ;KMMM0'   .kMMWxclONWMWo'OMMX;       .kMMO':XMWd. .kMMNKNMKkKMMO.
+#   :NMMMO.   ';.;KMM0oOo       lWMMN:   .kMMMWNNXXKkc..OMMX:      .dWMMX00NMMNl .kMM0;:0WMMMMO.
+#   ;XMMMO.   ,dk0NMMMXl.       oWMMX;   .kMMWo'....   .OMMWKkkkko.cNMW0dddxKMMX:.kMM0' .dNMMMO.
+#   .kMMMWx.    .kMMWN0xxxc   .cKWMWd.   .dXX0;        .xXXXXXXXKklkXXk'    ;0XXx;dXXk'   ;kXXo.
+#    'OWMMWKo,.  oMNd'..''.   .;:lko.     ....          ......... .....      .........      ..  
+#     .lKWMMMWKkxKMXl'..',,:c'    .             ...... ... ..       ..  ...    ..  .     .  .   
+#       .ckXWMMMMMMMWNNNNWWMWO:.          :lcxodc;okd,l0x;cOkc:xod:.dk,.lOc;o:ldol:xddc.lO:.o;  
+#          .;cdk0XNWMMMMWNKkl'            :lcoox;..l: cOd;cxxc:olxccddo.,o'.o:cool:oodl:ooo:od, 
+#               ...,;;;;,'.                            ..                      ..           ... 

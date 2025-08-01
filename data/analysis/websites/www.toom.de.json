@@ -1,0 +1,14 @@
+{
+  "domain": "www.toom.de",
+  "normalizedDomain": "www.toom.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    }
+  ]
+}

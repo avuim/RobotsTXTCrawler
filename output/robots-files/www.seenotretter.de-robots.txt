@@ -1,0 +1,12 @@
+User-Agent: *
+Allow: /
+Disallow: /typo3/
+Allow: /typo3/sysext/frontend/Resources/Public/*
+Disallow: /typo3conf/
+Allow: /typo3conf/ext/
+Disallow: /*?id=*
+Disallow: /*tx_powermail_pi1
+Disallow: /ajax.call?*
+User-agent: Twitterbot
+Disallow:
+Sitemap: https://www.seenotretter.de/sitemap.xml

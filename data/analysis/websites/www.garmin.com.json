@@ -1,0 +1,22 @@
+{
+  "domain": "www.garmin.com",
+  "normalizedDomain": "www.garmin.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "gsa-garmin",
+      "allowed": true
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": true
+    },
+    {
+      "name": "UptimeRobot",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+User-agent: *
+
+Allow: /
+
+Disallow: /*/my-registration/
+Disallow: /*/my-profile/
+Disallow: /*/password-reset/
+Disallow: /*/api/
+Disallow: /*/invited-registration/
+Disallow: /*/newsletter-verification/
+Disallow: /*/preview/
+Disallow: /*/profile/
+Disallow: /*/validate-user-state/
+Disallow: /*/product-info/
+Disallow: /*/account/
+Disallow: /*/sign-up/
+Disallow: /*/404/
+Disallow: /*?*token=
+Disallow: /*?*deeplink_token=
+
+Sitemap: http://www.hexal.de/sitemap.xml

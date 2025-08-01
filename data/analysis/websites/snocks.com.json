@@ -1,0 +1,26 @@
+{
+  "domain": "snocks.com",
+  "normalizedDomain": "snocks.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "adsbot-google",
+      "allowed": false
+    },
+    {
+      "name": "Nutch",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsSiteAudit",
+      "allowed": false
+    }
+  ]
+}

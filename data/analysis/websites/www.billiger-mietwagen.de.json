@@ -1,0 +1,14 @@
+{
+  "domain": "www.billiger-mietwagen.de",
+  "normalizedDomain": "www.billiger-mietwagen.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": false
+    }
+  ]
+}

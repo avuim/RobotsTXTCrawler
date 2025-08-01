@@ -1,0 +1,43 @@
+#Alle Suchmaschinen wird der Zugang verweigert zu den angegebenen Verzeichnissen
+User-agent: *
+Disallow: /fileadmin/
+Disallow: /typo3conf/
+Disallow: /typo3temp/
+Disallow: /_BAK/
+Disallow: /uploads/
+Disallow: /DB_SICHERUNGEN/
+
+Allow: /typo3temp/*.css
+Allow: /typo3temp/*.css.*.gzip$
+Allow: /typo3temp/*.js
+Allow: /typo3temp/*.js.*.gzip$
+Allow: /typo3temp/*.jpg$
+Allow: /typo3temp/*.jpeg$
+Allow: /typo3temp/*.svg$
+Allow: /typo3temp/*.gif$
+Allow: /typo3temp/*.png$
+
+Allow: /fileadmin/*.png
+Allow: /fileadmin/*.jpg
+Allow: /fileadmin/*.jpeg
+Allow: /fileadmin/*.svg
+Allow: /fileadmin/*.gif
+Allow: /fileadmin/*.js
+Allow: /fileadmin/*.css
+
+# Only allow URLs generated with RealURL
+Disallow: /*?id=*
+Disallow: /*&id=*
+Disallow: /*&cHash=*
+Disallow: /*&tx_powermail_pi1*
+
+# DB
+# Disallow: *.sql
+
+#e-mail Sammler von der Site fernhalten
+User-agent: EmailCollector
+Disallow: /
+
+# Sitemaps
+Sitemap: https://www.ehrlich-brothers.com/index.php?eID=dd_googlesitemap&L=0
+Sitemap: https://www.ehrlich-brothers.com/index.php?eID=dd_googlesitemap&L=1

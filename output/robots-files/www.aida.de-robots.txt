@@ -1,0 +1,45 @@
+# nr_robotstxt_exclusion BEGIN
+User-agent: *
+Disallow: /kreuzfahrt/angebote-buchen/ibe.20389.html
+Disallow: /kreuzfahrt/angebote-buchen/ibe3.20389.html
+Disallow: /kreuzfahrt/angebote-buchen/ibe-fup.35857.html
+Disallow: /kreuzfahrt/angebote-buchen/ibe3/
+Disallow: /kreuzfahrt/ibe3-buchung.23757.html
+Disallow: /kreuzfahrt/ibe3-buchung/
+Disallow: /angebote/ibe.25489.html
+Disallow: /angebote/ibe/
+Disallow: /neue-generation/html-animationen.26520.html
+Disallow: /kreuzfahrt/suche.35548.html
+Disallow: /finden/
+Disallow: /reise/
+
+# Toolbots
+User-agent: RyteBot
+Disallow: /aida-cruises/presse/
+Disallow: /nc/
+Disallow: /browse/
+Disallow: /aida-cruises/unternehmen/aktuelles/
+Disallow: /aida-cruises/nachhaltigkeit/aktuelles/
+Disallow: /aida-cruises/nachhaltigkeit/aida-cares/
+Disallow: /en/
+Disallow: /kreuzfahrt/faq/
+Disallow: /finden/
+Disallow: /reise/
+
+User-agent: sistrixbot
+Disallow: /aida-cruises/presse/
+Disallow: /nc/
+Disallow: /browse/
+Disallow: /aida-cruises/unternehmen/aktuelles/
+Disallow: /aida-cruises/nachhaltigkeit/aktuelles/
+Disallow: /aida-cruises/nachhaltigkeit/aida-cares/
+Disallow: /en/
+Disallow: /kreuzfahrt/faq/
+Disallow: /finden/
+Disallow: /reise/
+
+# XML-Sitemap
+Sitemap: https://www.aida.de/sitemap-index-xml
+Sitemap: https://aida.de/content/aida/deutschland.sitemap.xml
+
+# nr_robotstxt_exclusion END

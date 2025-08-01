@@ -1,0 +1,14 @@
+{
+  "domain": "www.fielmann.de",
+  "normalizedDomain": "www.fielmann.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    }
+  ]
+}

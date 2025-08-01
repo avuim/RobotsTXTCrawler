@@ -1,0 +1,65 @@
+User-agent: *
+Disallow: /index.php*
+Disallow: /app/
+Disallow: /lib/
+Disallow: /*.php$
+Disallow: /pkginfo/
+Disallow: /report/
+Disallow: /var/
+Disallow: /sendfriend/
+Disallow: /review/
+Disallow: /*SID=
+Disallow: */banner/*
+Disallow: /site/*
+Disallow: /wp2/*
+Disallow: /wp1/*
+Disallow: /blog/wp-includes/*
+Disallow: /website/wp-includes/*
+Disallow: /test/*
+Disallow: /cms/wp-includes/*
+Disallow: /news/wp-includes/*
+Disallow: /2018/*
+Disallow: *checkout*
+
+#Block Catalog, Search and Accounts
+Disallow: */account/create/*
+Disallow: */customer/account/*
+Disallow: */checkout/cart/*
+Disallow: */catalogsearch/*
+Disallow: /search/ajax/suggest*
+
+
+#Superfluous market folders
+Disallow: /fr/
+Disallow: /en/
+Disallow: /de/
+Disallow: /nl/
+
+#Block Product Parameters
+Disallow: *?brand
+Disallow: *&brand
+Disallow: *?cacao_percentage
+Disallow: *&cacao_percentage
+Disallow: *?type_of_chocolate
+Disallow: *&type_of_chocolate
+Disallow: *&format
+Disallow: *?format
+Disallow: *?flavours
+Disallow: *&flavours
+Disallow: *?gift_ideas
+Disallow: *&gift_ideas
+
+#Block Pagination above page 25
+Disallow: *p=25
+Disallow: *p=26
+Disallow: *p=27
+
+#Block ChatGPT
+User-agent: ChatGPT-User
+Disallow: /
+
+#Crawl Delay common
+Crawl-delay: 86400
+
+# Sitemap files
+Sitemap: https://www.lindt.de/media/sitemap/sitemap_de_de.xml
