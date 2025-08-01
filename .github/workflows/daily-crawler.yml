@@ -5,6 +5,11 @@ on:
     # Täglich um 6:00 UTC ausführen (8:00 CEST)
     - cron: '0 6 * * *'
   workflow_dispatch:  # Ermöglicht manuelle Ausführung über die GitHub UI
+  push:
+    paths:
+      - 'data/websites.json'  # Automatisch ausführen bei Änderungen an der websites.json
+    branches:
+      - main  # Nur bei Änderungen am main Branch
 
 jobs:
   crawl:
