@@ -8,6 +8,10 @@ on:
   push:
     paths:
       - 'data/websites.json'  # Automatisch ausführen bei Änderungen an der websites.json
+      - 'src/services/**'     # Ausführen bei Änderungen an Crawler-Services
+      - 'src/types/**'        # Ausführen bei Änderungen an Type-Definitionen
+      - 'src/api/**'          # Ausführen bei Änderungen an API-Code
+      - 'src/analyzers/**'    # Ausführen bei Änderungen an Analyzer-Code
     branches:
       - main  # Nur bei Änderungen am main Branch
 

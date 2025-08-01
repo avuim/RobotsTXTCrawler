@@ -5,8 +5,12 @@ on:
     branches: [ main ]
     paths:
       - 'src/frontend/**'
-      - 'data/**'
       - '.github/workflows/deploy-frontend.yml'
+  workflow_run:
+    workflows: ["Daily Robots.txt Crawler"]
+    types:
+      - completed
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
