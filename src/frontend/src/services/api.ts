@@ -4,8 +4,13 @@ import { Website } from '../types/Website.ts';
 import { Summary } from '../types/Common.ts';
 
 // Bestimme ob statische API oder Live-API verwendet werden soll
+// Statischer Modus nur auf GitHub Pages (wenn die spezielle API_BASE_URL gesetzt ist)
 const isStaticMode = process.env.REACT_APP_API_BASE_URL === '/RobotsTXTCrawler/api';
 const API_BASE_URL = isStaticMode ? '/RobotsTXTCrawler/api' : 'http://localhost:3001/api';
+
+console.log('API Mode:', isStaticMode ? 'Static (GitHub Pages)' : 'Live (Local Development)');
+console.log('API Base URL:', API_BASE_URL);
+console.log('Environment API Base URL:', process.env.REACT_APP_API_BASE_URL);
 
 const apiClient = !isStaticMode ? axios.create({
   baseURL: API_BASE_URL,
@@ -98,7 +103,7 @@ export const API = {
           const categories = await fetchStaticData('/analysis/bot-categories');
           
           let botDetails = null;
-          for (const [categoryKey, categoryData] of Object.entries(categories.categories)) {
+          for (const categoryData of Object.values(categories.categories)) {
             const categoryBots = (categoryData as any).bots;
             if (categoryBots && categoryBots[name]) {
               botDetails = categoryBots[name];
