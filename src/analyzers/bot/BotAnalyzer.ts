@@ -378,9 +378,6 @@ export class BotAnalyzer {
           };
           
           categoriesUpdated = true;
-          console.log(`Neuer Bot "${botName}" zur Kategorie "${categoryName}" hinzugefügt (gefunden in ${totalWebsites} Websites)`);
-        } else {
-          console.log(`Bot "${botName}" nicht hinzugefügt, da er nur in ${totalWebsites} Websites gefunden wurde (Schwellenwert: ${MIN_WEBSITES_THRESHOLD})`);
         }
       }
     }
@@ -394,8 +391,6 @@ export class BotAnalyzer {
       } catch (error) {
         console.error('Fehler beim Speichern der Bot-Kategorien:', error);
       }
-    } else {
-      console.log('Keine neuen Bots gefunden, die den Schwellenwert überschreiten. Bot-Kategorien nicht aktualisiert.');
     }
   }
   
