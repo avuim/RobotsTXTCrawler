@@ -13,7 +13,7 @@ const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <Router>
+      <Router basename="/RobotsTXTCrawler">
         <Routes>
           <Route path="/" element={<DashboardPage />} />
           <Route path="/bots" element={<BotListPage />} />
