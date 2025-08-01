@@ -71,6 +71,9 @@ const StatusDot = styled.div<{ status: 'running' | 'stopped' }>`
 const DashboardPage: React.FC = () => {
   const { data: summary, loading, error } = useApi(() => API.getSummary());
 
+  // Bestimme API-Modus
+  const isStaticMode = process.env.REACT_APP_API_BASE_URL === '/RobotsTXTCrawler/api';
+
   if (loading) {
     return (
       <Layout pageTitle="Dashboard">
@@ -92,13 +95,19 @@ const DashboardPage: React.FC = () => {
       <WelcomeCard>
         <WelcomeTitle>Willkommen beim Robots.txt Crawler und Analyzer!</WelcomeTitle>
         <WelcomeText>
-          Der Crawler wurde erfolgreich gestartet und läuft im Hintergrund.
-          Hier finden Sie eine Übersicht über die gesammelten Daten und Statistiken.
+          {isStaticMode 
+            ? 'Diese Anwendung läuft auf GitHub Pages mit statischen Daten. Die Daten werden regelmäßig durch automatisierte Crawler-Läufe aktualisiert.'
+            : 'Der Crawler wurde erfolgreich gestartet und läuft im Hintergrund.'
+          }
+          {' '}Hier finden Sie eine Übersicht über die gesammelten Daten und Statistiken.
         </WelcomeText>
         <WelcomeText>
           <StatusIndicator $status="running">
             <StatusDot status="running" />
-            API-Server läuft auf Port 3001
+            {isStaticMode 
+              ? 'Statische API (GitHub Pages)' 
+              : 'API-Server läuft auf Port 3001'
+            }
           </StatusIndicator>
         </WelcomeText>
       </WelcomeCard>

@@ -436,3 +436,9 @@ Die Anwendung ist modular aufgebaut und kann leicht erweitert werden:
 1. **Neue Crawler-Methode hinzufügen**: Erstellen Sie eine neue Klasse, die das Crawling durchführt, und integrieren Sie sie in den CrawlOrchestrator
 2. **Neue Ausgabeformate hinzufügen**: Erweitern Sie den FileManager, um zusätzliche Ausgabeformate zu unterstützen
 3. **Neue Anti-Blocking-Maßnahmen hinzufügen**: Implementieren Sie zusätzliche Maßnahmen in den Crawler-Klassen
+
+### Ressourcen
+
+- Standardisierung der robots.txt durch das IETF im Robots Exclusion Protocol: https://datatracker.ietf.org/doc/rfc9309/
+
+- AI Preferences (aipref) Erweiterungen  https://datatracker.ietf.org/wg/aipref/about/. The AI Preferences Working Group will standardize building blocks that allow for the expression of preferences about how content is collected and processed for Artificial Intelligence (AI) model development, deployment, and use.
