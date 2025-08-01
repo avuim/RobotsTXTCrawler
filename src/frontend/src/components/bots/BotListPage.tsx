@@ -78,6 +78,16 @@ const StatValue = styled.span<{ type: 'allowed' | 'disallowed' }>`
   font-weight: 500;
 `;
 
+const InfoText = styled.div`
+  padding: ${({ theme }) => theme.spacing.md};
+  background-color: ${({ theme }) => theme.colors.background};
+  border-left: 4px solid ${({ theme }) => theme.colors.primary};
+  border-radius: ${({ theme }) => theme.borderRadius.small};
+  font-size: 0.9rem;
+  color: ${({ theme }) => theme.colors.lightText};
+  margin-bottom: ${({ theme }) => theme.spacing.md};
+`;
+
 const BotListPage: React.FC = () => {
   const navigate = useNavigate();
   const { data: bots, loading, error } = useApi(() => API.getBots());
@@ -184,6 +194,10 @@ const BotListPage: React.FC = () => {
             <option value="other">Andere</option>
           </FilterSelect>
         </FilterContainer>
+
+        <InfoText>
+          Es werden nur Bots gelistet, die auf mindestens 10 Webseiten in der robots.txt gefunden werden konnten.
+        </InfoText>
 
         <Table 
           data={filteredBots} 
