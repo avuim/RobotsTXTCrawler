@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-08-01T07:32:37.777Z",
+  "lastUpdated": "2025-08-01T10:36:57.855Z",
   "totalWebsites": 705,
-  "totalBots": 1187,
+  "totalBots": 1197,
   "botCategories": {
     "searchEngine": 54,
     "seo": 44,
-    "aiScraper": 31,
-    "other": 1058
+    "aiScraper": 32,
+    "other": 1067
   },
   "bots": {
     "GPTBot": {
@@ -62,11 +62,11 @@
               "www.abzonline.de",
               "www.aerzteblatt.de",
               "www.agrarheute.com",
-              "www.agrarzeitung.de",
               "www.ahgz.de",
               "www.airliners.de",
               "www.alpin.de",
               "www.apotheken-umschau.de",
+              "www.ard.de",
               "www.az-online.de",
               "www.badische-zeitung.de",
               "www.bau-welt.de",
@@ -118,7 +118,6 @@
               "www.firmenauto.de",
               "www.fitforfun.de",
               "www.fleischerei.de",
-              "www.fleischwirtschaft.de",
               "www.fnp.de",
               "www.fnweb.de",
               "www.focus.de",
@@ -255,6 +254,7 @@
               "www.swp.de",
               "www.szlz.de",
               "www.tageblatt.de",
+              "www.tagesschau.de",
               "www.tagesspiegel.de",
               "www.taz.de",
               "www.teltarif.de",
@@ -616,11 +616,11 @@
               "www.ad-magazin.de",
               "www.aerzteblatt.de",
               "www.agrarheute.com",
-              "www.agrarzeitung.de",
               "www.ahgz.de",
               "www.airliners.de",
               "www.alpin.de",
               "www.apotheken-umschau.de",
+              "www.ard.de",
               "www.az-online.de",
               "www.bbv-net.de",
               "www.bike-magazin.de",
@@ -662,7 +662,6 @@
               "www.fitbook.de",
               "www.fitforfun.de",
               "www.fleischerei.de",
-              "www.fleischwirtschaft.de",
               "www.fnp.de",
               "www.fnweb.de",
               "www.focus.de",
@@ -767,6 +766,7 @@
               "www.swp.de",
               "www.szlz.de",
               "www.tageblatt.de",
+              "www.tagesschau.de",
               "www.tagesspiegel.de",
               "www.techbook.de",
               "www.teltarif.de",
@@ -1063,10 +1063,10 @@
               "www.ad-magazin.de",
               "www.aerzteblatt.de",
               "www.agrarheute.com",
-              "www.agrarzeitung.de",
               "www.ahgz.de",
               "www.airliners.de",
               "www.alpin.de",
+              "www.ard.de",
               "www.badische-zeitung.de",
               "www.bbv-net.de",
               "www.bigdata-insider.de",
@@ -1091,7 +1091,6 @@
               "www.faz.net",
               "www.firmenauto.de",
               "www.fitbook.de",
-              "www.fleischwirtschaft.de",
               "www.fnweb.de",
               "www.food-service.de",
               "www.frankenpost.de",
@@ -1164,6 +1163,7 @@
               "www.suedkurier.de",
               "www.svz.de",
               "www.tageblatt.de",
+              "www.tagesschau.de",
               "www.tagesspiegel.de",
               "www.techbook.de",
               "www.teltarif.de",
@@ -1359,10 +1359,10 @@
               "www.achgut.com",
               "www.aerzteblatt.de",
               "www.agrarheute.com",
-              "www.agrarzeitung.de",
               "www.ahgz.de",
               "www.alpin.de",
               "www.apotheken-umschau.de",
+              "www.ard.de",
               "www.bau-welt.de",
               "www.bbv-net.de",
               "www.bigdata-insider.de",
@@ -1395,7 +1395,6 @@
               "www.feierabend.de",
               "www.filmstarts.de",
               "www.fitbook.de",
-              "www.fleischwirtschaft.de",
               "www.food-service.de",
               "www.frankenpost.de",
               "www.freiepresse.de",
@@ -1462,6 +1461,7 @@
               "www.sueddeutsche.de",
               "www.svz.de",
               "www.szlz.de",
+              "www.tagesschau.de",
               "www.techbook.de",
               "www.teltarif.de",
               "www.textilwirtschaft.de",
@@ -1771,9 +1771,9 @@
               "www.ad-magazin.de",
               "www.aerzteblatt.de",
               "www.agrarheute.com",
-              "www.agrarzeitung.de",
               "www.ahgz.de",
               "www.alpin.de",
+              "www.ard.de",
               "www.bbv-net.de",
               "www.bild.de",
               "www.brigitte.de",
@@ -1789,7 +1789,6 @@
               "www.faz.net",
               "www.filmstarts.de",
               "www.fitbook.de",
-              "www.fleischwirtschaft.de",
               "www.food-service.de",
               "www.fvw.de",
               "www.gala.de",
@@ -1821,6 +1820,7 @@
               "www.stern.de",
               "www.stylebook.de",
               "www.svz.de",
+              "www.tagesschau.de",
               "www.tagesspiegel.de",
               "www.techbook.de",
               "www.teltarif.de",
@@ -1929,9 +1929,9 @@
       "category": "aiScraper",
       "monthlyStats": {
         "2025-08": {
-          "totalWebsites": 78,
+          "totalWebsites": 80,
           "allowedWebsites": 0,
-          "disallowedWebsites": 78,
+          "disallowedWebsites": 80,
           "websites": {
             "allowed": [],
             "disallowed": [
@@ -1942,6 +1942,7 @@
               "www.aerzteblatt.de",
               "www.agrarheute.com",
               "www.alpin.de",
+              "www.ard.de",
               "www.bbv-net.de",
               "www.bigdata-insider.de",
               "www.bild.de",
@@ -2005,6 +2006,7 @@
               "www.stuttgarter-zeitung.de",
               "www.stylebook.de",
               "www.sueddeutsche.de",
+              "www.tagesschau.de",
               "www.techbook.de",
               "www.teltarif.de",
               "www.travelbook.de",
@@ -2258,10 +2260,10 @@
               "www.abzonline.de",
               "www.ad-magazin.de",
               "www.agrarheute.com",
-              "www.agrarzeitung.de",
               "www.ahgz.de",
               "www.airliners.de",
               "www.apotheken-umschau.de",
+              "www.ard.de",
               "www.bbv-net.de",
               "www.berlin.de",
               "www.bild.de",
@@ -2287,7 +2289,6 @@
               "www.feierabend.de",
               "www.filmstarts.de",
               "www.fitbook.de",
-              "www.fleischwirtschaft.de",
               "www.food-service.de",
               "www.freundin.de",
               "www.fvw.de",
@@ -2336,6 +2337,7 @@
               "www.stylebook.de",
               "www.svz.de",
               "www.szlz.de",
+              "www.tagesschau.de",
               "www.techbook.de",
               "www.teltarif.de",
               "www.textilwirtschaft.de",
@@ -2601,9 +2603,9 @@
       "category": "seo",
       "monthlyStats": {
         "2025-08": {
-          "totalWebsites": 54,
+          "totalWebsites": 55,
           "allowedWebsites": 1,
-          "disallowedWebsites": 53,
+          "disallowedWebsites": 54,
           "websites": {
             "allowed": [
               "www.mydays.de"
@@ -2658,6 +2660,7 @@
               "www.spiegel.de",
               "www.stuttgarter-zeitung.de",
               "www.sueddeutsche.de",
+              "www.tagesschau.de",
               "www.teltarif.de",
               "www.topagrar.com",
               "www.tophotel.de",
@@ -3121,8 +3124,8 @@
       "monthlyStats": {
         "2025-08": {
           "totalWebsites": 845,
-          "allowedWebsites": 262,
-          "disallowedWebsites": 583,
+          "allowedWebsites": 263,
+          "disallowedWebsites": 582,
           "websites": {
             "allowed": [
               "www.0180.info",
@@ -3137,6 +3140,7 @@
               "www.airliners.de",
               "www.amicella.de",
               "www.antenneunna.de",
+              "www.ard.de",
               "www.arzt-wirtschaft.de",
               "www.asscompact.de",
               "www.at-minerals.com",
@@ -3401,7 +3405,6 @@
               "www.aerzteblatt.de",
               "www.aerztezeitung.de",
               "www.agrarheute.com",
-              "www.agrarzeitung.de",
               "www.ahgz.de",
               "www.airliners.de",
               "www.all-electronics.de",
@@ -3557,7 +3560,6 @@
               "www.fitbook.de",
               "www.fitforfun.de",
               "www.fleischerei.de",
-              "www.fleischwirtschaft.de",
               "www.flugrevue.de",
               "www.fluid.de",
               "www.fnp.de",
@@ -3891,6 +3893,7 @@
               "www.tag24.de",
               "www.tageblatt.de",
               "www.tageskarte.io",
+              "www.tagesschau.de",
               "www.tagesspiegel.de",
               "www.taz.de",
               "www.techbook.de",
@@ -5037,9 +5040,9 @@
       "category": "searchEngine",
       "monthlyStats": {
         "2025-08": {
-          "totalWebsites": 42,
+          "totalWebsites": 44,
           "allowedWebsites": 0,
-          "disallowedWebsites": 42,
+          "disallowedWebsites": 44,
           "websites": {
             "allowed": [],
             "disallowed": [
@@ -5050,6 +5053,7 @@
               "www.agrarheute.com",
               "www.airliners.de",
               "www.alpin.de",
+              "www.ard.de",
               "www.bild.de",
               "www.brigitte.de",
               "www.bz-berlin.de",
@@ -5079,6 +5083,7 @@
               "www.schoener-wohnen.de",
               "www.spiegel.de",
               "www.stylebook.de",
+              "www.tagesschau.de",
               "www.techbook.de",
               "www.travelbook.de",
               "www.vogue.com",
@@ -5150,9 +5155,9 @@
       "category": "searchEngine",
       "monthlyStats": {
         "2025-08": {
-          "totalWebsites": 31,
+          "totalWebsites": 33,
           "allowedWebsites": 0,
-          "disallowedWebsites": 31,
+          "disallowedWebsites": 33,
           "websites": {
             "allowed": [],
             "disallowed": [
@@ -5161,6 +5166,7 @@
               "www.aerzteblatt.de",
               "www.airliners.de",
               "www.alpin.de",
+              "www.ard.de",
               "www.bild.de",
               "www.brigitte.de",
               "www.bz-berlin.de",
@@ -5183,6 +5189,7 @@
               "www.schoener-wohnen.de",
               "www.spiegel.de",
               "www.stylebook.de",
+              "www.tagesschau.de",
               "www.techbook.de",
               "www.travelbook.de",
               "www.weather.com",
@@ -5783,9 +5790,9 @@
       "category": "aiScraper",
       "monthlyStats": {
         "2025-08": {
-          "totalWebsites": 104,
+          "totalWebsites": 106,
           "allowedWebsites": 5,
-          "disallowedWebsites": 99,
+          "disallowedWebsites": 101,
           "websites": {
             "allowed": [
               "www.awmagazin.de",
@@ -5802,6 +5809,7 @@
               "www.agrarheute.com",
               "www.alpin.de",
               "www.apotheken-umschau.de",
+              "www.ard.de",
               "www.bau-welt.de",
               "www.bbv-net.de",
               "www.bergfex.at",
@@ -5881,6 +5889,7 @@
               "www.sueddeutsche.de",
               "www.svz.de",
               "www.swp.de",
+              "www.tagesschau.de",
               "www.techbook.de",
               "www.teltarif.de",
               "www.transfermarkt.de",
@@ -6288,9 +6297,9 @@
       "category": "aiScraper",
       "monthlyStats": {
         "2025-08": {
-          "totalWebsites": 49,
+          "totalWebsites": 51,
           "allowedWebsites": 0,
-          "disallowedWebsites": 49,
+          "disallowedWebsites": 51,
           "websites": {
             "allowed": [],
             "disallowed": [
@@ -6300,6 +6309,7 @@
               "www.agrarheute.com",
               "www.alpin.de",
               "www.apotheken-umschau.de",
+              "www.ard.de",
               "www.bbv-net.de",
               "www.bigdata-insider.de",
               "www.bild.de",
@@ -6335,6 +6345,7 @@
               "www.spiegel.de",
               "www.storage-insider.de",
               "www.stylebook.de",
+              "www.tagesschau.de",
               "www.techbook.de",
               "www.travelbook.de",
               "www.vogue.com",
@@ -6720,9 +6731,9 @@
       "category": "other",
       "monthlyStats": {
         "2025-08": {
-          "totalWebsites": 49,
+          "totalWebsites": 51,
           "allowedWebsites": 5,
-          "disallowedWebsites": 44,
+          "disallowedWebsites": 46,
           "websites": {
             "allowed": [
               "www.awmagazin.de",
@@ -6736,6 +6747,7 @@
               "www.ad-magazin.de",
               "www.agrarheute.com",
               "www.apotheken-umschau.de",
+              "www.ard.de",
               "www.bau-welt.de",
               "www.bild.de",
               "www.bz-berlin.de",
@@ -6766,6 +6778,7 @@
               "www.stylebook.de",
               "www.sueddeutsche.de",
               "www.svz.de",
+              "www.tagesschau.de",
               "www.techbook.de",
               "www.travelbook.de",
               "www.vodafone.de",
@@ -6871,9 +6884,9 @@
               "www.achgut.com",
               "www.aerzteblatt.de",
               "www.agrarheute.com",
-              "www.agrarzeitung.de",
               "www.ahgz.de",
               "www.alpin.de",
+              "www.ard.de",
               "www.badische-zeitung.de",
               "www.bau-welt.de",
               "www.bbv-net.de",
@@ -6907,7 +6920,6 @@
               "www.filmstarts.de",
               "www.finanzen100.de",
               "www.fitforfun.de",
-              "www.fleischwirtschaft.de",
               "www.fnweb.de",
               "www.focus.de",
               "www.food-service.de",
@@ -6992,6 +7004,7 @@
               "www.swp.de",
               "www.szbz.de",
               "www.szlz.de",
+              "www.tagesschau.de",
               "www.tagesspiegel.de",
               "www.textilwirtschaft.de",
               "www.torgauerzeitung.com",
@@ -7203,8 +7216,8 @@
               "www.ad-magazin.de",
               "www.aerzteblatt.de",
               "www.agrarheute.com",
-              "www.agrarzeitung.de",
               "www.ahgz.de",
+              "www.ard.de",
               "www.badische-zeitung.de",
               "www.bbv-net.de",
               "www.bigdata-insider.de",
@@ -7227,7 +7240,6 @@
               "www.faz.net",
               "www.filmstarts.de",
               "www.fitbook.de",
-              "www.fleischwirtschaft.de",
               "www.food-service.de",
               "www.freundin.de",
               "www.fvw.de",
@@ -7278,6 +7290,7 @@
               "www.svz.de",
               "www.swp.de",
               "www.szlz.de",
+              "www.tagesschau.de",
               "www.techbook.de",
               "www.textilwirtschaft.de",
               "www.torgauerzeitung.com",
@@ -7478,14 +7491,13 @@
               "www.abzonline.de",
               "www.ad-magazin.de",
               "www.agrarheute.com",
-              "www.agrarzeitung.de",
               "www.ahgz.de",
               "www.apotheken-umschau.de",
+              "www.ard.de",
               "www.bild.de",
               "www.bz-berlin.de",
               "www.etailment.de",
               "www.fitbook.de",
-              "www.fleischwirtschaft.de",
               "www.food-service.de",
               "www.fvw.de",
               "www.glamour.de",
@@ -7498,6 +7510,7 @@
               "www.lebensmittelzeitung.net",
               "www.myhomebook.de",
               "www.stylebook.de",
+              "www.tagesschau.de",
               "www.techbook.de",
               "www.textilwirtschaft.de",
               "www.travelbook.de",
@@ -7821,15 +7834,14 @@
               "www.abzonline.de",
               "www.aerzteblatt.de",
               "www.agrarheute.com",
-              "www.agrarzeitung.de",
               "www.ahgz.de",
+              "www.ard.de",
               "www.desired.de",
               "www.esquire.com",
               "www.etailment.de",
               "www.familie.de",
               "www.filmstarts.de",
               "www.fitbook.de",
-              "www.fleischwirtschaft.de",
               "www.food-service.de",
               "www.fvw.de",
               "www.giga.de",
@@ -7849,6 +7861,7 @@
               "www.spielaffe.de",
               "www.stylebook.de",
               "www.svz.de",
+              "www.tagesschau.de",
               "www.techbook.de",
               "www.textilwirtschaft.de",
               "www.travelbook.de",
@@ -8051,15 +8064,16 @@
       "category": "searchEngine",
       "monthlyStats": {
         "2025-08": {
-          "totalWebsites": 60,
+          "totalWebsites": 62,
           "allowedWebsites": 0,
-          "disallowedWebsites": 60,
+          "disallowedWebsites": 62,
           "websites": {
             "allowed": [],
             "disallowed": [
               "www.ad-magazin.de",
               "www.agrarheute.com",
               "www.apotheken-umschau.de",
+              "www.ard.de",
               "www.autobild.de",
               "www.az-online.de",
               "www.bild.de",
@@ -8105,6 +8119,7 @@
               "www.pz-news.de",
               "www.schwaebische-post.de",
               "www.stylebook.de",
+              "www.tagesschau.de",
               "www.techbook.de",
               "www.travelbook.de",
               "www.tz.de",
@@ -8200,13 +8215,14 @@
       "category": "aiScraper",
       "monthlyStats": {
         "2025-08": {
-          "totalWebsites": 20,
+          "totalWebsites": 22,
           "allowedWebsites": 0,
-          "disallowedWebsites": 20,
+          "disallowedWebsites": 22,
           "websites": {
             "allowed": [],
             "disallowed": [
               "www.ad-magazin.de",
+              "www.ard.de",
               "www.bild.de",
               "www.bz-berlin.de",
               "www.channelpartner.de",
@@ -8222,6 +8238,7 @@
               "www.nordbayern.de",
               "www.pcwelt.de",
               "www.stylebook.de",
+              "www.tagesschau.de",
               "www.techbook.de",
               "www.travelbook.de",
               "www.vogue.com",
@@ -8593,14 +8610,16 @@
       "category": "aiScraper",
       "monthlyStats": {
         "2025-08": {
-          "totalWebsites": 3,
+          "totalWebsites": 5,
           "allowedWebsites": 0,
-          "disallowedWebsites": 3,
+          "disallowedWebsites": 5,
           "websites": {
             "allowed": [],
             "disallowed": [
               "www.agrarheute.com",
+              "www.ard.de",
               "www.landundforst.de",
+              "www.tagesschau.de",
               "www.wochenblatt-dlv.de"
             ]
           }
@@ -8696,14 +8715,16 @@
       "category": "other",
       "monthlyStats": {
         "2025-08": {
-          "totalWebsites": 3,
+          "totalWebsites": 5,
           "allowedWebsites": 0,
-          "disallowedWebsites": 3,
+          "disallowedWebsites": 5,
           "websites": {
             "allowed": [],
             "disallowed": [
               "www.agrarheute.com",
+              "www.ard.de",
               "www.landundforst.de",
+              "www.tagesschau.de",
               "www.wochenblatt-dlv.de"
             ]
           }
@@ -8728,13 +8749,14 @@
       "category": "other",
       "monthlyStats": {
         "2025-08": {
-          "totalWebsites": 11,
+          "totalWebsites": 13,
           "allowedWebsites": 0,
-          "disallowedWebsites": 11,
+          "disallowedWebsites": 13,
           "websites": {
             "allowed": [],
             "disallowed": [
               "www.agrarheute.com",
+              "www.ard.de",
               "www.bild.de",
               "www.bz-berlin.de",
               "www.fitbook.de",
@@ -8742,6 +8764,7 @@
               "www.myhomebook.de",
               "www.nordbayern.de",
               "www.stylebook.de",
+              "www.tagesschau.de",
               "www.techbook.de",
               "www.travelbook.de",
               "www.wochenblatt-dlv.de"
@@ -15113,6 +15136,627 @@
       "description": "Der Crawler des SEO-Tools Screaming Frog",
       "website": "https://www.screamingfrog.co.uk/seo-spider/"
     },
+    "Claude-User": {
+      "name": "Claude-User",
+      "category": "aiScraper",
+      "monthlyStats": {
+        "2025-08": {
+          "totalWebsites": 24,
+          "allowedWebsites": 1,
+          "disallowedWebsites": 23,
+          "websites": {
+            "allowed": [
+              "www.immobilienscout24.de"
+            ],
+            "disallowed": [
+              "www.ard.de",
+              "www.bigdata-insider.de",
+              "www.bild.de",
+              "www.bz-berlin.de",
+              "www.cloudcomputing-insider.de",
+              "www.datacenter-insider.de",
+              "www.dev-insider.de",
+              "www.egovernment-computing.de",
+              "www.filmstarts.de",
+              "www.fitbook.de",
+              "www.haufe.de",
+              "www.healthcare-computing.de",
+              "www.ip-insider.de",
+              "www.it-business.de",
+              "www.kgk-rubberpoint.de",
+              "www.myhomebook.de",
+              "www.plastverarbeiter.de",
+              "www.security-insider.de",
+              "www.storage-insider.de",
+              "www.stylebook.de",
+              "www.tagesschau.de",
+              "www.techbook.de",
+              "www.travelbook.de"
+            ]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 22,
+          "allowedWebsites": 1,
+          "disallowedWebsites": 21,
+          "websites": {
+            "allowed": [
+              "www.immobilienscout24.de"
+            ],
+            "disallowed": [
+              "www.bigdata-insider.de",
+              "www.bild.de",
+              "www.bz-berlin.de",
+              "www.cloudcomputing-insider.de",
+              "www.datacenter-insider.de",
+              "www.dev-insider.de",
+              "www.egovernment-computing.de",
+              "www.filmstarts.de",
+              "www.fitbook.de",
+              "www.haufe.de",
+              "www.healthcare-computing.de",
+              "www.ip-insider.de",
+              "www.it-business.de",
+              "www.kgk-rubberpoint.de",
+              "www.myhomebook.de",
+              "www.plastverarbeiter.de",
+              "www.security-insider.de",
+              "www.storage-insider.de",
+              "www.stylebook.de",
+              "www.techbook.de",
+              "www.travelbook.de"
+            ]
+          }
+        }
+      },
+      "owner": "Anthropic",
+      "description": "Bots or agents acting as external agents for Anthropic's Claude AI assistant, potentially browsing or querying web data.",
+      "website": "https://www.anthropic.com"
+    },
+    "Claude-SearchBot": {
+      "name": "Claude-SearchBot",
+      "category": "other",
+      "monthlyStats": {
+        "2025-08": {
+          "totalWebsites": 11,
+          "allowedWebsites": 1,
+          "disallowedWebsites": 10,
+          "websites": {
+            "allowed": [
+              "www.immobilienscout24.de"
+            ],
+            "disallowed": [
+              "www.ard.de",
+              "www.bild.de",
+              "www.bz-berlin.de",
+              "www.filmstarts.de",
+              "www.fitbook.de",
+              "www.myhomebook.de",
+              "www.stylebook.de",
+              "www.tagesschau.de",
+              "www.techbook.de",
+              "www.travelbook.de"
+            ]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 9,
+          "allowedWebsites": 1,
+          "disallowedWebsites": 8,
+          "websites": {
+            "allowed": [
+              "www.immobilienscout24.de"
+            ],
+            "disallowed": [
+              "www.bild.de",
+              "www.bz-berlin.de",
+              "www.filmstarts.de",
+              "www.fitbook.de",
+              "www.myhomebook.de",
+              "www.stylebook.de",
+              "www.techbook.de",
+              "www.travelbook.de"
+            ]
+          }
+        }
+      },
+      "owner": "",
+      "description": "",
+      "website": ""
+    },
+    "TikTokSpider": {
+      "name": "TikTokSpider",
+      "category": "other",
+      "monthlyStats": {
+        "2025-08": {
+          "totalWebsites": 9,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 9,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.ard.de",
+              "www.bild.de",
+              "www.bz-berlin.de",
+              "www.fitbook.de",
+              "www.myhomebook.de",
+              "www.stylebook.de",
+              "www.tagesschau.de",
+              "www.techbook.de",
+              "www.travelbook.de"
+            ]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 7,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 7,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.bild.de",
+              "www.bz-berlin.de",
+              "www.fitbook.de",
+              "www.myhomebook.de",
+              "www.stylebook.de",
+              "www.techbook.de",
+              "www.travelbook.de"
+            ]
+          }
+        }
+      },
+      "owner": "",
+      "description": "",
+      "website": ""
+    },
+    "PetalBot": {
+      "name": "PetalBot",
+      "category": "searchEngine",
+      "monthlyStats": {
+        "2025-08": {
+          "totalWebsites": 31,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 31,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.ard.de",
+              "www.bau-welt.de",
+              "www.bild.de",
+              "www.bz-berlin.de",
+              "www.competitionline.com",
+              "www.competitionline.de",
+              "www.esslinger-zeitung.de",
+              "www.feierabend.de",
+              "www.fitbook.de",
+              "www.frankenpost.de",
+              "www.freenet.de",
+              "www.gameswelt.de",
+              "www.grin.com",
+              "www.hamburg.de",
+              "www.insuedthueringen.de",
+              "www.krzbb.de",
+              "www.kunststoffweb.de",
+              "www.kurier.de",
+              "www.mtv.de",
+              "www.myhomebook.de",
+              "www.nordbayerischer-kurier.de",
+              "www.np-coburg.de",
+              "www.schwarzwaelder-bote.de",
+              "www.southpark.de",
+              "www.stuttgarter-zeitung.de",
+              "www.stylebook.de",
+              "www.tagesschau.de",
+              "www.techbook.de",
+              "www.travelbook.de",
+              "www.vorsprung-online.de",
+              "www.weltfussball.de"
+            ]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 29,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 29,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.bau-welt.de",
+              "www.bild.de",
+              "www.bz-berlin.de",
+              "www.competitionline.com",
+              "www.competitionline.de",
+              "www.esslinger-zeitung.de",
+              "www.feierabend.de",
+              "www.fitbook.de",
+              "www.frankenpost.de",
+              "www.freenet.de",
+              "www.gameswelt.de",
+              "www.grin.com",
+              "www.hamburg.de",
+              "www.insuedthueringen.de",
+              "www.krzbb.de",
+              "www.kunststoffweb.de",
+              "www.kurier.de",
+              "www.mtv.de",
+              "www.myhomebook.de",
+              "www.nordbayerischer-kurier.de",
+              "www.np-coburg.de",
+              "www.schwarzwaelder-bote.de",
+              "www.southpark.de",
+              "www.stuttgarter-zeitung.de",
+              "www.stylebook.de",
+              "www.techbook.de",
+              "www.travelbook.de",
+              "www.vorsprung-online.de",
+              "www.weltfussball.de"
+            ]
+          }
+        }
+      },
+      "owner": "Huawei",
+      "description": "Der Crawler von Huawei für Petal Search",
+      "website": "https://aspiegel.com/petalbot"
+    },
+    "PanguBot": {
+      "name": "PanguBot",
+      "category": "other",
+      "monthlyStats": {
+        "2025-08": {
+          "totalWebsites": 15,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 15,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.ard.de",
+              "www.bild.de",
+              "www.bz-berlin.de",
+              "www.channelpartner.de",
+              "www.cio.de",
+              "www.computerwoche.de",
+              "www.fitbook.de",
+              "www.macwelt.de",
+              "www.myhomebook.de",
+              "www.nordbayern.de",
+              "www.pcwelt.de",
+              "www.stylebook.de",
+              "www.tagesschau.de",
+              "www.techbook.de",
+              "www.travelbook.de"
+            ]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 13,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 13,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.bild.de",
+              "www.bz-berlin.de",
+              "www.channelpartner.de",
+              "www.cio.de",
+              "www.computerwoche.de",
+              "www.fitbook.de",
+              "www.macwelt.de",
+              "www.myhomebook.de",
+              "www.nordbayern.de",
+              "www.pcwelt.de",
+              "www.stylebook.de",
+              "www.techbook.de",
+              "www.travelbook.de"
+            ]
+          }
+        }
+      },
+      "owner": "Unknown",
+      "description": "Web crawler possibly related to research or analytics; exact scope unclear.",
+      "website": ""
+    },
+    "Meta-ExternalFetcher": {
+      "name": "Meta-ExternalFetcher",
+      "category": "other",
+      "monthlyStats": {
+        "2025-08": {
+          "totalWebsites": 14,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 14,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.ard.de",
+              "www.bild.de",
+              "www.bz-berlin.de",
+              "www.channelpartner.de",
+              "www.cio.de",
+              "www.computerwoche.de",
+              "www.fitbook.de",
+              "www.macwelt.de",
+              "www.myhomebook.de",
+              "www.pcwelt.de",
+              "www.stylebook.de",
+              "www.tagesschau.de",
+              "www.techbook.de",
+              "www.travelbook.de"
+            ]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 12,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 12,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.bild.de",
+              "www.bz-berlin.de",
+              "www.channelpartner.de",
+              "www.cio.de",
+              "www.computerwoche.de",
+              "www.fitbook.de",
+              "www.macwelt.de",
+              "www.myhomebook.de",
+              "www.pcwelt.de",
+              "www.stylebook.de",
+              "www.techbook.de",
+              "www.travelbook.de"
+            ]
+          }
+        }
+      },
+      "owner": "Meta Platforms, Inc.",
+      "description": "Variant of Meta's external data fetching bots for retrieving and previewing shared web links or metadata.",
+      "website": ""
+    },
+    "MistralAI-User": {
+      "name": "MistralAI-User",
+      "category": "other",
+      "monthlyStats": {
+        "2025-08": {
+          "totalWebsites": 9,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 9,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.ard.de",
+              "www.bild.de",
+              "www.bz-berlin.de",
+              "www.fitbook.de",
+              "www.myhomebook.de",
+              "www.stylebook.de",
+              "www.tagesschau.de",
+              "www.techbook.de",
+              "www.travelbook.de"
+            ]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 7,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 7,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.bild.de",
+              "www.bz-berlin.de",
+              "www.fitbook.de",
+              "www.myhomebook.de",
+              "www.stylebook.de",
+              "www.techbook.de",
+              "www.travelbook.de"
+            ]
+          }
+        }
+      },
+      "owner": "",
+      "description": "",
+      "website": ""
+    },
+    "ChatGPT-User/2.0": {
+      "name": "ChatGPT-User/2.0",
+      "category": "aiScraper",
+      "monthlyStats": {
+        "2025-08": {
+          "totalWebsites": 2,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 2,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.ard.de",
+              "www.tagesschau.de"
+            ]
+          }
+        }
+      },
+      "owner": "OpenAI",
+      "description": "Automates user-like web browsing to gather data for AI model training, research, and enhancement of ChatGPT's capabilities.",
+      "website": "https://www.openai.com"
+    },
+    "Perplexity-User": {
+      "name": "Perplexity-User",
+      "category": "aiScraper",
+      "monthlyStats": {
+        "2025-08": {
+          "totalWebsites": 15,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 15,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.ard.de",
+              "www.bild.de",
+              "www.bz-berlin.de",
+              "www.filmstarts.de",
+              "www.fitbook.de",
+              "www.goal.com",
+              "www.kicker.de",
+              "www.myhomebook.de",
+              "www.nordbayern.de",
+              "www.spox.com",
+              "www.stylebook.de",
+              "www.tagesschau.de",
+              "www.techbook.de",
+              "www.travelbook.de",
+              "www.wz.de"
+            ]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 13,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 13,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.bild.de",
+              "www.bz-berlin.de",
+              "www.filmstarts.de",
+              "www.fitbook.de",
+              "www.goal.com",
+              "www.kicker.de",
+              "www.myhomebook.de",
+              "www.nordbayern.de",
+              "www.spox.com",
+              "www.stylebook.de",
+              "www.techbook.de",
+              "www.travelbook.de",
+              "www.wz.de"
+            ]
+          }
+        }
+      },
+      "owner": "Perplexity AI",
+      "description": "User or agent representing queries from Perplexity's search and answer platform.",
+      "website": "https://perplexity.ai"
+    },
+    "Webzio-Extended": {
+      "name": "Webzio-Extended",
+      "category": "other",
+      "monthlyStats": {
+        "2025-08": {
+          "totalWebsites": 15,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 15,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.ard.de",
+              "www.bild.de",
+              "www.bz-berlin.de",
+              "www.channelpartner.de",
+              "www.cio.de",
+              "www.computerwoche.de",
+              "www.fitbook.de",
+              "www.macwelt.de",
+              "www.myhomebook.de",
+              "www.nordbayern.de",
+              "www.pcwelt.de",
+              "www.stylebook.de",
+              "www.tagesschau.de",
+              "www.techbook.de",
+              "www.travelbook.de"
+            ]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 13,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 13,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.bild.de",
+              "www.bz-berlin.de",
+              "www.channelpartner.de",
+              "www.cio.de",
+              "www.computerwoche.de",
+              "www.fitbook.de",
+              "www.macwelt.de",
+              "www.myhomebook.de",
+              "www.nordbayern.de",
+              "www.pcwelt.de",
+              "www.stylebook.de",
+              "www.techbook.de",
+              "www.travelbook.de"
+            ]
+          }
+        }
+      },
+      "owner": "Webzio",
+      "description": "Presumed crawler or data collection agent from Webzio, for web indexing or AI research.",
+      "website": ""
+    },
+    "Scrapy": {
+      "name": "Scrapy",
+      "category": "other",
+      "monthlyStats": {
+        "2025-08": {
+          "totalWebsites": 20,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 20,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.ard.de",
+              "www.bergfex.at",
+              "www.bergfex.de",
+              "www.bild.de",
+              "www.bz-berlin.de",
+              "www.channelpartner.de",
+              "www.cio.de",
+              "www.computerwoche.de",
+              "www.fitbook.de",
+              "www.macwelt.de",
+              "www.myhomebook.de",
+              "www.nordbayern.de",
+              "www.outdooractive.com",
+              "www.pcwelt.de",
+              "www.stylebook.de",
+              "www.tagesschau.de",
+              "www.techbook.de",
+              "www.travelbook.de",
+              "www.weather.com",
+              "www.wz.de"
+            ]
+          }
+        },
+        "2025-07": {
+          "totalWebsites": 18,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 18,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.bergfex.at",
+              "www.bergfex.de",
+              "www.bild.de",
+              "www.bz-berlin.de",
+              "www.channelpartner.de",
+              "www.cio.de",
+              "www.computerwoche.de",
+              "www.fitbook.de",
+              "www.macwelt.de",
+              "www.myhomebook.de",
+              "www.nordbayern.de",
+              "www.outdooractive.com",
+              "www.pcwelt.de",
+              "www.stylebook.de",
+              "www.techbook.de",
+              "www.travelbook.de",
+              "www.weather.com",
+              "www.wz.de"
+            ]
+          }
+        }
+      },
+      "owner": "Scrapy Project/Scrapinghub",
+      "description": "Open-source framework and bot for building custom web scrapers and spiders in Python.",
+      "website": "https://scrapy.org"
+    },
     "Semrushbot-SI": {
       "name": "Semrushbot-SI",
       "category": "seo",
@@ -16556,93 +17200,6 @@
       "owner": "",
       "description": "",
       "website": ""
-    },
-    "PetalBot": {
-      "name": "PetalBot",
-      "category": "searchEngine",
-      "monthlyStats": {
-        "2025-08": {
-          "totalWebsites": 29,
-          "allowedWebsites": 0,
-          "disallowedWebsites": 29,
-          "websites": {
-            "allowed": [],
-            "disallowed": [
-              "www.bau-welt.de",
-              "www.bild.de",
-              "www.bz-berlin.de",
-              "www.competitionline.com",
-              "www.competitionline.de",
-              "www.esslinger-zeitung.de",
-              "www.feierabend.de",
-              "www.fitbook.de",
-              "www.frankenpost.de",
-              "www.freenet.de",
-              "www.gameswelt.de",
-              "www.grin.com",
-              "www.hamburg.de",
-              "www.insuedthueringen.de",
-              "www.krzbb.de",
-              "www.kunststoffweb.de",
-              "www.kurier.de",
-              "www.mtv.de",
-              "www.myhomebook.de",
-              "www.nordbayerischer-kurier.de",
-              "www.np-coburg.de",
-              "www.schwarzwaelder-bote.de",
-              "www.southpark.de",
-              "www.stuttgarter-zeitung.de",
-              "www.stylebook.de",
-              "www.techbook.de",
-              "www.travelbook.de",
-              "www.vorsprung-online.de",
-              "www.weltfussball.de"
-            ]
-          }
-        },
-        "2025-07": {
-          "totalWebsites": 29,
-          "allowedWebsites": 0,
-          "disallowedWebsites": 29,
-          "websites": {
-            "allowed": [],
-            "disallowed": [
-              "www.bau-welt.de",
-              "www.bild.de",
-              "www.bz-berlin.de",
-              "www.competitionline.com",
-              "www.competitionline.de",
-              "www.esslinger-zeitung.de",
-              "www.feierabend.de",
-              "www.fitbook.de",
-              "www.frankenpost.de",
-              "www.freenet.de",
-              "www.gameswelt.de",
-              "www.grin.com",
-              "www.hamburg.de",
-              "www.insuedthueringen.de",
-              "www.krzbb.de",
-              "www.kunststoffweb.de",
-              "www.kurier.de",
-              "www.mtv.de",
-              "www.myhomebook.de",
-              "www.nordbayerischer-kurier.de",
-              "www.np-coburg.de",
-              "www.schwarzwaelder-bote.de",
-              "www.southpark.de",
-              "www.stuttgarter-zeitung.de",
-              "www.stylebook.de",
-              "www.techbook.de",
-              "www.travelbook.de",
-              "www.vorsprung-online.de",
-              "www.weltfussball.de"
-            ]
-          }
-        }
-      },
-      "owner": "Huawei",
-      "description": "Der Crawler von Huawei für Petal Search",
-      "website": "https://aspiegel.com/petalbot"
     },
     "YandexImages": {
       "name": "YandexImages",
@@ -20460,71 +21017,6 @@
         }
       }
     },
-    "Scrapy": {
-      "name": "Scrapy",
-      "category": "other",
-      "monthlyStats": {
-        "2025-08": {
-          "totalWebsites": 18,
-          "allowedWebsites": 0,
-          "disallowedWebsites": 18,
-          "websites": {
-            "allowed": [],
-            "disallowed": [
-              "www.bergfex.at",
-              "www.bergfex.de",
-              "www.bild.de",
-              "www.bz-berlin.de",
-              "www.channelpartner.de",
-              "www.cio.de",
-              "www.computerwoche.de",
-              "www.fitbook.de",
-              "www.macwelt.de",
-              "www.myhomebook.de",
-              "www.nordbayern.de",
-              "www.outdooractive.com",
-              "www.pcwelt.de",
-              "www.stylebook.de",
-              "www.techbook.de",
-              "www.travelbook.de",
-              "www.weather.com",
-              "www.wz.de"
-            ]
-          }
-        },
-        "2025-07": {
-          "totalWebsites": 18,
-          "allowedWebsites": 0,
-          "disallowedWebsites": 18,
-          "websites": {
-            "allowed": [],
-            "disallowed": [
-              "www.bergfex.at",
-              "www.bergfex.de",
-              "www.bild.de",
-              "www.bz-berlin.de",
-              "www.channelpartner.de",
-              "www.cio.de",
-              "www.computerwoche.de",
-              "www.fitbook.de",
-              "www.macwelt.de",
-              "www.myhomebook.de",
-              "www.nordbayern.de",
-              "www.outdooractive.com",
-              "www.pcwelt.de",
-              "www.stylebook.de",
-              "www.techbook.de",
-              "www.travelbook.de",
-              "www.weather.com",
-              "www.wz.de"
-            ]
-          }
-        }
-      },
-      "owner": "Scrapy Project/Scrapinghub",
-      "description": "Open-source framework and bot for building custom web scrapers and spiders in Python.",
-      "website": "https://scrapy.org"
-    },
     "test Crawl": {
       "name": "test Crawl",
       "category": "other",
@@ -21046,81 +21538,6 @@
       "owner": "Trendiction (Meltwater)",
       "description": "Crawls media and web content for social listening, trend analysis, and media monitoring.",
       "website": "https://meltwater.com"
-    },
-    "Claude-User": {
-      "name": "Claude-User",
-      "category": "aiScraper",
-      "monthlyStats": {
-        "2025-08": {
-          "totalWebsites": 22,
-          "allowedWebsites": 1,
-          "disallowedWebsites": 21,
-          "websites": {
-            "allowed": [
-              "www.immobilienscout24.de"
-            ],
-            "disallowed": [
-              "www.bigdata-insider.de",
-              "www.bild.de",
-              "www.bz-berlin.de",
-              "www.cloudcomputing-insider.de",
-              "www.datacenter-insider.de",
-              "www.dev-insider.de",
-              "www.egovernment-computing.de",
-              "www.filmstarts.de",
-              "www.fitbook.de",
-              "www.haufe.de",
-              "www.healthcare-computing.de",
-              "www.ip-insider.de",
-              "www.it-business.de",
-              "www.kgk-rubberpoint.de",
-              "www.myhomebook.de",
-              "www.plastverarbeiter.de",
-              "www.security-insider.de",
-              "www.storage-insider.de",
-              "www.stylebook.de",
-              "www.techbook.de",
-              "www.travelbook.de"
-            ]
-          }
-        },
-        "2025-07": {
-          "totalWebsites": 22,
-          "allowedWebsites": 1,
-          "disallowedWebsites": 21,
-          "websites": {
-            "allowed": [
-              "www.immobilienscout24.de"
-            ],
-            "disallowed": [
-              "www.bigdata-insider.de",
-              "www.bild.de",
-              "www.bz-berlin.de",
-              "www.cloudcomputing-insider.de",
-              "www.datacenter-insider.de",
-              "www.dev-insider.de",
-              "www.egovernment-computing.de",
-              "www.filmstarts.de",
-              "www.fitbook.de",
-              "www.haufe.de",
-              "www.healthcare-computing.de",
-              "www.ip-insider.de",
-              "www.it-business.de",
-              "www.kgk-rubberpoint.de",
-              "www.myhomebook.de",
-              "www.plastverarbeiter.de",
-              "www.security-insider.de",
-              "www.storage-insider.de",
-              "www.stylebook.de",
-              "www.techbook.de",
-              "www.travelbook.de"
-            ]
-          }
-        }
-      },
-      "owner": "Anthropic",
-      "description": "Bots or agents acting as external agents for Anthropic's Claude AI assistant, potentially browsing or querying web data.",
-      "website": "https://www.anthropic.com"
     },
     "DeepSeek": {
       "name": "DeepSeek",
@@ -21718,55 +22135,6 @@
               "www.fitbook.de",
               "www.myhomebook.de",
               "www.nordbayern.de",
-              "www.stylebook.de",
-              "www.techbook.de",
-              "www.travelbook.de"
-            ]
-          }
-        }
-      },
-      "owner": "",
-      "description": "",
-      "website": ""
-    },
-    "Claude-SearchBot": {
-      "name": "Claude-SearchBot",
-      "category": "other",
-      "monthlyStats": {
-        "2025-08": {
-          "totalWebsites": 9,
-          "allowedWebsites": 1,
-          "disallowedWebsites": 8,
-          "websites": {
-            "allowed": [
-              "www.immobilienscout24.de"
-            ],
-            "disallowed": [
-              "www.bild.de",
-              "www.bz-berlin.de",
-              "www.filmstarts.de",
-              "www.fitbook.de",
-              "www.myhomebook.de",
-              "www.stylebook.de",
-              "www.techbook.de",
-              "www.travelbook.de"
-            ]
-          }
-        },
-        "2025-07": {
-          "totalWebsites": 9,
-          "allowedWebsites": 1,
-          "disallowedWebsites": 8,
-          "websites": {
-            "allowed": [
-              "www.immobilienscout24.de"
-            ],
-            "disallowed": [
-              "www.bild.de",
-              "www.bz-berlin.de",
-              "www.filmstarts.de",
-              "www.fitbook.de",
-              "www.myhomebook.de",
               "www.stylebook.de",
               "www.techbook.de",
               "www.travelbook.de"
@@ -22583,102 +22951,6 @@
       "description": "Ambiguous; likely a web crawler or site auditor related to web measurement or security.",
       "website": ""
     },
-    "Meta-ExternalFetcher": {
-      "name": "Meta-ExternalFetcher",
-      "category": "other",
-      "monthlyStats": {
-        "2025-08": {
-          "totalWebsites": 12,
-          "allowedWebsites": 0,
-          "disallowedWebsites": 12,
-          "websites": {
-            "allowed": [],
-            "disallowed": [
-              "www.bild.de",
-              "www.bz-berlin.de",
-              "www.channelpartner.de",
-              "www.cio.de",
-              "www.computerwoche.de",
-              "www.fitbook.de",
-              "www.macwelt.de",
-              "www.myhomebook.de",
-              "www.pcwelt.de",
-              "www.stylebook.de",
-              "www.techbook.de",
-              "www.travelbook.de"
-            ]
-          }
-        },
-        "2025-07": {
-          "totalWebsites": 12,
-          "allowedWebsites": 0,
-          "disallowedWebsites": 12,
-          "websites": {
-            "allowed": [],
-            "disallowed": [
-              "www.bild.de",
-              "www.bz-berlin.de",
-              "www.channelpartner.de",
-              "www.cio.de",
-              "www.computerwoche.de",
-              "www.fitbook.de",
-              "www.macwelt.de",
-              "www.myhomebook.de",
-              "www.pcwelt.de",
-              "www.stylebook.de",
-              "www.techbook.de",
-              "www.travelbook.de"
-            ]
-          }
-        }
-      },
-      "owner": "Meta Platforms, Inc.",
-      "description": "Variant of Meta's external data fetching bots for retrieving and previewing shared web links or metadata.",
-      "website": ""
-    },
-    "MistralAI-User": {
-      "name": "MistralAI-User",
-      "category": "other",
-      "monthlyStats": {
-        "2025-08": {
-          "totalWebsites": 7,
-          "allowedWebsites": 0,
-          "disallowedWebsites": 7,
-          "websites": {
-            "allowed": [],
-            "disallowed": [
-              "www.bild.de",
-              "www.bz-berlin.de",
-              "www.fitbook.de",
-              "www.myhomebook.de",
-              "www.stylebook.de",
-              "www.techbook.de",
-              "www.travelbook.de"
-            ]
-          }
-        },
-        "2025-07": {
-          "totalWebsites": 7,
-          "allowedWebsites": 0,
-          "disallowedWebsites": 7,
-          "websites": {
-            "allowed": [],
-            "disallowed": [
-              "www.bild.de",
-              "www.bz-berlin.de",
-              "www.fitbook.de",
-              "www.myhomebook.de",
-              "www.stylebook.de",
-              "www.techbook.de",
-              "www.travelbook.de"
-            ]
-          }
-        }
-      },
-      "owner": "",
-      "description": "",
-      "website": ""
-    },
     "MistralAI-User/1.0": {
       "name": "MistralAI-User/1.0",
       "category": "other",
@@ -22896,61 +23168,6 @@
       "description": "",
       "website": ""
     },
-    "PanguBot": {
-      "name": "PanguBot",
-      "category": "other",
-      "monthlyStats": {
-        "2025-08": {
-          "totalWebsites": 13,
-          "allowedWebsites": 0,
-          "disallowedWebsites": 13,
-          "websites": {
-            "allowed": [],
-            "disallowed": [
-              "www.bild.de",
-              "www.bz-berlin.de",
-              "www.channelpartner.de",
-              "www.cio.de",
-              "www.computerwoche.de",
-              "www.fitbook.de",
-              "www.macwelt.de",
-              "www.myhomebook.de",
-              "www.nordbayern.de",
-              "www.pcwelt.de",
-              "www.stylebook.de",
-              "www.techbook.de",
-              "www.travelbook.de"
-            ]
-          }
-        },
-        "2025-07": {
-          "totalWebsites": 13,
-          "allowedWebsites": 0,
-          "disallowedWebsites": 13,
-          "websites": {
-            "allowed": [],
-            "disallowed": [
-              "www.bild.de",
-              "www.bz-berlin.de",
-              "www.channelpartner.de",
-              "www.cio.de",
-              "www.computerwoche.de",
-              "www.fitbook.de",
-              "www.macwelt.de",
-              "www.myhomebook.de",
-              "www.nordbayern.de",
-              "www.pcwelt.de",
-              "www.stylebook.de",
-              "www.techbook.de",
-              "www.travelbook.de"
-            ]
-          }
-        }
-      },
-      "owner": "Unknown",
-      "description": "Web crawler possibly related to research or analytics; exact scope unclear.",
-      "website": ""
-    },
     "Panscient": {
       "name": "Panscient",
       "category": "other",
@@ -22995,61 +23212,6 @@
       "owner": "",
       "description": "",
       "website": ""
-    },
-    "Perplexity-User": {
-      "name": "Perplexity-User",
-      "category": "aiScraper",
-      "monthlyStats": {
-        "2025-08": {
-          "totalWebsites": 13,
-          "allowedWebsites": 0,
-          "disallowedWebsites": 13,
-          "websites": {
-            "allowed": [],
-            "disallowed": [
-              "www.bild.de",
-              "www.bz-berlin.de",
-              "www.filmstarts.de",
-              "www.fitbook.de",
-              "www.goal.com",
-              "www.kicker.de",
-              "www.myhomebook.de",
-              "www.nordbayern.de",
-              "www.spox.com",
-              "www.stylebook.de",
-              "www.techbook.de",
-              "www.travelbook.de",
-              "www.wz.de"
-            ]
-          }
-        },
-        "2025-07": {
-          "totalWebsites": 13,
-          "allowedWebsites": 0,
-          "disallowedWebsites": 13,
-          "websites": {
-            "allowed": [],
-            "disallowed": [
-              "www.bild.de",
-              "www.bz-berlin.de",
-              "www.filmstarts.de",
-              "www.fitbook.de",
-              "www.goal.com",
-              "www.kicker.de",
-              "www.myhomebook.de",
-              "www.nordbayern.de",
-              "www.spox.com",
-              "www.stylebook.de",
-              "www.techbook.de",
-              "www.travelbook.de",
-              "www.wz.de"
-            ]
-          }
-        }
-      },
-      "owner": "Perplexity AI",
-      "description": "User or agent representing queries from Perplexity's search and answer platform.",
-      "website": "https://perplexity.ai"
     },
     "PhindBot": {
       "name": "PhindBot",
@@ -23530,49 +23692,6 @@
       "description": "",
       "website": ""
     },
-    "TikTokSpider": {
-      "name": "TikTokSpider",
-      "category": "other",
-      "monthlyStats": {
-        "2025-08": {
-          "totalWebsites": 7,
-          "allowedWebsites": 0,
-          "disallowedWebsites": 7,
-          "websites": {
-            "allowed": [],
-            "disallowed": [
-              "www.bild.de",
-              "www.bz-berlin.de",
-              "www.fitbook.de",
-              "www.myhomebook.de",
-              "www.stylebook.de",
-              "www.techbook.de",
-              "www.travelbook.de"
-            ]
-          }
-        },
-        "2025-07": {
-          "totalWebsites": 7,
-          "allowedWebsites": 0,
-          "disallowedWebsites": 7,
-          "websites": {
-            "allowed": [],
-            "disallowed": [
-              "www.bild.de",
-              "www.bz-berlin.de",
-              "www.fitbook.de",
-              "www.myhomebook.de",
-              "www.stylebook.de",
-              "www.techbook.de",
-              "www.travelbook.de"
-            ]
-          }
-        }
-      },
-      "owner": "",
-      "description": "",
-      "website": ""
-    },
     "WARDBot": {
       "name": "WARDBot",
       "category": "other",
@@ -23614,61 +23733,6 @@
       },
       "owner": "",
       "description": "",
-      "website": ""
-    },
-    "Webzio-Extended": {
-      "name": "Webzio-Extended",
-      "category": "other",
-      "monthlyStats": {
-        "2025-08": {
-          "totalWebsites": 13,
-          "allowedWebsites": 0,
-          "disallowedWebsites": 13,
-          "websites": {
-            "allowed": [],
-            "disallowed": [
-              "www.bild.de",
-              "www.bz-berlin.de",
-              "www.channelpartner.de",
-              "www.cio.de",
-              "www.computerwoche.de",
-              "www.fitbook.de",
-              "www.macwelt.de",
-              "www.myhomebook.de",
-              "www.nordbayern.de",
-              "www.pcwelt.de",
-              "www.stylebook.de",
-              "www.techbook.de",
-              "www.travelbook.de"
-            ]
-          }
-        },
-        "2025-07": {
-          "totalWebsites": 13,
-          "allowedWebsites": 0,
-          "disallowedWebsites": 13,
-          "websites": {
-            "allowed": [],
-            "disallowed": [
-              "www.bild.de",
-              "www.bz-berlin.de",
-              "www.channelpartner.de",
-              "www.cio.de",
-              "www.computerwoche.de",
-              "www.fitbook.de",
-              "www.macwelt.de",
-              "www.myhomebook.de",
-              "www.nordbayern.de",
-              "www.pcwelt.de",
-              "www.stylebook.de",
-              "www.techbook.de",
-              "www.travelbook.de"
-            ]
-          }
-        }
-      },
-      "owner": "Webzio",
-      "description": "Presumed crawler or data collection agent from Webzio, for web indexing or AI research.",
       "website": ""
     },
     "wpbot": {
@@ -44143,6 +44207,142 @@
         }
       }
     },
+    "webzip": {
+      "name": "webzip",
+      "category": "other",
+      "monthlyStats": {
+        "2025-08": {
+          "totalWebsites": 1,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 1,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.tagesschau.de"
+            ]
+          }
+        }
+      }
+    },
+    "webwhacker": {
+      "name": "webwhacker",
+      "category": "other",
+      "monthlyStats": {
+        "2025-08": {
+          "totalWebsites": 1,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 1,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.tagesschau.de"
+            ]
+          }
+        }
+      }
+    },
+    "websauger": {
+      "name": "websauger",
+      "category": "other",
+      "monthlyStats": {
+        "2025-08": {
+          "totalWebsites": 1,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 1,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.tagesschau.de"
+            ]
+          }
+        }
+      }
+    },
+    "webcapture": {
+      "name": "webcapture",
+      "category": "other",
+      "monthlyStats": {
+        "2025-08": {
+          "totalWebsites": 1,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 1,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.tagesschau.de"
+            ]
+          }
+        }
+      }
+    },
+    "teleport": {
+      "name": "teleport",
+      "category": "other",
+      "monthlyStats": {
+        "2025-08": {
+          "totalWebsites": 1,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 1,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.tagesschau.de"
+            ]
+          }
+        }
+      }
+    },
+    "sitesnagger": {
+      "name": "sitesnagger",
+      "category": "other",
+      "monthlyStats": {
+        "2025-08": {
+          "totalWebsites": 1,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 1,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.tagesschau.de"
+            ]
+          }
+        }
+      }
+    },
+    "net attache": {
+      "name": "net attache",
+      "category": "other",
+      "monthlyStats": {
+        "2025-08": {
+          "totalWebsites": 1,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 1,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.tagesschau.de"
+            ]
+          }
+        }
+      }
+    },
+    "httrack": {
+      "name": "httrack",
+      "category": "other",
+      "monthlyStats": {
+        "2025-08": {
+          "totalWebsites": 1,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 1,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.tagesschau.de"
+            ]
+          }
+        }
+      }
+    },
     "SEBot-WA": {
       "name": "SEBot-WA",
       "category": "other",
@@ -45188,6 +45388,23 @@
             "allowed": [],
             "disallowed": [
               "www.wuv.de"
+            ]
+          }
+        }
+      }
+    },
+    "QuerySeekerSpider": {
+      "name": "QuerySeekerSpider",
+      "category": "other",
+      "monthlyStats": {
+        "2025-08": {
+          "totalWebsites": 1,
+          "allowedWebsites": 0,
+          "disallowedWebsites": 1,
+          "websites": {
+            "allowed": [],
+            "disallowed": [
+              "www.zdf.de"
             ]
           }
         }

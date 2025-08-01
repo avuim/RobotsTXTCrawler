@@ -74,20 +74,20 @@
   },
   {
     "month": "2025-08",
-    "totalBots": 1187,
-    "totalWebsites": 655,
+    "totalBots": 1197,
+    "totalWebsites": 656,
     "botCategories": {
-      "aiScraper": 31,
+      "aiScraper": 32,
       "searchEngine": 54,
-      "other": 1058,
+      "other": 1067,
       "seo": 44
     },
     "topBots": [
       {
         "name": "*",
         "websites": 845,
-        "allowed": 262,
-        "disallowed": 583
+        "allowed": 263,
+        "disallowed": 582
       },
       {
         "name": "GPTBot",
@@ -121,9 +121,9 @@
       },
       {
         "name": "anthropic-ai",
-        "websites": 104,
+        "websites": 106,
         "allowed": 5,
-        "disallowed": 99
+        "disallowed": 101
       },
       {
         "name": "Bytespider",
@@ -138,10 +138,10 @@
         "disallowed": 89
       },
       {
-        "name": "Claude-Web",
-        "websites": 79,
-        "allowed": 2,
-        "disallowed": 77
+        "name": "cohere-ai",
+        "websites": 80,
+        "allowed": 0,
+        "disallowed": 80
       }
     ]
   }
