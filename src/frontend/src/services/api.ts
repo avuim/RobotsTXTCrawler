@@ -11,6 +11,13 @@ const isExplicitStatic = process.env.REACT_APP_API_MODE === 'static';
 const isStaticMode = isGitHubPages || isExplicitStatic;
 const API_BASE_URL = isStaticMode ? '/RobotsTXTCrawler/api' : 'http://localhost:3001/api';
 
+console.log('🔍 DEBUG API Configuration:');
+console.log('  - window.location.hostname:', window.location.hostname);
+console.log('  - isGitHubPages:', isGitHubPages);
+console.log('  - process.env.REACT_APP_API_MODE:', process.env.REACT_APP_API_MODE);
+console.log('  - isExplicitStatic:', isExplicitStatic);
+console.log('  - isStaticMode:', isStaticMode);
+console.log('  - API_BASE_URL:', API_BASE_URL);
 console.log('API Mode:', isStaticMode ? 'Static (GitHub Pages)' : 'Live (Local Development)');
 console.log('API Base URL:', API_BASE_URL);
 console.log('Environment API Base URL:', process.env.REACT_APP_API_BASE_URL);

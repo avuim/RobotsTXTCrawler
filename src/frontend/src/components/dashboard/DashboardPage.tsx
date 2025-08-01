@@ -71,8 +71,10 @@ const StatusDot = styled.div<{ status: 'running' | 'stopped' }>`
 const DashboardPage: React.FC = () => {
   const { data: summary, loading, error } = useApi(() => API.getSummary());
 
-  // Bestimme API-Modus
-  const isStaticMode = process.env.REACT_APP_API_BASE_URL === '/RobotsTXTCrawler/api';
+  // Bestimme API-Modus (gleiche Logik wie in api.ts)
+  const isGitHubPages = window.location.hostname === 'avuim.github.io';
+  const isExplicitStatic = process.env.REACT_APP_API_MODE === 'static';
+  const isStaticMode = isGitHubPages || isExplicitStatic;
 
   if (loading) {
     return (
