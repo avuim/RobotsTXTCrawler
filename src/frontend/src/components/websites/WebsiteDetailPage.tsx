@@ -124,7 +124,7 @@ const WebsiteDetailPage: React.FC = () => {
       key: 'name',
       header: 'Bot Name',
       render: (entry) => (
-        <TableLink href={`/bots/${encodeURIComponent(entry.name)}`}>
+        <TableLink to={`/bots/${encodeURIComponent(entry.name)}`}>
           {formatBotName(entry.name)}
         </TableLink>
       ),

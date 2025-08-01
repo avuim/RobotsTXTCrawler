@@ -162,7 +162,7 @@ const BotDetailPage: React.FC = () => {
       key: 'domain',
       header: 'Website',
       render: (entry) => (
-        <TableLink href={`/websites/${encodeURIComponent(entry.domain)}`}>
+        <TableLink to={`/websites/${encodeURIComponent(entry.domain)}`}>
           {entry.domain}
         </TableLink>
       ),

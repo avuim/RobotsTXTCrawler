@@ -80,7 +80,7 @@ const TopBotsList: React.FC<TopBotsListProps> = ({ bots }) => {
       key: 'name',
       header: 'Bot Name',
       render: (bot) => (
-        <TableLink href={`/bots/${encodeURIComponent(bot.name)}`}>
+        <TableLink to={`/bots/${encodeURIComponent(bot.name)}`}>
           {bot.name}
         </TableLink>
       ),

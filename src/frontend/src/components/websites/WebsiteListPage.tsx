@@ -78,7 +78,7 @@ const WebsiteListPage: React.FC = () => {
       key: 'domain',
       header: 'Domain',
       render: (website) => (
-        <TableLink href={`/websites/${encodeURIComponent(website.domain)}`}>
+        <TableLink to={`/websites/${encodeURIComponent(website.domain)}`}>
           {website.domain}
         </TableLink>
       ),

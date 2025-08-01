@@ -104,7 +104,7 @@ const BotListPage: React.FC = () => {
       header: 'Bot Name',
       width: '40%',
       render: (bot) => (
-        <TableLink href={`/bots/${encodeURIComponent(bot.name)}`}>
+        <TableLink to={`/bots/${encodeURIComponent(bot.name)}`}>
           {bot.name}
         </TableLink>
       ),

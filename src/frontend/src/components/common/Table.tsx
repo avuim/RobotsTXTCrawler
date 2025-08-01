@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const TableContainer = styled.div`
@@ -47,7 +48,7 @@ const TableCell = styled.td<{ align?: 'left' | 'center' | 'right' }>`
   color: ${({ theme }) => theme.colors.text};
 `;
 
-const TableLink = styled.a`
+const TableLink = styled(Link)`
   color: ${({ theme }) => theme.colors.secondary};
   text-decoration: none;
   transition: color ${({ theme }) => theme.transitions.fast};
