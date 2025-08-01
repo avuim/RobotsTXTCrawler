@@ -233,6 +233,21 @@ npm start
 
 Das Frontend ist dann unter `http://localhost:3000/RobotsTXTCrawler` erreichbar und funktioniert mit dem gleichen Routing wie auf GitHub Pages (z.B. `https://avuim.github.io/RobotsTXTCrawler/websites/example.com`).
 
+#### Lokale Entwicklung mit statischer API
+
+Für die lokale Entwicklung können Sie die statische API verwenden, die die gleichen Daten wie GitHub Pages bereitstellt:
+
+```bash
+cd src/frontend
+
+# Automatische Vorbereitung und Start
+npm run dev
+
+# Oder manuell:
+npm run prepare-static-api  # Kopiert Daten für statische API
+npm start                   # Startet den Entwicklungsserver
+```
+
 #### GitHub Pages Deployment
 
 Das Deployment auf GitHub Pages verwendet die gleiche Konfiguration:
@@ -246,14 +261,53 @@ npm run build  # Verwendet die gleiche Konfiguration wie lokale Entwicklung
 
 Das Frontend erkennt automatisch die API-Umgebung:
 
-- **Lokale Entwicklung**: Live-API auf `http://localhost:3001/api`
+- **Lokale Entwicklung**: Live-API auf `http://localhost:3001/api` oder statische API wenn vorbereitet
 - **GitHub Pages**: Statische API-Daten aus `/RobotsTXTCrawler/api`
+
+##### Manuelle API-Modus-Steuerung
+
+Sie können den API-Modus manuell über Umgebungsvariablen steuern:
+
+```bash
+# .env.local Datei erstellen/bearbeiten
+cd src/frontend
+
+# Statische API erzwingen (auch lokal)
+echo "REACT_APP_API_MODE=static" > .env.local
+
+# Live-API erzwingen (Standard für lokale Entwicklung)
+echo "REACT_APP_API_MODE=live" > .env.local
+
+# Automatische Erkennung (Standard)
+rm .env.local  # oder Datei leer lassen
+```
+
+**Verfügbare Modi:**
+- `static`: Verwendet immer statische JSON-Dateien (erfordert `npm run prepare-static-api`)
+- `live`: Verwendet immer Live-API auf Port 3001 (erfordert laufenden Backend-Server)
+- Nicht gesetzt: Automatische Erkennung basierend auf Hostname und verfügbaren Daten
 
 #### Verfügbare Scripts
 
-- `npm start`: Startet das Frontend mit `/RobotsTXTCrawler` Routing
-- `npm run build`: Produktions-Build für GitHub Pages
-- `npm test`: Führt Tests aus
+- **`npm start`**: Startet das Frontend mit `/RobotsTXTCrawler` Routing
+- **`npm run dev`**: Bereitet statische API vor und startet den Server
+- **`npm run build`**: Produktions-Build für GitHub Pages
+- **`npm run prepare-static-api`**: Kopiert Analysedaten für lokale statische API
+- **`npm run clean-static-api`**: Entfernt lokale statische API-Daten
+- **`npm test`**: Führt Tests aus
+
+#### Statische API-Daten
+
+Die statischen API-Daten werden automatisch von den Scripts verwaltet:
+
+- **Quelle**: `../../data/` (Projekt-Root)
+- **Ziel**: `public/api/` (wird von .gitignore ignoriert)
+- **Inhalt**: 
+  - `bot-statistics.json` - Bot-Statistiken
+  - `analysis/` - Analysedaten (Trends, Kategorien, Website-Details)
+  - `websites-list.json` - Website-Übersicht (automatisch generiert)
+
+**Hinweis**: Die statischen API-Daten werden nicht ins Git-Repository committed, da sie automatisch von der GitHub Action zur Build-Zeit generiert werden.
 
 ### API verwenden
 

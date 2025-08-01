@@ -4,8 +4,11 @@ import { Website } from '../types/Website.ts';
 import { Summary } from '../types/Common.ts';
 
 // Bestimme ob statische API oder Live-API verwendet werden soll
-// Statischer Modus nur auf GitHub Pages (wenn die spezielle API_BASE_URL gesetzt ist)
-const isStaticMode = process.env.REACT_APP_API_BASE_URL === '/RobotsTXTCrawler/api';
+// Statischer Modus nur für GitHub Pages oder wenn explizit auf "static" gesetzt
+const isGitHubPages = window.location.hostname === 'avuim.github.io';
+const isExplicitStatic = process.env.REACT_APP_API_MODE === 'static';
+
+const isStaticMode = isGitHubPages || isExplicitStatic;
 const API_BASE_URL = isStaticMode ? '/RobotsTXTCrawler/api' : 'http://localhost:3001/api';
 
 console.log('API Mode:', isStaticMode ? 'Static (GitHub Pages)' : 'Live (Local Development)');
@@ -131,8 +134,18 @@ export const API = {
   getWebsites: async (): Promise<Website[]> => {
     if (isStaticMode) {
       try {
-        return await fetchStaticData('/websites-list');
+        // Verwende die von GitHub Actions erstellte websites-list.json
+        const websitesList = await fetchStaticData('/websites-list');
+        
+        // Die Datei enthält bereits die korrekten Statistiken
+        return websitesList.map((item: any) => ({
+          domain: item.domain,
+          totalBots: item.totalBots || 0,
+          allowedBots: item.allowedBots || 0,
+          disallowedBots: item.disallowedBots || 0
+        }));
       } catch (error) {
+        console.error('Error loading websites-list.json:', error);
         // Fallback: Leere Liste
         return [];
       }
@@ -149,7 +162,18 @@ export const API = {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
-        return await response.json();
+        const data = await response.json();
+        
+        // Transformiere die Daten in das erwartete Format
+        const transformedData = {
+          domain: data.domain || domain,
+          totalBots: data.bots ? data.bots.length : 0,
+          allowedBots: data.bots ? data.bots.filter((bot: any) => bot.allowed === true).length : 0,
+          disallowedBots: data.bots ? data.bots.filter((bot: any) => bot.allowed === false).length : 0,
+          bots: data.bots || []
+        };
+        
+        return transformedData;
       } catch (error) {
         console.error(`Error fetching website data for ${domain}:`, error);
         throw error;

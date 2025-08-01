@@ -70,7 +70,7 @@ const WebsiteListPage: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
   const filteredWebsites = websites?.filter(website => 
-    website.domain.toLowerCase().includes(searchTerm.toLowerCase())
+    website.domain?.toLowerCase().includes(searchTerm.toLowerCase())
   ) || [];
 
   const columns: TableColumn<Website>[] = [

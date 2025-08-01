@@ -174,16 +174,46 @@ const WebsiteDetailPage: React.FC = () => {
   }
 
   // Erstelle Bot-Einträge aus den Website-Daten
-  const botEntries: BotEntry[] = website.bots ? website.bots.map((bot: any) => ({
-    name: bot.name,
-    category: getBotCategory(bot.name),
-    allowed: bot.allowed
-  })) : [];
+  const botEntries: BotEntry[] = [];
+  
+  // Verarbeite Bot-Array (neues Format)
+  if (website.bots && Array.isArray(website.bots)) {
+    website.bots.forEach((bot: any) => {
+      botEntries.push({
+        name: bot.name,
+        category: getBotCategory(bot.name),
+        allowed: bot.allowed
+      });
+    });
+  } else {
+    // Fallback für altes Format
+    // Verarbeite erlaubte Bots
+    if (website.bots?.allowed) {
+      website.bots.allowed.forEach((botName: string) => {
+        botEntries.push({
+          name: botName,
+          category: getBotCategory(botName),
+          allowed: true
+        });
+      });
+    }
+    
+    // Verarbeite verbotene Bots
+    if (website.bots?.disallowed) {
+      website.bots.disallowed.forEach((botName: string) => {
+        botEntries.push({
+          name: botName,
+          category: getBotCategory(botName),
+          allowed: false
+        });
+      });
+    }
+  }
 
-  // Berechne Statistiken aus den Bot-Einträgen
-  const totalBots = botEntries.length;
-  const allowedBots = botEntries.filter(bot => bot.allowed).length;
-  const disallowedBots = botEntries.filter(bot => !bot.allowed).length;
+  // Verwende die Statistiken direkt aus der API-Antwort
+  const totalBots = website.totalBots || 0;
+  const allowedBots = website.allowedBots || 0;
+  const disallowedBots = website.disallowedBots || 0;
 
   return (
     <Layout pageTitle={`Website: ${decodedDomain}`}>

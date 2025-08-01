@@ -9,6 +9,9 @@ output/reports/
 data/analysis/trends/
 data/analysis/websites/
 
+# Frontend statische API-Daten (werden von GitHub Actions generiert)
+src/frontend/public/api/
+
 # Kompilierte Dateien
 dist/
 build/

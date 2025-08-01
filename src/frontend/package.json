@@ -27,7 +27,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare-static-api": "node scripts/prepare-static-api.js",
+    "dev": "npm run prepare-static-api && npm start",
+    "clean-static-api": "node scripts/clean-static-api.js"
   },
   "eslintConfig": {
     "extends": [
