@@ -221,41 +221,39 @@ Die Konfiguration ist in mehrere Dateien aufgeteilt:
 
 Das Frontend befindet sich im Verzeichnis `src/frontend` und kann sowohl für lokale Entwicklung als auch für GitHub Pages konfiguriert werden.
 
-#### Lokale Entwicklung
+#### Einheitliche Konfiguration
 
-Für die lokale Entwicklung mit korrektem Routing:
+Das Frontend verwendet eine einheitliche Konfiguration für sowohl lokale Entwicklung als auch GitHub Pages Deployment:
 
 ```bash
 cd src/frontend
 npm install
-npm start  # Verwendet automatisch umgebungsabhängige Konfiguration
+npm start
 ```
 
-Das Frontend ist dann unter `http://localhost:3000` erreichbar und funktioniert mit Standard-Routing (z.B. `http://localhost:3000/websites/example.com`).
-
-**Wichtig**: Das `start` Script wurde so konfiguriert, dass es automatisch die korrekte Routing-Konfiguration für lokale Entwicklung verwendet (ohne `/RobotsTXTCrawler` Prefix).
+Das Frontend ist dann unter `http://localhost:3000/RobotsTXTCrawler` erreichbar und funktioniert mit dem gleichen Routing wie auf GitHub Pages (z.B. `https://avuim.github.io/RobotsTXTCrawler/websites/example.com`).
 
 #### GitHub Pages Deployment
 
-Für das Deployment auf GitHub Pages wird automatisch die korrekte Konfiguration verwendet:
+Das Deployment auf GitHub Pages verwendet die gleiche Konfiguration:
 
 ```bash
 cd src/frontend
-npm run build  # Verwendet GitHub Pages Konfiguration mit /RobotsTXTCrawler Prefix
+npm run build  # Verwendet die gleiche Konfiguration wie lokale Entwicklung
 ```
 
-#### Umgebungsabhängige Konfiguration
+#### API-Konfiguration
 
-Das Frontend erkennt automatisch die Umgebung:
+Das Frontend erkennt automatisch die API-Umgebung:
 
-- **Entwicklung** (`NODE_ENV=development`): Kein basename, API läuft auf `http://localhost:3001`
-- **Produktion** (GitHub Pages): Basename `/RobotsTXTCrawler`, statische API-Daten
+- **Lokale Entwicklung**: Live-API auf `http://localhost:3001/api`
+- **GitHub Pages**: Statische API-Daten aus `/RobotsTXTCrawler/api`
 
 #### Verfügbare Scripts
 
-- `npm start` / `npm run start:dev`: Lokale Entwicklung mit korrektem Routing
+- `npm start`: Startet das Frontend mit `/RobotsTXTCrawler` Routing
 - `npm run build`: Produktions-Build für GitHub Pages
-- `npm run build:dev`: Entwicklungs-Build ohne GitHub Pages Prefix
+- `npm test`: Führt Tests aus
 
 ### API verwenden
 
