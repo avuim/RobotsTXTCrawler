@@ -143,7 +143,17 @@ export const API = {
 
   getWebsiteByDomain: async (domain: string): Promise<Website> => {
     if (isStaticMode) {
-      return await fetchStaticData(`/analysis/websites/${domain}`);
+      try {
+        // Direkter fetch ohne .json Anhang, da die Datei bereits .json heißt
+        const response = await fetch(`${API_BASE_URL}/analysis/websites/${domain}.json`);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return await response.json();
+      } catch (error) {
+        console.error(`Error fetching website data for ${domain}:`, error);
+        throw error;
+      }
     }
     const response = await apiClient!.get<Website>(`/websites/${encodeURIComponent(domain)}`);
     return response.data;
