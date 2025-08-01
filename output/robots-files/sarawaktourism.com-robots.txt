@@ -1,0 +1,2396 @@
+
+		
+		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NR7LG7CS" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		
+
+		 
+  
+ 
+	
+	
+		
+		AJAX ErrorSorry, failed to load required information. Please contact your system administrator.
+		
+			
+							
+		
+	
+	
+		
+			Close
+		
+	
+	
+
+
+
+
+	
+		
+		
+		
+		
+		
+		
+	
+
+
+
+	.nowLoading {
+		color: #333;
+		display: none;
+		position: absolute;
+		top: 30%;
+		left: 35%;
+		width: 240px;
+		height: 95px;
+		padding: 10px;
+		border: 1px solid #D1CAA3;
+		background-color: #F9F2AA;
+		text-align: center;
+		overflow: auto;
+		z-index:8080;
+		filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135,Strength=5), alpha(opacity=90);
+		-moz-opacity: .09;
+		opacity: .90;
+	}
+
+    .ajaxDivLoader{
+        position: relative;
+        z-index: 9999;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        /* background: rgba(0, 0, 0, 0.3); */
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+		height:350px;
+    }
+
+    .ajaxDivLoader span {
+        display: block;
+        width: 15px;
+        height: 30px;
+        margin-right: 10px;
+        border-radius: 5px;
+        animation-name: redirect-ajaxDivLoader;
+        animation-duration: 0.4s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(.19, .97, 1, 1);
+    }
+
+    
+        .ajaxDivLoader span:nth-of-type(1) {
+            background: #ffcb89;
+        }
+        .ajaxDivLoader span:nth-of-type(2) {
+            animation-delay: 0.2s;
+            background: #f2b370;
+        }
+        .ajaxDivLoader span:nth-of-type(3) {
+            animation-delay: 0.3s;
+            background: #f78e40;
+        }
+        .ajaxDivLoader span:nth-of-type(4) {
+            animation-delay: 0.4s;
+            background: #ff851a;
+        }
+        .ajaxDivLoader span:nth-of-type(5) {
+            animation-delay: 0.5s;
+            background: #ff6e04;
+        }
+        .ajaxDivLoader span:nth-of-type(6) {
+            animation-delay: 0.6s;
+            background: #ff6e16;
+        }
+
+    
+    /* .ajaxDivLoader span:nth-of-type(1) {
+        background: #fba2a2;
+    }
+    .ajaxDivLoader span:nth-of-type(2) {
+        animation-delay: 0.2s;
+        background: #ff7979;
+    }
+    .ajaxDivLoader span:nth-of-type(3) {
+        animation-delay: 0.3s;
+        background:#ed6464;
+    }
+    .ajaxDivLoader span:nth-of-type(4) {
+        animation-delay: 0.4s;
+        background:#ed4343;
+    }
+    .ajaxDivLoader span:nth-of-type(5) {
+        animation-delay: 0.5s;
+        background:#e92323;
+    }
+    .ajaxDivLoader span:nth-of-type(6) {
+        animation-delay: 0.6s;
+        background:#eb0000;
+    } */
+
+    @keyframes redirect-ajaxDivLoader {
+        0% {
+            height: 30px;
+        }
+        100% {
+            height: 150px;
+        }
+    }
+
+
+
+
+    
+        
+        
+        
+        
+        
+        
+    
+
+
+
+    .full-page-loader .loader{
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.3);
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .full-page-loader .loader span {
+        display: block;
+        width: 15px;
+        height: 30px;
+        margin-right: 10px;
+        border-radius: 5px;
+        animation-name: redirect-loader;
+        animation-duration: 0.4s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(.19, .97, 1, 1);
+    }
+    
+    
+    /* .full-page-loader .loader span:nth-of-type(1) {
+        background: #fba2a2;
+    }
+    .full-page-loader .loader span:nth-of-type(2) {
+        animation-delay: 0.2s;
+        background: #ff7979;
+    }
+    .full-page-loader .loader span:nth-of-type(3) {
+        animation-delay: 0.3s;
+        background:#ed6464;
+    }
+    .full-page-loader .loader span:nth-of-type(4) {
+        animation-delay: 0.4s;
+        background:#ed4343;
+    }
+    .full-page-loader .loader span:nth-of-type(5) {
+        animation-delay: 0.5s;
+        background:#e92323;
+    }
+    .full-page-loader .loader span:nth-of-type(6) {
+        animation-delay: 0.6s;
+        background:#eb0000;
+    } */
+
+    @keyframes redirect-loader {
+        0% {
+            height: 30px;
+        }
+        100% {
+            height: 150px;
+        }
+    }
+		
+		
+			
+							
+			
+            			
+			
+				
+    
+
+        
+            
+                    
+            
+        
+       
+        
+            
+                
+            
+        
+
+        
+            
+                
+                  
+                    
+                        
+                            Home                        
+                    
+
+                    
+                        
+                            Places to Visit                         
+                    
+
+                    
+                        
+                            Things to do                         
+                    
+
+                    
+                        
+                            Stories                        
+                    
+
+                    
+                        
+                            Brochures                        
+                    
+
+                    
+                        
+                            Contact Us                        
+                    
+
+                    
+                        
+                            
+                        
+                    
+                
+            
+          
+        
+    
+
+
+
+    #sarawaktourism-header{
+        /* Navigation */
+        .navbar {
+            padding: 0 10%;
+            margin-bottom: 0;
+            width: 100%;
+            /* opacity: 0.9; */
+            /* flex-wrap: nowrap; */
+            /* position: fixed; */
+            z-index: 999;
+            border-width: 0;
+            border-radius: 0px;
+        }
+
+        .navbar::before {
+            content: none !important;
+        }
+
+        .navbar::after {
+            content: none !important;
+        }
+
+        .navbar img {
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+        }
+
+        .navbar-brand{
+            height: 60px;
+            padding: 0 !important;
+        }
+
+        #navbarNav{
+            padding: 0 !important;
+        }
+
+        .navbar #navbarMenu {
+            padding: 0;
+            width: 100%;
+        }
+
+        .navbar #navbarMenu ul {
+            height: 100%;
+            width: 100%;
+            justify-content: end;
+
+                /* .search-container {
+                    position: relative;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    min-width: 70px;
+
+                    .search-icon {
+                        color: #868686;
+                        font-size: 19px;
+                        cursor: pointer;
+                        position: absolute;
+                        right: 40%;
+                        top: 48%;
+                        transform: translateY(-50%);
+                        transition: all 0.3s ease;
+                    }
+
+                    .search-input {
+                        width: 0;
+                        padding: 5px;
+                        font-size: 16px;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        outline: none;
+                        transition: all 0.3s ease;
+                        height: 40px;
+                        display: none;
+                    }
+
+                    .search-input.active {
+                        width: 100%;
+                        padding-right: 30px;
+                        display: block;
+                    }
+
+                    .search-icon.active {
+                        right: 5%;
+                    }
+                } */
+        }
+
+        .navbar #navbarMenu ul li{
+            cursor: pointer;
+            height: 100%;
+            /* flex-grow: 1; */
+            &.active a{
+                font-weight: bold !important;
+                color: #ff8300;
+            }
+            &:last-child{
+                /* a{
+                    padding: 4rem 0 4rem 1vw;
+                } */
+            }
+        }
+
+        .navbar #navbarMenu ul a {
+            font-size: 1.9rem;
+            font-weight:400;
+            line-height: 24px;
+            padding: 4rem 1vw;
+            height: 100%;
+        }
+
+        .navbar #navbarMenu ul a:hover {
+            color: white !important;
+            background: linear-gradient(90deg, #F84C14, #F16D20);
+            /* height: 100%; */
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            font-size: 2rem;
+        }
+
+        .navbar-toggler {
+            /* margin-right: 15px; */
+            width: 50px;
+            height: 50px;
+        }
+
+        .dropdown-toggle {
+            font-size: 2rem;
+        }
+
+        .dropdown-item {
+            font-size: 2rem;
+        }
+
+        .nav-item .nav-link .fa {
+            font: normal normal normal 2rem / 1 FontAwesome;
+        }
+    }
+
+    @media (max-width:1199px) {
+        .navbar #navbarMenu ul a {
+            font-size: 1.5rem !important;
+
+            i{
+                font-size: 1.5rem !important;
+                position: relative;
+                bottom: -4px;
+            }
+        }
+    }
+
+    @media (max-width:991px) {
+        #sarawaktourism-header{
+            .navbar{
+                padding: 3% 10%;
+            }
+
+            .logo-div{
+                width: 80%;
+                display: flex;
+                justify-content: start !important;
+            }
+
+            .toggle-btn-div{
+                flex-grow: 1;
+                width: 20%;
+                display: flex;
+                justify-content: end;
+            }
+
+            .navbar-brand, #navbarNav{
+                padding: 0 !important;
+            }
+
+            .navbar-collapse {
+                padding-left: 15px;
+            }
+
+            .navbar-nav>li>a {
+                padding: 2rem 0 !important;
+            }
+
+            .navbar {
+                opacity: 1;
+            }
+
+            .navbar #navbarMenu ul{
+                margin: 0 !important;
+            }
+
+            .navbar #navbarMenu ul a {
+                padding: 2rem 1.5rem;
+                font-size: 2rem;
+            }
+            .dropdown-toggle {
+                font-size: 2rem;
+            }
+            
+            .dropdown-item {
+                font-size: 2rem;
+            }
+
+            .navbar-light .navbar-nav .nav-link {
+                font-size: 2rem;
+            }
+
+            .nav-item .nav-link .fa {
+                font: normal normal normal 2rem / 1 FontAwesome;
+            }
+        }
+    }
+
+
+
+    document.getElementById('toggleSearch').addEventListener('click', function () {
+       
+    });
+
+
+
+
+
+
+    
+  
+    
+	
+
+    
+    
+
+
+
+    .video-container {
+      position: relative;
+      display:flex;
+      justify-content: center;
+   
+        .iframe-cover{
+          position: absolute;
+          top: 0;
+          left: 0;
+
+          width: 100%;
+          height: 100%;
+
+          z-index: 2;
+        }
+
+        #player{
+            .iframe-placeholder{
+                height: 500px;
+                width: 100vw;
+                /* background: grey; */
+            }
+
+            .skeleton {
+                background-color: #c8c7c7;
+                position: relative;
+                animation: blink 1.5s infinite ease-in-out;
+            }
+        }
+
+        video {
+            min-height: 500px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .custom-control {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+
+        .custom-control button {
+            background-color: rgba(255, 255, 255, 0.7);
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .custom-control button i {
+            font-size: 18px;
+        }
+
+        .custom-control button img {
+            width: 24px;
+            height: 24px;
+        }
+
+        iframe{
+            width: 100%;
+            height: 100%;
+            aspect-ratio: 16/9;
+        }
+    }
+
+    @keyframes blink {
+        0%, 100% {
+            opacity: 0.3;
+        }
+        50% {
+            opacity: 1;
+        }
+    }
+
+
+
+
+    // Define the YouTube Player variable
+    let player;
+
+    // Function called by the API when ready to create an iframe
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+            videoId: 'KIQueYmDWEQ',
+            playerVars: {
+                autoplay: 1,
+                loop: 1,
+                playlist: 'KIQueYmDWEQ',
+                mute: 1,
+                controls: 0,
+                iv_load_policy: 3,
+                rel: 0,
+                showinfo: 0,
+                modestbranding: 1,
+            },
+            events: {
+                'onReady': onPlayerReady
+            }
+        });
+    }
+
+    // Event handler triggered when the player is ready
+    function onPlayerReady(event) {
+        // Get the video duration in seconds
+        const videoDuration = player.getDuration();
+
+        // Set an interval to reload the video every `videoDuration` seconds
+        setInterval(() => {
+            player.seekTo(0); // Seek to the start of the video instead of reloading
+			player.playVideo(); // Play the video
+        }, videoDuration * 1000); // Convert to milliseconds
+    }
+
+
+
+   /*  var video = document.getElementById('homepageVideo');
+    var muteIcon = document.getElementById('mute-icon');
+
+    // Ensure video auto-plays on page load
+    document.addEventListener('DOMContentLoaded', function() {
+        video.play().catch(function(error) {
+            console.log('Video did not start automatically:', error);
+        });
+    });
+
+    function pauseVideo() {
+        video.pause();
+    }
+
+    function playVideo() {
+        video.play();
+    }
+
+    function toggleMute() {
+        if (video.muted) {
+            video.muted = false;
+            muteIcon.src = '/module/web/web/theme/default/res/sarawaktourism/volume.png'; // Update with the path to your unmute icon
+        } else {
+            video.muted = true;
+            muteIcon.src = '/module/web/web/theme/default/res/sarawaktourism/mute.png'; // Update with the path to your mute icon
+        }
+    } */
+
+    
+        
+            
+        
+        
+            Sarawak Calender Of Events 2025
+            Find out more on what is happening in Sarawak here!
+            Find Out Here
+        
+    
+
+
+
+    .event-section {
+		font-family: 'Poppins', san-serif;
+        padding: 4% 10%;
+
+        .event-wrapper {
+            border-radius: 1rem !important;
+            margin: 0 !important;
+
+            .img-box{
+                width: 40%;
+
+                img {
+                    border-radius: 10px 0 0 10px !important;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .text-box{
+                width: 60%;
+                padding:50px;
+
+                h2 {
+                    /* background: linear-gradient(90deg, #6e1eff, #b517ff);
+                    -webkit-background-clip:text;
+                    -webkit-text-fill-color:transparent; */
+                    color: #6ed520 !important;
+                    font-size: 4rem;
+                    margin-left: 9px;
+                    font-weight: 600;
+                    display:inline-block;
+                    padding-bottom:30px;
+                }
+                p{
+                    max-height: 350px;
+                    overflow: auto;
+                }
+                
+                p,
+                a {
+                    font-size: 2rem;
+                    margin-left: 10px;
+                }
+
+                p{
+                    line-height: 1.5;
+                }
+
+                .btn-custom {
+                    /* background: linear-gradient(90deg, #6e1eff, #b517ff); */
+                    background: #ccf406;
+                    border: none;
+                    /* color: white; */
+                    color: #a1a404;
+                    font-weight: bold;
+                    padding: 1rem 3rem;
+                    font-size: 2rem;
+                    border-radius: 2.5rem;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+                    align-self: flex-end;
+                    margin-top: 20px;
+                }
+
+                .btn-custom:hover {
+                    /* background: linear-gradient(90deg, #b517ff, #6e1eff); */
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    border: none;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1200px) {
+        .event-section {
+
+            .event-wrapper {
+
+                .img-box{
+                    width: 50% !important;
+                }
+
+                .text-box{
+                    width: 50% !important;
+                }
+
+            }
+        }
+
+    }
+
+    @media (max-width: 991px) {
+        .event-section {
+
+            .event-wrapper {
+
+                .img-box{
+                    width: 100% !important;
+
+                    img {
+                        border-radius: 10px 10px 0 0 !important;
+                    }
+                }
+
+                .text-box{
+                    width: 100% !important;
+                    padding:30px;
+
+                    h2 {
+                        font-size: 3rem;
+                        margin-left: 8px;
+                    }
+                }
+            }
+        }
+    }
+
+
+		
+		Places to Visit
+		Explore More
+	
+	
+	
+		
+			
+				
+
+				
+				
+					
+						
+						
+						
+						
+						
+						
+						Betong
+					
+				
+
+				
+				
+					
+						
+						
+						
+						
+						
+						
+						Bintulu
+					
+				
+
+				
+				
+					
+					
+						
+						
+						
+						
+						Kapit
+					
+				
+
+				
+				
+					
+						
+						
+						
+						
+						
+						
+						Kota Samarahan
+					
+				
+
+				
+				
+
+					
+						
+						
+						
+						
+						
+						
+						Kuching
+					
+
+				
+
+				
+				
+					
+						
+						
+						
+						
+						
+						
+						Limbang
+					
+				
+
+				
+				
+					
+						
+						
+						
+						
+						
+						
+						Miri
+					
+				
+
+				
+				
+					
+						
+						
+						
+						
+						
+						
+						
+						
+						Mukah
+					
+				
+
+				
+				
+					
+						
+						
+						
+						
+						
+						
+						Sri Aman
+					
+				
+
+				
+				
+					
+						
+						
+						
+						
+						
+						
+						Serian
+					
+				
+
+				
+				
+					
+						
+															
+						
+						
+						
+						
+						Sarikei
+					
+				
+				
+
+				
+				
+					
+						
+						
+						
+						
+						
+						
+						Sibu
+					
+				
+			
+			
+		
+		
+			Sarawak
+			
+			Welcome to Sarawak! A land of diverse cultures, breathtaking landscapes, and rich history. Explore the map to discover more about each region.
+			More About This Place
+		
+	
+
+		
+
+
+	#sarawaktourism-map{
+
+		.map-wrapper{
+			display:flex;
+			gap: 50px;
+		}
+
+		.map-portlet {
+			width: 70%;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: start;
+		}
+
+		g.map-sub text {
+			font-weight: 700;
+			font-size: 1.7rem;
+			/* font-family: sans-serif; */
+		}
+		
+		g.map-sub text, g.map-sub line, g.map-sub circle {
+			cursor: pointer;
+		}
+
+		/* Map Container Styling */
+		.map-container {
+			position: relative;
+			width: 90%;
+		}
+
+		img.map-main {
+			width: 100%;
+			height: auto;
+		}
+
+		svg.map-sub{
+			pointer-events: none;
+			overflow: visible;
+			z-index: 1;
+		}
+		g.map-sub circle, g.map-sub text, g.map-sub:hover .name-background{
+			transition: 0.2s transform ease-in-out;
+		}
+		g.map-sub:hover circle, g.map-sub:hover text, g.map-sub:hover .name-background{
+			transform:translateY(-5px);
+		}
+		.map-sub{
+			position:absolute;
+		}
+		g.map-sub{
+			pointer-events: auto;
+		}
+		g.map-sub path{
+			cursor: pointer;
+			opacity:0;
+			transition:0.1s opacity;
+		}
+		g.map-sub text{
+			font-weight:700;
+			font-size:19;
+		}
+		g.map-sub .name-background{
+			stroke:#fecf09;
+			stroke-linecap:round;
+			stroke-width: 30px;
+			cursor: pointer;
+		}
+		.sukma-map area{
+			border:1px solid black;
+			color:red;
+		}
+		.map-container{
+			&{
+				position:relative;
+				width:100%;
+			}
+			.map-kuching {
+				top: 69.8%;
+				left: 0%;
+				width: 16.2%;
+			}
+
+			.map-sarikei {
+				top: 63.4%;
+				left: 27.1%;
+				width: 15.8%;
+			}
+
+			.map-limbang {
+				top: 0;
+				left: 85.1%;
+				width: 15%;
+			}
+
+			.map-kapit {
+				top: 39%;
+				left: 40.4%;
+				width: 52%;
+			}
+
+			.map-samarahan {
+				top: 81.3%;
+				left: 13%;
+				width: 12.8%;
+				z-index:2;
+			}
+
+			.map-serian {
+				top: 87.9%;
+				left: 12.1%;
+				width: 10%;
+				z-index:3;
+			}
+
+			.map-sibu {
+				top: 51.3%;
+				left: 33.3%;
+				width: 20.8%;
+			}
+
+			.map-mukah {
+				top: 46.1%;
+				left: 28.7%;
+				width: 23.4%;
+			}
+
+			.map-bintulu {
+				top: 31.1%;
+				left: 50.6%;
+				width: 22.4%;
+			}
+
+			.map-miri {
+				top: 9.8%;
+				left: 63.1%;
+				width: 36.4%;
+			}
+
+			.map-sriaman {
+				top: 79.9%;
+				left: 23%;
+				width: 20.8%;
+			}
+
+			.map-betong {
+				top: 70.4%;
+				left: 25.3%;
+				width: 11.2%;
+				z-index: 2;
+			}
+		}
+		g.map-sub:hover path{
+			opacity:1;
+		}
+
+		.info-space {
+			width: 30%;
+			height: 100%;
+			position: relative;
+			display: none;
+			/* Hide the info space by default */
+		}
+
+		#regionDescription {
+			font-size: 2rem;
+		}
+		
+		#regionName {
+			font-size: 4rem;
+		}
+		
+		.info-space.show {
+			/* Show the info space when the class 'show' is added */
+			display: block;
+		}
+
+		.info-space img {
+			width: 100%;
+			height: auto;
+			border: 1px solid #ccc;
+			margin-bottom: 10px;
+		}
+
+		.find-out-more {
+			display: none;
+			border: none;
+			border-radius: 30px;
+			background-color: orange;
+			font-size: 2rem;
+			padding: 1rem 3rem;
+			margin-top: 30px;
+			margin-left: auto;
+			width: fit-content;
+
+			&:hover {
+				background-color: orange;
+				box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+			}
+		}
+
+		.find-out-more.show {
+			display: block;
+		}
+
+		.title-div{
+			flex-wrap: wrap;
+
+			.places-to-visit {
+				font-size: 4rem;
+				font-weight: bold;
+				color: #ff6600;
+			}
+
+			.explore-more-button {
+				background-color: #ff6600;
+				height: 50px;
+				color: #fff;
+				padding: 1rem 3rem;
+				border: none;
+				border-radius: 50px;
+				/* font-family: sans-serif; */
+				font-weight: bold;
+				cursor: pointer;
+				font-size: 2rem;
+				width: fit-content;
+
+				a{
+					text-decoration: none;
+					color: white;
+
+					
+				}
+
+				&:hover {
+					background-color: #ff6600;
+					box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+				}
+			}
+		}
+	}
+	
+
+	@media (max-width: 991px) {
+
+		#sarawaktourism-map{
+
+			.title-div{
+				.places-to-visit {
+					font-size: 3.5rem;
+					text-align: left;
+					margin-bottom: 0;
+					align-self: center;
+					margin-right: 25px;
+				}
+
+				.explore-more-button {
+					font-size: 2rem;
+					margin-top: 0;
+				}
+			}
+
+			.map-wrapper{
+				flex-wrap: wrap;
+
+				.map-portlet{
+					width: 100% !important;
+
+					.map-container{
+						width: 100%;
+					}
+				}
+
+				.info-space{
+					width: 100%;
+
+					#regionDescription {
+						/* font-size: 1.5rem; */
+					}
+					
+					#regionName {
+						font-size: 3rem;
+					}
+
+					.find-out-more {
+						/* font-size: 1.5rem; */
+					}
+				}
+			}
+
+		}
+	}
+
+
+
+
+	const infoSpace = document.querySelector('.info-space');
+	const regionName = document.getElementById('regionName');
+	const regionImage = document.getElementById('regionImage');
+	const regionDescription = document.getElementById('regionDescription');
+	const mapRegions = document.querySelectorAll('.map-sub');
+	const findOutMoreButton = document.querySelector('.find-out-more');
+
+	// console.log(mapRegions)
+
+	// Set infoSpace to visible initially
+	infoSpace.classList.add('show');
+
+	// Default content for infoSpace
+	regionName.textContent = 'Sarawak';
+	regionImage.innerHTML = `<img src="/module/web/web/theme/default/res/sarawaktourism/sarawak_flag.png" alt="Sarawak Flag">`; // Replace with actual path
+	regionDescription.textContent = 'Welcome to Sarawak! A land of diverse cultures, breathtaking landscapes, and rich history. Explore the map to discover more about each region.';
+	
+	// Remove find out more button when 1st load
+	$('#find-out-more-btn').hide();
+
+	// Remove the document click event listener 
+	// document.addEventListener('click', (event) => { ... });  // No longer needed
+
+	mapRegions.forEach(region => {
+		region.addEventListener('click', () => {
+			const name = region.getAttribute('data-region-name');
+			const imageSrc = region.getAttribute('data-region-image');
+			const description = region.getAttribute('data-region-description');
+
+			regionName.textContent = name;
+			regionImage.innerHTML = `<img src="${imageSrc}" alt="${name}">`;
+			regionDescription.textContent = description;
+			findOutMoreButton.classList.add('show');
+
+			var base_url = '/web/places-to-visit/town-view/';
+			var formatted_name = (name.toLowerCase()).replace(" ", "-");
+
+			$('#find-out-more-btn').show();
+			$('#find-out-more-btn').attr('href', base_url + formatted_name);
+		});
+	});
+
+    
+         Things to do
+
+        
+            
+                
+
+                    
+                        
+                            
+                                
+                                    
+                                        
+                                        
+                                        
+                                            Culture                                        
+                                    
+                                
+                            
+                        
+                    
+
+                    
+                        
+                            
+                                
+                                    
+                                        
+                                        
+                                        
+                                            Adventure                                        
+                                    
+                                
+                            
+                        
+                    
+
+                    
+                        
+                            
+                                
+                                    
+                                        
+                                        
+                                        
+                                            Nature                                        
+                                    
+                                
+                            
+                        
+                    
+
+                    
+                        
+                            
+                                
+                                    
+                                        
+                                        
+                                        
+                                            Food                                        
+                                    
+                                
+                            
+                        
+                    
+
+                    
+                        
+                            
+                                
+                                    
+                                        
+                                        
+                                        
+                                            Festival                                        
+                                    
+                                
+                            
+                        
+                    
+
+                
+            
+        
+       
+        
+
+    
+
+
+
+    .sarawaktourism-ttd {
+        .content {
+            padding: 4% 10%;
+
+            h2 {
+                background: linear-gradient(to right, #6C3E93 0%, #DF700B 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-size: 4rem;
+                font-weight: 625;
+                padding-bottom: 5px;
+                margin-left: -4px;
+                display: inline-block;
+            }
+
+            .main-img{
+                width:100%;
+            }
+
+            .sub-img-row{
+                display: flex;
+                gap: 15px;
+
+                .sub-img{
+                    flex-grow: 1;
+                    width: 25%;
+                }
+            }
+
+            .sarawaktourism-ttd-img-container {
+                position: relative;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 500px;
+                border-radius: 30px;
+                overflow: hidden;
+
+                img {
+                    object-fit: cover;
+                    object-position: center;
+                    width: 100%;
+                    height: 100%;
+                    transition: transform 0.3s ease-in-out;
+
+                    &:hover{
+                        transform: scale(1.2);
+                    }
+                }
+
+                span {
+                    position: absolute;
+                    left: 30px;
+                    bottom: 5%;
+                    color: white;
+                    font-size: 3rem;
+                    z-index: 2;
+                }
+            }
+        }
+
+        .splide__arrow--next{
+            font-size: 20px;
+            background: darkorange;
+        }
+
+        .splide__arrow--prev{
+            font-size: 20px;
+            background: darkorange;
+        }
+
+        .splide__arrow svg{
+            fill: white;
+        }
+
+        .splide__pagination__page.is-active{
+            background: darkorange;
+        }
+    }
+
+    @media (max-width: 991px) {
+
+        .sarawaktourism-ttd {
+
+            .content h2{
+                font-size: 3.5rem;
+            }
+
+            .sarawaktourism-ttd-img-container {
+                width: 100%;
+                height: 300px;
+            }
+
+            .sub-img-row{
+                flex-wrap: wrap;
+               
+                .sub-img{
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+
+
+
+    var splide = new Splide( '.splide', {
+        type: 'fade',          // Fade transition between slides
+        autoplay: true,        // Enable autoplay
+        interval: 3000,        // Duration between transitions (in milliseconds)
+        speed: 1000,           // Transition speed (1 second here for fade effect)
+        rewind: true,          // Rewind to the first slide to mimic looping
+        pauseOnHover: true     // Optional: Pause autoplay when hovering
+    } );
+    splide.mount();
+
+
+    
+        
+    
+    Sarawak Responsible Tourism
+    Discover Sarawak Through Responsible Tourism. Preserve nature. Empower communities. Experience authenticity.
+    
+        LEARN MORE
+    
+
+
+
+    .sarawaktourism-pledge {
+        /* font-family: 'Poppins', san-serif; */
+        padding: 100px 0 75px;
+        background-size: cover;
+        height: auto;
+        width: 100%;
+        z-index: 0;
+
+        .background-wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url("/web/attachment/show/?docid=dFk0MU9UcDUvdVRSVlJEYldRbzg4Zz09Ojr64Vn5jCom6DTPb6tEe9Mi");
+            background-position: center bottom;
+            background-size: cover;
+            z-index: 0;
+        }
+
+        h2 {
+            position: relative;
+            color: white;
+            font-weight: bold;
+            font-size: 4rem;
+            z-index: 2;
+            padding: 0 10%;
+        }
+
+        p {
+            position: relative;
+            color: white;
+            font-size: 2rem;
+            padding: 2% 10%;
+            z-index: 2;
+        }
+
+        .pledge-button {
+            position: relative;
+            display: inline-block;
+            border-radius: 50px;
+            color: black;
+            background-color: white;
+            font-size: 2rem;
+            padding: 1rem 3rem;
+            margin-top: 30px;
+            z-index: 2;
+            text-decoration: none;
+            
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+        }
+    }
+
+    @media (max-width: 991px) {
+        .sarawaktourism-pledge {
+            h2 {
+                font-size: 3.5rem;
+            }
+
+            p {
+                /* font-size: 1.5rem; */
+            }
+
+            .pledge-button {
+                margin-top: 35px;
+                /* font-size: 1.5rem; */
+            }
+        }
+    }
+
+
+    
+
+        
+            
+                
+                    Share Your Sarawak Adventure!
+                    Capture the essence of Sarawak! We invite you to share your stunning travel photos showcasing Sarawak’s natural wonders, cultural richness, and unforgettable experiences.
+                
+            
+            
+                
+                    Share Now                
+            
+        
+
+        
+            
+                
+                    
+                
+            
+        
+       
+        
+    
+
+
+
+
+    .feed-album{
+        background-color: #F3F3F3;
+        padding-top: 40px;
+        text-align: left;
+
+        .top-text{
+            padding: 4% 10%;
+
+            .text-content{
+                padding: 0 !important;
+            }
+        }
+
+        iframe{
+            height:255px;
+        }
+
+        .card {
+            border-radius: 15px;
+        }
+
+        h2 {
+            /* background: linear-gradient(to right, #6175EF, #8551F5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; */
+            color: #fba900 !important;
+            font-size: 4rem;
+            margin-left: -4px;
+            display: inline-block;
+        }
+
+        p {
+            font-size: 2rem;
+            margin-bottom: 0;
+        }
+
+        .sarawaktourism-feed-header {
+            /* margin-left: 12.5%; */
+        }
+
+        .view-more-btn-wrapper{
+            margin-top: 30px;
+            justify-content: end;
+            align-items: end;
+
+            .stb-feed-button {
+                /* background: linear-gradient(to right, #6372EF, #DA1BBD);
+                color: white; */
+                background: #ff9c09;
+                color: #ffffff;
+                text-align: center;
+                font-size: 2rem;
+                font-weight: 475;
+                padding: 1rem 3rem;
+                border-radius: 50px;
+                display: inline-block;
+                text-decoration: none;
+                height: fit-content;
+
+                &:hover {
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                }
+            }
+
+        }
+        
+        .scrolling-wrapper {
+            overflow-x: hidden;
+            display: flex;
+            gap: 15px;
+            flex-wrap: nowrap;
+            cursor: grab;
+            -webkit-overflow-scrolling: touch;
+            /* for smooth scrolling on touch devices */
+        }
+
+        .card {
+            flex: 0 0 auto;
+            width: 500px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 275px;
+            position: relative;
+            /* Fixed height for consistency */
+            border-radius: 10px;
+            object-fit: cover;
+            /* Ensures the image covers the card without stretching */
+            user-select: none;
+            /* Prevent text selection */
+            pointer-events: none;
+            /* Disable mouse events */
+        }
+
+        .album-icon {
+            position: absolute;
+            top: 2%;
+            left: 2%;
+            display: flex;
+            align-items: center;
+            /* background-color: rgba(235, 235, 235, 0.75); */
+            padding: 5px;
+            border-radius: 10px;
+
+            img {
+                width: 42px;
+                height: 42px;
+                margin-right: 5px;
+            }
+
+            span {
+                font-size: 1.5rem;
+            }
+
+            .sarawaktourism-feed-arrow-button {
+                display: none;
+            }
+        }
+
+        .dark-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+    }
+
+    @media (max-width: 1576px) {
+        .feed-album{
+            iframe{
+              height: 510px;  
+            }
+        }
+    }
+
+    @media (max-width: 991px) {
+        .feed-album .card {
+            flex: 0 0 auto;
+            width: 320px;
+            margin-right: 10px;
+        }
+
+        .feed-album {
+            .card {
+                img {
+                    width: 100%;
+                    height: 200px;
+                    /* Fixed height for consistency */
+                    border-radius: 10px;
+                    object-fit: cover;
+                    /* Ensures the image covers the card without stretching */
+                    user-select: none;
+                    /* Prevent text selection */
+                    pointer-events: none;
+                    /* Disable mouse events */
+                }
+            }
+        }
+
+        .feed-album {
+            h2 {
+                font-size: 3.5rem;
+                margin-left: -2px;
+            }
+
+            p {
+                /* font-size: 1.5rem; */
+                margin-bottom: 0;
+            }
+
+            .album-icon {
+                position: absolute;
+                top: 2%;
+                left: 2%;
+                display: flex;
+                align-items: center;
+                /* background-color: rgba(235, 235, 235, 0.75); */
+                padding: 5px;
+                border-radius: 10px;
+
+                img {
+                    width: 32px;
+                    height: 32px;
+                    margin-right: 5px;
+                }
+
+                span {
+                    /* font-size: 1.5rem; */
+                }
+            }
+
+            #sarawaktourism-feed-row-2 {
+                display: none;
+            }
+
+            .stb-feed-button {
+                margin-right: 5% !important;
+                /* font-size: 1.5rem !important; */
+                border-radius: 50px;
+            }
+
+            .sarawaktourism-feed-header {
+                margin-left: 5%;
+                margin-right: 7.5%;
+            }
+
+            .sarawaktourism-feed-arrow-button {
+                display: flex;
+                gap: 15px;
+
+                .btn {
+                    border-radius: 50px;
+                    font-weight: 600;
+                    align-items: center;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+
+
+    // // Album Feed Scrolling Script
+    // document.addEventListener('DOMContentLoaded', function() {
+    //     const scrollingWrappers = document.querySelectorAll('.scrolling-wrapper');
+    //     let currentIndex = 0;
+
+    //     scrollingWrappers.forEach((scrollingWrapper, index) => {
+    //         let isDown = false;
+    //         let startX;
+    //         let scrollLeft;
+
+    //         // Check if the window width is >= 767px
+    //         if (window.innerWidth >= 767) {
+    //             // Set the initial scroll position to different values based on index
+    //             if (index === 0) {
+    //                 scrollingWrapper.scrollLeft = (scrollingWrapper.scrollWidth - scrollingWrapper.clientWidth) / 3.67; // Offset for the first row
+    //             } else if (index === 1) {
+    //                 scrollingWrapper.scrollLeft = (scrollingWrapper.scrollWidth - scrollingWrapper.clientWidth) / 4.0; // Offset for the second row
+    //             }
+    //         }
+
+    //         scrollingWrapper.addEventListener('mousedown', (e) => {
+    //             isDown = true;
+    //             scrollingWrapper.classList.add('active');
+    //             startX = e.pageX - scrollingWrapper.offsetLeft;
+    //             scrollLeft = scrollingWrapper.scrollLeft;
+    //             scrollingWrapper.style.cursor = 'grabbing';
+
+    //             // Disable pointer events on images
+    //             const images = scrollingWrapper.querySelectorAll('.card img');
+    //             images.forEach(img => {
+    //                 img.style.pointerEvents = 'none';
+    //             });
+    //         });
+
+    //         scrollingWrapper.addEventListener('mouseleave', () => {
+    //             isDown = false;
+    //             scrollingWrapper.classList.remove('active');
+    //             scrollingWrapper.style.cursor = 'grab';
+
+    //             // Enable pointer events on images
+    //             const images = scrollingWrapper.querySelectorAll('.card img');
+    //             images.forEach(img => {
+    //                 img.style.pointerEvents = 'auto';
+    //             });
+    //         });
+
+    //         scrollingWrapper.addEventListener('mouseup', () => {
+    //             isDown = false;
+    //             scrollingWrapper.classList.remove('active');
+    //             scrollingWrapper.style.cursor = 'grab';
+
+    //             // Enable pointer events on images
+    //             const images = scrollingWrapper.querySelectorAll('.card img');
+    //             images.forEach(img => {
+    //                 img.style.pointerEvents = 'auto';
+    //             });
+    //         });
+
+    //         scrollingWrapper.addEventListener('mousemove', (e) => {
+    //             if (!isDown) return;
+    //             e.preventDefault();
+    //             const x = e.pageX - scrollingWrapper.offsetLeft;
+    //             const walk = (x - startX) * 2; // scroll-speed
+    //             scrollingWrapper.scrollLeft = scrollLeft - walk;
+    //         });
+
+    //         scrollingWrapper.addEventListener('touchstart', (e) => {
+    //             isDown = true;
+    //             startX = e.touches[0].pageX - scrollingWrapper.offsetLeft;
+    //             scrollLeft = scrollingWrapper.scrollLeft;
+    //         });
+
+    //         scrollingWrapper.addEventListener('touchend', () => {
+    //             isDown = false;
+    //         });
+
+    //         scrollingWrapper.addEventListener('touchmove', (e) => {
+    //             if (!isDown) return;
+    //             const x = e.touches[0].pageX - scrollingWrapper.offsetLeft;
+    //             const walk = (x - startX) * 2; // scroll-speed
+    //             scrollingWrapper.scrollLeft = scrollLeft - walk;
+    //         });
+
+    //         // Prevent default behavior of anchor tags during dragging
+    //         scrollingWrapper.addEventListener('click', (e) => {
+    //             if (isDown) {
+    //                 e.preventDefault();
+    //             }
+    //         });
+    //     });
+
+    //     // Function to center a card in the view
+    //     function centerCard(index, scrollingWrapper) {
+    //         const card = scrollingWrapper.querySelectorAll('.card')[index];
+    //         const cardWidth = card.clientWidth;
+    //         const scrollPosition = card.offsetLeft - (scrollingWrapper.clientWidth / 2) + (cardWidth / 2);
+    //         scrollingWrapper.scrollTo({
+    //             left: scrollPosition,
+    //             behavior: 'smooth'
+    //         });
+    //     }
+
+    //     // Scroll to the previous or next card for the first row only
+    //     const firstScrollingWrapper = scrollingWrappers[0];
+    //     document.getElementById('prev-row').addEventListener('click', () => {
+    //         currentIndex = Math.max(currentIndex - 1, 0);
+    //         centerCard(currentIndex, firstScrollingWrapper);
+    //     });
+
+    //     document.getElementById('next-row').addEventListener('click', () => {
+    //         const maxIndex = firstScrollingWrapper.querySelectorAll('.card').length - 1;
+    //         currentIndex = Math.min(currentIndex + 1, maxIndex);
+    //         centerCard(currentIndex, firstScrollingWrapper);
+    //     });
+    // });
+
+
+
+    CONNECT WITH US
+    
+        
+                         
+    
+
+
+
+    .social-media-section {
+        width: 100%;
+        /* Make sure the container takes the full width */
+        display: flex;
+        justify-content: center;
+
+        .row::before,
+        .row::after {
+            content: none !important;
+        }
+    }
+
+    .social-media-text {
+        font-size: 4rem;
+    }
+
+    .social-media-section img {
+        height: auto;
+        max-height: 50px;
+        width: auto;
+    }
+
+    .social-media-logos {
+        margin-top: 25px;
+        gap: 5vw;
+        padding: 0 25px;
+    }
+
+    @media (max-width: 991px) {
+        .social-media-text {
+            font-size: 3.5rem;
+        }
+
+        .social-media-section img {
+            height: auto;
+            max-height: 37px;
+            width: auto;
+        }
+    }
+
+    
+        
+        
+            
+                
+                
+                    Sarawak Tourism Board
+
+Level 4, Plaza Aurora, Jalan McDougall, 93000 Kuching, Sarawak.
+stb@sarawaktourism.com
++6082 423600
++6082 416700                
+            
+            
+                
+                    About Us
+                    About STB
+Corporate Website
+Contact Us                
+            
+            
+                
+                    Other Related Sites
+                    Ministry Of Tourism, Creative Industry and Performing Arts
+Sarawak Forestry Corporation
+Business Events Sarawak (BESarawak)
+Sarawak Trade & Tourism Office Singapore (STATOS)
+Sarawak Craft Council
+Sarawak Museum Department                
+            
+        
+
+        
+        
+            
+                
+                    
+                        
+                            Sarawak Tourism Board                        
+                    
+                
+                
+                    
+                        Sarawak Tourism Board
+
+Level 4, Plaza Aurora, Jalan McDougall, 93000 Kuching, Sarawak.
+stb@sarawaktourism.com
++6082 423600
++6082 416700                    
+                
+            
+            
+                
+                    
+                        
+                            About Us                        
+                    
+                
+                
+                    
+                        About STB
+Corporate Website
+Contact Us                    
+                
+            
+            
+                
+                    
+                        
+                            Other Related Sites                        
+                    
+                
+                
+                    
+                        Ministry Of Tourism, Creative Industry and Performing Arts
+Sarawak Forestry Corporation
+Business Events Sarawak (BESarawak)
+Sarawak Trade & Tourism Office Singapore (STATOS)
+Sarawak Craft Council
+Sarawak Museum Department                    
+                
+            
+        
+
+        
+        
+            Copyright © 2025 Sarawak Tourism Board
+All rights reserved.
+        
+    
+
+
+
+    .footer {
+        background-color: #F3F3F3;
+        padding: 4% 10%;
+
+        .container-fluid{
+            padding: 0 !important;
+        }
+
+        .card-body{
+            padding: 1.5rem;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        p,
+        address,
+        a {
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: black;
+
+            &:not(:last-child){
+                margin-bottom: 15px;
+            }
+
+          
+        }
+
+        a{
+            &:hover{
+                color: #fb651c;
+            }
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+
+
+        .info-wrapper{
+            gap: 15px;
+            .info-section{
+                flex-grow: 1;
+                width:30%;
+            }
+        }
+
+        .stb_logo {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+
+        .carousel-container {
+            position: relative;
+        }
+
+        .custom-control {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 10px;
+            margin-right: 20px;
+        }
+
+        .custom-control button {
+            background: #fff;
+            border: 2px solid #ccc;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        .custom-control button i {
+            color: #666;
+        }
+
+        .footer-copyright {
+            font-size: .8rem;
+            display: inline-block;
+        }
+
+        .above-us {
+            margin: 0 auto;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .footer {
+
+            .col-lg-4 {
+                margin-bottom: 20px;
+            }
+
+            .collapse {
+                margin-bottom: 10px;
+            }
+
+            .card-header {
+                padding: 0;
+                border: none;
+                background: none;
+            }
+
+            .card-header button {
+                width: 100%;
+                text-align: left;
+                padding: 10px;
+                border: none;
+                background: none;
+                outline: none;
+                font-weight: bold;
+                font-size: 16px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: black;
+                background-color: #f8f9fa;
+                border-radius: 5px;
+                border: 1px solid #dee2e6;
+                margin-bottom: 5px;
+            }
+
+            .btn-link:focus {
+                text-decoration: none;
+            }
+
+            .card-header button::after {
+                content: '\25BC';
+                /* Unicode character for down arrow */
+                font-size: 1rem;
+                transition: transform 0.2s;
+                color: black;
+            }
+
+            .card-header button.collapsed::after {
+                transform: rotate(-90deg);
+            }
+
+            hr {
+                margin: 10px 0;
+            }
+
+            .footer-copyright {
+                /* margin: 0 10px; */
+            }
+
+            .card-body {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+
+    @media (max-width: 576px) {
+        .footer {
+            .card-body {
+                padding: 10px;
+                color: black;
+                font-size: 1.5rem;
+            }
+
+            address,
+            p,
+            a {
+                font-size: 1.5rem;
+            }
+        }
+    }
+			
+			
+			
+							
+		
+		
+		j_lbl_field_required="This field is required.";	(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'968633c68ca78e5c',t:'MTc1NDA2MDM5Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();
+
+
+
+
+	#back-to-top-btn{
+		position: fixed;
+		bottom: 20px; /* Adjust as needed */
+		left: 20px; /* Adjust as needed */
+		padding: 9px 15px;
+		background-color: darkorange; /* Adjust to your preferred button color */
+		color: #fff; /* Adjust to your preferred text color */
+		border: none;
+		border-radius: 50%;
+		font-size: 16px;
+		cursor: pointer;
+		display: none;
+	}
+
+	#back-to-top-btn:hover {
+		box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	}
+
+
+
+
+	window.futrWebchatSettings = [ 
+		"5UVseWEfecgZ2Eb3Dok3A8", 
+		{ 
+			calloutLabel: "24/7 Support", 
+			calloutTitle: "Sarawak Tourism ", 
+			calloutExplainer: "Ask us a question"
+		} 
+	]; 
+
+
+
+
+
+	// show loader when page redirect
+	window.onbeforeunload = function (event) {
+		$('.full-page-loader').show();
+	};
+
+	function back_to_top() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+	}
+
+	document.addEventListener("DOMContentLoaded", function() {
+		var backToTopButton = document.getElementById("back-to-top-btn");
+
+		// Function to toggle button visibility
+		function toggleBackToTopButton() {
+			if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+				backToTopButton.style.display = "block";
+			} else {
+				backToTopButton.style.display = "none";
+			}
+		}
+		toggleBackToTopButton();
+		
+		// Toggle button visibility on scroll
+		window.onscroll = function() {
+			toggleBackToTopButton();
+		};
+	});
+
+
+
+
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '640820263001734');
+fbq('track', 'PageView');
+
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=640820263001734&ev=PageView&noscript=1"
+/>
+
+
+
+
+window.sjn=window.sjn||function(){(sjn.q=sjn.q||[]).push(arguments)};sjn("initAndFire","advertiser","20918","homePage",{context:{vertical:"vacation"},params:{pixelID:388320}});
+
+    

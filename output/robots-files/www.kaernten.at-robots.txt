@@ -1,0 +1,67 @@
+User-agent: *
+
+# Only allow URLs generated with RealURL (deprecated - deleted soon)
+#Disallow: /*?id=*
+#Disallow: /*&id=*
+
+# L=0 is the default language
+Disallow: /*?L=0*
+Disallow: /*&L=0*
+
+# typeNum = 2002 is the weather details page
+Disallow: /*?type=2002*
+Disallow: /*&type=2002*
+
+# tx_typoscriptrendering is the ski reports details page
+Disallow: /*?tx_typoscriptrendering*
+Disallow: /*&tx_typoscriptrendering*
+
+# Should always be protected (.htaccess)
+Disallow: /*/Private/*
+Disallow: /*/Configuration/*
+
+# Do not index typo3temp (except some resources)
+#Allow: /typo3temp/*.css$
+#Allow: /typo3temp/*.css.*.gzip$
+#Allow: /typo3temp/*.js$
+#Allow: /typo3temp/*.js.*.gzip$
+#Allow: /typo3temp/*.jpg$
+#Allow: /typo3temp/*.gif$
+#Allow: /typo3temp/*.png$
+#Allow: /typo3temp/*.svg$
+#Disallow: /typo3temp/*
+
+# Do not index typo3 extensions (except some resources)
+#Allow: /typo3conf/*.css$
+#Allow: /typo3conf/*.css.*.gzip$
+#Allow: /typo3conf/*.js$
+#Allow: /typo3conf/*.js.*.gzip$
+#Allow: /typo3conf/*.jpg$
+#Allow: /typo3conf/*.gif$
+#Allow: /typo3conf/*.png$
+#Allow: /typo3conf/*.svg$
+#Disallow: /typo3conf/*
+
+# Do not index typo core files (except some resources)
+Allow: /typo3/*.css$
+Allow: /typo3/*.css.*.gzip$
+Allow: /typo3/*.js$
+Allow: /typo3/*.js.*.gzip$
+Allow: /typo3/*.jpg$
+Allow: /typo3/*.gif$
+Allow: /typo3/*.png$
+Allow: /typo3/*.svg$
+Disallow: /typo3/*
+
+Disallow: *.sql
+Disallow: *.sql.gz
+
+Disallow: *.popup-360
+Disallow: *.popup-bookmarked
+
+# Do not index matomo
+Disallow: /matomo/*
+
+Sitemap: https://www.kaernten.at/sitemap.xml
+Sitemap: https://www.kaernten.at/sitemap_erlebnisse.xml
+Sitemap: https://www.kaernten.at/sitemap_unterkuenfte.xml

@@ -1,0 +1,46 @@
+User-agent: *
+Disallow: /*searchParams=
+
+User-agent: *
+Disallow: /backend/
+
+User-agent: Mj12bot.com
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: Barkrowler
+Disallow: /
+
+User-agent: SEO Crawler
+Disallow: /
+
+User-agent: Daum/4.1
+Disallow: /
+
+User-agent: BLEXBot/1.0
+Disallow: /
+
+User-agent: IonCrawl
+Disallow: /
+
+User-agent: SeznamBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: SEOkicks
+Disallow: /
+
+User-agent: serpstatbot
+Disallow: /
+
+Sitemap: https://www.vedes.com/sitemap.xml

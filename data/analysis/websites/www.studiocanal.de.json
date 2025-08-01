@@ -1,0 +1,30 @@
+{
+  "domain": "www.studiocanal.de",
+  "normalizedDomain": "www.studiocanal.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false
+    },
+    {
+      "name": "SemrushBot-SA",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "YouBot",
+      "allowed": false
+    }
+  ]
+}

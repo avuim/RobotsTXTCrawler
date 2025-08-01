@@ -1,0 +1,22 @@
+{
+  "domain": "www.xing.com",
+  "normalizedDomain": "www.xing.com",
+  "bots": [
+    {
+      "name": "CrazyWebCrawler-Spider",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "pimeyes.com crawler",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    }
+  ]
+}

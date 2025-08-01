@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /newsletter-rest
+Disallow: /rootpage.silentlogin-callback.html
+Disallow: /rootpage.loginstatechanged-callback.html
+Disallow: /libs/granite/csrf/token.json
+Disallow: /azonetrust/AZD/*
+Disallow: /azutils/prod/atl/cross-domain-storage/page-to-embed.html
+
+Sitemap: https://www.allianz.de/sitemap.xml
+Sitemap: https://www.allianz.de/content/dam/onemarketing/azde/azd/sitemap/ansprechpartner-vor-ort.xml

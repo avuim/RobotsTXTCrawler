@@ -1,0 +1,14 @@
+{
+  "domain": "www.chanel.com",
+  "normalizedDomain": "www.chanel.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    }
+  ]
+}

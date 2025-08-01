@@ -1,0 +1,14 @@
+{
+  "domain": "www.lgt.com",
+  "normalizedDomain": "www.lgt.com",
+  "bots": [
+    {
+      "name": "TwitterBot",
+      "allowed": true
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

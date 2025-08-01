@@ -1,0 +1,18 @@
+{
+  "domain": "www.aida.de",
+  "normalizedDomain": "www.aida.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "RyteBot",
+      "allowed": false
+    },
+    {
+      "name": "sistrixbot",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+# robots.txt for www.wuerth.de
+
+User-agent: *
+Disallow: /web2/
+Disallow: /web2/blaetterkatalog/
+Disallow: /web2/medien/
+Disallow: /web2/newsletter/
+Disallow: /web2/w_style/
+Disallow: /web2/e-motion_062017/
+Disallow: /_de/
+Disallow: /fontimage/
+Disallow: /web/media/system/framework
+Disallow: /web/media/system/caasframework
+
+User-agent: Googlebot
+Disallow: /web2/
+Disallow: /web2/blaetterkatalog/
+Disallow: /web2/medien/
+Disallow: /web2/newsletter/
+Disallow: /web2/w_style/
+Disallow: /web2/e-motion_062017/
+#Disallow: /web/de/awkg/niederlassungen/niederlassungsfinder.php
+Disallow: /_de/
+Disallow: /fontimage/
+Disallow: /web/media/system/framework
+Disallow: /web/media/system/caasframework
+
+User-agent: Slurp
+Disallow: /web2/blaetterkatalog/
+Disallow: /web2/medien/
+Disallow: /web2/newsletter/
+Disallow: /web2/w_style/
+Disallow: /web2/e-motion_062017/
+#Disallow: /web/de/awkg/niederlassungen/niederlassungsfinder.php
+Disallow: /_de/
+Disallow: /fontimage/
+Disallow: /web/media/system/framework
+Disallow: /web/media/system/caasframework
+Disallow: /*?sessionid
+
+Sitemap: https://www.wuerth.de/web/de/awkg/sitemap/sitemap.xml 

@@ -1,0 +1,14 @@
+{
+  "domain": "www.ing.de",
+  "normalizedDomain": "www.ing.de",
+  "bots": [
+    {
+      "name": "QualidatorBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

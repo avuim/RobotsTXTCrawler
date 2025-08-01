@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: */catalog/
+Allow: */catalog/product/
+Disallow: */catalogsearch/
+Disallow: */checkout/
+Disallow: */customer/
+Disallow: */newsletter/
+Disallow: */review/
+Disallow: */wishlist/
+Disallow: /*?SID=
+Disallow: /*?gclid=
+Disallow: /*?shoe_size=
+
+Sitemap: https://rieker.com/media/sitemap/sitemap.xml

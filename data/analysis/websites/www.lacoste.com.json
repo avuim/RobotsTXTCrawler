@@ -1,0 +1,26 @@
+{
+  "domain": "www.lacoste.com",
+  "normalizedDomain": "www.lacoste.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    }
+  ]
+}

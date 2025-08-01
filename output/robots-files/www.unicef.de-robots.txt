@@ -1,0 +1,41 @@
+User-agent: *
+Disallow: /unicef/suche
+Disallow: /unicef/suche/
+Disallow: /start
+Disallow: /action/unicef/bsearch/
+Disallow: /action/unicef/nsearch/
+Disallow: /action/unicef/comment/
+Disallow: /api/comments/
+Disallow: /image/177924/teaser/302/140/982f7e12ad4b6afc04f10a0bcbdbbb47/qX/lydia-wiesmann-jpg.jpg
+Disallow: /*submitAndConfirmDonation
+Noindex: /*submitAndConfirmDonation
+Sitemap: https://www.unicef.de/_cae/action/unicef/sitemap/googlenews.xml
+
+User-agent: EmailCollector
+Disallow: /
+
+User-agent: sitecheck.internetseer.com
+Disallow: /
+
+User-agent: Zealbot
+Disallow: /
+
+User-agent: MSIECrawler
+Disallow: /
+
+User-agent: dataforseo
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SiteSnagger
+Disallow: /
+
+User-agent: WebStripper
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+Sitemap: https://www.unicef.de/sitemap_index.xml

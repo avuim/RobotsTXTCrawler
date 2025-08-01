@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+Disallow: /All_components
+Disallow: /system/probes/health
+Disallow: /errors
+Disallow: /generalsettings
+
+#params GSC
+Disallow: /*?*cioid=
+Disallow: /*?*msclkid=
+Disallow: /*?*aff=
+Disallow: /*?*marketingid=
+Disallow: /*?*campID=
+Disallow: /*?*objectid=
+Disallow: /*?*ca_id=
+Disallow: /*?*link=
+Disallow: /*?*ref=
+Disallow: /*?*noHeader=
+Disallow: /*?*noFooter=
+Disallow: /*?*creative=
+Disallow: /*?*PHPSESSID=
+Disallow: /*?*utm_campaign=
+Disallow: /*?*utm_term=
+Disallow: /*?*gclid=
+Disallow: /*?*map=
+Disallow: /*?*action=
+Disallow: /*?*smel=
+Disallow: /*?*view=
+
+
+Sitemap: https://www.pyur.com/sitemap.xml

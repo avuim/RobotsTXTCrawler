@@ -1,0 +1,18 @@
+{
+  "domain": "www.playstation.com",
+  "normalizedDomain": "www.playstation.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Algolia Crawler",
+      "allowed": true
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "www.creditmutuel.de",
+  "normalizedDomain": "www.creditmutuel.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "SiteAuditBot",
+      "allowed": false
+    }
+  ]
+}

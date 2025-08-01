@@ -1,0 +1,29 @@
+User-agent: *
+Disallow: /catalogsearch/
+
+Disallow: /catalog/product_compare/
+Disallow: /catalog/category/view/
+Disallow: /catalog/product/view/
+Disallow: /checkout/
+Disallow: /customer/
+Disallow: /sendfriend/
+Disallow: /ajaxcart/
+Disallow: /ajax/
+Disallow: /productalert/
+Disallow: /review/
+Disallow: /downloadable/
+Disallow: /newsletter
+
+Disallow: /LICENSE.html
+Disallow: /LICENSE.txt
+Disallow: /LICENSE_AFL.txt
+Disallow: /index.php
+Disallow: /get.php
+Disallow: /app/
+Disallow: /lib/
+Disallow: /pkginfo/
+Disallow: /report/
+Disallow: /var/
+
+Sitemap: https://www.josera.de/sitemaps/sitemap_de.xml
+Sitemap: https://www.josera.de/sitemaps/blog_sitemap_de.xml

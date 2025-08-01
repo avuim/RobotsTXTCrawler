@@ -1,0 +1,45 @@
+User-agent: *
+
+
+Disallow: /fileadmin/_temp_/
+Disallow: /typo3/
+Disallow: /typo3/*
+Disallow: /typo3_src/
+Disallow: /typo3conf/
+Disallow: /clear.gif
+Disallow: /typo3temp/
+Disallow: /suchergebnis/*
+Disallow: /musterseiten/*
+Disallow: /frb_certificates/*
+Disallow: /logs/
+Disallow: /logs/*
+Disallow: /elaine/*
+
+
+Allow: /typo3conf/*.css
+Allow: /typo3conf/*.js
+Allow: /typo3conf/*.jpg
+Allow: /typo3conf/*.jpeg
+Allow: /typo3conf/*.png
+Allow: /typo3conf/*.webp
+Allow: /typo3conf/*.svg
+Allow: /typo3conf/*.gif
+Allow: /typo3conf/*.ttf
+Allow: /typo3conf/*.woff
+Allow: /typo3conf/*.woff2
+Allow: /typo3temp/*.css
+Allow: /typo3temp/*.js
+Allow: /typo3temp/*.gif
+Allow: /typo3temp/*.jpg
+Allow: /typo3temp/*.jpeg
+Allow: /typo3temp/*.png
+Allow: /typo3temp/*.webp
+Allow: /typo3temp/*.svg
+Allow: /typo3temp/_processed_/*
+Allow: /typo3temp/assets/*
+Allow: /fileadmin/*
+Allow: /uploads/media/*
+
+
+
+Sitemap: https://www.uno-fluechtlingshilfe.de/sitemap.xml

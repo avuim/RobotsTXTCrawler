@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /bin/
+Disallow: /xsl/
+Disallow: /home/
+Disallow: /temp/
+Disallow: /admin/
+Disallow: /views/
+Disallow: /upload/
+Disallow: /layouts/
+Disallow: /App_Data/
+Disallow: /sitecore/
+Disallow: /App_Config/
+Disallow: /App_Browsers/
+Disallow: /sitecore_files/
+Disallow: /sitecore%20modules/
+Allow: /sitecore/api/jss/dictionary/
+# Algolia-Crawler-Verif: B0618F11D41D6AE2
+
+Sitemap: https://www.velux.de/sitemap.xml
+Sitemap: https://www.velux.de/sitemap-custom.xml

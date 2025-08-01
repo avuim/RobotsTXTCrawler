@@ -1,0 +1,14 @@
+{
+  "domain": "www.eon.de",
+  "normalizedDomain": "www.eon.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    }
+  ]
+}

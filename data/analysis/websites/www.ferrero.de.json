@@ -1,0 +1,14 @@
+{
+  "domain": "www.ferrero.de",
+  "normalizedDomain": "www.ferrero.de",
+  "bots": [
+    {
+      "name": "GoogleBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

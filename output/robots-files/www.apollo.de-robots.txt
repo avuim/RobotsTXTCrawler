@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /cart
+Disallow: /my-account/*
+Disallow: /wishlist
+Disallow: /voucher
+Disallow: /checkout
+Disallow: *?storeId=
+Disallow: /write-review?
+Disallow: /termin-stornieren
+Disallow: /termin-verschieben
+
+Sitemap: https://www.apollo.de/sitemap.xml

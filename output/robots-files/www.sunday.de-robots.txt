@@ -1,0 +1,40 @@
+User-agent:*
+
+Disallow: */lib/
+Disallow: */index.php/
+Disallow: */*.php$
+Disallow: */pkginfo/
+Disallow: */report/
+Disallow: */var/
+Disallow: */app/
+Disallow: */bin/
+Disallow: */dev/
+Disallow: */lib/
+Disallow: */phpserver/
+Disallow: */tag/
+
+Disallow: */sendfriend/
+Disallow: */newsletter/
+Disallow: */payone/payments/management/
+Disallow: */review/
+Disallow: */mpgiftcard/
+Disallow: */vault/cards/listaction/
+Disallow: */wishlist/
+Disallow: */newsletter/manage/
+Disallow: */sales/order/history/
+Disallow: */checkout/
+Disallow: */onestepcheckout/
+Disallow: */catalog/product_compare/
+Disallow: */customer/
+Disallow: */sundayshowmore/
+Disallow: */catalogsearch/
+Disallow: */*?qs*
+
+User-agent: ia_archiver
+Disallow: /
+User-agent: is_archiver
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+Sitemap: https://media.sunday-natural.com/media/sitemap_de.xml

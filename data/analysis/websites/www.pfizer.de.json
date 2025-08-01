@@ -1,0 +1,22 @@
+{
+  "domain": "www.pfizer.de",
+  "normalizedDomain": "www.pfizer.de",
+  "bots": [
+    {
+      "name": "Applebot",
+      "allowed": true
+    },
+    {
+      "name": "ms-search-crawler",
+      "allowed": true
+    },
+    {
+      "name": "PopeTech-CrawlBot",
+      "allowed": true
+    },
+    {
+      "name": "PopeTech-ScanBot",
+      "allowed": true
+    }
+  ]
+}

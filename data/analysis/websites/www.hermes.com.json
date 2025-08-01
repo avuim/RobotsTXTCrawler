@@ -1,0 +1,42 @@
+{
+  "domain": "www.hermes.com",
+  "normalizedDomain": "www.hermes.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "360Spider",
+      "allowed": false
+    },
+    {
+      "name": "HaosouSpider",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider-mobile",
+      "allowed": false
+    },
+    {
+      "name": "Sogou+inst+spider",
+      "allowed": false
+    },
+    {
+      "name": "Sogou+spider2",
+      "allowed": false
+    },
+    {
+      "name": "Sogou+web+spider/4.0",
+      "allowed": false
+    },
+    {
+      "name": "YisouSpider",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "www.centerparcs.de",
+  "normalizedDomain": "www.centerparcs.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# www.robotstxt.org/
+# https://developers.google.com/webmasters/control-crawl-index/
+
+User-agent: *
+Disallow: /typo3/
+Disallow: /typo3conf/
+Disallow: /typo3temp/var
+
+Allow: /typo3conf/ext/ondigoconfiguration/Resources/Public
+
+Sitemap: https://www.kieser.com/sitemap.xml
+Sitemap: https://www.kieser.com/en/sitemap.xml
+Sitemap: https://www.kieser.com/fr/sitemap.xml

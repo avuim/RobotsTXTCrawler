@@ -1,0 +1,8 @@
+User-agent: bingbot
+Disallow: /suche/
+
+User-agent: Adsbot-Google
+Disallow: /gate/
+
+User-agent: *
+Disallow: /gate/

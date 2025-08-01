@@ -1,0 +1,14 @@
+{
+  "domain": "www.deutsche-bank.de",
+  "normalizedDomain": "www.deutsche-bank.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "DBSearch",
+      "allowed": false
+    }
+  ]
+}

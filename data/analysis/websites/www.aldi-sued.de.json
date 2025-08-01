@@ -1,0 +1,62 @@
+{
+  "domain": "www.aldi-sued.de",
+  "normalizedDomain": "www.aldi-sued.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "Cohere-Ai",
+      "allowed": true
+    },
+    {
+      "name": "OmgiliBot",
+      "allowed": true
+    },
+    {
+      "name": "Omgili",
+      "allowed": true
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": true
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": true
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
+      "name": "applebot-extended",
+      "allowed": true
+    }
+  ]
+}

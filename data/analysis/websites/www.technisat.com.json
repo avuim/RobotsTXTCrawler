@@ -1,0 +1,18 @@
+{
+  "domain": "www.technisat.com",
+  "normalizedDomain": "www.technisat.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": true
+    }
+  ]
+}

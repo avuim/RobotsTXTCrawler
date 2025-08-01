@@ -1,0 +1,14 @@
+{
+  "domain": "www.visitqatar.com",
+  "normalizedDomain": "www.visitqatar.com",
+  "bots": [
+    {
+      "name": "Baiduspider-news",
+      "allowed": false
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    }
+  ]
+}

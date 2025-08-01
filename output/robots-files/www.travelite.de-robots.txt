@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow">
+                <title>Sales Channel Not Found</title>
+                <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            h1, h2 {
+                color: #2c3e50;
+            }
+            .issue {
+                background-color: #f8f9fa;
+                border-left: 4px solid #007bff;
+                padding: 10px;
+                margin-bottom: 20px;
+            }
+            .solution {
+                background-color: #e9ecef;
+                border-left: 4px solid #28a745;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            code {
+                white-space: pre;
+            }
+        </style>
+    </head>
+    <body>
+
+                <h1>Sales Channel Not Found</h1>
+
+        <p>Sorry, we couldn't find a Sales Channel for the current URL. Please check the URL and try again.</p>
+        <p>For more information, enable the debug mode in the <code>.env</code> with <code>APP_DEBUG=1</code></p>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /typo3/
+Disallow: /typo3_src/
+Allow: /typo3/sysext/frontend/Resources/Public/*
+
+Disallow: /nc/service/mediathek/shop/artikel/broschueren-poster-*
+Disallow: /nc/service/mediathek/shop/artikel/tolle-spiele-*
+Disallow: /nc/service/mediathek/shop/artikel/audio-*
+Disallow: /nc/service/mediathek/shop/artikel/praktische-apps-*
+Disallow: /ueber-uns/presse/pressemitteilungen/news/detail/News/*/listenansicht/seite*
+Disallow: /produkte/ergaenzende-inhalte/*
+Disallow: /apothekenfinder/praeparate/praeparatedaten/*
+
+Sitemap: https://www.ratiopharm.de/sitemap.xml

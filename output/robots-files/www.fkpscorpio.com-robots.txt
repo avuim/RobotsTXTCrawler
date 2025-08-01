@@ -1,0 +1,33 @@
+User-Agent: *
+Allow: /
+
+# folders
+Disallow: /typo3/
+Disallow: /typo3conf/
+Allow: /typo3conf/ext/*/Resources/Public/*
+Allow: /typo3conf/ext/cookieman/Resources/Public/*
+Allow: /typo3conf/ext/fkp/Resources/Public/*
+Allow: /typo3temp/
+Allow: /typo3/sysext/frontend/Resources/Public/*
+
+# parameters
+Disallow: /*?id=*               # non-realurl URLs
+Disallow: /*cHash               # no cHash
+Allow: /*/sitemap.xml?sitemap=*&cHash=*      # allow cHash for sitemaps
+
+User-agent: Googlebot
+Disallow:
+User-agent: Googlebot-image
+Disallow:
+
+# sitemap
+#Sitemap: https://tempelhofsounds.berlin/de/sitemap.xml
+#Sitemap: https://tempelhofsounds.berlin/en/sitemap.xml
+
+#Sitemap: https://plagenoire.de/de/sitemap.xml
+#Sitemap: https://southside.de/de/sitemap.xml
+#Sitemap: https://hurricane.de/de/sitemap.xml
+#Sitemap: https://rollingstone-beach.de/de/sitemap.xml
+#Sitemap: https://metal-hammer-paradise.de/de/sitemap.xml
+#Sitemap: https://highfield.de/de/sitemap.xml
+#Sitemap: https://meraluna.de/de/sitemap.xml

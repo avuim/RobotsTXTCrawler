@@ -1,0 +1,18 @@
+{
+  "domain": "www.motatos.de",
+  "normalizedDomain": "www.motatos.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot-image",
+      "allowed": false
+    }
+  ]
+}

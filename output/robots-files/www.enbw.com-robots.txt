@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /*.htm$
+Disallow: /*.json$
+Disallow: /api/
+Disallow: /business-service-hidden/
+
+Sitemap: https://www.enbw.com/sitemap-de-vertrieb.xml
+Sitemap: https://www.enbw.com/blog/sitemap_index.xml
+Sitemap: https://www.enbw.com/sitemap-de.xml
+Sitemap: https://www.enbw.com/sitemap-en.xml
+Sitemap: https://www.enbw.com/sitemap-fr.xml
+Sitemap: https://www.enbw.com/sitemap-se.xml

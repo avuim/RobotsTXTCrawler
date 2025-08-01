@@ -1,0 +1,22 @@
+{
+  "domain": "www.payback.de",
+  "normalizedDomain": "www.payback.de",
+  "bots": [
+    {
+      "name": "OnPageBot",
+      "allowed": false
+    },
+    {
+      "name": "RyteBot/1.0.0",
+      "allowed": false
+    },
+    {
+      "name": "rogerbot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

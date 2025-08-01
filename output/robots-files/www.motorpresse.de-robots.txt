@@ -1,0 +1,6 @@
+# Allow sitemap
+sitemap: https://www.motorpresse.de/sitemap/sitemap-default-index.xml
+
+# disallow api-explorer
+User-agent: *
+disallow: /api-explorer/*

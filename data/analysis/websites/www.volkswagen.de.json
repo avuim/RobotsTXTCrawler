@@ -1,0 +1,30 @@
+{
+  "domain": "www.volkswagen.de",
+  "normalizedDomain": "www.volkswagen.de",
+  "bots": [
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "msnbot",
+      "allowed": true
+    },
+    {
+      "name": "gsa-crawler",
+      "allowed": true
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

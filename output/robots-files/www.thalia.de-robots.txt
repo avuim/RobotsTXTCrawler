@@ -1,0 +1,58 @@
+# Quelle: Asset-Service
+
+User-agent: *
+Disallow: /abokaufen/abokauf
+Disallow: /affiliate/
+Disallow: /anonymisieren/loeschen
+Disallow: /api/
+Disallow: /autorenportrait/v1/*/content
+Disallow: /base/
+Disallow: /bestelluebersicht
+Disallow: /bewertung/verfassen
+Disallow: /downloadcode/
+Disallow: /empfehlungen/
+Disallow: /kontakt/bewertungen/
+Disallow: /konto/
+Disallow: /shop/home/kunde/
+Disallow: /shop/home/kundenbewertung/
+Disallow: /shop/home/merkliste/
+Disallow: /shop/home/newsletter/abmelden/success.html
+Disallow: /shop/home/newsletter/doi.html
+Disallow: /shop/home/warenkorb/add
+Disallow: /suche
+Disallow: /tag/
+Disallow: /warenkorb/
+
+User-agent: AdsBot-Google
+Disallow: /*-resources/
+Disallow: /abokaufen/api/
+Disallow: /affiliate/
+Disallow: /api/
+Disallow: /club/
+Disallow: /filialbestandsanzeige/
+Disallow: /include/login/
+Disallow: /leseexemplarservice/
+Disallow: /login/
+
+User-agent: facebookexternalhit
+Disallow: /*-resources/
+Disallow: /abokaufen/
+Disallow: /affiliate/
+Disallow: /api/
+Disallow: /bewertungsservice/
+Disallow: /kundeninteressen/
+Disallow: /leseexemplarservice/
+Disallow: /tag/
+
+User-agent: GPTBot
+Crawl-delay: 1
+
+User-agent: Pinterestbot
+Crawl-delay: 1
+
+
+Sitemap: https://www.thalia.de/sitemaps/kategorie/kategorie.xml
+Sitemap: https://www.thalia.de/sitemaps/artikel/artikel.xml
+Sitemap: https://www.thalia.de/sitemaps/autoren/autoren.xml
+Sitemap: https://www.thalia.de/sitemaps/themenwelt/themenwelt.xml
+Sitemap: https://www.thalia.de/sitemaps/images/image_sitemap_index.xml

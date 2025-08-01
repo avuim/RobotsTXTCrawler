@@ -1,0 +1,12 @@
+Sitemap: https://www.flens.de//sitemap.xml
+User-agent: *
+Disallow: /fileadmin/_temp_/
+Disallow: /typo3/
+Disallow: /typo3_src/
+Disallow: /typo3conf/
+Allow: /typo3/sysext/frontend/Resources/Public/*
+Disallow: /*ajax*/
+Disallow: /api/
+Disallow: /*.woff2
+Disallow: /verstehen/tag/
+ 

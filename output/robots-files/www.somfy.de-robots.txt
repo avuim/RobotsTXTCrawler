@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /CFIDE/
+Disallow: /0
+Disallow: /CFIDE/*
+Disallow: /de_v4/*
+
+Disallow: /suche 
+User-agent: rogerbot
+Disallow: /
+Sitemap: https://www.somfy.de/sitemap.xml
+
+
+

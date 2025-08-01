@@ -4,10 +4,10 @@
     "totalBots": 1187,
     "totalWebsites": 653,
     "botCategories": {
-      "aiScraper": 31,
-      "searchEngine": 54,
       "other": 1058,
-      "seo": 44
+      "seo": 44,
+      "aiScraper": 31,
+      "searchEngine": 54
     },
     "topBots": [
       {
@@ -74,74 +74,74 @@
   },
   {
     "month": "2025-08",
-    "totalBots": 1197,
-    "totalWebsites": 656,
+    "totalBots": 1318,
+    "totalWebsites": 1117,
     "botCategories": {
-      "aiScraper": 32,
-      "searchEngine": 54,
-      "other": 1067,
-      "seo": 44
+      "other": 1161,
+      "seo": 52,
+      "aiScraper": 34,
+      "searchEngine": 71
     },
     "topBots": [
       {
         "name": "*",
-        "websites": 845,
-        "allowed": 263,
-        "disallowed": 582
+        "websites": 1496,
+        "allowed": 489,
+        "disallowed": 1007
       },
       {
         "name": "GPTBot",
-        "websites": 264,
-        "allowed": 35,
-        "disallowed": 229
+        "websites": 280,
+        "allowed": 38,
+        "disallowed": 242
       },
       {
         "name": "CCBot",
-        "websites": 220,
-        "allowed": 31,
-        "disallowed": 189
+        "websites": 231,
+        "allowed": 33,
+        "disallowed": 198
       },
       {
         "name": "ChatGPT-User",
-        "websites": 153,
-        "allowed": 10,
-        "disallowed": 143
+        "websites": 159,
+        "allowed": 13,
+        "disallowed": 146
       },
       {
         "name": "Google-Extended",
-        "websites": 137,
-        "allowed": 9,
-        "disallowed": 128
+        "websites": 147,
+        "allowed": 12,
+        "disallowed": 135
       },
       {
         "name": "ClaudeBot",
-        "websites": 126,
-        "allowed": 2,
-        "disallowed": 124
+        "websites": 134,
+        "allowed": 4,
+        "disallowed": 130
       },
       {
         "name": "anthropic-ai",
-        "websites": 106,
-        "allowed": 5,
-        "disallowed": 101
+        "websites": 110,
+        "allowed": 7,
+        "disallowed": 103
       },
       {
         "name": "Bytespider",
-        "websites": 101,
-        "allowed": 2,
-        "disallowed": 99
+        "websites": 107,
+        "allowed": 3,
+        "disallowed": 104
       },
       {
         "name": "PerplexityBot",
-        "websites": 96,
-        "allowed": 7,
-        "disallowed": 89
+        "websites": 101,
+        "allowed": 10,
+        "disallowed": 91
       },
       {
         "name": "cohere-ai",
-        "websites": 80,
+        "websites": 83,
         "allowed": 0,
-        "disallowed": 80
+        "disallowed": 83
       }
     ]
   }

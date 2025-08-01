@@ -1,0 +1,22 @@
+{
+  "domain": "www.sunday.de",
+  "normalizedDomain": "www.sunday.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    },
+    {
+      "name": "is_archiver",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    }
+  ]
+}

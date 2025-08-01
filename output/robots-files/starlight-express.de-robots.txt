@@ -1,0 +1,8 @@
+User-Agent: *
+Allow: /
+Allow: /_next/static/
+Allow: /_next/image/
+Disallow: /api/*
+Disallow: /_next/*
+
+Sitemap: https://www.atgtickets.de/sitemap.xml

@@ -1,0 +1,14 @@
+{
+  "domain": "www.verivox.de",
+  "normalizedDomain": "www.verivox.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "zoomRank/2.0",
+      "allowed": false
+    }
+  ]
+}

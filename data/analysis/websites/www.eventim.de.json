@@ -1,0 +1,46 @@
+{
+  "domain": "www.eventim.de",
+  "normalizedDomain": "www.eventim.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "ccbot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "sogou web spider",
+      "allowed": false
+    },
+    {
+      "name": "yeti",
+      "allowed": false
+    },
+    {
+      "name": "coccocbot-web",
+      "allowed": false
+    },
+    {
+      "name": "vegi bot",
+      "allowed": false
+    },
+    {
+      "name": "semrushbot",
+      "allowed": false
+    },
+    {
+      "name": "megaindex crawler",
+      "allowed": false
+    },
+    {
+      "name": "megaindex.ru/2.0",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "www.somfy.de",
+  "normalizedDomain": "www.somfy.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "rogerbot",
+      "allowed": false
+    }
+  ]
+}

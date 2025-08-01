@@ -1,0 +1,34 @@
+{
+  "domain": "www.esn.com",
+  "normalizedDomain": "www.esn.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "adsbot-google",
+      "allowed": false
+    },
+    {
+      "name": "Nutch",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsSiteAudit",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Pinterest",
+      "allowed": false
+    }
+  ]
+}

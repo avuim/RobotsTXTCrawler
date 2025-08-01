@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+Disallow: /meinkonto/
+Disallow: /weihnachten-aktion
+Disallow: /weihnachtsaktion
+Disallow: /informationen/gratismonat
+Disallow: /informationen/weihnachten
+Disallow: /informationen/peter-maffay
+Disallow: /murmelmania/informationen
+Disallow: /murmelmania/staffel-1
+Disallow: /murmelmania/ergebisse/staffel-1
+Disallow: /v1/anmelden
+Disallow: /informationen/freunde-werben
+Disallow: /*.pdf
+
+# Host
+Host: https://www.postcode-lotterie.de
+
+# Sitemap
+Sitemap: https://www.postcode-lotterie.de/sitemap.xml

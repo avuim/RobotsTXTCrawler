@@ -1,0 +1,34 @@
+{
+  "domain": "www.die-linke.de",
+  "normalizedDomain": "www.die-linke.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "jobs.de-Robot",
+      "allowed": false
+    },
+    {
+      "name": "JobSpider",
+      "allowed": false
+    },
+    {
+      "name": "iCjobs",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "BUbiNG",
+      "allowed": false
+    }
+  ]
+}

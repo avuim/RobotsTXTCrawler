@@ -1,0 +1,127 @@
+# Thu, 31 Jul 2025 15:11:19 GMT (build: jaas-131)
+# DE
+
+User-agent: *
+Disallow: /*laufschuhe*
+Disallow: /*sportschuhe*
+Disallow: /*andere_sportschuhe*
+Disallow: /on/demandware.store/Sites-adidas-DE-Site/de_DE/
+Disallow: /search?*
+Disallow: /en/search?*
+Disallow: /personalizationengine
+Disallow: /api/consents/*
+Disallow: */account/*
+Disallow: /api/profanityList
+Disallow: /api/session-events
+Disallow: /_bm/_data
+Disallow: /api/ugc/models/*
+Disallow: /api/pages/plp?path=/no-search-results
+Disallow: /api/chk/customer/baskets*
+Disallow: /api/products/*/availability
+Disallow: /*payment/*
+Disallow: /*session-expired*
+Disallow: *404_page_not_found*
+Disallow: /api/size_charts/*
+Disallow: /api/search/product/*
+Disallow: /*|*
+Disallow: /*%7C*
+Disallow: /*ozworld*
+Disallow: */order-details
+Disallow: */confirmation
+ 
+Allow: /*-*-*-*-*.js*
+Allow: /*-*-*-*-*.json*
+Allow: /*-*-*-*-*.css*
+Allow: /*-*-*-*-*.svg*
+Allow: /*-*-*-*-*.png*
+Allow: /*-*-*-*-*.gif*
+Allow: /*-*-*-*-*.jpg*
+Allow: /*-*-*-*-*.jpeg*
+Allow: /*-*-*-*-*.webp*
+Allow: /*-*-*-*-*.woff2*
+Allow: /*-*-*-*-*.html*
+Allow: /*-*-*-*-*.xml*
+Allow: /*/*.html*
+Allow: /*size_charts/*-*-*-*-*
+Allow: /*storefront/*-*-*-*-*
+Allow: /*blog/*-*-*-*-*
+Allow: /*blogs/*-*-*-*-*
+Allow: /*api/*-*-*-*-*
+Allow: /*help/*-*-*-*-*
+Allow: /*hilfe/*-*-*-*-*
+Allow: /*stores/*-*-*-*-*
+Allow: /static/*favicon
+
+Disallow: /*-*-*-*-*
+
+# New Values:
+Disallow: /*outdoor_gifts*
+Disallow: /*test_plp_*
+Disallow: /*unisex*
+Disallow: /*season_sale*
+
+#Taxonomy Values:
+Disallow: /*?*collection* 
+Disallow: /*?*campaignplp* 
+Disallow: /*?*personalize* 
+Disallow: /*?*multi_age_gender* 
+Disallow: /*?*gendersub* 
+Disallow: /*?*age* 
+Disallow: /*?*searchcolor* 
+Disallow: /*?*v_size* 
+Disallow: /*?*partner* 
+Disallow: /*?*featurefilters* 
+Disallow: /*?*surface* 
+Disallow: /*?*foottype* 
+Disallow: /*?*brand* 
+Disallow: /*?*sportsubsub* 
+Disallow: /*?*sportsub* 
+Disallow: /*?*sustainability* 
+Disallow: /*?*functions* 
+Disallow: /*?*bestfor* 
+Disallow: /*?*sport* 
+Disallow: /*?*technology* 
+Disallow: /*?*productlinestyle* 
+Disallow: /*?*closure* 
+Disallow: /*?*producttype* 
+Disallow: /*?*features* 
+Disallow: /*?*division* 
+Disallow: /*?*outlet* 
+Disallow: /*?*shoefinder* 
+Disallow: /*?*new_arrivals* 
+Disallow: /*?*pattern* 
+Disallow: /*?*product_fit* 
+Disallow: /*?*back_length* 
+Disallow: /*?*neckline* 
+Disallow: /*?*base_material* 
+Disallow: /*?*rise*
+Disallow: /*?*price_min*
+Disallow: /*?*price_max*
+Disallow: /*?*sleeve_length*
+Disallow: /*?*gender* 
+Disallow: /*?_remoteinclude*
+
+# Other parameters:
+Disallow: /*?customize
+Disallow: /*?*prefn1=*
+Disallow: /*?*prefv1=*
+Disallow: /*?=$
+Disallow: /*?_=*
+Disallow: /*?lang=*
+Disallow: /*?itemselector=*
+Disallow: /*?itemSelector=*
+Disallow: /*?sge=*
+Disallow: /*?*gn*
+Disallow: /*?*strCountry_adidascom*
+Disallow: /*?*sz*
+
+User-agent: Baiduspider
+Disallow: /
+
+User-Agent: AhrefsBot 
+Crawl-delay: 10 
+
+User-Agent: Pinterestbot 
+Crawl-delay: 10
+Sitemap: https://www.adidas.de/glass/sitemaps/adidas/DE/en/sitemap-index.xml
+Sitemap: https://www.adidas.de/glass/sitemaps/adidas/DE/de/sitemap-index.xml

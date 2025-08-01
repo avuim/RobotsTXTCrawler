@@ -1,0 +1,131 @@
+User-agent: *
+
+#Don’t crawl certain end points
+Disallow: */CQRecomm-Start
+Disallow: */Adyen-GetPaymentMethods
+Disallow: */IZ-Client
+Disallow: *__Analytics-Start
+Disallow: */Header-MenuFlyouts
+Disallow: */ProductRecs-GetContext
+Disallow: */Product-AlsoAvailable
+Disallow: */Product-PDPOMSEDDLookup
+Disallow: */Product-Look
+Disallow: */Wishlist-IncludeJSON
+Disallow: */Product-Show
+Disallow: */Product-Variation
+Disallow: */Product-ShowInCategory
+Disallow: */Search-Show
+Disallow: */Wishlist-Add
+Disallow: */Wishlist-Include
+Disallow: */Wishlist-Remove
+Disallow: */Product-Variation
+Disallow: */Product-HitTile
+Disallow: */Checkout-GetBillCountries
+Disallow: */CheckoutServices-ExistingCustomer
+Disallow: *__SYSTEM__ApplePay-GetRequest
+Disallow: */Login-LoginForm
+Disallow: */Account-HeaderLogin
+Disallow: */Cart-SubmitForm
+Disallow: */Product-generateProductSchemas
+Disallow: */Product-GetCYOContentOnPDP
+
+
+# Don’t crawl personal pages
+Disallow: */account
+Disallow: */register
+Disallow: */wishlist
+Disallow: /*cart$
+Disallow: /cart/
+Disallow: */payment
+Disallow: */billing
+Disallow: */shipping
+Disallow: */order
+
+# Don’t crawl parameter pages
+Disallow: *srule
+
+# Don’t crawl search facets
+Disallow: */search/r/
+Disallow: */search*prefn*
+Disallow: */search*prefv*
+Disallow: */search*pmin*
+Disallow: */search*pmax*
+
+# Don’t crawl home facets
+Disallow: *home*/r/*
+Disallow: *la-maison*/r/*
+Disallow: *hogar*/r/*
+Disallow: *casa*/r/*
+
+# Don’t crawl explore facets
+Disallow: *explore*/r/*
+Disallow: *explorer*/r/*
+Disallow: *esplora*/r/*
+Disallow: *erkunden*/r/*
+Disallow: *ontdek*/r/*
+Disallow: *explorar*/r/*
+
+# Don’t crawl inspiration facets
+Disallow: */inspiracion/*/r/*
+Disallow: */inspirationen/*/r/*
+Disallow: */inspiration*/*/r/*
+Disallow: */ispirazioni/*/r/*
+
+# Don’t crawl top nav facets
+Disallow: */1020/r/*
+Disallow: */1030/r/*
+Disallow: */1040/r/*
+Disallow: */60105/r/*
+Disallow: */2020/r/*
+Disallow: */2030/r/*
+Disallow: */2040/r/*
+Disallow: */60203/r/*
+Disallow: *12020*/r/*
+Disallow: *12030*/r/*
+Disallow: *12050*/r/*
+Disallow: */70803/r/*
+Disallow: */1301023/r/*
+Disallow: */304028/r/*
+Disallow: */10102/r/*
+Disallow: *pink-pony*/r/*
+Disallow: */20102/r/*
+Disallow: */162026/r/*
+
+# Don’t crawl gift facets
+Disallow: *gift*/r/*
+Disallow: *geschenken*/r/*
+Disallow: *geschenke*/r/*
+Disallow: *cadeaux*/r/*
+Disallow: *regali*/r/*
+Disallow: *regalos*/r/*
+Disallow: *presentes*/r/*
+
+# Don’t crawl brand facets
+Disallow: *brands*/r/*
+Disallow: *merken*/r/*
+Disallow: *marques*/r/*
+Disallow: *linien*/r/*
+Disallow: *linee*/r/*
+Disallow: *marcas*/r/*
+
+# Don’t crawl BF & CW facets
+Disallow: *friday*/r/*
+Disallow: *cyber*/r/*
+
+# Don’t crawl new in facets
+Disallow: *whats-new*/r/*
+Disallow: *nouveautes*/r/*
+Disallow: *neu-und-interessant*/r/*
+Disallow: *novita*/r/*
+Disallow: *novedades*/r/*
+Disallow: *novidades*/r/*
+
+Sitemap: https://www.ralphlauren.fr/index
+Sitemap: https://www.ralphlauren.de/index
+Sitemap: https://www.ralphlauren.it/index
+Sitemap: https://www.ralphlauren.es/index
+Sitemap: https://www.ralphlauren.ie/index
+Sitemap: https://www.ralphlauren.ch/index
+Sitemap: https://www.ralphlauren.nl/index
+Sitemap: https://www.ralphlauren.be/index
+Sitemap: https://www.ralphlauren.pt/index

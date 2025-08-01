@@ -1,0 +1,18 @@
+{
+  "domain": "www.shop-apotheke.com",
+  "normalizedDomain": "www.shop-apotheke.com",
+  "bots": [
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdIdxBot",
+      "allowed": true
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

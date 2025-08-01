@@ -1,0 +1,38 @@
+User-agent: *
+Disallow: /*warenkorb
+Disallow: /*login/*
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot 
+​Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: Buck
+Disallow: /
+
+User-agent: VelenPublicWebCrawler
+Disallow: /
+
+User-agent: GeedoProductSearch
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: barkrowler
+Disallow: /
+
+User-agent: EzoicBot
+Disallow: /
+
+Sitemap: https://www.stihl.de/sitemapindex.xml

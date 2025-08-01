@@ -1,0 +1,52 @@
+# robots.txt / cep: 1
+User-Agent: *
+Disallow: /*artistid=*
+Disallow: /*component=seatmap
+Disallow: /*doc=feature/seatmap
+Disallow: /*fun=subscriptionpackage
+Disallow: /*fun=waitinglist
+Disallow: /*id=eso
+Disallow: /*id=qst
+Disallow: /*ptype=
+Disallow: /*queueittoken
+Disallow: /*secure
+Disallow: /*vegid=
+Disallow: /*inAPP=
+Disallow: /api/
+Disallow: /imageservlet
+Disallow: /isc-content/
+Disallow: /search/
+Disallow: /seatmap-data/
+Disallow: /secure
+Disallow: /identity/auth/ 
+Disallow: /fanreport/
+
+Sitemap: https://www.eventim.de/staticsite/sitemap/EVE/sitemapindex_de.xml
+Sitemap: https://www.eventim.de/staticsite/sitemap/EVE/sitemapindex_en.xml
+
+User-Agent: ccbot
+Disallow: /
+
+User-Agent:dotbot
+Disallow: /
+
+User-Agent:sogou web spider
+Disallow: /
+
+User-Agent:yeti
+Disallow: /
+
+User-Agent:coccocbot-web
+Disallow: /
+
+User-Agent:vegi bot
+Disallow: /
+
+User-Agent:semrushbot
+Disallow: /
+
+User-Agent:megaindex crawler
+Disallow: /
+
+User-Agent:megaindex.ru/2.0
+Disallow: /

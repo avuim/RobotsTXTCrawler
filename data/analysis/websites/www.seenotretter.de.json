@@ -1,0 +1,14 @@
+{
+  "domain": "www.seenotretter.de",
+  "normalizedDomain": "www.seenotretter.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": false
+    }
+  ]
+}

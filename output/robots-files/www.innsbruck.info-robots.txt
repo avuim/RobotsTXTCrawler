@@ -1,0 +1,28 @@
+User-agent: *
+
+Disallow: /*?sessionid
+Disallow: /epaper/
+Disallow: /tagung/webxanfrage/
+
+Disallow: /*?L=*
+Disallow: /*?tx_webxbookingemo_event[listevent]=*
+
+Disallow: /*?id=* # Deaktiviert non-realurl URLs
+
+Disallow: /pdf/*
+Disallow: /fileadmin/pdf/*
+
+Disallow: /kiosk
+Disallow: /en/kiosk
+
+Disallow: /markthalle/webcam/*
+Disallow: /miemingerplateau/webcam/*
+Disallow: /patscherkofel/webcam/*
+Disallow: /sonnenplateau/webcam/*
+
+Sitemap: https://www.innsbruck.info/sitemap.xml
+Sitemap: https://www.innsbruck.info/en/sitemap.xml
+Sitemap: https://www.innsbruck.info/it/sitemap.xml
+Sitemap: https://www.innsbruck.info/fr/sitemap.xml
+Sitemap: https://www.innsbruck.info/es/sitemap.xml
+Sitemap: https://www.innsbruck.info/nl/sitemap.xml

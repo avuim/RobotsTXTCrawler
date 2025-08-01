@@ -1,0 +1,18 @@
+{
+  "domain": "www.neudorff.de",
+  "normalizedDomain": "www.neudorff.de",
+  "bots": [
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

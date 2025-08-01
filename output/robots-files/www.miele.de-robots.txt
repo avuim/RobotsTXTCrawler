@@ -1,0 +1,17 @@
+# For all robots
+User-agent: *
+Disallow: /cart
+Disallow: /*checkout*
+Disallow: /*compare*
+Disallow: /*logout*
+Disallow: /*/account/*
+Allow: /*?page=*
+Disallow: /*&query=*
+Disallow: /*wishlist/handle/*
+Disallow: /*csrf?_=*
+Disallow: /pmedia/*
+Disallow: /modules/contentstring/*
+Disallow: /e/authentication/status
+Disallow: /*/products/price-and-stock?lang=*
+
+Sitemap: https://www.miele.de/sitemap-index.xml

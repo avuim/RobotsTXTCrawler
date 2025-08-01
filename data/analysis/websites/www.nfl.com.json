@@ -1,0 +1,14 @@
+{
+  "domain": "www.nfl.com",
+  "normalizedDomain": "www.nfl.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": false
+    }
+  ]
+}

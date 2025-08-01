@@ -1,0 +1,56 @@
+User-Agent: *
+Allow: /
+
+# folders
+Disallow: /typo3/
+Disallow: /typo3_src/
+Disallow: /typo3conf/
+Allow: /typo3conf/ext/
+Allow: /typo3temp/
+Allow: /typo3/sysext/frontend/Resources/Public/*
+
+# parameters
+Disallow: /*&id=*
+Disallow: /*?id=*                   # non-realurl URLs
+Disallow: /*cHash                   # no cHash
+Disallow: /*tx_form_formframework   # no forms
+
+Sitemap: https://www.intersnackgroup.com/sitemap.xml
+Sitemap: https://www.intersnack.de/sitemap.xml
+Sitemap: https://www.intersnack.de/en/sitemap.xml
+Sitemap: https://www.kelly.at/sitemap.xml
+Sitemap: https://www.kelly.at/en/sitemap.xml
+Sitemap: https://www.intersnack.sk/sitemap.xml
+Sitemap: https://www.intersnack.sk/en/sitemap.xml
+Sitemap: https://www.intersnack.cz/sitemap.xml
+Sitemap: https://www.intersnack.cz/en/sitemap.xml
+Sitemap: https://www.intersnack.ro/sitemap.xml
+Sitemap: https://www.intersnack.ro/en/sitemap.xml
+Sitemap: https://www.intersnack.bg/sitemap.xml
+Sitemap: https://www.intersnack.bg/en/sitemap.xml
+Sitemap: https://www.intersnack.hu/sitemap.xml
+Sitemap: https://www.intersnack.hu/en/sitemap.xml
+Sitemap: https://www.intersnack.hr/sitemap.xml
+Sitemap: https://www.intersnack.hr/en/sitemap.xml
+Sitemap: https://www.intersnack.si/sitemap.xml
+Sitemap: https://www.intersnack.si/en/sitemap.xml
+Sitemap: https://www.intersnack.ch/sitemap.xml
+Sitemap: https://www.intersnack.ch/en/sitemap.xml
+Sitemap: https://www.intersnack.ch/fr/sitemap.xml
+Sitemap: https://www.intersnack.pl/sitemap.xml
+Sitemap: https://www.intersnack.pl/en/sitemap.xml
+Sitemap: https://www.intersnack.fr/sitemap.xml
+Sitemap: https://www.intersnack.fr/en/sitemap.xml
+Sitemap: https://www.intersnack.nl/sitemap.xml
+Sitemap: https://www.intersnack.nl/en/sitemap.xml
+Sitemap: https://www.nutsaboutnature.com/sitemap.xml
+Sitemap: https://www.griffinssnacks.co.nz/sitemap.xml
+Sitemap: https://www.snackbrands.com.au/sitemap.xml
+Sitemap: https://www.kpsnacks.com/sitemap.xml
+Sitemap: https://www.estrella.lt/sitemap.xml
+Sitemap: https://www.estrella.lt/en/sitemap.xml
+Sitemap: https://www.estrella.lt/lv/sitemap.xml
+Sitemap: https://www.estrella.lt/ee/sitemap.xml
+Sitemap: https://www.intersnack.ie/sitemap.xml
+Sitemap: https://www.maarud.no/sitemap.xml
+Sitemap: https://www.maarud.no/en/sitemap.xml

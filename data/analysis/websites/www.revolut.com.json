@@ -1,0 +1,14 @@
+{
+  "domain": "www.revolut.com",
+  "normalizedDomain": "www.revolut.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    }
+  ]
+}

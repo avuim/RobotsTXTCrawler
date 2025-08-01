@@ -1,0 +1,22 @@
+{
+  "domain": "www.porta.de",
+  "normalizedDomain": "www.porta.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true
+    },
+    {
+      "name": "YouBot",
+      "allowed": false
+    }
+  ]
+}

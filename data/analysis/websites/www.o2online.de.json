@@ -1,0 +1,14 @@
+{
+  "domain": "www.o2online.de",
+  "normalizedDomain": "www.o2online.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "googlebot",
+      "allowed": false
+    }
+  ]
+}

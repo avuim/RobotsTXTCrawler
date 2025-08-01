@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: 
+
+Sitemap: https://www.disney.de/sitemap.xml
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /

@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /wp-admin/
+
+
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+Sitemap: https://www.teekanne.de/sitemap_index.xml
+Sitemap: https://www.teekanne.de/de-de/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCKDisallow: /shop/de-de/customer/account/*
+Disallow: /shop/de-de/support/*
+Disallow: /shop/de-de/checkout/*
+Disallow: /shop/de-de/productalert/*
+Disallow: /de-de/teanetwork-registrierung/
+
+Sitemap: https://www.teekanne.de/de-de/sitemap_index.xml
+Sitemap: https://www.teekanne.de/shop/pub/sitemaps/sitemap_www_teekanne_de.xml

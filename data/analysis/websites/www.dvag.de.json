@@ -1,0 +1,14 @@
+{
+  "domain": "www.dvag.de",
+  "normalizedDomain": "www.dvag.de",
+  "bots": [
+    {
+      "name": "trustoo",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

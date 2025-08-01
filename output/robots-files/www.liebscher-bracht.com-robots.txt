@@ -1,0 +1,16 @@
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: *
+Disallow: /*.pdf$
+Disallow: /wp-content/cache/cachify/
+Disallow: /wp-content/cache/wp-rocket/
+Disallow: /feed/
+Allow: /*research-paper.pdf$
+
+Allow: /
+
+Sitemap: https://www.liebscher-bracht.com/sitemap_index.xml

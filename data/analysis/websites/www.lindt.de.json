@@ -1,0 +1,14 @@
+{
+  "domain": "www.lindt.de",
+  "normalizedDomain": "www.lindt.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    }
+  ]
+}

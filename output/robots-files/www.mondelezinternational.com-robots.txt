@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /*.pdf$
+
+User-agent: GPTBot
+Disallow: /
+Sitemap: https://www.mondelezinternational.com/sitemap.xml
+Host: https://www.mondelezinternational.com

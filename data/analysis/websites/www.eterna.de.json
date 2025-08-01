@@ -1,0 +1,26 @@
+{
+  "domain": "www.eterna.de",
+  "normalizedDomain": "www.eterna.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Pinterestbot",
+      "allowed": false
+    },
+    {
+      "name": "facebookexternalhit",
+      "allowed": false
+    },
+    {
+      "name": "Applebot",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "domain": "www.smythstoys.com",
+  "normalizedDomain": "www.smythstoys.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+### whitelist user agents / pages to visit for app-paths
+
+User-agent: Googlebot
+Allow: /app/
+Disallow: /app/tbo/* 
+Disallow: /*.integrator-includes.txt
+Disallow: /*.integrator-includes.json
+
+User-agent: Slurp
+Allow: /app/
+Disallow: /*.integrator-includes.txt
+Disallow: /*.integrator-includes.json
+
+User-Agent: Bingbot
+Allow: /app/
+Disallow: /*.integrator-includes.txt
+Disallow: /*.integrator-includes.json
+
+User-Agent: msnbot
+Allow: /app/
+Disallow: /*.integrator-includes.txt
+Disallow: /*.integrator-includes.json
+
+User-agent: gsa-crawler
+Allow:  /app/
+
+User-agent: gsa-crawler
+Allow: /elektromobilitaet/ 
+
+### default block
+User-agent: *
+Allow: /app/
+Disallow: /*notification
+Disallow: /*.integrator-includes.txt
+Disallow: /*.integrator-includes.json
+Disallow: /de/modelle/verfuegbare-fahrzeuge-suche.html/__app/search/car/*
+
+### sitemap
+Sitemap: https://www.volkswagen.de/de.sitemap.xml 

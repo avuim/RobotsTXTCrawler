@@ -1,0 +1,31 @@
+User-agent: *
+Disallow: /all-products
+Disallow: /p/s/*
+Disallow: */customer*
+Disallow: *--*
+Disallow: /*?*q=*
+Disallow: /*?*searched=*
+Disallow: /now-api*
+Disallow: /bella-api*
+Disallow: /n/studio*
+Disallow: *?c=
+Disallow: /sso/*
+Disallow: /c/*
+
+User-agent: Googlebot
+Allow: *?c=
+User-agent: Googlebot-Image
+Allow: *?c=
+User-agent: AdsBot-Google
+Allow: *?c=
+
+Allow: /new-products/$
+Allow: /customer/invitation/create/
+
+User-agent: MJ12bot
+Disallow: /api/*
+
+User-agent: Pinterestbot
+Crawl-delay: 1
+
+Sitemap: https://www.westwing.de/sitemap.xml

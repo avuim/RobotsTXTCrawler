@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: 
+Disallow: /assets/themes/yootheme/cache/
+
+Host: https://radionrw.de
+
+
+
+
+# This robots.txt file was created by Robots.txt Rewrite plugin: https://wordpress.org/plugins/robotstxt-rewrite/
+
+Disallow: /assets/uploads/bulk-media-register-tmp/
+
+Sitemap: https://radionrw.de/xmlsitemap.xml
+
+Allow: /http://rsssitemap.xml
+Allow: /http://rsslatest.xml
+Allow: /http://htmlsitemap.htm
+

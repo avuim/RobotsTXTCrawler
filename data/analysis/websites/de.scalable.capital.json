@@ -1,0 +1,18 @@
+{
+  "domain": "de.scalable.capital",
+  "normalizedDomain": "de.scalable.capital",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+# letzte Anpassung: 18.07.2013
+# letzte Anpassung: 12.02.2016
+# letzte Anpassung: 26.08.2021
+# letzte Anpassung: 12.02.2024
+# letzte Anpassung: 19.03.2025
+# letzte Anpassung: 14.05.2025
+
+User-agent: *
+Allow: /
+Disallow: /EDEKA/Content/
+Disallow: /EDEKA/
+Disallow: /de/zzz_entwickler/
+Disallow: /de/technische_seiten/
+Disallow: /de/testbare_seiten/
+Disallow: /de/weiterleitungen/
+Disallow: /ts/
+Disallow: /xml/
+Disallow: /search.xml
+Disallow: /lieferservice/
+Disallow: /wissen/tipps-und-tricks/suche/*
+Disallow: /rezeptwelt/rezepte/suche/*
+
+Sitemap: https://www.edeka.de/sitemap.xml
+Sitemap: https://www.edeka.de/eh/sitemap.xml
+Sitemap: https://www.edeka.de/_sitemap.xml
+
+

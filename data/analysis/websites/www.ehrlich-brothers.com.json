@@ -1,0 +1,14 @@
+{
+  "domain": "www.ehrlich-brothers.com",
+  "normalizedDomain": "www.ehrlich-brothers.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    }
+  ]
+}

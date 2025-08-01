@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Allow: *sitemap.xml*cHash*  # Allow cHash for sitemap.xml
+Disallow: /typo3/           # Disallow typo3
+Disallow: /*?id=*      	    # Disallow index.php
+Disallow: *tx_news*         # Disallow tx_news params
+Disallow: /*?eID=*          # Disallow eID
+Disallow: *tx_solr*         # Disallow solr
+Disallow: /*?q=*            # Disallow search query
+Disallow: /api/             # Disallow api
+Disallow: /layout-vorlage/  # Disallow layout-vorlage
+Disallow: /ajax/            # Disallow ajax
+Disallow: /ajax.*           # Disallow ajax routing
+Disallow: *cHash*           # Disallow cHash
+
+Sitemap: https://www.neubourg.sixtus.info/de-de/sitemap.xml
+Sitemap: https://www.neubourg.sixtus.info/ca-en/sitemap.xml
+Sitemap: https://www.neubourg.sixtus.info/en-us/sitemap.xml
+Sitemap: https://www.neubourg.sixtus.info/ca-fr/sitemap.xml

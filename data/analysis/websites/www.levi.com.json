@@ -1,0 +1,26 @@
+{
+  "domain": "www.levi.com",
+  "normalizedDomain": "www.levi.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false
+    }
+  ]
+}

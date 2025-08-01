@@ -1,0 +1,64 @@
+User-agent: *
+Crawl-delay: 10
+Disallow: /typo3/
+Disallow: /typo3_src/
+Disallow: /tslib/
+Disallow: /t3lib/
+Disallow: /typo3conf/
+Disallow: /typo3temp/
+Disallow: /cms/
+Disallow: /media/
+Disallow: /uploads/
+#Disallow: /fileadmin/
+Disallow: /fileadmin/_temp_/
+Disallow: /clear.gif
+Disallow: /storage/
+Disallow: /fileadmin/user_upload/storage_back/
+Disallow: /fileadmin/user_upload/storage/
+Disallow: /fileadmin/Files_sites/malteser_de_Relaunch/Magazin/e-paper/
+Disallow: /fileadmin/Files_sites/malteser_de/Aktuelles/Publikationen/eNews/
+
+Allow: /uploads/tx_txmalteserbuttons/
+Allow: /uploads/pics/
+Allow: /fileadmin/user_upload/storage/
+
+Allow: /storage/scripts/cycle2/
+Allow: /storage/scripts/general/
+Allow: /storage/scripts/jquery/
+Allow: /storage/scripts/ReadSpeaker/
+
+Allow: /typo3conf/ext/and_shadowbox/res/
+Allow: /typo3conf/ext/socialshareprivacy/socialshareprivacy/
+Allow: /typo3conf/ext/international_elemente/
+Allow: /typo3conf/ext/tx_slideshow/
+
+Allow: /typo3temp/assets/
+
+#Disable non-realurl
+Disallow: /*&type=500 # Disable print pages
+#Disallow: /wkhtmltopdf.html
+
+User-agent: SurveyBot
+User-agent: ShopWiki
+User-agent: Jakarta Commons-HttpClient
+User-Agent: AboutUsBot
+User-agent: Semager
+User-agent: Linguee
+User-agent: Updownerbot
+User-agent: gonzo
+User-agent: Zeusbot
+User-agent: BLEXBot
+User-Agent: XoviBot
+User-Agent: MegaIndex.ru
+User-Agent: YandexBot
+User-Agent: MJ12bot
+User-Agent: Ezooms
+User-Agent: Baiduspider
+User-Agent: AhrefsBot
+User-agent: ICCrawler - iCjobs
+User-agent: Buck
+Disallow: /
+
+User-Agent: Googlebot
+Allow: *.js
+Allow: *.css

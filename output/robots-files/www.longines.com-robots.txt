@@ -1,0 +1,10 @@
+
+User-agent: *
+Allow: /
+Sitemap: https://www.longines.com/sitemap.xml
+
+Disallow: *?filter_*
+Disallow: */reserve/*
+Disallow: */gallery/*
+Disallow: */watch-configurator/*
+  

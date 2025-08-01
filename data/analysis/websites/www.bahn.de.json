@@ -1,0 +1,14 @@
+{
+  "domain": "www.bahn.de",
+  "normalizedDomain": "www.bahn.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "domain": "www.penguinrandomhouse.de",
+  "normalizedDomain": "www.penguinrandomhouse.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "domain": "www.thalia.de",
+  "normalizedDomain": "www.thalia.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": false
+    },
+    {
+      "name": "facebookexternalhit",
+      "allowed": false
+    }
+  ]
+}

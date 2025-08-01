@@ -1,0 +1,58 @@
+{
+  "domain": "www.booking.com",
+  "normalizedDomain": "www.booking.com",
+  "bots": [
+    {
+      "name": "psbot",
+      "allowed": false
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false
+    },
+    {
+      "name": "NPBot-1/2.0",
+      "allowed": false
+    },
+    {
+      "name": "NPBot",
+      "allowed": false
+    },
+    {
+      "name": "YandexDirect",
+      "allowed": true
+    },
+    {
+      "name": "Yandex",
+      "allowed": true
+    },
+    {
+      "name": "Applebot",
+      "allowed": false
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true
+    },
+    {
+      "name": "YaDirectFetcher",
+      "allowed": false
+    },
+    {
+      "name": "AdIdxBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "domain": "www.henkel.de",
+  "normalizedDomain": "www.henkel.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "SearchAtlas",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    }
+  ]
+}

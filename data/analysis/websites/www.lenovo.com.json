@@ -1,0 +1,14 @@
+{
+  "domain": "www.lenovo.com",
+  "normalizedDomain": "www.lenovo.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "domain": "www.shell.de",
+  "normalizedDomain": "www.shell.de",
+  "bots": [
+    {
+      "name": "SiteimproveBot",
+      "allowed": true
+    },
+    {
+      "name": "SiteimproveBot-Crawler",
+      "allowed": true
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

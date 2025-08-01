@@ -1,0 +1,11 @@
+# robots.txt for www.livenation.de
+User-agent: *
+Disallow: /myln
+Disallow: /subscription
+Disallow: /account
+Disallow: /culture
+Disallow: /health
+Disallow: /login
+Disallow: /register
+User-agent: msnbot
+Crawl-delay: 2

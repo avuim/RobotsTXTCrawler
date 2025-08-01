@@ -1,0 +1,26 @@
+{
+  "domain": "www.westwing.de",
+  "normalizedDomain": "www.westwing.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    }
+  ]
+}

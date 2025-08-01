@@ -1,0 +1,40 @@
+User-agent: *
+Sitemap: https://www.robinson.com/sitemap.xml
+Sitemap: https://www.robinson.com/blog/post-sitemap.xml
+
+#Typo3 default
+Disallow: /*?
+Disallow: /fileadmin/_temp_/
+Disallow: /typo3/
+Allow: /typo3/sysext/frontend/Resources/Public/*
+
+#Manuelle Eintraege
+Disallow: */dispatch/*
+
+#Deutsch
+#Disallow: */buchen/
+Disallow: */suche/
+Disallow: */alternativen/
+
+#Englisch
+Disallow: */buchen-tcp/
+Disallow: */search/
+Disallow: */angebote-sel/
+
+#Sperre von Angebots- und Buchen-Seiten fuer restliche Sprachen
+Disallow: */booking-dirs21/
+Disallow: */booking/
+
+#Franzoesisch
+Disallow: */rechercher/
+
+#Italienisch
+Disallow: */cerca/
+
+#Spanisch
+Disallow: */buscar/
+
+#Niederlaendisch
+Disallow: */zoeken/
+
+Disallow: */6m/

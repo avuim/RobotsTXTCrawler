@@ -1,0 +1,7 @@
+# robots.txt for aral.de
+User-agent: *
+Disallow: 
+Disallow:/*.html?*
+disallow: */wp-includes/wlwmanifest.xml$
+
+Sitemap: https://www.aral.de/sitemap.xml

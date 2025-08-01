@@ -1,0 +1,14 @@
+{
+  "domain": "www.gothaer.de",
+  "normalizedDomain": "www.gothaer.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "ICCrawler",
+      "allowed": false
+    }
+  ]
+}

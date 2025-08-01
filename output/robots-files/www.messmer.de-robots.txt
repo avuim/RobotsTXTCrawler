@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /*?
+Disallow: /*account/
+Disallow: /*checkout/
+Disallow: /*widgets/
+Disallow: /*navigation/
+Disallow: /*bundles/
+Sitemap: https://www.messmer.de/sitemap.xml

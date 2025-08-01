@@ -1,0 +1,14 @@
+{
+  "domain": "www.rituals.com",
+  "normalizedDomain": "www.rituals.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "www.electrolux.de",
+  "normalizedDomain": "www.electrolux.de",
+  "bots": [
+    {
+      "name": "gsa-crawler",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

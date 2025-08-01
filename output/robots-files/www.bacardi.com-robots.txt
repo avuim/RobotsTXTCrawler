@@ -1,0 +1,31 @@
+#
+# --- MJW Bacardi Robots.txt for live site
+#
+#         9/Sep/21 Block Eu locale remove duplicate and redundant XML and unblock includes
+#
+User-Agent: MJ12bot
+Crawl-Delay: 15
+User-agent: AhrefsBot
+Crawl-Delay: 15
+
+User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+
+Host: https://www.bacardi.com/
+
+Sitemap: https://www.bacardi.com/fr/fr/sitemap_index.xml
+Sitemap: https://www.bacardi.com/be/fr/sitemap_index.xml
+Sitemap: https://www.bacardi.com/be/nl/sitemap_index.xml
+Sitemap: https://www.bacardi.com/mx/es/sitemap_index.xml
+Sitemap: https://www.bacardi.com/ca/en/sitemap_index.xml
+Sitemap: https://www.bacardi.com/ca/fr/sitemap_index.xml
+Sitemap: https://www.bacardi.com/us/en/sitemap_index.xml
+Sitemap: https://www.bacardi.com/uk/en/sitemap_index.xml
+Sitemap: https://www.bacardi.com/de/de/sitemap_index.xml
+Sitemap: https://www.bacardi.com/nl/nl/sitemap_index.xml
+Sitemap: https://www.bacardi.com/es/es/sitemap_index.xml
+Sitemap: https://www.bacardi.com/pl/pl/sitemap_index.xml
+
+Sitemap: https://www.bacardi.com/sitemap_index.xml

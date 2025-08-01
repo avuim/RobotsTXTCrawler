@@ -1,0 +1,7 @@
+User-Agent: gsa-crawler
+Disallow:
+User-Agent: *
+Disallow: /oidc-login-page/*
+Disallow:  */mypages/*
+
+Sitemap: https://www.electrolux.de/globalassets/sitemaps/www.electrolux.de/sitemapindex.xml

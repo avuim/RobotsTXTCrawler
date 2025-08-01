@@ -1,0 +1,56 @@
+User-agent: *
+
+#allow everything by default
+Allow: /
+
+#then add restrictions
+Disallow: /typo3/
+Disallow: /ajax/
+Disallow: /portal/
+Disallow: /lernvideos/
+Disallow: */wp-admin/
+Disallow: */0800*
+Disallow: /*?type=*
+Disallow: /*?iaid=*
+Disallow: /*?promo_name=*
+Disallow: /*?utm_source=*
+Disallow: /*?gclid=*
+Disallow: /*?locationsearchterm=*
+Disallow: /*?fbclid=*
+Disallow: /*?shnc=*
+Disallow: /*?subject=*
+Disallow: /*?iframe=*
+Disallow: /*?a=*
+Disallow: /*?random=*
+Disallow: /*?71d70d*
+Disallow: /*?wbraid=*
+Disallow: /*?msclkid=*
+Disallow: /*?ee7096*
+Disallow: /*?d3f4e8*
+Disallow: /*?f=*
+Disallow: /*?46444e*
+Disallow: /*?10c132*
+Disallow: /*?center_number=*
+Disallow: /*?file=*
+Disallow: /*?sexx=*
+Disallow: /*?f0a0eb*
+Disallow: /*?ut*
+Disallow: /*?u*
+Disallow: /*?d755ba*
+Disallow: /*?new*
+Disallow: /*?b63433*
+Disallow: /*?a19b3f*
+Disallow: /*?9a859c*
+Disallow: /*?repeat=*
+Disallow: /*?add-to-cart=*
+Disallow: /*?d844fe*
+Disallow: /*?print=*
+Disallow: /*?14506a*
+Disallow: /*?t=*
+Disallow: /*?80f68b*
+Disallow: /*?327161*
+Disallow: /*?490738*
+Disallow: /*?gad*
+Disallow: /*.pdf$
+
+Sitemap: https://www.schuelerhilfe.de/sitemap.xml

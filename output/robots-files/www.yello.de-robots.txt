@@ -1,0 +1,25 @@
+# Living Styleguide
+User-agent: *
+Disallow: /living-styleguide
+
+# Keine Links mit Query-Strings
+Disallow: /*?
+
+# Fehlerbehanldung und Validierung
+Disallow: /validation
+Disallow: /fehler
+
+# CF Api
+Disallow: /api
+
+# Alle PDFs
+Disallow: /*.pdf$
+
+# OA
+Disallow: /*bestellen/persoenliche-angaben$
+Disallow: /*bestellen/lieferung-und-zahlung$
+Disallow: /*bestellen/pruefung-und-beauftragung$
+Disallow: /*bestellen/vielen-dank$
+
+Sitemap: https://www.yello.de/sitemap.xml
+Sitemap: https://www.yello.de/hilfe-und-kontakt/sitemap.xml

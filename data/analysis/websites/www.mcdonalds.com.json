@@ -1,0 +1,14 @@
+{
+  "domain": "www.mcdonalds.com",
+  "normalizedDomain": "www.mcdonalds.com",
+  "bots": [
+    {
+      "name": "SiteAuditBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}
