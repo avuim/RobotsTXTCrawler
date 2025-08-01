@@ -1,0 +1,58 @@
+{
+  "domain": "www.dastelefonbuch.de",
+  "normalizedDomain": "www.dastelefonbuch.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "Cityreview",
+      "allowed": false
+    },
+    {
+      "name": "trovitBot",
+      "allowed": false
+    },
+    {
+      "name": "zyklop",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "Neevabot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "Mega-Index",
+      "allowed": false
+    },
+    {
+      "name": "Yandex",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "domain": "www.finanzen100.de",
+  "normalizedDomain": "www.finanzen100.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    }
+  ]
+}

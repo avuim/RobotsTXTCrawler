@@ -1,0 +1,22 @@
+{
+  "domain": "www.tour-magazin.de",
+  "normalizedDomain": "www.tour-magazin.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "www.mt.de",
+  "normalizedDomain": "www.mt.de",
+  "bots": [
+    {
+      "name": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

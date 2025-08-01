@@ -1,0 +1,42 @@
+{
+  "domain": "www.1und1.de",
+  "normalizedDomain": "www.1und1.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "SlySearch",
+      "allowed": false
+    },
+    {
+      "name": "SmartDownload",
+      "allowed": false
+    },
+    {
+      "name": "SpankBot",
+      "allowed": false
+    },
+    {
+      "name": "spanner",
+      "allowed": false
+    },
+    {
+      "name": "SuperBot",
+      "allowed": false
+    },
+    {
+      "name": "SupperHTTP",
+      "allowed": false
+    },
+    {
+      "name": "Surfbot",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    }
+  ]
+}

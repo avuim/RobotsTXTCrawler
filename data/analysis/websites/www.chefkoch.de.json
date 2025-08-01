@@ -1,0 +1,70 @@
+{
+  "domain": "www.chefkoch.de",
+  "normalizedDomain": "www.chefkoch.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "scrapy",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "Timpibot",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Opebot-v (https://www.1plusx.com)",
+      "allowed": true
+    }
+  ]
+}

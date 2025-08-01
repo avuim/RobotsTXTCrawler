@@ -1,0 +1,14 @@
+{
+  "domain": "www.mamiweb.de",
+  "normalizedDomain": "www.mamiweb.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    }
+  ]
+}

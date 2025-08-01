@@ -1,0 +1,50 @@
+{
+  "domain": "www.lebensmittelzeitung.net",
+  "normalizedDomain": "www.lebensmittelzeitung.net",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false
+    }
+  ]
+}

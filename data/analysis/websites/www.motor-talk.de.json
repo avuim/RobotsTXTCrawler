@@ -1,0 +1,54 @@
+{
+  "domain": "www.motor-talk.de",
+  "normalizedDomain": "www.motor-talk.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "008",
+      "allowed": false
+    },
+    {
+      "name": "sogou",
+      "allowed": false
+    },
+    {
+      "name": "proximic",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "yacybot",
+      "allowed": false
+    },
+    {
+      "name": "Mail.Ru",
+      "allowed": false
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false
+    },
+    {
+      "name": "CrazyWebCrawler-Spider",
+      "allowed": false
+    },
+    {
+      "name": "CrystalSemanticsBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    }
+  ]
+}

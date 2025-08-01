@@ -1,0 +1,14 @@
+{
+  "domain": "www.produktion.de",
+  "normalizedDomain": "www.produktion.de",
+  "bots": [
+    {
+      "name": "SearchmetricsBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

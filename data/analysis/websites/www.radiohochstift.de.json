@@ -1,0 +1,14 @@
+{
+  "domain": "www.radiohochstift.de",
+  "normalizedDomain": "www.radiohochstift.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    }
+  ]
+}

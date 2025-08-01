@@ -1,0 +1,26 @@
+{
+  "domain": "www.braunschweiger-zeitung.de",
+  "normalizedDomain": "www.braunschweiger-zeitung.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Yandex",
+      "allowed": false
+    },
+    {
+      "name": "SiteAuditBot",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "Yeti",
+      "allowed": false
+    }
+  ]
+}

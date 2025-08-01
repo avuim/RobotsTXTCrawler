@@ -1,0 +1,14 @@
+{
+  "domain": "www.giga.de",
+  "normalizedDomain": "www.giga.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true
+    }
+  ]
+}

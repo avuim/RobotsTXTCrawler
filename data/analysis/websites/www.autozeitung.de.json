@@ -1,0 +1,18 @@
+{
+  "domain": "www.autozeitung.de",
+  "normalizedDomain": "www.autozeitung.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Google",
+      "allowed": true
+    },
+    {
+      "name": "Flipboard",
+      "allowed": false
+    }
+  ]
+}

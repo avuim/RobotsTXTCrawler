@@ -1,0 +1,46 @@
+{
+  "domain": "www.freundin.de",
+  "normalizedDomain": "www.freundin.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    }
+  ]
+}

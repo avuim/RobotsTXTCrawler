@@ -1,0 +1,18 @@
+{
+  "domain": "www.spielfilm.de",
+  "normalizedDomain": "www.spielfilm.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "domain": "www.traunsteiner-tagblatt.de",
+  "normalizedDomain": "www.traunsteiner-tagblatt.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    }
+  ]
+}

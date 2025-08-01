@@ -1,0 +1,14 @@
+{
+  "domain": "www.computerbase.de",
+  "normalizedDomain": "www.computerbase.de",
+  "bots": [
+    {
+      "name": "weborama-fetcher",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

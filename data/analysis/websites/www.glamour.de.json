@@ -1,0 +1,78 @@
+{
+  "domain": "www.glamour.de",
+  "normalizedDomain": "www.glamour.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Google-InspectionTool",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "Omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "YouBot",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "name": "cohere-training-data-crawler",
+      "allowed": false
+    }
+  ]
+}

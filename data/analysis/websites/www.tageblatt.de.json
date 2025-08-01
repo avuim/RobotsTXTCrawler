@@ -1,0 +1,22 @@
+{
+  "domain": "www.tageblatt.de",
+  "normalizedDomain": "www.tageblatt.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    }
+  ]
+}

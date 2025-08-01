@@ -1,0 +1,22 @@
+{
+  "domain": "www.kochbar.de",
+  "normalizedDomain": "www.kochbar.de",
+  "bots": [
+    {
+      "name": "Mozilla/5.0 (compatible; OGDWCtxCrawler)",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

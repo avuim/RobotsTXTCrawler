@@ -1,0 +1,30 @@
+{
+  "domain": "www.chip.de",
+  "normalizedDomain": "www.chip.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": false
+    }
+  ]
+}

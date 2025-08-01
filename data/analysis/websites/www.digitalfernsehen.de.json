@@ -1,0 +1,14 @@
+{
+  "domain": "www.digitalfernsehen.de",
+  "normalizedDomain": "www.digitalfernsehen.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot",
+      "allowed": false
+    }
+  ]
+}

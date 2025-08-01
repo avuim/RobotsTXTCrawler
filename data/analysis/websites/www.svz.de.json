@@ -1,0 +1,66 @@
+{
+  "domain": "www.svz.de",
+  "normalizedDomain": "www.svz.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": true
+    },
+    {
+      "name": "Bytespider",
+      "allowed": true
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": true
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": true
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": true
+    },
+    {
+      "name": "Arquivo-web-crawler",
+      "allowed": true
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": true
+    }
+  ]
+}

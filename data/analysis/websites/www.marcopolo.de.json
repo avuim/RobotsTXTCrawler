@@ -1,0 +1,18 @@
+{
+  "domain": "www.marcopolo.de",
+  "normalizedDomain": "www.marcopolo.de",
+  "bots": [
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true
+    }
+  ]
+}

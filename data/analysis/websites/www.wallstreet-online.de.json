@@ -1,0 +1,14 @@
+{
+  "domain": "www.wallstreet-online.de",
+  "normalizedDomain": "www.wallstreet-online.de",
+  "bots": [
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

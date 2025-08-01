@@ -1,0 +1,66 @@
+{
+  "domain": "www.crn.de",
+  "normalizedDomain": "www.crn.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "MSNBot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Teoma",
+      "allowed": true
+    },
+    {
+      "name": "Gigabot",
+      "allowed": true
+    },
+    {
+      "name": "Robozilla",
+      "allowed": true
+    },
+    {
+      "name": "Nutch",
+      "allowed": true
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": true
+    },
+    {
+      "name": "baiduspider",
+      "allowed": true
+    },
+    {
+      "name": "naverbot",
+      "allowed": true
+    },
+    {
+      "name": "yeti",
+      "allowed": true
+    },
+    {
+      "name": "yahoo-mmcrawler",
+      "allowed": true
+    },
+    {
+      "name": "psbot",
+      "allowed": true
+    },
+    {
+      "name": "yahoo-blogs/v3.9",
+      "allowed": true
+    },
+    {
+      "name": "YoudaoBot",
+      "allowed": false
+    }
+  ]
+}

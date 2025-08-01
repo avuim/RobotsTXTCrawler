@@ -1,0 +1,22 @@
+{
+  "domain": "www.maedchen.de",
+  "normalizedDomain": "www.maedchen.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    }
+  ]
+}

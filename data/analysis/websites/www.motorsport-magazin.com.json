@@ -1,0 +1,14 @@
+{
+  "domain": "www.motorsport-magazin.com",
+  "normalizedDomain": "www.motorsport-magazin.com",
+  "bots": [
+    {
+      "name": "proximic",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "domain": "www.merian.de",
+  "normalizedDomain": "www.merian.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    }
+  ]
+}

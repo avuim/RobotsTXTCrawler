@@ -1,0 +1,182 @@
+{
+  "domain": "www.nordbayern.de",
+  "normalizedDomain": "www.nordbayern.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "Ai2Bot-Dolma",
+      "allowed": false
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false
+    },
+    {
+      "name": "Andibot",
+      "allowed": false
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "name": "BluechipBacklinks",
+      "allowed": false
+    },
+    {
+      "name": "Brightbot 1.0",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "cohere-training-data-crawler",
+      "allowed": false
+    },
+    {
+      "name": "Cotoyogi",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false
+    },
+    {
+      "name": "Factset_spyderbot",
+      "allowed": false
+    },
+    {
+      "name": "FirecrawlAgent",
+      "allowed": false
+    },
+    {
+      "name": "Google-CloudVertexBot",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "img2dataset",
+      "allowed": false
+    },
+    {
+      "name": "LCC",
+      "allowed": false
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "NovaAct",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "PanguBot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "Perplexity-User",
+      "allowed": false
+    },
+    {
+      "name": "PhindBot",
+      "allowed": false
+    },
+    {
+      "name": "SBIntuitionsBot",
+      "allowed": false
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false
+    },
+    {
+      "name": "Timpibot",
+      "allowed": false
+    },
+    {
+      "name": "VelenPublicWebCrawler",
+      "allowed": false
+    },
+    {
+      "name": "Webzio-Extended",
+      "allowed": false
+    },
+    {
+      "name": "YouBot",
+      "allowed": false
+    }
+  ]
+}

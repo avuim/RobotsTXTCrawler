@@ -1,0 +1,14 @@
+{
+  "domain": "www.deutsche-apotheker-zeitung.de",
+  "normalizedDomain": "www.deutsche-apotheker-zeitung.de",
+  "bots": [
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

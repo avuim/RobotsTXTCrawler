@@ -1,0 +1,14 @@
+{
+  "domain": "www.radioguetersloh.de",
+  "normalizedDomain": "www.radioguetersloh.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    }
+  ]
+}

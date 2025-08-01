@@ -1,0 +1,14 @@
+{
+  "domain": "www.die-deutsche-wirtschaft.de",
+  "normalizedDomain": "www.die-deutsche-wirtschaft.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false
+    }
+  ]
+}

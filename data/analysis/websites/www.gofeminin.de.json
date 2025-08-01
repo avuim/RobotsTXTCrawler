@@ -1,0 +1,14 @@
+{
+  "domain": "www.gofeminin.de",
+  "normalizedDomain": "www.gofeminin.de",
+  "bots": [
+    {
+      "name": "YouBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

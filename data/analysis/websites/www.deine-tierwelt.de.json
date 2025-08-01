@@ -1,0 +1,14 @@
+{
+  "domain": "www.deine-tierwelt.de",
+  "normalizedDomain": "www.deine-tierwelt.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "YandexBot # Russian search engine Yandex",
+      "allowed": true
+    }
+  ]
+}

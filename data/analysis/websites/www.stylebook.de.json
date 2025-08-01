@@ -1,0 +1,358 @@
+{
+  "domain": "www.stylebook.de",
+  "normalizedDomain": "www.stylebook.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "sogou spider",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "Yeti",
+      "allowed": false
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "Ai2Bot-Dolma",
+      "allowed": false
+    },
+    {
+      "name": "aiHitBot",
+      "allowed": false
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false
+    },
+    {
+      "name": "Andibot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Awario",
+      "allowed": false
+    },
+    {
+      "name": "bedrockbot",
+      "allowed": false
+    },
+    {
+      "name": "Brightbot 1.0",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-SearchBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-User",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "cohere-training-data-crawler",
+      "allowed": false
+    },
+    {
+      "name": "Cotoyogi",
+      "allowed": false
+    },
+    {
+      "name": "Crawlspace",
+      "allowed": false
+    },
+    {
+      "name": "Datenbank Crawler",
+      "allowed": false
+    },
+    {
+      "name": "Devin",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false
+    },
+    {
+      "name": "Echobot Bot",
+      "allowed": false
+    },
+    {
+      "name": "EchoboxBot",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "Factset_spyderbot",
+      "allowed": false
+    },
+    {
+      "name": "FirecrawlAgent",
+      "allowed": false
+    },
+    {
+      "name": "FriendlyCrawler",
+      "allowed": false
+    },
+    {
+      "name": "Gemini-Deep-Research",
+      "allowed": false
+    },
+    {
+      "name": "Google-CloudVertexBot",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "GoogleAgent-Mariner",
+      "allowed": false
+    },
+    {
+      "name": "GoogleOther",
+      "allowed": false
+    },
+    {
+      "name": "GoogleOther-Image",
+      "allowed": false
+    },
+    {
+      "name": "GoogleOther-Video",
+      "allowed": false
+    },
+    {
+      "name": "iaskspider/2.0",
+      "allowed": false
+    },
+    {
+      "name": "ICC-Crawler",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "img2dataset",
+      "allowed": false
+    },
+    {
+      "name": "ISSCyberRiskCrawler",
+      "allowed": false
+    },
+    {
+      "name": "Kangaroo Bot",
+      "allowed": false
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "meta-externalfetcher",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalFetcher",
+      "allowed": false
+    },
+    {
+      "name": "MistralAI-User",
+      "allowed": false
+    },
+    {
+      "name": "MistralAI-User/1.0",
+      "allowed": false
+    },
+    {
+      "name": "MyCentralAIScraperBot",
+      "allowed": false
+    },
+    {
+      "name": "netEstate Imprint Crawler",
+      "allowed": false
+    },
+    {
+      "name": "NovaAct",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "Operator",
+      "allowed": false
+    },
+    {
+      "name": "PanguBot",
+      "allowed": false
+    },
+    {
+      "name": "Panscient",
+      "allowed": false
+    },
+    {
+      "name": "panscient.com",
+      "allowed": false
+    },
+    {
+      "name": "Perplexity-User",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "PhindBot",
+      "allowed": false
+    },
+    {
+      "name": "Poseidon Research Crawler",
+      "allowed": false
+    },
+    {
+      "name": "QualifiedBot",
+      "allowed": false
+    },
+    {
+      "name": "QuillBot",
+      "allowed": false
+    },
+    {
+      "name": "quillbot.com",
+      "allowed": false
+    },
+    {
+      "name": "SBIntuitionsBot",
+      "allowed": false
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false
+    },
+    {
+      "name": "SemrushBot-OCOB",
+      "allowed": false
+    },
+    {
+      "name": "SemrushBot-SWA",
+      "allowed": false
+    },
+    {
+      "name": "Sidetrade indexer bot",
+      "allowed": false
+    },
+    {
+      "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "Thinkbot",
+      "allowed": false
+    },
+    {
+      "name": "TikTokSpider",
+      "allowed": false
+    },
+    {
+      "name": "Timpibot",
+      "allowed": false
+    },
+    {
+      "name": "VelenPublicWebCrawler",
+      "allowed": false
+    },
+    {
+      "name": "WARDBot",
+      "allowed": false
+    },
+    {
+      "name": "Webzio-Extended",
+      "allowed": false
+    },
+    {
+      "name": "wpbot",
+      "allowed": false
+    },
+    {
+      "name": "YandexAdditional",
+      "allowed": false
+    },
+    {
+      "name": "YandexAdditionalBot",
+      "allowed": false
+    },
+    {
+      "name": "YouBot",
+      "allowed": false
+    }
+  ]
+}

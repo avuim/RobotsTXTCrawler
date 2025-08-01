@@ -1,0 +1,14 @@
+{
+  "domain": "www.spielaffe.de",
+  "normalizedDomain": "www.spielaffe.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true
+    }
+  ]
+}

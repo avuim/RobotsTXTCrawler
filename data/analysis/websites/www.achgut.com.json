@@ -1,0 +1,26 @@
+{
+  "domain": "www.achgut.com",
+  "normalizedDomain": "www.achgut.com",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "BUbiNG",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    }
+  ]
+}

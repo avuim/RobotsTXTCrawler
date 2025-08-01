@@ -1,0 +1,14 @@
+{
+  "domain": "www.southpark.de",
+  "normalizedDomain": "www.southpark.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    }
+  ]
+}

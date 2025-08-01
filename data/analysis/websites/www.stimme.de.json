@@ -1,0 +1,34 @@
+{
+  "domain": "www.stimme.de",
+  "normalizedDomain": "www.stimme.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": true
+    },
+    {
+      "name": "OGDWCtxCrawler",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    }
+  ]
+}

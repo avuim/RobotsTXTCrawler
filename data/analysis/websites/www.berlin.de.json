@@ -1,0 +1,58 @@
+{
+  "domain": "www.berlin.de",
+  "normalizedDomain": "www.berlin.de",
+  "bots": [
+    {
+      "name": "AwarioSmartBot",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "cookiebot",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    },
+    {
+      "name": "Yisouspider",
+      "allowed": false
+    },
+    {
+      "name": "zoomRank",
+      "allowed": false
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": false
+    },
+    {
+      "name": "GoogleOther",
+      "allowed": false
+    },
+    {
+      "name": "GoogleOther-Image",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot-News",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": false
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

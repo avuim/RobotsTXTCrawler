@@ -1,0 +1,14 @@
+{
+  "domain": "www.dumontreise.de",
+  "normalizedDomain": "www.dumontreise.de",
+  "bots": [
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

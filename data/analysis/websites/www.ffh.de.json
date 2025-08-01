@@ -1,0 +1,22 @@
+{
+  "domain": "www.ffh.de",
+  "normalizedDomain": "www.ffh.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
+    },
+    {
+      "name": "facebookexternalhit",
+      "allowed": true
+    }
+  ]
+}

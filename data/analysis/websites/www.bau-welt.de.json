@@ -1,0 +1,38 @@
+{
+  "domain": "www.bau-welt.de",
+  "normalizedDomain": "www.bau-welt.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    }
+  ]
+}

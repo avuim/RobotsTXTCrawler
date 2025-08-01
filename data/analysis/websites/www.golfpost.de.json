@@ -1,0 +1,14 @@
+{
+  "domain": "www.golfpost.de",
+  "normalizedDomain": "www.golfpost.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false
+    }
+  ]
+}

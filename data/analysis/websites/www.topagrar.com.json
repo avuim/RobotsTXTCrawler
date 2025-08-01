@@ -1,0 +1,22 @@
+{
+  "domain": "www.topagrar.com",
+  "normalizedDomain": "www.topagrar.com",
+  "bots": [
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "rogerbot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

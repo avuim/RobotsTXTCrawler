@@ -1,0 +1,14 @@
+{
+  "domain": "www.it-times.de",
+  "normalizedDomain": "www.it-times.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false
+    }
+  ]
+}

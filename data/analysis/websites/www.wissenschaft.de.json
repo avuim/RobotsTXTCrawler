@@ -1,0 +1,18 @@
+{
+  "domain": "www.wissenschaft.de",
+  "normalizedDomain": "www.wissenschaft.de",
+  "bots": [
+    {
+      "name": "Yandex",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

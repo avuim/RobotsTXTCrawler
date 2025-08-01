@@ -1,0 +1,14 @@
+{
+  "domain": "www.hz.de",
+  "normalizedDomain": "www.hz.de",
+  "bots": [
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

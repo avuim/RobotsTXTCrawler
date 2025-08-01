@@ -1,0 +1,38 @@
+{
+  "domain": "www.kleinanzeigen.de",
+  "normalizedDomain": "www.kleinanzeigen.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Adsbot-Google",
+      "allowed": false
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": false
+    },
+    {
+      "name": "zoomRank/2.0",
+      "allowed": false
+    },
+    {
+      "name": "Google-Display-Ads-Bot",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "domain": "www.immobilienscout24.de",
+  "normalizedDomain": "www.immobilienscout24.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-User",
+      "allowed": true
+    },
+    {
+      "name": "Claude-SearchBot",
+      "allowed": true
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "domain": "www.finanzen.net",
+  "normalizedDomain": "www.finanzen.net",
+  "bots": [
+    {
+      "name": "Mediapartners-Google",
+      "allowed": false
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "www.autoplenum.de",
+  "normalizedDomain": "www.autoplenum.de",
+  "bots": [
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

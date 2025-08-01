@@ -1,0 +1,46 @@
+{
+  "domain": "www.vodafone.de",
+  "normalizedDomain": "www.vodafone.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false
+    },
+    {
+      "name": "SlySearch",
+      "allowed": false
+    },
+    {
+      "name": "SmartDownload",
+      "allowed": false
+    },
+    {
+      "name": "SpankBot",
+      "allowed": false
+    },
+    {
+      "name": "spanner",
+      "allowed": false
+    },
+    {
+      "name": "SuperBot",
+      "allowed": false
+    },
+    {
+      "name": "SupperHTTP",
+      "allowed": false
+    },
+    {
+      "name": "Surfbot",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    }
+  ]
+}

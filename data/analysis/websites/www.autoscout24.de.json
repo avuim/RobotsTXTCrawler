@@ -1,0 +1,30 @@
+{
+  "domain": "www.autoscout24.de",
+  "normalizedDomain": "www.autoscout24.de",
+  "bots": [
+    {
+      "name": "proximic",
+      "allowed": false
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "Applebot",
+      "allowed": true
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

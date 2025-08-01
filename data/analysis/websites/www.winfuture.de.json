@@ -1,0 +1,54 @@
+{
+  "domain": "www.winfuture.de",
+  "normalizedDomain": "www.winfuture.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot",
+      "allowed": false
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": false
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "Applebot",
+      "allowed": false
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": false
+    },
+    {
+      "name": "CCbot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "Yandex",
+      "allowed": false
+    }
+  ]
+}

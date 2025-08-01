@@ -1,0 +1,22 @@
+{
+  "domain": "www.wochenspiegelonline.de",
+  "normalizedDomain": "www.wochenspiegelonline.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    }
+  ]
+}

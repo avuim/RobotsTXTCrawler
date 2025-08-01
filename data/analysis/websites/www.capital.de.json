@@ -1,0 +1,50 @@
+{
+  "domain": "www.capital.de",
+  "normalizedDomain": "www.capital.de",
+  "bots": [
+    {
+      "name": "msnbot-media/1.1",
+      "allowed": false
+    },
+    {
+      "name": "msnbot-media/2.0b",
+      "allowed": false
+    },
+    {
+      "name": "scrapy",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "proximic",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

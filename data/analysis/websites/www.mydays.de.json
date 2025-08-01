@@ -1,0 +1,34 @@
+{
+  "domain": "www.mydays.de",
+  "normalizedDomain": "www.mydays.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "Adsbot-Google",
+      "allowed": false
+    },
+    {
+      "name": "Adsbot-Google-Mobile",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot-image",
+      "allowed": true
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": true
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true
+    }
+  ]
+}

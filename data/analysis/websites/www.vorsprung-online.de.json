@@ -1,0 +1,14 @@
+{
+  "domain": "www.vorsprung-online.de",
+  "normalizedDomain": "www.vorsprung-online.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "domain": "www.domradio.de",
+  "normalizedDomain": "www.domradio.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "bingbot",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "www.radioherford.de",
+  "normalizedDomain": "www.radioherford.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    }
+  ]
+}

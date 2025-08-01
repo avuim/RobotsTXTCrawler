@@ -1,0 +1,34 @@
+{
+  "domain": "www.finanznachrichten.de",
+  "normalizedDomain": "www.finanznachrichten.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "WX_mail/2.000",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "WhoWhere",
+      "allowed": false
+    },
+    {
+      "name": "Roverbot",
+      "allowed": false
+    },
+    {
+      "name": "ActiveAgent",
+      "allowed": false
+    },
+    {
+      "name": "EmailSiphon",
+      "allowed": false
+    }
+  ]
+}

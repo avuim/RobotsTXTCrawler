@@ -1,0 +1,102 @@
+{
+  "domain": "www.filmstarts.de",
+  "normalizedDomain": "www.filmstarts.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "seekbot",
+      "allowed": false
+    },
+    {
+      "name": "Exabot",
+      "allowed": false
+    },
+    {
+      "name": "Slurp",
+      "allowed": false
+    },
+    {
+      "name": "Cliqzbot",
+      "allowed": false
+    },
+    {
+      "name": "Arquivo-web-crawler",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGLM",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "cohere-training-data-crawler",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "OmigiliBot",
+      "allowed": false
+    },
+    {
+      "name": "YouBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "Claude-SearchBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-User",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "name": "Perplexity-User",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    }
+  ]
+}

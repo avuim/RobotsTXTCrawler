@@ -1,0 +1,26 @@
+{
+  "domain": "www.handwerk-magazin.de",
+  "normalizedDomain": "www.handwerk-magazin.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false
+    }
+  ]
+}

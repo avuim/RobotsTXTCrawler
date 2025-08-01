@@ -1,0 +1,18 @@
+{
+  "domain": "www.presseportal.de",
+  "normalizedDomain": "www.presseportal.de",
+  "bots": [
+    {
+      "name": "BurdaForward",
+      "allowed": false
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

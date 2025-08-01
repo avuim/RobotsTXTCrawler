@@ -1,0 +1,22 @@
+{
+  "domain": "www.welt.de",
+  "normalizedDomain": "www.welt.de",
+  "bots": [
+    {
+      "name": "Facebot",
+      "allowed": true
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "YouBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

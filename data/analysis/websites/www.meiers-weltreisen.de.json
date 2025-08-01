@@ -1,0 +1,18 @@
+{
+  "domain": "www.meiers-weltreisen.de",
+  "normalizedDomain": "www.meiers-weltreisen.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Cliqzbot",
+      "allowed": false
+    }
+  ]
+}

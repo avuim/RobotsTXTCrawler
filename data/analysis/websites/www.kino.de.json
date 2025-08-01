@@ -1,0 +1,14 @@
+{
+  "domain": "www.kino.de",
+  "normalizedDomain": "www.kino.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true
+    }
+  ]
+}

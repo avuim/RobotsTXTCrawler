@@ -1,0 +1,14 @@
+{
+  "domain": "www.t3n.de",
+  "normalizedDomain": "www.t3n.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot-News",
+      "allowed": true
+    }
+  ]
+}

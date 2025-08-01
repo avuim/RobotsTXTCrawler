@@ -1,0 +1,22 @@
+{
+  "domain": "www.news.de",
+  "normalizedDomain": "www.news.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot-News",
+      "allowed": false
+    },
+    {
+      "name": "Yahoo!-AdCrawler",
+      "allowed": true
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true
+    }
+  ]
+}

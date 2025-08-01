@@ -1,0 +1,54 @@
+{
+  "domain": "www.auskunft.de",
+  "normalizedDomain": "www.auskunft.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "auskunftbot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "pimeyes.com crawler",
+      "allowed": false
+    },
+    {
+      "name": "JobboerseBot",
+      "allowed": false
+    },
+    {
+      "name": "CrazyWebCrawler-Spider",
+      "allowed": false
+    },
+    {
+      "name": "Jobsearch1.5",
+      "allowed": false
+    },
+    {
+      "name": "Cliqzbot",
+      "allowed": false
+    },
+    {
+      "name": "thesubot",
+      "allowed": false
+    },
+    {
+      "name": "ACONTBOT",
+      "allowed": false
+    },
+    {
+      "name": "MAINSEEK_BOT",
+      "allowed": false
+    }
+  ]
+}

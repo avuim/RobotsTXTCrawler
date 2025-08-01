@@ -1,0 +1,18 @@
+{
+  "domain": "www.fupa.net",
+  "normalizedDomain": "www.fupa.net",
+  "bots": [
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": false
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": false
+    }
+  ]
+}

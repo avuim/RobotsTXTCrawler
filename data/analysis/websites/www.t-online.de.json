@@ -1,0 +1,14 @@
+{
+  "domain": "www.t-online.de",
+  "normalizedDomain": "www.t-online.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true
+    }
+  ]
+}

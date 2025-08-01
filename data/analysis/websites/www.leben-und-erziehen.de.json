@@ -1,0 +1,22 @@
+{
+  "domain": "www.leben-und-erziehen.de",
+  "normalizedDomain": "www.leben-und-erziehen.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    }
+  ]
+}

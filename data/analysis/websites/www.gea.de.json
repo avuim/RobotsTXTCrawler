@@ -1,0 +1,14 @@
+{
+  "domain": "www.gea.de",
+  "normalizedDomain": "www.gea.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    }
+  ]
+}

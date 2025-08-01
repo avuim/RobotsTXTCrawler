@@ -1,0 +1,90 @@
+{
+  "domain": "www.apotheken-umschau.de",
+  "normalizedDomain": "www.apotheken-umschau.de",
+  "bots": [
+    {
+      "name": "LinkChecker",
+      "allowed": false
+    },
+    {
+      "name": "sitebot",
+      "allowed": false
+    },
+    {
+      "name": "Linguee",
+      "allowed": false
+    },
+    {
+      "name": "Slurp",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false
+    },
+    {
+      "name": "Applebot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "Omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "Omgili",
+      "allowed": false
+    },
+    {
+      "name": "YouBot",
+      "allowed": false
+    },
+    {
+      "name": "Screaming Frog SEO Spider",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

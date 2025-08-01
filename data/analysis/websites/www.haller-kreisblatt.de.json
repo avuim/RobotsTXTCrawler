@@ -1,0 +1,14 @@
+{
+  "domain": "www.haller-kreisblatt.de",
+  "normalizedDomain": "www.haller-kreisblatt.de",
+  "bots": [
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}
