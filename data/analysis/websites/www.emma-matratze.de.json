@@ -1,0 +1,22 @@
+{
+  "domain": "www.emma-matratze.de",
+  "normalizedDomain": "www.emma-matratze.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": false
+    }
+  ]
+}
