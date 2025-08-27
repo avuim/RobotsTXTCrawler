@@ -1,0 +1,26 @@
+{
+  "domain": "www.thueringer-allgemeine.de",
+  "normalizedDomain": "www.thueringer-allgemeine.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Yandex",
+      "allowed": false
+    },
+    {
+      "name": "SiteAuditBot",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "Yeti",
+      "allowed": false
+    }
+  ]
+}

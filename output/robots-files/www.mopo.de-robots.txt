@@ -1,0 +1,14 @@
+User-agent: Yandex
+Disallow: /
+
+User-agent: ia_archiver
+Disallow:
+
+User-agent: OGDWCtxCrawler
+Disallow:
+
+User-agent: *
+Allow: /
+Disallow: */1000$
+Disallow: */1000/$
+Sitemap: https://www.mopo.de/sitemap_index.xml

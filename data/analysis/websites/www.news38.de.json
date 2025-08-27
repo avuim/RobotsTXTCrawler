@@ -1,0 +1,14 @@
+{
+  "domain": "www.news38.de",
+  "normalizedDomain": "www.news38.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    }
+  ]
+}

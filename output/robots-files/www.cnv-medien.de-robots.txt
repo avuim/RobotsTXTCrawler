@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /typo3/
+Disallow: /typo3_src/
+Allow: /typo3/sysext/frontend/Resources/Public/*
+Disallow: /*?id=*
+Disallow: /*tx_powermail_pi1
+Disallow: /*tx_cnvnews_ajaxnewsincrementviews
+Disallow: /*tx_solr
+ 
+User-agent: GPTBot
+Disallow: /
+ 
+User agent: ChatGPT User
+Disallow: /
+ 
+User-agent: CCBot
+Disallow: /
+ 
+# Legal notice: expressly reserves the right to use its content for commercial
+# The use of robots or other automated means to access cnv-medien.de or collect or mine data without the express permission of cnv-medien.de is strictly prohibited.
+# If you would like to apply for permission to crawl cnv-medien.de, collect or use data, please contact redaktion@cuxonline.de

@@ -1,0 +1,30 @@
+# global live settings :
+User-agent: *
+Disallow: /cms_addon
+Disallow: /cms_docs
+Disallow: /redFACT
+Disallow: /REST/frontend/itemstatistics
+Sitemap: https://www.zvw.de/sitemap-index/46-Google_News_Sitemap.xml
+Sitemap: https://www.zvw.de/sitemap-index/49-Google_Sitemap.xml
+# customised settings :
+Disallow: /cms/hitcount
+Disallow: /suche_org
+Disallow: /pu_zvw/fonts/
+Disallow: /pu_zvw/ajax/traffective.php
+Disallow: /pu_zvw/ajax/upscore.php
+Disallow: /pu_zvw/ajax/rpd.php
+Disallow: /REST/community/status/
+Disallow: /REST/community/login/js
+Disallow: *redirect_uri=
+Disallow: /pu_zvw/ajax/comment.php
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: GPTBot
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+# Legal notice: zvw.de expressly reserves the right to use its content for commercial text and data mining (§44b UrhG).
+# The use of robots or other automated means to access zvw.de or collect or mine data without the express permission of zvw.de is strictly prohibited.
+# If you would like to apply for permission to crawl zvw.de, collect or use data, please contact redaktion@zvw.de

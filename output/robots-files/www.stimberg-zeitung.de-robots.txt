@@ -1,0 +1,89 @@
+# BEGIN Block bots that feed AI models
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: Omgili
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+# END Block bots that feed AI models
+
+User-agent: facebookexternalhit
+Allow: /*?*utm_source=
+
+User-agent: Twitterbot
+Allow: /*?*utm_source=
+
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-json/
+Disallow: *RetransferUrl=*
+Disallow: /User/Modules/LoginModuleHandler.ashx
+Disallow: /*?s=
+Disallow: /author/*/feed/
+Disallow: /page/
+Disallow: /dpa-evergreen/
+Disallow: /dpa-infoline-mhb/
+Disallow: /dpa-infoline-zvr/
+Disallow: /dpa-infoline/
+Disallow: /dpa-regionale-nrw-mhb/
+Disallow: /dpa-regionale-nrw-zvr/
+Disallow: /dpa-regionale-nrw/
+Disallow: /dpa-sportsline-mhb/
+Disallow: /dpa-sportsline-zvr/
+Disallow: /dpa-sportsline/
+Disallow: /dpa-starline-mhb/
+Disallow: /dpa-starline-zvr/
+Disallow: /dpa-starline/
+Disallow: /schlagwort/*/feed/
+Disallow: /search/*/feed/
+Disallow: /testrn/
+Disallow: /media/
+Disallow: /storage/
+Disallow: /nachrichten/
+Disallow: /*?cmpscreencustom
+Disallow: /*?*utm_source=
+Allow: /wp-content/uploads/
+Allow: /wp-admin/admin-ajax.php
+
+
+# Legal notice: We expressly reserve the right to use our content for commercial text and data mining (Section 44b UrhG).
+# The use of robots or other automated means to access this site or to collect or mine data without the express permission is strictly prohibited.
+# At our discretion, we may permit certain automated access to certain pages.

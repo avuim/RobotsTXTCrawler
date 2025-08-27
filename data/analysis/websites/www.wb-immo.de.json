@@ -1,0 +1,26 @@
+{
+  "domain": "www.wb-immo.de",
+  "normalizedDomain": "www.wb-immo.de",
+  "bots": [
+    {
+      "name": "Mediapartners-Google",
+      "allowed": false
+    },
+    {
+      "name": "zoomRank/2.0",
+      "allowed": false
+    },
+    {
+      "name": "zoomRank",
+      "allowed": false
+    },
+    {
+      "name": "sistrix",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

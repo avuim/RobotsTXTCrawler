@@ -1,0 +1,14 @@
+{
+  "domain": "www.imtest.de",
+  "normalizedDomain": "www.imtest.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    }
+  ]
+}

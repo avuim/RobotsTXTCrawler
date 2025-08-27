@@ -1,0 +1,66 @@
+# block unwanted bots (crawlers)
+User-agent: SemrushBot
+User-agent: AhrefsBot
+User-agent: DataForSeoBot
+User-agent: UptimeRobot
+User-agent: relemindbot
+User-agent: Applebot
+User-agent: Amazonbot
+User-agent: SeekportBot
+User-agent: Yandex
+User-agent: claudebot
+User-agent: Claude-Web
+User-agent: PerplexityBot
+User-agent: RyteBot
+User-agent: dotbot
+User-agent: DataForSeoBot
+User-agent: trendictionbot
+User-agent: MJ12bot
+User-agent: Paqlebot
+User-agent: CriteoBot
+User-agent: Verity
+User-agent: GumGum-Bot
+User-agent: peer39_crawler
+User-agent: newsgrab.de
+User-agent: Beloud
+User-agent: captify-crawler
+User-agent: Mediatoolkitbot
+Disallow: /
+
+# ChatGPT Plugins
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+# Common Crawl
+User-agent: CCBot
+Disallow: /
+
+# Bard
+User-agent: Google-Extended
+Disallow: /
+
+# Meta’s bot that crawls public web pages to improve language models for their speech recognition technology
+User-agent: FacebookBot
+Disallow: /
+
+# Used for several purposes, apparently also selling crawled data to LLM companies (http://omgili.com/crawler.html)
+User-agent: omgilibot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+# urls with ?egy_cid= are not crawled
+User-agent: *
+Disallow: /*?egy_cid=*
+
+User-agent: *
+Disallow: /api/
+Disallow: /archive/
+Disallow: /na/
+Disallow: /service/profil/
+Disallow: /aidapreview/
+Sitemap: https://www.main-spitze.de/index-sitemap.xml

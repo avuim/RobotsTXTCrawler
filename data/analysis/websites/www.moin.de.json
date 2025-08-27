@@ -1,0 +1,14 @@
+{
+  "domain": "www.moin.de",
+  "normalizedDomain": "www.moin.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    }
+  ]
+}

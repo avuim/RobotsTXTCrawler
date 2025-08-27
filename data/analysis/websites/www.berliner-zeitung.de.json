@@ -1,0 +1,42 @@
+{
+  "domain": "www.berliner-zeitung.de",
+  "normalizedDomain": "www.berliner-zeitung.de",
+  "bots": [
+    {
+      "name": "EchoboxBot",
+      "allowed": true
+    },
+    {
+      "name": "Mozilla/5.0 (compatible; OGDWCtxCrawler)",
+      "allowed": true
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true
+    },
+    {
+      "name": "Verity/1.1 (https://gumgum.com/verity; verity-support@gumgum.com)",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

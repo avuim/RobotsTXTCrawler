@@ -1,0 +1,14 @@
+{
+  "domain": "www.wochenblatt-reporter.de",
+  "normalizedDomain": "www.wochenblatt-reporter.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot-news",
+      "allowed": false
+    }
+  ]
+}

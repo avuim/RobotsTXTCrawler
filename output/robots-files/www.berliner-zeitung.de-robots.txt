@@ -1,0 +1,31 @@
+User-agent: EchoboxBot
+Allow: /
+User-agent: Mozilla/5.0 (compatible; OGDWCtxCrawler)
+Allow: /
+User-agent: Mediapartners-Google
+Allow: /
+User-agent: Verity/1.1 (https://gumgum.com/verity; verity-support@gumgum.com)
+Allow: /
+
+User-agent: GPTBot
+Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+User-agent: CCBot
+Disallow: /
+
+User-agent: *
+Disallow: /suche?q=
+Disallow: /jos-data
+Disallow: /api/reactions
+Disallow: /api/profile
+Disallow: /*.woff2$
+Disallow: /*.woff$
+Disallow: /*.ttf$
+Disallow: /en-US/
+
+Sitemap: https://www.berliner-zeitung.de/feed.xml
+Sitemap: https://www.berliner-zeitung.de/sitemap.xml
+Sitemap: https://www.berliner-zeitung.de/news-sitemap.xml

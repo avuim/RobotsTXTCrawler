@@ -1,0 +1,25 @@
+# global live settings :
+User-agent: *
+Disallow: /cms_addon
+Disallow: /cms_docs
+Disallow: /redFACT
+Disallow: /REST/frontend/itemstatistics
+Sitemap: https://www.lkz.de/sitemap-index/3-Google-Sitemap.xml
+Sitemap: https://www.lkz.de/sitemap-index/5-Google_News_Sitemaps.xml
+# customised settings :
+#
+User-agent: *
+Disallow: *costart=*
+Disallow: *overview=*
+User-agent: GPTBot
+Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+User-agent: PerplexityBot
+Disallow: /
+User-agent: YouBot
+Disallow: /

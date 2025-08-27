@@ -1,0 +1,18 @@
+{
+  "domain": "www.cnv-medien.de",
+  "normalizedDomain": "www.cnv-medien.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    }
+  ]
+}
