@@ -1,7 +1,7 @@
 {
   "domain": "www.centerparcs.de",
   "normalizedDomain": "www.centerparcs.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: */preview/\r\nDisallow: */ajax/\r\nDisallow: /de-de/searchbis/\r\nDisallow: /de-de/product/reviewsajax\r\nDisallow: /de-de/search-tab-photos_pop\r\nDisallow: /de-de/search/ajax?type=result\r\nDisallow: /de-de/*?*\r\nAllow: /*?utm_source=google&utm_medium=Maps*\r\nAllow: /*?gclsrc=aw.ds*\r\nAllow: /*?adlgid=m%7Cg%7Ccenterparknordsee%7C223281066124%7Ce&gclid=EAIaIQobChMItMSFo9Xp4QIVTOR3Ch3NwQoVEAAYASABEgJ_cPD_BwE*\r\n \r\nUser-agent: bingbot\r\nDisallow: /booking/\r\n\r\nSitemap: https://www.centerparcs.de/sitemap.xml",
+  "robotsTxt": "User-agent: *\nDisallow: */preview/\nDisallow: */ajax/\nDisallow: /de-de/searchbis/\nDisallow: /de-de/product/reviewsajax\nDisallow: /de-de/search-tab-photos_pop\nDisallow: /de-de/search/ajax?type=result\nDisallow: /de-de/*?*\nAllow: /*?utm_source=google&utm_medium=Maps*\nAllow: /*?gclsrc=aw.ds*\nAllow: /*?adlgid=m%7Cg%7Ccenterparknordsee%7C223281066124%7Ce&gclid=EAIaIQobChMItMSFo9Xp4QIVTOR3Ch3NwQoVEAAYASABEgJ_cPD_BwE*\n \nUser-agent: bingbot\nDisallow: /booking/\n\nSitemap: https://www.centerparcs.de/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [

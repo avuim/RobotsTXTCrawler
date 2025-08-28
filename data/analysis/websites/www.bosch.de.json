@@ -1,7 +1,7 @@
 {
   "domain": "www.bosch.de",
   "normalizedDomain": "www.bosch.de",
-  "robotsTxt": "\r\nUser-agent: *\r\nDisallow: /en/\r\nDisallow: /static/\r\n\r\nUser-agent: Mindbreeze-P\r\nAllow: /en/\r\n\r\nUser-agent: facebookexternalhit\r\nAllow: /en/\r\nAllow: /media/\r\n\r\nUser-agent: Twitterbot\r\nAllow: /en/\r\nAllow: /media/\r\n\r\nSitemap: https://www.bosch.de/sitemap-de.xml\r\n",
+  "robotsTxt": "\nUser-agent: *\nDisallow: /en/\nDisallow: /static/\n\nUser-agent: Mindbreeze-P\nAllow: /en/\n\nUser-agent: facebookexternalhit\nAllow: /en/\nAllow: /media/\n\nUser-agent: Twitterbot\nAllow: /en/\nAllow: /media/\n\nSitemap: https://www.bosch.de/sitemap-de.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

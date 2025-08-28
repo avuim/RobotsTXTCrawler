@@ -1,7 +1,7 @@
 {
   "domain": "www.zalando.de",
   "normalizedDomain": "www.zalando.de",
-  "robotsTxt": "User-agent: Pinterestbot\r\nCrawl-delay: 0.2\r\n\r\nUser-agent: *\r\nAllow: /trend-rewind/*\r\nDisallow: /*&*&*&*\r\nDisallow: /cart/*\r\nDisallow: /wardrobe/*\r\nDisallow: /myaccount/*\r\nDisallow: /opinions*\r\nAllow: /api/navigation\r\nAllow: /api/graphql/\r\nDisallow: /api/navigation/*\r\nDisallow: /api/*\r\nDisallow: /consent/api/ucversion\r\n",
+  "robotsTxt": "User-agent: Pinterestbot\nCrawl-delay: 0.2\n\nUser-agent: *\nAllow: /trend-rewind/*\nDisallow: /*&*&*&*\nDisallow: /cart/*\nDisallow: /wardrobe/*\nDisallow: /myaccount/*\nDisallow: /opinions*\nAllow: /api/navigation\nAllow: /api/graphql/\nDisallow: /api/navigation/*\nDisallow: /api/*\nDisallow: /consent/api/ucversion\n",
   "globalRules": {
     "paths": {
       "allowed": [

@@ -1,7 +1,7 @@
 {
   "domain": "www.honda.de",
   "normalizedDomain": "www.honda.de",
-  "robotsTxt": "User-agent: *\r\nAllow: /\r\nDisallow: */search.html?*\r\nDisallow: /contact-dealer.html?*\r\n\r\nSitemap: https://www.honda.de/sitemap.xml\r\n",
+  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: */search.html?*\nDisallow: /contact-dealer.html?*\n\nSitemap: https://www.honda.de/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

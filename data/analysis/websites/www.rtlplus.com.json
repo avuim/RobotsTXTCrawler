@@ -1,7 +1,7 @@
 {
   "domain": "www.rtlplus.com",
   "normalizedDomain": "www.rtlplus.com",
-  "robotsTxt": "User-agent: *\r\nAllow: /\r\nDisallow: /musik/*/*/track\r\nDisallow: /musik/deezer-grid\r\nDisallow: /jugendschutz\r\nDisallow: /magazine/marken/*/*/*\r\nDisallow: /test-forwarding-to-ssr\r\nDisallow: /onboarding/*\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nUser-agent: Google-Extended\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\nSitemap: https://plus.rtl.de/root.sitemap.xml\r\n",
+  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /musik/*/*/track\nDisallow: /musik/deezer-grid\nDisallow: /jugendschutz\nDisallow: /magazine/marken/*/*/*\nDisallow: /test-forwarding-to-ssr\nDisallow: /onboarding/*\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nSitemap: https://plus.rtl.de/root.sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

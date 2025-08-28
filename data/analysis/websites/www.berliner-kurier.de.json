@@ -1,7 +1,116 @@
 {
   "domain": "www.berliner-kurier.de",
   "normalizedDomain": "www.berliner-kurier.de",
+  "robotsTxt": "User-agent: Googlebot-News\nAllow: /\n\nUser-agent: EchoboxBot\nAllow: /\nUser-agent: Mozilla/5.0 (compatible; OGDWCtxCrawler)\nAllow: /\nUser-agent: Mediapartners-Google\nAllow: /\n\nUser-agent: GPTBot\nDisallow: /\nUser-agent: ChatGPT-User\nDisallow: /\nUser-agent: Google-Extended\nDisallow: /\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: *\nDisallow: /suche?q=\nDisallow: /jos-data\nDisallow: /api/\nDisallow: /.woff2$\nDisallow: /.woff$\nDisallow: /*.ttf$\nDisallow: /backoffice/\nDisallow: /_next/\nDisallow: /en-US\nDisallow: /tests\nDisallow: /archiv\nDisallow: /status\nDisallow: /session/\nDisallow: /search\nDisallow: /article-metadata\nDisallow: /articles-from-category\nDisallow: /designs/\nDisallow: /ajax/\nDisallow: /interaktiv/\nDisallow: /tracking/\nDisallow: /meinung/\nDisallow: /tagcloud/\n\nAllow: /_next/static/\nAllow: /.well-known/\n\nSitemap: https://www.berliner-kurier.de/sitemap.xml\nSitemap: https://www.berliner-kurier.de/author-sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/_next/static/",
+        "/.well-known/"
+      ],
+      "disallowed": [
+        "/suche?q=",
+        "/jos-data",
+        "/api/",
+        "/.woff2$",
+        "/.woff$",
+        "/*.ttf$",
+        "/backoffice/",
+        "/_next/",
+        "/en-US",
+        "/tests",
+        "/archiv",
+        "/status",
+        "/session/",
+        "/search",
+        "/article-metadata",
+        "/articles-from-category",
+        "/designs/",
+        "/ajax/",
+        "/interaktiv/",
+        "/tracking/",
+        "/meinung/",
+        "/tagcloud/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot-News",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EchoboxBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Mozilla/5.0 (compatible; OGDWCtxCrawler)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 8,
+    "allowedBots": 4,
+    "disallowedBots": 4,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "Googlebot-News",
       "allowed": true
@@ -33,10 +142,36 @@
     {
       "name": "CCBot",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/_next/static/",
+      "/.well-known/"
+    ],
+    "disallowed": [
+      "/suche?q=",
+      "/jos-data",
+      "/api/",
+      "/.woff2$",
+      "/.woff$",
+      "/*.ttf$",
+      "/backoffice/",
+      "/_next/",
+      "/en-US",
+      "/tests",
+      "/archiv",
+      "/status",
+      "/session/",
+      "/search",
+      "/article-metadata",
+      "/articles-from-category",
+      "/designs/",
+      "/ajax/",
+      "/interaktiv/",
+      "/tracking/",
+      "/meinung/",
+      "/tagcloud/"
+    ]
+  }
 }

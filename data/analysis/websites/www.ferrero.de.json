@@ -1,7 +1,7 @@
 {
   "domain": "www.ferrero.de",
   "normalizedDomain": "www.ferrero.de",
-  "robotsTxt": "User-agent: GoogleBot\r\nDisallow: /inc/\r\nDisallow: /layouts/\r\nDisallow: /index.php\r\n\r\nSitemap: http://www.ferrero.de/sitemap.xml\r\n\r\nUser-agent: *\r\nDisallow: /inc/\r\nDisallow: /layouts/\r\nDisallow: /index.php\r\nDisallow: /Technical_and_Organizational_Security_Measures\r\nDisallow: /fc-4614\r\n",
+  "robotsTxt": "User-agent: GoogleBot\nDisallow: /inc/\nDisallow: /layouts/\nDisallow: /index.php\n\nSitemap: http://www.ferrero.de/sitemap.xml\n\nUser-agent: *\nDisallow: /inc/\nDisallow: /layouts/\nDisallow: /index.php\nDisallow: /Technical_and_Organizational_Security_Measures\nDisallow: /fc-4614\n",
   "globalRules": {
     "paths": {
       "allowed": [],

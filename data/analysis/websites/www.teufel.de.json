@@ -1,7 +1,7 @@
 {
   "domain": "www.teufel.de",
   "normalizedDomain": "www.teufel.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: *?*privacylayer*\r\nDisallow: *?*q=*\r\nDisallow: *?*www*\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: *?*privacylayer*\nDisallow: *?*q=*\nDisallow: *?*www*\n",
   "globalRules": {
     "paths": {
       "allowed": [],

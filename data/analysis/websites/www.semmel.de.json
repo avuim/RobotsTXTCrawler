@@ -1,7 +1,7 @@
 {
   "domain": "www.semmel.de",
   "normalizedDomain": "www.semmel.de",
-  "robotsTxt": "user-agent:*\r\ndisallow:/contao/\r\ndisallow:/_contao/\r\n\r\nsitemap:https://semmel.de/sitemap.xml",
+  "robotsTxt": "user-agent:*\ndisallow:/contao/\ndisallow:/_contao/\n\nsitemap:https://semmel.de/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

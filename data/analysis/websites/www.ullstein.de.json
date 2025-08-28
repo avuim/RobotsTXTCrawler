@@ -1,7 +1,7 @@
 {
   "domain": "www.ullstein.de",
   "normalizedDomain": "www.ullstein.de",
-  "robotsTxt": "# robots.txt for https://www.ullstein.de/\r\n\r\nsitemap: https://www.ullstein.de/sitemaps-2-sitemap.xml\r\n\r\n# live - don't allow web crawlers to index frontend-only routes\r\n\r\nUser-agent: *\r\nDisallow: /search\r\nDisallow: /cart\r\nDisallow: /cookiePrefs\r\nDisallow: /newsletter/preferences\r\nDisallow: /newsletter/thanks\r\nDisallow: /gewinnspiele\r\n\r\nUser-agent: AhrefsBot\r\nDisallow: /\r\n\r\n",
+  "robotsTxt": "# robots.txt for https://www.ullstein.de/\n\nsitemap: https://www.ullstein.de/sitemaps-2-sitemap.xml\n\n# live - don't allow web crawlers to index frontend-only routes\n\nUser-agent: *\nDisallow: /search\nDisallow: /cart\nDisallow: /cookiePrefs\nDisallow: /newsletter/preferences\nDisallow: /newsletter/thanks\nDisallow: /gewinnspiele\n\nUser-agent: AhrefsBot\nDisallow: /\n\n",
   "globalRules": {
     "paths": {
       "allowed": [],

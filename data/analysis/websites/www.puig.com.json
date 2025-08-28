@@ -1,7 +1,7 @@
 {
   "domain": "www.puig.com",
   "normalizedDomain": "www.puig.com",
-  "robotsTxt": "User-agent: *\r\nDisallow: /admin/\r\nDisallow: /private/\r\n\r\nSitemap: https://www.puig.com/sitemap.xml\r\n    ",
+  "robotsTxt": "User-agent: *\nDisallow: /admin/\nDisallow: /private/\n\nSitemap: https://www.puig.com/sitemap.xml\n    ",
   "globalRules": {
     "paths": {
       "allowed": [],

@@ -1,7 +1,416 @@
 {
   "domain": "www.wb-jobs.de",
   "normalizedDomain": "www.wb-jobs.de",
+  "robotsTxt": "# robots.txt\r\nUser-agent: Googlebot\r\nAllow: /api/job-pdf\r\nDisallow: /api\r\nDisallow: /application\r\nDisallow: /search\r\nDisallow: /Error\r\nDisallow: /Partner\r\nDisallow: /partner\r\nDisallow: /UserFeature/UseResponsiveness\r\nDisallow: /CachedImage\r\nDisallow: /RecentSearch\r\nDisallow: /*?search=\r\nDisallow: /Tracking/\r\nDisallow: /offerdetailsuggestedjobs\r\nDisallow: /tenants\r\nAllow: /\r\n\r\nUser-agent: googlebot-image\r\nAllow: /api/job-pdf\r\nDisallow: /api\r\nDisallow: /application\r\nDisallow: /search\r\nDisallow: /Error\r\nDisallow: /Partner\r\nDisallow: /partner\r\nDisallow: /UserFeature/UseResponsiveness\r\nDisallow: /CachedImage\r\nDisallow: /RecentSearch\r\nDisallow: /*?search=\r\nDisallow: /Tracking/\r\nDisallow: /offerdetailsuggestedjobs\r\nDisallow: /tenants\r\nAllow: /\r\n\r\nUser-agent: googlebot-mobile\r\nAllow: /api/job-pdf\r\nDisallow: /api\r\nDisallow: /application\r\nDisallow: /search\r\nDisallow: /Error\r\nDisallow: /Partner\r\nDisallow: /partner\r\nDisallow: /UserFeature/UseResponsiveness\r\nDisallow: /CachedImage\r\nDisallow: /RecentSearch\r\nDisallow: /*?search=\r\nDisallow: /Tracking/\r\nDisallow: /offerdetailsuggestedjobs\r\nDisallow: /tenants\r\nAllow: /\r\n\r\nUser-agent: Mediapartners-Google\r\nAllow: /api/job-pdf\r\nDisallow: /api\r\nDisallow: /application\r\nDisallow: /search\r\nDisallow: /Error\r\nDisallow: /Partner\r\nDisallow: /partner\r\nDisallow: /UserFeature/UseResponsiveness\r\nDisallow: /CachedImage\r\nDisallow: /RecentSearch\r\nDisallow: /*?search=\r\nDisallow: /Tracking/\r\nDisallow: /offerdetailsuggestedjobs\r\nDisallow: /tenants\r\nAllow: /\r\n\r\nUser-agent: Adsbot-Google\r\nAllow: /api/job-pdf\r\nDisallow: /api\r\nDisallow: /application\r\nDisallow: /search\r\nDisallow: /Error\r\nDisallow: /Partner\r\nDisallow: /partner\r\nDisallow: /UserFeature/UseResponsiveness\r\nDisallow: /CachedImage\r\nDisallow: /RecentSearch\r\nDisallow: /*?search=\r\nDisallow: /Tracking/\r\nDisallow: /offerdetailsuggestedjobs\r\nDisallow: /tenants\r\nAllow: /\r\n\r\nUser-agent: MSNBot\r\nAllow: /api/job-pdf\r\nDisallow: /api\r\nDisallow: /application\r\nDisallow: /search\r\nDisallow: /Search\r\nDisallow: /Lead\r\nDisallow: /Toolbar\r\nDisallow: /Error\r\nDisallow: /Partner\r\nDisallow: /partner\r\nDisallow: /UserFeature/NotedOffers\r\nDisallow: /UserFeature/RecentOffers\r\nDisallow: /UserFeature/LastSearches\r\nDisallow: /UserFeature/UseResponsiveness\r\nDisallow: /Bewerben\r\nDisallow: /OfferDetail\r\nDisallow: /CachedImage\r\nDisallow: /RecentSearch\r\nDisallow: /*?search=\r\nDisallow: /Tracking/\r\nDisallow: /offerdetailsuggestedjobs\r\nDisallow: /tenants\r\nAllow: /\r\n\r\nUser-agent: Slurp\r\nAllow: /api/job-pdf\r\nDisallow: /api\r\nDisallow: /application\r\nDisallow: /search\r\nDisallow: /Search\r\nDisallow: /Lead\r\nDisallow: /Toolbar\r\nDisallow: /Error\r\nDisallow: /Partner\r\nDisallow: /partner\r\nDisallow: /UserFeature/NotedOffers\r\nDisallow: /UserFeature/RecentOffers\r\nDisallow: /UserFeature/LastSearches\r\nDisallow: /UserFeature/UseResponsiveness\r\nDisallow: /Bewerben\r\nDisallow: /OfferDetail\r\nDisallow: /CachedImage\r\nDisallow: /RecentSearch\r\nDisallow: /*?search=\r\nDisallow: /Tracking/\r\nDisallow: /offerdetailsuggestedjobs\r\nDisallow: /tenants\r\nAllow: /\r\n\r\nUser-agent: Teoma\r\nAllow: /api/job-pdf\r\nDisallow: /api\r\nDisallow: /application\r\nDisallow: /search\r\nDisallow: /Search\r\nDisallow: /Lead\r\nDisallow: /Toolbar\r\nDisallow: /Error\r\nDisallow: /Partner\r\nDisallow: /partner\r\nDisallow: /UserFeature/NotedOffers\r\nDisallow: /UserFeature/RecentOffers\r\nDisallow: /UserFeature/LastSearches\r\nDisallow: /UserFeature/UseResponsiveness\r\nDisallow: /Bewerben\r\nDisallow: /OfferDetail\r\nDisallow: /CachedImage\r\nDisallow: /RecentSearch\r\nDisallow: /*?search=\r\nDisallow: /Tracking/\r\nDisallow: /offerdetailsuggestedjobs\r\nDisallow: /tenants\r\nAllow: /\r\n\r\nUser-agent: ia_archiver\r\nAllow: /api/job-pdf\r\nDisallow: /api\r\nDisallow: /application\r\nDisallow: /search\r\nDisallow: /Search.aspx\r\nDisallow: /Search\r\nDisallow: /Lead\r\nDisallow: /Toolbar\r\nDisallow: /Error\r\nDisallow: /Partner\r\nDisallow: /partner\r\nDisallow: /UserFeature/NotedOffers\r\nDisallow: /UserFeature/RecentOffers\r\nDisallow: /UserFeature/LastSearches\r\nDisallow: /UserFeature/UseResponsiveness\r\nDisallow: /Bewerben\r\nDisallow: /OfferDetail\r\nDisallow: /CachedImage\r\nDisallow: /RecentSearch\r\nDisallow: /*?search=\r\nDisallow: /Tracking/\r\nDisallow: /offerdetailsuggestedjobs\r\nDisallow: /tenants\r\nAllow: /\r\n\r\nUser-agent: yahoo-mmcrawler\r\nAllow: /api/job-pdf\r\nDisallow: /api\r\nDisallow: /application\r\nDisallow: /search\r\nDisallow: /Search\r\nDisallow: /Lead\r\nDisallow: /Toolbar\r\nDisallow: /Error\r\nDisallow: /Partner\r\nDisallow: /partner\r\nDisallow: /UserFeature/NotedOffers\r\nDisallow: /UserFeature/RecentOffers\r\nDisallow: /UserFeature/LastSearches\r\nDisallow: /UserFeature/UseResponsiveness\r\nDisallow: /Bewerben\r\nDisallow: /OfferDetail\r\nDisallow: /CachedImage\r\nDisallow: /RecentSearch\r\nDisallow: /*?search=\r\nDisallow: /Tracking/\r\nDisallow: /offerdetailsuggestedjobs\r\nDisallow: /tenants\r\nAllow: /\r\n\r\nUser-agent: psbot\r\nAllow: /api/job-pdf\r\nDisallow: /api\r\nDisallow: /application\r\nDisallow: /search\r\nDisallow: /Search\r\nDisallow: /Lead\r\nDisallow: /Toolbar\r\nDisallow: /Error\r\nDisallow: /Partner\r\nDisallow: /partner\r\nDisallow: /UserFeature/NotedOffers\r\nDisallow: /UserFeature/RecentOffers\r\nDisallow: /UserFeature/LastSearches\r\nDisallow: /UserFeature/UseResponsiveness\r\nDisallow: /Bewerben\r\nDisallow: /OfferDetail\r\nDisallow: /CachedImage\r\nDisallow: /RecentSearch\r\nDisallow: /Tracking/\r\nDisallow: /offerdetailsuggestedjobs\r\nDisallow: /tenants\r\nAllow: /\r\n\r\nUser-agent: Lycos_Spider_(T-Rex)\r\nAllow: /api/job-pdf\r\nDisallow: /api\r\nDisallow: /application\r\nDisallow: /search\r\nDisallow: /Search\r\nDisallow: /Lead\r\nDisallow: /Toolbar\r\nDisallow: /Error\r\nDisallow: /Partner\r\nDisallow: /partner\r\nDisallow: /UserFeature/NotedOffers\r\nDisallow: /UserFeature/RecentOffers\r\nDisallow: /UserFeature/LastSearches\r\nDisallow: /UserFeature/UseResponsiveness\r\nDisallow: /Bewerben\r\nDisallow: /OfferDetail\r\nDisallow: /CachedImage\r\nDisallow: /RecentSearch\r\nDisallow: /*?search=\r\nDisallow: /Tracking/\r\nDisallow: /offerdetailsuggestedjobs\r\nDisallow: /tenants\r\nAllow: /\r\n\r\nUser-agent: facebookexternalhit\r\nAllow: /api/job-pdf\r\nDisallow: /api\r\nDisallow: /application\r\nDisallow: /search\r\nDisallow: /Search\r\nDisallow: /Lead\r\nDisallow: /Toolbar\r\nDisallow: /Error\r\nDisallow: /Partner\r\nDisallow: /partner\r\nDisallow: /UserFeature/NotedOffers\r\nDisallow: /UserFeature/RecentOffers\r\nDisallow: /UserFeature/LastSearches\r\nDisallow: /UserFeature/UseResponsiveness\r\nDisallow: /Bewerben\r\nDisallow: /OfferDetail\r\nDisallow: /CachedImage\r\nDisallow: /RecentSearch\r\nDisallow: /*?search=\r\nDisallow: /Tracking/\r\nDisallow: /offerdetailsuggestedjobs\r\nDisallow: /tenants\r\nAllow: /\r\n\r\nUser-agent: *\r\nDisallow: /\r\nDisallow: /api\r\nDisallow: /application\r\nDisallow: /search\r\nDisallow: /Partner\r\nDisallow: /partner\r\nDisallow: /Bewerben\r\nDisallow: /OfferDetail\r\nDisallow: /CachedImage\r\nDisallow: /RecentSearch\r\nDisallow: /*?search=\r\nDisallow: /Tracking/\r\nDisallow: /offerdetailsuggestedjobs\r\nDisallow: /tenants",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/api",
+        "/application",
+        "/search",
+        "/Partner",
+        "/partner",
+        "/Bewerben",
+        "/OfferDetail",
+        "/CachedImage",
+        "/RecentSearch",
+        "/*?search=",
+        "/Tracking/",
+        "/offerdetailsuggestedjobs",
+        "/tenants"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/api/job-pdf"
+        ],
+        "disallowed": [
+          "/api",
+          "/application",
+          "/search",
+          "/Error",
+          "/Partner",
+          "/partner",
+          "/UserFeature/UseResponsiveness",
+          "/CachedImage",
+          "/RecentSearch",
+          "/*?search=",
+          "/Tracking/",
+          "/offerdetailsuggestedjobs",
+          "/tenants"
+        ]
+      }
+    },
+    {
+      "name": "googlebot-image",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/api/job-pdf"
+        ],
+        "disallowed": [
+          "/api",
+          "/application",
+          "/search",
+          "/Error",
+          "/Partner",
+          "/partner",
+          "/UserFeature/UseResponsiveness",
+          "/CachedImage",
+          "/RecentSearch",
+          "/*?search=",
+          "/Tracking/",
+          "/offerdetailsuggestedjobs",
+          "/tenants"
+        ]
+      }
+    },
+    {
+      "name": "googlebot-mobile",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/api/job-pdf"
+        ],
+        "disallowed": [
+          "/api",
+          "/application",
+          "/search",
+          "/Error",
+          "/Partner",
+          "/partner",
+          "/UserFeature/UseResponsiveness",
+          "/CachedImage",
+          "/RecentSearch",
+          "/*?search=",
+          "/Tracking/",
+          "/offerdetailsuggestedjobs",
+          "/tenants"
+        ]
+      }
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/api/job-pdf"
+        ],
+        "disallowed": [
+          "/api",
+          "/application",
+          "/search",
+          "/Error",
+          "/Partner",
+          "/partner",
+          "/UserFeature/UseResponsiveness",
+          "/CachedImage",
+          "/RecentSearch",
+          "/*?search=",
+          "/Tracking/",
+          "/offerdetailsuggestedjobs",
+          "/tenants"
+        ]
+      }
+    },
+    {
+      "name": "Adsbot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/api/job-pdf"
+        ],
+        "disallowed": [
+          "/api",
+          "/application",
+          "/search",
+          "/Error",
+          "/Partner",
+          "/partner",
+          "/UserFeature/UseResponsiveness",
+          "/CachedImage",
+          "/RecentSearch",
+          "/*?search=",
+          "/Tracking/",
+          "/offerdetailsuggestedjobs",
+          "/tenants"
+        ]
+      }
+    },
+    {
+      "name": "MSNBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/api/job-pdf"
+        ],
+        "disallowed": [
+          "/api",
+          "/application",
+          "/search",
+          "/Search",
+          "/Lead",
+          "/Toolbar",
+          "/Error",
+          "/Partner",
+          "/partner",
+          "/UserFeature/NotedOffers",
+          "/UserFeature/RecentOffers",
+          "/UserFeature/LastSearches",
+          "/UserFeature/UseResponsiveness",
+          "/Bewerben",
+          "/OfferDetail",
+          "/CachedImage",
+          "/RecentSearch",
+          "/*?search=",
+          "/Tracking/",
+          "/offerdetailsuggestedjobs",
+          "/tenants"
+        ]
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/api/job-pdf"
+        ],
+        "disallowed": [
+          "/api",
+          "/application",
+          "/search",
+          "/Search",
+          "/Lead",
+          "/Toolbar",
+          "/Error",
+          "/Partner",
+          "/partner",
+          "/UserFeature/NotedOffers",
+          "/UserFeature/RecentOffers",
+          "/UserFeature/LastSearches",
+          "/UserFeature/UseResponsiveness",
+          "/Bewerben",
+          "/OfferDetail",
+          "/CachedImage",
+          "/RecentSearch",
+          "/*?search=",
+          "/Tracking/",
+          "/offerdetailsuggestedjobs",
+          "/tenants"
+        ]
+      }
+    },
+    {
+      "name": "Teoma",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/api/job-pdf"
+        ],
+        "disallowed": [
+          "/api",
+          "/application",
+          "/search",
+          "/Search",
+          "/Lead",
+          "/Toolbar",
+          "/Error",
+          "/Partner",
+          "/partner",
+          "/UserFeature/NotedOffers",
+          "/UserFeature/RecentOffers",
+          "/UserFeature/LastSearches",
+          "/UserFeature/UseResponsiveness",
+          "/Bewerben",
+          "/OfferDetail",
+          "/CachedImage",
+          "/RecentSearch",
+          "/*?search=",
+          "/Tracking/",
+          "/offerdetailsuggestedjobs",
+          "/tenants"
+        ]
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/api/job-pdf"
+        ],
+        "disallowed": [
+          "/api",
+          "/application",
+          "/search",
+          "/Search.aspx",
+          "/Search",
+          "/Lead",
+          "/Toolbar",
+          "/Error",
+          "/Partner",
+          "/partner",
+          "/UserFeature/NotedOffers",
+          "/UserFeature/RecentOffers",
+          "/UserFeature/LastSearches",
+          "/UserFeature/UseResponsiveness",
+          "/Bewerben",
+          "/OfferDetail",
+          "/CachedImage",
+          "/RecentSearch",
+          "/*?search=",
+          "/Tracking/",
+          "/offerdetailsuggestedjobs",
+          "/tenants"
+        ]
+      }
+    },
+    {
+      "name": "yahoo-mmcrawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/api/job-pdf"
+        ],
+        "disallowed": [
+          "/api",
+          "/application",
+          "/search",
+          "/Search",
+          "/Lead",
+          "/Toolbar",
+          "/Error",
+          "/Partner",
+          "/partner",
+          "/UserFeature/NotedOffers",
+          "/UserFeature/RecentOffers",
+          "/UserFeature/LastSearches",
+          "/UserFeature/UseResponsiveness",
+          "/Bewerben",
+          "/OfferDetail",
+          "/CachedImage",
+          "/RecentSearch",
+          "/*?search=",
+          "/Tracking/",
+          "/offerdetailsuggestedjobs",
+          "/tenants"
+        ]
+      }
+    },
+    {
+      "name": "psbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/api/job-pdf"
+        ],
+        "disallowed": [
+          "/api",
+          "/application",
+          "/search",
+          "/Search",
+          "/Lead",
+          "/Toolbar",
+          "/Error",
+          "/Partner",
+          "/partner",
+          "/UserFeature/NotedOffers",
+          "/UserFeature/RecentOffers",
+          "/UserFeature/LastSearches",
+          "/UserFeature/UseResponsiveness",
+          "/Bewerben",
+          "/OfferDetail",
+          "/CachedImage",
+          "/RecentSearch",
+          "/Tracking/",
+          "/offerdetailsuggestedjobs",
+          "/tenants"
+        ]
+      }
+    },
+    {
+      "name": "Lycos_Spider_(T-Rex)",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/api/job-pdf"
+        ],
+        "disallowed": [
+          "/api",
+          "/application",
+          "/search",
+          "/Search",
+          "/Lead",
+          "/Toolbar",
+          "/Error",
+          "/Partner",
+          "/partner",
+          "/UserFeature/NotedOffers",
+          "/UserFeature/RecentOffers",
+          "/UserFeature/LastSearches",
+          "/UserFeature/UseResponsiveness",
+          "/Bewerben",
+          "/OfferDetail",
+          "/CachedImage",
+          "/RecentSearch",
+          "/*?search=",
+          "/Tracking/",
+          "/offerdetailsuggestedjobs",
+          "/tenants"
+        ]
+      }
+    },
+    {
+      "name": "facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/api/job-pdf"
+        ],
+        "disallowed": [
+          "/api",
+          "/application",
+          "/search",
+          "/Search",
+          "/Lead",
+          "/Toolbar",
+          "/Error",
+          "/Partner",
+          "/partner",
+          "/UserFeature/NotedOffers",
+          "/UserFeature/RecentOffers",
+          "/UserFeature/LastSearches",
+          "/UserFeature/UseResponsiveness",
+          "/Bewerben",
+          "/OfferDetail",
+          "/CachedImage",
+          "/RecentSearch",
+          "/*?search=",
+          "/Tracking/",
+          "/offerdetailsuggestedjobs",
+          "/tenants"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 13,
+    "allowedBots": 13,
+    "disallowedBots": 0,
+    "hasGlobalAllow": false
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
     {
       "name": "Googlebot",
       "allowed": true
@@ -53,10 +462,24 @@
     {
       "name": "facebookexternalhit",
       "allowed": true
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/api",
+      "/application",
+      "/search",
+      "/Partner",
+      "/partner",
+      "/Bewerben",
+      "/OfferDetail",
+      "/CachedImage",
+      "/RecentSearch",
+      "/*?search=",
+      "/Tracking/",
+      "/offerdetailsuggestedjobs",
+      "/tenants"
+    ]
+  }
 }

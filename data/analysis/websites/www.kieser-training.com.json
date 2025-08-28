@@ -1,7 +1,7 @@
 {
   "domain": "www.kieser-training.com",
   "normalizedDomain": "www.kieser-training.com",
-  "robotsTxt": "# www.robotstxt.org/\r\n# https://developers.google.com/webmasters/control-crawl-index/\r\n\r\nUser-agent: *\r\nDisallow: /typo3/\r\nDisallow: /typo3conf/\r\nDisallow: /typo3temp/var\r\n\r\nAllow: /typo3conf/ext/ondigoconfiguration/Resources/Public\r\n\r\nSitemap: https://www.kieser.com/sitemap.xml\r\nSitemap: https://www.kieser.com/en/sitemap.xml\r\nSitemap: https://www.kieser.com/fr/sitemap.xml\r\n",
+  "robotsTxt": "# www.robotstxt.org/\n# https://developers.google.com/webmasters/control-crawl-index/\n\nUser-agent: *\nDisallow: /typo3/\nDisallow: /typo3conf/\nDisallow: /typo3temp/var\n\nAllow: /typo3conf/ext/ondigoconfiguration/Resources/Public\n\nSitemap: https://www.kieser.com/sitemap.xml\nSitemap: https://www.kieser.com/en/sitemap.xml\nSitemap: https://www.kieser.com/fr/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [

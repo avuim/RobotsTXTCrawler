@@ -1,13 +1,123 @@
 {
   "domain": "www.dk-online.de",
   "normalizedDomain": "www.dk-online.de",
-  "bots": [
+  "robotsTxt": "User-Agent: Mediapartners-Google\nDisallow:\n\nUser-Agent: *\nDisallow: /pagebuilding/\nDisallow: /new-articles/\nDisallow: /suche\nDisallow: /*?q=*\nDisallow: /files/\nDisallow: /cre-1.0/tracking/\n\nSitemap: https://www.dk-online.de/sitemap.xml\nSitemap: https://www.dk-online.de/sitemap/googleNewsList.xml\nSitemap: https://www.dk-online.de/sitemap/artikel/sitemap-current.xml\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: OAI-SearchBot\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\n\n# Legal notice: dk-online.de expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).\n# The use of robots or other automated means to access dk-online.de or collect or mine data without the express permission of dk-online.de  is strictly prohibited.\n# If you would like to apply for permission to crawl dk-online.de, collect or use data, please contact info+nutzungsrecht@noz-digital.de",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/pagebuilding/",
+        "/new-articles/",
+        "/suche",
+        "/*?q=*",
+        "/files/",
+        "/cre-1.0/tracking/"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "Mediapartners-Google",
-      "allowed": false
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
     },
     {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 11,
+    "allowedBots": 0,
+    "disallowedBots": 11,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
       "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Mediapartners-Google",
       "allowed": false
     },
     {
@@ -50,5 +160,16 @@
       "name": "Bytespider",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/pagebuilding/",
+      "/new-articles/",
+      "/suche",
+      "/*?q=*",
+      "/files/",
+      "/cre-1.0/tracking/"
+    ]
+  }
 }

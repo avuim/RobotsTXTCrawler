@@ -1,7 +1,7 @@
 {
   "domain": "www.seven.one",
   "normalizedDomain": "www.seven.one",
-  "robotsTxt": "#seven.one robots.txt - last update: 20/06/2024\r\n\r\nUser-Agent: *\r\nDisallow: *?p_p_id=\r\nDisallow: *?p_p_state=\r\nDisallow: *?t=\r\nDisallow: *?img_id=\r\nDisallow: *?portletId=\r\nDisallow: *?version=\r\nDisallow: */login?redirect=\r\n\r\nSitemap: https://www.seven.one/sitemap.xml",
+  "robotsTxt": "#seven.one robots.txt - last update: 20/06/2024\n\nUser-Agent: *\nDisallow: *?p_p_id=\nDisallow: *?p_p_state=\nDisallow: *?t=\nDisallow: *?img_id=\nDisallow: *?portletId=\nDisallow: *?version=\nDisallow: */login?redirect=\n\nSitemap: https://www.seven.one/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

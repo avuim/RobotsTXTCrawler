@@ -1,7 +1,7 @@
 {
   "domain": "www.queisser.de",
   "normalizedDomain": "www.queisser.de",
-  "robotsTxt": "User-agent: *\r\n\r\n# Folders\r\nDisallow: /typo3/\r\nDisallow: /typo3temp/\r\nDisallow: /fileadmin/_temp_/\r\nAllow: /typo3temp/assets/\r\n\r\n# Parameters\r\nDisallow: /*tx_*\r\nDisallow: /*cHash=*\r\nDisallow: /*type=*\r\n\r\n# Sitemap\r\nSitemap: https://www.queisser.de/sitemap.xml\r\n",
+  "robotsTxt": "User-agent: *\n\n# Folders\nDisallow: /typo3/\nDisallow: /typo3temp/\nDisallow: /fileadmin/_temp_/\nAllow: /typo3temp/assets/\n\n# Parameters\nDisallow: /*tx_*\nDisallow: /*cHash=*\nDisallow: /*type=*\n\n# Sitemap\nSitemap: https://www.queisser.de/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [

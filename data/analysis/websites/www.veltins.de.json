@@ -1,7 +1,7 @@
 {
   "domain": "www.veltins.de",
   "normalizedDomain": "www.veltins.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /wp-admin/\r\nAllow: /wp-admin/admin-ajax.php\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n",
   "globalRules": {
     "paths": {
       "allowed": [

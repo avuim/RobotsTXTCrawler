@@ -1,4 +1,4 @@
-# robots.txt updated 2025-06-17
+# robots.txt updated 2025-08-27
 
 User-agent: *
 Disallow: /json/
@@ -22,6 +22,7 @@ Disallow: /podcast-service/
 Disallow: */event/widgets/
 Disallow: */event/*/live/
 Disallow: */event/*/html/
+Disallow: /source/
 
 Disallow: /allesbeste/*?s=*
 Disallow: /allesbeste/*&s=*
@@ -90,6 +91,8 @@ Disallow: /
 
 User-agent: Google-Extended
 Disallow: /
+Allow: /source/
+Allow: /*-accg-
 
 User-agent: Bytespider
 Disallow: /
@@ -123,6 +126,9 @@ Disallow: /
 
 User-agent: DeepSeek
 Disallow: /
+
+user-agent: GoogleOther
+allow: /source/
 
 # Legal notice: faz.net expressly reserves the right to use its content for commercial text and data mining (§44 b UrhG).
 # The use of robots or other automated means to access faz.net or collect or mine data without the express permission of faz.net is strictly prohibited.

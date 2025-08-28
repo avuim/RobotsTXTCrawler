@@ -87,6 +87,7 @@ Disallow: /tickets/
 
 User-Agent: *
 Disallow: /*/(S(*))
+Disallow: /land/kalender/print/
 Disallow: /presse/pressemitteilungen/index/search/
 
 Sitemap: https://www.berlin.de/sitemap-index.xml

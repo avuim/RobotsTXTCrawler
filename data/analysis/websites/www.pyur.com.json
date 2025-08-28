@@ -1,7 +1,7 @@
 {
   "domain": "www.pyur.com",
   "normalizedDomain": "www.pyur.com",
-  "robotsTxt": "User-agent: *\r\nAllow: /\r\nDisallow: /All_components\r\nDisallow: /system/probes/health\r\nDisallow: /errors\r\nDisallow: /generalsettings\r\n\r\n#params GSC\r\nDisallow: /*?*cioid=\r\nDisallow: /*?*msclkid=\r\nDisallow: /*?*aff=\r\nDisallow: /*?*marketingid=\r\nDisallow: /*?*campID=\r\nDisallow: /*?*objectid=\r\nDisallow: /*?*ca_id=\r\nDisallow: /*?*link=\r\nDisallow: /*?*ref=\r\nDisallow: /*?*noHeader=\r\nDisallow: /*?*noFooter=\r\nDisallow: /*?*creative=\r\nDisallow: /*?*PHPSESSID=\r\nDisallow: /*?*utm_campaign=\r\nDisallow: /*?*utm_term=\r\nDisallow: /*?*gclid=\r\nDisallow: /*?*map=\r\nDisallow: /*?*action=\r\nDisallow: /*?*smel=\r\nDisallow: /*?*view=\r\n\r\n\r\nSitemap: https://www.pyur.com/sitemap.xml",
+  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /All_components\nDisallow: /system/probes/health\nDisallow: /errors\nDisallow: /generalsettings\n\n#params GSC\nDisallow: /*?*cioid=\nDisallow: /*?*msclkid=\nDisallow: /*?*aff=\nDisallow: /*?*marketingid=\nDisallow: /*?*campID=\nDisallow: /*?*objectid=\nDisallow: /*?*ca_id=\nDisallow: /*?*link=\nDisallow: /*?*ref=\nDisallow: /*?*noHeader=\nDisallow: /*?*noFooter=\nDisallow: /*?*creative=\nDisallow: /*?*PHPSESSID=\nDisallow: /*?*utm_campaign=\nDisallow: /*?*utm_term=\nDisallow: /*?*gclid=\nDisallow: /*?*map=\nDisallow: /*?*action=\nDisallow: /*?*smel=\nDisallow: /*?*view=\n\n\nSitemap: https://www.pyur.com/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

@@ -1,13 +1,15 @@
 {
   "domain": "www.noz.de",
   "normalizedDomain": "www.noz.de",
-  "robotsTxt": "User-Agent: Mediapartners-Google\nDisallow:\n\nUser-Agent: *\nDisallow: /pagebuilding/\nDisallow: /new-articles/\nDisallow: /files/\nDisallow: /cre-1.0/tracking/\nDisallow:\n\nSitemap: https://www.noz.de/sitemap.xml\nSitemap: https://www.noz.de/sitemap/googleNewsList.xml\nSitemap: https://www.noz.de/sitemap/artikel/sitemap-current.xml\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: OAI-SearchBot\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\n\n# Legal notice: noz.de expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).\n# The use of robots or other automated means to access noz.de or collect or mine data without the express permission of noz.de is strictly prohibited.\n# If you would like to apply for permission to crawl noz.de, collect or use data, please contact info+nutzungsrecht@noz-digital.de",
+  "robotsTxt": "User-Agent: Mediapartners-Google\nDisallow:\n\nUser-Agent: *\nDisallow: /pagebuilding/\nDisallow: /new-articles/\nDisallow: /suche\nDisallow: /*?q=*\nDisallow: /files/\nDisallow: /cre-1.0/tracking/\n\nSitemap: https://www.noz.de/sitemap.xml\nSitemap: https://www.noz.de/sitemap/googleNewsList.xml\nSitemap: https://www.noz.de/sitemap/artikel/sitemap-current.xml\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: OAI-SearchBot\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\n\n# Legal notice: noz.de expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).\n# The use of robots or other automated means to access noz.de or collect or mine data without the express permission of noz.de is strictly prohibited.\n# If you would like to apply for permission to crawl noz.de, collect or use data, please contact info+nutzungsrecht@noz-digital.de",
   "globalRules": {
     "paths": {
       "allowed": [],
       "disallowed": [
         "/pagebuilding/",
         "/new-articles/",
+        "/suche",
+        "/*?q=*",
         "/files/",
         "/cre-1.0/tracking/"
       ]
@@ -107,12 +109,12 @@
     "totalSpecificBots": 11,
     "allowedBots": 0,
     "disallowedBots": 11,
-    "hasGlobalAllow": false
+    "hasGlobalAllow": true
   },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Mediapartners-Google",
@@ -164,6 +166,8 @@
     "disallowed": [
       "/pagebuilding/",
       "/new-articles/",
+      "/suche",
+      "/*?q=*",
       "/files/",
       "/cre-1.0/tracking/"
     ]

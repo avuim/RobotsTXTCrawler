@@ -1,7 +1,7 @@
 {
   "domain": "www.ineos.com",
   "normalizedDomain": "www.ineos.com",
-  "robotsTxt": "# ---------------------------\r\nUser-agent: *\r\nDisallow:\r\n\r\nSitemap: https://www.ineos.com/sitemap.xml\r\n# ---------------------------",
+  "robotsTxt": "# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://www.ineos.com/sitemap.xml\n# ---------------------------",
   "globalRules": {
     "paths": {
       "allowed": [],

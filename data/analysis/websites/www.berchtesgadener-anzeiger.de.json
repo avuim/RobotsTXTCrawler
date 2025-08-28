@@ -1,10 +1,62 @@
 {
   "domain": "www.berchtesgadener-anzeiger.de",
   "normalizedDomain": "www.berchtesgadener-anzeiger.de",
+  "robotsTxt": "# global live settings :\r\nUser-agent: *\r\nDisallow: /cms_addon\r\nDisallow: /cms_docs\r\nDisallow: /redFACT\r\nDisallow: /REST/frontend/itemstatistics\r\nSitemap: https://www.berchtesgadener-anzeiger.de/sitemap-index/42-google-sitemap-berchtesgadener-anzeiger-2017.xml\r\nSitemap: https://www.berchtesgadener-anzeiger.de/sitemap-index/45-google-news-sitemap-berchtesgadener-anzeiger-2017.xml\r\n# customised settings :\r\nUser-agent: GPTBot\r\nDisallow: /\r\nUser-agent: ChatGPT-User\r\nDisallow: /\r\nUser-agent: CCBot\r\nDisallow: /\r\nUser-agent: Google-Extended\r\nDisallow: /\r\n#\r\n# Legal notice: berchtesgadener-anzeiger.de expressly reserves the right to use its content for commercial text and data mining (§44b UrhG).\r\n# The use of robots or other automated means to access berchtesgadener-anzeiger.de or collect or mine data without the express permission of berchtesgadener-anzeiger.de is strictly prohibited.\r\n# If you would like to apply for permission to crawl berchtesgadener-anzeiger.de, collect or use data, please contact datenschutz@traunsteiner-tagblatt.de\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/cms_addon",
+        "/cms_docs",
+        "/redFACT",
+        "/REST/frontend/itemstatistics"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 4,
+    "allowedBots": 0,
+    "disallowedBots": 4,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
@@ -22,5 +74,14 @@
       "name": "Google-Extended",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/cms_addon",
+      "/cms_docs",
+      "/redFACT",
+      "/REST/frontend/itemstatistics"
+    ]
+  }
 }

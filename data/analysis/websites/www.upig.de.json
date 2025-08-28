@@ -1,10 +1,74 @@
 {
   "domain": "www.upig.de",
   "normalizedDomain": "www.upig.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /plugins/\r\nDisallow: /system/\r\nDisallow: /templates/\r\nDisallow: /typolight/\r\nDisallow: /CHANGELOG.txt\r\nDisallow: /INSTALL.txt\r\nDisallow: /LICENSE.txt\r\nDisallow: /cron.php\r\nDisallow: /flash.php\r\nDisallow: /adventure/\r\nDisallow: /gfx/\r\nDisallow: /hi/\r\nDisallow: /lo/\r\nDisallow: /start/\r\nDisallow: /statistics/\r\nDisallow: /uebergabe/\r\nDisallow: /montag/\r\nDisallow: /montag_stat/\r\nDisallow: /hausmeister/\r\nDisallow: /KdW/\r\nDisallow: /downloadcenter/\r\nDisallow: /download/",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/plugins/",
+        "/system/",
+        "/templates/",
+        "/typolight/",
+        "/CHANGELOG.txt",
+        "/INSTALL.txt",
+        "/LICENSE.txt",
+        "/cron.php",
+        "/flash.php",
+        "/adventure/",
+        "/gfx/",
+        "/hi/",
+        "/lo/",
+        "/start/",
+        "/statistics/",
+        "/uebergabe/",
+        "/montag/",
+        "/montag_stat/",
+        "/hausmeister/",
+        "/KdW/",
+        "/downloadcenter/",
+        "/download/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/plugins/",
+      "/system/",
+      "/templates/",
+      "/typolight/",
+      "/CHANGELOG.txt",
+      "/INSTALL.txt",
+      "/LICENSE.txt",
+      "/cron.php",
+      "/flash.php",
+      "/adventure/",
+      "/gfx/",
+      "/hi/",
+      "/lo/",
+      "/start/",
+      "/statistics/",
+      "/uebergabe/",
+      "/montag/",
+      "/montag_stat/",
+      "/hausmeister/",
+      "/KdW/",
+      "/downloadcenter/",
+      "/download/"
+    ]
+  }
 }

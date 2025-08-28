@@ -1,7 +1,7 @@
 {
   "domain": "www.dfl.de",
   "normalizedDomain": "www.dfl.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /de/search/*\r\nDisallow: /en/search/*\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /de/search/*\nDisallow: /en/search/*\n",
   "globalRules": {
     "paths": {
       "allowed": [],

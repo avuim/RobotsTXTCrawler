@@ -1,7 +1,7 @@
 {
   "domain": "www.ontario.ca",
   "normalizedDomain": "www.ontario.ca",
-  "robotsTxt": "User-agent: *\r\nCrawl-delay: 1\r\n\r\nAllow: /core/*.css$\r\nAllow: /core/*.css?\r\nAllow: /core/*.js$\r\nAllow: /core/*.js?\r\nAllow: /core/*.gif\r\nAllow: /core/*.jpg\r\nAllow: /core/*.jpeg\r\nAllow: /core/*.png\r\nAllow: /core/*.svg\r\nAllow: /profiles/*.css$\r\nAllow: /profiles/*.css?\r\nAllow: /profiles/*.js$\r\nAllow: /profiles/*.js?\r\nAllow: /profiles/*.gif\r\nAllow: /profiles/*.jpg\r\nAllow: /profiles/*.jpeg\r\nAllow: /profiles/*.png\r\nAllow: /profiles/*.svg\r\n\r\nDisallow: /core/\r\nDisallow: /profiles/\r\nDisallow: /files/20*-*/ontariogazette*.pdf$\r\nDisallow: /feedback/contact-us\r\nDisallow: /fr/commentaires/pour-nous-joindre\r\n",
+  "robotsTxt": "User-agent: *\nCrawl-delay: 1\n\nAllow: /core/*.css$\nAllow: /core/*.css?\nAllow: /core/*.js$\nAllow: /core/*.js?\nAllow: /core/*.gif\nAllow: /core/*.jpg\nAllow: /core/*.jpeg\nAllow: /core/*.png\nAllow: /core/*.svg\nAllow: /profiles/*.css$\nAllow: /profiles/*.css?\nAllow: /profiles/*.js$\nAllow: /profiles/*.js?\nAllow: /profiles/*.gif\nAllow: /profiles/*.jpg\nAllow: /profiles/*.jpeg\nAllow: /profiles/*.png\nAllow: /profiles/*.svg\n\nDisallow: /core/\nDisallow: /profiles/\nDisallow: /files/20*-*/ontariogazette*.pdf$\nDisallow: /feedback/contact-us\nDisallow: /fr/commentaires/pour-nous-joindre\n",
   "globalRules": {
     "paths": {
       "allowed": [

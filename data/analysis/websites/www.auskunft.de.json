@@ -1,7 +1,7 @@
 {
   "domain": "www.auskunft.de",
   "normalizedDomain": "www.auskunft.de",
-  "robotsTxt": "User-agent: *\n\nAllow: /\n\nUser-agent: auskunftbot\nDisallow: /\n\nUser-agent: dotbot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: pimeyes.com crawler\nDisallow: /\n\nUser-agent: JobboerseBot\nDisallow: /\n\nUser-agent: CrazyWebCrawler-Spider\nDisallow: /\n\nUser-agent: Jobsearch1.5\nDisallow: /\n\nUser-agent: Cliqzbot\nDisallow: /\n\nUser-agent: thesubot\nDisallow: /\n\nUser-agent: ACONTBOT\nDisallow: /\n\nUser-agent: MAINSEEK_BOT\nDisallow: /\n\nSitemap: https://www.auskunft.de/sitemap.xml\n",
+  "robotsTxt": "User-agent: *\nAllow: /\n\nUser-agent: auskunftbot\nDisallow: /\n\nUser-agent: dotbot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: pimeyes.com crawler\nDisallow: /\n\nUser-agent: JobboerseBot\nDisallow: /\n\nUser-agent: CrazyWebCrawler-Spider\nDisallow: /\n\nUser-agent: Jobsearch1.5\nDisallow: /\n\nUser-agent: Cliqzbot\nDisallow: /\n\nUser-agent: thesubot\nDisallow: /\n\nUser-agent: ACONTBOT\nDisallow: /\n\nUser-agent: MAINSEEK_BOT\nDisallow: /\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: BLEXBot\nDisallow: /\n\nUser-agent: DataForSeoBot\nDisallow: /\n\nUser-agent: spbot\nDisallow: /\n\nUser-agent: Yandex\nDisallow: /\n\n# Google, Bing, Baidu, DuckDuckGo, Apple-Bot etc. ausdrücklich zulassen\nUser-agent: Googlebot\nAllow: /\n\nUser-agent: Bingbot\nAllow: /\n\nUser-agent: DuckDuckBot\nAllow: /\n\nUser-agent: Applebot\nAllow: /\n\nUser-agent: Baiduspider\nAllow: /\n\nSitemap: https://www.auskunft.de/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],
@@ -96,12 +96,100 @@
         "allowed": [],
         "disallowed": []
       }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "spbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yandex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
     }
   ],
   "stats": {
-    "totalSpecificBots": 11,
-    "allowedBots": 0,
-    "disallowedBots": 11,
+    "totalSpecificBots": 22,
+    "allowedBots": 5,
+    "disallowedBots": 17,
     "hasGlobalAllow": true
   },
   "bots": [
@@ -152,6 +240,50 @@
     {
       "name": "MAINSEEK_BOT",
       "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "spbot",
+      "allowed": false
+    },
+    {
+      "name": "Yandex",
+      "allowed": false
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true
+    },
+    {
+      "name": "Applebot",
+      "allowed": true
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": true
     }
   ],
   "paths": {

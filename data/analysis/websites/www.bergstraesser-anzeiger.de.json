@@ -1,10 +1,68 @@
 {
   "domain": "www.bergstraesser-anzeiger.de",
   "normalizedDomain": "www.bergstraesser-anzeiger.de",
+  "robotsTxt": "# global live settings :\r\nUser-agent: *\r\nDisallow: /cms_addon\r\nDisallow: /cms_docs\r\nDisallow: /redFACT\r\nDisallow: /REST/frontend/itemstatistics\r\nSitemap: https://www.bergstraesser-anzeiger.de/sitemap-index/259-News_Sitemap_Bergstraesser_Anzeiger.xml\r\nSitemap: https://www.bergstraesser-anzeiger.de/sitemap-index/263-Sitemap_Bergstraesser_Anzeiger.xml\r\nDisallow: /*_print,1*\r\nDisallow: /*_klid,*\r\nDisallow: /*_action,fotos*\r\nDisallow: /*_region,*\r\nDisallow: /REST\r\nDisallow: /service/suche_cosearch,*\r\n# OpenAI-Crawler settings :\r\nUser-agent: CCBot\r\nDisallow: /\r\nUser-agent: GPTBot\r\nDisallow: /\r\nUser-agent: ChatGPT-User\r\nDisallow: /\r\nUser-agent: Google-Extended\r\nDisallow: /\r\n# Legal notice: https://www.mannheimer-morgen.de expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).\r\n# The use of robots or other automated means to access https://www.mannheimer-morgen.de or collect or mine data without the express permission of https://www.mannheimer-morgen.de is strictly prohibited.\r\n# If you would like to apply for permission to crawl https://www.mannheimer-morgen.de , collect or use data, please contact kundenservice@mamo.de\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/cms_addon",
+        "/cms_docs",
+        "/redFACT",
+        "/REST/frontend/itemstatistics",
+        "/*_print,1*",
+        "/*_klid,*",
+        "/*_action,fotos*",
+        "/*_region,*",
+        "/REST",
+        "/service/suche_cosearch,*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 4,
+    "allowedBots": 0,
+    "disallowedBots": 4,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "CCBot",
@@ -22,5 +80,20 @@
       "name": "Google-Extended",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/cms_addon",
+      "/cms_docs",
+      "/redFACT",
+      "/REST/frontend/itemstatistics",
+      "/*_print,1*",
+      "/*_klid,*",
+      "/*_action,fotos*",
+      "/*_region,*",
+      "/REST",
+      "/service/suche_cosearch,*"
+    ]
+  }
 }

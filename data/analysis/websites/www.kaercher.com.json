@@ -1,7 +1,7 @@
 {
   "domain": "www.kaercher.com",
   "normalizedDomain": "www.kaercher.com",
-  "robotsTxt": "User-Agent: AhrefsBot\r\nDisallow: /\r\n\r\nUser-agent: *\r\nDisallow: /*?query\r\nDisallow: /*?dboverride\r\nDisallow: /*?articlenumber\r\nDisallow: /typo3/\r\n\r\nSitemap: https://www.kaercher.com/sitemap.xml",
+  "robotsTxt": "User-Agent: AhrefsBot\nDisallow: /\n\nUser-agent: *\nDisallow: /*?query\nDisallow: /*?dboverride\nDisallow: /*?articlenumber\nDisallow: /typo3/\n\nSitemap: https://www.kaercher.com/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

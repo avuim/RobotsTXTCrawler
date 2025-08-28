@@ -1,7 +1,7 @@
 {
   "domain": "www.dyson.de",
   "normalizedDomain": "www.dyson.de",
-  "robotsTxt": "User-agent: *\r\n\r\nDisallow: /forms/\r\nDisallow: /products/\r\nDisallow: /search-results\r\nDisallow: /basket\r\nDisallow: /suchergebnisse\r\n\r\n\r\nDisallow: */support/journey/troubleshooting/*\r\n\r\n\r\n\r\nsitemap: https://www.dyson.de/sitemapindex.xml\r\n",
+  "robotsTxt": "User-agent: *\n\nDisallow: /forms/\nDisallow: /products/\nDisallow: /search-results\nDisallow: /basket\nDisallow: /suchergebnisse\n\n\nDisallow: */support/journey/troubleshooting/*\n\n\n\nsitemap: https://www.dyson.de/sitemapindex.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

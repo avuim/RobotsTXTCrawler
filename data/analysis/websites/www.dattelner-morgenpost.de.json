@@ -1,7 +1,198 @@
 {
   "domain": "www.dattelner-morgenpost.de",
   "normalizedDomain": "www.dattelner-morgenpost.de",
+  "robotsTxt": "# BEGIN Block bots that feed AI models\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Omgilibot\nDisallow: /\n\nUser-agent: Omgili\nDisallow: /\n\nUser-agent: FacebookBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: ImagesiftBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n# END Block bots that feed AI models\n\nUser-agent: facebookexternalhit\nAllow: /*?*utm_source=\n\nUser-agent: Twitterbot\nAllow: /*?*utm_source=\n\nUser-agent: *\nDisallow: /wp-admin/\nDisallow: /wp-json/\nDisallow: *RetransferUrl=*\nDisallow: /User/Modules/LoginModuleHandler.ashx\nDisallow: /*?s=\nDisallow: /author/*/feed/\nDisallow: /page/\nDisallow: /dpa-evergreen/\nDisallow: /dpa-infoline-mhb/\nDisallow: /dpa-infoline-zvr/\nDisallow: /dpa-infoline/\nDisallow: /dpa-regionale-nrw-mhb/\nDisallow: /dpa-regionale-nrw-zvr/\nDisallow: /dpa-regionale-nrw/\nDisallow: /dpa-sportsline-mhb/\nDisallow: /dpa-sportsline-zvr/\nDisallow: /dpa-sportsline/\nDisallow: /dpa-starline-mhb/\nDisallow: /dpa-starline-zvr/\nDisallow: /dpa-starline/\nDisallow: /schlagwort/*/feed/\nDisallow: /search/*/feed/\nDisallow: /testrn/\nDisallow: /media/\nDisallow: /storage/\nDisallow: /nachrichten/\nDisallow: /*?cmpscreencustom\nDisallow: /*?*utm_source=\nAllow: /wp-content/uploads/\nAllow: /wp-admin/admin-ajax.php\n\n\n# Legal notice: We expressly reserve the right to use our content for commercial text and data mining (Section 44b UrhG).\n# The use of robots or other automated means to access this site or to collect or mine data without the express permission is strictly prohibited.\n# At our discretion, we may permit certain automated access to certain pages.\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/wp-content/uploads/",
+        "/wp-admin/admin-ajax.php"
+      ],
+      "disallowed": [
+        "/wp-admin/",
+        "/wp-json/",
+        "*RetransferUrl=*",
+        "/User/Modules/LoginModuleHandler.ashx",
+        "/*?s=",
+        "/author/*/feed/",
+        "/page/",
+        "/dpa-evergreen/",
+        "/dpa-infoline-mhb/",
+        "/dpa-infoline-zvr/",
+        "/dpa-infoline/",
+        "/dpa-regionale-nrw-mhb/",
+        "/dpa-regionale-nrw-zvr/",
+        "/dpa-regionale-nrw/",
+        "/dpa-sportsline-mhb/",
+        "/dpa-sportsline-zvr/",
+        "/dpa-sportsline/",
+        "/dpa-starline-mhb/",
+        "/dpa-starline-zvr/",
+        "/dpa-starline/",
+        "/schlagwort/*/feed/",
+        "/search/*/feed/",
+        "/testrn/",
+        "/media/",
+        "/storage/",
+        "/nachrichten/",
+        "/*?cmpscreencustom",
+        "/*?*utm_source="
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?*utm_source="
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?*utm_source="
+        ],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 17,
+    "allowedBots": 2,
+    "disallowedBots": 15,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "GPTBot",
       "allowed": false
@@ -69,10 +260,42 @@
     {
       "name": "Twitterbot",
       "allowed": true
-    },
-    {
-      "name": "*",
-      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/wp-content/uploads/",
+      "/wp-admin/admin-ajax.php"
+    ],
+    "disallowed": [
+      "/wp-admin/",
+      "/wp-json/",
+      "*RetransferUrl=*",
+      "/User/Modules/LoginModuleHandler.ashx",
+      "/*?s=",
+      "/author/*/feed/",
+      "/page/",
+      "/dpa-evergreen/",
+      "/dpa-infoline-mhb/",
+      "/dpa-infoline-zvr/",
+      "/dpa-infoline/",
+      "/dpa-regionale-nrw-mhb/",
+      "/dpa-regionale-nrw-zvr/",
+      "/dpa-regionale-nrw/",
+      "/dpa-sportsline-mhb/",
+      "/dpa-sportsline-zvr/",
+      "/dpa-sportsline/",
+      "/dpa-starline-mhb/",
+      "/dpa-starline-zvr/",
+      "/dpa-starline/",
+      "/schlagwort/*/feed/",
+      "/search/*/feed/",
+      "/testrn/",
+      "/media/",
+      "/storage/",
+      "/nachrichten/",
+      "/*?cmpscreencustom",
+      "/*?*utm_source="
+    ]
+  }
 }

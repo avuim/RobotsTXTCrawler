@@ -1,7 +1,7 @@
 {
   "domain": "www.dentolo.de",
   "normalizedDomain": "www.dentolo.de",
-  "robotsTxt": "User-agent: GPTBot\r\nDisallow:\r\n\r\nUser-agent: ClaudeBot\r\nDisallow:\r\n\r\nUser-agent: PerplexityBot\r\nDisallow:\r\n\r\nUser-agent: *\r\nDisallow:\r\n\r\nSitemap: https://www.dentolo.de/sitemap.xml",
+  "robotsTxt": "User-agent: GPTBot\nDisallow:\n\nUser-agent: ClaudeBot\nDisallow:\n\nUser-agent: PerplexityBot\nDisallow:\n\nUser-agent: *\nDisallow:\n\nSitemap: https://www.dentolo.de/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

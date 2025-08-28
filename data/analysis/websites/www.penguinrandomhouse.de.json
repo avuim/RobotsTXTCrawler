@@ -1,7 +1,7 @@
 {
   "domain": "www.penguinrandomhouse.de",
   "normalizedDomain": "www.penguinrandomhouse.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /service/\r\nAllow: /service/search/\r\nDisallow: /mein-buchentdecker\r\nDisallow: /suche\r\nDisallow: /produktseite\r\nDisallow: /*.epub$\r\n\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nUser-agent: anthropic-ai\r\nDisallow: /\r\n\r\nUser-agent: Google-Extended\r\nDisallow: /\r\n\r\nUser-agent: ChatGPT-User\r\nDisallow: /\r\n\r\nSitemap: https://www.penguin.de/service-sitemap-abffe57734fepngprh-sitemap_index.xml\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /service/\nAllow: /service/search/\nDisallow: /mein-buchentdecker\nDisallow: /suche\nDisallow: /produktseite\nDisallow: /*.epub$\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nSitemap: https://www.penguin.de/service-sitemap-abffe57734fepngprh-sitemap_index.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [

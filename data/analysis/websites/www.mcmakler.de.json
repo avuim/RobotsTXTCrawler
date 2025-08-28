@@ -1,7 +1,7 @@
 {
   "domain": "www.mcmakler.de",
   "normalizedDomain": "www.mcmakler.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: *?*search*\r\nDisallow: *?*placeId*\r\nDisallow: *?*tp_cid*\r\nDisallow: *?*utm_source*\r\nDisallow: *?*tp_agid*\r\nDisallow: *immobilienpreise*?*address*\r\n\r\nSitemap: https://www.mcmakler.de/sitemap.xml\r\nSitemap: https://www.mcmakler.de/immobilien/sitemap.xml\r\nSitemap: https://www.mcmakler.de/immobilienpreise/sitemap.xml",
+  "robotsTxt": "User-agent: *\nDisallow: *?*search*\nDisallow: *?*placeId*\nDisallow: *?*tp_cid*\nDisallow: *?*utm_source*\nDisallow: *?*tp_agid*\nDisallow: *immobilienpreise*?*address*\n\nSitemap: https://www.mcmakler.de/sitemap.xml\nSitemap: https://www.mcmakler.de/immobilien/sitemap.xml\nSitemap: https://www.mcmakler.de/immobilienpreise/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

@@ -1,7 +1,7 @@
 {
   "domain": "www.barmenia.de",
   "normalizedDomain": "www.barmenia.de",
-  "robotsTxt": "# robots.txt zu https://www.barmenia.de\r\n\r\nUser-agent: *\r\nDisallow: /deu/fehler/\r\nDisallow: /deu/suche/\r\nDisallow: /deu/technische-seiten/\r\nDisallow: /deu/pressespiegel/\r\nDisallow: /deu/produkte/\r\nDisallow: /deu/externe_verlinkungen/\r\nDisallow: /media/global_media/pressespiegel/\r\n\r\nSitemap: https://www.barmenia.de/xml_sitemap.xml",
+  "robotsTxt": "# robots.txt zu https://www.barmenia.de\n\nUser-agent: *\nDisallow: /deu/fehler/\nDisallow: /deu/suche/\nDisallow: /deu/technische-seiten/\nDisallow: /deu/pressespiegel/\nDisallow: /deu/produkte/\nDisallow: /deu/externe_verlinkungen/\nDisallow: /media/global_media/pressespiegel/\n\nSitemap: https://www.barmenia.de/xml_sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

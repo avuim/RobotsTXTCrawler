@@ -1,7 +1,7 @@
 {
   "domain": "www.mondelezinternational.com",
   "normalizedDomain": "www.mondelezinternational.com",
-  "robotsTxt": "User-agent: *\r\nAllow: /\r\nDisallow: /assets/\r\nDisallow: /*.pdf$\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\nSitemap: https://www.mondelezinternational.com/sitemap.xml\r\nHost: https://www.mondelezinternational.com\r\n",
+  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /assets/\nDisallow: /*.pdf$\n\nUser-agent: GPTBot\nDisallow: /\nSitemap: https://www.mondelezinternational.com/sitemap.xml\nHost: https://www.mondelezinternational.com\n",
   "globalRules": {
     "paths": {
       "allowed": [],

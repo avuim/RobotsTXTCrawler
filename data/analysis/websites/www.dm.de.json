@@ -1,7 +1,7 @@
 {
   "domain": "www.dm.de",
   "normalizedDomain": "www.dm.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /gift-card-builder\r\nDisallow: /gift-card-value\r\nDisallow: /b2b-gift-card-shop\r\nDisallow: /search\r\nDisallow: /callback\r\nDisallow: /logout\r\nDisallow: /shopping-list\r\nDisallow: /cart\r\n\r\nSitemap: https://www.dm.de/sitemap.xml\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /gift-card-builder\nDisallow: /gift-card-value\nDisallow: /b2b-gift-card-shop\nDisallow: /search\nDisallow: /callback\nDisallow: /logout\nDisallow: /shopping-list\nDisallow: /cart\n\nSitemap: https://www.dm.de/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

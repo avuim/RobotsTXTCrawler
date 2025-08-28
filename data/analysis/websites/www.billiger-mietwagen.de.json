@@ -1,7 +1,7 @@
 {
   "domain": "www.billiger-mietwagen.de",
   "normalizedDomain": "www.billiger-mietwagen.de",
-  "robotsTxt": "User-agent: *\r\nCrawl-delay: 10\r\nDisallow: /team.htm\r\nDisallow: /notre-equipe.htm\r\nDisallow: /car_detail.php\r\nDisallow: /ajax/offer/conditions.php\r\nDisallow: /countdown-auktion-anmeldung.php\r\nDisallow: /feedbacks/\r\nDisallow: /karriere/teammitglieder/\r\nDisallow: /account/registration/beta.php\r\n\r\nUser-agent: AdsBot-Google\r\nDisallow: /car_detail.php\r\nDisallow: /ajax/offer/conditions.php\r\n\r\nSitemap: https://www.billiger-mietwagen.de/sitemap.xml\r\n",
+  "robotsTxt": "User-agent: *\nCrawl-delay: 10\nDisallow: /team.htm\nDisallow: /notre-equipe.htm\nDisallow: /car_detail.php\nDisallow: /ajax/offer/conditions.php\nDisallow: /countdown-auktion-anmeldung.php\nDisallow: /feedbacks/\nDisallow: /karriere/teammitglieder/\nDisallow: /account/registration/beta.php\n\nUser-agent: AdsBot-Google\nDisallow: /car_detail.php\nDisallow: /ajax/offer/conditions.php\n\nSitemap: https://www.billiger-mietwagen.de/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

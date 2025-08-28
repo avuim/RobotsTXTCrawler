@@ -1,7 +1,7 @@
 {
   "domain": "www.europa.de",
   "normalizedDomain": "www.europa.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /typo3/\r\nDisallow: /typo3_src/\r\nDisallow: *.pdf\r\nDisallow: /unternehmen/presse/pressemitteilungen/*\r\nAllow: /typo3/sysext/frontend/Resources/Public/*\r\n\r\n# XML-Sitemap\r\nSitemap:https://www.europa.de/sitemap.xml",
+  "robotsTxt": "User-agent: *\nDisallow: /typo3/\nDisallow: /typo3_src/\nDisallow: *.pdf\nDisallow: /unternehmen/presse/pressemitteilungen/*\nAllow: /typo3/sysext/frontend/Resources/Public/*\n\n# XML-Sitemap\nSitemap:https://www.europa.de/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [

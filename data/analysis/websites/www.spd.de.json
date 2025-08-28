@@ -1,7 +1,7 @@
 {
   "domain": "www.spd.de",
   "normalizedDomain": "www.spd.de",
-  "robotsTxt": "User-Agent: *\r\nAllow: /                #allow everything by default\r\nDisallow: /typo3/\r\nDisallow: /typo3conf/\r\nDisallow: /typo3temp/\r\nDisallow: /*?id=*\r\nDisallow: /suche\r\n",
+  "robotsTxt": "User-Agent: *\nAllow: /                #allow everything by default\nDisallow: /typo3/\nDisallow: /typo3conf/\nDisallow: /typo3temp/\nDisallow: /*?id=*\nDisallow: /suche\n",
   "globalRules": {
     "paths": {
       "allowed": [

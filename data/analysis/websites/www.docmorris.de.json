@@ -1,7 +1,7 @@
 {
   "domain": "www.docmorris.de",
   "normalizedDomain": "www.docmorris.de",
-  "robotsTxt": "Sitemap: https://www.docmorris.de/sitemap.xml\r\n\r\nUser-agent: *\r\nDisallow: /search\r\nDisallow: /ueber-uns/datenschutz\r\nDisallow: /purchase\r\nDisallow: /checkout\r\nDisallow: /confirmation/\r\nDisallow: /anmelden\r\nDisallow: /konto\r\nDisallow: /registrierung\r\nDisallow: /campaign/\r\nDisallow: /rezepte/rezept-abo/anfragen/\r\n",
+  "robotsTxt": "Sitemap: https://www.docmorris.de/sitemap.xml\n\nUser-agent: *\nDisallow: /search\nDisallow: /ueber-uns/datenschutz\nDisallow: /purchase\nDisallow: /checkout\nDisallow: /confirmation/\nDisallow: /anmelden\nDisallow: /konto\nDisallow: /registrierung\nDisallow: /campaign/\nDisallow: /rezepte/rezept-abo/anfragen/\n",
   "globalRules": {
     "paths": {
       "allowed": [],

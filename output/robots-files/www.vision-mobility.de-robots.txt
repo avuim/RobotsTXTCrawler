@@ -49,7 +49,6 @@ Disallow: /user/register/
 Disallow: /user/password/
 Disallow: /user/login/
 Disallow: /user/logout/
-
 Disallow: /de/admin/
 Disallow: /de/comment/reply/
 Disallow: /de/filter/tips/
@@ -59,7 +58,6 @@ Disallow: /de/user/register/
 Disallow: /de/user/password/
 Disallow: /de/user/login/
 Disallow: /de/user/logout/
-
 # Paths (no clean URLs)
 Disallow: /index.php/admin/
 Disallow: /index.php/comment/reply/
@@ -70,7 +68,6 @@ Disallow: /index.php/user/password/
 Disallow: /index.php/user/register/
 Disallow: /index.php/user/login/
 Disallow: /index.php/user/logout/
-
 Disallow: /node/
 Disallow: /en/node/
 Disallow: /de/node/
@@ -79,24 +76,19 @@ Disallow: /*?id=
 Disallow: /1011064
 Disallow: /sites/all/modules/
 # Disallow: /*node/
-
 Disallow: /de/suche
 Disallow: /en/suche
 Disallow: /cn/suche
-
 Disallow: /suche
-
 Disallow: /de/suche/
 Disallow: /en/suche/
 Disallow: /cn/suche/
 Disallow: /suche/
-
 Disallow: /sites/default/files/public/php/
 Disallow: /sites/default/files/public/js/
 Disallow: /sites/default/files/public/language/
 Disallow: /sites/default/files/public/css/
 Disallow: /sites/default/files/public/color/
-
 Disallow: /veranstaltungen/best-of-mobility/anmeldung-preisveleihung.html
 
 User-agent: amazonbot

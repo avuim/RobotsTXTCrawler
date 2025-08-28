@@ -1,10 +1,219 @@
 {
   "domain": "www.zevener-zeitung.de",
   "normalizedDomain": "www.zevener-zeitung.de",
+  "robotsTxt": "# Robots.txt for crawler\n\nUser-agent: *\n\n# Disallow Crawler\nDisallow: /User\nDisallow: /Dateien\nDisallow: /Nachrichten/Suche\nDisallow: /*?bPrint=true*\nDisallow: /Nachrichten/Archiv-Liste_*.html\nDisallow: /*/Zusammengefasst-*.html\nDisallow: /Zusammengefasst-*.html\n# Crawler often creates invalid script/webresource resource request\nDisallow: /ScriptResource\nDisallow: /WebResource\n\nUser-agent: backlink-check.de\nDisallow: /\n\nUser-agent: BacklinkCrawler\nDisallow: /\n\nUser-agent: ExtractorPro\nDisallow: /\n\nUser-agent: Fasterfox\nDisallow: /\n\nUser-agent: LinkextractorPro\nDisallow: /\n\nUser-agent: LinkWalker\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: Openbot\nDisallow: /\n\nUser-agent: rogerbot \nDisallow: /\n\nUser-agent: searchpreview\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: SEODAT\nDisallow: /\n\nUser-agent: SEOENGBot\nDisallow: /\n\nUser-agent: SEOkicks-Robot\nDisallow: /\n\nUser-agent: True_Robot\nDisallow: /\n\nUser-agent: URL Control\nDisallow: /\n\nUser-agent: URL_Spider_Pro\nDisallow: /\n\nUser-agent: xovi\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\n# Uber Metrics\nUser-agent: um-IC\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\n# Max crawler Time per page in sec\nCrawl-Delay: 2\n\n#Sitemap\nSitemap: https://www.zevener-zeitung.de/Sitemap_Index.xml.gz\n\n# Legal notice: zevener-zeitung.de expressly reserves the right to use its content for commercial text and data mining (  44 b UrhG).\n# The use of robots or other automated means to access zevener-zeitung.de or collect or mine data without\n# the express permission of zevener-zeitung.de is strictly prohibited.\n# zevener-zeitung.de may, in its discretion, permit certain automated access to certain zevener-zeitung.de pages,\n# If you would like to apply for permission to crawl zevener-zeitung.de, collect or use data, please email syndication@nordmediagruppe.de\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/User",
+        "/Dateien",
+        "/Nachrichten/Suche",
+        "/*?bPrint=true*",
+        "/Nachrichten/Archiv-Liste_*.html",
+        "/*/Zusammengefasst-*.html",
+        "/Zusammengefasst-*.html",
+        "/ScriptResource",
+        "/WebResource"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "backlink-check.de",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BacklinkCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ExtractorPro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkextractorPro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkWalker",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Openbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "rogerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "searchpreview",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEODAT",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEOENGBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "True_Robot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "URL Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "URL_Spider_Pro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "xovi",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "um-IC",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 23,
+    "allowedBots": 0,
+    "disallowedBots": 23,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "backlink-check.de",
@@ -98,5 +307,19 @@
       "name": "Google-Extended",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/User",
+      "/Dateien",
+      "/Nachrichten/Suche",
+      "/*?bPrint=true*",
+      "/Nachrichten/Archiv-Liste_*.html",
+      "/*/Zusammengefasst-*.html",
+      "/Zusammengefasst-*.html",
+      "/ScriptResource",
+      "/WebResource"
+    ]
+  }
 }

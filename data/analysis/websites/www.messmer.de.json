@@ -1,7 +1,7 @@
 {
   "domain": "www.messmer.de",
   "normalizedDomain": "www.messmer.de",
-  "robotsTxt": "User-agent: *\r\nAllow: /\r\nDisallow: /*?\r\nDisallow: /*account/\r\nDisallow: /*checkout/\r\nDisallow: /*widgets/\r\nDisallow: /*navigation/\r\nDisallow: /*bundles/\r\nSitemap: https://www.messmer.de/sitemap.xml\r\n",
+  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /*?\nDisallow: /*account/\nDisallow: /*checkout/\nDisallow: /*widgets/\nDisallow: /*navigation/\nDisallow: /*bundles/\nSitemap: https://www.messmer.de/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

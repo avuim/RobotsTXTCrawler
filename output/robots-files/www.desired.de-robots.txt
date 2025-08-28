@@ -13,18 +13,11 @@ Disallow: /metatag/
 Disallow: /quiz-enricher/*
 Disallow: /quiz-suggestions/*
 
-User-agent: OAI-SearchBot
-Allow: /
-Disallow: /wp-login.php
-Disallow: /wp-admin/
-Disallow: /api/
-Disallow: /toolbar_login.php
-Disallow: /wp-cron.php
-Disallow: /:preview/*
-Disallow: /oembed/
-Disallow: /app-xxiwwrk-*
-Disallow: /gtm.js
-Disallow: /wp-content/plugins/core/features/search/log/log.php*
-Disallow: /metatag/
-Disallow: /quiz-enricher/*
-Disallow: /quiz-suggestions/*
+User-agent: GPTBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /

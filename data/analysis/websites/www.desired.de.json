@@ -1,7 +1,7 @@
 {
   "domain": "www.desired.de",
   "normalizedDomain": "www.desired.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /wp-login.php\r\nDisallow: /wp-admin/\r\nDisallow: /api/\r\nDisallow: /toolbar_login.php\r\nDisallow: /wp-cron.php\r\nDisallow: /:preview/*\r\nDisallow: /oembed/\r\nDisallow: /app-xxiwwrk-*\r\nDisallow: /gtm.js\r\nDisallow: /wp-content/plugins/core/features/search/log/log.php*\r\nDisallow: /metatag/\r\nDisallow: /quiz-enricher/*\r\nDisallow: /quiz-suggestions/*\r\n\r\nUser-agent: OAI-SearchBot\r\nAllow: /\r\nDisallow: /wp-login.php\r\nDisallow: /wp-admin/\r\nDisallow: /api/\r\nDisallow: /toolbar_login.php\r\nDisallow: /wp-cron.php\r\nDisallow: /:preview/*\r\nDisallow: /oembed/\r\nDisallow: /app-xxiwwrk-*\r\nDisallow: /gtm.js\r\nDisallow: /wp-content/plugins/core/features/search/log/log.php*\r\nDisallow: /metatag/\r\nDisallow: /quiz-enricher/*\r\nDisallow: /quiz-suggestions/*",
+  "robotsTxt": "User-agent: *\nDisallow: /wp-login.php\nDisallow: /wp-admin/\nDisallow: /api/\nDisallow: /toolbar_login.php\nDisallow: /wp-cron.php\nDisallow: /:preview/*\nDisallow: /oembed/\nDisallow: /app-xxiwwrk-*\nDisallow: /gtm.js\nDisallow: /wp-content/plugins/core/features/search/log/log.php*\nDisallow: /metatag/\nDisallow: /quiz-enricher/*\nDisallow: /quiz-suggestions/*\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /",
   "globalRules": {
     "paths": {
       "allowed": [],
@@ -24,32 +24,34 @@
   },
   "specificBots": [
     {
-      "name": "OAI-SearchBot",
-      "allowed": true,
+      "name": "GPTBot",
+      "allowed": false,
       "paths": {
         "allowed": [],
-        "disallowed": [
-          "/wp-login.php",
-          "/wp-admin/",
-          "/api/",
-          "/toolbar_login.php",
-          "/wp-cron.php",
-          "/:preview/*",
-          "/oembed/",
-          "/app-xxiwwrk-*",
-          "/gtm.js",
-          "/wp-content/plugins/core/features/search/log/log.php*",
-          "/metatag/",
-          "/quiz-enricher/*",
-          "/quiz-suggestions/*"
-        ]
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
       }
     }
   ],
   "stats": {
-    "totalSpecificBots": 1,
-    "allowedBots": 1,
-    "disallowedBots": 0,
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
     "hasGlobalAllow": true
   },
   "bots": [
@@ -58,8 +60,16 @@
       "allowed": true
     },
     {
-      "name": "OAI-SearchBot",
-      "allowed": true
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
     }
   ],
   "paths": {

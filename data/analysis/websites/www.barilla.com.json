@@ -1,7 +1,7 @@
 {
   "domain": "www.barilla.com",
   "normalizedDomain": "www.barilla.com",
-  "robotsTxt": "User-agent: *\r\nDisallow: /*/staging\r\nDisallow: /bg-bg/\r\nDisallow: /ru-ru/\r\nDisallow: /es-pr/\r\nDisallow: /en/\r\nDisallow: barilla.azureedge.net/\r\nDisallow: /*/data/\r\nSitemap: https://www.barilla.com/sitemap.xml",
+  "robotsTxt": "User-agent: *\nDisallow: /*/staging\nDisallow: /bg-bg/\nDisallow: /ru-ru/\nDisallow: /es-pr/\nDisallow: /en/\nDisallow: barilla.azureedge.net/\nDisallow: /*/data/\nSitemap: https://www.barilla.com/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

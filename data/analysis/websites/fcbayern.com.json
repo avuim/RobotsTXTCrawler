@@ -1,7 +1,7 @@
 {
   "domain": "fcbayern.com",
   "normalizedDomain": "fcbayern.com",
-  "robotsTxt": "User-agent: *\r\n\r\nDisallow: */search\r\nDisallow: */browserhint*\r\nDisallow: /*?mobileWebview\r\nDisallow: /*?reduced\r\nDisallow: /*?appview\r\n\r\nDisallow: /store/*/basket\r\nDisallow: /store/*/wishlist\r\nDisallow: /store/*/account\r\nDisallow: /store/*/s/*\r\n\r\nAllow: /store/*/c/*basket\r\nAllow: /store/*/p/*basket\r\n\r\nDisallow: /de/mobile-app/*\r\nDisallow: /en/mobile-app/*\r\nDisallow: /es/mobile-app/*\r\nDisallow: */fcb-mitglieder\r\nDisallow: */mitglieder-login\r\nDisallow: */fcb-member\r\nDisallow: */member-login\r\nDisallow: *?webview=reduced\r\n\r\nAllow: /mediacenter/webjars/fcb.public/javascripts/modules/\r\nAllow: /shop/_ui/responsive/common/configurator/js/\r\n\r\nSitemap: https://fcbayern.com/index-sitemap.xml\r\nSitemap: https://fcbayern.com/store/sitemap.xml\r\n",
+  "robotsTxt": "User-agent: *\n\nDisallow: */search\nDisallow: */browserhint*\nDisallow: /*?mobileWebview\nDisallow: /*?reduced\nDisallow: /*?appview\n\nDisallow: /store/*/basket\nDisallow: /store/*/wishlist\nDisallow: /store/*/account\nDisallow: /store/*/s/*\n\nAllow: /store/*/c/*basket\nAllow: /store/*/p/*basket\n\nDisallow: /de/mobile-app/*\nDisallow: /en/mobile-app/*\nDisallow: /es/mobile-app/*\nDisallow: */fcb-mitglieder\nDisallow: */mitglieder-login\nDisallow: */fcb-member\nDisallow: */member-login\nDisallow: *?webview=reduced\n\nAllow: /mediacenter/webjars/fcb.public/javascripts/modules/\nAllow: /shop/_ui/responsive/common/configurator/js/\n\nSitemap: https://fcbayern.com/index-sitemap.xml\nSitemap: https://fcbayern.com/store/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [

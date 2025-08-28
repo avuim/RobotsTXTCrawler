@@ -1,7 +1,7 @@
 {
   "domain": "argeta.com",
   "normalizedDomain": "argeta.com",
-  "robotsTxt": "# Allow all crawlers\r\nUser-agent: *\r\nAllow: /\r\nSitemap: https://cms.argeta.com/sitemap.xml",
+  "robotsTxt": "# Allow all crawlers\nUser-agent: *\nAllow: /\nSitemap: https://cms.argeta.com/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

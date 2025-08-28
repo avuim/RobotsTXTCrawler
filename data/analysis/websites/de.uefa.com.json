@@ -1,7 +1,7 @@
 {
   "domain": "de.uefa.com",
   "normalizedDomain": "de.uefa.com",
-  "robotsTxt": "User-agent: *\r\nDisallow: /generic/*\r\nDisallow: /images/*\r\nDisallow: /libraries/*\r\nDisallow: /thirdparties/*\r\nDisallow: /test/*\r\nDisallow: /uc3/*\r\nDisallow: /*/_content\r\nDisallow: /disciplinary/*\r\nDisallow: /*?_preview_token_uefacom=\r\n\r\nSitemap: https://de.uefa.com/sitemap.xml\r\nSitemap: https://de.uefa.com/sitemap/news/latest.xml\r\nSitemap: https://de.uefa.com/sitemap/news/index.xml\r\nSitemap: https://de.uefa.com/sitemap/video/index.xml\r\nSitemap: https://de.uefa.com/sitemap/document/index.xml\r\nSitemap: https://de.uefa.com/sitemap/matches/index.xml",
+  "robotsTxt": "User-agent: *\nDisallow: /generic/*\nDisallow: /images/*\nDisallow: /libraries/*\nDisallow: /thirdparties/*\nDisallow: /test/*\nDisallow: /uc3/*\nDisallow: /*/_content\nDisallow: /disciplinary/*\nDisallow: /*?_preview_token_uefacom=\n\nSitemap: https://de.uefa.com/sitemap.xml\nSitemap: https://de.uefa.com/sitemap/news/latest.xml\nSitemap: https://de.uefa.com/sitemap/news/index.xml\nSitemap: https://de.uefa.com/sitemap/video/index.xml\nSitemap: https://de.uefa.com/sitemap/document/index.xml\nSitemap: https://de.uefa.com/sitemap/matches/index.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

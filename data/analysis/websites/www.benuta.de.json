@@ -1,7 +1,7 @@
 {
   "domain": "www.benuta.de",
   "normalizedDomain": "www.benuta.de",
-  "robotsTxt": "\r\n  Sitemap: https://www.benuta.de/sitemap.xml\r\n  Sitemap: https://www.benuta.de/images_sitemap.xml\r\n\r\n  User-agent: Pinterestbot\r\n  Crawl-delay: 2\r\n\r\n  User-agent: Pinterest\r\n  Crawl-delay: 2\r\n\r\n  User-agent: *\r\n  Disallow: /api\r\n  Disallow: /api/*\r\n  Disallow: /checkout\r\n  Disallow: /checkout/*\r\n  Disallow: /customer\r\n  Disallow: /customer/*\r\n  Disallow: /cart\r\n  Disallow: /cart/*\r\n  Disallow: /wishlist\r\n  Disallow: /*?dm_i=\r\n  Disallow: /*?filter=\r\n  Disallow: /*?dir=\r\n  Disallow: /*?order=\r\n  Disallow: /*?benuta_form_new=\r\n  Disallow: /*?benuta_pricegroup_new=\r\n  Disallow: /_next/image?*\r\n\r\n  Allow: /enhancedsearch/*\r\n ",
+  "robotsTxt": "\n  Sitemap: https://www.benuta.de/sitemap.xml\n  Sitemap: https://www.benuta.de/images_sitemap.xml\n\n  User-agent: Pinterestbot\n  Crawl-delay: 2\n\n  User-agent: Pinterest\n  Crawl-delay: 2\n\n  User-agent: *\n  Disallow: /api\n  Disallow: /api/*\n  Disallow: /checkout\n  Disallow: /checkout/*\n  Disallow: /customer\n  Disallow: /customer/*\n  Disallow: /cart\n  Disallow: /cart/*\n  Disallow: /wishlist\n  Disallow: /*?dm_i=\n  Disallow: /*?filter=\n  Disallow: /*?dir=\n  Disallow: /*?order=\n  Disallow: /*?benuta_form_new=\n  Disallow: /*?benuta_pricegroup_new=\n  Disallow: /_next/image?*\n\n  Allow: /enhancedsearch/*\n ",
   "globalRules": {
     "paths": {
       "allowed": [

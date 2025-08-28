@@ -1,7 +1,7 @@
 {
   "domain": "www.fondazionecapellino.org",
   "normalizedDomain": "www.fondazionecapellino.org",
-  "robotsTxt": "User-agent: *\r\nAllow: /\r\nDisallow: /_hcms/preview/\r\nDisallow: /hs/manage-preferences/\r\nDisallow: /hs/preferences-center/\r\nDisallow: /*?*hs_preview=*\r\nDisallow: /*?*hsCacheBuster=*\r\n",
+  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /_hcms/preview/\nDisallow: /hs/manage-preferences/\nDisallow: /hs/preferences-center/\nDisallow: /*?*hs_preview=*\nDisallow: /*?*hsCacheBuster=*\n",
   "globalRules": {
     "paths": {
       "allowed": [],

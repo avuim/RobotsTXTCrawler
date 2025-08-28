@@ -1,7 +1,7 @@
 {
   "domain": "www.it-times.de",
   "normalizedDomain": "www.it-times.de",
-  "robotsTxt": "Sitemap:  https://www.it-times.de/resources/sitemap/sitemap.xml\nUser-agent: *\nDisallow:\n\nUser-agent: grapeshot\nDisallow:\n",
+  "robotsTxt": "# NOTICE: The collection of content and other data on this\n# site through automated means, including any device, tool,\n# or process designed to data mine or scrape content, is\n# prohibited except (1) for the purpose of search engine indexing or\n# artificial intelligence retrieval augmented generation or (2) with express\n# written permission from this site’s operator.\n\n# To request permission to license our intellectual\n# property and/or other materials, please contact this\n# site’s operator directly.\n\n# BEGIN Cloudflare Managed content\n\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\n# END Cloudflare Managed Content\n\n",
   "globalRules": {
     "paths": {
       "allowed": [],
@@ -10,7 +10,63 @@
   },
   "specificBots": [
     {
-      "name": "grapeshot",
+      "name": "Amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "meta-externalagent",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -19,18 +75,42 @@
     }
   ],
   "stats": {
-    "totalSpecificBots": 1,
+    "totalSpecificBots": 8,
     "allowedBots": 0,
-    "disallowedBots": 1,
-    "hasGlobalAllow": false
+    "disallowedBots": 8,
+    "hasGlobalAllow": true
   },
   "bots": [
     {
-      "name": "*",
+      "name": "Amazonbot",
       "allowed": false
     },
     {
-      "name": "grapeshot",
+      "name": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "meta-externalagent",
       "allowed": false
     }
   ],

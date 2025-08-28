@@ -1,43 +1,52 @@
-User-agent: msnbot-media/1.1
-Disallow: /
-
-User-agent: msnbot-media/2.0b
-Disallow: /
-
-User-agent: scrapy
-Disallow: /
-
-User-agent: Diffbot
-Disallow: /
-
-User-agent: proximic
-Disallow: /*&ampshare=*
-
-User-agent: SemrushBot
-Disallow: /
-
-User-agent: GPTBot
-Disallow: /
-
-User-agent: ChatGPT-User
-Disallow: /
-
-User-agent: CCBot
-Disallow: /
-
-User-agent: Google-Extended
+User-agent: anthropic-ai
 Disallow: /
 
 User-agent: Applebot-Extended
 Disallow: /
 
-User-agent: Timpibot
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
 Disallow: /
 
 User-agent: cohere-ai
 Disallow: /
 
-User-agent: Bytespider
+User-agent: DeepSeek
+Disallow: /
+
+User-agent: DeepSeekBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: msnbot-media/1.1
+Disallow: /
+
+User-agent: msnbot-media/2.0b
 Disallow: /
 
 User-agent: omgili
@@ -46,13 +55,16 @@ Disallow: /
 User-agent: omgilibot
 Disallow: /
 
-User-agent: anthropic-ai
+User-agent: proximic
+Disallow: /*&ampshare=*
+
+User-agent: scrapy
 Disallow: /
 
-User-agent: Claude-Web
+User-agent: SemrushBot
 Disallow: /
 
-User-agent: ClaudeBot
+User-agent: Timpibot
 Disallow: /
 
 User-agent: *

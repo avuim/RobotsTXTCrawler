@@ -1,7 +1,7 @@
 {
   "domain": "de.scalable.capital",
   "normalizedDomain": "de.scalable.capital",
-  "robotsTxt": "User-Agent: *\r\nAllow: /\r\nAllow: /?display=wide\r\n\r\nDisallow: /cgi-bin/\r\nDisallow: /readme.html\r\nDisallow: /refer/\r\nDisallow: /c4p_log/\r\nDisallow: /author\r\nDisallow: /feed/\r\nDisallow: /news/\r\nDisallow: /app/\r\nDisallow: /onboarding/\r\nDisallow: /cockpit/\r\nDisallow: /broker/\r\nDisallow: /faq_single/\r\nDisallow: /faq_archive/\r\nDisallow: /*preview=true\r\nDisallow: /scalable-capital-compared\r\n\r\nUser-Agent: AdsBot-Google\r\nAllow: /\r\n\r\nUser-Agent: AdsBot-Google-Mobile\r\nAllow: /\r\n\r\nSitemap: https://de.scalable.capital/sitemap.xml\r\n",
+  "robotsTxt": "User-Agent: *\nAllow: /\nAllow: /?display=wide\n\nDisallow: /cgi-bin/\nDisallow: /readme.html\nDisallow: /refer/\nDisallow: /c4p_log/\nDisallow: /author\nDisallow: /feed/\nDisallow: /news/\nDisallow: /app/\nDisallow: /onboarding/\nDisallow: /cockpit/\nDisallow: /broker/\nDisallow: /faq_single/\nDisallow: /faq_archive/\nDisallow: /*preview=true\nDisallow: /scalable-capital-compared\n\nUser-Agent: AdsBot-Google\nAllow: /\n\nUser-Agent: AdsBot-Google-Mobile\nAllow: /\n\nSitemap: https://de.scalable.capital/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [

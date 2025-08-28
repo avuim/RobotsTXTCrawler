@@ -1,7 +1,7 @@
 {
   "domain": "www.weltkino.de",
   "normalizedDomain": "www.weltkino.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /wp-admin/\r\nAllow: /wp-admin/admin-ajax.php\r\n\r\nSitemap: https://weltkino.de/sitemap.xml\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://weltkino.de/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [

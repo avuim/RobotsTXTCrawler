@@ -1,7 +1,7 @@
 {
   "domain": "www.on-running.com",
   "normalizedDomain": "www.on-running.com",
-  "robotsTxt": "User-agent: *\r\nDisallow: /checkout\r\nDisallow: /checkout-v2\r\nDisallow: /*/checkout-v2\r\nDisallow: /cart\r\nDisallow: /orders\r\nDisallow: /user\r\nDisallow: /account\r\nDisallow: /api\r\nDisallow: /password\r\nDisallow: /c/marketingon\r\nDisallow: /*/c/marketingon\r\nDisallow: /*/*-compressed\r\nDisallow: /on-code\r\nDisallow: /authentication\r\nDisallow: /account-confirmation\r\nDisallow: /pdp\r\nDisallow: /cdn-cgi/",
+  "robotsTxt": "User-agent: *\nDisallow: /checkout\nDisallow: /checkout-v2\nDisallow: /*/checkout-v2\nDisallow: /cart\nDisallow: /orders\nDisallow: /user\nDisallow: /account\nDisallow: /api\nDisallow: /password\nDisallow: /c/marketingon\nDisallow: /*/c/marketingon\nDisallow: /*/*-compressed\nDisallow: /on-code\nDisallow: /authentication\nDisallow: /account-confirmation\nDisallow: /pdp\nDisallow: /cdn-cgi/",
   "globalRules": {
     "paths": {
       "allowed": [],

@@ -1,10 +1,13 @@
 {
   "domain": "www.airliners.de",
   "normalizedDomain": "www.airliners.de",
-  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /karriere/r/ \nDisallow: /nova/ \nDisallow: /admin/ \nDisallow: /backend/ \nDisallow: /vendor/ \nDisallow: /settings/* \nDisallow: /page-cache/* \nDisallow: /firmen/*/visit/* \nDisallow: /*?*refinementList\nDisallow: /suche\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: ia_archiver\nDisallow: /\n\nUser-Agent: omgili\nDisallow: /\n\nUser-Agent: omgilibot\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: DataForSeoBot\nDisallow: /\n\nUser-agent: Yeti\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: sentibot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: SirdataBot\nDisallow: /\n\nUser-agent: LCC\nDisallow: /\n\nUser-agent: TurnitinBot\nDisallow: /\n\nUser-agent: BLEXBot\nDisallow: /\n\nUser-agent: dotbot\nDisallow: /\n\nUser-agent: GrapeshotCrawler\ncrawl-delay: 3\n\nSitemap: https://www.airliners.de/sitemap.xml",
+  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /karriere/r/ \nDisallow: /nova/ \nDisallow: /admin/ \nDisallow: /backend/ \nDisallow: /vendor/ \nDisallow: /settings/* \nDisallow: /page-cache/* \nDisallow: /firmen/*/visit/* \nDisallow: /firmen/*/claim\nDisallow: /*?*refinementList\nDisallow: /suche\nAllow: /karriere/search?q=*&c=\nDisallow: /karriere/search*?q*&c=*&*\nAllow: /karriere/*-jobs\nDisallow: /karriere/*-jobs?*\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: ia_archiver\nDisallow: /\n\nUser-Agent: omgili\nDisallow: /\n\nUser-Agent: omgilibot\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: DataForSeoBot\nDisallow: /\n\nUser-agent: Yeti\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: sentibot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: SirdataBot\nDisallow: /\n\nUser-agent: LCC\nDisallow: /\n\nUser-agent: TurnitinBot\nDisallow: /\n\nUser-agent: BLEXBot\nDisallow: /\n\nUser-agent: dotbot\nDisallow: /\n\nUser-agent: GrapeshotCrawler\ncrawl-delay: 3\n\nSitemap: https://www.airliners.de/sitemap.xml",
   "globalRules": {
     "paths": {
-      "allowed": [],
+      "allowed": [
+        "/karriere/search?q=*&c=",
+        "/karriere/*-jobs"
+      ],
       "disallowed": [
         "/karriere/r/",
         "/nova/",
@@ -14,8 +17,11 @@
         "/settings/*",
         "/page-cache/*",
         "/firmen/*/visit/*",
+        "/firmen/*/claim",
         "/*?*refinementList",
-        "/suche"
+        "/suche",
+        "/karriere/search*?q*&c=*&*",
+        "/karriere/*-jobs?*"
       ]
     }
   },
@@ -286,7 +292,10 @@
     }
   ],
   "paths": {
-    "allowed": [],
+    "allowed": [
+      "/karriere/search?q=*&c=",
+      "/karriere/*-jobs"
+    ],
     "disallowed": [
       "/karriere/r/",
       "/nova/",
@@ -296,8 +305,11 @@
       "/settings/*",
       "/page-cache/*",
       "/firmen/*/visit/*",
+      "/firmen/*/claim",
       "/*?*refinementList",
-      "/suche"
+      "/suche",
+      "/karriere/search*?q*&c=*&*",
+      "/karriere/*-jobs?*"
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "domain": "www.radiobob.de",
   "normalizedDomain": "www.radiobob.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /api/\r\nDisallow: /node/\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /api/\nDisallow: /node/\n",
   "globalRules": {
     "paths": {
       "allowed": [],

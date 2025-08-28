@@ -1,7 +1,7 @@
 {
   "domain": "www.alltours.de",
   "normalizedDomain": "www.alltours.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /favorites\r\nDisallow: /hoteldetail/*\r\nDisallow: /flightdetail/*\r\nSitemap: https://storage.alltours.de/alltours-prod/alltours-sitemaps-prod/de-sitemap.xml\r\nSitemap: https://www.alltours.de/temp/sitemap-https.xml\r\nSitemap: https://www.alltours.de/temp/sitemap-hotels-https.xml\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /favorites\nDisallow: /hoteldetail/*\nDisallow: /flightdetail/*\nSitemap: https://storage.alltours.de/alltours-prod/alltours-sitemaps-prod/de-sitemap.xml\nSitemap: https://www.alltours.de/temp/sitemap-https.xml\nSitemap: https://www.alltours.de/temp/sitemap-hotels-https.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

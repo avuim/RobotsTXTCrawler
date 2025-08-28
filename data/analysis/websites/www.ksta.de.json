@@ -1,10 +1,38 @@
 {
   "domain": "www.ksta.de",
   "normalizedDomain": "www.ksta.de",
+  "robotsTxt": "# START nuxt-robots (indexable)\nUser-agent: *\nDisallow: /suche*\nDisallow: /*?*\nDisallow: /__proxy_content_api/\nDisallow: /__content-api/\n\n# END nuxt-robots",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/suche*",
+        "/*?*",
+        "/__proxy_content_api/",
+        "/__content-api/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/suche*",
+      "/*?*",
+      "/__proxy_content_api/",
+      "/__content-api/"
+    ]
+  }
 }

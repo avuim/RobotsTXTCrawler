@@ -1,7 +1,7 @@
 {
   "domain": "www.enpal.de",
   "normalizedDomain": "www.enpal.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /test/\r\nDisallow: /alpha/\r\nDisallow: /datenschutz-bewerber/\r\n\r\nSitemap: https://www.enpal.de/sitemap.xml",
+  "robotsTxt": "User-agent: *\nDisallow: /test/\nDisallow: /alpha/\nDisallow: /datenschutz-bewerber/\n\nSitemap: https://www.enpal.de/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

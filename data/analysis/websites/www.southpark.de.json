@@ -1,7 +1,7 @@
 {
   "domain": "www.southpark.de",
   "normalizedDomain": "www.southpark.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /legal/ea4cty/web-credits\r\nDisallow: /creditos-de-la-red\r\nDisallow: /creditos-da-web\r\n\r\nUser-agent: PetalBot\r\nDisallow: /\r\n\r\nSitemap: https://southpark.cc.com/xmlsitemap/us/en/news\r\nSitemap: https://southpark.cc.com/xmlsitemap/us/en/video\r\nSitemap: https://southpark.cc.com/xmlsitemap/us/en/episode\r\nSitemap: https://southpark.cc.com/xmlsitemap/us/en/show\r\nSitemap: https://southpark.cc.com/xmlsitemap/us/es/video\r\nSitemap: https://southpark.cc.com/xmlsitemap/us/es/episode\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /legal/ea4cty/web-credits\nDisallow: /creditos-de-la-red\nDisallow: /creditos-da-web\n\nUser-agent: PetalBot\nDisallow: /\n\nSitemap: https://southpark.cc.com/xmlsitemap/us/en/news\nSitemap: https://southpark.cc.com/xmlsitemap/us/en/video\nSitemap: https://southpark.cc.com/xmlsitemap/us/en/episode\nSitemap: https://southpark.cc.com/xmlsitemap/us/en/show\nSitemap: https://southpark.cc.com/xmlsitemap/us/es/video\nSitemap: https://southpark.cc.com/xmlsitemap/us/es/episode\n",
   "globalRules": {
     "paths": {
       "allowed": [],

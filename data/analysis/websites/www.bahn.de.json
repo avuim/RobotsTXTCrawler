@@ -1,7 +1,7 @@
 {
   "domain": "www.bahn.de",
   "normalizedDomain": "www.bahn.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /.rest/\r\nDisallow: /web/\r\n\r\nUser-agent: Googlebot\r\nUser-agent: Bingbot\r\nUser-agent: Slurp\r\nAllow: /\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /.rest/\nDisallow: /web/\n\nUser-agent: Googlebot\nUser-agent: Bingbot\nUser-agent: Slurp\nAllow: /\n",
   "globalRules": {
     "paths": {
       "allowed": [],

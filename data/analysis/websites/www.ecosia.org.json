@@ -1,7 +1,7 @@
 {
   "domain": "www.ecosia.org",
   "normalizedDomain": "www.ecosia.org",
-  "robotsTxt": "User-agent: *\r\nDisallow: /search\r\nDisallow: /videos\r\nDisallow: /images\r\nDisallow: /news\r\nDisallow: /map\r\nDisallow: /maps\r\nDisallow: /google\r\nDisallow: /settings\r\nDisallow: /firstrun\r\nDisallow: /uninstall\r\nDisallow: /account/*\r\nDisallow: /accounts\r\nDisallow: /accounts/*\r\nDisallow: /shopping\r\nDisallow: /browser/confirmation\r\nDisallow: /browser/error\r\nCrawl-delay: 10\r\n\r\nUser-agent: ia_archiver\r\nDisallow: /\r\n\r\nUser-agent: Twitterbot\r\nAllow: /search?*&cpr=*\r\nAllow: /search?cpr=*\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /search\nDisallow: /videos\nDisallow: /images\nDisallow: /news\nDisallow: /map\nDisallow: /maps\nDisallow: /google\nDisallow: /settings\nDisallow: /firstrun\nDisallow: /uninstall\nDisallow: /account/*\nDisallow: /accounts\nDisallow: /accounts/*\nDisallow: /shopping\nDisallow: /browser/confirmation\nDisallow: /browser/error\nCrawl-delay: 10\n\nUser-agent: ia_archiver\nDisallow: /\n\nUser-agent: Twitterbot\nAllow: /search?*&cpr=*\nAllow: /search?cpr=*\n",
   "globalRules": {
     "paths": {
       "allowed": [],

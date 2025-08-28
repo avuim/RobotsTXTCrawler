@@ -1,7 +1,7 @@
 {
   "domain": "www.flaschenpost.de",
   "normalizedDomain": "www.flaschenpost.de",
-  "robotsTxt": "User-agent: * \r\nsitemap: https://www.flaschenpost.de/sitemap.xml\r\nDisallow: /checkout\r\nDisallow: /checkoutauth\r\nDisallow: /account\r\nDisallow: /katalog/suche\r\n",
+  "robotsTxt": "User-agent: * \nsitemap: https://www.flaschenpost.de/sitemap.xml\nDisallow: /checkout\nDisallow: /checkoutauth\nDisallow: /account\nDisallow: /katalog/suche\n",
   "globalRules": {
     "paths": {
       "allowed": [],

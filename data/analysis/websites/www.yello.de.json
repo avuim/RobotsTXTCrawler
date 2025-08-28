@@ -1,7 +1,7 @@
 {
   "domain": "www.yello.de",
   "normalizedDomain": "www.yello.de",
-  "robotsTxt": "# Living Styleguide\r\nUser-agent: *\r\nDisallow: /living-styleguide\r\n\r\n# Keine Links mit Query-Strings\r\nDisallow: /*?\r\n\r\n# Fehlerbehanldung und Validierung\r\nDisallow: /validation\r\nDisallow: /fehler\r\n\r\n# CF Api\r\nDisallow: /api\r\n\r\n# Alle PDFs\r\nDisallow: /*.pdf$\r\n\r\n# OA\r\nDisallow: /*bestellen/persoenliche-angaben$\r\nDisallow: /*bestellen/lieferung-und-zahlung$\r\nDisallow: /*bestellen/pruefung-und-beauftragung$\r\nDisallow: /*bestellen/vielen-dank$\r\n\r\nSitemap: https://www.yello.de/sitemap.xml\r\nSitemap: https://www.yello.de/hilfe-und-kontakt/sitemap.xml\r\n",
+  "robotsTxt": "# Living Styleguide\nUser-agent: *\nDisallow: /living-styleguide\n\n# Keine Links mit Query-Strings\nDisallow: /*?\n\n# Fehlerbehanldung und Validierung\nDisallow: /validation\nDisallow: /fehler\n\n# CF Api\nDisallow: /api\n\n# Alle PDFs\nDisallow: /*.pdf$\n\n# OA\nDisallow: /*bestellen/persoenliche-angaben$\nDisallow: /*bestellen/lieferung-und-zahlung$\nDisallow: /*bestellen/pruefung-und-beauftragung$\nDisallow: /*bestellen/vielen-dank$\n\nSitemap: https://www.yello.de/sitemap.xml\nSitemap: https://www.yello.de/hilfe-und-kontakt/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

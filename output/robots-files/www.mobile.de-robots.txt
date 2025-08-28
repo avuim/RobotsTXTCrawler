@@ -5,6 +5,7 @@ User-agent: Opebot-v (https://www.1plusx.com)
 Allow: /
 
 User-agent:*
+Disallow: /*/ajax/
 Disallow: /auto/*/*?lang=
 Disallow: /checkout/*
 Disallow: /finanzierung/route/

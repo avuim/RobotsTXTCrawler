@@ -1,7 +1,7 @@
 {
   "domain": "www.otto.de",
   "normalizedDomain": "www.otto.de",
-  "robotsTxt": "User-agent: bingbot\r\nDisallow: /suche/\r\n\r\nUser-agent: Adsbot-Google\r\nDisallow: /gate/\r\n\r\nUser-agent: *\r\nDisallow: /gate/\r\n",
+  "robotsTxt": "User-agent: bingbot\nDisallow: /suche/\n\nUser-agent: Adsbot-Google\nDisallow: /gate/\n\nUser-agent: *\nDisallow: /gate/\n",
   "globalRules": {
     "paths": {
       "allowed": [],

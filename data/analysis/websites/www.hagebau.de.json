@@ -1,7 +1,7 @@
 {
   "domain": "www.hagebau.de",
   "normalizedDomain": "www.hagebau.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /p/variation-change/\r\nDisallow: /*?*mobileApp=\r\nDisallow: */before/\r\nDisallow: */add/\r\nDisallow: */remove/\r\nDisallow: /planungstools/\r\nDisallow: */prohibis/\r\nDisallow: /evaluate/javascript/\r\nDisallow: /store/news/\r\nDisallow: /app-api/\r\n\r\nUser-agent: Pinterestbot\r\nCrawl-delay: 10\r\n\r\nSitemap: https://www.hagebau.de/sitemap.xml\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /p/variation-change/\nDisallow: /*?*mobileApp=\nDisallow: */before/\nDisallow: */add/\nDisallow: */remove/\nDisallow: /planungstools/\nDisallow: */prohibis/\nDisallow: /evaluate/javascript/\nDisallow: /store/news/\nDisallow: /app-api/\n\nUser-agent: Pinterestbot\nCrawl-delay: 10\n\nSitemap: https://www.hagebau.de/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

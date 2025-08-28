@@ -1,12 +1,15 @@
 {
   "domain": "www.urlaubspiraten.de",
   "normalizedDomain": "www.urlaubspiraten.de",
-  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /search\n\nSitemap: https://www.urlaubspiraten.de/sitemap/sitemap_index.xml.gz\nSitemap: https://www.urlaubspiraten.de/sitemap/sitemap_news.xml\n",
+  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /explore\nDisallow: /suche\nDisallow: /*?*ref=\nDisallow: /*?*clickout_id=\n\nSitemap: https://www.urlaubspiraten.de/sitemap/sitemap_index.xml.gz\nSitemap: https://www.urlaubspiraten.de/sitemap/sitemap_news.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],
       "disallowed": [
-        "/search"
+        "/explore",
+        "/suche",
+        "/*?*ref=",
+        "/*?*clickout_id="
       ]
     }
   },
@@ -26,7 +29,10 @@
   "paths": {
     "allowed": [],
     "disallowed": [
-      "/search"
+      "/explore",
+      "/suche",
+      "/*?*ref=",
+      "/*?*clickout_id="
     ]
   }
 }

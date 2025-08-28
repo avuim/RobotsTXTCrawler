@@ -1,6 +1,40 @@
 {
   "domain": "www.wochenblatt-reporter.de",
   "normalizedDomain": "www.wochenblatt-reporter.de",
+  "robotsTxt": "# www.robotstxt.org/\n# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449\n\nSitemap: https://www.wochenblatt-reporter.de/sitemap.xml\n\nUser-agent: *\nDisallow: /build/html/\nDisallow: /customerfonts/\nAllow: /resources/mediadb/\nDisallow: /resources/\nDisallow: /*?loc=\nDisallow: /*?tag\nDisallow: /*/list/\n\nUser-agent: Googlebot-news\nDisallow: /*/c-community/\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/resources/mediadb/"
+      ],
+      "disallowed": [
+        "/build/html/",
+        "/customerfonts/",
+        "/resources/",
+        "/*?loc=",
+        "/*?tag",
+        "/*/list/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot-news",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/*/c-community/"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -8,7 +42,20 @@
     },
     {
       "name": "Googlebot-news",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/resources/mediadb/"
+    ],
+    "disallowed": [
+      "/build/html/",
+      "/customerfonts/",
+      "/resources/",
+      "/*?loc=",
+      "/*?tag",
+      "/*/list/"
+    ]
+  }
 }

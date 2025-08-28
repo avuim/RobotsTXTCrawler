@@ -1,5 +1,23 @@
 {
   "domain": "www.wnoz.de",
   "normalizedDomain": "www.wnoz.de",
-  "bots": []
+  "robotsTxt": "sitemap: https://www.wnoz.de/sitemap/article_sitemap.xml\nsitemap: https://www.wnoz.de/sitemap/index_sitemap.xml\nsitemap: https://www.wnoz.de/sitemap/news_sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

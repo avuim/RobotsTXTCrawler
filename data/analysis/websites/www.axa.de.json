@@ -1,7 +1,7 @@
 {
   "domain": "www.axa.de",
   "normalizedDomain": "www.axa.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /*.swf$\r\nDisallow: /*?theme=\r\nDisallow: /*?cookiesAllowed=\r\nDisallow: /*?page=\r\nDisallow: /redirect/\r\nDisallow: /site/axa-de/get/\r\nDisallow: /site/axa-de/search/\r\nDisallow: /flipviewer/\r\nDisallow: /mediathek/audio/*\r\n\r\nSitemap: https://www.axa.de/sitemap.xml",
+  "robotsTxt": "User-agent: *\nDisallow: /*.swf$\nDisallow: /*?theme=\nDisallow: /*?cookiesAllowed=\nDisallow: /*?page=\nDisallow: /redirect/\nDisallow: /site/axa-de/get/\nDisallow: /site/axa-de/search/\nDisallow: /flipviewer/\nDisallow: /mediathek/audio/*\n\nSitemap: https://www.axa.de/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

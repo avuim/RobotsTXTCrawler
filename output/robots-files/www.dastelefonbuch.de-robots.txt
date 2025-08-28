@@ -1,6 +1,65 @@
 # robots.txt for https://www.dastelefonbuch.de/ ResponsiveApp
-# sc20250530; Vorgaengerversion: ne20241009
+# sc20250729; Vorgängerversion: sc20250530
 
+# Disallow AI training data collection
+User-agent: AI2Bot
+User-agent: Ai2Bot-Dolma
+User-agent: aiHitBot
+User-agent: Amazonbot
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: Brightbot
+User-agent: Bytespider
+User-agent: CCBot
+User-agent: Claude-Web
+User-agent: ClaudeBot
+User-agent: Cotoyogi
+User-agent: Crawlspace
+User-agent: DeepSeek
+User-agent: Diffbot
+User-agent: EchoboxBot
+User-agent: FacebookBot
+User-agent: Factset_spyderbot
+User-agent: FirecrawlAgent
+User-agent: FriendlyCrawler
+User-agent: GPTBot
+User-agent: Google-CloudVertexBot
+User-agent: Google-Extended
+User-agent: GoogleOther
+User-agent: GoogleOther-Image
+User-agent: GoogleOther-Video
+User-agent: ICC-Crawler
+User-agent: ISSCyberRiskCrawler
+User-agent: ImagesiftBot
+User-agent: Kangaroo Bot
+User-agent: Meta-ExternalAgent
+User-agent: MyCentralAIScraperBot
+User-agent: PanguBot
+User-agent: Panscient
+User-agent: Poseidon Research Crawler
+User-agent: QualifiedBot
+User-agent: SBIntuitionsBot
+User-agent: Scrapy
+User-agent: Sidetrade indexer bot
+User-agent: TikTokSpider
+User-agent: Timpibot
+User-agent: VelenPublicWebCrawler
+User-agent: Webzio-Extended
+User-agent: YandexAdditional
+User-agent: YandexAdditionalBot
+User-agent: YouBot
+User-agent: anthropic-ai
+User-agent: bedrockbot
+User-agent: cohere-ai
+User-agent: cohere-training-data-crawler
+User-agent: facebookexternalhit
+User-agent: img2dataset
+User-agent: meta-externalagent
+User-agent: panscient.com
+Disallow: /Suche/
+Disallow: /Personen/
+
+# Allow traditional search indexing
 User-agent: *
 Disallow: /api-doc/
 Disallow: /catalogs/
@@ -27,57 +86,29 @@ Disallow: /loglink.jsp
 Disallow: /nocrawl/
 Disallow: /Rubriken/
 
-Crawl-delay: 5
 # Eine Seite dieser Subdomain pro 5 Sekunden(=Crawl-delay) aufrufen
-
+User-agent: bingbot
 User-agent: AhrefsBot
-Crawl-delay: 5
-
 User-agent: grapeshot
-Crawl-delay: 5
-
 User-agent: SemrushBot
 Crawl-delay: 5
 
-
+# Eine Seite dieser Subdomain pro 10 Sekunden(=Crawl-delay) aufrufen
 User-agent: Clickagy Intelligence Bot v2
-Crawl-delay: 10
-
 User-agent: CriteoBot/0.1
-Crawl-delay: 10
-
 User-agent: ias-va/3.1
 Crawl-delay: 10
 
-
+# Disallow traditional search indexing
 User-agent: Cityreview
-Disallow: /
-
 User-agent: trovitBot
-Disallow: /
-
 User-agent: zyklop
-Disallow: /
-
 User-agent: DataForSeoBot
-Disallow: /
-
 User-agent: dotbot
-Disallow: /
-
 User-Agent: Neevabot
-Disallow: /
-
-User-agent: MegaIndex.ru	
-Disallow: /	
-
-User-agent: Mega-Index	
-Disallow: /
-
+User-agent: MegaIndex.ru
+User-agent: Mega-Index
 User-agent: Yandex
-Disallow: / 
-
-User-agent: ChatGPT-User
 Disallow: /
 
 # Sitemap files

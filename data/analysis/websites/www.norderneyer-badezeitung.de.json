@@ -1,10 +1,40 @@
 {
   "domain": "www.norderneyer-badezeitung.de",
   "normalizedDomain": "www.norderneyer-badezeitung.de",
+  "robotsTxt": "# Robots.txt for crawler\r\n\r\nUser-agent: *\r\n\r\n# Disallow Crawler\r\nDisallow: /User\r\nDisallow: /Dateien\r\nDisallow: /Nachrichten/Suche\r\n# Crawler often creates invalid script/webresource resource request\r\nDisallow: /ScriptResource\r\nDisallow: /WebResource\r\n\r\n# Max crawler Time per page in sec\r\nCrawl-Delay: 2\r\n\r\n#Sitemap\r\nSitemap: https://nachrichten.norderneyer-badezeitung.de/Sitemap_Index.xml.gz",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/User",
+        "/Dateien",
+        "/Nachrichten/Suche",
+        "/ScriptResource",
+        "/WebResource"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/User",
+      "/Dateien",
+      "/Nachrichten/Suche",
+      "/ScriptResource",
+      "/WebResource"
+    ]
+  }
 }

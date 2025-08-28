@@ -1,7 +1,7 @@
 {
   "domain": "www.dekra.de",
   "normalizedDomain": "www.dekra.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /error_path/\r\nDisallow: /fc_live/\r\n\r\nSitemap: https://www.dekra.de/de/sitemap.xml",
+  "robotsTxt": "User-agent: *\nDisallow: /error_path/\nDisallow: /fc_live/\n\nSitemap: https://www.dekra.de/de/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

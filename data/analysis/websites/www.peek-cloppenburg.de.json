@@ -1,7 +1,7 @@
 {
   "domain": "www.peek-cloppenburg.de",
   "normalizedDomain": "www.peek-cloppenburg.de",
-  "robotsTxt": "User-agent: *\r\n\r\n\r\n\r\n# app links into android app\r\nAllow: /.well-known/assetlinks.json\r\n\r\n# universal links into ios app\r\nAllow: /.well-known/apple-app-site-association\r\n\r\n# cloudflare internals\r\nDisallow: /cdn-cgi/\r\n\r\nUser-agent: AdsBot-Google\r\nAllow: /\r\n\r\nUser-agent: Googlebot-Image\r\nAllow: /\r\n\r\nSitemap: https://www.peek-cloppenburg.de/sitemaps/de/spider-sitemapindex.xml.gz\r\n\r\nSitemap: https://www.peek-cloppenburg.de/sitemaps-cms/de/cms-sitemapindex.xml.gz\r\n",
+  "robotsTxt": "User-agent: *\n\n\n\n# app links into android app\nAllow: /.well-known/assetlinks.json\n\n# universal links into ios app\nAllow: /.well-known/apple-app-site-association\n\n# cloudflare internals\nDisallow: /cdn-cgi/\n\nUser-agent: AdsBot-Google\nAllow: /\n\nUser-agent: Googlebot-Image\nAllow: /\n\nSitemap: https://www.peek-cloppenburg.de/sitemaps/de/spider-sitemapindex.xml.gz\n\nSitemap: https://www.peek-cloppenburg.de/sitemaps-cms/de/cms-sitemapindex.xml.gz\n",
   "globalRules": {
     "paths": {
       "allowed": [

@@ -1,7 +1,7 @@
 {
   "domain": "www.moebel-rieger.de",
   "normalizedDomain": "www.moebel-rieger.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /account/\r\nDisallow: /compare/\r\nDisallow: /checkout/\r\nDisallow: /listing/\r\nDisallow: /note/\r\nDisallow: /register/\r\nDisallow: /search/\r\nDisallow: /ticket/\r\nDisallow: /tracking/\r\nDisallow: /widgets/\r\nDisallow: /wishlist/\r\nDisallow: /*?sInquiry=\r\nDisallow: /rundum-rieger/mitarbeiterinformation/\r\nDisallow: /personalrabatt/\r\nSitemap: https://www.moebel-rieger.de/sitemap.xml\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /account/\nDisallow: /compare/\nDisallow: /checkout/\nDisallow: /listing/\nDisallow: /note/\nDisallow: /register/\nDisallow: /search/\nDisallow: /ticket/\nDisallow: /tracking/\nDisallow: /widgets/\nDisallow: /wishlist/\nDisallow: /*?sInquiry=\nDisallow: /rundum-rieger/mitarbeiterinformation/\nDisallow: /personalrabatt/\nSitemap: https://www.moebel-rieger.de/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

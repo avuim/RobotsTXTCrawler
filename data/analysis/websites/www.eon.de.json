@@ -1,7 +1,7 @@
 {
   "domain": "www.eon.de",
   "normalizedDomain": "www.eon.de",
-  "robotsTxt": "User-agent: *\r\nDisallow:\r\n\r\nSitemap: https://www.eon.de/de/sitemap.xml\r\n\r\nUser-agent: MJ12bot\r\nDisallow: /",
+  "robotsTxt": "User-agent: *\nDisallow:\n\nSitemap: https://www.eon.de/de/sitemap.xml\n\nUser-agent: MJ12bot\nDisallow: /",
   "globalRules": {
     "paths": {
       "allowed": [],

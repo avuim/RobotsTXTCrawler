@@ -1,7 +1,7 @@
 {
   "domain": "www.lilly.com",
   "normalizedDomain": "www.lilly.com",
-  "robotsTxt": "User-agent: *\r\n\r\nDisallow: /lillydirect/feedback-survey\r\nDisallow: /lillydirect/feedback-survey/es\r\nDisallow: /lillydirect/starting-zepbound\r\nDisallow: /lillydirect/starting-zepbound/es\r\nDisallow: /media-downloads\r\nDisallow: /at/mounjaro\r\nDisallow: /at/kongresse/ögr2024\r\nDisallow: /fi/laakarille/lihavuussairautena\r\nDisallow: /fi/laakarille/lihavuudenhoito\r\nDisallow: /manufacturing-2025\r\nDisallow: /br/lançamentoJaypirce\r\nDisallow: /fi/laakarille/silta/silta2025\r\nDisallow: /fi/laakarille/onkologia/signaali\r\nDisallow: /news/media/media-downloads\r\n\r\nSitemap: https://www.lilly.com/sitemap-index.xml",
+  "robotsTxt": "User-agent: *\n\nDisallow: /lillydirect/feedback-survey\nDisallow: /lillydirect/feedback-survey/es\nDisallow: /lillydirect/starting-zepbound\nDisallow: /lillydirect/starting-zepbound/es\nDisallow: /media-downloads\nDisallow: /at/mounjaro\nDisallow: /at/kongresse/ögr2024\nDisallow: /fi/laakarille/lihavuussairautena\nDisallow: /fi/laakarille/lihavuudenhoito\nDisallow: /manufacturing-2025\nDisallow: /br/lançamentoJaypirce\nDisallow: /fi/laakarille/silta/silta2025\nDisallow: /fi/laakarille/onkologia/signaali\nDisallow: /news/media/media-downloads\n\nSitemap: https://www.lilly.com/sitemap-index.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

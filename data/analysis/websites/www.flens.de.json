@@ -1,7 +1,7 @@
 {
   "domain": "www.flens.de",
   "normalizedDomain": "www.flens.de",
-  "robotsTxt": "Sitemap: https://www.flens.de//sitemap.xml\r\nUser-agent: *\r\nDisallow: /fileadmin/_temp_/\r\nDisallow: /typo3/\r\nDisallow: /typo3_src/\r\nDisallow: /typo3conf/\r\nAllow: /typo3/sysext/frontend/Resources/Public/*\r\nDisallow: /*ajax*/\r\nDisallow: /api/\r\nDisallow: /*.woff2\r\nDisallow: /verstehen/tag/\r\n \r\n",
+  "robotsTxt": "Sitemap: https://www.flens.de//sitemap.xml\nUser-agent: *\nDisallow: /fileadmin/_temp_/\nDisallow: /typo3/\nDisallow: /typo3_src/\nDisallow: /typo3conf/\nAllow: /typo3/sysext/frontend/Resources/Public/*\nDisallow: /*ajax*/\nDisallow: /api/\nDisallow: /*.woff2\nDisallow: /verstehen/tag/\n \n",
   "globalRules": {
     "paths": {
       "allowed": [

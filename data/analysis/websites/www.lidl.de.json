@@ -1,7 +1,7 @@
 {
   "domain": "www.lidl.de",
   "normalizedDomain": "www.lidl.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /cc.js*\r\nDisallow: /cdn/assets/cwv/\r\nDisallow: /user-api/*\r\nDisallow: /cqe/*\r\nDisallow: *search?q=*\r\nDisallow: *?offset=*\r\nDisallow: *idsOnly=*\r\nDisallow: *productsOnly=*\r\nDisallow: *id=*\r\nDisallow: *pageId=*\r\nDisallow: *advisor=*\r\nDisallow: *sort=*\r\n\r\nSitemap: https://www.lidl.de/static/sitemap.xml\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /cc.js*\nDisallow: /cdn/assets/cwv/\nDisallow: /user-api/*\nDisallow: /cqe/*\nDisallow: *search?q=*\nDisallow: *?offset=*\nDisallow: *idsOnly=*\nDisallow: *productsOnly=*\nDisallow: *id=*\nDisallow: *pageId=*\nDisallow: *advisor=*\nDisallow: *sort=*\n\nSitemap: https://www.lidl.de/static/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

@@ -1,7 +1,7 @@
 {
   "domain": "www.nuernberger.de",
   "normalizedDomain": "www.nuernberger.de",
-  "robotsTxt": "\r\n\r\nUser-agent: *\r\n\r\nDisallow: /*agentID=\r\n\r\nSITEMAP: https://www.nuernberger.de/sitemap.xml\r\n\r\n",
+  "robotsTxt": "\n\nUser-agent: *\n\nDisallow: /*agentID=\n\nSITEMAP: https://www.nuernberger.de/sitemap.xml\n\n",
   "globalRules": {
     "paths": {
       "allowed": [],

@@ -1,7 +1,7 @@
 {
   "domain": "www.deine-tierwelt.de",
   "normalizedDomain": "www.deine-tierwelt.de",
-  "robotsTxt": "########################################################\n# robots.txt fuer www.deine-tierwelt.de\n########################################################\n# Verzeichnisse bitte unten eintragen:\n########################################################\n\n########################################################\n# Allgemein\n########################################################\nUser-agent: *\nAllow: /ads.txt\nDisallow: /\n\n########################################################\n# Speziell\n########################################################\nUser-agent: Adsbot-Google\nUser-agent: AhrefsSiteAudit\nUser-agent: Applebot # Apple Siri\nUser-agent: Baiduspider # Chinese search engine Baidu\nUser-agent: Bingbot\nUser-agent: Browsershots\nUser-agent: DuckDuckBot # DuckDuckGo search engine\nUser-agent: eBay Relevance Ad Crawler\nUser-agent: eBay Relevance Ad Crawler powered by contentDetection (www.mindup.de)\nUser-agent: Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.5 (like Gecko) (Exabot-Thumbnails) # French search engine Exalead\nUser-agent: Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot) # French search engine Exalead\nUser-agent: facebookcatalog/1.0\nUser-agent: facebookexternalhit\nUser-agent: facebookexternalhit/1.0 (+http://www.facebook.com/externalhit_uatext.php)\nUser-agent: facebookexternalhit/1.1\nUser-agent: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)\nUser-agent: Feedfetcher-Google\nUser-agent: Googlebot\nUser-agent: Googlebot-Image\nUser-agent: Googlebot-Mobile\nUser-agent: Googlebot-News\nUser-agent: Googlebot-Video\nUser-agent: grapeshot\nUser-agent: GumGum\nUser-agent: Heritrix\nUser-agent: ia_archiver\nUser-agent: LinkedInBot\nUser-agent: MediaPartners-Google\nUser-agent: Mediapartners (Googlebot)\nUser-agent: msnbot\nUser-agent: Pinterestbot\nUser-agent: Slackbot\nUser-agent: Slurp # Yahoo\nUser-agent: Sogou # Chinese search engine Sogou\nUser-agent: TEOMA\nUser-agent: TermLabs\nUser-agent: Twitterbot\nUser-agent: YandexBot # Russian search engine Yandex\nAllow: /\nDisallow: /feed/\nDisallow: /holder-template/\nDisallow: /ajax/\nDisallow: /payment/",
+  "robotsTxt": "########################################################\n# robots.txt fuer www.deine-tierwelt.de\n########################################################\n# Verzeichnisse bitte unten eintragen:\n########################################################\n\n########################################################\n# Allgemein\n########################################################\nUser-agent: *\nAllow: /ads.txt\nDisallow: /\n\n########################################################\n# Speziell\n########################################################\nUser-agent: Adsbot-Google\nUser-agent: AhrefsSiteAudit\nUser-agent: anthropic-ai\nUser-agent: Applebot # Apple Siri\nUser-agent: Baiduspider # Chinese search engine Baidu\nUser-agent: Bingbot\nUser-agent: Browsershots\nUser-agent: DuckDuckBot # DuckDuckGo search engine\nUser-agent: eBay Relevance Ad Crawler\nUser-agent: eBay Relevance Ad Crawler powered by contentDetection (www.mindup.de)\nUser-agent: Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.5 (like Gecko) (Exabot-Thumbnails) # French search engine Exalead\nUser-agent: Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot) # French search engine Exalead\nUser-agent: facebookcatalog/1.0\nUser-agent: facebookexternalhit\nUser-agent: facebookexternalhit/1.0 (+http://www.facebook.com/externalhit_uatext.php)\nUser-agent: facebookexternalhit/1.1\nUser-agent: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)\nUser-agent: Feedfetcher-Google\nUser-agent: Googlebot\nUser-agent: Googlebot-Image\nUser-agent: Googlebot-Mobile\nUser-agent: Googlebot-News\nUser-agent: Googlebot-Video\nUser-agent: GPTBot\nUser-agent: grapeshot\nUser-agent: GumGum\nUser-agent: Heritrix\nUser-agent: ia_archiver\nUser-agent: LinkedInBot\nUser-agent: MediaPartners-Google\nUser-agent: Mediapartners (Googlebot)\nUser-agent: msnbot\nUser-agent: Pinterestbot\nUser-agent: Slackbot\nUser-agent: Slurp # Yahoo\nUser-agent: Sogou # Chinese search engine Sogou\nUser-agent: TEOMA\nUser-agent: TermLabs\nUser-agent: Twitterbot\nUser-agent: YandexBot # Russian search engine Yandex\nAllow: /\nDisallow: /feed/\nDisallow: /holder-template/\nDisallow: /ajax/\nDisallow: /payment/",
   "globalRules": {
     "paths": {
       "allowed": [
@@ -38,6 +38,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -286,6 +299,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -532,6 +558,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -780,6 +819,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -1026,6 +1078,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -1274,6 +1339,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -1520,6 +1598,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -1768,6 +1859,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -2014,6 +2118,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -2262,6 +2379,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -2508,6 +2638,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -2756,6 +2899,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -3002,6 +3158,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -3250,6 +3419,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -3496,6 +3678,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -3744,6 +3939,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -3990,6 +4198,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -4238,6 +4459,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -4484,6 +4718,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -4732,6 +4979,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -4978,6 +5238,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -5226,6 +5499,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -5472,6 +5758,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -5720,6 +6019,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -5966,6 +6278,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -6214,6 +6539,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -6460,6 +6798,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -6708,6 +7059,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -6954,6 +7318,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -7202,6 +7579,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -7448,6 +7838,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -7696,6 +8099,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -7942,6 +8358,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -8190,6 +8619,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -8436,6 +8878,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -8684,6 +9139,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -8930,6 +9398,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -9178,6 +9659,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -9424,6 +9918,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -9672,6 +10179,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -9918,6 +10438,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -10166,6 +10699,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -10412,6 +10958,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -10660,6 +11219,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -10906,6 +11478,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -11154,6 +11739,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -11400,6 +11998,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -11648,6 +12259,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -11894,6 +12518,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -12142,6 +12779,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -12388,6 +13038,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -12636,6 +13299,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -12882,6 +13558,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -13130,6 +13819,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -13376,6 +14078,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -13624,6 +14339,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -13870,6 +14598,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -14118,6 +14859,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -14364,6 +15118,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -14612,6 +15379,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -14858,6 +15638,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -15106,6 +15899,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -15352,6 +16158,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -15600,6 +16419,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -15846,6 +16678,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -16094,6 +16939,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -16340,6 +17198,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -16588,6 +17459,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -16834,6 +17718,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -17082,6 +17979,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -17328,6 +18238,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -17576,6 +18499,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -17822,6 +18758,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -18070,6 +19019,19 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -18316,6 +19278,19 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true,
       "paths": {
@@ -18564,6 +19539,1059 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GumGum",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Heritrix",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "MediaPartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Mediapartners (Googlebot)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "msnbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Pinterestbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Slackbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Slurp # Yahoo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Sogou # Chinese search engine Sogou",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "TEOMA",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "TermLabs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "YandexBot # Russian search engine Yandex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Adsbot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "AhrefsSiteAudit",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Applebot # Apple Siri",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Baiduspider # Chinese search engine Baidu",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Browsershots",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "DuckDuckBot # DuckDuckGo search engine",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "eBay Relevance Ad Crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "eBay Relevance Ad Crawler powered by contentDetection (www.mindup.de)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.5 (like Gecko) (Exabot-Thumbnails) # French search engine Exalead",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot) # French search engine Exalead",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "facebookcatalog/1.0",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "facebookexternalhit/1.0 (+http://www.facebook.com/externalhit_uatext.php)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "facebookexternalhit/1.1",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Feedfetcher-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Googlebot-Mobile",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Googlebot-News",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GumGum",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Heritrix",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "MediaPartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Mediapartners (Googlebot)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "msnbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Pinterestbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Slackbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Slurp # Yahoo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Sogou # Chinese search engine Sogou",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "TEOMA",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "TermLabs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "YandexBot # Russian search engine Yandex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Adsbot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "AhrefsSiteAudit",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Applebot # Apple Siri",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Baiduspider # Chinese search engine Baidu",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Browsershots",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "DuckDuckBot # DuckDuckGo search engine",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "eBay Relevance Ad Crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "eBay Relevance Ad Crawler powered by contentDetection (www.mindup.de)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.5 (like Gecko) (Exabot-Thumbnails) # French search engine Exalead",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot) # French search engine Exalead",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "facebookcatalog/1.0",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "facebookexternalhit/1.0 (+http://www.facebook.com/externalhit_uatext.php)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "facebookexternalhit/1.1",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Feedfetcher-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Googlebot-Mobile",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Googlebot-News",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/feed/",
+          "/holder-template/",
+          "/ajax/",
+          "/payment/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
       "allowed": true,
       "paths": {
         "allowed": [],
@@ -18785,8 +20813,8 @@
     }
   ],
   "stats": {
-    "totalSpecificBots": 1444,
-    "allowedBots": 1444,
+    "totalSpecificBots": 1600,
+    "allowedBots": 1600,
     "disallowedBots": 0,
     "hasGlobalAllow": false
   },
@@ -18804,6 +20832,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -18881,6 +20913,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -18956,6 +20992,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -19033,6 +21073,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -19108,6 +21152,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -19185,6 +21233,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -19260,6 +21312,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -19337,6 +21393,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -19412,6 +21472,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -19489,6 +21553,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -19564,6 +21632,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -19641,6 +21713,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -19716,6 +21792,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -19793,6 +21873,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -19868,6 +21952,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -19945,6 +22033,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -20020,6 +22112,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -20097,6 +22193,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -20172,6 +22272,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -20249,6 +22353,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -20324,6 +22432,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -20401,6 +22513,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -20476,6 +22592,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -20553,6 +22673,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -20628,6 +22752,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -20705,6 +22833,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -20780,6 +22912,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -20857,6 +22993,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -20932,6 +23072,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -21009,6 +23153,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -21084,6 +23232,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -21161,6 +23313,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -21236,6 +23392,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -21313,6 +23473,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -21388,6 +23552,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -21465,6 +23633,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -21540,6 +23712,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -21617,6 +23793,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -21692,6 +23872,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -21769,6 +23953,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -21844,6 +24032,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -21921,6 +24113,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -21996,6 +24192,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -22073,6 +24273,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -22148,6 +24352,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -22225,6 +24433,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -22300,6 +24512,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -22377,6 +24593,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -22452,6 +24672,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -22529,6 +24753,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -22604,6 +24832,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -22681,6 +24913,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -22756,6 +24992,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -22833,6 +25073,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -22908,6 +25152,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -22985,6 +25233,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -23060,6 +25312,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -23137,6 +25393,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -23212,6 +25472,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -23289,6 +25553,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -23364,6 +25632,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -23441,6 +25713,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -23516,6 +25792,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -23593,6 +25873,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -23668,6 +25952,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -23745,6 +26033,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -23820,6 +26112,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -23897,6 +26193,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -23972,6 +26272,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -24049,6 +26353,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -24124,6 +26432,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -24201,6 +26513,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -24276,6 +26592,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -24353,6 +26673,10 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
@@ -24428,6 +26752,10 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
       "name": "Applebot # Apple Siri",
       "allowed": true
     },
@@ -24505,6 +26833,330 @@
     },
     {
       "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "GumGum",
+      "allowed": true
+    },
+    {
+      "name": "Heritrix",
+      "allowed": true
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": true
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true
+    },
+    {
+      "name": "MediaPartners-Google",
+      "allowed": true
+    },
+    {
+      "name": "Mediapartners (Googlebot)",
+      "allowed": true
+    },
+    {
+      "name": "msnbot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterestbot",
+      "allowed": true
+    },
+    {
+      "name": "Slackbot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp # Yahoo",
+      "allowed": true
+    },
+    {
+      "name": "Sogou # Chinese search engine Sogou",
+      "allowed": true
+    },
+    {
+      "name": "TEOMA",
+      "allowed": true
+    },
+    {
+      "name": "TermLabs",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
+    },
+    {
+      "name": "YandexBot # Russian search engine Yandex",
+      "allowed": true
+    },
+    {
+      "name": "Adsbot-Google",
+      "allowed": true
+    },
+    {
+      "name": "AhrefsSiteAudit",
+      "allowed": true
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
+      "name": "Applebot # Apple Siri",
+      "allowed": true
+    },
+    {
+      "name": "Baiduspider # Chinese search engine Baidu",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "Browsershots",
+      "allowed": true
+    },
+    {
+      "name": "DuckDuckBot # DuckDuckGo search engine",
+      "allowed": true
+    },
+    {
+      "name": "eBay Relevance Ad Crawler",
+      "allowed": true
+    },
+    {
+      "name": "eBay Relevance Ad Crawler powered by contentDetection (www.mindup.de)",
+      "allowed": true
+    },
+    {
+      "name": "Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.5 (like Gecko) (Exabot-Thumbnails) # French search engine Exalead",
+      "allowed": true
+    },
+    {
+      "name": "Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot) # French search engine Exalead",
+      "allowed": true
+    },
+    {
+      "name": "facebookcatalog/1.0",
+      "allowed": true
+    },
+    {
+      "name": "facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "facebookexternalhit/1.0 (+http://www.facebook.com/externalhit_uatext.php)",
+      "allowed": true
+    },
+    {
+      "name": "facebookexternalhit/1.1",
+      "allowed": true
+    },
+    {
+      "name": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+      "allowed": true
+    },
+    {
+      "name": "Feedfetcher-Google",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot-Mobile",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot-News",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "GumGum",
+      "allowed": true
+    },
+    {
+      "name": "Heritrix",
+      "allowed": true
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": true
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true
+    },
+    {
+      "name": "MediaPartners-Google",
+      "allowed": true
+    },
+    {
+      "name": "Mediapartners (Googlebot)",
+      "allowed": true
+    },
+    {
+      "name": "msnbot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterestbot",
+      "allowed": true
+    },
+    {
+      "name": "Slackbot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp # Yahoo",
+      "allowed": true
+    },
+    {
+      "name": "Sogou # Chinese search engine Sogou",
+      "allowed": true
+    },
+    {
+      "name": "TEOMA",
+      "allowed": true
+    },
+    {
+      "name": "TermLabs",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
+    },
+    {
+      "name": "YandexBot # Russian search engine Yandex",
+      "allowed": true
+    },
+    {
+      "name": "Adsbot-Google",
+      "allowed": true
+    },
+    {
+      "name": "AhrefsSiteAudit",
+      "allowed": true
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": true
+    },
+    {
+      "name": "Applebot # Apple Siri",
+      "allowed": true
+    },
+    {
+      "name": "Baiduspider # Chinese search engine Baidu",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "Browsershots",
+      "allowed": true
+    },
+    {
+      "name": "DuckDuckBot # DuckDuckGo search engine",
+      "allowed": true
+    },
+    {
+      "name": "eBay Relevance Ad Crawler",
+      "allowed": true
+    },
+    {
+      "name": "eBay Relevance Ad Crawler powered by contentDetection (www.mindup.de)",
+      "allowed": true
+    },
+    {
+      "name": "Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.5 (like Gecko) (Exabot-Thumbnails) # French search engine Exalead",
+      "allowed": true
+    },
+    {
+      "name": "Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot) # French search engine Exalead",
+      "allowed": true
+    },
+    {
+      "name": "facebookcatalog/1.0",
+      "allowed": true
+    },
+    {
+      "name": "facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "facebookexternalhit/1.0 (+http://www.facebook.com/externalhit_uatext.php)",
+      "allowed": true
+    },
+    {
+      "name": "facebookexternalhit/1.1",
+      "allowed": true
+    },
+    {
+      "name": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+      "allowed": true
+    },
+    {
+      "name": "Feedfetcher-Google",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot-Mobile",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot-News",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot-Video",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {

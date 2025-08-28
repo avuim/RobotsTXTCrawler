@@ -1,7 +1,7 @@
 {
   "domain": "www.liebscher-bracht.com",
   "normalizedDomain": "www.liebscher-bracht.com",
-  "robotsTxt": "User-agent: ChatGPT-User\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\nUser-agent: *\r\nDisallow: /*.pdf$\r\nDisallow: /wp-content/cache/cachify/\r\nDisallow: /wp-content/cache/wp-rocket/\r\nDisallow: /feed/\r\nAllow: /*research-paper.pdf$\r\n\r\nAllow: /\r\n\r\nSitemap: https://www.liebscher-bracht.com/sitemap_index.xml\r\n",
+  "robotsTxt": "User-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: *\nDisallow: /*.pdf$\nDisallow: /wp-content/cache/cachify/\nDisallow: /wp-content/cache/wp-rocket/\nDisallow: /feed/\nAllow: /*research-paper.pdf$\n\nAllow: /\n\nSitemap: https://www.liebscher-bracht.com/sitemap_index.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [

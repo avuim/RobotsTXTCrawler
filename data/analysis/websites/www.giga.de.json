@@ -1,7 +1,7 @@
 {
   "domain": "www.giga.de",
   "normalizedDomain": "www.giga.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /wp-login.php\r\nDisallow: /wp-admin/\r\nDisallow: /api/\r\nDisallow: /wp-cron.php\r\nDisallow: /:preview/*\r\nDisallow: /app-xwkizxr-*\r\nDisallow: */false$\r\nDisallow: /oembed/\r\nDisallow: /structure/\r\nDisallow: /gtm.js\r\nDisallow: /metatag/\r\nDisallow: /quiz-enricher/*\r\nDisallow: /quiz-suggestions/*\r\n\r\nUser-agent: OAI-SearchBot\r\nAllow: /\r\nDisallow: /wp-login.php\r\nDisallow: /wp-admin/\r\nDisallow: /api/\r\nDisallow: /wp-cron.php\r\nDisallow: /:preview/*\r\nDisallow: /app-xwkizxr-*\r\nDisallow: */false$\r\nDisallow: /oembed/\r\nDisallow: /structure/\r\nDisallow: /gtm.js\r\nDisallow: /metatag/\r\nDisallow: /quiz-enricher/*\r\nDisallow: /quiz-suggestions/*",
+  "robotsTxt": "User-agent: *\nDisallow: /wp-login.php\nDisallow: /wp-admin/\nDisallow: /api/\nDisallow: /wp-cron.php\nDisallow: /:preview/*\nDisallow: /app-xwkizxr-*\nDisallow: */false$\nDisallow: /oembed/\nDisallow: /structure/\nDisallow: /gtm.js\nDisallow: /metatag/\nDisallow: /quiz-enricher/*\nDisallow: /quiz-suggestions/*\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /",
   "globalRules": {
     "paths": {
       "allowed": [],
@@ -24,32 +24,34 @@
   },
   "specificBots": [
     {
-      "name": "OAI-SearchBot",
-      "allowed": true,
+      "name": "GPTBot",
+      "allowed": false,
       "paths": {
         "allowed": [],
-        "disallowed": [
-          "/wp-login.php",
-          "/wp-admin/",
-          "/api/",
-          "/wp-cron.php",
-          "/:preview/*",
-          "/app-xwkizxr-*",
-          "*/false$",
-          "/oembed/",
-          "/structure/",
-          "/gtm.js",
-          "/metatag/",
-          "/quiz-enricher/*",
-          "/quiz-suggestions/*"
-        ]
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
       }
     }
   ],
   "stats": {
-    "totalSpecificBots": 1,
-    "allowedBots": 1,
-    "disallowedBots": 0,
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
     "hasGlobalAllow": true
   },
   "bots": [
@@ -58,8 +60,16 @@
       "allowed": true
     },
     {
-      "name": "OAI-SearchBot",
-      "allowed": true
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
     }
   ],
   "paths": {

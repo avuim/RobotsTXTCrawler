@@ -51,11 +51,8 @@ Disallow: /index.php/suche
 # 2021 DKR Relaunch: paths which are no longer valid
 Disallow: /zutaten/
 
-# 05/2025
-Disallow: /*?rtsoffset=
-Disallow: /*?pages=
-Disallow: /*&pages=
-Disallow: /*page=
+#15.8.25
+Disallow: /newsletter-teaser/
 
 # Disallow Bots
 User-agent: GPTBot

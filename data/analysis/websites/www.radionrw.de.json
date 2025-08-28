@@ -1,7 +1,7 @@
 {
   "domain": "www.radionrw.de",
   "normalizedDomain": "www.radionrw.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: \r\nDisallow: /assets/themes/yootheme/cache/\r\n\r\nHost: https://radionrw.de\r\n\r\n\r\n\r\n\r\n# This robots.txt file was created by Robots.txt Rewrite plugin: https://wordpress.org/plugins/robotstxt-rewrite/\r\n\r\nDisallow: /assets/uploads/bulk-media-register-tmp/\r\n\r\nSitemap: https://radionrw.de/xmlsitemap.xml\r\n\r\nAllow: /http://rsssitemap.xml\r\nAllow: /http://rsslatest.xml\r\nAllow: /http://htmlsitemap.htm\r\n\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: \nDisallow: /assets/themes/yootheme/cache/\n\nHost: https://radionrw.de\n\n\n\n\n# This robots.txt file was created by Robots.txt Rewrite plugin: https://wordpress.org/plugins/robotstxt-rewrite/\n\nDisallow: /assets/uploads/bulk-media-register-tmp/\n\nSitemap: https://radionrw.de/xmlsitemap.xml\n\nAllow: /http://rsssitemap.xml\nAllow: /http://rsslatest.xml\nAllow: /http://htmlsitemap.htm\n\n",
   "globalRules": {
     "paths": {
       "allowed": [

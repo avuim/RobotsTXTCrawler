@@ -1,7 +1,7 @@
 {
   "domain": "www.intersport.de",
   "normalizedDomain": "www.intersport.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /search\r\n\r\nSitemap: https://www.intersport.de/d/sitemap.xml\r\nSitemap: https://www.intersport.de/api/p/sitemap/products-sitemap.xml.gz\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /search\n\nSitemap: https://www.intersport.de/d/sitemap.xml\nSitemap: https://www.intersport.de/api/p/sitemap/products-sitemap.xml.gz\n",
   "globalRules": {
     "paths": {
       "allowed": [],

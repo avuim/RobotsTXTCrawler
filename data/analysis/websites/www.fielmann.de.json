@@ -1,7 +1,7 @@
 {
   "domain": "www.fielmann.de",
   "normalizedDomain": "www.fielmann.de",
-  "robotsTxt": "User-agent: *\r\nAllow: *\r\nDisallow: */checkout/\r\nDisallow: */success/\r\nDisallow: /account/\r\nDisallow: /wishlist/\r\nDisallow: /basket/\r\nDisallow: /order/\r\nDisallow: /search/\r\nSitemap: https://www.fielmann.de/sitemap_index.xml\r\nUser-agent: BLEXBot\r\nUser-agent: dotbot\r\nUser-agent: MJ12bot\r\nUser-agent: Barkrowler\r\nUser-agent: Optimizer\r\nDisallow: /",
+  "robotsTxt": "User-agent: *\nAllow: *\nDisallow: */checkout/\nDisallow: */success/\nDisallow: /account/\nDisallow: /wishlist/\nDisallow: /basket/\nDisallow: /order/\nDisallow: /search/\nSitemap: https://www.fielmann.de/sitemap_index.xml\nUser-agent: BLEXBot\nUser-agent: dotbot\nUser-agent: MJ12bot\nUser-agent: Barkrowler\nUser-agent: Optimizer\nDisallow: /",
   "globalRules": {
     "paths": {
       "allowed": [

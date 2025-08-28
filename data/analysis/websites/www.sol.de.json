@@ -1,6 +1,520 @@
 {
   "domain": "www.sol.de",
   "normalizedDomain": "www.sol.de",
+  "robotsTxt": "# General Rules\nUser-agent: *\nDisallow: /wp-admin/\nDisallow: /wp-includes/\nDisallow: /cgi-bin/\nDisallow: /tmp/\nDisallow: /private/\nDisallow: /comments/\nDisallow: /trackback/\nDisallow: /zur-freigabe/\nDisallow: /xmlrpc.php\nDisallow: /?s=\nDisallow: /wp-content/uploads/rss/\nDisallow: /*/feed/\nDisallow: /*/trackback/\nDisallow: /*/comment-page-*\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://www.sol.de/sitemap_index.xml\nSitemap: https://www.sol.de/news-sitemap.xml\n\n# Specific Rules for Google\nUser-agent: Googlebot\nAllow: /wp-content/uploads/\nAllow: /wp-content/themes/\nAllow: /wp-content/plugins/\n\n# Specific Rules for Bing\nUser-agent: Bingbot\nAllow: /wp-content/uploads/\nAllow: /wp-content/themes/\nAllow: /wp-content/plugins/\n\n# Specific Rules for Slurp\nUser-agent: Slurp\nAllow: /wp-content/uploads/\nAllow: /wp-content/themes/\nAllow: /wp-content/plugins/\n\n# Specific Rules for DuckDuckBot\nUser-agent: DuckDuckBot\nAllow: /wp-content/uploads/\nAllow: /wp-content/themes/\nAllow: /wp-content/plugins/\n\n# Block Baiduspider\nUser-agent: Baiduspider\nDisallow: /\n\n# Social Media Crawlers\nUser-agent: facebookexternalhit\nAllow: /\n\nUser-agent: facebot\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\n# Block Bad Bots\nUser-agent: BadBot\nDisallow: /\n\nUser-agent: EvilBot\nDisallow: /\n\n# Block AI Bots\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\n# RP Online Additional Settings\nUser-agent: Meta-ExternalAgent\nUser-agent: meta-externalagent\nDisallow: /\n\nUser-agent: NewsNow\nDisallow: /\n\nUser-agent: news-please\nDisallow: /\n\nUser-agent: OAI-SearchBot\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: omgilibot\nDisallow: /\n\nUser-agent: peer39_crawler\nUser-agent: peer39_crawler/1.0\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: Quora-Bot\nDisallow: /\n\nUser-agent: Scrapy\nDisallow: /\n\nUser-agent: TurnitinBot\nDisallow: /\n\n# Disallow Rules (From RP Online)\nUser-agent: Amazonbot\nDisallow: /imgs/\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: AwarioRssBot\nUser-agent: AwarioSmartBot\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: DataForSeoBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: FacebookBot\nDisallow: /\n\nUser-agent: FriendlyCrawler\nDisallow: /\n\nUser-agent: Google-CloudVertexBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ImagesiftBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: DotBot\nDisallow: /\n\nUser-agent: BLEXBot\nDisallow: /\n\nUser-agent: YandexBot\nCrawl-delay: 10\n\n\n# Update completed on 2025-06-24\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/wp-admin/admin-ajax.php"
+      ],
+      "disallowed": [
+        "/wp-admin/",
+        "/wp-includes/",
+        "/cgi-bin/",
+        "/tmp/",
+        "/private/",
+        "/comments/",
+        "/trackback/",
+        "/zur-freigabe/",
+        "/xmlrpc.php",
+        "/?s=",
+        "/wp-content/uploads/rss/",
+        "/*/feed/",
+        "/*/trackback/",
+        "/*/comment-page-*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/wp-content/uploads/",
+          "/wp-content/themes/",
+          "/wp-content/plugins/"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/wp-content/uploads/",
+          "/wp-content/themes/",
+          "/wp-content/plugins/"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/wp-content/uploads/",
+          "/wp-content/themes/",
+          "/wp-content/plugins/"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/wp-content/uploads/",
+          "/wp-content/themes/",
+          "/wp-content/plugins/"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "facebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BadBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EvilBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "news-please",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "peer39_crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "peer39_crawler/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "peer39_crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "peer39_crawler/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/imgs/"
+        ]
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AwarioRssBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AwarioSmartBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AwarioRssBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AwarioSmartBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FriendlyCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-CloudVertexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DotBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 58,
+    "allowedBots": 10,
+    "disallowedBots": 48,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -59,6 +573,18 @@
       "allowed": false
     },
     {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
       "name": "meta-externalagent",
       "allowed": false
     },
@@ -83,6 +609,18 @@
       "allowed": false
     },
     {
+      "name": "peer39_crawler",
+      "allowed": false
+    },
+    {
+      "name": "peer39_crawler/1.0",
+      "allowed": false
+    },
+    {
+      "name": "peer39_crawler",
+      "allowed": false
+    },
+    {
       "name": "peer39_crawler/1.0",
       "allowed": false
     },
@@ -104,7 +642,7 @@
     },
     {
       "name": "Amazonbot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "anthropic-ai",
@@ -112,6 +650,18 @@
     },
     {
       "name": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "name": "AwarioRssBot",
+      "allowed": false
+    },
+    {
+      "name": "AwarioSmartBot",
+      "allowed": false
+    },
+    {
+      "name": "AwarioRssBot",
       "allowed": false
     },
     {
@@ -124,6 +674,10 @@
     },
     {
       "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
       "allowed": false
     },
     {
@@ -163,6 +717,10 @@
       "allowed": false
     },
     {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
       "name": "ImagesiftBot",
       "allowed": false
     },
@@ -189,6 +747,31 @@
     {
       "name": "BLEXBot",
       "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/wp-admin/admin-ajax.php"
+    ],
+    "disallowed": [
+      "/wp-admin/",
+      "/wp-includes/",
+      "/cgi-bin/",
+      "/tmp/",
+      "/private/",
+      "/comments/",
+      "/trackback/",
+      "/zur-freigabe/",
+      "/xmlrpc.php",
+      "/?s=",
+      "/wp-content/uploads/rss/",
+      "/*/feed/",
+      "/*/trackback/",
+      "/*/comment-page-*"
+    ]
+  }
 }

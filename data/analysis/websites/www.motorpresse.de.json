@@ -1,7 +1,7 @@
 {
   "domain": "www.motorpresse.de",
   "normalizedDomain": "www.motorpresse.de",
-  "robotsTxt": "# Allow sitemap\r\nsitemap: https://www.motorpresse.de/sitemap/sitemap-default-index.xml\r\n\r\n# disallow api-explorer\r\nUser-agent: *\r\ndisallow: /api-explorer/*",
+  "robotsTxt": "# Allow sitemap\nsitemap: https://www.motorpresse.de/sitemap/sitemap-default-index.xml\n\n# disallow api-explorer\nUser-agent: *\ndisallow: /api-explorer/*",
   "globalRules": {
     "paths": {
       "allowed": [],

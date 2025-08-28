@@ -1,7 +1,296 @@
 {
   "domain": "www.main-echo.de",
   "normalizedDomain": "www.main-echo.de",
+  "robotsTxt": "# ID: 1\nUser-agent: OGDWCtxCrawler\nAllow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: ia_archiver\nDisallow: /\n\nUser-Agent: omgili\nDisallow: /\n\nUser-Agent: omgilibot\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: DataForSeoBot\nDisallow: /\n\nUser-agent: Yeti\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: sentibot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: SirdataBot\nDisallow: /\n\nUser-agent: LCC\nDisallow: /\n\nUser-agent: TurnitinBot\nDisallow: /\n\nUser-agent: BLEXBot\nDisallow: /\n\nUser-agent: dotbot\nDisallow: /\n\nUser-Agent: ImagesiftBot\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Timpibot\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: Meta-ExternalAgent\nDisallow: /\n\nUser-agent: FacebookBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: *\nDisallow: /unternehmen/nativendo/\nDisallow: /technical-support/\nDisallow: /storage/epa/\nDisallow: /mntest/\nDisallow: /import/\nDisallow: /alter-content/\nDisallow: /demo/\nDisallow: /mobil/\nDisallow: /pressespiegel/\nDisallow: /admin/\nDisallow: /_/admin/\nDisallow: /_fWS/json/epaper/\n\n## Speziell weitere Ressorts fuer den Google-news Bot...\nUser-agent: Googlebot-News\nDisallow: /mediathek/\nDisallow: /anzeigen/\nDisallow: /abo-service/\nDisallow: /e-paper/\nDisallow: /verlag/\nDisallow: /unternehmen/\nDisallow: /objects/\nDisallow: /_/\n\n# Legal notice: www.main-echo.de expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).\n\n# The use of robots or other automated means to access www.main-echo.de or collect or mine data without the express permission of www.main-echo.de is strictly prohibited.\n\n# If you would like to apply for permission to crawl www.main-echo.de, collect or use data, please contact admin@main-echo.de",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/unternehmen/nativendo/",
+        "/technical-support/",
+        "/storage/epa/",
+        "/mntest/",
+        "/import/",
+        "/alter-content/",
+        "/demo/",
+        "/mobil/",
+        "/pressespiegel/",
+        "/admin/",
+        "/_/admin/",
+        "/_fWS/json/epaper/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "OGDWCtxCrawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yeti",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SirdataBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LCC",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Timpibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot-News",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/mediathek/",
+          "/anzeigen/",
+          "/abo-service/",
+          "/e-paper/",
+          "/verlag/",
+          "/unternehmen/",
+          "/objects/",
+          "/_/"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 31,
+    "allowedBots": 2,
+    "disallowedBots": 29,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "OGDWCtxCrawler",
       "allowed": true
@@ -123,12 +412,25 @@
       "allowed": false
     },
     {
-      "name": "*",
-      "allowed": false
-    },
-    {
       "name": "Googlebot-News",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/unternehmen/nativendo/",
+      "/technical-support/",
+      "/storage/epa/",
+      "/mntest/",
+      "/import/",
+      "/alter-content/",
+      "/demo/",
+      "/mobil/",
+      "/pressespiegel/",
+      "/admin/",
+      "/_/admin/",
+      "/_fWS/json/epaper/"
+    ]
+  }
 }

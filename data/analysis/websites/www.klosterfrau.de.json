@@ -1,7 +1,7 @@
 {
   "domain": "www.klosterfrau.de",
   "normalizedDomain": "www.klosterfrau.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /neos/",
+  "robotsTxt": "User-agent: *\nDisallow: /neos/",
   "globalRules": {
     "paths": {
       "allowed": [],

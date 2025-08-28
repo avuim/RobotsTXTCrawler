@@ -1,7 +1,7 @@
 {
   "domain": "www.eterna.de",
   "normalizedDomain": "www.eterna.de",
-  "robotsTxt": "User-agent: *\r\nDisallow:/preview/\r\nDisallow:/checkout\r\nDisallow:/account\r\nDisallow:/note\r\nDisallow:/*/preview*\r\nDisallow:/*/checkout*\r\nDisallow:/*/account*\r\nDisallow:/*/note*\r\nSitemap: https://www.eterna.de/eterna-sitemap-index.xml\r\n\r\n\r\nUser-agent: Bytespider\r\nDisallow: /\r\n\r\nUser-agent: Pinterestbot\r\nDisallow: /\r\n\r\nUser-agent: facebookexternalhit\r\nDisallow: /\r\n\r\nUser-agent: Applebot\r\nDisallow: /",
+  "robotsTxt": "User-agent: *\nDisallow:/preview/\nDisallow:/checkout\nDisallow:/account\nDisallow:/note\nDisallow:/*/preview*\nDisallow:/*/checkout*\nDisallow:/*/account*\nDisallow:/*/note*\nSitemap: https://www.eterna.de/eterna-sitemap-index.xml\n\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: Pinterestbot\nDisallow: /\n\nUser-agent: facebookexternalhit\nDisallow: /\n\nUser-agent: Applebot\nDisallow: /",
   "globalRules": {
     "paths": {
       "allowed": [],

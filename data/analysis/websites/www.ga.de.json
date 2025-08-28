@@ -1,10 +1,354 @@
 {
   "domain": "www.ga.de",
   "normalizedDomain": "www.ga.de",
-  "bots": [
+  "robotsTxt": "User-agent: Amazonbot\nDisallow: /imgs/\nUser-agent: anthropic-ai\nDisallow: /\nUser-agent: Applebot-Extended\nDisallow: /\nUser-agent: AwarioRssBot\nUser-agent: AwarioSmartBot\nDisallow: /\nUser-agent: Bytespider\nDisallow: /\nUser-agent: CCBot\nDisallow: /\nUser-agent: ChatGPT-User\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /\nUser-agent: Claude-Web\nDisallow: /\nUser-agent: cohere-ai\nDisallow: /\nUser-agent: DataForSeoBot\nDisallow: /\nUser-agent: Diffbot\nDisallow: /\nUser-agent: FacebookBot\nDisallow: /\nUser-agent: FriendlyCrawler\nDisallow: /\nUser-agent: Google-CloudVertexBot\nDisallow: /\nUser-agent: Google-Extended\nDisallow: /\nUser-agent: GPTBot\nDisallow: /\nUser-agent: ImagesiftBot\nDisallow: /\nUser-agent: magpie-crawler\nDisallow: /\nUser-agent: Meta-ExternalAgent\nUser-agent: meta-externalagent\nDisallow: /\nUser-agent: NewsNow\nDisallow: /\nUser-agent: news-please\nDisallow: /\nUser-agent: OAI-SearchBot\nDisallow: /\nUser-agent: omgili\nDisallow: /\nUser-agent: omgilibot\nDisallow: /\nUser-agent: peer39_crawler\nUser-agent: peer39_crawler/1.0\nDisallow: /\nUser-agent: PerplexityBot\nDisallow: /\nUser-agent: Quora-Bot\nDisallow: /\nUser-agent: Scrapy\nDisallow: /\nUser-agent: TurnitinBot\nDisallow: /\n\nUser-agent: *\nDisallow: /check_area/\nDisallow: /api/\nDisallow: /sso/\nDisallow: /suche/\nDisallow: /app/consent/\nDisallow: /auth/\nDisallow: /*?entitlement=*\nDisallow: /*?output=*\nDisallow: /*-97141621$ # zugefügt am: 2023-10-17 18:12\nDisallow: /*-45348715$ # zugefügt am: 2023-10-24 13:09",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/check_area/",
+        "/api/",
+        "/sso/",
+        "/suche/",
+        "/app/consent/",
+        "/auth/",
+        "/*?entitlement=*",
+        "/*?output=*",
+        "/*-97141621$ # zugefügt am: 2023-10-17 18:12",
+        "/*-45348715$ # zugefügt am: 2023-10-24 13:09"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "Amazonbot",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/imgs/"
+        ]
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AwarioRssBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AwarioSmartBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AwarioRssBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AwarioSmartBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FriendlyCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-CloudVertexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "news-please",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "peer39_crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "peer39_crawler/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "peer39_crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "peer39_crawler/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 39,
+    "allowedBots": 1,
+    "disallowedBots": 38,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": true
     },
     {
       "name": "anthropic-ai",
@@ -12,6 +356,18 @@
     },
     {
       "name": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "name": "AwarioRssBot",
+      "allowed": false
+    },
+    {
+      "name": "AwarioSmartBot",
+      "allowed": false
+    },
+    {
+      "name": "AwarioRssBot",
       "allowed": false
     },
     {
@@ -79,6 +435,18 @@
       "allowed": false
     },
     {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
       "name": "meta-externalagent",
       "allowed": false
     },
@@ -103,6 +471,18 @@
       "allowed": false
     },
     {
+      "name": "peer39_crawler",
+      "allowed": false
+    },
+    {
+      "name": "peer39_crawler/1.0",
+      "allowed": false
+    },
+    {
+      "name": "peer39_crawler",
+      "allowed": false
+    },
+    {
       "name": "peer39_crawler/1.0",
       "allowed": false
     },
@@ -121,10 +501,21 @@
     {
       "name": "TurnitinBot",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/check_area/",
+      "/api/",
+      "/sso/",
+      "/suche/",
+      "/app/consent/",
+      "/auth/",
+      "/*?entitlement=*",
+      "/*?output=*",
+      "/*-97141621$ # zugefügt am: 2023-10-17 18:12",
+      "/*-45348715$ # zugefügt am: 2023-10-24 13:09"
+    ]
+  }
 }

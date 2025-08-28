@@ -1,7 +1,7 @@
 {
   "domain": "www.austria.info",
   "normalizedDomain": "www.austria.info",
-  "robotsTxt": "User-agent: *\r\nDisallow: /config\r\nDisallow: /development\r\nDisallow: /search\r\nDisallow: /_styleguide\r\nDisallow: /_gtm\r\nSitemap: https://www.austria.info/sitemap.xml\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /config\nDisallow: /development\nDisallow: /search\nDisallow: /_styleguide\nDisallow: /_gtm\nSitemap: https://www.austria.info/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],
