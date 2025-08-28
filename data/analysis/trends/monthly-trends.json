@@ -6,8 +6,8 @@
     "botCategories": {
       "other": 1058,
       "seo": 44,
-      "aiScraper": 31,
-      "searchEngine": 54
+      "searchEngine": 54,
+      "aiScraper": 31
     },
     "topBots": [
       {
@@ -74,44 +74,44 @@
   },
   {
     "month": "2025-08",
-    "totalBots": 1318,
-    "totalWebsites": 1117,
+    "totalBots": 1322,
+    "totalWebsites": 1128,
     "botCategories": {
-      "other": 1161,
+      "other": 1165,
       "seo": 52,
-      "aiScraper": 34,
-      "searchEngine": 71
+      "searchEngine": 71,
+      "aiScraper": 34
     },
     "topBots": [
       {
         "name": "*",
-        "websites": 1496,
-        "allowed": 489,
-        "disallowed": 1007
+        "websites": 1097,
+        "allowed": 995,
+        "disallowed": 102
       },
       {
         "name": "GPTBot",
-        "websites": 280,
-        "allowed": 38,
-        "disallowed": 242
+        "websites": 249,
+        "allowed": 13,
+        "disallowed": 236
       },
       {
         "name": "CCBot",
-        "websites": 231,
-        "allowed": 33,
-        "disallowed": 198
+        "websites": 206,
+        "allowed": 6,
+        "disallowed": 200
       },
       {
         "name": "ChatGPT-User",
-        "websites": 159,
+        "websites": 154,
         "allowed": 13,
-        "disallowed": 146
+        "disallowed": 141
       },
       {
         "name": "Google-Extended",
-        "websites": 147,
+        "websites": 143,
         "allowed": 12,
-        "disallowed": 135
+        "disallowed": 131
       },
       {
         "name": "ClaudeBot",
@@ -121,20 +121,20 @@
       },
       {
         "name": "anthropic-ai",
-        "websites": 110,
-        "allowed": 7,
-        "disallowed": 103
-      },
-      {
-        "name": "Bytespider",
-        "websites": 107,
-        "allowed": 3,
+        "websites": 109,
+        "allowed": 5,
         "disallowed": 104
       },
       {
+        "name": "Bytespider",
+        "websites": 108,
+        "allowed": 2,
+        "disallowed": 106
+      },
+      {
         "name": "PerplexityBot",
-        "websites": 101,
-        "allowed": 10,
+        "websites": 100,
+        "allowed": 9,
         "disallowed": 91
       },
       {

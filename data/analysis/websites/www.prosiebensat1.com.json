@@ -1,7 +1,59 @@
 {
   "domain": "www.prosiebensat1.com",
   "normalizedDomain": "www.prosiebensat1.com",
+  "robotsTxt": "User-agent: BLP_bbot/0.1\r\nDisallow: /\r\n\r\nUser-agent: BLP_bbot\r\nDisallow: /\r\n\r\nUser-agent: Rigor\r\nDisallow: /\r\n\r\nUser-agent: *\r\nSitemap: https://www.prosiebensat1.com/sitemap.xml\r\nDisallow: /unternehmen/events/feedback\r\nDisallow: /unternehmen/events/newsletter-optout\r\nDisallow: /e-sign_erfolgreich-abgeschlossen\r\nDisallow: /e-sign_successfully-completed\r\nDisallow: /e-sign_abgebrochen\r\nDisallow: /e-sign_canceled\r\nDisallow: /e-sign_vorgang_abgebrochen\r\nDisallow: /e-sign_signing_process_canceled\r\n\r\nAllow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/unternehmen/events/feedback",
+        "/unternehmen/events/newsletter-optout",
+        "/e-sign_erfolgreich-abgeschlossen",
+        "/e-sign_successfully-completed",
+        "/e-sign_abgebrochen",
+        "/e-sign_canceled",
+        "/e-sign_vorgang_abgebrochen",
+        "/e-sign_signing_process_canceled"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "BLP_bbot/0.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLP_bbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Rigor",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "BLP_bbot/0.1",
       "allowed": false
@@ -13,10 +65,19 @@
     {
       "name": "Rigor",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/unternehmen/events/feedback",
+      "/unternehmen/events/newsletter-optout",
+      "/e-sign_erfolgreich-abgeschlossen",
+      "/e-sign_successfully-completed",
+      "/e-sign_abgebrochen",
+      "/e-sign_canceled",
+      "/e-sign_vorgang_abgebrochen",
+      "/e-sign_signing_process_canceled"
+    ]
+  }
 }

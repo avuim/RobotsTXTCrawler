@@ -1,10 +1,54 @@
 {
   "domain": "www.datev.de",
   "normalizedDomain": "www.datev.de",
+  "robotsTxt": "User-agent: *\r\n\r\nAllow: /web/de/media/datev_de/img/\r\nAllow: /web/de/media/tech_datev/\r\nAllow: /dnlexom/help-center/\r\nDisallow: /*?\r\nDisallow: /web/de/media/\r\nDisallow: /errorpages/\r\nDisallow: /statistik/\r\nDisallow: /wartung/\r\nDisallow: /failuredoc/\r\nDisallow: /wartungdoc/\r\nDisallow: /adserver-dateien/\r\n\r\n\r\nSitemap: https://www.datev.de/web/de/sitemapxml.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/web/de/media/datev_de/img/",
+        "/web/de/media/tech_datev/",
+        "/dnlexom/help-center/"
+      ],
+      "disallowed": [
+        "/*?",
+        "/web/de/media/",
+        "/errorpages/",
+        "/statistik/",
+        "/wartung/",
+        "/failuredoc/",
+        "/wartungdoc/",
+        "/adserver-dateien/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/web/de/media/datev_de/img/",
+      "/web/de/media/tech_datev/",
+      "/dnlexom/help-center/"
+    ],
+    "disallowed": [
+      "/*?",
+      "/web/de/media/",
+      "/errorpages/",
+      "/statistik/",
+      "/wartung/",
+      "/failuredoc/",
+      "/wartungdoc/",
+      "/adserver-dateien/"
+    ]
+  }
 }

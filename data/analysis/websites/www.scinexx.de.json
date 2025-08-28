@@ -1,18 +1,55 @@
 {
   "domain": "www.scinexx.de",
   "normalizedDomain": "www.scinexx.de",
-  "bots": [
+  "robotsTxt": "User-agent: Yandex\nDisallow: / # blocks access to whole site\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: *\nDisallow:",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
     {
       "name": "Yandex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/ # blocks access to whole site"
+        ]
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 1,
+    "disallowedBots": 1,
+    "hasGlobalAllow": false
+  },
+  "bots": [
+    {
+      "name": "*",
       "allowed": false
+    },
+    {
+      "name": "Yandex",
+      "allowed": true
     },
     {
       "name": "AhrefsBot",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

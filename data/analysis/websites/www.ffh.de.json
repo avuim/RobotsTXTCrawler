@@ -1,10 +1,72 @@
 {
   "domain": "www.ffh.de",
   "normalizedDomain": "www.ffh.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: *.pdf\r\nDisallow: /suche/\r\nDisallow: /index/native-ads/anzeige.html\r\nDisallow: /wdw/\r\nDisallow: /wdw2018/\r\nDisallow: /urlaub/\r\nDisallow: /index/zeitlos/\r\nDisallow: /login.html\r\nDisallow: /freizeit/ticketshop/atsController/Ticketshop/atsAction/search.html\r\nDisallow: /intern/\r\nDisallow: /testseiten/\r\nDisallow: /app-hilfe-android/\r\nDisallow: /app-hilfe-ios/\r\nDisallow: /aktionen/formulare/\r\nDisallow: /logo/\r\nDisallow: /*?*\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nUser-agent: Twitterbot\r\nAllow: /wdw\r\nAllow: /urlaub\r\n\r\nUser-agent: facebookexternalhit\r\nAllow: /wdw\r\nAllow: /urlaub\r\n\r\nSitemap: https://www.ffh.de/index.sitemap\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "*.pdf",
+        "/suche/",
+        "/index/native-ads/anzeige.html",
+        "/wdw/",
+        "/wdw2018/",
+        "/urlaub/",
+        "/index/zeitlos/",
+        "/login.html",
+        "/freizeit/ticketshop/atsController/Ticketshop/atsAction/search.html",
+        "/intern/",
+        "/testseiten/",
+        "/app-hilfe-android/",
+        "/app-hilfe-ios/",
+        "/aktionen/formulare/",
+        "/logo/",
+        "/*?*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/wdw",
+          "/urlaub"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/wdw",
+          "/urlaub"
+        ],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 2,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
@@ -18,5 +80,26 @@
       "name": "facebookexternalhit",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "*.pdf",
+      "/suche/",
+      "/index/native-ads/anzeige.html",
+      "/wdw/",
+      "/wdw2018/",
+      "/urlaub/",
+      "/index/zeitlos/",
+      "/login.html",
+      "/freizeit/ticketshop/atsController/Ticketshop/atsAction/search.html",
+      "/intern/",
+      "/testseiten/",
+      "/app-hilfe-android/",
+      "/app-hilfe-ios/",
+      "/aktionen/formulare/",
+      "/logo/",
+      "/*?*"
+    ]
+  }
 }

@@ -1,6 +1,39 @@
 {
   "domain": "www.watchtime.net",
   "normalizedDomain": "www.watchtime.net",
+  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /search\nDisallow: /feed/\nDisallow: /wp/\nDisallow: /et-posts-daily-newsletter\nDisallow: /newsletter-daily-tag-feed\nDisallow: /et-posts-weekly-newsletter\nDisallow: /newsletter-weekly-tag-feed\nDisallow: /feed/rss\nDisallow: /feed/atom\n\nUser-agent: ChatGPT-User\nDisallow: /\n\n# Sitemaps\nSitemap: https://www.watchtime.net/sitemap",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/search",
+        "/feed/",
+        "/wp/",
+        "/et-posts-daily-newsletter",
+        "/newsletter-daily-tag-feed",
+        "/et-posts-weekly-newsletter",
+        "/newsletter-weekly-tag-feed",
+        "/feed/rss",
+        "/feed/atom"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -10,5 +43,19 @@
       "name": "ChatGPT-User",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/search",
+      "/feed/",
+      "/wp/",
+      "/et-posts-daily-newsletter",
+      "/newsletter-daily-tag-feed",
+      "/et-posts-weekly-newsletter",
+      "/newsletter-weekly-tag-feed",
+      "/feed/rss",
+      "/feed/atom"
+    ]
+  }
 }

@@ -1,10 +1,104 @@
 {
   "domain": "www.osthessen-news.de",
   "normalizedDomain": "www.osthessen-news.de",
+  "robotsTxt": "# updated 2023-11-30\n\nUser-agent: *\nDisallow: /adventskalender/\nDisallow: /adventskalender2009/\nDisallow: /blaulicht/\nDisallow: /Blaulicht/\nDisallow: /captcha/\nDisallow: /Counter/\nDisallow: /data/\nDisallow: /Downloads/\nDisallow: /files/\nDisallow: /flash/\nDisallow: /Fussball_WM_2010/\nDisallow: /Klinikum/\nDisallow: /Kunden/\nDisallow: /Laufschrift/\nDisallow: /Luftbilder/\nDisallow: /Media/\nDisallow: /admin/\nDisallow: /onabgestaubt/\nDisallow: /ontermine/\nDisallow: /onbauen/\nDisallow: /onortskundig/\nDisallow: /onpferde/\nDisallow: /onunterwegs/\nDisallow: /Optionen/\nDisallow: /Sonstiges/\nDisallow: /Style/\nDisallow: /Test/\nDisallow: /ticker/\nDisallow: /Trachtenfest/\nDisallow: /trachtenfest/\nDisallow: /Wahl/\nDisallow: /Werbebanner/\nDisallow: /beta/\nDisallow: /wetter/\nDisallow: /weather_today/\nDisallow: /weather_json/\nDisallow: /open.php\nDisallow: /jobs/helper/mailRegister.php\nUser-agent: sentibot\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-Agent: omgili\nDisallow: /\n\nUser-Agent: omgilibot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/adventskalender/",
+        "/adventskalender2009/",
+        "/blaulicht/",
+        "/Blaulicht/",
+        "/captcha/",
+        "/Counter/",
+        "/data/",
+        "/Downloads/",
+        "/files/",
+        "/flash/",
+        "/Fussball_WM_2010/",
+        "/Klinikum/",
+        "/Kunden/",
+        "/Laufschrift/",
+        "/Luftbilder/",
+        "/Media/",
+        "/admin/",
+        "/onabgestaubt/",
+        "/ontermine/",
+        "/onbauen/",
+        "/onortskundig/",
+        "/onpferde/",
+        "/onunterwegs/",
+        "/Optionen/",
+        "/Sonstiges/",
+        "/Style/",
+        "/Test/",
+        "/ticker/",
+        "/Trachtenfest/",
+        "/trachtenfest/",
+        "/Wahl/",
+        "/Werbebanner/",
+        "/beta/",
+        "/wetter/",
+        "/weather_today/",
+        "/weather_json/",
+        "/open.php",
+        "/jobs/helper/mailRegister.php"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 5,
+    "allowedBots": 0,
+    "disallowedBots": 5,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "sentibot",
@@ -26,5 +120,48 @@
       "name": "ChatGPT-User",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/adventskalender/",
+      "/adventskalender2009/",
+      "/blaulicht/",
+      "/Blaulicht/",
+      "/captcha/",
+      "/Counter/",
+      "/data/",
+      "/Downloads/",
+      "/files/",
+      "/flash/",
+      "/Fussball_WM_2010/",
+      "/Klinikum/",
+      "/Kunden/",
+      "/Laufschrift/",
+      "/Luftbilder/",
+      "/Media/",
+      "/admin/",
+      "/onabgestaubt/",
+      "/ontermine/",
+      "/onbauen/",
+      "/onortskundig/",
+      "/onpferde/",
+      "/onunterwegs/",
+      "/Optionen/",
+      "/Sonstiges/",
+      "/Style/",
+      "/Test/",
+      "/ticker/",
+      "/Trachtenfest/",
+      "/trachtenfest/",
+      "/Wahl/",
+      "/Werbebanner/",
+      "/beta/",
+      "/wetter/",
+      "/weather_today/",
+      "/weather_json/",
+      "/open.php",
+      "/jobs/helper/mailRegister.php"
+    ]
+  }
 }

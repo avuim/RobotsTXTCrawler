@@ -1,6 +1,45 @@
 {
   "domain": "www.weser-kurier.de",
   "normalizedDomain": "www.weser-kurier.de",
+  "robotsTxt": "User-agent: *\nAllow: /\n\nUser-agent: *\nDisallow: /applications/\n\nUser-agent: *\nDisallow: /cp-esi/\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\n# Legal notice: weser-kurier.de expressly reserves the right to use its content for commercial text and data mining (§ 44 b UrhG).\n# The use of robots or other automated means to access nwzonline.de or collect or mine data without the express permission of weser-kurier.de is strictly prohibited.\n# weser-kurier.de may, in its discretion, permit certain automated access to certain weser-kurier.de pages.\n# If you would like to apply for permission to crawl weser-kurier.de, collect or use data, please email Onlineredaktion@weser-kurier.de. ",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -18,5 +57,9 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

@@ -1,7 +1,46 @@
 {
   "domain": "www.szbz.de",
   "normalizedDomain": "www.szbz.de",
+  "robotsTxt": "User-agent: Chat-GPT\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: *\nDisallow: /wetter/\nDisallow: /ajax-json/\nDisallow: /vorschau/\nCrawl-delay: 10\n\nSitemap: https://www.szbz.de/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/wetter/",
+        "/ajax-json/",
+        "/vorschau/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Chat-GPT",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 0,
+    "disallowedBots": 2,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "Chat-GPT",
       "allowed": false
@@ -9,10 +48,14 @@
     {
       "name": "ChatGPT-User",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/wetter/",
+      "/ajax-json/",
+      "/vorschau/"
+    ]
+  }
 }

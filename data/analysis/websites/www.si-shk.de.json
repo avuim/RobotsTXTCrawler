@@ -1,10 +1,59 @@
 {
   "domain": "www.si-shk.de",
   "normalizedDomain": "www.si-shk.de",
+  "robotsTxt": "# robots.txt\n\n# Suche raus\nUser-agent: *\nDisallow: /*search=*\n\n# Heftarchiv-PDFs raus\nUser-agent: *\nDisallow: */download/magazines/Heftarchiv_*.pdf\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: Ezooms\nDisallow: /\n\nUser-agent: TurnitinBot\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*search=*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 4,
+    "allowedBots": 0,
+    "disallowedBots": 4,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "AhrefsBot",
@@ -22,5 +71,11 @@
       "name": "TurnitinBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*search=*"
+    ]
+  }
 }

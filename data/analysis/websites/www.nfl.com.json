@@ -1,14 +1,65 @@
 {
   "domain": "www.nfl.com",
   "normalizedDomain": "www.nfl.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /_ctv/\r\nDisallow: /_fantasy-app/\r\nDisallow: /_libraries/\r\nDisallow: /_mobile-app/\r\nDisallow: /_mobileview/\r\nDisallow: /_phs/\r\nDisallow: /_sponsors/\r\nDisallow: /account/\r\nDisallow: /nfl-films-beta/\r\nDisallow: /search/\r\nSitemap: https://www.nfl.com/sitemap-index.xml\r\n\r\nUser-agent: Mediapartners-Google\r\nDisallow: /stats/player-stats/*",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/_ctv/",
+        "/_fantasy-app/",
+        "/_libraries/",
+        "/_mobile-app/",
+        "/_mobileview/",
+        "/_phs/",
+        "/_sponsors/",
+        "/account/",
+        "/nfl-films-beta/",
+        "/search/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/stats/player-stats/*"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Mediapartners-Google",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/_ctv/",
+      "/_fantasy-app/",
+      "/_libraries/",
+      "/_mobile-app/",
+      "/_mobileview/",
+      "/_phs/",
+      "/_sponsors/",
+      "/account/",
+      "/nfl-films-beta/",
+      "/search/"
+    ]
+  }
 }

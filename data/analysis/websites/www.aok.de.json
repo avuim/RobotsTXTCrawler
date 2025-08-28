@@ -1,10 +1,98 @@
 {
   "domain": "www.aok.de",
   "normalizedDomain": "www.aok.de",
+  "robotsTxt": "User-agent: *\r\nAllow: /pp/*page=*\r\nAllow: /\r\nDisallow: /fk/typo3/\r\nDisallow: /*?id=*\r\nDisallow: /*tx_powermail_pi1\r\nDisallow: /*tx_form_formframework\r\nDisallow: /*?tx_aokbseminars_seminar*\r\nDisallow: /*tx_aokbextcalc_periodcalendar*\r\nDisallow: /fk/*/tools/weitere-inhalte/expertenforum*\r\nDisallow: /fk/*/jahreswechsel/expertenforum-jahreswechsel*\r\nDisallow: /app/DMP-epaper/\r\nDisallow: /*department=*\r\nDisallow: /*entryType=*\r\nDisallow: /*regionalize=*\r\nDisallow: /*cid=*\r\nDisallow: /*/fristenrechner/*tx_*\r\nDisallow: /fk/*/tools/rechner/fristenrechner*\r\nDisallow: /*/expertenforum/*tx_aokbforum_forum/*\r\nDisallow: /*/expertenforum/discussion/controller/searchTopic/*\r\nDisallow: /*/seminarsuche/*tx_*\r\nDisallow: /*tx_aokbseminare*\r\nDisallow: /*/termindetails/termin/details/*\r\nDisallow: /pp/*=*\r\nDisallow: /fk/*/suche/\r\nDisallow: /pk/leichte-sprache/*\r\nDisallow: /pk/leichte-sprache-2/*\r\nDisallow: /gp/*type=1708441995*\r\nDisallow: /gp/*tx_xmtemplatesaokgpp_ansprechpartner*\r\nDisallow: /fk/*/suche?*\r\nDisallow: /fk/suche?\r\nDisallow: /fk/suche/?\r\nDisallow: /pk/kontakt/*q=*\r\nDisallow: /*/rechtsdatenbank/details/dokument/*\r\nDisallow: /fk/*/tools/rechtsdatenbank*\r\n\r\nSitemap: https://www.aok.de/fk/sitemap.xml\r\nSitemap: https://www.aok.de/gp/sitemap.xml\r\nSitemap: https://www.aok.de/karriere/sitemap-0.xml\r\nSitemap: https://www.aok.de/pk/sitemap-0.xml\r\nSitemap: https://www.aok.de/pp/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/pp/*page=*"
+      ],
+      "disallowed": [
+        "/fk/typo3/",
+        "/*?id=*",
+        "/*tx_powermail_pi1",
+        "/*tx_form_formframework",
+        "/*?tx_aokbseminars_seminar*",
+        "/*tx_aokbextcalc_periodcalendar*",
+        "/fk/*/tools/weitere-inhalte/expertenforum*",
+        "/fk/*/jahreswechsel/expertenforum-jahreswechsel*",
+        "/app/DMP-epaper/",
+        "/*department=*",
+        "/*entryType=*",
+        "/*regionalize=*",
+        "/*cid=*",
+        "/*/fristenrechner/*tx_*",
+        "/fk/*/tools/rechner/fristenrechner*",
+        "/*/expertenforum/*tx_aokbforum_forum/*",
+        "/*/expertenforum/discussion/controller/searchTopic/*",
+        "/*/seminarsuche/*tx_*",
+        "/*tx_aokbseminare*",
+        "/*/termindetails/termin/details/*",
+        "/pp/*=*",
+        "/fk/*/suche/",
+        "/pk/leichte-sprache/*",
+        "/pk/leichte-sprache-2/*",
+        "/gp/*type=1708441995*",
+        "/gp/*tx_xmtemplatesaokgpp_ansprechpartner*",
+        "/fk/*/suche?*",
+        "/fk/suche?",
+        "/fk/suche/?",
+        "/pk/kontakt/*q=*",
+        "/*/rechtsdatenbank/details/dokument/*",
+        "/fk/*/tools/rechtsdatenbank*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/pp/*page=*"
+    ],
+    "disallowed": [
+      "/fk/typo3/",
+      "/*?id=*",
+      "/*tx_powermail_pi1",
+      "/*tx_form_formframework",
+      "/*?tx_aokbseminars_seminar*",
+      "/*tx_aokbextcalc_periodcalendar*",
+      "/fk/*/tools/weitere-inhalte/expertenforum*",
+      "/fk/*/jahreswechsel/expertenforum-jahreswechsel*",
+      "/app/DMP-epaper/",
+      "/*department=*",
+      "/*entryType=*",
+      "/*regionalize=*",
+      "/*cid=*",
+      "/*/fristenrechner/*tx_*",
+      "/fk/*/tools/rechner/fristenrechner*",
+      "/*/expertenforum/*tx_aokbforum_forum/*",
+      "/*/expertenforum/discussion/controller/searchTopic/*",
+      "/*/seminarsuche/*tx_*",
+      "/*tx_aokbseminare*",
+      "/*/termindetails/termin/details/*",
+      "/pp/*=*",
+      "/fk/*/suche/",
+      "/pk/leichte-sprache/*",
+      "/pk/leichte-sprache-2/*",
+      "/gp/*type=1708441995*",
+      "/gp/*tx_xmtemplatesaokgpp_ansprechpartner*",
+      "/fk/*/suche?*",
+      "/fk/suche?",
+      "/fk/suche/?",
+      "/pk/kontakt/*q=*",
+      "/*/rechtsdatenbank/details/dokument/*",
+      "/fk/*/tools/rechtsdatenbank*"
+    ]
+  }
 }

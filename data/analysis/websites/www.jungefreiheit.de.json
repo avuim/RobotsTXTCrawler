@@ -1,7 +1,129 @@
 {
   "domain": "www.jungefreiheit.de",
   "normalizedDomain": "www.jungefreiheit.de",
+  "robotsTxt": "User-agent: ia_archiver\r\nDisallow: /\r\n\r\nUser-agent: sogou spider\r\nDisallow: /\r\n\r\nUser-agent: SemrushBot-SA\r\nDisallow: /\r\n\r\nUser-agent: Flamingo_SearchEngine \r\nDisallow: /\r\n\r\nUser-agent: VoilaBot\r\nDisallow: /\r\n \r\nUser-agent: Baiduspider\r\nDisallow: /\r\n \r\nUser-agent: MJ12bot\r\nDisallow: /\r\n \r\nUser-agent: BecomeJPBot\r\nDisallow: /\r\n \r\nUser-agent: Exabot\r\nDisallow: /\r\n \r\nUser-agent: 008\r\nDisallow: /\t\r\n \r\nUser-agent: Sosospider\r\nDisallow: /\r\n\r\nUser-Agent: *\r\nDisallow: /wp-admin/\r\nDisallow: /anmeldung/\r\nDisallow: /anmeldung/*\r\nDisallow: /wp-login.php?action=logout\r\nDisallow: /page/*/?s*\r\nDisallow: */0/0/page/*\r\nDisallow: /search/*\r\nDisallow: /page/*\r\nDisallow: /thema/*\r\nDisallow: /*/embed/\r\nDisallow: /*/feed/\r\nDisallow: /wp-content/cache/\r\nAllow: /wp-admin/admin-ajax.php\r\n\r\nSitemap: https://jungefreiheit.de/sitemap_index.xml\r\nSitemap: https://jungefreiheit.de/sitemap-news.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/wp-admin/admin-ajax.php"
+      ],
+      "disallowed": [
+        "/wp-admin/",
+        "/anmeldung/",
+        "/anmeldung/*",
+        "/wp-login.php?action=logout",
+        "/page/*/?s*",
+        "*/0/0/page/*",
+        "/search/*",
+        "/page/*",
+        "/thema/*",
+        "/*/embed/",
+        "/*/feed/",
+        "/wp-content/cache/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sogou spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "VoilaBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BecomeJPBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Exabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "008",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Sosospider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 11,
+    "allowedBots": 0,
+    "disallowedBots": 11,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "ia_archiver",
       "allowed": false
@@ -45,10 +167,25 @@
     {
       "name": "Sosospider",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/wp-admin/admin-ajax.php"
+    ],
+    "disallowed": [
+      "/wp-admin/",
+      "/anmeldung/",
+      "/anmeldung/*",
+      "/wp-login.php?action=logout",
+      "/page/*/?s*",
+      "*/0/0/page/*",
+      "/search/*",
+      "/page/*",
+      "/thema/*",
+      "/*/embed/",
+      "/*/feed/",
+      "/wp-content/cache/"
+    ]
+  }
 }

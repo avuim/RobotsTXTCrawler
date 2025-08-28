@@ -1,10 +1,50 @@
 {
   "domain": "www.flens.de",
   "normalizedDomain": "www.flens.de",
+  "robotsTxt": "Sitemap: https://www.flens.de//sitemap.xml\r\nUser-agent: *\r\nDisallow: /fileadmin/_temp_/\r\nDisallow: /typo3/\r\nDisallow: /typo3_src/\r\nDisallow: /typo3conf/\r\nAllow: /typo3/sysext/frontend/Resources/Public/*\r\nDisallow: /*ajax*/\r\nDisallow: /api/\r\nDisallow: /*.woff2\r\nDisallow: /verstehen/tag/\r\n \r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/typo3/sysext/frontend/Resources/Public/*"
+      ],
+      "disallowed": [
+        "/fileadmin/_temp_/",
+        "/typo3/",
+        "/typo3_src/",
+        "/typo3conf/",
+        "/*ajax*/",
+        "/api/",
+        "/*.woff2",
+        "/verstehen/tag/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/typo3/sysext/frontend/Resources/Public/*"
+    ],
+    "disallowed": [
+      "/fileadmin/_temp_/",
+      "/typo3/",
+      "/typo3_src/",
+      "/typo3conf/",
+      "/*ajax*/",
+      "/api/",
+      "/*.woff2",
+      "/verstehen/tag/"
+    ]
+  }
 }

@@ -1,10 +1,46 @@
 {
   "domain": "www.queisser.de",
   "normalizedDomain": "www.queisser.de",
+  "robotsTxt": "User-agent: *\r\n\r\n# Folders\r\nDisallow: /typo3/\r\nDisallow: /typo3temp/\r\nDisallow: /fileadmin/_temp_/\r\nAllow: /typo3temp/assets/\r\n\r\n# Parameters\r\nDisallow: /*tx_*\r\nDisallow: /*cHash=*\r\nDisallow: /*type=*\r\n\r\n# Sitemap\r\nSitemap: https://www.queisser.de/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/typo3temp/assets/"
+      ],
+      "disallowed": [
+        "/typo3/",
+        "/typo3temp/",
+        "/fileadmin/_temp_/",
+        "/*tx_*",
+        "/*cHash=*",
+        "/*type=*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/typo3temp/assets/"
+    ],
+    "disallowed": [
+      "/typo3/",
+      "/typo3temp/",
+      "/fileadmin/_temp_/",
+      "/*tx_*",
+      "/*cHash=*",
+      "/*type=*"
+    ]
+  }
 }

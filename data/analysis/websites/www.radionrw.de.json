@@ -1,10 +1,42 @@
 {
   "domain": "www.radionrw.de",
   "normalizedDomain": "www.radionrw.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: \r\nDisallow: /assets/themes/yootheme/cache/\r\n\r\nHost: https://radionrw.de\r\n\r\n\r\n\r\n\r\n# This robots.txt file was created by Robots.txt Rewrite plugin: https://wordpress.org/plugins/robotstxt-rewrite/\r\n\r\nDisallow: /assets/uploads/bulk-media-register-tmp/\r\n\r\nSitemap: https://radionrw.de/xmlsitemap.xml\r\n\r\nAllow: /http://rsssitemap.xml\r\nAllow: /http://rsslatest.xml\r\nAllow: /http://htmlsitemap.htm\r\n\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/http://rsssitemap.xml",
+        "/http://rsslatest.xml",
+        "/http://htmlsitemap.htm"
+      ],
+      "disallowed": [
+        "/assets/themes/yootheme/cache/",
+        "/assets/uploads/bulk-media-register-tmp/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": true
+      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/http://rsssitemap.xml",
+      "/http://rsslatest.xml",
+      "/http://htmlsitemap.htm"
+    ],
+    "disallowed": [
+      "/assets/themes/yootheme/cache/",
+      "/assets/uploads/bulk-media-register-tmp/"
+    ]
+  }
 }

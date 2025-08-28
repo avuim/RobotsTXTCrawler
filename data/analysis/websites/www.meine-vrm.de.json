@@ -1,17 +1,210 @@
 {
   "domain": "www.meine-vrm.de",
   "normalizedDomain": "www.meine-vrm.de",
+  "robotsTxt": "User-agent: ^Lydia\nUser-agent: ^Pixray\nDisallow: /\nUser-agent: ^echobot\nDisallow: /freizeit/\nUser-agent: UnisterBot\nDisallow: /freizeit/\nUser-agent: MJ12bot\nUser-agent: YandexBot\nDisallow: /\nUser-agent: UnisterBot\nDisallow: /\nUser-agent: SEOkicks\nDisallow: *archiv.php*\nUser-agent: myurlcrawler\nDisallow: *archiv.php*\nUser-agent: wotbox\nDisallow: /\nUser-agent: proximic\nDisallow: /anzeigen/\nUser-agent: bingbot\nCrawl-delay: 5\nUser-agent: msnbot\nCrawl-delay: 5\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "^Lydia",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "^Pixray",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "^Lydia",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "^Pixray",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "^echobot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/freizeit/"
+        ]
+      }
+    },
+    {
+      "name": "UnisterBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/freizeit/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "UnisterBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEOkicks",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "*archiv.php*"
+        ]
+      }
+    },
+    {
+      "name": "myurlcrawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "*archiv.php*"
+        ]
+      }
+    },
+    {
+      "name": "wotbox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/anzeigen/"
+        ]
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "msnbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "msnbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 19,
+    "allowedBots": 9,
+    "disallowedBots": 10,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "^Lydia",
+      "allowed": false
+    },
+    {
+      "name": "^Pixray",
+      "allowed": false
+    },
+    {
+      "name": "^Lydia",
+      "allowed": false
+    },
     {
       "name": "^Pixray",
       "allowed": false
     },
     {
       "name": "^echobot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "UnisterBot",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
       "allowed": false
     },
     {
@@ -19,12 +212,24 @@
       "allowed": false
     },
     {
-      "name": "SEOkicks",
+      "name": "MJ12bot",
       "allowed": false
     },
     {
-      "name": "myurlcrawler",
+      "name": "YandexBot",
       "allowed": false
+    },
+    {
+      "name": "UnisterBot",
+      "allowed": false
+    },
+    {
+      "name": "SEOkicks",
+      "allowed": true
+    },
+    {
+      "name": "myurlcrawler",
+      "allowed": true
     },
     {
       "name": "wotbox",
@@ -32,7 +237,27 @@
     },
     {
       "name": "proximic",
-      "allowed": false
+      "allowed": true
+    },
+    {
+      "name": "bingbot",
+      "allowed": true
+    },
+    {
+      "name": "msnbot",
+      "allowed": true
+    },
+    {
+      "name": "bingbot",
+      "allowed": true
+    },
+    {
+      "name": "msnbot",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

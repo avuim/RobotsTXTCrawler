@@ -1,10 +1,38 @@
 {
   "domain": "www.tag24.de",
   "normalizedDomain": "www.tag24.de",
+  "robotsTxt": "User-agent: *\nDisallow: /agency/\nDisallow: /api/\nDisallow: /3rdpcontent/\nDisallow: /feeds/\n\nSitemap: https://www.tag24.de/sitemap_tag24.xml\nSitemap: https://www.tag24.de/sitemap/googlenews\nSitemap: https://www.tag24.de/sitemap_tag24_d.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/agency/",
+        "/api/",
+        "/3rdpcontent/",
+        "/feeds/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/agency/",
+      "/api/",
+      "/3rdpcontent/",
+      "/feeds/"
+    ]
+  }
 }

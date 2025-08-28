@@ -1,14 +1,51 @@
 {
   "domain": "www.freenet.de",
   "normalizedDomain": "www.freenet.de",
+  "robotsTxt": "User-agent: PetalBot\r\nDisallow: /\r\n \nUser-agent: *\r\nDisallow: /fznt\r\nDisallow: /fashion/export/brand-meta.csv\r\nDisallow: /messages\r\nDisallow: /snippet\r\n \nSitemap: https://www.freenet.de/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/fznt",
+        "/fashion/export/brand-meta.csv",
+        "/messages",
+        "/snippet"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "PetalBot",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/fznt",
+      "/fashion/export/brand-meta.csv",
+      "/messages",
+      "/snippet"
+    ]
+  }
 }

@@ -1,6 +1,106 @@
 {
   "domain": "www.hgtv.com",
   "normalizedDomain": "www.hgtv.com",
+  "robotsTxt": "User-agent: *\r\nAllow: /content/dam/\r\nAllow: /content/hgtv-com/jcr:content/analytics.sitecatalyst.js\r\nDisallow: /content/\r\nAllow: /libs/granite/\r\nDisallow: /libs/\r\nDisallow: /services/\r\nDisallow: /features/apple-news/\r\nDisallow: /shows/tv-schedule-*\r\nDisallow: *.embed\r\nAllow: *.lazy-fetch*\r\nAllow: *hotspot*\r\n\r\nUser-agent: Mediapartners-Google\r\nDisallow:\r\n\r\nUser-agent: Pinterest\r\nCrawl-delay: 5\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nUser-agent: ChatGPT-User\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\nUser-agent: ClaudeBot\r\nDisallow: /\r\n\r\nUser-agent: PerplexityBot\r\nDisallow: /\r\n\r\nSitemap: https://www.hgtv.com/sitemaps/sitemap_hgtv_index.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/content/dam/",
+        "/content/hgtv-com/jcr:content/analytics.sitecatalyst.js",
+        "/libs/granite/",
+        "*.lazy-fetch*",
+        "*hotspot*"
+      ],
+      "disallowed": [
+        "/content/",
+        "/libs/",
+        "/services/",
+        "/features/apple-news/",
+        "/shows/tv-schedule-*",
+        "*.embed"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Mediapartners-Google",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterest",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterest",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 9,
+    "allowedBots": 0,
+    "disallowedBots": 9,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -8,6 +108,18 @@
     },
     {
       "name": "Mediapartners-Google",
+      "allowed": false
+    },
+    {
+      "name": "Pinterest",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Pinterest",
       "allowed": false
     },
     {
@@ -30,5 +142,22 @@
       "name": "PerplexityBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/content/dam/",
+      "/content/hgtv-com/jcr:content/analytics.sitecatalyst.js",
+      "/libs/granite/",
+      "*.lazy-fetch*",
+      "*hotspot*"
+    ],
+    "disallowed": [
+      "/content/",
+      "/libs/",
+      "/services/",
+      "/features/apple-news/",
+      "/shows/tv-schedule-*",
+      "*.embed"
+    ]
+  }
 }

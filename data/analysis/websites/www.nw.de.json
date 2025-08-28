@@ -1,14 +1,253 @@
 {
   "domain": "www.nw.de",
   "normalizedDomain": "www.nw.de",
+  "robotsTxt": "User-agent: CCBot\nUser-agent: GPTBot\nUser-agent: ChatGPT-User\nUser-agent: Google-Extended\nDisallow: /\n\n\nUser-agent: *\nDisallow: /tagsuche\nDisallow: /_em_cms/\nDisallow: /cms7/\nDisallow: /frage/\nDisallow: /microsites/\nDisallow: /suche\nDisallow: /profil/\nDisallow: /nachrichten/wirtschaft/wirtschaftsnewsletter/\nDisallow: /microsites/mediabox/\nDisallow: /anzeigen/native_ads/\nDisallow: /anzeigen/native_ads_oms/\n\nSitemap: https://www.nw.de/sitemap_nw_index.xml.gz\nSitemap: https://www.nw.de/sitemap_nw_index_news.xml.gz\nSitemap: https://www.nw.de/_retresco/sitemap/index.xml\nSitemap: https://www.nw.de/_events/sitemap/sitemap_event.xml\nSitemap: https://www.nw.de/_apps/nw/cms-api/evocms/modules/evo_cms_sitemap.php\n\nAllow: /_em_cms/globals/csslibs.php\nAllow: /_em_cms/globals/jslibs.php\nAllow: /_em_cms/globals/acon.php",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/_em_cms/globals/csslibs.php",
+        "/_em_cms/globals/jslibs.php",
+        "/_em_cms/globals/acon.php"
+      ],
+      "disallowed": [
+        "/tagsuche",
+        "/_em_cms/",
+        "/cms7/",
+        "/frage/",
+        "/microsites/",
+        "/suche",
+        "/profil/",
+        "/nachrichten/wirtschaft/wirtschaftsnewsletter/",
+        "/microsites/mediabox/",
+        "/anzeigen/native_ads/",
+        "/anzeigen/native_ads_oms/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 16,
+    "allowedBots": 0,
+    "disallowedBots": 16,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
     {
       "name": "Google-Extended",
       "allowed": false
     },
     {
-      "name": "*",
-      "allowed": true
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/_em_cms/globals/csslibs.php",
+      "/_em_cms/globals/jslibs.php",
+      "/_em_cms/globals/acon.php"
+    ],
+    "disallowed": [
+      "/tagsuche",
+      "/_em_cms/",
+      "/cms7/",
+      "/frage/",
+      "/microsites/",
+      "/suche",
+      "/profil/",
+      "/nachrichten/wirtschaft/wirtschaftsnewsletter/",
+      "/microsites/mediabox/",
+      "/anzeigen/native_ads/",
+      "/anzeigen/native_ads_oms/"
+    ]
+  }
 }

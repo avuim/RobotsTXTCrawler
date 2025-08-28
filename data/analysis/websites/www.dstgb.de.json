@@ -1,6 +1,29 @@
 {
   "domain": "www.dstgb.de",
   "normalizedDomain": "www.dstgb.de",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\n\r\nUser-agent: Googlebot\r\nAllow: /\r\n\r\nSitemap: https://www.dstgb.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -10,5 +33,9 @@
       "name": "Googlebot",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

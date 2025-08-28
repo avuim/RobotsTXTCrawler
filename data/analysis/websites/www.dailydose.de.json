@@ -1,10 +1,42 @@
 {
   "domain": "www.dailydose.de",
   "normalizedDomain": "www.dailydose.de",
+  "robotsTxt": "User-Agent: Googlebot-Image\nDisallow: /videoaward/2007/06.jpg\nDisallow: /story/propellermann/propellermann-05.jpg\nDisallow: /story/propellermann/propellermann-07.jpg\nDisallow: /videos/images/3655-480.jpg",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot-Image",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/videoaward/2007/06.jpg",
+          "/story/propellermann/propellermann-05.jpg",
+          "/story/propellermann/propellermann-07.jpg",
+          "/videos/images/3655-480.jpg"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "Googlebot-Image",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

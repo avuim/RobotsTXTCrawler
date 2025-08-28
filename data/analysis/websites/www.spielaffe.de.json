@@ -1,14 +1,143 @@
 {
   "domain": "www.spielaffe.de",
   "normalizedDomain": "www.spielaffe.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /account/remote_login\r\nDisallow: /account/remote_lg_rg\r\nDisallow: /account/remote_update_last_activity/\r\nDisallow: /admin/remote_admin_settings/\r\nDisallow: /category/remote_tab_games/\r\nDisallow: /comment/remote_show_thread/\r\nDisallow: /comment/remote_show_more/\r\nDisallow: /comment/remote_write/\r\nDisallow: /comment/remote_delete/\r\nDisallow: /comment/remote_rate/\r\nDisallow: /gallery/remote_save_as_avatar/\r\nDisallow: /game/remote_get_galleries/\r\nDisallow: /game/remote_highscore_rounds/\r\nDisallow: /game/remote_rate_game/\r\nDisallow: /game/remote_rate_gallery/\r\nDisallow: /game/remote_get_next_galleries/\r\nDisallow: /game/remote_toggle_favorite/\r\nDisallow: /game/remote_user_played_game/\r\nDisallow: /game/remote_share_game/\r\nDisallow: /game/remote_tab_games/\r\nDisallow: /special/\r\nDisallow: /static/remote_rate_object/\r\nDisallow: /static/remote_reface_advertising/\r\nDisallow: /static/remote_report/\r\nDisallow: /home/remote_tab_games/\r\nDisallow: /category/remote_tab_special_games/\r\nDisallow: /a/\r\nDisallow: /s/\r\nDisallow: /Suchen/\r\nDisallow: /Spiel/*/Bilder/\r\nDisallow: /:preview/*\r\nDisallow: /gtm.js\r\nDisallow: /metatag/\r\n\r\nUser-agent: OAI-SearchBot\r\nAllow: /\r\nDisallow: /account/remote_login\r\nDisallow: /account/remote_lg_rg\r\nDisallow: /account/remote_update_last_activity/\r\nDisallow: /admin/remote_admin_settings/\r\nDisallow: /category/remote_tab_games/\r\nDisallow: /comment/remote_show_thread/\r\nDisallow: /comment/remote_show_more/\r\nDisallow: /comment/remote_write/\r\nDisallow: /comment/remote_delete/\r\nDisallow: /comment/remote_rate/\r\nDisallow: /gallery/remote_save_as_avatar/\r\nDisallow: /game/remote_get_galleries/\r\nDisallow: /game/remote_highscore_rounds/\r\nDisallow: /game/remote_rate_game/\r\nDisallow: /game/remote_rate_gallery/\r\nDisallow: /game/remote_get_next_galleries/\r\nDisallow: /game/remote_toggle_favorite/\r\nDisallow: /game/remote_user_played_game/\r\nDisallow: /game/remote_share_game/\r\nDisallow: /game/remote_tab_games/\r\nDisallow: /special/\r\nDisallow: /static/remote_rate_object/\r\nDisallow: /static/remote_reface_advertising/\r\nDisallow: /static/remote_report/\r\nDisallow: /home/remote_tab_games/\r\nDisallow: /category/remote_tab_special_games/\r\nDisallow: /a/\r\nDisallow: /s/\r\nDisallow: /Suchen/\r\nDisallow: /Spiel/*/Bilder/\r\nDisallow: /:preview/*\r\nDisallow: /gtm.js\r\nDisallow: /metatag/",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/account/remote_login",
+        "/account/remote_lg_rg",
+        "/account/remote_update_last_activity/",
+        "/admin/remote_admin_settings/",
+        "/category/remote_tab_games/",
+        "/comment/remote_show_thread/",
+        "/comment/remote_show_more/",
+        "/comment/remote_write/",
+        "/comment/remote_delete/",
+        "/comment/remote_rate/",
+        "/gallery/remote_save_as_avatar/",
+        "/game/remote_get_galleries/",
+        "/game/remote_highscore_rounds/",
+        "/game/remote_rate_game/",
+        "/game/remote_rate_gallery/",
+        "/game/remote_get_next_galleries/",
+        "/game/remote_toggle_favorite/",
+        "/game/remote_user_played_game/",
+        "/game/remote_share_game/",
+        "/game/remote_tab_games/",
+        "/special/",
+        "/static/remote_rate_object/",
+        "/static/remote_reface_advertising/",
+        "/static/remote_report/",
+        "/home/remote_tab_games/",
+        "/category/remote_tab_special_games/",
+        "/a/",
+        "/s/",
+        "/Suchen/",
+        "/Spiel/*/Bilder/",
+        "/:preview/*",
+        "/gtm.js",
+        "/metatag/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/account/remote_login",
+          "/account/remote_lg_rg",
+          "/account/remote_update_last_activity/",
+          "/admin/remote_admin_settings/",
+          "/category/remote_tab_games/",
+          "/comment/remote_show_thread/",
+          "/comment/remote_show_more/",
+          "/comment/remote_write/",
+          "/comment/remote_delete/",
+          "/comment/remote_rate/",
+          "/gallery/remote_save_as_avatar/",
+          "/game/remote_get_galleries/",
+          "/game/remote_highscore_rounds/",
+          "/game/remote_rate_game/",
+          "/game/remote_rate_gallery/",
+          "/game/remote_get_next_galleries/",
+          "/game/remote_toggle_favorite/",
+          "/game/remote_user_played_game/",
+          "/game/remote_share_game/",
+          "/game/remote_tab_games/",
+          "/special/",
+          "/static/remote_rate_object/",
+          "/static/remote_reface_advertising/",
+          "/static/remote_report/",
+          "/home/remote_tab_games/",
+          "/category/remote_tab_special_games/",
+          "/a/",
+          "/s/",
+          "/Suchen/",
+          "/Spiel/*/Bilder/",
+          "/:preview/*",
+          "/gtm.js",
+          "/metatag/"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "OAI-SearchBot",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/account/remote_login",
+      "/account/remote_lg_rg",
+      "/account/remote_update_last_activity/",
+      "/admin/remote_admin_settings/",
+      "/category/remote_tab_games/",
+      "/comment/remote_show_thread/",
+      "/comment/remote_show_more/",
+      "/comment/remote_write/",
+      "/comment/remote_delete/",
+      "/comment/remote_rate/",
+      "/gallery/remote_save_as_avatar/",
+      "/game/remote_get_galleries/",
+      "/game/remote_highscore_rounds/",
+      "/game/remote_rate_game/",
+      "/game/remote_rate_gallery/",
+      "/game/remote_get_next_galleries/",
+      "/game/remote_toggle_favorite/",
+      "/game/remote_user_played_game/",
+      "/game/remote_share_game/",
+      "/game/remote_tab_games/",
+      "/special/",
+      "/static/remote_rate_object/",
+      "/static/remote_reface_advertising/",
+      "/static/remote_report/",
+      "/home/remote_tab_games/",
+      "/category/remote_tab_special_games/",
+      "/a/",
+      "/s/",
+      "/Suchen/",
+      "/Spiel/*/Bilder/",
+      "/:preview/*",
+      "/gtm.js",
+      "/metatag/"
+    ]
+  }
 }

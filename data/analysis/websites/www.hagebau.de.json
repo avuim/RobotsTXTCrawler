@@ -1,10 +1,63 @@
 {
   "domain": "www.hagebau.de",
   "normalizedDomain": "www.hagebau.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /p/variation-change/\r\nDisallow: /*?*mobileApp=\r\nDisallow: */before/\r\nDisallow: */add/\r\nDisallow: */remove/\r\nDisallow: /planungstools/\r\nDisallow: */prohibis/\r\nDisallow: /evaluate/javascript/\r\nDisallow: /store/news/\r\nDisallow: /app-api/\r\n\r\nUser-agent: Pinterestbot\r\nCrawl-delay: 10\r\n\r\nSitemap: https://www.hagebau.de/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/p/variation-change/",
+        "/*?*mobileApp=",
+        "*/before/",
+        "*/add/",
+        "*/remove/",
+        "/planungstools/",
+        "*/prohibis/",
+        "/evaluate/javascript/",
+        "/store/news/",
+        "/app-api/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Pinterestbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
+    },
+    {
+      "name": "Pinterestbot",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/p/variation-change/",
+      "/*?*mobileApp=",
+      "*/before/",
+      "*/add/",
+      "*/remove/",
+      "/planungstools/",
+      "*/prohibis/",
+      "/evaluate/javascript/",
+      "/store/news/",
+      "/app-api/"
+    ]
+  }
 }

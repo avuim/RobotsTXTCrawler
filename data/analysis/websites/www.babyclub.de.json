@@ -1,14 +1,89 @@
 {
   "domain": "www.babyclub.de",
   "normalizedDomain": "www.babyclub.de",
+  "robotsTxt": "Sitemap: http://www.babyclub.de/d93e43a9d59b2e5e53b1551762359319.xml\n\nUser-agent: Mediapartners-Google\nDisallow:\n\nUser-agent: *\nDisallow: /Suche.asp\nDisallow: /ad-redirect\nDisallow: */add/\nDisallow: *login-redirect\nDisallow: */male\nDisallow: */female\nDisallow: */freund-hinzufuegen.html\nDisallow: */postfach/verfassen\nDisallow: */clubmitglied-werden.html\nDisallow: */thema-erstellen\nDisallow: *antwort-redirect.html\nDisallow: /community/mein-profil/\nDisallow: /community/mitglied\nDisallow: /community/weiterempfehlen.html\nDisallow: /community/club/suchergebnis/\nDisallow: /mybabyclub/community/foren/*kommentarforum.html\nDisallow: /mybabyclub/community/foren/*kommentare.html\nDisallow: /hebammen/\nDisallow: /hebamme/*/pinnwand.html\nDisallow: /hebamme/*/fotos.html\nDisallow: /hebamme/*/clubs.html\nDisallow: /hebammensprechstunde/bewerten/*\nDisallow: /test/*\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/Suche.asp",
+        "/ad-redirect",
+        "*/add/",
+        "*login-redirect",
+        "*/male",
+        "*/female",
+        "*/freund-hinzufuegen.html",
+        "*/postfach/verfassen",
+        "*/clubmitglied-werden.html",
+        "*/thema-erstellen",
+        "*antwort-redirect.html",
+        "/community/mein-profil/",
+        "/community/mitglied",
+        "/community/weiterempfehlen.html",
+        "/community/club/suchergebnis/",
+        "/mybabyclub/community/foren/*kommentarforum.html",
+        "/mybabyclub/community/foren/*kommentare.html",
+        "/hebammen/",
+        "/hebamme/*/pinnwand.html",
+        "/hebamme/*/fotos.html",
+        "/hebamme/*/clubs.html",
+        "/hebammensprechstunde/bewerten/*",
+        "/test/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Mediapartners-Google",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "Mediapartners-Google",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/Suche.asp",
+      "/ad-redirect",
+      "*/add/",
+      "*login-redirect",
+      "*/male",
+      "*/female",
+      "*/freund-hinzufuegen.html",
+      "*/postfach/verfassen",
+      "*/clubmitglied-werden.html",
+      "*/thema-erstellen",
+      "*antwort-redirect.html",
+      "/community/mein-profil/",
+      "/community/mitglied",
+      "/community/weiterempfehlen.html",
+      "/community/club/suchergebnis/",
+      "/mybabyclub/community/foren/*kommentarforum.html",
+      "/mybabyclub/community/foren/*kommentare.html",
+      "/hebammen/",
+      "/hebamme/*/pinnwand.html",
+      "/hebamme/*/fotos.html",
+      "/hebamme/*/clubs.html",
+      "/hebammensprechstunde/bewerten/*",
+      "/test/*"
+    ]
+  }
 }

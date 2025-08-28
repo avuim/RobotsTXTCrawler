@@ -1,10 +1,36 @@
 {
   "domain": "www.verkehrsrundschau.de",
   "normalizedDomain": "www.verkehrsrundschau.de",
+  "robotsTxt": "Sitemap: https://www.verkehrsrundschau.de/sitemap.xml\r\n\r\nUser-agent: *\r\nDisallow: /ajax/\r\nDisallow: /build/\r\nDisallow: /assets/\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/ajax/",
+        "/build/",
+        "/assets/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/ajax/",
+      "/build/",
+      "/assets/"
+    ]
+  }
 }

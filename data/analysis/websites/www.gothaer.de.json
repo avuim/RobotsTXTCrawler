@@ -1,14 +1,75 @@
 {
   "domain": "www.gothaer.de",
   "normalizedDomain": "www.gothaer.de",
+  "robotsTxt": "# robots.txt for https://www.gothaer.de/ ||  BG 10.03.2023\r\n \r\nUser-agent: *\r\nDisallow: /externe-seiten/ \r\nDisallow: /publicservlet/ \r\nDisallow: /system/ \r\nDisallow: /app/\r\nDisallow: /sad/\r\nDisallow: /testseiten/ \r\nDisallow: /de/system/ \r\nDisallow: /de/de/system/ \r\nDisallow: /de/app/ \r\nDisallow: /de/de/app/\r\nDisallow: /gothaer-legacy/\r\nDisallow: /fs5preview/\r\nDisallow: /webapp-config/\r\nDisallow: /api/\r\nDisallow: /_nuxt/\r\nDisallow: /style/\r\n \r\nUser-agent: ICCrawler \r\nDisallow: / \r\n \r\nSitemap: https://www.gothaer.de/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/externe-seiten/",
+        "/publicservlet/",
+        "/system/",
+        "/app/",
+        "/sad/",
+        "/testseiten/",
+        "/de/system/",
+        "/de/de/system/",
+        "/de/app/",
+        "/de/de/app/",
+        "/gothaer-legacy/",
+        "/fs5preview/",
+        "/webapp-config/",
+        "/api/",
+        "/_nuxt/",
+        "/style/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "ICCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "ICCrawler",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/externe-seiten/",
+      "/publicservlet/",
+      "/system/",
+      "/app/",
+      "/sad/",
+      "/testseiten/",
+      "/de/system/",
+      "/de/de/system/",
+      "/de/app/",
+      "/de/de/app/",
+      "/gothaer-legacy/",
+      "/fs5preview/",
+      "/webapp-config/",
+      "/api/",
+      "/_nuxt/",
+      "/style/"
+    ]
+  }
 }

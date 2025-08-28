@@ -1,10 +1,32 @@
 {
   "domain": "www.phonostar.de",
   "normalizedDomain": "www.phonostar.de",
+  "robotsTxt": "# See http://www.robotstxt.org/wc/norobots.html for documentation on how to use the robots.txt file\n#\n# To ban all spiders from the entire site uncomment the next two lines:\n# User-Agent: *\n# Disallow: /\n\nUser-Agent: *\nDisallow: /radio/radioaufnehmen/radiocloud/podcasts/\n\nSitemap: http://www.phonostar.de/sitemap_index.xml.gz\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/radio/radioaufnehmen/radiocloud/podcasts/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/radio/radioaufnehmen/radiocloud/podcasts/"
+    ]
+  }
 }

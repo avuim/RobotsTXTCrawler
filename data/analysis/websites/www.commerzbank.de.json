@@ -1,10 +1,50 @@
 {
   "domain": "www.commerzbank.de",
   "normalizedDomain": "www.commerzbank.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /*-split/$\r\nDisallow: /fehlerseiten/\r\nDisallow: /WebObjects/\r\nDisallow: /info/\r\nDisallow: /de/juergen_ponto_stiftung\r\nDisallow: /konzern/sec\r\nDisallow: /group/sec\r\nDisallow: /kunde\r\nDisallow: /prozess/\r\n# Disallow: https://www.commerzbank.com/de/hauptnavigation/\r\n# Disallow: https://www.commerzbank.com/en/hauptnavigation/\r\nDisallow: https://www.commerzbank.com/media/\r\nSitemap: https://www.commerzbank.de/portal/en/system/googlesitemap/google_sitemap.xml\r\nSitemap: https://www.commerzbank.de/konten-zahlungsverkehr/sitemap.xml\r\nSitemap: https://www.commerzbank.de/wealth-management/sitemap.xml\r\nSitemap: https://www.commerzbank.de/sparen-anlegen/sitemap.xml\r\nSitemap: https://www.commerzbank.de/ratgeber/sitemap.xml\r\nSitemap: https://www.commerzbank.de/investieren/sitemap.xml\r\nSitemap: https://www.commerzbank.de/vorsorgen-versichern/sitemap.xml\r\nSitemap: https://www.commerzbank.de/kredit-finanzierung/sitemap.xml\r\nSitemap: https://www.commerzbank.de/blog/sitemap.xml\r\nSitemap: https://www.commerzbank.de/themen/sitemap.xml\r\nSitemap: https://www.commerzbank.de/unternehmerkunden/sitemap.xml\r\nSitemap: https://www.commerzbank.de/konzern/internal/sitemap/index.xml\r\nSitemap: https://www.commerzbank.de/group/internal/sitemap/index.xml\r\nSitemap: https://www.commerzbank.de/service/sitemap.xml\r\n#Firmenkunden DE\r\nSitemap: https://www.commerzbank.com/firmenkunden/sitemap.xml\r\nSitemap: https://www.commerzbank.com/konto-zahlungsverkehr/sitemap.xml\r\nSitemap: https://www.commerzbank.com/finanzierung-aussenhandel/sitemap.xml\r\nSitemap: https:/*www.commerzbank.com/anlage-risikomanagement/sitemap.xml\r\nSitemap: https://www.commerzbank.com/insights-research/sitemap.xml\r\n#Firmenkunden EN\r\nSitemap: https://www.commerzbank.com/corporateclients/sitemap.xml\r\nSitemap: https://www.commerzbank.com/account-cashmanagement/sitemap.xml\r\nSitemap: https://www.commerzbank.com/financing-foreigntrade/sitemap.xml\r\nSitemap: https://www.commerzbank.com/investment-riskmanagement/sitemap.xml\r\nSitemap: https://www.commerzbank.com/research-insights/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*-split/$",
+        "/fehlerseiten/",
+        "/WebObjects/",
+        "/info/",
+        "/de/juergen_ponto_stiftung",
+        "/konzern/sec",
+        "/group/sec",
+        "/kunde",
+        "/prozess/",
+        "https://www.commerzbank.com/media/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*-split/$",
+      "/fehlerseiten/",
+      "/WebObjects/",
+      "/info/",
+      "/de/juergen_ponto_stiftung",
+      "/konzern/sec",
+      "/group/sec",
+      "/kunde",
+      "/prozess/",
+      "https://www.commerzbank.com/media/"
+    ]
+  }
 }

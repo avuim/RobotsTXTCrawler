@@ -1,7 +1,134 @@
 {
   "domain": "www.business-wissen.de",
   "normalizedDomain": "www.business-wissen.de",
+  "robotsTxt": "#Sistrix\n#User-agent: 007ac9\n#Disallow: /\n\n# 80legs ausschließen\n# 27.10.2012\nUser-agent: 008\nDisallow: /\n\nUser-agent: Nutch\nDisallow: /\n\nUser-agent: \"Spiderbot/Nutch-1.7\"\nDisallow: /\n\nUser-agent: Spiderbot\nDisallow: /\n\nUser-agent: BLEXBot\nDisallow: /\n\nuser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: Flamingo_SearchEngine\nDisallow: /\n\nUser-agent: ICCrawler - iCjobs\nDisallow: /\n\nUser-agent: MegaIndex.ru\nDisallow: /\n\nUser-agent: semantic-visions.com crawler\nDisallow: /\n\nUser-agent: SEOkicks-Robot\nDisallow: /\n\nUser-agent: yacybot\nDisallow: /\n\nUser-agent: XoviOnpageCrawler\nDisallow: /\n\n\nUser-agent: *\n#Crawl-delay: 5\n\nDisallow: /img/\nDisallow: /css/\nDisallow: /pdf/\n\nSitemap: https://www.business-wissen.de/sitemap/index.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/img/",
+        "/css/",
+        "/pdf/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "008",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Nutch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "\"Spiderbot/Nutch-1.7\"",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Spiderbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "semantic-visions.com crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "yacybot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviOnpageCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 13,
+    "allowedBots": 0,
+    "disallowedBots": 13,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "008",
       "allowed": false
@@ -53,10 +180,14 @@
     {
       "name": "XoviOnpageCrawler",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/img/",
+      "/css/",
+      "/pdf/"
+    ]
+  }
 }

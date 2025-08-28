@@ -1,10 +1,32 @@
 {
   "domain": "www.jaegermeister.de",
   "normalizedDomain": "www.jaegermeister.de",
+  "robotsTxt": "User-Agent: *\r\nAllow: /\r\nDisallow: /exploration/night-embassy\r\n\r\nSitemap: https://www.jagermeister.com/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/exploration/night-embassy"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/exploration/night-embassy"
+    ]
+  }
 }

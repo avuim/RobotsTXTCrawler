@@ -1,10 +1,116 @@
 {
   "domain": "www.jimdo.com",
   "normalizedDomain": "www.jimdo.com",
+  "robotsTxt": "User-agent: *\r\n# en\r\nDisallow: /app/\r\nDisallow: /blog/wp-admin/\r\nDisallow: /*.zip\r\nDisallow: /oidc-silent-callback/\r\nDisallow: /search/\r\nAllow: /app/module/webproduct/goto/\r\nAllow: /app/download/\r\nAllow: /blog/wp-admin/admin-ajax.php\r\n\r\n# de\r\nDisallow: /de/app/\r\nDisallow: /de/magazin/wp-admin/\r\nDisallow: /de/*.zip\r\nAllow: /de/magazin/wp-admin/admin-ajax.php\r\nAllow: /de/app/download/\r\nAllow: /de/app/module/webproduct/goto/\r\n\r\n# es\r\nDisallow: /es/app/\r\nDisallow: /es/blog/wp-admin/\r\nDisallow: /es/*.zip\r\nAllow: /es/app/module/webproduct/goto/\r\nAllow: /es/app/download/\r\nAllow: /es/blog/wp-admin/admin-ajax.php\r\n\r\n# fr\r\nDisallow: /fr/app/\r\nDisallow: /fr/blog/wp-admin/\r\nDisallow: /fr/*.zip\r\nAllow: /fr/app/module/webproduct/goto/\r\nAllow: /fr/app/download/\r\nAllow: /fr/blog/wp-admin/admin-ajax.php\r\n\r\n# it\r\nDisallow: /it/app/\r\nDisallow: /it/blog/wp-admin/\r\nDisallow: /it/*.zip\r\nAllow: /it/app/module/webproduct/goto/\r\nAllow: /it/app/download/\r\nAllow: /it/blog/wp-admin/admin-ajax.php\r\n\r\n# jp\r\nDisallow: /jp/app/\r\nDisallow: /jp/*.zip\r\nAllow: /jp/app/module/webproduct/goto/\r\nAllow: /jp/app/download/\r\n\r\n# nl\r\nDisallow: /nl/app/\r\nDisallow: /nl/blog/wp-admin/\r\nDisallow: /nl/*.zip\r\nAllow: /nl/app/module/webproduct/goto/\r\nAllow: /nl/app/download/\r\nAllow: /nl/blog/wp-admin/admin-ajax.php\r\n\r\nSitemap: https://www.jimdo.com/sitemap-index.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/app/module/webproduct/goto/",
+        "/app/download/",
+        "/blog/wp-admin/admin-ajax.php",
+        "/de/magazin/wp-admin/admin-ajax.php",
+        "/de/app/download/",
+        "/de/app/module/webproduct/goto/",
+        "/es/app/module/webproduct/goto/",
+        "/es/app/download/",
+        "/es/blog/wp-admin/admin-ajax.php",
+        "/fr/app/module/webproduct/goto/",
+        "/fr/app/download/",
+        "/fr/blog/wp-admin/admin-ajax.php",
+        "/it/app/module/webproduct/goto/",
+        "/it/app/download/",
+        "/it/blog/wp-admin/admin-ajax.php",
+        "/jp/app/module/webproduct/goto/",
+        "/jp/app/download/",
+        "/nl/app/module/webproduct/goto/",
+        "/nl/app/download/",
+        "/nl/blog/wp-admin/admin-ajax.php"
+      ],
+      "disallowed": [
+        "/app/",
+        "/blog/wp-admin/",
+        "/*.zip",
+        "/oidc-silent-callback/",
+        "/search/",
+        "/de/app/",
+        "/de/magazin/wp-admin/",
+        "/de/*.zip",
+        "/es/app/",
+        "/es/blog/wp-admin/",
+        "/es/*.zip",
+        "/fr/app/",
+        "/fr/blog/wp-admin/",
+        "/fr/*.zip",
+        "/it/app/",
+        "/it/blog/wp-admin/",
+        "/it/*.zip",
+        "/jp/app/",
+        "/jp/*.zip",
+        "/nl/app/",
+        "/nl/blog/wp-admin/",
+        "/nl/*.zip"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/app/module/webproduct/goto/",
+      "/app/download/",
+      "/blog/wp-admin/admin-ajax.php",
+      "/de/magazin/wp-admin/admin-ajax.php",
+      "/de/app/download/",
+      "/de/app/module/webproduct/goto/",
+      "/es/app/module/webproduct/goto/",
+      "/es/app/download/",
+      "/es/blog/wp-admin/admin-ajax.php",
+      "/fr/app/module/webproduct/goto/",
+      "/fr/app/download/",
+      "/fr/blog/wp-admin/admin-ajax.php",
+      "/it/app/module/webproduct/goto/",
+      "/it/app/download/",
+      "/it/blog/wp-admin/admin-ajax.php",
+      "/jp/app/module/webproduct/goto/",
+      "/jp/app/download/",
+      "/nl/app/module/webproduct/goto/",
+      "/nl/app/download/",
+      "/nl/blog/wp-admin/admin-ajax.php"
+    ],
+    "disallowed": [
+      "/app/",
+      "/blog/wp-admin/",
+      "/*.zip",
+      "/oidc-silent-callback/",
+      "/search/",
+      "/de/app/",
+      "/de/magazin/wp-admin/",
+      "/de/*.zip",
+      "/es/app/",
+      "/es/blog/wp-admin/",
+      "/es/*.zip",
+      "/fr/app/",
+      "/fr/blog/wp-admin/",
+      "/fr/*.zip",
+      "/it/app/",
+      "/it/blog/wp-admin/",
+      "/it/*.zip",
+      "/jp/app/",
+      "/jp/*.zip",
+      "/nl/app/",
+      "/nl/blog/wp-admin/",
+      "/nl/*.zip"
+    ]
+  }
 }

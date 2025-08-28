@@ -1,10 +1,118 @@
 {
   "domain": "www.hansemerkur.de",
   "normalizedDomain": "www.hansemerkur.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /*erstinformation\r\nDisallow: /*_slider\r\nDisallow: /*_sticky\r\nDisallow: /angebot/\r\nAllow: /angebot/husqvarna\r\nDisallow: /c/document_library/\r\nDisallow: /c/portal/login\r\nDisallow: /combo/\r\nDisallow: /de_de/\r\nDisallow: /de_DE/\r\nDisallow: /documents/\r\nDisallow: /group/\r\nDisallow: /web/\r\nDisallow: /wohnformen/\r\nDisallow: /@ad*\r\nDisallow: /*.pdf$\r\nDisallow: /*ap_campaign*\r\nDisallow: /*utm_campaign*\r\nDisallow: /*awc=*\r\nDisallow: /*etcc=*\r\nDisallow: /*tcr=*\r\nDisallow: /*track=*\r\nDisallow: /advents\r\nDisallow: /agentursuche\r\nDisallow: /agentsearch\r\nDisallow: /em-gewinnspiel\r\nDisallow: /erstinformation\r\nDisallow: /image/user_portrait\r\nDisallow: /service/kundenservice/dokumentenservice\r\nDisallow: /service/kundenservice/tarifrechneruebersicht\r\nDisallow: /service/kundenservice/umfrage\r\nDisallow: /service/mediathek\r\nDisallow: /service/oster-quiz\r\nDisallow: /ads.txt\r\nDisallow: /index1.html\r\nDisallow: /eduard.rudi\r\nDisallow: /hannes.meyerm\r\nDisallow: /amin.eghbali/\r\nAllow: /amin.eghbali/online-beratung\r\nAllow: /amin.eghbali/wir-ueber-uns\r\nDisallow: /s.schwarz/\r\nAllow: /s.schwarz/online-beratung\r\nAllow: /s.schwarz/wir-ueber-uns\r\n\r\nSitemap: https://www.hansemerkur.de/sitemap_index.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/angebot/husqvarna",
+        "/amin.eghbali/online-beratung",
+        "/amin.eghbali/wir-ueber-uns",
+        "/s.schwarz/online-beratung",
+        "/s.schwarz/wir-ueber-uns"
+      ],
+      "disallowed": [
+        "/*erstinformation",
+        "/*_slider",
+        "/*_sticky",
+        "/angebot/",
+        "/c/document_library/",
+        "/c/portal/login",
+        "/combo/",
+        "/de_de/",
+        "/de_DE/",
+        "/documents/",
+        "/group/",
+        "/web/",
+        "/wohnformen/",
+        "/@ad*",
+        "/*.pdf$",
+        "/*ap_campaign*",
+        "/*utm_campaign*",
+        "/*awc=*",
+        "/*etcc=*",
+        "/*tcr=*",
+        "/*track=*",
+        "/advents",
+        "/agentursuche",
+        "/agentsearch",
+        "/em-gewinnspiel",
+        "/erstinformation",
+        "/image/user_portrait",
+        "/service/kundenservice/dokumentenservice",
+        "/service/kundenservice/tarifrechneruebersicht",
+        "/service/kundenservice/umfrage",
+        "/service/mediathek",
+        "/service/oster-quiz",
+        "/ads.txt",
+        "/index1.html",
+        "/eduard.rudi",
+        "/hannes.meyerm",
+        "/amin.eghbali/",
+        "/s.schwarz/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/angebot/husqvarna",
+      "/amin.eghbali/online-beratung",
+      "/amin.eghbali/wir-ueber-uns",
+      "/s.schwarz/online-beratung",
+      "/s.schwarz/wir-ueber-uns"
+    ],
+    "disallowed": [
+      "/*erstinformation",
+      "/*_slider",
+      "/*_sticky",
+      "/angebot/",
+      "/c/document_library/",
+      "/c/portal/login",
+      "/combo/",
+      "/de_de/",
+      "/de_DE/",
+      "/documents/",
+      "/group/",
+      "/web/",
+      "/wohnformen/",
+      "/@ad*",
+      "/*.pdf$",
+      "/*ap_campaign*",
+      "/*utm_campaign*",
+      "/*awc=*",
+      "/*etcc=*",
+      "/*tcr=*",
+      "/*track=*",
+      "/advents",
+      "/agentursuche",
+      "/agentsearch",
+      "/em-gewinnspiel",
+      "/erstinformation",
+      "/image/user_portrait",
+      "/service/kundenservice/dokumentenservice",
+      "/service/kundenservice/tarifrechneruebersicht",
+      "/service/kundenservice/umfrage",
+      "/service/mediathek",
+      "/service/oster-quiz",
+      "/ads.txt",
+      "/index1.html",
+      "/eduard.rudi",
+      "/hannes.meyerm",
+      "/amin.eghbali/",
+      "/s.schwarz/"
+    ]
+  }
 }

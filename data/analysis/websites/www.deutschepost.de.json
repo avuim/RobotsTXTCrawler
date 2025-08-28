@@ -1,10 +1,56 @@
 {
   "domain": "www.deutschepost.de",
   "normalizedDomain": "www.deutschepost.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /dam/dhlde/external/\r\nDisallow: /dam/images/pega/\r\nDisallow: /dam/images/portal/\r\nDisallow: /dpag/images/P_p/Postident/downloads/\r\nDisallow: /downloads/\r\nDisallow: https://www.deutschepost.de/downloads/\r\nDisallow: https://www.dhl.de/downloads/\r\nDisallow: /int-postfinder/\r\nDisallow: /dam/jcr:d493ce3b-6f18-4986-af05-f73f5bb24097/epost-mailer-font-update-12-2023.pdf\r\nDisallow: /dam/jcr:4c14cfc7-855c-4ee5-a2d5-71bd964a77be/dp-leistungen-und-preise-012024.pdf\r\nDisallow: /dam/jcr:f5065dd6-c5df-4872-b4b8-f589519c9eeb/dhl-express-importanweisung-verzollung-de.pdf\r\nDisallow: /dam/jcr:449388c5-8e60-42e8-b3be-d426a4dfa7c1/dhl-express-importanweisung-abfertigung-de.pdf\r\nDisallow: /dam/jcr:2bc1163a-fdd7-478e-8d29-14b0712cd665/dp-ddp-adress-studie-2025-de.pdf\r\nSitemap: https://www.deutschepost.de/sitemap.xml\r\nSitemap: https://www.deutschepost.de/.sectionsitemap/dpag/de\r\nSitemap: https://www.deutschepost.de/.sectionsitemap/dpag/en",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/dam/dhlde/external/",
+        "/dam/images/pega/",
+        "/dam/images/portal/",
+        "/dpag/images/P_p/Postident/downloads/",
+        "/downloads/",
+        "https://www.deutschepost.de/downloads/",
+        "https://www.dhl.de/downloads/",
+        "/int-postfinder/",
+        "/dam/jcr:d493ce3b-6f18-4986-af05-f73f5bb24097/epost-mailer-font-update-12-2023.pdf",
+        "/dam/jcr:4c14cfc7-855c-4ee5-a2d5-71bd964a77be/dp-leistungen-und-preise-012024.pdf",
+        "/dam/jcr:f5065dd6-c5df-4872-b4b8-f589519c9eeb/dhl-express-importanweisung-verzollung-de.pdf",
+        "/dam/jcr:449388c5-8e60-42e8-b3be-d426a4dfa7c1/dhl-express-importanweisung-abfertigung-de.pdf",
+        "/dam/jcr:2bc1163a-fdd7-478e-8d29-14b0712cd665/dp-ddp-adress-studie-2025-de.pdf"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/dam/dhlde/external/",
+      "/dam/images/pega/",
+      "/dam/images/portal/",
+      "/dpag/images/P_p/Postident/downloads/",
+      "/downloads/",
+      "https://www.deutschepost.de/downloads/",
+      "https://www.dhl.de/downloads/",
+      "/int-postfinder/",
+      "/dam/jcr:d493ce3b-6f18-4986-af05-f73f5bb24097/epost-mailer-font-update-12-2023.pdf",
+      "/dam/jcr:4c14cfc7-855c-4ee5-a2d5-71bd964a77be/dp-leistungen-und-preise-012024.pdf",
+      "/dam/jcr:f5065dd6-c5df-4872-b4b8-f589519c9eeb/dhl-express-importanweisung-verzollung-de.pdf",
+      "/dam/jcr:449388c5-8e60-42e8-b3be-d426a4dfa7c1/dhl-express-importanweisung-abfertigung-de.pdf",
+      "/dam/jcr:2bc1163a-fdd7-478e-8d29-14b0712cd665/dp-ddp-adress-studie-2025-de.pdf"
+    ]
+  }
 }

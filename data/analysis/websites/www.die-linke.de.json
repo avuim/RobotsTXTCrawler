@@ -1,10 +1,104 @@
 {
   "domain": "www.die-linke.de",
   "normalizedDomain": "www.die-linke.de",
+  "robotsTxt": "# allgemein\r\nUser-agent: *\r\nDisallow: /cgi-bin/\r\nDisallow: /archiv/\r\nDisallow: /logfiles/\r\nDisallow: /logfiles.kreise/\r\nDisallow: /seite_versenden/\r\nDisallow: /statistik/\r\nDisallow: /test/\r\nDisallow: /typo3/\r\nDisallow: /typo3conf/\r\nDisallow: /druckversion.html\r\nDisallow: /download.pdf\r\nDisallow: /*&type=*\r\nDisallow: /*&swords=*\r\nDisallow: /*&eID=*\r\nDisallow: /*&tipURL=*\r\nDisallow: /*&cHash=*\r\nDisallow: /baustelle.html\r\nDisallow: /service/seite_versenden\r\nDisallow: /service/suche\r\nDisallow: /partei/weitere_strukturen/andere_gremien/marxistischer_arbeitskreis/geschichtskorrespondenz\r\nDisallow: /partei/weiterestrukturen/anderegremien/marxistischerarbeitskreis/geschichtskorrespondenz\r\nDisallow: /index.php?id=882$\r\nDisallow: /fileadmin/download/geschichtskorrespondenz/\r\nDisallow: /vorlagen/\r\nDisallow: /suche/\r\nDisallow: /index.php?id=15002\r\nDisallow: /politik/aktionen/zukunftskongress-2015/wortmeldungen-intern\r\nDisallow: /politik/aktionen/linke-woche-der-zukunft/wortmeldungen-intern\r\nDisallow: /politik/disput/archiv/detail/artikel/dominik-dueber\r\nDisallow: /fileadmin/download/zusammenschlüsse/mak/geschichtskorrespondenz/*\r\nCrawl-delay: 1\r\n\r\n# Boese Bots\r\nUser-agent: jobs.de-Robot\r\nDisallow: /\r\n\r\nUser-agent: JobSpider\r\nDisallow: /\r\n\r\nUser-agent: iCjobs\r\nDisallow: /\r\n\r\nUser-agent: AhrefsBot\r\nDisallow: /\r\n\r\nUser-agent: Ezooms\r\nDisallow: /\r\n\r\nUser-agent: BUbiNG\r\nDisallow: /\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/cgi-bin/",
+        "/archiv/",
+        "/logfiles/",
+        "/logfiles.kreise/",
+        "/seite_versenden/",
+        "/statistik/",
+        "/test/",
+        "/typo3/",
+        "/typo3conf/",
+        "/druckversion.html",
+        "/download.pdf",
+        "/*&type=*",
+        "/*&swords=*",
+        "/*&eID=*",
+        "/*&tipURL=*",
+        "/*&cHash=*",
+        "/baustelle.html",
+        "/service/seite_versenden",
+        "/service/suche",
+        "/partei/weitere_strukturen/andere_gremien/marxistischer_arbeitskreis/geschichtskorrespondenz",
+        "/partei/weiterestrukturen/anderegremien/marxistischerarbeitskreis/geschichtskorrespondenz",
+        "/index.php?id=882$",
+        "/fileadmin/download/geschichtskorrespondenz/",
+        "/vorlagen/",
+        "/suche/",
+        "/index.php?id=15002",
+        "/politik/aktionen/zukunftskongress-2015/wortmeldungen-intern",
+        "/politik/aktionen/linke-woche-der-zukunft/wortmeldungen-intern",
+        "/politik/disput/archiv/detail/artikel/dominik-dueber",
+        "/fileadmin/download/zusammenschlüsse/mak/geschichtskorrespondenz/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "jobs.de-Robot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "JobSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BUbiNG",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 6,
+    "allowedBots": 0,
+    "disallowedBots": 6,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "jobs.de-Robot",
@@ -30,5 +124,40 @@
       "name": "BUbiNG",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/cgi-bin/",
+      "/archiv/",
+      "/logfiles/",
+      "/logfiles.kreise/",
+      "/seite_versenden/",
+      "/statistik/",
+      "/test/",
+      "/typo3/",
+      "/typo3conf/",
+      "/druckversion.html",
+      "/download.pdf",
+      "/*&type=*",
+      "/*&swords=*",
+      "/*&eID=*",
+      "/*&tipURL=*",
+      "/*&cHash=*",
+      "/baustelle.html",
+      "/service/seite_versenden",
+      "/service/suche",
+      "/partei/weitere_strukturen/andere_gremien/marxistischer_arbeitskreis/geschichtskorrespondenz",
+      "/partei/weiterestrukturen/anderegremien/marxistischerarbeitskreis/geschichtskorrespondenz",
+      "/index.php?id=882$",
+      "/fileadmin/download/geschichtskorrespondenz/",
+      "/vorlagen/",
+      "/suche/",
+      "/index.php?id=15002",
+      "/politik/aktionen/zukunftskongress-2015/wortmeldungen-intern",
+      "/politik/aktionen/linke-woche-der-zukunft/wortmeldungen-intern",
+      "/politik/disput/archiv/detail/artikel/dominik-dueber",
+      "/fileadmin/download/zusammenschlüsse/mak/geschichtskorrespondenz/*"
+    ]
+  }
 }

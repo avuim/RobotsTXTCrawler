@@ -1,9 +1,243 @@
 {
   "domain": "www.kunststoffweb.de",
   "normalizedDomain": "www.kunststoffweb.de",
+  "robotsTxt": "User-agent: * \r\nDisallow: /caching/\r\nDisallow: /stellenmarkt/anzeigen/_iframe/\r\nDisallow: /_assets/stellenmarkt/_iframe/\r\n\r\nUser-agent: Baiduspider\r\nUser-agent: 360Spider\r\nUser-agent: Yisouspider\r\nUser-agent: PetalBot\r\nDisallow: /\r\n\r\nUser-agent: Bytespider\r\nDisallow: /\r\n\r\nUser-agent: Sogou web spider\r\nDisallow: /\r\n\r\nUser-agent: Sogou inst spider\r\nDisallow: /\r\n\r\nDisallow: /wiki/\r\nDisallow: /startseite/\r\n\r\nSitemap: https://www.kunststoffweb.de/sitemap.xml\r\nSitemap: https://www.kunststoffweb.de/sitemap/news\r\nSitemap: https://www.kunststoffweb.de/sitemap/jobs",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/caching/",
+        "/stellenmarkt/anzeigen/_iframe/",
+        "/_assets/stellenmarkt/_iframe/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "360Spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yisouspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "360Spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yisouspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "360Spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yisouspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "360Spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yisouspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Sogou web spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Sogou inst spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/wiki/",
+          "/startseite/"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 19,
+    "allowedBots": 0,
+    "disallowedBots": 19,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "360Spider",
+      "allowed": false
+    },
+    {
+      "name": "Yisouspider",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "360Spider",
+      "allowed": false
+    },
+    {
+      "name": "Yisouspider",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "360Spider",
+      "allowed": false
+    },
+    {
+      "name": "Yisouspider",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "360Spider",
+      "allowed": false
+    },
+    {
+      "name": "Yisouspider",
       "allowed": false
     },
     {
@@ -22,5 +256,13 @@
       "name": "Sogou inst spider",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/caching/",
+      "/stellenmarkt/anzeigen/_iframe/",
+      "/_assets/stellenmarkt/_iframe/"
+    ]
+  }
 }

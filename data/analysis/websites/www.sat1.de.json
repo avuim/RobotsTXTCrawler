@@ -1,5 +1,23 @@
 {
   "domain": "www.sat1.de",
   "normalizedDomain": "www.sat1.de",
-  "bots": []
+  "robotsTxt": "Sitemap: https://www.sat1.de/sitemap.xml\nSitemap: https://www.sat1.de/sitemap.news.xml\nSitemap: https://www.sat1.de/sitemap.videos.xml\nSitemap: https://www.sat1.de/sitemap.clever-push.xml\nSitemap: https://www.sat1.de/sitemap.archive.xml\nSitemap: https://middleware.p7s1.io/sitemaps/v1/videos?key=b6izut6y0wcbeora59jkhlwvrgfgw7y3\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

@@ -1,10 +1,72 @@
 {
   "domain": "www.dior.com",
   "normalizedDomain": "www.dior.com",
+  "robotsTxt": "#DaumWebMasterTool:93a66eb6e45fb1dc6bd8c1f80b640e755c23937ffafaa89e28de6992e10b2ea5:MlFaNSf5e2FRQqF7R10L4Q==\r\nUser-agent: *\r\nCrawl-Delay: 0.5\r\nDisallow: /beauty/*/search.html\r\nDisallow: /*.json\r\nDisallow: /beauty/master/\r\nDisallow: /email/\r\nDisallow: /invoices/\r\nDisallow: /file/lvmh*\r\nDisallow: /file/link*\r\nDisallow: /beauty/*/tinyWebSite/sendToFriend.ep\r\nDisallow: /google/\r\nDisallow: /couture/*/layout/set/print/*\r\nDisallow: /couture/layout/set/print/*\r\nDisallow: /couture/ecommerce/directory/*\r\nDisallow: /security/\r\nAllow: /fashion/stores/*/search$\r\nDisallow: */search\r\nDisallow: /horizon/*\r\nDisallow: *query=\r\nDisallow: */login\r\nDisallow: /fr_mc*\r\nDisallow: */lady-dior-csc\r\nSitemap: https://www.dior.com/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/fashion/stores/*/search$"
+      ],
+      "disallowed": [
+        "/beauty/*/search.html",
+        "/*.json",
+        "/beauty/master/",
+        "/email/",
+        "/invoices/",
+        "/file/lvmh*",
+        "/file/link*",
+        "/beauty/*/tinyWebSite/sendToFriend.ep",
+        "/google/",
+        "/couture/*/layout/set/print/*",
+        "/couture/layout/set/print/*",
+        "/couture/ecommerce/directory/*",
+        "/security/",
+        "*/search",
+        "/horizon/*",
+        "*query=",
+        "*/login",
+        "/fr_mc*",
+        "*/lady-dior-csc"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/fashion/stores/*/search$"
+    ],
+    "disallowed": [
+      "/beauty/*/search.html",
+      "/*.json",
+      "/beauty/master/",
+      "/email/",
+      "/invoices/",
+      "/file/lvmh*",
+      "/file/link*",
+      "/beauty/*/tinyWebSite/sendToFriend.ep",
+      "/google/",
+      "/couture/*/layout/set/print/*",
+      "/couture/layout/set/print/*",
+      "/couture/ecommerce/directory/*",
+      "/security/",
+      "*/search",
+      "/horizon/*",
+      "*query=",
+      "*/login",
+      "/fr_mc*",
+      "*/lady-dior-csc"
+    ]
+  }
 }

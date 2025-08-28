@@ -1,10 +1,36 @@
 {
   "domain": "www.mueller.de",
   "normalizedDomain": "www.mueller.de",
+  "robotsTxt": "# 1st section\r\nUser-agent: *\r\nDisallow: /cart/\r\nDisallow: /checkout/\r\nDisallow: /my-account/\r\nSitemap: https://www.mueller.de/sitemaps/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/cart/",
+        "/checkout/",
+        "/my-account/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/cart/",
+      "/checkout/",
+      "/my-account/"
+    ]
+  }
 }

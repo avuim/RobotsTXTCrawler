@@ -1,10 +1,34 @@
 {
   "domain": "www.comunio.de",
   "normalizedDomain": "www.comunio.de",
+  "robotsTxt": "User-agent: *\nSitemap: https://www.comunio.de/sitemap/de/sitemap.xml\nDisallow: /infos/termsAndConditions/\nDisallow: /infos/privacyPolicy\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/infos/termsAndConditions/",
+        "/infos/privacyPolicy"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/infos/termsAndConditions/",
+      "/infos/privacyPolicy"
+    ]
+  }
 }

@@ -1,10 +1,68 @@
 {
   "domain": "www.landeswelle.de",
   "normalizedDomain": "www.landeswelle.de",
+  "robotsTxt": "# If the Joomla site is installed within a folder such as at\n# e.g. www.example.com/joomla/ the robots.txt file MUST be\n# moved to the site root at e.g. www.example.com/robots.txt\n# AND the joomla folder name MUST be prefixed to the disallowed\n# path, e.g. the Disallow rule for the /administrator/ folder\n# MUST be changed to read Disallow: /joomla/administrator/\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/orig.html\n#\n# For syntax checking, see:\n# http://tool.motoricerca.info/robots-checker.phtml\n\nUser-agent: *\nAllow: /*.js*\nAllow: /*.css*\nAllow: /*.png*\nAllow: /*.jpg*\nAllow: /*.gif*\n\nDisallow: /administrator/\nDisallow: /bin/\nDisallow: /cache/\nAllow: /cache/com_image_*\nDisallow: /cli/\n\nDisallow: /includes/\nDisallow: /installation/\nDisallow: /language/\nDisallow: /layouts/\nDisallow: /libraries/\nDisallow: /logs/\n\nDisallow: /get-audios\n\nDisallow: /tmp/\n\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/*.js*",
+        "/*.css*",
+        "/*.png*",
+        "/*.jpg*",
+        "/*.gif*",
+        "/cache/com_image_*"
+      ],
+      "disallowed": [
+        "/administrator/",
+        "/bin/",
+        "/cache/",
+        "/cli/",
+        "/includes/",
+        "/installation/",
+        "/language/",
+        "/layouts/",
+        "/libraries/",
+        "/logs/",
+        "/get-audios",
+        "/tmp/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/*.js*",
+      "/*.css*",
+      "/*.png*",
+      "/*.jpg*",
+      "/*.gif*",
+      "/cache/com_image_*"
+    ],
+    "disallowed": [
+      "/administrator/",
+      "/bin/",
+      "/cache/",
+      "/cli/",
+      "/includes/",
+      "/installation/",
+      "/language/",
+      "/layouts/",
+      "/libraries/",
+      "/logs/",
+      "/get-audios",
+      "/tmp/"
+    ]
+  }
 }

@@ -1,14 +1,62 @@
 {
   "domain": "www.billiger-mietwagen.de",
   "normalizedDomain": "www.billiger-mietwagen.de",
+  "robotsTxt": "User-agent: *\r\nCrawl-delay: 10\r\nDisallow: /team.htm\r\nDisallow: /notre-equipe.htm\r\nDisallow: /car_detail.php\r\nDisallow: /ajax/offer/conditions.php\r\nDisallow: /countdown-auktion-anmeldung.php\r\nDisallow: /feedbacks/\r\nDisallow: /karriere/teammitglieder/\r\nDisallow: /account/registration/beta.php\r\n\r\nUser-agent: AdsBot-Google\r\nDisallow: /car_detail.php\r\nDisallow: /ajax/offer/conditions.php\r\n\r\nSitemap: https://www.billiger-mietwagen.de/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/team.htm",
+        "/notre-equipe.htm",
+        "/car_detail.php",
+        "/ajax/offer/conditions.php",
+        "/countdown-auktion-anmeldung.php",
+        "/feedbacks/",
+        "/karriere/teammitglieder/",
+        "/account/registration/beta.php"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AdsBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/car_detail.php",
+          "/ajax/offer/conditions.php"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "AdsBot-Google",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/team.htm",
+      "/notre-equipe.htm",
+      "/car_detail.php",
+      "/ajax/offer/conditions.php",
+      "/countdown-auktion-anmeldung.php",
+      "/feedbacks/",
+      "/karriere/teammitglieder/",
+      "/account/registration/beta.php"
+    ]
+  }
 }

@@ -1,6 +1,132 @@
 {
   "domain": "www.einfachbacken.de",
   "normalizedDomain": "www.einfachbacken.de",
+  "robotsTxt": "User-agent: *\r\n# CSS, JS, Images\r\nAllow: /core/*.css$\r\nAllow: /core/*.css?\r\nAllow: /core/*.js$\r\nAllow: /core/*.js?\r\nAllow: /core/*.gif\r\nAllow: /core/*.jpg\r\nAllow: /core/*.jpeg\r\nAllow: /core/*.png\r\nAllow: /core/*.svg\r\nAllow: /profiles/*.css$\r\nAllow: /profiles/*.css?\r\nAllow: /profiles/*.js$\r\nAllow: /profiles/*.js?\r\nAllow: /profiles/*.gif\r\nAllow: /profiles/*.jpg\r\nAllow: /profiles/*.jpeg\r\nAllow: /profiles/*.png\r\nAllow: /profiles/*.svg\r\n# Directories\r\nDisallow: /core/\r\nDisallow: /profiles/\r\n# Files\r\nDisallow: /README.txt\r\nDisallow: /web.config\r\n# Paths (clean URLs)\r\nDisallow: /admin/\r\nDisallow: /comment/reply/\r\nDisallow: /filter/tips\r\nDisallow: /node/add/\r\nDisallow: /search/\r\nDisallow: /user/register/\r\nDisallow: /user/password/\r\nDisallow: /user/login/\r\nDisallow: /user/logout/\r\nDisallow: /suche\r\n# Paths (no clean URLs)\r\nDisallow: /index.php/admin/\r\nDisallow: /index.php/comment/reply/\r\nDisallow: /index.php/filter/tips\r\nDisallow: /index.php/node/add/\r\nDisallow: /index.php/search/\r\nDisallow: /index.php/user/password/\r\nDisallow: /index.php/user/register/\r\nDisallow: /index.php/user/login/\r\nDisallow: /index.php/user/logout/\r\nDisallow: /index.php/print/\r\nDisallow: /index.php/suche\r\n# 2021 DKR Relaunch: paths which are no longer valid\r\nDisallow: /zutaten/\r\n# 12.06.2025\r\nDisallow: /api/auth/session/\r\nDisallow: /account/\r\n# Disallow Bots\r\nUser-agent: GPTBot\r\nDisallow: /\r\nUser-agent: CCBot\r\nDisallow: /\r\nUser-agent: anthropic-ai\r\nDisallow: /\r\nUser-agent: Bytespider\r\nDisallow: /\r\nUser-agent: Claude-Web\r\nDisallow: /\r\nUser-agent: cohere-ai\r\nDisallow: /\r\nUser-agent: ClaudeBot\r\nDisallow: /\r\nDisallow: /shariff/\r\nDisallow: /vue-comments/\r\nDisallow: /newsletter-teaser/\r\nDisallow: /api/amazon/\r\nDisallow: /views_ajax_route/\r\nDisallow: /mega_menu/\r\nSitemap: https://www.einfachbacken.de/sitemap.xml\r\nSitemap: https://www.einfachbacken.de/article-news-sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/core/*.css$",
+        "/core/*.css?",
+        "/core/*.js$",
+        "/core/*.js?",
+        "/core/*.gif",
+        "/core/*.jpg",
+        "/core/*.jpeg",
+        "/core/*.png",
+        "/core/*.svg",
+        "/profiles/*.css$",
+        "/profiles/*.css?",
+        "/profiles/*.js$",
+        "/profiles/*.js?",
+        "/profiles/*.gif",
+        "/profiles/*.jpg",
+        "/profiles/*.jpeg",
+        "/profiles/*.png",
+        "/profiles/*.svg"
+      ],
+      "disallowed": [
+        "/core/",
+        "/profiles/",
+        "/README.txt",
+        "/web.config",
+        "/admin/",
+        "/comment/reply/",
+        "/filter/tips",
+        "/node/add/",
+        "/search/",
+        "/user/register/",
+        "/user/password/",
+        "/user/login/",
+        "/user/logout/",
+        "/suche",
+        "/index.php/admin/",
+        "/index.php/comment/reply/",
+        "/index.php/filter/tips",
+        "/index.php/node/add/",
+        "/index.php/search/",
+        "/index.php/user/password/",
+        "/index.php/user/register/",
+        "/index.php/user/login/",
+        "/index.php/user/logout/",
+        "/index.php/print/",
+        "/index.php/suche",
+        "/zutaten/",
+        "/api/auth/session/",
+        "/account/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/shariff/",
+          "/vue-comments/",
+          "/newsletter-teaser/",
+          "/api/amazon/",
+          "/views_ajax_route/",
+          "/mega_menu/"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 7,
+    "allowedBots": 0,
+    "disallowedBots": 7,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -34,5 +160,57 @@
       "name": "ClaudeBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/core/*.css$",
+      "/core/*.css?",
+      "/core/*.js$",
+      "/core/*.js?",
+      "/core/*.gif",
+      "/core/*.jpg",
+      "/core/*.jpeg",
+      "/core/*.png",
+      "/core/*.svg",
+      "/profiles/*.css$",
+      "/profiles/*.css?",
+      "/profiles/*.js$",
+      "/profiles/*.js?",
+      "/profiles/*.gif",
+      "/profiles/*.jpg",
+      "/profiles/*.jpeg",
+      "/profiles/*.png",
+      "/profiles/*.svg"
+    ],
+    "disallowed": [
+      "/core/",
+      "/profiles/",
+      "/README.txt",
+      "/web.config",
+      "/admin/",
+      "/comment/reply/",
+      "/filter/tips",
+      "/node/add/",
+      "/search/",
+      "/user/register/",
+      "/user/password/",
+      "/user/login/",
+      "/user/logout/",
+      "/suche",
+      "/index.php/admin/",
+      "/index.php/comment/reply/",
+      "/index.php/filter/tips",
+      "/index.php/node/add/",
+      "/index.php/search/",
+      "/index.php/user/password/",
+      "/index.php/user/register/",
+      "/index.php/user/login/",
+      "/index.php/user/logout/",
+      "/index.php/print/",
+      "/index.php/suche",
+      "/zutaten/",
+      "/api/auth/session/",
+      "/account/"
+    ]
+  }
 }

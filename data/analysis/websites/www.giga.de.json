@@ -1,14 +1,83 @@
 {
   "domain": "www.giga.de",
   "normalizedDomain": "www.giga.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /wp-login.php\r\nDisallow: /wp-admin/\r\nDisallow: /api/\r\nDisallow: /wp-cron.php\r\nDisallow: /:preview/*\r\nDisallow: /app-xwkizxr-*\r\nDisallow: */false$\r\nDisallow: /oembed/\r\nDisallow: /structure/\r\nDisallow: /gtm.js\r\nDisallow: /metatag/\r\nDisallow: /quiz-enricher/*\r\nDisallow: /quiz-suggestions/*\r\n\r\nUser-agent: OAI-SearchBot\r\nAllow: /\r\nDisallow: /wp-login.php\r\nDisallow: /wp-admin/\r\nDisallow: /api/\r\nDisallow: /wp-cron.php\r\nDisallow: /:preview/*\r\nDisallow: /app-xwkizxr-*\r\nDisallow: */false$\r\nDisallow: /oembed/\r\nDisallow: /structure/\r\nDisallow: /gtm.js\r\nDisallow: /metatag/\r\nDisallow: /quiz-enricher/*\r\nDisallow: /quiz-suggestions/*",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/wp-login.php",
+        "/wp-admin/",
+        "/api/",
+        "/wp-cron.php",
+        "/:preview/*",
+        "/app-xwkizxr-*",
+        "*/false$",
+        "/oembed/",
+        "/structure/",
+        "/gtm.js",
+        "/metatag/",
+        "/quiz-enricher/*",
+        "/quiz-suggestions/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/wp-login.php",
+          "/wp-admin/",
+          "/api/",
+          "/wp-cron.php",
+          "/:preview/*",
+          "/app-xwkizxr-*",
+          "*/false$",
+          "/oembed/",
+          "/structure/",
+          "/gtm.js",
+          "/metatag/",
+          "/quiz-enricher/*",
+          "/quiz-suggestions/*"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "OAI-SearchBot",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/wp-login.php",
+      "/wp-admin/",
+      "/api/",
+      "/wp-cron.php",
+      "/:preview/*",
+      "/app-xwkizxr-*",
+      "*/false$",
+      "/oembed/",
+      "/structure/",
+      "/gtm.js",
+      "/metatag/",
+      "/quiz-enricher/*",
+      "/quiz-suggestions/*"
+    ]
+  }
 }

@@ -1,5 +1,23 @@
 {
   "domain": "www.antenne1.de",
   "normalizedDomain": "www.antenne1.de",
-  "bots": []
+  "robotsTxt": "Sitemap: https://www.antenne1.de/sitemaps/pages.xml\nSitemap: https://www.antenne1.de/sitemaps/news.xml\nSitemap: https://www.antenne1.de/sitemaps/posts.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

@@ -1,10 +1,46 @@
 {
   "domain": "www.gelbeseiten.de",
   "normalizedDomain": "www.gelbeseiten.de",
+  "robotsTxt": "# robots.txt for https://www.gelbeseiten.de/ || sw 20120323\n\nUser-agent: *\nDisallow: /starteintrag/selbstedition/\nDisallow: /subscriberId=\nDisallow: /marktjagd/\nDisallow: /mobileadserver\nDisallow: /regionaleAnzeigen/\nDisallow: /suche\nDisallow: /Suche\nDisallow: /prg\n\n\n# Sitemap files\nSitemap: https://www.gelbeseiten.de/branchenbuch/sitemap.xml\nSitemap: https://www.gelbeseiten.de/sitemap_index_TrefferlisteStadt.xml\nSitemap: https://www.gelbeseiten.de/sitemap_index_TrefferlisteStadtteil.xml\nSitemap: https://www.gelbeseiten.de/sitemap_index_TrefferlisteBezirk.xml\nSitemap: https://www.gelbeseiten.de/sitemap_index_detailseite.xml\nSitemap: https://www.gelbeseiten.de/ratgeber/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/starteintrag/selbstedition/",
+        "/subscriberId=",
+        "/marktjagd/",
+        "/mobileadserver",
+        "/regionaleAnzeigen/",
+        "/suche",
+        "/Suche",
+        "/prg"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/starteintrag/selbstedition/",
+      "/subscriberId=",
+      "/marktjagd/",
+      "/mobileadserver",
+      "/regionaleAnzeigen/",
+      "/suche",
+      "/Suche",
+      "/prg"
+    ]
+  }
 }

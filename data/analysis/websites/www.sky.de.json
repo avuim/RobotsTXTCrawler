@@ -1,14 +1,57 @@
 {
   "domain": "www.sky.de",
   "normalizedDomain": "www.sky.de",
+  "robotsTxt": "User-agent: *\nDisallow: /terminexport/\nDisallow: /terminexport\nDisallow: /ts14view\nDisallow: /ts14view/\nDisallow: /flyout\nDisallow: /flyout/\nDisallow: /tradedoubler/\n \nUser-agent: MojeekBot\nDisallow: /\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/terminexport/",
+        "/terminexport",
+        "/ts14view",
+        "/ts14view/",
+        "/flyout",
+        "/flyout/",
+        "/tradedoubler/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "MojeekBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "MojeekBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/terminexport/",
+      "/terminexport",
+      "/ts14view",
+      "/ts14view/",
+      "/flyout",
+      "/flyout/",
+      "/tradedoubler/"
+    ]
+  }
 }

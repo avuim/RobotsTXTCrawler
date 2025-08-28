@@ -1,10 +1,52 @@
 {
   "domain": "www.ratiopharm.de",
   "normalizedDomain": "www.ratiopharm.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /typo3/\r\nDisallow: /typo3_src/\r\nAllow: /typo3/sysext/frontend/Resources/Public/*\r\n\r\nDisallow: /nc/service/mediathek/shop/artikel/broschueren-poster-*\r\nDisallow: /nc/service/mediathek/shop/artikel/tolle-spiele-*\r\nDisallow: /nc/service/mediathek/shop/artikel/audio-*\r\nDisallow: /nc/service/mediathek/shop/artikel/praktische-apps-*\r\nDisallow: /ueber-uns/presse/pressemitteilungen/news/detail/News/*/listenansicht/seite*\r\nDisallow: /produkte/ergaenzende-inhalte/*\r\nDisallow: /apothekenfinder/praeparate/praeparatedaten/*\r\n\r\nSitemap: https://www.ratiopharm.de/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/typo3/sysext/frontend/Resources/Public/*"
+      ],
+      "disallowed": [
+        "/typo3/",
+        "/typo3_src/",
+        "/nc/service/mediathek/shop/artikel/broschueren-poster-*",
+        "/nc/service/mediathek/shop/artikel/tolle-spiele-*",
+        "/nc/service/mediathek/shop/artikel/audio-*",
+        "/nc/service/mediathek/shop/artikel/praktische-apps-*",
+        "/ueber-uns/presse/pressemitteilungen/news/detail/News/*/listenansicht/seite*",
+        "/produkte/ergaenzende-inhalte/*",
+        "/apothekenfinder/praeparate/praeparatedaten/*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/typo3/sysext/frontend/Resources/Public/*"
+    ],
+    "disallowed": [
+      "/typo3/",
+      "/typo3_src/",
+      "/nc/service/mediathek/shop/artikel/broschueren-poster-*",
+      "/nc/service/mediathek/shop/artikel/tolle-spiele-*",
+      "/nc/service/mediathek/shop/artikel/audio-*",
+      "/nc/service/mediathek/shop/artikel/praktische-apps-*",
+      "/ueber-uns/presse/pressemitteilungen/news/detail/News/*/listenansicht/seite*",
+      "/produkte/ergaenzende-inhalte/*",
+      "/apothekenfinder/praeparate/praeparatedaten/*"
+    ]
+  }
 }

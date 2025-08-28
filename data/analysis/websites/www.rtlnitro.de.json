@@ -1,10 +1,28 @@
 {
   "domain": "www.rtlnitro.de",
   "normalizedDomain": "www.rtlnitro.de",
+  "robotsTxt": "# START nuxt-robots (indexable)\nUser-agent: *\nDisallow: \n\n# END nuxt-robots",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

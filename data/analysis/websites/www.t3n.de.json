@@ -1,6 +1,59 @@
 {
   "domain": "www.t3n.de",
   "normalizedDomain": "www.t3n.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /suche*\r\nDisallow: /news/kommentar-benachrichtigungen/*\r\nDisallow: /account/\r\nDisallow: /login*\r\nDisallow: /app/\r\nDisallow: /fragen/\r\nDisallow: /jobs/neos/\r\nDisallow: /jobs/suche/\r\nDisallow: /magazin/media/\r\nDisallow: /magazin/wp-admin/\r\nDisallow: /neos/\r\nDisallow: /news/wp-admin/\r\nDisallow: /firmen/*tag=\r\nDisallow: /firmen/*category=\r\nDisallow: /firmen/*city=\r\nDisallow: /firmen/*country=\r\nDisallow: /firmen/*page=\r\nAllow: /account/_Resources/\r\n\r\nUser-agent: Googlebot-News\r\nAllow: /\r\nDisallow: /jobs/\r\nDisallow: /firmen/\r\nDisallow: /pioneers/\r\nDisallow: /store/\r\nDisallow: /events/\r\nDisallow: /guides/\r\nDisallow: /online-kurse/\r\nDisallow: /podcast/\r\nDisallow: /suche/\r\n\r\nSitemap: https://t3n.de/sitemap-index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/account/_Resources/"
+      ],
+      "disallowed": [
+        "/suche*",
+        "/news/kommentar-benachrichtigungen/*",
+        "/account/",
+        "/login*",
+        "/app/",
+        "/fragen/",
+        "/jobs/neos/",
+        "/jobs/suche/",
+        "/magazin/media/",
+        "/magazin/wp-admin/",
+        "/neos/",
+        "/news/wp-admin/",
+        "/firmen/*tag=",
+        "/firmen/*category=",
+        "/firmen/*city=",
+        "/firmen/*country=",
+        "/firmen/*page="
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot-News",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/jobs/",
+          "/firmen/",
+          "/pioneers/",
+          "/store/",
+          "/events/",
+          "/guides/",
+          "/online-kurse/",
+          "/podcast/",
+          "/suche/"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -10,5 +63,29 @@
       "name": "Googlebot-News",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/account/_Resources/"
+    ],
+    "disallowed": [
+      "/suche*",
+      "/news/kommentar-benachrichtigungen/*",
+      "/account/",
+      "/login*",
+      "/app/",
+      "/fragen/",
+      "/jobs/neos/",
+      "/jobs/suche/",
+      "/magazin/media/",
+      "/magazin/wp-admin/",
+      "/neos/",
+      "/news/wp-admin/",
+      "/firmen/*tag=",
+      "/firmen/*category=",
+      "/firmen/*city=",
+      "/firmen/*country=",
+      "/firmen/*page="
+    ]
+  }
 }

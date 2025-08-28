@@ -1,6 +1,64 @@
 {
   "domain": "www.technisat.com",
   "normalizedDomain": "www.technisat.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /img/\r\nAllow: /img/fw/\r\nDisallow: /assets/\r\nDisallow: /chat/\r\nDisallow: /ajax/\r\nDisallow: /newsletter/\r\nDisallow: /isiolive/\r\nDisallow: /?pvergleich_add\r\nDisallow: /?*&pvergleich_add\r\nDisallow: /?pvergleich_remove\r\nDisallow: /de_DE/Grillen-Braten-Kochen/352-100099/\r\n\r\n\r\nUser-agent: Googlebot\r\nDisallow: /ajax/\r\nDisallow: /newsletter/\r\nDisallow: /isiolive/\r\nDisallow: /?pvergleich_add\r\nDisallow: /?*&pvergleich_add\r\nDisallow: /?pvergleich_remove\r\n\r\n\r\nUser-agent: Googlebot-Image\r\nAllow: /img/fw/\r\nDisallow: /img/\r\nDisallow: /assets/\r\nDisallow: /newsletter/\r\nDisallow: /isiolive/\r\n\r\n# Sitemap files\r\nSitemap: https://www.technisat.com/data/sitemap/6/sitemap.xml\r\nSitemap: https://www.technisat.com/data/sitemap/10/sitemap.xml\r\nSitemap: https://www.technisat.com/data/sitemap/199/sitemap.xml\r\nSitemap: https://www.technisat.com/data/sitemap/607/sitemap.xml\r\nSitemap: https://www.technisat.com/data/sitemap/784/sitemap.xml\r\nSitemap: https://www.technisat.com/data/sitemap/937/sitemap.xml\r\nSitemap: https://www.technisat.com/data/sitemap/352/sitemap.xml\r\nSitemap: https://www.technisat.com/data/sitemap/352/de_DE.xml\r\nSitemap: https://www.technisat.com/data/sitemap/352/de_AT.xml\r\nSitemap: https://www.technisat.com/data/sitemap/352/de_CH.xml\r\nSitemap: https://www.technisat.com/data/sitemap/352/en_XX.xml\r\nSitemap: https://www.technisat.com/data/sitemap/352/pl_PL.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/img/fw/"
+      ],
+      "disallowed": [
+        "/img/",
+        "/assets/",
+        "/chat/",
+        "/ajax/",
+        "/newsletter/",
+        "/isiolive/",
+        "/?pvergleich_add",
+        "/?*&pvergleich_add",
+        "/?pvergleich_remove",
+        "/de_DE/Grillen-Braten-Kochen/352-100099/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/ajax/",
+          "/newsletter/",
+          "/isiolive/",
+          "/?pvergleich_add",
+          "/?*&pvergleich_add",
+          "/?pvergleich_remove"
+        ]
+      }
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/img/fw/"
+        ],
+        "disallowed": [
+          "/img/",
+          "/assets/",
+          "/newsletter/",
+          "/isiolive/"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 2,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -8,11 +66,28 @@
     },
     {
       "name": "Googlebot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Googlebot-Image",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/img/fw/"
+    ],
+    "disallowed": [
+      "/img/",
+      "/assets/",
+      "/chat/",
+      "/ajax/",
+      "/newsletter/",
+      "/isiolive/",
+      "/?pvergleich_add",
+      "/?*&pvergleich_add",
+      "/?pvergleich_remove",
+      "/de_DE/Grillen-Braten-Kochen/352-100099/"
+    ]
+  }
 }

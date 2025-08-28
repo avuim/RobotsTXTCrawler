@@ -1,10 +1,64 @@
 {
   "domain": "www.prisma.de",
   "normalizedDomain": "www.prisma.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /app/\r\nDisallow: /cache/\r\nDisallow: /tmp/\r\nDisallow: /social/\r\nDisallow: /1017380/\r\nDisallow: /adtest\r\nDisallow: /testsearch\r\nDisallow: /test-tv-search\r\nDisallow: /partner/\r\nDisallow: /partner2\r\nDisallow: /public/miodzio/\r\nDisallow: /public/disallowForGoogle/\r\nDisallow: /newsletter/\r\nDisallow: /news/Hier-fuer-den-Newsletter-anmelden,25566196\r\nDisallow: /news/Hier-fuer-den-Newsletter-anmelden,25566196.amp\r\nDisallow: /suche/\r\nDisallow: /search/\r\nSitemap: https://www.prisma.de/sitemapxml/news/\r\nSitemap: https://www.prisma.de/sitemapxml/global/\r\nSitemap: https://www.prisma.de/sitemapxml/articles/\r\nSitemap: https://www.prisma.de/sitemapxml/stars/\r\nSitemap: https://www.prisma.de/sitemapxml/filme/\r\nSitemap: https://www.prisma.de/sitemapxml/programm/\r\nSitemap: https://www.prisma.de/sitemapxml/images/\r\nSitemap: https://www.prisma.de/sitemapxml/streaming/\r\nSitemap: https://www.prisma.de/sitemapxml/mediathek/\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/app/",
+        "/cache/",
+        "/tmp/",
+        "/social/",
+        "/1017380/",
+        "/adtest",
+        "/testsearch",
+        "/test-tv-search",
+        "/partner/",
+        "/partner2",
+        "/public/miodzio/",
+        "/public/disallowForGoogle/",
+        "/newsletter/",
+        "/news/Hier-fuer-den-Newsletter-anmelden,25566196",
+        "/news/Hier-fuer-den-Newsletter-anmelden,25566196.amp",
+        "/suche/",
+        "/search/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/app/",
+      "/cache/",
+      "/tmp/",
+      "/social/",
+      "/1017380/",
+      "/adtest",
+      "/testsearch",
+      "/test-tv-search",
+      "/partner/",
+      "/partner2",
+      "/public/miodzio/",
+      "/public/disallowForGoogle/",
+      "/newsletter/",
+      "/news/Hier-fuer-den-Newsletter-anmelden,25566196",
+      "/news/Hier-fuer-den-Newsletter-anmelden,25566196.amp",
+      "/suche/",
+      "/search/"
+    ]
+  }
 }

@@ -1,10 +1,36 @@
 {
   "domain": "horl.com",
   "normalizedDomain": "horl.com",
+  "robotsTxt": "# robots.txt\r\nUser-agent: *\r\nAllow: All\r\nDisallow: /checkout/\r\nSitemap: https://www.horl.com/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "All"
+      ],
+      "disallowed": [
+        "/checkout/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "All"
+    ],
+    "disallowed": [
+      "/checkout/"
+    ]
+  }
 }

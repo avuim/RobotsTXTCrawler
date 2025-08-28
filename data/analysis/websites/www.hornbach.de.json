@@ -1,5 +1,23 @@
 {
   "domain": "www.hornbach.de",
   "normalizedDomain": "www.hornbach.de",
-  "bots": []
+  "robotsTxt": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta\r\n      http-equiv=\"Content-Security-Policy\"\r\n      content=\"default-src 'self'; img-src 'self' data:; media-src 'self' data:; object-src 'none'; style-src 'self' 'sha256-o4vzfmmUENEg4chMjjRP9EuW9ucGnGIGVdbl8d0SHQQ='; script-src 'self' 'sha256-KXex2o39zxtnzVWK4H5rW07g2+BlwSPtn+aguzsWkNg=';\"\r\n    />\r\n    <link\r\n      href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/inter-var.woff2\"\r\n      rel=\"preload\"\r\n      as=\"font\"\r\n      type=\"font/woff2\"\r\n      crossorigin\r\n    />\r\n    <link href=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/styles.css\" rel=\"stylesheet\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\r\n    <title>Client Challenge</title>\r\n    <style>\r\n      #loading-error {\r\n        font-size: 16px;\r\n        font-family: 'Inter', sans-serif;\r\n        margin-top: 10px;\r\n        margin-left: 10px;\r\n        display: none;\r\n      }\r\n    </style>\r\n  </head>\r\n  <body>\r\n    <noscript>\r\n      <div class=\"noscript-container\">\r\n        <div class=\"noscript-content\">\r\n          <img\r\n            src=\"/_fs-ch-1T1wmsGaOgGaSxcX/assets/errorIcon.svg\"\r\n            alt=\"\"\r\n            role=\"presentation\"\r\n            class=\"error-icon\"\r\n          />\r\n          <span class=\"noscript-span\"\r\n            >JavaScript is disabled in your browser.</span\r\n          >\r\n          <p>Please enable JavaScript to proceed.</p>\r\n        </div>\r\n      </div>\r\n    </noscript>\r\n    <div id=\"loading-error\" role=\"alert\" aria-live=\"polite\">\r\n      A required part of this site couldn’t load. This may be due to a browser\r\n      extension, network issues, or browser settings. Please check your\r\n      connection, disable any ad blockers, or try using a different browser.\r\n    </div>\r\n    <script>\r\n      function loadScript(src) {\r\n        return new Promise((resolve, reject) => {\r\n          const script = document.createElement('script');\r\n          script.onload = resolve;\r\n          script.onerror = (event) => {\r\n            console.error('Script load error event:', event);\r\n            document.getElementById('loading-error').style.display = 'block';\r\n            loadingError.setAttribute('aria-hidden', 'false');\r\n            reject(\r\n              new Error(\r\n                `Failed to load script: ${src}, Please contact the service administrator.`\r\n              )\r\n            );\r\n          };\r\n          script.src = src;\r\n          document.body.appendChild(script);\r\n        });\r\n      }\r\n\r\n      loadScript('/_fs-ch-1T1wmsGaOgGaSxcX/errors.js')\r\n        .then(() => {\r\n          const script = document.createElement('script');\r\n          script.src = '/_fs-ch-1T1wmsGaOgGaSxcX/script.js?reload=true';\r\n          script.onerror = (event) => {\r\n            console.error('Script load error event:', event);\r\n            const errorMsg = new Error(\r\n              `Failed to load script: ${script.src}. Please contact the service administrator.`\r\n            );\r\n            console.error(errorMsg);\r\n            handleScriptError();\r\n          };\r\n          document.body.appendChild(script);\r\n        })\r\n        .catch((error) => {\r\n          console.error(error);\r\n        });\r\n    </script>\r\n  </body>\r\n</html>\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

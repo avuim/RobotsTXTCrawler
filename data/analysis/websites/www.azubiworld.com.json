@@ -1,10 +1,32 @@
 {
   "domain": "www.azubiworld.com",
   "normalizedDomain": "www.azubiworld.com",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\nDisallow: /admin/",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/admin/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/admin/"
+    ]
+  }
 }

@@ -1,6 +1,54 @@
 {
   "domain": "www.surf-magazin.de",
   "normalizedDomain": "www.surf-magazin.de",
+  "robotsTxt": "Sitemap: https://www.surf-magazin.de/api/sitemap\n\nUser-agent: *\nAllow: /*\nAllow: /_next/static/*\nAllow: /_next/static/css/*\nAllow: /_next/static/chunks/*\n\nDisallow: /api/*\nAllow: /api/sitemap\nDisallow: /serverless/*\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/*",
+        "/_next/static/*",
+        "/_next/static/css/*",
+        "/_next/static/chunks/*",
+        "/api/sitemap"
+      ],
+      "disallowed": [
+        "/api/*",
+        "/serverless/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -18,5 +66,18 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/*",
+      "/_next/static/*",
+      "/_next/static/css/*",
+      "/_next/static/chunks/*",
+      "/api/sitemap"
+    ],
+    "disallowed": [
+      "/api/*",
+      "/serverless/*"
+    ]
+  }
 }

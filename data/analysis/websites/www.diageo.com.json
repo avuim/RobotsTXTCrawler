@@ -1,7 +1,170 @@
 {
   "domain": "www.diageo.com",
   "normalizedDomain": "www.diageo.com",
+  "robotsTxt": "User-agent: AhrefsBot\r\nDisallow: /\r\nUser-agent: Insieve+Bot\r\nDisallow: /\r\nUser-agent: gsa-crawler+(Enterprise;+T3-HR8MK3S756ETJ;+google-support@extended-content.com)\r\nDisallow: /\r\nUser-agent: BLP_bbot/0.1\r\nDisallow: /\r\nUser-agent: blp_bbot/0.1\r\nDisallow: /\r\nUser-agent: Java/1.6.0\r\nDisallow: /\r\nUser-agent: Java/1.6.0_04\r\nDisallow: /\r\nUser-agent: Java/1.6.0_11\r\nDisallow: /\r\nUser-agent: Java/1.6.0_15\r\nDisallow: /\r\nUser-agent: Java/1.6.0_16\r\nDisallow: /\r\nUser-agent: Java/1.6.0_17\r\nDisallow: /\r\nUser-agent: Java/1.6.0_18\r\nDisallow: /\r\nUser-agent: Java/1.6.0_20\r\nDisallow: /\r\nUser-agent: Java/1.6.0_22\r\nDisallow: /\r\nUser-agent: Java/1.6.0_24\r\nDisallow: /\r\nUser-agent: Java/1.6.0_25\r\nDisallow: /\r\nUser-agent: *\r\nDisallow: /staticresources/\r\nDisallow: /investis/\r\nDisallow: /tools/\r\nDisallow: /investis modules/\r\nDisallow: /*/sitecore/\r\nDisallow: /sitecore/\r\nDisallow: /*/sitecore/content/\r\nDisallow: /sitecore/content/\r\nDisallow: /error-page.aspx\r\nDisallow: /*/error-page.aspx\r\nDisallow: /favicon.ico\r\nDisallow: /WebResource.axd\r\nDisallow: /Webresource.axd\r\nDisallow: /ScriptResource.axd\r\n\r\nDisallow: /~/media/Files/D/Diageo-V2/Diageo-Corp/esg/responsible-drinking/marketing-code/digital-marketing-standard.pdf\r\n\r\n#XML sitemap\r\nsitemap: https://www.diageo.com/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/staticresources/",
+        "/investis/",
+        "/tools/",
+        "/investis modules/",
+        "/*/sitecore/",
+        "/sitecore/",
+        "/*/sitecore/content/",
+        "/sitecore/content/",
+        "/error-page.aspx",
+        "/*/error-page.aspx",
+        "/favicon.ico",
+        "/WebResource.axd",
+        "/Webresource.axd",
+        "/ScriptResource.axd",
+        "/~/media/Files/D/Diageo-V2/Diageo-Corp/esg/responsible-drinking/marketing-code/digital-marketing-standard.pdf"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Insieve+Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gsa-crawler+(Enterprise;+T3-HR8MK3S756ETJ;+google-support@extended-content.com)",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLP_bbot/0.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "blp_bbot/0.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Java/1.6.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Java/1.6.0_04",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Java/1.6.0_11",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Java/1.6.0_15",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Java/1.6.0_16",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Java/1.6.0_17",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Java/1.6.0_18",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Java/1.6.0_20",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Java/1.6.0_22",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Java/1.6.0_24",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Java/1.6.0_25",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 16,
+    "allowedBots": 0,
+    "disallowedBots": 16,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "AhrefsBot",
       "allowed": false
@@ -65,10 +228,26 @@
     {
       "name": "Java/1.6.0_25",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/staticresources/",
+      "/investis/",
+      "/tools/",
+      "/investis modules/",
+      "/*/sitecore/",
+      "/sitecore/",
+      "/*/sitecore/content/",
+      "/sitecore/content/",
+      "/error-page.aspx",
+      "/*/error-page.aspx",
+      "/favicon.ico",
+      "/WebResource.axd",
+      "/Webresource.axd",
+      "/ScriptResource.axd",
+      "/~/media/Files/D/Diageo-V2/Diageo-Corp/esg/responsible-drinking/marketing-code/digital-marketing-standard.pdf"
+    ]
+  }
 }

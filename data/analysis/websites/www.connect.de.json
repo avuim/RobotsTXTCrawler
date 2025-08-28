@@ -1,10 +1,32 @@
 {
   "domain": "www.connect.de",
   "normalizedDomain": "www.connect.de",
+  "robotsTxt": "User-agent: *\nDisallow: /d/\n\nUser-agent: *\nAllow: /\n\nSitemap: https://www.connect.de/sitemap/index.xml\nSitemap: https://www.connect.de/sitemap/index-bilder.xml\nSitemap: https://www.connect.de/sitemap/index-bildergalerie.xml\nSitemap: https://www.connect.de/sitemap/index-archiv.xml\nSitemap: https://www.connect.de/sitemap/index-aufmacherbilder.xml\nSitemap: https://www.connect.de/sitemap/index-bildergalerie-bilder.xml\nSitemap: https://www.connect.de/staticsitemap/connect/news.xml\nSitemap: https://www.connect.de/staticsitemap/connect/index-pages.xml\nSitemap: https://www.connect.de/staticsitemap/connect-unternehmen.xml\nSitemap: https://www.connect.de/staticsitemap/connect/glossary.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/d/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/d/"
+    ]
+  }
 }

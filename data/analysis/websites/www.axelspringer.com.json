@@ -1,10 +1,36 @@
 {
   "domain": "www.axelspringer.com",
   "normalizedDomain": "www.axelspringer.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /wp-admin/\r\nAllow: /wp-admin/admin-ajax.php\r\n\r\nSitemap: https://www.axelspringer.com/wp-sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/wp-admin/admin-ajax.php"
+      ],
+      "disallowed": [
+        "/wp-admin/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/wp-admin/admin-ajax.php"
+    ],
+    "disallowed": [
+      "/wp-admin/"
+    ]
+  }
 }

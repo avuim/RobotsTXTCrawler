@@ -1,10 +1,50 @@
 {
   "domain": "www.fiat.de",
   "normalizedDomain": "www.fiat.de",
+  "robotsTxt": "User-agent: *\r\n\r\nDisallow: /content/dam/fiat/formpdf\r\nDisallow: */nodotrimpadre\r\nDisallow: *.pdf$\r\nDisallow: */tabs-container\r\nDisallow: */pack-detail-carousel\r\nDisallow: */packs/\r\nDisallow: */CarouselAdditionalSlides\r\nDisallow: *backup\r\nDisallow: *-old\r\nDisallow: */engines/\r\n\r\nSitemap: https://www.fiat.de/sitemap.xml\r\n\r\nSitemap: https://www.fiat.de/mopar/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/content/dam/fiat/formpdf",
+        "*/nodotrimpadre",
+        "*.pdf$",
+        "*/tabs-container",
+        "*/pack-detail-carousel",
+        "*/packs/",
+        "*/CarouselAdditionalSlides",
+        "*backup",
+        "*-old",
+        "*/engines/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/content/dam/fiat/formpdf",
+      "*/nodotrimpadre",
+      "*.pdf$",
+      "*/tabs-container",
+      "*/pack-detail-carousel",
+      "*/packs/",
+      "*/CarouselAdditionalSlides",
+      "*backup",
+      "*-old",
+      "*/engines/"
+    ]
+  }
 }

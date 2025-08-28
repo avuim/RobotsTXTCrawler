@@ -1,6 +1,78 @@
 {
   "domain": "www.uber.com",
   "normalizedDomain": "www.uber.com",
+  "robotsTxt": "# robotstxt.org/\nUser-agent: *\nallow: *.js\nallow: *.css\ndisallow: /invite\ndisallow: /report-issue\ndisallow: */?_ga\ndisallow: *?gh_jid\ndisallow: */?client_id\ndisallow: */?realestate_id\ndisallow: */go/\ndisallow: */cmlntest-access\ndisallow: */api/\ndisallow: */custom-api/\ndisallow: */_uwa\ndisallow: /app/\ndisallow: /local/search\ndisallow: /local/*?*sort\ndisallow: /local/*/*/*/*/\ndisallow: /in/hi/e/*\ndisallow: /in/bn/e/*\ndisallow: /in/kn/e/*\ndisallow: /in/mr/e/*\ndisallow: /in/ta/e/*\ndisallow: /in/te/e/*\ndisallow: /in/ur/e/*\ndisallow: /*?id=\ndisallow: /*&id=\ndisallow: /*?*userId=\ndisallow: /*?*uber_client_name=\ndisallow: /*?*requestToken=\nallow: /.well-known/\n\nUser-agent: AdsBot-Google\nDisallow: */_uwa\n\nUser-agent: Googlebot-Image\nDisallow:\r\n\r\nsitemap: https://www.uber.com/sitemap.xml\r\n\r\ndisallow: /ch/en/\r\ndisallow: /in/ur/\r\ndisallow: /jp/zh/\r\ndisallow: /kr/zh/\r\ndisallow: /ma/fr/\r\ndisallow: /ma/en/",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "*.js",
+        "*.css",
+        "/.well-known/"
+      ],
+      "disallowed": [
+        "/invite",
+        "/report-issue",
+        "*/?_ga",
+        "*?gh_jid",
+        "*/?client_id",
+        "*/?realestate_id",
+        "*/go/",
+        "*/cmlntest-access",
+        "*/api/",
+        "*/custom-api/",
+        "*/_uwa",
+        "/app/",
+        "/local/search",
+        "/local/*?*sort",
+        "/local/*/*/*/*/",
+        "/in/hi/e/*",
+        "/in/bn/e/*",
+        "/in/kn/e/*",
+        "/in/mr/e/*",
+        "/in/ta/e/*",
+        "/in/te/e/*",
+        "/in/ur/e/*",
+        "/*?id=",
+        "/*&id=",
+        "/*?*userId=",
+        "/*?*uber_client_name=",
+        "/*?*requestToken="
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AdsBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "*/_uwa"
+        ]
+      }
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/ch/en/",
+          "/in/ur/",
+          "/jp/zh/",
+          "/kr/zh/",
+          "/ma/fr/",
+          "/ma/en/"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 1,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -8,11 +80,47 @@
     },
     {
       "name": "AdsBot-Google",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Googlebot-Image",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "*.js",
+      "*.css",
+      "/.well-known/"
+    ],
+    "disallowed": [
+      "/invite",
+      "/report-issue",
+      "*/?_ga",
+      "*?gh_jid",
+      "*/?client_id",
+      "*/?realestate_id",
+      "*/go/",
+      "*/cmlntest-access",
+      "*/api/",
+      "*/custom-api/",
+      "*/_uwa",
+      "/app/",
+      "/local/search",
+      "/local/*?*sort",
+      "/local/*/*/*/*/",
+      "/in/hi/e/*",
+      "/in/bn/e/*",
+      "/in/kn/e/*",
+      "/in/mr/e/*",
+      "/in/ta/e/*",
+      "/in/te/e/*",
+      "/in/ur/e/*",
+      "/*?id=",
+      "/*&id=",
+      "/*?*userId=",
+      "/*?*uber_client_name=",
+      "/*?*requestToken="
+    ]
+  }
 }

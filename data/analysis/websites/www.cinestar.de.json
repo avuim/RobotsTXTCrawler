@@ -1,10 +1,36 @@
 {
   "domain": "www.cinestar.de",
   "normalizedDomain": "www.cinestar.de",
+  "robotsTxt": "User-agent: *\nSitemap: https://www.cinestar.de/sitemap.xml\nDisallow: /app_dev.php\nDisallow: /app.php\nDisallow: /admin\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/app_dev.php",
+        "/app.php",
+        "/admin"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/app_dev.php",
+      "/app.php",
+      "/admin"
+    ]
+  }
 }

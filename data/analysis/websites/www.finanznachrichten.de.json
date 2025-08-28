@@ -1,10 +1,107 @@
 {
   "domain": "www.finanznachrichten.de",
   "normalizedDomain": "www.finanznachrichten.de",
+  "robotsTxt": "# robots.txt for http://www.finanznachrichten.de\nSitemap: https://www.finanznachrichten.de/sitemap-news/\n\nUser-agent: *\nDisallow: /a/\nDisallow: /account/\nDisallow: /Account/\nDisallow: /artikel/\nDisallow: /Artikel/\nDisallow: /banner/\nDisallow: /cgi-bin/\nDisallow: /content/\nDisallow: /Content/\nDisallow: /css/\nDisallow: /ext/\nDisallow: /fehler/\nDisallow: /Fehler/\nDisallow: /goto.asp\nDisallow: /h/\nDisallow: /js/\nDisallow: /kurs-extern/\nDisallow: /m/\nDisallow: /microsite/\nDisallow: /mobile/\nDisallow: /nachrichten-extern/\nDisallow: /partner/\nDisallow: /service/problembericht.htm\nDisallow: /service/seitenbewertung.htm\nDisallow: /settings/\nDisallow: /Settings/\nDisallow: /suche-aktie/\nDisallow: /suche-index/\nDisallow: /test/iframe/\nDisallow: /twitter/\nDisallow: /w/\nDisallow: /widgets/\nDisallow: /Widgets/\n\n# E-Mail Sammler raus\n\nUser-agent: WX_mail/2.000\nDisallow: /\n\nUser-agent: EmailCollector\nDisallow: /\n\nUser-agent: WhoWhere\nDisallow: /\n\nUser-Agent: Roverbot\nDisallow: /\n\nUser-Agent: ActiveAgent\nDisallow: /\n\nUser-agent: EmailSiphon\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/a/",
+        "/account/",
+        "/Account/",
+        "/artikel/",
+        "/Artikel/",
+        "/banner/",
+        "/cgi-bin/",
+        "/content/",
+        "/Content/",
+        "/css/",
+        "/ext/",
+        "/fehler/",
+        "/Fehler/",
+        "/goto.asp",
+        "/h/",
+        "/js/",
+        "/kurs-extern/",
+        "/m/",
+        "/microsite/",
+        "/mobile/",
+        "/nachrichten-extern/",
+        "/partner/",
+        "/service/problembericht.htm",
+        "/service/seitenbewertung.htm",
+        "/settings/",
+        "/Settings/",
+        "/suche-aktie/",
+        "/suche-index/",
+        "/test/iframe/",
+        "/twitter/",
+        "/w/",
+        "/widgets/",
+        "/Widgets/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "WX_mail/2.000",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WhoWhere",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Roverbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ActiveAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailSiphon",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 6,
+    "allowedBots": 0,
+    "disallowedBots": 6,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "WX_mail/2.000",
@@ -30,5 +127,43 @@
       "name": "EmailSiphon",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/a/",
+      "/account/",
+      "/Account/",
+      "/artikel/",
+      "/Artikel/",
+      "/banner/",
+      "/cgi-bin/",
+      "/content/",
+      "/Content/",
+      "/css/",
+      "/ext/",
+      "/fehler/",
+      "/Fehler/",
+      "/goto.asp",
+      "/h/",
+      "/js/",
+      "/kurs-extern/",
+      "/m/",
+      "/microsite/",
+      "/mobile/",
+      "/nachrichten-extern/",
+      "/partner/",
+      "/service/problembericht.htm",
+      "/service/seitenbewertung.htm",
+      "/settings/",
+      "/Settings/",
+      "/suche-aktie/",
+      "/suche-index/",
+      "/test/iframe/",
+      "/twitter/",
+      "/w/",
+      "/widgets/",
+      "/Widgets/"
+    ]
+  }
 }

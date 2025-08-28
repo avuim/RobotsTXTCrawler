@@ -1,10 +1,28 @@
 {
   "domain": "www.mazda.de",
   "normalizedDomain": "www.mazda.de",
+  "robotsTxt": "User-agent: * \r\nDisallow: \r\nSitemap: https://www.mazda.de/sitemap.xml\r\nSitemap: https://specials.mazda.de/micros/karriere-backend/sitemap.xml\r\nSitemap: https://www.mazda.de/api/sitemap/imagesitemap",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

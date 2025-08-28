@@ -1,10 +1,45 @@
 {
   "domain": "www.reiseplanung.de",
   "normalizedDomain": "www.reiseplanung.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /adblocker\r\nDisallow: /products\r\nDisallow: /error\r\nUser-agent: ImagesiftBot \r\nDisallow: /\r\nUser-agent: Sogou web spider\r\nDisallow: /\r\nSitemap: https://routenet.nl/sitemaps/postcode/sitemapindexpostcode.xml\r\nSitemap: https://routenet.nl/sitemaps/city/sitemapcityindex.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/adblocker",
+        "/products",
+        "/error"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Sogou web spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 0,
+    "disallowedBots": 2,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "ImagesiftBot",
@@ -14,5 +49,13 @@
       "name": "Sogou web spider",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/adblocker",
+      "/products",
+      "/error"
+    ]
+  }
 }

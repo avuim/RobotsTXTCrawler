@@ -1,10 +1,34 @@
 {
   "domain": "www.bacardi.com",
   "normalizedDomain": "www.bacardi.com",
+  "robotsTxt": "#\r\n# --- MJW Bacardi Robots.txt for live site\r\n#\r\n#         9/Sep/21 Block Eu locale remove duplicate and redundant XML and unblock includes\r\n#\r\nUser-Agent: MJ12bot\r\nCrawl-Delay: 15\r\nUser-agent: AhrefsBot\r\nCrawl-Delay: 15\r\n\r\nUser-agent: *\r\nAllow: /\r\nDisallow: /wp-admin/\r\nDisallow: /wp-includes/\r\n\r\nHost: https://www.bacardi.com/\r\n\r\nSitemap: https://www.bacardi.com/fr/fr/sitemap_index.xml\r\nSitemap: https://www.bacardi.com/be/fr/sitemap_index.xml\r\nSitemap: https://www.bacardi.com/be/nl/sitemap_index.xml\r\nSitemap: https://www.bacardi.com/mx/es/sitemap_index.xml\r\nSitemap: https://www.bacardi.com/ca/en/sitemap_index.xml\r\nSitemap: https://www.bacardi.com/ca/fr/sitemap_index.xml\r\nSitemap: https://www.bacardi.com/us/en/sitemap_index.xml\r\nSitemap: https://www.bacardi.com/uk/en/sitemap_index.xml\r\nSitemap: https://www.bacardi.com/de/de/sitemap_index.xml\r\nSitemap: https://www.bacardi.com/nl/nl/sitemap_index.xml\r\nSitemap: https://www.bacardi.com/es/es/sitemap_index.xml\r\nSitemap: https://www.bacardi.com/pl/pl/sitemap_index.xml\r\n\r\nSitemap: https://www.bacardi.com/sitemap_index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/wp-admin/",
+        "/wp-includes/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/wp-admin/",
+      "/wp-includes/"
+    ]
+  }
 }

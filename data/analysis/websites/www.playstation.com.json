@@ -1,10 +1,50 @@
 {
   "domain": "www.playstation.com",
   "normalizedDomain": "www.playstation.com",
+  "robotsTxt": "# PlayStation Robots.txt\r\n\r\nUser-agent: *\r\n\r\nDisallow: */explore/testing/\r\nDisallow: */community/community-score*\r\nDisallow: */?category*\r\nDisallow: */content/usergenerated/asi/mongo/content/sites/activitystreams/activities/community/*\r\nDisallow: */search/?q*\r\nDisallow: */content/experience-fragments/global_pdc/*\r\n\r\nUser-agent: *\r\nCrawl-delay: 5\r\n\r\nUser-agent:  AhrefsBot\r\nCrawl-delay: 10\r\n \r\nUser-agent:  YandexBot\r\nCrawl-delay: 10\r\n\r\nUser-agent:  bingbot\r\nCrawl-delay: 10\r\n\r\nUser-agent: *\r\nDisallow: */sitemap_gpdc.xml\r\n\r\nUser-agent: Algolia Crawler \r\nAllow: */sitemap_gpdc.xml\r\n\r\nUser-agent: PetalBot\r\nDisallow: /\r\n\r\n# Sitemaps\r\nSitemap: https://www.playstation.com/sitemap_index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "*/explore/testing/",
+        "*/community/community-score*",
+        "*/?category*",
+        "*/content/usergenerated/asi/mongo/content/sites/activitystreams/activities/community/*",
+        "*/search/?q*",
+        "*/content/experience-fragments/global_pdc/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Algolia Crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "*/sitemap_gpdc.xml"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 1,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Algolia Crawler",
@@ -14,5 +54,16 @@
       "name": "PetalBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "*/explore/testing/",
+      "*/community/community-score*",
+      "*/?category*",
+      "*/content/usergenerated/asi/mongo/content/sites/activitystreams/activities/community/*",
+      "*/search/?q*",
+      "*/content/experience-fragments/global_pdc/*"
+    ]
+  }
 }

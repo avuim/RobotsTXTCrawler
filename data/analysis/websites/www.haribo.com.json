@@ -1,10 +1,48 @@
 {
   "domain": "www.haribo.com",
   "normalizedDomain": "www.haribo.com",
+  "robotsTxt": "# robots.txt for https://www.haribo.com/\r\n\r\nSitemap: https://www.haribo.com/sitemap.xml\r\n\r\n\r\n# live - don't allow web crawlers to index cpresources/ or vendor/\r\n\r\nUser-agent: *\r\nDisallow: /cpresources/\r\nDisallow: /vendor/\r\nDisallow: /.env\r\nDisallow: /cache/\r\nDisallow: /admin/\r\nDisallow: /overview/\r\nDisallow: /website-manual/\r\nDisallow: /social-media-styleguide/\r\nDisallow: /playbook-e-commerce/\r\n#Disallow: /*/preview/*\r\n\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/cpresources/",
+        "/vendor/",
+        "/.env",
+        "/cache/",
+        "/admin/",
+        "/overview/",
+        "/website-manual/",
+        "/social-media-styleguide/",
+        "/playbook-e-commerce/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/cpresources/",
+      "/vendor/",
+      "/.env",
+      "/cache/",
+      "/admin/",
+      "/overview/",
+      "/website-manual/",
+      "/social-media-styleguide/",
+      "/playbook-e-commerce/"
+    ]
+  }
 }

@@ -1,10 +1,48 @@
 {
   "domain": "de.uefa.com",
   "normalizedDomain": "de.uefa.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /generic/*\r\nDisallow: /images/*\r\nDisallow: /libraries/*\r\nDisallow: /thirdparties/*\r\nDisallow: /test/*\r\nDisallow: /uc3/*\r\nDisallow: /*/_content\r\nDisallow: /disciplinary/*\r\nDisallow: /*?_preview_token_uefacom=\r\n\r\nSitemap: https://de.uefa.com/sitemap.xml\r\nSitemap: https://de.uefa.com/sitemap/news/latest.xml\r\nSitemap: https://de.uefa.com/sitemap/news/index.xml\r\nSitemap: https://de.uefa.com/sitemap/video/index.xml\r\nSitemap: https://de.uefa.com/sitemap/document/index.xml\r\nSitemap: https://de.uefa.com/sitemap/matches/index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/generic/*",
+        "/images/*",
+        "/libraries/*",
+        "/thirdparties/*",
+        "/test/*",
+        "/uc3/*",
+        "/*/_content",
+        "/disciplinary/*",
+        "/*?_preview_token_uefacom="
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/generic/*",
+      "/images/*",
+      "/libraries/*",
+      "/thirdparties/*",
+      "/test/*",
+      "/uc3/*",
+      "/*/_content",
+      "/disciplinary/*",
+      "/*?_preview_token_uefacom="
+    ]
+  }
 }

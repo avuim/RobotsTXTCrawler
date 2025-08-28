@@ -1,10 +1,72 @@
 {
   "domain": "www.wmf.com",
   "normalizedDomain": "www.wmf.com",
+  "robotsTxt": "User-agent: *\r\n\r\n# Exclude internal stuff and non-seo urls, global, not locale specific\r\nDisallow: */index.php/\r\nDisallow: */checkout/\r\nDisallow: */lib/\r\nDisallow: */*.php$\r\nDisallow: */catalog/\r\nDisallow: */catalogsearch/\r\nDisallow: */customer/\r\nDisallow: */sendfriend/\r\nDisallow: */review/\r\nDisallow: */*SID=\r\nDisallow: */wishlist/\r\n\r\n# Specific rules for /de/de/\r\nDisallow: /de/de/intern/\r\nDisallow: /de/de/kampagnen/\r\nDisallow: /de/de/rechtliches/\r\n\r\n# Specific rules for /de/en/\r\nDisallow: /de/en/internal/\r\nDisallow: /de/en/campaigns/\r\nDisallow: /de/en/disclaimer/\r\n\r\n# Specific rules for /es/, separate instance, they want to have everything crawled ...\r\nAllow: /es/\r\n\r\n# Allow access to catalog images, otherwise excluded by rules above\r\nAllow: /media/catalog/\r\nAllow: /es/media/catalog/\r\n\r\n# Sitemaps WMF Germany\r\nSitemap: https://www.wmf.com/media/sitemap/sitemap_de.xml\r\nSitemap: https://www.wmf.com/media/sitemap/sitemap_en.xml\r\n\r\n# Sitemaps WMF ES\r\nSitemap: https://www.wmf.com/es/media/google_sitemap_1.xml\r\nSitemap: https://www.wmf.com/es/media/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/es/",
+        "/media/catalog/",
+        "/es/media/catalog/"
+      ],
+      "disallowed": [
+        "*/index.php/",
+        "*/checkout/",
+        "*/lib/",
+        "*/*.php$",
+        "*/catalog/",
+        "*/catalogsearch/",
+        "*/customer/",
+        "*/sendfriend/",
+        "*/review/",
+        "*/*SID=",
+        "*/wishlist/",
+        "/de/de/intern/",
+        "/de/de/kampagnen/",
+        "/de/de/rechtliches/",
+        "/de/en/internal/",
+        "/de/en/campaigns/",
+        "/de/en/disclaimer/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/es/",
+      "/media/catalog/",
+      "/es/media/catalog/"
+    ],
+    "disallowed": [
+      "*/index.php/",
+      "*/checkout/",
+      "*/lib/",
+      "*/*.php$",
+      "*/catalog/",
+      "*/catalogsearch/",
+      "*/customer/",
+      "*/sendfriend/",
+      "*/review/",
+      "*/*SID=",
+      "*/wishlist/",
+      "/de/de/intern/",
+      "/de/de/kampagnen/",
+      "/de/de/rechtliches/",
+      "/de/en/internal/",
+      "/de/en/campaigns/",
+      "/de/en/disclaimer/"
+    ]
+  }
 }

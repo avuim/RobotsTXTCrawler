@@ -1,10 +1,32 @@
 {
   "domain": "www.audi.de",
   "normalizedDomain": "www.audi.de",
+  "robotsTxt": "User-Agent: *\r\nDisallow: /userinfo/\r\n\r\nSitemap: https://www.audi.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/userinfo/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/userinfo/"
+    ]
+  }
 }

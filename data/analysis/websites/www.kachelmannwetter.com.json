@@ -1,34 +1,173 @@
 {
   "domain": "www.kachelmannwetter.com",
   "normalizedDomain": "www.kachelmannwetter.com",
-  "bots": [
-    {
-      "name": "*",
-      "allowed": false
-    },
+  "robotsTxt": "User-agent: *\nDisallow: /images/overlay\nDisallow: /images/scale\nDisallow: /ajax\nDisallow: /ajax_pub\nDisallow: /*/ajax\nDisallow: /*/ajax_pub\nDisallow: /api\nDisallow: /widget\n\nUser-agent: AhrefsBot  \nDisallow: /images/overlay\nDisallow: /images/scale\nDisallow: /ajax\nDisallow: /ajax_pub\nDisallow: /*/ajax\nDisallow: /*/ajax_pub\nDisallow: /api\nDisallow: /widget\nCrawl-Delay: 30\n\nUser-agent: ClaudeBot\nDisallow: /images/overlay\nDisallow: /images/scale\nDisallow: /ajax\nDisallow: /ajax_pub\nDisallow: /*/ajax\nDisallow: /*/ajax_pub\nDisallow: /api\nDisallow: /widget\nCrawl-Delay: 30\n\nUser-agent: grapeshot\nDisallow: /images/overlay\nDisallow: /images/scale\nDisallow: /ajax\nDisallow: /ajax_pub\nDisallow: /*/ajax\nDisallow: /*/ajax_pub\nDisallow: /api\nDisallow: /widget\nCrawl-Delay: 30\n\nUser-agent: Bingbot\nDisallow: /images/overlay\nDisallow: /images/scale\nDisallow: /ajax\nDisallow: /ajax_pub\nDisallow: /*/ajax\nDisallow: /*/ajax_pub\nDisallow: /api\nDisallow: /widget\nCrawl-Delay: 1\n\nUser-agent: BingPreview\nDisallow: /images/overlay\nDisallow: /images/scale\nDisallow: /ajax\nDisallow: /ajax_pub\nDisallow: /*/ajax\nDisallow: /*/ajax_pub\nDisallow: /api\nDisallow: /widget\nCrawl-Delay: 1\n\nUser-agent: AdIdxBot\nDisallow: /images/overlay\nDisallow: /images/scale\nDisallow: /ajax\nDisallow: /ajax_pub\nDisallow: /*/ajax\nDisallow: /*/ajax_pub\nDisallow: /api\nDisallow: /widget\nCrawl-Delay: 1\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/images/overlay",
+        "/images/scale",
+        "/ajax",
+        "/ajax_pub",
+        "/*/ajax",
+        "/*/ajax_pub",
+        "/api",
+        "/widget"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "AhrefsBot",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/images/overlay",
+          "/images/scale",
+          "/ajax",
+          "/ajax_pub",
+          "/*/ajax",
+          "/*/ajax_pub",
+          "/api",
+          "/widget"
+        ]
+      }
     },
     {
       "name": "ClaudeBot",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/images/overlay",
+          "/images/scale",
+          "/ajax",
+          "/ajax_pub",
+          "/*/ajax",
+          "/*/ajax_pub",
+          "/api",
+          "/widget"
+        ]
+      }
     },
     {
       "name": "grapeshot",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/images/overlay",
+          "/images/scale",
+          "/ajax",
+          "/ajax_pub",
+          "/*/ajax",
+          "/*/ajax_pub",
+          "/api",
+          "/widget"
+        ]
+      }
     },
     {
       "name": "Bingbot",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/images/overlay",
+          "/images/scale",
+          "/ajax",
+          "/ajax_pub",
+          "/*/ajax",
+          "/*/ajax_pub",
+          "/api",
+          "/widget"
+        ]
+      }
     },
     {
       "name": "BingPreview",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/images/overlay",
+          "/images/scale",
+          "/ajax",
+          "/ajax_pub",
+          "/*/ajax",
+          "/*/ajax_pub",
+          "/api",
+          "/widget"
+        ]
+      }
     },
     {
       "name": "AdIdxBot",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/images/overlay",
+          "/images/scale",
+          "/ajax",
+          "/ajax_pub",
+          "/*/ajax",
+          "/*/ajax_pub",
+          "/api",
+          "/widget"
+        ]
+      }
     }
-  ]
+  ],
+  "stats": {
+    "totalSpecificBots": 6,
+    "allowedBots": 6,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": true
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "BingPreview",
+      "allowed": true
+    },
+    {
+      "name": "AdIdxBot",
+      "allowed": true
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/images/overlay",
+      "/images/scale",
+      "/ajax",
+      "/ajax_pub",
+      "/*/ajax",
+      "/*/ajax_pub",
+      "/api",
+      "/widget"
+    ]
+  }
 }

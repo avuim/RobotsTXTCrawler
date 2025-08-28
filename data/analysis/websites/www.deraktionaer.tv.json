@@ -1,10 +1,34 @@
 {
   "domain": "www.deraktionaer.tv",
   "normalizedDomain": "www.deraktionaer.tv",
+  "robotsTxt": "User-agent: * \nDisallow: /account/\nDisallow: /suchen*\nSitemap: https://www.deraktionaer.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/account/",
+        "/suchen*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/account/",
+      "/suchen*"
+    ]
+  }
 }

@@ -1,10 +1,107 @@
 {
   "domain": "www.unicef.de",
   "normalizedDomain": "www.unicef.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /unicef/suche\r\nDisallow: /unicef/suche/\r\nDisallow: /start\r\nDisallow: /action/unicef/bsearch/\r\nDisallow: /action/unicef/nsearch/\r\nDisallow: /action/unicef/comment/\r\nDisallow: /api/comments/\r\nDisallow: /image/177924/teaser/302/140/982f7e12ad4b6afc04f10a0bcbdbbb47/qX/lydia-wiesmann-jpg.jpg\r\nDisallow: /*submitAndConfirmDonation\r\nNoindex: /*submitAndConfirmDonation\r\nSitemap: https://www.unicef.de/_cae/action/unicef/sitemap/googlenews.xml\r\n\r\nUser-agent: EmailCollector\r\nDisallow: /\r\n\r\nUser-agent: sitecheck.internetseer.com\r\nDisallow: /\r\n\r\nUser-agent: Zealbot\r\nDisallow: /\r\n\r\nUser-agent: MSIECrawler\r\nDisallow: /\r\n\r\nUser-agent: dataforseo\r\nDisallow: /\r\n\r\nUser-agent: MJ12bot\r\nDisallow: /\r\n\r\nUser-agent: SiteSnagger\r\nDisallow: /\r\n\r\nUser-agent: WebStripper\r\nDisallow: /\r\n\r\nUser-agent: WebCopier\r\nDisallow: /\r\n\r\nSitemap: https://www.unicef.de/sitemap_index.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/unicef/suche",
+        "/unicef/suche/",
+        "/start",
+        "/action/unicef/bsearch/",
+        "/action/unicef/nsearch/",
+        "/action/unicef/comment/",
+        "/api/comments/",
+        "/image/177924/teaser/302/140/982f7e12ad4b6afc04f10a0bcbdbbb47/qX/lydia-wiesmann-jpg.jpg",
+        "/*submitAndConfirmDonation"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sitecheck.internetseer.com",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zealbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MSIECrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dataforseo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SiteSnagger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebStripper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 9,
+    "allowedBots": 0,
+    "disallowedBots": 9,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "EmailCollector",
@@ -42,5 +139,19 @@
       "name": "WebCopier",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/unicef/suche",
+      "/unicef/suche/",
+      "/start",
+      "/action/unicef/bsearch/",
+      "/action/unicef/nsearch/",
+      "/action/unicef/comment/",
+      "/api/comments/",
+      "/image/177924/teaser/302/140/982f7e12ad4b6afc04f10a0bcbdbbb47/qX/lydia-wiesmann-jpg.jpg",
+      "/*submitAndConfirmDonation"
+    ]
+  }
 }

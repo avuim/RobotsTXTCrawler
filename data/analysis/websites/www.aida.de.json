@@ -1,18 +1,101 @@
 {
   "domain": "www.aida.de",
   "normalizedDomain": "www.aida.de",
-  "bots": [
-    {
-      "name": "*",
-      "allowed": false
-    },
+  "robotsTxt": "# nr_robotstxt_exclusion BEGIN\nUser-agent: *\r\nDisallow: /kreuzfahrt/angebote-buchen/ibe.20389.html\r\nDisallow: /kreuzfahrt/angebote-buchen/ibe3.20389.html\r\nDisallow: /kreuzfahrt/angebote-buchen/ibe-fup.35857.html\r\nDisallow: /kreuzfahrt/angebote-buchen/ibe3/\r\nDisallow: /kreuzfahrt/ibe3-buchung.23757.html\r\nDisallow: /kreuzfahrt/ibe3-buchung/\r\nDisallow: /angebote/ibe.25489.html\r\nDisallow: /angebote/ibe/\r\nDisallow: /neue-generation/html-animationen.26520.html\r\nDisallow: /kreuzfahrt/suche.35548.html\r\nDisallow: /finden/\r\nDisallow: /reise/\r\n\r\n# Toolbots\r\nUser-agent: RyteBot\r\nDisallow: /aida-cruises/presse/\r\nDisallow: /nc/\r\nDisallow: /browse/\r\nDisallow: /aida-cruises/unternehmen/aktuelles/\r\nDisallow: /aida-cruises/nachhaltigkeit/aktuelles/\r\nDisallow: /aida-cruises/nachhaltigkeit/aida-cares/\r\nDisallow: /en/\r\nDisallow: /kreuzfahrt/faq/\r\nDisallow: /finden/\r\nDisallow: /reise/\r\n\r\nUser-agent: sistrixbot\r\nDisallow: /aida-cruises/presse/\r\nDisallow: /nc/\r\nDisallow: /browse/\r\nDisallow: /aida-cruises/unternehmen/aktuelles/\r\nDisallow: /aida-cruises/nachhaltigkeit/aktuelles/\r\nDisallow: /aida-cruises/nachhaltigkeit/aida-cares/\r\nDisallow: /en/\r\nDisallow: /kreuzfahrt/faq/\r\nDisallow: /finden/\r\nDisallow: /reise/\r\n\r\n# XML-Sitemap\r\nSitemap: https://www.aida.de/sitemap-index-xml\r\nSitemap: https://aida.de/content/aida/deutschland.sitemap.xml\n\n# nr_robotstxt_exclusion END",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/kreuzfahrt/angebote-buchen/ibe.20389.html",
+        "/kreuzfahrt/angebote-buchen/ibe3.20389.html",
+        "/kreuzfahrt/angebote-buchen/ibe-fup.35857.html",
+        "/kreuzfahrt/angebote-buchen/ibe3/",
+        "/kreuzfahrt/ibe3-buchung.23757.html",
+        "/kreuzfahrt/ibe3-buchung/",
+        "/angebote/ibe.25489.html",
+        "/angebote/ibe/",
+        "/neue-generation/html-animationen.26520.html",
+        "/kreuzfahrt/suche.35548.html",
+        "/finden/",
+        "/reise/"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "RyteBot",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/aida-cruises/presse/",
+          "/nc/",
+          "/browse/",
+          "/aida-cruises/unternehmen/aktuelles/",
+          "/aida-cruises/nachhaltigkeit/aktuelles/",
+          "/aida-cruises/nachhaltigkeit/aida-cares/",
+          "/en/",
+          "/kreuzfahrt/faq/",
+          "/finden/",
+          "/reise/"
+        ]
+      }
     },
     {
       "name": "sistrixbot",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/aida-cruises/presse/",
+          "/nc/",
+          "/browse/",
+          "/aida-cruises/unternehmen/aktuelles/",
+          "/aida-cruises/nachhaltigkeit/aktuelles/",
+          "/aida-cruises/nachhaltigkeit/aida-cares/",
+          "/en/",
+          "/kreuzfahrt/faq/",
+          "/finden/",
+          "/reise/"
+        ]
+      }
     }
-  ]
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 2,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true
+    },
+    {
+      "name": "sistrixbot",
+      "allowed": true
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/kreuzfahrt/angebote-buchen/ibe.20389.html",
+      "/kreuzfahrt/angebote-buchen/ibe3.20389.html",
+      "/kreuzfahrt/angebote-buchen/ibe-fup.35857.html",
+      "/kreuzfahrt/angebote-buchen/ibe3/",
+      "/kreuzfahrt/ibe3-buchung.23757.html",
+      "/kreuzfahrt/ibe3-buchung/",
+      "/angebote/ibe.25489.html",
+      "/angebote/ibe/",
+      "/neue-generation/html-animationen.26520.html",
+      "/kreuzfahrt/suche.35548.html",
+      "/finden/",
+      "/reise/"
+    ]
+  }
 }

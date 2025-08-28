@@ -1,10 +1,40 @@
 {
   "domain": "www.futurezone.de",
   "normalizedDomain": "www.futurezone.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /wp-admin/\r\nDisallow: /wp-include/\r\nDisallow: /wp-content/themes/newspack-dbn/fonts/\r\nAllow: /wp-admin/admin-ajax.php \r\nSitemap: https://www.futurezone.de/news-sitemap.xml\r\nSitemap: https://www.futurezone.de/sitemap_index.xml ",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/wp-admin/admin-ajax.php"
+      ],
+      "disallowed": [
+        "/wp-admin/",
+        "/wp-include/",
+        "/wp-content/themes/newspack-dbn/fonts/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/wp-admin/admin-ajax.php"
+    ],
+    "disallowed": [
+      "/wp-admin/",
+      "/wp-include/",
+      "/wp-content/themes/newspack-dbn/fonts/"
+    ]
+  }
 }

@@ -1,7 +1,50 @@
 {
   "domain": "www.dentolo.de",
   "normalizedDomain": "www.dentolo.de",
+  "robotsTxt": "User-agent: GPTBot\r\nDisallow:\r\n\r\nUser-agent: ClaudeBot\r\nDisallow:\r\n\r\nUser-agent: PerplexityBot\r\nDisallow:\r\n\r\nUser-agent: *\r\nDisallow:\r\n\r\nSitemap: https://www.dentolo.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": false
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
     {
       "name": "GPTBot",
       "allowed": false
@@ -13,10 +56,10 @@
     {
       "name": "PerplexityBot",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

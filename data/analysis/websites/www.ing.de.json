@@ -1,14 +1,165 @@
 {
   "domain": "www.ing.de",
   "normalizedDomain": "www.ing.de",
+  "robotsTxt": "User-agent: QualidatorSiteAnalyzer\r\nUser-agent: QualidatorWebSiteAnalyzer\r\nUser-agent: QualidatorBot\r\nDisallow: /\r\n\r\nUser-agent: *\r\nDisallow: /diba-forms/jobapplication/\r\nDisallow: /newforms3/plz-pruefung/layer_form/\r\nDisallow: /newforms4/depotuebertrag/\r\nDisallow: /presse/pressecenter/details/\r\nDisallow: /templates/\r\nDisallow: /ueber-uns/happybanking/\r\nDisallow: /ueber-uns/wissenswert/wissenswert_markup_liste.ssi\r\nDisallow: /vorteile/presse/pressemitteilungen/noheader/\r\nDisallow: /werbung/\r\nDisallow: /imperia/md/content/partner/intern/\r\nDisallow: */hidden/\r\nDisallow: /app/\r\nDisallow: /static/usercentrics/\r\n\r\nSitemap: https://www.ing.de/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/diba-forms/jobapplication/",
+        "/newforms3/plz-pruefung/layer_form/",
+        "/newforms4/depotuebertrag/",
+        "/presse/pressecenter/details/",
+        "/templates/",
+        "/ueber-uns/happybanking/",
+        "/ueber-uns/wissenswert/wissenswert_markup_liste.ssi",
+        "/vorteile/presse/pressemitteilungen/noheader/",
+        "/werbung/",
+        "/imperia/md/content/partner/intern/",
+        "*/hidden/",
+        "/app/",
+        "/static/usercentrics/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "QualidatorSiteAnalyzer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "QualidatorWebSiteAnalyzer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "QualidatorBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "QualidatorSiteAnalyzer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "QualidatorWebSiteAnalyzer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "QualidatorBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "QualidatorSiteAnalyzer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "QualidatorWebSiteAnalyzer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "QualidatorBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 9,
+    "allowedBots": 0,
+    "disallowedBots": 9,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "QualidatorSiteAnalyzer",
+      "allowed": false
+    },
+    {
+      "name": "QualidatorWebSiteAnalyzer",
+      "allowed": false
+    },
     {
       "name": "QualidatorBot",
       "allowed": false
     },
     {
-      "name": "*",
+      "name": "QualidatorSiteAnalyzer",
+      "allowed": false
+    },
+    {
+      "name": "QualidatorWebSiteAnalyzer",
+      "allowed": false
+    },
+    {
+      "name": "QualidatorBot",
+      "allowed": false
+    },
+    {
+      "name": "QualidatorSiteAnalyzer",
+      "allowed": false
+    },
+    {
+      "name": "QualidatorWebSiteAnalyzer",
+      "allowed": false
+    },
+    {
+      "name": "QualidatorBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/diba-forms/jobapplication/",
+      "/newforms3/plz-pruefung/layer_form/",
+      "/newforms4/depotuebertrag/",
+      "/presse/pressecenter/details/",
+      "/templates/",
+      "/ueber-uns/happybanking/",
+      "/ueber-uns/wissenswert/wissenswert_markup_liste.ssi",
+      "/vorteile/presse/pressemitteilungen/noheader/",
+      "/werbung/",
+      "/imperia/md/content/partner/intern/",
+      "*/hidden/",
+      "/app/",
+      "/static/usercentrics/"
+    ]
+  }
 }

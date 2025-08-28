@@ -1,14 +1,815 @@
 {
   "domain": "www.outdoorchannel.de",
   "normalizedDomain": "www.outdoorchannel.de",
+  "robotsTxt": "# Allow sitemap\nSitemap: https://www.outdoor-magazin.com/sitemap/od-sitemap-news.xml\nSitemap: https://www.outdoor-magazin.com/sitemap/od-sitemap-index.xml\nSitemap: https://www.outdoor-magazin.com/sitemap/od-sitemap-navigation.xml\nSitemap: https://www.outdoor-magazin.com/sitemap/od-sitemap-footer.xml\nSitemap: https://www.outdoor-magazin.com/sitemap/od-sitemap-themenseiten.xml\nSitemap: https://www.outdoor-magazin.com/sitemap/od-video-sitemap-index.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/authors-sitemap.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Klettern.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Zeltplatzsuche.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Nachhaltigkeit.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Touren.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Jacken.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Schuhe.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Outdoor-Kleidung.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Rucksaecke.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Zelte.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Schlafsack.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Isomatte.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Kocher.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Zubehoer.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Wintersport.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Ausruestung_Produkttest.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Klettern_Kletterszene.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Klettern_Training.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Klettern_Skills.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Klettern_Sicherheit.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Klettern_Bouldern.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Klettern_Spots.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Klettern_Gear.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Klettern_Schwierigkeitsgrade-im-Vergleich.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Klettern_Produkttest.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_Szene.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_CampAndEquipment.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_TourenAndPlanung.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_FitnessAndErnaehrung.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_FloraAndFauna.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_Klettersteig.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_Bushcraft.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_Reise-News.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_Videos.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_Sonstiges.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Outdoorwissen_Produkttest.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Touren_Deutschland.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Touren_Oesterreich.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Touren_Schweiz.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Touren_Italien.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Touren_Skandinavien.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Touren_Europa.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Touren_Weltweit.xml\nsitemap: https://www.outdoor-magazin.com/sitemap/sitemap-Produkttest.xml\n\n\n\n# disallow api calls\nUser-agent: *\nDisallow: /irapi/*\nDisallow: /irelements/element/*\nDisallow: /irelements/standalone/*\nDisallow: /irelements/element\nDisallow: /irelements/elements\nDisallow: /irelements/elements/*\n\nDisallow: /heft/*\nDisallow: *ePaper*.pdf\n\n# Diese Crawler blockieren\nUser-agent: AI2Bot\nUser-agent: omgili\nUser-agent: TimpiBot\nUser-agent: BLEXBot\nUser-agent: dotbot\nUser-agent: MJ12bot\nUser-agent: Barkrowler\nUser-agent: Optimizer\nDisallow: /\n\n# Legal notice: [https://www.outdoor-magazin.com/] expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).\n# The use of robots or other automated means to access [https://www.outdoor-magazin.com/] or collect or mine data without the express permission of [https://www.outdoor-magazin.com/] is strictly prohibited.\n# If you would like to apply for permission to crawl [https://www.outdoor-magazin.com/], collect or use data, please contact [ompi@motorpresse.de]",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/irapi/*",
+        "/irelements/element/*",
+        "/irelements/standalone/*",
+        "/irelements/element",
+        "/irelements/elements",
+        "/irelements/elements/*",
+        "/heft/*",
+        "*ePaper*.pdf"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 64,
+    "allowedBots": 0,
+    "disallowedBots": 64,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
       "allowed": false
     },
     {
       "name": "Optimizer",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/irapi/*",
+      "/irelements/element/*",
+      "/irelements/standalone/*",
+      "/irelements/element",
+      "/irelements/elements",
+      "/irelements/elements/*",
+      "/heft/*",
+      "*ePaper*.pdf"
+    ]
+  }
 }

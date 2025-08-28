@@ -1,14 +1,212 @@
 {
   "domain": "www.gq.com",
   "normalizedDomain": "www.gq.com",
+  "robotsTxt": "User-agent: *\nDisallow: /search?\nDisallow: /preview/\nDisallow: /*?redirectURL=\nDisallow: /*{{url}}\nDisallow: /*%7B%7Burl%7D%7D\nDisallow: /auth/*\nDisallow: /account/*\nDisallow: /*{{section}}\nDisallow: /*%7B%7Bsection%7D%7D\nDisallow: /product/\nDisallow: /user-context?referrer\nDisallow: /services.min.js?_=\nDisallow: /com.condenast/yv8*\n\nUser-agent: Googlebot-News\nDisallow: /branded/\nDisallow: /video/right_rail*\nDisallow: /*?redirectURL=\nDisallow: /*{{url}}\nDisallow: /*%7B%7Burl%7D%7D\nDisallow: /*{{section}}\nDisallow: /*%7B%7Bsection%7D%7D\nDisallow: /auth/*\nDisallow: /account/*\nDisallow: /product/\nDisallow: /search\nDisallow: /user-context?referrer\nDisallow: /services.min.js?_=\nDisallow: /com.condenast/yv8*\n\nUser-agent: Google-InspectionTool\nAllow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: FacebookBot\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: Omgilibot\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: YouBot\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: cohere-training-data-crawler\nDisallow: /\n\nUser-agent: Twitterbot\nDisallow: /*/amp\n\nSitemap: https://www.gq.com/sitemap.xml\nSitemap: https://www.gq.com/feed/google-latest-news/sitemap-google-news\nSitemap: https://www.gq.com/branded-sitemap.xml\nSitemap: https://www.gq.com/categories-sitemap.xml\nSitemap: https://www.gq.com/contributors-sitemap.xml\nSitemap: https://www.gq.com/sitemap-archive-1.xml\nSitemap: https://www.gq.com/bundles-sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/search?",
+        "/preview/",
+        "/*?redirectURL=",
+        "/*{{url}}",
+        "/*%7B%7Burl%7D%7D",
+        "/auth/*",
+        "/account/*",
+        "/*{{section}}",
+        "/*%7B%7Bsection%7D%7D",
+        "/product/",
+        "/user-context?referrer",
+        "/services.min.js?_=",
+        "/com.condenast/yv8*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot-News",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/branded/",
+          "/video/right_rail*",
+          "/*?redirectURL=",
+          "/*{{url}}",
+          "/*%7B%7Burl%7D%7D",
+          "/*{{section}}",
+          "/*%7B%7Bsection%7D%7D",
+          "/auth/*",
+          "/account/*",
+          "/product/",
+          "/search",
+          "/user-context?referrer",
+          "/services.min.js?_=",
+          "/com.condenast/yv8*"
+        ]
+      }
+    },
+    {
+      "name": "Google-InspectionTool",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YouBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-training-data-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/*/amp"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 19,
+    "allowedBots": 3,
+    "disallowedBots": 16,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Googlebot-News",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Google-InspectionTool",
@@ -80,7 +278,25 @@
     },
     {
       "name": "Twitterbot",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/search?",
+      "/preview/",
+      "/*?redirectURL=",
+      "/*{{url}}",
+      "/*%7B%7Burl%7D%7D",
+      "/auth/*",
+      "/account/*",
+      "/*{{section}}",
+      "/*%7B%7Bsection%7D%7D",
+      "/product/",
+      "/user-context?referrer",
+      "/services.min.js?_=",
+      "/com.condenast/yv8*"
+    ]
+  }
 }

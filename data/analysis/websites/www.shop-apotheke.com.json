@@ -1,7 +1,131 @@
 {
   "domain": "www.shop-apotheke.com",
   "normalizedDomain": "www.shop-apotheke.com",
+  "robotsTxt": "# robots.txt shop-apotheke.com\r\n# 2025-03-21-mMichla changelog: \r\n# xml-sm done, lp rd new, prv, pdf-ex, mails; legal, F*bot ohne plopp, webview, te\r\n# allow JS and CSS; merchant params\r\n\r\nsitemap: https://www.shop-apotheke.com/sitemap/sitemap.xml\r\n\r\nUser-agent: Mediapartners-Google\r\nAllow: /*adword=*\r\nAllow: /*campaign=*\r\nAllow: /*ef_id=*\r\nAllow: /*emcs*=*\r\nAllow: /*fromtemplate=*\r\nAllow: /*expa=*\r\nAllow: /*pup_e=*\r\nAllow: /*manufacturer=*\r\nAllow: /*Price=*\r\nAllow: /*organic=*\r\nAllow: /*pharmaceuticalForm=*\r\nAllow: /*prescription=*\r\nAllow: /*productRatings=*\r\nAllow: /*ratingdatascore=*\r\nAllow: /*resultsPerPage=*\r\nAllow: /*substancesFilter=*\r\nAllow: /*sortAndOrder=*\r\nAllow: /*track*\r\n\r\nUser-agent: AdIdxBot\r\nAllow: /*adword=*\r\nAllow: /*campaign=*\r\nAllow: /*ef_id=*\r\nAllow: /*emcs*=*\r\nAllow: /*fromtemplate=*\r\nAllow: /*expa=*\r\nAllow: /*pup_e=*\r\nAllow: /*manufacturer=*\r\nAllow: /*Price=*\r\nAllow: /*organic=*\r\nAllow: /*pharmaceuticalForm=*\r\nAllow: /*prescription=*\r\nAllow: /*productRatings=*\r\nAllow: /*ratingdatascore=*\r\nAllow: /*resultsPerPage=*\r\nAllow: /*substancesFilter=*\r\nAllow: /*sortAndOrder=*\r\nAllow: /*track*\r\n\r\nUser-agent: *\r\nDisallow: /*a_admin*\r\nDisallow: /*account/*\r\nDisallow: /*add-to-cart*\r\nDisallow: /*callbackForm*\r\nDisallow: /*emailForm*\r\nDisallow: /*emailOnAvailability*\r\nDisallow: /*callcenter*\r\nDisallow: /*cart.*\r\nDisallow: /*checkout*\r\nDisallow: /*content-templates*\r\nDisallow: /*getLegalText.go*\r\nDisallow: /*legal.html*\r\nDisallow: /*includes/*\r\nDisallow: /*landingpages/*\r\nDisallow: /*layouts/*\r\nDisallow: /*login.htm*\r\nDisallow: /*macros/*\r\nDisallow: /*neu/*\r\nDisallow: /*nl/*\r\nDisallow: /*nx/*\r\nDisallow: /*-neuheiten*\r\nDisallow: /*offers/*\r\nDisallow: /*password.htm*\r\nDisallow: /*payco-mns.htm*\r\nDisallow: /*pdf-extern*\r\nDisallow: /*search.htm*\r\nDisallow: /*set-password.htm*\r\nDisallow: /*translations/*\r\nDisallow: /*updateNotepad*\r\nDisallow: /*attributes=*\r\nDisallow: /*emcs*=*\r\nDisallow: /*helpful=*\r\nDisallow: /*manufacturer=*\r\nDisallow: /*Price=*\r\nDisallow: /*pharmaceuticalForm=*\r\nDisallow: /*prescription=*\r\nDisallow: /*productRating=*\r\nDisallow: /*productRatings=*\r\nDisallow: /*produktbewertungen*\r\nDisallow: /*promo/*\r\nDisallow: /*rateHelpfulness*\r\nDisallow: /*ratingdatascore=*\r\nDisallow: /*resultsPerPage=*\r\nDisallow: /*substancesFilter=*\r\nDisallow: /*sortAndOrder=*\r\nDisallow: /te/*\r\nDisallow: /*trackid=*\r\nDisallow: /*all-from-category*\r\nDisallow: /*webview*\r\nDisallow: /*campaign=share*\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*a_admin*",
+        "/*account/*",
+        "/*add-to-cart*",
+        "/*callbackForm*",
+        "/*emailForm*",
+        "/*emailOnAvailability*",
+        "/*callcenter*",
+        "/*cart.*",
+        "/*checkout*",
+        "/*content-templates*",
+        "/*getLegalText.go*",
+        "/*legal.html*",
+        "/*includes/*",
+        "/*landingpages/*",
+        "/*layouts/*",
+        "/*login.htm*",
+        "/*macros/*",
+        "/*neu/*",
+        "/*nl/*",
+        "/*nx/*",
+        "/*-neuheiten*",
+        "/*offers/*",
+        "/*password.htm*",
+        "/*payco-mns.htm*",
+        "/*pdf-extern*",
+        "/*search.htm*",
+        "/*set-password.htm*",
+        "/*translations/*",
+        "/*updateNotepad*",
+        "/*attributes=*",
+        "/*emcs*=*",
+        "/*helpful=*",
+        "/*manufacturer=*",
+        "/*Price=*",
+        "/*pharmaceuticalForm=*",
+        "/*prescription=*",
+        "/*productRating=*",
+        "/*productRatings=*",
+        "/*produktbewertungen*",
+        "/*promo/*",
+        "/*rateHelpfulness*",
+        "/*ratingdatascore=*",
+        "/*resultsPerPage=*",
+        "/*substancesFilter=*",
+        "/*sortAndOrder=*",
+        "/te/*",
+        "/*trackid=*",
+        "/*all-from-category*",
+        "/*webview*",
+        "/*campaign=share*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*adword=*",
+          "/*campaign=*",
+          "/*ef_id=*",
+          "/*emcs*=*",
+          "/*fromtemplate=*",
+          "/*expa=*",
+          "/*pup_e=*",
+          "/*manufacturer=*",
+          "/*Price=*",
+          "/*organic=*",
+          "/*pharmaceuticalForm=*",
+          "/*prescription=*",
+          "/*productRatings=*",
+          "/*ratingdatascore=*",
+          "/*resultsPerPage=*",
+          "/*substancesFilter=*",
+          "/*sortAndOrder=*",
+          "/*track*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdIdxBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*adword=*",
+          "/*campaign=*",
+          "/*ef_id=*",
+          "/*emcs*=*",
+          "/*fromtemplate=*",
+          "/*expa=*",
+          "/*pup_e=*",
+          "/*manufacturer=*",
+          "/*Price=*",
+          "/*organic=*",
+          "/*pharmaceuticalForm=*",
+          "/*prescription=*",
+          "/*productRatings=*",
+          "/*ratingdatascore=*",
+          "/*resultsPerPage=*",
+          "/*substancesFilter=*",
+          "/*sortAndOrder=*",
+          "/*track*"
+        ],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 2,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "Mediapartners-Google",
       "allowed": true
@@ -9,10 +133,61 @@
     {
       "name": "AdIdxBot",
       "allowed": true
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*a_admin*",
+      "/*account/*",
+      "/*add-to-cart*",
+      "/*callbackForm*",
+      "/*emailForm*",
+      "/*emailOnAvailability*",
+      "/*callcenter*",
+      "/*cart.*",
+      "/*checkout*",
+      "/*content-templates*",
+      "/*getLegalText.go*",
+      "/*legal.html*",
+      "/*includes/*",
+      "/*landingpages/*",
+      "/*layouts/*",
+      "/*login.htm*",
+      "/*macros/*",
+      "/*neu/*",
+      "/*nl/*",
+      "/*nx/*",
+      "/*-neuheiten*",
+      "/*offers/*",
+      "/*password.htm*",
+      "/*payco-mns.htm*",
+      "/*pdf-extern*",
+      "/*search.htm*",
+      "/*set-password.htm*",
+      "/*translations/*",
+      "/*updateNotepad*",
+      "/*attributes=*",
+      "/*emcs*=*",
+      "/*helpful=*",
+      "/*manufacturer=*",
+      "/*Price=*",
+      "/*pharmaceuticalForm=*",
+      "/*prescription=*",
+      "/*productRating=*",
+      "/*productRatings=*",
+      "/*produktbewertungen*",
+      "/*promo/*",
+      "/*rateHelpfulness*",
+      "/*ratingdatascore=*",
+      "/*resultsPerPage=*",
+      "/*substancesFilter=*",
+      "/*sortAndOrder=*",
+      "/te/*",
+      "/*trackid=*",
+      "/*all-from-category*",
+      "/*webview*",
+      "/*campaign=share*"
+    ]
+  }
 }

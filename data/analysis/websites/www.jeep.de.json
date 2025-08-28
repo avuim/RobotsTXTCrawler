@@ -1,10 +1,34 @@
 {
   "domain": "www.jeep.de",
   "normalizedDomain": "www.jeep.de",
+  "robotsTxt": "User-agent: *\r\n\r\nDisallow: /content/dam/jeep/formpdf\r\nDisallow: /*.pdf$\r\n\r\n\r\nSitemap: https://www.jeep.de/sitemap.xml\r\nSitemap: https://www.jeep.de/mopar/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/content/dam/jeep/formpdf",
+        "/*.pdf$"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/content/dam/jeep/formpdf",
+      "/*.pdf$"
+    ]
+  }
 }

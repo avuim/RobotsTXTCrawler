@@ -1,10 +1,184 @@
 {
   "domain": "www.feierabend.de",
   "normalizedDomain": "www.feierabend.de",
+  "robotsTxt": "User-agent: *\nDisallow: /noi/\nDisallow: /cgi-bin/gta/cm.pl\nDisallow: /cgi-bin/visitenkarten/search.pl\nDisallow: /cgi-bin/visitenkarten/vk.pl\nDisallow: /cgi-bin/dl.pl\nDisallow: /cgi-bin/user_guestbook/\nDisallow: /cgi-bin/msg/\nDisallow: /ohg/\nDisallow: /gta/\nDisallow: /cgi-bin/login/ma.pl\nDisallow: /cgi-bin/bm/v.pl\nDisallow: /*/*/suche/\nDisallow: /*/mitglieder/\nDisallow: /*/*/mitglieder/\n\nUser-agent: AhrefsBot\ndisallow: /\n\nUser-agent: Yandex\ndisallow: /\n\nUser-agent: MJ12bot\ndisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: AppleBot\nDisallow: /\n\nUser-agent: trendictionbot\nDisallow: /\n\nUser-agent: DotBot\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: YandexBot\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: Megalodon\nDisallow: /\n\nUser-agent: BLEXBot\nDisallow: /\n\nUser-agent: Sogou Spider\nDisallow: /\n\nUser-agent: facebookexternalhit\nDisallow: /\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/noi/",
+        "/cgi-bin/gta/cm.pl",
+        "/cgi-bin/visitenkarten/search.pl",
+        "/cgi-bin/visitenkarten/vk.pl",
+        "/cgi-bin/dl.pl",
+        "/cgi-bin/user_guestbook/",
+        "/cgi-bin/msg/",
+        "/ohg/",
+        "/gta/",
+        "/cgi-bin/login/ma.pl",
+        "/cgi-bin/bm/v.pl",
+        "/*/*/suche/",
+        "/*/mitglieder/",
+        "/*/*/mitglieder/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yandex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AppleBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "trendictionbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DotBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Megalodon",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Sogou Spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "facebookexternalhit",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 18,
+    "allowedBots": 0,
+    "disallowedBots": 18,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "AhrefsBot",
@@ -78,5 +252,24 @@
       "name": "facebookexternalhit",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/noi/",
+      "/cgi-bin/gta/cm.pl",
+      "/cgi-bin/visitenkarten/search.pl",
+      "/cgi-bin/visitenkarten/vk.pl",
+      "/cgi-bin/dl.pl",
+      "/cgi-bin/user_guestbook/",
+      "/cgi-bin/msg/",
+      "/ohg/",
+      "/gta/",
+      "/cgi-bin/login/ma.pl",
+      "/cgi-bin/bm/v.pl",
+      "/*/*/suche/",
+      "/*/mitglieder/",
+      "/*/*/mitglieder/"
+    ]
+  }
 }

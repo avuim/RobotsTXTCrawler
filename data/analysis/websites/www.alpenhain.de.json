@@ -1,6 +1,121 @@
 {
   "domain": "www.alpenhain.de",
   "normalizedDomain": "www.alpenhain.de",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\nDisallow: /*.xlsx$\r\nDisallow: /ideenbuch.php\r\nDisallow: /block/\r\nDisallow: /blocks/\r\nDisallow: /inc/\r\nDisallow: /tmp/\r\nDisallow: /upload/\r\nDisallow: /uploaded/\r\nDisallow: /uploads/\r\nDisallow: /tmp/\r\nDisallow: /temp/\r\nDisallow: /*?page=*\r\n\r\n#User-agent: Googlebot\r\n#Disallow:\r\n\r\n#User-agent: AdsBot-Google\r\n#Disallow:\r\n\r\n#User-agent: Googlebot-Image\r\n#Disallow:\r\n\r\n\r\n\r\n# Dark Visitors Robots.txt\r\n\r\n# AI Data Scraper\r\n# https://darkvisitors.com/agents/bytespider\r\n\r\nUser-agent: Bytespider\r\nDisallow: /\r\n\r\n# AI Data Scraper\r\n# https://darkvisitors.com/agents/ccbot\r\n\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\n# AI Data Scraper\r\n# https://darkvisitors.com/agents/claudebot\r\n\r\nUser-agent: ClaudeBot\r\nDisallow: /\r\n\r\n# AI Data Scraper\r\n# https://darkvisitors.com/agents/diffbot\r\n\r\nUser-agent: Diffbot\r\nDisallow: /\r\n\r\n# AI Data Scraper\r\n# https://darkvisitors.com/agents/facebookbot\r\n\r\nUser-agent: FacebookBot\r\nDisallow: /\r\n\r\n# AI Data Scraper\r\n# https://darkvisitors.com/agents/google-extended\r\n\r\nUser-agent: Google-Extended\r\nDisallow: /\r\n\r\n# AI Data Scraper\r\n# https://darkvisitors.com/agents/gptbot\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\n# AI Data Scraper\r\n# https://darkvisitors.com/agents/omgili\r\n\r\nUser-agent: omgili\r\nDisallow: /\r\n\r\n# Undocumented AI Agent\r\n# https://darkvisitors.com/agents/anthropic-ai\r\n\r\nUser-agent: anthropic-ai\r\nDisallow: /\r\n\r\n# Undocumented AI Agent\r\n# https://darkvisitors.com/agents/claude-web\r\n\r\nUser-agent: Claude-Web\r\nDisallow: /\r\n\r\n# Undocumented AI Agent\r\n# https://darkvisitors.com/agents/cohere-ai\r\n\r\nUser-agent: cohere-ai\r\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*.xlsx$",
+        "/ideenbuch.php",
+        "/block/",
+        "/blocks/",
+        "/inc/",
+        "/tmp/",
+        "/upload/",
+        "/uploaded/",
+        "/uploads/",
+        "/temp/",
+        "/*?page=*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 11,
+    "allowedBots": 0,
+    "disallowedBots": 11,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -50,5 +165,21 @@
       "name": "cohere-ai",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*.xlsx$",
+      "/ideenbuch.php",
+      "/block/",
+      "/blocks/",
+      "/inc/",
+      "/tmp/",
+      "/upload/",
+      "/uploaded/",
+      "/uploads/",
+      "/temp/",
+      "/*?page=*"
+    ]
+  }
 }

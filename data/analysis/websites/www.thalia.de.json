@@ -1,18 +1,164 @@
 {
   "domain": "www.thalia.de",
   "normalizedDomain": "www.thalia.de",
-  "bots": [
-    {
-      "name": "*",
-      "allowed": false
-    },
+  "robotsTxt": "# Quelle: Asset-Service\r\n\r\nUser-agent: *\r\nDisallow: /abokaufen/abokauf\r\nDisallow: /affiliate/\r\nDisallow: /anonymisieren/loeschen\r\nDisallow: /api/\r\nDisallow: /autorenportrait/v1/*/content\r\nDisallow: /base/\r\nDisallow: /bestelluebersicht\r\nDisallow: /bewertung/verfassen\r\nDisallow: /downloadcode/\r\nDisallow: /empfehlungen/\r\nDisallow: /kontakt/bewertungen/\r\nDisallow: /konto/\r\nDisallow: /shop/home/kunde/\r\nDisallow: /shop/home/kundenbewertung/\r\nDisallow: /shop/home/merkliste/\r\nDisallow: /shop/home/newsletter/abmelden/success.html\r\nDisallow: /shop/home/newsletter/doi.html\r\nDisallow: /shop/home/warenkorb/add\r\nDisallow: /suche\r\nDisallow: /tag/\r\nDisallow: /warenkorb/\r\n\r\nUser-agent: AdsBot-Google\r\nDisallow: /*-resources/\r\nDisallow: /abokaufen/api/\r\nDisallow: /affiliate/\r\nDisallow: /api/\r\nDisallow: /club/\r\nDisallow: /filialbestandsanzeige/\r\nDisallow: /include/login/\r\nDisallow: /leseexemplarservice/\r\nDisallow: /login/\r\n\r\nUser-agent: facebookexternalhit\r\nDisallow: /*-resources/\r\nDisallow: /abokaufen/\r\nDisallow: /affiliate/\r\nDisallow: /api/\r\nDisallow: /bewertungsservice/\r\nDisallow: /kundeninteressen/\r\nDisallow: /leseexemplarservice/\r\nDisallow: /tag/\r\n\r\nUser-agent: GPTBot\r\nCrawl-delay: 1\r\n\r\nUser-agent: Pinterestbot\r\nCrawl-delay: 1\r\n\r\n\r\nSitemap: https://www.thalia.de/sitemaps/kategorie/kategorie.xml\r\nSitemap: https://www.thalia.de/sitemaps/artikel/artikel.xml\r\nSitemap: https://www.thalia.de/sitemaps/autoren/autoren.xml\r\nSitemap: https://www.thalia.de/sitemaps/themenwelt/themenwelt.xml\r\nSitemap: https://www.thalia.de/sitemaps/images/image_sitemap_index.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/abokaufen/abokauf",
+        "/affiliate/",
+        "/anonymisieren/loeschen",
+        "/api/",
+        "/autorenportrait/v1/*/content",
+        "/base/",
+        "/bestelluebersicht",
+        "/bewertung/verfassen",
+        "/downloadcode/",
+        "/empfehlungen/",
+        "/kontakt/bewertungen/",
+        "/konto/",
+        "/shop/home/kunde/",
+        "/shop/home/kundenbewertung/",
+        "/shop/home/merkliste/",
+        "/shop/home/newsletter/abmelden/success.html",
+        "/shop/home/newsletter/doi.html",
+        "/shop/home/warenkorb/add",
+        "/suche",
+        "/tag/",
+        "/warenkorb/"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "AdsBot-Google",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/*-resources/",
+          "/abokaufen/api/",
+          "/affiliate/",
+          "/api/",
+          "/club/",
+          "/filialbestandsanzeige/",
+          "/include/login/",
+          "/leseexemplarservice/",
+          "/login/"
+        ]
+      }
     },
     {
       "name": "facebookexternalhit",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/*-resources/",
+          "/abokaufen/",
+          "/affiliate/",
+          "/api/",
+          "/bewertungsservice/",
+          "/kundeninteressen/",
+          "/leseexemplarservice/",
+          "/tag/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterestbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterestbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
     }
-  ]
+  ],
+  "stats": {
+    "totalSpecificBots": 6,
+    "allowedBots": 6,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterestbot",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterestbot",
+      "allowed": true
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/abokaufen/abokauf",
+      "/affiliate/",
+      "/anonymisieren/loeschen",
+      "/api/",
+      "/autorenportrait/v1/*/content",
+      "/base/",
+      "/bestelluebersicht",
+      "/bewertung/verfassen",
+      "/downloadcode/",
+      "/empfehlungen/",
+      "/kontakt/bewertungen/",
+      "/konto/",
+      "/shop/home/kunde/",
+      "/shop/home/kundenbewertung/",
+      "/shop/home/merkliste/",
+      "/shop/home/newsletter/abmelden/success.html",
+      "/shop/home/newsletter/doi.html",
+      "/shop/home/warenkorb/add",
+      "/suche",
+      "/tag/",
+      "/warenkorb/"
+    ]
+  }
 }

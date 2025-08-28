@@ -1,6 +1,77 @@
 {
   "domain": "www.news.de",
   "normalizedDomain": "www.news.de",
+  "robotsTxt": "Sitemap: https://www.news.de/resources/xml/metasitemap.xml\nSitemap: https://www.news.de/googlesitemap/\n\nUser-agent: *\nDisallow: /print/\nDisallow: /search/\nDisallow: /article/\nDisallow: /index/\nDisallow: /newsfrontend/video/\nDisallow: /newsfrontend/imagegallery/\nDisallow: /newsfrontend/flash/\nDisallow: /newsfrontend/article/\nDisallow: /newsfrontend/search/\nDisallow: /image/\nDisallow: /newsclub/\nDisallow: /landing/\nDisallow: /textgallery/\nDisallow: /resources/\nDisallow: /track.php\nDisallow: /module/cms/\nAllow: /resources/xml/\nAllow: /images/\nAllow: /resources/images/\nAllow: /resources/thumbs/\n\nUser-agent: Googlebot-News\nDisallow: /article/\nDisallow: /morgenattacke/\nDisallow: /special/\nDisallow: /fotostrecke/\nDisallow: /video/\n\nUser-agent: Yahoo!-AdCrawler\nAllow: /search/\nCrawl-delay: 0.5\n\nUser-agent: Mediapartners-Google\nAllow: /search/\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/resources/xml/",
+        "/images/",
+        "/resources/images/",
+        "/resources/thumbs/"
+      ],
+      "disallowed": [
+        "/print/",
+        "/search/",
+        "/article/",
+        "/index/",
+        "/newsfrontend/video/",
+        "/newsfrontend/imagegallery/",
+        "/newsfrontend/flash/",
+        "/newsfrontend/article/",
+        "/newsfrontend/search/",
+        "/image/",
+        "/newsclub/",
+        "/landing/",
+        "/textgallery/",
+        "/resources/",
+        "/track.php",
+        "/module/cms/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot-News",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/article/",
+          "/morgenattacke/",
+          "/special/",
+          "/fotostrecke/",
+          "/video/"
+        ]
+      }
+    },
+    {
+      "name": "Yahoo!-AdCrawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/search/"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/search/"
+        ],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 3,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -8,7 +79,7 @@
     },
     {
       "name": "Googlebot-News",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Yahoo!-AdCrawler",
@@ -18,5 +89,31 @@
       "name": "Mediapartners-Google",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/resources/xml/",
+      "/images/",
+      "/resources/images/",
+      "/resources/thumbs/"
+    ],
+    "disallowed": [
+      "/print/",
+      "/search/",
+      "/article/",
+      "/index/",
+      "/newsfrontend/video/",
+      "/newsfrontend/imagegallery/",
+      "/newsfrontend/flash/",
+      "/newsfrontend/article/",
+      "/newsfrontend/search/",
+      "/image/",
+      "/newsclub/",
+      "/landing/",
+      "/textgallery/",
+      "/resources/",
+      "/track.php",
+      "/module/cms/"
+    ]
+  }
 }

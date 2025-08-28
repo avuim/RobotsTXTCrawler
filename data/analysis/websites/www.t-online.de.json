@@ -1,14 +1,85 @@
 {
   "domain": "www.t-online.de",
   "normalizedDomain": "www.t-online.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /native/\r\nDisallow: /auth/\r\nDisallow: /?artid\r\nDisallow: /preisvergleich/\r\nDisallow: /spiele/weihnachtsspiele/\r\nDisallow: /studiopreview_\r\nDisallow: /vid_1/\r\nDisallow: /,ei=\r\nDisallow: /,linkId=\r\nDisallow: /,pt=pictureEnlarge\r\nDisallow: /,pt=print\r\nDisallow: /,pt=self\r\nDisallow: /,tid=print\r\nDisallow: /,vv=P5\r\nDisallow: /,vv=enlarge\r\nDisallow: */tid_external_content_proxy/\r\nDisallow: /-/id_62530634/tid_tsr_iframe_loginbox/index\r\nDisallow: /-/id_62530634/tid_tsr_iframe_loginbox_buzz/index\r\nDisallow: /gtm.js\r\nDisallow: /metatag/\r\nDisallow: /ki-ratgeber/\r\n\r\nUser-agent: OAI-SearchBot\r\nAllow: /\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/native/",
+        "/auth/",
+        "/?artid",
+        "/preisvergleich/",
+        "/spiele/weihnachtsspiele/",
+        "/studiopreview_",
+        "/vid_1/",
+        "/,ei=",
+        "/,linkId=",
+        "/,pt=pictureEnlarge",
+        "/,pt=print",
+        "/,pt=self",
+        "/,tid=print",
+        "/,vv=P5",
+        "/,vv=enlarge",
+        "*/tid_external_content_proxy/",
+        "/-/id_62530634/tid_tsr_iframe_loginbox/index",
+        "/-/id_62530634/tid_tsr_iframe_loginbox_buzz/index",
+        "/gtm.js",
+        "/metatag/",
+        "/ki-ratgeber/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "OAI-SearchBot",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/native/",
+      "/auth/",
+      "/?artid",
+      "/preisvergleich/",
+      "/spiele/weihnachtsspiele/",
+      "/studiopreview_",
+      "/vid_1/",
+      "/,ei=",
+      "/,linkId=",
+      "/,pt=pictureEnlarge",
+      "/,pt=print",
+      "/,pt=self",
+      "/,tid=print",
+      "/,vv=P5",
+      "/,vv=enlarge",
+      "*/tid_external_content_proxy/",
+      "/-/id_62530634/tid_tsr_iframe_loginbox/index",
+      "/-/id_62530634/tid_tsr_iframe_loginbox_buzz/index",
+      "/gtm.js",
+      "/metatag/",
+      "/ki-ratgeber/"
+    ]
+  }
 }

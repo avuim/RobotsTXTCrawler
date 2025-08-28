@@ -1,14 +1,71 @@
 {
   "domain": "www.polen.travel",
   "normalizedDomain": "www.polen.travel",
+  "robotsTxt": "# If the Joomla site is installed within a folder \r\n# eg www.example.com/joomla/ then the robots.txt file \r\n# MUST be moved to the site root \r\n# eg www.example.com/robots.txt\r\n# AND the joomla folder name MUST be prefixed to all of the\r\n# paths. \r\n# eg the Disallow rule for the /administrator/ folder MUST \r\n# be changed to read \r\n# Disallow: /joomla/administrator/\r\n#\r\n# For more information about the robots.txt standard, see:\r\n# http://www.robotstxt.org/orig.html\r\n#\r\n# For syntax checking, see:\r\n# http://tool.motoricerca.info/robots-checker.phtml\r\n\r\nUser-agent: *\r\nDisallow: /administrator/\r\nDisallow: /bin/\r\nDisallow: /cache/\r\nDisallow: /cli/\r\nDisallow: /components/\r\nDisallow: /includes/\r\nDisallow: /installation/\r\nDisallow: /language/\r\nDisallow: /layouts/\r\nDisallow: /libraries/\r\nDisallow: /logs/\r\nDisallow: /modules/\r\nDisallow: /plugins/\r\nDisallow: /tmp/\r\nSITEMAP: https://www.polska.travel/component/osmap/?view=xml&id=1&lang=pl\r\nSITEMAP: https://www.polsko.travel/component/osmap/?view=xml&id=1&lang=cz\r\nSITEMAP: https://www.poland.travel/component/osmap/?view=xml&id=1&lang=en\r\nSITEMAP: https://www.poland.travel/component/osmap/?view=xml&id=1&lang=ru\r\nSITEMAP: https://www.poland.travel/component/osmap/?view=xml&id=1&lang=ja\r\nSITEMAP: https://www.pologne.travel/component/osmap/?view=xml&id=1&lang=fr-be\r\nSITEMAP: https://www.pologne.travel/component/osmap/?view=xml&id=1&lang=fr\r\nSITEMAP: https://www.lengyelorszag.travel/component/osmap/?view=xml&id=1&lang=hu\r\nSITEMAP: https://www.puola.travel/component/osmap/?view=xml&id=1&lang=fi\r\nSITEMAP: https://www.polin.travel/component/osmap/?view=xml&id=1&lang=he\r\nSITEMAP: https://www.polscha.travel/component/osmap/?view=xml&id=1&lang=uk\r\n\r\nUser-agent: AhrefsBot\r\nDisallow:/\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/administrator/",
+        "/bin/",
+        "/cache/",
+        "/cli/",
+        "/components/",
+        "/includes/",
+        "/installation/",
+        "/language/",
+        "/layouts/",
+        "/libraries/",
+        "/logs/",
+        "/modules/",
+        "/plugins/",
+        "/tmp/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "AhrefsBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/administrator/",
+      "/bin/",
+      "/cache/",
+      "/cli/",
+      "/components/",
+      "/includes/",
+      "/installation/",
+      "/language/",
+      "/layouts/",
+      "/libraries/",
+      "/logs/",
+      "/modules/",
+      "/plugins/",
+      "/tmp/"
+    ]
+  }
 }

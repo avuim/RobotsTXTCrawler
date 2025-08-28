@@ -1,10 +1,44 @@
 {
   "domain": "www.tierschutzbund.de",
   "normalizedDomain": "www.tierschutzbund.de",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\nDisallow: /typo3/\r\nDisallow: /vendor/\r\nSitemap: https://www.tierschutzbund.de/sitemap.xml\r\nDisallow: /fileadmin/Seiten/tierschutzbund.de/Downloads/Broschueren/Broschuere_Wellensittiche_Haltung_web.pdf\r\nDisallow: /fileadmin/Seiten/tierschutzbund.de/Downloads/Steckbriefe_Infos/Steckbrief_Kornnatter_2023_DTSchB_web.pdf\r\nDisallow: /fileadmin/Seiten/tierschutzbund.de/Downloads/Steckbriefe_Infos/Steckbrief_Griechische_Landschildkroete_DTSchB_web.pdf\r\nDisallow: /fileadmin/Seiten/tierschutzbund.de/Downloads/Steckbriefe_Infos/Aussenhaltung_Kaninchen_Information_DTSchB_web.pdf\r\nDisallow: /fileadmin/Seiten/tierschutzbund.de/Downloads/Broschueren/Broschuere_Haltung_von_Meerschweinchen_web.pdf",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/typo3/",
+        "/vendor/",
+        "/fileadmin/Seiten/tierschutzbund.de/Downloads/Broschueren/Broschuere_Wellensittiche_Haltung_web.pdf",
+        "/fileadmin/Seiten/tierschutzbund.de/Downloads/Steckbriefe_Infos/Steckbrief_Kornnatter_2023_DTSchB_web.pdf",
+        "/fileadmin/Seiten/tierschutzbund.de/Downloads/Steckbriefe_Infos/Steckbrief_Griechische_Landschildkroete_DTSchB_web.pdf",
+        "/fileadmin/Seiten/tierschutzbund.de/Downloads/Steckbriefe_Infos/Aussenhaltung_Kaninchen_Information_DTSchB_web.pdf",
+        "/fileadmin/Seiten/tierschutzbund.de/Downloads/Broschueren/Broschuere_Haltung_von_Meerschweinchen_web.pdf"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/typo3/",
+      "/vendor/",
+      "/fileadmin/Seiten/tierschutzbund.de/Downloads/Broschueren/Broschuere_Wellensittiche_Haltung_web.pdf",
+      "/fileadmin/Seiten/tierschutzbund.de/Downloads/Steckbriefe_Infos/Steckbrief_Kornnatter_2023_DTSchB_web.pdf",
+      "/fileadmin/Seiten/tierschutzbund.de/Downloads/Steckbriefe_Infos/Steckbrief_Griechische_Landschildkroete_DTSchB_web.pdf",
+      "/fileadmin/Seiten/tierschutzbund.de/Downloads/Steckbriefe_Infos/Aussenhaltung_Kaninchen_Information_DTSchB_web.pdf",
+      "/fileadmin/Seiten/tierschutzbund.de/Downloads/Broschueren/Broschuere_Haltung_von_Meerschweinchen_web.pdf"
+    ]
+  }
 }

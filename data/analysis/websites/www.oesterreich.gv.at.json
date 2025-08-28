@@ -1,10 +1,60 @@
 {
   "domain": "www.oesterreich.gv.at",
   "normalizedDomain": "www.oesterreich.gv.at",
+  "robotsTxt": "User-agent: *\r\nDisallow: /.search/\r\nDisallow: /Portal.Node/\r\nDisallow: /testordner/\r\nDisallow: /testordner0/\r\nDisallow: /testordner1/\r\nDisallow: /testordner2/\r\nDisallow: /testordner3/\r\nDisallow: /en/testordner/\r\nDisallow: /.syndication/\r\nDisallow: /testordner\r\nDisallow: /testordner0\r\nDisallow: /testordner1\r\nDisallow: /testordner2\r\nDisallow: /testordner3\r\nDisallow: /en/testordner\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/.search/",
+        "/Portal.Node/",
+        "/testordner/",
+        "/testordner0/",
+        "/testordner1/",
+        "/testordner2/",
+        "/testordner3/",
+        "/en/testordner/",
+        "/.syndication/",
+        "/testordner",
+        "/testordner0",
+        "/testordner1",
+        "/testordner2",
+        "/testordner3",
+        "/en/testordner"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/.search/",
+      "/Portal.Node/",
+      "/testordner/",
+      "/testordner0/",
+      "/testordner1/",
+      "/testordner2/",
+      "/testordner3/",
+      "/en/testordner/",
+      "/.syndication/",
+      "/testordner",
+      "/testordner0",
+      "/testordner1",
+      "/testordner2",
+      "/testordner3",
+      "/en/testordner"
+    ]
+  }
 }

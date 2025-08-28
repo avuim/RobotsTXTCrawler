@@ -1,10 +1,49 @@
 {
   "domain": "www.deutschland-spielt.de",
   "normalizedDomain": "www.deutschland-spielt.de",
+  "robotsTxt": "# alle robots\n\nUser-agent: *\nDisallow: /logs/\nDisallow: /oxxo/\nDisallow: /customer/\nDisallow: /inc/\nDisallow: /paysys/\nDisallow: /cart/\nDisallow: /partnerlinks/\n\n# email collector stay out\n\nUser-agent:EmailCollector\nDisallow: /\n\n# kick out GagaRobots\n\nUser-agent: GagaRobot\nDisallow: /\n\n\nSitemap: http://www.deutschland-spielt.de/xml-sitemap/",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/logs/",
+        "/oxxo/",
+        "/customer/",
+        "/inc/",
+        "/paysys/",
+        "/cart/",
+        "/partnerlinks/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GagaRobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 0,
+    "disallowedBots": 2,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "EmailCollector",
@@ -14,5 +53,17 @@
       "name": "GagaRobot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/logs/",
+      "/oxxo/",
+      "/customer/",
+      "/inc/",
+      "/paysys/",
+      "/cart/",
+      "/partnerlinks/"
+    ]
+  }
 }

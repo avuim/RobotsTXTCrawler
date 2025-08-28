@@ -1,10 +1,28 @@
 {
   "domain": "www.pc-magazin.de",
   "normalizedDomain": "www.pc-magazin.de",
+  "robotsTxt": "User-agent: *\nAllow: /\n\nSitemap: https://www.connect-living.de/sitemap/index.xml\nSitemap: https://www.connect-living.de/sitemap/index-bilder.xml\nSitemap: https://www.connect-living.de/sitemap/index-archiv.xml\nSitemap: https://www.connect-living.de/sitemap/index-aufmacherbilder.xml\nSitemap: https://www.connect-living.de/sitemap/index-bildergalerie-bilder.xml\nSitemap: https://www.connect-living.de/sitemap/index-bildergalerie.xml\nSitemap: https://www.connect-living.de/staticsitemap/connect-living/news.xml\nSitemap: https://www.connect-living.de/staticsitemap/connect-living/index-pages.xml\nSitemap: https://www.connect-living.de/staticsitemap/connect-living-unternehmen.xml\n\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

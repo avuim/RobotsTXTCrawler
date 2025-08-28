@@ -1,14 +1,73 @@
 {
   "domain": "www.mamiweb.de",
   "normalizedDomain": "www.mamiweb.de",
+  "robotsTxt": "User-agent:*\nDisallow: /templates/\nDisallow: /schwerpunkt/\nDisallow: /userbilder/\nDisallow: /mitglieder/\nDisallow: /beta/\nDisallow: /helper/\nDisallow: /marktplatz/\nDisallow: /nfs/uploaded_grup/\nDisallow: /uploaded_grup/\nDisallow: /fragen/suche.php\nDisallow: /nfs/userbilder/\nDisallow: /statics/images/smileys/\nDisallow: /forum/uebersicht/\nDisallow: /gruppen/multichat/\nDisallow: /premiummagazin/container/\nSitemap: https://www.mamiweb.de/sitemap.xml\nUser-agent: ia_archiver\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/templates/",
+        "/schwerpunkt/",
+        "/userbilder/",
+        "/mitglieder/",
+        "/beta/",
+        "/helper/",
+        "/marktplatz/",
+        "/nfs/uploaded_grup/",
+        "/uploaded_grup/",
+        "/fragen/suche.php",
+        "/nfs/userbilder/",
+        "/statics/images/smileys/",
+        "/forum/uebersicht/",
+        "/gruppen/multichat/",
+        "/premiummagazin/container/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "ia_archiver",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/templates/",
+      "/schwerpunkt/",
+      "/userbilder/",
+      "/mitglieder/",
+      "/beta/",
+      "/helper/",
+      "/marktplatz/",
+      "/nfs/uploaded_grup/",
+      "/uploaded_grup/",
+      "/fragen/suche.php",
+      "/nfs/userbilder/",
+      "/statics/images/smileys/",
+      "/forum/uebersicht/",
+      "/gruppen/multichat/",
+      "/premiummagazin/container/"
+    ]
+  }
 }

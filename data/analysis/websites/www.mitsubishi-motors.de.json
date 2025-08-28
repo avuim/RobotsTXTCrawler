@@ -1,10 +1,32 @@
 {
   "domain": "www.mitsubishi-motors.de",
   "normalizedDomain": "www.mitsubishi-motors.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /fileadmin/images/seiten/CD/\r\n\r\n# SitemapSitemap: https://www.mitsubishi-motors.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/fileadmin/images/seiten/CD/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/fileadmin/images/seiten/CD/"
+    ]
+  }
 }

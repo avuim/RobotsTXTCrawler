@@ -1,14 +1,3515 @@
 {
   "domain": "www.aerztezeitung.de",
   "normalizedDomain": "www.aerztezeitung.de",
+  "robotsTxt": "# robots.txt updated 2020-02-21\r\n\r\nUser-agent: *\r\nDisallow: /*?bPrint=true\r\nDisallow: /User/\r\nDisallow: /Custom/Modules\r\nDisallow: /*?error-login\r\nDisallow: /*?error-notfound\r\nDisallow: /Dateien/\r\nDisallow: /Sso/\r\nDisallow: /E-Paper/\r\n\r\nUser-agent: Meltwater\r\nUser-agent: NewsNow\rUser-agent: SemrushBot-SA\r\nUser-agent: Flamingo_SearchEngine \r\nUser-agent: Audisto\r\nUser-agent: Bloodhound\r\nUser-agent: cydralspider\r\nUser-agent: downloadexpress\r\nUser-agent: gammaSpider\r\nUser-agent: ObjectsSearch\r\nUser-agent: Pimptrain\r\nUser-agent: Raven\r\nUser-agent: wapspider\r\nUser-agent: WebZinger\r\nUser-agent: Fasterfox\r\nUser-agent: sentibot\r\nUser-agent: Baiduspider\r\nUser-agent: AhrefsBot\r\nDisallow: /\r\n\r\nSitemap: https://www.aerztezeitung.de/Sitemap_Index.xml.gz\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*?bPrint=true",
+        "/User/",
+        "/Custom/Modules",
+        "/*?error-login",
+        "/*?error-notfound",
+        "/Dateien/",
+        "/Sso/",
+        "/E-Paper/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Audisto",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Audisto",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Audisto",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Audisto",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Audisto",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Audisto",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Audisto",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Audisto",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Audisto",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Audisto",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Audisto",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Audisto",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Audisto",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Audisto",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Audisto",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Audisto",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Audisto",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 289,
+    "allowedBots": 0,
+    "disallowedBots": 289,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false
+    },
+    {
+      "name": "Audisto",
+      "allowed": false
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false
+    },
+    {
+      "name": "Raven",
+      "allowed": false
+    },
+    {
+      "name": "wapspider",
+      "allowed": false
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false
+    },
+    {
+      "name": "sentibot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false
+    },
+    {
+      "name": "Audisto",
+      "allowed": false
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false
+    },
+    {
+      "name": "Raven",
+      "allowed": false
+    },
+    {
+      "name": "wapspider",
+      "allowed": false
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false
+    },
+    {
+      "name": "sentibot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false
+    },
+    {
+      "name": "Audisto",
+      "allowed": false
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false
+    },
+    {
+      "name": "Raven",
+      "allowed": false
+    },
+    {
+      "name": "wapspider",
+      "allowed": false
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false
+    },
+    {
+      "name": "sentibot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false
+    },
+    {
+      "name": "Audisto",
+      "allowed": false
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false
+    },
+    {
+      "name": "Raven",
+      "allowed": false
+    },
+    {
+      "name": "wapspider",
+      "allowed": false
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false
+    },
+    {
+      "name": "sentibot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false
+    },
+    {
+      "name": "Audisto",
+      "allowed": false
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false
+    },
+    {
+      "name": "Raven",
+      "allowed": false
+    },
+    {
+      "name": "wapspider",
+      "allowed": false
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false
+    },
+    {
+      "name": "sentibot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false
+    },
+    {
+      "name": "Audisto",
+      "allowed": false
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false
+    },
+    {
+      "name": "Raven",
+      "allowed": false
+    },
+    {
+      "name": "wapspider",
+      "allowed": false
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false
+    },
+    {
+      "name": "sentibot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false
+    },
+    {
+      "name": "Audisto",
+      "allowed": false
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false
+    },
+    {
+      "name": "Raven",
+      "allowed": false
+    },
+    {
+      "name": "wapspider",
+      "allowed": false
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false
+    },
+    {
+      "name": "sentibot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false
+    },
+    {
+      "name": "Audisto",
+      "allowed": false
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false
+    },
+    {
+      "name": "Raven",
+      "allowed": false
+    },
+    {
+      "name": "wapspider",
+      "allowed": false
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false
+    },
+    {
+      "name": "sentibot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false
+    },
+    {
+      "name": "Audisto",
+      "allowed": false
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false
+    },
+    {
+      "name": "Raven",
+      "allowed": false
+    },
+    {
+      "name": "wapspider",
+      "allowed": false
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false
+    },
+    {
+      "name": "sentibot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false
+    },
+    {
+      "name": "Audisto",
+      "allowed": false
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false
+    },
+    {
+      "name": "Raven",
+      "allowed": false
+    },
+    {
+      "name": "wapspider",
+      "allowed": false
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false
+    },
+    {
+      "name": "sentibot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false
+    },
+    {
+      "name": "Audisto",
+      "allowed": false
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false
+    },
+    {
+      "name": "Raven",
+      "allowed": false
+    },
+    {
+      "name": "wapspider",
+      "allowed": false
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false
+    },
+    {
+      "name": "sentibot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false
+    },
+    {
+      "name": "Audisto",
+      "allowed": false
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false
+    },
+    {
+      "name": "Raven",
+      "allowed": false
+    },
+    {
+      "name": "wapspider",
+      "allowed": false
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false
+    },
+    {
+      "name": "sentibot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false
+    },
+    {
+      "name": "Audisto",
+      "allowed": false
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false
+    },
+    {
+      "name": "Raven",
+      "allowed": false
+    },
+    {
+      "name": "wapspider",
+      "allowed": false
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false
+    },
+    {
+      "name": "sentibot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false
+    },
+    {
+      "name": "Audisto",
+      "allowed": false
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false
+    },
+    {
+      "name": "Raven",
+      "allowed": false
+    },
+    {
+      "name": "wapspider",
+      "allowed": false
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false
+    },
+    {
+      "name": "sentibot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false
+    },
+    {
+      "name": "Audisto",
+      "allowed": false
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false
+    },
+    {
+      "name": "Raven",
+      "allowed": false
+    },
+    {
+      "name": "wapspider",
+      "allowed": false
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false
+    },
+    {
+      "name": "sentibot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false
+    },
+    {
+      "name": "Audisto",
+      "allowed": false
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false
+    },
+    {
+      "name": "Raven",
+      "allowed": false
+    },
+    {
+      "name": "wapspider",
+      "allowed": false
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false
+    },
+    {
+      "name": "sentibot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false
+    },
+    {
+      "name": "NewsNow\rUser-agent: SemrushBot-SA",
+      "allowed": false
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false
+    },
+    {
+      "name": "Audisto",
+      "allowed": false
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false
+    },
+    {
+      "name": "Raven",
+      "allowed": false
+    },
+    {
+      "name": "wapspider",
+      "allowed": false
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false
+    },
+    {
+      "name": "sentibot",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
       "allowed": false
     },
     {
       "name": "AhrefsBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*?bPrint=true",
+      "/User/",
+      "/Custom/Modules",
+      "/*?error-login",
+      "/*?error-notfound",
+      "/Dateien/",
+      "/Sso/",
+      "/E-Paper/"
+    ]
+  }
 }

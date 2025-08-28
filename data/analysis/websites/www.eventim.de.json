@@ -1,10 +1,118 @@
 {
   "domain": "www.eventim.de",
   "normalizedDomain": "www.eventim.de",
+  "robotsTxt": "# robots.txt / cep: 1\r\nUser-Agent: *\r\nDisallow: /*artistid=*\r\nDisallow: /*component=seatmap\r\nDisallow: /*doc=feature/seatmap\r\nDisallow: /*fun=subscriptionpackage\r\nDisallow: /*fun=waitinglist\r\nDisallow: /*id=eso\r\nDisallow: /*id=qst\r\nDisallow: /*ptype=\r\nDisallow: /*queueittoken\r\nDisallow: /*secure\r\nDisallow: /*vegid=\r\nDisallow: /*inAPP=\r\nDisallow: /api/\r\nDisallow: /imageservlet\r\nDisallow: /isc-content/\r\nDisallow: /search/\r\nDisallow: /seatmap-data/\r\nDisallow: /secure\r\nDisallow: /identity/auth/ \r\nDisallow: /fanreport/\r\n\r\nSitemap: https://www.eventim.de/staticsite/sitemap/EVE/sitemapindex_de.xml\r\nSitemap: https://www.eventim.de/staticsite/sitemap/EVE/sitemapindex_en.xml\r\n\r\nUser-Agent: ccbot\r\nDisallow: /\r\n\r\nUser-Agent:dotbot\r\nDisallow: /\r\n\r\nUser-Agent:sogou web spider\r\nDisallow: /\r\n\r\nUser-Agent:yeti\r\nDisallow: /\r\n\r\nUser-Agent:coccocbot-web\r\nDisallow: /\r\n\r\nUser-Agent:vegi bot\r\nDisallow: /\r\n\r\nUser-Agent:semrushbot\r\nDisallow: /\r\n\r\nUser-Agent:megaindex crawler\r\nDisallow: /\r\n\r\nUser-Agent:megaindex.ru/2.0\r\nDisallow: /\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*artistid=*",
+        "/*component=seatmap",
+        "/*doc=feature/seatmap",
+        "/*fun=subscriptionpackage",
+        "/*fun=waitinglist",
+        "/*id=eso",
+        "/*id=qst",
+        "/*ptype=",
+        "/*queueittoken",
+        "/*secure",
+        "/*vegid=",
+        "/*inAPP=",
+        "/api/",
+        "/imageservlet",
+        "/isc-content/",
+        "/search/",
+        "/seatmap-data/",
+        "/secure",
+        "/identity/auth/",
+        "/fanreport/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "ccbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sogou web spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "yeti",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "coccocbot-web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "vegi bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "semrushbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "megaindex crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "megaindex.ru/2.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 9,
+    "allowedBots": 0,
+    "disallowedBots": 9,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "ccbot",
@@ -42,5 +150,30 @@
       "name": "megaindex.ru/2.0",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*artistid=*",
+      "/*component=seatmap",
+      "/*doc=feature/seatmap",
+      "/*fun=subscriptionpackage",
+      "/*fun=waitinglist",
+      "/*id=eso",
+      "/*id=qst",
+      "/*ptype=",
+      "/*queueittoken",
+      "/*secure",
+      "/*vegid=",
+      "/*inAPP=",
+      "/api/",
+      "/imageservlet",
+      "/isc-content/",
+      "/search/",
+      "/seatmap-data/",
+      "/secure",
+      "/identity/auth/",
+      "/fanreport/"
+    ]
+  }
 }

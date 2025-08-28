@@ -1,6 +1,38 @@
 {
   "domain": "www.seenotretter.de",
   "normalizedDomain": "www.seenotretter.de",
+  "robotsTxt": "User-Agent: *\r\nAllow: /\r\nDisallow: /typo3/\r\nAllow: /typo3/sysext/frontend/Resources/Public/*\r\nDisallow: /typo3conf/\r\nAllow: /typo3conf/ext/\r\nDisallow: /*?id=*\r\nDisallow: /*tx_powermail_pi1\r\nDisallow: /ajax.call?*\r\nUser-agent: Twitterbot\r\nDisallow:\r\nSitemap: https://www.seenotretter.de/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/typo3/sysext/frontend/Resources/Public/*",
+        "/typo3conf/ext/"
+      ],
+      "disallowed": [
+        "/typo3/",
+        "/typo3conf/",
+        "/*?id=*",
+        "/*tx_powermail_pi1",
+        "/ajax.call?*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Twitterbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -10,5 +42,18 @@
       "name": "Twitterbot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/typo3/sysext/frontend/Resources/Public/*",
+      "/typo3conf/ext/"
+    ],
+    "disallowed": [
+      "/typo3/",
+      "/typo3conf/",
+      "/*?id=*",
+      "/*tx_powermail_pi1",
+      "/ajax.call?*"
+    ]
+  }
 }

@@ -1,6 +1,277 @@
 {
   "domain": "www.ard.de",
   "normalizedDomain": "www.ard.de",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\n\r\nUser-agent: Amazonbot\r\nDisallow: /\r\n\r\n# Anthropic\r\nUser-agent: anthropic-ai\r\nDisallow: /\r\n\r\nUser-agent: ClaudeBot\r\nDisallow: /\r\n\r\nUser-agent: Claude-User\r\nDisallow: /\r\n\r\nUser-agent: Claude-SearchBot\r\nDisallow: /\r\n\r\nUser-agent: claude-web\r\nDisallow: /\r\n\r\n# Apple\r\nUser-agent: Applebot-Extended\r\nDisallow: /\r\n\r\n# ByteDance\r\nUser-agent: Bytespider\r\nDisallow: /\r\n\r\nUser-agent: TikTokSpider\r\nDisallow: /\r\n\r\n# Cohere\r\nUser-agent: cohere-ai\r\nDisallow: /\r\n\r\nUser-agent: cohere-training-data-crawler\r\nDisallow: /\r\n\r\n# Common Crawl\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\n# Diffbot\r\nUser-agent: DiffBot\r\nDisallow: /\r\n\r\n# DuckDuckGo\r\nUser-agent: DuckAssistBot\r\nDisallow: /\r\n\r\n# Google\r\nUser-agent: Google-Extended\r\nDisallow: /\r\n\r\n# Huawei\r\nUser-agent: PetalBot\r\nDisallow: /\r\n\r\nUser-agent: PanguBot\r\nDisallow: /\r\n\r\n# Meta\r\nUser-agent: meta-externalagent\r\nDisallow: /\r\n\r\nUser-agent: Meta-ExternalFetcher\r\nDisallow: /\r\n\r\nUser-agent: FacebookBot\r\nDisallow: /\r\n\r\n# Mistral\r\nUser-agent: MistralAI-User\r\nDisallow: /\r\n\r\n# OpenAI\r\nUser-agent: ChatGPT-User\r\nDisallow: /\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nUser-agent: OAI-SearchBot\r\nDisallow: /\r\n\r\nUser-agent: ChatGPT-User/2.0\r\nDisallow: /\r\n\r\n# Perplexity\r\nUser-agent: PerplexityBot\r\nDisallow: /\r\n\r\nUser-agent: Perplexity-User\r\nDisallow: /\r\n\r\n# Webz.io\r\nUser-agent: omgili\r\nDisallow: /\r\n\r\nUser-agent: omgilibot\r\nDisallow: /\r\n\r\nUser-agent: Webzio-Extended\r\nDisallow: /\r\n\r\n# You.com\r\nUser-agent: YouBot\r\nDisallow: /\r\n\r\n# Zyte\r\nUser-agent: Scrapy\r\nDisallow: /\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-SearchBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "claude-web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TikTokSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-training-data-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DiffBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PanguBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalFetcher",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MistralAI-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User/2.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Perplexity-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Webzio-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YouBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 32,
+    "allowedBots": 0,
+    "disallowedBots": 32,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -134,5 +405,9 @@
       "name": "Scrapy",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

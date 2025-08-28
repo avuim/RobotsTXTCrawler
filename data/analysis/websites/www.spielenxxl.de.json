@@ -1,10 +1,64 @@
 {
   "domain": "www.spielenxxl.de",
   "normalizedDomain": "www.spielenxxl.de",
+  "robotsTxt": "Sitemap: http://www.spielenxxl.de/sitemap/sitemap.xml\n\nUser-agent: *\nDisallow: /admin/\nDisallow: /adserver/\nDisallow: /ajax/\nDisallow: /exec/\nDisallow: /functions/\nDisallow: /include/\nDisallow: /subdomains/\nDisallow: /swf/\nDisallow: /templates/\nDisallow: /tfeed/\nDisallow: /spieler/\nDisallow: /shop/\nDisallow: /community/\nDisallow: /daten/\nDisallow: /abonnements/\nDisallow: /test/\nDisallow: /*.swf$\nDisallow: /spieler/\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/admin/",
+        "/adserver/",
+        "/ajax/",
+        "/exec/",
+        "/functions/",
+        "/include/",
+        "/subdomains/",
+        "/swf/",
+        "/templates/",
+        "/tfeed/",
+        "/spieler/",
+        "/shop/",
+        "/community/",
+        "/daten/",
+        "/abonnements/",
+        "/test/",
+        "/*.swf$"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/admin/",
+      "/adserver/",
+      "/ajax/",
+      "/exec/",
+      "/functions/",
+      "/include/",
+      "/subdomains/",
+      "/swf/",
+      "/templates/",
+      "/tfeed/",
+      "/spieler/",
+      "/shop/",
+      "/community/",
+      "/daten/",
+      "/abonnements/",
+      "/test/",
+      "/*.swf$"
+    ]
+  }
 }

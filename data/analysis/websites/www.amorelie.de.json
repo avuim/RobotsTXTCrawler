@@ -1,13 +1,339 @@
 {
   "domain": "www.amorelie.de",
   "normalizedDomain": "www.amorelie.de",
+  "robotsTxt": "User-agent: *\nDisallow: /ajax\nDisallow: /pdf\nDisallow: /bezahleneinkaufswagen/\nDisallow: /bezahleneinkaufswagen.html\nDisallow: /bezahlenadresse/\nDisallow: /bezahlenadresse.html\nDisallow: /bezahlenuebersicht/\nDisallow: /bezahlenuebersicht.html\nDisallow: /bezahlenlieferung/\nDisallow: /bezahleneinloggen/\nDisallow: /bezahlenzahlungsart/\nDisallow: /bestellung/\nDisallow: /bestellung.html\nDisallow: /bestellung_abbrechen/\nDisallow: /bestellung_abbrechen.html\nDisallow: /bestellung_error/\nDisallow: /bestellung_error.html\nDisallow: /kasse/\nDisallow: /kasse.html\nDisallow: /zeigebestellung.html\nDisallow: /widerruf.html\nDisallow: /danke.html\nDisallow: /suchen.html\nDisallow: /bewertung.html\nDisallow: /account/\nDisallow: /neukunden-register/\nDisallow: /rechnung/\nDisallow: /passwort-vergessen/\nDisallow: /suchen*\nDisallow: /catalogsearch*\nDisallow: /ttnl/\nDisallow: /ttbe/\nDisallow: /ttde/\nDisallow: /kundenservice/allgemeine-geschaeftsbedingungen.html\nSitemap: https://www.amorelie.de/sitemap_index.xml\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: MJ12bot\nCrawl-Delay: 5\n\nUser-agent: TwengaBot-2.0\nDisallow: /\n\nUser-agent: Yandex\nDisallow: /\n\nUser-Agent: Baiduspider\nDisallow: /\n\nUser-Agent: CazoodleBot\nDisallow: /\n\nUser-Agent: Fasterfox\nDisallow: /\n\nUser-Agent: Jyxobot\nDisallow: /\n\nUser-Agent: ShopWiki\nDisallow: /\n\nUser-Agent: msnbot\nCrawl-Delay: 20\n\nUser-Agent: Slurp\nCrawl-delay: 20\n\nUser-Agent: Yahoo! Slurp\nCrawl-delay: 5\n\nUser-agent: dotbot\nDisallow: /\n\nUser-agent: Exabot\nDisallow: /\n\nUser-agent: webcrawler\nDisallow: /\n\nUser-agent: spbot\nDisallow: /\n\nUser-agent: Aboundexbot\nDisallow: /\n\nUser-agent: GeedoProductSearch\nDisallow: /\n\nUser-agent: DataForSeoBot\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/ajax",
+        "/pdf",
+        "/bezahleneinkaufswagen/",
+        "/bezahleneinkaufswagen.html",
+        "/bezahlenadresse/",
+        "/bezahlenadresse.html",
+        "/bezahlenuebersicht/",
+        "/bezahlenuebersicht.html",
+        "/bezahlenlieferung/",
+        "/bezahleneinloggen/",
+        "/bezahlenzahlungsart/",
+        "/bestellung/",
+        "/bestellung.html",
+        "/bestellung_abbrechen/",
+        "/bestellung_abbrechen.html",
+        "/bestellung_error/",
+        "/bestellung_error.html",
+        "/kasse/",
+        "/kasse.html",
+        "/zeigebestellung.html",
+        "/widerruf.html",
+        "/danke.html",
+        "/suchen.html",
+        "/bewertung.html",
+        "/account/",
+        "/neukunden-register/",
+        "/rechnung/",
+        "/passwort-vergessen/",
+        "/suchen*",
+        "/catalogsearch*",
+        "/ttnl/",
+        "/ttbe/",
+        "/ttde/",
+        "/kundenservice/allgemeine-geschaeftsbedingungen.html"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TwengaBot-2.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TwengaBot-2.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yandex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jyxobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "msnbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yahoo! Slurp",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "msnbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yahoo! Slurp",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "msnbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yahoo! Slurp",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "msnbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yahoo! Slurp",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Exabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "webcrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "spbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Aboundexbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GeedoProductSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 33,
+    "allowedBots": 0,
+    "disallowedBots": 33,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "TwengaBot-2.0",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
       "allowed": false
     },
     {
@@ -39,6 +365,66 @@
       "allowed": false
     },
     {
+      "name": "msnbot",
+      "allowed": false
+    },
+    {
+      "name": "Slurp",
+      "allowed": false
+    },
+    {
+      "name": "Yahoo! Slurp",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "msnbot",
+      "allowed": false
+    },
+    {
+      "name": "Slurp",
+      "allowed": false
+    },
+    {
+      "name": "Yahoo! Slurp",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "msnbot",
+      "allowed": false
+    },
+    {
+      "name": "Slurp",
+      "allowed": false
+    },
+    {
+      "name": "Yahoo! Slurp",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "msnbot",
+      "allowed": false
+    },
+    {
+      "name": "Slurp",
+      "allowed": false
+    },
+    {
+      "name": "Yahoo! Slurp",
+      "allowed": false
+    },
+    {
       "name": "dotbot",
       "allowed": false
     },
@@ -66,5 +452,44 @@
       "name": "DataForSeoBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/ajax",
+      "/pdf",
+      "/bezahleneinkaufswagen/",
+      "/bezahleneinkaufswagen.html",
+      "/bezahlenadresse/",
+      "/bezahlenadresse.html",
+      "/bezahlenuebersicht/",
+      "/bezahlenuebersicht.html",
+      "/bezahlenlieferung/",
+      "/bezahleneinloggen/",
+      "/bezahlenzahlungsart/",
+      "/bestellung/",
+      "/bestellung.html",
+      "/bestellung_abbrechen/",
+      "/bestellung_abbrechen.html",
+      "/bestellung_error/",
+      "/bestellung_error.html",
+      "/kasse/",
+      "/kasse.html",
+      "/zeigebestellung.html",
+      "/widerruf.html",
+      "/danke.html",
+      "/suchen.html",
+      "/bewertung.html",
+      "/account/",
+      "/neukunden-register/",
+      "/rechnung/",
+      "/passwort-vergessen/",
+      "/suchen*",
+      "/catalogsearch*",
+      "/ttnl/",
+      "/ttbe/",
+      "/ttde/",
+      "/kundenservice/allgemeine-geschaeftsbedingungen.html"
+    ]
+  }
 }

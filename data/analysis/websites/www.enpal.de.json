@@ -1,10 +1,36 @@
 {
   "domain": "www.enpal.de",
   "normalizedDomain": "www.enpal.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /test/\r\nDisallow: /alpha/\r\nDisallow: /datenschutz-bewerber/\r\n\r\nSitemap: https://www.enpal.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/test/",
+        "/alpha/",
+        "/datenschutz-bewerber/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/test/",
+      "/alpha/",
+      "/datenschutz-bewerber/"
+    ]
+  }
 }

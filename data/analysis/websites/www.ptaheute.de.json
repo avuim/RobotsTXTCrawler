@@ -1,10 +1,32 @@
 {
   "domain": "www.ptaheute.de",
   "normalizedDomain": "www.ptaheute.de",
+  "robotsTxt": "User-agent: *\nDisallow: /neos/\n\nSitemap: https://www.ptaheute.de/sitemapindex.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/neos/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/neos/"
+    ]
+  }
 }

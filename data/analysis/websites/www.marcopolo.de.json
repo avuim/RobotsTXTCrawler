@@ -1,18 +1,4751 @@
 {
   "domain": "www.marcopolo.de",
   "normalizedDomain": "www.marcopolo.de",
+  "robotsTxt": "User-agent: ChatGPT-User\nUser-agent: GPTBot\nUser-agent: CCBot\nUser-agent: anthropic-ai\nUser-agent: Google-Extended\nUser-agent: Bytespider\nUser-agent: Diffbot\nUser-agent: FacebookBot\nUser-agent: omgili\nUser-agent: DataForSeoBot\nUser-agent: PiplBot\nUser-agent: Claude-Web\nUser-agent: ClaudeBot\nUser-agent: ImagesiftBot\nDisallow: /\n\nUser-agent: *\nDisallow: /reisefuehrer\n\nUser-agent: Applebot\nUser-agent: archive.org_bot\nUser-agent: Bingbot\nUser-agent: DuckDuckBot\nUser-agent: Ecosia-Bot\nUser-agent: Facebookexternalhit\nUser-agent: Googlebot\nUser-agent: LinkedInBot\nUser-agent: Pinterest\nUser-agent: RyteBot\nUser-agent: Slurp\nUser-agent: Twitterbot\nUser-agent: WhatsApp\nAllow: /reisefuehrer\n\nUser-agent: *\nDisallow: \n\nSitemap: https://www.marcopolo.de/sitemap/index.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/reisefuehrer"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/reisefuehrer"
+        ],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 365,
+    "allowedBots": 169,
+    "disallowedBots": 196,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
     {
       "name": "ImagesiftBot",
       "allowed": false
     },
     {
-      "name": "*",
+      "name": "ChatGPT-User",
       "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "Applebot",
+      "allowed": true
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true
+    },
+    {
+      "name": "Applebot",
+      "allowed": true
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true
+    },
+    {
+      "name": "Applebot",
+      "allowed": true
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true
+    },
+    {
+      "name": "Applebot",
+      "allowed": true
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true
+    },
+    {
+      "name": "Applebot",
+      "allowed": true
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true
+    },
+    {
+      "name": "Applebot",
+      "allowed": true
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true
+    },
+    {
+      "name": "Applebot",
+      "allowed": true
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true
+    },
+    {
+      "name": "Applebot",
+      "allowed": true
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true
+    },
+    {
+      "name": "Applebot",
+      "allowed": true
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true
+    },
+    {
+      "name": "Applebot",
+      "allowed": true
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true
+    },
+    {
+      "name": "Applebot",
+      "allowed": true
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true
+    },
+    {
+      "name": "Applebot",
+      "allowed": true
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
+    },
+    {
+      "name": "WhatsApp",
+      "allowed": true
+    },
+    {
+      "name": "Applebot",
+      "allowed": true
+    },
+    {
+      "name": "archive.org_bot",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true
+    },
+    {
+      "name": "Ecosia-Bot",
+      "allowed": true
+    },
+    {
+      "name": "Facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "LinkedInBot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
     },
     {
       "name": "WhatsApp",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/reisefuehrer"
+    ]
+  }
 }

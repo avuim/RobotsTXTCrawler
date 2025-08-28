@@ -1,10 +1,92 @@
 {
   "domain": "www.sportal.de",
   "normalizedDomain": "www.sportal.de",
+  "robotsTxt": "# robots.txt fuer http://www.sportal.de\r\nUser-agent: *\r\nDisallow: /generated/article/\r\nDisallow: /_bak/\r\nDisallow: /_e2/\r\nDisallow: /_old_sportal/\r\nDisallow: /_sportal_v1/\r\nDisallow: /_vermarkter/\r\nDisallow: /adtags/\r\nDisallow: /ajax/\r\nDisallow: /article/\r\nDisallow: /css/\r\nDisallow: /developer-tools/\r\nDisallow: /images/\r\nDisallow: /includes/\r\nDisallow: /includes/bildergalerien/\r\nDisallow: /js/\r\nDisallow: /kicker/\r\nDisallow: /opta-matchids-list/\r\nDisallow: /opta-test/\r\nDisallow: /rss/\r\nDisallow: /test/\r\nDisallow: /videocenter/\r\nDisallow: /xml/\r\n\r\nDisallow: /alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000\r\nDisallow: /hitzfeld-kritisiert-spielansetzung-1-2011100620858900000/alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000\r\nDisallow: /rauschebart-von-matthias-holst-bleibt-vorerst-1-2011080920411800000/alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000\r\nDisallow: /riether-vor-wechsel-nach-koeln-1-2011070420132700000/alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000\r\nDisallow: /petkovic-haelt-masters-traum-am-leben-1-2011100520852200000/alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000\r\nDisallow: /tsv-1860-muenchen-3-9/stadion/alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000\r\nDisallow: /*/alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000\r\nDisallow: /*/davis-cup-teamchef-michael-kohlmann-soll-steuern-hinterzogen-haben-1-2016043061601000000\r\nDisallow: /*/*davis-cup-teamchef-michael-kohlmann-soll-steuern-hinterzogen-haben-1-2016043061601000000\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/generated/article/",
+        "/_bak/",
+        "/_e2/",
+        "/_old_sportal/",
+        "/_sportal_v1/",
+        "/_vermarkter/",
+        "/adtags/",
+        "/ajax/",
+        "/article/",
+        "/css/",
+        "/developer-tools/",
+        "/images/",
+        "/includes/",
+        "/includes/bildergalerien/",
+        "/js/",
+        "/kicker/",
+        "/opta-matchids-list/",
+        "/opta-test/",
+        "/rss/",
+        "/test/",
+        "/videocenter/",
+        "/xml/",
+        "/alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000",
+        "/hitzfeld-kritisiert-spielansetzung-1-2011100620858900000/alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000",
+        "/rauschebart-von-matthias-holst-bleibt-vorerst-1-2011080920411800000/alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000",
+        "/riether-vor-wechsel-nach-koeln-1-2011070420132700000/alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000",
+        "/petkovic-haelt-masters-traum-am-leben-1-2011100520852200000/alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000",
+        "/tsv-1860-muenchen-3-9/stadion/alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000",
+        "/*/alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000",
+        "/*/davis-cup-teamchef-michael-kohlmann-soll-steuern-hinterzogen-haben-1-2016043061601000000",
+        "/*/*davis-cup-teamchef-michael-kohlmann-soll-steuern-hinterzogen-haben-1-2016043061601000000"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/generated/article/",
+      "/_bak/",
+      "/_e2/",
+      "/_old_sportal/",
+      "/_sportal_v1/",
+      "/_vermarkter/",
+      "/adtags/",
+      "/ajax/",
+      "/article/",
+      "/css/",
+      "/developer-tools/",
+      "/images/",
+      "/includes/",
+      "/includes/bildergalerien/",
+      "/js/",
+      "/kicker/",
+      "/opta-matchids-list/",
+      "/opta-test/",
+      "/rss/",
+      "/test/",
+      "/videocenter/",
+      "/xml/",
+      "/alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000",
+      "/hitzfeld-kritisiert-spielansetzung-1-2011100620858900000/alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000",
+      "/rauschebart-von-matthias-holst-bleibt-vorerst-1-2011080920411800000/alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000",
+      "/riether-vor-wechsel-nach-koeln-1-2011070420132700000/alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000",
+      "/petkovic-haelt-masters-traum-am-leben-1-2011100520852200000/alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000",
+      "/tsv-1860-muenchen-3-9/stadion/alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000",
+      "/*/alfons-hoermann-uebte-dosb-amt-auf-unternehmens-kosten-aus-1-2016050561745900000",
+      "/*/davis-cup-teamchef-michael-kohlmann-soll-steuern-hinterzogen-haben-1-2016043061601000000",
+      "/*/*davis-cup-teamchef-michael-kohlmann-soll-steuern-hinterzogen-haben-1-2016043061601000000"
+    ]
+  }
 }

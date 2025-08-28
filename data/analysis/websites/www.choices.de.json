@@ -1,6 +1,37 @@
 {
   "domain": "www.choices.de",
   "normalizedDomain": "www.choices.de",
+  "robotsTxt": "User-agent: Fasterfox\nDisallow: /\nUser-agent: Mediapartners-Google\nDisallow:",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 0,
+    "disallowedBots": 2,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "Fasterfox",
@@ -10,5 +41,9 @@
       "name": "Mediapartners-Google",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

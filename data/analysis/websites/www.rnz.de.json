@@ -1,14 +1,53 @@
 {
   "domain": "www.rnz.de",
   "normalizedDomain": "www.rnz.de",
+  "robotsTxt": "# global live settings :\r\nUser-agent: *\r\nDisallow: /cms_addon\r\nDisallow: /cms_docs\r\nDisallow: /redFACT\r\nDisallow: /REST/frontend/itemstatistics\r\nSitemap: https://www.rnz.de/sitemap-index/40-Sitemap_Relaunch.xml\r\nSitemap: https://www.rnz.de/sitemap-index/43-News_Sitemap_Relaunch.xml\r\nSitemap: https://www.rnz.de/sitemap-index/46-Artikel_Sitemap_Relaunch.xml\r\nDisallow: /pu_zvw/ajax/upscore.php\r\nUser-agent: Mozilla/5.0 (compatible; OGDWCtxCrawler)\r\nAllow: /\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/cms_addon",
+        "/cms_docs",
+        "/redFACT",
+        "/REST/frontend/itemstatistics",
+        "/pu_zvw/ajax/upscore.php"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Mozilla/5.0 (compatible; OGDWCtxCrawler)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Mozilla/5.0 (compatible; OGDWCtxCrawler)",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/cms_addon",
+      "/cms_docs",
+      "/redFACT",
+      "/REST/frontend/itemstatistics",
+      "/pu_zvw/ajax/upscore.php"
+    ]
+  }
 }

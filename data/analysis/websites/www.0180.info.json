@@ -1,7 +1,184 @@
 {
   "domain": "www.0180.info",
   "normalizedDomain": "www.0180.info",
+  "robotsTxt": "# Siehe haupt robots.txt\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Omgili\nDisallow: /\n\nUser-agent: Timpibot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-Agent: ImagesiftBot\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: dotbot\nDisallow: /\n\nUser-agent: SEOkicks\nDisallow: /\n\nUser-agent: *\nDisallow: /cgi-bin/\n# Siehe haupt robots.txt\nAllow: /ads/*.a=22\nAllow: /ads/*.a=40\nAllow: /ads/*.a=41\nAllow: /ads/*.a=42\nAllow: /ads/*.a=43\nAllow: /ads/*.a=44\nAllow: /ads/*.a=45\nAllow: /ads/*.a=46\nAllow: /ads/*.a=$\nAllow: /click/*.a=40\nAllow: /click/*.a=41\nAllow: /click/*.a=42\nAllow: /click/*.a=43\nAllow: /click/*.a=44\nAllow: /click/*.a=45\nAllow: /click/*.a=46\nDisallow: /ads/\nDisallow: /click/\nDisallow: /forum/action/\nDisallow: /user/\nDisallow: /intern/action/\nDisallow: /ttt.gif\nDisallow: /ttt.go\nDisallow: /ttt.png\nDisallow: /app/\nDisallow: /widget/idealo/\nDisallow: /widget/newsfeed/\nSitemap: https://www.0180.info/sitemap-search.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/ads/*.a=22",
+        "/ads/*.a=40",
+        "/ads/*.a=41",
+        "/ads/*.a=42",
+        "/ads/*.a=43",
+        "/ads/*.a=44",
+        "/ads/*.a=45",
+        "/ads/*.a=46",
+        "/ads/*.a=$",
+        "/click/*.a=40",
+        "/click/*.a=41",
+        "/click/*.a=42",
+        "/click/*.a=43",
+        "/click/*.a=44",
+        "/click/*.a=45",
+        "/click/*.a=46"
+      ],
+      "disallowed": [
+        "/cgi-bin/",
+        "/ads/",
+        "/click/",
+        "/forum/action/",
+        "/user/",
+        "/intern/action/",
+        "/ttt.gif",
+        "/ttt.go",
+        "/ttt.png",
+        "/app/",
+        "/widget/idealo/",
+        "/widget/newsfeed/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Timpibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEOkicks",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 16,
+    "allowedBots": 0,
+    "disallowedBots": 16,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "GPTBot",
       "allowed": false
@@ -65,10 +242,40 @@
     {
       "name": "SEOkicks",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/ads/*.a=22",
+      "/ads/*.a=40",
+      "/ads/*.a=41",
+      "/ads/*.a=42",
+      "/ads/*.a=43",
+      "/ads/*.a=44",
+      "/ads/*.a=45",
+      "/ads/*.a=46",
+      "/ads/*.a=$",
+      "/click/*.a=40",
+      "/click/*.a=41",
+      "/click/*.a=42",
+      "/click/*.a=43",
+      "/click/*.a=44",
+      "/click/*.a=45",
+      "/click/*.a=46"
+    ],
+    "disallowed": [
+      "/cgi-bin/",
+      "/ads/",
+      "/click/",
+      "/forum/action/",
+      "/user/",
+      "/intern/action/",
+      "/ttt.gif",
+      "/ttt.go",
+      "/ttt.png",
+      "/app/",
+      "/widget/idealo/",
+      "/widget/newsfeed/"
+    ]
+  }
 }

@@ -1,10 +1,28 @@
 {
   "domain": "www.zespri.eu",
   "normalizedDomain": "www.zespri.eu",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\n\r\nSitemap: https://www.zespri.eu/global-sitemap.xml\r\nSitemap: https://www.zespri.eu/images_sitemap.xml\r\nSitemap: https://www.zespri.eu/sitemaps/sitemap-befr.xml\r\nSitemap: https://www.zespri.eu/sitemaps/sitemap-benl.xml\r\nSitemap: https://www.zespri.eu/sitemaps/sitemap-de.xml\r\nSitemap: https://www.zespri.eu/sitemaps/sitemap-en.xml\r\nSitemap: https://www.zespri.eu/sitemaps/sitemap-es.xml\r\nSitemap: https://www.zespri.eu/sitemaps/sitemap-fr.xml\r\nSitemap: https://www.zespri.eu/sitemaps/sitemap-gr.xml\r\nSitemap: https://www.zespri.eu/sitemaps/sitemap-it.xml\r\nSitemap: https://www.zespri.eu/sitemaps/sitemap-lufr.xml\r\nSitemap: https://www.zespri.eu/sitemaps/sitemap-nl.xml\r\nSitemap: https://www.zespri.eu/sitemaps/sitemap-no.xml\r\nSitemap: https://www.zespri.eu/sitemaps/sitemap-se.xml\r\nSitemap: https://www.zespri.eu/sitemaps/sitemap_hcp_es.xml\r\nSitemap: https://www.zespri.eu/sitemaps/sitemap_hcp_fr.xml\r\nSitemap: https://www.zespri.eu/sitemaps/sitemap_hcp_nl.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

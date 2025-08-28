@@ -1,6 +1,181 @@
 {
   "domain": "www.mydays.de",
   "normalizedDomain": "www.mydays.de",
+  "robotsTxt": "Sitemap: https://www.mydays.de/assets/sitemap.xml\n\nUser-agent: *\nDisallow: /cart*\nDisallow: /checkout*\nDisallow: /last-check*\nDisallow: /checkout-confirmation*\nDisallow: /search*\nDisallow: /search*?page=*\nDisallow: /experiences*\nDisallow: /availabilities*\nDisallow: /*?q=*\nDisallow: /*?pid*\nDisallow: *.pdf\nAllow: *priceMin=*\nAllow: *priceMax=*\nAllow: *lat=*\nAllow: *long=*\nAllow: *locationName=*\nAllow: *distance=*\nAllow: *?page=*\nAllow: /*?cgid&#x3D;fuer-*\nAllow: /einloesen\n\nUser-agent: Googlebot\nAllow: /*?src=googlebase*\nAllow: /*?src=googleshopping*\nAllow: *priceMin=*\nAllow: *priceMax=*\nAllow: *lat=*\nAllow: *long=*\nAllow: *locationName=*\nAllow: *distance=*\nAllow: *?page=*\nAllow: /*?cgid&#x3D;fuer-*\nAllow: /einloesen\nDisallow: /cart*\nDisallow: /checkout*\nDisallow: /last-check*\nDisallow: /checkout-confirmation*\nDisallow: /search*\nDisallow: /search*?page=*\nDisallow: /experiences*\nDisallow: /availabilities*\nDisallow: /*?q=*\nDisallow: /*?pid*\nDisallow: *.pdf\n\n# empty disallow = allow all\nUser-agent: Adsbot-Google\nDisallow:\n\nUser-agent: Adsbot-Google-Mobile\nDisallow:\n\nUser-agent: Googlebot-image\nAllow: /*?src=googlebase*\nAllow: *priceMin=*\nAllow: *priceMax=*\nAllow: *lat=*\nAllow: *long=*\nAllow: *locationName=*\nAllow: *distance=*\nAllow: *?page=*\nAllow: /einloesen\nDisallow: /cart*\nDisallow: /checkout*\nDisallow: /last-check*\nDisallow: /checkout-confirmation*\nDisallow: /search*\nDisallow: /search*?page=*\nDisallow: /experiences*\nDisallow: /availabilities*\nDisallow: /*?q=*\nDisallow: /*?pid*\nDisallow: *.pdf\n\nUser-agent: AhrefsBot\nDisallow: /cart*\nDisallow: /checkout*\nDisallow: /last-check*\nDisallow: /checkout-confirmation*\nDisallow: /search*\nDisallow: /search*?page=*\nDisallow: /experiences*\nDisallow: /availabilities*\nDisallow: /*?q=*\nDisallow: /*?pid*\nDisallow: *.pdf\nAllow: *priceMin=*\nAllow: *priceMax=*\nAllow: *lat=*\nAllow: *long=*\nAllow: *locationName=*\nAllow: *distance=*\nAllow: *?page=*\nAllow: /einloesen\nDisallow: /images*\n# Ahrefs spams /images\n\nUser-agent: RyteBot\nDisallow: /cart*\nDisallow: /checkout*\nDisallow: /last-check*\nDisallow: /checkout-confirmation*\nDisallow: /search*\nDisallow: /search*?page=*\nDisallow: /experiences*\nDisallow: /availabilities*\nDisallow: /*?q=*\nDisallow: /*?pid*\nDisallow: *.pdf\nAllow: *priceMin=*\nAllow: *priceMax=*\nAllow: *lat=*\nAllow: *long=*\nAllow: *locationName=*\nAllow: *distance=*\nAllow: *?page=*\nAllow: /einloesen\nDisallow: /images*\n# RyteBot spams /images",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "*priceMin=*",
+        "*priceMax=*",
+        "*lat=*",
+        "*long=*",
+        "*locationName=*",
+        "*distance=*",
+        "*?page=*",
+        "/*?cgid&#x3D;fuer-*",
+        "/einloesen"
+      ],
+      "disallowed": [
+        "/cart*",
+        "/checkout*",
+        "/last-check*",
+        "/checkout-confirmation*",
+        "/search*",
+        "/search*?page=*",
+        "/experiences*",
+        "/availabilities*",
+        "/*?q=*",
+        "/*?pid*",
+        "*.pdf"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?src=googlebase*",
+          "/*?src=googleshopping*",
+          "*priceMin=*",
+          "*priceMax=*",
+          "*lat=*",
+          "*long=*",
+          "*locationName=*",
+          "*distance=*",
+          "*?page=*",
+          "/*?cgid&#x3D;fuer-*",
+          "/einloesen"
+        ],
+        "disallowed": [
+          "/cart*",
+          "/checkout*",
+          "/last-check*",
+          "/checkout-confirmation*",
+          "/search*",
+          "/search*?page=*",
+          "/experiences*",
+          "/availabilities*",
+          "/*?q=*",
+          "/*?pid*",
+          "*.pdf"
+        ]
+      }
+    },
+    {
+      "name": "Adsbot-Google",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Adsbot-Google-Mobile",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot-image",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?src=googlebase*",
+          "*priceMin=*",
+          "*priceMax=*",
+          "*lat=*",
+          "*long=*",
+          "*locationName=*",
+          "*distance=*",
+          "*?page=*",
+          "/einloesen"
+        ],
+        "disallowed": [
+          "/cart*",
+          "/checkout*",
+          "/last-check*",
+          "/checkout-confirmation*",
+          "/search*",
+          "/search*?page=*",
+          "/experiences*",
+          "/availabilities*",
+          "/*?q=*",
+          "/*?pid*",
+          "*.pdf"
+        ]
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "*priceMin=*",
+          "*priceMax=*",
+          "*lat=*",
+          "*long=*",
+          "*locationName=*",
+          "*distance=*",
+          "*?page=*",
+          "/einloesen"
+        ],
+        "disallowed": [
+          "/cart*",
+          "/checkout*",
+          "/last-check*",
+          "/checkout-confirmation*",
+          "/search*",
+          "/search*?page=*",
+          "/experiences*",
+          "/availabilities*",
+          "/*?q=*",
+          "/*?pid*",
+          "*.pdf",
+          "/images*"
+        ]
+      }
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "*priceMin=*",
+          "*priceMax=*",
+          "*lat=*",
+          "*long=*",
+          "*locationName=*",
+          "*distance=*",
+          "*?page=*",
+          "/einloesen"
+        ],
+        "disallowed": [
+          "/cart*",
+          "/checkout*",
+          "/last-check*",
+          "/checkout-confirmation*",
+          "/search*",
+          "/search*?page=*",
+          "/experiences*",
+          "/availabilities*",
+          "/*?q=*",
+          "/*?pid*",
+          "*.pdf",
+          "/images*"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 6,
+    "allowedBots": 4,
+    "disallowedBots": 2,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -30,5 +205,31 @@
       "name": "RyteBot",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "*priceMin=*",
+      "*priceMax=*",
+      "*lat=*",
+      "*long=*",
+      "*locationName=*",
+      "*distance=*",
+      "*?page=*",
+      "/*?cgid&#x3D;fuer-*",
+      "/einloesen"
+    ],
+    "disallowed": [
+      "/cart*",
+      "/checkout*",
+      "/last-check*",
+      "/checkout-confirmation*",
+      "/search*",
+      "/search*?page=*",
+      "/experiences*",
+      "/availabilities*",
+      "/*?q=*",
+      "/*?pid*",
+      "*.pdf"
+    ]
+  }
 }

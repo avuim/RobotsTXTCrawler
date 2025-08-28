@@ -1,6 +1,31 @@
 {
   "domain": "www.baby-vornamen.de",
   "normalizedDomain": "www.baby-vornamen.de",
+  "robotsTxt": "User-agent: *\nDisallow: \nUser-agent: Googlebot\nDisallow: /*PHPSESSID\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/*PHPSESSID"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
@@ -8,7 +33,11 @@
     },
     {
       "name": "Googlebot",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

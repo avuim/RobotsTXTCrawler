@@ -1,10 +1,75 @@
 {
   "domain": "www.idowa.de",
   "normalizedDomain": "www.idowa.de",
+  "robotsTxt": "# ID: 1\nUser-agent: *\n\nDisallow: /admin/\nDisallow: /_/admin/\nDisallow: /_/tools/\nDisallow: /_/sendmail/\nDisallow: /_/sendmail.html*\nDisallow: /_CPiX/\nDisallow: /_LPW*\nDisallow: /_AUTH*\nDisallow: /_EXEC*\nDisallow: /*?_FRAME=*\nDisallow: /*_FORMAT=PRINT*\nDisallow: /fcms/\nDisallow: /register/\nDisallow: /member/\nDisallow: /importe/\nDisallow: /import/\nDisallow: /abfall/\n\nSitemap: https://www.idowa.de/news-artikel.sitemap.xml\nSitemap: https://www.idowa.de/news-ticker.sitemap.xml\nSitemap: https://www.idowa.de/portal-artikel.sitemap.xml\nSitemap: https://www.idowa.de/portal-ticker.sitemap.xml\n\n# Legal notice: idowa.de expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).\n# The use of robots or other automated means to access  idowa.de or collect or mine data without the express permission of  idowa.de is strictly prohibited.\n\n# OpenAI\nUser-agent: GPTBot\nDisallow: /\n\n#ChatGPT\nUser-agent: ChatGPT-User\nDisallow: /\n\n# Google Bard\nUser-agent: Google-Extended\nDisallow: /\n\n# Common Crawl Foundation\nUser-agent: CCBot\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/admin/",
+        "/_/admin/",
+        "/_/tools/",
+        "/_/sendmail/",
+        "/_/sendmail.html*",
+        "/_CPiX/",
+        "/_LPW*",
+        "/_AUTH*",
+        "/_EXEC*",
+        "/*?_FRAME=*",
+        "/*_FORMAT=PRINT*",
+        "/fcms/",
+        "/register/",
+        "/member/",
+        "/importe/",
+        "/import/",
+        "/abfall/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 4,
+    "allowedBots": 0,
+    "disallowedBots": 4,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
@@ -22,5 +87,27 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/admin/",
+      "/_/admin/",
+      "/_/tools/",
+      "/_/sendmail/",
+      "/_/sendmail.html*",
+      "/_CPiX/",
+      "/_LPW*",
+      "/_AUTH*",
+      "/_EXEC*",
+      "/*?_FRAME=*",
+      "/*_FORMAT=PRINT*",
+      "/fcms/",
+      "/register/",
+      "/member/",
+      "/importe/",
+      "/import/",
+      "/abfall/"
+    ]
+  }
 }

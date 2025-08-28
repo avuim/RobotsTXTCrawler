@@ -1,10 +1,78 @@
 {
   "domain": "www.pyur.com",
   "normalizedDomain": "www.pyur.com",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\nDisallow: /All_components\r\nDisallow: /system/probes/health\r\nDisallow: /errors\r\nDisallow: /generalsettings\r\n\r\n#params GSC\r\nDisallow: /*?*cioid=\r\nDisallow: /*?*msclkid=\r\nDisallow: /*?*aff=\r\nDisallow: /*?*marketingid=\r\nDisallow: /*?*campID=\r\nDisallow: /*?*objectid=\r\nDisallow: /*?*ca_id=\r\nDisallow: /*?*link=\r\nDisallow: /*?*ref=\r\nDisallow: /*?*noHeader=\r\nDisallow: /*?*noFooter=\r\nDisallow: /*?*creative=\r\nDisallow: /*?*PHPSESSID=\r\nDisallow: /*?*utm_campaign=\r\nDisallow: /*?*utm_term=\r\nDisallow: /*?*gclid=\r\nDisallow: /*?*map=\r\nDisallow: /*?*action=\r\nDisallow: /*?*smel=\r\nDisallow: /*?*view=\r\n\r\n\r\nSitemap: https://www.pyur.com/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/All_components",
+        "/system/probes/health",
+        "/errors",
+        "/generalsettings",
+        "/*?*cioid=",
+        "/*?*msclkid=",
+        "/*?*aff=",
+        "/*?*marketingid=",
+        "/*?*campID=",
+        "/*?*objectid=",
+        "/*?*ca_id=",
+        "/*?*link=",
+        "/*?*ref=",
+        "/*?*noHeader=",
+        "/*?*noFooter=",
+        "/*?*creative=",
+        "/*?*PHPSESSID=",
+        "/*?*utm_campaign=",
+        "/*?*utm_term=",
+        "/*?*gclid=",
+        "/*?*map=",
+        "/*?*action=",
+        "/*?*smel=",
+        "/*?*view="
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/All_components",
+      "/system/probes/health",
+      "/errors",
+      "/generalsettings",
+      "/*?*cioid=",
+      "/*?*msclkid=",
+      "/*?*aff=",
+      "/*?*marketingid=",
+      "/*?*campID=",
+      "/*?*objectid=",
+      "/*?*ca_id=",
+      "/*?*link=",
+      "/*?*ref=",
+      "/*?*noHeader=",
+      "/*?*noFooter=",
+      "/*?*creative=",
+      "/*?*PHPSESSID=",
+      "/*?*utm_campaign=",
+      "/*?*utm_term=",
+      "/*?*gclid=",
+      "/*?*map=",
+      "/*?*action=",
+      "/*?*smel=",
+      "/*?*view="
+    ]
+  }
 }

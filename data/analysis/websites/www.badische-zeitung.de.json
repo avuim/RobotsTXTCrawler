@@ -1,10 +1,62 @@
 {
   "domain": "www.badische-zeitung.de",
   "normalizedDomain": "www.badische-zeitung.de",
+  "robotsTxt": "User-agent: *\nDisallow: /cache\nDisallow: /epaper\nDisallow: /fehler_melden.html\nDisallow: /versenden.html\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-Agent: PerplexityBot\nDisallow: /\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/cache",
+        "/epaper",
+        "/fehler_melden.html",
+        "/versenden.html"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 4,
+    "allowedBots": 0,
+    "disallowedBots": 4,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "ChatGPT-User",
@@ -22,5 +74,14 @@
       "name": "PerplexityBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/cache",
+      "/epaper",
+      "/fehler_melden.html",
+      "/versenden.html"
+    ]
+  }
 }

@@ -1,6 +1,2167 @@
 {
   "domain": "www.garmin.com",
   "normalizedDomain": "www.garmin.com",
+  "robotsTxt": "# www.garmin.com\r\n# Exceptions for all user agents:\r\nUser-agent: *\r\nDisallow: /products/comparison.jsp\r\nDisallow: /dealerResource/*\r\nDisallow: /lbt/*\r\nDisallow: /account/\r\nAllow: /account/$\r\n\r\n# Sitemaps\r\nSitemap: https://www.garmin.com/sitemap-index-blogs.xml\r\nSitemap: https://www.garmin.com/product-sitemap-index.xml\r\nSitemap: https://www.garmin.com/category-sitemap-index.xml\r\n\r\n# Individual user agent settings:\r\nUser-agent: gsa-garmin\r\nAllow: /\r\n\r\nUser-agent: anthropic-ai\r\nUser-agent: CCBot\r\nUser-agent: ChatGPT-User\r\nUser-agent: ClaudeBot\r\nUser-agent: Claude-Web\r\nUser-agent: cohere-ai\r\nUser-agent: DuckAssistBot\r\nUser-agent: GPTBot\r\nUser-agent: Meta-ExternalAgent\r\nUser-agent: OAI-SearchBot\r\nUser-agent: Quora-Bot\r\nAllow: /*/c/*\r\nAllow: /*/p/*\r\nDisallow: /\r\n\r\n# Disallowed user agents:\r\nUser-agent: Better Uptime Bot\r\nUser-agent: DataForSeoBot\r\nUser-agent: ecoresearchCrawler\r\nUser-agent: EyeMonIT Uptime Bot\r\nUser-agent: omgili\r\nUser-agent: omgilibot\r\nUser-agent: PerplexityBot\r\nUser-agent: PiplBot\r\nUser-agent: TurnitinBot\r\nUser-agent: UptimeRobot\r\nDisallow: /\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/account/$"
+      ],
+      "disallowed": [
+        "/products/comparison.jsp",
+        "/dealerResource/*",
+        "/lbt/*",
+        "/account/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "gsa-garmin",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/*/c/*",
+          "/*/p/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Better Uptime Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ecoresearchCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EyeMonIT Uptime Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "UptimeRobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Better Uptime Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ecoresearchCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EyeMonIT Uptime Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "UptimeRobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Better Uptime Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ecoresearchCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EyeMonIT Uptime Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "UptimeRobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Better Uptime Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ecoresearchCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EyeMonIT Uptime Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "UptimeRobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Better Uptime Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ecoresearchCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EyeMonIT Uptime Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "UptimeRobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Better Uptime Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ecoresearchCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EyeMonIT Uptime Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "UptimeRobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Better Uptime Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ecoresearchCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EyeMonIT Uptime Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "UptimeRobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Better Uptime Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ecoresearchCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EyeMonIT Uptime Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "UptimeRobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Better Uptime Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ecoresearchCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EyeMonIT Uptime Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "UptimeRobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Better Uptime Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ecoresearchCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EyeMonIT Uptime Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "UptimeRobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 222,
+    "allowedBots": 1,
+    "disallowedBots": 221,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -11,12 +2172,899 @@
       "allowed": true
     },
     {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
       "name": "Quora-Bot",
-      "allowed": true
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false
+    },
+    {
+      "name": "Better Uptime Bot",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "ecoresearchCrawler",
+      "allowed": false
+    },
+    {
+      "name": "EyeMonIT Uptime Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false
+    },
+    {
+      "name": "UptimeRobot",
+      "allowed": false
+    },
+    {
+      "name": "Better Uptime Bot",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "ecoresearchCrawler",
+      "allowed": false
+    },
+    {
+      "name": "EyeMonIT Uptime Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false
+    },
+    {
+      "name": "UptimeRobot",
+      "allowed": false
+    },
+    {
+      "name": "Better Uptime Bot",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "ecoresearchCrawler",
+      "allowed": false
+    },
+    {
+      "name": "EyeMonIT Uptime Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false
+    },
+    {
+      "name": "UptimeRobot",
+      "allowed": false
+    },
+    {
+      "name": "Better Uptime Bot",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "ecoresearchCrawler",
+      "allowed": false
+    },
+    {
+      "name": "EyeMonIT Uptime Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false
+    },
+    {
+      "name": "UptimeRobot",
+      "allowed": false
+    },
+    {
+      "name": "Better Uptime Bot",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "ecoresearchCrawler",
+      "allowed": false
+    },
+    {
+      "name": "EyeMonIT Uptime Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false
+    },
+    {
+      "name": "UptimeRobot",
+      "allowed": false
+    },
+    {
+      "name": "Better Uptime Bot",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "ecoresearchCrawler",
+      "allowed": false
+    },
+    {
+      "name": "EyeMonIT Uptime Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false
+    },
+    {
+      "name": "UptimeRobot",
+      "allowed": false
+    },
+    {
+      "name": "Better Uptime Bot",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "ecoresearchCrawler",
+      "allowed": false
+    },
+    {
+      "name": "EyeMonIT Uptime Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false
+    },
+    {
+      "name": "UptimeRobot",
+      "allowed": false
+    },
+    {
+      "name": "Better Uptime Bot",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "ecoresearchCrawler",
+      "allowed": false
+    },
+    {
+      "name": "EyeMonIT Uptime Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false
+    },
+    {
+      "name": "UptimeRobot",
+      "allowed": false
+    },
+    {
+      "name": "Better Uptime Bot",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "ecoresearchCrawler",
+      "allowed": false
+    },
+    {
+      "name": "EyeMonIT Uptime Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false
+    },
+    {
+      "name": "UptimeRobot",
+      "allowed": false
+    },
+    {
+      "name": "Better Uptime Bot",
+      "allowed": false
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false
+    },
+    {
+      "name": "ecoresearchCrawler",
+      "allowed": false
+    },
+    {
+      "name": "EyeMonIT Uptime Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false
     },
     {
       "name": "UptimeRobot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/account/$"
+    ],
+    "disallowed": [
+      "/products/comparison.jsp",
+      "/dealerResource/*",
+      "/lbt/*",
+      "/account/"
+    ]
+  }
 }

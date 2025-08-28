@@ -1,6 +1,181 @@
 {
   "domain": "www.gameswelt.de",
   "normalizedDomain": "www.gameswelt.de",
+  "robotsTxt": "User-agent: *\nDisallow:\n\nUser-Agent: Googlebot-Image\nDisallow: /\n\nUser-Agent: baiduspider-image\nDisallow: /\n\nUser-Agent: msnbot-media\nDisallow: /\n\nUser-Agent: AhrefsBot\nDisallow: /\n\nUser-Agent: Barkrowler\nDisallow: /\n\nUser-Agent: BLEXBot\nDisallow: /\n\nUser-Agent: DataForSeoBot\nDisallow: /\n\nUser-Agent: dotbot\nDisallow: /\n\nUser-Agent: MJ12bot\nDisallow: /\n\nUser-Agent: PetalBot\nDisallow: /\n\nUser-Agent: SemrushBot\nDisallow: /\n\nUser-Agent: SemrushBot-BA\nDisallow: /\n\nUser-Agent: SemrushBot-BM\nDisallow: /\n\nUser-Agent: SemrushBot-CT\nDisallow: /\n\nUser-Agent: SemrushBot-SA\nDisallow: /\n\nUser-Agent: SemrushBot-SEOAB\nDisallow: /\n\nUser-Agent: SemrushBot-SI\nDisallow: /\n\nUser-Agent: SemrushBot-SWA\nDisallow: /\n\nUser-Agent: SeznamBot\nDisallow: /\n\nUser-Agent: voltron\nDisallow: /\n\n# Sitemaps\nSitemap: https://www.gameswelt.de/sitemap/archive/articles/index.xml\nSitemap: https://www.gameswelt.de/sitemap/archive/tips/index.xml\nSitemap: https://www.gameswelt.de/sitemap/archive/news/index.xml\nSitemap: https://www.gameswelt.de/sitemap/archive/videos/index.xml\nSitemap: https://www.gameswelt.de/sitemap/games/index.xml\nSitemap: https://www.gameswelt.de/sitemap/hardware/index.xml\nSitemap: https://www.gameswelt.de/sitemap/companies/index.xml\nSitemap: https://www.gameswelt.de/sitemap/events/index.xml\nSitemap: https://www.gameswelt.de/sitemap/channels/index.xml\nSitemap: https://www.gameswelt.de/sitemap/static.xml\nSitemap: https://www.gameswelt.de/sitemap/recent.xml\nSitemap: https://www.gameswelt.de/sitemap/news.xml\nSitemap: https://www.gameswelt.de/sitemap/featured.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot-Image",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "baiduspider-image",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "msnbot-media",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot-BA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot-BM",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot-CT",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot-SEOAB",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot-SI",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot-SWA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SeznamBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "voltron",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 20,
+    "allowedBots": 0,
+    "disallowedBots": 20,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
@@ -86,5 +261,9 @@
       "name": "voltron",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

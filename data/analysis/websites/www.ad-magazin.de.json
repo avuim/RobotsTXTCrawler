@@ -1,10 +1,180 @@
 {
   "domain": "www.ad-magazin.de",
   "normalizedDomain": "www.ad-magazin.de",
+  "robotsTxt": "User-agent: *\nDisallow: /preview/\nDisallow: /search\nDisallow: /*bolt\nDisallow: /1147.1/\nDisallow: /5574/\nDisallow: /data/\nDisallow: /files\nDisallow: /*?redirectURL=\nDisallow: /*{{url}}\nDisallow: /*%7B%7Burl%7D%7D\nDisallow: /*{{section}}\nDisallow: /*%7B%7Bsection%7D%7D\nDisallow: /auth/*\nDisallow: /account/*\nDisallow: /product/\nDisallow: /user-context?referrer\nDisallow: /services.min.js?_=\nDisallow: /com.condenast/yv8*\n\nUser-agent: Google-InspectionTool\nAllow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: FacebookBot\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: Omgilibot\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: YouBot\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: cohere-training-data-crawler\nDisallow: /\n\nSitemap: https://www.ad-magazin.de/sitemap.xml\nSitemap: https://www.ad-magazin.de/feed/google-latest-news/sitemap-google-news\nSitemap: https://www.ad-magazin.de/gewinnspiele/sitemap.xml\nSitemap: https://nautilus.condenastdigital.de/api/feed/ad-all\nSitemap: https://www.ad-magazin.de/feed/rss\nSitemap: https://www.ad-magazin.de/categories-sitemap.xml\nSitemap: https://www.ad-magazin.de/contributors-sitemap.xml\nSitemap: https://www.ad-magazin.de/branded-sitemap.xml\nSitemap: https://www.ad-magazin.de/bundles-sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/preview/",
+        "/search",
+        "/*bolt",
+        "/1147.1/",
+        "/5574/",
+        "/data/",
+        "/files",
+        "/*?redirectURL=",
+        "/*{{url}}",
+        "/*%7B%7Burl%7D%7D",
+        "/*{{section}}",
+        "/*%7B%7Bsection%7D%7D",
+        "/auth/*",
+        "/account/*",
+        "/product/",
+        "/user-context?referrer",
+        "/services.min.js?_=",
+        "/com.condenast/yv8*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Google-InspectionTool",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YouBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-training-data-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 17,
+    "allowedBots": 1,
+    "disallowedBots": 16,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Google-InspectionTool",
@@ -74,5 +244,28 @@
       "name": "cohere-training-data-crawler",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/preview/",
+      "/search",
+      "/*bolt",
+      "/1147.1/",
+      "/5574/",
+      "/data/",
+      "/files",
+      "/*?redirectURL=",
+      "/*{{url}}",
+      "/*%7B%7Burl%7D%7D",
+      "/*{{section}}",
+      "/*%7B%7Bsection%7D%7D",
+      "/auth/*",
+      "/account/*",
+      "/product/",
+      "/user-context?referrer",
+      "/services.min.js?_=",
+      "/com.condenast/yv8*"
+    ]
+  }
 }

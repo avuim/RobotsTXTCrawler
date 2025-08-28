@@ -1,10 +1,48 @@
 {
   "domain": "www.testsieger.de",
   "normalizedDomain": "www.testsieger.de",
+  "robotsTxt": "User-agent: *\nDisallow: /app/\nDisallow: /api/*\nDisallow: */testbericht-lesen/\nDisallow: /4023/\nDisallow: /price-history/*\nDisallow: /price-alert/*\nDisallow: /native-retail-media/*\nDisallow: /customer-reviews/*\nDisallow: *-preisvergleich.html",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/app/",
+        "/api/*",
+        "*/testbericht-lesen/",
+        "/4023/",
+        "/price-history/*",
+        "/price-alert/*",
+        "/native-retail-media/*",
+        "/customer-reviews/*",
+        "*-preisvergleich.html"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/app/",
+      "/api/*",
+      "*/testbericht-lesen/",
+      "/4023/",
+      "/price-history/*",
+      "/price-alert/*",
+      "/native-retail-media/*",
+      "/customer-reviews/*",
+      "*-preisvergleich.html"
+    ]
+  }
 }

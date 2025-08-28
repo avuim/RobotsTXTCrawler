@@ -1,10 +1,54 @@
 {
   "domain": "www.toyota.de",
   "normalizedDomain": "www.toyota.de",
+  "robotsTxt": "User-agent: *\r\nSitemap: https://www.toyota.de/sitemap.xml\r\nDisallow: /content/forms/af/\r\nDisallow: */_jcr_content/*\r\nDisallow: /header-and-footer/\r\nDisallow: *?focusImage*\r\nDisallow: /bin/cocadap*\r\nDisallow: /sys*\r\nDisallow: /libs/cq/i18n/\r\nDisallow: /test-playground/\r\nDisallow: /var/dxp/forms/datasources/\r\nDisallow: /backup-pages/\r\nDisallow: /pkw/\r\nDisallow: *pdp*",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/content/forms/af/",
+        "*/_jcr_content/*",
+        "/header-and-footer/",
+        "*?focusImage*",
+        "/bin/cocadap*",
+        "/sys*",
+        "/libs/cq/i18n/",
+        "/test-playground/",
+        "/var/dxp/forms/datasources/",
+        "/backup-pages/",
+        "/pkw/",
+        "*pdp*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/content/forms/af/",
+      "*/_jcr_content/*",
+      "/header-and-footer/",
+      "*?focusImage*",
+      "/bin/cocadap*",
+      "/sys*",
+      "/libs/cq/i18n/",
+      "/test-playground/",
+      "/var/dxp/forms/datasources/",
+      "/backup-pages/",
+      "/pkw/",
+      "*pdp*"
+    ]
+  }
 }

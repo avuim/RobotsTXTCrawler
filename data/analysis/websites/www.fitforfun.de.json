@@ -1,10 +1,61 @@
 {
   "domain": "www.fitforfun.de",
   "normalizedDomain": "www.fitforfun.de",
+  "robotsTxt": "User-agent: *\nDisallow: /*?drucken=1\nDisallow: /*doPrint=true # Druckseiten Artikelobjekt Tabelle\nDisallow: /ERRORS/    # Fehler-Seiten\nDisallow: /JANUS/      # Test-Seiten\nDisallow: /cook/      \nDisallow: /trainer/\nDisallow: /planet-fit/\nDisallow: /service/koops/\nDisallow: /service/suche?*\nDisallow: /api/social/\nDisallow: /embeded/*\n\nUser-Agent: *\nDisallow: /*?sendmail=true&\nDisallow: /*studioRate.do\nDisallow: /*studioDetails.do\nDisallow: /*studioSearch.do?\nDisallow: /*studioRanking.do?\nDisallow: /*tabStudioMy.do\nDisallow: /*tabStudioNew.do\nDisallow: /*tabStudioSearch.do\nDisallow: /*trackRate.do\nDisallow: /*trackDetails.do\nDisallow: /*trackSearch.do?\nDisallow: /*trackRanking.do?\nDisallow: /*tabTrackMy.do\nDisallow: /*tabTrackNew.do\nDisallow: /*tabTrackSearch.do\nDisallow: /*recipeRate.do\nDisallow: /*recipeDetails.do\nDisallow: /*recipeSearch.do?\nDisallow: /*recipeRanking.do?\nDisallow: /*tabRecipeMy.do\nDisallow: /*tabRecipeNew.do\nDisallow: /*tabRecipeSearch.do\nDisallow: /*profileDetails.do\nDisallow: /*profileSearch.do\nDisallow: /*profileSearchList.do\nDisallow: /*profileSearchList.do\nDisallow: /*tabProfileSearch.do\nDisallow: /*showDefaultSearchPopup.do\nDisallow: /*setDefaultSearch.do\nDisallow: /*switchMod.do?\nDisallow: /*CloseTab.do?\nDisallow: /*fitness-studio-finden?location\nDisallow: /planet-fit/\nDisallow: /planet-fit/js/\nDisallow: /hps/\nDisallow: /*switchMod.do?\nDisallow: /fff/SWF/\nDisallow: /travel/\nDisallow: /*?slide=\nDisallow: /anatomiequiz/\nDisallow: /de_DE\n\n# GPTBot - OpenAI\nUser-agent: GPTBot\nDisallow: /\n\n# ChatGPT - OpenAI\nUser-agent: ChatGPT-User\nDisallow: /\n\n# Common Crawl\nUser-agent: CCBot\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*?drucken=1",
+        "/*doPrint=true # Druckseiten Artikelobjekt Tabelle",
+        "/ERRORS/    # Fehler-Seiten",
+        "/JANUS/      # Test-Seiten",
+        "/cook/",
+        "/trainer/",
+        "/planet-fit/",
+        "/service/koops/",
+        "/service/suche?*",
+        "/api/social/",
+        "/embeded/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
@@ -18,5 +69,21 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*?drucken=1",
+      "/*doPrint=true # Druckseiten Artikelobjekt Tabelle",
+      "/ERRORS/    # Fehler-Seiten",
+      "/JANUS/      # Test-Seiten",
+      "/cook/",
+      "/trainer/",
+      "/planet-fit/",
+      "/service/koops/",
+      "/service/suche?*",
+      "/api/social/",
+      "/embeded/*"
+    ]
+  }
 }

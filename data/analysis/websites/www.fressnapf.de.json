@@ -1,10 +1,60 @@
 {
   "domain": "www.fressnapf.de",
   "normalizedDomain": "www.fressnapf.de",
+  "robotsTxt": "#For all robots\r\nUser-agent: *\r\n#Block access to specific groups of pages\r\nDisallow: */cart/\r\nDisallow: */checkout\r\nDisallow: */my-account\r\nDisallow: /s/\r\nDisallow: */search\r\nDisallow: */displayShader\r\nDisallow: */account\r\nDisallow: */pvz\r\nDisallow: *viewtype=*\r\nDisallow: *sort=*\r\nDisallow: /*?q=%3AtopSeller\r\nDisallow: */modal\r\nDisallow: */register\r\nDisallow: *bvstate=*\r\nDisallow: *bvroute=*\r\n\r\n#Sitemap\r\nSitemap: https://www.fressnapf.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "*/cart/",
+        "*/checkout",
+        "*/my-account",
+        "/s/",
+        "*/search",
+        "*/displayShader",
+        "*/account",
+        "*/pvz",
+        "*viewtype=*",
+        "*sort=*",
+        "/*?q=%3AtopSeller",
+        "*/modal",
+        "*/register",
+        "*bvstate=*",
+        "*bvroute=*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "*/cart/",
+      "*/checkout",
+      "*/my-account",
+      "/s/",
+      "*/search",
+      "*/displayShader",
+      "*/account",
+      "*/pvz",
+      "*viewtype=*",
+      "*sort=*",
+      "/*?q=%3AtopSeller",
+      "*/modal",
+      "*/register",
+      "*bvstate=*",
+      "*bvroute=*"
+    ]
+  }
 }

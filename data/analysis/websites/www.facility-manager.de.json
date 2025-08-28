@@ -1,10 +1,36 @@
 {
   "domain": "www.facility-manager.de",
   "normalizedDomain": "www.facility-manager.de",
+  "robotsTxt": "User-Agent: *\nDisallow: /wp-admin/\nDisallow: /wp-includes/\nDisallow: /download/downloads/\n\nCrawl-delay: 20\n\n\nSitemap: http://www.facility-manager.de/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/wp-admin/",
+        "/wp-includes/",
+        "/download/downloads/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/wp-admin/",
+      "/wp-includes/",
+      "/download/downloads/"
+    ]
+  }
 }

@@ -1,10 +1,88 @@
 {
   "domain": "www.westwing.de",
   "normalizedDomain": "www.westwing.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /all-products\r\nDisallow: /p/s/*\r\nDisallow: */customer*\r\nDisallow: *--*\r\nDisallow: /*?*q=*\r\nDisallow: /*?*searched=*\r\nDisallow: /now-api*\r\nDisallow: /bella-api*\r\nDisallow: /n/studio*\r\nDisallow: *?c=\r\nDisallow: /sso/*\r\nDisallow: /c/*\r\n\r\nUser-agent: Googlebot\r\nAllow: *?c=\r\nUser-agent: Googlebot-Image\r\nAllow: *?c=\r\nUser-agent: AdsBot-Google\r\nAllow: *?c=\r\n\r\nAllow: /new-products/$\r\nAllow: /customer/invitation/create/\r\n\r\nUser-agent: MJ12bot\r\nDisallow: /api/*\r\n\r\nUser-agent: Pinterestbot\r\nCrawl-delay: 1\r\n\r\nSitemap: https://www.westwing.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/all-products",
+        "/p/s/*",
+        "*/customer*",
+        "*--*",
+        "/*?*q=*",
+        "/*?*searched=*",
+        "/now-api*",
+        "/bella-api*",
+        "/n/studio*",
+        "*?c=",
+        "/sso/*",
+        "/c/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "*?c="
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "*?c="
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "*?c=",
+          "/new-products/$",
+          "/customer/invitation/create/"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/api/*"
+        ]
+      }
+    },
+    {
+      "name": "Pinterestbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 5,
+    "allowedBots": 5,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Googlebot",
@@ -20,7 +98,28 @@
     },
     {
       "name": "MJ12bot",
-      "allowed": false
+      "allowed": true
+    },
+    {
+      "name": "Pinterestbot",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/all-products",
+      "/p/s/*",
+      "*/customer*",
+      "*--*",
+      "/*?*q=*",
+      "/*?*searched=*",
+      "/now-api*",
+      "/bella-api*",
+      "/n/studio*",
+      "*?c=",
+      "/sso/*",
+      "/c/*"
+    ]
+  }
 }

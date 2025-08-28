@@ -1,10 +1,32 @@
 {
   "domain": "www.decathlon.de",
   "normalizedDomain": "www.decathlon.de",
+  "robotsTxt": "User-Agent: *\r\nDisallow: /*/debug-error/*\r\n\r\nUser-Agent: *\r\nDisallow: /api/*\r\n\r\nUser-Agent: *\r\nDisallow: */debug\r\n\r\nUser-Agent: *\r\nDisallow: /checkout/\r\n\r\nUser-Agent: *\r\nDisallow: /*product-review-post*\r\nDisallow: */p-r/*\r\nDisallow: /*utility/vote/\r\nDisallow: /*notes=*\r\nDisallow: /*sort=*\r\nDisallow: /*direction=*\r\n\r\nUser-Agent: *\r\nDisallow: /*?Ndrc=*\r\nDisallow: /*?offer=*\r\nDisallow: /*~*/*~*/\r\n\r\nUser-Agent: *\r\nDisallow: /*redirectUrl=*\r\nDisallow: /*/_/0$\r\nDisallow: /*CustomProductCatalog*\r\n\r\nUser-Agent: *\r\nDisallow: //p/\r\nDisallow: //browse/\r\n\r\nUser-Agent: *\r\nDisallow: /r/*page=*\r\n\r\nUser-Agent: *\r\nDisallow: */store-review-post*\r\n\r\nUser-Agent: *\r\nDisallow: */p-a/*\r\n\r\nUser-Agent: *\r\nDisallow: *reviews_note=*\r\nDisallow: *reviews_page=*\r\nDisallow: /_Incapsula_Resource*\r\n\r\nUser-Agent: *\r\nDisallow: /login\r\nDisallow: /our-suggestions/\r\n\r\nUser-Agent: *\r\nDisallow: /*?No=*\r\nDisallow: /*Nrpp=*\r\n\r\nUser-Agent: *\r\nDisallow: /*?Ns=*\r\nDisallow: /*&Ns=*\r\n\r\nUser-Agent: *\r\nDisallow: /cdn-cgi/\r\n\r\nUser-Agent: *\r\nDisallow: /search?Ntt=*\r\nDisallow: /search\r\n\r\nUser-Agent: MJ12bot\r\nCrawl-delay: 2\r\n\r\nUser-Agent: FacebookBot\r\nCrawl-delay: 2\r\n\r\nUser-Agent: *\r\nAllow: */f-brand_*\r\nAllow: */f-color_*\r\nAllow: */f-gender_*\r\nAllow: */f-brand_*/f-color_*\r\nAllow: */f-brand_*/f-gender_*\r\nAllow: */f-color_*/f-gender_*\r\nDisallow: */f-*\r\nDisallow: */f-*_*_*_*\r\nDisallow: */f-brand_*_*\r\nDisallow: */f-brand_*_*/f-color_*\r\nDisallow: */f-brand_*/f-color_*_*\r\nDisallow: */f-brand_*_*/f-gender_*\r\nDisallow: */f-brand_*/f-gender_*_*\r\nDisallow: */f-color_*_*\r\nDisallow: */f-color_*_*/f-gender_*\r\nDisallow: */f-color_*/f-gender_*_*\r\nDisallow: */f-gender_*_*\r\nDisallow: */f-sg_*\r\n\r\nUser-Agent: *\r\nDisallow: /unsubscribe/\r\n\r\nUser-Agent: *\r\nAllow: /boutique-kategorien/decathlon-business/*\r\nDisallow: /boutique-kategorien/*\r\n\r\nUser-Agent: *\r\nDisallow: /*?opeco=*\r\nDisallow: /*?merchandising=*\r\n\r\nSitemap: https://www.decathlon.de/sitemap-index.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*/debug-error/*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*/debug-error/*"
+    ]
+  }
 }

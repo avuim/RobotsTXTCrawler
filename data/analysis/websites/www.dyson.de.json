@@ -1,10 +1,42 @@
 {
   "domain": "www.dyson.de",
   "normalizedDomain": "www.dyson.de",
+  "robotsTxt": "User-agent: *\r\n\r\nDisallow: /forms/\r\nDisallow: /products/\r\nDisallow: /search-results\r\nDisallow: /basket\r\nDisallow: /suchergebnisse\r\n\r\n\r\nDisallow: */support/journey/troubleshooting/*\r\n\r\n\r\n\r\nsitemap: https://www.dyson.de/sitemapindex.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/forms/",
+        "/products/",
+        "/search-results",
+        "/basket",
+        "/suchergebnisse",
+        "*/support/journey/troubleshooting/*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/forms/",
+      "/products/",
+      "/search-results",
+      "/basket",
+      "/suchergebnisse",
+      "*/support/journey/troubleshooting/*"
+    ]
+  }
 }

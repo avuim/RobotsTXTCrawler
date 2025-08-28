@@ -1,10 +1,28 @@
 {
   "domain": "www.BOERSE.de",
   "normalizedDomain": "www.BOERSE.de",
+  "robotsTxt": "User-agent: *\nAllow: /\n\nSitemap: https://www.boerse.de/sitemap/sitemap.xml\n\nSitemap: https://www.boerse.de/sitemap/sitemap_statisch.xml\n\nSitemap: https://www.boerse.de/sitemap/sitemap_news.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

@@ -1,10 +1,28 @@
 {
   "domain": "www.hankooktire.com",
   "normalizedDomain": "www.hankooktire.com",
+  "robotsTxt": "########################################################\r\n#\r\n#    hankooktire.com Robots File\r\n#    Last Updated on September 11, 2024\r\n#\r\n########################################################\r\n\r\nUser-agent: *\r\nAllow: /\r\n\r\nSitemap: https://www.hankooktire.com/global/ko/sitemap.xml\r\nSitemap: https://www.hankooktire.com/global/en/sitemap.xml\r\nSitemap: https://www.hankooktire.com/us/en/sitemap.xml\r\nSitemap: https://www.hankooktire.com/kr/ko/sitemap.xml\r\nSitemap: https://www.hankooktire.com/de/de/sitemap.xml\r\nSitemap: https://www.hankooktire.com/uk/en/sitemap.xml\r\nSitemap: https://www.hankooktire.com/es/es/sitemap.xml\r\nSitemap: https://www.hankooktire.com/it/it/sitemap.xml\r\nSitemap: https://www.hankooktire.com/fr/fr/sitemap.xml\r\nSitemap: https://www.hankooktire.com/ru/ru/sitemap.xml\r\nSitemap: https://www.hankooktire.com/se/sv/sitemap.xml\r\nSitemap: https://www.hankooktire.com/nl/nl/sitemap.xml\r\nSitemap: https://www.hankooktire.com/pl/pl/sitemap.xml\r\nSitemap: https://www.hankooktire.com/tr/tr/sitemap.xml\r\nSitemap: https://www.hankooktire.com/cz/cs/sitemap.xml\r\nSitemap: https://www.hankooktire.com/hu/hu/sitemap.xml\r\nSitemap: https://www.hankooktire.com/id/id/sitemap.xml\r\nSitemap: https://www.hankooktire.com/cn/zh/sitemap.xml\r\nSitemap: https://www.hankooktire.com/mx/es/sitemap.xml\r\nSitemap: https://www.hankooktire.com/au/en/sitemap.xml\r\nSitemap: https://www.hankooktire.com/ca/en/sitemap.xml\r\nSitemap: https://www.hankooktire.com/ca/fr/sitemap.xml\r\nSitemap: https://www.hankooktire.com/cl/es/sitemap.xml\r\nSitemap: https://www.hankooktire.com/co/es/sitemap.xml\r\nSitemap: https://www.hankooktire.com/br/pt/sitemap.xml\r\nSitemap: https://www.hankooktire.com/mea/ar/sitemap.xml\r\nSitemap: https://www.hankooktire.com/mea/en/sitemap.xml\r\nSitemap: https://www.hankooktire.com/my/en/sitemap.xml\r\nSitemap: https://www.hankooktire.com/jp/ja/sitemap.xml\r\nSitemap: https://www.hankooktire.com/th/th/sitemap.xml\r\nSitemap: https://www.hankooktire.com/ro/ro/sitemap.xml\r\nSitemap: https://www.hankooktire.com/vn/vi/sitemap.xml\r\nSitemap: https://www.hankooktire.com/cac/es/sitemap.xml\r\nSitemap: https://www.hankooktire.com/tw/zh/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

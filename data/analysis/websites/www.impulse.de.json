@@ -1,7 +1,207 @@
 {
   "domain": "www.impulse.de",
   "normalizedDomain": "www.impulse.de",
+  "robotsTxt": "User-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: FacebookBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ImagesiftBot\nDisallow: /\n\nUser-agent: Meta-ExternalAgent\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: omgilibot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: Timpibot\nDisallow: /\n\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\nDisallow: /*?*\nDisallow: */feed\nDisallow: /*/feed$\n\nDisallow: /*?attachment_id=\nDisallow: /*&attachment_id=\nDisallow: /*?conversion=\nDisallow: /*&conversion=\nDisallow: /*?hss_channel=\nDisallow: /*&hss_channel=\nDisallow: /*?mtm_campaign=\nDisallow: /*&mtm_campaign=\nDisallow: /*?mtm_content=\nDisallow: /*&mtm_content=\nDisallow: /*?mtm_medium=\nDisallow: /*&mtm_medium=\nDisallow: /*?mtm_source=\nDisallow: /*&mtm_source=\nDisallow: /*?orderby=\nDisallow: /*&orderby=\nDisallow: /*?p=\nDisallow: /*&p=\nDisallow: /*?replytocom=\nDisallow: /*&replytocom=\nDisallow: /*?s=\nDisallow: /*&s=\nDisallow: /*?trk=\nDisallow: /*&trk=\nDisallow: /*?utm_campaign=\nDisallow: /*&utm_campaign=\nDisallow: /*?utm_content=\nDisallow: /*&utm_content=\nDisallow: /*?utm_medium=\nDisallow: /*&utm_medium=\nDisallow: /*?utm_source=\nDisallow: /*&utm_source=\nDisallow: /*?utm_term=\nDisallow: /*&utm_term=\nDisallow: /*?ver=\nDisallow: /*&ver=\nDisallow: /*?xing_share=\nDisallow: /*&xing_share=\n\n# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://www.impulse.de/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Timpibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/wp-admin/admin-ajax.php"
+        ],
+        "disallowed": [
+          "/wp-admin/",
+          "/*?*",
+          "*/feed",
+          "/*/feed$",
+          "/*?attachment_id=",
+          "/*&attachment_id=",
+          "/*?conversion=",
+          "/*&conversion=",
+          "/*?hss_channel=",
+          "/*&hss_channel=",
+          "/*?mtm_campaign=",
+          "/*&mtm_campaign=",
+          "/*?mtm_content=",
+          "/*&mtm_content=",
+          "/*?mtm_medium=",
+          "/*&mtm_medium=",
+          "/*?mtm_source=",
+          "/*&mtm_source=",
+          "/*?orderby=",
+          "/*&orderby=",
+          "/*?p=",
+          "/*&p=",
+          "/*?replytocom=",
+          "/*&replytocom=",
+          "/*?s=",
+          "/*&s=",
+          "/*?trk=",
+          "/*&trk=",
+          "/*?utm_campaign=",
+          "/*&utm_campaign=",
+          "/*?utm_content=",
+          "/*&utm_content=",
+          "/*?utm_medium=",
+          "/*&utm_medium=",
+          "/*?utm_source=",
+          "/*&utm_source=",
+          "/*?utm_term=",
+          "/*&utm_term=",
+          "/*?ver=",
+          "/*&ver=",
+          "/*?xing_share=",
+          "/*&xing_share="
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 17,
+    "allowedBots": 0,
+    "disallowedBots": 17,
+    "hasGlobalAllow": false
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
     {
       "name": "anthropic-ai",
       "allowed": false
@@ -68,11 +268,11 @@
     },
     {
       "name": "Timpibot",
-      "allowed": true
-    },
-    {
-      "name": "*",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

@@ -1,13 +1,93 @@
 {
   "domain": "www.focus.de",
   "normalizedDomain": "www.focus.de",
-  "bots": [
+  "robotsTxt": "# robots.txt for https://www.focus.de .\n# Gibt an, welche Unterverzeichnisse nicht durch Crawler durchsucht werden sollen\n\nUser-agent: Mediapartners-Google\nDisallow:\n\nUser-agent: *\n#Disallow: /g00/\nDisallow: *.pdf\n#Disallow: /ERRORS/    # Fehler-Seiten\nDisallow: /test/      # Test-Seiten\n#Disallow: /test1/     # Test-Seiten\n#Disallow: /test2/     # Test-Seiten\n#Disallow: /test3/     # Test-Seiten\n#Disallow: /test4/     # Test-Seiten\n#Disallow: /test5/     # Test-Seiten\n#Disallow: /test6/     # Test-Seiten\n#Disallow: /Test/      # Test-Seiten\n#Disallow: /cgi-bin/   # Scripts\n#Disallow: /GLOBPICS/  # allg. Grafiken\n#Disallow: /intern/service/suche/    # Sucheergebnisse raus\n#Disallow: /service/suche/    \t\t# Sucheergebnisse raus\nDisallow: /service/archiv/ \t\t\t# Sucheergebnisse raus\n#Disallow: /suche/    \t\t\t\t# Sucheergebnisse raus\n#Disallow: /panorama/welt/playboy_aid_119773.html\n#Disallow: /mylife    # Mylife-Koop als eigenes Ressort\n#Disallow: /*?omiid\n#Disallow: /fol/XML/video/vpl    # Video-Playlisten ausschliessen\n#Disallow: /*?surveyItem\n#Disallow: /*autoren?id=70$\n#Disallow: /*autoren?id=70&\n#Disallow: /schlagwoerter/personen/k/norbert-klein/\n#Disallow: /*?snr\n#Disallow: /*_aid_656913.html\n#Disallow: /finanzen/news/bilanzen-trickser-in-nadelstreifen_aid_205744.html\n#Disallow: /ajax/\n#Disallow: /abnahme/\n#Disallow: /widget/\nDisallow: /incoming/\n#Disallow: /stats/\n#Disallow: /*.ece*\n#Disallow: /testcases/\n#Disallow: /config/\n#Disallow: /*?view=ajax\n#Disallow: /*&view=ajax\n#Disallow: /*?view=json\n#Disallow: /*&view=json\nDisallow: /apple-app-site-association\n#Disallow: /archiv/regional/\n#Disallow: /regional/lokale-meldungen/\nDisallow: /src/js/spmsg*\n#Disallow: /*_id_86231824.html\n\n\n# Block MegaIndex.ru crawler\nUser-agent: MegaIndex.ru\nDisallow: /\n\n# Block trendkite-akashic-crawler\nUser-agent: trendkite-akashic-crawler\nDisallow: /\n\n# GPTBot - OpenAI\nUser-agent: GPTBot\nDisallow: /\n\n# ChatGPT - OpenAI\nUser-agent: ChatGPT-User\nDisallow: /\n\n# Common Crawl\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Applebot\nAllow: /apple-app-site-association",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "*.pdf",
+        "/test/      # Test-Seiten",
+        "/service/archiv/ \t\t\t# Sucheergebnisse raus",
+        "/incoming/",
+        "/apple-app-site-association",
+        "/src/js/spmsg*"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "Mediapartners-Google",
-      "allowed": false
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
     },
     {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/apple-app-site-association"
+        ],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 7,
+    "allowedBots": 1,
+    "disallowedBots": 6,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
       "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Mediapartners-Google",
       "allowed": false
     },
     {
@@ -34,5 +114,16 @@
       "name": "Applebot",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "*.pdf",
+      "/test/      # Test-Seiten",
+      "/service/archiv/ \t\t\t# Sucheergebnisse raus",
+      "/incoming/",
+      "/apple-app-site-association",
+      "/src/js/spmsg*"
+    ]
+  }
 }

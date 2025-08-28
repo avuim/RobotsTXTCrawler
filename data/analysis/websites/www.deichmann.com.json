@@ -1,10 +1,84 @@
 {
   "domain": "www.deichmann.com",
   "normalizedDomain": "www.deichmann.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /shippingcosts?modal=true\r\nDisallow: /de-de/my-account\r\nDisallow: /de-de/cart\r\nDisallow: /de-de/wishlist\r\nDisallow: /de-de/storefinder\r\nDisallow: /search?q=\r\nDisallow: /TR/tr/shop/mobile/\r\nDisallow: /TR/*/op/\r\nDisallow: /TR/*contact.html\r\nDisallow: /TR/*unsubscribeNewsletter.html\r\nDisallow: /TR/*productDetail.html\r\nDisallow: /TR/*productDetailLayer.html\r\nDisallow: /TR/*forgottenPassword.html\r\nDisallow: /TR/*showProductLayer.html\r\nDisallow: /TR/*myAccount.html\r\nDisallow: /TR/*tellAFriend.html\r\nDisallow: /TR/tr/*jsessionid\r\nDisallow: /TR/*crm/\r\nDisallow: /TR/*getStageProducts.html\r\nDisallow: /TR/*showZoomImageForProduct.html\r\nDisallow: /TR/*viewOutOfStockVariants.html\r\nDisallow: /TR/*viewSelectCountry.html\r\nDisallow: /TR/*viewProductImageCarousel.html\r\nDisallow: /TR/*showZoomImageForProduct.html\r\nDisallow: /TR/*checkGiftCardInputValue.html\r\nDisallow: /TR/*emailService2.html\r\nDisallow: /TR/*?device-type=\r\nDisallow: /TR/*bookmarkShareDiscuss.html\r\nSitemap: https://www.deichmann.com/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/shippingcosts?modal=true",
+        "/de-de/my-account",
+        "/de-de/cart",
+        "/de-de/wishlist",
+        "/de-de/storefinder",
+        "/search?q=",
+        "/TR/tr/shop/mobile/",
+        "/TR/*/op/",
+        "/TR/*contact.html",
+        "/TR/*unsubscribeNewsletter.html",
+        "/TR/*productDetail.html",
+        "/TR/*productDetailLayer.html",
+        "/TR/*forgottenPassword.html",
+        "/TR/*showProductLayer.html",
+        "/TR/*myAccount.html",
+        "/TR/*tellAFriend.html",
+        "/TR/tr/*jsessionid",
+        "/TR/*crm/",
+        "/TR/*getStageProducts.html",
+        "/TR/*showZoomImageForProduct.html",
+        "/TR/*viewOutOfStockVariants.html",
+        "/TR/*viewSelectCountry.html",
+        "/TR/*viewProductImageCarousel.html",
+        "/TR/*checkGiftCardInputValue.html",
+        "/TR/*emailService2.html",
+        "/TR/*?device-type=",
+        "/TR/*bookmarkShareDiscuss.html"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/shippingcosts?modal=true",
+      "/de-de/my-account",
+      "/de-de/cart",
+      "/de-de/wishlist",
+      "/de-de/storefinder",
+      "/search?q=",
+      "/TR/tr/shop/mobile/",
+      "/TR/*/op/",
+      "/TR/*contact.html",
+      "/TR/*unsubscribeNewsletter.html",
+      "/TR/*productDetail.html",
+      "/TR/*productDetailLayer.html",
+      "/TR/*forgottenPassword.html",
+      "/TR/*showProductLayer.html",
+      "/TR/*myAccount.html",
+      "/TR/*tellAFriend.html",
+      "/TR/tr/*jsessionid",
+      "/TR/*crm/",
+      "/TR/*getStageProducts.html",
+      "/TR/*showZoomImageForProduct.html",
+      "/TR/*viewOutOfStockVariants.html",
+      "/TR/*viewSelectCountry.html",
+      "/TR/*viewProductImageCarousel.html",
+      "/TR/*checkGiftCardInputValue.html",
+      "/TR/*emailService2.html",
+      "/TR/*?device-type=",
+      "/TR/*bookmarkShareDiscuss.html"
+    ]
+  }
 }

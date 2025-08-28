@@ -1,10 +1,54 @@
 {
   "domain": "www.help-ev.de",
   "normalizedDomain": "www.help-ev.de",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\n# folders\r\nDisallow: /typo3/\r\nDisallow: /typo3conf/\r\nDisallow: /typo3conf/ext/\r\nDisallow: /typo3temp/\r\n# parameters\r\nDisallow: /*?id=*\r\nDisallow: /*?tx_*\r\nDisallow: /*?donation_custom_field_*\r\nDisallow: /*?fbclid*\r\nDisallow: /*?gclid*\r\nDisallow: /*?fb_item_id*\r\nDisallow: /*?sv*\r\nDisallow: /*?amount*\r\nSitemap: https://www.help-ev.de/sitemap.xml\r\nSitemap: https://www.help-ev.de/en/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/typo3/",
+        "/typo3conf/",
+        "/typo3conf/ext/",
+        "/typo3temp/",
+        "/*?id=*",
+        "/*?tx_*",
+        "/*?donation_custom_field_*",
+        "/*?fbclid*",
+        "/*?gclid*",
+        "/*?fb_item_id*",
+        "/*?sv*",
+        "/*?amount*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/typo3/",
+      "/typo3conf/",
+      "/typo3conf/ext/",
+      "/typo3temp/",
+      "/*?id=*",
+      "/*?tx_*",
+      "/*?donation_custom_field_*",
+      "/*?fbclid*",
+      "/*?gclid*",
+      "/*?fb_item_id*",
+      "/*?sv*",
+      "/*?amount*"
+    ]
+  }
 }

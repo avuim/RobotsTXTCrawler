@@ -1,10 +1,50 @@
 {
   "domain": "www.caraworld.de",
   "normalizedDomain": "www.caraworld.de",
+  "robotsTxt": "User-Agent: *\nDisallow: /*/ajax/*\nDisallow: /*/json/*\nDisallow: /*/html/*\nDisallow: /frontend/*\nDisallow: /api/*\nDisallow: /*/sort/*\nDisallow: /*:*\nDisallow: /*|*\nAllow: /*/preis:vk-brutto/*\nAllow: /\nSitemap: https://www.caraworld.de/sitemaps_index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/*/preis:vk-brutto/*"
+      ],
+      "disallowed": [
+        "/*/ajax/*",
+        "/*/json/*",
+        "/*/html/*",
+        "/frontend/*",
+        "/api/*",
+        "/*/sort/*",
+        "/*:*",
+        "/*|*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/*/preis:vk-brutto/*"
+    ],
+    "disallowed": [
+      "/*/ajax/*",
+      "/*/json/*",
+      "/*/html/*",
+      "/frontend/*",
+      "/api/*",
+      "/*/sort/*",
+      "/*:*",
+      "/*|*"
+    ]
+  }
 }

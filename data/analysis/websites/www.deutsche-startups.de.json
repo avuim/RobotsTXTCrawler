@@ -1,10 +1,32 @@
 {
   "domain": "www.deutsche-startups.de",
   "normalizedDomain": "www.deutsche-startups.de",
+  "robotsTxt": "User-agent:  *\nDisallow: /wp-admin/\n\nSitemap: http://www.deutsche-startups.de/sitemap_index.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/wp-admin/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/wp-admin/"
+    ]
+  }
 }

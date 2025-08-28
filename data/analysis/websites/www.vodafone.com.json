@@ -1,10 +1,74 @@
 {
   "domain": "www.vodafone.com",
   "normalizedDomain": "www.vodafone.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /node/\r\nDisallow: /overlays/\r\nDisallow: /api/\r\nDisallow: /undefined\r\nDisallow: /sites/default/files/2021-02/Vodafone%20Group-UK%20Benefits%20summary%20SLT%20Sept%202020.pdf\r\nDisallow: /sites/default/files/2021-02/Vodafone%20Group-UK%20Benefits%20summary%20F%20Band%20Sept%202020.pdf\r\nDisallow: /sites/default/files/2021-02/Vodafone%20Group-UK%20Benefits%20summary%20E%20Band%20Sept%202020.pdf\r\nDisallow: /sites/default/files/2021-02/Vodafone%20Group-UK%20Benefits%20Summary%20-%20Sept%202020.pdf\r\nDisallow: /GHR/documents/Vodafone-Group-UK-Benefits-summary-SLT-Sept-2020\r\nDisallow: /GHR/documents/Vodafone-Group-UK-Benefits-summary-F-Band-Sept-2020\r\nDisallow: /GHR/documents/Vodafone-Group-UK-Benefits-summary-E-Band-Sept-2020\r\nDisallow: /GHR/documents/Vodafone-Group-UK-Benefits-Summary-Sept-2020\r\nDisallow: /content/apps/external-redirects/VF.html\r\nDisallow: /content/apps/ext/callplus/android/en_ie/faqs.html\r\nDisallow: /content/apps/ext/callplus/android/en_za/faqs.html\r\nDisallow: /apps/rcs/german/vodafone.de/kontakt\r\nDisallow: /vodafone-foundation/focus-areas/dreamlab-app/Lesotho\r\nDisallow: /sites/default/files/2022-05/open-ran-system-integration-white-paper.pdf\r\nDisallow: /news/campaigns-events/best-corporate-website\r\nDisallow: /news/campaigns-events/best-use-of-content\r\n\r\n\r\n\r\n# Tag Pages\r\n\r\nDisallow: /news?tag=*\r\n\r\n\r\n# Sitemap files\r\nSitemap: https://www.vodafone.com/sitemap.xml\r\nSitemap: https://www.vodafone.com/business/sitemap.xml\r\n\r\n\r\n# URL with empty params\r\nDisallow: /?country=*\r\n\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/node/",
+        "/overlays/",
+        "/api/",
+        "/undefined",
+        "/sites/default/files/2021-02/Vodafone%20Group-UK%20Benefits%20summary%20SLT%20Sept%202020.pdf",
+        "/sites/default/files/2021-02/Vodafone%20Group-UK%20Benefits%20summary%20F%20Band%20Sept%202020.pdf",
+        "/sites/default/files/2021-02/Vodafone%20Group-UK%20Benefits%20summary%20E%20Band%20Sept%202020.pdf",
+        "/sites/default/files/2021-02/Vodafone%20Group-UK%20Benefits%20Summary%20-%20Sept%202020.pdf",
+        "/GHR/documents/Vodafone-Group-UK-Benefits-summary-SLT-Sept-2020",
+        "/GHR/documents/Vodafone-Group-UK-Benefits-summary-F-Band-Sept-2020",
+        "/GHR/documents/Vodafone-Group-UK-Benefits-summary-E-Band-Sept-2020",
+        "/GHR/documents/Vodafone-Group-UK-Benefits-Summary-Sept-2020",
+        "/content/apps/external-redirects/VF.html",
+        "/content/apps/ext/callplus/android/en_ie/faqs.html",
+        "/content/apps/ext/callplus/android/en_za/faqs.html",
+        "/apps/rcs/german/vodafone.de/kontakt",
+        "/vodafone-foundation/focus-areas/dreamlab-app/Lesotho",
+        "/sites/default/files/2022-05/open-ran-system-integration-white-paper.pdf",
+        "/news/campaigns-events/best-corporate-website",
+        "/news/campaigns-events/best-use-of-content",
+        "/news?tag=*",
+        "/?country=*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/node/",
+      "/overlays/",
+      "/api/",
+      "/undefined",
+      "/sites/default/files/2021-02/Vodafone%20Group-UK%20Benefits%20summary%20SLT%20Sept%202020.pdf",
+      "/sites/default/files/2021-02/Vodafone%20Group-UK%20Benefits%20summary%20F%20Band%20Sept%202020.pdf",
+      "/sites/default/files/2021-02/Vodafone%20Group-UK%20Benefits%20summary%20E%20Band%20Sept%202020.pdf",
+      "/sites/default/files/2021-02/Vodafone%20Group-UK%20Benefits%20Summary%20-%20Sept%202020.pdf",
+      "/GHR/documents/Vodafone-Group-UK-Benefits-summary-SLT-Sept-2020",
+      "/GHR/documents/Vodafone-Group-UK-Benefits-summary-F-Band-Sept-2020",
+      "/GHR/documents/Vodafone-Group-UK-Benefits-summary-E-Band-Sept-2020",
+      "/GHR/documents/Vodafone-Group-UK-Benefits-Summary-Sept-2020",
+      "/content/apps/external-redirects/VF.html",
+      "/content/apps/ext/callplus/android/en_ie/faqs.html",
+      "/content/apps/ext/callplus/android/en_za/faqs.html",
+      "/apps/rcs/german/vodafone.de/kontakt",
+      "/vodafone-foundation/focus-areas/dreamlab-app/Lesotho",
+      "/sites/default/files/2022-05/open-ran-system-integration-white-paper.pdf",
+      "/news/campaigns-events/best-corporate-website",
+      "/news/campaigns-events/best-use-of-content",
+      "/news?tag=*",
+      "/?country=*"
+    ]
+  }
 }

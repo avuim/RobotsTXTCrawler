@@ -1,7 +1,124 @@
 {
   "domain": "www.autoscout24.de",
   "normalizedDomain": "www.autoscout24.de",
+  "robotsTxt": "User-agent: proximic\nDisallow:\n\nUser-agent: Mediapartners-Google\nAllow: /\n\nUser-agent: AdsBot-Google-Mobile\nAllow: /\n\nUser-agent: AdsBot-Google\nAllow: /\n\nUser-agent: Applebot\nAllow: /auto/\n\nUser-agent: *\nDisallow: /dealerarea/\nDisallow: /entry/\nDisallow: /ergebnisse?\nDisallow: /i/\nDisallow: /modelle/page/\nDisallow: /regional/page/\nDisallow: /online-autokauf/checkout*\nDisallow: /Partner/\nDisallow: /partner/\nDisallow: /unified-private-seller-flow/\nDisallow: /financeslice-detail/slice\nDisallow: /favorites\nDisallow: /classified-detail/recommendations\nDisallow: /seals/classified-detail\nDisallow: /frontend-metrics\nDisallow: /seals/classified-list-item\nDisallow: /classified-list/react-listelements\nDisallow: /ret-feedback\nDisallow: /classified-detail/navigation/\nDisallow: /lst?\nDisallow: /lst/?\nDisallow: /lst-moto?\nDisallow: /lst-moto/?\nDisallow: /as24-search-funnel/direct-finance-api-query\nDisallow: /autokreditvergleich/?\nDisallow: /autokreditvergleich?\nDisallow: */util/*\nDisallow: */utils/*\nDisallow: /as24-search-funnel/details/\nDisallow: /nl/verkopers/\nDisallow: /fr/professional/\nDisallow: /autobedrijven/\nDisallow: /garages/\nDisallow: /profesionales/\nDisallow: /concessionari/\nDisallow: /dealerinfo/\nDisallow: /professional/\nDisallow: /detailsuche\nDisallow: /auto-catalog/\nDisallow: /account\nDisallow: /auto-verkopen/\nDisallow: /vendere-auto/\nDisallow: /vendre-voiture/\nDisallow: /dealer-detail/\nDisallow: /cockpit/\nDisallow: /listing-creation-entry-point\nDisallow: /dealer-rating/\nDisallow: /seal-popups/\nDisallow: /oneclick-fuer-haendler/\nDisallow: /listing-form/\nDisallow: /partner-experience/\nDisallow: /dealer-statistics\nDisallow: /auto-abo/angebote/\nDisallow: /auto-abo/lst*?*\nDisallow: /as24-search-funnel/api/vip-showroom/\n\n#MG, 12.12.2024\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/dealerarea/",
+        "/entry/",
+        "/ergebnisse?",
+        "/i/",
+        "/modelle/page/",
+        "/regional/page/",
+        "/online-autokauf/checkout*",
+        "/Partner/",
+        "/partner/",
+        "/unified-private-seller-flow/",
+        "/financeslice-detail/slice",
+        "/favorites",
+        "/classified-detail/recommendations",
+        "/seals/classified-detail",
+        "/frontend-metrics",
+        "/seals/classified-list-item",
+        "/classified-list/react-listelements",
+        "/ret-feedback",
+        "/classified-detail/navigation/",
+        "/lst?",
+        "/lst/?",
+        "/lst-moto?",
+        "/lst-moto/?",
+        "/as24-search-funnel/direct-finance-api-query",
+        "/autokreditvergleich/?",
+        "/autokreditvergleich?",
+        "*/util/*",
+        "*/utils/*",
+        "/as24-search-funnel/details/",
+        "/nl/verkopers/",
+        "/fr/professional/",
+        "/autobedrijven/",
+        "/garages/",
+        "/profesionales/",
+        "/concessionari/",
+        "/dealerinfo/",
+        "/professional/",
+        "/detailsuche",
+        "/auto-catalog/",
+        "/account",
+        "/auto-verkopen/",
+        "/vendere-auto/",
+        "/vendre-voiture/",
+        "/dealer-detail/",
+        "/cockpit/",
+        "/listing-creation-entry-point",
+        "/dealer-rating/",
+        "/seal-popups/",
+        "/oneclick-fuer-haendler/",
+        "/listing-form/",
+        "/partner-experience/",
+        "/dealer-statistics",
+        "/auto-abo/angebote/",
+        "/auto-abo/lst*?*",
+        "/as24-search-funnel/api/vip-showroom/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "proximic",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/auto/"
+        ],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 5,
+    "allowedBots": 4,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "proximic",
       "allowed": false
@@ -21,10 +138,66 @@
     {
       "name": "Applebot",
       "allowed": true
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/dealerarea/",
+      "/entry/",
+      "/ergebnisse?",
+      "/i/",
+      "/modelle/page/",
+      "/regional/page/",
+      "/online-autokauf/checkout*",
+      "/Partner/",
+      "/partner/",
+      "/unified-private-seller-flow/",
+      "/financeslice-detail/slice",
+      "/favorites",
+      "/classified-detail/recommendations",
+      "/seals/classified-detail",
+      "/frontend-metrics",
+      "/seals/classified-list-item",
+      "/classified-list/react-listelements",
+      "/ret-feedback",
+      "/classified-detail/navigation/",
+      "/lst?",
+      "/lst/?",
+      "/lst-moto?",
+      "/lst-moto/?",
+      "/as24-search-funnel/direct-finance-api-query",
+      "/autokreditvergleich/?",
+      "/autokreditvergleich?",
+      "*/util/*",
+      "*/utils/*",
+      "/as24-search-funnel/details/",
+      "/nl/verkopers/",
+      "/fr/professional/",
+      "/autobedrijven/",
+      "/garages/",
+      "/profesionales/",
+      "/concessionari/",
+      "/dealerinfo/",
+      "/professional/",
+      "/detailsuche",
+      "/auto-catalog/",
+      "/account",
+      "/auto-verkopen/",
+      "/vendere-auto/",
+      "/vendre-voiture/",
+      "/dealer-detail/",
+      "/cockpit/",
+      "/listing-creation-entry-point",
+      "/dealer-rating/",
+      "/seal-popups/",
+      "/oneclick-fuer-haendler/",
+      "/listing-form/",
+      "/partner-experience/",
+      "/dealer-statistics",
+      "/auto-abo/angebote/",
+      "/auto-abo/lst*?*",
+      "/as24-search-funnel/api/vip-showroom/"
+    ]
+  }
 }

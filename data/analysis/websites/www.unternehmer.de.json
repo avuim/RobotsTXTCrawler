@@ -1,10 +1,40 @@
 {
   "domain": "www.unternehmer.de",
   "normalizedDomain": "www.unternehmer.de",
+  "robotsTxt": "User-Agent: *\nAllow: /wp-content/uploads/\nDisallow: /wp-admin/\nDisallow: /readme.html\nDisallow: /refer/\n \nSitemap: https://unternehmer.de/wp-sitemap.xml\nSitemap: https://unternehmer.de/sitemap-news.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/wp-content/uploads/"
+      ],
+      "disallowed": [
+        "/wp-admin/",
+        "/readme.html",
+        "/refer/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/wp-content/uploads/"
+    ],
+    "disallowed": [
+      "/wp-admin/",
+      "/readme.html",
+      "/refer/"
+    ]
+  }
 }

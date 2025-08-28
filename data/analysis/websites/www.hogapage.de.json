@@ -1,10 +1,54 @@
 {
   "domain": "www.hogapage.de",
   "normalizedDomain": "www.hogapage.de",
+  "robotsTxt": "User-agent: *\nAllow: *\nDisallow: /jobs/hit/ajax/\nDisallow: /jobs/*/print\nDisallow: /jobs/*.pdf\nDisallow: /jobs/profil/*\nDisallow: /jobs/firmenprofil/*\nDisallow: /jobs/suche*\nDisallow: /jobs/social-auth*\nDisallow: /jobs/firmensuche*\nDisallow: /admin*\nDisallow: /nachrichten/suche*\n\nSitemap: https://www.hogapage.de/jobs/sitemap.xml\nSitemap: https://www.hogapage.de/jobs/sitemap-companies.xml\nSitemap: https://www.hogapage.de/jobs/sitemap-jobs.xml\nSitemap: https://www.hogapage.de/magazin/sitemap.xml\nSitemap: https://www.hogapage.de/nachrichten/sitemap.xml\nSitemap: https://www.hogapage.de/nachrichten/sitemap-news.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "*"
+      ],
+      "disallowed": [
+        "/jobs/hit/ajax/",
+        "/jobs/*/print",
+        "/jobs/*.pdf",
+        "/jobs/profil/*",
+        "/jobs/firmenprofil/*",
+        "/jobs/suche*",
+        "/jobs/social-auth*",
+        "/jobs/firmensuche*",
+        "/admin*",
+        "/nachrichten/suche*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "*"
+    ],
+    "disallowed": [
+      "/jobs/hit/ajax/",
+      "/jobs/*/print",
+      "/jobs/*.pdf",
+      "/jobs/profil/*",
+      "/jobs/firmenprofil/*",
+      "/jobs/suche*",
+      "/jobs/social-auth*",
+      "/jobs/firmensuche*",
+      "/admin*",
+      "/nachrichten/suche*"
+    ]
+  }
 }

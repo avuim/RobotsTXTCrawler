@@ -1,18 +1,97 @@
 {
   "domain": "www.wuerth.de",
   "normalizedDomain": "www.wuerth.de",
-  "bots": [
-    {
-      "name": "*",
-      "allowed": false
-    },
+  "robotsTxt": "# robots.txt for www.wuerth.de\r\n\r\nUser-agent: *\r\nDisallow: /web2/\r\nDisallow: /web2/blaetterkatalog/\r\nDisallow: /web2/medien/\r\nDisallow: /web2/newsletter/\r\nDisallow: /web2/w_style/\r\nDisallow: /web2/e-motion_062017/\r\nDisallow: /_de/\r\nDisallow: /fontimage/\r\nDisallow: /web/media/system/framework\r\nDisallow: /web/media/system/caasframework\r\n\r\nUser-agent: Googlebot\r\nDisallow: /web2/\r\nDisallow: /web2/blaetterkatalog/\r\nDisallow: /web2/medien/\r\nDisallow: /web2/newsletter/\r\nDisallow: /web2/w_style/\r\nDisallow: /web2/e-motion_062017/\r\n#Disallow: /web/de/awkg/niederlassungen/niederlassungsfinder.php\r\nDisallow: /_de/\r\nDisallow: /fontimage/\r\nDisallow: /web/media/system/framework\r\nDisallow: /web/media/system/caasframework\r\n\r\nUser-agent: Slurp\r\nDisallow: /web2/blaetterkatalog/\r\nDisallow: /web2/medien/\r\nDisallow: /web2/newsletter/\r\nDisallow: /web2/w_style/\r\nDisallow: /web2/e-motion_062017/\r\n#Disallow: /web/de/awkg/niederlassungen/niederlassungsfinder.php\r\nDisallow: /_de/\r\nDisallow: /fontimage/\r\nDisallow: /web/media/system/framework\r\nDisallow: /web/media/system/caasframework\r\nDisallow: /*?sessionid\r\n\r\nSitemap: https://www.wuerth.de/web/de/awkg/sitemap/sitemap.xml \r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/web2/",
+        "/web2/blaetterkatalog/",
+        "/web2/medien/",
+        "/web2/newsletter/",
+        "/web2/w_style/",
+        "/web2/e-motion_062017/",
+        "/_de/",
+        "/fontimage/",
+        "/web/media/system/framework",
+        "/web/media/system/caasframework"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "Googlebot",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/web2/",
+          "/web2/blaetterkatalog/",
+          "/web2/medien/",
+          "/web2/newsletter/",
+          "/web2/w_style/",
+          "/web2/e-motion_062017/",
+          "/_de/",
+          "/fontimage/",
+          "/web/media/system/framework",
+          "/web/media/system/caasframework"
+        ]
+      }
     },
     {
       "name": "Slurp",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/web2/blaetterkatalog/",
+          "/web2/medien/",
+          "/web2/newsletter/",
+          "/web2/w_style/",
+          "/web2/e-motion_062017/",
+          "/_de/",
+          "/fontimage/",
+          "/web/media/system/framework",
+          "/web/media/system/caasframework",
+          "/*?sessionid"
+        ]
+      }
     }
-  ]
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 2,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/web2/",
+      "/web2/blaetterkatalog/",
+      "/web2/medien/",
+      "/web2/newsletter/",
+      "/web2/w_style/",
+      "/web2/e-motion_062017/",
+      "/_de/",
+      "/fontimage/",
+      "/web/media/system/framework",
+      "/web/media/system/caasframework"
+    ]
+  }
 }

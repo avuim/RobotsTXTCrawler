@@ -1,10 +1,32 @@
 {
   "domain": "www.dolomitisuperski.com",
   "normalizedDomain": "www.dolomitisuperski.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /mydss/*\r\nSitemap: https://www.dolomitisuperski.com/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/mydss/*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/mydss/*"
+    ]
+  }
 }

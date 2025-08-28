@@ -1,10 +1,210 @@
 {
   "domain": "www.apotheken-umschau.de",
   "normalizedDomain": "www.apotheken-umschau.de",
-  "bots": [
+  "robotsTxt": "# robots.txt for portal 'Apotheken Umschau'\n\nUser-Agent: LinkChecker\nDisallow: /uploads/\nDisallow: /ajax/\nDisallow: /services/\nDisallow: /external/polls/\nDisallow: /vendor/\n\nUser-Agent: sitebot\nDisallow: /\n\nUser-Agent: Linguee\nDisallow: /\n\n# Yahoo Slurp crawler\n\nUser-Agent: Slurp\nDisallow: /uploads/\nDisallow: /ajax/\nDisallow: /services/\nDisallow: /external/polls/\nDisallow: /vendor/\n\n# AI Bots\n\nUser-Agent: CCBot\nDisallow: /\n\nUser-Agent: GPTBot\nDisallow: /\n\nUser-Agent: Amazonbot\nDisallow: /\n\nUser-Agent: ClaudeBot\nDisallow: /\n\nUser-Agent: FacebookBot\nDisallow: /\n\nUser-Agent: meta-externalagent\nDisallow: /\n\nUser-Agent: Applebot\nDisallow: /\n\nUser-Agent: anthropic-ai\nDisallow: /\n\nUser-Agent: Bytespider\nDisallow: /\n\nUser-Agent: Claude-Web\nDisallow: /\n\nUser-Agent: Diffbot\nDisallow: /\n\nUser-Agent: ImagesiftBot\nDisallow: /\n\nUser-Agent: Omgilibot\nDisallow: /\n\nUser-Agent: Omgili\nDisallow: /\n\nUser-Agent: YouBot\nDisallow: /\n\n# Screaming Frog\n\nUser-Agent: Screaming Frog SEO Spider\nDisallow: /\n\n# All User Agents\n\nUser-Agent: *\nDisallow: /uploads/\nDisallow: /ajax/\nDisallow: /services/\nDisallow: /external/polls/\nDisallow: /vendor/\nDisallow: /youcom/\nDisallow: /*.woff$\nDisallow: /*.woff2$\n\n# Sitemaps\n\nSitemap: https://www.apotheken-umschau.de/sitemap_news/\nSitemap: https://www.apotheken-umschau.de/sitemap/sitemap_articles/\nSitemap: https://www.apotheken-umschau.de/sitemap_video/\nSitemap: https://www.apotheken-umschau.de/sitemap_index\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/uploads/",
+        "/ajax/",
+        "/services/",
+        "/external/polls/",
+        "/vendor/",
+        "/youcom/",
+        "/*.woff$",
+        "/*.woff2$"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "LinkChecker",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/uploads/",
+          "/ajax/",
+          "/services/",
+          "/external/polls/",
+          "/vendor/"
+        ]
+      }
+    },
+    {
+      "name": "sitebot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Linguee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/uploads/",
+          "/ajax/",
+          "/services/",
+          "/external/polls/",
+          "/vendor/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YouBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Screaming Frog SEO Spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 20,
+    "allowedBots": 2,
+    "disallowedBots": 18,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "LinkChecker",
+      "allowed": true
     },
     {
       "name": "sitebot",
@@ -16,7 +216,7 @@
     },
     {
       "name": "Slurp",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "CCBot",
@@ -81,10 +281,19 @@
     {
       "name": "Screaming Frog SEO Spider",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/uploads/",
+      "/ajax/",
+      "/services/",
+      "/external/polls/",
+      "/vendor/",
+      "/youcom/",
+      "/*.woff$",
+      "/*.woff2$"
+    ]
+  }
 }

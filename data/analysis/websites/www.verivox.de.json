@@ -1,6 +1,43 @@
 {
   "domain": "www.verivox.de",
   "normalizedDomain": "www.verivox.de",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\n\r\nDisallow: /applications/\r\nDisallow: /comparison/\r\nDisallow: /energy/msp/EditInputSettings\r\nDisallow: /signup/energie/tarif/\r\nDisallow: /jump/\r\nDisallow: /cdn-cgi/\r\nDisallow: /template/\r\nDisallow: /mein-konto/?loginSource\r\nDisallow: /power/tariffs.aspx\r\nDisallow: /gas/tariffs.aspx\r\nAllow: /applications/thg/\r\nAllow: /applications/loan/\r\n\r\nUser-agent: zoomRank/2.0\r\nDisallow: /\r\n\r\nSitemap: https://www.verivox.de/sitemap.xml\r\nSitemap: https://www.verivox.de/verivox-sitemap.xml\r\nSitemap: https://www.verivox.de/news-sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/applications/thg/",
+        "/applications/loan/"
+      ],
+      "disallowed": [
+        "/applications/",
+        "/comparison/",
+        "/energy/msp/EditInputSettings",
+        "/signup/energie/tarif/",
+        "/jump/",
+        "/cdn-cgi/",
+        "/template/",
+        "/mein-konto/?loginSource",
+        "/power/tariffs.aspx",
+        "/gas/tariffs.aspx"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "zoomRank/2.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -10,5 +47,23 @@
       "name": "zoomRank/2.0",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/applications/thg/",
+      "/applications/loan/"
+    ],
+    "disallowed": [
+      "/applications/",
+      "/comparison/",
+      "/energy/msp/EditInputSettings",
+      "/signup/energie/tarif/",
+      "/jump/",
+      "/cdn-cgi/",
+      "/template/",
+      "/mein-konto/?loginSource",
+      "/power/tariffs.aspx",
+      "/gas/tariffs.aspx"
+    ]
+  }
 }

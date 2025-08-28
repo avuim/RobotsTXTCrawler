@@ -1,10 +1,36 @@
 {
   "domain": "www.cirquedusoleil.com",
   "normalizedDomain": "www.cirquedusoleil.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /404\r\nDisallow: /Error500\r\nDisallow: /*sitecore\r\n\r\nSitemap: https://www.cirquedusoleil.com/sitemap.xml\r\nSitemap: https://blog.cirquedusoleil.com/sitemap.xml\r\nSitemap: https://www.cirquedusoleil.com/shows-sitemap.xml\r\nSitemap: https://www.cirquedusoleil.com/press/sitemap.xml\r\nSitemap: https://www.cirquedusoleil.com/deals-sitemap.xml\r\nSitemap: https://www.cirquedusoleil.com/las-vegas-shows/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/404",
+        "/Error500",
+        "/*sitecore"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/404",
+      "/Error500",
+      "/*sitecore"
+    ]
+  }
 }

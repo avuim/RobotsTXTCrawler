@@ -1,6 +1,29 @@
 {
   "domain": "www.it-times.de",
   "normalizedDomain": "www.it-times.de",
+  "robotsTxt": "Sitemap:  https://www.it-times.de/resources/sitemap/sitemap.xml\nUser-agent: *\nDisallow:\n\nUser-agent: grapeshot\nDisallow:\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "grapeshot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
@@ -10,5 +33,9 @@
       "name": "grapeshot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

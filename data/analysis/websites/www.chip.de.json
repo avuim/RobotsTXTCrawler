@@ -1,10 +1,72 @@
 {
   "domain": "www.chip.de",
   "normalizedDomain": "www.chip.de",
+  "robotsTxt": "User-agent: *\nDisallow: /downloads/c1_downloads_auswahl\nDisallow: /downloader/\nDisallow: /js/spmsg-*\nDisallow: /*/irprev_*\nDisallow: /vid/\nDisallow: /breadcrumbs/navigation-tree.json\n\n# GPTBot - OpenAI\nUser-agent: GPTBot\nDisallow: /\n\n# ChatGPT - OpenAI\nUser-agent: ChatGPT-User\nDisallow: /\n\n# Common Crawl\nUser-agent: CCBot\nDisallow: /\n\n# MegaIndex.ru crawler\nUser-agent: MegaIndex.ru\nDisallow: /\n\n# trendkite-akashic-crawler\nUser-agent: trendkite-akashic-crawler\nDisallow: /\n\nSitemap: https://www.chip.de/sitemap_news.xml\nSitemap: https://www.chip.de/sitemap_full_index.xml\nSitemap: https://www.chip.de/sitemap_c1_video.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/downloads/c1_downloads_auswahl",
+        "/downloader/",
+        "/js/spmsg-*",
+        "/*/irprev_*",
+        "/vid/",
+        "/breadcrumbs/navigation-tree.json"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 5,
+    "allowedBots": 0,
+    "disallowedBots": 5,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
@@ -26,5 +88,16 @@
       "name": "trendkite-akashic-crawler",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/downloads/c1_downloads_auswahl",
+      "/downloader/",
+      "/js/spmsg-*",
+      "/*/irprev_*",
+      "/vid/",
+      "/breadcrumbs/navigation-tree.json"
+    ]
+  }
 }

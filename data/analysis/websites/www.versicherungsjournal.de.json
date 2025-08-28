@@ -1,14 +1,99 @@
 {
   "domain": "www.versicherungsjournal.de",
   "normalizedDomain": "www.versicherungsjournal.de",
+  "robotsTxt": "User-Agent: *\nDisallow: /anzeigentemp/\nDisallow: /daten/download/\nDisallow: /download/\nDisallow: /libs/\nDisallow: /pressedienst/\nDisallow: /umfrage*\nDisallow: /verwaltung/\nDisallow: /vorschau/\nDisallow: /werbung/\nDisallow: /anzeigenauftrag.php\nDisallow: /anzeigenplaetze.php\nDisallow: */artikel_druckversion.php\nDisallow: */artikel_kopieren.php\nDisallow: /passwort.php\nDisallow: /termine_link.php\nDisallow: /werbung_link.php\nDisallow: /kontakt.php\nDisallow: /empfehlen.php\nDisallow: /verifizierung.php\nDisallow: /abmelden.php\nDisallow: /archiv-treffer.php\nDisallow: /infobrief-bestellen.php\nDisallow: /verifizierung-infobrief.php\nDisallow: /verifizierung-newsletter.php\nDisallow: /dossier.php\nDisallow: /dossiers.php\nDisallow: /umfrage.php\n\nUser-Agent: Googlebot-News\nDisallow: /anzeigen.php\n\nSitemap: https://www.versicherungsjournal.de/vj_de_weekly_sitemap.xml\nSitemap: https://www.versicherungsjournal.de/vjournal_sitemap.xml\n\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/anzeigentemp/",
+        "/daten/download/",
+        "/download/",
+        "/libs/",
+        "/pressedienst/",
+        "/umfrage*",
+        "/verwaltung/",
+        "/vorschau/",
+        "/werbung/",
+        "/anzeigenauftrag.php",
+        "/anzeigenplaetze.php",
+        "*/artikel_druckversion.php",
+        "*/artikel_kopieren.php",
+        "/passwort.php",
+        "/termine_link.php",
+        "/werbung_link.php",
+        "/kontakt.php",
+        "/empfehlen.php",
+        "/verifizierung.php",
+        "/abmelden.php",
+        "/archiv-treffer.php",
+        "/infobrief-bestellen.php",
+        "/verifizierung-infobrief.php",
+        "/verifizierung-newsletter.php",
+        "/dossier.php",
+        "/dossiers.php",
+        "/umfrage.php"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot-News",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/anzeigen.php"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Googlebot-News",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/anzeigentemp/",
+      "/daten/download/",
+      "/download/",
+      "/libs/",
+      "/pressedienst/",
+      "/umfrage*",
+      "/verwaltung/",
+      "/vorschau/",
+      "/werbung/",
+      "/anzeigenauftrag.php",
+      "/anzeigenplaetze.php",
+      "*/artikel_druckversion.php",
+      "*/artikel_kopieren.php",
+      "/passwort.php",
+      "/termine_link.php",
+      "/werbung_link.php",
+      "/kontakt.php",
+      "/empfehlen.php",
+      "/verifizierung.php",
+      "/abmelden.php",
+      "/archiv-treffer.php",
+      "/infobrief-bestellen.php",
+      "/verifizierung-infobrief.php",
+      "/verifizierung-newsletter.php",
+      "/dossier.php",
+      "/dossiers.php",
+      "/umfrage.php"
+    ]
+  }
 }

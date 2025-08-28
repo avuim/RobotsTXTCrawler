@@ -1,10 +1,54 @@
 {
   "domain": "www.zalando.de",
   "normalizedDomain": "www.zalando.de",
+  "robotsTxt": "User-agent: Pinterestbot\r\nCrawl-delay: 0.2\r\n\r\nUser-agent: *\r\nAllow: /trend-rewind/*\r\nDisallow: /*&*&*&*\r\nDisallow: /cart/*\r\nDisallow: /wardrobe/*\r\nDisallow: /myaccount/*\r\nDisallow: /opinions*\r\nAllow: /api/navigation\r\nAllow: /api/graphql/\r\nDisallow: /api/navigation/*\r\nDisallow: /api/*\r\nDisallow: /consent/api/ucversion\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/trend-rewind/*",
+        "/api/navigation",
+        "/api/graphql/"
+      ],
+      "disallowed": [
+        "/*&*&*&*",
+        "/cart/*",
+        "/wardrobe/*",
+        "/myaccount/*",
+        "/opinions*",
+        "/api/navigation/*",
+        "/api/*",
+        "/consent/api/ucversion"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/trend-rewind/*",
+      "/api/navigation",
+      "/api/graphql/"
+    ],
+    "disallowed": [
+      "/*&*&*&*",
+      "/cart/*",
+      "/wardrobe/*",
+      "/myaccount/*",
+      "/opinions*",
+      "/api/navigation/*",
+      "/api/*",
+      "/consent/api/ucversion"
+    ]
+  }
 }

@@ -1,10 +1,59 @@
 {
   "domain": "www.rw-textilservice.de",
   "normalizedDomain": "www.rw-textilservice.de",
+  "robotsTxt": "# robots.txt\n\n# Suche raus\nUser-agent: *\nDisallow: /*search=*\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: Ezooms\nDisallow: /\n\nUser-agent: TurnitinBot\nDisallow: /\n\n# Legal notice: rw-textilservice.de expressly reserves the right to use its content for commercial text and data mining (§ 44 b UrhG).\n# The use of robots or other automated means to access rw-textilservice.de or collect or mine data without the express permission of rw-textilservice.de is strictly prohibited.\n# If you would like to apply for permission to crawl rw-textilservice.de, collect or use data, please email produktmanager@holzmann-medien.de\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*search=*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 4,
+    "allowedBots": 0,
+    "disallowedBots": 4,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "AhrefsBot",
@@ -22,5 +71,11 @@
       "name": "TurnitinBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*search=*"
+    ]
+  }
 }

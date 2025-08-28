@@ -1,14 +1,59 @@
 {
   "domain": "www.iww.de",
   "normalizedDomain": "www.iww.de",
-  "bots": [
+  "robotsTxt": "User-agent: Yandex\nCrawl-delay: 2\nDisallow: /mbp/l/checklisten2018\nDisallow: /l2/mandat-im-arbeitsrecht-496\nDisallow: /l2/mandat-im-familienrecht-496\nDisallow: /l2/mandat-im-verkehrsrecht-496\nDisallow: /mbp/l/checklisten2019\n\nUser-agent: *\nDisallow: /mbp/l/checklisten2018\nDisallow: /l2/mandat-im-arbeitsrecht-496\nDisallow: /l2/mandat-im-familienrecht-496\nDisallow: /l2/mandat-im-verkehrsrecht-496\nDisallow: /mbp/l/checklisten2019",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/mbp/l/checklisten2018",
+        "/l2/mandat-im-arbeitsrecht-496",
+        "/l2/mandat-im-familienrecht-496",
+        "/l2/mandat-im-verkehrsrecht-496",
+        "/mbp/l/checklisten2019"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "Yandex",
-      "allowed": false
-    },
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/mbp/l/checklisten2018",
+          "/l2/mandat-im-arbeitsrecht-496",
+          "/l2/mandat-im-familienrecht-496",
+          "/l2/mandat-im-verkehrsrecht-496",
+          "/mbp/l/checklisten2019"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
+    },
+    {
+      "name": "Yandex",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/mbp/l/checklisten2018",
+      "/l2/mandat-im-arbeitsrecht-496",
+      "/l2/mandat-im-familienrecht-496",
+      "/l2/mandat-im-verkehrsrecht-496",
+      "/mbp/l/checklisten2019"
+    ]
+  }
 }

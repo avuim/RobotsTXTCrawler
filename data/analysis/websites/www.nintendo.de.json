@@ -1,10 +1,90 @@
 {
   "domain": "www.nintendo.de",
   "normalizedDomain": "www.nintendo.de",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\nAllow: /NOE/*/club_nintendo/club_not_logged_in.jsp\r\nAllow: /NOE/*/club_nintendo/index_register-0b-productcode.jsp\r\nAllow: /NOE/*/club_nintendo/product_registration.jsp\r\nAllow: /NOE/*/club_nintendo/news_4/newsletter_1795.jsp\r\nAllow: /NOE/*/club_nintendo/registration_2428.jsp\r\nDisallow: /games/oms/\r\nDisallow: /*/games/oms/\r\nDisallow: /NOE/*/club_nintendo/\r\nDisallow: /ajax/\r\nDisallow: /jsonGameRecommendations.do\r\nDisallow: /jsonGamesFinder.do\r\nDisallow: /jsonLatestNewsItems.do\r\nDisallow: /jsonLatestStarsItems.do\r\nDisallow: /jsonMediacenter.do\r\nDisallow: /jsonMiniGamesFinder.do\r\nDisallow: /jsonMiniGamesFinderWiiWare.do\r\nDisallow: /jsonNewsItems.do\r\nDisallow: /jsonNewsItemsForGame.do\r\nDisallow: /jsonStarsItem01.do\r\nDisallow: /activestandardmap.xml\r\nDisallow: /jsonStarsItem02.do\r\nDisallow: /jsonStarsItems.do\r\nDisallow: /jsonTinaStarsCatalogue.do\r\nDisallow: /pageRating.do\r\nDisallow: /searchSuggestionIncrement.do\r\nDisallow: /searchSuggestions.do\r\nDisallow: /activestandardmap.xml\r\nDisallow: /SYSTEM/\r\nDisallow: /eventimport/\r\nDisallow: /supportimport/",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/NOE/*/club_nintendo/club_not_logged_in.jsp",
+        "/NOE/*/club_nintendo/index_register-0b-productcode.jsp",
+        "/NOE/*/club_nintendo/product_registration.jsp",
+        "/NOE/*/club_nintendo/news_4/newsletter_1795.jsp",
+        "/NOE/*/club_nintendo/registration_2428.jsp"
+      ],
+      "disallowed": [
+        "/games/oms/",
+        "/*/games/oms/",
+        "/NOE/*/club_nintendo/",
+        "/ajax/",
+        "/jsonGameRecommendations.do",
+        "/jsonGamesFinder.do",
+        "/jsonLatestNewsItems.do",
+        "/jsonLatestStarsItems.do",
+        "/jsonMediacenter.do",
+        "/jsonMiniGamesFinder.do",
+        "/jsonMiniGamesFinderWiiWare.do",
+        "/jsonNewsItems.do",
+        "/jsonNewsItemsForGame.do",
+        "/jsonStarsItem01.do",
+        "/activestandardmap.xml",
+        "/jsonStarsItem02.do",
+        "/jsonStarsItems.do",
+        "/jsonTinaStarsCatalogue.do",
+        "/pageRating.do",
+        "/searchSuggestionIncrement.do",
+        "/searchSuggestions.do",
+        "/SYSTEM/",
+        "/eventimport/",
+        "/supportimport/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/NOE/*/club_nintendo/club_not_logged_in.jsp",
+      "/NOE/*/club_nintendo/index_register-0b-productcode.jsp",
+      "/NOE/*/club_nintendo/product_registration.jsp",
+      "/NOE/*/club_nintendo/news_4/newsletter_1795.jsp",
+      "/NOE/*/club_nintendo/registration_2428.jsp"
+    ],
+    "disallowed": [
+      "/games/oms/",
+      "/*/games/oms/",
+      "/NOE/*/club_nintendo/",
+      "/ajax/",
+      "/jsonGameRecommendations.do",
+      "/jsonGamesFinder.do",
+      "/jsonLatestNewsItems.do",
+      "/jsonLatestStarsItems.do",
+      "/jsonMediacenter.do",
+      "/jsonMiniGamesFinder.do",
+      "/jsonMiniGamesFinderWiiWare.do",
+      "/jsonNewsItems.do",
+      "/jsonNewsItemsForGame.do",
+      "/jsonStarsItem01.do",
+      "/activestandardmap.xml",
+      "/jsonStarsItem02.do",
+      "/jsonStarsItems.do",
+      "/jsonTinaStarsCatalogue.do",
+      "/pageRating.do",
+      "/searchSuggestionIncrement.do",
+      "/searchSuggestions.do",
+      "/SYSTEM/",
+      "/eventimport/",
+      "/supportimport/"
+    ]
+  }
 }

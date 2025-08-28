@@ -1,10 +1,94 @@
 {
   "domain": "www.bora.com",
   "normalizedDomain": "www.bora.com",
+  "robotsTxt": "User-agent: *\r\nAllow: /*/au/product-demonstrations/$\r\nAllow: /*/cs/udalosti-ve-vasem-okoli/$\r\nAllow: /*/de/events-in-ihrer-naehe/$\r\nAllow: /*/en/events-near-you/$\r\nAllow: /*/es/eventos-cerca-de-ti/$\r\nAllow: /*/fr/evenements-pres-de-chez-vous/$\r\nAllow: /*/gb/events-near-you/$\r\nAllow: /*/hr/dogadaji-u-vasoj-blizini/$\r\nAllow: /*/it/eventi-vicino-a-te/$\r\nAllow: /*/nl/evenementen-in-uw-buurt/$\r\nAllow: /*/pl/wydarzenia-w-twojej-okolicy/$\r\nAllow: /*/sl/dogodki-v-vasi-blizini/$\r\nAllow: /*/pt/eventos-perto-de-si/$\r\nDisallow: /*/au/product-demonstrations/*\r\nDisallow: /*/cs/udalosti-ve-vasem-okoli/*\r\nDisallow: /*/de/events-in-ihrer-naehe/*\r\nDisallow: /*/en/events-near-you/*\r\nDisallow: /*/es/eventos-cerca-de-ti/*\r\nDisallow: /*/fr/evenements-pres-de-chez-vous/*\r\nDisallow: /*/gb/events-near-you/*\r\nDisallow: /*/hr/dogadaji-u-vasoj-blizini/*\r\nDisallow: /*/it/eventi-vicino-a-te/*\r\nDisallow: /*/nl/evenementen-in-uw-buurt/*\r\nDisallow: /*/pl/wydarzenia-w-twojej-okolicy/*\r\nDisallow: /*/pt/eventos-perto-de-si/*\r\nDisallow: /*/sl/dogodki-v-vasi-blizini/*\r\nDisallow: /fileadmin/website_content/microsites/Live_cooking_guidelines/\r\nDisallow: /event-add-to-calendar/*\r\nDisallow: */selectCountryAjaxHandler.json\r\nDisallow: */api/*\r\nDisallow: /bora-content.com\r\nSitemap: https://www.bora.com/de_de/sitemap.xml\r\nSitemap: https://www.bora.com/de_at/sitemap.xml\r\nSitemap: https://www.bora.com/en/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/*/au/product-demonstrations/$",
+        "/*/cs/udalosti-ve-vasem-okoli/$",
+        "/*/de/events-in-ihrer-naehe/$",
+        "/*/en/events-near-you/$",
+        "/*/es/eventos-cerca-de-ti/$",
+        "/*/fr/evenements-pres-de-chez-vous/$",
+        "/*/gb/events-near-you/$",
+        "/*/hr/dogadaji-u-vasoj-blizini/$",
+        "/*/it/eventi-vicino-a-te/$",
+        "/*/nl/evenementen-in-uw-buurt/$",
+        "/*/pl/wydarzenia-w-twojej-okolicy/$",
+        "/*/sl/dogodki-v-vasi-blizini/$",
+        "/*/pt/eventos-perto-de-si/$"
+      ],
+      "disallowed": [
+        "/*/au/product-demonstrations/*",
+        "/*/cs/udalosti-ve-vasem-okoli/*",
+        "/*/de/events-in-ihrer-naehe/*",
+        "/*/en/events-near-you/*",
+        "/*/es/eventos-cerca-de-ti/*",
+        "/*/fr/evenements-pres-de-chez-vous/*",
+        "/*/gb/events-near-you/*",
+        "/*/hr/dogadaji-u-vasoj-blizini/*",
+        "/*/it/eventi-vicino-a-te/*",
+        "/*/nl/evenementen-in-uw-buurt/*",
+        "/*/pl/wydarzenia-w-twojej-okolicy/*",
+        "/*/pt/eventos-perto-de-si/*",
+        "/*/sl/dogodki-v-vasi-blizini/*",
+        "/fileadmin/website_content/microsites/Live_cooking_guidelines/",
+        "/event-add-to-calendar/*",
+        "*/selectCountryAjaxHandler.json",
+        "*/api/*",
+        "/bora-content.com"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/*/au/product-demonstrations/$",
+      "/*/cs/udalosti-ve-vasem-okoli/$",
+      "/*/de/events-in-ihrer-naehe/$",
+      "/*/en/events-near-you/$",
+      "/*/es/eventos-cerca-de-ti/$",
+      "/*/fr/evenements-pres-de-chez-vous/$",
+      "/*/gb/events-near-you/$",
+      "/*/hr/dogadaji-u-vasoj-blizini/$",
+      "/*/it/eventi-vicino-a-te/$",
+      "/*/nl/evenementen-in-uw-buurt/$",
+      "/*/pl/wydarzenia-w-twojej-okolicy/$",
+      "/*/sl/dogodki-v-vasi-blizini/$",
+      "/*/pt/eventos-perto-de-si/$"
+    ],
+    "disallowed": [
+      "/*/au/product-demonstrations/*",
+      "/*/cs/udalosti-ve-vasem-okoli/*",
+      "/*/de/events-in-ihrer-naehe/*",
+      "/*/en/events-near-you/*",
+      "/*/es/eventos-cerca-de-ti/*",
+      "/*/fr/evenements-pres-de-chez-vous/*",
+      "/*/gb/events-near-you/*",
+      "/*/hr/dogadaji-u-vasoj-blizini/*",
+      "/*/it/eventi-vicino-a-te/*",
+      "/*/nl/evenementen-in-uw-buurt/*",
+      "/*/pl/wydarzenia-w-twojej-okolicy/*",
+      "/*/pt/eventos-perto-de-si/*",
+      "/*/sl/dogodki-v-vasi-blizini/*",
+      "/fileadmin/website_content/microsites/Live_cooking_guidelines/",
+      "/event-add-to-calendar/*",
+      "*/selectCountryAjaxHandler.json",
+      "*/api/*",
+      "/bora-content.com"
+    ]
+  }
 }

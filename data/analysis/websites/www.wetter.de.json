@@ -1,10 +1,59 @@
 {
   "domain": "www.wetter.de",
   "normalizedDomain": "www.wetter.de",
+  "robotsTxt": "User-agent: *\ndisallow: /suche.html?search=\ndisallow: *tickaroo_more\ndisallow: /assets/\ndisallow: /css/\ndisallow: /js/\ndisallow: /service/\ndisallow: /vergleiche/\ndisallow: /widget/\ndisallow: */details\n\nsitemap: https://www.wetter.de/places.xml?p=ever\nsitemap: https://www.wetter.de/places.xml?p=monthly\nsitemap: https://www.wetter.de/places.xml?p=daily\nsitemap: https://www.wetter.de/sitemaps/news/sitemap-news.xml\n\n\n# OpenAI ChatGPT\nUser-agent: GPTBot\nDisallow: /\n\n# Google Bard\nUser-agent: Google-Extended\nDisallow: /\n\n# Common Crawl Foundation\nUser-agent: CCBot\nDisallow: /\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/suche.html?search=",
+        "*tickaroo_more",
+        "/assets/",
+        "/css/",
+        "/js/",
+        "/service/",
+        "/vergleiche/",
+        "/widget/",
+        "*/details"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
@@ -18,5 +67,19 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/suche.html?search=",
+      "*tickaroo_more",
+      "/assets/",
+      "/css/",
+      "/js/",
+      "/service/",
+      "/vergleiche/",
+      "/widget/",
+      "*/details"
+    ]
+  }
 }

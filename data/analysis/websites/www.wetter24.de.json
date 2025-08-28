@@ -1,10 +1,50 @@
 {
   "domain": "www.wetter24.de",
   "normalizedDomain": "www.wetter24.de",
+  "robotsTxt": "User-agent: *\nDisallow: /fileadmin/\nAllow: /uploads/sitemap/de-de/\nAllow: /fileadmin/scripts/\nAllow: /fileadmin/styles/\nAllow: /fileadmin/img/\nAllow: /fileadmin/wme/\nAllow: /fileadmin/ski/\nAllow: /fileadmin/maps/\nAllow: /fileadmin/beta/\n\nSitemap: https://www.wetter24.de/uploads/sitemap/de-de/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/uploads/sitemap/de-de/",
+        "/fileadmin/scripts/",
+        "/fileadmin/styles/",
+        "/fileadmin/img/",
+        "/fileadmin/wme/",
+        "/fileadmin/ski/",
+        "/fileadmin/maps/",
+        "/fileadmin/beta/"
+      ],
+      "disallowed": [
+        "/fileadmin/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/uploads/sitemap/de-de/",
+      "/fileadmin/scripts/",
+      "/fileadmin/styles/",
+      "/fileadmin/img/",
+      "/fileadmin/wme/",
+      "/fileadmin/ski/",
+      "/fileadmin/maps/",
+      "/fileadmin/beta/"
+    ],
+    "disallowed": [
+      "/fileadmin/"
+    ]
+  }
 }

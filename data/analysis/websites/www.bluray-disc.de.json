@@ -1,10 +1,38 @@
 {
   "domain": "www.bluray-disc.de",
   "normalizedDomain": "www.bluray-disc.de",
+  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /count.php\n#Disallow: /out.php\nDisallow: /pricetool_trend.php\nDisallow: /forum/avatar.php\nDisallow: /rss.php\n\nUser-agent: *\nSitemap: https://bluray-disc.de/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/count.php",
+        "/pricetool_trend.php",
+        "/forum/avatar.php",
+        "/rss.php"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/count.php",
+      "/pricetool_trend.php",
+      "/forum/avatar.php",
+      "/rss.php"
+    ]
+  }
 }

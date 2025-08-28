@@ -1,10 +1,46 @@
 {
   "domain": "www.liebherr.com",
   "normalizedDomain": "www.liebherr.com",
+  "robotsTxt": "User-agent: *\r\ndisallow: /shared/media/corporate/documents/terms-and-conditions/\r\nDisallow: /WebResource.axd\r\nDisallow: /Data/Einkaufsbedingungen/\r\nDisallow: /Data/DEV/\r\nDisallow: /*partsshop/\r\nDisallow: /_api/app/job/speculative_application/\r\nDisallow: /wip/\r\nDisallow: /_wip/\r\nSitemap: https://www.liebherr.com/sitemap-index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/shared/media/corporate/documents/terms-and-conditions/",
+        "/WebResource.axd",
+        "/Data/Einkaufsbedingungen/",
+        "/Data/DEV/",
+        "/*partsshop/",
+        "/_api/app/job/speculative_application/",
+        "/wip/",
+        "/_wip/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/shared/media/corporate/documents/terms-and-conditions/",
+      "/WebResource.axd",
+      "/Data/Einkaufsbedingungen/",
+      "/Data/DEV/",
+      "/*partsshop/",
+      "/_api/app/job/speculative_application/",
+      "/wip/",
+      "/_wip/"
+    ]
+  }
 }

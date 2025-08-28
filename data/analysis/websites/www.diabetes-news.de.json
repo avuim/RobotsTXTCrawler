@@ -1,10 +1,38 @@
 {
   "domain": "www.diabetes-news.de",
   "normalizedDomain": "www.diabetes-news.de",
+  "robotsTxt": "User-agent: *\nDisallow: /wp-admin/\nDisallow: /wp-includes/\nDisallow: /xxx/\nDisallow: /experten-2/\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/wp-admin/",
+        "/wp-includes/",
+        "/xxx/",
+        "/experten-2/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/wp-admin/",
+      "/wp-includes/",
+      "/xxx/",
+      "/experten-2/"
+    ]
+  }
 }

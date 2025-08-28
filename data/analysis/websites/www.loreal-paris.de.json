@@ -1,10 +1,80 @@
 {
   "domain": "www.loreal-paris.de",
   "normalizedDomain": "www.loreal-paris.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: *q=\r\nDisallow: *utm_\r\nDisallow: *buy=\r\nDisallow: *look=\r\nDisallow: *sort=\r\nDisallow: *gclid=\r\nDisallow: *tryon=\r\nDisallow: *color=\r\nDisallow: *topic=\r\nDisallow: */api/*\r\nDisallow: *device=\r\nDisallow: *texture=\r\nDisallow: *concern=\r\nDisallow: *bvstate=\r\nDisallow: *bvroute=\r\nDisallow: *coverage=\r\nDisallow: *hair-type=\r\nDisallow: *skin-type=\r\nDisallow: */cdn-cgi/*\r\nDisallow: *product-type=\r\nDisallow: *desired-color=\r\nDisallow: *key-ingredient\r\nDisallow: *ingredient-free=\r\nDisallow: /sitecore/content*\r\nDisallow: /Sitecore/content*\r\n\r\nSitemap: https://www.loreal-paris.de/sitemap.xml\r\nSitemap: https://www.loreal-paris.de/sitemap-index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "*q=",
+        "*utm_",
+        "*buy=",
+        "*look=",
+        "*sort=",
+        "*gclid=",
+        "*tryon=",
+        "*color=",
+        "*topic=",
+        "*/api/*",
+        "*device=",
+        "*texture=",
+        "*concern=",
+        "*bvstate=",
+        "*bvroute=",
+        "*coverage=",
+        "*hair-type=",
+        "*skin-type=",
+        "*/cdn-cgi/*",
+        "*product-type=",
+        "*desired-color=",
+        "*key-ingredient",
+        "*ingredient-free=",
+        "/sitecore/content*",
+        "/Sitecore/content*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "*q=",
+      "*utm_",
+      "*buy=",
+      "*look=",
+      "*sort=",
+      "*gclid=",
+      "*tryon=",
+      "*color=",
+      "*topic=",
+      "*/api/*",
+      "*device=",
+      "*texture=",
+      "*concern=",
+      "*bvstate=",
+      "*bvroute=",
+      "*coverage=",
+      "*hair-type=",
+      "*skin-type=",
+      "*/cdn-cgi/*",
+      "*product-type=",
+      "*desired-color=",
+      "*key-ingredient",
+      "*ingredient-free=",
+      "/sitecore/content*",
+      "/Sitecore/content*"
+    ]
+  }
 }

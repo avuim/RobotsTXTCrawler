@@ -1,10 +1,56 @@
 {
   "domain": "www.bauforum24.biz",
   "normalizedDomain": "www.bauforum24.biz",
+  "robotsTxt": "User-agent: *\n\nDisallow: /lofiversion/\n\nDisallow: /forums/forum/106-moderatoren-ecke\nDisallow: /forums/forum/149-endlager-amp-schrottpresse\nDisallow: /forums/forum/170-die-klinik\nDisallow: /forums/forum/193-area-51\nDisallow: /forums/forum/376-die-akte\nDisallow: /forums/forum/379-reha-und-vorsorgezentrum\nDisallow: /forums/forum/202-bauforum24-inside-\nDisallow: /forums/forum/290-bauforum24-stammtisch\nDisallow: /forums/forum/357-bauforum24-business-talk\nDisallow: /forums/forum/359-bauforum24-mediathek/\nDisallow: /profile/\nDisallow: /applications/core/interface/file/",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/lofiversion/",
+        "/forums/forum/106-moderatoren-ecke",
+        "/forums/forum/149-endlager-amp-schrottpresse",
+        "/forums/forum/170-die-klinik",
+        "/forums/forum/193-area-51",
+        "/forums/forum/376-die-akte",
+        "/forums/forum/379-reha-und-vorsorgezentrum",
+        "/forums/forum/202-bauforum24-inside-",
+        "/forums/forum/290-bauforum24-stammtisch",
+        "/forums/forum/357-bauforum24-business-talk",
+        "/forums/forum/359-bauforum24-mediathek/",
+        "/profile/",
+        "/applications/core/interface/file/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/lofiversion/",
+      "/forums/forum/106-moderatoren-ecke",
+      "/forums/forum/149-endlager-amp-schrottpresse",
+      "/forums/forum/170-die-klinik",
+      "/forums/forum/193-area-51",
+      "/forums/forum/376-die-akte",
+      "/forums/forum/379-reha-und-vorsorgezentrum",
+      "/forums/forum/202-bauforum24-inside-",
+      "/forums/forum/290-bauforum24-stammtisch",
+      "/forums/forum/357-bauforum24-business-talk",
+      "/forums/forum/359-bauforum24-mediathek/",
+      "/profile/",
+      "/applications/core/interface/file/"
+    ]
+  }
 }

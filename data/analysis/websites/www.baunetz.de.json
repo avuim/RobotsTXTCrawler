@@ -1,10 +1,69 @@
 {
   "domain": "www.baunetz.de",
   "normalizedDomain": "www.baunetz.de",
+  "robotsTxt": "User-Agent: *\nDisallow: /stellenmarkt/suche*\nDisallow: /admin*\nDisallow: /___admin___*\nDisallow: /rd/*\nDisallow: /test/*\nDisallow: /forum/*\nDisallow: /dwhpagedots/*\nDisallow: /0/*\nDisallow: /1/*\nDisallow: /2/*\nDisallow: /3/*\nDisallow: /4/*\nDisallow: /5/*\nDisallow: /6/*\nDisallow: /7/*\nDisallow: /8/*\nDisallow: /9/*\n\nUser-Agent: Mediapartners-Google\nDisallow: /\n\nUser-Agent: Adsbot-Google\nDisallow: /\n\nUser-Agent: JoobleBot\nDisallow: /\nAllow: /stellenmarkt/*\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/stellenmarkt/suche*",
+        "/admin*",
+        "/___admin___*",
+        "/rd/*",
+        "/test/*",
+        "/forum/*",
+        "/dwhpagedots/*",
+        "/0/*",
+        "/1/*",
+        "/2/*",
+        "/3/*",
+        "/4/*",
+        "/5/*",
+        "/6/*",
+        "/7/*",
+        "/8/*",
+        "/9/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Mediapartners-Google",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Adsbot-Google",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "JoobleBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/stellenmarkt/*"
+        ],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Mediapartners-Google",
@@ -16,7 +75,29 @@
     },
     {
       "name": "JoobleBot",
-      "allowed": true
+      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/stellenmarkt/suche*",
+      "/admin*",
+      "/___admin___*",
+      "/rd/*",
+      "/test/*",
+      "/forum/*",
+      "/dwhpagedots/*",
+      "/0/*",
+      "/1/*",
+      "/2/*",
+      "/3/*",
+      "/4/*",
+      "/5/*",
+      "/6/*",
+      "/7/*",
+      "/8/*",
+      "/9/*"
+    ]
+  }
 }

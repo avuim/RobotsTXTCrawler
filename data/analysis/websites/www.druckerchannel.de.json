@@ -1,10 +1,66 @@
 {
   "domain": "www.druckerchannel.de",
   "normalizedDomain": "www.druckerchannel.de",
+  "robotsTxt": "# robots.txt zu https://www.druckerchannel.de\r\nUser-agent: *\r\nDisallow: /admin/\r\nDisallow: /archiv/\r\nDisallow: /cache/\r\nDisallow: /eigene_php/\r\nDisallow: /font/\r\nDisallow: /test/\r\nDisallow: /includes/\r\nDisallow: /redirect/\r\nDisallow: /teaser_homepage/\r\nDisallow: /popup/\r\n#Disallow: /prouser/\r\nDisallow: /uploads/\r\nDisallow: /selection.php\r\nDisallow: /uexec.php\r\nDisallow: /script/\r\n\r\n#Disallow: /artikel_druckansicht.php\r\nDisallow: /user_info.php\r\nDisallow: /bildgalerie.php\r\nDisallow: /bingoschein.php\r\n\r\nDisallow: /bilder/_ext/\r\n\r\nSitemap: https://www.druckerchannel.de/_sitemap/index.xml\r\nSitemap: https://www.druckerchannel.de/_sitemap/feed_news.xml\r\n\r\nCrawl-delay: 1",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/admin/",
+        "/archiv/",
+        "/cache/",
+        "/eigene_php/",
+        "/font/",
+        "/test/",
+        "/includes/",
+        "/redirect/",
+        "/teaser_homepage/",
+        "/popup/",
+        "/uploads/",
+        "/selection.php",
+        "/uexec.php",
+        "/script/",
+        "/user_info.php",
+        "/bildgalerie.php",
+        "/bingoschein.php",
+        "/bilder/_ext/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/admin/",
+      "/archiv/",
+      "/cache/",
+      "/eigene_php/",
+      "/font/",
+      "/test/",
+      "/includes/",
+      "/redirect/",
+      "/teaser_homepage/",
+      "/popup/",
+      "/uploads/",
+      "/selection.php",
+      "/uexec.php",
+      "/script/",
+      "/user_info.php",
+      "/bildgalerie.php",
+      "/bingoschein.php",
+      "/bilder/_ext/"
+    ]
+  }
 }

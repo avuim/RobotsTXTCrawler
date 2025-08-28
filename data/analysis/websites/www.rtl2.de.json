@@ -1,10 +1,28 @@
 {
   "domain": "www.rtl2.de",
   "normalizedDomain": "www.rtl2.de",
+  "robotsTxt": "User-agent: *\nDisallow:\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

@@ -1,10 +1,114 @@
 {
   "domain": "www.ahgz.de",
   "normalizedDomain": "www.ahgz.de",
+  "robotsTxt": "User-agent: *\nDisallow: /suche/?OK*\nDisallow: /user/\nDisallow: /stats/c/\nDisallow: */admin/\nDisallow: *?login*\nDisallow: *?thankyou*\nDisallow: *&login*\nDisallow: *&thankyou*\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: OAI-SearchBot\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\nSitemap: https://www.ahgz.de/sitemap.xml\nSitemap: https://www.ahgz.de/sitemap_news.xml\nSitemap: https://www.ahgz.de/sitemap_image.xml\n\n# Legal notice: Deutscher Fachverlag GmbH expressly reserves the right to use all content available under [ahgz.de] for commercial text and data mining (§ 44b UrhG).\n# The use of robots or other automated means to access [ahgz.de] or collect or mine data without the express permission of Deutscher Fachverlag GmbH is strictly prohibited.\n# If you would like to apply for permission to crawl [ahgz.de], collect or use data for commercial text and data mining, please contact content-syndication@dfv.de.\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/suche/?OK*",
+        "/user/",
+        "/stats/c/",
+        "*/admin/",
+        "*?login*",
+        "*?thankyou*",
+        "*&login*",
+        "*&thankyou*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 10,
+    "allowedBots": 0,
+    "disallowedBots": 10,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "CCBot",
@@ -46,5 +150,18 @@
       "name": "meta-externalagent",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/suche/?OK*",
+      "/user/",
+      "/stats/c/",
+      "*/admin/",
+      "*?login*",
+      "*?thankyou*",
+      "*&login*",
+      "*&thankyou*"
+    ]
+  }
 }

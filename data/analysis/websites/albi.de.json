@@ -1,10 +1,32 @@
 {
   "domain": "albi.de",
   "normalizedDomain": "albi.de",
+  "robotsTxt": "Sitemap: https://www.albi.de/sitemap.xml\r\n\r\n\r\nUser-agent: *\r\nDisallow: /cpresources/\r\n\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/cpresources/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/cpresources/"
+    ]
+  }
 }

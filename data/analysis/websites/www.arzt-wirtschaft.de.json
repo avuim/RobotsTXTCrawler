@@ -1,10 +1,46 @@
 {
   "domain": "www.arzt-wirtschaft.de",
   "normalizedDomain": "www.arzt-wirtschaft.de",
+  "robotsTxt": "# Block all crawlers for /nutzer\nUser-agent: *\nDisallow: /nutzer\nDisallow: /feedback\nDisallow: /_next/\nDisallow: /*?_rsc=*\nAllow: /_next/static/\nAllow: /_next/image\nAllow: /_next/cache/images/\n# Define the location of the sitemap\n# [ DOMAIN ] is a placeholder for the domain of the website (e. g.: https://staging.arzt-wirtschaft.de)\n# [ DOMAIN ] is replaced with the value of the variable NEXT_PUBLIC_NEXTJS_SITE_URL in the .env file during deployment\n# Trailing-slashes in NEXT_PUBLIC_NEXTJS_SITE_URL are removed in the responsible shell script\nSitemap: https://www.arzt-wirtschaft.de/api/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/_next/static/",
+        "/_next/image",
+        "/_next/cache/images/"
+      ],
+      "disallowed": [
+        "/nutzer",
+        "/feedback",
+        "/_next/",
+        "/*?_rsc=*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/_next/static/",
+      "/_next/image",
+      "/_next/cache/images/"
+    ],
+    "disallowed": [
+      "/nutzer",
+      "/feedback",
+      "/_next/",
+      "/*?_rsc=*"
+    ]
+  }
 }

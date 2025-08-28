@@ -1,5 +1,23 @@
 {
   "domain": "www.cinemaxxl.de",
   "normalizedDomain": "www.cinemaxxl.de",
-  "bots": []
+  "robotsTxt": "\n# Technische Ordner blockieren (keine Inhalte für Suchmaschinen)\nDisallow: /ajax/\nDisallow: /class/\nDisallow: /crons/\nDisallow: /exec/\nDisallow: /functions/\nDisallow: /include/\nDisallow: /smtp/\nDisallow: /tracking/\n\n# WICHTIG: Diese Ressourcen nicht blockieren – Google braucht sie zum Rendern\n# Disallow: /css/\n# Disallow: /js/\n# Disallow: /fonts/\n# Disallow: /templates/\n\n# Sitemap für Google & Co.\nSitemap: https://cinemaxxl.de/sitemap/sitemap_1.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

@@ -1,10 +1,54 @@
 {
   "domain": "www.lidl.de",
   "normalizedDomain": "www.lidl.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /cc.js*\r\nDisallow: /cdn/assets/cwv/\r\nDisallow: /user-api/*\r\nDisallow: /cqe/*\r\nDisallow: *search?q=*\r\nDisallow: *?offset=*\r\nDisallow: *idsOnly=*\r\nDisallow: *productsOnly=*\r\nDisallow: *id=*\r\nDisallow: *pageId=*\r\nDisallow: *advisor=*\r\nDisallow: *sort=*\r\n\r\nSitemap: https://www.lidl.de/static/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/cc.js*",
+        "/cdn/assets/cwv/",
+        "/user-api/*",
+        "/cqe/*",
+        "*search?q=*",
+        "*?offset=*",
+        "*idsOnly=*",
+        "*productsOnly=*",
+        "*id=*",
+        "*pageId=*",
+        "*advisor=*",
+        "*sort=*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/cc.js*",
+      "/cdn/assets/cwv/",
+      "/user-api/*",
+      "/cqe/*",
+      "*search?q=*",
+      "*?offset=*",
+      "*idsOnly=*",
+      "*productsOnly=*",
+      "*id=*",
+      "*pageId=*",
+      "*advisor=*",
+      "*sort=*"
+    ]
+  }
 }

@@ -1,10 +1,64 @@
 {
   "domain": "www.its.de",
   "normalizedDomain": "www.its.de",
+  "robotsTxt": "User-agent: *\nDisallow: /category/\nDisallow: /hotel/search?*\nDisallow: /en/hotel/search?*\nDisallow: /de/hotel/search?*\nDisallow: *?icid=*\nDisallow: *?bcid=*\nDisallow: *?ap=*\nDisallow: *?refat=*\nDisallow: *?tab=*\nDisallow: *?provider=*\nDisallow: *?ecid=*\nDisallow: *?fbclid=*\nDisallow: *?web_winter*\nDisallow: *?ajax_handler=*\nDisallow: *earliestStart=*\nDisallow: *?__historyState=*\nDisallow:  /logos/holidaycheck.svg\n\nSitemap: https://www.its.de/sitemaps/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/category/",
+        "/hotel/search?*",
+        "/en/hotel/search?*",
+        "/de/hotel/search?*",
+        "*?icid=*",
+        "*?bcid=*",
+        "*?ap=*",
+        "*?refat=*",
+        "*?tab=*",
+        "*?provider=*",
+        "*?ecid=*",
+        "*?fbclid=*",
+        "*?web_winter*",
+        "*?ajax_handler=*",
+        "*earliestStart=*",
+        "*?__historyState=*",
+        "/logos/holidaycheck.svg"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/category/",
+      "/hotel/search?*",
+      "/en/hotel/search?*",
+      "/de/hotel/search?*",
+      "*?icid=*",
+      "*?bcid=*",
+      "*?ap=*",
+      "*?refat=*",
+      "*?tab=*",
+      "*?provider=*",
+      "*?ecid=*",
+      "*?fbclid=*",
+      "*?web_winter*",
+      "*?ajax_handler=*",
+      "*earliestStart=*",
+      "*?__historyState=*",
+      "/logos/holidaycheck.svg"
+    ]
+  }
 }

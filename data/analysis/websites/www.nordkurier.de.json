@@ -1,66 +1,231 @@
 {
   "domain": "www.nordkurier.de",
   "normalizedDomain": "www.nordkurier.de",
-  "bots": [
-    {
-      "name": "*",
-      "allowed": false
-    },
+  "robotsTxt": "User-agent: *\nDisallow: /api/\nDisallow: /cdn-cgi/\n\nUser-agent: Google-Extended\nAllow: /urlaub-in-mv/\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /urlaub-in-mv/\nDisallow: /\n\nUser-agent: ChatGPT-User\nAllow: /urlaub-in-mv/\nDisallow: /\n\nUser-agent: CCBot\nAllow: /urlaub-in-mv/\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /urlaub-in-mv/\nDisallow: /\n\nUser-agent: Bytespider\nAllow: /urlaub-in-mv/\nDisallow: /\n\nUser-agent: Amazonbot\nAllow: /urlaub-in-mv/\nDisallow: /\n\nUser-agent: Applebot-Extended\nAllow: /urlaub-in-mv/\nDisallow: /\n\nUser-agent: ia_archiver\nAllow: /urlaub-in-mv/\nDisallow: /\n\nUser-agent: Arquivo-web-crawler\nAllow: /urlaub-in-mv/\nDisallow: /\n\nUser-agent: anthropic-ai\nAllow: /urlaub-in-mv/\nDisallow: /\n\nUser-agent: OAI-SearchBot\nAllow: /urlaub-in-mv/\nDisallow: /\n\nUser-agent: PerplexityBot\nAllow: /urlaub-in-mv/\nDisallow: /\n\nUser-agent: Claude-Web\nAllow: /urlaub-in-mv/\nDisallow: /\n\n\nSitemap: https://www.nordkurier.de/sitemaps/nord/google-news-sitemap-index.xml\nSitemap: https://www.nordkurier.de/sitemaps/nord/organic-sitemap-index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/api/",
+        "/cdn-cgi/"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "Google-Extended",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/urlaub-in-mv/"
+        ],
+        "disallowed": []
+      }
     },
     {
       "name": "GPTBot",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/urlaub-in-mv/"
+        ],
+        "disallowed": []
+      }
     },
     {
       "name": "ChatGPT-User",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/urlaub-in-mv/"
+        ],
+        "disallowed": []
+      }
     },
     {
       "name": "CCBot",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/urlaub-in-mv/"
+        ],
+        "disallowed": []
+      }
     },
     {
       "name": "ClaudeBot",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/urlaub-in-mv/"
+        ],
+        "disallowed": []
+      }
     },
     {
       "name": "Bytespider",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/urlaub-in-mv/"
+        ],
+        "disallowed": []
+      }
     },
     {
       "name": "Amazonbot",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/urlaub-in-mv/"
+        ],
+        "disallowed": []
+      }
     },
     {
       "name": "Applebot-Extended",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/urlaub-in-mv/"
+        ],
+        "disallowed": []
+      }
     },
     {
       "name": "ia_archiver",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/urlaub-in-mv/"
+        ],
+        "disallowed": []
+      }
     },
     {
       "name": "Arquivo-web-crawler",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/urlaub-in-mv/"
+        ],
+        "disallowed": []
+      }
     },
     {
       "name": "anthropic-ai",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/urlaub-in-mv/"
+        ],
+        "disallowed": []
+      }
     },
     {
       "name": "OAI-SearchBot",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/urlaub-in-mv/"
+        ],
+        "disallowed": []
+      }
     },
     {
       "name": "PerplexityBot",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/urlaub-in-mv/"
+        ],
+        "disallowed": []
+      }
     },
     {
       "name": "Claude-Web",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/urlaub-in-mv/"
+        ],
+        "disallowed": []
+      }
     }
-  ]
+  ],
+  "stats": {
+    "totalSpecificBots": 14,
+    "allowedBots": 0,
+    "disallowedBots": 14,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    },
+    {
+      "name": "Arquivo-web-crawler",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/api/",
+      "/cdn-cgi/"
+    ]
+  }
 }

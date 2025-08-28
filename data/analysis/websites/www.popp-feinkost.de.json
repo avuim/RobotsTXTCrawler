@@ -1,10 +1,34 @@
 {
   "domain": "www.popp-feinkost.de",
   "normalizedDomain": "www.popp-feinkost.de",
+  "robotsTxt": "user-agent:*\r\ndisallow:/contao/\r\ndisallow:/_contao/\r\n\r\nsitemap:https://popp-feinkost.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/contao/",
+        "/_contao/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/contao/",
+      "/_contao/"
+    ]
+  }
 }

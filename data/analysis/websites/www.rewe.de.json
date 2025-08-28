@@ -1,6 +1,72 @@
 {
   "domain": "www.rewe.de",
   "normalizedDomain": "www.rewe.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /partner3/\r\nDisallow: /restservices/\r\nDisallow: /null\r\nDisallow: /*?searchString=\r\nDisallow: /*&searchString=\r\nDisallow: /marken/eigenmarken/bio/rewe-bio-produkte/\r\nDisallow: /marken/eigenmarken/feine-welt/produkt-uebersicht/\r\nDisallow: /service/docmorris\r\nAllow: /angebote/nationale-angebote/getraenke/\r\nAllow: /angebote/nationale-angebote/topangebote/\r\nAllow: /angebote/nationale-angebote/obst-und-gemuese/\r\nAllow: /angebote/nationale-angebote/payback/\r\nAllow: /angebote/nationale-angebote/frische-und-convenience/\r\nAllow: /angebote/nationale-angebote/kuehlung/\r\nAllow: /angebote/nationale-angebote/tiefkuehl/\r\nAllow: /angebote/nationale-angebote/fruehstueck/\r\nAllow: /angebote/nationale-angebote/kochen-und-backen/\r\nAllow: /angebote/nationale-angebote/suesses-und-salziges/\r\nAllow: /angebote/nationale-angebote/alkoholfreie-getraenke/\r\nAllow: /angebote/nationale-angebote/bier/\r\nAllow: /angebote/nationale-angebote/wein-und-spirituosen/\r\nAllow: /angebote/nationale-angebote/haushalt/\r\nAllow: /angebote/nationale-angebote/drogerie/\r\nAllow: /angebote/nationale-angebote/tier/\r\nAllow: /angebote/nationale-angebote/freizeit-und-mode/\r\nAllow: /marken/eigenmarken/feine-welt/produkt-uebersicht/rewe-feine-welt-burrata/\r\nAllow: /marken/eigenmarken/feine-welt/produkt-uebersicht/rewe-feine-welt-italiens-backkunst/\r\nAllow: /marken/eigenmarken/feine-welt/produkt-uebersicht/rewe-feine-welt-london-dry-gin/\r\nAllow: /marken/eigenmarken/feine-welt/produkt-uebersicht/rewe-feine-welt-pasteis-de-nata/\r\nUser-agent: facebookexternalhit\r\nAllow: /angebote/*/*/\r\nUser-agent: Twitterbot\r\nAllow: /angebote/*/*/\r\nSitemap: https://www.rewe.de/sitemaps/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/angebote/nationale-angebote/getraenke/",
+        "/angebote/nationale-angebote/topangebote/",
+        "/angebote/nationale-angebote/obst-und-gemuese/",
+        "/angebote/nationale-angebote/payback/",
+        "/angebote/nationale-angebote/frische-und-convenience/",
+        "/angebote/nationale-angebote/kuehlung/",
+        "/angebote/nationale-angebote/tiefkuehl/",
+        "/angebote/nationale-angebote/fruehstueck/",
+        "/angebote/nationale-angebote/kochen-und-backen/",
+        "/angebote/nationale-angebote/suesses-und-salziges/",
+        "/angebote/nationale-angebote/alkoholfreie-getraenke/",
+        "/angebote/nationale-angebote/bier/",
+        "/angebote/nationale-angebote/wein-und-spirituosen/",
+        "/angebote/nationale-angebote/haushalt/",
+        "/angebote/nationale-angebote/drogerie/",
+        "/angebote/nationale-angebote/tier/",
+        "/angebote/nationale-angebote/freizeit-und-mode/",
+        "/marken/eigenmarken/feine-welt/produkt-uebersicht/rewe-feine-welt-burrata/",
+        "/marken/eigenmarken/feine-welt/produkt-uebersicht/rewe-feine-welt-italiens-backkunst/",
+        "/marken/eigenmarken/feine-welt/produkt-uebersicht/rewe-feine-welt-london-dry-gin/",
+        "/marken/eigenmarken/feine-welt/produkt-uebersicht/rewe-feine-welt-pasteis-de-nata/"
+      ],
+      "disallowed": [
+        "/partner3/",
+        "/restservices/",
+        "/null",
+        "/*?searchString=",
+        "/*&searchString=",
+        "/marken/eigenmarken/bio/rewe-bio-produkte/",
+        "/marken/eigenmarken/feine-welt/produkt-uebersicht/",
+        "/service/docmorris"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/angebote/*/*/"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/angebote/*/*/"
+        ],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 2,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -14,5 +80,40 @@
       "name": "Twitterbot",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/angebote/nationale-angebote/getraenke/",
+      "/angebote/nationale-angebote/topangebote/",
+      "/angebote/nationale-angebote/obst-und-gemuese/",
+      "/angebote/nationale-angebote/payback/",
+      "/angebote/nationale-angebote/frische-und-convenience/",
+      "/angebote/nationale-angebote/kuehlung/",
+      "/angebote/nationale-angebote/tiefkuehl/",
+      "/angebote/nationale-angebote/fruehstueck/",
+      "/angebote/nationale-angebote/kochen-und-backen/",
+      "/angebote/nationale-angebote/suesses-und-salziges/",
+      "/angebote/nationale-angebote/alkoholfreie-getraenke/",
+      "/angebote/nationale-angebote/bier/",
+      "/angebote/nationale-angebote/wein-und-spirituosen/",
+      "/angebote/nationale-angebote/haushalt/",
+      "/angebote/nationale-angebote/drogerie/",
+      "/angebote/nationale-angebote/tier/",
+      "/angebote/nationale-angebote/freizeit-und-mode/",
+      "/marken/eigenmarken/feine-welt/produkt-uebersicht/rewe-feine-welt-burrata/",
+      "/marken/eigenmarken/feine-welt/produkt-uebersicht/rewe-feine-welt-italiens-backkunst/",
+      "/marken/eigenmarken/feine-welt/produkt-uebersicht/rewe-feine-welt-london-dry-gin/",
+      "/marken/eigenmarken/feine-welt/produkt-uebersicht/rewe-feine-welt-pasteis-de-nata/"
+    ],
+    "disallowed": [
+      "/partner3/",
+      "/restservices/",
+      "/null",
+      "/*?searchString=",
+      "/*&searchString=",
+      "/marken/eigenmarken/bio/rewe-bio-produkte/",
+      "/marken/eigenmarken/feine-welt/produkt-uebersicht/",
+      "/service/docmorris"
+    ]
+  }
 }

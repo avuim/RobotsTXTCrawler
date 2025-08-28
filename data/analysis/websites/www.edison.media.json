@@ -1,10 +1,36 @@
 {
   "domain": "www.edison.media",
   "normalizedDomain": "www.edison.media",
+  "robotsTxt": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://edison.media/page-sitemap.xml\nSitemap: https://edison.media/post-sitemap1.xml\nSitemap: https://edison.media/post-sitemap2.xml\nSitemap: https://edison.media/post-sitemap3.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/wp-admin/admin-ajax.php"
+      ],
+      "disallowed": [
+        "/wp-admin/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/wp-admin/admin-ajax.php"
+    ],
+    "disallowed": [
+      "/wp-admin/"
+    ]
+  }
 }

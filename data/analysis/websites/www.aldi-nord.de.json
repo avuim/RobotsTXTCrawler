@@ -1,10 +1,34 @@
 {
   "domain": "www.aldi-nord.de",
   "normalizedDomain": "www.aldi-nord.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /design-system\r\nDisallow: /suchergebnisse\r\n \r\nSitemap: https://www.aldi-nord.de/.aldi-nord-sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/design-system",
+        "/suchergebnisse"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/design-system",
+      "/suchergebnisse"
+    ]
+  }
 }

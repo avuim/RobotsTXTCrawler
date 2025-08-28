@@ -1,10 +1,34 @@
 {
   "domain": "www.radiogong.de",
   "normalizedDomain": "www.radiogong.de",
+  "robotsTxt": "User-Agent: *\nAllow: /\n\nDisallow: /beta-link-ordner/radiopreis-2022/\nDisallow: /beta-link-ordner/secure/",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/beta-link-ordner/radiopreis-2022/",
+        "/beta-link-ordner/secure/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/beta-link-ordner/radiopreis-2022/",
+      "/beta-link-ordner/secure/"
+    ]
+  }
 }

@@ -1,6 +1,52 @@
 {
   "domain": "www.rtlplus.com",
   "normalizedDomain": "www.rtlplus.com",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\nDisallow: /musik/*/*/track\r\nDisallow: /musik/deezer-grid\r\nDisallow: /jugendschutz\r\nDisallow: /magazine/marken/*/*/*\r\nDisallow: /test-forwarding-to-ssr\r\nDisallow: /onboarding/*\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nUser-agent: Google-Extended\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\nSitemap: https://plus.rtl.de/root.sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/musik/*/*/track",
+        "/musik/deezer-grid",
+        "/jugendschutz",
+        "/magazine/marken/*/*/*",
+        "/test-forwarding-to-ssr",
+        "/onboarding/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -18,5 +64,16 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/musik/*/*/track",
+      "/musik/deezer-grid",
+      "/jugendschutz",
+      "/magazine/marken/*/*/*",
+      "/test-forwarding-to-ssr",
+      "/onboarding/*"
+    ]
+  }
 }

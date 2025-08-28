@@ -1,10 +1,32 @@
 {
   "domain": "www.speedweek.com",
   "normalizedDomain": "www.speedweek.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /*.axd$\r\n\r\nSitemap: https://www.speedweek.com/sitemap_news.xml\r\nSitemap: https://www.speedweek.com/sitemap_fullnews.xml\r\nSitemap: https://www.speedweek.com/sitemap_ressorts.xml\r\nSitemap: https://www.speedweek.com/sitemap_people.xml\r\nSitemap: https://www.speedweek.com/sitemap_fullevent.xml\r\nSitemap: https://www.speedweek.com/sitemap_fullgallery.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*.axd$"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*.axd$"
+    ]
+  }
 }

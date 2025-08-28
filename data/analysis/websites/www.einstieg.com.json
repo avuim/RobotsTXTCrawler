@@ -1,10 +1,66 @@
 {
   "domain": "www.einstieg.com",
   "normalizedDomain": "www.einstieg.com",
+  "robotsTxt": "User-agent: *\nDisallow: /frontend_frontend/\nDisallow: /messe-ausdruck.html\n\nDisallow: /reload-teaser.json\nDisallow: /reload-reallife.html\nDisallow: /loadmore-trainingsearch.html\nDisallow: /loadmore-trainings.html\nDisallow: /loadmore-exhibitorsearch.html\nDisallow: /sms-validation.html\nDisallow: /profil-tracking.php\nDisallow: /inserat-tracking.php\nDisallow: /termine-mit-messe-ausstellern-vereinbaren.php\nDisallow: /termine-mit-messe-ausstellern-absagen.php\nDisallow: /profilebookmark.php\n\nDisallow: /*tx_solr*\nDisallow: *tx_twteinstiegfrontend_twteinstiegfrontend*\nDisallow: *type=1513157926*\nDisallow: /*?*tx_felogin_login=\n\nDisallow: /detailansichten/abe-vorschau\n\nSitemap: https://www.einstieg.com/sitemap.xml?sitemap=pages\nSitemap: https://www.einstieg.com/sitemap.xml?sitemap=inserat_beruf\nSitemap: https://www.einstieg.com/sitemap.xml?sitemap=inserat_studium\nSitemap: https://www.einstieg.com/sitemap.xml?sitemap=anbieterprofil\nSitemap: https://www.einstieg.com/sitemap.xml?sitemap=beruf\nSitemap: https://www.einstieg.com/sitemap.xml?sitemap=studiengang\nSitemap: https://www.einstieg.com/sitemap.xml?sitemap=gapyear_option\nSitemap: https://www.einstieg.com/sitemap.xml?sitemap=news_blog\nSitemap: https://www.einstieg.com/sitemap.xml?sitemap=news_allgemein\nSitemap: https://www.einstieg.com/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/frontend_frontend/",
+        "/messe-ausdruck.html",
+        "/reload-teaser.json",
+        "/reload-reallife.html",
+        "/loadmore-trainingsearch.html",
+        "/loadmore-trainings.html",
+        "/loadmore-exhibitorsearch.html",
+        "/sms-validation.html",
+        "/profil-tracking.php",
+        "/inserat-tracking.php",
+        "/termine-mit-messe-ausstellern-vereinbaren.php",
+        "/termine-mit-messe-ausstellern-absagen.php",
+        "/profilebookmark.php",
+        "/*tx_solr*",
+        "*tx_twteinstiegfrontend_twteinstiegfrontend*",
+        "*type=1513157926*",
+        "/*?*tx_felogin_login=",
+        "/detailansichten/abe-vorschau"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/frontend_frontend/",
+      "/messe-ausdruck.html",
+      "/reload-teaser.json",
+      "/reload-reallife.html",
+      "/loadmore-trainingsearch.html",
+      "/loadmore-trainings.html",
+      "/loadmore-exhibitorsearch.html",
+      "/sms-validation.html",
+      "/profil-tracking.php",
+      "/inserat-tracking.php",
+      "/termine-mit-messe-ausstellern-vereinbaren.php",
+      "/termine-mit-messe-ausstellern-absagen.php",
+      "/profilebookmark.php",
+      "/*tx_solr*",
+      "*tx_twteinstiegfrontend_twteinstiegfrontend*",
+      "*type=1513157926*",
+      "/*?*tx_felogin_login=",
+      "/detailansichten/abe-vorschau"
+    ]
+  }
 }

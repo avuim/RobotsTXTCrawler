@@ -1,6 +1,189 @@
 {
   "domain": "www.aachener-zeitung.de",
   "normalizedDomain": "www.aachener-zeitung.de",
+  "robotsTxt": "# All copyrights, neighbouring rights and database rights in the content and layout of this website/app are explicitly reserved and are for personal, non-commercial use only. \n# In accordance with Article  4 of the Directive on Copyright in the Digital Single Market (CDSM) and its transposition into the law of the applicable Member State,  \n# all content of this website on which it is made available is not to be used for the purposes of text and data mining, extraction, scraping and/or the use of programs or robots\n# for automatic data collection and/or extraction of digital data, whether for machine learning or artificial intelligence purposes or otherwise. \n# See also the Terms and Conditions of this website.\n\n# robots.txt prod aachener-zeitung\nuser-agent: *\nAllow: /\nAllow: /tags\n\n# Disallow Internal Search\nDisallow: /Suche/\n\n# Disallow bundle\nDisallow: /*?bundle\n\n# Disallow infront widgets\nDisallow: /infront/widget/\n\n# Disallow Sponsored Articles for Google News\nUser-agent: Googlebot-News\nDisallow: /sponsored-content/\n\n# Disallow Large Language Models\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: FacebookBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: omgilibot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: Google-CloudVertexBot\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\nUser-agent: meta-externalfetcher\nDisallow: /\n\n\n#list sitemaps\nSitemap: https://www.aachener-zeitung.de/sitemap.xml\nSitemap: https://www.aachener-zeitung.de/sitemap-image.xml\nSitemap: https://www.aachener-zeitung.de/sitemap-news.xml\nSitemap: https://www.aachener-zeitung.de/sitemap-video.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/tags"
+      ],
+      "disallowed": [
+        "/Suche/",
+        "/*?bundle",
+        "/infront/widget/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot-News",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sponsored-content/"
+        ]
+      }
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-CloudVertexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "meta-externalfetcher",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 20,
+    "allowedBots": 1,
+    "disallowedBots": 19,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -8,7 +191,7 @@
     },
     {
       "name": "Googlebot-News",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Amazonbot",
@@ -86,5 +269,15 @@
       "name": "meta-externalfetcher",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/tags"
+    ],
+    "disallowed": [
+      "/Suche/",
+      "/*?bundle",
+      "/infront/widget/"
+    ]
+  }
 }

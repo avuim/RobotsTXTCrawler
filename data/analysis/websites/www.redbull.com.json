@@ -1,10 +1,51 @@
 {
   "domain": "www.redbull.com",
   "normalizedDomain": "www.redbull.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /v3/content/*\r\nDisallow: /v3/query/*\r\nDisallow: /v3/feed/*\r\nDisallow: /geo-redirects*\r\n\r\nUser-agent: Slurp\r\nCrawl-delay: 5\r\n\r\nSitemap: https://www.redbull.com/v3/sitemap/rbcom/sitemap.xml\r\nSitemap: https://www.redbull.com/v3/sitemap/rbcom-news/sitemap-news.xml\r\nSitemap: https://www.redbull.com/v3/sitemap/rbcom-videos/video-sitemap-index.xml\r\nSitemap: https://www.redbull.com/v3/sitemap/rbcom-redbullracing/sitemap.xml\r\n\r\n#PCS\r\nSitemap: https://www.redbull.com/pcs-sitemap.xml\r\n#Wingfinder\r\nSitemap: https://www.redbull.com/api/wingfinder/sitemap\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/v3/content/*",
+        "/v3/query/*",
+        "/v3/feed/*",
+        "/geo-redirects*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/v3/content/*",
+      "/v3/query/*",
+      "/v3/feed/*",
+      "/geo-redirects*"
+    ]
+  }
 }

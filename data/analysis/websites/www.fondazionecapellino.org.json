@@ -1,10 +1,40 @@
 {
   "domain": "www.fondazionecapellino.org",
   "normalizedDomain": "www.fondazionecapellino.org",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\nDisallow: /_hcms/preview/\r\nDisallow: /hs/manage-preferences/\r\nDisallow: /hs/preferences-center/\r\nDisallow: /*?*hs_preview=*\r\nDisallow: /*?*hsCacheBuster=*\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/_hcms/preview/",
+        "/hs/manage-preferences/",
+        "/hs/preferences-center/",
+        "/*?*hs_preview=*",
+        "/*?*hsCacheBuster=*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/_hcms/preview/",
+      "/hs/manage-preferences/",
+      "/hs/preferences-center/",
+      "/*?*hs_preview=*",
+      "/*?*hsCacheBuster=*"
+    ]
+  }
 }

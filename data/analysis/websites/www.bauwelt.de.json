@@ -1,6 +1,37 @@
 {
   "domain": "www.bauwelt.de",
   "normalizedDomain": "www.bauwelt.de",
+  "robotsTxt": "# This robots.txt file controls crawling of URLs under https://www.bauwelt.de\n\nUser-agent: *\nAllow: /\n\nUser-agent: SiteAuditBot\nCrawl-delay: 1\nAllow: /\n\nUser-agent: Semrushbot-SI\nAllow: /\n\n# Sitemap file\nSitemap: https://www.bauwelt.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "SiteAuditBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Semrushbot-SI",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 2,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -14,5 +45,9 @@
       "name": "Semrushbot-SI",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

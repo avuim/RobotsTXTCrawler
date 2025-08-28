@@ -1,9 +1,492 @@
 {
   "domain": "www.mediamarkt.de",
   "normalizedDomain": "www.mediamarkt.de",
+  "robotsTxt": "Sitemap: https://www.mediamarkt.de/sitemaps/sitemap-index.xml\r\n\r\nUser-Agent: *\r\nDisallow: /cdn-cgi/bm/cv/\r\nDisallow: /cdn-cgi/challenge-platform/\r\nDisallow: /rde_server/\r\nDisallow: /cdn-cgi/images/trace/\r\nDisallow: /cdn-cgi/rum\r\nDisallow: /cdn-cgi/scripts/\r\nDisallow: /cdn-cgi/styles/\r\nDisallow: /cdn-cgi/zaraz/\r\nDisallow: /api/v1/graphql?operationName=GetPaidBundles\r\nDisallow: /api/v1/graphql?operationName=GetFreeBundles\r\nDisallow: /api/v1/msg\r\nDisallow: /api/v1/mms-sst\r\nDisallow: /api/v1/partners/\r\n\r\nDisallow: /*shopfallback*\r\nDisallow: /*MultiChannelMARepairStatusResult*\r\nDisallow: *de/product/*-weltmusik-cd*\r\nDisallow: *de/product/*-jazz-cd*\r\nDisallow: *de/product/*-blues-cd*\r\nDisallow: *de/product/*-klassik-cd*\r\nDisallow: *de/product/*-oper-cd*\r\nDisallow: *de/product/*-folklore-cd*\r\nDisallow: *de/product/*-country-cd*\r\nDisallow: *de/product/*-heavy-metal-cd*\r\nDisallow: *de/product/*-kinder-cd*\r\nDisallow: *de/promo-list/*\r\nDisallow: *de/list/*_*\r\nDisallow: /mcs/marketinfo/*\r\n\r\nDisallow: *de/search\r\n\r\nDisallow: /public/setCookie/\r\n\r\nAllow: /de/product/_bibi-tina-folge-101-%C3%A4rger-mit-dem-grafen-h%C3%B6rspiel-kinder-cd-2694761.html\r\nAllow: /de/product/_keith-jarrett-budapest-concert-jazz-blues-cd-2683284.html\r\nAllow: /de/product/_gregory-porter-all-rise-jazz-blues-cd-2628384.html\r\nAllow: /de/product/_sarah-contradiction-of-happiness-buechi-the-paintress-jazz-blues-cd-2750814.html\r\nAllow: /de/product/_tony-bennett-and-lady-gaga-love-for-sale-limitierte-deluxe-edition-cd-2755391.html\r\nAllow: /de/product/_signum-saxophone-quartet-echoes-klassik-cd-2716145.html\r\nAllow: /de/product/_luciano-pavarotti-pavarotti-the-greatest-hits-oper-cd-2551158.html\r\nAllow: /de/product/_r%C3%A4uberzivil-tiefensch%C3%A4rfe-pop-international-cd-1957190.html\r\nAllow: /de/product/_versengold-funkenflug-folk-folklore-cd-2301612.html\r\nAllow: /de/product/_judas-priest-redeemer-of-souls-rock-international-cd-1849380.html\r\nAllow: /de/product/_powerwolf-call-of-the-wild-2cd-mediabook-exkl-anh%C3%A4nger-heavy-metal-cd-merchandising-2728783.html\r\nAllow: /de/product/_rage-the-refuge-years-album-box-fan-box-heavy-metal-cd-2066128.html\r\nAllow: /de/product/_die-kleine-schnecke-monika-h%C3%A4uschen-55-warum-sind-kuckuckskinder-so-frech-h%C3%B6rspiel-kinder-cd-2615552.html\r\n\r\nUser-agent: AdsBot-Google\r\nUser-agent: Googlebot-Image\r\nUser-agent: Storebot-Google\r\nAllow: /\r\n\r\n# allowing ai crawlers\r\n\r\n# OpenAI\r\nUser-agent: ChatGPT-User\r\nAllow: /\r\nUser-agent: GPTBot\r\nAllow: /\r\nUser-agent: OAI-SearchBot\r\nAllow: /\r\nUser-agent: Operator\r\nAllow: /\r\n\r\n# Anthropic\r\nUser-agent: Claude-SearchBot\r\nAllow: /\r\nUser-agent: Claude-User\r\nAllow: /\r\nUser-agent: Claude-Web\r\nAllow: /\r\nUser-agent: ClaudeBot\r\nAllow: /\r\nUser-agent: anthropic-ai\r\nAllow: /\r\n\r\n# Google\r\nUser-agent: Google-CloudVertexBot\r\nAllow: /\r\nUser-agent: Google-Extended\r\nAllow: /\r\n\r\n# Apple\r\nUser-agent: Applebot\r\nAllow: /\r\nUser-agent: Applebot-Extended\r\nAllow: /\r\n\r\n# Meta\r\nUser-agent: FacebookBot\r\nAllow: /\r\nUser-agent: Meta-ExternalAgent\r\nAllow: /\r\nUser-agent: Meta-ExternalFetcher\r\nAllow: /\r\n\r\n# Perplexity\r\nUser-agent: Perplexity-User\r\nAllow: /\r\nUser-agent: PerplexityBot\r\nAllow: /\r\n\r\n# ByteDance\r\nUser-agent: Bytespider\r\nAllow: /\r\nUser-agent: TikTokSpider\r\nAllow: /\r\n\r\n# disallowing ai crawlers\r\n\r\n# Mistral\r\nUser-agent: MistralAI-User\r\nDisallow: /\r\n\r\n# Amazon\r\nUser-agent: Amazonbot\r\nDisallow: /\r\n\r\n# Huawei\r\nUser-agent: PanguBot\r\nDisallow: /\r\n\r\n# SINA Corporation\r\nUser-agent: iaskspider\r\nDisallow: /\r\n\r\n# Timpi\r\nUser-agent: Timpibot\r\nDisallow: /\r\n\r\n# Allen Institute\r\nUser-agent: AI2Bot\r\nDisallow: /\r\n\r\n# Common Crawl\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\n# Diffbot Inc\r\nUser-agent: Diffbot\r\nDisallow: /\r\n\r\n# Cohere\r\nUser-agent: cohere-ai\r\nDisallow: /\r\n\r\n# DigitalOcean\r\nUser-agent: DigitalOceanGenAICrawler\r\nDisallow: /\r\n\r\n# Sidetrade\r\nUser-agent: Sidetrade\r\nDisallow: /\r\n\r\n# ISS (Security)\r\nUser-agent: ISSCyberRiskCrawler\r\nDisallow: /\r\n\r\n# Image Processing Tools\r\nUser-agent: img2dataset\r\nDisallow: /\r\nUser-agent: imgproxy\r\nDisallow: /\r\n\r\n# Forum Crawler Service\r\nUser-agent: omgili\r\nDisallow: /\r\n\r\n# Unknown\r\nUser-agent: Cotoyogi\r\nDisallow: /\r\nUser-agent: FriendlyCrawler\r\nDisallow: /\r\nUser-agent: NovaAct\r\nDisallow: /\r\nUser-agent: YouBot\r\nDisallow: /\r\nUser-agent: aiHitBot\r\nDisallow: /\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/de/product/_bibi-tina-folge-101-%C3%A4rger-mit-dem-grafen-h%C3%B6rspiel-kinder-cd-2694761.html",
+        "/de/product/_keith-jarrett-budapest-concert-jazz-blues-cd-2683284.html",
+        "/de/product/_gregory-porter-all-rise-jazz-blues-cd-2628384.html",
+        "/de/product/_sarah-contradiction-of-happiness-buechi-the-paintress-jazz-blues-cd-2750814.html",
+        "/de/product/_tony-bennett-and-lady-gaga-love-for-sale-limitierte-deluxe-edition-cd-2755391.html",
+        "/de/product/_signum-saxophone-quartet-echoes-klassik-cd-2716145.html",
+        "/de/product/_luciano-pavarotti-pavarotti-the-greatest-hits-oper-cd-2551158.html",
+        "/de/product/_r%C3%A4uberzivil-tiefensch%C3%A4rfe-pop-international-cd-1957190.html",
+        "/de/product/_versengold-funkenflug-folk-folklore-cd-2301612.html",
+        "/de/product/_judas-priest-redeemer-of-souls-rock-international-cd-1849380.html",
+        "/de/product/_powerwolf-call-of-the-wild-2cd-mediabook-exkl-anh%C3%A4nger-heavy-metal-cd-merchandising-2728783.html",
+        "/de/product/_rage-the-refuge-years-album-box-fan-box-heavy-metal-cd-2066128.html",
+        "/de/product/_die-kleine-schnecke-monika-h%C3%A4uschen-55-warum-sind-kuckuckskinder-so-frech-h%C3%B6rspiel-kinder-cd-2615552.html"
+      ],
+      "disallowed": [
+        "/cdn-cgi/bm/cv/",
+        "/cdn-cgi/challenge-platform/",
+        "/rde_server/",
+        "/cdn-cgi/images/trace/",
+        "/cdn-cgi/rum",
+        "/cdn-cgi/scripts/",
+        "/cdn-cgi/styles/",
+        "/cdn-cgi/zaraz/",
+        "/api/v1/graphql?operationName=GetPaidBundles",
+        "/api/v1/graphql?operationName=GetFreeBundles",
+        "/api/v1/msg",
+        "/api/v1/mms-sst",
+        "/api/v1/partners/",
+        "/*shopfallback*",
+        "/*MultiChannelMARepairStatusResult*",
+        "*de/product/*-weltmusik-cd*",
+        "*de/product/*-jazz-cd*",
+        "*de/product/*-blues-cd*",
+        "*de/product/*-klassik-cd*",
+        "*de/product/*-oper-cd*",
+        "*de/product/*-folklore-cd*",
+        "*de/product/*-country-cd*",
+        "*de/product/*-heavy-metal-cd*",
+        "*de/product/*-kinder-cd*",
+        "*de/promo-list/*",
+        "*de/list/*_*",
+        "/mcs/marketinfo/*",
+        "*de/search",
+        "/public/setCookie/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AdsBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Storebot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Storebot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Storebot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Operator",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-SearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-CloudVertexBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalFetcher",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Perplexity-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TikTokSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MistralAI-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PanguBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "iaskspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Timpibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DigitalOceanGenAICrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Sidetrade",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ISSCyberRiskCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "img2dataset",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "imgproxy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Cotoyogi",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FriendlyCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NovaAct",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YouBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "aiHitBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 49,
+    "allowedBots": 29,
+    "disallowedBots": 20,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": true
+    },
+    {
+      "name": "Storebot-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": true
+    },
+    {
+      "name": "Storebot-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot-Image",
       "allowed": true
     },
     {
@@ -170,5 +653,53 @@
       "name": "aiHitBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/de/product/_bibi-tina-folge-101-%C3%A4rger-mit-dem-grafen-h%C3%B6rspiel-kinder-cd-2694761.html",
+      "/de/product/_keith-jarrett-budapest-concert-jazz-blues-cd-2683284.html",
+      "/de/product/_gregory-porter-all-rise-jazz-blues-cd-2628384.html",
+      "/de/product/_sarah-contradiction-of-happiness-buechi-the-paintress-jazz-blues-cd-2750814.html",
+      "/de/product/_tony-bennett-and-lady-gaga-love-for-sale-limitierte-deluxe-edition-cd-2755391.html",
+      "/de/product/_signum-saxophone-quartet-echoes-klassik-cd-2716145.html",
+      "/de/product/_luciano-pavarotti-pavarotti-the-greatest-hits-oper-cd-2551158.html",
+      "/de/product/_r%C3%A4uberzivil-tiefensch%C3%A4rfe-pop-international-cd-1957190.html",
+      "/de/product/_versengold-funkenflug-folk-folklore-cd-2301612.html",
+      "/de/product/_judas-priest-redeemer-of-souls-rock-international-cd-1849380.html",
+      "/de/product/_powerwolf-call-of-the-wild-2cd-mediabook-exkl-anh%C3%A4nger-heavy-metal-cd-merchandising-2728783.html",
+      "/de/product/_rage-the-refuge-years-album-box-fan-box-heavy-metal-cd-2066128.html",
+      "/de/product/_die-kleine-schnecke-monika-h%C3%A4uschen-55-warum-sind-kuckuckskinder-so-frech-h%C3%B6rspiel-kinder-cd-2615552.html"
+    ],
+    "disallowed": [
+      "/cdn-cgi/bm/cv/",
+      "/cdn-cgi/challenge-platform/",
+      "/rde_server/",
+      "/cdn-cgi/images/trace/",
+      "/cdn-cgi/rum",
+      "/cdn-cgi/scripts/",
+      "/cdn-cgi/styles/",
+      "/cdn-cgi/zaraz/",
+      "/api/v1/graphql?operationName=GetPaidBundles",
+      "/api/v1/graphql?operationName=GetFreeBundles",
+      "/api/v1/msg",
+      "/api/v1/mms-sst",
+      "/api/v1/partners/",
+      "/*shopfallback*",
+      "/*MultiChannelMARepairStatusResult*",
+      "*de/product/*-weltmusik-cd*",
+      "*de/product/*-jazz-cd*",
+      "*de/product/*-blues-cd*",
+      "*de/product/*-klassik-cd*",
+      "*de/product/*-oper-cd*",
+      "*de/product/*-folklore-cd*",
+      "*de/product/*-country-cd*",
+      "*de/product/*-heavy-metal-cd*",
+      "*de/product/*-kinder-cd*",
+      "*de/promo-list/*",
+      "*de/list/*_*",
+      "/mcs/marketinfo/*",
+      "*de/search",
+      "/public/setCookie/"
+    ]
+  }
 }

@@ -1,6 +1,45 @@
 {
   "domain": "www.bunte.de",
   "normalizedDomain": "www.bunte.de",
+  "robotsTxt": "User-agent: *\nDisallow:\n\n# GPTBot - OpenAI\nUser-agent: GPTBot\nDisallow: /\n\n# ChatGPT - OpenAI\nUser-agent: ChatGPT-User\nDisallow: /\n\n# Common Crawl\nUser-agent: CCBot\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
@@ -18,5 +57,9 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

@@ -1,10 +1,54 @@
 {
   "domain": "www.edeka.de",
   "normalizedDomain": "www.edeka.de",
+  "robotsTxt": "# letzte Anpassung: 18.07.2013\r\n# letzte Anpassung: 12.02.2016\r\n# letzte Anpassung: 26.08.2021\r\n# letzte Anpassung: 12.02.2024\r\n# letzte Anpassung: 19.03.2025\r\n# letzte Anpassung: 14.05.2025\r\n\r\nUser-agent: *\r\nAllow: /\r\nDisallow: /EDEKA/Content/\r\nDisallow: /EDEKA/\r\nDisallow: /de/zzz_entwickler/\r\nDisallow: /de/technische_seiten/\r\nDisallow: /de/testbare_seiten/\r\nDisallow: /de/weiterleitungen/\r\nDisallow: /ts/\r\nDisallow: /xml/\r\nDisallow: /search.xml\r\nDisallow: /lieferservice/\r\nDisallow: /wissen/tipps-und-tricks/suche/*\r\nDisallow: /rezeptwelt/rezepte/suche/*\r\n\r\nSitemap: https://www.edeka.de/sitemap.xml\r\nSitemap: https://www.edeka.de/eh/sitemap.xml\r\nSitemap: https://www.edeka.de/_sitemap.xml\r\n\r\n\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/EDEKA/Content/",
+        "/EDEKA/",
+        "/de/zzz_entwickler/",
+        "/de/technische_seiten/",
+        "/de/testbare_seiten/",
+        "/de/weiterleitungen/",
+        "/ts/",
+        "/xml/",
+        "/search.xml",
+        "/lieferservice/",
+        "/wissen/tipps-und-tricks/suche/*",
+        "/rezeptwelt/rezepte/suche/*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/EDEKA/Content/",
+      "/EDEKA/",
+      "/de/zzz_entwickler/",
+      "/de/technische_seiten/",
+      "/de/testbare_seiten/",
+      "/de/weiterleitungen/",
+      "/ts/",
+      "/xml/",
+      "/search.xml",
+      "/lieferservice/",
+      "/wissen/tipps-und-tricks/suche/*",
+      "/rezeptwelt/rezepte/suche/*"
+    ]
+  }
 }

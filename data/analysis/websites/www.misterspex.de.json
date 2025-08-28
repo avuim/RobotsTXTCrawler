@@ -1,10 +1,62 @@
 {
   "domain": "www.misterspex.de",
   "normalizedDomain": "www.misterspex.de",
+  "robotsTxt": "User-agent: facebookexternalhit/1.1\r\nCrawl-delay: 10 \r\n\r\nUser-Agent: *\r\nDisallow: /*?SearchTerm\r\nDisallow: /cart\r\nDisallow: *.htm$\r\nDisallow: *MiniCart\r\nDisallow: *MiniWishlist\r\nDisallow: *GetWishlistJSON\r\nDisallow: /?PageletEntryPointID\r\nDisallow: /x-ray-ban-brillen-glasses\r\nDisallow: /*/ViewProductGallery-ViewTemplate\r\nDisallow: /l/*?\r\nDisallow: /c/tst/\r\nDisallow: *ViewTryOn-GetCustomerData\r\nDisallow: /*/ViewData-Start\r\n\r\nAllow: *CatalogID=catalog*\r\nAllow: *SearchParameter*\r\n\r\nSitemap: https://www.misterspex.de/__service/product-browse-service/categories.xml\r\nSitemap: https://www.misterspex.de/__service/product-browse-service/api/sitemaps\r\nSitemap: https://www.misterspex.de/__service/content-service/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "*CatalogID=catalog*",
+        "*SearchParameter*"
+      ],
+      "disallowed": [
+        "/*?SearchTerm",
+        "/cart",
+        "*.htm$",
+        "*MiniCart",
+        "*MiniWishlist",
+        "*GetWishlistJSON",
+        "/?PageletEntryPointID",
+        "/x-ray-ban-brillen-glasses",
+        "/*/ViewProductGallery-ViewTemplate",
+        "/l/*?",
+        "/c/tst/",
+        "*ViewTryOn-GetCustomerData",
+        "/*/ViewData-Start"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "*CatalogID=catalog*",
+      "*SearchParameter*"
+    ],
+    "disallowed": [
+      "/*?SearchTerm",
+      "/cart",
+      "*.htm$",
+      "*MiniCart",
+      "*MiniWishlist",
+      "*GetWishlistJSON",
+      "/?PageletEntryPointID",
+      "/x-ray-ban-brillen-glasses",
+      "/*/ViewProductGallery-ViewTemplate",
+      "/l/*?",
+      "/c/tst/",
+      "*ViewTryOn-GetCustomerData",
+      "/*/ViewData-Start"
+    ]
+  }
 }

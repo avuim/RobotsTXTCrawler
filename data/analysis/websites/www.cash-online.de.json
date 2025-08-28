@@ -1,10 +1,40 @@
 {
   "domain": "www.cash-online.de",
   "normalizedDomain": "www.cash-online.de",
+  "robotsTxt": "Sitemap: https://www.cash-online.de/sitemap_index.xml\r\n# global\r\nUser-agent: *\r\nAllow: /wp-admin/admin-ajax.php\r\nAllow: /wp-content/themes/cash-theme/*.css\r\nAllow: /wp-content/themes/cash-theme/*.js\r\n\r\n\r\nDisallow: /cgi-bin/\r\n#Disallow: /wp-admin/\r\n#Disallow: /wp-includes/\r\n#Disallow: /wp-content/cache/\r\n#Disallow: /trackback/\r\n#Disallow: /feed/\r\n\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/wp-admin/admin-ajax.php",
+        "/wp-content/themes/cash-theme/*.css",
+        "/wp-content/themes/cash-theme/*.js"
+      ],
+      "disallowed": [
+        "/cgi-bin/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/wp-admin/admin-ajax.php",
+      "/wp-content/themes/cash-theme/*.css",
+      "/wp-content/themes/cash-theme/*.js"
+    ],
+    "disallowed": [
+      "/cgi-bin/"
+    ]
+  }
 }

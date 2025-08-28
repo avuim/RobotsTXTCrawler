@@ -1,5 +1,28 @@
 {
   "domain": "www.fisu.net",
   "normalizedDomain": "www.fisu.net",
-  "bots": []
+  "robotsTxt": "User-agent: *\r\nCrawl-delay: 10\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

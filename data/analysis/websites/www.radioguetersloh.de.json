@@ -1,14 +1,49 @@
 {
   "domain": "www.radioguetersloh.de",
   "normalizedDomain": "www.radioguetersloh.de",
+  "robotsTxt": "# Alle Robots ausschlie�en\nUser-agent: *\nDisallow: /nachrichten/archiv-lokales/\nDisallow: /service/flohmarkt/flohmarkt-admin.html\nDisallow: /nc/service/flohmarkt/flohmarkt-admin.html\n\nUser-agent: GPTBot\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/nachrichten/archiv-lokales/",
+        "/service/flohmarkt/flohmarkt-admin.html",
+        "/nc/service/flohmarkt/flohmarkt-admin.html"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/nachrichten/archiv-lokales/",
+      "/service/flohmarkt/flohmarkt-admin.html",
+      "/nc/service/flohmarkt/flohmarkt-admin.html"
+    ]
+  }
 }

@@ -1,6 +1,127 @@
 {
   "domain": "www.1und1.de",
   "normalizedDomain": "www.1und1.de",
+  "robotsTxt": "#robots.txt for https://www.1und1.de\n#22. März, 2023\n\n#Sitemap \nSitemap:https://www.1und1.de/sitemap.xml\n\nUser-agent:*\n\n#Disallow folders and search\nDisallow:/.well-known/\nDisallow:/france/\nDisallow:/xml/\nDisallow:/static/\nDisallow:/suche*\n\n#BVB Aktion double indexing prevention\nDisallow:/bvb-aktion/\n\n#Parameter and Suffix indexing\nAllow:/*?ac=\nAllow:/*?color=\nAllow:/*?size=\nAllow:/*?chosenTariff=\nAllow:/*?cdpFlow=\nDisallow:/*?kwk=\nDisallow:/*?ps_id=\nDisallow:/*?hwid=\nDisallow:/*?article=\nDisallow:/*?actioncode=\nDisallow:/*?__lf=\nDisallow:/*?__sign=\nDisallow:/*?bk-special=\nDisallow:/*?contact.category=\nDisallow:/*?fbclid=\nDisallow:/*?hotline=\nDisallow:/*?ID=\nDisallow:/*?label=\nDisallow:/*?linkId=\nDisallow:/*?linkOrigin=\nDisallow:/*?mc=\nDisallow:/*?new_sLanguage=\nDisallow:/*?owner=\nDisallow:/*?ref=\nDisallow:/*?tags=\nDisallow:/*?ucuoId=\nDisallow:/*?zanpid=\nDisallow:/*?zxuid=\nDisallow:/*.php\n#Cart Parameter indexing\nDisallow:/*?cart.action=\nDisallow:/*?cart.bundle=\nDisallow:/*?cart.prepend=\nDisallow:/*?__sendingdata=\nDisallow:/*?__forcestop=\n\n#All general disallows\nUser-agent:SlySearch\nDisallow:/\nUser-agent:SmartDownload\nDisallow:/\nUser-agent:SpankBot\nDisallow:/\nUser-agent:spanner\nDisallow:/\nUser-agent:SuperBot\nDisallow:/\nUser-agent:SupperHTTP\nDisallow:/\nUser-agent:Surfbot\nDisallow:/\nUser-agent:ia_archiver\nDisallow:/",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/*?ac=",
+        "/*?color=",
+        "/*?size=",
+        "/*?chosenTariff=",
+        "/*?cdpFlow="
+      ],
+      "disallowed": [
+        "/.well-known/",
+        "/france/",
+        "/xml/",
+        "/static/",
+        "/suche*",
+        "/bvb-aktion/",
+        "/*?kwk=",
+        "/*?ps_id=",
+        "/*?hwid=",
+        "/*?article=",
+        "/*?actioncode=",
+        "/*?__lf=",
+        "/*?__sign=",
+        "/*?bk-special=",
+        "/*?contact.category=",
+        "/*?fbclid=",
+        "/*?hotline=",
+        "/*?ID=",
+        "/*?label=",
+        "/*?linkId=",
+        "/*?linkOrigin=",
+        "/*?mc=",
+        "/*?new_sLanguage=",
+        "/*?owner=",
+        "/*?ref=",
+        "/*?tags=",
+        "/*?ucuoId=",
+        "/*?zanpid=",
+        "/*?zxuid=",
+        "/*.php",
+        "/*?cart.action=",
+        "/*?cart.bundle=",
+        "/*?cart.prepend=",
+        "/*?__sendingdata=",
+        "/*?__forcestop="
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "SlySearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SmartDownload",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SpankBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "spanner",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SuperBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SupperHTTP",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Surfbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 8,
+    "allowedBots": 0,
+    "disallowedBots": 8,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -38,5 +159,51 @@
       "name": "ia_archiver",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/*?ac=",
+      "/*?color=",
+      "/*?size=",
+      "/*?chosenTariff=",
+      "/*?cdpFlow="
+    ],
+    "disallowed": [
+      "/.well-known/",
+      "/france/",
+      "/xml/",
+      "/static/",
+      "/suche*",
+      "/bvb-aktion/",
+      "/*?kwk=",
+      "/*?ps_id=",
+      "/*?hwid=",
+      "/*?article=",
+      "/*?actioncode=",
+      "/*?__lf=",
+      "/*?__sign=",
+      "/*?bk-special=",
+      "/*?contact.category=",
+      "/*?fbclid=",
+      "/*?hotline=",
+      "/*?ID=",
+      "/*?label=",
+      "/*?linkId=",
+      "/*?linkOrigin=",
+      "/*?mc=",
+      "/*?new_sLanguage=",
+      "/*?owner=",
+      "/*?ref=",
+      "/*?tags=",
+      "/*?ucuoId=",
+      "/*?zanpid=",
+      "/*?zxuid=",
+      "/*.php",
+      "/*?cart.action=",
+      "/*?cart.bundle=",
+      "/*?cart.prepend=",
+      "/*?__sendingdata=",
+      "/*?__forcestop="
+    ]
+  }
 }

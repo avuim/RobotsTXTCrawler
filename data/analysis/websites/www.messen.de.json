@@ -1,6 +1,29 @@
 {
   "domain": "www.messen.de",
   "normalizedDomain": "www.messen.de",
+  "robotsTxt": "User-agent: *\nDisallow:\n\nUser-agent: AhrefsBot\nDisallow: /\n\n\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
@@ -10,5 +33,9 @@
       "name": "AhrefsBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

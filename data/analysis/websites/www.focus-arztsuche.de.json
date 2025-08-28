@@ -1,10 +1,58 @@
 {
   "domain": "www.focus-arztsuche.de",
   "normalizedDomain": "www.focus-arztsuche.de",
+  "robotsTxt": "# focus-gesundheit.de\n# www.robotstxt.org/\n# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449\n\n# API & Filter & Sonstige\nUser-agent: *\nDisallow: /admin\nDisallow: /api\nDisallow: /login\nDisallow: /magazin/api\nDisallow: /publicapi\nDisallow: /benutzerkonto/\nDisallow: /top-aerzte/*\nDisallow: /*?filters\nDisallow: /*?fbclid=\nDisallow: /*?Ic9%5B0%5D=\nDisallow: /*?eId=\nDisallow: /*&eId=\nDisallow: /magazin/taxonomy/term/*/feed$\nDisallow: /registrierung/?origin=*\n\nSitemap: https://www.focus-gesundheit.de/sitemap/sitemap.gesundheit.content.xml\nSitemap: https://www.focus-gesundheit.de/sitemap/sitemap.gesundheit.profiles.xml\nSitemap: https://www.focus-gesundheit.de/sitemap/sitemap.gesundheit.profiles_0.xml\nSitemap: https://www.focus-gesundheit.de/sitemap/sitemap.gesundheit.profiles_1.xml\nSitemap: https://www.focus-gesundheit.de/sitemap/sitemap.gesundheit.search.xml\nSitemap: https://www.focus-gesundheit.de/sitemap/sitemap.gesundheit.toplists.xml\nSitemap: https://www.focus-gesundheit.de/recently-updated-content.rss\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/admin",
+        "/api",
+        "/login",
+        "/magazin/api",
+        "/publicapi",
+        "/benutzerkonto/",
+        "/top-aerzte/*",
+        "/*?filters",
+        "/*?fbclid=",
+        "/*?Ic9%5B0%5D=",
+        "/*?eId=",
+        "/*&eId=",
+        "/magazin/taxonomy/term/*/feed$",
+        "/registrierung/?origin=*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/admin",
+      "/api",
+      "/login",
+      "/magazin/api",
+      "/publicapi",
+      "/benutzerkonto/",
+      "/top-aerzte/*",
+      "/*?filters",
+      "/*?fbclid=",
+      "/*?Ic9%5B0%5D=",
+      "/*?eId=",
+      "/*&eId=",
+      "/magazin/taxonomy/term/*/feed$",
+      "/registrierung/?origin=*"
+    ]
+  }
 }

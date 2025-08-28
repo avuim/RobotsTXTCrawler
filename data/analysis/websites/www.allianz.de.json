@@ -1,10 +1,42 @@
 {
   "domain": "www.allianz.de",
   "normalizedDomain": "www.allianz.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /newsletter-rest\r\nDisallow: /rootpage.silentlogin-callback.html\r\nDisallow: /rootpage.loginstatechanged-callback.html\r\nDisallow: /libs/granite/csrf/token.json\r\nDisallow: /azonetrust/AZD/*\r\nDisallow: /azutils/prod/atl/cross-domain-storage/page-to-embed.html\r\n\r\nSitemap: https://www.allianz.de/sitemap.xml\r\nSitemap: https://www.allianz.de/content/dam/onemarketing/azde/azd/sitemap/ansprechpartner-vor-ort.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/newsletter-rest",
+        "/rootpage.silentlogin-callback.html",
+        "/rootpage.loginstatechanged-callback.html",
+        "/libs/granite/csrf/token.json",
+        "/azonetrust/AZD/*",
+        "/azutils/prod/atl/cross-domain-storage/page-to-embed.html"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/newsletter-rest",
+      "/rootpage.silentlogin-callback.html",
+      "/rootpage.loginstatechanged-callback.html",
+      "/libs/granite/csrf/token.json",
+      "/azonetrust/AZD/*",
+      "/azutils/prod/atl/cross-domain-storage/page-to-embed.html"
+    ]
+  }
 }

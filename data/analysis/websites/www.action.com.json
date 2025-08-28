@@ -1,10 +1,62 @@
 {
   "domain": "www.action.com",
   "normalizedDomain": "www.action.com",
+  "robotsTxt": "User-Agent: *\r\nDisallow: /globalassets/general-terms-and-conditions/\r\nDisallow: /EPiServer/CMS/\r\nDisallow: /Util/\r\nDisallow: /*/search/\r\nDisallow: *&sort\r\nDisallow: *sort=\r\nDisallow: /pageSortFilter\r\nDisallow: /products/*/media/images$\r\nDisallow: *?filter\r\nDisallow: *&filter\r\nDisallow: /_vercel/insights/view\r\nDisallow: */p/*?page=\r\nDisallow: /p/\r\nDisallow: */[object Object]\r\nDisallow: */[object%20Object]/\r\nDisallow: *sortBy=\r\n\r\nSitemap: https://www.action.com/cs-cz/language-sitemap.xml\r\nSitemap: https://www.action.com/de-at/language-sitemap.xml\r\nSitemap: https://www.action.com/de-ch/language-sitemap.xml\r\nSitemap: https://www.action.com/de-de/language-sitemap.xml\r\nSitemap: https://www.action.com/es-es/language-sitemap.xml\r\nSitemap: https://www.action.com/fr-be/language-sitemap.xml\r\nSitemap: https://www.action.com/fr-ch/language-sitemap.xml\r\nSitemap: https://www.action.com/fr-fr/language-sitemap.xml\r\nSitemap: https://www.action.com/fr-lu/language-sitemap.xml\r\nSitemap: https://www.action.com/it-ch/language-sitemap.xml\r\nSitemap: https://www.action.com/it-it/language-sitemap.xml\r\nSitemap: https://www.action.com/nl-be/language-sitemap.xml\r\nSitemap: https://www.action.com/nl-nl/language-sitemap.xml\r\nSitemap: https://www.action.com/pl-pl/language-sitemap.xml\r\nSitemap: https://www.action.com/pt-pt/language-sitemap.xml\r\nSitemap: https://www.action.com/sk-sk/language-sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/globalassets/general-terms-and-conditions/",
+        "/EPiServer/CMS/",
+        "/Util/",
+        "/*/search/",
+        "*&sort",
+        "*sort=",
+        "/pageSortFilter",
+        "/products/*/media/images$",
+        "*?filter",
+        "*&filter",
+        "/_vercel/insights/view",
+        "*/p/*?page=",
+        "/p/",
+        "*/[object Object]",
+        "*/[object%20Object]/",
+        "*sortBy="
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/globalassets/general-terms-and-conditions/",
+      "/EPiServer/CMS/",
+      "/Util/",
+      "/*/search/",
+      "*&sort",
+      "*sort=",
+      "/pageSortFilter",
+      "/products/*/media/images$",
+      "*?filter",
+      "*&filter",
+      "/_vercel/insights/view",
+      "*/p/*?page=",
+      "/p/",
+      "*/[object Object]",
+      "*/[object%20Object]/",
+      "*sortBy="
+    ]
+  }
 }

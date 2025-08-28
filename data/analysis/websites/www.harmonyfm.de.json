@@ -1,14 +1,73 @@
 {
   "domain": "www.harmonyfm.de",
   "normalizedDomain": "www.harmonyfm.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: *.pdf\r\nDisallow: /suche/\r\nDisallow: /app/\r\nDisallow: /facebook-includes/\r\nDisallow: /radioplayer-includes/\r\nDisallow: /login.html\r\nDisallow: /events/ticketshop/atsController/Ticketshop/atsAction/search.html\r\nDisallow: /testseiten/\r\nDisallow: /app-hilfe-android/\r\nDisallow: /app-hilfe-ios/\r\nDisallow: /logo/\r\nDisallow: /kontakt/logo.html\r\nDisallow: /nachrichten/\r\nDisallow: /themen/aktionen/formulare/\r\nDisallow: /*?*\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nSitemap: https://www.harmonyfm.de/index.sitemap\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "*.pdf",
+        "/suche/",
+        "/app/",
+        "/facebook-includes/",
+        "/radioplayer-includes/",
+        "/login.html",
+        "/events/ticketshop/atsController/Ticketshop/atsAction/search.html",
+        "/testseiten/",
+        "/app-hilfe-android/",
+        "/app-hilfe-ios/",
+        "/logo/",
+        "/kontakt/logo.html",
+        "/nachrichten/",
+        "/themen/aktionen/formulare/",
+        "/*?*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "*.pdf",
+      "/suche/",
+      "/app/",
+      "/facebook-includes/",
+      "/radioplayer-includes/",
+      "/login.html",
+      "/events/ticketshop/atsController/Ticketshop/atsAction/search.html",
+      "/testseiten/",
+      "/app-hilfe-android/",
+      "/app-hilfe-ios/",
+      "/logo/",
+      "/kontakt/logo.html",
+      "/nachrichten/",
+      "/themen/aktionen/formulare/",
+      "/*?*"
+    ]
+  }
 }

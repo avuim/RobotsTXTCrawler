@@ -1,7 +1,54 @@
 {
   "domain": "www.kochbar.de",
   "normalizedDomain": "www.kochbar.de",
+  "robotsTxt": "User-agent: Mozilla/5.0 (compatible; OGDWCtxCrawler)\nAllow: /\n\nUser-agent: GPTBot\nDisallow: /\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-Agent: *\nDisallow: /1pixel.php\nDisallow: /js/mask.js\nDisallow: /user/*\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/1pixel.php",
+        "/js/mask.js",
+        "/user/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Mozilla/5.0 (compatible; OGDWCtxCrawler)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 1,
+    "disallowedBots": 2,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "Mozilla/5.0 (compatible; OGDWCtxCrawler)",
       "allowed": true
@@ -13,10 +60,14 @@
     {
       "name": "ChatGPT-User",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/1pixel.php",
+      "/js/mask.js",
+      "/user/*"
+    ]
+  }
 }

@@ -1,10 +1,94 @@
 {
   "domain": "www.tchibo.de",
   "normalizedDomain": "www.tchibo.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /login\r\nDisallow: /m/login\r\nDisallow: /requestnewpassword\r\nDisallow: /m/requestnewpassword\r\nDisallow: /cart\r\nDisallow: /m/cart\r\nDisallow: /checkout\r\nDisallow: /m/checkout\r\nDisallow: /quickshopping\r\nDisallow: /m/quickshopping\r\nDisallow: /search\r\nDisallow: /m/search\r\nDisallow: /ratings\r\nDisallow: /m/ratings\r\nDisallow: /*?x=\r\nDisallow: /*&x=\r\nDisallow: /*?cs=\r\nDisallow: /*&cs=\r\nDisallow: /*?vt=\r\nDisallow: /*&vt=\r\nDisallow: /*?forceP=\r\nDisallow: /*&forceP=\r\nDisallow: /prof/js/*\r\nDisallow: /json/psdata/*\r\nDisallow: /signin\r\nDisallow: /m/signin\r\nDisallow: /service/checkoutfrontend\r\nDisallow: /service/cartfrontend\r\nDisallow: /service/coffee-subscription-configurator/*\r\nDisallow: /c/preview\r\nDisallow: /service/newsletterfrontend/assets\r\nDisallow: /service/customersupportfrontend/contact\r\n\r\nSitemap: https://www.tchibo.de/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/login",
+        "/m/login",
+        "/requestnewpassword",
+        "/m/requestnewpassword",
+        "/cart",
+        "/m/cart",
+        "/checkout",
+        "/m/checkout",
+        "/quickshopping",
+        "/m/quickshopping",
+        "/search",
+        "/m/search",
+        "/ratings",
+        "/m/ratings",
+        "/*?x=",
+        "/*&x=",
+        "/*?cs=",
+        "/*&cs=",
+        "/*?vt=",
+        "/*&vt=",
+        "/*?forceP=",
+        "/*&forceP=",
+        "/prof/js/*",
+        "/json/psdata/*",
+        "/signin",
+        "/m/signin",
+        "/service/checkoutfrontend",
+        "/service/cartfrontend",
+        "/service/coffee-subscription-configurator/*",
+        "/c/preview",
+        "/service/newsletterfrontend/assets",
+        "/service/customersupportfrontend/contact"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/login",
+      "/m/login",
+      "/requestnewpassword",
+      "/m/requestnewpassword",
+      "/cart",
+      "/m/cart",
+      "/checkout",
+      "/m/checkout",
+      "/quickshopping",
+      "/m/quickshopping",
+      "/search",
+      "/m/search",
+      "/ratings",
+      "/m/ratings",
+      "/*?x=",
+      "/*&x=",
+      "/*?cs=",
+      "/*&cs=",
+      "/*?vt=",
+      "/*&vt=",
+      "/*?forceP=",
+      "/*&forceP=",
+      "/prof/js/*",
+      "/json/psdata/*",
+      "/signin",
+      "/m/signin",
+      "/service/checkoutfrontend",
+      "/service/cartfrontend",
+      "/service/coffee-subscription-configurator/*",
+      "/c/preview",
+      "/service/newsletterfrontend/assets",
+      "/service/customersupportfrontend/contact"
+    ]
+  }
 }

@@ -1,10 +1,68 @@
 {
   "domain": "www.calzedonia.com",
   "normalizedDomain": "www.calzedonia.com",
+  "robotsTxt": "User-agent: *\r\nCrawl-delay: 5\r\nDisallow: */search?q=*\r\nDisallow: */search/*\r\nDisallow: */?prefn1*\r\nDisallow: */?tiles*\r\nDisallow: */?cgid*\r\nDisallow: */Store-Show?sid*\r\nDisallow: */cart/\r\nDisallow: */checkoutlogin\r\nDisallow: */checkoutflow\r\nDisallow: */checkout/\r\nDisallow: */search/?cgid=CAL_Women_Tights-and-Stockings_Shop-by-Type_Basic-Tights\r\nDisallow: */Search-ShowAjax*\r\nDisallow: */wishlist*\r\nDisallow: */contactform*\r\nDisallow: */unsubscribe*\r\nDisallow: */refund*\r\nDisallow: */orderdetails*\r\nDisallow: */returndetails*\r\nDisallow: */newsletter* \r\nSitemap: https://www.calzedonia.com/sitemap_index.xml\r\nSitemap: https://www.calzedonia.com/cy/sitemap_index.xml\r\nSitemap: https://www.calzedonia.com/ee/sitemap_index.xml\r\nSitemap: https://www.calzedonia.com/ie/sitemap_index.xml\r\nSitemap: https://www.calzedonia.com/lv/sitemap_index.xml\r\nSitemap: https://www.calzedonia.com/lt/sitemap_index.xml\r\nSitemap: https://www.calzedonia.com/nl/sitemap_index.xml\r\nSitemap: https://www.calzedonia.com/ro/en/sitemap_index.xml\r\nSitemap: https://www.calzedonia.com/si/sitemap_index.xml\r\nSitemap: https://www.calzedonia.com/uk/sitemap_index.xml\r\nSitemap: https://www.calzedonia.com/lu/sitemap_index.xml\r\nSitemap: https://www.calzedonia.com/gr/sitemap_index.xml\r\nSitemap: https://www.calzedonia.com/it/sitemap_index.xml\r\nSitemap: https://www.calzedonia.com/ro/sitemap_index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "*/search?q=*",
+        "*/search/*",
+        "*/?prefn1*",
+        "*/?tiles*",
+        "*/?cgid*",
+        "*/Store-Show?sid*",
+        "*/cart/",
+        "*/checkoutlogin",
+        "*/checkoutflow",
+        "*/checkout/",
+        "*/search/?cgid=CAL_Women_Tights-and-Stockings_Shop-by-Type_Basic-Tights",
+        "*/Search-ShowAjax*",
+        "*/wishlist*",
+        "*/contactform*",
+        "*/unsubscribe*",
+        "*/refund*",
+        "*/orderdetails*",
+        "*/returndetails*",
+        "*/newsletter*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "*/search?q=*",
+      "*/search/*",
+      "*/?prefn1*",
+      "*/?tiles*",
+      "*/?cgid*",
+      "*/Store-Show?sid*",
+      "*/cart/",
+      "*/checkoutlogin",
+      "*/checkoutflow",
+      "*/checkout/",
+      "*/search/?cgid=CAL_Women_Tights-and-Stockings_Shop-by-Type_Basic-Tights",
+      "*/Search-ShowAjax*",
+      "*/wishlist*",
+      "*/contactform*",
+      "*/unsubscribe*",
+      "*/refund*",
+      "*/orderdetails*",
+      "*/returndetails*",
+      "*/newsletter*"
+    ]
+  }
 }

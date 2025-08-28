@@ -1,7 +1,42 @@
 {
   "domain": "www.neudorff.de",
   "normalizedDomain": "www.neudorff.de",
+  "robotsTxt": "User-agent: ClaudeBot\r\nDisallow: /\r\n\r\nUser-agent: Claude-Web\r\nDisallow: /\r\n\r\nUser-agent: *\r\nAllow: /\r\n\r\nSitemap: https://www.neudorff.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 0,
+    "disallowedBots": 2,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "ClaudeBot",
       "allowed": false
@@ -9,10 +44,10 @@
     {
       "name": "Claude-Web",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

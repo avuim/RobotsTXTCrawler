@@ -1,10 +1,36 @@
 {
   "domain": "www.onpulson.de",
   "normalizedDomain": "www.onpulson.de",
+  "robotsTxt": "User-agent: *\nDisallow: /wp/wp-admin/\nAllow: /wp/wp-admin/admin-ajax.php\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/wp/wp-admin/admin-ajax.php"
+      ],
+      "disallowed": [
+        "/wp/wp-admin/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/wp/wp-admin/admin-ajax.php"
+    ],
+    "disallowed": [
+      "/wp/wp-admin/"
+    ]
+  }
 }

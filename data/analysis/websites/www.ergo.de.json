@@ -1,10 +1,84 @@
 {
   "domain": "www.ergo.de",
   "normalizedDomain": "www.ergo.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /ErgoChat/\r\nDisallow: /ergochat/\r\nDisallow: /com_neu/\r\nDisallow: /de/com_neu/\r\nDisallow: /en/com_neu/\r\nDisallow: /fehler/\r\nDisallow: /pl\r\nDisallow: /ecapp*\r\nDisallow: /ecsp*\r\nDisallow: /*.html\r\nDisallow: /*.pdf\r\nDisallow: /*.pdf?la=de\r\nDisallow: /*.iframeContent\r\nDisallow: /*.ashx\r\nDisallow: /*.aspx#!\r\nDisallow: /bin/ergo/public/dam.download.inline*\r\nDisallow: /bin/carbon/\r\nDisallow: /*?*mail_pnr=*\r\nDisallow: /*?*adh_oenr=*\r\nDisallow: /webforms/\r\nDisallow: /fragments/\r\nDisallow: /microsites/\r\nDisallow: /Agentur/\r\nDisallow: /Resources/\r\nDisallow: /resources/\r\nDisallow: /Kundenbewertungen/\r\nDisallow: /*/FeedbackReskin*\r\nSitemap: https://www.ergo.de/de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/ErgoChat/",
+        "/ergochat/",
+        "/com_neu/",
+        "/de/com_neu/",
+        "/en/com_neu/",
+        "/fehler/",
+        "/pl",
+        "/ecapp*",
+        "/ecsp*",
+        "/*.html",
+        "/*.pdf",
+        "/*.pdf?la=de",
+        "/*.iframeContent",
+        "/*.ashx",
+        "/*.aspx#!",
+        "/bin/ergo/public/dam.download.inline*",
+        "/bin/carbon/",
+        "/*?*mail_pnr=*",
+        "/*?*adh_oenr=*",
+        "/webforms/",
+        "/fragments/",
+        "/microsites/",
+        "/Agentur/",
+        "/Resources/",
+        "/resources/",
+        "/Kundenbewertungen/",
+        "/*/FeedbackReskin*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/ErgoChat/",
+      "/ergochat/",
+      "/com_neu/",
+      "/de/com_neu/",
+      "/en/com_neu/",
+      "/fehler/",
+      "/pl",
+      "/ecapp*",
+      "/ecsp*",
+      "/*.html",
+      "/*.pdf",
+      "/*.pdf?la=de",
+      "/*.iframeContent",
+      "/*.ashx",
+      "/*.aspx#!",
+      "/bin/ergo/public/dam.download.inline*",
+      "/bin/carbon/",
+      "/*?*mail_pnr=*",
+      "/*?*adh_oenr=*",
+      "/webforms/",
+      "/fragments/",
+      "/microsites/",
+      "/Agentur/",
+      "/Resources/",
+      "/resources/",
+      "/Kundenbewertungen/",
+      "/*/FeedbackReskin*"
+    ]
+  }
 }

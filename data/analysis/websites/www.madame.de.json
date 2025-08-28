@@ -1,10 +1,38 @@
 {
   "domain": "www.madame.de",
   "normalizedDomain": "www.madame.de",
+  "robotsTxt": "# robots.txt for https://www.madame.de/\n\nsitemap: https://www.madame.de/sitemaps-1-sitemap.xml\n\n# live - don't allow web crawlers to index cpresources/ or vendor/\n\nUser-agent: *\nDisallow: /cpresources/\nDisallow: /vendor/\nDisallow: /.env\nDisallow: /cache/\n\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/cpresources/",
+        "/vendor/",
+        "/.env",
+        "/cache/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/cpresources/",
+      "/vendor/",
+      "/.env",
+      "/cache/"
+    ]
+  }
 }

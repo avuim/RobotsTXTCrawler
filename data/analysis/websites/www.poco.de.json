@@ -1,10 +1,106 @@
 {
   "domain": "www.poco.de",
   "normalizedDomain": "www.poco.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /account\r\nDisallow: /checkout\r\nDisallow: /e-billing\r\nDisallow: /error\r\nDisallow: /cart\r\nDisallow: /feedexport/export/google/products/xml\r\nDisallow: /feedexport/export/criteo/products/xml\r\nDisallow: /feedexport/export/criteo/products/csv\r\nDisallow: /mpp/register\r\nDisallow: /newsletter\r\nDisallow: /reservation\r\nDisallow: /return\r\nDisallow: /favourites\r\nDisallow: /s/?s=*\r\nDisallow: /suche\r\nDisallow: /*market_available=*\r\nDisallow: /*count=*\r\nDisallow: /*bestseller=*\r\nDisallow: /*adword=*\r\nDisallow: /*campaign=*\r\nDisallow: /*PageSpeed=*\r\nDisallow: /*sortPreis=*\r\nDisallow: /*online_available*\r\nDisallow: /*sort=*\r\nDisallow: /*sort-order=*\r\nDisallow: /*desc&market_available=*\r\nDisallow: /*dir=*\r\nDisallow: /*order=*\r\nDisallow: /*price=*\r\nDisallow: /*color=*\r\nDisallow: /*?farbe*\r\nDisallow: /*?filterFarbe*\r\nDisallow: /*limit=*\r\nDisallow: /*utm_*\r\nDisallow: /*escaped_*\r\nDisallow: /*encodedfhlink=*\r\nDisallow: /c/categorypage*\r\nDisallow: /c/storeDetailPage*\r\nSitemap: https://www.poco.de/sitemap-categories.xml\r\nSitemap: https://www.poco.de/sitemap-images.xml\r\nSitemap: https://www.poco.de/sitemap-cms.xml\r\nSitemap: https://www.poco.de/sitemap-subsidiaries.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/account",
+        "/checkout",
+        "/e-billing",
+        "/error",
+        "/cart",
+        "/feedexport/export/google/products/xml",
+        "/feedexport/export/criteo/products/xml",
+        "/feedexport/export/criteo/products/csv",
+        "/mpp/register",
+        "/newsletter",
+        "/reservation",
+        "/return",
+        "/favourites",
+        "/s/?s=*",
+        "/suche",
+        "/*market_available=*",
+        "/*count=*",
+        "/*bestseller=*",
+        "/*adword=*",
+        "/*campaign=*",
+        "/*PageSpeed=*",
+        "/*sortPreis=*",
+        "/*online_available*",
+        "/*sort=*",
+        "/*sort-order=*",
+        "/*desc&market_available=*",
+        "/*dir=*",
+        "/*order=*",
+        "/*price=*",
+        "/*color=*",
+        "/*?farbe*",
+        "/*?filterFarbe*",
+        "/*limit=*",
+        "/*utm_*",
+        "/*escaped_*",
+        "/*encodedfhlink=*",
+        "/c/categorypage*",
+        "/c/storeDetailPage*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/account",
+      "/checkout",
+      "/e-billing",
+      "/error",
+      "/cart",
+      "/feedexport/export/google/products/xml",
+      "/feedexport/export/criteo/products/xml",
+      "/feedexport/export/criteo/products/csv",
+      "/mpp/register",
+      "/newsletter",
+      "/reservation",
+      "/return",
+      "/favourites",
+      "/s/?s=*",
+      "/suche",
+      "/*market_available=*",
+      "/*count=*",
+      "/*bestseller=*",
+      "/*adword=*",
+      "/*campaign=*",
+      "/*PageSpeed=*",
+      "/*sortPreis=*",
+      "/*online_available*",
+      "/*sort=*",
+      "/*sort-order=*",
+      "/*desc&market_available=*",
+      "/*dir=*",
+      "/*order=*",
+      "/*price=*",
+      "/*color=*",
+      "/*?farbe*",
+      "/*?filterFarbe*",
+      "/*limit=*",
+      "/*utm_*",
+      "/*escaped_*",
+      "/*encodedfhlink=*",
+      "/c/categorypage*",
+      "/c/storeDetailPage*"
+    ]
+  }
 }

@@ -1,18 +1,289 @@
 {
   "domain": "www.dhd24.de",
   "normalizedDomain": "www.dhd24.de",
-  "bots": [
-    {
-      "name": "*",
-      "allowed": false
-    },
+  "robotsTxt": "Sitemap: https://www.markt.de/sitemap_index.xml\n\nUser-Agent: *\nDisallow: *.ajx\nDisallow: *.drawWidgetEntriesCallback\nDisallow: */img_placeholder_lazyload.svg\nDisallow: */shop.htm\nDisallow: *ajaxCall\nDisallow: /11893755/\nDisallow: /admin/\nDisallow: /facebook/\nDisallow: */importeurKarte.htm\nDisallow: */kartensuche.htm\nDisallow: /*?*contactFlow=\n\nUser-Agent: AdsBot-Google\nDisallow: /*/crc,*.htm$\n\nUser-Agent: Mediapartners-Google\nDisallow: /*/crc,*.htm$\n\nUser-Agent: ClaudeBot\nDisallow: \nCrawl-delay: 1\n\nUser-Agent: CrystalSemanticsBot\nDisallow: /\n\nUser-Agent: DOC\nDisallow: /\n\nUser-Agent: Download Ninja\nDisallow: /\n\nUser-Agent: Fetch\nDisallow: /\n\nUser-Agent: grub-client\nDisallow: /\n\nUser-Agent: HTTrack\nDisallow: /\n\nUser-Agent: k2spider\nDisallow: /\n\nUser-Agent: larbin\nDisallow: /\n\nUser-Agent: libwww\nDisallow: /\n\nUser-Agent: linko\nDisallow: /\n\nUser-Agent: Microsoft.URL.Control\nDisallow: /\n\nUser-Agent: MSIECrawler\nDisallow: /\n\nUser-Agent: NPBot\nDisallow: /\n\nUser-Agent: Offline Explorer\nDisallow: /\n\nUser-Agent: sitecheck.internetseer.com\nDisallow: /\n\nUser-Agent: SiteSnagger\nDisallow: /\n\nUser-Agent: Teleport\nDisallow: /\n\nUser-Agent: TeleportPro\nDisallow: /\n\nUser-Agent: UbiCrawler\nDisallow: /\n\nUser-Agent: WebCopier\nDisallow: /\n\nUser-Agent: WebReaper\nDisallow: /\n\nUser-Agent: WebStripper\nDisallow: /\n\nUser-Agent: WebZIP\nDisallow: /\n\nUser-Agent: Xenu\nDisallow: /\n\nUser-Agent: Zao\nDisallow: /\n\nUser-Agent: Zealbot\nDisallow: /\n\nUser-Agent: ZyBORG\nDisallow: /\n\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "*.ajx",
+        "*.drawWidgetEntriesCallback",
+        "*/img_placeholder_lazyload.svg",
+        "*/shop.htm",
+        "*ajaxCall",
+        "/11893755/",
+        "/admin/",
+        "/facebook/",
+        "*/importeurKarte.htm",
+        "*/kartensuche.htm",
+        "/*?*contactFlow="
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "AdsBot-Google",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/*/crc,*.htm$"
+        ]
+      }
     },
     {
       "name": "Mediapartners-Google",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/*/crc,*.htm$"
+        ]
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CrystalSemanticsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DOC",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Download Ninja",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fetch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "grub-client",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "k2spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "larbin",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "libwww",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "linko",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MSIECrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NPBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sitecheck.internetseer.com",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SiteSnagger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Teleport",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TeleportPro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "UbiCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebStripper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZIP",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Xenu",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zao",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zealbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ZyBORG",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 30,
+    "allowedBots": 2,
+    "disallowedBots": 28,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true
     },
     {
       "name": "ClaudeBot",
@@ -126,5 +397,21 @@
       "name": "ZyBORG",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "*.ajx",
+      "*.drawWidgetEntriesCallback",
+      "*/img_placeholder_lazyload.svg",
+      "*/shop.htm",
+      "*ajaxCall",
+      "/11893755/",
+      "/admin/",
+      "/facebook/",
+      "*/importeurKarte.htm",
+      "*/kartensuche.htm",
+      "/*?*contactFlow="
+    ]
+  }
 }

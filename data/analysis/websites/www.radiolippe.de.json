@@ -1,14 +1,45 @@
 {
   "domain": "www.radiolippe.de",
   "normalizedDomain": "www.radiolippe.de",
+  "robotsTxt": "User-agent: *\nDisallow: /nachrichten/archiv-lokales\n\nUser-agent: GPTBot\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/nachrichten/archiv-lokales"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/nachrichten/archiv-lokales"
+    ]
+  }
 }

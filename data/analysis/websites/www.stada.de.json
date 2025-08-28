@@ -1,10 +1,48 @@
 {
   "domain": "www.stada.de",
   "normalizedDomain": "www.stada.de",
+  "robotsTxt": "User-Agent: *\r\n\r\nAllow: /DependencyHandler.axd\r\n\r\nDisallow: /aspnet_client/\r\nDisallow: /bin/\r\nDisallow: /config/\r\nDisallow: /umbraco/\r\nDisallow: /umbraco_client/\r\nDisallow: /usercontrols/\r\nDisallow: /*.axd\r\n\r\nSitemap: https://www.stada.de/sitemap",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/DependencyHandler.axd"
+      ],
+      "disallowed": [
+        "/aspnet_client/",
+        "/bin/",
+        "/config/",
+        "/umbraco/",
+        "/umbraco_client/",
+        "/usercontrols/",
+        "/*.axd"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/DependencyHandler.axd"
+    ],
+    "disallowed": [
+      "/aspnet_client/",
+      "/bin/",
+      "/config/",
+      "/umbraco/",
+      "/umbraco_client/",
+      "/usercontrols/",
+      "/*.axd"
+    ]
+  }
 }

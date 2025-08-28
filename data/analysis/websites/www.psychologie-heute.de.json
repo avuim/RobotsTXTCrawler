@@ -1,10 +1,78 @@
 {
   "domain": "www.psychologie-heute.de",
   "normalizedDomain": "www.psychologie-heute.de",
+  "robotsTxt": "User-Agent: *\nAllow: /\n\n# folders\nDisallow: /typo3/\nDisallow: /typo3conf/\n\n# explicitly allow extension and temp directory\nAllow: /typo3conf/ext/\nAllow: /typo3temp/\n\n# same for sitemap.xml urls\nAllow: /sitemap.xml?sitemap*\nAllow: /sitemap.xml?page=*\n\n# disallow url parameters\nDisallow: /*?id=*                          # non speaking URLs\nDisallow: /*&id=*\nDisallow: /*cHash                          # no cHash\nDisallow: /*tx_felogin_pi1                 # no felogin\nDisallow: /*tx_saltpsychologieheute_detail # no psycho-specific\nDisallow: /*tx_saltpsychologie_heute_list\nDisallow: /*tx_powermail_pi1               # no powermail (thanks) pages\n\n# disallow script files\nDisallow: /*.inc$\nDisallow: /*.php$\n\n# disallow document files\nDisallow: /*.doc$\nDisallow: /*.pdf$\nDisallow: /*.xls$\n\n# disallow pdf downloads\nDisallow: /*/download.html\n# disallow download folder\nDisallow: /fileadmin/download/\n\n# disallow user-specific, already has meta noindex\nDisallow: /warenkorb/\nDisallow: /mein-konto/\n# disallow search page, already has meta noindex\nDisallow: /suche.html\n\nSitemap: https://www.psychologie-heute.de/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/typo3conf/ext/",
+        "/typo3temp/",
+        "/sitemap.xml?sitemap*",
+        "/sitemap.xml?page=*"
+      ],
+      "disallowed": [
+        "/typo3/",
+        "/typo3conf/",
+        "/*?id=*                          # non speaking URLs",
+        "/*&id=*",
+        "/*cHash                          # no cHash",
+        "/*tx_felogin_pi1                 # no felogin",
+        "/*tx_saltpsychologieheute_detail # no psycho-specific",
+        "/*tx_saltpsychologie_heute_list",
+        "/*tx_powermail_pi1               # no powermail (thanks) pages",
+        "/*.inc$",
+        "/*.php$",
+        "/*.doc$",
+        "/*.pdf$",
+        "/*.xls$",
+        "/*/download.html",
+        "/fileadmin/download/",
+        "/warenkorb/",
+        "/mein-konto/",
+        "/suche.html"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/typo3conf/ext/",
+      "/typo3temp/",
+      "/sitemap.xml?sitemap*",
+      "/sitemap.xml?page=*"
+    ],
+    "disallowed": [
+      "/typo3/",
+      "/typo3conf/",
+      "/*?id=*                          # non speaking URLs",
+      "/*&id=*",
+      "/*cHash                          # no cHash",
+      "/*tx_felogin_pi1                 # no felogin",
+      "/*tx_saltpsychologieheute_detail # no psycho-specific",
+      "/*tx_saltpsychologie_heute_list",
+      "/*tx_powermail_pi1               # no powermail (thanks) pages",
+      "/*.inc$",
+      "/*.php$",
+      "/*.doc$",
+      "/*.pdf$",
+      "/*.xls$",
+      "/*/download.html",
+      "/fileadmin/download/",
+      "/warenkorb/",
+      "/mein-konto/",
+      "/suche.html"
+    ]
+  }
 }

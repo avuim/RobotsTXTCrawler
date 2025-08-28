@@ -1,5 +1,28 @@
 {
   "domain": "www.ista.com",
   "normalizedDomain": "www.ista.com",
-  "bots": []
+  "robotsTxt": "User-agent: *\r\n\r\n# Corporate\r\nSitemap: https://www.ista.com/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

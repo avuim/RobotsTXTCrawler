@@ -1,10 +1,40 @@
 {
   "domain": "www.hannover.de",
   "normalizedDomain": "www.hannover.de",
+  "robotsTxt": "# Robots.txt file for a standard eZ Platform website\n# All robots will spider all the domain, except for search\n\nUser-agent: *\nDisallow: /content/search/\nDisallow: /content/advancedsearch/\nDisallow: /content/pdf/\nDisallow: /content/tipafriend/\nDisallow: /layout/set/\n\nSitemap: https://www.hannover.de/sitemaps/index.xml\nSitemap: https://www.hannover.de/en/sitemaps/index.xml\nSitemap: https://www.hannover.de/Stiftungsinitiative-Hannover/sitemaps/index.xml\n\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/content/search/",
+        "/content/advancedsearch/",
+        "/content/pdf/",
+        "/content/tipafriend/",
+        "/layout/set/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/content/search/",
+      "/content/advancedsearch/",
+      "/content/pdf/",
+      "/content/tipafriend/",
+      "/layout/set/"
+    ]
+  }
 }

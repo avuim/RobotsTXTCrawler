@@ -1,10 +1,70 @@
 {
   "domain": "www.pz-news.de",
   "normalizedDomain": "www.pz-news.de",
+  "robotsTxt": "# global live settings :\r\nUser-agent: *\r\nDisallow: /cms_addon\r\nDisallow: /cms_docs\r\nDisallow: /redFACT\r\nDisallow: /REST/frontend/itemstatistics\r\nSitemap: https://www.pz-news.de/sitemap-index/189-Sitemap.xml\r\n# customised settings :\r\n#\r\nUser-agent: GPTBot\r\nDisallow: /\r\n#\r\nUser-agent: ChatGPT-User\r\nDisallow: /\r\n#\r\nUser-agent: CCBot\r\nDisallow: /\r\n#\r\nUser-agent: YouBot\r\nDisallow: /\r\n#\r\nUser-agent: Google-Extended\r\nDisallow: /\r\n#\r\n# Legal notice: pz-news.de expressly reserves the right to use its content for commercial text and data mining (§44b UrhG).\r\n# The use of robots or other automated means to access pz-news.de or collect or mine data without the express permission of pz-news.de is strictly prohibited.\r\n# If you would like to apply for permission to crawl pz-news.de, collect or use data, please contact verlag@pz-news.de\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/cms_addon",
+        "/cms_docs",
+        "/redFACT",
+        "/REST/frontend/itemstatistics"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YouBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 5,
+    "allowedBots": 0,
+    "disallowedBots": 5,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
@@ -26,5 +86,14 @@
       "name": "Google-Extended",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/cms_addon",
+      "/cms_docs",
+      "/redFACT",
+      "/REST/frontend/itemstatistics"
+    ]
+  }
 }

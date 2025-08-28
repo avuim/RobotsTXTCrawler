@@ -1,170 +1,640 @@
 {
   "domain": "www.grin.com",
   "normalizedDomain": "www.grin.com",
+  "robotsTxt": "# robots.txt for grin.com\r\n\r\n# ----------------------------------------\r\n# Spezifische Bot-Regeln\r\n# ----------------------------------------\r\nUser-agent: PetalBot\r\nDisallow: /\r\n\r\nUser-agent: Googlebot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Googlebot-Image\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Googlebot-Video\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Googlebot-News\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Storebot-Google\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Google-InspectionTool\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: GoogleOther\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: GoogleOther-Image\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: GoogleOther-Video\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Google-CloudVertexBot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Google-Extended\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: APIs-Google\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Mediapartners-Google\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Google-Read-Aloud\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Google-Safety\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Feedfetcher\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Google-Publisher-Center\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: GPTBot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Amazonbot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: bingbot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: MJ12bot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: RyteBot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: OAI-SearchBot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: CCBot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: AhrefsBot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: SemrushBot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: DotBot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: YandexBot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Baiduspider\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Sogou\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: SeznamBot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Bytespider\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Exabot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Meanpathbot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: SerpstatBot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Cliqzbot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Zoominfobot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Trendictionbot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\nUser-agent: Linkdexbot\r\nDisallow: /search/\r\nDisallow: /search?*\r\n\r\n# ----------------------------------------\r\n# Globale Regeln für alle übrigen Bots\r\n# ----------------------------------------\r\nUser-agent: *\r\nDisallow: /search/\r\nDisallow: /search?*\r\nDisallow: /*?*\r\nDisallow: /wp-admin/\r\nAllow: /wp-admin/admin-ajax.php\r\n\r\nSitemap: https://www.grin.com/xmlsitemap/index.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/wp-admin/admin-ajax.php"
+      ],
+      "disallowed": [
+        "/search/",
+        "/search?*",
+        "/*?*",
+        "/wp-admin/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Googlebot-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Googlebot-News",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Storebot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Google-InspectionTool",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "GoogleOther",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "GoogleOther-Image",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "GoogleOther-Video",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Google-CloudVertexBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "APIs-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Google-Read-Aloud",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Google-Safety",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Feedfetcher",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Google-Publisher-Center",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "RyteBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "DotBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Sogou",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "SeznamBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Exabot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Meanpathbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "SerpstatBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Cliqzbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Trendictionbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search/",
+          "/search?*"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 40,
+    "allowedBots": 39,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "PetalBot",
       "allowed": false
     },
     {
       "name": "Googlebot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Googlebot-Image",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Googlebot-Video",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Googlebot-News",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Storebot-Google",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Google-InspectionTool",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GoogleOther",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GoogleOther-Image",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GoogleOther-Video",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Google-CloudVertexBot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Google-Extended",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "APIs-Google",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Mediapartners-Google",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Google-Read-Aloud",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Google-Safety",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Feedfetcher",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Google-Publisher-Center",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Amazonbot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "bingbot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "MJ12bot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "RyteBot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "OAI-SearchBot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "CCBot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "AhrefsBot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "SemrushBot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "DotBot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "YandexBot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Baiduspider",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Sogou",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "SeznamBot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Bytespider",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Exabot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Meanpathbot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "SerpstatBot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Cliqzbot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Zoominfobot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Trendictionbot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Linkdexbot",
-      "allowed": false
-    },
-    {
-      "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/wp-admin/admin-ajax.php"
+    ],
+    "disallowed": [
+      "/search/",
+      "/search?*",
+      "/*?*",
+      "/wp-admin/"
+    ]
+  }
 }

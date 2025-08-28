@@ -1,10 +1,121 @@
 {
   "domain": "de.puma.com",
   "normalizedDomain": "de.puma.com",
+  "robotsTxt": "User-agent: *\r\nCrawl-delay: 10\r\n\r\nDisallow: /cgi-bin/\r\nDisallow: *srule\r\nDisallow: *cgid\r\nDisallow: *demandware.store\r\nDisallow: *Product-Variation\r\nDisallow: *Product-Detail\r\nDisallow: *selvar\r\nDisallow: *prefn\r\nDisallow: *prefv\r\nDisallow: *mktid\r\nDisallow: *?source=\r\nDisallow: *?sz=\r\nDisallow: *utm_campaign\r\nDisallow: *affid\r\nDisallow: *psortd\r\nDisallow: *pmax\r\nDisallow: *pmin\r\nDisallow: *?q=\r\nDisallow: *?location=\r\nDisallow: *start=\r\n\r\nDisallow: /Account-Show\r\nDisallow: /Account-EditProfile\r\nDisallow: /Address-List\r\nDisallow: /Cart-AddProduct\r\nDisallow: /Cart-Show\r\nDisallow: /COBilling-Start\r\nDisallow: /COShipping-Start\r\nDisallow: /COSummary-Start\r\nDisallow: /COSummary-Submit\r\nDisallow: /Login-Show\r\nDisallow: /Order-History\r\nDisallow: /PaymentInstruments-Add\r\nDisallow: /PaymentInstruments-List\r\nDisallow: /search\r\nDisallow: /Wishlist-Add\r\nDisallow: /Wishlist-ShowOther\r\n\r\nDisallow: /*/account/\r\nDisallow: /*/checkout/\r\nDisallow: /*/cart\r\n\r\nUser-agent: MJ12bot\r\nDisallow: /\r\n\r\nUser-Agent: trendictionbot\r\nDisallow: /\r\n\r\nuser-agent: MegaIndex.ru\r\nDisallow: /\r\n\r\nUser-agent: dotbot\r\nDisallow: /\r\n\r\nuser-agent: 360Spider\r\nDisallow: /\r\n\r\nuser-agent: HaosouSpider\r\nDisallow: /\r\n\r\nUser-Agent: Pinterestbot\r\nDisallow: /\r\n\r\nSitemap: https://eu.puma.com/sitemap_index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/cgi-bin/",
+        "*srule",
+        "*cgid",
+        "*demandware.store",
+        "*Product-Variation",
+        "*Product-Detail",
+        "*selvar",
+        "*prefn",
+        "*prefv",
+        "*mktid",
+        "*?source=",
+        "*?sz=",
+        "*utm_campaign",
+        "*affid",
+        "*psortd",
+        "*pmax",
+        "*pmin",
+        "*?q=",
+        "*?location=",
+        "*start=",
+        "/Account-Show",
+        "/Account-EditProfile",
+        "/Address-List",
+        "/Cart-AddProduct",
+        "/Cart-Show",
+        "/COBilling-Start",
+        "/COShipping-Start",
+        "/COSummary-Start",
+        "/COSummary-Submit",
+        "/Login-Show",
+        "/Order-History",
+        "/PaymentInstruments-Add",
+        "/PaymentInstruments-List",
+        "/search",
+        "/Wishlist-Add",
+        "/Wishlist-ShowOther",
+        "/*/account/",
+        "/*/checkout/",
+        "/*/cart"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "trendictionbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "360Spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HaosouSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterestbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 7,
+    "allowedBots": 0,
+    "disallowedBots": 7,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "MJ12bot",
@@ -34,5 +145,49 @@
       "name": "Pinterestbot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/cgi-bin/",
+      "*srule",
+      "*cgid",
+      "*demandware.store",
+      "*Product-Variation",
+      "*Product-Detail",
+      "*selvar",
+      "*prefn",
+      "*prefv",
+      "*mktid",
+      "*?source=",
+      "*?sz=",
+      "*utm_campaign",
+      "*affid",
+      "*psortd",
+      "*pmax",
+      "*pmin",
+      "*?q=",
+      "*?location=",
+      "*start=",
+      "/Account-Show",
+      "/Account-EditProfile",
+      "/Address-List",
+      "/Cart-AddProduct",
+      "/Cart-Show",
+      "/COBilling-Start",
+      "/COShipping-Start",
+      "/COSummary-Start",
+      "/COSummary-Submit",
+      "/Login-Show",
+      "/Order-History",
+      "/PaymentInstruments-Add",
+      "/PaymentInstruments-List",
+      "/search",
+      "/Wishlist-Add",
+      "/Wishlist-ShowOther",
+      "/*/account/",
+      "/*/checkout/",
+      "/*/cart"
+    ]
+  }
 }

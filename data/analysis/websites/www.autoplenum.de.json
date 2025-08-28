@@ -1,14 +1,47 @@
 {
   "domain": "www.autoplenum.de",
   "normalizedDomain": "www.autoplenum.de",
-  "bots": [
+  "robotsTxt": "User-agent: Mediapartners-Google\nAllow: /\n\nUser-agent: *\nDisallow: /de\nDisallow: /api/internal\n\nSitemap: https://www.autoplenum.de/sitemap-de.xml.gz\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/de",
+        "/api/internal"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "Mediapartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
       "allowed": true
     },
     {
-      "name": "*",
-      "allowed": false
+      "name": "Mediapartners-Google",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/de",
+      "/api/internal"
+    ]
+  }
 }

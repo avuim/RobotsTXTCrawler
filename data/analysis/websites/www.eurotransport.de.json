@@ -1,10 +1,54 @@
 {
   "domain": "www.eurotransport.de",
   "normalizedDomain": "www.eurotransport.de",
+  "robotsTxt": "# Allow sitemap\nSitemap: https://www.eurotransport.de/sitemap/sitemap-index.xml\nSitemap: https://www.eurotransport.de/sitemap/video-sitemap-index.xml\n\n# disallow api calls\nUser-agent: *\ndisallow: /irapi/*\ndisallow: /irelements/*\ndisallow: /suche/*\nDisallow: *ePaper*.pdf\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/irapi/*",
+        "/irelements/*",
+        "/suche/*",
+        "*ePaper*.pdf"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Google-Extended",
@@ -18,5 +62,14 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/irapi/*",
+      "/irelements/*",
+      "/suche/*",
+      "*ePaper*.pdf"
+    ]
+  }
 }

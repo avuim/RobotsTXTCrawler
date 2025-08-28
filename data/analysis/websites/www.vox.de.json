@@ -1,5 +1,28 @@
 {
   "domain": "www.vox.de",
   "normalizedDomain": "www.vox.de",
-  "bots": []
+  "robotsTxt": "# www.robotstxt.org/\n# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449\n\nUser-agent: *\n\n\nsitemap: https://www.vox.de/sitemap/sitemap-index.xml\nsitemap: https://www.vox.de/sitemap/sitemap-news.xml\nsitemap: https://www.vox.de/sitemap/sitemap-topics.xml\nsitemap: https://www.vox.de/sitemap/sitemap-videos.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

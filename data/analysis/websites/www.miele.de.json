@@ -1,10 +1,58 @@
 {
   "domain": "www.miele.de",
   "normalizedDomain": "www.miele.de",
+  "robotsTxt": "# For all robots\r\nUser-agent: *\r\nDisallow: /cart\r\nDisallow: /*checkout*\r\nDisallow: /*compare*\r\nDisallow: /*logout*\r\nDisallow: /*/account/*\r\nAllow: /*?page=*\r\nDisallow: /*&query=*\r\nDisallow: /*wishlist/handle/*\r\nDisallow: /*csrf?_=*\r\nDisallow: /pmedia/*\r\nDisallow: /modules/contentstring/*\r\nDisallow: /e/authentication/status\r\nDisallow: /*/products/price-and-stock?lang=*\r\n\r\nSitemap: https://www.miele.de/sitemap-index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/*?page=*"
+      ],
+      "disallowed": [
+        "/cart",
+        "/*checkout*",
+        "/*compare*",
+        "/*logout*",
+        "/*/account/*",
+        "/*&query=*",
+        "/*wishlist/handle/*",
+        "/*csrf?_=*",
+        "/pmedia/*",
+        "/modules/contentstring/*",
+        "/e/authentication/status",
+        "/*/products/price-and-stock?lang=*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/*?page=*"
+    ],
+    "disallowed": [
+      "/cart",
+      "/*checkout*",
+      "/*compare*",
+      "/*logout*",
+      "/*/account/*",
+      "/*&query=*",
+      "/*wishlist/handle/*",
+      "/*csrf?_=*",
+      "/pmedia/*",
+      "/modules/contentstring/*",
+      "/e/authentication/status",
+      "/*/products/price-and-stock?lang=*"
+    ]
+  }
 }

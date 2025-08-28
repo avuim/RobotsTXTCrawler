@@ -1,18 +1,531 @@
 {
   "domain": "www.tiktok.com",
   "normalizedDomain": "www.tiktok.com",
-  "bots": [
+  "robotsTxt": "User-agent: Baiduspider\r\nUser-agent: 360Spider\r\nUser-agent: Sogouspider\r\nUser-agent: Yisouspider\r\nUser-agent: PetalBot\r\nUser-agent: Bytespider\r\nDisallow: /\r\n\r\nUser-agent: *\r\nAllow: /foryou\r\nAllow: /discover\r\nAllow: /about\r\nAllow: /legal\r\nAllow: /safety\r\nAllow: /forgood\r\nAllow: /community-guidelines\r\nAllow: /tag\r\nAllow: /amp\r\nAllow: /transparency\r\nAllow: /share\r\nAllow: /music\r\nDisallow: /inapp\r\nDisallow: /auth\r\nDisallow: /embed/@\r\nDisallow: /embed/v2\r\nDisallow: /embed/curated\r\nDisallow: /link\r\nDisallow: */directory/\r\nDisallow: /search/video?\r\nDisallow: /search/user?q=\r\nDisallow: /shop/view/product/\r\nDisallow: /sgtm/g/collect\r\nDisallow: /api/share/settings\r\nDisallow: /api/recommend/embed_videos\r\nDisallow: /discover/trending/detail/\r\n\r\nUser-agent: Bingbot\r\nDisallow: /discover\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/foryou",
+        "/discover",
+        "/about",
+        "/legal",
+        "/safety",
+        "/forgood",
+        "/community-guidelines",
+        "/tag",
+        "/amp",
+        "/transparency",
+        "/share",
+        "/music"
+      ],
+      "disallowed": [
+        "/inapp",
+        "/auth",
+        "/embed/@",
+        "/embed/v2",
+        "/embed/curated",
+        "/link",
+        "*/directory/",
+        "/search/video?",
+        "/search/user?q=",
+        "/shop/view/product/",
+        "/sgtm/g/collect",
+        "/api/share/settings",
+        "/api/recommend/embed_videos",
+        "/discover/trending/detail/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "360Spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Sogouspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yisouspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
     {
       "name": "Bytespider",
-      "allowed": false
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
     },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "360Spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Sogouspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yisouspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "360Spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Sogouspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yisouspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "360Spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Sogouspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yisouspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "360Spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Sogouspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yisouspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "360Spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Sogouspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yisouspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/discover"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 37,
+    "allowedBots": 1,
+    "disallowedBots": 36,
+    "hasGlobalAllow": true
+  },
+  "bots": [
     {
       "name": "*",
       "allowed": true
     },
     {
-      "name": "Bingbot",
+      "name": "Baiduspider",
       "allowed": false
+    },
+    {
+      "name": "360Spider",
+      "allowed": false
+    },
+    {
+      "name": "Sogouspider",
+      "allowed": false
+    },
+    {
+      "name": "Yisouspider",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "360Spider",
+      "allowed": false
+    },
+    {
+      "name": "Sogouspider",
+      "allowed": false
+    },
+    {
+      "name": "Yisouspider",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "360Spider",
+      "allowed": false
+    },
+    {
+      "name": "Sogouspider",
+      "allowed": false
+    },
+    {
+      "name": "Yisouspider",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "360Spider",
+      "allowed": false
+    },
+    {
+      "name": "Sogouspider",
+      "allowed": false
+    },
+    {
+      "name": "Yisouspider",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "360Spider",
+      "allowed": false
+    },
+    {
+      "name": "Sogouspider",
+      "allowed": false
+    },
+    {
+      "name": "Yisouspider",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "360Spider",
+      "allowed": false
+    },
+    {
+      "name": "Sogouspider",
+      "allowed": false
+    },
+    {
+      "name": "Yisouspider",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/foryou",
+      "/discover",
+      "/about",
+      "/legal",
+      "/safety",
+      "/forgood",
+      "/community-guidelines",
+      "/tag",
+      "/amp",
+      "/transparency",
+      "/share",
+      "/music"
+    ],
+    "disallowed": [
+      "/inapp",
+      "/auth",
+      "/embed/@",
+      "/embed/v2",
+      "/embed/curated",
+      "/link",
+      "*/directory/",
+      "/search/video?",
+      "/search/user?q=",
+      "/shop/view/product/",
+      "/sgtm/g/collect",
+      "/api/share/settings",
+      "/api/recommend/embed_videos",
+      "/discover/trending/detail/"
+    ]
+  }
 }

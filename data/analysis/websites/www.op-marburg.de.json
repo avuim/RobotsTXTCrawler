@@ -1,10 +1,90 @@
 {
   "domain": "www.op-marburg.de",
   "normalizedDomain": "www.op-marburg.de",
+  "robotsTxt": "User-agent: *\nDisallow: /mandanten/\nDisallow: /mediabox/\nDisallow: /politik/politik-extern/\nDisallow: /wirtschaft/wirtschaft-extern\nDisallow: /suche/\nDisallow: /ellipsis-preview/\nDisallow: /zeitung/\nDisallow: /metaseiten/\nDisallow: /var/storage\nDisallow: /var/storage/*\n\n\nDisallow: /bundles/\nDisallow: /cms/\nDisallow: /security/\nDisallow: /newsletter/abmeldung/\nDisallow: /angebot/\n\nDisallow: /veranstaltungskalender/\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: CCBot \nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: ClaudeBot \nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\n# Legal notice: op-marburg.de expressly reserves the right to use its content for commercialtext and data mining (§ 44b UrhG).\n# The use of robots or other automated means to access op-marburg.de or collect or minedata without the express permission of op-marburg.de is strictly prohibited.\n# If you would like to apply for permission to crawl op-marburg.de, collect or use data, please contact lizenzen@rnd.de",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/mandanten/",
+        "/mediabox/",
+        "/politik/politik-extern/",
+        "/wirtschaft/wirtschaft-extern",
+        "/suche/",
+        "/ellipsis-preview/",
+        "/zeitung/",
+        "/metaseiten/",
+        "/var/storage",
+        "/var/storage/*",
+        "/bundles/",
+        "/cms/",
+        "/security/",
+        "/newsletter/abmeldung/",
+        "/angebot/",
+        "/veranstaltungskalender/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 6,
+    "allowedBots": 0,
+    "disallowedBots": 6,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
@@ -30,5 +110,26 @@
       "name": "PerplexityBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/mandanten/",
+      "/mediabox/",
+      "/politik/politik-extern/",
+      "/wirtschaft/wirtschaft-extern",
+      "/suche/",
+      "/ellipsis-preview/",
+      "/zeitung/",
+      "/metaseiten/",
+      "/var/storage",
+      "/var/storage/*",
+      "/bundles/",
+      "/cms/",
+      "/security/",
+      "/newsletter/abmeldung/",
+      "/angebot/",
+      "/veranstaltungskalender/"
+    ]
+  }
 }

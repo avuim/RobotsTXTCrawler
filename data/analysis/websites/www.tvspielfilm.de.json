@@ -1,10 +1,60 @@
 {
   "domain": "www.tvspielfilm.de",
   "normalizedDomain": "www.tvspielfilm.de",
+  "robotsTxt": "# Verzeichnisse von der Indizierung durch Crawler ausschließen\nUser-agent: *\nDisallow: /captcha/\nDisallow: /_flash/\nDisallow: /config/\nDisallow: /functions/\nDisallow: /templates/\nDisallow: /*print=on\nDisallow: /*?ical=true\nDisallow: /*?iCalendar=on\nDisallow: /login/\nDisallow: /tv-programm/sendungen/wiederholungen.html*\n\n# GPTBot - OpenAI\nUser-agent: GPTBot\nDisallow: /\n\n# ChatGPT - OpenAI\nUser-agent: ChatGPT-User\nDisallow: /\n\n# Common Crawl\nUser-agent: CCBot\nDisallow: /\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/captcha/",
+        "/_flash/",
+        "/config/",
+        "/functions/",
+        "/templates/",
+        "/*print=on",
+        "/*?ical=true",
+        "/*?iCalendar=on",
+        "/login/",
+        "/tv-programm/sendungen/wiederholungen.html*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
@@ -18,5 +68,20 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/captcha/",
+      "/_flash/",
+      "/config/",
+      "/functions/",
+      "/templates/",
+      "/*print=on",
+      "/*?ical=true",
+      "/*?iCalendar=on",
+      "/login/",
+      "/tv-programm/sendungen/wiederholungen.html*"
+    ]
+  }
 }

@@ -1,10 +1,404 @@
 {
   "domain": "www.teltarif.de",
   "normalizedDomain": "www.teltarif.de",
-  "bots": [
+  "robotsTxt": "User-agent: Googlebot-News\nDisallow: /a/\nDisallow: /ad/\nDisallow: /ads/\nDisallow: /adv/\nDisallow: /auskunft/\nDisallow: /blitz/\nDisallow: /cebit/\nDisallow: /cgi-bin/\nDisallow: /chronik/\nDisallow: /click/\nDisallow: /computer/\nDisallow: /consumer-electronics-show/\nDisallow: /content/\nDisallow: /db/\nDisallow: /dienste/\nDisallow: /discounter/\nDisallow: /facebook/\nDisallow: /fernsehen/\nDisallow: /festnetz/\nDisallow: /flatrate/\nDisallow: /forum/\nDisallow: /gewinnspiel/\nDisallow: /h/\nDisallow: /handy/\nDisallow: /hardware/\nDisallow: /hausbau/\nDisallow: /heimvernetzung/\nDisallow: /i/\nDisallow: /ifa-berlin/\nDisallow: /intern/\nDisallow: /internet/\nDisallow: /jobs/\nDisallow: /kids-und-teens/\nDisallow: /kommunikation-zuhause/\nDisallow: /lifestyle/\nDisallow: /media/\nDisallow: /mobile-kommunikation/\nDisallow: /mobile-world-congres/\nDisallow: /mobilfunk/\nDisallow: /moderne-netze/\nDisallow: /multimedia/\nDisallow: /navigation/\nDisallow: /netbook/\nDisallow: /newsticker/\nDisallow: /nl/\nDisallow: /podcast/\nDisallow: /presse/\nDisallow: /promotion/\nDisallow: /radio/\nDisallow: /ratgeber/\nDisallow: /reise/\nDisallow: /roaming/\nDisallow: /senioren/\nDisallow: /service/\nDisallow: /sicherheit/\nDisallow: /smartphone/\nDisallow: /smartwatch/\nDisallow: /specials/\nDisallow: /sport/\nDisallow: /tablet/\nDisallow: /tarif-rechner/\nDisallow: /tarife-und-geraete/\nDisallow: /tarife/\nDisallow: /technik/\nDisallow: /telefonanlage/\nDisallow: /telefonieren-zuhause/\nDisallow: /teltarif-hilft/\nDisallow: /test/\nDisallow: /umfrage/\nDisallow: /umzug/\nDisallow: /unterwegs/\nDisallow: /ttt.gif\nDisallow: /ttt.go\nDisallow: /ttt.png\nDisallow: /user/\nDisallow: /verbraucher/\nDisallow: /video/\nDisallow: /voip/\nDisallow: /widget/\nDisallow: /wlan/\n\n# Ai Systeme exkludieren\n# https://netfuture.ch/2023/07/blocking-ai-crawlers-robots-txt-chatgpt/\n# https://darkvisitors.com/agents\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Omgilibot\nUser-agent: Omgili\nDisallow: /\n\nUser-agent: Timpibot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\n# Unklar nicht direkt nur Training auch Websuche mit AI?\n#User-agent: PerplexityBot\n#Disallow: /\nUser-agent: cohere-ai\nDisallow: /\n\n# https://darkvisitors.com/agents/anthropic-ai\nUser-agent: anthropic-ai\nDisallow: /\n\n# Bild-Generator + Rückwärtsuche; Aber Bild-Rückwärtssuche ist\n# nicht Traffi relevant (nie vorkgekommen von dieser Domain)\n# https://darkvisitors.com/agents/imagesiftbot\nUser-Agent: ImagesiftBot\nDisallow: /\n\n# https://darkvisitors.com/agents/bytespider\nUser-agent: Bytespider\nDisallow: /\n\n# https://darkvisitors.com/agents/diffbot\nUser-agent: Diffbot\nDisallow: /\n\n# Block SEO Tools die wir nicht selbst benutzen warum unsere\n# Server-Zeit dafür verschwenden?\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: DotBot\nUser-agent: dotbot\nDisallow: /\n\nUser-agent: SEOkicks\nDisallow: /\n\nUser-agent: DataForSeoBot\nDisallow: /\n\nUser-agent: SEBot-WA\nDisallow: /\n\nUser-agent: barkrowler\nDisallow: /\n\n# http://velen.io\nUser-agent: VelenPublicWebCrawler\nDisallow: /\n\nUser-agent: *\n# Nötig weil da einige uralte Redirects drüber laufen\nAllow: /cgi-bin/xdial/\nAllow: /cgi-bin/forum\nDisallow: /cgi-bin/\nDisallow: /ad/\n# Test: kann man damit alte urls loswerden? Pixel selbst enthalten ein noindex\nAllow: /ads/*.a=22\nAllow: /ads/*.a=40\nAllow: /ads/*.a=41\nAllow: /ads/*.a=42\nAllow: /ads/*.a=43\nAllow: /ads/*.a=44\nAllow: /ads/*.a=45\nAllow: /ads/*.a=46\n# Fehler aussortiere ohne id!\nAllow: /ads/*.a=$\n# Dito für inzwischen sehr alte Click-Urls (11/2023 ergänzt)\n# Diese gehen zu 99% auf 404 da die belegung deaktiviert\nAllow: /click/*.a=40\nAllow: /click/*.a=41\nAllow: /click/*.a=42\nAllow: /click/*.a=43\nAllow: /click/*.a=44\nAllow: /click/*.a=45\nAllow: /click/*.a=46\n# News-Slider&Unterstützen Banner Bereich\nAllow: /click/*.a=4713\nAllow: /ads/*.a=4713\n# Neuerdings will google fast alles mitnehmen egal welches rel :/\n# das hier ist eine amazon werbung\nAllow: /click/*.a=47146\nAllow: /click/*.a=47148\nAllow: /click/*.a=47140\nAllow: /click/*.a=47185\n# Advertorial Lotto\nAllow: /ads/*.a=47153\nAllow: /ads/*.a=47154\nAllow: /ads/*.a=47155\nAllow: /ads/*.a=47156\nAllow: /ads/*.a=47157\nAllow: /click/*.a=47153\nAllow: /click/*.a=47154\nAllow: /click/*.a=47155\nAllow: /click/*.a=47156\nAllow: /click/*.a=47157\n# Lotto Floatbox\nAllow: /ads/*.a=47172\nAllow: /click/*.a=47172\nAllow: /ads/*.a=47188\nAllow: /click/*.a=47188\nAllow: /ads/*.a=47189\nAllow: /click/*.a=47189\nAllow: /ads/*.a=47182\nAllow: /click/*.a=47182\nAllow: /ads/*.a=47195\nAllow: /click/*.a=47195\nAllow: /ads/*.a=47196\nAllow: /click/*.a=47196\n# Advertorial Edeka\nAllow: /ads/*.a=47201\nAllow: /ads/*.a=47203\nAllow: /click/*.a=47201\nDisallow: /ads/\nDisallow: /click/\nDisallow: /user/\n# Versuch: Kann man das ohne Nachteile erlauben um das \"indiziert trotz robots.txt\"\n# Problem dort endlich zu lösen? Aktuelle News zunächst ausgenommen!\nAllow: /intern/action/print/*/news/5*\nAllow: /intern/action/print/*/news/6*\nAllow: /intern/action/print/*/news/7*\nAllow: /intern/action/print/*/news/8*\nDisallow: /intern/action/print/\nDisallow: /ttt.gif\nDisallow: /ttt.go\nDisallow: /ttt.png\nDisallow: /app/news/\nDisallow: /app/netzbewertung/\n# Alter Link; Seite gibt es nicht mehr daher google auch hier\n# erlauben das er diese einträge hoffentlich irgendwann vergisst\nAllow: /widget/idealo/price_hdb.html*\nDisallow: /widget/idealo/\nDisallow: /widget/newsfeed/\nDisallow: /db/res.html*city=*\n# Beachte das /search/ nicht dabei ist die Suchmaschinen sollten\n# heute schlauer damit umgehen und es wird von google auch nicht mehr\n# empfohlen - weil die eigentlich allen Links folgen wollen.\n# Die seiten selbst haben ja ein noindex.\n# OB das aber wirklich sinnvoll ist müsste man mal abschließend klären\n\n\nSitemap: https://www.teltarif.de/h/sitemap.xml\nSitemap: https://www.teltarif.de/sitemap-geraete.xml\nSitemap: https://www.teltarif.de/sitemap-info.xml\nSitemap: https://www.teltarif.de/sitemap-tarife.xml\n# Aktuelle News-Sitemap\nSitemap: https://www.teltarif.de/sitemap-news.xml\n# Index-Sitemap für alle Archiv-News\nSitemap: https://www.teltarif.de/arch/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/cgi-bin/xdial/",
+        "/cgi-bin/forum",
+        "/ads/*.a=22",
+        "/ads/*.a=40",
+        "/ads/*.a=41",
+        "/ads/*.a=42",
+        "/ads/*.a=43",
+        "/ads/*.a=44",
+        "/ads/*.a=45",
+        "/ads/*.a=46",
+        "/ads/*.a=$",
+        "/click/*.a=40",
+        "/click/*.a=41",
+        "/click/*.a=42",
+        "/click/*.a=43",
+        "/click/*.a=44",
+        "/click/*.a=45",
+        "/click/*.a=46",
+        "/click/*.a=4713",
+        "/ads/*.a=4713",
+        "/click/*.a=47146",
+        "/click/*.a=47148",
+        "/click/*.a=47140",
+        "/click/*.a=47185",
+        "/ads/*.a=47153",
+        "/ads/*.a=47154",
+        "/ads/*.a=47155",
+        "/ads/*.a=47156",
+        "/ads/*.a=47157",
+        "/click/*.a=47153",
+        "/click/*.a=47154",
+        "/click/*.a=47155",
+        "/click/*.a=47156",
+        "/click/*.a=47157",
+        "/ads/*.a=47172",
+        "/click/*.a=47172",
+        "/ads/*.a=47188",
+        "/click/*.a=47188",
+        "/ads/*.a=47189",
+        "/click/*.a=47189",
+        "/ads/*.a=47182",
+        "/click/*.a=47182",
+        "/ads/*.a=47195",
+        "/click/*.a=47195",
+        "/ads/*.a=47196",
+        "/click/*.a=47196",
+        "/ads/*.a=47201",
+        "/ads/*.a=47203",
+        "/click/*.a=47201",
+        "/intern/action/print/*/news/5*",
+        "/intern/action/print/*/news/6*",
+        "/intern/action/print/*/news/7*",
+        "/intern/action/print/*/news/8*",
+        "/widget/idealo/price_hdb.html*"
+      ],
+      "disallowed": [
+        "/cgi-bin/",
+        "/ad/",
+        "/ads/",
+        "/click/",
+        "/user/",
+        "/intern/action/print/",
+        "/ttt.gif",
+        "/ttt.go",
+        "/ttt.png",
+        "/app/news/",
+        "/app/netzbewertung/",
+        "/widget/idealo/",
+        "/widget/newsfeed/",
+        "/db/res.html*city=*"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "Googlebot-News",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/a/",
+          "/ad/",
+          "/ads/",
+          "/adv/",
+          "/auskunft/",
+          "/blitz/",
+          "/cebit/",
+          "/cgi-bin/",
+          "/chronik/",
+          "/click/",
+          "/computer/",
+          "/consumer-electronics-show/",
+          "/content/",
+          "/db/",
+          "/dienste/",
+          "/discounter/",
+          "/facebook/",
+          "/fernsehen/",
+          "/festnetz/",
+          "/flatrate/",
+          "/forum/",
+          "/gewinnspiel/",
+          "/h/",
+          "/handy/",
+          "/hardware/",
+          "/hausbau/",
+          "/heimvernetzung/",
+          "/i/",
+          "/ifa-berlin/",
+          "/intern/",
+          "/internet/",
+          "/jobs/",
+          "/kids-und-teens/",
+          "/kommunikation-zuhause/",
+          "/lifestyle/",
+          "/media/",
+          "/mobile-kommunikation/",
+          "/mobile-world-congres/",
+          "/mobilfunk/",
+          "/moderne-netze/",
+          "/multimedia/",
+          "/navigation/",
+          "/netbook/",
+          "/newsticker/",
+          "/nl/",
+          "/podcast/",
+          "/presse/",
+          "/promotion/",
+          "/radio/",
+          "/ratgeber/",
+          "/reise/",
+          "/roaming/",
+          "/senioren/",
+          "/service/",
+          "/sicherheit/",
+          "/smartphone/",
+          "/smartwatch/",
+          "/specials/",
+          "/sport/",
+          "/tablet/",
+          "/tarif-rechner/",
+          "/tarife-und-geraete/",
+          "/tarife/",
+          "/technik/",
+          "/telefonanlage/",
+          "/telefonieren-zuhause/",
+          "/teltarif-hilft/",
+          "/test/",
+          "/umfrage/",
+          "/umzug/",
+          "/unterwegs/",
+          "/ttt.gif",
+          "/ttt.go",
+          "/ttt.png",
+          "/user/",
+          "/verbraucher/",
+          "/video/",
+          "/voip/",
+          "/widget/",
+          "/wlan/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Timpibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DotBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DotBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEOkicks",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEBot-WA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "VelenPublicWebCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 28,
+    "allowedBots": 1,
+    "disallowedBots": 27,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot-News",
+      "allowed": true
     },
     {
       "name": "GPTBot",
@@ -20,6 +414,18 @@
     },
     {
       "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "Omgili",
+      "allowed": false
+    },
+    {
+      "name": "Omgilibot",
       "allowed": false
     },
     {
@@ -67,6 +473,18 @@
       "allowed": false
     },
     {
+      "name": "DotBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "DotBot",
+      "allowed": false
+    },
+    {
       "name": "dotbot",
       "allowed": false
     },
@@ -89,10 +507,80 @@
     {
       "name": "VelenPublicWebCrawler",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/cgi-bin/xdial/",
+      "/cgi-bin/forum",
+      "/ads/*.a=22",
+      "/ads/*.a=40",
+      "/ads/*.a=41",
+      "/ads/*.a=42",
+      "/ads/*.a=43",
+      "/ads/*.a=44",
+      "/ads/*.a=45",
+      "/ads/*.a=46",
+      "/ads/*.a=$",
+      "/click/*.a=40",
+      "/click/*.a=41",
+      "/click/*.a=42",
+      "/click/*.a=43",
+      "/click/*.a=44",
+      "/click/*.a=45",
+      "/click/*.a=46",
+      "/click/*.a=4713",
+      "/ads/*.a=4713",
+      "/click/*.a=47146",
+      "/click/*.a=47148",
+      "/click/*.a=47140",
+      "/click/*.a=47185",
+      "/ads/*.a=47153",
+      "/ads/*.a=47154",
+      "/ads/*.a=47155",
+      "/ads/*.a=47156",
+      "/ads/*.a=47157",
+      "/click/*.a=47153",
+      "/click/*.a=47154",
+      "/click/*.a=47155",
+      "/click/*.a=47156",
+      "/click/*.a=47157",
+      "/ads/*.a=47172",
+      "/click/*.a=47172",
+      "/ads/*.a=47188",
+      "/click/*.a=47188",
+      "/ads/*.a=47189",
+      "/click/*.a=47189",
+      "/ads/*.a=47182",
+      "/click/*.a=47182",
+      "/ads/*.a=47195",
+      "/click/*.a=47195",
+      "/ads/*.a=47196",
+      "/click/*.a=47196",
+      "/ads/*.a=47201",
+      "/ads/*.a=47203",
+      "/click/*.a=47201",
+      "/intern/action/print/*/news/5*",
+      "/intern/action/print/*/news/6*",
+      "/intern/action/print/*/news/7*",
+      "/intern/action/print/*/news/8*",
+      "/widget/idealo/price_hdb.html*"
+    ],
+    "disallowed": [
+      "/cgi-bin/",
+      "/ad/",
+      "/ads/",
+      "/click/",
+      "/user/",
+      "/intern/action/print/",
+      "/ttt.gif",
+      "/ttt.go",
+      "/ttt.png",
+      "/app/news/",
+      "/app/netzbewertung/",
+      "/widget/idealo/",
+      "/widget/newsfeed/",
+      "/db/res.html*city=*"
+    ]
+  }
 }

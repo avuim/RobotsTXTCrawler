@@ -1,6 +1,77 @@
 {
   "domain": "www.geers.de",
   "normalizedDomain": "www.geers.de",
+  "robotsTxt": "# robots.txt for https://www.geers.de/\r\n\r\n# Allow all web crawlers full access\r\nUser-agent: *\r\nDisallow:\r\n\r\n# Allow all content for Googlebot-Mobile\r\nUser-agent: Googlebot-Mobile\r\nAllow: /\r\n\r\n# Specific SEO Crawlers user agents have full crawl access\r\nUser-agent: AhrefsBot\r\nDisallow: \r\n\r\nUser-agent: MJ12bot\r\nDisallow: \r\n\r\nUser-agent: SEMrushBot\r\nDisallow: \r\n\r\n# Special Directives for Ads Bots\r\nUser-agent: AdsBot-Google\r\nAllow: /\r\n\r\nUser-agent: AdsBot-Google-Mobile\r\nAllow: /\r\n\r\n# Blocking Everything for GPTBot\r\nUser-agent: GPTBot \r\nDisallow: /\r\n\r\n# Sitemap\r\nSitemap: https://www.geers.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot-Mobile",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEMrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 7,
+    "allowedBots": 3,
+    "disallowedBots": 4,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
@@ -34,5 +105,9 @@
       "name": "GPTBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

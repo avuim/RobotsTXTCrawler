@@ -1,10 +1,28 @@
 {
   "domain": "www.tageskarte.io",
   "normalizedDomain": "www.tageskarte.io",
+  "robotsTxt": "User-agent: *\nDisallow:\nSitemap: https://www.tageskarte.io/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

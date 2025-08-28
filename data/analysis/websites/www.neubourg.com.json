@@ -1,10 +1,56 @@
 {
   "domain": "www.neubourg.com",
   "normalizedDomain": "www.neubourg.com",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\nAllow: *sitemap.xml*cHash*  # Allow cHash for sitemap.xml\r\nDisallow: /typo3/           # Disallow typo3\r\nDisallow: /*?id=*      \t    # Disallow index.php\r\nDisallow: *tx_news*         # Disallow tx_news params\r\nDisallow: /*?eID=*          # Disallow eID\r\nDisallow: *tx_solr*         # Disallow solr\r\nDisallow: /*?q=*            # Disallow search query\r\nDisallow: /api/             # Disallow api\r\nDisallow: /layout-vorlage/  # Disallow layout-vorlage\r\nDisallow: /ajax/            # Disallow ajax\r\nDisallow: /ajax.*           # Disallow ajax routing\r\nDisallow: *cHash*           # Disallow cHash\r\n\r\nSitemap: https://www.neubourg.sixtus.info/de-de/sitemap.xml\r\nSitemap: https://www.neubourg.sixtus.info/ca-en/sitemap.xml\r\nSitemap: https://www.neubourg.sixtus.info/en-us/sitemap.xml\r\nSitemap: https://www.neubourg.sixtus.info/ca-fr/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "*sitemap.xml*cHash*  # Allow cHash for sitemap.xml"
+      ],
+      "disallowed": [
+        "/typo3/           # Disallow typo3",
+        "/*?id=*      \t    # Disallow index.php",
+        "*tx_news*         # Disallow tx_news params",
+        "/*?eID=*          # Disallow eID",
+        "*tx_solr*         # Disallow solr",
+        "/*?q=*            # Disallow search query",
+        "/api/             # Disallow api",
+        "/layout-vorlage/  # Disallow layout-vorlage",
+        "/ajax/            # Disallow ajax",
+        "/ajax.*           # Disallow ajax routing",
+        "*cHash*           # Disallow cHash"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "*sitemap.xml*cHash*  # Allow cHash for sitemap.xml"
+    ],
+    "disallowed": [
+      "/typo3/           # Disallow typo3",
+      "/*?id=*      \t    # Disallow index.php",
+      "*tx_news*         # Disallow tx_news params",
+      "/*?eID=*          # Disallow eID",
+      "*tx_solr*         # Disallow solr",
+      "/*?q=*            # Disallow search query",
+      "/api/             # Disallow api",
+      "/layout-vorlage/  # Disallow layout-vorlage",
+      "/ajax/            # Disallow ajax",
+      "/ajax.*           # Disallow ajax routing",
+      "*cHash*           # Disallow cHash"
+    ]
+  }
 }

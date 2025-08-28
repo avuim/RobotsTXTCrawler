@@ -1,10 +1,104 @@
 {
   "domain": "www.urlaubsguru.de",
   "normalizedDomain": "www.urlaubsguru.de",
+  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /?s=\nDisallow: /feed/\nDisallow: /*/trackback/\nDisallow: /*/feed/\nDisallow: /*/comments/\nDisallow: /wp-content/\nDisallow: /wp-includes/\nDisallow: /wp-admin/\nDisallow: /reise-schnaeppchen/\nDisallow: /reise-forum/\nDisallow: /search/\nDisallow: /*?_rsc=\nAllow: /wp-content/uploads/\nAllow: /wp-content/*.js\nAllow: /wp-content/*.css\nAllow: /wp-content/*.ttf\nAllow: /wp-content/*.otf\nAllow: /wp-content/*.woff\nAllow: /wp-content/*.woff2\nAllow: /wp-content/*.svg\nAllow: /wp-content/*.jpg\nAllow: /wp-content/*.png\nAllow: /wp-content/*.gif\nAllow: /wp-content/*.webp\nAllow: /wp-includes/*.js\nAllow: /wp-includes/*.css\nAllow: /wp-includes/*.ttf\nAllow: /wp-includes/*.otf\nAllow: /wp-includes/*.woff\nAllow: /wp-includes/*.woff2\nAllow: /wp-includes/*.svg\nAllow: /wp-includes/*.jpg\nAllow: /wp-includes/*.png\nAllow: /wp-includes/*.gif\nAllow: /wp-includes/*.webp\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://www.urlaubsguru.de/sitemap_index.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/wp-content/uploads/",
+        "/wp-content/*.js",
+        "/wp-content/*.css",
+        "/wp-content/*.ttf",
+        "/wp-content/*.otf",
+        "/wp-content/*.woff",
+        "/wp-content/*.woff2",
+        "/wp-content/*.svg",
+        "/wp-content/*.jpg",
+        "/wp-content/*.png",
+        "/wp-content/*.gif",
+        "/wp-content/*.webp",
+        "/wp-includes/*.js",
+        "/wp-includes/*.css",
+        "/wp-includes/*.ttf",
+        "/wp-includes/*.otf",
+        "/wp-includes/*.woff",
+        "/wp-includes/*.woff2",
+        "/wp-includes/*.svg",
+        "/wp-includes/*.jpg",
+        "/wp-includes/*.png",
+        "/wp-includes/*.gif",
+        "/wp-includes/*.webp",
+        "/wp-admin/admin-ajax.php"
+      ],
+      "disallowed": [
+        "/?s=",
+        "/feed/",
+        "/*/trackback/",
+        "/*/feed/",
+        "/*/comments/",
+        "/wp-content/",
+        "/wp-includes/",
+        "/wp-admin/",
+        "/reise-schnaeppchen/",
+        "/reise-forum/",
+        "/search/",
+        "/*?_rsc="
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/wp-content/uploads/",
+      "/wp-content/*.js",
+      "/wp-content/*.css",
+      "/wp-content/*.ttf",
+      "/wp-content/*.otf",
+      "/wp-content/*.woff",
+      "/wp-content/*.woff2",
+      "/wp-content/*.svg",
+      "/wp-content/*.jpg",
+      "/wp-content/*.png",
+      "/wp-content/*.gif",
+      "/wp-content/*.webp",
+      "/wp-includes/*.js",
+      "/wp-includes/*.css",
+      "/wp-includes/*.ttf",
+      "/wp-includes/*.otf",
+      "/wp-includes/*.woff",
+      "/wp-includes/*.woff2",
+      "/wp-includes/*.svg",
+      "/wp-includes/*.jpg",
+      "/wp-includes/*.png",
+      "/wp-includes/*.gif",
+      "/wp-includes/*.webp",
+      "/wp-admin/admin-ajax.php"
+    ],
+    "disallowed": [
+      "/?s=",
+      "/feed/",
+      "/*/trackback/",
+      "/*/feed/",
+      "/*/comments/",
+      "/wp-content/",
+      "/wp-includes/",
+      "/wp-admin/",
+      "/reise-schnaeppchen/",
+      "/reise-forum/",
+      "/search/",
+      "/*?_rsc="
+    ]
+  }
 }

@@ -1,10 +1,34 @@
 {
   "domain": "www.autoservicepraxis.de",
   "normalizedDomain": "www.autoservicepraxis.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /build/\r\nDisallow: /assets/\r\n\r\nSitemap: https://www.autoservicepraxis.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/build/",
+        "/assets/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/build/",
+      "/assets/"
+    ]
+  }
 }

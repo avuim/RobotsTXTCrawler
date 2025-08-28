@@ -1,10 +1,75 @@
 {
   "domain": "www.fleischerei.de",
   "normalizedDomain": "www.fleischerei.de",
+  "robotsTxt": "# robots.txt\n\n# Suche raus\nUser-agent: *\nDisallow: /*search=*\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: Ezooms\nDisallow: /\n\nUser-agent: TurnitinBot\nDisallow: /\n\n# Legal notice: fleischerei.de expressly reserves the right to use its content for commercial text and data mining (§ 44 b UrhG).\n# The use of robots or other automated means to access fleischerei.de or collect or mine data without the express permission of fleischerei.de is strictly prohibited.\n# If you would like to apply for permission to crawl fleischerei.de, collect or use data, please email produktmanager@holzmann-medien.de\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*search=*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 6,
+    "allowedBots": 0,
+    "disallowedBots": 6,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
@@ -30,5 +95,11 @@
       "name": "TurnitinBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*search=*"
+    ]
+  }
 }

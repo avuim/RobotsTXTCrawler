@@ -1,6 +1,147 @@
 {
   "domain": "www.aldi-sued.de",
   "normalizedDomain": "www.aldi-sued.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /*?sort=*\r\nDisallow: /*&sort=*\r\nDisallow: /*?priceValue=*\r\nDisallow: /*&priceValue=*\r\nDisallow: /*?theme=*\r\nDisallow: /*&theme=*\r\nAllow: /*/angebote/d.*?sort=theme&theme*\r\nDisallow: /*?text=*\r\nDisallow: /*&text=*\r\nDisallow: /*?q=*\r\nDisallow: /*&q=*\r\nDisallow: /*/login-registrierung.html?redirect=*\r\nDisallow: /*/garantie/formular.*\r\nDisallow: /*/mein-profil/\r\nDisallow: /libs/granite/csrf/token.json\r\nDisallow: /*get-cart.json\r\nDisallow: /*get-product-stock.json\r\nDisallow: /*loadcustomer.json*\r\nDisallow: /*currensessionUserInfo.json*\r\nAllow: /*?page=*\r\n\r\nSitemap: https://www.aldi-sued.de/sitemap.xml\r\nSitemap: https://www.aldi-sued.de/sitemap_products.xml\r\nSitemap: https://www.aldi-sued.de/sitemap_recipes.xml\r\nSitemap: https://www.aldi-sued.de/sitemap_images.xml\r\n\r\nUser-Agent: GPTBot\r\nAllow: /\r\nUser-Agent: ChatGPT-User\r\nAllow: /\r\nUser-Agent: OAI-SearchBot\r\nAllow: /\r\n\r\nUser-Agent: Google-Extended\r\nAllow: /\r\n\r\nUser-Agent: Cohere-Ai\r\nAllow: /\r\n\r\nUser-Agent: OmgiliBot\r\nAllow: /\r\nUser-Agent: Omgili\r\nAllow: /\r\n\r\nUser-Agent: Claude-Web\r\nAllow: /\r\nUser-Agent: ClaudeBot\r\nAllow: /\r\n\r\nUser-Agent: PerplexityBot\r\nAllow: /\r\n\r\nUser-agent: CCBot\r\nAllow: /\r\n\r\nUser-agent: anthropic-ai\r\nAllow: /\r\n\r\nUser-agent: applebot-extended\r\nAllow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/*/angebote/d.*?sort=theme&theme*",
+        "/*?page=*"
+      ],
+      "disallowed": [
+        "/*?sort=*",
+        "/*&sort=*",
+        "/*?priceValue=*",
+        "/*&priceValue=*",
+        "/*?theme=*",
+        "/*&theme=*",
+        "/*?text=*",
+        "/*&text=*",
+        "/*?q=*",
+        "/*&q=*",
+        "/*/login-registrierung.html?redirect=*",
+        "/*/garantie/formular.*",
+        "/*/mein-profil/",
+        "/libs/granite/csrf/token.json",
+        "/*get-cart.json",
+        "/*get-product-stock.json",
+        "/*loadcustomer.json*",
+        "/*currensessionUserInfo.json*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Cohere-Ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OmgiliBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Omgili",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "applebot-extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 13,
+    "allowedBots": 13,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -58,5 +199,31 @@
       "name": "applebot-extended",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/*/angebote/d.*?sort=theme&theme*",
+      "/*?page=*"
+    ],
+    "disallowed": [
+      "/*?sort=*",
+      "/*&sort=*",
+      "/*?priceValue=*",
+      "/*&priceValue=*",
+      "/*?theme=*",
+      "/*&theme=*",
+      "/*?text=*",
+      "/*&text=*",
+      "/*?q=*",
+      "/*&q=*",
+      "/*/login-registrierung.html?redirect=*",
+      "/*/garantie/formular.*",
+      "/*/mein-profil/",
+      "/libs/granite/csrf/token.json",
+      "/*get-cart.json",
+      "/*get-product-stock.json",
+      "/*loadcustomer.json*",
+      "/*currensessionUserInfo.json*"
+    ]
+  }
 }

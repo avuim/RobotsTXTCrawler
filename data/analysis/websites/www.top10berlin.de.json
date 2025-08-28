@@ -1,10 +1,56 @@
 {
   "domain": "www.top10berlin.de",
   "normalizedDomain": "www.top10berlin.de",
+  "robotsTxt": "User-agent: *\nDisallow: /wp-admin/\nDisallow: /wpt10b/\nDisallow: /node/\nDisallow: /phpydmin\nDisallow: */feed\nDisallow: */feed/\nDisallow: */author/\nDisallow: /plugins/search/\n\n# Disallow REST\nDisallow: /wp-json\n\nAllow: /wp-admin/admin-ajax.php\nAllow: /wp-admin/load-scripts.php\nAllow: /wp-admin/load-styles.php\n\nSitemap: https://www.top10berlin.de/sitemap.xml\n\n#WP Import Export Rule\nUser-agent: *\nDisallow: /wp-content/uploads/wp-import-export-lite/\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/wp-admin/admin-ajax.php",
+        "/wp-admin/load-scripts.php",
+        "/wp-admin/load-styles.php"
+      ],
+      "disallowed": [
+        "/wp-admin/",
+        "/wpt10b/",
+        "/node/",
+        "/phpydmin",
+        "*/feed",
+        "*/feed/",
+        "*/author/",
+        "/plugins/search/",
+        "/wp-json"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/wp-admin/admin-ajax.php",
+      "/wp-admin/load-scripts.php",
+      "/wp-admin/load-styles.php"
+    ],
+    "disallowed": [
+      "/wp-admin/",
+      "/wpt10b/",
+      "/node/",
+      "/phpydmin",
+      "*/feed",
+      "*/feed/",
+      "*/author/",
+      "/plugins/search/",
+      "/wp-json"
+    ]
+  }
 }

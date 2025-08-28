@@ -1,10 +1,359 @@
 {
   "domain": "www.mercedes-benz.de",
   "normalizedDomain": "www.mercedes-benz.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /bin\r\nDisallow: /account\r\nDisallow: /apps\r\nDisallow: /crx\r\nDisallow: /system\r\nDisallow: /libs\r\nDisallow: /content\r\nDisallow: /vans/buy/used-vans.html/details/*\r\nDisallow: /vans/buy/used-vans.html//details*\r\nDisallow: /vans/buy/used-vans.html/body/*/details*\r\nDisallow: /vans/buy/used-vans.html/body/*?*\r\nDisallow: /vans/buy/used-vans.html/compare*\r\nAllow: /vans/buy/used-vans.html/compare$\r\nDisallow: /vans/buy/used-vans.html/dealer-locator/*\r\nDisallow: /vans/buy/used-vans.html/favourites*\r\nAllow: /vans/buy/used-vans.html/favourites$\r\nDisallow: /vans/buy/used-vans.html/industry-solutions/details/*\r\nDisallow: /vans/buy/used-vans.html/industry-solutions/*/details/*\r\nDisallow: /vans/buy/used-vans.html/industry-solutions?*\r\nDisallow: /vans/buy/used-vans.html/mercedesbenzcertified*\r\nAllow: /vans/buy/used-vans.html/mercedesbenzcertified$\r\nDisallow: /vans/buy/used-vans.html/models/*/details*\r\nDisallow: /vans/buy/used-vans.html/models/details*\r\nDisallow: /vans/buy/used-vans.html/search*\r\nAllow: /vans/buy/used-vans.html/search$\r\nDisallow: /vans/buy/used-vans.html/services/*/details*\r\nDisallow: /passengercars/services/faq.html/search\r\nDisallow: /passengercars/services/manuals.html/*/search?\r\nDisallow: /passengercars/owners-manuals/*/pdf\r\nAllow: /content/dam/hq/brand-logo\r\nAllow: /passengercars/content-pool/tool-pages/car-configurator.html*\r\nAllow: /content/dam/hq/passengercars/*.glb\r\nAllow: /content/dam/hq/passengercars/*.usdz\r\nAllow: /content/dam/hq/passengercars/cars/a-class/hatchback-w177-pi/a-class-hatchback-w177-hybrid-preconfiguration.jpg\r\n\r\nAllow: /content/*/mpc/*\r\nDisallow: /pab/\r\nDisallow: /sec/js/\r\nDisallow: /*.inc$\r\nDisallow: /*.wmv$\r\nDisallow: /*.cgi$\r\nDisallow: /*.xhtml$\r\nDisallow: /*.swf\r\nDisallow: /*/mobile/\r\nDisallow: /*.popup.html$\r\n\r\nDisallow: /etc\r\nAllow: /etc/clientlibs/acs-commons\r\nAllow: /etc.clientlibs\r\nAllow: /etc/designs/embxp-wholesale\r\n\r\nDisallow: *content-pool\r\nAllow: *content-pool/*.jpg\r\nAllow: *content-pool/*.png\r\nAllow: *content-pool/*.svg\r\nAllow: *content-pool/*.jpeg\r\nAllow: /vans/*/content-pool/apps\r\nAllow: /vans/*/content-pool/tools/legal\r\nAllow: /vans/*/content-pool/forms\r\n\r\nAllow: /content/*.jpg\r\nAllow: /content/*.png\r\nAllow: /content/*.svg\r\nAllow: /content/*.jpeg\r\nAllow: /content/*.mp4\r\nAllow: /content/*.webm\r\nAllow: /content/*.ogv\r\nAllow: /content/*.vtt\r\nAllow: /content/*.gif\r\nAllow: /content/*.ico\r\nAllow: /content/*.svgz\r\n\r\nUser-agent: MSNBot\r\nCrawl-delay: 16\r\n\r\nUser-agent: bingbot\r\nCrawl-delay: 17\r\n\r\nUser-agent: Slurp\r\nCrawl-delay: 18\r\n\r\nUser-agent: Yahoo! Slurp\r\nCrawl-delay: 19\r\n\r\nSitemap: https://www.mercedes-benz.de/sitemaponeweb/sitemap.index.xml.gz\r\n\r\nSitemap: https://www.mercedes-benz.de/sitemaps/emh/sitemap_de.xml\r\n\r\nSitemap: https://www.mercedes-benz.de/passengercars/customer-service/sitemap/de_DE\r\n\r\nSitemap: https://www.mercedes-benz.de/vans/sitemaps/vvs-vss/de.sitemap.vanstocksearch.xml\r\n\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/vans/buy/used-vans.html/compare$",
+        "/vans/buy/used-vans.html/favourites$",
+        "/vans/buy/used-vans.html/mercedesbenzcertified$",
+        "/vans/buy/used-vans.html/search$",
+        "/content/dam/hq/brand-logo",
+        "/passengercars/content-pool/tool-pages/car-configurator.html*",
+        "/content/dam/hq/passengercars/*.glb",
+        "/content/dam/hq/passengercars/*.usdz",
+        "/content/dam/hq/passengercars/cars/a-class/hatchback-w177-pi/a-class-hatchback-w177-hybrid-preconfiguration.jpg",
+        "/content/*/mpc/*",
+        "/etc/clientlibs/acs-commons",
+        "/etc.clientlibs",
+        "/etc/designs/embxp-wholesale",
+        "*content-pool/*.jpg",
+        "*content-pool/*.png",
+        "*content-pool/*.svg",
+        "*content-pool/*.jpeg",
+        "/vans/*/content-pool/apps",
+        "/vans/*/content-pool/tools/legal",
+        "/vans/*/content-pool/forms",
+        "/content/*.jpg",
+        "/content/*.png",
+        "/content/*.svg",
+        "/content/*.jpeg",
+        "/content/*.mp4",
+        "/content/*.webm",
+        "/content/*.ogv",
+        "/content/*.vtt",
+        "/content/*.gif",
+        "/content/*.ico",
+        "/content/*.svgz"
+      ],
+      "disallowed": [
+        "/bin",
+        "/account",
+        "/apps",
+        "/crx",
+        "/system",
+        "/libs",
+        "/content",
+        "/vans/buy/used-vans.html/details/*",
+        "/vans/buy/used-vans.html//details*",
+        "/vans/buy/used-vans.html/body/*/details*",
+        "/vans/buy/used-vans.html/body/*?*",
+        "/vans/buy/used-vans.html/compare*",
+        "/vans/buy/used-vans.html/dealer-locator/*",
+        "/vans/buy/used-vans.html/favourites*",
+        "/vans/buy/used-vans.html/industry-solutions/details/*",
+        "/vans/buy/used-vans.html/industry-solutions/*/details/*",
+        "/vans/buy/used-vans.html/industry-solutions?*",
+        "/vans/buy/used-vans.html/mercedesbenzcertified*",
+        "/vans/buy/used-vans.html/models/*/details*",
+        "/vans/buy/used-vans.html/models/details*",
+        "/vans/buy/used-vans.html/search*",
+        "/vans/buy/used-vans.html/services/*/details*",
+        "/passengercars/services/faq.html/search",
+        "/passengercars/services/manuals.html/*/search?",
+        "/passengercars/owners-manuals/*/pdf",
+        "/pab/",
+        "/sec/js/",
+        "/*.inc$",
+        "/*.wmv$",
+        "/*.cgi$",
+        "/*.xhtml$",
+        "/*.swf",
+        "/*/mobile/",
+        "/*.popup.html$",
+        "/etc",
+        "*content-pool"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "MSNBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yahoo! Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MSNBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yahoo! Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MSNBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yahoo! Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MSNBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yahoo! Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 16,
+    "allowedBots": 16,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
+    },
+    {
+      "name": "MSNBot",
+      "allowed": true
+    },
+    {
+      "name": "bingbot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Yahoo! Slurp",
+      "allowed": true
+    },
+    {
+      "name": "MSNBot",
+      "allowed": true
+    },
+    {
+      "name": "bingbot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Yahoo! Slurp",
+      "allowed": true
+    },
+    {
+      "name": "MSNBot",
+      "allowed": true
+    },
+    {
+      "name": "bingbot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Yahoo! Slurp",
+      "allowed": true
+    },
+    {
+      "name": "MSNBot",
+      "allowed": true
+    },
+    {
+      "name": "bingbot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Yahoo! Slurp",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/vans/buy/used-vans.html/compare$",
+      "/vans/buy/used-vans.html/favourites$",
+      "/vans/buy/used-vans.html/mercedesbenzcertified$",
+      "/vans/buy/used-vans.html/search$",
+      "/content/dam/hq/brand-logo",
+      "/passengercars/content-pool/tool-pages/car-configurator.html*",
+      "/content/dam/hq/passengercars/*.glb",
+      "/content/dam/hq/passengercars/*.usdz",
+      "/content/dam/hq/passengercars/cars/a-class/hatchback-w177-pi/a-class-hatchback-w177-hybrid-preconfiguration.jpg",
+      "/content/*/mpc/*",
+      "/etc/clientlibs/acs-commons",
+      "/etc.clientlibs",
+      "/etc/designs/embxp-wholesale",
+      "*content-pool/*.jpg",
+      "*content-pool/*.png",
+      "*content-pool/*.svg",
+      "*content-pool/*.jpeg",
+      "/vans/*/content-pool/apps",
+      "/vans/*/content-pool/tools/legal",
+      "/vans/*/content-pool/forms",
+      "/content/*.jpg",
+      "/content/*.png",
+      "/content/*.svg",
+      "/content/*.jpeg",
+      "/content/*.mp4",
+      "/content/*.webm",
+      "/content/*.ogv",
+      "/content/*.vtt",
+      "/content/*.gif",
+      "/content/*.ico",
+      "/content/*.svgz"
+    ],
+    "disallowed": [
+      "/bin",
+      "/account",
+      "/apps",
+      "/crx",
+      "/system",
+      "/libs",
+      "/content",
+      "/vans/buy/used-vans.html/details/*",
+      "/vans/buy/used-vans.html//details*",
+      "/vans/buy/used-vans.html/body/*/details*",
+      "/vans/buy/used-vans.html/body/*?*",
+      "/vans/buy/used-vans.html/compare*",
+      "/vans/buy/used-vans.html/dealer-locator/*",
+      "/vans/buy/used-vans.html/favourites*",
+      "/vans/buy/used-vans.html/industry-solutions/details/*",
+      "/vans/buy/used-vans.html/industry-solutions/*/details/*",
+      "/vans/buy/used-vans.html/industry-solutions?*",
+      "/vans/buy/used-vans.html/mercedesbenzcertified*",
+      "/vans/buy/used-vans.html/models/*/details*",
+      "/vans/buy/used-vans.html/models/details*",
+      "/vans/buy/used-vans.html/search*",
+      "/vans/buy/used-vans.html/services/*/details*",
+      "/passengercars/services/faq.html/search",
+      "/passengercars/services/manuals.html/*/search?",
+      "/passengercars/owners-manuals/*/pdf",
+      "/pab/",
+      "/sec/js/",
+      "/*.inc$",
+      "/*.wmv$",
+      "/*.cgi$",
+      "/*.xhtml$",
+      "/*.swf",
+      "/*/mobile/",
+      "/*.popup.html$",
+      "/etc",
+      "*content-pool"
+    ]
+  }
 }

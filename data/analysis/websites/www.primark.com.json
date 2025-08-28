@@ -1,14 +1,70 @@
 {
   "domain": "www.primark.com",
   "normalizedDomain": "www.primark.com",
-  "bots": [
+  "robotsTxt": "# For StoreBot-Google only: allow access to cart and checkout\r\n\r\nUser-agent: StoreBot-Google\r\n\r\nAllow: /checkout\r\n\r\nAllow: /*/shopping-bag\r\n\r\n\r\n# For all robots\r\n\r\nUser-agent: *\r\n\r\nDisallow: /*/shopping-list\r\n\r\nDisallow: /*/shopping-bag\r\n\r\nDisallow: /*/auth/login\r\n\r\nDisallow: /*/auth/logout\r\n\r\nDisallow: /*/order-confirmation\r\n\r\nDisallow: /*/profile\r\n\r\nDisallow: /*/sign-in\r\n\r\nDisallow: /*/sign-up\r\n\r\nDisallow: /*/ByEmail/Primark/ChooseProduct\r\n\r\nDisallow: /checkout\r\n\r\nDisallow: /*/*/*/*/*/*/*/*\r\n\r\nDisallow: /api/\r\n\r\n\r\n\r\n# Sitemap Files\r\n\r\nSitemap: https://www.primark.com/en-gb/sitemap/sitemap-index.xml\r\nSitemap: https://www.primark.com/de-at/sitemap/sitemap.xml\r\nSitemap: https://www.primark.com/fr-be/sitemap/sitemap.xml\r\nSitemap: https://www.primark.com/nl-be/sitemap/sitemap.xml\r\nSitemap: https://www.primark.com/cs-cz/sitemap/sitemap.xml\r\nSitemap: https://www.primark.com/de-de/sitemap/sitemap.xml\r\nSitemap: https://www.primark.com/es-es/sitemap/sitemap.xml\r\nSitemap: https://www.primark.com/fr-fr/sitemap/sitemap.xml\r\nSitemap: https://www.primark.com/en-ie/sitemap/sitemap.xml\r\nSitemap: https://www.primark.com/it-it/sitemap/sitemap.xml\r\nSitemap: https://www.primark.com/nl-nl/sitemap/sitemap.xml\r\nSitemap: https://www.primark.com/pl-pl/sitemap/sitemap.xml\r\nSitemap: https://www.primark.com/pt-pt/sitemap/sitemap.xml\r\nSitemap: https://www.primark.com/ro-ro/sitemap/sitemap.xml\r\nSitemap: https://www.primark.com/sl-si/sitemap/sitemap.xml\r\nSitemap: https://www.primark.com/en-gb/sitemap/sitemap.xml\r\nSitemap: https://www.primark.com/en-us/sitemap/sitemap.xml\r\nSitemap: https://www.primark.com/sk-sk/sitemap/sitemap.xml\r\nSitemap: https://www.primark.com/hu-hu/sitemap/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*/shopping-list",
+        "/*/shopping-bag",
+        "/*/auth/login",
+        "/*/auth/logout",
+        "/*/order-confirmation",
+        "/*/profile",
+        "/*/sign-in",
+        "/*/sign-up",
+        "/*/ByEmail/Primark/ChooseProduct",
+        "/checkout",
+        "/*/*/*/*/*/*/*/*",
+        "/api/"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "StoreBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/checkout",
+          "/*/shopping-bag"
+        ],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
       "allowed": true
     },
     {
-      "name": "*",
-      "allowed": false
+      "name": "StoreBot-Google",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*/shopping-list",
+      "/*/shopping-bag",
+      "/*/auth/login",
+      "/*/auth/logout",
+      "/*/order-confirmation",
+      "/*/profile",
+      "/*/sign-in",
+      "/*/sign-up",
+      "/*/ByEmail/Primark/ChooseProduct",
+      "/checkout",
+      "/*/*/*/*/*/*/*/*",
+      "/api/"
+    ]
+  }
 }

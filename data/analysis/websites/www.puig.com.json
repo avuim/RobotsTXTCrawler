@@ -1,10 +1,34 @@
 {
   "domain": "www.puig.com",
   "normalizedDomain": "www.puig.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /admin/\r\nDisallow: /private/\r\n\r\nSitemap: https://www.puig.com/sitemap.xml\r\n    ",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/admin/",
+        "/private/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/admin/",
+      "/private/"
+    ]
+  }
 }

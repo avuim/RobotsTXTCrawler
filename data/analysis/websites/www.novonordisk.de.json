@@ -1,5 +1,23 @@
 {
   "domain": "www.novonordisk.de",
   "normalizedDomain": "www.novonordisk.de",
-  "bots": []
+  "robotsTxt": "Sitemap: https://www.novonordisk.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

@@ -1,10 +1,132 @@
 {
   "domain": "www.stihl.de",
   "normalizedDomain": "www.stihl.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /*warenkorb\r\nDisallow: /*login/*\r\n\r\nUser-agent: MJ12bot\r\nDisallow: /\r\n\r\nUser-agent: SemrushBot\r\nDisallow: /\r\n\r\nUser-agent: AhrefsBot \r\n​Disallow: /\r\n\r\nUser-agent: BLEXBot\r\nDisallow: /\r\n\r\nUser-agent: Buck\r\nDisallow: /\r\n\r\nUser-agent: VelenPublicWebCrawler\r\nDisallow: /\r\n\r\nUser-agent: GeedoProductSearch\r\nDisallow: /\r\n\r\nUser-agent: DataForSeoBot\r\nDisallow: /\r\n\r\nUser-agent: dotbot\r\nDisallow: /\r\n\r\nUser-agent: barkrowler\r\nDisallow: /\r\n\r\nUser-agent: EzoicBot\r\nDisallow: /\r\n\r\nSitemap: https://www.stihl.de/sitemapindex.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*warenkorb",
+        "/*login/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Buck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "VelenPublicWebCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GeedoProductSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EzoicBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 13,
+    "allowedBots": 0,
+    "disallowedBots": 13,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "MJ12bot",
@@ -12,6 +134,18 @@
     },
     {
       "name": "SemrushBot",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
       "allowed": false
     },
     {
@@ -46,5 +180,12 @@
       "name": "EzoicBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*warenkorb",
+      "/*login/*"
+    ]
+  }
 }

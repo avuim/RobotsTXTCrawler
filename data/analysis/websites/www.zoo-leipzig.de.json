@@ -1,10 +1,54 @@
 {
   "domain": "www.zoo-leipzig.de",
   "normalizedDomain": "www.zoo-leipzig.de",
+  "robotsTxt": "User-Agent: *\r\nAllow: /\r\n\r\n# folders\r\nDisallow: /sabah/\r\nDisallow: /fileadmin/user_upload/03_tiere_erlebniswelten/360Grad_Rundgang/\r\nDisallow: /t3lib/\r\nDisallow: /typo3/\r\nDisallow: /typo3conf/\r\nAllow: /typo3conf/ext/\r\nAllow: /typo3temp/\r\n\r\n# parameters\r\nDisallow: /*?id=*               # non-realurl URLs\r\nDisallow: /*cHash               # no cHash\r\nDisallow: /*tx_powermail_pi1    # no powermail thanks pages\r\nDisallow: /*tx_form_formframework    # no forms\r\n\r\n# sitemap\r\nSitemap: https://www.zoo-leipzig.de/sitemap.xml\r\nSitemap: https://www.zoo-leipzig.de/en/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/typo3conf/ext/",
+        "/typo3temp/"
+      ],
+      "disallowed": [
+        "/sabah/",
+        "/fileadmin/user_upload/03_tiere_erlebniswelten/360Grad_Rundgang/",
+        "/t3lib/",
+        "/typo3/",
+        "/typo3conf/",
+        "/*?id=*               # non-realurl URLs",
+        "/*cHash               # no cHash",
+        "/*tx_powermail_pi1    # no powermail thanks pages",
+        "/*tx_form_formframework    # no forms"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/typo3conf/ext/",
+      "/typo3temp/"
+    ],
+    "disallowed": [
+      "/sabah/",
+      "/fileadmin/user_upload/03_tiere_erlebniswelten/360Grad_Rundgang/",
+      "/t3lib/",
+      "/typo3/",
+      "/typo3conf/",
+      "/*?id=*               # non-realurl URLs",
+      "/*cHash               # no cHash",
+      "/*tx_powermail_pi1    # no powermail thanks pages",
+      "/*tx_form_formframework    # no forms"
+    ]
+  }
 }

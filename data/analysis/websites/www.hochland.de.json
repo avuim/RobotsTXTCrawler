@@ -1,14 +1,47 @@
 {
   "domain": "www.hochland.de",
   "normalizedDomain": "www.hochland.de",
+  "robotsTxt": "User-agent: SISTRIX\r\nDisallow:\r\n\r\nUser-agent: *\r\nDisallow: *.htm\r\nDisallow: *.html\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "*.htm",
+        "*.html"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "SISTRIX",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "SISTRIX",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "*.htm",
+      "*.html"
+    ]
+  }
 }

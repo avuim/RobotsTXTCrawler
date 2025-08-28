@@ -1,5 +1,23 @@
 {
   "domain": "www.kabeleins.de",
   "normalizedDomain": "www.kabeleins.de",
-  "bots": []
+  "robotsTxt": "Sitemap: https://www.kabeleins.de/sitemap.xml\nSitemap: https://www.kabeleins.de/sitemap.news.xml\nSitemap: https://www.kabeleins.de/sitemap.videos.xml\nSitemap: https://www.kabeleins.de/sitemap.clever-push.xml\nSitemap: https://www.kabeleins.de/sitemap.archive.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

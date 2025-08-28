@@ -1,6 +1,40 @@
 {
   "domain": "www.golfpost.de",
   "normalizedDomain": "www.golfpost.de",
+  "robotsTxt": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\nDisallow: /wp-includes/js/tinymce/plugins/wordpress/img/trans.gif\nDisallow: /53302250/\nDisallow: /api/\nDisallow: /web-api/\n\nSitemap: https://www.golfpost.de/sitemap_index.xml\n\nUser-agent: Amazonbot\nDisallow: /login/\nDisallow: /register/\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/wp-admin/admin-ajax.php"
+      ],
+      "disallowed": [
+        "/wp-admin/",
+        "/wp-includes/js/tinymce/plugins/wordpress/img/trans.gif",
+        "/53302250/",
+        "/api/",
+        "/web-api/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Amazonbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/login/",
+          "/register/"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -8,7 +42,19 @@
     },
     {
       "name": "Amazonbot",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/wp-admin/admin-ajax.php"
+    ],
+    "disallowed": [
+      "/wp-admin/",
+      "/wp-includes/js/tinymce/plugins/wordpress/img/trans.gif",
+      "/53302250/",
+      "/api/",
+      "/web-api/"
+    ]
+  }
 }

@@ -1,10 +1,76 @@
 {
   "domain": "www.josera.de",
   "normalizedDomain": "www.josera.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /catalogsearch/\r\n\r\nDisallow: /catalog/product_compare/\r\nDisallow: /catalog/category/view/\r\nDisallow: /catalog/product/view/\r\nDisallow: /checkout/\r\nDisallow: /customer/\r\nDisallow: /sendfriend/\r\nDisallow: /ajaxcart/\r\nDisallow: /ajax/\r\nDisallow: /productalert/\r\nDisallow: /review/\r\nDisallow: /downloadable/\r\nDisallow: /newsletter\r\n\r\nDisallow: /LICENSE.html\r\nDisallow: /LICENSE.txt\r\nDisallow: /LICENSE_AFL.txt\r\nDisallow: /index.php\r\nDisallow: /get.php\r\nDisallow: /app/\r\nDisallow: /lib/\r\nDisallow: /pkginfo/\r\nDisallow: /report/\r\nDisallow: /var/\r\n\r\nSitemap: https://www.josera.de/sitemaps/sitemap_de.xml\r\nSitemap: https://www.josera.de/sitemaps/blog_sitemap_de.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/catalogsearch/",
+        "/catalog/product_compare/",
+        "/catalog/category/view/",
+        "/catalog/product/view/",
+        "/checkout/",
+        "/customer/",
+        "/sendfriend/",
+        "/ajaxcart/",
+        "/ajax/",
+        "/productalert/",
+        "/review/",
+        "/downloadable/",
+        "/newsletter",
+        "/LICENSE.html",
+        "/LICENSE.txt",
+        "/LICENSE_AFL.txt",
+        "/index.php",
+        "/get.php",
+        "/app/",
+        "/lib/",
+        "/pkginfo/",
+        "/report/",
+        "/var/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/catalogsearch/",
+      "/catalog/product_compare/",
+      "/catalog/category/view/",
+      "/catalog/product/view/",
+      "/checkout/",
+      "/customer/",
+      "/sendfriend/",
+      "/ajaxcart/",
+      "/ajax/",
+      "/productalert/",
+      "/review/",
+      "/downloadable/",
+      "/newsletter",
+      "/LICENSE.html",
+      "/LICENSE.txt",
+      "/LICENSE_AFL.txt",
+      "/index.php",
+      "/get.php",
+      "/app/",
+      "/lib/",
+      "/pkginfo/",
+      "/report/",
+      "/var/"
+    ]
+  }
 }

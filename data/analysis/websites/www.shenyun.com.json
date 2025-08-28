@@ -1,14 +1,81 @@
 {
   "domain": "www.shenyun.com",
   "normalizedDomain": "www.shenyun.com",
-  "bots": [
+  "robotsTxt": "User-agent: AdsBot-Google\r\nAllow: /\r\nDisallow: /admin/\r\nUser-agent: BUbiNG\r\n\r\nUser-agent: *\r\nDisallow: /admin/\r\nDisallow: /theme3/assets/img/\r\nDisallow: /theme/shenyun/img/\r\nDisallow: /theme/shenyun/image/\r\nDisallow: /promo/modules/img/\r\nDisallow: /theme/promo/img/\r\nDisallow: /module/shenyun2018new/img/\r\nDisallow: /module/shenyun2018new/svg/\r\nDisallow: /module/shenyun2018/svg/\r\nDisallow: /module/shenyun2018/img/\r\nDisallow: /module/monkeyking/img/\r\nDisallow: /module/monkeyking/svg/\r\nDisallow: /image/\r\nDisallow: /module/shenyun2020h/assets-city/img/\r\nDisallow: /module/shenyun2020v/img/\r\nDisallow: /module/shenyun2020/img/\r\nDisallow: /module/shenyun2019/img/\r\nDisallow: /module/shenyun2019new/img/\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/admin/",
+        "/theme3/assets/img/",
+        "/theme/shenyun/img/",
+        "/theme/shenyun/image/",
+        "/promo/modules/img/",
+        "/theme/promo/img/",
+        "/module/shenyun2018new/img/",
+        "/module/shenyun2018new/svg/",
+        "/module/shenyun2018/svg/",
+        "/module/shenyun2018/img/",
+        "/module/monkeyking/img/",
+        "/module/monkeyking/svg/",
+        "/image/",
+        "/module/shenyun2020h/assets-city/img/",
+        "/module/shenyun2020v/img/",
+        "/module/shenyun2020/img/",
+        "/module/shenyun2019/img/",
+        "/module/shenyun2019new/img/"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "AdsBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/admin/"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
       "allowed": true
     },
     {
-      "name": "*",
-      "allowed": false
+      "name": "AdsBot-Google",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/admin/",
+      "/theme3/assets/img/",
+      "/theme/shenyun/img/",
+      "/theme/shenyun/image/",
+      "/promo/modules/img/",
+      "/theme/promo/img/",
+      "/module/shenyun2018new/img/",
+      "/module/shenyun2018new/svg/",
+      "/module/shenyun2018/svg/",
+      "/module/shenyun2018/img/",
+      "/module/monkeyking/img/",
+      "/module/monkeyking/svg/",
+      "/image/",
+      "/module/shenyun2020h/assets-city/img/",
+      "/module/shenyun2020v/img/",
+      "/module/shenyun2020/img/",
+      "/module/shenyun2019/img/",
+      "/module/shenyun2019new/img/"
+    ]
+  }
 }

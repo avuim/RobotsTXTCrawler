@@ -1,14 +1,57 @@
 {
   "domain": "www.ferrero.de",
   "normalizedDomain": "www.ferrero.de",
-  "bots": [
+  "robotsTxt": "User-agent: GoogleBot\r\nDisallow: /inc/\r\nDisallow: /layouts/\r\nDisallow: /index.php\r\n\r\nSitemap: http://www.ferrero.de/sitemap.xml\r\n\r\nUser-agent: *\r\nDisallow: /inc/\r\nDisallow: /layouts/\r\nDisallow: /index.php\r\nDisallow: /Technical_and_Organizational_Security_Measures\r\nDisallow: /fc-4614\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/inc/",
+        "/layouts/",
+        "/index.php",
+        "/Technical_and_Organizational_Security_Measures",
+        "/fc-4614"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "GoogleBot",
-      "allowed": false
-    },
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/inc/",
+          "/layouts/",
+          "/index.php"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
+    },
+    {
+      "name": "GoogleBot",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/inc/",
+      "/layouts/",
+      "/index.php",
+      "/Technical_and_Organizational_Security_Measures",
+      "/fc-4614"
+    ]
+  }
 }

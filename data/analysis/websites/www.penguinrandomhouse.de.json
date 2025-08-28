@@ -1,6 +1,69 @@
 {
   "domain": "www.penguinrandomhouse.de",
   "normalizedDomain": "www.penguinrandomhouse.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /service/\r\nAllow: /service/search/\r\nDisallow: /mein-buchentdecker\r\nDisallow: /suche\r\nDisallow: /produktseite\r\nDisallow: /*.epub$\r\n\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nUser-agent: anthropic-ai\r\nDisallow: /\r\n\r\nUser-agent: Google-Extended\r\nDisallow: /\r\n\r\nUser-agent: ChatGPT-User\r\nDisallow: /\r\n\r\nSitemap: https://www.penguin.de/service-sitemap-abffe57734fepngprh-sitemap_index.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/service/search/"
+      ],
+      "disallowed": [
+        "/service/",
+        "/mein-buchentdecker",
+        "/suche",
+        "/produktseite",
+        "/*.epub$"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 5,
+    "allowedBots": 0,
+    "disallowedBots": 5,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -26,5 +89,17 @@
       "name": "ChatGPT-User",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/service/search/"
+    ],
+    "disallowed": [
+      "/service/",
+      "/mein-buchentdecker",
+      "/suche",
+      "/produktseite",
+      "/*.epub$"
+    ]
+  }
 }

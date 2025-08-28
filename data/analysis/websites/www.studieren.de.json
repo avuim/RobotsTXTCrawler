@@ -1,10 +1,38 @@
 {
   "domain": "www.studieren.de",
   "normalizedDomain": "www.studieren.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /fileadmin/user_upload/\r\nDisallow: /fileadmin/_temp_/\r\nDisallow: /scripts/\r\nDisallow: /statistik/\r\nSitemap: https://studieren.de/sitemap-artikel.xml\r\nSitemap: https://studieren.de/sitemap-fachbereiche.xml\r\nSitemap: https://studieren.de/sitemap-studienprofile.xml\r\nSitemap: https://studieren.de/sitemap-studienorte.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/fileadmin/user_upload/",
+        "/fileadmin/_temp_/",
+        "/scripts/",
+        "/statistik/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/fileadmin/user_upload/",
+      "/fileadmin/_temp_/",
+      "/scripts/",
+      "/statistik/"
+    ]
+  }
 }

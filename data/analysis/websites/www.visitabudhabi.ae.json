@@ -1,10 +1,36 @@
 {
   "domain": "www.visitabudhabi.ae",
   "normalizedDomain": "www.visitabudhabi.ae",
+  "robotsTxt": "User-agent: * \r\n\r\nUser-agent: OAI-SearchBot \r\n\r\nAllow: / \r\n\r\nSitemap: https://visitabudhabi.ae/sitemap.xml \r\n\r\nDisallow: */attributes*\r\n\r\nDisallow: *sitecore*\r\n\r\nDisallow: /rb_bf34745cqh\r\n\r\n\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "*/attributes*",
+        "*sitecore*",
+        "/rb_bf34745cqh"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
-      "name": "OAI-SearchBot",
+      "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "*/attributes*",
+      "*sitecore*",
+      "/rb_bf34745cqh"
+    ]
+  }
 }

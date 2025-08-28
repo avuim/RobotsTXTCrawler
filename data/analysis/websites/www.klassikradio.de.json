@@ -1,10 +1,46 @@
 {
   "domain": "www.klassikradio.de",
   "normalizedDomain": "www.klassikradio.de",
+  "robotsTxt": "Sitemap: https://www.klassikradio.de/api/sitemap\n\nUser-agent: *\nAllow: /*\nAllow: /_next/static/*\nAllow: /_next/static/css/*\nAllow: /_next/static/chunks/*\n\nDisallow: /api/*\nAllow: /api/sitemap\nDisallow: /serverless/*",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/*",
+        "/_next/static/*",
+        "/_next/static/css/*",
+        "/_next/static/chunks/*",
+        "/api/sitemap"
+      ],
+      "disallowed": [
+        "/api/*",
+        "/serverless/*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/*",
+      "/_next/static/*",
+      "/_next/static/css/*",
+      "/_next/static/chunks/*",
+      "/api/sitemap"
+    ],
+    "disallowed": [
+      "/api/*",
+      "/serverless/*"
+    ]
+  }
 }

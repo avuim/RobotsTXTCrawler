@@ -8,6 +8,14 @@ export interface BotStats {
     allowed: string[];
     disallowed: string[];
   };
+  directoryRules: {
+    allowed: {
+      [directory: string]: string[];
+    };
+    disallowed: {
+      [directory: string]: string[];
+    };
+  };
 }
 
 export interface BotDetails {

@@ -1,10 +1,58 @@
 {
   "domain": "www.haustechnikdialog.de",
   "normalizedDomain": "www.haustechnikdialog.de",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\nDisallow: /*.axd\r\nDisallow: /downloads/\r\nDisallow: /Forum/ExtendedSearch.aspx\r\nDisallow: /Forum/NewPost.aspx\r\nDisallow: /r/\r\nDisallow: /R/\r\nDisallow: /redirect.asp\r\nDisallow: /Redirect.asp\r\nDisallow: /Redirect.ashx\r\nDisallow: /RedirectBanner.ashx\r\nDisallow: /Suche.aspx\r\nDisallow: /Suche/\r\nDisallow: /Userlist.aspx\r\nDisallow: /UserProfile.aspx",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*.axd",
+        "/downloads/",
+        "/Forum/ExtendedSearch.aspx",
+        "/Forum/NewPost.aspx",
+        "/r/",
+        "/R/",
+        "/redirect.asp",
+        "/Redirect.asp",
+        "/Redirect.ashx",
+        "/RedirectBanner.ashx",
+        "/Suche.aspx",
+        "/Suche/",
+        "/Userlist.aspx",
+        "/UserProfile.aspx"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*.axd",
+      "/downloads/",
+      "/Forum/ExtendedSearch.aspx",
+      "/Forum/NewPost.aspx",
+      "/r/",
+      "/R/",
+      "/redirect.asp",
+      "/Redirect.asp",
+      "/Redirect.ashx",
+      "/RedirectBanner.ashx",
+      "/Suche.aspx",
+      "/Suche/",
+      "/Userlist.aspx",
+      "/UserProfile.aspx"
+    ]
+  }
 }

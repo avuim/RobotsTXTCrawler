@@ -1,10 +1,70 @@
 {
   "domain": "www.meiers-weltreisen.de",
   "normalizedDomain": "www.meiers-weltreisen.de",
+  "robotsTxt": "User-agent: *\nDisallow: /hotel/search?*\nDisallow: /en/hotel/search?*\nDisallow: /de/hotel/search?*\nDisallow: /hotel/*?travelType=*\nDisallow: /hotel/*&travelType=*\nDisallow: /static/\nDisallow: *?travelType=*\nDisallow: *?utm_source=*\nDisallow: *?marke=*\nDisallow: *earliestStart=*\nDisallow: *?duration=*\nDisallow: *?awc=*\nDisallow: *?sortByLowestPrice=*\nDisallow: *?bdid=*\nDisallow: *?ttid=*\nDisallow: *?locale=*\nDisallow: *?icid=*\nDisallow: *?bcid=*\nDisallow: *?ap=*\nDisallow: *?refat=*\nDisallow: *?tab=*\nDisallow: *?provider=*\nDisallow: *?ecid=*\nDisallow: *?fbclid=*\nDisallow: *?web_winter*\nDisallow: *?ajax_handler=*\nDisallow: *?__historyState=*\nDisallow:  /logos/holidaycheck.svg\n\nSitemap: https://www.meiers-weltreisen.de/sitemaps/sitemap.xml\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: Cliqzbot\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/hotel/search?*",
+        "/en/hotel/search?*",
+        "/de/hotel/search?*",
+        "/hotel/*?travelType=*",
+        "/hotel/*&travelType=*",
+        "/static/",
+        "*?travelType=*",
+        "*?utm_source=*",
+        "*?marke=*",
+        "*earliestStart=*",
+        "*?duration=*",
+        "*?awc=*",
+        "*?sortByLowestPrice=*",
+        "*?bdid=*",
+        "*?ttid=*",
+        "*?locale=*",
+        "*?icid=*",
+        "*?bcid=*",
+        "*?ap=*",
+        "*?refat=*",
+        "*?tab=*",
+        "*?provider=*",
+        "*?ecid=*",
+        "*?fbclid=*",
+        "*?web_winter*",
+        "*?ajax_handler=*",
+        "*?__historyState=*",
+        "/logos/holidaycheck.svg"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Cliqzbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 0,
+    "disallowedBots": 2,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "MJ12bot",
@@ -14,5 +74,38 @@
       "name": "Cliqzbot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/hotel/search?*",
+      "/en/hotel/search?*",
+      "/de/hotel/search?*",
+      "/hotel/*?travelType=*",
+      "/hotel/*&travelType=*",
+      "/static/",
+      "*?travelType=*",
+      "*?utm_source=*",
+      "*?marke=*",
+      "*earliestStart=*",
+      "*?duration=*",
+      "*?awc=*",
+      "*?sortByLowestPrice=*",
+      "*?bdid=*",
+      "*?ttid=*",
+      "*?locale=*",
+      "*?icid=*",
+      "*?bcid=*",
+      "*?ap=*",
+      "*?refat=*",
+      "*?tab=*",
+      "*?provider=*",
+      "*?ecid=*",
+      "*?fbclid=*",
+      "*?web_winter*",
+      "*?ajax_handler=*",
+      "*?__historyState=*",
+      "/logos/holidaycheck.svg"
+    ]
+  }
 }

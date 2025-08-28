@@ -10,6 +10,15 @@ export interface BotMonthlyStat {
     allowed: string[];
     disallowed: string[];
   };
+  // Neue Struktur für Directory-basierte Regeln
+  directoryRules: {
+    allowed: {
+      [directory: string]: string[];  // Directory -> Liste von Websites
+    };
+    disallowed: {
+      [directory: string]: string[];  // Directory -> Liste von Websites
+    };
+  };
 }
 
 // Interface für die Informationen zu einem Bot
@@ -38,10 +47,43 @@ export interface BotStatistics {
 export interface WebsiteAnalysis {
   domain: string;
   normalizedDomain: string;
-  bots: {
+  robotsTxt?: string;
+  
+  // Neue Struktur: Trennung von globalen und bot-spezifischen Regeln
+  globalRules: {
+    paths: {
+      allowed: string[];
+      disallowed: string[];
+    };
+  };
+  
+  // Spezifische Bots ohne den Wildcard "*"
+  specificBots: {
+    name: string;
+    allowed: boolean;
+    paths?: {
+      allowed: string[];
+      disallowed: string[];
+    };
+  }[];
+  
+  // Neue Statistik-Struktur
+  stats: {
+    totalSpecificBots: number;    // Anzahl explizit definierter Bots (ohne *)
+    allowedBots: number;          // Nur spezifische Bots
+    disallowedBots: number;       // Nur spezifische Bots
+    hasGlobalAllow: boolean;      // Status für User-agent: *
+  };
+  
+  // Legacy-Felder für Rückwärtskompatibilität (deprecated)
+  bots?: {
     name: string;
     allowed: boolean;
   }[];
+  paths?: {
+    allowed: string[];
+    disallowed: string[];
+  };
 }
 
 // Interface für die Analyse-Ergebnisse eines Bots

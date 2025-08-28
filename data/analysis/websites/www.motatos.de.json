@@ -1,10 +1,43 @@
 {
   "domain": "www.motatos.de",
   "normalizedDomain": "www.motatos.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /search?q=*\r\n\r\nUser-agent: Googlebot\r\nDisallow:\r\n\r\nUser-agent: Googlebot-image\r\nDisallow:",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/search?q=*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot-image",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 0,
+    "disallowedBots": 2,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Googlebot",
@@ -14,5 +47,11 @@
       "name": "Googlebot-image",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/search?q=*"
+    ]
+  }
 }

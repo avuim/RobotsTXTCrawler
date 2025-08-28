@@ -1,6 +1,109 @@
 {
   "domain": "www.auskunft.de",
   "normalizedDomain": "www.auskunft.de",
+  "robotsTxt": "User-agent: *\n\nAllow: /\n\nUser-agent: auskunftbot\nDisallow: /\n\nUser-agent: dotbot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: pimeyes.com crawler\nDisallow: /\n\nUser-agent: JobboerseBot\nDisallow: /\n\nUser-agent: CrazyWebCrawler-Spider\nDisallow: /\n\nUser-agent: Jobsearch1.5\nDisallow: /\n\nUser-agent: Cliqzbot\nDisallow: /\n\nUser-agent: thesubot\nDisallow: /\n\nUser-agent: ACONTBOT\nDisallow: /\n\nUser-agent: MAINSEEK_BOT\nDisallow: /\n\nSitemap: https://www.auskunft.de/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "auskunftbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "pimeyes.com crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "JobboerseBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CrazyWebCrawler-Spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jobsearch1.5",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Cliqzbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "thesubot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ACONTBOT",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MAINSEEK_BOT",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 11,
+    "allowedBots": 0,
+    "disallowedBots": 11,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -50,5 +153,9 @@
       "name": "MAINSEEK_BOT",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

@@ -1,10 +1,72 @@
 {
   "domain": "www.entertainweb.de",
   "normalizedDomain": "www.entertainweb.de",
+  "robotsTxt": "User-agent: *\nDisallow: /administrator/\nDisallow: /bin/\nDisallow: /cache/\nDisallow: /cli/\nDisallow: /components/\nDisallow: /includes/\nDisallow: /installation/\nDisallow: /language/\nDisallow: /layouts/\nDisallow: /libraries/\nDisallow: /logs/\nDisallow: /modules/\nDisallow: /plugins/\nDisallow: /tmp/\nAllow: /components/com_seoglossary/assets/css/style.css\nAllow: /components/com_k2/js/k2.js\nAllow: /components/com_seoglossary/assets/js/jqseog.min.js\nAllow: /components/com_seoglossary/assets/js/jqseog.fpss.js\nAllow: /modules/mod_facebook_likeboxpopup/css/fb-likebox-popup.css\nAllow: /modules/mod_facebook_likeboxpopup/js/all.js\n\n\n\nSitemap: http://www.entertainweb.de/sitemap.xml\n\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/components/com_seoglossary/assets/css/style.css",
+        "/components/com_k2/js/k2.js",
+        "/components/com_seoglossary/assets/js/jqseog.min.js",
+        "/components/com_seoglossary/assets/js/jqseog.fpss.js",
+        "/modules/mod_facebook_likeboxpopup/css/fb-likebox-popup.css",
+        "/modules/mod_facebook_likeboxpopup/js/all.js"
+      ],
+      "disallowed": [
+        "/administrator/",
+        "/bin/",
+        "/cache/",
+        "/cli/",
+        "/components/",
+        "/includes/",
+        "/installation/",
+        "/language/",
+        "/layouts/",
+        "/libraries/",
+        "/logs/",
+        "/modules/",
+        "/plugins/",
+        "/tmp/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/components/com_seoglossary/assets/css/style.css",
+      "/components/com_k2/js/k2.js",
+      "/components/com_seoglossary/assets/js/jqseog.min.js",
+      "/components/com_seoglossary/assets/js/jqseog.fpss.js",
+      "/modules/mod_facebook_likeboxpopup/css/fb-likebox-popup.css",
+      "/modules/mod_facebook_likeboxpopup/js/all.js"
+    ],
+    "disallowed": [
+      "/administrator/",
+      "/bin/",
+      "/cache/",
+      "/cli/",
+      "/components/",
+      "/includes/",
+      "/installation/",
+      "/language/",
+      "/layouts/",
+      "/libraries/",
+      "/logs/",
+      "/modules/",
+      "/plugins/",
+      "/tmp/"
+    ]
+  }
 }

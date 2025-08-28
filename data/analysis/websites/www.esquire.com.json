@@ -1,7 +1,242 @@
 {
   "domain": "www.esquire.com",
   "normalizedDomain": "www.esquire.com",
+  "robotsTxt": "\nUser-agent: Mediapartners-Google\nDisallow:\n\nUser-agent: Facebot\nDisallow:\n\nUser-agent: Twitterbot\nDisallow:\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: OAI-SearchBot\nDisallow: /au/\nDisallow: /cn/\nDisallow: /dk/\nDisallow: /en/\nDisallow: /es/\nDisallow: /in/\nDisallow: /it/\nDisallow: /jp/\nDisallow: /ng/\nDisallow: /nl/\nDisallow: /no/\nDisallow: /se/\nDisallow: /tw/\nDisallow: /ua/\nDisallow: /uk/\n\nUser-agent: ChatGPT-User\nDisallow: /au/\nDisallow: /cn/\nDisallow: /dk/\nDisallow: /en/\nDisallow: /es/\nDisallow: /in/\nDisallow: /it/\nDisallow: /jp/\nDisallow: /ng/\nDisallow: /nl/\nDisallow: /no/\nDisallow: /se/\nDisallow: /tw/\nDisallow: /ua/\nDisallow: /uk/\n\nUser-agent: GPTBot\nDisallow: /au/\nDisallow: /cn/\nDisallow: /dk/\nDisallow: /en/\nDisallow: /es/\nDisallow: /in/\nDisallow: /it/\nDisallow: /jp/\nDisallow: /ng/\nDisallow: /nl/\nDisallow: /no/\nDisallow: /se/\nDisallow: /tw/\nDisallow: /ua/\nDisallow: /uk/\n\nUser-agent: Googlebot\nUser-agent: Google-InspectionTool\nDisallow: /*moapt-data.js\n\nUser-agent: *\nDisallow: /ajax/\nDisallow: /auth/\nDisallow: /au/ajax/\nDisallow: /cn/ajax/\nDisallow: /dk/ajax/\nDisallow: /en/ajax/\nDisallow: /es/ajax/\nDisallow: /in/ajax/\nDisallow: /it/ajax/\nDisallow: /jp/ajax/\nDisallow: /ng/ajax/\nDisallow: /nl/ajax/\nDisallow: /no/ajax/\nDisallow: /se/ajax/\nDisallow: /tw/ajax/\nDisallow: /ua/ajax/\nDisallow: /uk/ajax/\nDisallow: /landing-feed/\nDisallow: /oauth/\nDisallow: /preview/\nDisallow: /au/preview/\nDisallow: /cn/preview/\nDisallow: /dk/preview/\nDisallow: /en/preview/\nDisallow: /es/preview/\nDisallow: /in/preview/\nDisallow: /it/preview/\nDisallow: /jp/preview/\nDisallow: /ng/preview/\nDisallow: /nl/preview/\nDisallow: /no/preview/\nDisallow: /se/preview/\nDisallow: /tw/preview/\nDisallow: /ua/preview/\nDisallow: /uk/preview/\nDisallow: /search\nDisallow: /transporter/\nDisallow: /images/\n\n\nAllow: /ajax/content-product/\nAllow: /au/ajax/content-product/\nAllow: /cn/ajax/content-product/\nAllow: /dk/ajax/content-product/\nAllow: /en/ajax/content-product/\nAllow: /es/ajax/content-product/\nAllow: /in/ajax/content-product/\nAllow: /it/ajax/content-product/\nAllow: /jp/ajax/content-product/\nAllow: /ng/ajax/content-product/\nAllow: /nl/ajax/content-product/\nAllow: /no/ajax/content-product/\nAllow: /se/ajax/content-product/\nAllow: /tw/ajax/content-product/\nAllow: /ua/ajax/content-product/\nAllow: /uk/ajax/content-product/\nAllow: /ajax/contentmedia/\nAllow: /au/ajax/contentmedia/\nAllow: /cn/ajax/contentmedia/\nAllow: /dk/ajax/contentmedia/\nAllow: /en/ajax/contentmedia/\nAllow: /es/ajax/contentmedia/\nAllow: /in/ajax/contentmedia/\nAllow: /it/ajax/contentmedia/\nAllow: /jp/ajax/contentmedia/\nAllow: /ng/ajax/contentmedia/\nAllow: /nl/ajax/contentmedia/\nAllow: /no/ajax/contentmedia/\nAllow: /se/ajax/contentmedia/\nAllow: /tw/ajax/contentmedia/\nAllow: /ua/ajax/contentmedia/\nAllow: /uk/ajax/contentmedia/\n\nSitemap: https://www.esquire.com/sitemap_index.xml\nSitemap: https://www.esquire.com/sitemap_google_news.xml\n\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/ajax/content-product/",
+        "/au/ajax/content-product/",
+        "/cn/ajax/content-product/",
+        "/dk/ajax/content-product/",
+        "/en/ajax/content-product/",
+        "/es/ajax/content-product/",
+        "/in/ajax/content-product/",
+        "/it/ajax/content-product/",
+        "/jp/ajax/content-product/",
+        "/ng/ajax/content-product/",
+        "/nl/ajax/content-product/",
+        "/no/ajax/content-product/",
+        "/se/ajax/content-product/",
+        "/tw/ajax/content-product/",
+        "/ua/ajax/content-product/",
+        "/uk/ajax/content-product/",
+        "/ajax/contentmedia/",
+        "/au/ajax/contentmedia/",
+        "/cn/ajax/contentmedia/",
+        "/dk/ajax/contentmedia/",
+        "/en/ajax/contentmedia/",
+        "/es/ajax/contentmedia/",
+        "/in/ajax/contentmedia/",
+        "/it/ajax/contentmedia/",
+        "/jp/ajax/contentmedia/",
+        "/ng/ajax/contentmedia/",
+        "/nl/ajax/contentmedia/",
+        "/no/ajax/contentmedia/",
+        "/se/ajax/contentmedia/",
+        "/tw/ajax/contentmedia/",
+        "/ua/ajax/contentmedia/",
+        "/uk/ajax/contentmedia/"
+      ],
+      "disallowed": [
+        "/ajax/",
+        "/auth/",
+        "/au/ajax/",
+        "/cn/ajax/",
+        "/dk/ajax/",
+        "/en/ajax/",
+        "/es/ajax/",
+        "/in/ajax/",
+        "/it/ajax/",
+        "/jp/ajax/",
+        "/ng/ajax/",
+        "/nl/ajax/",
+        "/no/ajax/",
+        "/se/ajax/",
+        "/tw/ajax/",
+        "/ua/ajax/",
+        "/uk/ajax/",
+        "/landing-feed/",
+        "/oauth/",
+        "/preview/",
+        "/au/preview/",
+        "/cn/preview/",
+        "/dk/preview/",
+        "/en/preview/",
+        "/es/preview/",
+        "/in/preview/",
+        "/it/preview/",
+        "/jp/preview/",
+        "/ng/preview/",
+        "/nl/preview/",
+        "/no/preview/",
+        "/se/preview/",
+        "/tw/preview/",
+        "/ua/preview/",
+        "/uk/preview/",
+        "/search",
+        "/transporter/",
+        "/images/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Mediapartners-Google",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Facebot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/au/",
+          "/cn/",
+          "/dk/",
+          "/en/",
+          "/es/",
+          "/in/",
+          "/it/",
+          "/jp/",
+          "/ng/",
+          "/nl/",
+          "/no/",
+          "/se/",
+          "/tw/",
+          "/ua/",
+          "/uk/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/au/",
+          "/cn/",
+          "/dk/",
+          "/en/",
+          "/es/",
+          "/in/",
+          "/it/",
+          "/jp/",
+          "/ng/",
+          "/nl/",
+          "/no/",
+          "/se/",
+          "/tw/",
+          "/ua/",
+          "/uk/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/au/",
+          "/cn/",
+          "/dk/",
+          "/en/",
+          "/es/",
+          "/in/",
+          "/it/",
+          "/jp/",
+          "/ng/",
+          "/nl/",
+          "/no/",
+          "/se/",
+          "/tw/",
+          "/ua/",
+          "/uk/"
+        ]
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/*moapt-data.js"
+        ]
+      }
+    },
+    {
+      "name": "Google-InspectionTool",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/*moapt-data.js"
+        ]
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/*moapt-data.js"
+        ]
+      }
+    },
+    {
+      "name": "Google-InspectionTool",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/*moapt-data.js"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 11,
+    "allowedBots": 7,
+    "disallowedBots": 4,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "Mediapartners-Google",
       "allowed": false
@@ -20,23 +255,107 @@
     },
     {
       "name": "OAI-SearchBot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "ChatGPT-User",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
-      "allowed": false
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
     },
     {
       "name": "Google-InspectionTool",
-      "allowed": false
+      "allowed": true
     },
     {
-      "name": "*",
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "Google-InspectionTool",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/ajax/content-product/",
+      "/au/ajax/content-product/",
+      "/cn/ajax/content-product/",
+      "/dk/ajax/content-product/",
+      "/en/ajax/content-product/",
+      "/es/ajax/content-product/",
+      "/in/ajax/content-product/",
+      "/it/ajax/content-product/",
+      "/jp/ajax/content-product/",
+      "/ng/ajax/content-product/",
+      "/nl/ajax/content-product/",
+      "/no/ajax/content-product/",
+      "/se/ajax/content-product/",
+      "/tw/ajax/content-product/",
+      "/ua/ajax/content-product/",
+      "/uk/ajax/content-product/",
+      "/ajax/contentmedia/",
+      "/au/ajax/contentmedia/",
+      "/cn/ajax/contentmedia/",
+      "/dk/ajax/contentmedia/",
+      "/en/ajax/contentmedia/",
+      "/es/ajax/contentmedia/",
+      "/in/ajax/contentmedia/",
+      "/it/ajax/contentmedia/",
+      "/jp/ajax/contentmedia/",
+      "/ng/ajax/contentmedia/",
+      "/nl/ajax/contentmedia/",
+      "/no/ajax/contentmedia/",
+      "/se/ajax/contentmedia/",
+      "/tw/ajax/contentmedia/",
+      "/ua/ajax/contentmedia/",
+      "/uk/ajax/contentmedia/"
+    ],
+    "disallowed": [
+      "/ajax/",
+      "/auth/",
+      "/au/ajax/",
+      "/cn/ajax/",
+      "/dk/ajax/",
+      "/en/ajax/",
+      "/es/ajax/",
+      "/in/ajax/",
+      "/it/ajax/",
+      "/jp/ajax/",
+      "/ng/ajax/",
+      "/nl/ajax/",
+      "/no/ajax/",
+      "/se/ajax/",
+      "/tw/ajax/",
+      "/ua/ajax/",
+      "/uk/ajax/",
+      "/landing-feed/",
+      "/oauth/",
+      "/preview/",
+      "/au/preview/",
+      "/cn/preview/",
+      "/dk/preview/",
+      "/en/preview/",
+      "/es/preview/",
+      "/in/preview/",
+      "/it/preview/",
+      "/jp/preview/",
+      "/ng/preview/",
+      "/nl/preview/",
+      "/no/preview/",
+      "/se/preview/",
+      "/tw/preview/",
+      "/ua/preview/",
+      "/uk/preview/",
+      "/search",
+      "/transporter/",
+      "/images/"
+    ]
+  }
 }

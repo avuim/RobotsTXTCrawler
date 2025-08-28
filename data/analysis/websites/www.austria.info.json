@@ -1,10 +1,40 @@
 {
   "domain": "www.austria.info",
   "normalizedDomain": "www.austria.info",
+  "robotsTxt": "User-agent: *\r\nDisallow: /config\r\nDisallow: /development\r\nDisallow: /search\r\nDisallow: /_styleguide\r\nDisallow: /_gtm\r\nSitemap: https://www.austria.info/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/config",
+        "/development",
+        "/search",
+        "/_styleguide",
+        "/_gtm"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/config",
+      "/development",
+      "/search",
+      "/_styleguide",
+      "/_gtm"
+    ]
+  }
 }

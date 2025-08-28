@@ -1,10 +1,341 @@
 {
   "domain": "de.triumph.com",
   "normalizedDomain": "de.triumph.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /*Wishlist-*\r\nDisallow: /*Product-ColorChange*\r\nDisallow: /*Product-Images*\r\nDisallow: /*Product-BISN*\r\nDisallow: /*Cart-Show*\r\nDisallow: /*Shoppingcart-Start*\r\nDisallow: /*Shipping-Start*\r\nDisallow: /*Payment-Start*\r\nDisallow: /*Summary-Start*\r\nDisallow: /*OrderConfirmation-Start*\r\nDisallow: /*pmin*\r\nDisallow: /*pmax*\r\nDisallow: /*prefn1*\r\nDisallow: /*prefn2*\r\nDisallow: /*prefn3*\r\nDisallow: /*prefn4*\r\nDisallow: /*prefv1*\r\nDisallow: /*prefv2*\r\nDisallow: /*prefv3*\r\nDisallow: /*prefv4*\r\nDisallow: /*srule*\r\nDisallow: /neu/bhs-korsagen-shirts-new\r\nDisallow: /neu/slips-strings-panty-new\r\nDisallow: /neu/shapewear-new\r\nDisallow: /bhs/grosse-cups-new\r\nDisallow: /neu/homewear-new\r\nDisallow: /bhs/ohne-buegel-new\r\nDisallow: /bhs/mit-buegel-new\r\nDisallow: /bhs/schalen-bhs-new\r\nDisallow: /bhs/push-up-bhs-maximizer-new\r\nDisallow: /bhs/minimizer-bhs-new\r\nDisallow: /magic-wire-new\r\nDisallow: /bhs/t-shirt-bhs-new\r\nDisallow: /bhs/tragevarianten-new\r\nDisallow: /bhs/sport-bhs-new\r\nDisallow: /bhs/still-bhs-new\r\nDisallow: /dessous/bodies-mieder-bustiers-new\r\nDisallow: /tr-assign-new/bhs/specials/5-key-fit-styles\r\nDisallow: /marken/amourette-new\r\nDisallow: /dessous/body-make-up-new\r\nDisallow: /tr-assign-new/bhs/specials/bestseller\r\nDisallow: /tr-assign-new/slips/nach-style/strings--tangas-brazilians\r\nDisallow: /tr-assign-new/slips/nach-style/tai-slips-hipster-slips\r\nDisallow: /tr-assign-new/slips/nach-style/maxi-midi-slips\r\nDisallow: /slips/panty-miederhosen-new\r\nDisallow: /herren/unterhosen-new\r\nDisallow: /tr-assign-new/slips/nach-style/alles%3A-slips\r\nDisallow: /unterwaesche/mix-3-slips-new\r\nDisallow: /multipacks-new\r\nDisallow: /slips/unsichtbare-slips-new\r\nDisallow: /slips/figurformende-slips-new\r\nDisallow: /shapewear/dekollete-new\r\nDisallow: /shapewear/bauch-taille-new\r\nDisallow: /shapewear/po-new\r\nDisallow: /shapewear/beine-schenkel-new\r\nDisallow: /shapewear/silhouette-new\r\nDisallow: /tr-assign-new/shapewear/nach-koerperzone/alles%3A-shapewear\r\nDisallow: /tr-assign-new/shapewear/specials/perfekt-in-form-fuer-die-arbeit\r\nDisallow: /dessous/magic-boost-new\r\nDisallow: /dessous/struempfe-new\r\nDisallow: /homewear/unterkleider-roecke-new\r\nDisallow: /homewear/mix-and-match-new\r\nDisallow: /homewear/nachthemden-negliges-pyjamas-new\r\nDisallow: /homewear/bademaentel-new\r\nDisallow: /tr-assign-new/homewear/hausschuhe-socken\r\nDisallow: /homewear/shirts-tops-unterhemden-new\r\nDisallow: /herren/unterhemden-new\r\nDisallow: /tr-assign-new/homewear/multipacks\r\nDisallow: /homewear-new\r\nDisallow: /neu-new\r\nDisallow: /sale/bhs-korsagen-shirts-new\r\nDisallow: /sale/slips-strings-panty-new\r\nDisallow: /sale/shapewear-new\r\nDisallow: /sale/homewear-new\r\nDisallow: /sale/bademode-new\r\nDisallow: /tr-assign-new/sale/alles%3A-sale\r\nDisallow: /dessous/bhs-korsagen-shirts-new\r\nDisallow: /slips/slips-strings-panty-new\r\nDisallow: /shapewear-new\r\nDisallow: /sale-new\r\nDisallow: /sicherheit-bestellung/Help_Payment-new.html\r\nDisallow: /sicherheit-bestellung/Contact_Rescission-new.html\r\nDisallow: /sicherheit-bestellung/Contact_Terms-new.html\r\nDisallow: /sicherheit-bestellung/Contact_PrivacyPolicy-new.html\r\nDisallow: /sicherheit-bestellung/Contact_Imprint-new.html\r\nDisallow: /on/demandware.store/Sites-DE-Site/de_DE/TR_Service-Contact?cid=Contact_Us-new\r\nDisallow: /service-informationen/Help_Fitting_Guide-new.html\r\nDisallow: /service-informationen/Help_FAQ-new.html\r\nDisallow: /amourette#\r\nDisallow: /amourette%23\r\nDisallow: /body-make-up#\r\nDisallow: /body-make-up%23\r\nDisallow: /on/demandware.store/Sites-EU-Site/\r\nDisallow: /neu/slips\r\nDisallow: /florale/graceful\r\nDisallow: /sport/finden-sie-ihren-sport-bh\r\nDisallow: /sport/accessories\r\nDisallow: /florale/wild-rose\r\nDisallow: /florale/dahlia\r\nDisallow: /*BISN-*\r\nDisallow: /*lp*\r\n\r\nSitemap: https://de.triumph.com/sitemap_index.xml\r\n\r\nUser-agent: MSNBot\r\nCrawl-delay: 10\r\n\r\nUser-agent: bingbot\r\nCrawl-delay: 10\r\n\r\nUser-agent: Baiduspider\r\nCrawl-delay: 10",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*Wishlist-*",
+        "/*Product-ColorChange*",
+        "/*Product-Images*",
+        "/*Product-BISN*",
+        "/*Cart-Show*",
+        "/*Shoppingcart-Start*",
+        "/*Shipping-Start*",
+        "/*Payment-Start*",
+        "/*Summary-Start*",
+        "/*OrderConfirmation-Start*",
+        "/*pmin*",
+        "/*pmax*",
+        "/*prefn1*",
+        "/*prefn2*",
+        "/*prefn3*",
+        "/*prefn4*",
+        "/*prefv1*",
+        "/*prefv2*",
+        "/*prefv3*",
+        "/*prefv4*",
+        "/*srule*",
+        "/neu/bhs-korsagen-shirts-new",
+        "/neu/slips-strings-panty-new",
+        "/neu/shapewear-new",
+        "/bhs/grosse-cups-new",
+        "/neu/homewear-new",
+        "/bhs/ohne-buegel-new",
+        "/bhs/mit-buegel-new",
+        "/bhs/schalen-bhs-new",
+        "/bhs/push-up-bhs-maximizer-new",
+        "/bhs/minimizer-bhs-new",
+        "/magic-wire-new",
+        "/bhs/t-shirt-bhs-new",
+        "/bhs/tragevarianten-new",
+        "/bhs/sport-bhs-new",
+        "/bhs/still-bhs-new",
+        "/dessous/bodies-mieder-bustiers-new",
+        "/tr-assign-new/bhs/specials/5-key-fit-styles",
+        "/marken/amourette-new",
+        "/dessous/body-make-up-new",
+        "/tr-assign-new/bhs/specials/bestseller",
+        "/tr-assign-new/slips/nach-style/strings--tangas-brazilians",
+        "/tr-assign-new/slips/nach-style/tai-slips-hipster-slips",
+        "/tr-assign-new/slips/nach-style/maxi-midi-slips",
+        "/slips/panty-miederhosen-new",
+        "/herren/unterhosen-new",
+        "/tr-assign-new/slips/nach-style/alles%3A-slips",
+        "/unterwaesche/mix-3-slips-new",
+        "/multipacks-new",
+        "/slips/unsichtbare-slips-new",
+        "/slips/figurformende-slips-new",
+        "/shapewear/dekollete-new",
+        "/shapewear/bauch-taille-new",
+        "/shapewear/po-new",
+        "/shapewear/beine-schenkel-new",
+        "/shapewear/silhouette-new",
+        "/tr-assign-new/shapewear/nach-koerperzone/alles%3A-shapewear",
+        "/tr-assign-new/shapewear/specials/perfekt-in-form-fuer-die-arbeit",
+        "/dessous/magic-boost-new",
+        "/dessous/struempfe-new",
+        "/homewear/unterkleider-roecke-new",
+        "/homewear/mix-and-match-new",
+        "/homewear/nachthemden-negliges-pyjamas-new",
+        "/homewear/bademaentel-new",
+        "/tr-assign-new/homewear/hausschuhe-socken",
+        "/homewear/shirts-tops-unterhemden-new",
+        "/herren/unterhemden-new",
+        "/tr-assign-new/homewear/multipacks",
+        "/homewear-new",
+        "/neu-new",
+        "/sale/bhs-korsagen-shirts-new",
+        "/sale/slips-strings-panty-new",
+        "/sale/shapewear-new",
+        "/sale/homewear-new",
+        "/sale/bademode-new",
+        "/tr-assign-new/sale/alles%3A-sale",
+        "/dessous/bhs-korsagen-shirts-new",
+        "/slips/slips-strings-panty-new",
+        "/shapewear-new",
+        "/sale-new",
+        "/sicherheit-bestellung/Help_Payment-new.html",
+        "/sicherheit-bestellung/Contact_Rescission-new.html",
+        "/sicherheit-bestellung/Contact_Terms-new.html",
+        "/sicherheit-bestellung/Contact_PrivacyPolicy-new.html",
+        "/sicherheit-bestellung/Contact_Imprint-new.html",
+        "/on/demandware.store/Sites-DE-Site/de_DE/TR_Service-Contact?cid=Contact_Us-new",
+        "/service-informationen/Help_Fitting_Guide-new.html",
+        "/service-informationen/Help_FAQ-new.html",
+        "/amourette#",
+        "/amourette%23",
+        "/body-make-up#",
+        "/body-make-up%23",
+        "/on/demandware.store/Sites-EU-Site/",
+        "/neu/slips",
+        "/florale/graceful",
+        "/sport/finden-sie-ihren-sport-bh",
+        "/sport/accessories",
+        "/florale/wild-rose",
+        "/florale/dahlia",
+        "/*BISN-*",
+        "/*lp*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "MSNBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MSNBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MSNBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 9,
+    "allowedBots": 9,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
+    },
+    {
+      "name": "MSNBot",
+      "allowed": true
+    },
+    {
+      "name": "bingbot",
+      "allowed": true
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": true
+    },
+    {
+      "name": "MSNBot",
+      "allowed": true
+    },
+    {
+      "name": "bingbot",
+      "allowed": true
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": true
+    },
+    {
+      "name": "MSNBot",
+      "allowed": true
+    },
+    {
+      "name": "bingbot",
+      "allowed": true
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*Wishlist-*",
+      "/*Product-ColorChange*",
+      "/*Product-Images*",
+      "/*Product-BISN*",
+      "/*Cart-Show*",
+      "/*Shoppingcart-Start*",
+      "/*Shipping-Start*",
+      "/*Payment-Start*",
+      "/*Summary-Start*",
+      "/*OrderConfirmation-Start*",
+      "/*pmin*",
+      "/*pmax*",
+      "/*prefn1*",
+      "/*prefn2*",
+      "/*prefn3*",
+      "/*prefn4*",
+      "/*prefv1*",
+      "/*prefv2*",
+      "/*prefv3*",
+      "/*prefv4*",
+      "/*srule*",
+      "/neu/bhs-korsagen-shirts-new",
+      "/neu/slips-strings-panty-new",
+      "/neu/shapewear-new",
+      "/bhs/grosse-cups-new",
+      "/neu/homewear-new",
+      "/bhs/ohne-buegel-new",
+      "/bhs/mit-buegel-new",
+      "/bhs/schalen-bhs-new",
+      "/bhs/push-up-bhs-maximizer-new",
+      "/bhs/minimizer-bhs-new",
+      "/magic-wire-new",
+      "/bhs/t-shirt-bhs-new",
+      "/bhs/tragevarianten-new",
+      "/bhs/sport-bhs-new",
+      "/bhs/still-bhs-new",
+      "/dessous/bodies-mieder-bustiers-new",
+      "/tr-assign-new/bhs/specials/5-key-fit-styles",
+      "/marken/amourette-new",
+      "/dessous/body-make-up-new",
+      "/tr-assign-new/bhs/specials/bestseller",
+      "/tr-assign-new/slips/nach-style/strings--tangas-brazilians",
+      "/tr-assign-new/slips/nach-style/tai-slips-hipster-slips",
+      "/tr-assign-new/slips/nach-style/maxi-midi-slips",
+      "/slips/panty-miederhosen-new",
+      "/herren/unterhosen-new",
+      "/tr-assign-new/slips/nach-style/alles%3A-slips",
+      "/unterwaesche/mix-3-slips-new",
+      "/multipacks-new",
+      "/slips/unsichtbare-slips-new",
+      "/slips/figurformende-slips-new",
+      "/shapewear/dekollete-new",
+      "/shapewear/bauch-taille-new",
+      "/shapewear/po-new",
+      "/shapewear/beine-schenkel-new",
+      "/shapewear/silhouette-new",
+      "/tr-assign-new/shapewear/nach-koerperzone/alles%3A-shapewear",
+      "/tr-assign-new/shapewear/specials/perfekt-in-form-fuer-die-arbeit",
+      "/dessous/magic-boost-new",
+      "/dessous/struempfe-new",
+      "/homewear/unterkleider-roecke-new",
+      "/homewear/mix-and-match-new",
+      "/homewear/nachthemden-negliges-pyjamas-new",
+      "/homewear/bademaentel-new",
+      "/tr-assign-new/homewear/hausschuhe-socken",
+      "/homewear/shirts-tops-unterhemden-new",
+      "/herren/unterhemden-new",
+      "/tr-assign-new/homewear/multipacks",
+      "/homewear-new",
+      "/neu-new",
+      "/sale/bhs-korsagen-shirts-new",
+      "/sale/slips-strings-panty-new",
+      "/sale/shapewear-new",
+      "/sale/homewear-new",
+      "/sale/bademode-new",
+      "/tr-assign-new/sale/alles%3A-sale",
+      "/dessous/bhs-korsagen-shirts-new",
+      "/slips/slips-strings-panty-new",
+      "/shapewear-new",
+      "/sale-new",
+      "/sicherheit-bestellung/Help_Payment-new.html",
+      "/sicherheit-bestellung/Contact_Rescission-new.html",
+      "/sicherheit-bestellung/Contact_Terms-new.html",
+      "/sicherheit-bestellung/Contact_PrivacyPolicy-new.html",
+      "/sicherheit-bestellung/Contact_Imprint-new.html",
+      "/on/demandware.store/Sites-DE-Site/de_DE/TR_Service-Contact?cid=Contact_Us-new",
+      "/service-informationen/Help_Fitting_Guide-new.html",
+      "/service-informationen/Help_FAQ-new.html",
+      "/amourette#",
+      "/amourette%23",
+      "/body-make-up#",
+      "/body-make-up%23",
+      "/on/demandware.store/Sites-EU-Site/",
+      "/neu/slips",
+      "/florale/graceful",
+      "/sport/finden-sie-ihren-sport-bh",
+      "/sport/accessories",
+      "/florale/wild-rose",
+      "/florale/dahlia",
+      "/*BISN-*",
+      "/*lp*"
+    ]
+  }
 }

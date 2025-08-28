@@ -1,10 +1,44 @@
 {
   "domain": "www.langenscheidt.com",
   "normalizedDomain": "www.langenscheidt.com",
+  "robotsTxt": "user-agent:*\ndisallow:/contao/\ndisallow:/_contao/\ndisallow:/shop/admin#\ndisallow:/shop/store-api/\ndisallow:/shop/api/\ndisallow:/shop/account\ndisallow:/account\n\nsitemap:https://www.langenscheidt.com/shop/sitemap.xml\nsitemap:https://www.langenscheidt.com/sitemap",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/contao/",
+        "/_contao/",
+        "/shop/admin#",
+        "/shop/store-api/",
+        "/shop/api/",
+        "/shop/account",
+        "/account"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/contao/",
+      "/_contao/",
+      "/shop/admin#",
+      "/shop/store-api/",
+      "/shop/api/",
+      "/shop/account",
+      "/account"
+    ]
+  }
 }

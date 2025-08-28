@@ -1,10 +1,66 @@
 {
   "domain": "www.eterna.de",
   "normalizedDomain": "www.eterna.de",
+  "robotsTxt": "User-agent: *\r\nDisallow:/preview/\r\nDisallow:/checkout\r\nDisallow:/account\r\nDisallow:/note\r\nDisallow:/*/preview*\r\nDisallow:/*/checkout*\r\nDisallow:/*/account*\r\nDisallow:/*/note*\r\nSitemap: https://www.eterna.de/eterna-sitemap-index.xml\r\n\r\n\r\nUser-agent: Bytespider\r\nDisallow: /\r\n\r\nUser-agent: Pinterestbot\r\nDisallow: /\r\n\r\nUser-agent: facebookexternalhit\r\nDisallow: /\r\n\r\nUser-agent: Applebot\r\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/preview/",
+        "/checkout",
+        "/account",
+        "/note",
+        "/*/preview*",
+        "/*/checkout*",
+        "/*/account*",
+        "/*/note*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterestbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "facebookexternalhit",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 4,
+    "allowedBots": 0,
+    "disallowedBots": 4,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Bytespider",
@@ -22,5 +78,18 @@
       "name": "Applebot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/preview/",
+      "/checkout",
+      "/account",
+      "/note",
+      "/*/preview*",
+      "/*/checkout*",
+      "/*/account*",
+      "/*/note*"
+    ]
+  }
 }

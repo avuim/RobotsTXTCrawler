@@ -1,14 +1,69 @@
 {
   "domain": "www.planetradio.de",
   "normalizedDomain": "www.planetradio.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: *.pdf\r\nDisallow: /suche/\r\nDisallow: /app/\r\nDisallow: /radioplayer-includes/\r\nDisallow: /facebook-includes/\r\nDisallow: /login.html\r\nDisallow: /events/ticketshop/atsController/Ticketshop/atsAction/search.html\r\nDisallow: /testseiten/\r\nDisallow: /app-hilfe-android/\r\nDisallow: /app-hilfe-ios/\r\nDisallow: /logo/\r\nDisallow: /kontakt/logo.html\r\nDisallow: /*?*\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nSitemap: https://www.planetradio.de/index.sitemap\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "*.pdf",
+        "/suche/",
+        "/app/",
+        "/radioplayer-includes/",
+        "/facebook-includes/",
+        "/login.html",
+        "/events/ticketshop/atsController/Ticketshop/atsAction/search.html",
+        "/testseiten/",
+        "/app-hilfe-android/",
+        "/app-hilfe-ios/",
+        "/logo/",
+        "/kontakt/logo.html",
+        "/*?*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "*.pdf",
+      "/suche/",
+      "/app/",
+      "/radioplayer-includes/",
+      "/facebook-includes/",
+      "/login.html",
+      "/events/ticketshop/atsController/Ticketshop/atsAction/search.html",
+      "/testseiten/",
+      "/app-hilfe-android/",
+      "/app-hilfe-ios/",
+      "/logo/",
+      "/kontakt/logo.html",
+      "/*?*"
+    ]
+  }
 }

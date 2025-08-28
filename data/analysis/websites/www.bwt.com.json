@@ -1,10 +1,50 @@
 {
   "domain": "www.bwt.com",
   "normalizedDomain": "www.bwt.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /sitecore\r\nDisallow: /Sitecore\r\nDisallow: /sitecore_files/\r\nDisallow: /sitecore modules/\r\nDisallow: /App_Browsers/\r\nDisallow: /App_config/\r\nDisallow: /App_Data/\r\nDisallow: /temp/\r\nDisallow: /upload/\r\nDisallow: /xsl/\r\n\r\nSitemap: https://www.bwt.com/sitemap.xml\r\nSitemap: https://www.bwt.com/en/shop/sitemap.xml\r\nSitemap: https://www.bwt.com/de-de/sitemap.xml\r\nSitemap: https://www.bwt.com/de-de/shop/sitemap.xml\r\nSitemap: https://www.bwt.com/de-at/sitemap.xml\r\nSitemap: https://www.bwt.com/de-at/shop/sitemap.xml\r\nSitemap: https://www.bwt.com/de-ch/sitemap_de-CH.xml\r\nSitemap: https://www.bwt.com/fr-ch/sitemap_fr-CH.xml\r\nSitemap: https://www.bwt.com/fr-be/sitemap.xml\r\nSitemap: https://www.bwt.com/cs-cz/sitemap.xml\r\nSitemap: https://www.bwt.com/da-dk/sitemap.xml\r\nSitemap: https://www.bwt.com/sv-se/sitemap.xml\r\nSitemap: https://www.bwt.com/fi-fi/sitemap.xml\r\nSitemap: https://www.bwt.com/es-es/sitemap.xml\r\nSitemap: https://www.bwt.com/fr-fr/sitemap.xml\r\nSitemap: https://www.bwt.com/en-gb/sitemap.xml\r\nSitemap: https://www.bwt.com/hu-hu/sitemap.xml\r\nSitemap: https://www.bwt.com/it-it/sitemap.xml\r\nSitemap: https://www.bwt.com/nl-nl/sitemap.xml\r\nSitemap: https://www.bwt.com/no-no/sitemap.xml\r\nSitemap: https://www.bwt.com/pl-pl/sitemap.xml\r\nSitemap: https://www.bwt.com/uk-ua/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/sitecore",
+        "/Sitecore",
+        "/sitecore_files/",
+        "/sitecore modules/",
+        "/App_Browsers/",
+        "/App_config/",
+        "/App_Data/",
+        "/temp/",
+        "/upload/",
+        "/xsl/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/sitecore",
+      "/Sitecore",
+      "/sitecore_files/",
+      "/sitecore modules/",
+      "/App_Browsers/",
+      "/App_config/",
+      "/App_Data/",
+      "/temp/",
+      "/upload/",
+      "/xsl/"
+    ]
+  }
 }

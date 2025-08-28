@@ -1,6 +1,43 @@
 {
   "domain": "www.centerparcs.de",
   "normalizedDomain": "www.centerparcs.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: */preview/\r\nDisallow: */ajax/\r\nDisallow: /de-de/searchbis/\r\nDisallow: /de-de/product/reviewsajax\r\nDisallow: /de-de/search-tab-photos_pop\r\nDisallow: /de-de/search/ajax?type=result\r\nDisallow: /de-de/*?*\r\nAllow: /*?utm_source=google&utm_medium=Maps*\r\nAllow: /*?gclsrc=aw.ds*\r\nAllow: /*?adlgid=m%7Cg%7Ccenterparknordsee%7C223281066124%7Ce&gclid=EAIaIQobChMItMSFo9Xp4QIVTOR3Ch3NwQoVEAAYASABEgJ_cPD_BwE*\r\n \r\nUser-agent: bingbot\r\nDisallow: /booking/\r\n\r\nSitemap: https://www.centerparcs.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/*?utm_source=google&utm_medium=Maps*",
+        "/*?gclsrc=aw.ds*",
+        "/*?adlgid=m%7Cg%7Ccenterparknordsee%7C223281066124%7Ce&gclid=EAIaIQobChMItMSFo9Xp4QIVTOR3Ch3NwQoVEAAYASABEgJ_cPD_BwE*"
+      ],
+      "disallowed": [
+        "*/preview/",
+        "*/ajax/",
+        "/de-de/searchbis/",
+        "/de-de/product/reviewsajax",
+        "/de-de/search-tab-photos_pop",
+        "/de-de/search/ajax?type=result",
+        "/de-de/*?*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/booking/"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -8,7 +45,23 @@
     },
     {
       "name": "bingbot",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/*?utm_source=google&utm_medium=Maps*",
+      "/*?gclsrc=aw.ds*",
+      "/*?adlgid=m%7Cg%7Ccenterparknordsee%7C223281066124%7Ce&gclid=EAIaIQobChMItMSFo9Xp4QIVTOR3Ch3NwQoVEAAYASABEgJ_cPD_BwE*"
+    ],
+    "disallowed": [
+      "*/preview/",
+      "*/ajax/",
+      "/de-de/searchbis/",
+      "/de-de/product/reviewsajax",
+      "/de-de/search-tab-photos_pop",
+      "/de-de/search/ajax?type=result",
+      "/de-de/*?*"
+    ]
+  }
 }

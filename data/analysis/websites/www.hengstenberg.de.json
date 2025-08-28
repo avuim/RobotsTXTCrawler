@@ -1,10 +1,50 @@
 {
   "domain": "www.hengstenberg.de",
   "normalizedDomain": "www.hengstenberg.de",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\nDisallow: /apps/\r\nDisallow: /captcha/\r\nDisallow: /cms/\r\nDisallow: /data/\r\nDisallow: /extern/\r\nDisallow: /int/\r\nDisallow: /test/\r\nDisallow: /upload/\r\nDisallow: /usage/\r\nDisallow: /vendor/\r\nSitemap: https://www.hengstenberg.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/apps/",
+        "/captcha/",
+        "/cms/",
+        "/data/",
+        "/extern/",
+        "/int/",
+        "/test/",
+        "/upload/",
+        "/usage/",
+        "/vendor/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/apps/",
+      "/captcha/",
+      "/cms/",
+      "/data/",
+      "/extern/",
+      "/int/",
+      "/test/",
+      "/upload/",
+      "/usage/",
+      "/vendor/"
+    ]
+  }
 }

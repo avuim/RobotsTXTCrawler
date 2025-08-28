@@ -1,7 +1,115 @@
 {
   "domain": "www.capital.de",
   "normalizedDomain": "www.capital.de",
+  "robotsTxt": "User-agent: msnbot-media/1.1\nDisallow: /\n\nUser-agent: msnbot-media/2.0b\nDisallow: /\n\nUser-agent: scrapy\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: proximic\nDisallow: /*&ampshare=*\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: *\nDisallow: /action/\nDisallow: /sn/\nDisallow: /elastic/\nDisallow: /search?\nDisallow: /p-api/\nDisallow: /p-user/\n\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/action/",
+        "/sn/",
+        "/elastic/",
+        "/search?",
+        "/p-api/",
+        "/p-user/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "msnbot-media/1.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "msnbot-media/2.0b",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/*&ampshare=*"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 10,
+    "allowedBots": 1,
+    "disallowedBots": 9,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "msnbot-media/1.1",
       "allowed": false
@@ -20,7 +128,7 @@
     },
     {
       "name": "proximic",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
@@ -41,10 +149,17 @@
     {
       "name": "Google-Extended",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/action/",
+      "/sn/",
+      "/elastic/",
+      "/search?",
+      "/p-api/",
+      "/p-user/"
+    ]
+  }
 }

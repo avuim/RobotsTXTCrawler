@@ -1,10 +1,57 @@
 {
   "domain": "www.livenation.de",
   "normalizedDomain": "www.livenation.de",
+  "robotsTxt": "# robots.txt for www.livenation.de\r\nUser-agent: *\r\nDisallow: /myln\r\nDisallow: /subscription\r\nDisallow: /account\r\nDisallow: /culture\r\nDisallow: /health\r\nDisallow: /login\r\nDisallow: /register\r\nUser-agent: msnbot\r\nCrawl-delay: 2",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/myln",
+        "/subscription",
+        "/account",
+        "/culture",
+        "/health",
+        "/login",
+        "/register"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "msnbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
+    },
+    {
+      "name": "msnbot",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/myln",
+      "/subscription",
+      "/account",
+      "/culture",
+      "/health",
+      "/login",
+      "/register"
+    ]
+  }
 }

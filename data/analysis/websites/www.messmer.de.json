@@ -1,10 +1,42 @@
 {
   "domain": "www.messmer.de",
   "normalizedDomain": "www.messmer.de",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\nDisallow: /*?\r\nDisallow: /*account/\r\nDisallow: /*checkout/\r\nDisallow: /*widgets/\r\nDisallow: /*navigation/\r\nDisallow: /*bundles/\r\nSitemap: https://www.messmer.de/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*?",
+        "/*account/",
+        "/*checkout/",
+        "/*widgets/",
+        "/*navigation/",
+        "/*bundles/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*?",
+      "/*account/",
+      "/*checkout/",
+      "/*widgets/",
+      "/*navigation/",
+      "/*bundles/"
+    ]
+  }
 }

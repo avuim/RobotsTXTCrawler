@@ -1,14 +1,47 @@
 {
   "domain": "www.paradisi.de",
   "normalizedDomain": "www.paradisi.de",
+  "robotsTxt": "User-agent: *\nDisallow: /weiter.php\nUser-agent: Googlebot\nDisallow: /*PHPSESSID",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/weiter.php"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/*PHPSESSID"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Googlebot",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/weiter.php"
+    ]
+  }
 }

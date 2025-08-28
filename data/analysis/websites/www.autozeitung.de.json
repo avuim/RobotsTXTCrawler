@@ -1,10 +1,91 @@
 {
   "domain": "www.autozeitung.de",
   "normalizedDomain": "www.autozeitung.de",
+  "robotsTxt": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n#\n# For syntax checking, see:\n# http://www.frobee.com/robots-txt-check\n\nUser-agent: *\n# Directories\nDisallow: /includes/\nDisallow: /misc/\nDisallow: /modules/\nDisallow: /profiles/\nDisallow: /scripts/\nDisallow: /themes/\nDisallow: /taxonomy/\n# Files\nDisallow: /CHANGELOG.txt\nDisallow: /cron.php\nDisallow: /INSTALL.mysql.txt\nDisallow: /INSTALL.pgsql.txt\nDisallow: /INSTALL.sqlite.txt\nDisallow: /install.php\nDisallow: /INSTALL.txt\nDisallow: /LICENSE.txt\nDisallow: /MAINTAINERS.txt\nDisallow: /update.php\nDisallow: /UPGRADE.txt\nDisallow: /xmlrpc.php\n# Paths (clean URLs)\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips/\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /user/register/\nDisallow: /user/password/\nDisallow: /user/login/\nDisallow: /user/logout/\n# Paths (no clean URLs)\nDisallow: /?q=admin/\nDisallow: /?q=comment/reply/\nDisallow: /?q=filter/tips/\nDisallow: /?q=node/add/\nDisallow: /?q=search/\nDisallow: /?q=user/password/\nDisallow: /?q=user/register/\nDisallow: /?q=user/login/\nDisallow: /?q=user/logout/\nDisallow: /*?type=archive*\nDisallow: /?exclude*=*\nDisallow: /*&exclude*=*\n\nUser-agent: Google\nAllow: /modules/system/system.messages.css\nAllow: /modules/system/system.theme.css\nAllow: /modules/poll/poll.css\nAllow: /modules/search/search.css\nAllow: /misc/jquery.once.js\nAllow: /misc/drupal.js\nAllow: /misc/ajax.js\nAllow: /misc/progress.js\n\nUser-agent: Flipboard\nDisallow:\n\nSitemap: https://www.autozeitung.de/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/includes/",
+        "/misc/",
+        "/modules/",
+        "/profiles/",
+        "/scripts/",
+        "/themes/",
+        "/taxonomy/",
+        "/CHANGELOG.txt",
+        "/cron.php",
+        "/INSTALL.mysql.txt",
+        "/INSTALL.pgsql.txt",
+        "/INSTALL.sqlite.txt",
+        "/install.php",
+        "/INSTALL.txt",
+        "/LICENSE.txt",
+        "/MAINTAINERS.txt",
+        "/update.php",
+        "/UPGRADE.txt",
+        "/xmlrpc.php",
+        "/admin/",
+        "/comment/reply/",
+        "/filter/tips/",
+        "/node/add/",
+        "/search/",
+        "/user/register/",
+        "/user/password/",
+        "/user/login/",
+        "/user/logout/",
+        "/?q=admin/",
+        "/?q=comment/reply/",
+        "/?q=filter/tips/",
+        "/?q=node/add/",
+        "/?q=search/",
+        "/?q=user/password/",
+        "/?q=user/register/",
+        "/?q=user/login/",
+        "/?q=user/logout/",
+        "/*?type=archive*",
+        "/?exclude*=*",
+        "/*&exclude*=*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/modules/system/system.messages.css",
+          "/modules/system/system.theme.css",
+          "/modules/poll/poll.css",
+          "/modules/search/search.css",
+          "/misc/jquery.once.js",
+          "/misc/drupal.js",
+          "/misc/ajax.js",
+          "/misc/progress.js"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flipboard",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 1,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Google",
@@ -14,5 +95,50 @@
       "name": "Flipboard",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/includes/",
+      "/misc/",
+      "/modules/",
+      "/profiles/",
+      "/scripts/",
+      "/themes/",
+      "/taxonomy/",
+      "/CHANGELOG.txt",
+      "/cron.php",
+      "/INSTALL.mysql.txt",
+      "/INSTALL.pgsql.txt",
+      "/INSTALL.sqlite.txt",
+      "/install.php",
+      "/INSTALL.txt",
+      "/LICENSE.txt",
+      "/MAINTAINERS.txt",
+      "/update.php",
+      "/UPGRADE.txt",
+      "/xmlrpc.php",
+      "/admin/",
+      "/comment/reply/",
+      "/filter/tips/",
+      "/node/add/",
+      "/search/",
+      "/user/register/",
+      "/user/password/",
+      "/user/login/",
+      "/user/logout/",
+      "/?q=admin/",
+      "/?q=comment/reply/",
+      "/?q=filter/tips/",
+      "/?q=node/add/",
+      "/?q=search/",
+      "/?q=user/password/",
+      "/?q=user/register/",
+      "/?q=user/login/",
+      "/?q=user/logout/",
+      "/*?type=archive*",
+      "/?exclude*=*",
+      "/*&exclude*=*"
+    ]
+  }
 }

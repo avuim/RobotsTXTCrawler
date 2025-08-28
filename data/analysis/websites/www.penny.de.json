@@ -1,10 +1,28 @@
 {
   "domain": "www.penny.de",
   "normalizedDomain": "www.penny.de",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\n\r\nSitemap: https://www.penny.de/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

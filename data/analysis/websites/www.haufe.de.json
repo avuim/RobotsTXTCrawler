@@ -1,10 +1,176 @@
 {
   "domain": "www.haufe.de",
   "normalizedDomain": "www.haufe.de",
-  "bots": [
+  "robotsTxt": "User-agent: Slurp\nDisallow: /image/\n\nUser-agent: firefly\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: vebidoo\nDisallow: / \n\nUser-agent: unido-bot\nDisallow: /\n\nUser-agent: TurnitinBot\nDisallow: /\n\n# ChatGP Bots\nUser-agent: ChatGPT-User\nDisallow: /id/*\n\nUser-agent: GPTBot\nDisallow: /id/*\n\n# Perplexity Bots\nUser-agent: PerplexityBot\nDisallow: /id/*\n\nUser-agent: Perplexity‑User\t\nDisallow: /id/*\n\n# Claude Bots\nUser-agent: ClaudeBot\nDisallow: /id/*\n\nUser-agent: Claude-User\nDisallow: /id/*\n\n# Meta Bot\nUser-agent: meta-externalagent\nDisallow: /id/*\n\n# Google Bots\n# Crawler for Google's Bard and Vertex AI\nUser-agent: Google-Extended\nDisallow: /id/*\n\nUser-agent: Google-CloudVertexBot\nDisallow: /id/*\n\nUser-agent: *\nAllow: /lazyloading/*\nAllow: /forms/kontakt.html$\nDisallow: /forms/*\nDisallow: /suche/*\nDisallow: *emos_*\n\n#sitemap:\nSitemap: https://www.haufe.de/siteindex.xml\nSitemap: https://www.haufe.de/www.haufe.de.xml\nSitemap: https://www.haufe.de/hr/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/lazyloading/*",
+        "/forms/kontakt.html$"
+      ],
+      "disallowed": [
+        "/forms/*",
+        "/suche/*",
+        "*emos_*"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "Slurp",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/image/"
+        ]
+      }
+    },
+    {
+      "name": "firefly",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "vebidoo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "unido-bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/id/*"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/id/*"
+        ]
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/id/*"
+        ]
+      }
+    },
+    {
+      "name": "Perplexity‑User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/id/*"
+        ]
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/id/*"
+        ]
+      }
+    },
+    {
+      "name": "Claude-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/id/*"
+        ]
+      }
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/id/*"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/id/*"
+        ]
+      }
+    },
+    {
+      "name": "Google-CloudVertexBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/id/*"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 15,
+    "allowedBots": 10,
+    "disallowedBots": 5,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
     },
     {
       "name": "firefly",
@@ -28,43 +194,50 @@
     },
     {
       "name": "ChatGPT-User",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "PerplexityBot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Perplexity‑User",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "ClaudeBot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Claude-User",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "meta-externalagent",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Google-Extended",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Google-CloudVertexBot",
-      "allowed": false
-    },
-    {
-      "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/lazyloading/*",
+      "/forms/kontakt.html$"
+    ],
+    "disallowed": [
+      "/forms/*",
+      "/suche/*",
+      "*emos_*"
+    ]
+  }
 }

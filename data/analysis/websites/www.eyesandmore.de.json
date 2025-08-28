@@ -1,10 +1,96 @@
 {
   "domain": "www.eyesandmore.de",
   "normalizedDomain": "www.eyesandmore.de",
+  "robotsTxt": "# ( ___( \\/ ( ___/ __)   _| |_   (  \\/  (  _  (  _ ( ___)\r\n#  )__) \\  / )__)\\__ \\  (_   _)   )    ( )(_)( )   /)__) \r\n# (____)(__)(____(___/    |_|    (_/\\/\\_(_____(_)\\_(____)\r\n# @Competition, thanks for visiting\r\n# Only friendly fire here, hope you do the same \r\n# (⌐O_O) >> ⌐O-O > ⌐■-■ >> (⌐■_■)\r\n\r\nUser-agent: *\r\n\r\n# SFCC Paths - Check Pipelines in URL Rules Setup\r\nDisallow: /warenkorb/*\r\nDisallow: /pagemeta-*\r\nDisallow: /glassbook-hidden*\r\nDisallow: /checkout*\r\nDisallow: */TryInStore-AddProduct*\r\nDisallow: /order*\r\n\r\n\r\n# Parameters\r\nDisallow: *?fdid=*\r\nDisallow: *?pid=*\r\nDisallow: *?hideCategory=*\r\nDisallow: /search*\r\nDisallow: *?cgid=*\r\nDisallow: *Login-Show?*\r\nDisallow: */demandware.store/*\r\nDisallow: *?prefv1=*\r\nDisallow: *?prefn1=*\r\nDisallow: *?srule=*\r\nDisallow: *?pmax=*\r\nDisallow: *?src=*\r\nDisallow: *?prefv2=*\r\nDisallow: *?prefn2=*\r\nDisallow: *?prefv3=*\r\nDisallow: *?prefn3=*\r\nDisallow: *?prefv4=*\r\nDisallow: *?prefn4=*\r\nDisallow: *?prefv5=*\r\nDisallow: *?prefn5=*\r\nDisallow: *?prefv6=*\r\nDisallow: *?prefn6=*\r\nDisallow: *?pmin=*\r\nDisallow: *?start=*\r\nDisallow: *Promotion-XML*\r\nAllow: *?start=*sz=24*\r\n\r\n# hier adres van index sitemap\r\nSitemap: https://www.eyesandmore.de/sitemap_index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "*?start=*sz=24*"
+      ],
+      "disallowed": [
+        "/warenkorb/*",
+        "/pagemeta-*",
+        "/glassbook-hidden*",
+        "/checkout*",
+        "*/TryInStore-AddProduct*",
+        "/order*",
+        "*?fdid=*",
+        "*?pid=*",
+        "*?hideCategory=*",
+        "/search*",
+        "*?cgid=*",
+        "*Login-Show?*",
+        "*/demandware.store/*",
+        "*?prefv1=*",
+        "*?prefn1=*",
+        "*?srule=*",
+        "*?pmax=*",
+        "*?src=*",
+        "*?prefv2=*",
+        "*?prefn2=*",
+        "*?prefv3=*",
+        "*?prefn3=*",
+        "*?prefv4=*",
+        "*?prefn4=*",
+        "*?prefv5=*",
+        "*?prefn5=*",
+        "*?prefv6=*",
+        "*?prefn6=*",
+        "*?pmin=*",
+        "*?start=*",
+        "*Promotion-XML*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "*?start=*sz=24*"
+    ],
+    "disallowed": [
+      "/warenkorb/*",
+      "/pagemeta-*",
+      "/glassbook-hidden*",
+      "/checkout*",
+      "*/TryInStore-AddProduct*",
+      "/order*",
+      "*?fdid=*",
+      "*?pid=*",
+      "*?hideCategory=*",
+      "/search*",
+      "*?cgid=*",
+      "*Login-Show?*",
+      "*/demandware.store/*",
+      "*?prefv1=*",
+      "*?prefn1=*",
+      "*?srule=*",
+      "*?pmax=*",
+      "*?src=*",
+      "*?prefv2=*",
+      "*?prefn2=*",
+      "*?prefv3=*",
+      "*?prefn3=*",
+      "*?prefv4=*",
+      "*?prefn4=*",
+      "*?prefv5=*",
+      "*?prefn5=*",
+      "*?prefv6=*",
+      "*?prefn6=*",
+      "*?pmin=*",
+      "*?start=*",
+      "*Promotion-XML*"
+    ]
+  }
 }

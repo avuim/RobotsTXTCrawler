@@ -1,10 +1,34 @@
 {
   "domain": "www.bildderfrau.de",
   "normalizedDomain": "www.bildderfrau.de",
+  "robotsTxt": "User-agent: *\nDisallow: /api/infinite\nDisallow: /api/json\nSitemap: https://www.bildderfrau.de/shared/sitemap",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/api/infinite",
+        "/api/json"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/api/infinite",
+      "/api/json"
+    ]
+  }
 }

@@ -1,5 +1,28 @@
 {
   "domain": "www.warnermusic.de",
   "normalizedDomain": "www.warnermusic.de",
-  "bots": []
+  "robotsTxt": "# www.robotstxt.org/\r\n# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449\r\n\r\nUser-agent: *\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

@@ -1,10 +1,38 @@
 {
   "domain": "www.upday.com",
   "normalizedDomain": "www.upday.com",
+  "robotsTxt": "User-agent: *\nDisallow: /__acc/\nDisallow: /_cdf/\nDisallow: /_variant/\nDisallow: /a8f4d8cd95e164917035b64b867a45dd\nSitemap: https://www.upday.com/sitemap-news.xml.gz\nSitemap: https://www.upday.com/sitemap-articles-index.xml.gz\nSitemap: https://www.upday.com/sitemap-stories-latest.xml.gz\nSitemap: https://www.upday.com/sitemap-topics.xml.gz\nSitemap: https://www.upday.com/sitemap-news.xml.gz",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/__acc/",
+        "/_cdf/",
+        "/_variant/",
+        "/a8f4d8cd95e164917035b64b867a45dd"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/__acc/",
+      "/_cdf/",
+      "/_variant/",
+      "/a8f4d8cd95e164917035b64b867a45dd"
+    ]
+  }
 }

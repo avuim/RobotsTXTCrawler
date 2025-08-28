@@ -1,30 +1,180 @@
 {
   "domain": "www.nike.com",
   "normalizedDomain": "www.nike.com",
-  "bots": [
-    {
-      "name": "*",
-      "allowed": false
-    },
+  "robotsTxt": "# www.nike.com robots.txt -- just crawl it.\r\n\r\nUser-agent: *\r\n\r\nDisallow: */member/inbox\r\nDisallow: */member/settings\r\nDisallow: */p/\r\nDisallow: */checkout/\r\nDisallow: /*.swf$\r\nDisallow: /*.pdf$\r\nDisallow: /pdf/\r\nDisallow: /ar/help/\r\nDisallow: /br/help/\r\nDisallow: /hk/help/\r\nDisallow: /uy/help/\r\nDisallow: /xf/help/\r\nDisallow: /xl/help/\r\nDisallow: /xm/help/\r\nDisallow: /fragments/recommendations-carousel\r\nDisallow: /kr/en$\r\nDisallow: /kr/en/\r\n\r\nUser-agent: Baiduspider\r\nAllow: /cn$\r\nAllow: /cn/\r\nAllow: /CN$\r\nAllow: /CN/\r\nAllow: /assets/\r\nAllow: /static/\r\nAllow: /styleguide/\r\nDisallow: */w?q=\r\nDisallow: */w/?q=\r\nDisallow: /\r\n \r\nUser-agent: HaoSouSpider\r\nAllow: /cn$\r\nAllow: /cn/\r\nAllow: /CN$\r\nAllow: /CN/\r\nAllow: /assets/\r\nAllow: /static/\r\nAllow: /styleguide/\r\nDisallow: */w?q=\r\nDisallow: */w/?q=\r\nDisallow: /\r\n\r\nUser-agent: Sogou web spider\r\nAllow: /cn$\r\nAllow: /cn/\r\nAllow: /CN$\r\nAllow: /CN/\r\nAllow: /assets/\r\nAllow: /static/\r\nAllow: /styleguide/\r\nDisallow: */w?q=\r\nDisallow: */w/?q=\r\nDisallow: /\r\n\r\nUser-agent: Sogou inst spider\r\nAllow: /cn$\r\nAllow: /cn/\r\nAllow: /CN$\r\nAllow: /CN/\r\nAllow: /assets/\r\nAllow: /static/\r\nAllow: /styleguide/\r\nDisallow: */w?q=\r\nDisallow: */w/?q=\r\nDisallow: /\r\n\r\nUser-agent: Sogou spider2\r\nAllow: /cn$\r\nAllow: /cn/\r\nAllow: /CN$\r\nAllow: /CN/\r\nAllow: /assets/\r\nAllow: /static/\r\nAllow: /styleguide/\r\nDisallow: */w?q=\r\nDisallow: */w/?q=\r\nDisallow: /\r\n\r\nSitemap: https://www.nike.com/sitemap-us-help.xml\r\nSitemap: https://www.nike.com/sitemap-v2-landingpage-index.xml\r\nSitemap: https://www.nike.com/sitemap-v2-pdp-index.xml\r\nSitemap: https://www.nike.com/sitemap-v2-snkrsweb-index.xml\r\nSitemap: https://www.nike.com/sitemap-v2-gridwall-index.xml\r\nSitemap: https://www.nike.com/sitemap-v2-article-index.xml\r\nSitemap: https://www.nike.com/sitemap-locator-index.xml\r\n\r\n#                                                                                                    \r\n#                 ``                                                                        ```.`    \r\n#               `+/                                                                 ``.-/+o+:-.      \r\n#             `/mo                                                          ``.-:+syhdhs/-`          \r\n#            -hMd                                                    `..:+oyhmNNmds/-`               \r\n#          `oNMM/                                            ``.-/oyhdmMMMMNdy+:.                    \r\n#         .hMMMM-                                     `.-/+shdmNMMMMMMNdy+:.                         \r\n#        :mMMMMM+                             `.-:+sydmNMMMMMMMMMNmho:.`                             \r\n#       :NMMMMMMN:                    `.-:/oyhmmNMMMMMMMMMMMNmho:.`                                  \r\n#      .NMMMMMMMMNy:`          `.-/oshdmNMMMMMMMMMMMMMMMmhs/-`                                       \r\n#      hMMMMMMMMMMMMmhysooosyhdmNMMMMMMMMMMMMMMMMMMmds/-`                                            \r\n#     .MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdy+-.`                                                \r\n#     -MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdy+-.`                                                     \r\n#     `NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmyo:.`                                                          \r\n#      /NMMMMMMMMMMMMMMMMMMMMMMMmho:.`                                                               \r\n#       .yNMMMMMMMMMMMMMMMMmhs/.`                                                                    \r\n#         ./shdmNNmmdhyo/-``                                                                         \r\n#              `````                 \r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "*/member/inbox",
+        "*/member/settings",
+        "*/p/",
+        "*/checkout/",
+        "/*.swf$",
+        "/*.pdf$",
+        "/pdf/",
+        "/ar/help/",
+        "/br/help/",
+        "/hk/help/",
+        "/uy/help/",
+        "/xf/help/",
+        "/xl/help/",
+        "/xm/help/",
+        "/fragments/recommendations-carousel",
+        "/kr/en$",
+        "/kr/en/"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "Baiduspider",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/cn$",
+          "/cn/",
+          "/CN$",
+          "/CN/",
+          "/assets/",
+          "/static/",
+          "/styleguide/"
+        ],
+        "disallowed": [
+          "*/w?q=",
+          "*/w/?q="
+        ]
+      }
     },
     {
       "name": "HaoSouSpider",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/cn$",
+          "/cn/",
+          "/CN$",
+          "/CN/",
+          "/assets/",
+          "/static/",
+          "/styleguide/"
+        ],
+        "disallowed": [
+          "*/w?q=",
+          "*/w/?q="
+        ]
+      }
     },
     {
       "name": "Sogou web spider",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/cn$",
+          "/cn/",
+          "/CN$",
+          "/CN/",
+          "/assets/",
+          "/static/",
+          "/styleguide/"
+        ],
+        "disallowed": [
+          "*/w?q=",
+          "*/w/?q="
+        ]
+      }
     },
     {
       "name": "Sogou inst spider",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/cn$",
+          "/cn/",
+          "/CN$",
+          "/CN/",
+          "/assets/",
+          "/static/",
+          "/styleguide/"
+        ],
+        "disallowed": [
+          "*/w?q=",
+          "*/w/?q="
+        ]
+      }
     },
     {
       "name": "Sogou spider2",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/cn$",
+          "/cn/",
+          "/CN$",
+          "/CN/",
+          "/assets/",
+          "/static/",
+          "/styleguide/"
+        ],
+        "disallowed": [
+          "*/w?q=",
+          "*/w/?q="
+        ]
+      }
     }
-  ]
+  ],
+  "stats": {
+    "totalSpecificBots": 5,
+    "allowedBots": 0,
+    "disallowedBots": 5,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "HaoSouSpider",
+      "allowed": false
+    },
+    {
+      "name": "Sogou web spider",
+      "allowed": false
+    },
+    {
+      "name": "Sogou inst spider",
+      "allowed": false
+    },
+    {
+      "name": "Sogou spider2",
+      "allowed": false
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "*/member/inbox",
+      "*/member/settings",
+      "*/p/",
+      "*/checkout/",
+      "/*.swf$",
+      "/*.pdf$",
+      "/pdf/",
+      "/ar/help/",
+      "/br/help/",
+      "/hk/help/",
+      "/uy/help/",
+      "/xf/help/",
+      "/xl/help/",
+      "/xm/help/",
+      "/fragments/recommendations-carousel",
+      "/kr/en$",
+      "/kr/en/"
+    ]
+  }
 }

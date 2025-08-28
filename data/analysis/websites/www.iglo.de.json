@@ -1,10 +1,40 @@
 {
   "domain": "www.iglo.de",
   "normalizedDomain": "www.iglo.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /Home/\r\nDisallow: /data/\r\nDisallow: /preview/\r\nDisallow: /search?*\r\nDisallow: /sitecore/\r\n\r\nSitemap: https://www.iglo.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/Home/",
+        "/data/",
+        "/preview/",
+        "/search?*",
+        "/sitecore/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/Home/",
+      "/data/",
+      "/preview/",
+      "/search?*",
+      "/sitecore/"
+    ]
+  }
 }

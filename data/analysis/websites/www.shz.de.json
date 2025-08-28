@@ -1,13 +1,121 @@
 {
   "domain": "www.shz.de",
   "normalizedDomain": "www.shz.de",
-  "bots": [
+  "robotsTxt": "User-Agent: Mediapartners-Google\nDisallow:\n\nUser-Agent: *\nDisallow: /pagebuilding/\nDisallow: /new-articles/\nDisallow: /files/\nDisallow: /cre-1.0/tracking/\nDisallow:\n\nSitemap: https://www.shz.de/sitemap.xml\nSitemap: https://www.shz.de/sitemap/googleNewsList.xml\nSitemap: https://www.shz.de/sitemap/artikel/sitemap-current.xml\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: OAI-SearchBot\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\n\n# Legal notice: shz.de expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).\n# The use of robots or other automated means to access shz.de or collect or mine data without the express permission of shz.de is strictly prohibited.\n# If you would like to apply for permission to crawl shz.de, collect or use data, please contact info+nutzungsrecht@noz-digital.de\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/pagebuilding/",
+        "/new-articles/",
+        "/files/",
+        "/cre-1.0/tracking/"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "Mediapartners-Google",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 11,
+    "allowedBots": 0,
+    "disallowedBots": 11,
+    "hasGlobalAllow": false
+  },
+  "bots": [
+    {
+      "name": "*",
       "allowed": false
     },
     {
-      "name": "*",
+      "name": "Mediapartners-Google",
       "allowed": false
     },
     {
@@ -50,5 +158,14 @@
       "name": "Bytespider",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/pagebuilding/",
+      "/new-articles/",
+      "/files/",
+      "/cre-1.0/tracking/"
+    ]
+  }
 }

@@ -1,10 +1,28 @@
 {
   "domain": "www.zillertalarena.com",
   "normalizedDomain": "www.zillertalarena.com",
+  "robotsTxt": "User-Agent: *\r\n\r\n# Achtung bei livegang NICHTS mehr ändern, \"Disallow:\" passt so und erlaubt den zugriff des crawlers!\r\nDisallow:\r\n\r\nSitemap: https://www.zillertalarena.com/sitemap.xml\r\nSitemap: https://www.zillertalarena.com/en/sitemap.xml\r\nSitemap: https://www.zillertalarena.com/nl/sitemap.xml\r\n\r\n#              ___.                                              .__\r\n#__  _  __ ____\\_ |__             ___________  ____  ______ _____|__| ____    ____\r\n#\\ \\/ \\/ // __ \\| __ \\   ______ _/ ___\\_  __ \\/  _ \\/  ___//  ___/  |/    \\  / ___\\\r\n# \\     /\\  ___/| \\_\\ \\ /_____/ \\  \\___|  | \\(  <_> )___ \\ \\___ \\|  |   |  \\/ /_/  >\r\n#  \\/\\_/  \\___  >___  /          \\___  >__|   \\____/____  >____  >__|___|  /\\___  /\r\n#             \\/    \\/               \\/                 \\/     \\/        \\//_____/\r\n#\r\n# why you are looking at this? please see https://www.web-crossing.com\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

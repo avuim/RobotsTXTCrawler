@@ -1,6 +1,37 @@
 {
   "domain": "www.disney.de",
   "normalizedDomain": "www.disney.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: \r\n\r\nSitemap: https://www.disney.de/sitemap.xml\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nUser-agent: Google-Extended\r\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 0,
+    "disallowedBots": 2,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
@@ -14,5 +45,9 @@
       "name": "Google-Extended",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

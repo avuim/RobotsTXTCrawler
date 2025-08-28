@@ -1,10 +1,40 @@
 {
   "domain": "www.sportdeutschland.tv",
   "normalizedDomain": "www.sportdeutschland.tv",
+  "robotsTxt": "User-agent: *\nDisallow: /s/*\nDisallow: /suche/*\nDisallow: /suche?*\nDisallow: /play/*\nDisallow: */aufzeichnung-vom-*\nAllow: /\n\nSitemap: https://sportdeutschland.tv/r/sitemap_index.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/s/*",
+        "/suche/*",
+        "/suche?*",
+        "/play/*",
+        "*/aufzeichnung-vom-*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/s/*",
+      "/suche/*",
+      "/suche?*",
+      "/play/*",
+      "*/aufzeichnung-vom-*"
+    ]
+  }
 }

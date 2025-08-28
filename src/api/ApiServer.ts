@@ -121,9 +121,28 @@ export class ApiServer {
               }
             }
             
-            // Kombiniere Bot-Statistiken mit Detail-Informationen
+            // Berechne aggregierte Werte aus monthlyStats
+            const totalWebsites = Object.values(botData.monthlyStats).reduce(
+              (sum: number, stats: any) => sum + (stats.totalWebsites || 0), 0
+            );
+            const allowedWebsites = Object.values(botData.monthlyStats).reduce(
+              (sum: number, stats: any) => sum + (stats.allowedWebsites || 0), 0
+            );
+            const disallowedWebsites = Object.values(botData.monthlyStats).reduce(
+              (sum: number, stats: any) => sum + (stats.disallowedWebsites || 0), 0
+            );
+            
+            // Kombiniere Bot-Statistiken mit Detail-Informationen und aggregierten Werten
             const response = {
-              ...botData,
+              name: botName,
+              category: botData.category,
+              owner: botData.owner,
+              description: botData.description,
+              website: botData.website,
+              totalWebsites,
+              allowedWebsites,
+              disallowedWebsites,
+              monthlyStats: botData.monthlyStats,
               details: botDetails
             };
             
@@ -203,37 +222,63 @@ export class ApiServer {
           const data = await fs.readFile(filePath, 'utf-8');
           const websiteData = JSON.parse(data);
           
+          // Debug: Log the raw website data
+          console.log(`DEBUG: Raw website data for ${domain}:`, JSON.stringify(websiteData, null, 2));
+          
           // Berechne Bot-Statistiken aus dem bots Array
           const bots = websiteData.bots || [];
           const totalBots = bots.length;
           const allowedBots = bots.filter((bot: any) => bot.allowed === true).length;
           const disallowedBots = bots.filter((bot: any) => bot.allowed === false).length;
           
-          // Erstelle separate Arrays für erlaubte und verbotene Bots
-          const allowedBotNames = bots
-            .filter((bot: any) => bot.allowed === true)
-            .map((bot: any) => bot.name);
-          const disallowedBotNames = bots
-            .filter((bot: any) => bot.allowed === false)
-            .map((bot: any) => bot.name);
+          // Separate allowed and disallowed bots for frontend
+          const allowedBotNames = bots.filter((bot: any) => bot.allowed === true).map((bot: any) => bot.name);
+          const disallowedBotNames = bots.filter((bot: any) => bot.allowed === false).map((bot: any) => bot.name);
           
-          // Transformiere in das erwartete Frontend-Format
+          // Erstelle die neue Datenstruktur
+          const newGlobalRules = websiteData.globalRules || {
+            paths: websiteData.paths || { allowed: [], disallowed: [] }
+          };
+          
+          const newSpecificBots = websiteData.specificBots || bots.filter((bot: any) => bot.name !== '*').map((bot: any) => ({
+            name: bot.name,
+            allowed: bot.allowed,
+            paths: bot.paths || { allowed: [], disallowed: [] }
+          }));
+          
+          const newStats = websiteData.stats || {
+            totalSpecificBots: bots.filter((bot: any) => bot.name !== '*').length,
+            allowedBots: bots.filter((bot: any) => bot.name !== '*' && bot.allowed === true).length,
+            disallowedBots: bots.filter((bot: any) => bot.name !== '*' && bot.allowed === false).length,
+            hasGlobalAllow: bots.some((bot: any) => bot.name === '*' && bot.allowed === true)
+          };
+
+          // Transformiere in das erwartete Frontend-Format (mit neuer und Legacy-Struktur)
           const response = {
             domain: websiteData.domain || domain,
             robotsTxt: websiteData.robotsTxt || '',
+            
+            // Neue Datenstruktur
+            globalRules: newGlobalRules,
+            specificBots: newSpecificBots,
+            stats: newStats,
+            
+            // Legacy-Format für Rückwärtskompatibilität
             totalBots,
             allowedBots,
             disallowedBots,
-            bots: {
-              allowed: allowedBotNames,
-              disallowed: disallowedBotNames
-            },
-            paths: {
+            bots: bots,  // Sende das komplette bots Array
+            paths: websiteData.paths || {
               allowed: [],
               disallowed: []
             }
           };
           
+          // Debug: Log the response
+          console.log(`DEBUG: Final response for ${domain}:`, JSON.stringify(response, null, 2));
+          
+          // Stelle sicher, dass die Antwort korrekt strukturiert ist
+          res.setHeader('Content-Type', 'application/json');
           res.json(response);
         } else {
           res.status(404).json({ error: `Website "${domain}" nicht gefunden` });

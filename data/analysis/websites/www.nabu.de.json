@@ -1,10 +1,70 @@
 {
   "domain": "www.nabu.de",
   "normalizedDomain": "www.nabu.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /modules/\r\nAllow: /modules/jscalendar/calendar.js\r\nAllow: /modules/jscalendar/lang/calendar-de.js\r\nAllow: /modules/jscalendar/calendar-setup.js\r\nAllow: /modules/jscalendar/calendar-blue.css\r\nAllow: /modules/piwik/\r\nAllow: /modules/vogelarten/\r\nDisallow: /imperia/temp/\r\nDisallow: /content-container/\r\nDisallow: /presse/pressemitteilungen/index.html?\r\nDisallow: /presse/pressemitteilungen/index.php?\r\nDisallow: /presse/pressemitteilungen/?\r\nDisallow: /natur-und-landschaft/natur-erleben/termine/?\r\nDisallow: /naturerleben/\r\nDisallow: /testbereich/\r\nDisallow: /include/\r\nDisallow: /mobil/\r\nDisallow: /untermenue/\r\nDisallow: /info/linkkatalog/",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/modules/jscalendar/calendar.js",
+        "/modules/jscalendar/lang/calendar-de.js",
+        "/modules/jscalendar/calendar-setup.js",
+        "/modules/jscalendar/calendar-blue.css",
+        "/modules/piwik/",
+        "/modules/vogelarten/"
+      ],
+      "disallowed": [
+        "/modules/",
+        "/imperia/temp/",
+        "/content-container/",
+        "/presse/pressemitteilungen/index.html?",
+        "/presse/pressemitteilungen/index.php?",
+        "/presse/pressemitteilungen/?",
+        "/natur-und-landschaft/natur-erleben/termine/?",
+        "/naturerleben/",
+        "/testbereich/",
+        "/include/",
+        "/mobil/",
+        "/untermenue/",
+        "/info/linkkatalog/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/modules/jscalendar/calendar.js",
+      "/modules/jscalendar/lang/calendar-de.js",
+      "/modules/jscalendar/calendar-setup.js",
+      "/modules/jscalendar/calendar-blue.css",
+      "/modules/piwik/",
+      "/modules/vogelarten/"
+    ],
+    "disallowed": [
+      "/modules/",
+      "/imperia/temp/",
+      "/content-container/",
+      "/presse/pressemitteilungen/index.html?",
+      "/presse/pressemitteilungen/index.php?",
+      "/presse/pressemitteilungen/?",
+      "/natur-und-landschaft/natur-erleben/termine/?",
+      "/naturerleben/",
+      "/testbereich/",
+      "/include/",
+      "/mobil/",
+      "/untermenue/",
+      "/info/linkkatalog/"
+    ]
+  }
 }

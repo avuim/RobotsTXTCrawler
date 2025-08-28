@@ -1,10 +1,44 @@
 {
   "domain": "www.playmobil.de",
   "normalizedDomain": "www.playmobil.de",
+  "robotsTxt": "# Crawlers Setup\r\nUser-agent: *\r\n\r\n\r\n# Parameters Category\r\n\r\nDisallow: /web-shop/?prefn1\r\nDisallow: /*prefn2\r\nDisallow: /*volume&pref\r\nDisallow: /*pmax\r\nDisallow: /*pmin\r\nDisallow: /*+\r\nDisallow: /*|\r\n\r\n\r\n\r\nAllow: / \r\n\r\nSitemap: https://www.playmobil.com/de-de/sitemap_index.xml\r\nSitemap: https://www.playmobil.com/de-at/sitemap_index.xml\r\nSitemap: https://www.playmobil.com/nl-be/sitemap_index.xml\r\nSitemap: https://www.playmobil.com/fr-be/sitemap_index.xml\r\nSitemap: https://www.playmobil.com/de-ch/sitemap_index.xml\r\nSitemap: https://www.playmobil.com/fr-ch/sitemap_index.xml\r\nSitemap: https://www.playmobil.com/da-dk/sitemap_index.xml\r\nSitemap: https://www.playmobil.com/es-es/sitemap_index.xml\r\nSitemap: https://www.playmobil.com/fr-fr/sitemap_index.xml\r\nSitemap: https://www.playmobil.com/el-gr/sitemap_index.xml\r\nSitemap: https://www.playmobil.com/hu-hu/sitemap_index.xml\r\nSitemap: https://www.playmobil.com/it-it/sitemap_index.xml\r\nSitemap: https://www.playmobil.com/nl-nl/sitemap_index.xml\r\nSitemap: https://www.playmobil.com/pl-pl/sitemap_index.xml\r\nSitemap: https://www.playmobil.com/pt-pt/sitemap_index.xml\r\nSitemap: https://www.playmobil.com/sv-se/sitemap_index.xml\r\nSitemap: https://www.playmobil.com/en-ca/sitemap_index.xml\r\nSitemap: https://www.playmobil.com/fr-ca/sitemap_index.xml\r\nSitemap: https://www.playmobil.com/es-mx/sitemap_index.xml\r\nSitemap: https://www.playmobil.com/en-us/sitemap_index.xml\r\nSitemap: https://www.playmobil.com/en-gb/sitemap_index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/web-shop/?prefn1",
+        "/*prefn2",
+        "/*volume&pref",
+        "/*pmax",
+        "/*pmin",
+        "/*+",
+        "/*|"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/web-shop/?prefn1",
+      "/*prefn2",
+      "/*volume&pref",
+      "/*pmax",
+      "/*pmin",
+      "/*+",
+      "/*|"
+    ]
+  }
 }

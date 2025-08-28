@@ -1,10 +1,104 @@
 {
   "domain": "www.uno-fluechtlingshilfe.de",
   "normalizedDomain": "www.uno-fluechtlingshilfe.de",
+  "robotsTxt": "User-agent: *\r\n\r\n\r\nDisallow: /fileadmin/_temp_/\r\nDisallow: /typo3/\r\nDisallow: /typo3/*\r\nDisallow: /typo3_src/\r\nDisallow: /typo3conf/\r\nDisallow: /clear.gif\r\nDisallow: /typo3temp/\r\nDisallow: /suchergebnis/*\r\nDisallow: /musterseiten/*\r\nDisallow: /frb_certificates/*\r\nDisallow: /logs/\r\nDisallow: /logs/*\r\nDisallow: /elaine/*\r\n\r\n\r\nAllow: /typo3conf/*.css\r\nAllow: /typo3conf/*.js\r\nAllow: /typo3conf/*.jpg\r\nAllow: /typo3conf/*.jpeg\r\nAllow: /typo3conf/*.png\r\nAllow: /typo3conf/*.webp\r\nAllow: /typo3conf/*.svg\r\nAllow: /typo3conf/*.gif\r\nAllow: /typo3conf/*.ttf\r\nAllow: /typo3conf/*.woff\r\nAllow: /typo3conf/*.woff2\r\nAllow: /typo3temp/*.css\r\nAllow: /typo3temp/*.js\r\nAllow: /typo3temp/*.gif\r\nAllow: /typo3temp/*.jpg\r\nAllow: /typo3temp/*.jpeg\r\nAllow: /typo3temp/*.png\r\nAllow: /typo3temp/*.webp\r\nAllow: /typo3temp/*.svg\r\nAllow: /typo3temp/_processed_/*\r\nAllow: /typo3temp/assets/*\r\nAllow: /fileadmin/*\r\nAllow: /uploads/media/*\r\n\r\n\r\n\r\nSitemap: https://www.uno-fluechtlingshilfe.de/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/typo3conf/*.css",
+        "/typo3conf/*.js",
+        "/typo3conf/*.jpg",
+        "/typo3conf/*.jpeg",
+        "/typo3conf/*.png",
+        "/typo3conf/*.webp",
+        "/typo3conf/*.svg",
+        "/typo3conf/*.gif",
+        "/typo3conf/*.ttf",
+        "/typo3conf/*.woff",
+        "/typo3conf/*.woff2",
+        "/typo3temp/*.css",
+        "/typo3temp/*.js",
+        "/typo3temp/*.gif",
+        "/typo3temp/*.jpg",
+        "/typo3temp/*.jpeg",
+        "/typo3temp/*.png",
+        "/typo3temp/*.webp",
+        "/typo3temp/*.svg",
+        "/typo3temp/_processed_/*",
+        "/typo3temp/assets/*",
+        "/fileadmin/*",
+        "/uploads/media/*"
+      ],
+      "disallowed": [
+        "/fileadmin/_temp_/",
+        "/typo3/",
+        "/typo3/*",
+        "/typo3_src/",
+        "/typo3conf/",
+        "/clear.gif",
+        "/typo3temp/",
+        "/suchergebnis/*",
+        "/musterseiten/*",
+        "/frb_certificates/*",
+        "/logs/",
+        "/logs/*",
+        "/elaine/*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/typo3conf/*.css",
+      "/typo3conf/*.js",
+      "/typo3conf/*.jpg",
+      "/typo3conf/*.jpeg",
+      "/typo3conf/*.png",
+      "/typo3conf/*.webp",
+      "/typo3conf/*.svg",
+      "/typo3conf/*.gif",
+      "/typo3conf/*.ttf",
+      "/typo3conf/*.woff",
+      "/typo3conf/*.woff2",
+      "/typo3temp/*.css",
+      "/typo3temp/*.js",
+      "/typo3temp/*.gif",
+      "/typo3temp/*.jpg",
+      "/typo3temp/*.jpeg",
+      "/typo3temp/*.png",
+      "/typo3temp/*.webp",
+      "/typo3temp/*.svg",
+      "/typo3temp/_processed_/*",
+      "/typo3temp/assets/*",
+      "/fileadmin/*",
+      "/uploads/media/*"
+    ],
+    "disallowed": [
+      "/fileadmin/_temp_/",
+      "/typo3/",
+      "/typo3/*",
+      "/typo3_src/",
+      "/typo3conf/",
+      "/clear.gif",
+      "/typo3temp/",
+      "/suchergebnis/*",
+      "/musterseiten/*",
+      "/frb_certificates/*",
+      "/logs/",
+      "/logs/*",
+      "/elaine/*"
+    ]
+  }
 }

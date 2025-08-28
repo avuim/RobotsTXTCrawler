@@ -122,6 +122,8 @@ export class BotAnalyzer {
           // Allow/Disallow-Zeile
           else if (currentUserAgent && (line.toLowerCase().startsWith('allow:') || line.toLowerCase().startsWith('disallow:'))) {
             const isAllowed = line.toLowerCase().startsWith('allow:');
+            const directive = isAllowed ? 'allow:' : 'disallow:';
+            const path = line.substring(directive.length).trim();
             
             // Bot in Statistiken aufnehmen, wenn noch nicht vorhanden
             if (!botStats.bots[currentUserAgent]) {
@@ -151,22 +153,72 @@ export class BotAnalyzer {
                 websites: {
                   allowed: [],
                   disallowed: []
+                },
+                directoryRules: {
+                  allowed: {},
+                  disallowed: {}
                 }
               };
             }
             
             const monthlyStats = botStats.bots[currentUserAgent].monthlyStats[currentMonth];
             
-            // Website zu den entsprechenden Listen hinzufügen, falls noch nicht vorhanden
-            if (isAllowed) {
-              if (!monthlyStats.websites.allowed.includes(domain)) {
-                monthlyStats.websites.allowed.push(domain);
-                monthlyStats.allowedWebsites++;
+            // Unterscheidung zwischen globalen und verzeichnisspezifischen Regeln
+            if (path === '/' || path === '') {
+              // Globale Regel (gesamte Website)
+              if (isAllowed) {
+                if (!monthlyStats.websites.allowed.includes(domain)) {
+                  monthlyStats.websites.allowed.push(domain);
+                  monthlyStats.allowedWebsites++;
+                }
+              } else {
+                if (!monthlyStats.websites.disallowed.includes(domain)) {
+                  monthlyStats.websites.disallowed.push(domain);
+                  monthlyStats.disallowedWebsites++;
+                }
               }
             } else {
-              if (!monthlyStats.websites.disallowed.includes(domain)) {
-                monthlyStats.websites.disallowed.push(domain);
-                monthlyStats.disallowedWebsites++;
+              // Verzeichnisspezifische Regel
+              const directoryRules = isAllowed ? monthlyStats.directoryRules.allowed : monthlyStats.directoryRules.disallowed;
+              
+              if (!directoryRules[path]) {
+                directoryRules[path] = [];
+              }
+              
+              if (!directoryRules[path].includes(domain)) {
+                directoryRules[path].push(domain);
+              }
+              
+              // Für verzeichnisspezifische Regeln: Website nur zur "allowed" Liste hinzufügen,
+              // wenn es keine globalen Disallow-Regeln gibt (d.h. der Bot ist grundsätzlich erlaubt)
+              if (!monthlyStats.websites.allowed.includes(domain) && !monthlyStats.websites.disallowed.includes(domain)) {
+                // Prüfen, ob es eine globale Disallow-Regel gibt
+                let hasGlobalDisallow = false;
+                
+                // Durch alle Zeilen der robots.txt prüfen, um globale Regeln zu finden
+                const robotsLines = content.split('\n');
+                let checkingCurrentBot = false;
+                
+                for (const robotsLine of robotsLines) {
+                  const trimmedLine = robotsLine.trim();
+                  
+                  if (trimmedLine.toLowerCase().startsWith('user-agent:')) {
+                    const lineUserAgent = trimmedLine.substring('user-agent:'.length).trim();
+                    checkingCurrentBot = (lineUserAgent === currentUserAgent);
+                  } else if (checkingCurrentBot && trimmedLine.toLowerCase().startsWith('disallow:')) {
+                    const disallowPath = trimmedLine.substring('disallow:'.length).trim();
+                    if (disallowPath === '/' || disallowPath === '') {
+                      hasGlobalDisallow = true;
+                      break;
+                    }
+                  }
+                }
+                
+                // Wenn keine globale Disallow-Regel vorhanden ist, Bot als erlaubt markieren
+                if (!hasGlobalDisallow) {
+                  monthlyStats.websites.allowed.push(domain);
+                  monthlyStats.allowedWebsites++;
+                }
               }
             }
             
@@ -281,6 +333,13 @@ export class BotAnalyzer {
             for (const [month, stats] of Object.entries(existingStats.bots[botName].monthlyStats)) {
               // Nur historische Daten (nicht den aktuellen Monat) übernehmen
               if (month !== currentMonth) {
+                // Sicherstellen, dass directoryRules existiert (für Rückwärtskompatibilität)
+                if (!stats.directoryRules) {
+                  stats.directoryRules = {
+                    allowed: {},
+                    disallowed: {}
+                  };
+                }
                 botInfo.monthlyStats[month] = stats;
               }
             }

@@ -1,10 +1,38 @@
 {
   "domain": "www.flaschenpost.de",
   "normalizedDomain": "www.flaschenpost.de",
+  "robotsTxt": "User-agent: * \r\nsitemap: https://www.flaschenpost.de/sitemap.xml\r\nDisallow: /checkout\r\nDisallow: /checkoutauth\r\nDisallow: /account\r\nDisallow: /katalog/suche\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/checkout",
+        "/checkoutauth",
+        "/account",
+        "/katalog/suche"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/checkout",
+      "/checkoutauth",
+      "/account",
+      "/katalog/suche"
+    ]
+  }
 }

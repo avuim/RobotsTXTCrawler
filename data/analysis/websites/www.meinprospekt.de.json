@@ -1,14 +1,109 @@
 {
   "domain": "www.meinprospekt.de",
   "normalizedDomain": "www.meinprospekt.de",
+  "robotsTxt": "User-agent: MJ12bot\r\nUser-agent: Pixray-Seeker\r\nDisallow: /\r\n\r\nUser-agent: bingbot\r\nUser-agent: Sogou web spider\r\nUser-agent: AhrefsBot \r\nUser-agent: proximic\r\nCrawl-delay: 2\r\n\r\nUser-agent: *\r\nDisallow: /bk/\r\nDisallow: /conf/\r\nDisallow: /ct/\r\nDisallow: /Data/\r\nDisallow: /dev/\r\nDisallow: /inc/\r\nDisallow: /iphone/\r\nDisallow: /log/\r\nDisallow: /mobileDevice/\r\nDisallow: /status/\r\nDisallow: /tom/\r\nDisallow: /searchZIP.php\r\nDisallow: /service/\r\n\r\n# BWA\r\nDisallow: /webapp/\r\nDisallow: /contentViewer/\r\n\r\nSitemap: https://www.meinprospekt.de/sitemaps/gss-sitemap.xml\r\nSitemap: https://www.meinprospekt.de/sitemaps/lss-sitemap-1.xml\r\nSitemap: https://www.meinprospekt.de/sitemaps/rlp-sitemap.xml\r\nSitemap: https://www.meinprospekt.de/sitemaps/rop-sitemap-1.xml\r\nSitemap: https://www.meinprospekt.de/sitemaps/rop-sitemap-2.xml\r\nSitemap: https://www.meinprospekt.de/sitemaps/rpp-sitemap-1.xml\r\nSitemap: https://www.meinprospekt.de/sitemaps/rpp-sitemap-2.xml\r\nSitemap: https://www.meinprospekt.de/sitemaps/clp-sitemap.xml\r\nSitemap: https://www.meinprospekt.de/sitemaps/rsd-sitemap-index.xml\r\n\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/bk/",
+        "/conf/",
+        "/ct/",
+        "/Data/",
+        "/dev/",
+        "/inc/",
+        "/iphone/",
+        "/log/",
+        "/mobileDevice/",
+        "/status/",
+        "/tom/",
+        "/searchZIP.php",
+        "/service/",
+        "/webapp/",
+        "/contentViewer/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pixray-Seeker",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pixray-Seeker",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 4,
+    "allowedBots": 0,
+    "disallowedBots": 4,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
     {
       "name": "Pixray-Seeker",
       "allowed": false
     },
     {
-      "name": "*",
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Pixray-Seeker",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/bk/",
+      "/conf/",
+      "/ct/",
+      "/Data/",
+      "/dev/",
+      "/inc/",
+      "/iphone/",
+      "/log/",
+      "/mobileDevice/",
+      "/status/",
+      "/tom/",
+      "/searchZIP.php",
+      "/service/",
+      "/webapp/",
+      "/contentViewer/"
+    ]
+  }
 }

@@ -1,6 +1,102 @@
 {
   "domain": "www.bau-welt.de",
   "normalizedDomain": "www.bau-welt.de",
+  "robotsTxt": "User-agent:\t*\nAllow: /\n\n# Temporarily disallow amazon and pentalbot\n\nUser-agent: Amazonbot\nDisallow: /haus-konfigurator.html\n\nUser-agent: PetalBot\nDisallow: /haus-konfigurator.html\n\n\n# disallow ai crawler\nUser-agent: anthropic-ai\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /\nUser-agent: Claude-Web\nDisallow: /\nUser-agent: GPTBot\nDisallow: /\nUser-agent: ChatGPT-User\nDisallow: /\n\nDisallow: /prototype/\nDisallow: /typo3/\nDisallow: /typo3conf/\n\n# allow assets and assets of extensions\nAllow: /typo3conf/ext/\nAllow: /typo3temp/\n\n# parameters (keep the index clean)\nDisallow: /*?id=*                       # no non-speaking URLs\nDisallow: /*&id=*                       # no non-speaking URLs\nDisallow: /*?L=0*                       # no default lang\nDisallow: /*&L=0*                       # no default lang\nDisallow: /*cHash                       # no cHash\nDisallow: /*?type=98                    # no print pages\nDisallow: /*&type=98                    # no print pages\nDisallow: /*tx_form_formframework       # no forms\nDisallow: /*tx_solr[q]=*                # no search results\nDisallow: /*tx_solr*=kategorie*         # forbidden filter\nDisallow: /*tx_solr*=wohnflaeche*       # forbidden filter\nDisallow: /*tx_solr*=preis*             # forbidden filter\nDisallow: /*tx_solr*                    # no solr results of any kind\n\n\n# sitemap\nSitemap: https://www.bau-welt.de/sitemap.xml\n# allow sitemaps with chash\nAllow: /*sitemap=*&cHash=*\n\n\n# robots.txt for site bau-welt.de\n# NB: file is cached (ttl 4h)\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Amazonbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/haus-konfigurator.html"
+        ]
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/haus-konfigurator.html"
+        ]
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/typo3conf/ext/",
+          "/typo3temp/",
+          "/*sitemap=*&cHash=*"
+        ],
+        "disallowed": [
+          "/prototype/",
+          "/typo3/",
+          "/typo3conf/",
+          "/*?id=*                       # no non-speaking URLs",
+          "/*&id=*                       # no non-speaking URLs",
+          "/*?L=0*                       # no default lang",
+          "/*&L=0*                       # no default lang",
+          "/*cHash                       # no cHash",
+          "/*?type=98                    # no print pages",
+          "/*&type=98                    # no print pages",
+          "/*tx_form_formframework       # no forms",
+          "/*tx_solr[q]=*                # no search results",
+          "/*tx_solr*=kategorie*         # forbidden filter",
+          "/*tx_solr*=wohnflaeche*       # forbidden filter",
+          "/*tx_solr*=preis*             # forbidden filter",
+          "/*tx_solr*                    # no solr results of any kind"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 7,
+    "allowedBots": 2,
+    "disallowedBots": 5,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -8,11 +104,11 @@
     },
     {
       "name": "Amazonbot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "PetalBot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "anthropic-ai",
@@ -32,7 +128,11 @@
     },
     {
       "name": "ChatGPT-User",
-      "allowed": true
+      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

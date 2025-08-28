@@ -1,10 +1,6199 @@
 {
   "domain": "www.zdf.de",
   "normalizedDomain": "www.zdf.de",
-  "bots": [
+  "robotsTxt": "Sitemap: https://www.zdf.de/mediathek-sitemap.xml\r\nSitemap: https://www.zdf.de/sitemap-zdfunternehmen.xml\r\n\r\nUser-agent: CCBot\r\nUser-agent: Google-Extended\r\nUser-agent: GPTBot\r\nUser-agent: ChatGPT-User\r\nUser-Agent: scrapy\r\nUser-Agent: scrapybot\r\nUser-Agent: SemrushBot\r\nUser-Agent: sentibot\r\nUser-Agent: SEOkicks-Robot\r\nUser-Agent: TkBot\r\nUser-Agent: trendkite-akashic-crawler\r\nUser-Agent: Vagabondo\r\nUser-Agent: WBSearchBot\r\nUser-Agent: grapeshot\r\nUser-Agent: iCjobs\r\nUser-Agent: linkdexbot\r\nUser-Agent: magpie-crawler\r\nUser-Agent: MegaIndex\r\nUser-Agent: MJ12bot\r\nUser-Agent: proximic\r\nUser-Agent: QuerySeekerSpider\r\nDisallow: /sport/bundesliga/",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
     {
       "name": "QuerySeekerSpider",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "TkBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sport/bundesliga/"
+        ]
+      }
     }
-  ]
+  ],
+  "stats": {
+    "totalSpecificBots": 441,
+    "allowedBots": 441,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
+      "allowed": true
+    },
+    {
+      "name": "scrapybot",
+      "allowed": true
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": true
+    },
+    {
+      "name": "sentibot",
+      "allowed": true
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": true
+    },
+    {
+      "name": "TkBot",
+      "allowed": true
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": true
+    },
+    {
+      "name": "Vagabondo",
+      "allowed": true
+    },
+    {
+      "name": "WBSearchBot",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "iCjobs",
+      "allowed": true
+    },
+    {
+      "name": "linkdexbot",
+      "allowed": true
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": true
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "QuerySeekerSpider",
+      "allowed": true
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

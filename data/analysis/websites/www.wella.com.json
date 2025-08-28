@@ -1,10 +1,96 @@
 {
   "domain": "www.wella.com",
   "normalizedDomain": "www.wella.com",
+  "robotsTxt": "User-Agent: *\r\nAllow: /\r\n\r\nDisallow: /international/search\r\nDisallow: /de/search\r\nDisallow: /ru/search\r\nDisallow: /br/search\r\nDisallow: /mx/search\r\nDisallow: /professional/en-AR/\r\n\r\n# Directories\r\nDisallow: /sites/default/files/rich-cards/\r\nDisallow: /core/\r\nDisallow: /profiles/\r\n# Files\r\nDisallow: /README.txt\r\nDisallow: /web.config\r\n# Paths (clean URLs)\r\nDisallow: /admin/\r\nDisallow: /comment/reply/\r\nDisallow: /filter/tips\r\nDisallow: /node/add/\r\nDisallow: /search/\r\nDisallow: /user/register\r\nDisallow: /user/password\r\nDisallow: /user/login\r\nDisallow: /user/logout\r\n# Paths (no clean URLs)\r\nDisallow: /index.php/admin/\r\nDisallow: /index.php/comment/reply/\r\nDisallow: /index.php/filter/tips\r\nDisallow: /index.php/node/add/\r\nDisallow: /index.php/search/\r\nDisallow: /index.php/user/password/\r\nDisallow: /index.php/user/register/\r\nDisallow: /index.php/user/login/\r\nDisallow: /index.php/user/logout/\r\n\r\n# Do not index EN-SA language.\r\nDisallow: /en-sa\r\nDisallow: /en-sa/\r\nDisallow: /en-arabia\r\nDisallow: /en-arabia/\r\n\r\nSitemap: https://www.wella.com/international/sitemap.xml\r\nSitemap: https://www.wella.com/br/sitemap.xml\r\nSitemap: https://www.wella.com/de/sitemap.xml\r\nSitemap: https://www.wella.com/mx/sitemap.xml\r\nSitemap: https://www.wella.com/arabia/sitemap.xml\r\nSitemap: https://www.wella.com/pl/sitemap.xml\r\nSitemap: https://www.wella.com/pt-pt/sitemap.xml\r\nSitemap: https://www.wella.com/tr/sitemap.xml\r\nSitemap: https://www.wella.com/latam/sitemap.xml\r\nSitemap: https://www.wella.com/professional/en-EN/sitemap.xml\r\nSitemap: https://www.wella.com/professional/en-US/sitemap.xml\r\nSitemap: https://www.wella.com/professional/de-DE/sitemap.xml\r\nSitemap: https://www.wella.com/professional/es-ES/sitemap.xml\r\nSitemap: https://www.wella.com/professional/fr-FR/sitemap.xml\r\nSitemap: https://www.wella.com/professional/fr-CA/sitemap.xml\r\nSitemap: https://www.wella.com/professional/it-IT/sitemap.xml\r\nSitemap: https://www.wella.com/professional/pt-BR/sitemap.xml\r\nSitemap: https://www.wella.com/professional/en-UK/sitemap.xml\r\nSitemap: https://www.wella.com/professional/gr-GR/sitemap.xml\r\nSitemap: https://www.wella.com/professional/nl-NL/sitemap.xml\r\nSitemap: https://www.wella.com/professional/jp-JP/sitemap.xml\r\nSitemap: https://www.wella.com/professional/sv-SE/sitemap.xml\r\nSitemap: https://www.wella.com/professional/fi-FI/sitemap.xml\r\nSitemap: https://www.wella.com/professional/nn-NO/sitemap.xml\r\nSitemap: https://www.wella.com/professional/da-DK/sitemap.xml\r\nSitemap: https://www.wella.com/professional/en-AU/sitemap.xml\r\nSitemap: https://www.wella.com/professional/pt-PT/sitemap.xml\r\nSitemap: https://www.wella.com/professional/ar-AR/sitemap.xml\r\nSitemap: https://www.wella.com/professional/de-AT/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/international/search",
+        "/de/search",
+        "/ru/search",
+        "/br/search",
+        "/mx/search",
+        "/professional/en-AR/",
+        "/sites/default/files/rich-cards/",
+        "/core/",
+        "/profiles/",
+        "/README.txt",
+        "/web.config",
+        "/admin/",
+        "/comment/reply/",
+        "/filter/tips",
+        "/node/add/",
+        "/search/",
+        "/user/register",
+        "/user/password",
+        "/user/login",
+        "/user/logout",
+        "/index.php/admin/",
+        "/index.php/comment/reply/",
+        "/index.php/filter/tips",
+        "/index.php/node/add/",
+        "/index.php/search/",
+        "/index.php/user/password/",
+        "/index.php/user/register/",
+        "/index.php/user/login/",
+        "/index.php/user/logout/",
+        "/en-sa",
+        "/en-sa/",
+        "/en-arabia",
+        "/en-arabia/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/international/search",
+      "/de/search",
+      "/ru/search",
+      "/br/search",
+      "/mx/search",
+      "/professional/en-AR/",
+      "/sites/default/files/rich-cards/",
+      "/core/",
+      "/profiles/",
+      "/README.txt",
+      "/web.config",
+      "/admin/",
+      "/comment/reply/",
+      "/filter/tips",
+      "/node/add/",
+      "/search/",
+      "/user/register",
+      "/user/password",
+      "/user/login",
+      "/user/logout",
+      "/index.php/admin/",
+      "/index.php/comment/reply/",
+      "/index.php/filter/tips",
+      "/index.php/node/add/",
+      "/index.php/search/",
+      "/index.php/user/password/",
+      "/index.php/user/register/",
+      "/index.php/user/login/",
+      "/index.php/user/logout/",
+      "/en-sa",
+      "/en-sa/",
+      "/en-arabia",
+      "/en-arabia/"
+    ]
+  }
 }

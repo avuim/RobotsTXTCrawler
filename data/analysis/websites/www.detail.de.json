@@ -1,10 +1,58 @@
 {
   "domain": "www.detail.de",
   "normalizedDomain": "www.detail.de",
+  "robotsTxt": "User-agent: *\nDisallow: /index.php/\nDisallow: /*?\nDisallow: /checkout/\nDisallow: /app/\nDisallow: /lib/\nDisallow: /*.php$\nDisallow: /pkginfo/\nDisallow: /report/\nDisallow: /var/\nDisallow: /catalog/\nDisallow: /customer/\nDisallow: /sendfriend/\nDisallow: /review/\nDisallow: /*SID=\nSitemap: https://www.detail.de/media/sitemaps/sitemap_de.xml\nSitemap: https://www.detail.de/media/sitemaps/sitemap_en.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/index.php/",
+        "/*?",
+        "/checkout/",
+        "/app/",
+        "/lib/",
+        "/*.php$",
+        "/pkginfo/",
+        "/report/",
+        "/var/",
+        "/catalog/",
+        "/customer/",
+        "/sendfriend/",
+        "/review/",
+        "/*SID="
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/index.php/",
+      "/*?",
+      "/checkout/",
+      "/app/",
+      "/lib/",
+      "/*.php$",
+      "/pkginfo/",
+      "/report/",
+      "/var/",
+      "/catalog/",
+      "/customer/",
+      "/sendfriend/",
+      "/review/",
+      "/*SID="
+    ]
+  }
 }

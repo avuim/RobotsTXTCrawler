@@ -1,10 +1,54 @@
 {
   "domain": "www.postcode-lotterie.de",
   "normalizedDomain": "www.postcode-lotterie.de",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\n\r\nDisallow: /meinkonto/\r\nDisallow: /weihnachten-aktion\r\nDisallow: /weihnachtsaktion\r\nDisallow: /informationen/gratismonat\r\nDisallow: /informationen/weihnachten\r\nDisallow: /informationen/peter-maffay\r\nDisallow: /murmelmania/informationen\r\nDisallow: /murmelmania/staffel-1\r\nDisallow: /murmelmania/ergebisse/staffel-1\r\nDisallow: /v1/anmelden\r\nDisallow: /informationen/freunde-werben\r\nDisallow: /*.pdf\r\n\r\n# Host\r\nHost: https://www.postcode-lotterie.de\r\n\r\n# Sitemap\r\nSitemap: https://www.postcode-lotterie.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/meinkonto/",
+        "/weihnachten-aktion",
+        "/weihnachtsaktion",
+        "/informationen/gratismonat",
+        "/informationen/weihnachten",
+        "/informationen/peter-maffay",
+        "/murmelmania/informationen",
+        "/murmelmania/staffel-1",
+        "/murmelmania/ergebisse/staffel-1",
+        "/v1/anmelden",
+        "/informationen/freunde-werben",
+        "/*.pdf"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/meinkonto/",
+      "/weihnachten-aktion",
+      "/weihnachtsaktion",
+      "/informationen/gratismonat",
+      "/informationen/weihnachten",
+      "/informationen/peter-maffay",
+      "/murmelmania/informationen",
+      "/murmelmania/staffel-1",
+      "/murmelmania/ergebisse/staffel-1",
+      "/v1/anmelden",
+      "/informationen/freunde-werben",
+      "/*.pdf"
+    ]
+  }
 }

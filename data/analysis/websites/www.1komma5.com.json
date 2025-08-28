@@ -1,10 +1,34 @@
 {
   "domain": "www.1komma5.com",
   "normalizedDomain": "www.1komma5.com",
+  "robotsTxt": "User-Agent: *\r\nAllow: /\r\nDisallow: */_include/\r\nDisallow: */_testing/\r\n\r\nSitemap: https://1komma5.com/sitemap/de.xml\r\nSitemap: https://1komma5.com/sitemap/es.xml\r\nSitemap: https://1komma5.com/sitemap/au.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "*/_include/",
+        "*/_testing/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "*/_include/",
+      "*/_testing/"
+    ]
+  }
 }

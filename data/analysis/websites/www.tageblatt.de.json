@@ -1,10 +1,55 @@
 {
   "domain": "www.tageblatt.de",
   "normalizedDomain": "www.tageblatt.de",
+  "robotsTxt": "# Robots.txt for crawler\r\n\r\nUser-agent: *\r\n\r\n# Disallow Crawler\r\nDisallow: /User\r\nDisallow: /Dateien\r\nDisallow: /Nachrichten/Suche\r\n# Crawler often creates invalid script/webresource resource request\r\nDisallow: /ScriptResource\r\nDisallow: /WebResource\r\n\r\nUser-agent: Google-Extended\r\nDisallow: /\r\n\r\nUser-agent: GPTBot \r\nDisallow: /\r\n\r\nUser agent: ChatGPT User\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\n# Max crawler Time per page in sec\r\nCrawl-Delay: 2\r\n\r\n#Sitemap\r\n#Sitemap: http://www.funkinform.de/Sitemap_Index.xml.gz",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/User",
+        "/Dateien",
+        "/Nachrichten/Suche",
+        "/ScriptResource",
+        "/WebResource"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Google-Extended",
@@ -18,5 +63,15 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/User",
+      "/Dateien",
+      "/Nachrichten/Suche",
+      "/ScriptResource",
+      "/WebResource"
+    ]
+  }
 }

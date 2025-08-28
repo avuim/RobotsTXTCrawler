@@ -1,10 +1,38 @@
 {
   "domain": "www.abendzeitung-muenchen.de",
   "normalizedDomain": "www.abendzeitung-muenchen.de",
+  "robotsTxt": "# ID: 1\nUser-agent: *\nAllow: /\nDisallow: /admin/*\nDisallow: /_/tools/*\nDisallow: /_/sendmail.html*\nDisallow: /_CPiX/\n# Disallow: /*?_FRAME=*\n\nSitemap: https://www.abendzeitung-muenchen.de/news-artikel.sitemap.xml\nSitemap: https://www.abendzeitung-muenchen.de/news-ticker.sitemap.xml\nSitemap: https://www.abendzeitung-muenchen.de/portal-artikel.sitemap.xml\nSitemap: https://www.abendzeitung-muenchen.de/portal-ticker.sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/admin/*",
+        "/_/tools/*",
+        "/_/sendmail.html*",
+        "/_CPiX/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/admin/*",
+      "/_/tools/*",
+      "/_/sendmail.html*",
+      "/_CPiX/"
+    ]
+  }
 }

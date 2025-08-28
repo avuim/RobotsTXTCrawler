@@ -1,7 +1,53 @@
 {
   "domain": "www.spektrum.de",
   "normalizedDomain": "www.spektrum.de",
+  "robotsTxt": "User-agent: MS Search 4.0 Robot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: *\nDisallow: /icons/\nDisallow: /template/warenkorb",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/icons/",
+        "/template/warenkorb"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "MS Search 4.0 Robot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "MS Search 4.0 Robot",
       "allowed": false
@@ -13,10 +59,13 @@
     {
       "name": "GPTBot",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/icons/",
+      "/template/warenkorb"
+    ]
+  }
 }

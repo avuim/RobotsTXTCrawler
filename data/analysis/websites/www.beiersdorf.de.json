@@ -1,10 +1,36 @@
 {
   "domain": "www.beiersdorf.de",
   "normalizedDomain": "www.beiersdorf.de",
+  "robotsTxt": "User-agent: *\r\nSitemap: https://www.beiersdorf.de/xml-sitemap\r\nDisallow: /xajax/\r\nDisallow: /alpacaforms/\r\nDisallow: /search-result-page*",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/xajax/",
+        "/alpacaforms/",
+        "/search-result-page*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/xajax/",
+      "/alpacaforms/",
+      "/search-result-page*"
+    ]
+  }
 }

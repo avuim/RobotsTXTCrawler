@@ -1,10 +1,28 @@
 {
   "domain": "www.gerolsteiner.de",
   "normalizedDomain": "www.gerolsteiner.de",
+  "robotsTxt": "User-agent: *\r\nDisallow:\r\n\r\nSitemap: https://gerolsteiner.de/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

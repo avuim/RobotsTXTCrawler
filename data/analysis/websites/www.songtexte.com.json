@@ -1,9 +1,309 @@
 {
   "domain": "www.songtexte.com",
   "normalizedDomain": "www.songtexte.com",
-  "bots": [
+  "robotsTxt": "#\n# robots.txt for Songtexte.com\n# adapted from for http://www.wikipedia.org/ and friends\n#\n# Please note: There are a lot of pages on this site, and there are\n# some misbehaved spiders out there that go _way_ too fast. If you're\n# irresponsible, your access to the site may be blocked.\n#\n\n# advertising-related bots:\n# User-agent: Mediapartners-Google*\n# Disallow: /\n\n# grapeshot often comes with 30+ crawlers at once\nUser-agent: grapeshot\nDisallow: /\n\n# msnbot should crawl a bit slower\nUser-agent: msnbot\nCrawl-delay: 2\n\n\n# Crawlers that are kind enough to obey, but which we'd rather not have\n# unless they're feeding search engines.\nUser-agent: UbiCrawler\nDisallow: /\n\nUser-agent: DOC\nDisallow: /\n\nUser-agent: Zao\nDisallow: /\n\n# Some bots are known to be trouble, particularly those designed to copy\n# entire sites. Please obey robots.txt.\nUser-agent: Chordie.com (PHP)\nDisallow: /\n\nUser-agent: Chordie.com webcrawler\nDisallow: /\n\nUser-agent: sitecheck.internetseer.com\nDisallow: /\n\nUser-agent: Zealbot\nDisallow: /\n\nUser-agent: MSIECrawler\nDisallow: /\n\nUser-agent: SiteSnagger\nDisallow: /\n\nUser-agent: WebStripper\nDisallow: /\n\nUser-agent: WebCopier\nDisallow: /\n\nUser-agent: Fetch\nDisallow: /\n\nUser-agent: Offline Explorer\nDisallow: /\n\nUser-agent: Teleport\nDisallow: /\n\nUser-agent: TeleportPro\nDisallow: /\n\nUser-agent: WebZIP\nDisallow: /\n\nUser-agent: linko\nDisallow: /\n\nUser-agent: HTTrack\nDisallow: /\n\nUser-agent: Microsoft.URL.Control\nDisallow: /\n\nUser-agent: Xenu\nDisallow: /\n\nUser-agent: larbin\nDisallow: /\n\nUser-agent: libwww\nDisallow: /\n\nUser-agent: ZyBORG\nDisallow: /\n\nUser-agent: Download Ninja\nDisallow: /\n\n#\n# Sorry, wget in its recursive mode is a frequent problem.\n# Please read the man page and use it properly; there is a\n# --wait option you can use to set the delay between hits,\n# for instance.\n#\nUser-agent: wget\nDisallow: /\n\n#\n# The 'grub' distributed client has been *very* poorly behaved.\n#\nUser-agent: grub-client\nDisallow: /\n\n#\n# Doesn't follow robots.txt anyway, but...\n#\nUser-agent: k2spider\nDisallow: /\n\n#\n# Hits many times per second, not acceptable\n# http://www.nameprotect.com/botinfo.html\nUser-agent: NPBot\nDisallow: /\n\n# A capture bot, downloads gazillions of pages with no public benefit\n# http://www.webreaper.net/\nUser-agent: WebReaper\nDisallow: /\n\n#\n# Friendly, low-speed bots are welcome viewing article pages, but not\n# dynamically-generated pages please.\n#\n# Inktomi's \"Slurp\" can read a minimum delay between hits; if your\n# bot supports such a thing using the 'Crawl-delay' or another\n# instruction, please let us know.\n#\nUser-agent: *\nDisallow: /error/\nDisallow: /anmelden\nDisallow: /confirm/\nDisallow: /tracking.js\n\nSitemap: https://www.songtexte.com/sitemap/Sitemap.xml\nSitemap: https://www.songtexte.com/sitemap/news-sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/error/",
+        "/anmelden",
+        "/confirm/",
+        "/tracking.js"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "grapeshot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "msnbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "UbiCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "msnbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "UbiCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DOC",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zao",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Chordie.com (PHP)",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Chordie.com webcrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sitecheck.internetseer.com",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zealbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MSIECrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SiteSnagger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebStripper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fetch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Teleport",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TeleportPro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZIP",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "linko",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Xenu",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "larbin",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "libwww",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ZyBORG",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Download Ninja",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wget",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "grub-client",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "k2spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NPBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 33,
+    "allowedBots": 0,
+    "disallowedBots": 33,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false
+    },
+    {
+      "name": "msnbot",
+      "allowed": false
+    },
+    {
+      "name": "UbiCrawler",
+      "allowed": false
+    },
+    {
+      "name": "msnbot",
       "allowed": false
     },
     {
@@ -121,10 +421,15 @@
     {
       "name": "WebReaper",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/error/",
+      "/anmelden",
+      "/confirm/",
+      "/tracking.js"
+    ]
+  }
 }

@@ -1,10 +1,46 @@
 {
   "domain": "www.versicherungsbote.de",
   "normalizedDomain": "www.versicherungsbote.de",
+  "robotsTxt": "# Ganze Site freigeben\nUser-agent: *\nDisallow: /*.pdf$\nDisallow: /*.speak$\nDisallow: *tools.advise.advise*\nDisallow: *ima.calculator*\nDisallow: *ibs/out*\nDisallow: *comment.public.new*\nDisallow: *slimhtml*\nDisallow: /public/fad-server/class/cms/mod/cookieconsent/cookieconsent.js",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*.pdf$",
+        "/*.speak$",
+        "*tools.advise.advise*",
+        "*ima.calculator*",
+        "*ibs/out*",
+        "*comment.public.new*",
+        "*slimhtml*",
+        "/public/fad-server/class/cms/mod/cookieconsent/cookieconsent.js"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*.pdf$",
+      "/*.speak$",
+      "*tools.advise.advise*",
+      "*ima.calculator*",
+      "*ibs/out*",
+      "*comment.public.new*",
+      "*slimhtml*",
+      "/public/fad-server/class/cms/mod/cookieconsent/cookieconsent.js"
+    ]
+  }
 }

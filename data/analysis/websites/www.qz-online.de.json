@@ -1,10 +1,32 @@
 {
   "domain": "www.qz-online.de",
   "normalizedDomain": "www.qz-online.de",
+  "robotsTxt": "User-Agent: *\nSitemap: https://www.qz-online.de/sitemaps/sitemap.xml\nSitemap: https://www.qz-online.de/sitemaps/news-sitemap.xml\nSitemap: https://www.qz-online.de/sitemaps/sitemap-category.xml\nDisallow: /*login?",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*login?"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*login?"
+    ]
+  }
 }

@@ -1,14 +1,815 @@
 {
   "domain": "www.menshealth.de",
   "normalizedDomain": "www.menshealth.de",
+  "robotsTxt": "# Allow sitemap\r\nSitemap: https://www.menshealth.de/sitemap/navigation-sitemap.xml\r\nsitemap: https://www.menshealth.de/sitemap/news-sitemap.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-index.xml\r\nsitemap: https://www.menshealth.de/sitemap/footer-sitemap.xml\r\nsitemap: https://www.menshealth.de/sitemap/themenseiten-sitemap.xml\r\nsitemap: https://www.menshealth.de/sitemap/video-sitemap-index.xml\r\nsitemap: https://www.menshealth.de/sitemap/recipe-sitemap.xml\r\nsitemap: https://www.menshealth.de/sitemap/authors-sitemap.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Trainingsplaene.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Fitness.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Food.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Health.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Life.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Style.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Deals.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-News.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Trainingsplaene_Muskelaufbau.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Trainingsplaene_Gesund-abnehmen.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Trainingsplaene_Oberkoerper.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Trainingsplaene_Unterkoerper.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Trainingsplaene_AusdauerUndPerformance.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Trainingsplaene_GesundUndFit.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Fitness_Trainingsplaene.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Fitness_Krafttraining.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Fitness_Ausdauer.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Fitness_AbnehmenAndFatburning.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Fitness_SportAndOutdoor.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Food_Muskelaufbau.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Food_Fitness-Ernaehrung.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Food_Abnehmen.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Food_Gesunde-Ernaehrung.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Food_Rezepte.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Food_Ernaehrungsplaene.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Food_Trends.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Health_Vorsorge.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Health_Behandlung.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Life_TechAndEntertainment.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Life_Mobilitaet.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Life_ReiseAndAktivitaeten.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Life_FamilieAndVaterschaft.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Life_Mind.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Life_Nachhaltigkeit.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Life_Karriere.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Style_Mode.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Style_BodyAndCare.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Style_Haare.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Style_News.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Deals_Produktberatungen.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Deals_DealsDerWoche.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Deals_Mitmach_Aktionen.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Deals_Gewinnspiele.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Deals_Redaktionslieblinge.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Deals_Aktuelles.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Deals_Trainingstools.xml\r\nsitemap: https://www.menshealth.de/sitemap/sitemap-Deals_Leserlieblinge.xml\r\n\r\n\r\n# disallow api calls\r\nUser-agent: *\r\nDisallow: /irapi/*\r\nDisallow: /irelements/element/*\r\nDisallow: /irelements/standalone/*\r\nDisallow: /irelements/element\r\nDisallow: /irelements/elements\r\nDisallow: /irelements/elements/*\r\n\r\nDisallow: /heft*\r\nDisallow: *ePaper*.pdf\r\n\r\n# Diese Crawler blockieren\r\nUser-agent: AI2Bot\r\nUser-agent: omgili\r\nUser-agent: TimpiBot\r\nUser-agent: BLEXBot\r\nUser-agent: dotbot\r\nUser-agent: MJ12bot\r\nUser-agent: Barkrowler\r\nUser-agent: Optimizer\r\nDisallow: /\r\n\r\n# Legal notice: [https://www.menshealth.de/] expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).\r\n# The use of robots or other automated means to access [https://www.menshealth.de/] or collect or mine data without the express permission of [https://www.menshealth.de/] is strictly prohibited.\r\n# If you would like to apply for permission to crawl [https://www.menshealth.de/], collect or use data, please contact [ompi@motorpresse.de]",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/irapi/*",
+        "/irelements/element/*",
+        "/irelements/standalone/*",
+        "/irelements/element",
+        "/irelements/elements",
+        "/irelements/elements/*",
+        "/heft*",
+        "*ePaper*.pdf"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 64,
+    "allowedBots": 0,
+    "disallowedBots": 64,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
       "allowed": false
     },
     {
       "name": "Optimizer",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/irapi/*",
+      "/irelements/element/*",
+      "/irelements/standalone/*",
+      "/irelements/element",
+      "/irelements/elements",
+      "/irelements/elements/*",
+      "/heft*",
+      "*ePaper*.pdf"
+    ]
+  }
 }

@@ -1,6 +1,114 @@
 {
   "domain": "www.immobilienscout24.de",
   "normalizedDomain": "www.immobilienscout24.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /published-downloads/\r\nDisallow: /published-images/\r\nDisallow: /error/\r\nDisallow: /errors/\r\nDisallow: /marktplatz/\r\nDisallow: /de/scoutmanager/\r\nDisallow: /de/iidn1/offline-IBW.jsp\r\nDisallow: /meinkonto/\r\nDisallow: /adresse/\r\nAllow: /meinkonto/premium-mitgliedschaft\r\nAllow: /meinkonto/kreditkarte\r\nAllow: /meinkonto/bewerbermappe/vermieter\r\nAllow: /meinkonto/*.css\r\nAllow: /meinkonto/*.js\r\nDisallow: /merkzettel/\r\nDisallow: /*.pdf$\r\nDisallow: /is24wiki/\r\nDisallow: /main.go\r\nDisallow: /servlet\r\nDisallow: /IS24/\r\nDisallow: /modules/\r\nDisallow: /akamai/\r\nDisallow: /immobilienpreise/radius/\r\nDisallow: /immobilienpreise/api/\r\n\r\nDisallow: /utm/\r\n\r\nUser-agent: Mediapartners-Google\r\nAllow: *\r\n\r\nUser-agent: OAI-SearchBot\r\nAllow: /\r\n\r\nUser-agent: ChatGPT-User\r\nAllow: /\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nUser-agent: Claude-User\r\nAllow: /\r\n\r\nUser-agent: Claude-SearchBot\r\nAllow: /\r\n\r\nUser-agent: ClaudeBot\r\nDisallow: /\r\n\r\nUser-agent: PerplexityBot\r\nAllow: /\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/meinkonto/premium-mitgliedschaft",
+        "/meinkonto/kreditkarte",
+        "/meinkonto/bewerbermappe/vermieter",
+        "/meinkonto/*.css",
+        "/meinkonto/*.js"
+      ],
+      "disallowed": [
+        "/published-downloads/",
+        "/published-images/",
+        "/error/",
+        "/errors/",
+        "/marktplatz/",
+        "/de/scoutmanager/",
+        "/de/iidn1/offline-IBW.jsp",
+        "/meinkonto/",
+        "/adresse/",
+        "/merkzettel/",
+        "/*.pdf$",
+        "/is24wiki/",
+        "/main.go",
+        "/servlet",
+        "/IS24/",
+        "/modules/",
+        "/akamai/",
+        "/immobilienpreise/radius/",
+        "/immobilienpreise/api/",
+        "/utm/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-SearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 8,
+    "allowedBots": 6,
+    "disallowedBots": 2,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -38,5 +146,36 @@
       "name": "PerplexityBot",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/meinkonto/premium-mitgliedschaft",
+      "/meinkonto/kreditkarte",
+      "/meinkonto/bewerbermappe/vermieter",
+      "/meinkonto/*.css",
+      "/meinkonto/*.js"
+    ],
+    "disallowed": [
+      "/published-downloads/",
+      "/published-images/",
+      "/error/",
+      "/errors/",
+      "/marktplatz/",
+      "/de/scoutmanager/",
+      "/de/iidn1/offline-IBW.jsp",
+      "/meinkonto/",
+      "/adresse/",
+      "/merkzettel/",
+      "/*.pdf$",
+      "/is24wiki/",
+      "/main.go",
+      "/servlet",
+      "/IS24/",
+      "/modules/",
+      "/akamai/",
+      "/immobilienpreise/radius/",
+      "/immobilienpreise/api/",
+      "/utm/"
+    ]
+  }
 }

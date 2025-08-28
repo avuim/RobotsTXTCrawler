@@ -1,10 +1,43 @@
 {
   "domain": "www.elitepartner.de",
   "normalizedDomain": "www.elitepartner.de",
+  "robotsTxt": "User-agent: *\nDisallow: /payment\nUser-agent: *\nDisallow: /profile\nUser-agent: *\nDisallow: /registration\nUser-agent: *\nDisallow: /welcomepage\nUser-agent: *\nDisallow: /messenger\nUser-agent: *\nDisallow: /lists\nUser-agent: *\nDisallow: /settings\nUser-agent: *\nDisallow: /j_acegi_security_check\n\nUser-agent: TurnitinBot\nDisallow: /\nUser-agent: ia_archiver\nDisallow: /\n\nSitemap: https://www.elitepartner.de/wp-sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/payment"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 0,
+    "disallowedBots": 2,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "TurnitinBot",
@@ -14,5 +47,11 @@
       "name": "ia_archiver",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/payment"
+    ]
+  }
 }

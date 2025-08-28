@@ -1,10 +1,40 @@
 {
   "domain": "www.kuechengoetter.de",
   "normalizedDomain": "www.kuechengoetter.de",
+  "robotsTxt": "# www.robotstxt.org/\n# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449\n\nUser-agent: *\nDisallow: /download/\nDisallow: /admin*\nDisallow: /_api/\nDisallow: /.well-known/\nDisallow: /_fragment\n\nSitemap: https://www.kuechengoetter.de/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/download/",
+        "/admin*",
+        "/_api/",
+        "/.well-known/",
+        "/_fragment"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/download/",
+      "/admin*",
+      "/_api/",
+      "/.well-known/",
+      "/_fragment"
+    ]
+  }
 }

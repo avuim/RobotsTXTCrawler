@@ -1,6 +1,49 @@
 {
   "domain": "www.fkpscorpio.com",
   "normalizedDomain": "www.fkpscorpio.com",
+  "robotsTxt": "User-Agent: *\r\nAllow: /\r\n\r\n# folders\r\nDisallow: /typo3/\r\nDisallow: /typo3conf/\r\nAllow: /typo3conf/ext/*/Resources/Public/*\r\nAllow: /typo3conf/ext/cookieman/Resources/Public/*\r\nAllow: /typo3conf/ext/fkp/Resources/Public/*\r\nAllow: /typo3temp/\r\nAllow: /typo3/sysext/frontend/Resources/Public/*\r\n\r\n# parameters\r\nDisallow: /*?id=*               # non-realurl URLs\r\nDisallow: /*cHash               # no cHash\r\nAllow: /*/sitemap.xml?sitemap=*&cHash=*      # allow cHash for sitemaps\r\n\r\nUser-agent: Googlebot\r\nDisallow:\r\nUser-agent: Googlebot-image\r\nDisallow:\r\n\r\n# sitemap\r\n#Sitemap: https://tempelhofsounds.berlin/de/sitemap.xml\r\n#Sitemap: https://tempelhofsounds.berlin/en/sitemap.xml\r\n\r\n#Sitemap: https://plagenoire.de/de/sitemap.xml\r\n#Sitemap: https://southside.de/de/sitemap.xml\r\n#Sitemap: https://hurricane.de/de/sitemap.xml\r\n#Sitemap: https://rollingstone-beach.de/de/sitemap.xml\r\n#Sitemap: https://metal-hammer-paradise.de/de/sitemap.xml\r\n#Sitemap: https://highfield.de/de/sitemap.xml\r\n#Sitemap: https://meraluna.de/de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/typo3conf/ext/*/Resources/Public/*",
+        "/typo3conf/ext/cookieman/Resources/Public/*",
+        "/typo3conf/ext/fkp/Resources/Public/*",
+        "/typo3temp/",
+        "/typo3/sysext/frontend/Resources/Public/*",
+        "/*/sitemap.xml?sitemap=*&cHash=*      # allow cHash for sitemaps"
+      ],
+      "disallowed": [
+        "/typo3/",
+        "/typo3conf/",
+        "/*?id=*               # non-realurl URLs",
+        "/*cHash               # no cHash"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot-image",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 0,
+    "disallowedBots": 2,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -14,5 +57,21 @@
       "name": "Googlebot-image",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/typo3conf/ext/*/Resources/Public/*",
+      "/typo3conf/ext/cookieman/Resources/Public/*",
+      "/typo3conf/ext/fkp/Resources/Public/*",
+      "/typo3temp/",
+      "/typo3/sysext/frontend/Resources/Public/*",
+      "/*/sitemap.xml?sitemap=*&cHash=*      # allow cHash for sitemaps"
+    ],
+    "disallowed": [
+      "/typo3/",
+      "/typo3conf/",
+      "/*?id=*               # non-realurl URLs",
+      "/*cHash               # no cHash"
+    ]
+  }
 }

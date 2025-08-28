@@ -1,10 +1,86 @@
 {
   "domain": "www.philips.de",
   "normalizedDomain": "www.philips.de",
+  "robotsTxt": "\r\n\r\nUser-agent: *\r\nDisallow: /crsc/\r\nDisallow: /content/\r\nDisallow: /healthcare/crsc/\r\nSitemap: https://www.philips.de/sitemap-B2C-de_DE-web-index.xml\r\nSitemap: https://www.philips.de/sitemap-B2B_HC-de_DE-web-index.xml\r\nSitemap: https://www.philips.de/sitemap-corporate-de_DE-web-index.xml\r\nSitemap: https://www.philips.de/prx/sitemap-B2C-de_DE-sfdc-index.xml\r\nSitemap: https://www.philips.de/prx/sitemap-B2C-de_DE-products-index.xml\r\nDisallow: /healthcare/solutions/ultraschall/intervention/transeusophageale-echo\r\nDisallow: /healthcare/solutions/ultraschall/gefaessdiagnostik/unser-software\r\nDisallow: /healthcare/solutions/ultraschall/intervention/unser-system\r\nDisallow: /healthcare/solutions/ultraschall/gefaessdiagnostik/unser-system\r\nDisallow: /healthcare/solutions/ultraschall/kardiologie/unser-software\r\nDisallow: /healthcare/solutions/ultraschall/allgemeine-bildgebung-sonographie/unser-software\r\nDisallow: /healthcare/solutions/ultraschall/notfallmedizin/unser-system\r\nDisallow: /healthcare/solutions/ultraschall/allgemeine-bildgebung-sonographie/unser-system\r\nDisallow: /healthcare/solutions/ultraschall/gynaekologie-und-geburtshilfe/unser-system\r\nDisallow: /healthcare/solutions/ultraschall/kardiologie/unser-system\r\nDisallow: /healthcare/resources/landing/azurion/clinical-carousel\r\nDisallow: /shop/search\r\nDisallow: /shop/DE_Zahnarztempfehlung/\r\nDisallow: /shop/DE_Mitarbeiterangebot/login\r\nDisallow: /shop/DE_Mitarbeiterangebot/cart\r\nDisallow: /shop/DE_Mitarbeiterangebot//faq\r\nDisallow: /healthcare/resources/n13-config-pages/\r\nDisallow: /healthcare/sandbox/\r\nDisallow: /a-w/sandbox/\r\nDisallow: /c-w/sandbox/\r\nDisallow: /sandbox\r\nDisallow: */n19_*\r\nDisallow: /healthcare/sandbox\r\nDisallow: /a-w/sandbox\r\nDisallow: /c-w/sandbox\r\n\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/crsc/",
+        "/content/",
+        "/healthcare/crsc/",
+        "/healthcare/solutions/ultraschall/intervention/transeusophageale-echo",
+        "/healthcare/solutions/ultraschall/gefaessdiagnostik/unser-software",
+        "/healthcare/solutions/ultraschall/intervention/unser-system",
+        "/healthcare/solutions/ultraschall/gefaessdiagnostik/unser-system",
+        "/healthcare/solutions/ultraschall/kardiologie/unser-software",
+        "/healthcare/solutions/ultraschall/allgemeine-bildgebung-sonographie/unser-software",
+        "/healthcare/solutions/ultraschall/notfallmedizin/unser-system",
+        "/healthcare/solutions/ultraschall/allgemeine-bildgebung-sonographie/unser-system",
+        "/healthcare/solutions/ultraschall/gynaekologie-und-geburtshilfe/unser-system",
+        "/healthcare/solutions/ultraschall/kardiologie/unser-system",
+        "/healthcare/resources/landing/azurion/clinical-carousel",
+        "/shop/search",
+        "/shop/DE_Zahnarztempfehlung/",
+        "/shop/DE_Mitarbeiterangebot/login",
+        "/shop/DE_Mitarbeiterangebot/cart",
+        "/shop/DE_Mitarbeiterangebot//faq",
+        "/healthcare/resources/n13-config-pages/",
+        "/healthcare/sandbox/",
+        "/a-w/sandbox/",
+        "/c-w/sandbox/",
+        "/sandbox",
+        "*/n19_*",
+        "/healthcare/sandbox",
+        "/a-w/sandbox",
+        "/c-w/sandbox"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/crsc/",
+      "/content/",
+      "/healthcare/crsc/",
+      "/healthcare/solutions/ultraschall/intervention/transeusophageale-echo",
+      "/healthcare/solutions/ultraschall/gefaessdiagnostik/unser-software",
+      "/healthcare/solutions/ultraschall/intervention/unser-system",
+      "/healthcare/solutions/ultraschall/gefaessdiagnostik/unser-system",
+      "/healthcare/solutions/ultraschall/kardiologie/unser-software",
+      "/healthcare/solutions/ultraschall/allgemeine-bildgebung-sonographie/unser-software",
+      "/healthcare/solutions/ultraschall/notfallmedizin/unser-system",
+      "/healthcare/solutions/ultraschall/allgemeine-bildgebung-sonographie/unser-system",
+      "/healthcare/solutions/ultraschall/gynaekologie-und-geburtshilfe/unser-system",
+      "/healthcare/solutions/ultraschall/kardiologie/unser-system",
+      "/healthcare/resources/landing/azurion/clinical-carousel",
+      "/shop/search",
+      "/shop/DE_Zahnarztempfehlung/",
+      "/shop/DE_Mitarbeiterangebot/login",
+      "/shop/DE_Mitarbeiterangebot/cart",
+      "/shop/DE_Mitarbeiterangebot//faq",
+      "/healthcare/resources/n13-config-pages/",
+      "/healthcare/sandbox/",
+      "/a-w/sandbox/",
+      "/c-w/sandbox/",
+      "/sandbox",
+      "*/n19_*",
+      "/healthcare/sandbox",
+      "/a-w/sandbox",
+      "/c-w/sandbox"
+    ]
+  }
 }

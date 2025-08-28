@@ -1,10 +1,58 @@
 {
   "domain": "www.adac.de",
   "normalizedDomain": "www.adac.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /_system/\r\nDisallow: /wls/\r\nDisallow: /zzGKS/\r\nDisallow: /zzIVZ/\r\nDisallow: /ZZmitgliedschaft/\r\nDisallow: /*.ashx$\r\nDisallow: /*.kis$\r\nDisallow: /login/*\r\nDisallow: /jsnlog.logger\r\nDisallow: /external/\r\nDisallow: /*?processUrl=*\r\nDisallow: /*?fe_state=*\r\nDisallow: /bff\r\nDisallow: /*///*\r\n\r\nsitemap: https://www.adac.de/sitemap_index.xml\r\nsitemap: https://www.adac.de/sitemaps/sitemap-news.xml\r\nsitemap: https://www.adac.de/sitemaps/sitemap-contentful.xml\r\nsitemap: https://www.adac.de/sitemap/sitemap3-0.xml\r\nsitemap: https://autovermietung.adac.de/sitemap.xml\r\nsitemap: https://www.adac.de/fahrzeugwelt/sitemaps/index.xml\r\nsitemap: https://www.adac.de/sitemaps/fahrzeugwelt/sitemap-news.xml\r\nsitemap: https://www.adac.de/sitemaps/sitemap-autokatalog.xml\r\nsitemap: https://www.adac.de/sitemaps/sitemap-lop.xml \r\nsitemap: https://www.adac.de/sitemaps/sitemap-contentful-tests.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/_system/",
+        "/wls/",
+        "/zzGKS/",
+        "/zzIVZ/",
+        "/ZZmitgliedschaft/",
+        "/*.ashx$",
+        "/*.kis$",
+        "/login/*",
+        "/jsnlog.logger",
+        "/external/",
+        "/*?processUrl=*",
+        "/*?fe_state=*",
+        "/bff",
+        "/*///*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/_system/",
+      "/wls/",
+      "/zzGKS/",
+      "/zzIVZ/",
+      "/ZZmitgliedschaft/",
+      "/*.ashx$",
+      "/*.kis$",
+      "/login/*",
+      "/jsnlog.logger",
+      "/external/",
+      "/*?processUrl=*",
+      "/*?fe_state=*",
+      "/bff",
+      "/*///*"
+    ]
+  }
 }

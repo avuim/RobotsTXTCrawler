@@ -1,14 +1,149 @@
 {
   "domain": "www.fluid.de",
   "normalizedDomain": "www.fluid.de",
-  "bots": [
+  "robotsTxt": "# robots-flu.txt\r\nUser-agent: ClaudeBot\r\nUser-agent: SearchmetricsBot\r\nDisallow: *\r\nUser-agent: *\r\nDisallow: /check/\r\nDisallow: /contao/\r\nDisallow: /system/\r\nDisallow: /templates/\r\nDisallow: /vendor/\r\nDisallow: /share/index.php\r\nDisallow: /build.xml\r\nDisallow: /composer.json\r\nDisallow: /composer.lock\r\nDisallow: /README.md\r\nDisallow: /serp.html\r\nDisallow: /serp/serp-heftarchiv.html\r\nDisallow: /reader-preview/\r\nDisallow: /files/content/_heftarchiv/\r\nDisallow: /files/content/noindex/\r\nDisallow: /oeffentliches-profil/letzte-kommentare/\r\nDisallow: /*?page*&page*\r\nDisallow: /*?page_i*\r\nDisallow: /api/\r\nDisallow: /login-flu.html\r\nDisallow: /login-flu/logout.html\r\nDisallow: /*?p=*\r\nDisallow: /*?cat=*\r\nDisallow: /*?s=*\r\nDisallow: /player/*\r\nDisallow: /*error.php*\r\nDisallow: /reader.html\r\nDisallow: /*?sc_*\r\nDisallow: /*&sc_*\r\nDisallow: /*?emi=*\r\nDisallow: /*&emi=*\r\nSitemap: https://www.fluid.de/sitemap-index.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/check/",
+        "/contao/",
+        "/system/",
+        "/templates/",
+        "/vendor/",
+        "/share/index.php",
+        "/build.xml",
+        "/composer.json",
+        "/composer.lock",
+        "/README.md",
+        "/serp.html",
+        "/serp/serp-heftarchiv.html",
+        "/reader-preview/",
+        "/files/content/_heftarchiv/",
+        "/files/content/noindex/",
+        "/oeffentliches-profil/letzte-kommentare/",
+        "/*?page*&page*",
+        "/*?page_i*",
+        "/api/",
+        "/login-flu.html",
+        "/login-flu/logout.html",
+        "/*?p=*",
+        "/*?cat=*",
+        "/*?s=*",
+        "/player/*",
+        "/*error.php*",
+        "/reader.html",
+        "/*?sc_*",
+        "/*&sc_*",
+        "/*?emi=*",
+        "/*&emi=*"
+      ]
+    }
+  },
+  "specificBots": [
     {
-      "name": "SearchmetricsBot",
-      "allowed": false
+      "name": "ClaudeBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "*"
+        ]
+      }
     },
     {
-      "name": "*",
-      "allowed": false
+      "name": "SearchmetricsBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "*"
+        ]
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "*"
+        ]
+      }
+    },
+    {
+      "name": "SearchmetricsBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "*"
+        ]
+      }
     }
-  ]
+  ],
+  "stats": {
+    "totalSpecificBots": 4,
+    "allowedBots": 4,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": true
+    },
+    {
+      "name": "SearchmetricsBot",
+      "allowed": true
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": true
+    },
+    {
+      "name": "SearchmetricsBot",
+      "allowed": true
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/check/",
+      "/contao/",
+      "/system/",
+      "/templates/",
+      "/vendor/",
+      "/share/index.php",
+      "/build.xml",
+      "/composer.json",
+      "/composer.lock",
+      "/README.md",
+      "/serp.html",
+      "/serp/serp-heftarchiv.html",
+      "/reader-preview/",
+      "/files/content/_heftarchiv/",
+      "/files/content/noindex/",
+      "/oeffentliches-profil/letzte-kommentare/",
+      "/*?page*&page*",
+      "/*?page_i*",
+      "/api/",
+      "/login-flu.html",
+      "/login-flu/logout.html",
+      "/*?p=*",
+      "/*?cat=*",
+      "/*?s=*",
+      "/player/*",
+      "/*error.php*",
+      "/reader.html",
+      "/*?sc_*",
+      "/*&sc_*",
+      "/*?emi=*",
+      "/*&emi=*"
+    ]
+  }
 }

@@ -1,10 +1,110 @@
 {
   "domain": "www.charlottetilbury.com",
   "normalizedDomain": "www.charlottetilbury.com",
+  "robotsTxt": "User-agent: *\r\n\r\nSitemap: https://www.charlottetilbury.com/uk/sitemaps/uk_sitemap.xml\r\nSitemap: https://www.charlottetilbury.com/us/sitemaps/us_sitemap.xml\r\nSitemap: https://www.charlottetilbury.com/us-es/sitemaps/us-es_sitemap.xml\r\nSitemap: https://www.charlottetilbury.com/eu/sitemaps/eu_sitemap.xml\r\nSitemap: https://www.charlottetilbury.com/ie/sitemaps/ie_sitemap.xml\r\nSitemap: https://www.charlottetilbury.com/es/sitemaps/es_sitemap.xml\r\nSitemap: https://www.charlottetilbury.com/de/sitemaps/de_sitemap.xml\r\nSitemap: https://www.charlottetilbury.com/it/sitemaps/it_sitemap.xml\r\nSitemap: https://www.charlottetilbury.com/fr/sitemaps/fr_sitemap.xml\r\nSitemap: https://www.charlottetilbury.com/ca/sitemaps/ca_sitemap.xml\r\nSitemap: https://www.charlottetilbury.com/ca-fr/sitemaps/ca-fr_sitemap.xml\r\nSitemap: https://www.charlottetilbury.com/nl/sitemaps/nl_sitemap.xml\r\nSitemap: https://www.charlottetilbury.com/au/sitemaps/au_sitemap.xml\r\nSitemap: https://www.charlottetilbury.com/hk/sitemaps/hk_sitemap.xml\r\nSitemap: https://www.charlottetilbury.com/cl/sitemaps/cl_sitemap.xml\r\nSitemap: https://www.charlottetilbury.com/ky/sitemaps/ky_sitemap.xml\r\nSitemap: https://www.charlottetilbury.com/th/sitemaps/th_sitemap.xml\r\nSitemap: https://www.charlottetilbury.com/tw/sitemaps/tw_sitemap.xml\r\nSitemap: https://www.charlottetilbury.com/vn/sitemaps/vn_sitemap.xml\r\nSitemap: https://www.charlottetilbury.com/za/sitemaps/za_sitemap.xml\r\n\r\nDisallow: /au/checkout/\r\nDisallow: /au/wishlist/\r\nDisallow: /au/customer/account/login/\r\nDisallow: /au/catalogsearch/\r\nDisallow: /au/free-makeup-samples\r\nDisallow: /uk/checkout/\r\nDisallow: /uk/wishlist/\r\nDisallow: /uk/customer/account/login/\r\nDisallow: /uk/catalogsearch/\r\nDisallow: /uk/free-makeup-samples\r\nDisallow: /us/checkout/\r\nDisallow: /us/wishlist/\r\nDisallow: /us/customer/account/login/\r\nDisallow: /us/catalogsearch/\r\nDisallow: /us/free-makeup-samples\r\nDisallow: /ca/checkout/\r\nDisallow: /ca/wishlist/\r\nDisallow: /ca/customer/account/login/\r\nDisallow: /ca/catalogsearch/\r\nDisallow: /ca/free-makeup-samples\r\nDisallow: /ie/checkout/\r\nDisallow: /ie/wishlist/\r\nDisallow: /ie/customer/account/login/\r\nDisallow: /ie/catalogsearch/\r\nDisallow: /ie/free-makeup-samples\r\nDisallow: /nl/checkout/\r\nDisallow: /nl/wishlist/\r\nDisallow: /nl/customer/account/login/\r\nDisallow: /nl/catalogsearch/\r\nDisallow: /nl/free-makeup-samples\r\nDisallow: /uk/*customer\r\nDisallow: /uk/*price=\r\nDisallow: /uk/*cat=\r\nDisallow: /uk/*color=\r\nDisallow: /uk/*sendfriend\r\nDisallow: /us/*customer\r\nDisallow: /us/*price=\r\nDisallow: /us/*cat=\r\nDisallow: /us/*color=\r\nDisallow: /us/*sendfriend\r\nDisallow: /ca/*customer\r\nDisallow: /ca/*price=\r\nDisallow: /ca/*cat=\r\nDisallow: /ca/*color=\r\nDisallow: /ca/*sendfriend\r\nDisallow: /ie/*customer\r\nDisallow: /ie/*price=\r\nDisallow: /ie/*cat=\r\nDisallow: /ie/*color=\r\nDisallow: /ie/*sendfriend\r\nDisallow: /au/*customer\r\nDisallow: /au/*price=\r\nDisallow: /au/*cat=\r\nDisallow: /au/*color=\r\nDisallow: /au/*sendfriend\r\nDisallow: /nl/*customer\r\nDisallow: /nl/*price=\r\nDisallow: /nl/*cat=\r\nDisallow: /nl/*color=\r\nDisallow: /nl/*sendfriend\r\n\r\n\r\nUser-agent: BLEXBot\r\nDisallow: /\r\n\r\nUser-agent: MegaIndex.ru\r\nDisallow: /\r\n\r\nUser-agent: megaindex.com\r\nDisallow: /\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/au/checkout/",
+        "/au/wishlist/",
+        "/au/customer/account/login/",
+        "/au/catalogsearch/",
+        "/au/free-makeup-samples",
+        "/uk/checkout/",
+        "/uk/wishlist/",
+        "/uk/customer/account/login/",
+        "/uk/catalogsearch/",
+        "/uk/free-makeup-samples",
+        "/us/checkout/",
+        "/us/wishlist/",
+        "/us/customer/account/login/",
+        "/us/catalogsearch/",
+        "/us/free-makeup-samples",
+        "/ca/checkout/",
+        "/ca/wishlist/",
+        "/ca/customer/account/login/",
+        "/ca/catalogsearch/",
+        "/ca/free-makeup-samples",
+        "/ie/checkout/",
+        "/ie/wishlist/",
+        "/ie/customer/account/login/",
+        "/ie/catalogsearch/",
+        "/ie/free-makeup-samples",
+        "/nl/checkout/",
+        "/nl/wishlist/",
+        "/nl/customer/account/login/",
+        "/nl/catalogsearch/",
+        "/nl/free-makeup-samples",
+        "/uk/*customer",
+        "/uk/*price=",
+        "/uk/*cat=",
+        "/uk/*color=",
+        "/uk/*sendfriend",
+        "/us/*customer",
+        "/us/*price=",
+        "/us/*cat=",
+        "/us/*color=",
+        "/us/*sendfriend",
+        "/ca/*customer",
+        "/ca/*price=",
+        "/ca/*cat=",
+        "/ca/*color=",
+        "/ca/*sendfriend",
+        "/ie/*customer",
+        "/ie/*price=",
+        "/ie/*cat=",
+        "/ie/*color=",
+        "/ie/*sendfriend",
+        "/au/*customer",
+        "/au/*price=",
+        "/au/*cat=",
+        "/au/*color=",
+        "/au/*sendfriend",
+        "/nl/*customer",
+        "/nl/*price=",
+        "/nl/*cat=",
+        "/nl/*color=",
+        "/nl/*sendfriend"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "megaindex.com",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "BLEXBot",
@@ -18,5 +118,70 @@
       "name": "megaindex.com",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/au/checkout/",
+      "/au/wishlist/",
+      "/au/customer/account/login/",
+      "/au/catalogsearch/",
+      "/au/free-makeup-samples",
+      "/uk/checkout/",
+      "/uk/wishlist/",
+      "/uk/customer/account/login/",
+      "/uk/catalogsearch/",
+      "/uk/free-makeup-samples",
+      "/us/checkout/",
+      "/us/wishlist/",
+      "/us/customer/account/login/",
+      "/us/catalogsearch/",
+      "/us/free-makeup-samples",
+      "/ca/checkout/",
+      "/ca/wishlist/",
+      "/ca/customer/account/login/",
+      "/ca/catalogsearch/",
+      "/ca/free-makeup-samples",
+      "/ie/checkout/",
+      "/ie/wishlist/",
+      "/ie/customer/account/login/",
+      "/ie/catalogsearch/",
+      "/ie/free-makeup-samples",
+      "/nl/checkout/",
+      "/nl/wishlist/",
+      "/nl/customer/account/login/",
+      "/nl/catalogsearch/",
+      "/nl/free-makeup-samples",
+      "/uk/*customer",
+      "/uk/*price=",
+      "/uk/*cat=",
+      "/uk/*color=",
+      "/uk/*sendfriend",
+      "/us/*customer",
+      "/us/*price=",
+      "/us/*cat=",
+      "/us/*color=",
+      "/us/*sendfriend",
+      "/ca/*customer",
+      "/ca/*price=",
+      "/ca/*cat=",
+      "/ca/*color=",
+      "/ca/*sendfriend",
+      "/ie/*customer",
+      "/ie/*price=",
+      "/ie/*cat=",
+      "/ie/*color=",
+      "/ie/*sendfriend",
+      "/au/*customer",
+      "/au/*price=",
+      "/au/*cat=",
+      "/au/*color=",
+      "/au/*sendfriend",
+      "/nl/*customer",
+      "/nl/*price=",
+      "/nl/*cat=",
+      "/nl/*color=",
+      "/nl/*sendfriend"
+    ]
+  }
 }

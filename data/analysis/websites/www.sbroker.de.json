@@ -1,10 +1,44 @@
 {
   "domain": "www.sbroker.de",
   "normalizedDomain": "www.sbroker.de",
+  "robotsTxt": "User-agent: *\n\nDisallow: /1524.0.html\nDisallow: /1542.0.html\nDisallow: /aktuelles/aktionen/s-broker-quickcheck-brokerage.html\nDisallow: /wir-ueber-uns/wir-ueber-uns/sparkassen-finanzgruppe/s-broker-quickcheck-brokerage.html\nDisallow: /analysen/technische-analyse/technische-analyse-detail.html\nDisallow: /sbl/mdaten_analyse/techn_chartanalyse_detail\nDisallow: /fileadmin/redaktion/mobileApp/\n\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/1524.0.html",
+        "/1542.0.html",
+        "/aktuelles/aktionen/s-broker-quickcheck-brokerage.html",
+        "/wir-ueber-uns/wir-ueber-uns/sparkassen-finanzgruppe/s-broker-quickcheck-brokerage.html",
+        "/analysen/technische-analyse/technische-analyse-detail.html",
+        "/sbl/mdaten_analyse/techn_chartanalyse_detail",
+        "/fileadmin/redaktion/mobileApp/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/1524.0.html",
+      "/1542.0.html",
+      "/aktuelles/aktionen/s-broker-quickcheck-brokerage.html",
+      "/wir-ueber-uns/wir-ueber-uns/sparkassen-finanzgruppe/s-broker-quickcheck-brokerage.html",
+      "/analysen/technische-analyse/technische-analyse-detail.html",
+      "/sbl/mdaten_analyse/techn_chartanalyse_detail",
+      "/fileadmin/redaktion/mobileApp/"
+    ]
+  }
 }

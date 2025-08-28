@@ -1,10 +1,60 @@
 {
   "domain": "www.bosch.de",
   "normalizedDomain": "www.bosch.de",
+  "robotsTxt": "\r\nUser-agent: *\r\nDisallow: /en/\r\nDisallow: /static/\r\n\r\nUser-agent: Mindbreeze-P\r\nAllow: /en/\r\n\r\nUser-agent: facebookexternalhit\r\nAllow: /en/\r\nAllow: /media/\r\n\r\nUser-agent: Twitterbot\r\nAllow: /en/\r\nAllow: /media/\r\n\r\nSitemap: https://www.bosch.de/sitemap-de.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/en/",
+        "/static/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Mindbreeze-P",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/en/"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/en/",
+          "/media/"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/en/",
+          "/media/"
+        ],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 3,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Mindbreeze-P",
@@ -18,5 +68,12 @@
       "name": "Twitterbot",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/en/",
+      "/static/"
+    ]
+  }
 }

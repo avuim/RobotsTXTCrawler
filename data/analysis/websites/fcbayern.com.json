@@ -1,10 +1,74 @@
 {
   "domain": "fcbayern.com",
   "normalizedDomain": "fcbayern.com",
+  "robotsTxt": "User-agent: *\r\n\r\nDisallow: */search\r\nDisallow: */browserhint*\r\nDisallow: /*?mobileWebview\r\nDisallow: /*?reduced\r\nDisallow: /*?appview\r\n\r\nDisallow: /store/*/basket\r\nDisallow: /store/*/wishlist\r\nDisallow: /store/*/account\r\nDisallow: /store/*/s/*\r\n\r\nAllow: /store/*/c/*basket\r\nAllow: /store/*/p/*basket\r\n\r\nDisallow: /de/mobile-app/*\r\nDisallow: /en/mobile-app/*\r\nDisallow: /es/mobile-app/*\r\nDisallow: */fcb-mitglieder\r\nDisallow: */mitglieder-login\r\nDisallow: */fcb-member\r\nDisallow: */member-login\r\nDisallow: *?webview=reduced\r\n\r\nAllow: /mediacenter/webjars/fcb.public/javascripts/modules/\r\nAllow: /shop/_ui/responsive/common/configurator/js/\r\n\r\nSitemap: https://fcbayern.com/index-sitemap.xml\r\nSitemap: https://fcbayern.com/store/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/store/*/c/*basket",
+        "/store/*/p/*basket",
+        "/mediacenter/webjars/fcb.public/javascripts/modules/",
+        "/shop/_ui/responsive/common/configurator/js/"
+      ],
+      "disallowed": [
+        "*/search",
+        "*/browserhint*",
+        "/*?mobileWebview",
+        "/*?reduced",
+        "/*?appview",
+        "/store/*/basket",
+        "/store/*/wishlist",
+        "/store/*/account",
+        "/store/*/s/*",
+        "/de/mobile-app/*",
+        "/en/mobile-app/*",
+        "/es/mobile-app/*",
+        "*/fcb-mitglieder",
+        "*/mitglieder-login",
+        "*/fcb-member",
+        "*/member-login",
+        "*?webview=reduced"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/store/*/c/*basket",
+      "/store/*/p/*basket",
+      "/mediacenter/webjars/fcb.public/javascripts/modules/",
+      "/shop/_ui/responsive/common/configurator/js/"
+    ],
+    "disallowed": [
+      "*/search",
+      "*/browserhint*",
+      "/*?mobileWebview",
+      "/*?reduced",
+      "/*?appview",
+      "/store/*/basket",
+      "/store/*/wishlist",
+      "/store/*/account",
+      "/store/*/s/*",
+      "/de/mobile-app/*",
+      "/en/mobile-app/*",
+      "/es/mobile-app/*",
+      "*/fcb-mitglieder",
+      "*/mitglieder-login",
+      "*/fcb-member",
+      "*/member-login",
+      "*?webview=reduced"
+    ]
+  }
 }

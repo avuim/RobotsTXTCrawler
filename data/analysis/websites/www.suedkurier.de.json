@@ -1,6 +1,93 @@
 {
   "domain": "www.suedkurier.de",
   "normalizedDomain": "www.suedkurier.de",
+  "robotsTxt": "# ID: 1\nUser-agent: *\n\nAllow: /*,PRINT?*\n\nDisallow: /sitemap-adx.sitemap.xml\nDisallow: /dpa/\nDisallow: /*_FRAME*\nDisallow: /fcms/\nDisallow: /_/epaper/\nDisallow: /register/\nDisallow: /*?fCMS=*\nDisallow: /_/ecards*\nDisallow: /*?_UNLOCK=nocache\nDisallow: /anzeigen/antz2/detail.html?&aid=*&view=print\nDisallow: /*?ID=*\nDisallow: /*?arid=*\nDisallow: /*SORT=PRIO\nDisallow: /?_FCLIST=*\nDisallow: /*?_CMFUNC*\nDisallow: /*?po_id=*\nDisallow: /*?SID*\nDisallow: /*?link2=*\nDisallow: /*?select1=*\nDisallow: /*?pin_type=*\nDisallow: /*&list=1$\nDisallow: /sitemap/\nDisallow: /pics/\nDisallow: /linkatory/\nDisallow: /msuup/\nDisallow: /cmspic/\nDisallow: /*art*,*,0$\nDisallow: /backupimport/\nDisallow: /backup/\nDisallow: /temp/\nDisallow: /leserreporter2011/\nDisallow: */oms.skol.de/*\nDisallow: /*?jumpto=skregiobox\nDisallow: /*?jumpto\nDisallow: /localnews/\nDisallow: /archiv/\nDisallow: /lesehilfe/\n\nSitemap: https://www.suedkurier.de/sitemap-index.sitemap.xml\nSitemap: https://www.suedkurier.de/news.sitemap.xml\n\n# Legal notice: suedkurier.de expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).\n# The use of robots or other automated means to access suedkurier.de or collect or mine data without the express permission of suedkurier.de is strictly prohibited.\n\n# OpenAI\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\n# Google Bard\nUser-agent: Google-Extended\nDisallow: /\n\n# Common Crawl Foundation\nUser-agent: CCBot\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/*,PRINT?*"
+      ],
+      "disallowed": [
+        "/sitemap-adx.sitemap.xml",
+        "/dpa/",
+        "/*_FRAME*",
+        "/fcms/",
+        "/_/epaper/",
+        "/register/",
+        "/*?fCMS=*",
+        "/_/ecards*",
+        "/*?_UNLOCK=nocache",
+        "/anzeigen/antz2/detail.html?&aid=*&view=print",
+        "/*?ID=*",
+        "/*?arid=*",
+        "/*SORT=PRIO",
+        "/?_FCLIST=*",
+        "/*?_CMFUNC*",
+        "/*?po_id=*",
+        "/*?SID*",
+        "/*?link2=*",
+        "/*?select1=*",
+        "/*?pin_type=*",
+        "/*&list=1$",
+        "/sitemap/",
+        "/pics/",
+        "/linkatory/",
+        "/msuup/",
+        "/cmspic/",
+        "/*art*,*,0$",
+        "/backupimport/",
+        "/backup/",
+        "/temp/",
+        "/leserreporter2011/",
+        "*/oms.skol.de/*",
+        "/*?jumpto=skregiobox",
+        "/*?jumpto",
+        "/localnews/",
+        "/archiv/",
+        "/lesehilfe/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 4,
+    "allowedBots": 0,
+    "disallowedBots": 4,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -22,5 +109,49 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/*,PRINT?*"
+    ],
+    "disallowed": [
+      "/sitemap-adx.sitemap.xml",
+      "/dpa/",
+      "/*_FRAME*",
+      "/fcms/",
+      "/_/epaper/",
+      "/register/",
+      "/*?fCMS=*",
+      "/_/ecards*",
+      "/*?_UNLOCK=nocache",
+      "/anzeigen/antz2/detail.html?&aid=*&view=print",
+      "/*?ID=*",
+      "/*?arid=*",
+      "/*SORT=PRIO",
+      "/?_FCLIST=*",
+      "/*?_CMFUNC*",
+      "/*?po_id=*",
+      "/*?SID*",
+      "/*?link2=*",
+      "/*?select1=*",
+      "/*?pin_type=*",
+      "/*&list=1$",
+      "/sitemap/",
+      "/pics/",
+      "/linkatory/",
+      "/msuup/",
+      "/cmspic/",
+      "/*art*,*,0$",
+      "/backupimport/",
+      "/backup/",
+      "/temp/",
+      "/leserreporter2011/",
+      "*/oms.skol.de/*",
+      "/*?jumpto=skregiobox",
+      "/*?jumpto",
+      "/localnews/",
+      "/archiv/",
+      "/lesehilfe/"
+    ]
+  }
 }

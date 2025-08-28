@@ -1,14 +1,404 @@
 {
   "domain": "www.winfuture.de",
   "normalizedDomain": "www.winfuture.de",
+  "robotsTxt": "User-agent: *\nDisallow: /vote/\nDisallow: /ajax/count\nDisallow: /ajax/amazon_widget\nDisallow: /ajax/now\nDisallow: /ajax/session_add\nDisallow: /ajax/handshake\nDisallow: /ajax/un\nDisallow: /ajax/unr\nDisallow: /ajax/log_js\nDisallow: /ajax/widget_group\nDisallow: /comments/\nDisallow: /mywf/*/kommentare/\nDisallow: /screenshots/iframe/*\nDisallow: /preisvergleich/\nDisallow: /redirect.php\nDisallow: /special/amazon/angebote/redirect\nDisallow: /special/amazon/angebote/e_redirect\nDisallow: /special/notebooksbilliger/black-weekend/redirect\nDisallow: /special/notebooksbilliger/gaming-special/redirect\nDisallow: /special/notebooksbilliger/happy-new-deals/redirect\nDisallow: /special/notebooksbilliger/redirect\nDisallow: /special/notebooksbilliger/happy-easter/redirect\nDisallow: /special/redirect\nDisallow: /r?\nDisallow: /link-error.html\n\nUser-agent: Googlebot\nDisallow: /vote/\nDisallow: /ajax/count\nDisallow: /ajax/amazon_widget\nDisallow: /ajax/now\nDisallow: /ajax/session_add\nDisallow: /ajax/handshake\nDisallow: /ajax/un\nDisallow: /ajax/unr\nDisallow: /ajax/log_js\nDisallow: /ajax/widget_group\nDisallow: /comments/show/history/\nDisallow: /comments/show/thread/\nDisallow: /comments/read/\nDisallow: /comments/reply/\nDisallow: /mywf/*/kommentare/\nDisallow: /screenshots/iframe/*\nDisallow: /preisvergleich/\nDisallow: /redirect.php\nDisallow: /special/amazon/angebote/redirect\nDisallow: /special/amazon/angebote/e_redirect\nDisallow: /special/notebooksbilliger/black-weekend/redirect\nDisallow: /special/notebooksbilliger/gaming-special/redirect\nDisallow: /special/notebooksbilliger/happy-new-deals/redirect\nDisallow: /special/notebooksbilliger/redirect\nDisallow: /special/notebooksbilliger/happy-easter/redirect\nDisallow: /special/redirect\nDisallow: /r?\nDisallow: /link-error.html\n\nUser-agent: Mediapartners-Google\nAllow: /\n\nUser-agent: AdsBot-Google\nDisallow: /vote/\nDisallow: /ajax/count\nDisallow: /ajax/amazon_widget\nDisallow: /ajax/now\nDisallow: /ajax/session_add\nDisallow: /ajax/handshake\nDisallow: /ajax/un\nDisallow: /ajax/unr\nDisallow: /ajax/log_js\nDisallow: /ajax/widget_group\nDisallow: /comments/show/history/\nDisallow: /comments/show/thread/\nDisallow: /comments/read/\nDisallow: /comments/reply/\nDisallow: /mywf/*/kommentare/\nDisallow: /screenshots/iframe/*\nDisallow: /preisvergleich/\nDisallow: /redirect.php\nDisallow: /special/amazon/angebote/redirect\nDisallow: /special/amazon/angebote/e_redirect\nDisallow: /special/notebooksbilliger/black-weekend/redirect\nDisallow: /special/notebooksbilliger/gaming-special/redirect\nDisallow: /special/notebooksbilliger/happy-new-deals/redirect\nDisallow: /special/notebooksbilliger/redirect\nDisallow: /special/notebooksbilliger/happy-easter/redirect\nDisallow: /special/redirect\nDisallow: /r?\nDisallow: /link-error.html\nCrawl-delay: 1\n\nUser-agent: AdsBot-Google-Mobile\nDisallow: /vote/\nDisallow: /ajax/count\nDisallow: /ajax/amazon_widget\nDisallow: /ajax/now\nDisallow: /ajax/session_add\nDisallow: /ajax/handshake\nDisallow: /ajax/un\nDisallow: /ajax/unr\nDisallow: /ajax/log_js\nDisallow: /ajax/widget_group\nDisallow: /comments/show/history/\nDisallow: /comments/show/thread/\nDisallow: /comments/read/\nDisallow: /comments/reply/\nDisallow: /mywf/*/kommentare/\nDisallow: /screenshots/iframe/*\nDisallow: /preisvergleich/\nDisallow: /redirect.php\nDisallow: /special/amazon/angebote/redirect\nDisallow: /special/amazon/angebote/e_redirect\nDisallow: /special/notebooksbilliger/black-weekend/redirect\nDisallow: /special/notebooksbilliger/gaming-special/redirect\nDisallow: /special/notebooksbilliger/happy-new-deals/redirect\nDisallow: /special/notebooksbilliger/redirect\nDisallow: /special/notebooksbilliger/happy-easter/redirect\nDisallow: /special/redirect\nDisallow: /r?\nDisallow: /link-error.html\nCrawl-delay: 1\n\nUser-Agent: bingbot\nDisallow: /vote/\nDisallow: /ajax/count\nDisallow: /ajax/amazon_widget\nDisallow: /ajax/now\nDisallow: /ajax/session_add\nDisallow: /ajax/handshake\nDisallow: /ajax/un\nDisallow: /ajax/unr\nDisallow: /ajax/log_js\nDisallow: /ajax/widget_group\nDisallow: /comments/show/history/\nDisallow: /comments/show/thread/\nDisallow: /comments/read/\nDisallow: /comments/reply/\nDisallow: /mywf/*/kommentare/\nDisallow: /screenshots/iframe/*\nDisallow: /preisvergleich/\nDisallow: /redirect.php\nDisallow: /special/amazon/angebote/redirect\nDisallow: /special/amazon/angebote/e_redirect\nDisallow: /special/notebooksbilliger/black-weekend/redirect\nDisallow: /special/notebooksbilliger/gaming-special/redirect\nDisallow: /special/notebooksbilliger/happy-new-deals/redirect\nDisallow: /special/notebooksbilliger/redirect\nDisallow: /special/notebooksbilliger/happy-easter/redirect\nDisallow: /special/redirect\nDisallow: /r?\nDisallow: /link-error.html\n\nUser-Agent: Applebot\nDisallow: /vote/\nDisallow: /ajax/count\nDisallow: /ajax/amazon_widget\nDisallow: /ajax/now\nDisallow: /ajax/session_add\nDisallow: /ajax/handshake\nDisallow: /ajax/un\nDisallow: /ajax/unr\nDisallow: /ajax/log_js\nDisallow: /ajax/widget_group\nDisallow: /comments/show/history/\nDisallow: /comments/show/thread/\nDisallow: /comments/read/\nDisallow: /comments/reply/\nDisallow: /mywf/*/kommentare/\nDisallow: /screenshots/iframe/*\nDisallow: /preisvergleich/\nDisallow: /redirect.php\nDisallow: /special/amazon/angebote/redirect\nDisallow: /special/amazon/angebote/e_redirect\nDisallow: /special/notebooksbilliger/black-weekend/redirect\nDisallow: /special/notebooksbilliger/gaming-special/redirect\nDisallow: /special/notebooksbilliger/happy-new-deals/redirect\nDisallow: /special/notebooksbilliger/redirect\nDisallow: /special/notebooksbilliger/happy-easter/redirect\nDisallow: /special/redirect\nDisallow: /r?\nDisallow: /link-error.html\n\nUser-agent: DuckDuckBot\nDisallow: /vote/\nDisallow: /ajax/count\nDisallow: /ajax/amazon_widget\nDisallow: /ajax/now\nDisallow: /ajax/session_add\nDisallow: /ajax/handshake\nDisallow: /ajax/un\nDisallow: /ajax/unr\nDisallow: /ajax/log_js\nDisallow: /ajax/widget_group\nDisallow: /comments/show/history/\nDisallow: /comments/show/thread/\nDisallow: /comments/read/\nDisallow: /comments/reply/\nDisallow: /mywf/*/kommentare/\nDisallow: /screenshots/iframe/*\nDisallow: /preisvergleich/\nDisallow: /redirect.php\nDisallow: /special/amazon/angebote/redirect\nDisallow: /special/amazon/angebote/e_redirect\nDisallow: /special/notebooksbilliger/black-weekend/redirect\nDisallow: /special/notebooksbilliger/gaming-special/redirect\nDisallow: /special/notebooksbilliger/happy-new-deals/redirect\nDisallow: /special/notebooksbilliger/redirect\nDisallow: /special/notebooksbilliger/happy-easter/redirect\nDisallow: /special/redirect\nDisallow: /r?\nDisallow: /link-error.html\nCrawl-delay: 1\n\nUser-Agent: CCbot\nDisallow: /vote/\nDisallow: /ajax/count\nDisallow: /ajax/amazon_widget\nDisallow: /ajax/now\nDisallow: /ajax/session_add\nDisallow: /ajax/handshake\nDisallow: /ajax/un\nDisallow: /ajax/unr\nDisallow: /ajax/log_js\nDisallow: /ajax/widget_group\nDisallow: /comments/show/history/\nDisallow: /comments/show/thread/\nDisallow: /comments/read/\nDisallow: /comments/reply/\nDisallow: /mywf/*/kommentare/\nDisallow: /screenshots/iframe/*\nDisallow: /preisvergleich/\nDisallow: /redirect.php\nDisallow: /special/amazon/angebote/redirect\nDisallow: /special/amazon/angebote/e_redirect\nDisallow: /special/notebooksbilliger/black-weekend/redirect\nDisallow: /special/notebooksbilliger/gaming-special/redirect\nDisallow: /special/notebooksbilliger/happy-new-deals/redirect\nDisallow: /special/notebooksbilliger/redirect\nDisallow: /special/notebooksbilliger/happy-easter/redirect\nDisallow: /special/redirect\nDisallow: /r?\nDisallow: /link-error.html\n\nUser-Agent: GPTBot\nDisallow: /vote/\nDisallow: /ajax/count\nDisallow: /ajax/amazon_widget\nDisallow: /ajax/now\nDisallow: /ajax/session_add\nDisallow: /ajax/handshake\nDisallow: /ajax/un\nDisallow: /ajax/unr\nDisallow: /ajax/log_js\nDisallow: /ajax/widget_group\nDisallow: /comments/show/history/\nDisallow: /comments/show/thread/\nDisallow: /comments/read/\nDisallow: /comments/reply/\nDisallow: /mywf/*/kommentare/\nDisallow: /screenshots/iframe/*\nDisallow: /preisvergleich/\nDisallow: /redirect.php\nDisallow: /special/amazon/angebote/redirect\nDisallow: /special/amazon/angebote/e_redirect\nDisallow: /special/notebooksbilliger/black-weekend/redirect\nDisallow: /special/notebooksbilliger/gaming-special/redirect\nDisallow: /special/notebooksbilliger/happy-new-deals/redirect\nDisallow: /special/notebooksbilliger/redirect\nDisallow: /special/notebooksbilliger/happy-easter/redirect\nDisallow: /special/redirect\nDisallow: /r?\nDisallow: /link-error.html\n\nUser-Agent: ChatGPT-User\nDisallow: /vote/\nDisallow: /ajax/count\nDisallow: /ajax/amazon_widget\nDisallow: /ajax/now\nDisallow: /ajax/session_add\nDisallow: /ajax/handshake\nDisallow: /ajax/un\nDisallow: /ajax/unr\nDisallow: /ajax/log_js\nDisallow: /ajax/widget_group\nDisallow: /comments/show/history/\nDisallow: /comments/show/thread/\nDisallow: /comments/read/\nDisallow: /comments/reply/\nDisallow: /mywf/*/kommentare/\nDisallow: /screenshots/iframe/*\nDisallow: /preisvergleich/\nDisallow: /redirect.php\nDisallow: /special/amazon/angebote/redirect\nDisallow: /special/amazon/angebote/e_redirect\nDisallow: /special/notebooksbilliger/black-weekend/redirect\nDisallow: /special/notebooksbilliger/gaming-special/redirect\nDisallow: /special/notebooksbilliger/happy-new-deals/redirect\nDisallow: /special/notebooksbilliger/redirect\nDisallow: /special/notebooksbilliger/happy-easter/redirect\nDisallow: /special/redirect\nDisallow: /r?\nDisallow: /link-error.html\n\nUser-Agent: Yandex\nDisallow: /\n\nSitemap: https://winfuture.de/sitemap_index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/vote/",
+        "/ajax/count",
+        "/ajax/amazon_widget",
+        "/ajax/now",
+        "/ajax/session_add",
+        "/ajax/handshake",
+        "/ajax/un",
+        "/ajax/unr",
+        "/ajax/log_js",
+        "/ajax/widget_group",
+        "/comments/",
+        "/mywf/*/kommentare/",
+        "/screenshots/iframe/*",
+        "/preisvergleich/",
+        "/redirect.php",
+        "/special/amazon/angebote/redirect",
+        "/special/amazon/angebote/e_redirect",
+        "/special/notebooksbilliger/black-weekend/redirect",
+        "/special/notebooksbilliger/gaming-special/redirect",
+        "/special/notebooksbilliger/happy-new-deals/redirect",
+        "/special/notebooksbilliger/redirect",
+        "/special/notebooksbilliger/happy-easter/redirect",
+        "/special/redirect",
+        "/r?",
+        "/link-error.html"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/vote/",
+          "/ajax/count",
+          "/ajax/amazon_widget",
+          "/ajax/now",
+          "/ajax/session_add",
+          "/ajax/handshake",
+          "/ajax/un",
+          "/ajax/unr",
+          "/ajax/log_js",
+          "/ajax/widget_group",
+          "/comments/show/history/",
+          "/comments/show/thread/",
+          "/comments/read/",
+          "/comments/reply/",
+          "/mywf/*/kommentare/",
+          "/screenshots/iframe/*",
+          "/preisvergleich/",
+          "/redirect.php",
+          "/special/amazon/angebote/redirect",
+          "/special/amazon/angebote/e_redirect",
+          "/special/notebooksbilliger/black-weekend/redirect",
+          "/special/notebooksbilliger/gaming-special/redirect",
+          "/special/notebooksbilliger/happy-new-deals/redirect",
+          "/special/notebooksbilliger/redirect",
+          "/special/notebooksbilliger/happy-easter/redirect",
+          "/special/redirect",
+          "/r?",
+          "/link-error.html"
+        ]
+      }
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/vote/",
+          "/ajax/count",
+          "/ajax/amazon_widget",
+          "/ajax/now",
+          "/ajax/session_add",
+          "/ajax/handshake",
+          "/ajax/un",
+          "/ajax/unr",
+          "/ajax/log_js",
+          "/ajax/widget_group",
+          "/comments/show/history/",
+          "/comments/show/thread/",
+          "/comments/read/",
+          "/comments/reply/",
+          "/mywf/*/kommentare/",
+          "/screenshots/iframe/*",
+          "/preisvergleich/",
+          "/redirect.php",
+          "/special/amazon/angebote/redirect",
+          "/special/amazon/angebote/e_redirect",
+          "/special/notebooksbilliger/black-weekend/redirect",
+          "/special/notebooksbilliger/gaming-special/redirect",
+          "/special/notebooksbilliger/happy-new-deals/redirect",
+          "/special/notebooksbilliger/redirect",
+          "/special/notebooksbilliger/happy-easter/redirect",
+          "/special/redirect",
+          "/r?",
+          "/link-error.html"
+        ]
+      }
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/vote/",
+          "/ajax/count",
+          "/ajax/amazon_widget",
+          "/ajax/now",
+          "/ajax/session_add",
+          "/ajax/handshake",
+          "/ajax/un",
+          "/ajax/unr",
+          "/ajax/log_js",
+          "/ajax/widget_group",
+          "/comments/show/history/",
+          "/comments/show/thread/",
+          "/comments/read/",
+          "/comments/reply/",
+          "/mywf/*/kommentare/",
+          "/screenshots/iframe/*",
+          "/preisvergleich/",
+          "/redirect.php",
+          "/special/amazon/angebote/redirect",
+          "/special/amazon/angebote/e_redirect",
+          "/special/notebooksbilliger/black-weekend/redirect",
+          "/special/notebooksbilliger/gaming-special/redirect",
+          "/special/notebooksbilliger/happy-new-deals/redirect",
+          "/special/notebooksbilliger/redirect",
+          "/special/notebooksbilliger/happy-easter/redirect",
+          "/special/redirect",
+          "/r?",
+          "/link-error.html"
+        ]
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/vote/",
+          "/ajax/count",
+          "/ajax/amazon_widget",
+          "/ajax/now",
+          "/ajax/session_add",
+          "/ajax/handshake",
+          "/ajax/un",
+          "/ajax/unr",
+          "/ajax/log_js",
+          "/ajax/widget_group",
+          "/comments/show/history/",
+          "/comments/show/thread/",
+          "/comments/read/",
+          "/comments/reply/",
+          "/mywf/*/kommentare/",
+          "/screenshots/iframe/*",
+          "/preisvergleich/",
+          "/redirect.php",
+          "/special/amazon/angebote/redirect",
+          "/special/amazon/angebote/e_redirect",
+          "/special/notebooksbilliger/black-weekend/redirect",
+          "/special/notebooksbilliger/gaming-special/redirect",
+          "/special/notebooksbilliger/happy-new-deals/redirect",
+          "/special/notebooksbilliger/redirect",
+          "/special/notebooksbilliger/happy-easter/redirect",
+          "/special/redirect",
+          "/r?",
+          "/link-error.html"
+        ]
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/vote/",
+          "/ajax/count",
+          "/ajax/amazon_widget",
+          "/ajax/now",
+          "/ajax/session_add",
+          "/ajax/handshake",
+          "/ajax/un",
+          "/ajax/unr",
+          "/ajax/log_js",
+          "/ajax/widget_group",
+          "/comments/show/history/",
+          "/comments/show/thread/",
+          "/comments/read/",
+          "/comments/reply/",
+          "/mywf/*/kommentare/",
+          "/screenshots/iframe/*",
+          "/preisvergleich/",
+          "/redirect.php",
+          "/special/amazon/angebote/redirect",
+          "/special/amazon/angebote/e_redirect",
+          "/special/notebooksbilliger/black-weekend/redirect",
+          "/special/notebooksbilliger/gaming-special/redirect",
+          "/special/notebooksbilliger/happy-new-deals/redirect",
+          "/special/notebooksbilliger/redirect",
+          "/special/notebooksbilliger/happy-easter/redirect",
+          "/special/redirect",
+          "/r?",
+          "/link-error.html"
+        ]
+      }
+    },
+    {
+      "name": "DuckDuckBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/vote/",
+          "/ajax/count",
+          "/ajax/amazon_widget",
+          "/ajax/now",
+          "/ajax/session_add",
+          "/ajax/handshake",
+          "/ajax/un",
+          "/ajax/unr",
+          "/ajax/log_js",
+          "/ajax/widget_group",
+          "/comments/show/history/",
+          "/comments/show/thread/",
+          "/comments/read/",
+          "/comments/reply/",
+          "/mywf/*/kommentare/",
+          "/screenshots/iframe/*",
+          "/preisvergleich/",
+          "/redirect.php",
+          "/special/amazon/angebote/redirect",
+          "/special/amazon/angebote/e_redirect",
+          "/special/notebooksbilliger/black-weekend/redirect",
+          "/special/notebooksbilliger/gaming-special/redirect",
+          "/special/notebooksbilliger/happy-new-deals/redirect",
+          "/special/notebooksbilliger/redirect",
+          "/special/notebooksbilliger/happy-easter/redirect",
+          "/special/redirect",
+          "/r?",
+          "/link-error.html"
+        ]
+      }
+    },
+    {
+      "name": "CCbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/vote/",
+          "/ajax/count",
+          "/ajax/amazon_widget",
+          "/ajax/now",
+          "/ajax/session_add",
+          "/ajax/handshake",
+          "/ajax/un",
+          "/ajax/unr",
+          "/ajax/log_js",
+          "/ajax/widget_group",
+          "/comments/show/history/",
+          "/comments/show/thread/",
+          "/comments/read/",
+          "/comments/reply/",
+          "/mywf/*/kommentare/",
+          "/screenshots/iframe/*",
+          "/preisvergleich/",
+          "/redirect.php",
+          "/special/amazon/angebote/redirect",
+          "/special/amazon/angebote/e_redirect",
+          "/special/notebooksbilliger/black-weekend/redirect",
+          "/special/notebooksbilliger/gaming-special/redirect",
+          "/special/notebooksbilliger/happy-new-deals/redirect",
+          "/special/notebooksbilliger/redirect",
+          "/special/notebooksbilliger/happy-easter/redirect",
+          "/special/redirect",
+          "/r?",
+          "/link-error.html"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/vote/",
+          "/ajax/count",
+          "/ajax/amazon_widget",
+          "/ajax/now",
+          "/ajax/session_add",
+          "/ajax/handshake",
+          "/ajax/un",
+          "/ajax/unr",
+          "/ajax/log_js",
+          "/ajax/widget_group",
+          "/comments/show/history/",
+          "/comments/show/thread/",
+          "/comments/read/",
+          "/comments/reply/",
+          "/mywf/*/kommentare/",
+          "/screenshots/iframe/*",
+          "/preisvergleich/",
+          "/redirect.php",
+          "/special/amazon/angebote/redirect",
+          "/special/amazon/angebote/e_redirect",
+          "/special/notebooksbilliger/black-weekend/redirect",
+          "/special/notebooksbilliger/gaming-special/redirect",
+          "/special/notebooksbilliger/happy-new-deals/redirect",
+          "/special/notebooksbilliger/redirect",
+          "/special/notebooksbilliger/happy-easter/redirect",
+          "/special/redirect",
+          "/r?",
+          "/link-error.html"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/vote/",
+          "/ajax/count",
+          "/ajax/amazon_widget",
+          "/ajax/now",
+          "/ajax/session_add",
+          "/ajax/handshake",
+          "/ajax/un",
+          "/ajax/unr",
+          "/ajax/log_js",
+          "/ajax/widget_group",
+          "/comments/show/history/",
+          "/comments/show/thread/",
+          "/comments/read/",
+          "/comments/reply/",
+          "/mywf/*/kommentare/",
+          "/screenshots/iframe/*",
+          "/preisvergleich/",
+          "/redirect.php",
+          "/special/amazon/angebote/redirect",
+          "/special/amazon/angebote/e_redirect",
+          "/special/notebooksbilliger/black-weekend/redirect",
+          "/special/notebooksbilliger/gaming-special/redirect",
+          "/special/notebooksbilliger/happy-new-deals/redirect",
+          "/special/notebooksbilliger/redirect",
+          "/special/notebooksbilliger/happy-easter/redirect",
+          "/special/redirect",
+          "/r?",
+          "/link-error.html"
+        ]
+      }
+    },
+    {
+      "name": "Yandex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 11,
+    "allowedBots": 10,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Googlebot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Mediapartners-Google",
@@ -16,39 +406,69 @@
     },
     {
       "name": "AdsBot-Google",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "AdsBot-Google-Mobile",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "bingbot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Applebot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "DuckDuckBot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "CCbot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "ChatGPT-User",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Yandex",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/vote/",
+      "/ajax/count",
+      "/ajax/amazon_widget",
+      "/ajax/now",
+      "/ajax/session_add",
+      "/ajax/handshake",
+      "/ajax/un",
+      "/ajax/unr",
+      "/ajax/log_js",
+      "/ajax/widget_group",
+      "/comments/",
+      "/mywf/*/kommentare/",
+      "/screenshots/iframe/*",
+      "/preisvergleich/",
+      "/redirect.php",
+      "/special/amazon/angebote/redirect",
+      "/special/amazon/angebote/e_redirect",
+      "/special/notebooksbilliger/black-weekend/redirect",
+      "/special/notebooksbilliger/gaming-special/redirect",
+      "/special/notebooksbilliger/happy-new-deals/redirect",
+      "/special/notebooksbilliger/redirect",
+      "/special/notebooksbilliger/happy-easter/redirect",
+      "/special/redirect",
+      "/r?",
+      "/link-error.html"
+    ]
+  }
 }

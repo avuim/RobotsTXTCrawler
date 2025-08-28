@@ -1,10 +1,32 @@
 {
   "domain": "www.sport1.de",
   "normalizedDomain": "www.sport1.de",
+  "robotsTxt": "User-agent: *\nAllow: /\n\nDisallow: /person/\n\nSitemap: https://www.sport1.de/sitemap/news/current\nSitemap: https://www.sport1.de/sitemap/pages\nSitemap: https://www.sport1.de/sitemap/video/index\nSitemap: https://www.sport1.de/sitemap/galleries",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/person/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/person/"
+    ]
+  }
 }

@@ -1,10 +1,50 @@
 {
   "domain": "www.laut.de",
   "normalizedDomain": "www.laut.de",
+  "robotsTxt": "User-agent: *\nDisallow: /partner/\n\nDisallow: /artist/\nDisallow: /album/\nDisallow: /comment/\nDisallow: /release/\nDisallow: /event/\nDisallow: /song/\nDisallow: /genre/\nDisallow: /tour/\n\nDisallow: /_module/\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/partner/",
+        "/artist/",
+        "/album/",
+        "/comment/",
+        "/release/",
+        "/event/",
+        "/song/",
+        "/genre/",
+        "/tour/",
+        "/_module/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/partner/",
+      "/artist/",
+      "/album/",
+      "/comment/",
+      "/release/",
+      "/event/",
+      "/song/",
+      "/genre/",
+      "/tour/",
+      "/_module/"
+    ]
+  }
 }

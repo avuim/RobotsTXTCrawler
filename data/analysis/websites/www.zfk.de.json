@@ -1,10 +1,40 @@
 {
   "domain": "www.zfk.de",
   "normalizedDomain": "www.zfk.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /typo3/\r\nDisallow: /typo3_src/\r\nAllow: /typo3/sysext/frontend/Resources/Public/*\r\nDisallow: /fileadmin/Anzeigen/Stellenangebote/\r\nSitemap: https://www.zfk.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/typo3/sysext/frontend/Resources/Public/*"
+      ],
+      "disallowed": [
+        "/typo3/",
+        "/typo3_src/",
+        "/fileadmin/Anzeigen/Stellenangebote/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/typo3/sysext/frontend/Resources/Public/*"
+    ],
+    "disallowed": [
+      "/typo3/",
+      "/typo3_src/",
+      "/fileadmin/Anzeigen/Stellenangebote/"
+    ]
+  }
 }

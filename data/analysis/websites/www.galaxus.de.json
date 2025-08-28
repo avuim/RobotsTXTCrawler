@@ -1,7 +1,121 @@
 {
   "domain": "www.galaxus.de",
   "normalizedDomain": "www.galaxus.de",
+  "robotsTxt": "#            @/                          @/                        Hello, fellow humans!\r\n#            @/                          @/                        Interested in joining as a technical SEO specialist or developer? Have a look at https://www.galaxus.de/joboffer\r\n#            @/                          @/\r\n#        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@              @@@@\r\n#       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@           @@@@\r\n#       @@@@@@        @@@@@@@@@@@@        @@@@@@          @@@%           @\r\n#       @@@@@         /@@@@@@@@@@         @@@@@@          @@@           @@\r\n#       @@@@@@        @@@@@@@@@@@,        @@@@@@           @@@@       @@@@\r\n#       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@          @@@@@@@@@@@@@@\r\n#       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@\r\n#       @@@@@@@@@@@@@             @@@@@@@@@@@@@@       @@@@@@@@\r\n#       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     @@@@@@@@@\r\n#        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     @@@@@@@@@\r\n\r\nUser-agent: sogou spider\r\nDisallow: /\r\n\r\nUser-agent: Yandex\r\nDisallow: /\r\n\r\nUser-agent: EventMachine HttpClient\r\nDisallow: /\r\n\r\nUser-agent: niki-bot\r\nDisallow: /\r\n\r\n\r\nUser-Agent: *\r\nDisallow: /cert\r\nDisallow: /Files\r\nAllow: /Files/sitemap/*\r\nAllow: /Files/iso/*\r\nAllow: /Files/*.jpg\r\nAllow: /Files/*.jpeg\r\nAllow: /Files/*.ashx\r\nAllow: /Files/*.png\r\nAllow: /Files/*.tif\r\nAllow: /Files/*.JPG\r\nAllow: /Files/*.JPEG\r\nAllow: /Files/*.ASHX\r\nAllow: /Files/*.PNG\r\nAllow: /Files/*.TIF\r\nAllow: /Files/*.Jpeg\r\nAllow: /Files/*.Jpg\r\nAllow: /im/*\r\nDisallow: */Explore?\r\nDisallow: */explore?\r\nDisallow: */Search\r\nDisallow: */search\r\nDisallow: */SaleNew\r\nDisallow: */salenew\r\nDisallow: */SaleIso\r\nDisallow: */saleiso\r\nDisallow: */Comparison/\r\nDisallow: */comparison/\r\nDisallow: */User/\r\nDisallow: */user/\r\nDisallow: */NewDiscussion/\r\nDisallow: */newdiscussion/\r\nDisallow: */Ratings/RatingForm\r\nDisallow: */ratings/ratingform\r\nDisallow: */MarketingTeaser/SaveNewImpressions/\r\nDisallow: */marketingteaser/savenewimpressions/\r\nDisallow: */Management\r\nDisallow: */management\r\nDisallow: */*filterGrid=\r\nDisallow: */*filtergrid=\r\nAllow: */Management-Photos\r\nAllow: */management-photos\r\nDisallow: */graphql/send-consent-reporting-event\r\nDisallow: */explore/\r\nDisallow: */explore-alternatives-with-good-availability\r\nDisallow: */explore-assembler\r\nDisallow: */explore-auto-ml\r\nDisallow: */explore-buy-it-again\r\nDisallow: */explore-continue-browsing\r\nDisallow: */explore-explicit-accessories\r\nDisallow: */explore-hot-new-products\r\nDisallow: */explore-implicit-accessories\r\nDisallow: */explore-on-sale-for-you\r\nDisallow: */explore-product-sales-ranking\r\nDisallow: */explore-recently-visited-products\r\nDisallow: */explore-similar-products\r\nDisallow: /fr$\r\nDisallow: /fr/\r\nDisallow: /it$\r\nDisallow: /it/\r\nDisallow: /nl$\r\nDisallow: /nl/\r\n\r\nSitemap: https://www.galaxus.de/sitemap/v2/default-sitemap.xml\r\nSitemap: https://www.galaxus.de/sitemap/default-sitemap.xml\r\nSitemap: https://www.galaxus.de/sitemap/products-sitemap.xml\r\nSitemap: https://www.galaxus.de/sitemap/producttypes-sitemap.xml\r\nSitemap: https://www.galaxus.de/sitemap/newssitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/Files/sitemap/*",
+        "/Files/iso/*",
+        "/Files/*.jpg",
+        "/Files/*.jpeg",
+        "/Files/*.ashx",
+        "/Files/*.png",
+        "/Files/*.tif",
+        "/Files/*.JPG",
+        "/Files/*.JPEG",
+        "/Files/*.ASHX",
+        "/Files/*.PNG",
+        "/Files/*.TIF",
+        "/Files/*.Jpeg",
+        "/Files/*.Jpg",
+        "/im/*",
+        "*/Management-Photos",
+        "*/management-photos"
+      ],
+      "disallowed": [
+        "/cert",
+        "/Files",
+        "*/Explore?",
+        "*/explore?",
+        "*/Search",
+        "*/search",
+        "*/SaleNew",
+        "*/salenew",
+        "*/SaleIso",
+        "*/saleiso",
+        "*/Comparison/",
+        "*/comparison/",
+        "*/User/",
+        "*/user/",
+        "*/NewDiscussion/",
+        "*/newdiscussion/",
+        "*/Ratings/RatingForm",
+        "*/ratings/ratingform",
+        "*/MarketingTeaser/SaveNewImpressions/",
+        "*/marketingteaser/savenewimpressions/",
+        "*/Management",
+        "*/management",
+        "*/*filterGrid=",
+        "*/*filtergrid=",
+        "*/graphql/send-consent-reporting-event",
+        "*/explore/",
+        "*/explore-alternatives-with-good-availability",
+        "*/explore-assembler",
+        "*/explore-auto-ml",
+        "*/explore-buy-it-again",
+        "*/explore-continue-browsing",
+        "*/explore-explicit-accessories",
+        "*/explore-hot-new-products",
+        "*/explore-implicit-accessories",
+        "*/explore-on-sale-for-you",
+        "*/explore-product-sales-ranking",
+        "*/explore-recently-visited-products",
+        "*/explore-similar-products",
+        "/fr$",
+        "/fr/",
+        "/it$",
+        "/it/",
+        "/nl$",
+        "/nl/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "sogou spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yandex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EventMachine HttpClient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "niki-bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 4,
+    "allowedBots": 0,
+    "disallowedBots": 4,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "sogou spider",
       "allowed": false
@@ -17,10 +131,73 @@
     {
       "name": "niki-bot",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/Files/sitemap/*",
+      "/Files/iso/*",
+      "/Files/*.jpg",
+      "/Files/*.jpeg",
+      "/Files/*.ashx",
+      "/Files/*.png",
+      "/Files/*.tif",
+      "/Files/*.JPG",
+      "/Files/*.JPEG",
+      "/Files/*.ASHX",
+      "/Files/*.PNG",
+      "/Files/*.TIF",
+      "/Files/*.Jpeg",
+      "/Files/*.Jpg",
+      "/im/*",
+      "*/Management-Photos",
+      "*/management-photos"
+    ],
+    "disallowed": [
+      "/cert",
+      "/Files",
+      "*/Explore?",
+      "*/explore?",
+      "*/Search",
+      "*/search",
+      "*/SaleNew",
+      "*/salenew",
+      "*/SaleIso",
+      "*/saleiso",
+      "*/Comparison/",
+      "*/comparison/",
+      "*/User/",
+      "*/user/",
+      "*/NewDiscussion/",
+      "*/newdiscussion/",
+      "*/Ratings/RatingForm",
+      "*/ratings/ratingform",
+      "*/MarketingTeaser/SaveNewImpressions/",
+      "*/marketingteaser/savenewimpressions/",
+      "*/Management",
+      "*/management",
+      "*/*filterGrid=",
+      "*/*filtergrid=",
+      "*/graphql/send-consent-reporting-event",
+      "*/explore/",
+      "*/explore-alternatives-with-good-availability",
+      "*/explore-assembler",
+      "*/explore-auto-ml",
+      "*/explore-buy-it-again",
+      "*/explore-continue-browsing",
+      "*/explore-explicit-accessories",
+      "*/explore-hot-new-products",
+      "*/explore-implicit-accessories",
+      "*/explore-on-sale-for-you",
+      "*/explore-product-sales-ranking",
+      "*/explore-recently-visited-products",
+      "*/explore-similar-products",
+      "/fr$",
+      "/fr/",
+      "/it$",
+      "/it/",
+      "/nl$",
+      "/nl/"
+    ]
+  }
 }

@@ -1,10 +1,62 @@
 {
   "domain": "www.velux.de",
   "normalizedDomain": "www.velux.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /bin/\r\nDisallow: /xsl/\r\nDisallow: /home/\r\nDisallow: /temp/\r\nDisallow: /admin/\r\nDisallow: /views/\r\nDisallow: /upload/\r\nDisallow: /layouts/\r\nDisallow: /App_Data/\r\nDisallow: /sitecore/\r\nDisallow: /App_Config/\r\nDisallow: /App_Browsers/\r\nDisallow: /sitecore_files/\r\nDisallow: /sitecore%20modules/\r\nAllow: /sitecore/api/jss/dictionary/\r\n# Algolia-Crawler-Verif: B0618F11D41D6AE2\r\n\r\nSitemap: https://www.velux.de/sitemap.xml\r\nSitemap: https://www.velux.de/sitemap-custom.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/sitecore/api/jss/dictionary/"
+      ],
+      "disallowed": [
+        "/bin/",
+        "/xsl/",
+        "/home/",
+        "/temp/",
+        "/admin/",
+        "/views/",
+        "/upload/",
+        "/layouts/",
+        "/App_Data/",
+        "/sitecore/",
+        "/App_Config/",
+        "/App_Browsers/",
+        "/sitecore_files/",
+        "/sitecore%20modules/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/sitecore/api/jss/dictionary/"
+    ],
+    "disallowed": [
+      "/bin/",
+      "/xsl/",
+      "/home/",
+      "/temp/",
+      "/admin/",
+      "/views/",
+      "/upload/",
+      "/layouts/",
+      "/App_Data/",
+      "/sitecore/",
+      "/App_Config/",
+      "/App_Browsers/",
+      "/sitecore_files/",
+      "/sitecore%20modules/"
+    ]
+  }
 }

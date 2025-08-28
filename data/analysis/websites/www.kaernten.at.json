@@ -1,10 +1,76 @@
 {
   "domain": "www.kaernten.at",
   "normalizedDomain": "www.kaernten.at",
+  "robotsTxt": "User-agent: *\r\n\r\n# Only allow URLs generated with RealURL (deprecated - deleted soon)\r\n#Disallow: /*?id=*\r\n#Disallow: /*&id=*\r\n\r\n# L=0 is the default language\r\nDisallow: /*?L=0*\r\nDisallow: /*&L=0*\r\n\r\n# typeNum = 2002 is the weather details page\r\nDisallow: /*?type=2002*\r\nDisallow: /*&type=2002*\r\n\r\n# tx_typoscriptrendering is the ski reports details page\r\nDisallow: /*?tx_typoscriptrendering*\r\nDisallow: /*&tx_typoscriptrendering*\r\n\r\n# Should always be protected (.htaccess)\r\nDisallow: /*/Private/*\r\nDisallow: /*/Configuration/*\r\n\r\n# Do not index typo3temp (except some resources)\r\n#Allow: /typo3temp/*.css$\r\n#Allow: /typo3temp/*.css.*.gzip$\r\n#Allow: /typo3temp/*.js$\r\n#Allow: /typo3temp/*.js.*.gzip$\r\n#Allow: /typo3temp/*.jpg$\r\n#Allow: /typo3temp/*.gif$\r\n#Allow: /typo3temp/*.png$\r\n#Allow: /typo3temp/*.svg$\r\n#Disallow: /typo3temp/*\r\n\r\n# Do not index typo3 extensions (except some resources)\r\n#Allow: /typo3conf/*.css$\r\n#Allow: /typo3conf/*.css.*.gzip$\r\n#Allow: /typo3conf/*.js$\r\n#Allow: /typo3conf/*.js.*.gzip$\r\n#Allow: /typo3conf/*.jpg$\r\n#Allow: /typo3conf/*.gif$\r\n#Allow: /typo3conf/*.png$\r\n#Allow: /typo3conf/*.svg$\r\n#Disallow: /typo3conf/*\r\n\r\n# Do not index typo core files (except some resources)\r\nAllow: /typo3/*.css$\r\nAllow: /typo3/*.css.*.gzip$\r\nAllow: /typo3/*.js$\r\nAllow: /typo3/*.js.*.gzip$\r\nAllow: /typo3/*.jpg$\r\nAllow: /typo3/*.gif$\r\nAllow: /typo3/*.png$\r\nAllow: /typo3/*.svg$\r\nDisallow: /typo3/*\r\n\r\nDisallow: *.sql\r\nDisallow: *.sql.gz\r\n\r\nDisallow: *.popup-360\r\nDisallow: *.popup-bookmarked\r\n\r\n# Do not index matomo\r\nDisallow: /matomo/*\r\n\r\nSitemap: https://www.kaernten.at/sitemap.xml\r\nSitemap: https://www.kaernten.at/sitemap_erlebnisse.xml\r\nSitemap: https://www.kaernten.at/sitemap_unterkuenfte.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/typo3/*.css$",
+        "/typo3/*.css.*.gzip$",
+        "/typo3/*.js$",
+        "/typo3/*.js.*.gzip$",
+        "/typo3/*.jpg$",
+        "/typo3/*.gif$",
+        "/typo3/*.png$",
+        "/typo3/*.svg$"
+      ],
+      "disallowed": [
+        "/*?L=0*",
+        "/*&L=0*",
+        "/*?type=2002*",
+        "/*&type=2002*",
+        "/*?tx_typoscriptrendering*",
+        "/*&tx_typoscriptrendering*",
+        "/*/Private/*",
+        "/*/Configuration/*",
+        "/typo3/*",
+        "*.sql",
+        "*.sql.gz",
+        "*.popup-360",
+        "*.popup-bookmarked",
+        "/matomo/*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/typo3/*.css$",
+      "/typo3/*.css.*.gzip$",
+      "/typo3/*.js$",
+      "/typo3/*.js.*.gzip$",
+      "/typo3/*.jpg$",
+      "/typo3/*.gif$",
+      "/typo3/*.png$",
+      "/typo3/*.svg$"
+    ],
+    "disallowed": [
+      "/*?L=0*",
+      "/*&L=0*",
+      "/*?type=2002*",
+      "/*&type=2002*",
+      "/*?tx_typoscriptrendering*",
+      "/*&tx_typoscriptrendering*",
+      "/*/Private/*",
+      "/*/Configuration/*",
+      "/typo3/*",
+      "*.sql",
+      "*.sql.gz",
+      "*.popup-360",
+      "*.popup-bookmarked",
+      "/matomo/*"
+    ]
+  }
 }

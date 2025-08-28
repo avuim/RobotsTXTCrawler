@@ -1,6 +1,271 @@
 {
   "domain": "www.spiegel.de",
   "normalizedDomain": "www.spiegel.de",
+  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /*CR-Dokumentation.pdf$\n\nUser-agent: emetriqContextualBot\nAllow: /\n\nUser-agent: Mozilla/5.0 (compatible; OGDWCtxCrawler)\nAllow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: ia_archiver\nDisallow: /\n\nUser-Agent: omgili\nDisallow: /\n\nUser-Agent: omgilibot\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: DataForSeoBot\nDisallow: /\n\nUser-agent: Yeti\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: sentibot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: SirdataBot\nDisallow: /\n\nUser-agent: LCC\nDisallow: /\n\nUser-agent: TurnitinBot\nDisallow: /\n\nUser-agent: BLEXBot\nDisallow: /\n\nUser-agent: dotbot\nDisallow: /\n\nUser-Agent: ImagesiftBot\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Timpibot\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: Meta-ExternalAgent\nDisallow: /\n\nUser-agent: FacebookBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nSitemap: https://www.spiegel.de/sitemaps/news-de.xml\nSitemap: https://www.spiegel.de/sitemaps/videos/sitemap.xml\nSitemap: https://www.spiegel.de/plus/sitemap.xml\nSitemap: https://www.spiegel.de/sitemap.xml\n\n# Legal notice: spiegel.de expressly reserves the right to use its content for commercial text and data mining (§ 44b Urheberrechtsgesetz).\n# The use of robots or other automated means to access spiegel.de or collect or mine data without the express permission of spiegel.de is strictly prohibited.\n# spiegel.de may, in its discretion, permit certain automated access to certain spiegel.de pages,\n# If you would like to apply for permission to crawl spiegel.de, collect or use data, please email syndication@spiegel.de\n\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*CR-Dokumentation.pdf$"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "emetriqContextualBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Mozilla/5.0 (compatible; OGDWCtxCrawler)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yeti",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SirdataBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LCC",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Timpibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 31,
+    "allowedBots": 2,
+    "disallowedBots": 29,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -130,5 +395,11 @@
       "name": "Diffbot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*CR-Dokumentation.pdf$"
+    ]
+  }
 }

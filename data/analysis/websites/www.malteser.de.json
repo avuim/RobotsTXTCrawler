@@ -1,10 +1,4395 @@
 {
   "domain": "www.malteser.de",
   "normalizedDomain": "www.malteser.de",
+  "robotsTxt": "User-agent: *\r\nCrawl-delay: 10\r\nDisallow: /typo3/\r\nDisallow: /typo3_src/\r\nDisallow: /tslib/\r\nDisallow: /t3lib/\r\nDisallow: /typo3conf/\r\nDisallow: /typo3temp/\r\nDisallow: /cms/\r\nDisallow: /media/\r\nDisallow: /uploads/\r\n#Disallow: /fileadmin/\r\nDisallow: /fileadmin/_temp_/\r\nDisallow: /clear.gif\r\nDisallow: /storage/\r\nDisallow: /fileadmin/user_upload/storage_back/\r\nDisallow: /fileadmin/user_upload/storage/\r\nDisallow: /fileadmin/Files_sites/malteser_de_Relaunch/Magazin/e-paper/\r\nDisallow: /fileadmin/Files_sites/malteser_de/Aktuelles/Publikationen/eNews/\r\n\r\nAllow: /uploads/tx_txmalteserbuttons/\r\nAllow: /uploads/pics/\r\nAllow: /fileadmin/user_upload/storage/\r\n\r\nAllow: /storage/scripts/cycle2/\r\nAllow: /storage/scripts/general/\r\nAllow: /storage/scripts/jquery/\r\nAllow: /storage/scripts/ReadSpeaker/\r\n\r\nAllow: /typo3conf/ext/and_shadowbox/res/\r\nAllow: /typo3conf/ext/socialshareprivacy/socialshareprivacy/\r\nAllow: /typo3conf/ext/international_elemente/\r\nAllow: /typo3conf/ext/tx_slideshow/\r\n\r\nAllow: /typo3temp/assets/\r\n\r\n#Disable non-realurl\r\nDisallow: /*&type=500 # Disable print pages\r\n#Disallow: /wkhtmltopdf.html\r\n\r\nUser-agent: SurveyBot\r\nUser-agent: ShopWiki\r\nUser-agent: Jakarta Commons-HttpClient\r\nUser-Agent: AboutUsBot\r\nUser-agent: Semager\r\nUser-agent: Linguee\r\nUser-agent: Updownerbot\r\nUser-agent: gonzo\r\nUser-agent: Zeusbot\r\nUser-agent: BLEXBot\r\nUser-Agent: XoviBot\r\nUser-Agent: MegaIndex.ru\r\nUser-Agent: YandexBot\r\nUser-Agent: MJ12bot\r\nUser-Agent: Ezooms\r\nUser-Agent: Baiduspider\r\nUser-Agent: AhrefsBot\r\nUser-agent: ICCrawler - iCjobs\r\nUser-agent: Buck\r\nDisallow: /\r\n\r\nUser-Agent: Googlebot\r\nAllow: *.js\r\nAllow: *.css\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/uploads/tx_txmalteserbuttons/",
+        "/uploads/pics/",
+        "/fileadmin/user_upload/storage/",
+        "/storage/scripts/cycle2/",
+        "/storage/scripts/general/",
+        "/storage/scripts/jquery/",
+        "/storage/scripts/ReadSpeaker/",
+        "/typo3conf/ext/and_shadowbox/res/",
+        "/typo3conf/ext/socialshareprivacy/socialshareprivacy/",
+        "/typo3conf/ext/international_elemente/",
+        "/typo3conf/ext/tx_slideshow/",
+        "/typo3temp/assets/"
+      ],
+      "disallowed": [
+        "/typo3/",
+        "/typo3_src/",
+        "/tslib/",
+        "/t3lib/",
+        "/typo3conf/",
+        "/typo3temp/",
+        "/cms/",
+        "/media/",
+        "/uploads/",
+        "/fileadmin/_temp_/",
+        "/clear.gif",
+        "/storage/",
+        "/fileadmin/user_upload/storage_back/",
+        "/fileadmin/user_upload/storage/",
+        "/fileadmin/Files_sites/malteser_de_Relaunch/Magazin/e-paper/",
+        "/fileadmin/Files_sites/malteser_de/Aktuelles/Publikationen/eNews/",
+        "/*&type=500 # Disable print pages"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "SurveyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Semager",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Linguee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gonzo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Buck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Semager",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Linguee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gonzo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Buck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Semager",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Linguee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gonzo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Buck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Semager",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Linguee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gonzo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Buck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Semager",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Linguee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gonzo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Buck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Semager",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Linguee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gonzo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Buck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Semager",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Linguee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gonzo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Buck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Semager",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Linguee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gonzo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Buck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Semager",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Linguee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gonzo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Buck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Semager",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Linguee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gonzo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Buck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Semager",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Linguee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gonzo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Buck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Semager",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Linguee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gonzo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Buck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Semager",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Linguee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gonzo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Buck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Semager",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Linguee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gonzo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Buck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Semager",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Linguee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gonzo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Buck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Semager",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Linguee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gonzo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Buck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Semager",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Linguee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gonzo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Buck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Semager",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Linguee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gonzo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Buck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Semager",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Linguee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gonzo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Buck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "*.js",
+          "*.css"
+        ],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 362,
+    "allowedBots": 1,
+    "disallowedBots": 361,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false
+    },
+    {
+      "name": "Semager",
+      "allowed": false
+    },
+    {
+      "name": "Linguee",
+      "allowed": false
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false
+    },
+    {
+      "name": "gonzo",
+      "allowed": false
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false
+    },
+    {
+      "name": "Buck",
+      "allowed": false
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false
+    },
+    {
+      "name": "Semager",
+      "allowed": false
+    },
+    {
+      "name": "Linguee",
+      "allowed": false
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false
+    },
+    {
+      "name": "gonzo",
+      "allowed": false
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false
+    },
+    {
+      "name": "Buck",
+      "allowed": false
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false
+    },
+    {
+      "name": "Semager",
+      "allowed": false
+    },
+    {
+      "name": "Linguee",
+      "allowed": false
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false
+    },
+    {
+      "name": "gonzo",
+      "allowed": false
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false
+    },
+    {
+      "name": "Buck",
+      "allowed": false
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false
+    },
+    {
+      "name": "Semager",
+      "allowed": false
+    },
+    {
+      "name": "Linguee",
+      "allowed": false
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false
+    },
+    {
+      "name": "gonzo",
+      "allowed": false
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false
+    },
+    {
+      "name": "Buck",
+      "allowed": false
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false
+    },
+    {
+      "name": "Semager",
+      "allowed": false
+    },
+    {
+      "name": "Linguee",
+      "allowed": false
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false
+    },
+    {
+      "name": "gonzo",
+      "allowed": false
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false
+    },
+    {
+      "name": "Buck",
+      "allowed": false
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false
+    },
+    {
+      "name": "Semager",
+      "allowed": false
+    },
+    {
+      "name": "Linguee",
+      "allowed": false
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false
+    },
+    {
+      "name": "gonzo",
+      "allowed": false
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false
+    },
+    {
+      "name": "Buck",
+      "allowed": false
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false
+    },
+    {
+      "name": "Semager",
+      "allowed": false
+    },
+    {
+      "name": "Linguee",
+      "allowed": false
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false
+    },
+    {
+      "name": "gonzo",
+      "allowed": false
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false
+    },
+    {
+      "name": "Buck",
+      "allowed": false
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false
+    },
+    {
+      "name": "Semager",
+      "allowed": false
+    },
+    {
+      "name": "Linguee",
+      "allowed": false
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false
+    },
+    {
+      "name": "gonzo",
+      "allowed": false
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false
+    },
+    {
+      "name": "Buck",
+      "allowed": false
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false
+    },
+    {
+      "name": "Semager",
+      "allowed": false
+    },
+    {
+      "name": "Linguee",
+      "allowed": false
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false
+    },
+    {
+      "name": "gonzo",
+      "allowed": false
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false
+    },
+    {
+      "name": "Buck",
+      "allowed": false
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false
+    },
+    {
+      "name": "Semager",
+      "allowed": false
+    },
+    {
+      "name": "Linguee",
+      "allowed": false
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false
+    },
+    {
+      "name": "gonzo",
+      "allowed": false
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false
+    },
+    {
+      "name": "Buck",
+      "allowed": false
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false
+    },
+    {
+      "name": "Semager",
+      "allowed": false
+    },
+    {
+      "name": "Linguee",
+      "allowed": false
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false
+    },
+    {
+      "name": "gonzo",
+      "allowed": false
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false
+    },
+    {
+      "name": "Buck",
+      "allowed": false
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false
+    },
+    {
+      "name": "Semager",
+      "allowed": false
+    },
+    {
+      "name": "Linguee",
+      "allowed": false
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false
+    },
+    {
+      "name": "gonzo",
+      "allowed": false
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false
+    },
+    {
+      "name": "Buck",
+      "allowed": false
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false
+    },
+    {
+      "name": "Semager",
+      "allowed": false
+    },
+    {
+      "name": "Linguee",
+      "allowed": false
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false
+    },
+    {
+      "name": "gonzo",
+      "allowed": false
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false
+    },
+    {
+      "name": "Buck",
+      "allowed": false
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false
+    },
+    {
+      "name": "Semager",
+      "allowed": false
+    },
+    {
+      "name": "Linguee",
+      "allowed": false
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false
+    },
+    {
+      "name": "gonzo",
+      "allowed": false
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false
+    },
+    {
+      "name": "Buck",
+      "allowed": false
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false
+    },
+    {
+      "name": "Semager",
+      "allowed": false
+    },
+    {
+      "name": "Linguee",
+      "allowed": false
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false
+    },
+    {
+      "name": "gonzo",
+      "allowed": false
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false
+    },
+    {
+      "name": "Buck",
+      "allowed": false
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false
+    },
+    {
+      "name": "Semager",
+      "allowed": false
+    },
+    {
+      "name": "Linguee",
+      "allowed": false
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false
+    },
+    {
+      "name": "gonzo",
+      "allowed": false
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false
+    },
+    {
+      "name": "Buck",
+      "allowed": false
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false
+    },
+    {
+      "name": "Semager",
+      "allowed": false
+    },
+    {
+      "name": "Linguee",
+      "allowed": false
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false
+    },
+    {
+      "name": "gonzo",
+      "allowed": false
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false
+    },
+    {
+      "name": "Buck",
+      "allowed": false
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false
+    },
+    {
+      "name": "Semager",
+      "allowed": false
+    },
+    {
+      "name": "Linguee",
+      "allowed": false
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false
+    },
+    {
+      "name": "gonzo",
+      "allowed": false
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false
+    },
+    {
+      "name": "Buck",
+      "allowed": false
+    },
+    {
+      "name": "SurveyBot",
+      "allowed": false
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false
+    },
+    {
+      "name": "Jakarta Commons-HttpClient",
+      "allowed": false
+    },
+    {
+      "name": "AboutUsBot",
+      "allowed": false
+    },
+    {
+      "name": "Semager",
+      "allowed": false
+    },
+    {
+      "name": "Linguee",
+      "allowed": false
+    },
+    {
+      "name": "Updownerbot",
+      "allowed": false
+    },
+    {
+      "name": "gonzo",
+      "allowed": false
+    },
+    {
+      "name": "Zeusbot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Ezooms",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "ICCrawler - iCjobs",
+      "allowed": false
     },
     {
       "name": "Buck",
@@ -14,5 +4399,40 @@
       "name": "Googlebot",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/uploads/tx_txmalteserbuttons/",
+      "/uploads/pics/",
+      "/fileadmin/user_upload/storage/",
+      "/storage/scripts/cycle2/",
+      "/storage/scripts/general/",
+      "/storage/scripts/jquery/",
+      "/storage/scripts/ReadSpeaker/",
+      "/typo3conf/ext/and_shadowbox/res/",
+      "/typo3conf/ext/socialshareprivacy/socialshareprivacy/",
+      "/typo3conf/ext/international_elemente/",
+      "/typo3conf/ext/tx_slideshow/",
+      "/typo3temp/assets/"
+    ],
+    "disallowed": [
+      "/typo3/",
+      "/typo3_src/",
+      "/tslib/",
+      "/t3lib/",
+      "/typo3conf/",
+      "/typo3temp/",
+      "/cms/",
+      "/media/",
+      "/uploads/",
+      "/fileadmin/_temp_/",
+      "/clear.gif",
+      "/storage/",
+      "/fileadmin/user_upload/storage_back/",
+      "/fileadmin/user_upload/storage/",
+      "/fileadmin/Files_sites/malteser_de_Relaunch/Magazin/e-paper/",
+      "/fileadmin/Files_sites/malteser_de/Aktuelles/Publikationen/eNews/",
+      "/*&type=500 # Disable print pages"
+    ]
+  }
 }

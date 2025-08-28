@@ -1,10 +1,58 @@
 {
   "domain": "www.moebel-rieger.de",
   "normalizedDomain": "www.moebel-rieger.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /account/\r\nDisallow: /compare/\r\nDisallow: /checkout/\r\nDisallow: /listing/\r\nDisallow: /note/\r\nDisallow: /register/\r\nDisallow: /search/\r\nDisallow: /ticket/\r\nDisallow: /tracking/\r\nDisallow: /widgets/\r\nDisallow: /wishlist/\r\nDisallow: /*?sInquiry=\r\nDisallow: /rundum-rieger/mitarbeiterinformation/\r\nDisallow: /personalrabatt/\r\nSitemap: https://www.moebel-rieger.de/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/account/",
+        "/compare/",
+        "/checkout/",
+        "/listing/",
+        "/note/",
+        "/register/",
+        "/search/",
+        "/ticket/",
+        "/tracking/",
+        "/widgets/",
+        "/wishlist/",
+        "/*?sInquiry=",
+        "/rundum-rieger/mitarbeiterinformation/",
+        "/personalrabatt/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/account/",
+      "/compare/",
+      "/checkout/",
+      "/listing/",
+      "/note/",
+      "/register/",
+      "/search/",
+      "/ticket/",
+      "/tracking/",
+      "/widgets/",
+      "/wishlist/",
+      "/*?sInquiry=",
+      "/rundum-rieger/mitarbeiterinformation/",
+      "/personalrabatt/"
+    ]
+  }
 }

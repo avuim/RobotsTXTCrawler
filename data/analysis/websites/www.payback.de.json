@@ -1,7 +1,54 @@
 {
   "domain": "www.payback.de",
   "normalizedDomain": "www.payback.de",
+  "robotsTxt": "User-agent: OnPageBot\r\nDisallow: /\r\n\r\nUser-agent: RyteBot/1.0.0\r\nDisallow: /\r\n\r\nUser-agent: rogerbot\r\nDisallow: /\r\n\r\nUser-agent: *\r\nDisallow: /-/*\r\nDisallow: /test\r\nDisallow: /site-seeing\r\n \r\nSitemap: https://www.payback.de/resources/action/sitemap/sitemap.xml\r\nSitemap: https://www.payback.de/resources/action/sitemap/shop.xml\r\n\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/-/*",
+        "/test",
+        "/site-seeing"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "OnPageBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "RyteBot/1.0.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "rogerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "OnPageBot",
       "allowed": false
@@ -13,10 +60,14 @@
     {
       "name": "rogerbot",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/-/*",
+      "/test",
+      "/site-seeing"
+    ]
+  }
 }

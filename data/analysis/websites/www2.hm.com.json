@@ -1,26 +1,428 @@
 {
   "domain": "www2.hm.com",
   "normalizedDomain": "www2.hm.com",
+  "robotsTxt": "# This robots.txt file controls crawling of URLs under www2.hm.com\r\nUser-Agent: Baiduspider\r\nDisallow: /\r\n\r\nUser-Agent: Yeti\r\nAllow: /$\r\nAllow: /ko_kr\r\nDisallow: /\r\n\r\nUser-Agent: Daumoa\r\nAllow: /ko_kr\r\nDisallow: /\r\n\r\nUser-Agent: *\r\nDisallow: /alive/user\r\nDisallow: /m/\r\nDisallow: /cart$\r\nDisallow: /*checkout\r\nDisallow: /*j_spring_security_check\r\nDisallow: /*login\r\nDisallow: /*logout\r\nDisallow: /*minicart\r\nDisallow: /*my-account\r\nDisallow: /*password\r\nDisallow: /*register\r\nDisallow: /reviews/\r\nDisallow: /*_ui\r\nDisallow: /*unsubscribe.html\r\nDisallow: /*manage-subscription\r\nDisallow: /en_eur\r\nDisallow: /en/*\r\nDisallow: /*.product-article-\r\nDisallow: */resell/productpage/\r\nDisallow: */search-results.html*\r\nDisallow: /assets/\r\nDisallow: */index.*.html\r\n\r\nUser-agent: GPTBot  \r\nUser-agent: ClaudeBot\r\nUser-agent: Google-Extended\r\nUser-agent: PerplexityBot\r\nUser-agent: CCBot\r\nAllow: / \r\n\r\nSitemap: https://www2.hm.com/bg_bg.sitemap.xml\r\nSitemap: https://www2.hm.com/cs_cz.sitemap.xml\r\nSitemap: https://www2.hm.com/da_dk.sitemap.xml\r\nSitemap: https://www2.hm.com/de_at.sitemap.xml\r\nSitemap: https://www2.hm.com/de_ch.sitemap.xml\r\nSitemap: https://www2.hm.com/de_de.sitemap.xml\r\nSitemap: https://www2.hm.com/el_gr.sitemap.xml\r\nSitemap: https://www2.hm.com/en_asia1.sitemap.xml\r\nSitemap: https://www2.hm.com/en_asia3.sitemap.xml\r\nSitemap: https://www2.hm.com/en_ph.sitemap.xml\r\nSitemap: https://www2.hm.com/en_au.sitemap.xml\r\nSitemap: https://www2.hm.com/en_ca.sitemap.xml\r\nSitemap: https://www2.hm.com/en_gb.sitemap.xml\r\nSitemap: https://www2.hm.com/en_hk.sitemap.xml\r\nSitemap: https://www2.hm.com/en_ie.sitemap.xml\r\nSitemap: https://www2.hm.com/en_in.sitemap.xml\r\nSitemap: https://www2.hm.com/en_my.sitemap.xml\r\nSitemap: https://www2.hm.com/en_sg.sitemap.xml\r\nSitemap: https://www2.hm.com/en_us.sitemap.xml\r\nSitemap: https://www2.hm.com/es_es.sitemap.xml\r\nSitemap: https://www2.hm.com/es_mx.sitemap.xml\r\nSitemap: https://www2.hm.com/fi_fi.sitemap.xml\r\nSitemap: https://www2.hm.com/fr_be.sitemap.xml\r\nSitemap: https://www2.hm.com/fr_ca.sitemap.xml\r\nSitemap: https://www2.hm.com/fr_ch.sitemap.xml\r\nSitemap: https://www2.hm.com/fr_fr.sitemap.xml\r\nSitemap: https://www2.hm.com/hu_hu.sitemap.xml\r\nSitemap: https://www2.hm.com/hw_il.sitemap.xml\r\nSitemap: https://www2.hm.com/it_ch.sitemap.xml\r\nSitemap: https://www2.hm.com/it_it.sitemap.xml\r\nSitemap: https://www2.hm.com/ja_jp.sitemap.xml\r\nSitemap: https://www2.hm.com/ko_kr.sitemap.xml\r\nSitemap: https://www2.hm.com/nl_be.sitemap.xml\r\nSitemap: https://www2.hm.com/nl_nl.sitemap.xml\r\nSitemap: https://www2.hm.com/no_no.sitemap.xml\r\nSitemap: https://www2.hm.com/pl_pl.sitemap.xml\r\nSitemap: https://www2.hm.com/pt_pt.sitemap.xml\r\nSitemap: https://www2.hm.com/ro_ro.sitemap.xml\r\nSitemap: https://www2.hm.com/sk_sk.sitemap.xml\r\nSitemap: https://www2.hm.com/sr_rs.sitemap.xml\r\nSitemap: https://www2.hm.com/sv_fi.sitemap.xml\r\nSitemap: https://www2.hm.com/sv_se.sitemap.xml\r\nSitemap: https://www2.hm.com/tr_tr.sitemap.xml\r\nSitemap: https://www2.hm.com/zh_asia1.sitemap.xml\r\nSitemap: https://www2.hm.com/zh_asia3.sitemap.xml\r\nSitemap: https://www2.hm.com/zh_hk.sitemap.xml\r\nSitemap: https://www2.hm.com/vi_vn.sitemap.xml\r\n\r\n#Crawl delays for common bots\r\nUser-agent: Pinterestbot\r\nCrawl-delay: 1.0",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/alive/user",
+        "/m/",
+        "/cart$",
+        "/*checkout",
+        "/*j_spring_security_check",
+        "/*login",
+        "/*logout",
+        "/*minicart",
+        "/*my-account",
+        "/*password",
+        "/*register",
+        "/reviews/",
+        "/*_ui",
+        "/*unsubscribe.html",
+        "/*manage-subscription",
+        "/en_eur",
+        "/en/*",
+        "/*.product-article-",
+        "*/resell/productpage/",
+        "*/search-results.html*",
+        "/assets/",
+        "*/index.*.html"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yeti",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/$",
+          "/ko_kr"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Daumoa",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/ko_kr"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterestbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 29,
+    "allowedBots": 26,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "Baiduspider",
       "allowed": false
     },
     {
       "name": "Yeti",
-      "allowed": true
+      "allowed": false
     },
     {
       "name": "Daumoa",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
       "allowed": true
     },
     {
-      "name": "*",
-      "allowed": false
+      "name": "ClaudeBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true
     },
     {
       "name": "CCBot",
       "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": true
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": true
+    },
+    {
+      "name": "CCBot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterestbot",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/alive/user",
+      "/m/",
+      "/cart$",
+      "/*checkout",
+      "/*j_spring_security_check",
+      "/*login",
+      "/*logout",
+      "/*minicart",
+      "/*my-account",
+      "/*password",
+      "/*register",
+      "/reviews/",
+      "/*_ui",
+      "/*unsubscribe.html",
+      "/*manage-subscription",
+      "/en_eur",
+      "/en/*",
+      "/*.product-article-",
+      "*/resell/productpage/",
+      "*/search-results.html*",
+      "/assets/",
+      "*/index.*.html"
+    ]
+  }
 }

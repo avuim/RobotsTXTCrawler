@@ -1,10 +1,28 @@
 {
   "domain": "www.kompass.de",
   "normalizedDomain": "www.kompass.de",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\nSitemap: https://kompass.at/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

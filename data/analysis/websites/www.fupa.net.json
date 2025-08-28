@@ -1,18 +1,461 @@
 {
   "domain": "www.fupa.net",
   "normalizedDomain": "www.fupa.net",
+  "robotsTxt": "User-agent: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)\nUser-agent: facebookexternalhit/1.1\nUser-agent: facebookcatalog/1.0\nUser-agent: grapeshot\nAllow: /\n\nUser-agent: Googlebot\nUser-agent: Bingbot\nDisallow: /rss/\nDisallow: /fupa/admin/\nDisallow: /fupa/front/content_k.php\nDisallow: /fupa/api.php\nDisallow: /region/*/marketplace/detail/*\nDisallow: /photos/\nDisallow: /my/\nDisallow: /auth/*redirectUrl=*\nDisallow: /news/archive-*\nDisallow: /player/nv-*\nDisallow: /player/*/rankings\nDisallow: /player/*/news\nDisallow: /match/\nDisallow: /league/*/season/*\nDisallow: /cup/*/season/*\nDisallow: /team/*/playerstats\nDisallow: /team/*/playerstats/*\nDisallow: /tv/match/*\nDisallow: /test_*\nDisallow: /region/*/media\nDisallow: *.js\n\nUser-agent: dotbot\nUser-agent: proximic\nUser-agent: trendkite-akashic-crawler\nDisallow: /\n\nSitemap: https://www.fupa.net/sitemap.xml\nSitemap: https://www.fupa.net/google-news-sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "facebookexternalhit/1.1",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "facebookcatalog/1.0",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "facebookexternalhit/1.1",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "facebookcatalog/1.0",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "facebookexternalhit/1.1",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "facebookcatalog/1.0",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "facebookexternalhit/1.1",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "facebookcatalog/1.0",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/rss/",
+          "/fupa/admin/",
+          "/fupa/front/content_k.php",
+          "/fupa/api.php",
+          "/region/*/marketplace/detail/*",
+          "/photos/",
+          "/my/",
+          "/auth/*redirectUrl=*",
+          "/news/archive-*",
+          "/player/nv-*",
+          "/player/*/rankings",
+          "/player/*/news",
+          "/match/",
+          "/league/*/season/*",
+          "/cup/*/season/*",
+          "/team/*/playerstats",
+          "/team/*/playerstats/*",
+          "/tv/match/*",
+          "/test_*",
+          "/region/*/media",
+          "*.js"
+        ]
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/rss/",
+          "/fupa/admin/",
+          "/fupa/front/content_k.php",
+          "/fupa/api.php",
+          "/region/*/marketplace/detail/*",
+          "/photos/",
+          "/my/",
+          "/auth/*redirectUrl=*",
+          "/news/archive-*",
+          "/player/nv-*",
+          "/player/*/rankings",
+          "/player/*/news",
+          "/match/",
+          "/league/*/season/*",
+          "/cup/*/season/*",
+          "/team/*/playerstats",
+          "/team/*/playerstats/*",
+          "/tv/match/*",
+          "/test_*",
+          "/region/*/media",
+          "*.js"
+        ]
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/rss/",
+          "/fupa/admin/",
+          "/fupa/front/content_k.php",
+          "/fupa/api.php",
+          "/region/*/marketplace/detail/*",
+          "/photos/",
+          "/my/",
+          "/auth/*redirectUrl=*",
+          "/news/archive-*",
+          "/player/nv-*",
+          "/player/*/rankings",
+          "/player/*/news",
+          "/match/",
+          "/league/*/season/*",
+          "/cup/*/season/*",
+          "/team/*/playerstats",
+          "/team/*/playerstats/*",
+          "/tv/match/*",
+          "/test_*",
+          "/region/*/media",
+          "*.js"
+        ]
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/rss/",
+          "/fupa/admin/",
+          "/fupa/front/content_k.php",
+          "/fupa/api.php",
+          "/region/*/marketplace/detail/*",
+          "/photos/",
+          "/my/",
+          "/auth/*redirectUrl=*",
+          "/news/archive-*",
+          "/player/nv-*",
+          "/player/*/rankings",
+          "/player/*/news",
+          "/match/",
+          "/league/*/season/*",
+          "/cup/*/season/*",
+          "/team/*/playerstats",
+          "/team/*/playerstats/*",
+          "/tv/match/*",
+          "/test_*",
+          "/region/*/media",
+          "*.js"
+        ]
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 29,
+    "allowedBots": 20,
+    "disallowedBots": 9,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+      "allowed": true
+    },
+    {
+      "name": "facebookexternalhit/1.1",
+      "allowed": true
+    },
+    {
+      "name": "facebookcatalog/1.0",
+      "allowed": true
+    },
     {
       "name": "grapeshot",
       "allowed": true
     },
     {
+      "name": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+      "allowed": true
+    },
+    {
+      "name": "facebookexternalhit/1.1",
+      "allowed": true
+    },
+    {
+      "name": "facebookcatalog/1.0",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+      "allowed": true
+    },
+    {
+      "name": "facebookexternalhit/1.1",
+      "allowed": true
+    },
+    {
+      "name": "facebookcatalog/1.0",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+      "allowed": true
+    },
+    {
+      "name": "facebookexternalhit/1.1",
+      "allowed": true
+    },
+    {
+      "name": "facebookcatalog/1.0",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
       "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "proximic",
+      "allowed": false
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "proximic",
+      "allowed": false
+    },
+    {
+      "name": "trendkite-akashic-crawler",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "proximic",
       "allowed": false
     },
     {
       "name": "trendkite-akashic-crawler",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

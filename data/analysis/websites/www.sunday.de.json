@@ -1,10 +1,77 @@
 {
   "domain": "www.sunday.de",
   "normalizedDomain": "www.sunday.de",
+  "robotsTxt": "User-agent:*\r\n\r\nDisallow: */lib/\r\nDisallow: */index.php/\r\nDisallow: */*.php$\r\nDisallow: */pkginfo/\r\nDisallow: */report/\r\nDisallow: */var/\r\nDisallow: */app/\r\nDisallow: */bin/\r\nDisallow: */dev/\r\nDisallow: */lib/\r\nDisallow: */phpserver/\r\nDisallow: */tag/\r\n\r\nDisallow: */sendfriend/\r\nDisallow: */newsletter/\r\nDisallow: */payone/payments/management/\r\nDisallow: */review/\r\nDisallow: */mpgiftcard/\r\nDisallow: */vault/cards/listaction/\r\nDisallow: */wishlist/\r\nDisallow: */newsletter/manage/\r\nDisallow: */sales/order/history/\r\nDisallow: */checkout/\r\nDisallow: */onestepcheckout/\r\nDisallow: */catalog/product_compare/\r\nDisallow: */customer/\r\nDisallow: */sundayshowmore/\r\nDisallow: */catalogsearch/\r\nDisallow: */*?qs*\r\n\r\nUser-agent: ia_archiver\r\nDisallow: /\r\nUser-agent: is_archiver\r\nDisallow: /\r\n\r\nUser-agent: AhrefsBot\r\nDisallow: /\nSitemap: https://media.sunday-natural.com/media/sitemap_de.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "*/lib/",
+        "*/index.php/",
+        "*/*.php$",
+        "*/pkginfo/",
+        "*/report/",
+        "*/var/",
+        "*/app/",
+        "*/bin/",
+        "*/dev/",
+        "*/phpserver/",
+        "*/tag/",
+        "*/sendfriend/",
+        "*/newsletter/",
+        "*/payone/payments/management/",
+        "*/review/",
+        "*/mpgiftcard/",
+        "*/vault/cards/listaction/",
+        "*/wishlist/",
+        "*/newsletter/manage/",
+        "*/sales/order/history/",
+        "*/checkout/",
+        "*/onestepcheckout/",
+        "*/catalog/product_compare/",
+        "*/customer/",
+        "*/sundayshowmore/",
+        "*/catalogsearch/",
+        "*/*?qs*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "is_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "ia_archiver",
@@ -18,5 +85,37 @@
       "name": "AhrefsBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "*/lib/",
+      "*/index.php/",
+      "*/*.php$",
+      "*/pkginfo/",
+      "*/report/",
+      "*/var/",
+      "*/app/",
+      "*/bin/",
+      "*/dev/",
+      "*/phpserver/",
+      "*/tag/",
+      "*/sendfriend/",
+      "*/newsletter/",
+      "*/payone/payments/management/",
+      "*/review/",
+      "*/mpgiftcard/",
+      "*/vault/cards/listaction/",
+      "*/wishlist/",
+      "*/newsletter/manage/",
+      "*/sales/order/history/",
+      "*/checkout/",
+      "*/onestepcheckout/",
+      "*/catalog/product_compare/",
+      "*/customer/",
+      "*/sundayshowmore/",
+      "*/catalogsearch/",
+      "*/*?qs*"
+    ]
+  }
 }

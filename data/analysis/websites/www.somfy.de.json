@@ -1,14 +1,55 @@
 {
   "domain": "www.somfy.de",
   "normalizedDomain": "www.somfy.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /admin/\r\nDisallow: /CFIDE/\r\nDisallow: /0\r\nDisallow: /CFIDE/*\r\nDisallow: /de_v4/*\r\n\r\nDisallow: /suche \r\nUser-agent: rogerbot\r\nDisallow: /\r\nSitemap: https://www.somfy.de/sitemap.xml\r\n\r\n\r\n\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/admin/",
+        "/CFIDE/",
+        "/0",
+        "/CFIDE/*",
+        "/de_v4/*",
+        "/suche"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "rogerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "rogerbot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/admin/",
+      "/CFIDE/",
+      "/0",
+      "/CFIDE/*",
+      "/de_v4/*",
+      "/suche"
+    ]
+  }
 }

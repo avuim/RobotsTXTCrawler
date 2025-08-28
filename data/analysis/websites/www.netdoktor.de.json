@@ -1,10 +1,95 @@
 {
   "domain": "www.netdoktor.de",
   "normalizedDomain": "www.netdoktor.de",
+  "robotsTxt": "User-agent: *\nDisallow: /admin/\nDisallow: /preview/\nDisallow: /api/\nDisallow: /nested_admin/\nDisallow: /select2/\nDisallow: /cms_wizard/\nDisallow: /imagegallery*/\nDisallow: /swf/\nDisallow: /preview/newsletter/\nDisallow: /redesign/\nDisallow: /facts/\nDisallow: /datenschutz-faq/\nDisallow: /gesundheitsratgeber/\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\n\nSitemap: https://www.netdoktor.de/sitemap.xml\n\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/admin/",
+        "/preview/",
+        "/api/",
+        "/nested_admin/",
+        "/select2/",
+        "/cms_wizard/",
+        "/imagegallery*/",
+        "/swf/",
+        "/preview/newsletter/",
+        "/redesign/",
+        "/facts/",
+        "/datenschutz-faq/",
+        "/gesundheitsratgeber/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 7,
+    "allowedBots": 0,
+    "disallowedBots": 7,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
@@ -34,5 +119,23 @@
       "name": "ClaudeBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/admin/",
+      "/preview/",
+      "/api/",
+      "/nested_admin/",
+      "/select2/",
+      "/cms_wizard/",
+      "/imagegallery*/",
+      "/swf/",
+      "/preview/newsletter/",
+      "/redesign/",
+      "/facts/",
+      "/datenschutz-faq/",
+      "/gesundheitsratgeber/"
+    ]
+  }
 }

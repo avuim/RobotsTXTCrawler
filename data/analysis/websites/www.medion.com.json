@@ -1,10 +1,94 @@
 {
   "domain": "www.medion.com",
   "normalizedDomain": "www.medion.com",
+  "robotsTxt": "user-agent: *\r\ndisallow: /support\r\ndisallow: /newsletter\r\ndisallow: /mum\r\ndisallow: /sso\r\ndisallow: */electronics\r\ndisallow: */shop/*.pdf$\r\ndisallow: */shop/*?facet\r\ndisallow: */shop/*?pAction\r\ndisallow: */shop/add2Cart\r\ndisallow: */shop/cat/\r\ndisallow: */shop/changeQuantity\r\ndisallow: */shop/credentials\r\ndisallow: */shop/forgottenPassword\r\ndisallow: */shop/login\r\ndisallow: */shop/m/\r\ndisallow: */shop/priceSuggestion\r\ndisallow: */shop/productNotFound\r\ndisallow: */shop/registerPage\r\ndisallow: */shop/searchProduct\r\ndisallow: */shop/showCart\r\ndisallow: /lenovoserviceshop/offerProductRequest*? \r\ndisallow: /medionserviceshop/add2Cart\r\ndisallow: /medionserviceshop/login\r\ndisallow: /medionserviceshop/register\r\ndisallow: /lenovoserviceshop/add2Cart\r\ndisallow: /lenovoserviceshop/login\r\ndisallow: /lenovoserviceshop/register\r\n\r\ndisallow: */shop/cart*\r\ndisallow: */shop/my-account*\r\ndisallow: */shop/checkout*\r\ndisallow: */shop/search*\r\n\r\ndisallow: /coremedias\r\n\r\nallow: /\r\nsitemap: https://www.medion.com/de/shop/sitemap/Product-de-DE-medion-de-EUR.xml\r\nsitemap: https://www.medion.com/de/shop/content/sitemap.xml\r\nsitemap: https://www.medion.com/at/shop/sitemap/Product-de-AT-medion-at-EUR.xml\r\nsitemap: https://www.medion.com/at/shop/content/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/support",
+        "/newsletter",
+        "/mum",
+        "/sso",
+        "*/electronics",
+        "*/shop/*.pdf$",
+        "*/shop/*?facet",
+        "*/shop/*?pAction",
+        "*/shop/add2Cart",
+        "*/shop/cat/",
+        "*/shop/changeQuantity",
+        "*/shop/credentials",
+        "*/shop/forgottenPassword",
+        "*/shop/login",
+        "*/shop/m/",
+        "*/shop/priceSuggestion",
+        "*/shop/productNotFound",
+        "*/shop/registerPage",
+        "*/shop/searchProduct",
+        "*/shop/showCart",
+        "/lenovoserviceshop/offerProductRequest*?",
+        "/medionserviceshop/add2Cart",
+        "/medionserviceshop/login",
+        "/medionserviceshop/register",
+        "/lenovoserviceshop/add2Cart",
+        "/lenovoserviceshop/login",
+        "/lenovoserviceshop/register",
+        "*/shop/cart*",
+        "*/shop/my-account*",
+        "*/shop/checkout*",
+        "*/shop/search*",
+        "/coremedias"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/support",
+      "/newsletter",
+      "/mum",
+      "/sso",
+      "*/electronics",
+      "*/shop/*.pdf$",
+      "*/shop/*?facet",
+      "*/shop/*?pAction",
+      "*/shop/add2Cart",
+      "*/shop/cat/",
+      "*/shop/changeQuantity",
+      "*/shop/credentials",
+      "*/shop/forgottenPassword",
+      "*/shop/login",
+      "*/shop/m/",
+      "*/shop/priceSuggestion",
+      "*/shop/productNotFound",
+      "*/shop/registerPage",
+      "*/shop/searchProduct",
+      "*/shop/showCart",
+      "/lenovoserviceshop/offerProductRequest*?",
+      "/medionserviceshop/add2Cart",
+      "/medionserviceshop/login",
+      "/medionserviceshop/register",
+      "/lenovoserviceshop/add2Cart",
+      "/lenovoserviceshop/login",
+      "/lenovoserviceshop/register",
+      "*/shop/cart*",
+      "*/shop/my-account*",
+      "*/shop/checkout*",
+      "*/shop/search*",
+      "/coremedias"
+    ]
+  }
 }

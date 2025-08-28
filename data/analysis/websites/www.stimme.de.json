@@ -1,10 +1,135 @@
 {
   "domain": "www.stimme.de",
   "normalizedDomain": "www.stimme.de",
+  "robotsTxt": "# ID: 1\nUser-Agent: *\nDisallow: /echo/\nDisallow: /alt/\nDisallow: /alfa/\nDisallow: /testdir/\nDisallow: /dpa/\nDisallow: /echodev/\nDisallow: /abfall/\nDisallow: /teleschau/\nDisallow: /video_alt/\nDisallow: /alfaxml/\nDisallow: /test/\nDisallow: /replizierung/\nDisallow: /backup/\nDisallow: /lostnfound/\nDisallow: /detail/\nDisallow: /online-extra/\nDisallow: /abfallartikel/\nDisallow: /mediencenter/\nDisallow: /export/\nDisallow: /storage/rss/\nDisallow: /bb_redirect/\nDisallow: /_/bb_redirect/\nDisallow: /member/\nDisallow: /_/admin/\nDisallow: /_/tools/picview.html\nDisallow: /_/tools/diaview.html\nDisallow: /tools/diaview.html\nDisallow: /_/tools/\nDisallow: /_/sendmail/\nDisallow: /_/sendmail.html*\nDisallow: /_CPiX/*\nDisallow: /_LPW*\nDisallow: /_AUTH*\nDisallow: /_EXEC*\nDisallow: /*?_FRAME=*\nDisallow: /*?_FRAME=33$\nDisallow: /*?_FRAME=33\nDisallow: /*?_FRAME=33#\nDisallow: /*?_FRAME=64$\nDisallow: /*?po_id=*\nDisallow: /*?SID*\nDisallow: /*?fcms=*\nDisallow: /*?link2=*\nDisallow: /*?select1=*\nDisallow: /*?pin_type=*\nDisallow: /*&list=1$\nDisallow: /*xmv*,*,*\nDisallow: /*?page*\nDisallow: /*_FORMAT=PRINT$\nDisallow: /*_FORMAT=PRINT*\nDisallow: /*?mobileVersion=*\nDisallow: /fcms/*\nDisallow: /*PRINT?_FRAME=33\nDisallow:/*PRINT?_\nDisallow: /eo-preview/\n\nUser-Agent: Googlebot-Image\nDisallow: /echo/\nDisallow: /alt/\nDisallow: /alfa/\nDisallow: /testdir/\nDisallow: /member/\nAllow: /\n\nUser-Agent: OGDWCtxCrawler\nAllow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nSitemap: https://www.stimme.de/indexsitemap.sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/echo/",
+        "/alt/",
+        "/alfa/",
+        "/testdir/",
+        "/dpa/",
+        "/echodev/",
+        "/abfall/",
+        "/teleschau/",
+        "/video_alt/",
+        "/alfaxml/",
+        "/test/",
+        "/replizierung/",
+        "/backup/",
+        "/lostnfound/",
+        "/detail/",
+        "/online-extra/",
+        "/abfallartikel/",
+        "/mediencenter/",
+        "/export/",
+        "/storage/rss/",
+        "/bb_redirect/",
+        "/_/bb_redirect/",
+        "/member/",
+        "/_/admin/",
+        "/_/tools/picview.html",
+        "/_/tools/diaview.html",
+        "/tools/diaview.html",
+        "/_/tools/",
+        "/_/sendmail/",
+        "/_/sendmail.html*",
+        "/_CPiX/*",
+        "/_LPW*",
+        "/_AUTH*",
+        "/_EXEC*",
+        "/*?_FRAME=*",
+        "/*?_FRAME=33$",
+        "/*?_FRAME=33",
+        "/*?_FRAME=33#",
+        "/*?_FRAME=64$",
+        "/*?po_id=*",
+        "/*?SID*",
+        "/*?fcms=*",
+        "/*?link2=*",
+        "/*?select1=*",
+        "/*?pin_type=*",
+        "/*&list=1$",
+        "/*xmv*,*,*",
+        "/*?page*",
+        "/*_FORMAT=PRINT$",
+        "/*_FORMAT=PRINT*",
+        "/*?mobileVersion=*",
+        "/fcms/*",
+        "/*PRINT?_FRAME=33",
+        "/*PRINT?_",
+        "/eo-preview/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot-Image",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/echo/",
+          "/alt/",
+          "/alfa/",
+          "/testdir/",
+          "/member/"
+        ]
+      }
+    },
+    {
+      "name": "OGDWCtxCrawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 6,
+    "allowedBots": 2,
+    "disallowedBots": 4,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Googlebot-Image",
@@ -30,5 +155,65 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/echo/",
+      "/alt/",
+      "/alfa/",
+      "/testdir/",
+      "/dpa/",
+      "/echodev/",
+      "/abfall/",
+      "/teleschau/",
+      "/video_alt/",
+      "/alfaxml/",
+      "/test/",
+      "/replizierung/",
+      "/backup/",
+      "/lostnfound/",
+      "/detail/",
+      "/online-extra/",
+      "/abfallartikel/",
+      "/mediencenter/",
+      "/export/",
+      "/storage/rss/",
+      "/bb_redirect/",
+      "/_/bb_redirect/",
+      "/member/",
+      "/_/admin/",
+      "/_/tools/picview.html",
+      "/_/tools/diaview.html",
+      "/tools/diaview.html",
+      "/_/tools/",
+      "/_/sendmail/",
+      "/_/sendmail.html*",
+      "/_CPiX/*",
+      "/_LPW*",
+      "/_AUTH*",
+      "/_EXEC*",
+      "/*?_FRAME=*",
+      "/*?_FRAME=33$",
+      "/*?_FRAME=33",
+      "/*?_FRAME=33#",
+      "/*?_FRAME=64$",
+      "/*?po_id=*",
+      "/*?SID*",
+      "/*?fcms=*",
+      "/*?link2=*",
+      "/*?select1=*",
+      "/*?pin_type=*",
+      "/*&list=1$",
+      "/*xmv*,*,*",
+      "/*?page*",
+      "/*_FORMAT=PRINT$",
+      "/*_FORMAT=PRINT*",
+      "/*?mobileVersion=*",
+      "/fcms/*",
+      "/*PRINT?_FRAME=33",
+      "/*PRINT?_",
+      "/eo-preview/"
+    ]
+  }
 }

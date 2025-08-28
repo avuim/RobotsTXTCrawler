@@ -1,10 +1,58 @@
 {
   "domain": "www.hellofresh.de",
   "normalizedDomain": "www.hellofresh.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /box-week*\r\nDisallow: /images/intfood/thermomix/HF_icon_thermomix.svg*\r\nDisallow: /de/cms/Thermomix_Badge_rect_small.png*\r\nDisallow: /at/cms/Thermomix_Badge_rect_small.png*\r\nDisallow: /recipes/search/?q*\r\nDisallow: /my-account\r\nDisallow: /*?*page=\r\n#Disallow: /*?*collection=\r\nDisallow: /*?*route=\r\nDisallow: /*?*email=\r\nDisallow: /*?*resetKey=\r\nDisallow: /*?*u=\r\n#Disallow: /login*\r\nAllow: /my-account/deliveries/menu\r\nDisallow: /about/homepage\r\n\r\nSitemap: https://www.hellofresh.de/sitemap_index.xml\r\nSitemap: https://www.hellofresh.de/sitemap_transactional_pages.xml\r\nSitemap: https://www.hellofresh.de/sitemap_others.xml\r\nSitemap: https://www.hellofresh.de/sitemap_recipe_pages.xml\r\nSitemap: https://www.hellofresh.de/sitemap_recipe_collections.xml\r\nSitemap: https://www.hellofresh.de/sitemap_stories.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/my-account/deliveries/menu"
+      ],
+      "disallowed": [
+        "/box-week*",
+        "/images/intfood/thermomix/HF_icon_thermomix.svg*",
+        "/de/cms/Thermomix_Badge_rect_small.png*",
+        "/at/cms/Thermomix_Badge_rect_small.png*",
+        "/recipes/search/?q*",
+        "/my-account",
+        "/*?*page=",
+        "/*?*route=",
+        "/*?*email=",
+        "/*?*resetKey=",
+        "/*?*u=",
+        "/about/homepage"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/my-account/deliveries/menu"
+    ],
+    "disallowed": [
+      "/box-week*",
+      "/images/intfood/thermomix/HF_icon_thermomix.svg*",
+      "/de/cms/Thermomix_Badge_rect_small.png*",
+      "/at/cms/Thermomix_Badge_rect_small.png*",
+      "/recipes/search/?q*",
+      "/my-account",
+      "/*?*page=",
+      "/*?*route=",
+      "/*?*email=",
+      "/*?*resetKey=",
+      "/*?*u=",
+      "/about/homepage"
+    ]
+  }
 }

@@ -1,7 +1,49 @@
 {
   "domain": "www.liebscher-bracht.com",
   "normalizedDomain": "www.liebscher-bracht.com",
+  "robotsTxt": "User-agent: ChatGPT-User\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\nUser-agent: *\r\nDisallow: /*.pdf$\r\nDisallow: /wp-content/cache/cachify/\r\nDisallow: /wp-content/cache/wp-rocket/\r\nDisallow: /feed/\r\nAllow: /*research-paper.pdf$\r\n\r\nAllow: /\r\n\r\nSitemap: https://www.liebscher-bracht.com/sitemap_index.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/*research-paper.pdf$"
+      ],
+      "disallowed": [
+        "/*.pdf$",
+        "/wp-content/cache/cachify/",
+        "/wp-content/cache/wp-rocket/",
+        "/feed/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 0,
+    "disallowedBots": 2,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "ChatGPT-User",
       "allowed": false
@@ -9,10 +51,17 @@
     {
       "name": "CCBot",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/*research-paper.pdf$"
+    ],
+    "disallowed": [
+      "/*.pdf$",
+      "/wp-content/cache/cachify/",
+      "/wp-content/cache/wp-rocket/",
+      "/feed/"
+    ]
+  }
 }

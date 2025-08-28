@@ -1,10 +1,235 @@
 {
   "domain": "www.eatsmarter.de",
   "normalizedDomain": "www.eatsmarter.de",
+  "robotsTxt": "# Rules are valid for all robots\nUser-agent: *\n#\n# General exclusions\nDisallow: /r4032login\n#\n# Directories\nDisallow: /includes\nDisallow: /profiles\nDisallow: /scripts\nDisallow: /themes\n#\n# Files\nDisallow: /cron.php\nDisallow: /update.php\nDisallow: /xmlrpc.php\n#\n# Paths (clean URLs)\nDisallow: /admin\nDisallow: /filter/tips\nDisallow: /node/add\n#\n# Paths (no clean URLs)\nDisallow: *?q=admin/$\nDisallow: *?q=comment/reply/$\nDisallow: *?q=filter/tips/$\nDisallow: *?q=node/add/$\nDisallow: *?q=search/$\nDisallow: *?q=user/password/$\nDisallow: *?q=user/register/$\nDisallow: *?q=user/login/$\nDisallow: *?q=user/logout/$\n#\n# Crawling problem\nDisallow: /cdn-cgi/mirage/*\n\n# Block ChatGPT.\nUser-agent: GPTBot\nDisallow: /\n\n# Set delay for Pinterest bot.\nUser-agent: Pinterest\nCrawl-delay: 10\n#\n# General exclusions\nDisallow: /r4032login\n#\n# Directories\nDisallow: /includes\nDisallow: /profiles\nDisallow: /scripts\nDisallow: /themes\n#\n# Files\nDisallow: /cron.php\nDisallow: /update.php\nDisallow: /xmlrpc.php\n#\n# Paths (clean URLs)\nDisallow: /admin\nDisallow: /filter/tips\nDisallow: /node/add\n#\n# Paths (no clean URLs)\nDisallow: *?q=admin/$\nDisallow: *?q=comment/reply/$\nDisallow: *?q=filter/tips/$\nDisallow: *?q=node/add/$\nDisallow: *?q=search/$\nDisallow: *?q=user/password/$\nDisallow: *?q=user/register/$\nDisallow: *?q=user/login/$\nDisallow: *?q=user/logout/$\n#\n# Crawling problem\nDisallow: /cdn-cgi/mirage/*\n\nUser-agent: Pinterest/0.2 (+https://www.pinterest.com/bot.html)\nCrawl-delay: 10\n#\n# General exclusions\nDisallow: /r4032login\n#\n# Directories\nDisallow: /includes\nDisallow: /profiles\nDisallow: /scripts\nDisallow: /themes\n#\n# Files\nDisallow: /cron.php\nDisallow: /update.php\nDisallow: /xmlrpc.php\n#\n# Paths (clean URLs)\nDisallow: /admin\nDisallow: /filter/tips\nDisallow: /node/add\n#\n# Paths (no clean URLs)\nDisallow: *?q=admin/$\nDisallow: *?q=comment/reply/$\nDisallow: *?q=filter/tips/$\nDisallow: *?q=node/add/$\nDisallow: *?q=search/$\nDisallow: *?q=user/password/$\nDisallow: *?q=user/register/$\nDisallow: *?q=user/login/$\nDisallow: *?q=user/logout/$\n#\n# Crawling problem\nDisallow: /cdn-cgi/mirage/*\n\nUser-agent: Mozilla/5.0 (compatible; Pinterestbot/1.0; +https://www.pinterest.com/bot.html)\nCrawl-delay: 10\n#\n# General exclusions\nDisallow: /r4032login\n#\n# Directories\nDisallow: /includes\nDisallow: /profiles\nDisallow: /scripts\nDisallow: /themes\n#\n# Files\nDisallow: /cron.php\nDisallow: /update.php\nDisallow: /xmlrpc.php\n#\n# Paths (clean URLs)\nDisallow: /admin\nDisallow: /filter/tips\nDisallow: /node/add\n#\n# Paths (no clean URLs)\nDisallow: *?q=admin/$\nDisallow: *?q=comment/reply/$\nDisallow: *?q=filter/tips/$\nDisallow: *?q=node/add/$\nDisallow: *?q=search/$\nDisallow: *?q=user/password/$\nDisallow: *?q=user/register/$\nDisallow: *?q=user/login/$\nDisallow: *?q=user/logout/$\n#\n# Crawling problem\nDisallow: /cdn-cgi/mirage/*\n\nUser-agent: Mozilla/5.0 (compatible; Pinterestbot/1.0; +http://www.pinterest.com/bot.html)\nCrawl-delay: 10\n#\n# General exclusions\nDisallow: /r4032login\n#\n# Directories\nDisallow: /includes\nDisallow: /profiles\nDisallow: /scripts\nDisallow: /themes\n#\n# Files\nDisallow: /cron.php\nDisallow: /update.php\nDisallow: /xmlrpc.php\n#\n# Paths (clean URLs)\nDisallow: /admin\nDisallow: /filter/tips\nDisallow: /node/add\n#\n# Paths (no clean URLs)\nDisallow: *?q=admin/$\nDisallow: *?q=comment/reply/$\nDisallow: *?q=filter/tips/$\nDisallow: *?q=node/add/$\nDisallow: *?q=search/$\nDisallow: *?q=user/password/$\nDisallow: *?q=user/register/$\nDisallow: *?q=user/login/$\nDisallow: *?q=user/logout/$\n#\n# Crawling problem\nDisallow: /cdn-cgi/mirage/*\n\nUser-agent: Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Pinterestbot/1.0; +https://www.pinterest.com/bot.html)\nCrawl-delay: 10\n#\n# General exclusions\nDisallow: /r4032login\n#\n# Directories\nDisallow: /includes\nDisallow: /profiles\nDisallow: /scripts\nDisallow: /themes\n#\n# Files\nDisallow: /cron.php\nDisallow: /update.php\nDisallow: /xmlrpc.php\n#\n# Paths (clean URLs)\nDisallow: /admin\nDisallow: /filter/tips\nDisallow: /node/add\n#\n# Paths (no clean URLs)\nDisallow: *?q=admin/$\nDisallow: *?q=comment/reply/$\nDisallow: *?q=filter/tips/$\nDisallow: *?q=node/add/$\nDisallow: *?q=search/$\nDisallow: *?q=user/password/$\nDisallow: *?q=user/register/$\nDisallow: *?q=user/login/$\nDisallow: *?q=user/logout/$\n#\n# Crawling problem\nDisallow: /cdn-cgi/mirage/*\n\n# Set delay for Bingbot.\nUser-agent: msnbot\nCrawl-delay: 1\n#\n# General exclusions\nDisallow: /r4032login\n#\n# Directories\nDisallow: /includes\nDisallow: /profiles\nDisallow: /scripts\nDisallow: /themes\n#\n# Files\nDisallow: /cron.php\nDisallow: /update.php\nDisallow: /xmlrpc.php\n#\n# Paths (clean URLs)\nDisallow: /admin\nDisallow: /filter/tips\nDisallow: /node/add\n#\n# Paths (no clean URLs)\nDisallow: *?q=admin/$\nDisallow: *?q=comment/reply/$\nDisallow: *?q=filter/tips/$\nDisallow: *?q=node/add/$\nDisallow: *?q=search/$\nDisallow: *?q=user/password/$\nDisallow: *?q=user/register/$\nDisallow: *?q=user/login/$\nDisallow: *?q=user/logout/$\n#\n# Crawling problem\nDisallow: /cdn-cgi/mirage/*\n\nSitemap: https://eatsmarter.de/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/r4032login",
+        "/includes",
+        "/profiles",
+        "/scripts",
+        "/themes",
+        "/cron.php",
+        "/update.php",
+        "/xmlrpc.php",
+        "/admin",
+        "/filter/tips",
+        "/node/add",
+        "*?q=admin/$",
+        "*?q=comment/reply/$",
+        "*?q=filter/tips/$",
+        "*?q=node/add/$",
+        "*?q=search/$",
+        "*?q=user/password/$",
+        "*?q=user/register/$",
+        "*?q=user/login/$",
+        "*?q=user/logout/$",
+        "/cdn-cgi/mirage/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/r4032login",
+          "/includes",
+          "/profiles",
+          "/scripts",
+          "/themes",
+          "/cron.php",
+          "/update.php",
+          "/xmlrpc.php",
+          "/admin",
+          "/filter/tips",
+          "/node/add",
+          "*?q=admin/$",
+          "*?q=comment/reply/$",
+          "*?q=filter/tips/$",
+          "*?q=node/add/$",
+          "*?q=search/$",
+          "*?q=user/password/$",
+          "*?q=user/register/$",
+          "*?q=user/login/$",
+          "*?q=user/logout/$",
+          "/cdn-cgi/mirage/*"
+        ]
+      }
+    },
+    {
+      "name": "Pinterest/0.2 (+https://www.pinterest.com/bot.html)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/r4032login",
+          "/includes",
+          "/profiles",
+          "/scripts",
+          "/themes",
+          "/cron.php",
+          "/update.php",
+          "/xmlrpc.php",
+          "/admin",
+          "/filter/tips",
+          "/node/add",
+          "*?q=admin/$",
+          "*?q=comment/reply/$",
+          "*?q=filter/tips/$",
+          "*?q=node/add/$",
+          "*?q=search/$",
+          "*?q=user/password/$",
+          "*?q=user/register/$",
+          "*?q=user/login/$",
+          "*?q=user/logout/$",
+          "/cdn-cgi/mirage/*"
+        ]
+      }
+    },
+    {
+      "name": "Mozilla/5.0 (compatible; Pinterestbot/1.0; +https://www.pinterest.com/bot.html)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/r4032login",
+          "/includes",
+          "/profiles",
+          "/scripts",
+          "/themes",
+          "/cron.php",
+          "/update.php",
+          "/xmlrpc.php",
+          "/admin",
+          "/filter/tips",
+          "/node/add",
+          "*?q=admin/$",
+          "*?q=comment/reply/$",
+          "*?q=filter/tips/$",
+          "*?q=node/add/$",
+          "*?q=search/$",
+          "*?q=user/password/$",
+          "*?q=user/register/$",
+          "*?q=user/login/$",
+          "*?q=user/logout/$",
+          "/cdn-cgi/mirage/*"
+        ]
+      }
+    },
+    {
+      "name": "Mozilla/5.0 (compatible; Pinterestbot/1.0; +http://www.pinterest.com/bot.html)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/r4032login",
+          "/includes",
+          "/profiles",
+          "/scripts",
+          "/themes",
+          "/cron.php",
+          "/update.php",
+          "/xmlrpc.php",
+          "/admin",
+          "/filter/tips",
+          "/node/add",
+          "*?q=admin/$",
+          "*?q=comment/reply/$",
+          "*?q=filter/tips/$",
+          "*?q=node/add/$",
+          "*?q=search/$",
+          "*?q=user/password/$",
+          "*?q=user/register/$",
+          "*?q=user/login/$",
+          "*?q=user/logout/$",
+          "/cdn-cgi/mirage/*"
+        ]
+      }
+    },
+    {
+      "name": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Pinterestbot/1.0; +https://www.pinterest.com/bot.html)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/r4032login",
+          "/includes",
+          "/profiles",
+          "/scripts",
+          "/themes",
+          "/cron.php",
+          "/update.php",
+          "/xmlrpc.php",
+          "/admin",
+          "/filter/tips",
+          "/node/add",
+          "*?q=admin/$",
+          "*?q=comment/reply/$",
+          "*?q=filter/tips/$",
+          "*?q=node/add/$",
+          "*?q=search/$",
+          "*?q=user/password/$",
+          "*?q=user/register/$",
+          "*?q=user/login/$",
+          "*?q=user/logout/$",
+          "/cdn-cgi/mirage/*"
+        ]
+      }
+    },
+    {
+      "name": "msnbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/r4032login",
+          "/includes",
+          "/profiles",
+          "/scripts",
+          "/themes",
+          "/cron.php",
+          "/update.php",
+          "/xmlrpc.php",
+          "/admin",
+          "/filter/tips",
+          "/node/add",
+          "*?q=admin/$",
+          "*?q=comment/reply/$",
+          "*?q=filter/tips/$",
+          "*?q=node/add/$",
+          "*?q=search/$",
+          "*?q=user/password/$",
+          "*?q=user/register/$",
+          "*?q=user/login/$",
+          "*?q=user/logout/$",
+          "/cdn-cgi/mirage/*"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 7,
+    "allowedBots": 6,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
@@ -12,27 +237,53 @@
     },
     {
       "name": "Pinterest",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Pinterest/0.2 (+https://www.pinterest.com/bot.html)",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Mozilla/5.0 (compatible; Pinterestbot/1.0; +https://www.pinterest.com/bot.html)",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Mozilla/5.0 (compatible; Pinterestbot/1.0; +http://www.pinterest.com/bot.html)",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Pinterestbot/1.0; +https://www.pinterest.com/bot.html)",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "msnbot",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/r4032login",
+      "/includes",
+      "/profiles",
+      "/scripts",
+      "/themes",
+      "/cron.php",
+      "/update.php",
+      "/xmlrpc.php",
+      "/admin",
+      "/filter/tips",
+      "/node/add",
+      "*?q=admin/$",
+      "*?q=comment/reply/$",
+      "*?q=filter/tips/$",
+      "*?q=node/add/$",
+      "*?q=search/$",
+      "*?q=user/password/$",
+      "*?q=user/register/$",
+      "*?q=user/login/$",
+      "*?q=user/logout/$",
+      "/cdn-cgi/mirage/*"
+    ]
+  }
 }

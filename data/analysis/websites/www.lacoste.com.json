@@ -1,13 +1,523 @@
 {
   "domain": "www.lacoste.com",
   "normalizedDomain": "www.lacoste.com",
+  "robotsTxt": "User-agent: *\r\n\r\nDisallow: *prefv*\r\nDisallow: *prefn*\r\nDisallow: *srule*\r\nDisallow: *sz*\r\nDisallow: */checkout*\r\nDisallow: */search\r\nDisallow: */account\r\nDisallow: *LoginV2*\r\nDisallow: *AccountV2*\r\nDisallow: /*search?cgid=*\r\nDisallow: /*?sortBy=*\r\nDisallow: /*?cgid*\r\nDisallow: /*?dwvar*\r\nDisallow: /*view*\r\nDisallow: */varb*\r\nDisallow: */account*\r\nDisallow: */authentication*\r\nDisallow: */accueil*\r\nDisallow: *?filters=*\r\n\r\nDisallow: /on/demandware.store/*\r\nDisallow: /mea*\r\nDisallow: /*/events/corporate/pdf*\r\n\r\nDisallow: /fr/homepage.html\r\nDisallow: /gb/homepage.html\r\nDisallow: /ie/homepage.html\r\nDisallow: /de/homepage.html\r\nDisallow: /at/homepage.html\r\nDisallow: /ch/de/homepage.html\r\nDisallow: /ch/en/homepage.html\r\nDisallow: /ch/fr/homepage.html\r\nDisallow: /dk/homepage.html\r\nDisallow: /se/homepage.html\r\nDisallow: /be/fr/homepage.html\r\nDisallow: /be/nl/homepage.html\r\nDisallow: /nl/homepage.html\r\nDisallow: /it/homepage.html\r\nDisallow: /pt/homepage.html\r\nDisallow: /es/homepage.html\r\n\r\nAllow: /fr/stores/france\r\nAllow: /de/stores/germany\r\nAllow: /at/stores/austria\r\nAllow: /gb/stores/united-kingdom\r\nAllow: /pt/stores/portugal\r\nAllow: /dk/stores/denmark\r\nAllow: /ie/stores/ireland\r\nAllow: /se/stores/sweden\r\nAllow: /ch/en/stores/switzerland\r\nAllow: /ch/de/stores/switzerland\r\nAllow: /ch/fr/stores/switzerland\r\nAllow: /ca/en/stores/canada\r\nAllow: /ca/fr/stores/canada\r\nAllow: /us/stores/united-states\r\nAllow: /it/stores/italy\r\nAllow: /kr/stores/korea\r\nAllow: /ae/stores/united-arab-emirates\r\nAllow: /mx/stores/mexico\r\nAllow: /be/fr/stores/belgium\r\nAllow: /be/nl/stores/belgium\r\nAllow: /nl/stores/netherlands\r\nAllow: /es/stores/spain\r\nAllow: /ar/stores/argentina\r\nAllow: /br/stores/brasil\r\n\r\nUser-agent: AdIdxBot\r\nUser-agent: AdsBot-Google\r\nUser-agent: AdsBot-Google-Mobile\r\nUser-agent: AdsBot-Google-Mobile-Apps\r\nUser-agent: Mediapartners-Google\r\nAllow: /*?dwvar_*\r\nAllow: /on/demandware.store/*\r\n\r\nuser-agent: Pinterestbot\r\nCrawl-delay: 0.5\r\n\r\nUser-agent: OAI-SearchBot\r\nAllow: / \r\n\r\nUser-agent: ChatGPT-User\r\nAllow: / \r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nSitemap: https://www.lacoste.com/at/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/de/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/dk/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/ch/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/fr/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/id/id/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/id/en/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/ie/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/gb/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/it/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/pt/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/se/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/es/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/za/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/us/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/kr/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/be/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/br/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/nl/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/mx/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/ar/sitemap_index.xml\r\nSitemap: https://www.lacoste.com/ca/sitemap_index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/fr/stores/france",
+        "/de/stores/germany",
+        "/at/stores/austria",
+        "/gb/stores/united-kingdom",
+        "/pt/stores/portugal",
+        "/dk/stores/denmark",
+        "/ie/stores/ireland",
+        "/se/stores/sweden",
+        "/ch/en/stores/switzerland",
+        "/ch/de/stores/switzerland",
+        "/ch/fr/stores/switzerland",
+        "/ca/en/stores/canada",
+        "/ca/fr/stores/canada",
+        "/us/stores/united-states",
+        "/it/stores/italy",
+        "/kr/stores/korea",
+        "/ae/stores/united-arab-emirates",
+        "/mx/stores/mexico",
+        "/be/fr/stores/belgium",
+        "/be/nl/stores/belgium",
+        "/nl/stores/netherlands",
+        "/es/stores/spain",
+        "/ar/stores/argentina",
+        "/br/stores/brasil"
+      ],
+      "disallowed": [
+        "*prefv*",
+        "*prefn*",
+        "*srule*",
+        "*sz*",
+        "*/checkout*",
+        "*/search",
+        "*/account",
+        "*LoginV2*",
+        "*AccountV2*",
+        "/*search?cgid=*",
+        "/*?sortBy=*",
+        "/*?cgid*",
+        "/*?dwvar*",
+        "/*view*",
+        "*/varb*",
+        "*/account*",
+        "*/authentication*",
+        "*/accueil*",
+        "*?filters=*",
+        "/on/demandware.store/*",
+        "/mea*",
+        "/*/events/corporate/pdf*",
+        "/fr/homepage.html",
+        "/gb/homepage.html",
+        "/ie/homepage.html",
+        "/de/homepage.html",
+        "/at/homepage.html",
+        "/ch/de/homepage.html",
+        "/ch/en/homepage.html",
+        "/ch/fr/homepage.html",
+        "/dk/homepage.html",
+        "/se/homepage.html",
+        "/be/fr/homepage.html",
+        "/be/nl/homepage.html",
+        "/nl/homepage.html",
+        "/it/homepage.html",
+        "/pt/homepage.html",
+        "/es/homepage.html"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AdIdxBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google-Mobile-Apps",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdIdxBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google-Mobile-Apps",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdIdxBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google-Mobile-Apps",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdIdxBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google-Mobile-Apps",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdIdxBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google-Mobile-Apps",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/*?dwvar_*",
+          "/on/demandware.store/*"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterestbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterestbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 31,
+    "allowedBots": 30,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     },
     {
+      "name": "AdIdxBot",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google-Mobile-Apps",
+      "allowed": true
+    },
+    {
       "name": "Mediapartners-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdIdxBot",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google-Mobile-Apps",
+      "allowed": true
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdIdxBot",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google-Mobile-Apps",
+      "allowed": true
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdIdxBot",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google-Mobile-Apps",
+      "allowed": true
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdIdxBot",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google-Mobile-Apps",
+      "allowed": true
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true
+    },
+    {
+      "name": "Pinterestbot",
+      "allowed": true
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterestbot",
       "allowed": true
     },
     {
@@ -22,5 +532,73 @@
       "name": "GPTBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/fr/stores/france",
+      "/de/stores/germany",
+      "/at/stores/austria",
+      "/gb/stores/united-kingdom",
+      "/pt/stores/portugal",
+      "/dk/stores/denmark",
+      "/ie/stores/ireland",
+      "/se/stores/sweden",
+      "/ch/en/stores/switzerland",
+      "/ch/de/stores/switzerland",
+      "/ch/fr/stores/switzerland",
+      "/ca/en/stores/canada",
+      "/ca/fr/stores/canada",
+      "/us/stores/united-states",
+      "/it/stores/italy",
+      "/kr/stores/korea",
+      "/ae/stores/united-arab-emirates",
+      "/mx/stores/mexico",
+      "/be/fr/stores/belgium",
+      "/be/nl/stores/belgium",
+      "/nl/stores/netherlands",
+      "/es/stores/spain",
+      "/ar/stores/argentina",
+      "/br/stores/brasil"
+    ],
+    "disallowed": [
+      "*prefv*",
+      "*prefn*",
+      "*srule*",
+      "*sz*",
+      "*/checkout*",
+      "*/search",
+      "*/account",
+      "*LoginV2*",
+      "*AccountV2*",
+      "/*search?cgid=*",
+      "/*?sortBy=*",
+      "/*?cgid*",
+      "/*?dwvar*",
+      "/*view*",
+      "*/varb*",
+      "*/account*",
+      "*/authentication*",
+      "*/accueil*",
+      "*?filters=*",
+      "/on/demandware.store/*",
+      "/mea*",
+      "/*/events/corporate/pdf*",
+      "/fr/homepage.html",
+      "/gb/homepage.html",
+      "/ie/homepage.html",
+      "/de/homepage.html",
+      "/at/homepage.html",
+      "/ch/de/homepage.html",
+      "/ch/en/homepage.html",
+      "/ch/fr/homepage.html",
+      "/dk/homepage.html",
+      "/se/homepage.html",
+      "/be/fr/homepage.html",
+      "/be/nl/homepage.html",
+      "/nl/homepage.html",
+      "/it/homepage.html",
+      "/pt/homepage.html",
+      "/es/homepage.html"
+    ]
+  }
 }

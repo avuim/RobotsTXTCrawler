@@ -1,6 +1,93 @@
 {
   "domain": "www.grazia-magazin.de",
   "normalizedDomain": "www.grazia-magazin.de",
+  "robotsTxt": "User-agent: *\nAllow: /core/*.css$\nAllow: /core/*.css?\nAllow: /core/*.js$\nAllow: /core/*.js?\nAllow: /core/*.gif\nAllow: /core/*.jpg\nAllow: /core/*.jpeg\nAllow: /core/*.png\nAllow: /core/*.svg\nAllow: /profiles/*.css$\nAllow: /profiles/*.css?\nAllow: /profiles/*.js$\nAllow: /profiles/*.js?\nAllow: /profiles/*.gif\nAllow: /profiles/*.jpg\nAllow: /profiles/*.jpeg\nAllow: /profiles/*.png\nAllow: /profiles/*.svg\n# Directories\nDisallow: /core/\nDisallow: /profiles/\n# Files\nDisallow: /README.txt\nDisallow: /web.config\n# Paths (clean URLs)\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips/\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /suche/\nDisallow: /user/register/\nDisallow: /user/password/\nDisallow: /user/login/\nDisallow: /user/logout/\n# Paths (no clean URLs)\nDisallow: /index.php/admin/\nDisallow: /index.php/comment/reply/\nDisallow: /index.php/filter/tips/\nDisallow: /index.php/node/add/\nDisallow: /index.php/search/\nDisallow: /index.php/user/password/\nDisallow: /index.php/user/register/\nDisallow: /index.php/user/login/\nDisallow: /index.php/user/logout/\n#Custom\nDisallow: /user/\nDisallow: /media/\nDisallow: /*/delete\nDisallow: /*/edit$\nDisallow: /*/manage-display\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\n#Sitemaps\nSitemap: https://www.grazia-magazin.de/googlenews.xml\nSitemap: https://www.grazia-magazin.de/sitemap.xml\n\n# Legal notice: grazia-magazin.de expressly reserves the right to use its content for commercial text and data mining (§ 44b Urheberrechtsgesetz).\n# The use of robots or other automated means to access grazia-magazin.de or collect or mine data without the express permission of grazia-magazin.de is strictly prohibited.\n# grazia-magazin.de may, in its discretion, permit certain automated access to certain grazia-magazin.de pages,\n# If you would like to apply for permission to grazia-magazin.de, collect or use data, please email online@klambt.de",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/core/*.css$",
+        "/core/*.css?",
+        "/core/*.js$",
+        "/core/*.js?",
+        "/core/*.gif",
+        "/core/*.jpg",
+        "/core/*.jpeg",
+        "/core/*.png",
+        "/core/*.svg",
+        "/profiles/*.css$",
+        "/profiles/*.css?",
+        "/profiles/*.js$",
+        "/profiles/*.js?",
+        "/profiles/*.gif",
+        "/profiles/*.jpg",
+        "/profiles/*.jpeg",
+        "/profiles/*.png",
+        "/profiles/*.svg"
+      ],
+      "disallowed": [
+        "/core/",
+        "/profiles/",
+        "/README.txt",
+        "/web.config",
+        "/admin/",
+        "/comment/reply/",
+        "/filter/tips/",
+        "/node/add/",
+        "/search/",
+        "/suche/",
+        "/user/register/",
+        "/user/password/",
+        "/user/login/",
+        "/user/logout/",
+        "/index.php/admin/",
+        "/index.php/comment/reply/",
+        "/index.php/filter/tips/",
+        "/index.php/node/add/",
+        "/index.php/search/",
+        "/index.php/user/password/",
+        "/index.php/user/register/",
+        "/index.php/user/login/",
+        "/index.php/user/logout/",
+        "/user/",
+        "/media/",
+        "/*/delete",
+        "/*/edit$",
+        "/*/manage-display"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -18,5 +105,57 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/core/*.css$",
+      "/core/*.css?",
+      "/core/*.js$",
+      "/core/*.js?",
+      "/core/*.gif",
+      "/core/*.jpg",
+      "/core/*.jpeg",
+      "/core/*.png",
+      "/core/*.svg",
+      "/profiles/*.css$",
+      "/profiles/*.css?",
+      "/profiles/*.js$",
+      "/profiles/*.js?",
+      "/profiles/*.gif",
+      "/profiles/*.jpg",
+      "/profiles/*.jpeg",
+      "/profiles/*.png",
+      "/profiles/*.svg"
+    ],
+    "disallowed": [
+      "/core/",
+      "/profiles/",
+      "/README.txt",
+      "/web.config",
+      "/admin/",
+      "/comment/reply/",
+      "/filter/tips/",
+      "/node/add/",
+      "/search/",
+      "/suche/",
+      "/user/register/",
+      "/user/password/",
+      "/user/login/",
+      "/user/logout/",
+      "/index.php/admin/",
+      "/index.php/comment/reply/",
+      "/index.php/filter/tips/",
+      "/index.php/node/add/",
+      "/index.php/search/",
+      "/index.php/user/password/",
+      "/index.php/user/register/",
+      "/index.php/user/login/",
+      "/index.php/user/logout/",
+      "/user/",
+      "/media/",
+      "/*/delete",
+      "/*/edit$",
+      "/*/manage-display"
+    ]
+  }
 }

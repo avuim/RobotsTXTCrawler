@@ -1,5 +1,23 @@
 {
   "domain": "www.bergader.de",
   "normalizedDomain": "www.bergader.de",
-  "bots": []
+  "robotsTxt": " ",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

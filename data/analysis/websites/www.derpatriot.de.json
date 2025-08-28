@@ -1,14 +1,651 @@
 {
   "domain": "www.derpatriot.de",
   "normalizedDomain": "www.derpatriot.de",
+  "robotsTxt": "# ===================================\n# Generator: http://pixelfolk.net/tools/robots\n# Erstellt am: 02.09.2021, 10:11\n# Webseite: https://www.derpatriot.de\n# ===================================\n\nSitemap: https://www.derpatriot.de/sitemap.xml\nSitemap: https://www.derpatriot.de/sitemap-news.xml\nSitemap: https://www.derpatriot.de/sitemap-article.xml\n\n# ===================================\n# Folgende Seiten sollen nicht indexiert werden:\n# ===================================\n\nUser-agent: *\nUser-agent: Mozilla/5.0 (compatible; OGDWCtxCrawler)\nAllow: /fileadmin/*pdf$\nAllow: /fileadmin/*PDF$\nAllow: /fileadmin/_processed_/\nAllow: /fileadmin/images/\nAllow: /fileadmin/templates/\nAllow: /typo3conf/ext/*/Resources/Public/\nAllow: /fileadmin/patriot_edv/\nDisallow: /fileadmin/\nDisallow: /typo3/\nDisallow: /typo3conf/\nDisallow: /service/index.php\nDisallow: /verlag/agb.html?type=1\nDisallow: /verlag/impressum.html?type=1\nDisallow: /onlinepass-kaufen.html\nDisallow: /seite-nicht-gefunden.html\n\n# ===================================\n# Schließe folgende Spider komplett aus:\n# ===================================\n\nUser-agent: WebReaper\nUser-agent: WebCopier\nUser-agent: Offline Explorer\nUser-agent: HTTrack\nUser-agent: Microsoft.URL.Control\nUser-agent: EmailCollector\nUser-agent: penthesilea\nDisallow: /\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/fileadmin/*pdf$",
+        "/fileadmin/*PDF$",
+        "/fileadmin/_processed_/",
+        "/fileadmin/images/",
+        "/fileadmin/templates/",
+        "/typo3conf/ext/*/Resources/Public/",
+        "/fileadmin/patriot_edv/"
+      ],
+      "disallowed": [
+        "/fileadmin/",
+        "/typo3/",
+        "/typo3conf/",
+        "/service/index.php",
+        "/verlag/agb.html?type=1",
+        "/verlag/impressum.html?type=1",
+        "/onlinepass-kaufen.html",
+        "/seite-nicht-gefunden.html"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 49,
+    "allowedBots": 0,
+    "disallowedBots": 49,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
-      "name": "Mozilla/5.0 (compatible; OGDWCtxCrawler)",
+      "name": "*",
       "allowed": true
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
     },
     {
       "name": "penthesilea",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/fileadmin/*pdf$",
+      "/fileadmin/*PDF$",
+      "/fileadmin/_processed_/",
+      "/fileadmin/images/",
+      "/fileadmin/templates/",
+      "/typo3conf/ext/*/Resources/Public/",
+      "/fileadmin/patriot_edv/"
+    ],
+    "disallowed": [
+      "/fileadmin/",
+      "/typo3/",
+      "/typo3conf/",
+      "/service/index.php",
+      "/verlag/agb.html?type=1",
+      "/verlag/impressum.html?type=1",
+      "/onlinepass-kaufen.html",
+      "/seite-nicht-gefunden.html"
+    ]
+  }
 }

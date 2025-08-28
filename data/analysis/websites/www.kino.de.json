@@ -1,14 +1,83 @@
 {
   "domain": "www.kino.de",
   "normalizedDomain": "www.kino.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /wp-login.php\r\nDisallow: /wp-admin/\r\nDisallow: /api/\r\nDisallow: /toolbar_login.php\r\nDisallow: /wp-cron.php\r\nDisallow: /:preview/*\r\nDisallow: /oembed/\r\nDisallow: /app-xxiwwrk-*\r\nDisallow: /gtm.js\r\nDisallow: /wp-content/plugins/core/features/search/log/log.php*\r\nDisallow: /metatag/\r\nDisallow: /quiz-enricher/*\r\nDisallow: /quiz-suggestions/*\r\n\r\nUser-agent: OAI-SearchBot\r\nAllow: /\r\nDisallow: /wp-login.php\r\nDisallow: /wp-admin/\r\nDisallow: /api/\r\nDisallow: /toolbar_login.php\r\nDisallow: /wp-cron.php\r\nDisallow: /:preview/*\r\nDisallow: /oembed/\r\nDisallow: /app-xxiwwrk-*\r\nDisallow: /gtm.js\r\nDisallow: /wp-content/plugins/core/features/search/log/log.php*\r\nDisallow: /metatag/\r\nDisallow: /quiz-enricher/*\r\nDisallow: /quiz-suggestions/*",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/wp-login.php",
+        "/wp-admin/",
+        "/api/",
+        "/toolbar_login.php",
+        "/wp-cron.php",
+        "/:preview/*",
+        "/oembed/",
+        "/app-xxiwwrk-*",
+        "/gtm.js",
+        "/wp-content/plugins/core/features/search/log/log.php*",
+        "/metatag/",
+        "/quiz-enricher/*",
+        "/quiz-suggestions/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "OAI-SearchBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/wp-login.php",
+          "/wp-admin/",
+          "/api/",
+          "/toolbar_login.php",
+          "/wp-cron.php",
+          "/:preview/*",
+          "/oembed/",
+          "/app-xxiwwrk-*",
+          "/gtm.js",
+          "/wp-content/plugins/core/features/search/log/log.php*",
+          "/metatag/",
+          "/quiz-enricher/*",
+          "/quiz-suggestions/*"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "OAI-SearchBot",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/wp-login.php",
+      "/wp-admin/",
+      "/api/",
+      "/toolbar_login.php",
+      "/wp-cron.php",
+      "/:preview/*",
+      "/oembed/",
+      "/app-xxiwwrk-*",
+      "/gtm.js",
+      "/wp-content/plugins/core/features/search/log/log.php*",
+      "/metatag/",
+      "/quiz-enricher/*",
+      "/quiz-suggestions/*"
+    ]
+  }
 }

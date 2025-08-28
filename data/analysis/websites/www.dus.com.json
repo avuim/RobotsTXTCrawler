@@ -1,10 +1,52 @@
 {
   "domain": "www.dus.com",
   "normalizedDomain": "www.dus.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /impfangebot\r\nDisallow: /de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot\r\nDisallow: /de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/impfangebot-fdg\r\nDisallow: /de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/impfangebot-fdsg\r\nDisallow: /de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/impfangebot-fdcg\r\nDisallow: /de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/impfangebot-fdghg\r\nDisallow: /de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/datenschutz_fdg\r\nDisallow: /de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/datenschutz_fdsg\r\nDisallow: /de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/datenschutz_fdcg\r\nDisallow: /de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/datenschutz_fdghg\r\nDisallow: /de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/bestaetigung\"",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/impfangebot",
+        "/de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot",
+        "/de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/impfangebot-fdg",
+        "/de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/impfangebot-fdsg",
+        "/de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/impfangebot-fdcg",
+        "/de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/impfangebot-fdghg",
+        "/de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/datenschutz_fdg",
+        "/de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/datenschutz_fdsg",
+        "/de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/datenschutz_fdcg",
+        "/de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/datenschutz_fdghg",
+        "/de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/bestaetigung\""
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/impfangebot",
+      "/de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot",
+      "/de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/impfangebot-fdg",
+      "/de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/impfangebot-fdsg",
+      "/de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/impfangebot-fdcg",
+      "/de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/impfangebot-fdghg",
+      "/de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/datenschutz_fdg",
+      "/de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/datenschutz_fdsg",
+      "/de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/datenschutz_fdcg",
+      "/de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/datenschutz_fdghg",
+      "/de-de/konzern/unternehmen/flughafen-d�sseldorf-gmbh/impfangebot/bestaetigung\""
+    ]
+  }
 }

@@ -1,10 +1,40 @@
 {
   "domain": "www.capri-sun.com",
   "normalizedDomain": "www.capri-sun.com",
+  "robotsTxt": "# # Robots.txt\r\n# Enables robots.txt rules for all crawlers\r\n\r\nUser-agent: *\r\nAllow: /\r\n\r\n# Rate limit Yahoo!, Bing and Yandex (Google ignores this)\r\nCrawl-delay: 5\r\n\r\n# SilverStripe sitemap:\r\nSitemap: https://www.capri-sun.com/sitemap.xml\r\n\r\nDisallow: /admin/\r\nDisallow: /Security/\r\nDisallow: /sdotsform/\r\nDisallow: /dev/\r\nDisallow: /*?r=*\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/admin/",
+        "/Security/",
+        "/sdotsform/",
+        "/dev/",
+        "/*?r=*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/admin/",
+      "/Security/",
+      "/sdotsform/",
+      "/dev/",
+      "/*?r=*"
+    ]
+  }
 }

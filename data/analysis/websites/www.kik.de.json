@@ -1,10 +1,74 @@
 {
   "domain": "www.kik.de",
   "normalizedDomain": "www.kik.de",
+  "robotsTxt": "# START nuxt-robots (indexable)\r\nUser-agent: *\r\nAllow: /*css?\r\nAllow: /*js?\r\nAllow: /filialfinder/\r\nAllow: /vyhledat-prodejnu/\r\nAllow: /znajdz-sklep/\r\nAllow: /filiaalzoeker/\r\nAllow: /*?*page=1&\r\nAllow: /*?*page=2&\r\nAllow: /*?*page=3&\r\nAllow: /*?*page=1$\r\nAllow: /*?*page=2$\r\nAllow: /*?*page=3$\r\nAllow: /search?*search=*\r\nAllow: /*?utm_source=SEA*\r\nAllow: /*?utm_source=SEAB*\r\nDisallow: /*?\r\nDisallow: /c/searchresult/\r\nDisallow: /my-account/\r\nDisallow: /checkout/\r\nDisallow: /*?*page=\r\nDisallow: /storefinderAssets\r\n\r\nSitemap: https://www.kik.de/sitemap-index.xml\r\n# END nuxt-robots",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/*css?",
+        "/*js?",
+        "/filialfinder/",
+        "/vyhledat-prodejnu/",
+        "/znajdz-sklep/",
+        "/filiaalzoeker/",
+        "/*?*page=1&",
+        "/*?*page=2&",
+        "/*?*page=3&",
+        "/*?*page=1$",
+        "/*?*page=2$",
+        "/*?*page=3$",
+        "/search?*search=*",
+        "/*?utm_source=SEA*",
+        "/*?utm_source=SEAB*"
+      ],
+      "disallowed": [
+        "/*?",
+        "/c/searchresult/",
+        "/my-account/",
+        "/checkout/",
+        "/*?*page=",
+        "/storefinderAssets"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/*css?",
+      "/*js?",
+      "/filialfinder/",
+      "/vyhledat-prodejnu/",
+      "/znajdz-sklep/",
+      "/filiaalzoeker/",
+      "/*?*page=1&",
+      "/*?*page=2&",
+      "/*?*page=3&",
+      "/*?*page=1$",
+      "/*?*page=2$",
+      "/*?*page=3$",
+      "/search?*search=*",
+      "/*?utm_source=SEA*",
+      "/*?utm_source=SEAB*"
+    ],
+    "disallowed": [
+      "/*?",
+      "/c/searchresult/",
+      "/my-account/",
+      "/checkout/",
+      "/*?*page=",
+      "/storefinderAssets"
+    ]
+  }
 }

@@ -1,10 +1,66 @@
 {
   "domain": "www.robinson.com",
   "normalizedDomain": "www.robinson.com",
+  "robotsTxt": "User-agent: *\r\nSitemap: https://www.robinson.com/sitemap.xml\r\nSitemap: https://www.robinson.com/blog/post-sitemap.xml\r\n\r\n#Typo3 default\r\nDisallow: /*?\r\nDisallow: /fileadmin/_temp_/\r\nDisallow: /typo3/\r\nAllow: /typo3/sysext/frontend/Resources/Public/*\r\n\r\n#Manuelle Eintraege\r\nDisallow: */dispatch/*\r\n\r\n#Deutsch\r\n#Disallow: */buchen/\r\nDisallow: */suche/\r\nDisallow: */alternativen/\r\n\r\n#Englisch\r\nDisallow: */buchen-tcp/\r\nDisallow: */search/\r\nDisallow: */angebote-sel/\r\n\r\n#Sperre von Angebots- und Buchen-Seiten fuer restliche Sprachen\r\nDisallow: */booking-dirs21/\r\nDisallow: */booking/\r\n\r\n#Franzoesisch\r\nDisallow: */rechercher/\r\n\r\n#Italienisch\r\nDisallow: */cerca/\r\n\r\n#Spanisch\r\nDisallow: */buscar/\r\n\r\n#Niederlaendisch\r\nDisallow: */zoeken/\r\n\r\nDisallow: */6m/\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/typo3/sysext/frontend/Resources/Public/*"
+      ],
+      "disallowed": [
+        "/*?",
+        "/fileadmin/_temp_/",
+        "/typo3/",
+        "*/dispatch/*",
+        "*/suche/",
+        "*/alternativen/",
+        "*/buchen-tcp/",
+        "*/search/",
+        "*/angebote-sel/",
+        "*/booking-dirs21/",
+        "*/booking/",
+        "*/rechercher/",
+        "*/cerca/",
+        "*/buscar/",
+        "*/zoeken/",
+        "*/6m/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/typo3/sysext/frontend/Resources/Public/*"
+    ],
+    "disallowed": [
+      "/*?",
+      "/fileadmin/_temp_/",
+      "/typo3/",
+      "*/dispatch/*",
+      "*/suche/",
+      "*/alternativen/",
+      "*/buchen-tcp/",
+      "*/search/",
+      "*/angebote-sel/",
+      "*/booking-dirs21/",
+      "*/booking/",
+      "*/rechercher/",
+      "*/cerca/",
+      "*/buscar/",
+      "*/zoeken/",
+      "*/6m/"
+    ]
+  }
 }

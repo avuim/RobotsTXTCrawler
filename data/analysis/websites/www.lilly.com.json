@@ -1,10 +1,58 @@
 {
   "domain": "www.lilly.com",
   "normalizedDomain": "www.lilly.com",
+  "robotsTxt": "User-agent: *\r\n\r\nDisallow: /lillydirect/feedback-survey\r\nDisallow: /lillydirect/feedback-survey/es\r\nDisallow: /lillydirect/starting-zepbound\r\nDisallow: /lillydirect/starting-zepbound/es\r\nDisallow: /media-downloads\r\nDisallow: /at/mounjaro\r\nDisallow: /at/kongresse/ögr2024\r\nDisallow: /fi/laakarille/lihavuussairautena\r\nDisallow: /fi/laakarille/lihavuudenhoito\r\nDisallow: /manufacturing-2025\r\nDisallow: /br/lançamentoJaypirce\r\nDisallow: /fi/laakarille/silta/silta2025\r\nDisallow: /fi/laakarille/onkologia/signaali\r\nDisallow: /news/media/media-downloads\r\n\r\nSitemap: https://www.lilly.com/sitemap-index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/lillydirect/feedback-survey",
+        "/lillydirect/feedback-survey/es",
+        "/lillydirect/starting-zepbound",
+        "/lillydirect/starting-zepbound/es",
+        "/media-downloads",
+        "/at/mounjaro",
+        "/at/kongresse/ögr2024",
+        "/fi/laakarille/lihavuussairautena",
+        "/fi/laakarille/lihavuudenhoito",
+        "/manufacturing-2025",
+        "/br/lançamentoJaypirce",
+        "/fi/laakarille/silta/silta2025",
+        "/fi/laakarille/onkologia/signaali",
+        "/news/media/media-downloads"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/lillydirect/feedback-survey",
+      "/lillydirect/feedback-survey/es",
+      "/lillydirect/starting-zepbound",
+      "/lillydirect/starting-zepbound/es",
+      "/media-downloads",
+      "/at/mounjaro",
+      "/at/kongresse/ögr2024",
+      "/fi/laakarille/lihavuussairautena",
+      "/fi/laakarille/lihavuudenhoito",
+      "/manufacturing-2025",
+      "/br/lançamentoJaypirce",
+      "/fi/laakarille/silta/silta2025",
+      "/fi/laakarille/onkologia/signaali",
+      "/news/media/media-downloads"
+    ]
+  }
 }

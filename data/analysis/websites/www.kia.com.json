@@ -1,14 +1,87 @@
 {
   "domain": "www.kia.com",
   "normalizedDomain": "www.kia.com",
-  "bots": [
+  "robotsTxt": "User-agent: ia_archiver\r\nDisallow: /\r\n\r\nUser-agent: *\r\nAllow: /kr/\r\nAllow: /content/dam/\r\nAllow: /content/kwp/kr/\r\nAllow: /etc/designs/\r\nDisallow: /kr/my/\r\nDisallow: /content/kr/ko/my/\r\nDisallow: /etc/admin/\r\nDisallow: /crx/\r\nDisallow: /tmp/\r\nDisallow: /var/\r\nDisallow: /kgn/\r\nDisallow: /content/kwcms/kme/\r\nDisallow: /content/kwcms/kme-dealer/\r\nDisallow: /content/kwcms/kme-dealers/\r\nDisallow: /content/kwcms/kme/eu/en/\r\nDisallow: /eut/\r\nDisallow: /kr/discover-kia/news/\r\nDisallow: /*dealer-master*\r\nDisallow: /es/concesionarios/es-*\r\nDisallow: /fr/concessions/fr-*\r\nDisallow: /pl/dealers/pl-*\r\n\r\n\r\nSitemap: https://www.kia.com/sitemap.xml\r\nSitemap: https://www.kia.com/kr/sitemap.xml\r\nSitemap: https://www.kia.com/worldwide/sitemap.xml\r\nSitemap: https://m.kia.com/worldwide/sitemap.xml\r\nSitemap: https://www.kia.com/dk/sitemap.xml\r\nSitemap: https://www.kia.com/es/sitemap.xml\r\nSitemap: https://www.kia.com/fr/sitemap.xml\r\nSitemap: https://www.kia.com/hu/sitemap.xml\r\nSitemap: https://www.kia.com/ie/sitemap.xml\r\nSitemap: https://www.kia.com/is/sitemap.xml\r\nSitemap: https://www.kia.com/it/sitemap.xml\r\nSitemap: https://www.kia.com/lu/sitemap.xml\r\nSitemap: https://www.kia.com/nl/sitemap.xml\r\nSitemap: https://www.kia.com/no/sitemap.xml\r\nSitemap: https://www.kia.com/pl/sitemap.xml\r\nSitemap: https://www.kia.com/se/sitemap.xml\r\nSitemap: https://www.kia.com/sk/sitemap.xml\r\nSitemap: https://www.kia.com/sg/sitemap.xml\r\nSitemap: https://www.kia.com/mu/sitemap.xml\r\nSitemap: https://www.kia.com/sv/sitemap.xml\r\nSitemap: https://www.kia.com/fj/sitemap.xml\r\nSitemap: https://www.kia.com/mn/sitemap.xml\r\nSitemap: https://www.kia.com/om/ar/sitemap.xml\r\nSitemap: https://www.kia.com/om/en/sitemap.xml\r\nSitemap: https://www.kia.com/dm/sitemap.xml\r\nSitemap: https://www.kia.com/pa/sitemap.xml\r\nSitemap: https://www.kia.com/th/sitemap.xml\r\nSitemap: https://www.kia.com/hn/sitemap.xml\r\nSitemap: https://www.kia.com/kw/sitemap.xml\r\nSitemap: http://www.kia.com/kz/sitemap.xml\r\nSitemap: https://www.kia.com/ph/sitemap.xml\r\nSitemap: https://www.kia.com/id/sitemap.xml\r\nSitemap: https://www.kia.com/aw/sitemap.xml\r\nSitemap: https://www.kia.com/fi/sitemap.xml\r\nSitemap: https://www.kia.com/mx/sitemap.xml\r\nSitemap: https://www.kia.com/uk/sitemap.xml\r\nSitemap: https://www.kia.com/tr/sitemap.xml\r\nSitemap: https://www.kia.com/au/sitemap.xml\r\nSitemap: https://www.kia.com/pk/sitemap.xml\r\nSitemap: https://www.kia.com/ua/sitemap.xml\r\nSitemap: https://www.kia.com/az/sitemap.xml\r\nSitemap: https://www.kia.com/ge/sitemap.xml\r\nSitemap: https://www.kia.com/lb/sitemap.xml\r\nSitemap: https://www.kia.com/cl/sitemap.xml\r\nSitemap: https://www.kia.com/co/sitemap.xml\r\nSitemap: https://www.kia.com/cr/sitemap.xml\r\nSitemap: https://www.kia.com/ec/sitemap.xml\r\nSitemap: https://www.kia.com/pe/sitemap.xml\r\nSitemap: https://www.kia.com/pr/sitemap.xml\r\nSitemap: https://www.kia.com/my/sitemap.xml\r\nSitemap: https://www.kia.com/bn/sitemap.xml\r\nSitemap: https://www.kia.com/la/sitemap.xml\r\nSitemap: https://www.kia.com/hk/sitemap.xml\r\nSitemap: https://www.kia.com/tw/sitemap.xml\r\nSitemap: https://www.kia.com/ma/sitemap.xml\r\nSitemap: https://www.kia.com/aljabr/en/sitemap.xml\r\nSitemap: https://www.kia.com/aljabr/ar/sitemap.xml\r\nSitemap: https://www.kia.com/sd/en/sitemap.xml\r\nSitemap: https://www.kia.com/sd/ar/sitemap.xml\r\nSitemap: https://www.kia.com/in/sitemap.xml\r\nSitemap: https://www.kia.com/us/sitemap.xml\r\nSitemap: https://www.kia.com/us/es-sitemap.xml\r\nSitemap: https://www.kia.com/de/sitemap.xml\r\n#DaumWebMasterTool:8b0eb587425c723d97232c80a8af923e593ee7b275c62ca80d8d8baa51a00cf1:SCb58MbNXK3Aq7wj6OKJvA==\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/kr/",
+        "/content/dam/",
+        "/content/kwp/kr/",
+        "/etc/designs/"
+      ],
+      "disallowed": [
+        "/kr/my/",
+        "/content/kr/ko/my/",
+        "/etc/admin/",
+        "/crx/",
+        "/tmp/",
+        "/var/",
+        "/kgn/",
+        "/content/kwcms/kme/",
+        "/content/kwcms/kme-dealer/",
+        "/content/kwcms/kme-dealers/",
+        "/content/kwcms/kme/eu/en/",
+        "/eut/",
+        "/kr/discover-kia/news/",
+        "/*dealer-master*",
+        "/es/concesionarios/es-*",
+        "/fr/concessions/fr-*",
+        "/pl/dealers/pl-*"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "ia_archiver",
-      "allowed": false
-    },
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
+  "bots": [
     {
       "name": "*",
       "allowed": true
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/kr/",
+      "/content/dam/",
+      "/content/kwp/kr/",
+      "/etc/designs/"
+    ],
+    "disallowed": [
+      "/kr/my/",
+      "/content/kr/ko/my/",
+      "/etc/admin/",
+      "/crx/",
+      "/tmp/",
+      "/var/",
+      "/kgn/",
+      "/content/kwcms/kme/",
+      "/content/kwcms/kme-dealer/",
+      "/content/kwcms/kme-dealers/",
+      "/content/kwcms/kme/eu/en/",
+      "/eut/",
+      "/kr/discover-kia/news/",
+      "/*dealer-master*",
+      "/es/concesionarios/es-*",
+      "/fr/concessions/fr-*",
+      "/pl/dealers/pl-*"
+    ]
+  }
 }

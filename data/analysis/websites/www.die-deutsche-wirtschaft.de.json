@@ -1,14 +1,2065 @@
 {
   "domain": "www.die-deutsche-wirtschaft.de",
   "normalizedDomain": "www.die-deutsche-wirtschaft.de",
+  "robotsTxt": "# Global rules\n# -----------------\nUser-agent: *\nDisallow: /wp-json/\n\nDisallow: /?s=*\nDisallow: /search/*\n\n# Sitemap\n# -----------------\nSitemap: https://die-deutsche-wirtschaft.de/sitemap_index.xml\n\n# Ban bots that don't benefit us.\n# --------------------------------\n\nUser-agent: Nuclei\nUser-agent: WikiDo\nUser-agent: Riddler\nUser-agent: PetalBot\nUser-agent: Zoominfobot\nUser-agent: Go-http-client\nUser-agent: Node/simplecrawler\nUser-agent: CazoodleBot\nUser-agent: dotbot/1.0\nUser-agent: Gigabot\nUser-agent: Barkrowler\nUser-agent: BLEXBot\nUser-agent: magpie-crawler\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/wp-json/",
+        "/?s=*",
+        "/search/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Nuclei",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Riddler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Riddler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Riddler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Riddler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Riddler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Riddler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Riddler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Riddler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Riddler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Riddler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Riddler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Riddler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Riddler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 169,
+    "allowedBots": 0,
+    "disallowedBots": 169,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false
+    },
+    {
+      "name": "Riddler",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false
+    },
+    {
+      "name": "Riddler",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false
+    },
+    {
+      "name": "Riddler",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false
+    },
+    {
+      "name": "Riddler",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false
+    },
+    {
+      "name": "Riddler",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false
+    },
+    {
+      "name": "Riddler",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false
+    },
+    {
+      "name": "Riddler",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false
+    },
+    {
+      "name": "Riddler",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false
+    },
+    {
+      "name": "Riddler",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false
+    },
+    {
+      "name": "Riddler",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false
+    },
+    {
+      "name": "Riddler",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false
+    },
+    {
+      "name": "Riddler",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false
+    },
+    {
+      "name": "Nuclei",
+      "allowed": false
+    },
+    {
+      "name": "WikiDo",
+      "allowed": false
+    },
+    {
+      "name": "Riddler",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Zoominfobot",
+      "allowed": false
+    },
+    {
+      "name": "Go-http-client",
+      "allowed": false
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false
+    },
+    {
+      "name": "CazoodleBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot/1.0",
+      "allowed": false
+    },
+    {
+      "name": "Gigabot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
       "allowed": false
     },
     {
       "name": "magpie-crawler",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/wp-json/",
+      "/?s=*",
+      "/search/*"
+    ]
+  }
 }

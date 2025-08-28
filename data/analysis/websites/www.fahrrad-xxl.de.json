@@ -1,14 +1,59 @@
 {
   "domain": "www.fahrrad-xxl.de",
   "normalizedDomain": "www.fahrrad-xxl.de",
-  "bots": [
+  "robotsTxt": "User-agent: Googlebot-Image\r\nDisallow: /media/branch/k11899/\r\n\r\nUser-agent: *\r\nDisallow: /stat.php\r\nDisallow: /antibot.php\r\nDisallow: /a.php\r\nDisallow: /soap.php\r\nDisallow: /json.php\r\nDisallow: /index.php\r\nDisallow: /suche/\r\nDisallow: /suche/\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/stat.php",
+        "/antibot.php",
+        "/a.php",
+        "/soap.php",
+        "/json.php",
+        "/index.php",
+        "/suche/"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "Googlebot-Image",
-      "allowed": false
-    },
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/media/branch/k11899/"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/stat.php",
+      "/antibot.php",
+      "/a.php",
+      "/soap.php",
+      "/json.php",
+      "/index.php",
+      "/suche/"
+    ]
+  }
 }

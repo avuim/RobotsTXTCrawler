@@ -1,10 +1,131 @@
 {
   "domain": "www.vedes.com",
   "normalizedDomain": "www.vedes.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /*searchParams=\r\n\r\nUser-agent: *\r\nDisallow: /backend/\r\n\r\nUser-agent: Mj12bot.com\r\nDisallow: /\r\n\r\nUser-agent: DotBot\r\nDisallow: /\r\n\r\nUser-agent: Barkrowler\r\nDisallow: /\r\n\r\nUser-agent: SEO Crawler\r\nDisallow: /\r\n\r\nUser-agent: Daum/4.1\r\nDisallow: /\r\n\r\nUser-agent: BLEXBot/1.0\r\nDisallow: /\r\n\r\nUser-agent: IonCrawl\r\nDisallow: /\r\n\r\nUser-agent: SeznamBot\r\nDisallow: /\r\n\r\nUser-agent: ClaudeBot\r\nDisallow: /\r\n\r\nUser-agent: Bytespider\r\nDisallow: /\r\n\r\nUser-agent: PetalBot\r\nDisallow: /\r\n\r\nUser-agent: SEOkicks\r\nDisallow: /\r\n\r\nUser-agent: serpstatbot\r\nDisallow: /\n\nSitemap: https://www.vedes.com/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*searchParams="
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Mj12bot.com",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DotBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEO Crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Daum/4.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "IonCrawl",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SeznamBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEOkicks",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "serpstatbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 13,
+    "allowedBots": 0,
+    "disallowedBots": 13,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Mj12bot.com",
@@ -58,5 +179,11 @@
       "name": "serpstatbot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*searchParams="
+    ]
+  }
 }

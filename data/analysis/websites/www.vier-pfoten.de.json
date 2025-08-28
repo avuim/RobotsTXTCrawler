@@ -1,10 +1,32 @@
 {
   "domain": "www.vier-pfoten.de",
   "normalizedDomain": "www.vier-pfoten.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /neos/",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/neos/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/neos/"
+    ]
+  }
 }

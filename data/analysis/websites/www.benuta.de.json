@@ -1,10 +1,66 @@
 {
   "domain": "www.benuta.de",
   "normalizedDomain": "www.benuta.de",
+  "robotsTxt": "\r\n  Sitemap: https://www.benuta.de/sitemap.xml\r\n  Sitemap: https://www.benuta.de/images_sitemap.xml\r\n\r\n  User-agent: Pinterestbot\r\n  Crawl-delay: 2\r\n\r\n  User-agent: Pinterest\r\n  Crawl-delay: 2\r\n\r\n  User-agent: *\r\n  Disallow: /api\r\n  Disallow: /api/*\r\n  Disallow: /checkout\r\n  Disallow: /checkout/*\r\n  Disallow: /customer\r\n  Disallow: /customer/*\r\n  Disallow: /cart\r\n  Disallow: /cart/*\r\n  Disallow: /wishlist\r\n  Disallow: /*?dm_i=\r\n  Disallow: /*?filter=\r\n  Disallow: /*?dir=\r\n  Disallow: /*?order=\r\n  Disallow: /*?benuta_form_new=\r\n  Disallow: /*?benuta_pricegroup_new=\r\n  Disallow: /_next/image?*\r\n\r\n  Allow: /enhancedsearch/*\r\n ",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/enhancedsearch/*"
+      ],
+      "disallowed": [
+        "/api",
+        "/api/*",
+        "/checkout",
+        "/checkout/*",
+        "/customer",
+        "/customer/*",
+        "/cart",
+        "/cart/*",
+        "/wishlist",
+        "/*?dm_i=",
+        "/*?filter=",
+        "/*?dir=",
+        "/*?order=",
+        "/*?benuta_form_new=",
+        "/*?benuta_pricegroup_new=",
+        "/_next/image?*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/enhancedsearch/*"
+    ],
+    "disallowed": [
+      "/api",
+      "/api/*",
+      "/checkout",
+      "/checkout/*",
+      "/customer",
+      "/customer/*",
+      "/cart",
+      "/cart/*",
+      "/wishlist",
+      "/*?dm_i=",
+      "/*?filter=",
+      "/*?dir=",
+      "/*?order=",
+      "/*?benuta_form_new=",
+      "/*?benuta_pricegroup_new=",
+      "/_next/image?*"
+    ]
+  }
 }

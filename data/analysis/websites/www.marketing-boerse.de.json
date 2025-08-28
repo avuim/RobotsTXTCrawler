@@ -1,10 +1,50 @@
 {
   "domain": "www.marketing-boerse.de",
   "normalizedDomain": "www.marketing-boerse.de",
+  "robotsTxt": "User-agent: *\n\nDisallow: /email/\nDisallow: /Email/\n\nDisallow: /news/list/\nDisallow: /fachartikel/list/\nDisallow: /webnews/list/\nDisallow: /advertisement/\nDisallow: /article/\nDisallow: /search/\nDisallow: /textanzeige/\nDisallow: /post/\n\nSitemap: https://www.marketing-boerse.de/sitemap.xml\ncrawl-delay: 3",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/email/",
+        "/Email/",
+        "/news/list/",
+        "/fachartikel/list/",
+        "/webnews/list/",
+        "/advertisement/",
+        "/article/",
+        "/search/",
+        "/textanzeige/",
+        "/post/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/email/",
+      "/Email/",
+      "/news/list/",
+      "/fachartikel/list/",
+      "/webnews/list/",
+      "/advertisement/",
+      "/article/",
+      "/search/",
+      "/textanzeige/",
+      "/post/"
+    ]
+  }
 }

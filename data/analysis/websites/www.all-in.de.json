@@ -1,10 +1,48 @@
 {
   "domain": "www.all-in.de",
   "normalizedDomain": "www.all-in.de",
+  "robotsTxt": "User-agent: *\r\nUser-agent: GPTBot Disallow: /\r\nUser-agent: ChatGPT-User Disallow: /\r\nUser-agent: CCBot Disallow: /\r\nUser-agent: MMETest Disallow: /\r\nUser-agent: MyBot Disallow: /\r\n\r\n# Sitemaps\r\nSitemap: https://www.all-in.de/sitemap.xml\r\nSitemap: https://www.all-in.de/sitemap-image.xml\r\nSitemap: https://www.all-in.de/sitemap-video.xml\r\nSitemap: https://www.all-in.de/news.xml\r\n\r\n\r\nDisallow: /*.ece*\r\nDisallow: /titelseiten/\r\nDisallow: /verwaltung/\r\nDisallow: /werbung/\r\nDisallow: /meine*\r\nDisallow: /community*\r\nDisallow: /*?wt_*\r\nDisallow: /*?utm_campaign*\r\nDisallow: /suche?q=",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*.ece*",
+        "/titelseiten/",
+        "/verwaltung/",
+        "/werbung/",
+        "/meine*",
+        "/community*",
+        "/*?wt_*",
+        "/*?utm_campaign*",
+        "/suche?q="
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
-      "name": "MyBot Disallow: /",
-      "allowed": false
+      "name": "*",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*.ece*",
+      "/titelseiten/",
+      "/verwaltung/",
+      "/werbung/",
+      "/meine*",
+      "/community*",
+      "/*?wt_*",
+      "/*?utm_campaign*",
+      "/suche?q="
+    ]
+  }
 }

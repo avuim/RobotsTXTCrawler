@@ -1,6 +1,96 @@
 {
   "domain": "www.handelsblatt.com",
   "normalizedDomain": "www.handelsblatt.com",
+  "robotsTxt": "User-agent: *\nDisallow: /preparesite/empty.js*\nDisallow: /cdn-cgi/beacon/performance*\nDisallow: /*/v_premium_not_allowed/*.html$\nDisallow: /*v_detail_tab_print*.html$\nDisallow: /*v_detail_tab_comments/*\nDisallow: /ajaxentry/\nDisallow: /*imagelightbox?elementId*\nDisallow: /user-registrierung/\nDisallow: /*;jsessionid=*\nDisallow: /*jsessionid=*\nDisallow: /*action=activate*\nDisallow: /lesezeichen/\nDisallow: /registrierung/\nDisallow: /*?ajaxelementid=*\nDisallow: /*ajaxelementid=*\nDisallow: /*?view=print*\nDisallow: /*view=print*\nDisallow: /*?view=lightbox\nDisallow: /*view=lightbox*\nDisallow: /channelizer/\nDisallow: /themen/my/*\nDisallow: /meine-news*\nDisallow: /api/*\nAllow: /api/content\nDisallow: */partials/htmlbox/*\nDisallow: */v_advertorial_detail/*\nDisallow: */amp-ivw.html*\nDisallow: */partials/related*\nDisallow: /cdn-cgi/rum*\nDisallow: /boerse/option/*\nDisallow: /boerse/zertifikat/*\nDisallow: /recommendation/hb_web/offerpage*\nDisallow: /cdn-cgi/\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nSitemap: https://www.handelsblatt.com/sitemapExternal/sitemaps_index.xml\nSitemap: https://www.handelsblatt.com/sitemapExternal/news.xml\nSitemap: https://www.handelsblatt.com/sitemapExternal/premium-news.xml\nSitemap: https://www.handelsblatt.com/sitemapExternal/agentur-news.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/api/content"
+      ],
+      "disallowed": [
+        "/preparesite/empty.js*",
+        "/cdn-cgi/beacon/performance*",
+        "/*/v_premium_not_allowed/*.html$",
+        "/*v_detail_tab_print*.html$",
+        "/*v_detail_tab_comments/*",
+        "/ajaxentry/",
+        "/*imagelightbox?elementId*",
+        "/user-registrierung/",
+        "/*;jsessionid=*",
+        "/*jsessionid=*",
+        "/*action=activate*",
+        "/lesezeichen/",
+        "/registrierung/",
+        "/*?ajaxelementid=*",
+        "/*ajaxelementid=*",
+        "/*?view=print*",
+        "/*view=print*",
+        "/*?view=lightbox",
+        "/*view=lightbox*",
+        "/channelizer/",
+        "/themen/my/*",
+        "/meine-news*",
+        "/api/*",
+        "*/partials/htmlbox/*",
+        "*/v_advertorial_detail/*",
+        "*/amp-ivw.html*",
+        "*/partials/related*",
+        "/cdn-cgi/rum*",
+        "/boerse/option/*",
+        "/boerse/zertifikat/*",
+        "/recommendation/hb_web/offerpage*",
+        "/cdn-cgi/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 5,
+    "allowedBots": 0,
+    "disallowedBots": 5,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -26,5 +116,44 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/api/content"
+    ],
+    "disallowed": [
+      "/preparesite/empty.js*",
+      "/cdn-cgi/beacon/performance*",
+      "/*/v_premium_not_allowed/*.html$",
+      "/*v_detail_tab_print*.html$",
+      "/*v_detail_tab_comments/*",
+      "/ajaxentry/",
+      "/*imagelightbox?elementId*",
+      "/user-registrierung/",
+      "/*;jsessionid=*",
+      "/*jsessionid=*",
+      "/*action=activate*",
+      "/lesezeichen/",
+      "/registrierung/",
+      "/*?ajaxelementid=*",
+      "/*ajaxelementid=*",
+      "/*?view=print*",
+      "/*view=print*",
+      "/*?view=lightbox",
+      "/*view=lightbox*",
+      "/channelizer/",
+      "/themen/my/*",
+      "/meine-news*",
+      "/api/*",
+      "*/partials/htmlbox/*",
+      "*/v_advertorial_detail/*",
+      "*/amp-ivw.html*",
+      "*/partials/related*",
+      "/cdn-cgi/rum*",
+      "/boerse/option/*",
+      "/boerse/zertifikat/*",
+      "/recommendation/hb_web/offerpage*",
+      "/cdn-cgi/"
+    ]
+  }
 }

@@ -1,6 +1,269 @@
 {
   "domain": "www.aerzteblatt.de",
   "normalizedDomain": "www.aerzteblatt.de",
+  "robotsTxt": "Sitemap: https://www.aerzteblatt.de/sitemap.xml\nUser-Agent: *\nAllow: /\n# Perplexity\nUser-agent: PerplexityBot\nDisallow: /\n# OpenAI ChatGPT\nUser-agent: ChatGPT-User\nDisallow: /\nUser-agent: GPTBot\nDisallow: /\nUser-agent: OAI-SearchBot\nDisallow: /\n# Google Bard\nUser-agent: Google-Extended\nDisallow: /\n# Common Crawl\nUser-agent: CCBot\nDisallow: /\nUser-agent: CCBot/1.0\nDisallow: /\nUser-agent: CCBot/2.0\nDisallow: /\nUser-agent: CCBot/3.0\nDisallow: /\n# Anthropic\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Meta-ExternalAgent\nDisallow: /\n\nUser-agent: FacebookBot\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\n# Magpie Crawler\nUser-agent: magpie-crawler\nDisallow: /\n\n# IA Archiver\nUser-agent: ia_archiver\nDisallow: /\n\n# Omgili\nUser-agent: omgili\nDisallow: /\n\n# OmgiliBot\nUser-agent: omgilibot\nDisallow: /\n\n# Baidu Spider\nUser-agent: Baiduspider\nDisallow: /\n\n# Ahrefs Bot\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: OpenAI\nDisallow: /\n\nUser-agent: AI-TrainingBot\nDisallow: /\n\nUser-agent: AIDataCollector\nDisallow: /\n\nUser-agent: DataMiner\nDisallow: /\n\nUser-agent: DataMiningBot\nDisallow: /\n\nUser-agent: AI-Bot\nDisallow: /\n\nUser-agent: *\nDisallow: /static/impressum.html\nDisallow: /static/kontakt.html\n\n# Legal notice: aerzteblatt.de expressly reserves the right to use its content for commercial text and data mining (§ 44 b UrhG).\n# The use of robots or other automated means to access aerzteblatt.de or collect or mine data without\n# the express permission of aerzteblatt.de is strictly prohibited.\n# aerzteblatt.de may, in its discretion, permit certain automated access to certain aerzteblatt.de pages.\n# If you would like to apply for permission to crawl aerzteblatt.de, collect or use data, please email aerzteblatt@aerzteblatt.de",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot/2.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot/3.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OpenAI",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI-TrainingBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AIDataCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataMiner",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataMiningBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI-Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 31,
+    "allowedBots": 0,
+    "disallowedBots": 31,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -47,11 +310,27 @@
       "allowed": false
     },
     {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
       "name": "Applebot-Extended",
       "allowed": false
     },
     {
       "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
       "allowed": false
     },
     {
@@ -114,5 +393,9 @@
       "name": "AI-Bot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

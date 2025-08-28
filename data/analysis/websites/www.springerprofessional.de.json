@@ -1,10 +1,92 @@
 {
   "domain": "www.springerprofessional.de",
   "normalizedDomain": "www.springerprofessional.de",
+  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /search?\nDisallow: /*/search?\nDisallow: /search/inside?\nDisallow: /*/search/inside?\nDisallow: /learning/courses\nDisallow: /*/learning/courses\nDisallow: /content/\nDisallow: /*/content/\nDisallow: /mybookmarks/folder\nDisallow: /*/mybookmarks/folder\nDisallow: /external/feed\nDisallow: /*/external/feed\nDisallow: /payment/\nDisallow: /*/payment/\nDisallow: /trial/\nDisallow: /*/trial/\nDisallow: /suggestions?\nDisallow: /*/suggestions?\nDisallow: /advancedSuggestions?\nDisallow: /*/advancedSuggestions?\nDisallow: /epedia/autosuggest?\nDisallow: /*/epedia/autosuggest?\nDisallow: /epedia/titleSuggestions?\nDisallow: /*/epedia/titleSuggestions?\nDisallow: /de/*\nDisallow: /dE/*\nDisallow: /De/*\nDisallow: /DE/*\nDisallow: /eN/*\nDisallow: /En/*\nDisallow: /EN/*\nSitemap: https://www.springerprofessional.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/search?",
+        "/*/search?",
+        "/search/inside?",
+        "/*/search/inside?",
+        "/learning/courses",
+        "/*/learning/courses",
+        "/content/",
+        "/*/content/",
+        "/mybookmarks/folder",
+        "/*/mybookmarks/folder",
+        "/external/feed",
+        "/*/external/feed",
+        "/payment/",
+        "/*/payment/",
+        "/trial/",
+        "/*/trial/",
+        "/suggestions?",
+        "/*/suggestions?",
+        "/advancedSuggestions?",
+        "/*/advancedSuggestions?",
+        "/epedia/autosuggest?",
+        "/*/epedia/autosuggest?",
+        "/epedia/titleSuggestions?",
+        "/*/epedia/titleSuggestions?",
+        "/de/*",
+        "/dE/*",
+        "/De/*",
+        "/DE/*",
+        "/eN/*",
+        "/En/*",
+        "/EN/*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/search?",
+      "/*/search?",
+      "/search/inside?",
+      "/*/search/inside?",
+      "/learning/courses",
+      "/*/learning/courses",
+      "/content/",
+      "/*/content/",
+      "/mybookmarks/folder",
+      "/*/mybookmarks/folder",
+      "/external/feed",
+      "/*/external/feed",
+      "/payment/",
+      "/*/payment/",
+      "/trial/",
+      "/*/trial/",
+      "/suggestions?",
+      "/*/suggestions?",
+      "/advancedSuggestions?",
+      "/*/advancedSuggestions?",
+      "/epedia/autosuggest?",
+      "/*/epedia/autosuggest?",
+      "/epedia/titleSuggestions?",
+      "/*/epedia/titleSuggestions?",
+      "/de/*",
+      "/dE/*",
+      "/De/*",
+      "/DE/*",
+      "/eN/*",
+      "/En/*",
+      "/EN/*"
+    ]
+  }
 }

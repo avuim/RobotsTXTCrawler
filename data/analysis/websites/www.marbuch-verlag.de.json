@@ -1,14 +1,55 @@
 {
   "domain": "www.marbuch-verlag.de",
   "normalizedDomain": "www.marbuch-verlag.de",
+  "robotsTxt": "# Zugriff auf alle Dateien erlauben\r\nUser-agent: Slurp\r\nDisallow: /\r\n\r\nUser-agent: *\r\nDisallow: /okaz/antworten.asp\r\nDisallow: /okaz/suchen.asp\r\nDisallow: /cgi-shl/\r\nDisallow: /werbung/\r\nDisallow: /WasWerWo/\r\nDisallow: /gaeste/\r\n\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/okaz/antworten.asp",
+        "/okaz/suchen.asp",
+        "/cgi-shl/",
+        "/werbung/",
+        "/WasWerWo/",
+        "/gaeste/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Slurp",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "Slurp",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/okaz/antworten.asp",
+      "/okaz/suchen.asp",
+      "/cgi-shl/",
+      "/werbung/",
+      "/WasWerWo/",
+      "/gaeste/"
+    ]
+  }
 }

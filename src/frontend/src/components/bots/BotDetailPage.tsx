@@ -302,6 +302,7 @@ const BotDetailPage: React.FC = () => {
           )}
         </InfoCard>
 
+
         {/* Website-Details - Alle Websites */}
         <InfoCard>
           <SectionTitle>Website-Details (Aktueller Monat)</SectionTitle>

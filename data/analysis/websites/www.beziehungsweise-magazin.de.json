@@ -1,7 +1,44 @@
 {
   "domain": "www.beziehungsweise-magazin.de",
   "normalizedDomain": "www.beziehungsweise-magazin.de",
+  "robotsTxt": "User-agent: TurnitinBot\nDisallow: /\nUser-agent: ia_archiver\nDisallow: /\nUser-agent: *\nDisallow: /wp-admin/",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/wp-admin/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 0,
+    "disallowedBots": 2,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "TurnitinBot",
       "allowed": false
@@ -9,10 +46,12 @@
     {
       "name": "ia_archiver",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/wp-admin/"
+    ]
+  }
 }

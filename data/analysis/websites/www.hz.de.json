@@ -1,14 +1,41 @@
 {
   "domain": "www.hz.de",
   "normalizedDomain": "www.hz.de",
-  "bots": [
+  "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: *\nAllow: /\nSitemap: https://www.fritzundfraenzi.ch/sitemap/index.xml.gz\nSitemap: https://www.fritzundfraenzi.ch/sitemap/news.xml.gz",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
     {
       "name": "GPTBot",
-      "allowed": false
-    },
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
+  "bots": [
     {
       "name": "*",
       "allowed": true
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

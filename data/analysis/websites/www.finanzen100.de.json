@@ -1,10 +1,60 @@
 {
   "domain": "www.finanzen100.de",
   "normalizedDomain": "www.finanzen100.de",
+  "robotsTxt": "User-agent: *\nDisallow: /benutzer/\nDisallow: /widget/\n\nUser-agent: Mediapartners-Google\nAllow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nSitemap: https://www.finanzen100.de/sitemap/sitemap-index.xml\nSitemap: https://www.finanzen100.de/news-sitemap-index.xml\nSitemap: https://www.finanzen100.de/videos-sitemap-index.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/benutzer/",
+        "/widget/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 4,
+    "allowedBots": 1,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Mediapartners-Google",
@@ -22,5 +72,12 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/benutzer/",
+      "/widget/"
+    ]
+  }
 }

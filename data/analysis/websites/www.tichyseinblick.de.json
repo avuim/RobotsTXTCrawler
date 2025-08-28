@@ -1,10 +1,50 @@
 {
   "domain": "www.tichyseinblick.de",
   "normalizedDomain": "www.tichyseinblick.de",
+  "robotsTxt": "User-agent: *\n\nDisallow: /feed/\nDisallow: /trackback/\nDisallow: /wp-admin/\nDisallow: /wp-content/\nDisallow: /wp-includes/\nDisallow: /xmlrpc.php\nDisallow: /wp-config.php\n\nAllow: /wp-content/uploads/\nAllow: /wp-content/themes/rolandtichy\n\nSitemap: https://www.tichyseinblick.de//sitemap_index.xml\nSitemap: https://www.tichyseinblick.de//news-sitemap.xml\n# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://www.tichyseinblick.de/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/wp-content/uploads/",
+        "/wp-content/themes/rolandtichy"
+      ],
+      "disallowed": [
+        "/feed/",
+        "/trackback/",
+        "/wp-admin/",
+        "/wp-content/",
+        "/wp-includes/",
+        "/xmlrpc.php",
+        "/wp-config.php"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/wp-content/uploads/",
+      "/wp-content/themes/rolandtichy"
+    ],
+    "disallowed": [
+      "/feed/",
+      "/trackback/",
+      "/wp-admin/",
+      "/wp-content/",
+      "/wp-includes/",
+      "/xmlrpc.php",
+      "/wp-config.php"
+    ]
+  }
 }

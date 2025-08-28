@@ -1,14 +1,45 @@
 {
   "domain": "www.mtv.de",
   "normalizedDomain": "www.mtv.de",
+  "robotsTxt": "User-agent: *\nDisallow: /embed\n\nUser-agent: PetalBot\nDisallow: /\n\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/embed"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "PetalBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/embed"
+    ]
+  }
 }

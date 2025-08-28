@@ -1,14 +1,49 @@
 {
   "domain": "www.southpark.de",
   "normalizedDomain": "www.southpark.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /legal/ea4cty/web-credits\r\nDisallow: /creditos-de-la-red\r\nDisallow: /creditos-da-web\r\n\r\nUser-agent: PetalBot\r\nDisallow: /\r\n\r\nSitemap: https://southpark.cc.com/xmlsitemap/us/en/news\r\nSitemap: https://southpark.cc.com/xmlsitemap/us/en/video\r\nSitemap: https://southpark.cc.com/xmlsitemap/us/en/episode\r\nSitemap: https://southpark.cc.com/xmlsitemap/us/en/show\r\nSitemap: https://southpark.cc.com/xmlsitemap/us/es/video\r\nSitemap: https://southpark.cc.com/xmlsitemap/us/es/episode\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/legal/ea4cty/web-credits",
+        "/creditos-de-la-red",
+        "/creditos-da-web"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "PetalBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/legal/ea4cty/web-credits",
+      "/creditos-de-la-red",
+      "/creditos-da-web"
+    ]
+  }
 }

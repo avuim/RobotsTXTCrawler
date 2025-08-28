@@ -1,10 +1,32 @@
 {
   "domain": "www.vwfs.de",
   "normalizedDomain": "www.vwfs.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /faq-root/\r\nSitemap: https://www.vwfs.de/sitemap.xml\r\n\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/faq-root/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/faq-root/"
+    ]
+  }
 }

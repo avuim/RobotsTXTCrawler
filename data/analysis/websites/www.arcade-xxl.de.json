@@ -1,5 +1,37 @@
 {
   "domain": "www.arcade-xxl.de",
   "normalizedDomain": "www.arcade-xxl.de",
-  "bots": []
+  "robotsTxt": "User-agent: Mediapartners-Google* \rDisallow: /stuff\rDisallow: /logs\rDisallow: /*.html$\r\rUser-agent: *\rDisallow: /stuff\rDisallow: /logs\rDisallow: /*.html$\r\r# Freundliche Sauger\rUser-agent: agadine\rDisallow: /stuff\rDisallow: /logs\rDisallow: /*.html$\r\rUser-agent: Slurp\rCrawl-delay: 10\r\r# Fiese Sauger\rUser-agent: Teleport*\rDisallow: /\r\rUser-agent: Webwhacker*\rDisallow: /\r\rUser-agent: Webzip*\rDisallow: /\r\rUser-agent: Net Attache*\rDisallow: /\r\rUser-agent: SiteSnagger*\rDisallow: /\r\rUser-agent: TranSGeniKBot\rDisallow: /\r\rUser-agent: Pompos\rDisallow: /\r\rUser-agent: NPBot\rDisallow: /\r\rUser-agent: PhpDig/1.8.0\rDisallow: /\r\rUser-agent: PhpDig\rDisallow: /\r\rUser-agent: HTTrack* \rDisallow: / \r\rUser-agent: WebCapture* \rDisallow: / \r\rUser-agent: WebSauger* \rDisallow: / \r\rUser-agent: WebReaper* \rDisallow: / \r\rUser-agent: Roverbot*\rDisallow: /\r\r# mailspider\rUser-agent: WX_mail/2.000\rDisallow: /\r\rUser-agent: EmailCollector\rDisallow: /\r\rUser-agent: WhoWhere\rDisallow: /\r\rUser-Agent: Roverbot\rDisallow: /\r\rUser-Agent: ActiveAgent\rDisallow: /\r\rUser-agent: EmailSiphon\rDisallow: /\r\r",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Mediapartners-Google* \rDisallow: /stuff\rDisallow: /logs\rDisallow: /*.html$\r\rUser-agent: *\rDisallow: /stuff\rDisallow: /logs\rDisallow: /*.html$\r\r# Freundliche Sauger\rUser-agent: agadine\rDisallow: /stuff\rDisallow: /logs\rDisallow: /*.html$\r\rUser-agent: Slurp\rCrawl-delay: 10\r\r# Fiese Sauger\rUser-agent: Teleport*\rDisallow: /\r\rUser-agent: Webwhacker*\rDisallow: /\r\rUser-agent: Webzip*\rDisallow: /\r\rUser-agent: Net Attache*\rDisallow: /\r\rUser-agent: SiteSnagger*\rDisallow: /\r\rUser-agent: TranSGeniKBot\rDisallow: /\r\rUser-agent: Pompos\rDisallow: /\r\rUser-agent: NPBot\rDisallow: /\r\rUser-agent: PhpDig/1.8.0\rDisallow: /\r\rUser-agent: PhpDig\rDisallow: /\r\rUser-agent: HTTrack* \rDisallow: / \r\rUser-agent: WebCapture* \rDisallow: / \r\rUser-agent: WebSauger* \rDisallow: / \r\rUser-agent: WebReaper* \rDisallow: / \r\rUser-agent: Roverbot*\rDisallow: /\r\r# mailspider\rUser-agent: WX_mail/2.000\rDisallow: /\r\rUser-agent: EmailCollector\rDisallow: /\r\rUser-agent: WhoWhere\rDisallow: /\r\rUser-Agent: Roverbot\rDisallow: /\r\rUser-Agent: ActiveAgent\rDisallow: /\r\rUser-agent: EmailSiphon\rDisallow: /",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "Mediapartners-Google* \rDisallow: /stuff\rDisallow: /logs\rDisallow: /*.html$\r\rUser-agent: *\rDisallow: /stuff\rDisallow: /logs\rDisallow: /*.html$\r\r# Freundliche Sauger\rUser-agent: agadine\rDisallow: /stuff\rDisallow: /logs\rDisallow: /*.html$\r\rUser-agent: Slurp\rCrawl-delay: 10\r\r# Fiese Sauger\rUser-agent: Teleport*\rDisallow: /\r\rUser-agent: Webwhacker*\rDisallow: /\r\rUser-agent: Webzip*\rDisallow: /\r\rUser-agent: Net Attache*\rDisallow: /\r\rUser-agent: SiteSnagger*\rDisallow: /\r\rUser-agent: TranSGeniKBot\rDisallow: /\r\rUser-agent: Pompos\rDisallow: /\r\rUser-agent: NPBot\rDisallow: /\r\rUser-agent: PhpDig/1.8.0\rDisallow: /\r\rUser-agent: PhpDig\rDisallow: /\r\rUser-agent: HTTrack* \rDisallow: / \r\rUser-agent: WebCapture* \rDisallow: / \r\rUser-agent: WebSauger* \rDisallow: / \r\rUser-agent: WebReaper* \rDisallow: / \r\rUser-agent: Roverbot*\rDisallow: /\r\r# mailspider\rUser-agent: WX_mail/2.000\rDisallow: /\r\rUser-agent: EmailCollector\rDisallow: /\r\rUser-agent: WhoWhere\rDisallow: /\r\rUser-Agent: Roverbot\rDisallow: /\r\rUser-Agent: ActiveAgent\rDisallow: /\r\rUser-agent: EmailSiphon\rDisallow: /",
+      "allowed": true
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

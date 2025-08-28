@@ -1,10 +1,57 @@
 {
   "domain": "www.firmenauto.de",
   "normalizedDomain": "www.firmenauto.de",
+  "robotsTxt": "User-agent: *\ndisallow: /irapi/*\ndisallow: /irelements/*\nDisallow: /ajax/\nDisallow: /*?module=*\ndisallow: /suche/*\n\n # Allow sitemap\nSitemap: https://www.firmenauto.de/sitemap/news-sitemap.xml\nSitemap: https://www.firmenauto.de/sitemap/sitemap-index.xml\nSitemap: https://www.firmenauto.de/sitemap/video-sitemap-index.xml\nSitemap: https://www.firmenauto.de/sitemap/navigation-sitemap.xml\nSitemap: https://www.firmenauto.de/sitemap/themenseiten-sitemap.xml\n\nDisallow: /heft*\nDisallow: *ePaper*.pdf\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/irapi/*",
+        "/irelements/*",
+        "/ajax/",
+        "/*?module=*",
+        "/suche/*",
+        "/heft*",
+        "*ePaper*.pdf"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Google-Extended",
@@ -18,5 +65,17 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/irapi/*",
+      "/irelements/*",
+      "/ajax/",
+      "/*?module=*",
+      "/suche/*",
+      "/heft*",
+      "*ePaper*.pdf"
+    ]
+  }
 }

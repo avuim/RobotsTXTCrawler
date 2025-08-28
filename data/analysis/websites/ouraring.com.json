@@ -1,10 +1,52 @@
 {
   "domain": "ouraring.com",
   "normalizedDomain": "ouraring.com",
+  "robotsTxt": "# *\r\nUser-agent: *\r\nAllow: /\r\nDisallow: /partners\r\nDisallow: /discount\r\nDisallow: /discount/*\r\nDisallow: /invite\r\nDisallow: /invite/*\r\nDisallow: /order-status\r\nDisallow: /wip\r\nDisallow: /cart\r\nDisallow: /checkout\r\nDisallow: /dev/*\r\nDisallow: /hrm-terms-and-conditions\r\n\r\n# Host\r\nHost: https://ouraring.com\r\n\r\n# Sitemaps\r\nSitemap: https://ouraring.com/sitemap.xml\r\nSitemap: https://ouraring.com/growth/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/partners",
+        "/discount",
+        "/discount/*",
+        "/invite",
+        "/invite/*",
+        "/order-status",
+        "/wip",
+        "/cart",
+        "/checkout",
+        "/dev/*",
+        "/hrm-terms-and-conditions"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/partners",
+      "/discount",
+      "/discount/*",
+      "/invite",
+      "/invite/*",
+      "/order-status",
+      "/wip",
+      "/cart",
+      "/checkout",
+      "/dev/*",
+      "/hrm-terms-and-conditions"
+    ]
+  }
 }

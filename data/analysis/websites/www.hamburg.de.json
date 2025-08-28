@@ -1,10 +1,368 @@
 {
   "domain": "www.hamburg.de",
   "normalizedDomain": "www.hamburg.de",
+  "robotsTxt": "User-agent: *\nDisallow:/branchenbuch/*/*/ln0/\nDisallow: /branchenbuch/*/*/*/ln0/\nDisallow: /iason/hamburg/\nDisallow: /iason/search\nDisallow: /iason/search\nDisallow: /iason/widget\nDisallow: /iason/listing/\nDisallow: /befi/$\nDisallow: /befi/?$\nDisallow: /befi/hamburg/\nDisallow: /befi/widget\nDisallow: /premiumpartner/\nDisallow: /625042!search\nDisallow: /search\nDisallow: /newsletter\n\nUser-agent: hyscore\nDisallow:/\n\nUser-agent: Teleport\nDisallow:/\n\nUser-agent: Webwhacker\nDisallow:/\n\nUser-agent: Webzip\nDisallow:/\n\nUser-agent: Net Attache\nDisallow:/\n\nUser-agent: SiteSnagger\nDisallow:/\n\nUser-agent: HTTrack\nDisallow:/\n\nUser-agent: WebCapture\nDisallow:/\n\nUser-agent: WebSauger\nDisallow:/\n\nUser-agent: proximic\nDisallow:/\n\nUser-agent: PetalBot\nDisallow:/\n\nUser-agent: 008\nDisallow:/\n\nUser-agent: sogou spider\nDisallow:/\n\nUser-agent: Baiduspider\nDisallow:/\n\nUser-agent: AhrefsBot\nDisallow:/\n\nUser-agent: SemrushBot-SA\nDisallow:/\n\nUser-agent: Flamingo_SearchEngine\nDisallow:/\n\nUser-agent: msnbot-media/1.1\nDisallow:/\n\nUser-agent: msnbot-media/2.0b\nDisallow:/\n\nUser-agent: scrapy\nDisallow:/\n\nUser-agent: Diffbot\nDisallow:/\n\nUser-agent: RyteBot\nDisallow:/\n\nUser-agent: backlink-check.de\nDisallow:/\n\nUser-agent: BacklinkCrawler\nDisallow:/\n\nUser-agent: ExtractorPro\nDisallow:/\n\nUser-agent: Fasterfox\nDisallow:/\n\nUser-agent: LinkextractorPro\nDisallow:/\n\nUser-agent: LinkWalker\nDisallow:/\n\nUser-agent: MJ12bot\nDisallow:/\n\nUser-agent: Openbot\nDisallow:/\n\nUser-agent: rogerbot\nDisallow:/\n\nUser-agent: searchpreview\nDisallow:/\n\nUser-agent: SemrushBot\nDisallow:/\n\nUser-agent: SEODAT\nDisallow:/\n\nUser-agent: SEOENGBot\nDisallow:/\n\nUser-agent: SEOkicks-Robot\nDisallow:/\n\nUser-agent: True_Robot\nDisallow:/\n\nUser-agent: URL Control\nDisallow:/\n\nUser-agent: URL_Spider_Pro\nDisallow:/\n\nUser-agent: xovi\nDisallow:/\n\nUser-agent: um-IC\nDisallow:/\n\nSitemap: https://www.hamburg.de/service-sitemap-hamburg.de-sitemap_index.xml\nSitemap: https://www.hamburg.com/service-sitemap-hamburg.com-sitemap_index.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/branchenbuch/*/*/ln0/",
+        "/branchenbuch/*/*/*/ln0/",
+        "/iason/hamburg/",
+        "/iason/search",
+        "/iason/widget",
+        "/iason/listing/",
+        "/befi/$",
+        "/befi/?$",
+        "/befi/hamburg/",
+        "/befi/widget",
+        "/premiumpartner/",
+        "/625042!search",
+        "/search",
+        "/newsletter"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "hyscore",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Teleport",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Webwhacker",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Webzip",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Net Attache",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SiteSnagger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCapture",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebSauger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "008",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sogou spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Flamingo_SearchEngine",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "msnbot-media/1.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "msnbot-media/2.0b",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "RyteBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "backlink-check.de",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BacklinkCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ExtractorPro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkextractorPro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkWalker",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Openbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "rogerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "searchpreview",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEODAT",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEOENGBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "True_Robot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "URL Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "URL_Spider_Pro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "xovi",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "um-IC",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 41,
+    "allowedBots": 0,
+    "disallowedBots": 41,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "hyscore",
@@ -170,5 +528,24 @@
       "name": "um-IC",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/branchenbuch/*/*/ln0/",
+      "/branchenbuch/*/*/*/ln0/",
+      "/iason/hamburg/",
+      "/iason/search",
+      "/iason/widget",
+      "/iason/listing/",
+      "/befi/$",
+      "/befi/?$",
+      "/befi/hamburg/",
+      "/befi/widget",
+      "/premiumpartner/",
+      "/625042!search",
+      "/search",
+      "/newsletter"
+    ]
+  }
 }

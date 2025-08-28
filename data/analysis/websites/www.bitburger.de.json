@@ -1,10 +1,32 @@
 {
   "domain": "www.bitburger.de",
   "normalizedDomain": "www.bitburger.de",
+  "robotsTxt": "User-Agent: *\r\nAllow: /\r\nDisallow: /test/\r\n\r\nSitemap: https://www.bitburger.de/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/test/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/test/"
+    ]
+  }
 }

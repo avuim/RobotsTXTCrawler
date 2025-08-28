@@ -1,10 +1,48 @@
 {
   "domain": "www.onlinefussballmanager.de",
   "normalizedDomain": "www.onlinefussballmanager.de",
+  "robotsTxt": "User-agent: *\n\nDisallow: /Passwort-vergessen\nDisallow: /Forgot-password\nDisallow: /Has-olvidado-la-contrasena\nDisallow: /Mot-de-passe-oubli\nDisallow: /Password-dimenticata\nDisallow: /Zapomniales-hasa\nDisallow: /Zabyli-parol\nDisallow: /Sifreni-mi-unuttun\n\nDisallow: /weiterempfehlen.php\n\nAllow: /\n\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/Passwort-vergessen",
+        "/Forgot-password",
+        "/Has-olvidado-la-contrasena",
+        "/Mot-de-passe-oubli",
+        "/Password-dimenticata",
+        "/Zapomniales-hasa",
+        "/Zabyli-parol",
+        "/Sifreni-mi-unuttun",
+        "/weiterempfehlen.php"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/Passwort-vergessen",
+      "/Forgot-password",
+      "/Has-olvidado-la-contrasena",
+      "/Mot-de-passe-oubli",
+      "/Password-dimenticata",
+      "/Zapomniales-hasa",
+      "/Zabyli-parol",
+      "/Sifreni-mi-unuttun",
+      "/weiterempfehlen.php"
+    ]
+  }
 }

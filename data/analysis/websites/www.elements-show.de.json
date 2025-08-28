@@ -1,7 +1,432 @@
 {
   "domain": "www.elements-show.de",
   "normalizedDomain": "www.elements-show.de",
+  "robotsTxt": "#\r\n# robots.txt\r\n#\r\n# This file is to prevent the crawling and indexing of certain parts\r\n# of your site by web crawlers and spiders run by sites like Yahoo!\r\n# and Google. By telling these \"robots\" where not to go on your site,\r\n# you save bandwidth and server resources.\r\n#\r\n# This file will be ignored unless it is at the root of your host:\r\n# Used:    http://example.com/robots.txt\r\n# Ignored: http://example.com/site/robots.txt\r\n#\r\n# For more information about the robots.txt standard, see:\r\n# http://www.robotstxt.org/robotstxt.html\r\n\r\nUser-agent: AhrefsBot\r\nDisallow: /\r\n\r\nUser-agent: Aidu\r\nDisallow:/\r\n\r\nUser-agent: AlphaBot\r\nDisallow: /\r\n\r\n#User-agent: Amazonbot\r\n#Disallow: /\r\n\r\n#User-agent: anthropic-ai\r\n#Disallow: /\r\n\r\nUser-agent: Baiduspider\r\nDisallow: /\r\n\r\nUser-agent: Baiduspider-image\r\nDisallow: /\r\n\r\nUser-agent: Baiduspider-video\r\nDisallow: /\r\n\r\nUser=agent: BLEXBot\r\nDisallow: /\r\n\r\nUser-agent: BUbiNG\r\nDisallow: /\r\n\r\nUser-agent: Bytespider\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\n#User-agent: ChatGPT-User\r\n#Disallow: /\r\n\r\n#User-agent: ClaudeBot\r\n#Disallow: /\r\n\r\nUser-agent: cohere-ai\r\nDisallow: /\r\n\r\nUser-agent: DataForSeoBot\r\nDisallow: /\r\n\r\nUser-agent: Diffbot\r\nDisallow: /\r\n\r\nUser-agent: DotBot\r\nDisallow: /\r\n\r\n# Facebook AI bot\r\nUser-agent: FacebookBot\r\nDisallow: /\r\n\r\n# Google Bard/AI\r\n#User-agent: Google-Extended\r\n#Disallow: /\r\n\r\n#User-agent: GPTBot\r\n#Disallow: /\r\n\r\nUser-agent: ImagesiftBot\r\nDisallow: /\r\n\r\nUser-agent: Jorgee\r\nDisallow:/\r\n\r\nUser-agent: ltx71\r\nDisallow: /\r\n\r\nUser-agent: MauiBot\r\nDisallow:/\r\n\r\nUser-agent: MJ12bot\r\nDisallow: /\r\n\r\nUser-agent: netEstate NE Crawler\r\nDisallow: /\r\n\r\nUser-agent: Omgili\r\nDisallow: /\r\n\r\nUser-agent: Omgilibot\r\nDisallow: /\r\n\r\nUser-agent: PetalBot\r\nDisallow: /\r\n\r\nUser-agent: PhxBot\r\nDisallow: /\r\n\r\nUser-agent: Riddler\r\nDisallow: /\r\n\r\nUser-agent: Scrapy\r\nDisallow: /\r\n\r\nUser-agent: SemrushBot\r\nDisallow: /\r\n\r\nUser-agent: SemrushBot-BA\r\nDisallow: /\r\n\r\nUser-agent: SemrushBot-SI\r\nDisallow: /\r\n\r\nUser-agent: SemrushBot-BM\r\nDisallow: /\r\n\r\nUser-agent: SemrushBot-SA\r\nDisallow: /\r\n\r\nUser-agent: SemrushBot-SWA\r\nDisallow: /\r\n\r\nUser-agent: SemrushBot-CT\r\nDisallow: /\r\n\r\nUser-agent: SemrushBot-SEOAB\r\nDisallow: /\r\n\r\nUser-agent: SeznamBot\r\nDisallow: /\r\n\r\nUser-agent: Yandex\r\nDisallow: /\r\n\r\nUser-agent: YandexBot\r\nDisallow: /\r\n\r\nUser-agent: 1086BOT\r\nDisallow: /\r\n\r\nUser-agent: AngleSharp\r\nDisallow: /\r\n\r\nSitemap: https://www.elements-show.de/sitemap.xml\r\n\r\nSitemap: https://www.elements-show.at/sitemap.xml\r\n\r\nUser-agent: Optimizer\r\n# CSS, JS, Images\r\nAllow: /core/*.css$\r\nAllow: /core/*.css?\r\nAllow: /core/*.js$\r\nAllow: /core/*.js?\r\nAllow: /core/*.gif\r\nAllow: /core/*.jpg\r\nAllow: /core/*.jpeg\r\nAllow: /core/*.png\r\nAllow: /core/*.svg\r\nAllow: /profiles/*.css$\r\nAllow: /profiles/*.css?\r\nAllow: /profiles/*.js$\r\nAllow: /profiles/*.js?\r\nAllow: /profiles/*.gif\r\nAllow: /profiles/*.jpg\r\nAllow: /profiles/*.jpeg\r\nAllow: /profiles/*.png\r\nAllow: /profiles/*.svg\r\n# Directories\r\nDisallow: /core/\r\nDisallow: /profiles/\r\n# Files\r\nDisallow: /README.txt\r\nDisallow: /web.config\r\n# Paths (clean URLs)\r\nDisallow: /admin/\r\nDisallow: /comment/reply/\r\nDisallow: /filter/tips\r\nDisallow: /node/add/\r\nDisallow: /search/\r\nDisallow: /jsonapi/\r\nDisallow: /user/register/\r\nDisallow: /user/password/\r\nDisallow: /user/login/\r\nDisallow: /user/logout/\r\n# Paths (no clean URLs)\r\nDisallow: /index.php/admin/\r\nDisallow: /index.php/comment/reply/\r\nDisallow: /index.php/filter/tips\r\nDisallow: /index.php/node/add/\r\nDisallow: /index.php/search/\r\nDisallow: /index.php/user/password/\r\nDisallow: /index.php/user/register/\r\nDisallow: /index.php/user/login/\r\nDisallow: /index.php/user/logout/\r\n\r\nUser-agent: *\r\nCrawl-delay: 10\r\n# CSS, JS, Images\r\nAllow: /core/*.css$\r\nAllow: /core/*.css?\r\nAllow: /core/*.js$\r\nAllow: /core/*.js?\r\nAllow: /core/*.gif\r\nAllow: /core/*.jpg\r\nAllow: /core/*.jpeg\r\nAllow: /core/*.png\r\nAllow: /core/*.svg\r\nAllow: /profiles/*.css$\r\nAllow: /profiles/*.css?\r\nAllow: /profiles/*.js$\r\nAllow: /profiles/*.js?\r\nAllow: /profiles/*.gif\r\nAllow: /profiles/*.jpg\r\nAllow: /profiles/*.jpeg\r\nAllow: /profiles/*.png\r\nAllow: /profiles/*.svg\r\n# Directories\r\nDisallow: /core/\r\nDisallow: /profiles/\r\n# Files\r\nDisallow: /README.txt\r\nDisallow: /web.config\r\n# Paths (clean URLs)\r\nDisallow: /admin/\r\nDisallow: /comment/reply/\r\nDisallow: /filter/tips\r\nDisallow: /node/add/\r\nDisallow: /search/\r\nDisallow: /jsonapi/\r\nDisallow: /user/register/\r\nDisallow: /user/password/\r\nDisallow: /user/login/\r\nDisallow: /user/logout/\r\n# Paths (no clean URLs)\r\nDisallow: /index.php/admin/\r\nDisallow: /index.php/comment/reply/\r\nDisallow: /index.php/filter/tips\r\nDisallow: /index.php/node/add/\r\nDisallow: /index.php/search/\r\nDisallow: /index.php/user/password/\r\nDisallow: /index.php/user/register/\r\nDisallow: /index.php/user/login/\r\nDisallow: /index.php/user/logout/\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/core/*.css$",
+        "/core/*.css?",
+        "/core/*.js$",
+        "/core/*.js?",
+        "/core/*.gif",
+        "/core/*.jpg",
+        "/core/*.jpeg",
+        "/core/*.png",
+        "/core/*.svg",
+        "/profiles/*.css$",
+        "/profiles/*.css?",
+        "/profiles/*.js$",
+        "/profiles/*.js?",
+        "/profiles/*.gif",
+        "/profiles/*.jpg",
+        "/profiles/*.jpeg",
+        "/profiles/*.png",
+        "/profiles/*.svg"
+      ],
+      "disallowed": [
+        "/core/",
+        "/profiles/",
+        "/README.txt",
+        "/web.config",
+        "/admin/",
+        "/comment/reply/",
+        "/filter/tips",
+        "/node/add/",
+        "/search/",
+        "/jsonapi/",
+        "/user/register/",
+        "/user/password/",
+        "/user/login/",
+        "/user/logout/",
+        "/index.php/admin/",
+        "/index.php/comment/reply/",
+        "/index.php/filter/tips",
+        "/index.php/node/add/",
+        "/index.php/search/",
+        "/index.php/user/password/",
+        "/index.php/user/register/",
+        "/index.php/user/login/",
+        "/index.php/user/logout/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Aidu",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AlphaBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-image",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-video",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BUbiNG",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DotBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Jorgee",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ltx71",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MauiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "netEstate NE Crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PhxBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Riddler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot-BA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot-SI",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot-BM",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot-SWA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot-CT",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot-SEOAB",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SeznamBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yandex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "1086BOT",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AngleSharp",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/core/*.css$",
+          "/core/*.css?",
+          "/core/*.js$",
+          "/core/*.js?",
+          "/core/*.gif",
+          "/core/*.jpg",
+          "/core/*.jpeg",
+          "/core/*.png",
+          "/core/*.svg",
+          "/profiles/*.css$",
+          "/profiles/*.css?",
+          "/profiles/*.js$",
+          "/profiles/*.js?",
+          "/profiles/*.gif",
+          "/profiles/*.jpg",
+          "/profiles/*.jpeg",
+          "/profiles/*.png",
+          "/profiles/*.svg"
+        ],
+        "disallowed": [
+          "/core/",
+          "/profiles/",
+          "/README.txt",
+          "/web.config",
+          "/admin/",
+          "/comment/reply/",
+          "/filter/tips",
+          "/node/add/",
+          "/search/",
+          "/jsonapi/",
+          "/user/register/",
+          "/user/password/",
+          "/user/login/",
+          "/user/logout/",
+          "/index.php/admin/",
+          "/index.php/comment/reply/",
+          "/index.php/filter/tips",
+          "/index.php/node/add/",
+          "/index.php/search/",
+          "/index.php/user/password/",
+          "/index.php/user/register/",
+          "/index.php/user/login/",
+          "/index.php/user/logout/"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 40,
+    "allowedBots": 1,
+    "disallowedBots": 39,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "AhrefsBot",
       "allowed": false
@@ -161,10 +586,53 @@
     {
       "name": "Optimizer",
       "allowed": true
-    },
-    {
-      "name": "*",
-      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/core/*.css$",
+      "/core/*.css?",
+      "/core/*.js$",
+      "/core/*.js?",
+      "/core/*.gif",
+      "/core/*.jpg",
+      "/core/*.jpeg",
+      "/core/*.png",
+      "/core/*.svg",
+      "/profiles/*.css$",
+      "/profiles/*.css?",
+      "/profiles/*.js$",
+      "/profiles/*.js?",
+      "/profiles/*.gif",
+      "/profiles/*.jpg",
+      "/profiles/*.jpeg",
+      "/profiles/*.png",
+      "/profiles/*.svg"
+    ],
+    "disallowed": [
+      "/core/",
+      "/profiles/",
+      "/README.txt",
+      "/web.config",
+      "/admin/",
+      "/comment/reply/",
+      "/filter/tips",
+      "/node/add/",
+      "/search/",
+      "/jsonapi/",
+      "/user/register/",
+      "/user/password/",
+      "/user/login/",
+      "/user/logout/",
+      "/index.php/admin/",
+      "/index.php/comment/reply/",
+      "/index.php/filter/tips",
+      "/index.php/node/add/",
+      "/index.php/search/",
+      "/index.php/user/password/",
+      "/index.php/user/register/",
+      "/index.php/user/login/",
+      "/index.php/user/logout/"
+    ]
+  }
 }

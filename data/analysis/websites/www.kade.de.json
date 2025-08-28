@@ -1,10 +1,50 @@
 {
   "domain": "www.kade.de",
   "normalizedDomain": "www.kade.de",
+  "robotsTxt": "# We do not distinguish between the browsers.\r\nUser-agent: *\r\n\r\n# Only allow URLs generated with frontend routing\r\nDisallow: /*?id=*\r\nDisallow: /*&id=*\r\n\r\n# L=0 is the default language\r\nDisallow: /*?L=0*\r\nDisallow: /*&L=0*\r\n\r\n# Should always be protected, but you know...\r\nDisallow: /*/Private/*\r\nDisallow: /*/Configuration/*\r\n\r\n# Disallow all files in /typo3temp/var/\r\nDisallow: /typo3temp/var/*\r\n\r\n# Disallow all files in /typo3/\r\nDisallow: /typo3/\r\n\r\n# Disallow all kind of sql files\r\nDisallow: *.sql\r\nDisallow: *.sql.gz\r\n\r\n# Sitemap files\r\nSitemap: https://www.kade.de/sitemap-index.xml\r\nSitemap: https://www.kade.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*?id=*",
+        "/*&id=*",
+        "/*?L=0*",
+        "/*&L=0*",
+        "/*/Private/*",
+        "/*/Configuration/*",
+        "/typo3temp/var/*",
+        "/typo3/",
+        "*.sql",
+        "*.sql.gz"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*?id=*",
+      "/*&id=*",
+      "/*?L=0*",
+      "/*&L=0*",
+      "/*/Private/*",
+      "/*/Configuration/*",
+      "/typo3temp/var/*",
+      "/typo3/",
+      "*.sql",
+      "*.sql.gz"
+    ]
+  }
 }

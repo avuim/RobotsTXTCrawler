@@ -171,13 +171,22 @@ export const API = {
         }
         const data = await response.json();
         
-        // Transformiere die Daten in das erwartete Format
+        // Transformiere die Daten in das erwartete Format (mit neuer und Legacy-Struktur)
         const transformedData = {
           domain: data.domain || domain,
+          robotsTxt: data.robotsTxt || '',
+          
+          // Neue Datenstruktur
+          globalRules: data.globalRules,
+          specificBots: data.specificBots,
+          stats: data.stats,
+          
+          // Legacy-Format für Rückwärtskompatibilität
           totalBots: data.bots ? data.bots.length : 0,
           allowedBots: data.bots ? data.bots.filter((bot: any) => bot.allowed === true).length : 0,
           disallowedBots: data.bots ? data.bots.filter((bot: any) => bot.allowed === false).length : 0,
-          bots: data.bots || []
+          bots: data.bots || [],
+          paths: data.paths
         };
         
         return transformedData;
@@ -187,6 +196,10 @@ export const API = {
       }
     }
     const response = await apiClient!.get<Website>(`/websites/${encodeURIComponent(domain)}`);
+    
+    // Debug: Log the received data
+    console.log('🔍 Frontend API received data:', JSON.stringify(response.data, null, 2));
+    
     return response.data;
   },
 

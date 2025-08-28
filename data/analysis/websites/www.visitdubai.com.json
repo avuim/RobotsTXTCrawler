@@ -1,10 +1,102 @@
 {
   "domain": "www.visitdubai.com",
   "normalizedDomain": "www.visitdubai.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /bin/\r\nDisallow: /xsl/\r\nDisallow: *?utm\r\nDisallow: /temp/\r\nDisallow: *?DTCM\r\nDisallow: *?tags\r\nDisallow: *?perz\r\nDisallow: /admin/\r\nDisallow: /views/\r\nDisallow: /login/\r\nDisallow: /en-au/\r\nDisallow: /en-hk/\r\nDisallow: /en-in/\r\nDisallow: /en-my/\r\nDisallow: /en-sg/\r\nDisallow: /en-us/\r\nDisallow: /en-za/\r\nDisallow: *?gclid\r\nDisallow: *?dclid\r\nDisallow: /upload/\r\nDisallow: /*?tag=*\r\nDisallow: *?gclsrc\r\nDisallow: /layouts/\r\nDisallow: /sitecore/\r\nDisallow: /App_Data/\r\nDisallow: /*?print=*\r\nDisallow: *?category\r\nDisallow: /\"mailto::*\r\nDisallow: /App_Config/\r\nDisallow: /sc7/hotels/\r\nDisallow: /App_Browsers/\r\nDisallow: /sitecore_files/\r\nDisallow: /chrome-headless/\r\nDisallow: /*?redirect_url=*\r\nDisallow: /sitecore%20modules/\r\nDisallow: /*?missingtranslation=*\r\n\r\nSitemap: https://www.visitdubai.com/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/bin/",
+        "/xsl/",
+        "*?utm",
+        "/temp/",
+        "*?DTCM",
+        "*?tags",
+        "*?perz",
+        "/admin/",
+        "/views/",
+        "/login/",
+        "/en-au/",
+        "/en-hk/",
+        "/en-in/",
+        "/en-my/",
+        "/en-sg/",
+        "/en-us/",
+        "/en-za/",
+        "*?gclid",
+        "*?dclid",
+        "/upload/",
+        "/*?tag=*",
+        "*?gclsrc",
+        "/layouts/",
+        "/sitecore/",
+        "/App_Data/",
+        "/*?print=*",
+        "*?category",
+        "/\"mailto::*",
+        "/App_Config/",
+        "/sc7/hotels/",
+        "/App_Browsers/",
+        "/sitecore_files/",
+        "/chrome-headless/",
+        "/*?redirect_url=*",
+        "/sitecore%20modules/",
+        "/*?missingtranslation=*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/bin/",
+      "/xsl/",
+      "*?utm",
+      "/temp/",
+      "*?DTCM",
+      "*?tags",
+      "*?perz",
+      "/admin/",
+      "/views/",
+      "/login/",
+      "/en-au/",
+      "/en-hk/",
+      "/en-in/",
+      "/en-my/",
+      "/en-sg/",
+      "/en-us/",
+      "/en-za/",
+      "*?gclid",
+      "*?dclid",
+      "/upload/",
+      "/*?tag=*",
+      "*?gclsrc",
+      "/layouts/",
+      "/sitecore/",
+      "/App_Data/",
+      "/*?print=*",
+      "*?category",
+      "/\"mailto::*",
+      "/App_Config/",
+      "/sc7/hotels/",
+      "/App_Browsers/",
+      "/sitecore_files/",
+      "/chrome-headless/",
+      "/*?redirect_url=*",
+      "/sitecore%20modules/",
+      "/*?missingtranslation=*"
+    ]
+  }
 }

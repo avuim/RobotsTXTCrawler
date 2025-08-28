@@ -1,10 +1,358 @@
 {
   "domain": "www.rheinpfalz.de",
   "normalizedDomain": "www.rheinpfalz.de",
+  "robotsTxt": "# global live settings :\r\nUser-agent: *\r\nDisallow: /cms_addon\r\nDisallow: /cms_docs\r\nDisallow: /redFACT\r\nDisallow: /REST/frontend/itemstatistics\r\nSitemap: https://www.rheinpfalz.de/sitemap-index/2-RHP_Google_News_Sitemap.xml\r\nSitemap: https://www.rheinpfalz.de/sitemap-index/3-RHP_Google_Sitemap.xml\r\n# customised settings :\r\nUser-agent: *\r\nDisallow: /pu_all\r\n# Exclude SEO-Tools & SPAM-Bots\r\nUser-agent: backlink-check.de\r\nDisallow: /\r\nUser-agent: BacklinkCrawler\r\nDisallow: /\r\nUser-agent: Bloodhound\r\nDisallow: /\r\nUser-agent: Bytespider\r\nDisallow: /\r\nUser-agent: CCBot\r\nDisallow: /\r\nUser-agent: ChatGPT-User\r\nDisallow: /\r\nUser-agent: ClaudeBot\r\nDisallow: /\r\nUser-agent: Claude-Web\r\nDisallow: /\r\nUser-agent: cydralspider\r\nDisallow: /\r\nUser-agent: Diffbot\r\nDisallow: /\r\nUser-agent: downloadexpress\r\nDisallow: /\r\nUser-agent: ExtractorPro\r\nDisallow: /\r\nUser-agent: Fasterfox\r\nDisallow: /\r\nUser-agent: gammaSpider\r\nDisallow: /\r\nUser-agent: GPTBot\r\nDisallow: /\r\nUser-agent: ImagesiftBot\r\nDisallow: /\r\nUser-agent: LinkextractorPro\r\nDisallow: /\r\nUser-agent: LinkWalker\r\nDisallow: /\r\nUser-agent: Meltwater\r\nDisallow: /\r\nUser-agent: MJ12bot\r\nDisallow: /\r\nUser-agent: NewsNow\r\nDisallow: /\r\nUser-agent: Node/simplecrawler\r\nDisallow: /\r\nUser-agent: Node/simplecrawler 0.7.0 (git+https://github.com/cgiffard/node-simplecrawler.git)\r\nDisallow: /\r\nUser-agent: ObjectsSearch\r\nDisallow: /\r\nUser-agent: omgili\r\nDisallow: /\r\nUser-agent: Openbot\r\nDisallow: /\r\nUser-agent: PerplexityBot\r\nDisallow: /\r\nUser-agent: Pimptrain\r\nDisallow: /\r\nUser-agent: Raven\r\nDisallow: /\r\nUser-agent: rogerbot\r\nDisallow: /\r\nUser-agent: searchpreview\r\nDisallow: /\r\nUser-agent: simplecrawler\r\nDisallow: /\r\nUser-agent: SEODAT\r\nDisallow: /\r\nUser-agent: SEOENGBot\r\nDisallow: /\r\nUser-agent: SEOkicks-Robot\r\nDisallow: /\r\nUser-agent: True_Robot\r\nDisallow: /\r\nUser-agent: URL Control\r\nDisallow: /\r\nUser-agent: URL_Spider_Pro\r\nDisallow: /\r\nUser-agent: wapspider\r\nDisallow: /\r\nUser-agent: WebZinger\r\nDisallow: /\r\nUser-agent: xovi\r\nDisallow: /\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/cms_addon",
+        "/cms_docs",
+        "/redFACT",
+        "/REST/frontend/itemstatistics"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "backlink-check.de",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BacklinkCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ExtractorPro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkextractorPro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkWalker",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Node/simplecrawler 0.7.0 (git+https://github.com/cgiffard/node-simplecrawler.git)",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Openbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "rogerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "searchpreview",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "simplecrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEODAT",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEOENGBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "True_Robot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "URL Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "URL_Spider_Pro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "xovi",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 41,
+    "allowedBots": 0,
+    "disallowedBots": 41,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "backlink-check.de",
@@ -170,5 +518,14 @@
       "name": "xovi",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/cms_addon",
+      "/cms_docs",
+      "/redFACT",
+      "/REST/frontend/itemstatistics"
+    ]
+  }
 }

@@ -1,38 +1,396 @@
 {
   "domain": "www.katholisch.de",
   "normalizedDomain": "www.katholisch.de",
-  "bots": [
+  "robotsTxt": "# Begin robots.txt file\r\n\r\nUser-agent: *\r\nDisallow: /app_data/\r\nDisallow: /Areas/\r\nDisallow: /aspnet_client/\r\nDisallow: /bin/\r\nDisallow: /Content/Download/\r\nDisallow: /Content/Images/\r\nDisallow: /Content/Upload/Liturgicalyears/\r\nDisallow: /Content/Upload/tvprogramguides/\r\nDisallow: /Content/Upload/tvprogramreviews/\r\nDisallow: /Content/Upload/tvprogramtips/\r\nDisallow: /Content/Upload/tvstations/\r\nDisallow: /css/\r\nDisallow: /Components/\r\nDisallow: /img/\r\nDisallow: /Scripts/\r\nDisallow: /Views/\r\n\r\nUser-agent: Bingbot\r\nUser-agent: msnbot\r\nDisallow: /app_data/\r\nDisallow: /Areas/\r\nDisallow: /aspnet_client/\r\nDisallow: /bin/\r\nDisallow: /Content/Download/\r\nDisallow: /Content/Images/\r\nDisallow: /Content/Upload/Liturgicalyears/\r\nDisallow: /Content/Upload/tvprogramguides/\r\nDisallow: /Content/Upload/tvprogramreviews/\r\nDisallow: /Content/Upload/tvprogramtips/\r\nDisallow: /Content/Upload/tvstations/\r\nDisallow: /css/\r\nDisallow: /Components/\r\nDisallow: /img/\r\nDisallow: /Scripts/\r\nDisallow: /Views/\r\nCrawl-delay: 5\r\n\r\nUser-agent: msnbot\r\nDisallow: /app_data/\r\nDisallow: /Areas/\r\nDisallow: /aspnet_client/\r\nDisallow: /bin/\r\nDisallow: /Content/Download/\r\nDisallow: /Content/Images/\r\nDisallow: /Content/Upload/Liturgicalyears/\r\nDisallow: /Content/Upload/tvprogramguides/\r\nDisallow: /Content/Upload/tvprogramreviews/\r\nDisallow: /Content/Upload/tvprogramtips/\r\nDisallow: /Content/Upload/tvstations/\r\nDisallow: /css/\r\nDisallow: /Components/\r\nDisallow: /img/\r\nDisallow: /Scripts/\r\nDisallow: /Views/\r\nCrawl-delay: 5\r\n\r\nUser-agent: Slurp\r\nDisallow: /app_data/\r\nDisallow: /Areas/\r\nDisallow: /aspnet_client/\r\nDisallow: /bin/\r\nDisallow: /Content/Download/\r\nDisallow: /Content/Images/\r\nDisallow: /Content/Upload/Liturgicalyears/\r\nDisallow: /Content/Upload/tvprogramguides/\r\nDisallow: /Content/Upload/tvprogramreviews/\r\nDisallow: /Content/Upload/tvprogramtips/\r\nDisallow: /Content/Upload/tvstations/\r\nDisallow: /css/\r\nDisallow: /Components/\r\nDisallow: /img/\r\nDisallow: /Scripts/\r\nDisallow: /Views/\r\nCrawl-delay: 5\r\n\r\nUser-agent: Googlebot-Image\r\nDisallow: /app_data/\r\nDisallow: /Areas/\r\nDisallow: /aspnet_client/\r\nDisallow: /bin/\r\nDisallow: /Content/Download/\r\nDisallow: /Content/Images/\r\nDisallow: /Content/Upload/Liturgicalyears/\r\nDisallow: /Content/Upload/tvprogramguides/\r\nDisallow: /Content/Upload/tvprogramreviews/\r\nDisallow: /Content/Upload/tvprogramtips/\r\nDisallow: /Content/Upload/tvstations/\r\nDisallow: /css/\r\nDisallow: /Components/\r\nDisallow: /img/\r\nDisallow: /Scripts/\r\nDisallow: /Views/\r\n\r\nUser-agent: Googlebot\r\nDisallow: /app_data/\r\nDisallow: /Areas/\r\nDisallow: /aspnet_client/\r\nDisallow: /bin/\r\nDisallow: /Content/Download/\r\nDisallow: /Content/Images/\r\nDisallow: /Content/Upload/Liturgicalyears/\r\nDisallow: /Content/Upload/tvprogramguides/\r\nDisallow: /Content/Upload/tvprogramreviews/\r\nDisallow: /Content/Upload/tvprogramtips/\r\nDisallow: /Content/Upload/tvstations/\r\nDisallow: /css/\r\nDisallow: /Components/\r\nDisallow: /img/\r\nDisallow: /Scripts/\r\nDisallow: /Views/\r\n\r\nUser-agent: Twitterbot\r\nDisallow: /app_data/\r\nDisallow: /Areas/\r\nDisallow: /aspnet_client/\r\nDisallow: /bin/\r\nDisallow: /Content/Download/\r\nDisallow: /Content/Images/\r\nDisallow: /Content/Upload/Liturgicalyears/\r\nDisallow: /Content/Upload/tvprogramguides/\r\nDisallow: /Content/Upload/tvprogramreviews/\r\nDisallow: /Content/Upload/tvprogramtips/\r\nDisallow: /Content/Upload/tvstations/\r\nDisallow: /css/\r\nDisallow: /Components/\r\nDisallow: /img/\r\nDisallow: /Scripts/\r\nDisallow: /Views/\r\n\r\nUser-agent: Yahoo Pipes 1.0\r\nDisallow: /app_data/\r\nDisallow: /Areas/\r\nDisallow: /aspnet_client/\r\nDisallow: /bin/\r\nDisallow: /Content/Download/\r\nDisallow: /Content/Images/\r\nDisallow: /Content/Upload/Liturgicalyears/\r\nDisallow: /Content/Upload/tvprogramguides/\r\nDisallow: /Content/Upload/tvprogramreviews/\r\nDisallow: /Content/Upload/tvprogramtips/\r\nDisallow: /Content/Upload/tvstations/\r\nDisallow: /css/\r\nDisallow: /Components/\r\nDisallow: /img/\r\nDisallow: /Scripts/\r\nDisallow: /Views/\r\n\r\nUser-agent: ia_archiver\r\nDisallow: /app_data/\r\nDisallow: /Areas/\r\nDisallow: /aspnet_client/\r\nDisallow: /bin/\r\nDisallow: /Content/Download/\r\nDisallow: /Content/Images/\r\nDisallow: /Content/Upload/Liturgicalyears/\r\nDisallow: /Content/Upload/tvprogramguides/\r\nDisallow: /Content/Upload/tvprogramreviews/\r\nDisallow: /Content/Upload/tvprogramtips/\r\nDisallow: /Content/Upload/tvstations/\r\nDisallow: /css/\r\nDisallow: /Components/\r\nDisallow: /img/\r\nDisallow: /Scripts/\r\nDisallow: /Views/\r\n\r\nUser-agent: ia_archiver\r\nAllow: /Content/Upload/Contentfiles/\r\n\r\n# End of robots.txt file\r\n\r\n\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/app_data/",
+        "/Areas/",
+        "/aspnet_client/",
+        "/bin/",
+        "/Content/Download/",
+        "/Content/Images/",
+        "/Content/Upload/Liturgicalyears/",
+        "/Content/Upload/tvprogramguides/",
+        "/Content/Upload/tvprogramreviews/",
+        "/Content/Upload/tvprogramtips/",
+        "/Content/Upload/tvstations/",
+        "/css/",
+        "/Components/",
+        "/img/",
+        "/Scripts/",
+        "/Views/"
+      ]
+    }
+  },
+  "specificBots": [
     {
-      "name": "*",
-      "allowed": false
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/app_data/",
+          "/Areas/",
+          "/aspnet_client/",
+          "/bin/",
+          "/Content/Download/",
+          "/Content/Images/",
+          "/Content/Upload/Liturgicalyears/",
+          "/Content/Upload/tvprogramguides/",
+          "/Content/Upload/tvprogramreviews/",
+          "/Content/Upload/tvprogramtips/",
+          "/Content/Upload/tvstations/",
+          "/css/",
+          "/Components/",
+          "/img/",
+          "/Scripts/",
+          "/Views/"
+        ]
+      }
     },
     {
       "name": "msnbot",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/app_data/",
+          "/Areas/",
+          "/aspnet_client/",
+          "/bin/",
+          "/Content/Download/",
+          "/Content/Images/",
+          "/Content/Upload/Liturgicalyears/",
+          "/Content/Upload/tvprogramguides/",
+          "/Content/Upload/tvprogramreviews/",
+          "/Content/Upload/tvprogramtips/",
+          "/Content/Upload/tvstations/",
+          "/css/",
+          "/Components/",
+          "/img/",
+          "/Scripts/",
+          "/Views/"
+        ]
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/app_data/",
+          "/Areas/",
+          "/aspnet_client/",
+          "/bin/",
+          "/Content/Download/",
+          "/Content/Images/",
+          "/Content/Upload/Liturgicalyears/",
+          "/Content/Upload/tvprogramguides/",
+          "/Content/Upload/tvprogramreviews/",
+          "/Content/Upload/tvprogramtips/",
+          "/Content/Upload/tvstations/",
+          "/css/",
+          "/Components/",
+          "/img/",
+          "/Scripts/",
+          "/Views/"
+        ]
+      }
+    },
+    {
+      "name": "msnbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/app_data/",
+          "/Areas/",
+          "/aspnet_client/",
+          "/bin/",
+          "/Content/Download/",
+          "/Content/Images/",
+          "/Content/Upload/Liturgicalyears/",
+          "/Content/Upload/tvprogramguides/",
+          "/Content/Upload/tvprogramreviews/",
+          "/Content/Upload/tvprogramtips/",
+          "/Content/Upload/tvstations/",
+          "/css/",
+          "/Components/",
+          "/img/",
+          "/Scripts/",
+          "/Views/"
+        ]
+      }
+    },
+    {
+      "name": "msnbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/app_data/",
+          "/Areas/",
+          "/aspnet_client/",
+          "/bin/",
+          "/Content/Download/",
+          "/Content/Images/",
+          "/Content/Upload/Liturgicalyears/",
+          "/Content/Upload/tvprogramguides/",
+          "/Content/Upload/tvprogramreviews/",
+          "/Content/Upload/tvprogramtips/",
+          "/Content/Upload/tvstations/",
+          "/css/",
+          "/Components/",
+          "/img/",
+          "/Scripts/",
+          "/Views/"
+        ]
+      }
     },
     {
       "name": "Slurp",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/app_data/",
+          "/Areas/",
+          "/aspnet_client/",
+          "/bin/",
+          "/Content/Download/",
+          "/Content/Images/",
+          "/Content/Upload/Liturgicalyears/",
+          "/Content/Upload/tvprogramguides/",
+          "/Content/Upload/tvprogramreviews/",
+          "/Content/Upload/tvprogramtips/",
+          "/Content/Upload/tvstations/",
+          "/css/",
+          "/Components/",
+          "/img/",
+          "/Scripts/",
+          "/Views/"
+        ]
+      }
     },
     {
       "name": "Googlebot-Image",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/app_data/",
+          "/Areas/",
+          "/aspnet_client/",
+          "/bin/",
+          "/Content/Download/",
+          "/Content/Images/",
+          "/Content/Upload/Liturgicalyears/",
+          "/Content/Upload/tvprogramguides/",
+          "/Content/Upload/tvprogramreviews/",
+          "/Content/Upload/tvprogramtips/",
+          "/Content/Upload/tvstations/",
+          "/css/",
+          "/Components/",
+          "/img/",
+          "/Scripts/",
+          "/Views/"
+        ]
+      }
     },
     {
       "name": "Googlebot",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/app_data/",
+          "/Areas/",
+          "/aspnet_client/",
+          "/bin/",
+          "/Content/Download/",
+          "/Content/Images/",
+          "/Content/Upload/Liturgicalyears/",
+          "/Content/Upload/tvprogramguides/",
+          "/Content/Upload/tvprogramreviews/",
+          "/Content/Upload/tvprogramtips/",
+          "/Content/Upload/tvstations/",
+          "/css/",
+          "/Components/",
+          "/img/",
+          "/Scripts/",
+          "/Views/"
+        ]
+      }
     },
     {
       "name": "Twitterbot",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/app_data/",
+          "/Areas/",
+          "/aspnet_client/",
+          "/bin/",
+          "/Content/Download/",
+          "/Content/Images/",
+          "/Content/Upload/Liturgicalyears/",
+          "/Content/Upload/tvprogramguides/",
+          "/Content/Upload/tvprogramreviews/",
+          "/Content/Upload/tvprogramtips/",
+          "/Content/Upload/tvstations/",
+          "/css/",
+          "/Components/",
+          "/img/",
+          "/Scripts/",
+          "/Views/"
+        ]
+      }
     },
     {
       "name": "Yahoo Pipes 1.0",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/app_data/",
+          "/Areas/",
+          "/aspnet_client/",
+          "/bin/",
+          "/Content/Download/",
+          "/Content/Images/",
+          "/Content/Upload/Liturgicalyears/",
+          "/Content/Upload/tvprogramguides/",
+          "/Content/Upload/tvprogramreviews/",
+          "/Content/Upload/tvprogramtips/",
+          "/Content/Upload/tvstations/",
+          "/css/",
+          "/Components/",
+          "/img/",
+          "/Scripts/",
+          "/Views/"
+        ]
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/app_data/",
+          "/Areas/",
+          "/aspnet_client/",
+          "/bin/",
+          "/Content/Download/",
+          "/Content/Images/",
+          "/Content/Upload/Liturgicalyears/",
+          "/Content/Upload/tvprogramguides/",
+          "/Content/Upload/tvprogramreviews/",
+          "/Content/Upload/tvprogramtips/",
+          "/Content/Upload/tvstations/",
+          "/css/",
+          "/Components/",
+          "/img/",
+          "/Scripts/",
+          "/Views/"
+        ]
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/Content/Upload/Contentfiles/"
+        ],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 12,
+    "allowedBots": 12,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "msnbot",
+      "allowed": true
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true
+    },
+    {
+      "name": "msnbot",
+      "allowed": true
+    },
+    {
+      "name": "msnbot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": true
+    },
+    {
+      "name": "Yahoo Pipes 1.0",
+      "allowed": true
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": true
     },
     {
       "name": "ia_archiver",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/app_data/",
+      "/Areas/",
+      "/aspnet_client/",
+      "/bin/",
+      "/Content/Download/",
+      "/Content/Images/",
+      "/Content/Upload/Liturgicalyears/",
+      "/Content/Upload/tvprogramguides/",
+      "/Content/Upload/tvprogramreviews/",
+      "/Content/Upload/tvprogramtips/",
+      "/Content/Upload/tvstations/",
+      "/css/",
+      "/Components/",
+      "/img/",
+      "/Scripts/",
+      "/Views/"
+    ]
+  }
 }

@@ -1,10 +1,34 @@
 {
   "domain": "www.meggle.de",
   "normalizedDomain": "www.meggle.de",
+  "robotsTxt": "User-Agent: *\r\nAllow: /\r\nDisallow: /typo3/\r\nDisallow: /typo3temp/\r\nSitemap: https://www.meggle.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/typo3/",
+        "/typo3temp/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/typo3/",
+      "/typo3temp/"
+    ]
+  }
 }

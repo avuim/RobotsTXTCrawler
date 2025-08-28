@@ -1,10 +1,112 @@
 {
   "domain": "www.klarna.com",
   "normalizedDomain": "www.klarna.com",
+  "robotsTxt": "User-Agent: *\r\nDisallow: *?deal=\r\nDisallow: *&deal=\r\nDisallow: /*/css/\r\nDisallow: /.well-known/security.txt\r\nDisallow: /*/shopping/*ref-site\r\nDisallow: /*/shopping/track/\r\nDisallow: /*/shopping/checkout/\r\nDisallow: /*/shopping/login/\r\nDisallow: /*/shopping/forum/\r\nDisallow: /*/shopping/profile/\r\nDisallow: /*/shopping/vr/\r\nDisallow: /*/shopping/70081414/\r\nDisallow: /*/shopping/ct/\r\nDisallow: /*/shopping/*other_hits=\r\nDisallow: /*/shopping/*search=\r\nDisallow: /*/shopping/*ref=\r\nDisallow: /*/shopping/cl/*attr_*attr_*attr_*attr_*attr_*attr_*\r\nDisallow: /*/shopping/cl/*attr_*,*\r\nDisallow: /*/shopping/cl/*man_id*attr_*attr_*attr_*attr_*attr_*\r\nDisallow: /*/shopping/sale/?\r\nDisallow: /*/shopping/*s_price_drop=\r\nDisallow: /*/shopping/gotostore/\r\nDisallow: /*/shopping/public/search/pricehistory/\r\nDisallow: /*/shopping/public/pricehistory/product/\r\nDisallow: /*/api/search-compare-gateway/gotostore/\r\nDisallow: /*/api/search-compare-gateway/public/search/pricehistory/\r\nDisallow: /*/api/search-compare-gateway/public/pricehistory/product/\r\nDisallow: /*/api/frontend-transition-page/gotostore/\r\nDisallow: /*/api/search-edge-rest/public/search/pricehistory/\r\nDisallow: /*/api/product-information-edge-rest/public/pricehistory/product/\r\nDisallow: /*/shopping/results/\r\nDisallow: /*/shopping/pl/*p=*\r\nDisallow: /global/shop/\r\nDisallow: /*FG_ID=*\r\nDisallow: /*s_id=*\r\nDisallow: /*fsid=*\r\nDisallow: /*fg_ab=*\r\nDisallow: /*fg_lz=*\r\nDisallow: /*/auth/\r\nAllow: /global/shop/creator/\r\n\r\nSitemap: https://www.klarna.com/sitemaps/sitemap-index.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/global/shop/creator/"
+      ],
+      "disallowed": [
+        "*?deal=",
+        "*&deal=",
+        "/*/css/",
+        "/.well-known/security.txt",
+        "/*/shopping/*ref-site",
+        "/*/shopping/track/",
+        "/*/shopping/checkout/",
+        "/*/shopping/login/",
+        "/*/shopping/forum/",
+        "/*/shopping/profile/",
+        "/*/shopping/vr/",
+        "/*/shopping/70081414/",
+        "/*/shopping/ct/",
+        "/*/shopping/*other_hits=",
+        "/*/shopping/*search=",
+        "/*/shopping/*ref=",
+        "/*/shopping/cl/*attr_*attr_*attr_*attr_*attr_*attr_*",
+        "/*/shopping/cl/*attr_*,*",
+        "/*/shopping/cl/*man_id*attr_*attr_*attr_*attr_*attr_*",
+        "/*/shopping/sale/?",
+        "/*/shopping/*s_price_drop=",
+        "/*/shopping/gotostore/",
+        "/*/shopping/public/search/pricehistory/",
+        "/*/shopping/public/pricehistory/product/",
+        "/*/api/search-compare-gateway/gotostore/",
+        "/*/api/search-compare-gateway/public/search/pricehistory/",
+        "/*/api/search-compare-gateway/public/pricehistory/product/",
+        "/*/api/frontend-transition-page/gotostore/",
+        "/*/api/search-edge-rest/public/search/pricehistory/",
+        "/*/api/product-information-edge-rest/public/pricehistory/product/",
+        "/*/shopping/results/",
+        "/*/shopping/pl/*p=*",
+        "/global/shop/",
+        "/*FG_ID=*",
+        "/*s_id=*",
+        "/*fsid=*",
+        "/*fg_ab=*",
+        "/*fg_lz=*",
+        "/*/auth/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/global/shop/creator/"
+    ],
+    "disallowed": [
+      "*?deal=",
+      "*&deal=",
+      "/*/css/",
+      "/.well-known/security.txt",
+      "/*/shopping/*ref-site",
+      "/*/shopping/track/",
+      "/*/shopping/checkout/",
+      "/*/shopping/login/",
+      "/*/shopping/forum/",
+      "/*/shopping/profile/",
+      "/*/shopping/vr/",
+      "/*/shopping/70081414/",
+      "/*/shopping/ct/",
+      "/*/shopping/*other_hits=",
+      "/*/shopping/*search=",
+      "/*/shopping/*ref=",
+      "/*/shopping/cl/*attr_*attr_*attr_*attr_*attr_*attr_*",
+      "/*/shopping/cl/*attr_*,*",
+      "/*/shopping/cl/*man_id*attr_*attr_*attr_*attr_*attr_*",
+      "/*/shopping/sale/?",
+      "/*/shopping/*s_price_drop=",
+      "/*/shopping/gotostore/",
+      "/*/shopping/public/search/pricehistory/",
+      "/*/shopping/public/pricehistory/product/",
+      "/*/api/search-compare-gateway/gotostore/",
+      "/*/api/search-compare-gateway/public/search/pricehistory/",
+      "/*/api/search-compare-gateway/public/pricehistory/product/",
+      "/*/api/frontend-transition-page/gotostore/",
+      "/*/api/search-edge-rest/public/search/pricehistory/",
+      "/*/api/product-information-edge-rest/public/pricehistory/product/",
+      "/*/shopping/results/",
+      "/*/shopping/pl/*p=*",
+      "/global/shop/",
+      "/*FG_ID=*",
+      "/*s_id=*",
+      "/*fsid=*",
+      "/*fg_ab=*",
+      "/*fg_lz=*",
+      "/*/auth/"
+    ]
+  }
 }

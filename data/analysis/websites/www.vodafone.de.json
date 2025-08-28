@@ -1,6 +1,138 @@
 {
   "domain": "www.vodafone.de",
   "normalizedDomain": "www.vodafone.de",
+  "robotsTxt": "# robots.txt for www.vodafone.de 11.03.2025\r\n\r\n# Sitemap\r\nSitemap: https://www.vodafone.de/feed/google_sitemap.xml\r\nSitemap: https://www.vodafone.de/feed/google_sitemap2.xml\r\nSitemap: https://www.vodafone.de/business/sitemaps/sitemap.xml\r\nSitemap: https://www.vodafone.de/business/blog/sitemap.xml\r\nSitemap: https://www.vodafone.de/feed/google_sitemap_corporate.xml\r\nSitemap: https://www.vodafone.de/feed/google_sitemap_business.xml\r\nSitemap: https://www.vodafone.de/featured/sitemap-index.xml\r\nSitemap: https://www.vodafone.de/immobilienwirtschaft/sitemap.xml\r\n\r\nUser-agent: *\r\nAllow: /meinvodafone/account/login\r\nDisallow: *?targetURL=*\r\nDisallow: */meinvodafone/*\r\nDisallow: /*?vdlp=*\r\nDisallow: /*&vdlp=*\r\nDisallow: /*.html_\r\nDisallow: /_Incapsula_Resource*\r\nDisallow: /anschaltung-cable/\r\nDisallow: /app/\r\nDisallow: /brix/\r\nDisallow: /cgi-bin/*?\r\nDisallow: /cprx/\r\nDisallow: /downloadarea/Willkommen-bei-Vodafone.pdf\r\nDisallow: /dr/cc/\r\nDisallow: /flash/\r\nDisallow: /globalfacts/\r\nDisallow: /immobilienwirtschaft/static/data/\r\nDisallow: /media/downloads/hilfe-geraete/\r\nDisallow: /netz-assistent/\r\nDisallow: /partnercontent/\r\nDisallow: /playground/\r\nDisallow: /privat/teaser/\r\nDisallow: /privat/json/\r\nDisallow: /sales/\r\nDisallow: /simplicity/pages/\r\nDisallow: /simplicity/docs/\r\nDisallow: /simplicity/draft/\r\nDisallow: /simplicity/draft1/\r\nDisallow: /simplicity/draft2/\r\nDisallow: /simplicity/draft3/\r\nDisallow: /simplicity/draft4/\r\nDisallow: /simplicity/draft5/\r\nDisallow: /simplicity/pattern-library/\r\nDisallow: /simplicity/templates/\r\nDisallow: /templates/\r\nDisallow: /testing/\r\nDisallow: /ussa/\r\nDisallow: /wappush/\r\nAllow: /simplicity/draft4/ajax-json/ecommerce/*.json\r\nAllow: /templates/ecommerce/\r\n\r\n\r\nUser-agent: Amazonbot\r\nDisallow: /meinvodafone/\r\nDisallow: /cprx/\r\n\r\nUser-agent: SlySearch\r\nDisallow: /\r\nUser-agent: SmartDownload\r\nDisallow: /\r\nUser-agent: SpankBot\r\nDisallow: /\r\nUser-agent: spanner\r\nDisallow: /\r\nUser-agent: SuperBot\r\nDisallow: /\r\nUser-agent: SupperHTTP\r\nDisallow: /\r\nUser-agent: Surfbot\r\nDisallow: /\r\nUser-agent: ia_archiver\r\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/meinvodafone/account/login",
+        "/simplicity/draft4/ajax-json/ecommerce/*.json",
+        "/templates/ecommerce/"
+      ],
+      "disallowed": [
+        "*?targetURL=*",
+        "*/meinvodafone/*",
+        "/*?vdlp=*",
+        "/*&vdlp=*",
+        "/*.html_",
+        "/_Incapsula_Resource*",
+        "/anschaltung-cable/",
+        "/app/",
+        "/brix/",
+        "/cgi-bin/*?",
+        "/cprx/",
+        "/downloadarea/Willkommen-bei-Vodafone.pdf",
+        "/dr/cc/",
+        "/flash/",
+        "/globalfacts/",
+        "/immobilienwirtschaft/static/data/",
+        "/media/downloads/hilfe-geraete/",
+        "/netz-assistent/",
+        "/partnercontent/",
+        "/playground/",
+        "/privat/teaser/",
+        "/privat/json/",
+        "/sales/",
+        "/simplicity/pages/",
+        "/simplicity/docs/",
+        "/simplicity/draft/",
+        "/simplicity/draft1/",
+        "/simplicity/draft2/",
+        "/simplicity/draft3/",
+        "/simplicity/draft4/",
+        "/simplicity/draft5/",
+        "/simplicity/pattern-library/",
+        "/simplicity/templates/",
+        "/templates/",
+        "/testing/",
+        "/ussa/",
+        "/wappush/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Amazonbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/meinvodafone/",
+          "/cprx/"
+        ]
+      }
+    },
+    {
+      "name": "SlySearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SmartDownload",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SpankBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "spanner",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SuperBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SupperHTTP",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Surfbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 9,
+    "allowedBots": 1,
+    "disallowedBots": 8,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -8,7 +140,7 @@
     },
     {
       "name": "Amazonbot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "SlySearch",
@@ -42,5 +174,51 @@
       "name": "ia_archiver",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/meinvodafone/account/login",
+      "/simplicity/draft4/ajax-json/ecommerce/*.json",
+      "/templates/ecommerce/"
+    ],
+    "disallowed": [
+      "*?targetURL=*",
+      "*/meinvodafone/*",
+      "/*?vdlp=*",
+      "/*&vdlp=*",
+      "/*.html_",
+      "/_Incapsula_Resource*",
+      "/anschaltung-cable/",
+      "/app/",
+      "/brix/",
+      "/cgi-bin/*?",
+      "/cprx/",
+      "/downloadarea/Willkommen-bei-Vodafone.pdf",
+      "/dr/cc/",
+      "/flash/",
+      "/globalfacts/",
+      "/immobilienwirtschaft/static/data/",
+      "/media/downloads/hilfe-geraete/",
+      "/netz-assistent/",
+      "/partnercontent/",
+      "/playground/",
+      "/privat/teaser/",
+      "/privat/json/",
+      "/sales/",
+      "/simplicity/pages/",
+      "/simplicity/docs/",
+      "/simplicity/draft/",
+      "/simplicity/draft1/",
+      "/simplicity/draft2/",
+      "/simplicity/draft3/",
+      "/simplicity/draft4/",
+      "/simplicity/draft5/",
+      "/simplicity/pattern-library/",
+      "/simplicity/templates/",
+      "/templates/",
+      "/testing/",
+      "/ussa/",
+      "/wappush/"
+    ]
+  }
 }

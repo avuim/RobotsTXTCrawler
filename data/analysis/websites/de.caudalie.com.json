@@ -1,10 +1,36 @@
 {
   "domain": "de.caudalie.com",
   "normalizedDomain": "de.caudalie.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: \r\n\r\nDisallow: /*.css$\r\nDisallow: /*.js$\r\nDisallow: /*.php$\r\n\r\nSitemap: https://de.caudalie.com/sitemap.xml\r\nCrawl-delay: 5",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*.css$",
+        "/*.js$",
+        "/*.php$"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*.css$",
+      "/*.js$",
+      "/*.php$"
+    ]
+  }
 }

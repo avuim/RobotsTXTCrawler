@@ -1,10 +1,34 @@
 {
   "domain": "www.cineplex.de",
   "normalizedDomain": "www.cineplex.de",
+  "robotsTxt": "User-Agent: *\nDisallow: /kinoflat/*\nDisallow: /masterpass/*\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/kinoflat/*",
+        "/masterpass/*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/kinoflat/*",
+      "/masterpass/*"
+    ]
+  }
 }

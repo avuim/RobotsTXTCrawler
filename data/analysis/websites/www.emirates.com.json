@@ -1,10 +1,86 @@
 {
   "domain": "www.emirates.com",
   "normalizedDomain": "www.emirates.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /SessionHandler.aspx\r\nDisallow: /TealeafTarget.aspx\r\nDisallow: /sessionhandler.aspx\r\nDisallow: /tealeaftarget.aspx\r\nDisallow: /sessionkeepalive.aspx\r\nDisallow: /*/ExternalTransfer.aspx?\r\nDisallow: /*?Cookie=true\r\nDisallow: /*?*intcid=*\r\nDisallow: /WebResource.axd\r\nDisallow: /resources\r\nDisallow: /*/pop-ups/\r\nDisallow: /*/system/click/tracking.aspx\r\nDisallow: /*/mail-to-friend.aspx\r\nDisallow: /*/mailtofriend.aspx\r\nDisallow: /*/certificate-request/*/certificate-request/*\r\nDisallow: /*/destinations/city.aspx*\r\nDisallow: /*/destinations/airport.aspx*\r\nDisallow: /*/experience/login/\r\nDisallow: /*/ekgroup/id*\r\nDisallow: /*flightstatus-results.aspx?\r\nDisallow: /*/woyf/?*h=\r\nDisallow: /*/find-visa-requirements.aspx?\r\nDisallow: /*/find-visa-requirements-results.aspx?\r\nDisallow: /*/featured-fares/?*airport*\r\nDisallow: /*/sso/login-redirect\r\nDisallow: /*/service/dex/request-handler\r\nDisallow: /*/service/dex/request-handler-page\r\nDisallow: /booking/*\r\n\r\nHost: www.emirates.com\r\nSitemap: https://www.emirates.com/sitemapindex.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/SessionHandler.aspx",
+        "/TealeafTarget.aspx",
+        "/sessionhandler.aspx",
+        "/tealeaftarget.aspx",
+        "/sessionkeepalive.aspx",
+        "/*/ExternalTransfer.aspx?",
+        "/*?Cookie=true",
+        "/*?*intcid=*",
+        "/WebResource.axd",
+        "/resources",
+        "/*/pop-ups/",
+        "/*/system/click/tracking.aspx",
+        "/*/mail-to-friend.aspx",
+        "/*/mailtofriend.aspx",
+        "/*/certificate-request/*/certificate-request/*",
+        "/*/destinations/city.aspx*",
+        "/*/destinations/airport.aspx*",
+        "/*/experience/login/",
+        "/*/ekgroup/id*",
+        "/*flightstatus-results.aspx?",
+        "/*/woyf/?*h=",
+        "/*/find-visa-requirements.aspx?",
+        "/*/find-visa-requirements-results.aspx?",
+        "/*/featured-fares/?*airport*",
+        "/*/sso/login-redirect",
+        "/*/service/dex/request-handler",
+        "/*/service/dex/request-handler-page",
+        "/booking/*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/SessionHandler.aspx",
+      "/TealeafTarget.aspx",
+      "/sessionhandler.aspx",
+      "/tealeaftarget.aspx",
+      "/sessionkeepalive.aspx",
+      "/*/ExternalTransfer.aspx?",
+      "/*?Cookie=true",
+      "/*?*intcid=*",
+      "/WebResource.axd",
+      "/resources",
+      "/*/pop-ups/",
+      "/*/system/click/tracking.aspx",
+      "/*/mail-to-friend.aspx",
+      "/*/mailtofriend.aspx",
+      "/*/certificate-request/*/certificate-request/*",
+      "/*/destinations/city.aspx*",
+      "/*/destinations/airport.aspx*",
+      "/*/experience/login/",
+      "/*/ekgroup/id*",
+      "/*flightstatus-results.aspx?",
+      "/*/woyf/?*h=",
+      "/*/find-visa-requirements.aspx?",
+      "/*/find-visa-requirements-results.aspx?",
+      "/*/featured-fares/?*airport*",
+      "/*/sso/login-redirect",
+      "/*/service/dex/request-handler",
+      "/*/service/dex/request-handler-page",
+      "/booking/*"
+    ]
+  }
 }

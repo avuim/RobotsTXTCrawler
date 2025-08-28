@@ -1,10 +1,36 @@
 {
   "domain": "www.ingenieur.de",
   "normalizedDomain": "www.ingenieur.de",
+  "robotsTxt": "User-agent: *\nDisallow: /category_media/\nDisallow: /redirect.php\nDisallow: /wp-content/uploads/games/\nSitemap: https://www.ingenieur.de/sitemap_index.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/category_media/",
+        "/redirect.php",
+        "/wp-content/uploads/games/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/category_media/",
+      "/redirect.php",
+      "/wp-content/uploads/games/"
+    ]
+  }
 }

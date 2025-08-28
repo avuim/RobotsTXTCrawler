@@ -1,10 +1,65 @@
 {
   "domain": "www.achgut.com",
   "normalizedDomain": "www.achgut.com",
+  "robotsTxt": "User-agent: *\nDisallow: /dadgdx/*\nDisallow: /new_login/*\nDisallow: /wp-admin/\nDisallow: /?ACT*\nDisallow: /artikel/islamisten_auf_staatlich_gefoerderter_bildungsmesse\nDisallow: /autor/krischke/\nDisallow: /suche/\nCrawl-delay: 10\n\nUser-agent: BUbiNG\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/dadgdx/*",
+        "/new_login/*",
+        "/wp-admin/",
+        "/?ACT*",
+        "/artikel/islamisten_auf_staatlich_gefoerderter_bildungsmesse",
+        "/autor/krischke/",
+        "/suche/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "BUbiNG",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 4,
+    "allowedBots": 0,
+    "disallowedBots": 4,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "BUbiNG",
@@ -22,5 +77,17 @@
       "name": "ClaudeBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/dadgdx/*",
+      "/new_login/*",
+      "/wp-admin/",
+      "/?ACT*",
+      "/artikel/islamisten_auf_staatlich_gefoerderter_bildungsmesse",
+      "/autor/krischke/",
+      "/suche/"
+    ]
+  }
 }

@@ -1,10 +1,1114 @@
 {
   "domain": "www.logistik-heute.de",
   "normalizedDomain": "www.logistik-heute.de",
+  "robotsTxt": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n\nUser-agent: *\nCrawl-delay: 1\n# CSS, JS, Images\nAllow: /core/*.css$\nAllow: /core/*.css?\nAllow: /core/*.js$\nAllow: /core/*.js?\nAllow: /core/*.gif\nAllow: /core/*.jpg\nAllow: /core/*.jpeg\nAllow: /core/*.png\nAllow: /core/*.svg\nAllow: /profiles/*.css$\nAllow: /profiles/*.css?\nAllow: /profiles/*.js$\nAllow: /profiles/*.js?\nAllow: /profiles/*.gif\nAllow: /profiles/*.jpg\nAllow: /profiles/*.jpeg\nAllow: /profiles/*.png\nAllow: /profiles/*.svg\n# Directories\nDisallow: /core/\nDisallow: /profiles/\n# Files\nDisallow: /README.txt\nDisallow: /web.config\n# Paths (clean URLs)\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips/\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /user/register/\nDisallow: /user/password/\nDisallow: /user/login/\nDisallow: /user/logout/\nDisallow: /de/admin/\nDisallow: /de/comment/reply/\nDisallow: /de/filter/tips/\nDisallow: /de/node/add/\nDisallow: /de/search/\nDisallow: /de/user/register/\nDisallow: /de/user/password/\nDisallow: /de/user/login/\nDisallow: /de/user/logout/\n# Paths (no clean URLs)\nDisallow: /index.php/admin/\nDisallow: /index.php/comment/reply/\nDisallow: /index.php/filter/tips/\nDisallow: /index.php/node/add/\nDisallow: /index.php/search/\nDisallow: /index.php/user/password/\nDisallow: /index.php/user/register/\nDisallow: /index.php/user/login/\nDisallow: /index.php/user/logout/\nDisallow: /sites/default/files/public/styles/_bilder_uebersicht_mobile_900x600_/public/images-personal/Personen-felscher-s5.jpg\nDisallow: /dtm/\nDisallow: /node/\nDisallow: /en/node/\nDisallow: /de/node/\nDisallow: /intellitxt/front.asp?ipid=\nDisallow: /*?id=\nDisallow: /1011064\nDisallow: /sites/all/modules/\n# Disallow: /*node/\nDisallow: /de/suche\nDisallow: /en/suche\nDisallow: /de/suche/\nDisallow: /en/suche/\nDisallow: /suche\nDisallow: /suche/\nDisallow: /suche404\nDisallow: /branchenguide/glossar\nAllow: /sites/default/files/public/php/\nAllow: /sites/default/files/public/js/\nDisallow: /sites/default/files/public/language/\nAllow: /sites/default/files/public/css/\nDisallow: /sites/default/files/public/color/\n\nUser-agent: amazonbot\nCrawl-delay: 3\n\nUser-agent: AmazonAdBot\nCrawl-delay: 3\n\nUser-agent: Slurp\nCrawl-delay: 3\n\nUser-agent: Msnbot\nCrawl-delay: 3\n\nUser-agent: bingbot\nCrawl-delay: 1\n\nUser-agent: Teoma\nCrawl-delay: 3\n\nUser-agent: ia_archiver\nCrawl-delay: 3\n\nUser-agent: Exabot\nCrawl-delay: 3\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nSitemap: https://logistik-heute.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/core/*.css$",
+        "/core/*.css?",
+        "/core/*.js$",
+        "/core/*.js?",
+        "/core/*.gif",
+        "/core/*.jpg",
+        "/core/*.jpeg",
+        "/core/*.png",
+        "/core/*.svg",
+        "/profiles/*.css$",
+        "/profiles/*.css?",
+        "/profiles/*.js$",
+        "/profiles/*.js?",
+        "/profiles/*.gif",
+        "/profiles/*.jpg",
+        "/profiles/*.jpeg",
+        "/profiles/*.png",
+        "/profiles/*.svg",
+        "/sites/default/files/public/php/",
+        "/sites/default/files/public/js/",
+        "/sites/default/files/public/css/"
+      ],
+      "disallowed": [
+        "/core/",
+        "/profiles/",
+        "/README.txt",
+        "/web.config",
+        "/admin/",
+        "/comment/reply/",
+        "/filter/tips/",
+        "/node/add/",
+        "/search/",
+        "/user/register/",
+        "/user/password/",
+        "/user/login/",
+        "/user/logout/",
+        "/de/admin/",
+        "/de/comment/reply/",
+        "/de/filter/tips/",
+        "/de/node/add/",
+        "/de/search/",
+        "/de/user/register/",
+        "/de/user/password/",
+        "/de/user/login/",
+        "/de/user/logout/",
+        "/index.php/admin/",
+        "/index.php/comment/reply/",
+        "/index.php/filter/tips/",
+        "/index.php/node/add/",
+        "/index.php/search/",
+        "/index.php/user/password/",
+        "/index.php/user/register/",
+        "/index.php/user/login/",
+        "/index.php/user/logout/",
+        "/sites/default/files/public/styles/_bilder_uebersicht_mobile_900x600_/public/images-personal/Personen-felscher-s5.jpg",
+        "/dtm/",
+        "/node/",
+        "/en/node/",
+        "/de/node/",
+        "/intellitxt/front.asp?ipid=",
+        "/*?id=",
+        "/1011064",
+        "/sites/all/modules/",
+        "/de/suche",
+        "/en/suche",
+        "/de/suche/",
+        "/en/suche/",
+        "/suche",
+        "/suche/",
+        "/suche404",
+        "/branchenguide/glossar",
+        "/sites/default/files/public/language/",
+        "/sites/default/files/public/color/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AmazonAdBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Msnbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Teoma",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Exabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AmazonAdBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Msnbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Teoma",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Exabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AmazonAdBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Msnbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Teoma",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Exabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AmazonAdBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Msnbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Teoma",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Exabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AmazonAdBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Msnbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Teoma",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Exabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AmazonAdBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Msnbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Teoma",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Exabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AmazonAdBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Msnbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Teoma",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Exabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AmazonAdBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Msnbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Teoma",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Exabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AmazonAdBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Msnbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Teoma",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Exabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 87,
+    "allowedBots": 0,
+    "disallowedBots": 87,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
+    },
+    {
+      "name": "amazonbot",
+      "allowed": false
+    },
+    {
+      "name": "AmazonAdBot",
+      "allowed": false
+    },
+    {
+      "name": "Slurp",
+      "allowed": false
+    },
+    {
+      "name": "Msnbot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "Teoma",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    },
+    {
+      "name": "Exabot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "amazonbot",
+      "allowed": false
+    },
+    {
+      "name": "AmazonAdBot",
+      "allowed": false
+    },
+    {
+      "name": "Slurp",
+      "allowed": false
+    },
+    {
+      "name": "Msnbot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "Teoma",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    },
+    {
+      "name": "Exabot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "amazonbot",
+      "allowed": false
+    },
+    {
+      "name": "AmazonAdBot",
+      "allowed": false
+    },
+    {
+      "name": "Slurp",
+      "allowed": false
+    },
+    {
+      "name": "Msnbot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "Teoma",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    },
+    {
+      "name": "Exabot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "amazonbot",
+      "allowed": false
+    },
+    {
+      "name": "AmazonAdBot",
+      "allowed": false
+    },
+    {
+      "name": "Slurp",
+      "allowed": false
+    },
+    {
+      "name": "Msnbot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "Teoma",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    },
+    {
+      "name": "Exabot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "amazonbot",
+      "allowed": false
+    },
+    {
+      "name": "AmazonAdBot",
+      "allowed": false
+    },
+    {
+      "name": "Slurp",
+      "allowed": false
+    },
+    {
+      "name": "Msnbot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "Teoma",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    },
+    {
+      "name": "Exabot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "amazonbot",
+      "allowed": false
+    },
+    {
+      "name": "AmazonAdBot",
+      "allowed": false
+    },
+    {
+      "name": "Slurp",
+      "allowed": false
+    },
+    {
+      "name": "Msnbot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "Teoma",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    },
+    {
+      "name": "Exabot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "amazonbot",
+      "allowed": false
+    },
+    {
+      "name": "AmazonAdBot",
+      "allowed": false
+    },
+    {
+      "name": "Slurp",
+      "allowed": false
+    },
+    {
+      "name": "Msnbot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "Teoma",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    },
+    {
+      "name": "Exabot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "amazonbot",
+      "allowed": false
+    },
+    {
+      "name": "AmazonAdBot",
+      "allowed": false
+    },
+    {
+      "name": "Slurp",
+      "allowed": false
+    },
+    {
+      "name": "Msnbot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "Teoma",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    },
+    {
+      "name": "Exabot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "amazonbot",
+      "allowed": false
+    },
+    {
+      "name": "AmazonAdBot",
+      "allowed": false
+    },
+    {
+      "name": "Slurp",
+      "allowed": false
+    },
+    {
+      "name": "Msnbot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "Teoma",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    },
+    {
+      "name": "Exabot",
+      "allowed": false
     },
     {
       "name": "GPTBot",
@@ -34,5 +1138,82 @@
       "name": "anthropic-ai",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/core/*.css$",
+      "/core/*.css?",
+      "/core/*.js$",
+      "/core/*.js?",
+      "/core/*.gif",
+      "/core/*.jpg",
+      "/core/*.jpeg",
+      "/core/*.png",
+      "/core/*.svg",
+      "/profiles/*.css$",
+      "/profiles/*.css?",
+      "/profiles/*.js$",
+      "/profiles/*.js?",
+      "/profiles/*.gif",
+      "/profiles/*.jpg",
+      "/profiles/*.jpeg",
+      "/profiles/*.png",
+      "/profiles/*.svg",
+      "/sites/default/files/public/php/",
+      "/sites/default/files/public/js/",
+      "/sites/default/files/public/css/"
+    ],
+    "disallowed": [
+      "/core/",
+      "/profiles/",
+      "/README.txt",
+      "/web.config",
+      "/admin/",
+      "/comment/reply/",
+      "/filter/tips/",
+      "/node/add/",
+      "/search/",
+      "/user/register/",
+      "/user/password/",
+      "/user/login/",
+      "/user/logout/",
+      "/de/admin/",
+      "/de/comment/reply/",
+      "/de/filter/tips/",
+      "/de/node/add/",
+      "/de/search/",
+      "/de/user/register/",
+      "/de/user/password/",
+      "/de/user/login/",
+      "/de/user/logout/",
+      "/index.php/admin/",
+      "/index.php/comment/reply/",
+      "/index.php/filter/tips/",
+      "/index.php/node/add/",
+      "/index.php/search/",
+      "/index.php/user/password/",
+      "/index.php/user/register/",
+      "/index.php/user/login/",
+      "/index.php/user/logout/",
+      "/sites/default/files/public/styles/_bilder_uebersicht_mobile_900x600_/public/images-personal/Personen-felscher-s5.jpg",
+      "/dtm/",
+      "/node/",
+      "/en/node/",
+      "/de/node/",
+      "/intellitxt/front.asp?ipid=",
+      "/*?id=",
+      "/1011064",
+      "/sites/all/modules/",
+      "/de/suche",
+      "/en/suche",
+      "/de/suche/",
+      "/en/suche/",
+      "/suche",
+      "/suche/",
+      "/suche404",
+      "/branchenguide/glossar",
+      "/sites/default/files/public/language/",
+      "/sites/default/files/public/color/"
+    ]
+  }
 }

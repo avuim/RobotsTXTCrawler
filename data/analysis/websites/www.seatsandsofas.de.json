@@ -1,10 +1,42 @@
 {
   "domain": "www.seatsandsofas.de",
   "normalizedDomain": "www.seatsandsofas.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /wp/wp-admin/\r\nAllow: /wp/wp-admin/admin-ajax.php\r\nAllow: /*?fwp_paged=\r\nDisallow: /*wishlist/?set=\r\nDisallow: /*wishlist/?unset=\r\n\r\n# START YOAST BLOCK\r\n# ---------------------------\r\nUser-agent: *\r\nDisallow:\r\n\r\nSitemap: https://www.seatsandsofas.de/sitemap_index.xml\r\n# ---------------------------\r\n# END YOAST BLOCK\r\n\r\nDisallow: /*?s=\r\nDisallow: /kollektion/kategorie/*\r\nDisallow: /kollektion/farbe/*\r\nDisallow: /kollektion/material/*\r\nDisallow: /kollektion/sofas/*\r\nDisallow: /kollektion/option/*\r\nDisallow: /schreiben-sie-eine-rezension/*\r\nDisallow: /vereinbaren-sie-einen-termin-bei-seats-and-sofas/?megastore*\r\nAllow: /kollektion/kategorie/sofas/$\r\nAllow: /kollektion/kategorie/ecksofas/$\r\nAllow: /kollektion/kategorie/sessel/$\r\nAllow: /kollektion/kategorie/schlafsofas/$\r\nAllow: /kollektion/kategorie/wohnlandschaften/$\r\nAllow: /kollektion/kategorie/sofas/material/leder/$\r\nAllow: /kollektion/option/schlaffunktion/$\r\nAllow: /kollektion/kategorie/sofas/option/schlaffunktion/$\r\nAllow: /kollektion/kategorie/ecksofas/option/schlaffunktion/$\r\nAllow: /kollektion/kategorie/sessel/material/leder/$\r\nAllow: /kollektion/kategorie/chesterfield/$\r\nAllow: /kollektion/$\r\nAllow: /kollektion/kategorie/wohnlandschaften/option/schlaffunktion/$\r\nAllow: /kollektion/sofas/3-sitzer-sofa/$\r\nAllow: /angebote/$\r\nAllow: /kollektion/kategorie/ecksofas/farbe/grau/$\r\nAllow: /kollektion/kategorie/sofas/farbe/rot/$\r\nAllow: /kollektion/kategorie/lounge-sofas/$\r\nAllow: /kollektion/kategorie/sofas/farbe/beige/$\r\nAllow: /kollektion/kategorie/schlafsofas/option/stauraum/$\r\nAllow: /kollektion/kategorie/loveseats/$\r\nAllow: /kollektion/kategorie/sofas/material/kunstleder/$\r\nAllow: /kollektion/kategorie/ecksofas/option/relaxfunktion/$\r\nAllow: /kollektion/kategorie/schlafsofas/farbe/grau/$\r\nAllow: /kollektion/kategorie/sessel/material/kunstleder/$\r\nAllow: /kollektion/kategorie/sofas/option/relaxfunktion/$\r\nAllow: /kollektion/kategorie/wohnlandschaften/material/leder/$\r\nAllow: /kollektion/kategorie/sessel/farbe/blau/$\r\nAllow: /kollektion/kategorie/sessel/farbe/grun/$\r\nAllow: /kollektion/option/stauraum/$\r\nAllow: /kollektion/kategorie/schlafsofas/material/leder/$\r\nAllow: /kollektion/kategorie/sessel/farbe/rosa/$\r\nAllow: /kollektion/kategorie/heimkino-sofas/$\r\nAllow: /kollektion/kategorie/sessel/farbe/braun/$\r\nAllow: /kollektion/kategorie/chesterfield/material/leder/$\r\nAllow: /kollektion/kategorie/sessel/farbe/gelb/$\r\nAllow: /kollektion/kategorie/sessel/farbe/beige/$\r\nAllow: /kollektion/kategorie/sofas/farbe/gelb/$\r\nAllow: /kollektion/kategorie/sofas/farbe/rosa/$\r\nAllow: /kollektion/kategorie/sessel/farbe/rosa/$\r\nAllow: /kollektion/sofas/2-sitzer-sofa/material/leder/$\r\nAllow: /kollektion/kategorie/ecksofas/farbe/beige/$\r\nAllow: /kollektion/kategorie/ecksofas/farbe/blau/$\r\nAllow: /kollektion/kategorie/schlafsofas/farbe/blau/$\r\nAllow: /kollektion/kategorie/sofas/farbe/schwarz/$\r\nAllow: /kollektion/kategorie/sofas/farbe/braun/$\r\nAllow: /kollektion/kategorie/wohnlandschaften/farbe/grau/$\r\nAllow: /kollektion/sofas/2-5-sitzer-sofa/$\r\nAllow: /kollektion/sofas/3-sitzer-sofa/material/leder/$\r\nAllow: /kollektion/kategorie/sofas/farbe/beige/material/leder/$\r\nAllow: /kollektion/kategorie/sofas/farbe/blau/material/leder/$\r\nAllow: /kollektion/kategorie/sessel/farbe/grau/$\r\nAllow: /kollektion/kategorie/sofas/farbe/schwarz/material/leder/$\r\nAllow: /kollektion/kategorie/sessel/material/stoff/$\r\nAllow: /kollektion/kategorie/sessel/farbe/rot/$\r\nAllow: /kollektion/kategorie/sessel/farbe/schwarz/$\r\nAllow: /kollektion/kategorie/ecksofas/farbe/weiss/$\r\nAllow: /kollektion/kategorie/ecksofas/material/kunstleder/$\r\nAllow: /kollektion/sofas/4-sitzer-sofa/$\r\nAllow: /kollektion/kategorie/sofas/farbe/blau/$\r\nAllow: /kollektion/kategorie/sofas/farbe/bunt/$\r\nAllow: /kollektion/kategorie/sofas/farbe/grau/material/leder/$\r\nAllow: /kollektion/kategorie/sofas/farbe/grun/$\r\nAllow: /kollektion/kategorie/sofas/farbe/orange/$\r\nAllow: /kollektion/kategorie/schlafsofas/farbe/weiss/$\r\nAllow: /kollektion/kategorie/sessel/farbe/weiss/$\r\nAllow: /kollektion/kategorie/sofas/farbe/anthrazit/$\r\nAllow: /kollektion/kategorie/sofas/farbe/grau/$\r\nAllow: /kollektion/kategorie/schlafsofas/material/kunstleder/$\r\nAllow: /kollektion/kategorie/sofas/material/stoff/$\r\nAllow: /kollektion/kategorie/ecksofas/material/stoff/$\r\nAllow: /kollektion/kategorie/sessel/farbe/lila/$\r\nAllow: /kollektion/kategorie/sessel/farbe/orange/$\r\nAllow: /kollektion/kategorie/sofas/farbe/weiss/$\r\nAllow: /kollektion/kategorie/schlafsofas/farbe/beige/$\r\nAllow: /kollektion/kategorie/sofas/farbe/braun/material/leder/$\r\nAllow: /kollektion/kategorie/sessel/farbe/bunt/$\r\nAllow: /kollektion/kategorie/sofas/farbe/lila/$\r\nAllow: /kollektion/kategorie/sessel/farbe/schwarz/material/leder/$\r\nAllow: /kollektion/sofas/1-sitzer-sofa/$\r\nAllow: /kollektion/kategorie/wohnlandschaften/farbe/beige/$\r\nAllow: /kollektion/kategorie/ecksofas/farbe/braun/$\r\nAllow: /kollektion/kategorie/wohnlandschaften/farbe/schwarz/$\r\nAllow: /kollektion/kategorie/sofas/farbe/weiss/material/leder/$\r\nAllow: /kollektion/kategorie/wohnlandschaften/farbe/braun/$\r\nAllow: /kollektion/kategorie/schlafsofas/farbe/rosa/$\r\nAllow: /kollektion/kategorie/ecksofas/farbe/schwarz/$\r\nAllow: /kollektion/kategorie/sessel/farbe/weiss/material/kunstleder/$\r\nAllow: /kollektion/kategorie/sessel/farbe/cognac/$\r\nAllow: /kollektion/kategorie/sofas/farbe/gelb/material/leder/$\r\nAllow: /kollektion/kategorie/schlafsofas/farbe/gelb/$\r\nAllow: /kollektion/kategorie/wohnlandschaften/material/kunstleder/$\r\nAllow: /kollektion/kategorie/ecksofas/farbe/rosa/$\r\nAllow: /kollektion/sofas/2-sitzer-sofa/$\r\nAllow: /kollektion/sofas/1-5-sitzer-sofa/$\r\nAllow: /kollektion/kategorie/ecksofas/material/leder/$\r\nAllow: /kollektion/kategorie/relaxsessel/$\r\nAllow: /kollektion/kategorie/sofas/sofas/3-sitzer-sofa/$\r\nAllow: /kollektion/kategorie/relaxsessel/farbe/grau/$\r\nAllow: /kollektion/kategorie/sofas/sofas/4-sitzer-sofa/$\r\nAllow: /kollektion/kategorie/sofas/sofas/3-sitzer-sofa/material/leder/$\r\nAllow: /kollektion/kategorie/sofas/sofas/2-sitzer-sofa/material/leder/$\r\nAllow: /kollektion/kategorie/relaxsessel/farbe/braun/$\r\nAllow: /kollektion/kategorie/relaxsessel/farbe/schwarz/$\r\nAllow: /kollektion/kategorie/relaxsessel/farbe/beige/$\r\nAllow: /kollektion/kategorie/sofas/sofas/1-sitzer-sofa/$\r\nAllow: /kollektion/kategorie/relaxsessel/farbe/rot/$\r\nAllow: /kollektion/kategorie/relaxsessel/material/kunstleder/$\r\nAllow: /kollektion/kategorie/relaxsessel/farbe/blau/$\r\nAllow: /kollektion/kategorie/relaxsessel/material/stoff/$\r\nAllow: /kollektion/kategorie/sofas/farbe/grun/material/leder/$\r\nAllow: /kollektion/kategorie/schlafsofas/farbe/schwarz/$\r\nAllow: /kollektion/kategorie/sofas/sofas/2-sitzer-sofa/$\r\nAllow: /kollektion/kategorie/sofas/sofas/3-sitzer-sofa/farbe/grau/$\r\nAllow: /kollektion/kategorie/ecksofas/farbe/lila/$\r\nAllow: /kollektion/kategorie/schlafsofas/farbe/lila/$\r\nAllow: /kollektion/kategorie/sofas/farbe/rot/material/leder/$\r\nAllow: /kollektion/kategorie/sofas/farbe/taupe/$\r\nAllow: /kollektion/kategorie/ecksofas/farbe/rot/$\r\nAllow: /kollektion/kategorie/wohnlandschaften/farbe/rot/$\r\nAllow: /kollektion/kategorie/schlafsofas/farbe/bunt/$\r\nAllow: /kollektion/kategorie/ecksofas/farbe/gelb/$\r\nAllow: /kollektion/kategorie/ecksofas/farbe/grun/$\r\nAllow: /kollektion/kategorie/schlafsofas/farbe/orange/$\r\nAllow: /kollektion/kategorie/wohnlandschaften/farbe/grun/$\r\n\r\n\r\n# START DARK VISITORS BLOCK\r\n# ---------------------------\r\n\r\n# ---------------------------\r\n# END DARK VISITORS BLOCK\r\n\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/wp/wp-admin/admin-ajax.php",
+        "/*?fwp_paged="
+      ],
+      "disallowed": [
+        "/wp/wp-admin/",
+        "/*wishlist/?set=",
+        "/*wishlist/?unset="
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/wp/wp-admin/admin-ajax.php",
+      "/*?fwp_paged="
+    ],
+    "disallowed": [
+      "/wp/wp-admin/",
+      "/*wishlist/?set=",
+      "/*wishlist/?unset="
+    ]
+  }
 }

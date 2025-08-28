@@ -1,10 +1,736 @@
 {
   "domain": "www.mail.com",
   "normalizedDomain": "www.mail.com",
+  "robotsTxt": "Sitemap: https://www.mail.com/sitemapindex.xml\r\n\r\nUser-agent: *\r\nDisallow: /*?ls=*\r\nDisallow: /*?localePreference=*\r\nDisallow: /*;jsessionid=*\r\nDisallow: /*;kid=*\r\nDisallow: /Site/\r\nDisallow: /ajax/\r\n\r\nUser-agent: grub-client\r\nDisallow: /\r\n\r\nUser-agent: grub\r\nDisallow: /\r\n\r\nUser-agent: looksmart\r\nDisallow: /\r\n\r\nUser-agent: WebZip\r\nDisallow: /\r\n\r\nUser-agent: larbin\r\nDisallow: /\r\n\r\nUser-agent: b2w/0.1\r\nDisallow: /\r\n\r\nUser-agent: psbot\r\nDisallow: /\r\n\r\nUser-agent: Python-urllib\r\nDisallow: /\r\n\r\nUser-agent: NetMechanic\r\nDisallow: /\r\n\r\nUser-agent: URL_Spider_Pro\r\nDisallow: /\r\n\r\nUser-agent: CherryPicker\r\nDisallow: /\r\n\r\nUser-agent: EmailCollector\r\nDisallow: /\r\n\r\nUser-agent: EmailSiphon\r\nDisallow: /\r\n\r\nUser-agent: WebBandit\r\nDisallow: /\r\n\r\nUser-agent: EmailWolf\r\nDisallow: /\r\n\r\nUser-agent: ExtractorPro\r\nDisallow: /\r\n\r\nUser-agent: CopyRightCheck\r\nDisallow: /\r\n\r\nUser-agent: Crescent\r\nDisallow: /\r\n\r\nUser-agent: SiteSnagger\r\nDisallow: /\r\n\r\nUser-agent: ProWebWalker\r\nDisallow: /\r\n\r\nUser-agent: CheeseBot\r\nDisallow: /\r\n\r\nUser-agent: LNSpiderguy\r\nDisallow: /\r\n\r\nUser-agent: ia_archiver\r\nDisallow: /\r\n\r\nUser-agent: ia_archiver/1.6\r\nDisallow: /\r\n\r\nUser-agent: Teleport\r\nDisallow: /\r\n\r\nUser-agent: TeleportPro\r\nDisallow: /\r\n\r\nUser-agent: MIIxpc\r\nDisallow: /\r\n\r\nUser-agent: Telesoft\r\nDisallow: /\r\n\r\nUser-agent: Website Quester\r\nDisallow: /\r\n\r\nUser-agent: moget/2.1\r\nDisallow: /\r\n\r\nUser-agent: WebZip/4.0\r\nDisallow: /\r\n\r\nUser-agent: WebStripper\r\nDisallow: /\r\n\r\nUser-agent: WebSauger\r\nDisallow: /\r\n\r\nUser-agent: WebCopier\r\nDisallow: /\r\n\r\nUser-agent: NetAnts\r\nDisallow: /\r\n\r\nUser-agent: Mister PiX\r\nDisallow: /\r\n\r\nUser-agent: WebAuto\r\nDisallow: /\r\n\r\nUser-agent: TheNomad\r\nDisallow: /\r\n\r\nUser-agent: WWW-Collector-E\r\nDisallow: /\r\n\r\nUser-agent: RMA\r\nDisallow: /\r\n\r\nUser-agent: libWeb/clsHTTP\r\nDisallow: /\r\n\r\nUser-agent: asterias\r\nDisallow: /\r\n\r\nUser-agent: httplib\r\nDisallow: /\r\n\r\nUser-agent: turingos\r\nDisallow: /\r\n\r\nUser-agent: spanner\r\nDisallow: /\r\n\r\nUser-agent: InfoNaviRobot\r\nDisallow: /\r\n\r\nUser-agent: Harvest/1.5\r\nDisallow: /\r\n\r\nUser-agent: Bullseye/1.0\r\nDisallow: /\r\n\r\nUser-agent: Mozilla/4.0 (compatible; BullsEye; Windows 95)\r\nDisallow: /\r\n\r\nUser-agent: Crescent Internet ToolPak HTTP OLE Control v.1.0\r\nDisallow: /\r\n\r\nUser-agent: CherryPickerSE/1.0\r\nDisallow: /\r\n\r\nUser-agent: CherryPickerElite/1.0\r\nDisallow: /\r\n\r\nUser-agent: WebBandit/3.50\r\nDisallow: /\r\n\r\nUser-agent: NICErsPRO\r\nDisallow: /\r\n\r\nUser-agent: Microsoft URL Control - 5.01.4511\r\nDisallow: /\r\n\r\nUser-agent: DittoSpyder\r\nDisallow: /\r\n\r\nUser-agent: Foobot\r\nDisallow: /\r\n\r\nUser-agent: WebmasterWorldForumBot\r\nDisallow: /\r\n\r\nUser-agent: SpankBot\r\nDisallow: /\r\n\r\nUser-agent: BotALot\r\nDisallow: /\r\n\r\nUser-agent: lwp-trivial/1.34\r\nDisallow: /\r\n\r\nUser-agent: lwp-trivial\r\nDisallow: /\r\n\r\nUser-agent: BunnySlippers\r\nDisallow: /\r\n\r\nUser-agent: Microsoft URL Control - 6.00.8169\r\nDisallow: /\r\n\r\nUser-agent: URLy Warning\r\nDisallow: /\r\n\r\nUser-agent: Wget/1.6\r\nDisallow: /\r\n\r\nUser-agent: Wget/1.5.3\r\nDisallow: /\r\n\r\nUser-agent: Wget\r\nDisallow: /\r\n\r\nUser-agent: LinkWalker\r\nDisallow: /\r\n\r\nUser-agent: cosmos\r\nDisallow: /\r\n\r\nUser-agent: moget\r\nDisallow: /\r\n\r\nUser-agent: hloader\r\nDisallow: /\r\n\r\nUser-agent: humanlinks\r\nDisallow: /\r\n\r\nUser-agent: LinkextractorPro\r\nDisallow: /\r\n\r\nUser-agent: Offline Explorer\r\nDisallow: /\r\n\r\nUser-agent: Mata Hari\r\nDisallow: /\r\n\r\nUser-agent: LexiBot\r\nDisallow: /\r\n\r\nUser-agent: Web Image Collector\r\nDisallow: /\r\n\r\nUser-agent: The Intraformant\r\nDisallow: /\r\n\r\nUser-agent: True_Robot/1.0\r\nDisallow: /\r\n\r\nUser-agent: True_Robot\r\nDisallow: /\r\n\r\nUser-agent: BlowFish/1.0\r\nDisallow: /\r\n\r\nUser-agent: JennyBot\r\nDisallow: /\r\n\r\nUser-agent: MIIxpc/4.2\r\nDisallow: /\r\n\r\nUser-agent: BuiltBotTough\r\nDisallow: /\r\n\r\nUser-agent: ProPowerBot/2.14\r\nDisallow: /\r\n\r\nUser-agent: BackDoorBot/1.0\r\nDisallow: /\r\n\r\nUser-agent: toCrawl/UrlDispatcher\r\nDisallow: /\r\n\r\n#https://www.mail.com/robots.txt\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*?ls=*",
+        "/*?localePreference=*",
+        "/*;jsessionid=*",
+        "/*;kid=*",
+        "/Site/",
+        "/ajax/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "grub-client",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "grub",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "looksmart",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZip",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "larbin",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "b2w/0.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "psbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Python-urllib",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NetMechanic",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "URL_Spider_Pro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CherryPicker",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailSiphon",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebBandit",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailWolf",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ExtractorPro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CopyRightCheck",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Crescent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SiteSnagger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ProWebWalker",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CheeseBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LNSpiderguy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver/1.6",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Teleport",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TeleportPro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MIIxpc",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Telesoft",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Website Quester",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "moget/2.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZip/4.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebStripper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebSauger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NetAnts",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Mister PiX",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebAuto",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TheNomad",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WWW-Collector-E",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "RMA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "libWeb/clsHTTP",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "asterias",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "httplib",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "turingos",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "spanner",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "InfoNaviRobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Harvest/1.5",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bullseye/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Mozilla/4.0 (compatible; BullsEye; Windows 95)",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Crescent Internet ToolPak HTTP OLE Control v.1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CherryPickerSE/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CherryPickerElite/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebBandit/3.50",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NICErsPRO",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft URL Control - 5.01.4511",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DittoSpyder",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Foobot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebmasterWorldForumBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SpankBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BotALot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "lwp-trivial/1.34",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "lwp-trivial",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BunnySlippers",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft URL Control - 6.00.8169",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "URLy Warning",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Wget/1.6",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Wget/1.5.3",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Wget",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkWalker",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cosmos",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "moget",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "hloader",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "humanlinks",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkextractorPro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Mata Hari",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LexiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Web Image Collector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "The Intraformant",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "True_Robot/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "True_Robot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BlowFish/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "JennyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MIIxpc/4.2",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BuiltBotTough",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ProPowerBot/2.14",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BackDoorBot/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "toCrawl/UrlDispatcher",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 88,
+    "allowedBots": 0,
+    "disallowedBots": 88,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "grub-client",
@@ -358,5 +1084,16 @@
       "name": "toCrawl/UrlDispatcher",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*?ls=*",
+      "/*?localePreference=*",
+      "/*;jsessionid=*",
+      "/*;kid=*",
+      "/Site/",
+      "/ajax/"
+    ]
+  }
 }

@@ -1,10 +1,69 @@
 {
   "domain": "www.e-hausaufgaben.de",
   "normalizedDomain": "www.e-hausaufgaben.de",
+  "robotsTxt": "User-agent: *\nDisallow: /community/\nDisallow: /images/\nDisallow: /job.php\n\n\nSitemap: https://e-hausaufgaben.de/a/sitemap_schuldokumente.xml\nSitemap: https://e-hausaufgaben.de/a/sitemap_schulthemen.xml\nSitemap: https://e-hausaufgaben.de/a/sitemap_forumthreads.xml\nSitemap: https://e-hausaufgaben.de/a/sitemap_forumthreads2.xml\nSitemap: https://e-hausaufgaben.de/a/sitemap_forumthreads3.xml\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: SemrushBot-SA\nDisallow: /\n\nUser-agent: AhrefsBot \nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: Cliqzbot\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/community/",
+        "/images/",
+        "/job.php"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot-SA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Cliqzbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 5,
+    "allowedBots": 0,
+    "disallowedBots": 5,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "SemrushBot",
@@ -26,5 +85,13 @@
       "name": "Cliqzbot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/community/",
+      "/images/",
+      "/job.php"
+    ]
+  }
 }

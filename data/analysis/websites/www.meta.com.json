@@ -1,14 +1,99 @@
 {
   "domain": "www.meta.com",
   "normalizedDomain": "www.meta.com",
-  "bots": [
+  "robotsTxt": "# Notice: Collection of data on Facebook through automated means is\r\n# prohibited unless you have express written permission from Facebook\r\n# and may only be conducted for the limited purpose contained in said\r\n# permission.\r\n# See: http://www.facebook.com/apps/site_scraping_tos_terms.php\r\n\r\nUser-agent: facebookexternalhit\r\nAllow: *\r\n\r\nUser-agent: *\r\nDisallow: /*cursor=\r\nDisallow: /*fb_comment_id=\r\nDisallow: /ajax/\r\nDisallow: /tealium/\r\nDisallow: /intern/\r\nDisallow: /internal/\r\nDisallow: /login/\r\nDisallow: /oidc/callback/\r\nDisallow: /*.php\r\nDisallow: *account/\r\nDisallow: *help/search/\r\nDisallow: *help/support/\r\nDisallow: *help_app/\r\nDisallow: *rma/*\r\nDisallow: /a/fl?\r\nDisallow: /affiliates/\r\nDisallow: /bv/upload/\r\nDisallow: /campaign/\r\nDisallow: /common/referer_frame.php\r\nDisallow: /connect/invite/\r\nDisallow: /meta-employee-store/\r\nDisallow: /order/\r\nDisallow: /return/\r\nDisallow: /s/\r\nDisallow: /survey/\r\nDisallow: /my/\r\nDisallow: /rx/\r\n\r\n\r\nSitemap: https://www.meta.com/sitemap.xml\r\nSitemap: https://www.meta.com/help/sitemap.xml\r\nSitemap: https://www.meta.com/blog/quest/sitemap.xml\r\nSitemap: https://www.meta.com/experiences/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*cursor=",
+        "/*fb_comment_id=",
+        "/ajax/",
+        "/tealium/",
+        "/intern/",
+        "/internal/",
+        "/login/",
+        "/oidc/callback/",
+        "/*.php",
+        "*account/",
+        "*help/search/",
+        "*help/support/",
+        "*help_app/",
+        "*rma/*",
+        "/a/fl?",
+        "/affiliates/",
+        "/bv/upload/",
+        "/campaign/",
+        "/common/referer_frame.php",
+        "/connect/invite/",
+        "/meta-employee-store/",
+        "/order/",
+        "/return/",
+        "/s/",
+        "/survey/",
+        "/my/",
+        "/rx/"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "facebookexternalhit",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "*"
+        ],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
       "allowed": true
     },
     {
-      "name": "*",
-      "allowed": false
+      "name": "facebookexternalhit",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*cursor=",
+      "/*fb_comment_id=",
+      "/ajax/",
+      "/tealium/",
+      "/intern/",
+      "/internal/",
+      "/login/",
+      "/oidc/callback/",
+      "/*.php",
+      "*account/",
+      "*help/search/",
+      "*help/support/",
+      "*help_app/",
+      "*rma/*",
+      "/a/fl?",
+      "/affiliates/",
+      "/bv/upload/",
+      "/campaign/",
+      "/common/referer_frame.php",
+      "/connect/invite/",
+      "/meta-employee-store/",
+      "/order/",
+      "/return/",
+      "/s/",
+      "/survey/",
+      "/my/",
+      "/rx/"
+    ]
+  }
 }

@@ -1,10 +1,42 @@
 {
   "domain": "roadsurfer.com",
   "normalizedDomain": "roadsurfer.com",
+  "robotsTxt": "User-Agent: *\r\nDisallow: /*?\r\nDisallow: /wp-admin/\r\nDisallow: /wp-content/wp-rocket-config/\r\nDisallow: /wp-login.php\r\nDisallow: */clkn/*\r\nDisallow: */clkg/*\r\n\r\nSitemap: https://roadsurfer.com/sitemap_index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*?",
+        "/wp-admin/",
+        "/wp-content/wp-rocket-config/",
+        "/wp-login.php",
+        "*/clkn/*",
+        "*/clkg/*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*?",
+      "/wp-admin/",
+      "/wp-content/wp-rocket-config/",
+      "/wp-login.php",
+      "*/clkn/*",
+      "*/clkg/*"
+    ]
+  }
 }

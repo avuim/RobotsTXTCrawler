@@ -1,10 +1,32 @@
 {
   "domain": "www.de.abbott",
   "normalizedDomain": "www.de.abbott",
+  "robotsTxt": "User-agent: *\r\nDisallow: /errorpages\r\nSitemap: http://www.de.abbott/sitemap.xml\r\n\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/errorpages"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/errorpages"
+    ]
+  }
 }

@@ -1,14 +1,815 @@
 {
   "domain": "www.runnersworld.de",
   "normalizedDomain": "www.runnersworld.de",
+  "robotsTxt": "# Allow sitemap\nSitemap: https://www.runnersworld.de/sitemap/navigation-sitemap.xml\nsitemap: https://www.runnersworld.de/sitemap/news-sitemap.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-index.xml\nsitemap: https://www.runnersworld.de/sitemap/footer-sitemap.xml\nsitemap: https://www.runnersworld.de/sitemap/themenseiten-sitemap.xml\nsitemap: https://www.runnersworld.de/sitemap/video-sitemap-index.xml\nsitemap: https://www.runnersworld.de/sitemap/authors-sitemap.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Training.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Laufevents.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-SchuheUndAusruestung.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Ernaehrung.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Gesundheit.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Laufhelden.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Videos.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Training_Trainingspläne.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Training_Lauftraining.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Training_Basiswissen.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Training_Krafttraining&Stretching.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Training_Tools.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Training_Triathlontraining.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Laufevents_Laufkalender.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Laufevents_Laufkategorien.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Laufevents_Laufstaedte.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Laufevents_NewsUndFotos.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Laufevents_CampsUndReisen.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-SchuheUndAusruestung_Laufschuhe.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-SchuheUndAusruestung_Uhren.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-SchuheUndAusruestung_Laufbekleidung.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-SchuheUndAusruestung_Laufzubehoer.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-SchuheUndAusruestung_Triathlonausruestung.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-SchuheUndAusruestung_alle_Marken.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-SchuheUndAusruestung_Produkttest.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Ernaehrung_Ernaehrungscoaching.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Ernaehrung_Rezepte.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Ernaehrung_Gesund_essen.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Ernaehrung_Sporternaehrung.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Ernaehrung_Lexikon.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Ernaehrung_Produkttest.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Gesundheit_Verletzungen.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Gesundheit_TippsUndNews.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Gesundheit_PflegeUndWellness.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Gesundheit_Mentales.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Gesundheit_Laufakademie.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Gesundheit_Produkttest.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Videos_Ausruestung.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Videos_Training.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Videos_Gesundheit.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Videos_Laufszene.xml\nsitemap: https://www.runnersworld.de/sitemap/sitemap-Produkttest.xml\n\n\n# disallow api calls\nUser-agent: *\nDisallow: /irapi/*\nDisallow: /api/*\nDisallow: /irelements/element/*\nDisallow: /irelements/standalone/*\nDisallow: /irelements/element\nDisallow: /irelements/elements\nDisallow: /irelements/elements/*\nDisallow: *ePaper*.pdf\n\n# Diese Crawler blockieren\nUser-agent: AI2Bot\nUser-agent: omgili\nUser-agent: TimpiBot\nUser-agent: BLEXBot\nUser-agent: dotbot\nUser-agent: MJ12bot\nUser-agent: Barkrowler\nUser-agent: Optimizer\nDisallow: /\n\n# Legal notice: [https://www.runnersworld.de/] expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).\n# The use of robots or other automated means to access [https://www.runnersworld.de/] or collect or mine data without the express permission of [https://www.runnersworld.de/] is strictly prohibited.\n# If you would like to apply for permission to crawl [https://www.runnersworld.de/], collect or use data, please contact [ompi@motorpresse.de]",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/irapi/*",
+        "/api/*",
+        "/irelements/element/*",
+        "/irelements/standalone/*",
+        "/irelements/element",
+        "/irelements/elements",
+        "/irelements/elements/*",
+        "*ePaper*.pdf"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 64,
+    "allowedBots": 0,
+    "disallowedBots": 64,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
       "allowed": false
     },
     {
       "name": "Optimizer",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/irapi/*",
+      "/api/*",
+      "/irelements/element/*",
+      "/irelements/standalone/*",
+      "/irelements/element",
+      "/irelements/elements",
+      "/irelements/elements/*",
+      "*ePaper*.pdf"
+    ]
+  }
 }

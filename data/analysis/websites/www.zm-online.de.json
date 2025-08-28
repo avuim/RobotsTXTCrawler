@@ -1,10 +1,40 @@
 {
   "domain": "www.zm-online.de",
   "normalizedDomain": "www.zm-online.de",
+  "robotsTxt": "# robots.txt for www.zm-online.de\r\n# IP: 10.66.80.200\r\nUser-agent: *\r\nAllow: /\r\nDisallow: /typo3/\r\nDisallow: /*?id=*\r\nDisallow: /*&type=123\r\nDisallow: /suche\r\nDisallow: /suche-nach-autoren\r\nSitemap: https://www.zm-online.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/typo3/",
+        "/*?id=*",
+        "/*&type=123",
+        "/suche",
+        "/suche-nach-autoren"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/typo3/",
+      "/*?id=*",
+      "/*&type=123",
+      "/suche",
+      "/suche-nach-autoren"
+    ]
+  }
 }

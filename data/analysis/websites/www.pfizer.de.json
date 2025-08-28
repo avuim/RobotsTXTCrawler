@@ -1,9 +1,48 @@
 {
   "domain": "www.pfizer.de",
   "normalizedDomain": "www.pfizer.de",
+  "robotsTxt": "User-agent: *\r\nSitemap: https://pfizer.de/sitemap.xml\r\nUser-agent: Applebot \r\nAllow: /\r\nUser-agent: ms-search-crawler\r\nAllow: /\r\nUser-agent: PopeTech-CrawlBot\r\nAllow: /\r\nUser-agent: PopeTech-ScanBot\r\nAllow: /\r\nUser-agent: *\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "ms-search-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PopeTech-CrawlBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PopeTech-ScanBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 3,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
-      "name": "Applebot",
+      "name": "*",
       "allowed": true
     },
     {
@@ -18,5 +57,9 @@
       "name": "PopeTech-ScanBot",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

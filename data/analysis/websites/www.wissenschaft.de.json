@@ -1,18 +1,59 @@
 {
   "domain": "www.wissenschaft.de",
   "normalizedDomain": "www.wissenschaft.de",
-  "bots": [
+  "robotsTxt": "User-agent: Yandex\nDisallow: / # blocks access to whole site\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: *\nDisallow: /*feed/*\n\nUser-agent: *\nDisallow: /*embed/$\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*feed/*"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "Yandex",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/ # blocks access to whole site"
+        ]
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 1,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Yandex",
+      "allowed": true
     },
     {
       "name": "AhrefsBot",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*feed/*"
+    ]
+  }
 }

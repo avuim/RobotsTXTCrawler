@@ -1,6 +1,40 @@
 {
   "domain": "www.elektroniknet.de",
   "normalizedDomain": "www.elektroniknet.de",
+  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /preview/*\nDisallow: /werbemitteltest/*\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\n\nSitemap: https://www.elektroniknet.de/fileadmin/sitemaps/index.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/preview/*",
+        "/werbemitteltest/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 0,
+    "disallowedBots": 2,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -14,5 +48,12 @@
       "name": "MJ12bot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/preview/*",
+      "/werbemitteltest/*"
+    ]
+  }
 }

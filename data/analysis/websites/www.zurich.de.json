@@ -1,10 +1,76 @@
 {
   "domain": "www.zurich.de",
   "normalizedDomain": "www.zurich.de",
+  "robotsTxt": "User-agent: *\r\n\r\nDisallow: /es/\r\n\r\nDisallow: /en/\r\n\r\nDisallow: /it/\r\n\r\nDisallow: /NR/\r\n\r\nDisallow: /cssp/\r\n\r\nDisallow: /fr-fr/\r\n\r\nDisallow: /en-ca/\r\n\r\nDisallow: /it-it/\r\n\r\nDisallow: /fr-ca/\r\n\r\nDisallow: /kunde/\r\n\r\nDisallow: /de-de/fonds2/\r\n\r\nDisallow: /musteragentur\r\n\r\nDisallow: /de-de/partner/\r\n\r\nDisallow: /de-de/formulare/\r\n\r\nDisallow: /de-de/thinktank/\r\n\r\nDisallow: /de-de/error-pages/\r\n\r\nDisallow: /de-de/meine-zurich/\r\n\r\nDisallow: /en/geschaeftskunden\r\n\r\nDisallow: /de-de/landing-pages/\r\n\r\nAllow: /de-de/meine-zurich/vorteile\r\n\r\nDisallow: /de-de/global/error-pages/\r\n\r\nDisallow: /de-de/vor-ort/musteragentur\r\n \r\nSitemap: https://www.zurich.de/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/de-de/meine-zurich/vorteile"
+      ],
+      "disallowed": [
+        "/es/",
+        "/en/",
+        "/it/",
+        "/NR/",
+        "/cssp/",
+        "/fr-fr/",
+        "/en-ca/",
+        "/it-it/",
+        "/fr-ca/",
+        "/kunde/",
+        "/de-de/fonds2/",
+        "/musteragentur",
+        "/de-de/partner/",
+        "/de-de/formulare/",
+        "/de-de/thinktank/",
+        "/de-de/error-pages/",
+        "/de-de/meine-zurich/",
+        "/en/geschaeftskunden",
+        "/de-de/landing-pages/",
+        "/de-de/global/error-pages/",
+        "/de-de/vor-ort/musteragentur"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/de-de/meine-zurich/vorteile"
+    ],
+    "disallowed": [
+      "/es/",
+      "/en/",
+      "/it/",
+      "/NR/",
+      "/cssp/",
+      "/fr-fr/",
+      "/en-ca/",
+      "/it-it/",
+      "/fr-ca/",
+      "/kunde/",
+      "/de-de/fonds2/",
+      "/musteragentur",
+      "/de-de/partner/",
+      "/de-de/formulare/",
+      "/de-de/thinktank/",
+      "/de-de/error-pages/",
+      "/de-de/meine-zurich/",
+      "/en/geschaeftskunden",
+      "/de-de/landing-pages/",
+      "/de-de/global/error-pages/",
+      "/de-de/vor-ort/musteragentur"
+    ]
+  }
 }

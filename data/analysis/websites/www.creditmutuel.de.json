@@ -1,6 +1,29 @@
 {
   "domain": "www.creditmutuel.de",
   "normalizedDomain": "www.creditmutuel.de",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\n\r\nUser-agent: SiteAuditBot\r\nDisallow: /\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "SiteAuditBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -10,5 +33,9 @@
       "name": "SiteAuditBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

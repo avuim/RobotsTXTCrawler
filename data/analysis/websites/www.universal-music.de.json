@@ -1,5 +1,28 @@
 {
   "domain": "www.universal-music.de",
   "normalizedDomain": "www.universal-music.de",
-  "bots": []
+  "robotsTxt": "# robots.txt\r\n\r\nUser-agent: msnbot\r\nCrawl-delay: 1\r\n\r\nUser-agent: bingbot\r\nCrawl-delay: 1\r\n\r\nUser-agent: lyticsbot\r\nCrawl-delay: 10\r\n\r\nUser-agent: *\r\n\r\nSitemap: https://www.universal-music.de/sitemap/www.universal-music.de_sitemap.xml\r\nSitemap: https://www.universal-music.de/sitemap/www.universal-music.de_news_sitemap.xml\r\nSitemap: https://www.universal-music.de/sitemap/www.universal-music.de_images_sitemap.xml\r\nSitemap: https://www.universal-music.de/sitemap/www.universal-music.de_video_sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

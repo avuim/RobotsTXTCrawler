@@ -1,14 +1,133 @@
 {
   "domain": "www.lindt.de",
   "normalizedDomain": "www.lindt.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /index.php*\r\nDisallow: /app/\r\nDisallow: /lib/\r\nDisallow: /*.php$\r\nDisallow: /pkginfo/\r\nDisallow: /report/\r\nDisallow: /var/\r\nDisallow: /sendfriend/\r\nDisallow: /review/\r\nDisallow: /*SID=\r\nDisallow: */banner/*\r\nDisallow: /site/*\r\nDisallow: /wp2/*\r\nDisallow: /wp1/*\r\nDisallow: /blog/wp-includes/*\r\nDisallow: /website/wp-includes/*\r\nDisallow: /test/*\r\nDisallow: /cms/wp-includes/*\r\nDisallow: /news/wp-includes/*\r\nDisallow: /2018/*\r\nDisallow: *checkout*\r\n\r\n#Block Catalog, Search and Accounts\r\nDisallow: */account/create/*\r\nDisallow: */customer/account/*\r\nDisallow: */checkout/cart/*\r\nDisallow: */catalogsearch/*\r\nDisallow: /search/ajax/suggest*\r\n\r\n\r\n#Superfluous market folders\r\nDisallow: /fr/\r\nDisallow: /en/\r\nDisallow: /de/\r\nDisallow: /nl/\r\n\r\n#Block Product Parameters\r\nDisallow: *?brand\r\nDisallow: *&brand\r\nDisallow: *?cacao_percentage\r\nDisallow: *&cacao_percentage\r\nDisallow: *?type_of_chocolate\r\nDisallow: *&type_of_chocolate\r\nDisallow: *&format\r\nDisallow: *?format\r\nDisallow: *?flavours\r\nDisallow: *&flavours\r\nDisallow: *?gift_ideas\r\nDisallow: *&gift_ideas\r\n\r\n#Block Pagination above page 25\r\nDisallow: *p=25\r\nDisallow: *p=26\r\nDisallow: *p=27\r\n\r\n#Block ChatGPT\r\nUser-agent: ChatGPT-User\r\nDisallow: /\r\n\r\n#Crawl Delay common\r\nCrawl-delay: 86400\r\n\r\n# Sitemap files\r\nSitemap: https://www.lindt.de/media/sitemap/sitemap_de_de.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/index.php*",
+        "/app/",
+        "/lib/",
+        "/*.php$",
+        "/pkginfo/",
+        "/report/",
+        "/var/",
+        "/sendfriend/",
+        "/review/",
+        "/*SID=",
+        "*/banner/*",
+        "/site/*",
+        "/wp2/*",
+        "/wp1/*",
+        "/blog/wp-includes/*",
+        "/website/wp-includes/*",
+        "/test/*",
+        "/cms/wp-includes/*",
+        "/news/wp-includes/*",
+        "/2018/*",
+        "*checkout*",
+        "*/account/create/*",
+        "*/customer/account/*",
+        "*/checkout/cart/*",
+        "*/catalogsearch/*",
+        "/search/ajax/suggest*",
+        "/fr/",
+        "/en/",
+        "/de/",
+        "/nl/",
+        "*?brand",
+        "*&brand",
+        "*?cacao_percentage",
+        "*&cacao_percentage",
+        "*?type_of_chocolate",
+        "*&type_of_chocolate",
+        "*&format",
+        "*?format",
+        "*?flavours",
+        "*&flavours",
+        "*?gift_ideas",
+        "*&gift_ideas",
+        "*p=25",
+        "*p=26",
+        "*p=27"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "ChatGPT-User",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/index.php*",
+      "/app/",
+      "/lib/",
+      "/*.php$",
+      "/pkginfo/",
+      "/report/",
+      "/var/",
+      "/sendfriend/",
+      "/review/",
+      "/*SID=",
+      "*/banner/*",
+      "/site/*",
+      "/wp2/*",
+      "/wp1/*",
+      "/blog/wp-includes/*",
+      "/website/wp-includes/*",
+      "/test/*",
+      "/cms/wp-includes/*",
+      "/news/wp-includes/*",
+      "/2018/*",
+      "*checkout*",
+      "*/account/create/*",
+      "*/customer/account/*",
+      "*/checkout/cart/*",
+      "*/catalogsearch/*",
+      "/search/ajax/suggest*",
+      "/fr/",
+      "/en/",
+      "/de/",
+      "/nl/",
+      "*?brand",
+      "*&brand",
+      "*?cacao_percentage",
+      "*&cacao_percentage",
+      "*?type_of_chocolate",
+      "*&type_of_chocolate",
+      "*&format",
+      "*?format",
+      "*?flavours",
+      "*&flavours",
+      "*?gift_ideas",
+      "*&gift_ideas",
+      "*p=25",
+      "*p=26",
+      "*p=27"
+    ]
+  }
 }

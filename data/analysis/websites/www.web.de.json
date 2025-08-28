@@ -1,14 +1,101 @@
 {
   "domain": "www.web.de",
   "normalizedDomain": "www.web.de",
+  "robotsTxt": "User-agent: *\nDisallow: /test/\nUser-agent: googlebot-news\nDisallow: /\nDisallow: /magazine/*/thema/\nAllow: /magazine/\nAllow: /amp/\nAllow: /$\nUser-agent: Applebot\nDisallow: /magazine/\nAllow: /magazine/in-eigener-sache/\nAllow: /magazine/unicef/\nAllow: /magazine/so-arbeitet-die-redaktion/\nUser-agent: ChatGPT-User\nDisallow: /magazine/\nAllow: /magazine/in-eigener-sache/\nAllow: /magazine/unicef/\nAllow: /magazine/so-arbeitet-die-redaktion/\nUser-agent: GPTBot\nDisallow: /magazine/\nAllow: /magazine/in-eigener-sache/\nAllow: /magazine/unicef/\nAllow: /magazine/so-arbeitet-die-redaktion/\nUser-agent: Google-Extended\nDisallow: /magazine/\nAllow: /magazine/in-eigener-sache/\nAllow: /magazine/unicef/\nAllow: /magazine/so-arbeitet-die-redaktion/\n#https://web.de/robots.txt",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/test/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "googlebot-news",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/magazine/",
+          "/amp/",
+          "/$"
+        ],
+        "disallowed": [
+          "/magazine/*/thema/"
+        ]
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/magazine/in-eigener-sache/",
+          "/magazine/unicef/",
+          "/magazine/so-arbeitet-die-redaktion/"
+        ],
+        "disallowed": [
+          "/magazine/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/magazine/in-eigener-sache/",
+          "/magazine/unicef/",
+          "/magazine/so-arbeitet-die-redaktion/"
+        ],
+        "disallowed": [
+          "/magazine/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/magazine/in-eigener-sache/",
+          "/magazine/unicef/",
+          "/magazine/so-arbeitet-die-redaktion/"
+        ],
+        "disallowed": [
+          "/magazine/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/magazine/in-eigener-sache/",
+          "/magazine/unicef/",
+          "/magazine/so-arbeitet-die-redaktion/"
+        ],
+        "disallowed": [
+          "/magazine/"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 5,
+    "allowedBots": 4,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "googlebot-news",
-      "allowed": true
+      "allowed": false
     },
     {
       "name": "Applebot",
@@ -26,5 +113,11 @@
       "name": "Google-Extended",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/test/"
+    ]
+  }
 }

@@ -1,14 +1,45 @@
 {
   "domain": "www.deutsche-apotheker-zeitung.de",
   "normalizedDomain": "www.deutsche-apotheker-zeitung.de",
+  "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: *\nDisallow: /*?preview=true\nSitemap: https://deutsche-apotheker-zeitung.de/sitemap/index.xml.gz\nSitemap: https://deutsche-apotheker-zeitung.de/sitemap/news.xml.gz",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*?preview=true"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "GPTBot",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*?preview=true"
+    ]
+  }
 }

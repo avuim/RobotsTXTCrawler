@@ -1,10 +1,32 @@
 {
   "domain": "www.hamburg-magazin.de",
   "normalizedDomain": "www.hamburg-magazin.de",
+  "robotsTxt": "# robots.txt - 2023 - Dumrath & Fassnacht KG (GmbH & Co.) - hamburg-magazin.de\r\n# service@hamburg-magazin.de\r\n#\r\n# Aenderungen: \r\n# 19.02.2020 - Launch\r\n# 22.03.2023 - Laravel / Kubernetes-Cluster\r\n# 28.03.2025 - vcard disallow\r\n# 09.07.2025 - llms.txt\r\n\r\nSitemap: https://www.hamburg-magazin.de/sitemaps/hamburg-magazin-de/cms_indexSitemap.xml\r\nSitemap: https://www.hamburg-magazin.de/sitemaps/hamburg-magazin-de/detail_indexSitemap.xml\r\nSitemap: https://www.hamburg-magazin.de/sitemaps/hamburg-magazin-de/resultlists_indexSitemap.xml\r\nSitemap: https://www.hamburg-magazin.de/feed/rss\t\r\nSitemap: https://www.hamburg-magazin.de/feed/google-news\t\r\nSitemap: https://www.hamburg-magazin.de/llms.txt\r\n\r\nUser-agent: *\r\nDisallow: /vcard/",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/vcard/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/vcard/"
+    ]
+  }
 }

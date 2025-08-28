@@ -1,22 +1,170 @@
 {
   "domain": "www.walbusch.de",
   "normalizedDomain": "www.walbusch.de",
-  "bots": [
+  "robotsTxt": "# Google AdBot\r\nUser-agent: AdsBot-Google\r\nDisallow:\r\nAllow: /search\r\nDisallow: /my-account/\r\nDisallow: /checkout/\r\nDisallow: /login/\r\nDisallow: /view/\r\nDisallow: /neukunde/\r\nDisallow: /ratings\r\nDisallow: *VARNISH*\r\nDisallow: /_Incapsula_Resource*\r\nDisallow: /messages\r\nDisallow: /layer?id=*\r\nDisallow: *.htm$\r\nAllow: */reviews/product/*/*.htm$\r\nDisallow: /variants/\r\nDisallow: /cart/\r\nDisallow: /lastVisitedProducts*\r\nDisallow: /noteslist\r\n\r\n# Google AdBot Mobile\r\nUser-agent: AdsBot-Google-Mobile\r\nDisallow:\r\nAllow: /search\r\nDisallow: /my-account/\r\nDisallow: /checkout/\r\nDisallow: /login/\r\nDisallow: /view/\r\nDisallow: /neukunde/\r\nDisallow: /ratings\r\nDisallow: *VARNISH*\r\nDisallow: /_Incapsula_Resource*\r\nDisallow: /messages\r\nDisallow: /layer?id=*\r\nDisallow: *.htm$\r\nAllow: */reviews/product/*/*.htm$\r\nDisallow: /variants/\r\nDisallow: /cart/\r\nDisallow: /lastVisitedProducts*\r\nDisallow: /noteslist\r\n\r\n# Bing AdBot\r\nUser-agent: AdIdxBot\r\nDisallow:\r\nAllow: /search\r\nDisallow: /my-account/\r\nDisallow: /checkout/\r\nDisallow: /login/\r\nDisallow: /view/\r\nDisallow: /neukunde/\r\nDisallow: /ratings\r\nDisallow: *VARNISH*\r\nDisallow: /_Incapsula_Resource*\r\nDisallow: /messages\r\nDisallow: /layer?id=*\r\nDisallow: *.htm$\r\nAllow: */reviews/product/*/*.htm$\r\nDisallow: /variants/\r\nDisallow: /cart/\r\nDisallow: /lastVisitedProducts*\r\nDisallow: /noteslist\r\n\r\n# For all robots\r\nUser-agent: *\r\nDisallow:\r\nDisallow: *?cmpscreen\r\nDisallow: *?bvstate\r\nDisallow: /my-account/\r\nDisallow: /checkout/\r\nDisallow: /login/\r\nDisallow: /view/\r\nDisallow: /neukunde/\r\nDisallow: /ratings\r\nDisallow: /search\r\nDisallow: *VARNISH*\r\nDisallow: /_Incapsula_Resource*\r\nDisallow: /messages\r\nDisallow: /layer?id=*\r\nDisallow: *.htm$\r\nAllow: */reviews/product/*/*.htm$\r\nDisallow: /variants/\r\nDisallow: /cart/\r\nDisallow: /lastVisitedProducts*\r\nDisallow: *followSearch*\r\nDisallow: *&f_*\r\nDisallow: *csrfToken=*\r\nDisallow: /noteslist\r\n\r\nSitemap: https://www.walbusch.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "*/reviews/product/*/*.htm$"
+      ],
+      "disallowed": [
+        "*?cmpscreen",
+        "*?bvstate",
+        "/my-account/",
+        "/checkout/",
+        "/login/",
+        "/view/",
+        "/neukunde/",
+        "/ratings",
+        "/search",
+        "*VARNISH*",
+        "/_Incapsula_Resource*",
+        "/messages",
+        "/layer?id=*",
+        "*.htm$",
+        "/variants/",
+        "/cart/",
+        "/lastVisitedProducts*",
+        "*followSearch*",
+        "*&f_*",
+        "*csrfToken=*",
+        "/noteslist"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "AdsBot-Google",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/search",
+          "*/reviews/product/*/*.htm$"
+        ],
+        "disallowed": [
+          "/my-account/",
+          "/checkout/",
+          "/login/",
+          "/view/",
+          "/neukunde/",
+          "/ratings",
+          "*VARNISH*",
+          "/_Incapsula_Resource*",
+          "/messages",
+          "/layer?id=*",
+          "*.htm$",
+          "/variants/",
+          "/cart/",
+          "/lastVisitedProducts*",
+          "/noteslist"
+        ]
+      }
     },
     {
       "name": "AdsBot-Google-Mobile",
-      "allowed": true
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/search",
+          "*/reviews/product/*/*.htm$"
+        ],
+        "disallowed": [
+          "/my-account/",
+          "/checkout/",
+          "/login/",
+          "/view/",
+          "/neukunde/",
+          "/ratings",
+          "*VARNISH*",
+          "/_Incapsula_Resource*",
+          "/messages",
+          "/layer?id=*",
+          "*.htm$",
+          "/variants/",
+          "/cart/",
+          "/lastVisitedProducts*",
+          "/noteslist"
+        ]
+      }
     },
     {
       "name": "AdIdxBot",
-      "allowed": true
-    },
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/search",
+          "*/reviews/product/*/*.htm$"
+        ],
+        "disallowed": [
+          "/my-account/",
+          "/checkout/",
+          "/login/",
+          "/view/",
+          "/neukunde/",
+          "/ratings",
+          "*VARNISH*",
+          "/_Incapsula_Resource*",
+          "/messages",
+          "/layer?id=*",
+          "*.htm$",
+          "/variants/",
+          "/cart/",
+          "/lastVisitedProducts*",
+          "/noteslist"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": false
+  },
+  "bots": [
     {
       "name": "*",
-      "allowed": true
+      "allowed": false
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": false
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": false
+    },
+    {
+      "name": "AdIdxBot",
+      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "*/reviews/product/*/*.htm$"
+    ],
+    "disallowed": [
+      "*?cmpscreen",
+      "*?bvstate",
+      "/my-account/",
+      "/checkout/",
+      "/login/",
+      "/view/",
+      "/neukunde/",
+      "/ratings",
+      "/search",
+      "*VARNISH*",
+      "/_Incapsula_Resource*",
+      "/messages",
+      "/layer?id=*",
+      "*.htm$",
+      "/variants/",
+      "/cart/",
+      "/lastVisitedProducts*",
+      "*followSearch*",
+      "*&f_*",
+      "*csrfToken=*",
+      "/noteslist"
+    ]
+  }
 }

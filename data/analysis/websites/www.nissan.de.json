@@ -1,10 +1,54 @@
 {
   "domain": "www.nissan.de",
   "normalizedDomain": "www.nissan.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /tel*\r\nDisallow: *_jcr_content.logout.html\r\nDisallow: *jcr_content.logout.html\r\nDisallow: *jcr:content.proxy.json\r\nDisallow: *_jcr_content*\r\nDisallow: *jcr:content*\r\nDisallow: /*?*page*\r\nDisallow: /*?*size*\r\nDisallow: /*?*location*\r\nDisallow: *?modelSpecCode=*\r\nDisallow: *?query=*\r\nDisallow: /404*\r\n\r\nSitemap: https://www.nissan.de/index.pages-sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/tel*",
+        "*_jcr_content.logout.html",
+        "*jcr_content.logout.html",
+        "*jcr:content.proxy.json",
+        "*_jcr_content*",
+        "*jcr:content*",
+        "/*?*page*",
+        "/*?*size*",
+        "/*?*location*",
+        "*?modelSpecCode=*",
+        "*?query=*",
+        "/404*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/tel*",
+      "*_jcr_content.logout.html",
+      "*jcr_content.logout.html",
+      "*jcr:content.proxy.json",
+      "*_jcr_content*",
+      "*jcr:content*",
+      "/*?*page*",
+      "/*?*size*",
+      "/*?*location*",
+      "*?modelSpecCode=*",
+      "*?query=*",
+      "/404*"
+    ]
+  }
 }

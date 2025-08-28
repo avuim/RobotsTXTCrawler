@@ -1,6 +1,34 @@
 {
   "domain": "www.businessinsider.de",
   "normalizedDomain": "www.businessinsider.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /wp-admin/\r\nDisallow: /cdn-cgi/\r\nAllow: /wp-admin/admin-ajax.php\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nSitemap: https://www.businessinsider.de/news-sitemap.xml\r\nSitemap: https://www.businessinsider.de/sitemap_index.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/wp-admin/admin-ajax.php"
+      ],
+      "disallowed": [
+        "/wp-admin/",
+        "/cdn-cgi/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -10,5 +38,14 @@
       "name": "GPTBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/wp-admin/admin-ajax.php"
+    ],
+    "disallowed": [
+      "/wp-admin/",
+      "/cdn-cgi/"
+    ]
+  }
 }

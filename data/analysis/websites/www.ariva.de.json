@@ -1,10 +1,106 @@
 {
   "domain": "www.ariva.de",
   "normalizedDomain": "www.ariva.de",
+  "robotsTxt": "User-agent: *\nDisallow: /count*.m\nDisallow: /client_test.m\nDisallow: /test/\nDisallow: /forum/bewertung/bewertung.js\nDisallow: /forum/buddy/\nDisallow: /forum/lesezeichen\nDisallow: /forum/rater.m\nDisallow: /search/\nDisallow: /suche_result\nDisallow: /suche/\nDisallow: /suche.m\nDisallow: /finder/\nDisallow: /finder.m\nDisallow: /user/\nDisallow: /agb.pdf\nDisallow: /themenspecials/msci_disclaimer.m\nDisallow: */chart/chartanalyse*\nDisallow: */szenario_rechner\nDisallow: */auszahlungsprofil\nDisallow: /hebelprodukte/*/kurse/*\nDisallow: /zertifikate/*/kurse/*\nDisallow: /js/prg*\nDisallow: /js/menu*\nDisallow: /js/progressive/menu*\nDisallow: /media*\nDisallow: *_ajax.m\nDisallow: *_ajax\nDisallow: */ajax\nDisallow: *_modal\nDisallow: *_ratings_detail\nDisallow: */anlageprodukte*\n\n\nDisallow: /aktien/finder\nDisallow: */chart?\nDisallow: /push?\nDisallow: /api/\nDisallow: /extras/fertig.m\n\nDisallow: */rss\nDisallow: */feed.xml\n\nSitemap: https://www.ariva.de/sitemap.xml\nSitemap: https://www.ariva.de/sitemap_news.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/count*.m",
+        "/client_test.m",
+        "/test/",
+        "/forum/bewertung/bewertung.js",
+        "/forum/buddy/",
+        "/forum/lesezeichen",
+        "/forum/rater.m",
+        "/search/",
+        "/suche_result",
+        "/suche/",
+        "/suche.m",
+        "/finder/",
+        "/finder.m",
+        "/user/",
+        "/agb.pdf",
+        "/themenspecials/msci_disclaimer.m",
+        "*/chart/chartanalyse*",
+        "*/szenario_rechner",
+        "*/auszahlungsprofil",
+        "/hebelprodukte/*/kurse/*",
+        "/zertifikate/*/kurse/*",
+        "/js/prg*",
+        "/js/menu*",
+        "/js/progressive/menu*",
+        "/media*",
+        "*_ajax.m",
+        "*_ajax",
+        "*/ajax",
+        "*_modal",
+        "*_ratings_detail",
+        "*/anlageprodukte*",
+        "/aktien/finder",
+        "*/chart?",
+        "/push?",
+        "/api/",
+        "/extras/fertig.m",
+        "*/rss",
+        "*/feed.xml"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/count*.m",
+      "/client_test.m",
+      "/test/",
+      "/forum/bewertung/bewertung.js",
+      "/forum/buddy/",
+      "/forum/lesezeichen",
+      "/forum/rater.m",
+      "/search/",
+      "/suche_result",
+      "/suche/",
+      "/suche.m",
+      "/finder/",
+      "/finder.m",
+      "/user/",
+      "/agb.pdf",
+      "/themenspecials/msci_disclaimer.m",
+      "*/chart/chartanalyse*",
+      "*/szenario_rechner",
+      "*/auszahlungsprofil",
+      "/hebelprodukte/*/kurse/*",
+      "/zertifikate/*/kurse/*",
+      "/js/prg*",
+      "/js/menu*",
+      "/js/progressive/menu*",
+      "/media*",
+      "*_ajax.m",
+      "*_ajax",
+      "*/ajax",
+      "*_modal",
+      "*_ratings_detail",
+      "*/anlageprodukte*",
+      "/aktien/finder",
+      "*/chart?",
+      "/push?",
+      "/api/",
+      "/extras/fertig.m",
+      "*/rss",
+      "*/feed.xml"
+    ]
+  }
 }

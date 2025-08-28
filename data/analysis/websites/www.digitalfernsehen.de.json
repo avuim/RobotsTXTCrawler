@@ -1,14 +1,53 @@
 {
   "domain": "www.digitalfernsehen.de",
   "normalizedDomain": "www.digitalfernsehen.de",
+  "robotsTxt": "Sitemap: https://www.digitalfernsehen.de/sitemap.xml\nSitemap: https://www.digitalfernsehen.de/sitemap-news.xml\n\nUser-agent: *\nDisallow: /cgi-bin/\nDisallow: /cgi/\nDisallow: /cdn-cgi/\nDisallow: /trackback/\n\nUser-agent: Googlebot\nDisallow: /page/*/?filter_by=",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/cgi-bin/",
+        "/cgi/",
+        "/cdn-cgi/",
+        "/trackback/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/page/*/?filter_by="
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Googlebot",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/cgi-bin/",
+      "/cgi/",
+      "/cdn-cgi/",
+      "/trackback/"
+    ]
+  }
 }

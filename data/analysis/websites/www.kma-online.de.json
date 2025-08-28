@@ -1,10 +1,50 @@
 {
   "domain": "www.kma-online.de",
   "normalizedDomain": "www.kma-online.de",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\nDisallow: /typo3/\r\nDisallow: /typo3_src/\r\nDisallow: /termine/\r\nDisallow: /suche/\r\nDisallow: /service/suche\r\nDisallow: /service/suche/\r\nDisallow: /backend/\r\nDisallow: /fileadmin/KMA/Download/Stellenanzeigen/\r\nAllow: /typo3/sysext/frontend/Resources/Public/*",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/typo3/sysext/frontend/Resources/Public/*"
+      ],
+      "disallowed": [
+        "/typo3/",
+        "/typo3_src/",
+        "/termine/",
+        "/suche/",
+        "/service/suche",
+        "/service/suche/",
+        "/backend/",
+        "/fileadmin/KMA/Download/Stellenanzeigen/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/typo3/sysext/frontend/Resources/Public/*"
+    ],
+    "disallowed": [
+      "/typo3/",
+      "/typo3_src/",
+      "/termine/",
+      "/suche/",
+      "/service/suche",
+      "/service/suche/",
+      "/backend/",
+      "/fileadmin/KMA/Download/Stellenanzeigen/"
+    ]
+  }
 }

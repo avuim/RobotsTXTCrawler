@@ -1,10 +1,78 @@
 {
   "domain": "www.ontario.ca",
   "normalizedDomain": "www.ontario.ca",
+  "robotsTxt": "User-agent: *\r\nCrawl-delay: 1\r\n\r\nAllow: /core/*.css$\r\nAllow: /core/*.css?\r\nAllow: /core/*.js$\r\nAllow: /core/*.js?\r\nAllow: /core/*.gif\r\nAllow: /core/*.jpg\r\nAllow: /core/*.jpeg\r\nAllow: /core/*.png\r\nAllow: /core/*.svg\r\nAllow: /profiles/*.css$\r\nAllow: /profiles/*.css?\r\nAllow: /profiles/*.js$\r\nAllow: /profiles/*.js?\r\nAllow: /profiles/*.gif\r\nAllow: /profiles/*.jpg\r\nAllow: /profiles/*.jpeg\r\nAllow: /profiles/*.png\r\nAllow: /profiles/*.svg\r\n\r\nDisallow: /core/\r\nDisallow: /profiles/\r\nDisallow: /files/20*-*/ontariogazette*.pdf$\r\nDisallow: /feedback/contact-us\r\nDisallow: /fr/commentaires/pour-nous-joindre\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/core/*.css$",
+        "/core/*.css?",
+        "/core/*.js$",
+        "/core/*.js?",
+        "/core/*.gif",
+        "/core/*.jpg",
+        "/core/*.jpeg",
+        "/core/*.png",
+        "/core/*.svg",
+        "/profiles/*.css$",
+        "/profiles/*.css?",
+        "/profiles/*.js$",
+        "/profiles/*.js?",
+        "/profiles/*.gif",
+        "/profiles/*.jpg",
+        "/profiles/*.jpeg",
+        "/profiles/*.png",
+        "/profiles/*.svg"
+      ],
+      "disallowed": [
+        "/core/",
+        "/profiles/",
+        "/files/20*-*/ontariogazette*.pdf$",
+        "/feedback/contact-us",
+        "/fr/commentaires/pour-nous-joindre"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/core/*.css$",
+      "/core/*.css?",
+      "/core/*.js$",
+      "/core/*.js?",
+      "/core/*.gif",
+      "/core/*.jpg",
+      "/core/*.jpeg",
+      "/core/*.png",
+      "/core/*.svg",
+      "/profiles/*.css$",
+      "/profiles/*.css?",
+      "/profiles/*.js$",
+      "/profiles/*.js?",
+      "/profiles/*.gif",
+      "/profiles/*.jpg",
+      "/profiles/*.jpeg",
+      "/profiles/*.png",
+      "/profiles/*.svg"
+    ],
+    "disallowed": [
+      "/core/",
+      "/profiles/",
+      "/files/20*-*/ontariogazette*.pdf$",
+      "/feedback/contact-us",
+      "/fr/commentaires/pour-nous-joindre"
+    ]
+  }
 }

@@ -1,5 +1,28 @@
 {
   "domain": "www.rockantenne.de",
   "normalizedDomain": "www.rockantenne.de",
-  "bots": []
+  "robotsTxt": "User-agent: *\r\n\r\nSitemap: https://www.rockantenne.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

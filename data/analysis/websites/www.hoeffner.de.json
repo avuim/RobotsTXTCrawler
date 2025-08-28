@@ -1,10 +1,44 @@
 {
   "domain": "www.hoeffner.de",
   "normalizedDomain": "www.hoeffner.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /warenkorb\r\nDisallow: /kundenkonto\r\nDisallow: /bestellung\r\nDisallow: /newsletter-einstellungen\r\nDisallow: /stoffmuster-\r\nDisallow: /konfigurator\r\nDisallow: /*.htm$\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/warenkorb",
+        "/kundenkonto",
+        "/bestellung",
+        "/newsletter-einstellungen",
+        "/stoffmuster-",
+        "/konfigurator",
+        "/*.htm$"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/warenkorb",
+      "/kundenkonto",
+      "/bestellung",
+      "/newsletter-einstellungen",
+      "/stoffmuster-",
+      "/konfigurator",
+      "/*.htm$"
+    ]
+  }
 }

@@ -1,10 +1,32 @@
 {
   "domain": "www.page-online.de",
   "normalizedDomain": "www.page-online.de",
+  "robotsTxt": "User-agent: *\nDisallow: /heft/\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/heft/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/heft/"
+    ]
+  }
 }

@@ -1,6 +1,32 @@
 {
   "domain": "www.mondelezinternational.com",
   "normalizedDomain": "www.mondelezinternational.com",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\nDisallow: /assets/\r\nDisallow: /*.pdf$\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\nSitemap: https://www.mondelezinternational.com/sitemap.xml\r\nHost: https://www.mondelezinternational.com\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/assets/",
+        "/*.pdf$"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -10,5 +36,12 @@
       "name": "GPTBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/assets/",
+      "/*.pdf$"
+    ]
+  }
 }

@@ -1,10 +1,100 @@
 {
   "domain": "www.moviepilot.de",
   "normalizedDomain": "www.moviepilot.de",
+  "robotsTxt": "User-Agent: *\nDisallow: /admin/*\nDisallow: /comments*\nDisallow: /movies/*/rating\nDisallow: /movies/*/sidebar_watch.partial\nDisallow: /movies/*/administration\nDisallow: /movies/*/kinoprogramm/*/*/*/*\nDisallow: /movies/*/comments/\nDisallow: /people/*/followships\nDisallow: /people/*/comments/\nDisallow: /people/*/assets/\nDisallow: /serie/*/rating\nDisallow: /serie/*/kritik/\nDisallow: /serie/*/staffel/*/kritik/\nDisallow: /kino/*/*/*/*/kinoprogramm\nDisallow: /kino/kinoprogramm/*/*/*/*\nDisallow: /kinoprogramm/kino/*/add_favourite\nDisallow: */subscriptions/*\nDisallow: */diggs*\nDisallow: /myprofile\nDisallow: /amazon_search/*\nDisallow: /itunes_search/*\nDisallow: /*?play=true$\nDisallow: /*?reset_city=1\nDisallow: /myprofile\nDisallow: /archive/stars/character/*\nDisallow: /lists/*\nDisallow: /news/newsletter\nDisallow: /news/*/comments/\nDisallow: /suche\nDisallow: /tv/fernsehprogramm/\nDisallow: /broadcasts/\nDisallow: /liste/*/comments/\nDisallow: /streaming/*/*/*\nDisallow: /missing_headers.csv\nDisallow: /remote_headers.csv\nDisallow: /failed_header_checks.csv\n\nSitemap: https://www.moviepilot.de/files/sitemaps/cinemas_movies_in_cities.xml.gz\nSitemap: https://www.moviepilot.de/files/sitemaps/discovery.xml.gz\nSitemap: https://www.moviepilot.de/files/sitemaps/video.xml.gz\nSitemap: https://www.moviepilot.de/files/sitemaps/moviepilot_articles.xml.gz\nSitemap: https://www.moviepilot.de/files/sitemaps/moviepilot_article_archive.xml.gz\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/admin/*",
+        "/comments*",
+        "/movies/*/rating",
+        "/movies/*/sidebar_watch.partial",
+        "/movies/*/administration",
+        "/movies/*/kinoprogramm/*/*/*/*",
+        "/movies/*/comments/",
+        "/people/*/followships",
+        "/people/*/comments/",
+        "/people/*/assets/",
+        "/serie/*/rating",
+        "/serie/*/kritik/",
+        "/serie/*/staffel/*/kritik/",
+        "/kino/*/*/*/*/kinoprogramm",
+        "/kino/kinoprogramm/*/*/*/*",
+        "/kinoprogramm/kino/*/add_favourite",
+        "*/subscriptions/*",
+        "*/diggs*",
+        "/myprofile",
+        "/amazon_search/*",
+        "/itunes_search/*",
+        "/*?play=true$",
+        "/*?reset_city=1",
+        "/archive/stars/character/*",
+        "/lists/*",
+        "/news/newsletter",
+        "/news/*/comments/",
+        "/suche",
+        "/tv/fernsehprogramm/",
+        "/broadcasts/",
+        "/liste/*/comments/",
+        "/streaming/*/*/*",
+        "/missing_headers.csv",
+        "/remote_headers.csv",
+        "/failed_header_checks.csv"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/admin/*",
+      "/comments*",
+      "/movies/*/rating",
+      "/movies/*/sidebar_watch.partial",
+      "/movies/*/administration",
+      "/movies/*/kinoprogramm/*/*/*/*",
+      "/movies/*/comments/",
+      "/people/*/followships",
+      "/people/*/comments/",
+      "/people/*/assets/",
+      "/serie/*/rating",
+      "/serie/*/kritik/",
+      "/serie/*/staffel/*/kritik/",
+      "/kino/*/*/*/*/kinoprogramm",
+      "/kino/kinoprogramm/*/*/*/*",
+      "/kinoprogramm/kino/*/add_favourite",
+      "*/subscriptions/*",
+      "*/diggs*",
+      "/myprofile",
+      "/amazon_search/*",
+      "/itunes_search/*",
+      "/*?play=true$",
+      "/*?reset_city=1",
+      "/archive/stars/character/*",
+      "/lists/*",
+      "/news/newsletter",
+      "/news/*/comments/",
+      "/suche",
+      "/tv/fernsehprogramm/",
+      "/broadcasts/",
+      "/liste/*/comments/",
+      "/streaming/*/*/*",
+      "/missing_headers.csv",
+      "/remote_headers.csv",
+      "/failed_header_checks.csv"
+    ]
+  }
 }

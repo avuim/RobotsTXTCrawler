@@ -1,10 +1,60 @@
 {
   "domain": "www.ford.de",
   "normalizedDomain": "www.ford.de",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\n\r\nDisallow:*/content/overlays/*\r\nDisallow:*/content/applications-labels/*\r\nDisallow:*/content/error-pages/*\r\nDisallow:*/content/forms/*\r\nDisallow:*/content/guxeu/de/de_de/site-wide-content\r\nDisallow:*/hilfe/online-service-buchung/händler/*\r\nDisallow:*/finanzen/fordbank-online-vertragmanager/*\r\nDisallow:*/dashboard/*\r\nDisallow:*/search*\r\nDisallow:*/forms/*\r\nDisallow:*/offer-*\r\nDisallow:*/teilnahmebedingungen-gewinnspiel-fordpass*\r\nDisallow:*/content/dam/guxeu/de/documents/target/BRO-trends-im-flottenmanagement\nDisallow:*/content/guxeu-beta/de/de_de/home/shop/buy-online/build-your-ford/mec/*\nDisallow:*/content/dam/guxeu/de/documents/terms-and-conditions/PDF-teilnahmebedingungen_teste_einen_gewinne_deinen.pdf\n\r\n\r\n\r\nSitemap: https://www.ford.de/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "*/content/overlays/*",
+        "*/content/applications-labels/*",
+        "*/content/error-pages/*",
+        "*/content/forms/*",
+        "*/content/guxeu/de/de_de/site-wide-content",
+        "*/hilfe/online-service-buchung/händler/*",
+        "*/finanzen/fordbank-online-vertragmanager/*",
+        "*/dashboard/*",
+        "*/search*",
+        "*/forms/*",
+        "*/offer-*",
+        "*/teilnahmebedingungen-gewinnspiel-fordpass*",
+        "*/content/dam/guxeu/de/documents/target/BRO-trends-im-flottenmanagement",
+        "*/content/guxeu-beta/de/de_de/home/shop/buy-online/build-your-ford/mec/*",
+        "*/content/dam/guxeu/de/documents/terms-and-conditions/PDF-teilnahmebedingungen_teste_einen_gewinne_deinen.pdf"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "*/content/overlays/*",
+      "*/content/applications-labels/*",
+      "*/content/error-pages/*",
+      "*/content/forms/*",
+      "*/content/guxeu/de/de_de/site-wide-content",
+      "*/hilfe/online-service-buchung/händler/*",
+      "*/finanzen/fordbank-online-vertragmanager/*",
+      "*/dashboard/*",
+      "*/search*",
+      "*/forms/*",
+      "*/offer-*",
+      "*/teilnahmebedingungen-gewinnspiel-fordpass*",
+      "*/content/dam/guxeu/de/documents/target/BRO-trends-im-flottenmanagement",
+      "*/content/guxeu-beta/de/de_de/home/shop/buy-online/build-your-ford/mec/*",
+      "*/content/dam/guxeu/de/documents/terms-and-conditions/PDF-teilnahmebedingungen_teste_einen_gewinne_deinen.pdf"
+    ]
+  }
 }

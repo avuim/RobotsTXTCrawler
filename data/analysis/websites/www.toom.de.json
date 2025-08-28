@@ -1,14 +1,110 @@
 {
   "domain": "www.toom.de",
   "normalizedDomain": "www.toom.de",
+  "robotsTxt": "User-agent: *\r\n\r\n# Disallow Typo3 internals\r\nDisallow: /typo3/\r\nDisallow: /t3lib/\r\nDisallow: /typo3_src*\r\n\r\n# Disallow special folders from fileadmin\r\nDisallow: /fileadmin/_temp_/\r\nDisallow: /fileadmin/coupons/\r\nDisallow: /fileadmin/sass/\r\nDisallow: /fileadmin/templates/\r\nDisallow: /fileadmin/toom_import/lib/\r\nDisallow: /fileadmin/toom-import/*.*\r\nDisallow: /fileadmin/typoscripts/\r\nDisallow: /fileadmin/user_upload/kontaktanfragen/dateianhaenge/\r\n\r\n# Disallow URLs with specific parameters\r\nDisallow: /*?SID=\r\nDisallow: /*userinput\r\nDisallow: /*userInput\r\nDisallow: /*queryfromsuggest\r\nDisallow: /*queryFromSuggest\r\nDisallow: /*sc_src=email\r\nDisallow: /*gisAutoCall\r\nDisallow: /*app_loyaltycard\r\nDisallow: /s/*+\r\nDisallow: /s/*accid=\r\nDisallow: /s/*?page=\r\n\r\n\r\n\r\n# Bingbot specially\r\nUser-agent: bingbot\r\ncrawl-delay: 30\r\nDisallow: /typo3/\r\nDisallow: /t3lib/\r\nDisallow: /typo3_src*\r\nDisallow: /fileadmin/_temp_/\r\nDisallow: /fileadmin/coupons/\r\nDisallow: /fileadmin/sass/\r\nDisallow: /fileadmin/templates/\r\nDisallow: /fileadmin/toom_import/lib/\r\nDisallow: /fileadmin/toom-import/*.*\r\nDisallow: /fileadmin/typoscripts/\r\nDisallow: /fileadmin/user_upload/kontaktanfragen/dateianhaenge/\r\nDisallow: /*?SID=\r\nDisallow: /*userinput\r\nDisallow: /*userInput\r\nDisallow: /*queryfromsuggest\r\nDisallow: /*queryFromSuggest\r\nDisallow: /*sc_src=email\r\nDisallow: /*gisAutoCall\r\nDisallow: /*app_loyaltycard\r\nDisallow: /s/*+\r\nDisallow: /s/*accid=\r\nDisallow: /s/*?page=\r\n\r\n\r\n\r\n### XML-Sitemap\r\nSitemap: https://static.toom.de/sitemap/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/typo3/",
+        "/t3lib/",
+        "/typo3_src*",
+        "/fileadmin/_temp_/",
+        "/fileadmin/coupons/",
+        "/fileadmin/sass/",
+        "/fileadmin/templates/",
+        "/fileadmin/toom_import/lib/",
+        "/fileadmin/toom-import/*.*",
+        "/fileadmin/typoscripts/",
+        "/fileadmin/user_upload/kontaktanfragen/dateianhaenge/",
+        "/*?SID=",
+        "/*userinput",
+        "/*userInput",
+        "/*queryfromsuggest",
+        "/*queryFromSuggest",
+        "/*sc_src=email",
+        "/*gisAutoCall",
+        "/*app_loyaltycard",
+        "/s/*+",
+        "/s/*accid=",
+        "/s/*?page="
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/typo3/",
+          "/t3lib/",
+          "/typo3_src*",
+          "/fileadmin/_temp_/",
+          "/fileadmin/coupons/",
+          "/fileadmin/sass/",
+          "/fileadmin/templates/",
+          "/fileadmin/toom_import/lib/",
+          "/fileadmin/toom-import/*.*",
+          "/fileadmin/typoscripts/",
+          "/fileadmin/user_upload/kontaktanfragen/dateianhaenge/",
+          "/*?SID=",
+          "/*userinput",
+          "/*userInput",
+          "/*queryfromsuggest",
+          "/*queryFromSuggest",
+          "/*sc_src=email",
+          "/*gisAutoCall",
+          "/*app_loyaltycard",
+          "/s/*+",
+          "/s/*accid=",
+          "/s/*?page="
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "bingbot",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/typo3/",
+      "/t3lib/",
+      "/typo3_src*",
+      "/fileadmin/_temp_/",
+      "/fileadmin/coupons/",
+      "/fileadmin/sass/",
+      "/fileadmin/templates/",
+      "/fileadmin/toom_import/lib/",
+      "/fileadmin/toom-import/*.*",
+      "/fileadmin/typoscripts/",
+      "/fileadmin/user_upload/kontaktanfragen/dateianhaenge/",
+      "/*?SID=",
+      "/*userinput",
+      "/*userInput",
+      "/*queryfromsuggest",
+      "/*queryFromSuggest",
+      "/*sc_src=email",
+      "/*gisAutoCall",
+      "/*app_loyaltycard",
+      "/s/*+",
+      "/s/*accid=",
+      "/s/*?page="
+    ]
+  }
 }

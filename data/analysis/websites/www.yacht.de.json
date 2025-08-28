@@ -1,6 +1,54 @@
 {
   "domain": "www.yacht.de",
   "normalizedDomain": "www.yacht.de",
+  "robotsTxt": "Sitemap: https://www.yacht.de/api/sitemap\r\n\r\nUser-agent: *\r\nAllow: /*\r\nAllow: /_next/static/*\r\nAllow: /_next/static/css/*\r\nAllow: /_next/static/chunks/*\r\n\r\nDisallow: /api/*\r\nAllow: /api/sitemap\r\nDisallow: /serverless/*\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nUser-agent: ChatGPT-User\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/*",
+        "/_next/static/*",
+        "/_next/static/css/*",
+        "/_next/static/chunks/*",
+        "/api/sitemap"
+      ],
+      "disallowed": [
+        "/api/*",
+        "/serverless/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -18,5 +66,18 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/*",
+      "/_next/static/*",
+      "/_next/static/css/*",
+      "/_next/static/chunks/*",
+      "/api/sitemap"
+    ],
+    "disallowed": [
+      "/api/*",
+      "/serverless/*"
+    ]
+  }
 }

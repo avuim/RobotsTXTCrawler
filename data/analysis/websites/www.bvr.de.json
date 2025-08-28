@@ -1,10 +1,34 @@
 {
   "domain": "www.bvr.de",
   "normalizedDomain": "www.bvr.de",
+  "robotsTxt": "User-agent: *\r\nDisallow:\r\nDisallow: /cgi-bin/\r\nDisallow: /admin/\r\nSitemap: https://www.bvr.de/p.nsf/sitemap.xsp",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/cgi-bin/",
+        "/admin/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/cgi-bin/",
+      "/admin/"
+    ]
+  }
 }

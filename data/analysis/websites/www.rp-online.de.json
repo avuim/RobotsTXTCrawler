@@ -1,10 +1,42 @@
 {
   "domain": "www.rp-online.de",
   "normalizedDomain": "www.rp-online.de",
+  "robotsTxt": "User-agent: *\nDisallow: /api/\nDisallow: /sso/\nDisallow: /soko/\nDisallow: /suche/\nDisallow: /allgemeines/altdaten/\nDisallow: */extra/*\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/api/",
+        "/sso/",
+        "/soko/",
+        "/suche/",
+        "/allgemeines/altdaten/",
+        "*/extra/*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/api/",
+      "/sso/",
+      "/soko/",
+      "/suche/",
+      "/allgemeines/altdaten/",
+      "*/extra/*"
+    ]
+  }
 }

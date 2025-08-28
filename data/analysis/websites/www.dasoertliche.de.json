@@ -1,10 +1,28 @@
 {
   "domain": "www.dasoertliche.de",
   "normalizedDomain": "www.dasoertliche.de",
+  "robotsTxt": "# robots.txt for https://www.dasoertliche.de/\n# last update: 20250715\n\nUser-agent: *\nDisallow:\n\n# Sitemap files\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_dynamic.xml\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_wnt_tl_network.xml\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_wnt_tl.xml\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_street.xml\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_faq_hitlist.xml\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_wnt_detail.xml\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_detail_ta1.xml\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_detail_ta2.xml\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_detail_ta3.xml\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_lr.xml\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_lp.xml\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_landingpage_1.xml.gz\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_near_by.xml\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_emergency_vet.xml\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_gel.xml\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_not.xml\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_plz.xml\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_vor.xml\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_ben_tl.xml\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_index_ben_ds.xml\nSitemap: https://www.dasoertliche.de/freibad/sitemaps/sitemap_index.xml\nSitemap: https://www.dasoertliche.de/weihnachtsmarkt/sitemaps/sitemap_index.xml\nSitemap: https://www.dasoertliche.de/unternehmen/sitemap.xml\nSitemap: https://www.dasoertliche.de/sitemaps/oe_sitemap_landingpage_1.xml.gz\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

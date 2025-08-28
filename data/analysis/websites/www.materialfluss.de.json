@@ -1,10 +1,328 @@
 {
   "domain": "www.materialfluss.de",
   "normalizedDomain": "www.materialfluss.de",
+  "robotsTxt": "User-agent: *\nDisallow: /*wihtm\nDisallow: /*prhtm\nDisallow: /*bfhtm\nDisallow: /*alhtm\nDisallow: /*?recommendationForm\nDisallow: /*?pclDetailId\n\n\nUser-agent: SeekportBot\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: ia_archiver\nDisallow: /\n\nUser-Agent: omgili\nDisallow: /\n\nUser-Agent: omgilibot\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: DataForSeoBot\nDisallow: /\n\nUser-agent: Yeti\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: sentibot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: SirdataBot\nDisallow: /\n\nUser-agent: LCC\nDisallow: /\n\nUser-agent: TurnitinBot\nDisallow: /\n\nUser-agent: BLEXBot\nDisallow: /\n\nUser-agent: dotbot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: GrapeshotCrawler\nDisallow: /\n\nUser-agent: Meltwater\nDisallow: /\n\nUser-agent: NewsNow\nDisallow: /\n\nUser-agent: Bloodhound\nDisallow: /\n\nUser-agent: cydralspider\nDisallow: /\n\nUser-agent: downloadexpress\nDisallow: /\n\nUser-agent: gammaSpider\nDisallow: /\n\nUser-agent: ObjectsSearch\nDisallow: /\n\nUser-agent: Pimptrain\nDisallow: /\n\nUser-agent: Raven\nDisallow: /\n\nUser-agent: wapspider\nDisallow: /\n\n\nUser-agent: Amazonbot\nDisallow: /\nSitemap: http://www.materialfluss.de/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*wihtm",
+        "/*prhtm",
+        "/*bfhtm",
+        "/*alhtm",
+        "/*?recommendationForm",
+        "/*?pclDetailId"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "SeekportBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yeti",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SirdataBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LCC",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GrapeshotCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 37,
+    "allowedBots": 0,
+    "disallowedBots": 37,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "SeekportBot",
@@ -103,6 +421,10 @@
       "allowed": false
     },
     {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
       "name": "GrapeshotCrawler",
       "allowed": false
     },
@@ -150,5 +472,16 @@
       "name": "Amazonbot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*wihtm",
+      "/*prhtm",
+      "/*bfhtm",
+      "/*alhtm",
+      "/*?recommendationForm",
+      "/*?pclDetailId"
+    ]
+  }
 }

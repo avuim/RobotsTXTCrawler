@@ -1,10 +1,58 @@
 {
   "domain": "www.innsbruck.info",
   "normalizedDomain": "www.innsbruck.info",
+  "robotsTxt": "User-agent: *\r\n\r\nDisallow: /*?sessionid\r\nDisallow: /epaper/\r\nDisallow: /tagung/webxanfrage/\r\n\r\nDisallow: /*?L=*\r\nDisallow: /*?tx_webxbookingemo_event[listevent]=*\r\n\r\nDisallow: /*?id=* # Deaktiviert non-realurl URLs\r\n\r\nDisallow: /pdf/*\r\nDisallow: /fileadmin/pdf/*\r\n\r\nDisallow: /kiosk\r\nDisallow: /en/kiosk\r\n\r\nDisallow: /markthalle/webcam/*\r\nDisallow: /miemingerplateau/webcam/*\r\nDisallow: /patscherkofel/webcam/*\r\nDisallow: /sonnenplateau/webcam/*\r\n\r\nSitemap: https://www.innsbruck.info/sitemap.xml\r\nSitemap: https://www.innsbruck.info/en/sitemap.xml\r\nSitemap: https://www.innsbruck.info/it/sitemap.xml\r\nSitemap: https://www.innsbruck.info/fr/sitemap.xml\r\nSitemap: https://www.innsbruck.info/es/sitemap.xml\r\nSitemap: https://www.innsbruck.info/nl/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*?sessionid",
+        "/epaper/",
+        "/tagung/webxanfrage/",
+        "/*?L=*",
+        "/*?tx_webxbookingemo_event[listevent]=*",
+        "/*?id=* # Deaktiviert non-realurl URLs",
+        "/pdf/*",
+        "/fileadmin/pdf/*",
+        "/kiosk",
+        "/en/kiosk",
+        "/markthalle/webcam/*",
+        "/miemingerplateau/webcam/*",
+        "/patscherkofel/webcam/*",
+        "/sonnenplateau/webcam/*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*?sessionid",
+      "/epaper/",
+      "/tagung/webxanfrage/",
+      "/*?L=*",
+      "/*?tx_webxbookingemo_event[listevent]=*",
+      "/*?id=* # Deaktiviert non-realurl URLs",
+      "/pdf/*",
+      "/fileadmin/pdf/*",
+      "/kiosk",
+      "/en/kiosk",
+      "/markthalle/webcam/*",
+      "/miemingerplateau/webcam/*",
+      "/patscherkofel/webcam/*",
+      "/sonnenplateau/webcam/*"
+    ]
+  }
 }

@@ -1,10 +1,50 @@
 {
   "domain": "www.abda.de",
   "normalizedDomain": "www.abda.de",
+  "robotsTxt": "User-agent: *\r\n Allow:\r\ncrawl-delay: 5\r\nDisallow: /t3lib/\r\nDisallow: /typo3/\r\nDisallow: /typo3conf/\r\nDisallow: /app/\r\nAllow: /typo3conf/ext/\r\nAllow: /typo3temp/\r\nDisallow: /*?id=*\r\nDisallow: /*cHash\r\nDisallow: /*tx_solr\r\n\r\n# Sitemap files\r\nSitemap: https://www.abda.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/typo3conf/ext/",
+        "/typo3temp/"
+      ],
+      "disallowed": [
+        "/t3lib/",
+        "/typo3/",
+        "/typo3conf/",
+        "/app/",
+        "/*?id=*",
+        "/*cHash",
+        "/*tx_solr"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/typo3conf/ext/",
+      "/typo3temp/"
+    ],
+    "disallowed": [
+      "/t3lib/",
+      "/typo3/",
+      "/typo3conf/",
+      "/app/",
+      "/*?id=*",
+      "/*cHash",
+      "/*tx_solr"
+    ]
+  }
 }

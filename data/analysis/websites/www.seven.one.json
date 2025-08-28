@@ -1,10 +1,44 @@
 {
   "domain": "www.seven.one",
   "normalizedDomain": "www.seven.one",
+  "robotsTxt": "#seven.one robots.txt - last update: 20/06/2024\r\n\r\nUser-Agent: *\r\nDisallow: *?p_p_id=\r\nDisallow: *?p_p_state=\r\nDisallow: *?t=\r\nDisallow: *?img_id=\r\nDisallow: *?portletId=\r\nDisallow: *?version=\r\nDisallow: */login?redirect=\r\n\r\nSitemap: https://www.seven.one/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "*?p_p_id=",
+        "*?p_p_state=",
+        "*?t=",
+        "*?img_id=",
+        "*?portletId=",
+        "*?version=",
+        "*/login?redirect="
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "*?p_p_id=",
+      "*?p_p_state=",
+      "*?t=",
+      "*?img_id=",
+      "*?portletId=",
+      "*?version=",
+      "*/login?redirect="
+    ]
+  }
 }

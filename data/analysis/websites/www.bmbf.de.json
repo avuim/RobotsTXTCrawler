@@ -1,10 +1,46 @@
 {
   "domain": "www.bmbf.de",
   "normalizedDomain": "www.bmbf.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /SiteGlobals/\r\nDisallow: /DE/Service/\r\nDisallow: /DE/Services/\r\nDisallow: /EN/Service/\r\nAllow: /SiteGlobals/Modules/\r\nAllow: /SiteGlobals/StyleBundles/\r\nAllow: /SiteGlobals/Frontend/\r\nCrawl-delay: 30\r\nSitemap: https://www.bmftr.bund.de/SiteGlobals/Functions/Sitemap/Sitemap_Index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/SiteGlobals/Modules/",
+        "/SiteGlobals/StyleBundles/",
+        "/SiteGlobals/Frontend/"
+      ],
+      "disallowed": [
+        "/SiteGlobals/",
+        "/DE/Service/",
+        "/DE/Services/",
+        "/EN/Service/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/SiteGlobals/Modules/",
+      "/SiteGlobals/StyleBundles/",
+      "/SiteGlobals/Frontend/"
+    ],
+    "disallowed": [
+      "/SiteGlobals/",
+      "/DE/Service/",
+      "/DE/Services/",
+      "/EN/Service/"
+    ]
+  }
 }

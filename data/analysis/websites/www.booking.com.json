@@ -1,7 +1,294 @@
 {
   "domain": "www.booking.com",
   "normalizedDomain": "www.booking.com",
+  "robotsTxt": "#       %%%%%%%%%%%%%%%%%%%%%%%%%%%%\r\n#    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\r\n#   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\r\n#  %%%%%%               %%%%%%%%%%%%%%%%%\r\n#  %%%%%                 %%%%%%%%%%%%%%%%\r\n#  %%%%%       %%%%%       %%%%%%%%%%%%%%\r\n#  %%%%%      %%%%%%%%     %%%%%%%%%%%%%%         @@@@@@@@@@@       @@@@@@@@@@@@@@@        @@@@@@@@@\r\n#  %%%%%      %%%%%%%      %%%%%%%%%%%%%%      @@@@@@@@@@@@@@@@@    @@@@@@@@@@@@@@@     @@@@@@@@@@@@@@@\r\n#  %%%%%                 %%%%%%%%%%%%%%%%     @@@@@@@        @@@@   @@@@@             @@@@@@@     @@@@@@@\r\n#  %%%%%                  %%%%%%%%%%%%%%%      @@@@@@@@             @@@@@@@@@@@@@@   @@@@@@@       @@@@@@@\r\n#  %%%%%      %%%%%%%%      %%%%%%%%%%%%%        @@@@@@@@@@@@@      @@@@@@@@@@@@@@   @@@@@@         @@@@@@\r\n#  %%%%%      %%%%%%%%%     %%%%%%%%%%%%%                @@@@@@@    @@@@@            @@@@@@@       @@@@@@@\r\n#  %%%%%      %%%%%%%%      %%%     %%%%%     @@@@@@       @@@@@@   @@@@@             @@@@@@@     @@@@@@@\r\n#  %%%%%                   %%%       %%%%      @@@@@@@@@@@@@@@@@    @@@@@@@@@@@@@@@    @@@@@@@@@@@@@@@@@\r\n#  %%%%%                %%%%%%%     %%%%%        @@@@@@@@@@@@@      @@@@@@@@@@@@@@@       @@@@@@@@@@@\r\n#  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\r\n#  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\r\n#  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\r\n#\r\n#\r\n#  It's our mission to make it easier for everyone to experience the world, even bots!\r\n#\r\n#  You know you could be getting paid to poke around in our code?\r\n#  We're hiring Search Marketers, Copywriters, Developers and many other roles:\r\n#  https://careers.booking.com/\r\n#  Come join us!\r\n#\r\n#\r\n#  Travel guide for crawlers:\r\n#\r\nSitemap: https://www.booking.com/sitembk-airport-index.xml\r\nSitemap: https://www.booking.com/sitembk-articles-index.xml\r\nSitemap: https://www.booking.com/sitembk-attractions-category-city-index.xml\r\nSitemap: https://www.booking.com/sitembk-attractions-index.xml\r\nSitemap: https://www.booking.com/sitembk-attractions-subcategory-city-index.xml\r\nSitemap: https://www.booking.com/sitembk-beach-holidays-index.xml\r\nSitemap: https://www.booking.com/sitembk-beaches-index.xml\r\nSitemap: https://www.booking.com/sitembk-cars-airport-index.xml\r\nSitemap: https://www.booking.com/sitembk-cars-city-index.xml\r\nSitemap: https://www.booking.com/sitembk-cars-country-index.xml\r\nSitemap: https://www.booking.com/sitembk-cars-region-index.xml\r\nSitemap: https://www.booking.com/sitembk-cars-supplier-airport-index.xml\r\nSitemap: https://www.booking.com/sitembk-cars-supplier-city-index.xml\r\nSitemap: https://www.booking.com/sitembk-cars-supplier-country-index.xml\r\nSitemap: https://www.booking.com/sitembk-cars-supplier-index-index.xml\r\nSitemap: https://www.booking.com/sitembk-city-index.xml\r\nSitemap: https://www.booking.com/sitembk-city-review-index.xml\r\nSitemap: https://www.booking.com/sitembk-country-index.xml\r\nSitemap: https://www.booking.com/sitembk-country-review-index.xml\r\nSitemap: https://www.booking.com/sitembk-district-index.xml\r\nSitemap: https://www.booking.com/sitembk-extended-stays-index-index.xml\r\nSitemap: https://www.booking.com/sitembk-flights-city-to-city-index.xml\r\nSitemap: https://www.booking.com/sitembk-flights-city-to-country-index.xml\r\nSitemap: https://www.booking.com/sitembk-flights-country-index.xml\r\nSitemap: https://www.booking.com/sitembk-flights-index-index.xml\r\nSitemap: https://www.booking.com/sitembk-flights-to-airport-index.xml\r\nSitemap: https://www.booking.com/sitembk-flights-to-city-index.xml\r\nSitemap: https://www.booking.com/sitembk-flights-to-region-index.xml\r\nSitemap: https://www.booking.com/sitembk-fraud-index.xml\r\nSitemap: https://www.booking.com/sitembk-holidays-city-index.xml\r\nSitemap: https://www.booking.com/sitembk-hotel-index.xml\r\nSitemap: https://www.booking.com/sitembk-hotel-review-index.xml\r\nSitemap: https://www.booking.com/sitembk-landmark-index.xml\r\nSitemap: https://www.booking.com/sitembk-newly-opened-index.xml\r\nSitemap: https://www.booking.com/sitembk-product-guides-index.xml\r\nSitemap: https://www.booking.com/sitembk-region-index.xml\r\nSitemap: https://www.booking.com/sitembk-region-review-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-7days_inn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-accessible_traveling-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-accommodation-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-alberghi-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-apa-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-aparthotel-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-apartments-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-ark_hotel-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-beach-rental-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-bed_and_breakfast-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-bestwestern-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-boats-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-booking-home-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-budget-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-bungalows-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-campsite-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-capsule_hotel-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-casino-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-chalet-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-condo-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-cottages-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-country_house-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-design-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-dormy_inn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-families-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-farmhouses-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-fivestars-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-fourstars-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-gites-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-glamping-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-golf-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-gostinicy-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-guest_house-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-hanok-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-hanting_express-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-hilton-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-holidayhomes-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-holidayinn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-holidaypark-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-home_inn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-home_stay-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-hostels-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-ibis-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-inn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-jacuzzi-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-lake_house-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-lodge-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-lodging-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-love_hotel-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-luxury-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-marriott-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-mercure-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-mgm-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-motel_168-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-motels-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-nhhoteles-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-novotel-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-onsen-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-parking-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-pets-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-placestostay-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-ramada-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-resorts-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-riad-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-romance-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-rooms-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-route_inn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-ryokans-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-self-catering-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-sheraton-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-ski-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-spa_hotels-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-strand-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-swimming_pool-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-tented_camp-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-threestars-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-tiny_house-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-toyoko_inn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-city-villas-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-7days_inn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-accessible_traveling-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-accommodation-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-alberghi-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-apa-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-aparthotel-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-apartments-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-ark_hotel-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-beach-rental-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-bed_and_breakfast-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-bestwestern-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-boats-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-booking-home-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-budget-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-bungalows-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-campsite-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-capsule_hotel-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-casino-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-chalet-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-condo-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-cottages-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-country_house-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-design-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-dormy_inn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-families-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-farmhouses-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-fivestars-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-fourstars-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-gites-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-glamping-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-golf-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-gostinicy-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-guest_house-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-hanok-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-hanting_express-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-hilton-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-holidayhomes-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-holidayinn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-holidaypark-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-home_inn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-home_stay-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-hostels-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-ibis-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-inn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-jacuzzi-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-lake_house-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-lodge-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-lodging-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-love_hotel-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-luxury-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-marriott-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-mercure-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-mgm-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-motel_168-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-motels-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-nhhoteles-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-novotel-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-onsen-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-parking-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-pets-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-placestostay-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-ramada-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-resorts-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-riad-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-romance-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-rooms-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-route_inn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-ryokans-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-self-catering-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-sheraton-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-ski-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-spa_hotels-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-strand-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-swimming_pool-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-tented_camp-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-threestars-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-tiny_house-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-toyoko_inn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-country-villas-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-glp-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-7days_inn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-accessible_traveling-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-accommodation-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-alberghi-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-apa-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-aparthotel-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-apartments-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-ark_hotel-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-beach-rental-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-bed_and_breakfast-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-bestwestern-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-boats-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-booking-home-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-budget-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-bungalows-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-campsite-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-capsule_hotel-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-casino-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-chalet-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-condo-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-cottages-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-country_house-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-design-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-dormy_inn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-families-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-farmhouses-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-fivestars-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-fourstars-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-gites-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-glamping-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-golf-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-gostinicy-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-guest_house-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-hanok-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-hanting_express-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-hilton-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-holidayhomes-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-holidayinn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-holidaypark-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-home_inn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-home_stay-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-hostels-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-ibis-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-inn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-jacuzzi-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-lake_house-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-lodge-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-lodging-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-love_hotel-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-luxury-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-marriott-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-mercure-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-mgm-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-motel_168-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-motels-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-nhhoteles-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-novotel-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-onsen-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-parking-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-pets-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-placestostay-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-ramada-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-resorts-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-riad-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-romance-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-rooms-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-route_inn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-ryokans-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-self-catering-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-sheraton-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-ski-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-spa_hotels-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-strand-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-swimming_pool-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-tented_camp-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-threestars-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-tiny_house-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-toyoko_inn-index.xml\r\nSitemap: https://www.booking.com/sitembk-themed-region-villas-index.xml\r\nSitemap: https://www.booking.com/sitembk-tourism-index.xml\r\n\r\nUser-agent: psbot\r\nDisallow: /\r\n\r\nUser-agent: TurnitinBot\r\nDisallow: /\r\n\r\nUser-agent: NPBot-1/2.0\r\nDisallow: /\r\n\r\nUser-agent: NPBot\r\nDisallow: /\r\n\r\nUser-agent: YandexDirect\r\nAllow: /\r\n\r\nUser-agent: Yandex\r\nSitemap: https://www.booking.com/sitembk-ya-index-https.xml\r\nAllow: /$\r\nAllow: /*.en-gb.html\r\nAllow: /*lang=en-gb\r\nAllow: /*.ru.html\r\nAllow: /*lang=ru\r\nAllow: /*.tr.html\r\nAllow: /*lang=tr\r\nDisallow: /sitembk-https-index.xml\r\nDisallow: /sitembk-discover-https-index.xml\r\nDisallow: /sitembk-reviews-https-index.xml\r\nDisallow: /sitembk-dsf-https-index-destinationfinder.xml\r\nDisallow: /sitembk-articles-https-index-articles.xml\r\nDisallow: /reviewlist.*.html\r\nDisallow: /hotelsonmap.*.json\r\nDisallow: /general.*\r\nDisallow: /\r\n\r\nUser-agent: Applebot\r\nDisallow: /alt_avail*\r\nDisallow: /honing.html\r\nDisallow: /photo.html\r\nDisallow: /photo.en.html\r\nDisallow: /photo.de.html\r\nDisallow: /photo.nl.html\r\nDisallow: /photo.fr.html\r\nDisallow: /photo.es.html\r\nDisallow: /photo.it.html\r\nDisallow: /photo.pt.html\r\nDisallow: /photo.ja.html\r\nDisallow: /photo.zh.html\r\nDisallow: /photo.pl.html\r\nDisallow: /book.html\r\nDisallow: /mybooking.html\r\nDisallow: /confirmation.html\r\nDisallow: /reviewlist.*.html\r\nDisallow: /navigation_times\r\nDisallow: /hotelsonmap.*.json\r\nDisallow: /general.*\r\nDisallow: /markers_on_map\r\nDisallow: /logo\r\nDisallow: /load_times\r\nDisallow: /anysearch.*\r\nDisallow: /region_attractions\r\nDisallow: /*city_bookings\r\nDisallow: /*nofollow=1\r\nDisallow: /flexiproduct\r\n\r\nUser-agent: AdsBot-Google\r\nDisallow: /s/\r\nAllow: /best-price-guarantee/index.*\r\nAllow: /secure-booking/index.*\r\nAllow: /get-instant-confirmation/index.*\r\nAllow: /book-now-pay-later/index.*\r\nAllow: /no-booking-fees/index.*\r\nAllow: /we-speak-your-language/index.*\r\nAllow: /deals-special-offers/index.*\r\nAllow: /free-cancellation/index.*\r\nDisallow: /js_errors\r\nDisallow: /js_tracking\r\nDisallow: /c360/v1/track\r\nDisallow: /squeak\r\nDisallow: /log_rt_blocks_order\r\n\r\nUser-agent: AdsBot-Google-Mobile\r\nDisallow: /s/\r\nAllow: /best-price-guarantee/index.*\r\nAllow: /secure-booking/index.*\r\nAllow: /get-instant-confirmation/index.*\r\nAllow: /book-now-pay-later/index.*\r\nAllow: /no-booking-fees/index.*\r\nAllow: /we-speak-your-language/index.*\r\nAllow: /deals-special-offers/index.*\r\nAllow: /free-cancellation/index.*\r\nDisallow: /js_errors\r\nDisallow: /js_tracking\r\nDisallow: /c360/v1/track\r\nDisallow: /squeak\r\nDisallow: /log_rt_blocks_order\r\n\r\nUser-agent: YaDirectFetcher\r\nDisallow: /s/\r\n\r\nUser-agent: AdIdxBot\r\nDisallow: /s/\r\n\r\nUser-agent: *\r\nDisallow: *.hi.html\r\nDisallow: /alt_avail*\r\nDisallow: /fragment.*.html\r\nDisallow: /fragment.html\r\nDisallow: /fragment.*.json\r\nDisallow: /fragment.json\r\nDisallow: /_frdtcr\r\nDisallow: /go$\r\nDisallow: /go?*\r\nDisallow: /honing.html\r\nDisallow: /photo.html\r\nDisallow: /photo.en.html\r\nDisallow: /photo.de.html\r\nDisallow: /photo.nl.html\r\nDisallow: /photo.fr.html\r\nDisallow: /photo.es.html\r\nDisallow: /photo.it.html\r\nDisallow: /photo.pt.html\r\nDisallow: /photo.ja.html\r\nDisallow: /photo.zh.html\r\nDisallow: /photo.pl.html\r\nDisallow: /book.html\r\nDisallow: /mybooking.html\r\nDisallow: /confirmation.html\r\nDisallow: /reviewlist.*.html\r\nDisallow: /reviewlist.html\r\nDisallow: /srcompset.*.html\r\nDisallow: /srcompset.html\r\nDisallow: /navigation_times\r\nDisallow: /hotelsonmap.*.json\r\nDisallow: /general.*\r\nDisallow: /markers_on_map\r\nDisallow: /logo\r\nDisallow: /load_times\r\nDisallow: /anysearch.*\r\nDisallow: /region_attractions\r\nDisallow: /*city_bookings\r\nDisallow: /*nofollow=1\r\nDisallow: /flexiproduct\r\nDisallow: /asapi/*\r\nDisallow: /js_errors\r\nDisallow: /js_tracking\r\nDisallow: /join_js_tracking\r\nDisallow: /sendlayoutevents\r\nDisallow: /squeak\r\nDisallow: /track\r\nDisallow: /episode_times\r\nDisallow: /event\r\nDisallow: /hotel_attractions\r\nDisallow: /gta_impression*\r\nDisallow: /monthly_minrates*\r\nDisallow: /sitembk-reviews-https-index.xml\r\nDisallow: /vpmlogdesktopscreensize\r\nDisallow: /hotel/us/the-airstream-van.*.html\r\nDisallow: /best-price-guarantee/index.*\r\nDisallow: /secure-booking/index.*\r\nDisallow: /get-instant-confirmation/index.*\r\nDisallow: /book-now-pay-later/index.*\r\nDisallow: /no-booking-fees/index.*\r\nDisallow: /we-speak-your-language/index.*\r\nDisallow: /deals-special-offers/index.*\r\nDisallow: /free-cancellation/index.*\r\nDisallow: /pxgo?*\r\nDisallow: /pxbook?*\r\nDisallow: /product_header.html\r\nDisallow: /bas/*\r\nDisallow: /c360_v1_track\r\nDisallow: /c360/v1/track\r\nDisallow: /log_rt_blocks_order\r\nDisallow: /hotel_rt_onview\r\nAllow: /index.hi.*\r\nAllow: /hotel/index.hi.*\r\nAllow: /cars/index.hi.*\r\nAllow: /flights/index.hi.*\r\nAllow: /attractions/index.hi.*\r\nAllow: /taxi/index.hi.*\r\n\r\nUser-agent: Baiduspider\r\nSitemap: https://www.booking.com/sitembk-zh-index-https.xml\r\nDisallow: /sitembk-articles-index-articles-https.xml\r\nDisallow: /sitembk-reviews-index-country-review-https.xml\r\nDisallow: /sitembk-reviews-index-city-review-https.xml\r\nDisallow: /sitembk-reviews-index-single-review-https.xml\r\nDisallow: /sitembk-reviews-index-region-review-https.xml\r\nDisallow: /sitembk-reviews-index-hotel-review-https.xml\r\nDisallow: /sitembk-index-https.xml\r\nDisallow: /sitembk-incr-closed-index-hotel-reviews-https_2017-04-21.xml\r\nDisallow: /sitembk-incr-closed-index-hotel-reviews-https_2017-04-20.xml\r\nDisallow: /sitembk-dsf-index-destinationfinder-https.xml\r\nDisallow: /sitembk-discover-https-index.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/index.hi.*",
+        "/hotel/index.hi.*",
+        "/cars/index.hi.*",
+        "/flights/index.hi.*",
+        "/attractions/index.hi.*",
+        "/taxi/index.hi.*"
+      ],
+      "disallowed": [
+        "*.hi.html",
+        "/alt_avail*",
+        "/fragment.*.html",
+        "/fragment.html",
+        "/fragment.*.json",
+        "/fragment.json",
+        "/_frdtcr",
+        "/go$",
+        "/go?*",
+        "/honing.html",
+        "/photo.html",
+        "/photo.en.html",
+        "/photo.de.html",
+        "/photo.nl.html",
+        "/photo.fr.html",
+        "/photo.es.html",
+        "/photo.it.html",
+        "/photo.pt.html",
+        "/photo.ja.html",
+        "/photo.zh.html",
+        "/photo.pl.html",
+        "/book.html",
+        "/mybooking.html",
+        "/confirmation.html",
+        "/reviewlist.*.html",
+        "/reviewlist.html",
+        "/srcompset.*.html",
+        "/srcompset.html",
+        "/navigation_times",
+        "/hotelsonmap.*.json",
+        "/general.*",
+        "/markers_on_map",
+        "/logo",
+        "/load_times",
+        "/anysearch.*",
+        "/region_attractions",
+        "/*city_bookings",
+        "/*nofollow=1",
+        "/flexiproduct",
+        "/asapi/*",
+        "/js_errors",
+        "/js_tracking",
+        "/join_js_tracking",
+        "/sendlayoutevents",
+        "/squeak",
+        "/track",
+        "/episode_times",
+        "/event",
+        "/hotel_attractions",
+        "/gta_impression*",
+        "/monthly_minrates*",
+        "/sitembk-reviews-https-index.xml",
+        "/vpmlogdesktopscreensize",
+        "/hotel/us/the-airstream-van.*.html",
+        "/best-price-guarantee/index.*",
+        "/secure-booking/index.*",
+        "/get-instant-confirmation/index.*",
+        "/book-now-pay-later/index.*",
+        "/no-booking-fees/index.*",
+        "/we-speak-your-language/index.*",
+        "/deals-special-offers/index.*",
+        "/free-cancellation/index.*",
+        "/pxgo?*",
+        "/pxbook?*",
+        "/product_header.html",
+        "/bas/*",
+        "/c360_v1_track",
+        "/c360/v1/track",
+        "/log_rt_blocks_order",
+        "/hotel_rt_onview"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "psbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NPBot-1/2.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NPBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexDirect",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yandex",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/$",
+          "/*.en-gb.html",
+          "/*lang=en-gb",
+          "/*.ru.html",
+          "/*lang=ru",
+          "/*.tr.html",
+          "/*lang=tr"
+        ],
+        "disallowed": [
+          "/sitembk-https-index.xml",
+          "/sitembk-discover-https-index.xml",
+          "/sitembk-reviews-https-index.xml",
+          "/sitembk-dsf-https-index-destinationfinder.xml",
+          "/sitembk-articles-https-index-articles.xml",
+          "/reviewlist.*.html",
+          "/hotelsonmap.*.json",
+          "/general.*"
+        ]
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/alt_avail*",
+          "/honing.html",
+          "/photo.html",
+          "/photo.en.html",
+          "/photo.de.html",
+          "/photo.nl.html",
+          "/photo.fr.html",
+          "/photo.es.html",
+          "/photo.it.html",
+          "/photo.pt.html",
+          "/photo.ja.html",
+          "/photo.zh.html",
+          "/photo.pl.html",
+          "/book.html",
+          "/mybooking.html",
+          "/confirmation.html",
+          "/reviewlist.*.html",
+          "/navigation_times",
+          "/hotelsonmap.*.json",
+          "/general.*",
+          "/markers_on_map",
+          "/logo",
+          "/load_times",
+          "/anysearch.*",
+          "/region_attractions",
+          "/*city_bookings",
+          "/*nofollow=1",
+          "/flexiproduct"
+        ]
+      }
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/best-price-guarantee/index.*",
+          "/secure-booking/index.*",
+          "/get-instant-confirmation/index.*",
+          "/book-now-pay-later/index.*",
+          "/no-booking-fees/index.*",
+          "/we-speak-your-language/index.*",
+          "/deals-special-offers/index.*",
+          "/free-cancellation/index.*"
+        ],
+        "disallowed": [
+          "/s/",
+          "/js_errors",
+          "/js_tracking",
+          "/c360/v1/track",
+          "/squeak",
+          "/log_rt_blocks_order"
+        ]
+      }
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/best-price-guarantee/index.*",
+          "/secure-booking/index.*",
+          "/get-instant-confirmation/index.*",
+          "/book-now-pay-later/index.*",
+          "/no-booking-fees/index.*",
+          "/we-speak-your-language/index.*",
+          "/deals-special-offers/index.*",
+          "/free-cancellation/index.*"
+        ],
+        "disallowed": [
+          "/s/",
+          "/js_errors",
+          "/js_tracking",
+          "/c360/v1/track",
+          "/squeak",
+          "/log_rt_blocks_order"
+        ]
+      }
+    },
+    {
+      "name": "YaDirectFetcher",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/s/"
+        ]
+      }
+    },
+    {
+      "name": "AdIdxBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/s/"
+        ]
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/sitembk-articles-index-articles-https.xml",
+          "/sitembk-reviews-index-country-review-https.xml",
+          "/sitembk-reviews-index-city-review-https.xml",
+          "/sitembk-reviews-index-single-review-https.xml",
+          "/sitembk-reviews-index-region-review-https.xml",
+          "/sitembk-reviews-index-hotel-review-https.xml",
+          "/sitembk-index-https.xml",
+          "/sitembk-incr-closed-index-hotel-reviews-https_2017-04-21.xml",
+          "/sitembk-incr-closed-index-hotel-reviews-https_2017-04-20.xml",
+          "/sitembk-dsf-index-destinationfinder-https.xml",
+          "/sitembk-discover-https-index.xml"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 12,
+    "allowedBots": 7,
+    "disallowedBots": 5,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "psbot",
       "allowed": false
@@ -24,11 +311,11 @@
     },
     {
       "name": "Yandex",
-      "allowed": true
+      "allowed": false
     },
     {
       "name": "Applebot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "AdsBot-Google",
@@ -40,19 +327,97 @@
     },
     {
       "name": "YaDirectFetcher",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "AdIdxBot",
-      "allowed": false
-    },
-    {
-      "name": "*",
       "allowed": true
     },
     {
       "name": "Baiduspider",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/index.hi.*",
+      "/hotel/index.hi.*",
+      "/cars/index.hi.*",
+      "/flights/index.hi.*",
+      "/attractions/index.hi.*",
+      "/taxi/index.hi.*"
+    ],
+    "disallowed": [
+      "*.hi.html",
+      "/alt_avail*",
+      "/fragment.*.html",
+      "/fragment.html",
+      "/fragment.*.json",
+      "/fragment.json",
+      "/_frdtcr",
+      "/go$",
+      "/go?*",
+      "/honing.html",
+      "/photo.html",
+      "/photo.en.html",
+      "/photo.de.html",
+      "/photo.nl.html",
+      "/photo.fr.html",
+      "/photo.es.html",
+      "/photo.it.html",
+      "/photo.pt.html",
+      "/photo.ja.html",
+      "/photo.zh.html",
+      "/photo.pl.html",
+      "/book.html",
+      "/mybooking.html",
+      "/confirmation.html",
+      "/reviewlist.*.html",
+      "/reviewlist.html",
+      "/srcompset.*.html",
+      "/srcompset.html",
+      "/navigation_times",
+      "/hotelsonmap.*.json",
+      "/general.*",
+      "/markers_on_map",
+      "/logo",
+      "/load_times",
+      "/anysearch.*",
+      "/region_attractions",
+      "/*city_bookings",
+      "/*nofollow=1",
+      "/flexiproduct",
+      "/asapi/*",
+      "/js_errors",
+      "/js_tracking",
+      "/join_js_tracking",
+      "/sendlayoutevents",
+      "/squeak",
+      "/track",
+      "/episode_times",
+      "/event",
+      "/hotel_attractions",
+      "/gta_impression*",
+      "/monthly_minrates*",
+      "/sitembk-reviews-https-index.xml",
+      "/vpmlogdesktopscreensize",
+      "/hotel/us/the-airstream-van.*.html",
+      "/best-price-guarantee/index.*",
+      "/secure-booking/index.*",
+      "/get-instant-confirmation/index.*",
+      "/book-now-pay-later/index.*",
+      "/no-booking-fees/index.*",
+      "/we-speak-your-language/index.*",
+      "/deals-special-offers/index.*",
+      "/free-cancellation/index.*",
+      "/pxgo?*",
+      "/pxbook?*",
+      "/product_header.html",
+      "/bas/*",
+      "/c360_v1_track",
+      "/c360/v1/track",
+      "/log_rt_blocks_order",
+      "/hotel_rt_onview"
+    ]
+  }
 }

@@ -1,9 +1,252 @@
 {
   "domain": "www.motor1.com",
   "normalizedDomain": "www.motor1.com",
-  "bots": [
+  "robotsTxt": "User-agent: Mediapartners-Google\r\nDisallow:\r\n\r\nUser-agent: Yandex\r\nHost: www.motor1.com\r\n\r\nUser-agent: proximic\r\nDisallow: /\r\n\r\nUser-agent: anthropic-ai\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\nUser-agent: Omgilibot\r\nDisallow: /\r\n\r\nUser-agent: cohere-ai\r\nDisallow: /\r\n\r\nUser-agent: PerplexityBot\r\nDisallow: /\r\n\r\nUser-agent: YouBot\r\nDisallow: /\r\n\r\nUser-agent: Claude-Web\r\nDisallow: /\r\n\r\nUser-agent: Claudebot\r\nDisallow: /\r\n\r\nUser-agent: Diffbot\r\nDisallow: /\r\n\r\nUser-agent: Bytespider\r\nDisallow: /\r\n\r\nUser-agent: ImagesiftBot\r\nDisallow: /\r\n\r\nUser-agent: Meltwater\r\nDisallow: /\r\n\r\nUser-agent: Seekr\r\nDisallow: /\r\n\r\nUser-Agent: Amazon-Advertising-ad-standards-bot/1.0\r\nUser-Agent: APS-ad-standards-bot/1.0\r\nAllow: /ads.txt\r\n\r\nUser-agent: Googlebot-News\r\nDisallow: /products-services/\r\n\r\nUser-agent: *\r\nDisallow: /logout/\r\nDisallow: /login/\r\nDisallow: /motorshow/\r\nDisallow: /search/\r\nDisallow: /layout-auth-data/\r\nDisallow: /most-recent/\r\nDisallow: /get-disqus-count/\r\n\r\nSitemap: https://www.motor1.com/sitemaps/www/sitemap.xml\r\n\r\nUser-agent: YandexNews\r\nAllow: /rss_export/www_export.rss",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/logout/",
+        "/login/",
+        "/motorshow/",
+        "/search/",
+        "/layout-auth-data/",
+        "/most-recent/",
+        "/get-disqus-count/"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "Mediapartners-Google",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yandex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yandex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YouBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claudebot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Seekr",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Amazon-Advertising-ad-standards-bot/1.0",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/ads.txt"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "APS-ad-standards-bot/1.0",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/ads.txt"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Amazon-Advertising-ad-standards-bot/1.0",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/ads.txt"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "APS-ad-standards-bot/1.0",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/ads.txt"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot-News",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/products-services/"
+        ]
+      }
+    },
+    {
+      "name": "YandexNews",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/rss_export/www_export.rss"
+        ],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 24,
+    "allowedBots": 6,
+    "disallowedBots": 18,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": false
+    },
+    {
+      "name": "Yandex",
+      "allowed": false
+    },
+    {
+      "name": "proximic",
+      "allowed": false
+    },
+    {
+      "name": "Yandex",
       "allowed": false
     },
     {
@@ -63,20 +306,40 @@
       "allowed": false
     },
     {
+      "name": "Amazon-Advertising-ad-standards-bot/1.0",
+      "allowed": true
+    },
+    {
+      "name": "APS-ad-standards-bot/1.0",
+      "allowed": true
+    },
+    {
+      "name": "Amazon-Advertising-ad-standards-bot/1.0",
+      "allowed": true
+    },
+    {
       "name": "APS-ad-standards-bot/1.0",
       "allowed": true
     },
     {
       "name": "Googlebot-News",
-      "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "YandexNews",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/logout/",
+      "/login/",
+      "/motorshow/",
+      "/search/",
+      "/layout-auth-data/",
+      "/most-recent/",
+      "/get-disqus-count/"
+    ]
+  }
 }

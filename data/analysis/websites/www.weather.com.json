@@ -1,14 +1,470 @@
 {
   "domain": "www.weather.com",
   "normalizedDomain": "www.weather.com",
+  "robotsTxt": "#\n# /robots.txt\n#\n\n#\n# Last updated by shaun.wallace 01/21/2025\n#\n\n# Explicit Allows\n\nUser-agent: ChatGPT-User\nAllow: /\n\n# Disallowed for PhantomJS\n\nUser-agent: *\n# Crawl-delay: 10\n\nUser-agent: CriteoBot/0.1\nDisallow:\nCrawl-delay: .02\n\n# Directories\nDisallow: /includes/\nDisallow: /life/\nDisallow: /misc/\nDisallow: /modules/\nDisallow: /profiles/\nDisallow: /scripts/\nDisallow: /themes/\n# Files\nDisallow: /appspromo\nDisallow: /CHANGELOG.txt\nDisallow: /cron.php\nDisallow: /INSTALL.mysql.txt\nDisallow: /INSTALL.pgsql.txt\nDisallow: /INSTALL.sqlite.txt\nDisallow: /install.php\nDisallow: /INSTALL.txt\nDisallow: /LICENSE.txt\nDisallow: /MAINTAINERS.txt\nDisallow: /update.php\nDisallow: /UPGRADE.txt\nDisallow: /xmlrpc.php\n# Paths (clean URLs)\nDisallow: /migration/\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips/\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /user/register/\nDisallow: /user/password/\nDisallow: /user/login/\nDisallow: /user/logout/\nDisallow: /g00/\nDisallow: /g01/\nDisallow: /g02/\nDisallow: /g03/\nDisallow: /g04/\nDisallow: /g05/\nDisallow: /g06/\nDisallow: /g07/\nDisallow: /g08/\nDisallow: /g09/\nDisallow: /g10/\nDisallow: /g11/\nDisallow: /g12/\nDisallow: /g13/\nDisallow: /g14/\nDisallow: /g15/\nDisallow: /g16/\nDisallow: /g17/\nDisallow: /g18/\nDisallow: /g19/\nDisallow: /g20/\nDisallow: /g21/\nDisallow: /g22/\nDisallow: /g23/\nDisallow: /g24/\nDisallow: /g25/\nDisallow: /g26/\nDisallow: /g27/\nDisallow: /g28/\nDisallow: /g29/\nDisallow: /g30/\nDisallow: /g31/\nDisallow: /g32/\nDisallow: /g33/\nDisallow: /g34/\nDisallow: /g35/\nDisallow: /g36/\nDisallow: /g37/\nDisallow: /g38/\nDisallow: /g39/\nDisallow: /g40/\nDisallow: /g41/\nDisallow: /g42/\nDisallow: /g43/\nDisallow: /g44/\nDisallow: /g45/\nDisallow: /g46/\nDisallow: /g47/\nDisallow: /g48/\nDisallow: /g49/\nDisallow: /g50/\nDisallow: /g51/\nDisallow: /g52/\nDisallow: /g53/\nDisallow: /g54/\nDisallow: /g55/\nDisallow: /g56/\nDisallow: /g57/\nDisallow: /g58/\nDisallow: /g59/\nDisallow: /g60/\nDisallow: /g61/\nDisallow: /g62/\nDisallow: /g63/\nDisallow: /g64/\nDisallow: /g65/\nDisallow: /g66/\nDisallow: /g67/\nDisallow: /g68/\nDisallow: /g69/\nDisallow: /g70/\nDisallow: /g71/\nDisallow: /g72/\nDisallow: /g73/\nDisallow: /g74/\nDisallow: /g75/\nDisallow: /g76/\nDisallow: /g77/\nDisallow: /g78/\nDisallow: /g79/\nDisallow: /g80/\nDisallow: /g81/\nDisallow: /g82/\nDisallow: /g83/\nDisallow: /g84/\nDisallow: /g85/\nDisallow: /g86/\nDisallow: /g87/\nDisallow: /g88/\nDisallow: /g89/\nDisallow: /g90/\nDisallow: /g91/\nDisallow: /g92/\nDisallow: /g93/\nDisallow: /g94/\nDisallow: /g95/\nDisallow: /g96/\nDisallow: /g97/\nDisallow: /g98/\nDisallow: /g99/\n# Paths (no clean URLs)\nDisallow: /*?apiKey=\nDisallow: /*&apiKey=\nDisallow: /?q=admin/\nDisallow: /?q=comment/reply/\nDisallow: /?q=filter/tips/\nDisallow: /?q=node/add/\nDisallow: /?q=search/\nDisallow: /?q=user/password/\nDisallow: /?q=user/register/\nDisallow: /?q=user/login/\nDisallow: /?q=user/logout/\n\nDisallow: /sponsored\nDisallow: /ugc\nDisallow: /sponsored-content\n\n\n#\n# Block Bots\n#\n\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: AwarioRssBot\nUser-agent: AwarioSmartBot\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: DataForSeoBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: FacebookBot\nDisallow: /\n\nUser-agent: FriendlyCrawler\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ImagesiftBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: Meta-ExternalAgent\nUser-agent: meta-externalagent\nDisallow: /\n\nUser-agent: NewsNow\nDisallow: /\n\nUser-agent: news-please\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: omgilibot\nDisallow: /\n\nUser-agent: peer39_crawler\nUser-agent: peer39_crawler/1.0\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: Quora-Bot\nDisallow: /\n\nUser-agent: Scrapy\nDisallow: /\n\nUser-agent: TurnitinBot\nDisallow: /\n\n#\n# Sitemaps\n#\n\nSitemap: https://weather.com/en-US/sitemaps/sitemap.xml\nSitemap: https://weather.com/pt-PT/sitemaps/sitemap.xml\nSitemap: https://weather.com/de-DE/sitemaps/sitemap.xml\nSitemap: https://weather.com/fr-FR/sitemaps/sitemap.xml\nSitemap: https://weather.com/es-US/sitemaps/sitemap.xml\nSitemap: https://weather.com/es-ES/sitemaps/sitemap.xml\nSitemap: https://weather.com/en-IN/sitemaps/sitemap.xml\nSitemap: https://weather.com/en-GB/sitemaps/sitemap.xml\nSitemap: https://weather.com/en-CA/sitemaps/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/includes/",
+        "/life/",
+        "/misc/",
+        "/modules/",
+        "/profiles/",
+        "/scripts/",
+        "/themes/",
+        "/appspromo",
+        "/CHANGELOG.txt",
+        "/cron.php",
+        "/INSTALL.mysql.txt",
+        "/INSTALL.pgsql.txt",
+        "/INSTALL.sqlite.txt",
+        "/install.php",
+        "/INSTALL.txt",
+        "/LICENSE.txt",
+        "/MAINTAINERS.txt",
+        "/update.php",
+        "/UPGRADE.txt",
+        "/xmlrpc.php",
+        "/migration/",
+        "/admin/",
+        "/comment/reply/",
+        "/filter/tips/",
+        "/node/add/",
+        "/search/",
+        "/user/register/",
+        "/user/password/",
+        "/user/login/",
+        "/user/logout/",
+        "/g00/",
+        "/g01/",
+        "/g02/",
+        "/g03/",
+        "/g04/",
+        "/g05/",
+        "/g06/",
+        "/g07/",
+        "/g08/",
+        "/g09/",
+        "/g10/",
+        "/g11/",
+        "/g12/",
+        "/g13/",
+        "/g14/",
+        "/g15/",
+        "/g16/",
+        "/g17/",
+        "/g18/",
+        "/g19/",
+        "/g20/",
+        "/g21/",
+        "/g22/",
+        "/g23/",
+        "/g24/",
+        "/g25/",
+        "/g26/",
+        "/g27/",
+        "/g28/",
+        "/g29/",
+        "/g30/",
+        "/g31/",
+        "/g32/",
+        "/g33/",
+        "/g34/",
+        "/g35/",
+        "/g36/",
+        "/g37/",
+        "/g38/",
+        "/g39/",
+        "/g40/",
+        "/g41/",
+        "/g42/",
+        "/g43/",
+        "/g44/",
+        "/g45/",
+        "/g46/",
+        "/g47/",
+        "/g48/",
+        "/g49/",
+        "/g50/",
+        "/g51/",
+        "/g52/",
+        "/g53/",
+        "/g54/",
+        "/g55/",
+        "/g56/",
+        "/g57/",
+        "/g58/",
+        "/g59/",
+        "/g60/",
+        "/g61/",
+        "/g62/",
+        "/g63/",
+        "/g64/",
+        "/g65/",
+        "/g66/",
+        "/g67/",
+        "/g68/",
+        "/g69/",
+        "/g70/",
+        "/g71/",
+        "/g72/",
+        "/g73/",
+        "/g74/",
+        "/g75/",
+        "/g76/",
+        "/g77/",
+        "/g78/",
+        "/g79/",
+        "/g80/",
+        "/g81/",
+        "/g82/",
+        "/g83/",
+        "/g84/",
+        "/g85/",
+        "/g86/",
+        "/g87/",
+        "/g88/",
+        "/g89/",
+        "/g90/",
+        "/g91/",
+        "/g92/",
+        "/g93/",
+        "/g94/",
+        "/g95/",
+        "/g96/",
+        "/g97/",
+        "/g98/",
+        "/g99/",
+        "/*?apiKey=",
+        "/*&apiKey=",
+        "/?q=admin/",
+        "/?q=comment/reply/",
+        "/?q=filter/tips/",
+        "/?q=node/add/",
+        "/?q=search/",
+        "/?q=user/password/",
+        "/?q=user/register/",
+        "/?q=user/login/",
+        "/?q=user/logout/",
+        "/sponsored",
+        "/ugc",
+        "/sponsored-content"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AwarioRssBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AwarioSmartBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AwarioRssBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AwarioSmartBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FriendlyCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "news-please",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "peer39_crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "peer39_crawler/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "peer39_crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "peer39_crawler/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Quora-Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 37,
+    "allowedBots": 1,
+    "disallowedBots": 36,
+    "hasGlobalAllow": false
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
     {
       "name": "ChatGPT-User",
       "allowed": true
-    },
-    {
-      "name": "CriteoBot/0.1",
-      "allowed": false
     },
     {
       "name": "Amazonbot",
@@ -20,6 +476,18 @@
     },
     {
       "name": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "name": "AwarioRssBot",
+      "allowed": false
+    },
+    {
+      "name": "AwarioSmartBot",
+      "allowed": false
+    },
+    {
+      "name": "AwarioRssBot",
       "allowed": false
     },
     {
@@ -79,6 +547,18 @@
       "allowed": false
     },
     {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
       "name": "meta-externalagent",
       "allowed": false
     },
@@ -96,6 +576,18 @@
     },
     {
       "name": "omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "peer39_crawler",
+      "allowed": false
+    },
+    {
+      "name": "peer39_crawler/1.0",
+      "allowed": false
+    },
+    {
+      "name": "peer39_crawler",
       "allowed": false
     },
     {
@@ -118,5 +610,154 @@
       "name": "TurnitinBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/includes/",
+      "/life/",
+      "/misc/",
+      "/modules/",
+      "/profiles/",
+      "/scripts/",
+      "/themes/",
+      "/appspromo",
+      "/CHANGELOG.txt",
+      "/cron.php",
+      "/INSTALL.mysql.txt",
+      "/INSTALL.pgsql.txt",
+      "/INSTALL.sqlite.txt",
+      "/install.php",
+      "/INSTALL.txt",
+      "/LICENSE.txt",
+      "/MAINTAINERS.txt",
+      "/update.php",
+      "/UPGRADE.txt",
+      "/xmlrpc.php",
+      "/migration/",
+      "/admin/",
+      "/comment/reply/",
+      "/filter/tips/",
+      "/node/add/",
+      "/search/",
+      "/user/register/",
+      "/user/password/",
+      "/user/login/",
+      "/user/logout/",
+      "/g00/",
+      "/g01/",
+      "/g02/",
+      "/g03/",
+      "/g04/",
+      "/g05/",
+      "/g06/",
+      "/g07/",
+      "/g08/",
+      "/g09/",
+      "/g10/",
+      "/g11/",
+      "/g12/",
+      "/g13/",
+      "/g14/",
+      "/g15/",
+      "/g16/",
+      "/g17/",
+      "/g18/",
+      "/g19/",
+      "/g20/",
+      "/g21/",
+      "/g22/",
+      "/g23/",
+      "/g24/",
+      "/g25/",
+      "/g26/",
+      "/g27/",
+      "/g28/",
+      "/g29/",
+      "/g30/",
+      "/g31/",
+      "/g32/",
+      "/g33/",
+      "/g34/",
+      "/g35/",
+      "/g36/",
+      "/g37/",
+      "/g38/",
+      "/g39/",
+      "/g40/",
+      "/g41/",
+      "/g42/",
+      "/g43/",
+      "/g44/",
+      "/g45/",
+      "/g46/",
+      "/g47/",
+      "/g48/",
+      "/g49/",
+      "/g50/",
+      "/g51/",
+      "/g52/",
+      "/g53/",
+      "/g54/",
+      "/g55/",
+      "/g56/",
+      "/g57/",
+      "/g58/",
+      "/g59/",
+      "/g60/",
+      "/g61/",
+      "/g62/",
+      "/g63/",
+      "/g64/",
+      "/g65/",
+      "/g66/",
+      "/g67/",
+      "/g68/",
+      "/g69/",
+      "/g70/",
+      "/g71/",
+      "/g72/",
+      "/g73/",
+      "/g74/",
+      "/g75/",
+      "/g76/",
+      "/g77/",
+      "/g78/",
+      "/g79/",
+      "/g80/",
+      "/g81/",
+      "/g82/",
+      "/g83/",
+      "/g84/",
+      "/g85/",
+      "/g86/",
+      "/g87/",
+      "/g88/",
+      "/g89/",
+      "/g90/",
+      "/g91/",
+      "/g92/",
+      "/g93/",
+      "/g94/",
+      "/g95/",
+      "/g96/",
+      "/g97/",
+      "/g98/",
+      "/g99/",
+      "/*?apiKey=",
+      "/*&apiKey=",
+      "/?q=admin/",
+      "/?q=comment/reply/",
+      "/?q=filter/tips/",
+      "/?q=node/add/",
+      "/?q=search/",
+      "/?q=user/password/",
+      "/?q=user/register/",
+      "/?q=user/login/",
+      "/?q=user/logout/",
+      "/sponsored",
+      "/ugc",
+      "/sponsored-content"
+    ]
+  }
 }

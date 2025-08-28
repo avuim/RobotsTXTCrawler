@@ -1,26 +1,177 @@
 {
   "domain": "www.onvista.de",
   "normalizedDomain": "www.onvista.de",
+  "robotsTxt": "#Please note our terms and conditions \"http://www.onvista.de/agb.html\"\n#Spidering is not allowed by our terms and conditions\n#Authorised spidering is subject to permission\n#For authorisation please contact us - see \"http://www.onvista.de/impressum.html\"\n\nUser-agent: Mediapartners-Google\nAllow: /\n\nUser-agent: Googlebot\nDisallow: /*SORT_AR=1$\nDisallow: /*SORT_SECTOR=1$\nDisallow: /*SORT_BRANCH=1$\nDisallow: /*SELECTED_TOOL=1$\nDisallow: /*HEADLINE_GRAFIK=1$\nDisallow: /*omst=1$\nDisallow: /*BQ=1$\nDisallow: /*BT=\nDisallow: /*AVG1=\nDisallow: /*AVG2=\nDisallow: /*ID_CALL_PUT_TYPE=\nDisallow: /*ifst=\nDisallow: /*SORT_WERT=\nDisallow: /*SORT_SECURITY=\nDisallow: /*RN=\nDisallow: /*DATE_START=\nDisallow: /*DATE_END=\nDisallow: /*v%3Asources=\nDisallow: /*PERIOD=\nDisallow: /*&y=\nDisallow: /*PRINT=1$\nDisallow: /*SUPP_INFO=\nDisallow: /*SORT=\nDisallow: /*SELECTED_ID=\nDisallow: /*OFFSET=\nDisallow: /*SOURCE=RELOAD$\nDisallow: /*ID_EXCHANGE=\nDisallow: /newsletter/empfehlung.html\nDisallow: /disclaimer.html\nDisallow: /hilfe/guided_tour.html\nDisallow: /kontakt/\nDisallow: /privacy_policy.html\nDisallow: /wrs.html\nDisallow: /directors-dealings\nDisallow: /disclaimer_boersen.html\nDisallow: /PDF.html\nDisallow: /download/\nDisallow: /htmlnews/\nDisallow: /boxes/\nDisallow: /issuerlink.html\nDisallow: /templates\nDisallow: /static-layout\nDisallow: /onvista/boxes/pdf\nDisallow: /*/1000\n\nUser-agent: AdsBot-Google\nDisallow: /derivate\nDisallow: /futures\nDisallow: /kryptowaehrungen\nDisallow: /rohstoffe\nDisallow: /suche\nDisallow: /realpushliste.html\nDisallow: /snapshot.html\n\nUser-agent: AdsBot-Google-Mobile\nDisallow: /derivate\nDisallow: /futures\nDisallow: /kryptowaehrungen\nDisallow: /rohstoffe\nDisallow: /suche\nDisallow: /realpushliste.html\nDisallow: /snapshot.html\n\nUser-agent: *\nCrawl-delay: 20\nDisallow: /*SORT_AR=1$\nDisallow: /*SORT_OWNER=1$\nDisallow: /*SORT_SECTOR=1$\nDisallow: /*SORT_BRANCH=1$\nDisallow: /*SELECTED_TOOL=1$\nDisallow: /*HEADLINE_GRAFIK=1$\nDisallow: /*omst=1$\nDisallow: /*BQ=1$\nDisallow: /*Print=1$\nDisallow: /*SOURCE=RELOAD$\nDisallow: /newsletter/empfehlung.html\nDisallow: /disclaimer.html\nDisallow: /hilfe/guided_tour.html\nDisallow: /kontakt/\nDisallow: /privacy_policy.html\nDisallow: /wrs.html\nDisallow: /directors-dealings\nDisallow: /disclaimer_boersen.html\nDisallow: /PDF.html\nDisallow: /download/\nDisallow: /htmlnews/\nDisallow: /boxes/\nDisallow: /issuerlink.html\nDisallow: /templates\nDisallow: /static-layout\nDisallow: /onvista/boxes/pdf\n\nUser-agent: 008\nDisallow: /\n\nUser-agent: grapeshot\nDisallow:\n\nSitemap: https://www.onvista.de/news-sitemap-index.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*SORT_AR=1$",
+        "/*SORT_OWNER=1$",
+        "/*SORT_SECTOR=1$",
+        "/*SORT_BRANCH=1$",
+        "/*SELECTED_TOOL=1$",
+        "/*HEADLINE_GRAFIK=1$",
+        "/*omst=1$",
+        "/*BQ=1$",
+        "/*Print=1$",
+        "/*SOURCE=RELOAD$",
+        "/newsletter/empfehlung.html",
+        "/disclaimer.html",
+        "/hilfe/guided_tour.html",
+        "/kontakt/",
+        "/privacy_policy.html",
+        "/wrs.html",
+        "/directors-dealings",
+        "/disclaimer_boersen.html",
+        "/PDF.html",
+        "/download/",
+        "/htmlnews/",
+        "/boxes/",
+        "/issuerlink.html",
+        "/templates",
+        "/static-layout",
+        "/onvista/boxes/pdf"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/*SORT_AR=1$",
+          "/*SORT_SECTOR=1$",
+          "/*SORT_BRANCH=1$",
+          "/*SELECTED_TOOL=1$",
+          "/*HEADLINE_GRAFIK=1$",
+          "/*omst=1$",
+          "/*BQ=1$",
+          "/*BT=",
+          "/*AVG1=",
+          "/*AVG2=",
+          "/*ID_CALL_PUT_TYPE=",
+          "/*ifst=",
+          "/*SORT_WERT=",
+          "/*SORT_SECURITY=",
+          "/*RN=",
+          "/*DATE_START=",
+          "/*DATE_END=",
+          "/*v%3Asources=",
+          "/*PERIOD=",
+          "/*&y=",
+          "/*PRINT=1$",
+          "/*SUPP_INFO=",
+          "/*SORT=",
+          "/*SELECTED_ID=",
+          "/*OFFSET=",
+          "/*SOURCE=RELOAD$",
+          "/*ID_EXCHANGE=",
+          "/newsletter/empfehlung.html",
+          "/disclaimer.html",
+          "/hilfe/guided_tour.html",
+          "/kontakt/",
+          "/privacy_policy.html",
+          "/wrs.html",
+          "/directors-dealings",
+          "/disclaimer_boersen.html",
+          "/PDF.html",
+          "/download/",
+          "/htmlnews/",
+          "/boxes/",
+          "/issuerlink.html",
+          "/templates",
+          "/static-layout",
+          "/onvista/boxes/pdf",
+          "/*/1000"
+        ]
+      }
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/derivate",
+          "/futures",
+          "/kryptowaehrungen",
+          "/rohstoffe",
+          "/suche",
+          "/realpushliste.html",
+          "/snapshot.html"
+        ]
+      }
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/derivate",
+          "/futures",
+          "/kryptowaehrungen",
+          "/rohstoffe",
+          "/suche",
+          "/realpushliste.html",
+          "/snapshot.html"
+        ]
+      }
+    },
+    {
+      "name": "008",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 6,
+    "allowedBots": 4,
+    "disallowedBots": 2,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "Mediapartners-Google",
       "allowed": true
     },
     {
       "name": "Googlebot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "AdsBot-Google",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "AdsBot-Google-Mobile",
-      "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "008",
@@ -30,5 +181,36 @@
       "name": "grapeshot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*SORT_AR=1$",
+      "/*SORT_OWNER=1$",
+      "/*SORT_SECTOR=1$",
+      "/*SORT_BRANCH=1$",
+      "/*SELECTED_TOOL=1$",
+      "/*HEADLINE_GRAFIK=1$",
+      "/*omst=1$",
+      "/*BQ=1$",
+      "/*Print=1$",
+      "/*SOURCE=RELOAD$",
+      "/newsletter/empfehlung.html",
+      "/disclaimer.html",
+      "/hilfe/guided_tour.html",
+      "/kontakt/",
+      "/privacy_policy.html",
+      "/wrs.html",
+      "/directors-dealings",
+      "/disclaimer_boersen.html",
+      "/PDF.html",
+      "/download/",
+      "/htmlnews/",
+      "/boxes/",
+      "/issuerlink.html",
+      "/templates",
+      "/static-layout",
+      "/onvista/boxes/pdf"
+    ]
+  }
 }

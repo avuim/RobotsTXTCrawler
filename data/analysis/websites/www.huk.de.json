@@ -1,10 +1,140 @@
 {
   "domain": "www.huk.de",
   "normalizedDomain": "www.huk.de",
+  "robotsTxt": "# HUK COBURG STAND 2023-07-06\r\n# alle Bots erlauben:\r\nUser-agent:*\r\n\r\n# Disallow misc and technical\r\n# keine Einschraenkung mehr ab 06.07.2023\r\n\r\n# Sonderfaelle\r\nDisallow: /Kontakt/Map/print_uebersicht.jsp\r\nDisallow: /Kontakt/Map/print_uebersicht_sas.jsp\r\n\r\n# Angabe der Sitemap ist Agent-unabhaengig:\r\nSitemap: https://www.huk.de/sitemap.xml\r\n\r\n#disallow special user-agents gomezagent\r\nUser-agent: gomezagent\r\nDisallow: / \r\nUser-agent: GomezAgent\r\nDisallow: /\r\nUser-Agent: gomezagent+1.0\r\nDisallow: /\r\nUser-Agent: GomezAgent+1.0\r\nDisallow: /\r\nUser-Agent: gomezagent+2.0\r\nDisallow: /\r\nUser-Agent: GomezAgent+2.0\r\nDisallow: /\r\nUser-Agent: gomezagent+3.0\r\nDisallow: /\r\nUser-Agent: GomezAgent+3.0\r\nDisallow: /\r\nUser-agent: gomezagent 1.0\r\nDisallow: / \r\nUser-agent: GomezAgent 1.0\r\nDisallow: / \r\nUser-agent: gomezagent 2.0\r\nDisallow: / \r\nUser-agent: GomezAgent 2.0\r\nDisallow: / \r\nUser-agent: gomezagent 3.0\r\nDisallow: / \r\nUser-Agent: GomezAgent 3.0\r\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/Kontakt/Map/print_uebersicht.jsp",
+        "/Kontakt/Map/print_uebersicht_sas.jsp"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "gomezagent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GomezAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gomezagent+1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GomezAgent+1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gomezagent+2.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GomezAgent+2.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gomezagent+3.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GomezAgent+3.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gomezagent 1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GomezAgent 1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gomezagent 2.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GomezAgent 2.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gomezagent 3.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GomezAgent 3.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 14,
+    "allowedBots": 0,
+    "disallowedBots": 14,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "gomezagent",
@@ -62,5 +192,12 @@
       "name": "GomezAgent 3.0",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/Kontakt/Map/print_uebersicht.jsp",
+      "/Kontakt/Map/print_uebersicht_sas.jsp"
+    ]
+  }
 }

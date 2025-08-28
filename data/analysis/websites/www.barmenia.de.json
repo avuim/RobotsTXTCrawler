@@ -1,10 +1,44 @@
 {
   "domain": "www.barmenia.de",
   "normalizedDomain": "www.barmenia.de",
+  "robotsTxt": "# robots.txt zu https://www.barmenia.de\r\n\r\nUser-agent: *\r\nDisallow: /deu/fehler/\r\nDisallow: /deu/suche/\r\nDisallow: /deu/technische-seiten/\r\nDisallow: /deu/pressespiegel/\r\nDisallow: /deu/produkte/\r\nDisallow: /deu/externe_verlinkungen/\r\nDisallow: /media/global_media/pressespiegel/\r\n\r\nSitemap: https://www.barmenia.de/xml_sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/deu/fehler/",
+        "/deu/suche/",
+        "/deu/technische-seiten/",
+        "/deu/pressespiegel/",
+        "/deu/produkte/",
+        "/deu/externe_verlinkungen/",
+        "/media/global_media/pressespiegel/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/deu/fehler/",
+      "/deu/suche/",
+      "/deu/technische-seiten/",
+      "/deu/pressespiegel/",
+      "/deu/produkte/",
+      "/deu/externe_verlinkungen/",
+      "/media/global_media/pressespiegel/"
+    ]
+  }
 }

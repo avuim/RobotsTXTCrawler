@@ -1,10 +1,28 @@
 {
   "domain": "www.servustv.com",
   "normalizedDomain": "www.servustv.com",
+  "robotsTxt": "User-agent: *\nDisallow:\n\nSitemap: https://servustv.com/sitemap_index.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

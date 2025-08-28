@@ -1,10 +1,40 @@
 {
   "domain": "www.kindernothilfe.de",
   "normalizedDomain": "www.kindernothilfe.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /sitecore/\r\nDisallow: /sitecore modules/\r\nDisallow: /sitecore files/\r\nDisallow: /temp/\r\nDisallow: /upload/\r\n\r\nSitemap: https://www.kindernothilfe.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/sitecore/",
+        "/sitecore modules/",
+        "/sitecore files/",
+        "/temp/",
+        "/upload/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/sitecore/",
+      "/sitecore modules/",
+      "/sitecore files/",
+      "/temp/",
+      "/upload/"
+    ]
+  }
 }

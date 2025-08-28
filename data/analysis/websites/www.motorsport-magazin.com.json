@@ -1,14 +1,105 @@
 {
   "domain": "www.motorsport-magazin.com",
   "normalizedDomain": "www.motorsport-magazin.com",
-  "bots": [
+  "robotsTxt": "Sitemap: https://www.motorsport-magazin.com/sitemap-news.xml\nSitemap: https://www.motorsport-magazin.com/sitemap-videos.xml\nUser-agent: proximic\nDisallow: /\nUser-agent: Slurp\nCrawl-delay: 20\nUser-agent: MSNBot\nCrawl-delay: 20\nUser-agent: *\nDisallow: /ads/\nDisallow: /error/\nDisallow: /kunden/\nDisallow: /logos/\nDisallow: /mediadaten/\nDisallow: /statit/\nDisallow: /mobile/\nDisallow: /sounds/\nDisallow: /speedacademy/\nDisallow: /ticker/\nDisallow: /player/\nDisallow: /sf_micro/\nDisallow: /forum/admin.php\nDisallow: /forum/admin/\nDisallow: /forum/db/\nDisallow: /community/search.php\nDisallow: /community/search.php*\nDisallow: /community/report.php\nDisallow: /community/report.php*\nDisallow: /community/viewonline.php\nDisallow: /community/download.php\nDisallow: /community/download.php*\nDisallow: /community/*?sid=*\nDisallow: /community/*&sid=*\nDisallow: /community/*?hilit=*\nDisallow: /community/*&hilit=*\nDisallow: /structured/*?id=8\nDisallow: /structured/*&id=8\nAllow: /structured/htdocs/\nDisallow: /videoc/\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/structured/htdocs/"
+      ],
+      "disallowed": [
+        "/ads/",
+        "/error/",
+        "/kunden/",
+        "/logos/",
+        "/mediadaten/",
+        "/statit/",
+        "/mobile/",
+        "/sounds/",
+        "/speedacademy/",
+        "/ticker/",
+        "/player/",
+        "/sf_micro/",
+        "/forum/admin.php",
+        "/forum/admin/",
+        "/forum/db/",
+        "/community/search.php",
+        "/community/search.php*",
+        "/community/report.php",
+        "/community/report.php*",
+        "/community/viewonline.php",
+        "/community/download.php",
+        "/community/download.php*",
+        "/community/*?sid=*",
+        "/community/*&sid=*",
+        "/community/*?hilit=*",
+        "/community/*&hilit=*",
+        "/structured/*?id=8",
+        "/structured/*&id=8",
+        "/videoc/"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "proximic",
-      "allowed": false
-    },
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
+  "bots": [
     {
       "name": "*",
       "allowed": true
+    },
+    {
+      "name": "proximic",
+      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/structured/htdocs/"
+    ],
+    "disallowed": [
+      "/ads/",
+      "/error/",
+      "/kunden/",
+      "/logos/",
+      "/mediadaten/",
+      "/statit/",
+      "/mobile/",
+      "/sounds/",
+      "/speedacademy/",
+      "/ticker/",
+      "/player/",
+      "/sf_micro/",
+      "/forum/admin.php",
+      "/forum/admin/",
+      "/forum/db/",
+      "/community/search.php",
+      "/community/search.php*",
+      "/community/report.php",
+      "/community/report.php*",
+      "/community/viewonline.php",
+      "/community/download.php",
+      "/community/download.php*",
+      "/community/*?sid=*",
+      "/community/*&sid=*",
+      "/community/*?hilit=*",
+      "/community/*&hilit=*",
+      "/structured/*?id=8",
+      "/structured/*&id=8",
+      "/videoc/"
+    ]
+  }
 }

@@ -1,10 +1,28 @@
 {
   "domain": "www.business-on.de",
   "normalizedDomain": "www.business-on.de",
+  "robotsTxt": "# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://www.business-on.de/sitemap_index.xml\nSitemap: https://www.business-on.de/hamburg/sitemap_index.xml\nSitemap: https://www.business-on.de/bergischesland/sitemap_index.xml\nSitemap: https://www.business-on.de/duesseldorf/sitemap_index.xml\nSitemap: https://www.business-on.de/owl/sitemap_index.xml\nSitemap: https://www.business-on.de/ruhr/sitemap_index.xml\nSitemap: https://www.business-on.de/stuttgart/sitemap_index.xml\nSitemap: https://www.business-on.de/suedwestfalen/sitemap_index.xml\nSitemap: https://www.business-on.de/koeln-bonn/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

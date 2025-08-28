@@ -1,5 +1,23 @@
 {
   "domain": "www.sixx.de",
   "normalizedDomain": "www.sixx.de",
-  "bots": []
+  "robotsTxt": "Sitemap: https://www.sixx.de/sitemap.xml\nSitemap: https://www.sixx.de/sitemap.news.xml\nSitemap: https://www.sixx.de/sitemap.videos.xml\nSitemap: https://www.sixx.de/sitemap.clever-push.xml\nSitemap: https://www.sixx.de/sitemap.archive.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

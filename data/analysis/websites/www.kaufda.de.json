@@ -1,14 +1,67 @@
 {
   "domain": "www.kaufda.de",
   "normalizedDomain": "www.kaufda.de",
+  "robotsTxt": "User-agent: AdsBot-Google\n\n# all access\nDisallow:\n\n\nUser-agent: *\n\n# web brochure viewer (BV3)\nDisallow: /Prospekt/\n# mobile brochure viewer\nDisallow: /mv/\n# responsive brochure viewer\nDisallow: /brochure-viewer/brochure\n\n# Ajax calls\nDisallow: /*/*/ajax/\nDisallow: /dyn/\nDisallow: /api/febe/\nDisallow: /api/frontend/\nDisallow: /sessionData\nDisallow: /portal/\n\n# BWA\nDisallow: /webapp/\nDisallow: /aktuelle-Prospekte\nDisallow: /contentViewer/",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/Prospekt/",
+        "/mv/",
+        "/brochure-viewer/brochure",
+        "/*/*/ajax/",
+        "/dyn/",
+        "/api/febe/",
+        "/api/frontend/",
+        "/sessionData",
+        "/portal/",
+        "/webapp/",
+        "/aktuelle-Prospekte",
+        "/contentViewer/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AdsBot-Google",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "AdsBot-Google",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/Prospekt/",
+      "/mv/",
+      "/brochure-viewer/brochure",
+      "/*/*/ajax/",
+      "/dyn/",
+      "/api/febe/",
+      "/api/frontend/",
+      "/sessionData",
+      "/portal/",
+      "/webapp/",
+      "/aktuelle-Prospekte",
+      "/contentViewer/"
+    ]
+  }
 }

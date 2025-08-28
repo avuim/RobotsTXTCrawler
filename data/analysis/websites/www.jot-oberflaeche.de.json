@@ -1,10 +1,38 @@
 {
   "domain": "www.jot-oberflaeche.de",
   "normalizedDomain": "www.jot-oberflaeche.de",
+  "robotsTxt": "# www.robotstxt.org/\n# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449\n\nUser-agent: *\nDisallow:\nDisallow: /rubriken/nachrichten/empfehlen/\nDisallow: /login?returnUrl\nDisallow: */recommend/*\nDisallow: */empfehlen/*\nDisallow: /login?returnUrl\n\nSitemap: https://www.jot-oberflaeche.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/rubriken/nachrichten/empfehlen/",
+        "/login?returnUrl",
+        "*/recommend/*",
+        "*/empfehlen/*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/rubriken/nachrichten/empfehlen/",
+      "/login?returnUrl",
+      "*/recommend/*",
+      "*/empfehlen/*"
+    ]
+  }
 }

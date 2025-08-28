@@ -1,10 +1,36 @@
 {
   "domain": "www.mytischtennis.de",
   "normalizedDomain": "www.mytischtennis.de",
+  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /public/objectComments.cfm\nDisallow: /public/commentarMelden.cfm\nDisallow: /lucee/*.*\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/public/objectComments.cfm",
+        "/public/commentarMelden.cfm",
+        "/lucee/*.*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/public/objectComments.cfm",
+      "/public/commentarMelden.cfm",
+      "/lucee/*.*"
+    ]
+  }
 }

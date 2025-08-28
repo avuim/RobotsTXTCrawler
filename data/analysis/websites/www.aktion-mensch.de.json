@@ -1,10 +1,72 @@
 {
   "domain": "www.aktion-mensch.de",
   "normalizedDomain": "www.aktion-mensch.de",
+  "robotsTxt": "# robots.txt fuer https://www.aktion-mensch.de\r\n\r\nSitemap: https://www.aktion-mensch.de/index-sitemap.xml\r\n\r\nUser-agent: *\r\nDisallow: /webservices/\r\nDisallow: /wsrv/\r\nDisallow: /monatslos/\r\nDisallow: /div/pers-daten/\r\nDisallow: /div/login/login\r\nDisallow: /ds/ci-net/\r\nDisallow: /ds/div/account/\r\nDisallow: /ds/logo/\r\nDisallow: /lotterie/api/\r\nDisallow: /lotterie/gewinnerservice/ihredaten/\r\nDisallow: /lotterie/gewinnerservice/auszahlungsdaten/\r\nDisallow: /lotterie/gewinnerservice/vielendank/\r\nDisallow: /lotterie/gewinnerservice/letzteseite/\r\nDisallow: /lotterie/gewinnerservice/ihredatenbearbeiten/\r\nDisallow: /startseite/blog/beitraege.html?tags=*\r\nDisallow: /blog/beitraege.html?tags=*\r\nDisallow: /shariff?url=*\r\nDisallow: /empfehlungsmailer.html?page_url=*\r\nDisallow: /ortefueralle/templates/*\r\nDisallow: /ortefueralle/bahn/templates/*\r\nDisallow: /ortefueralle/club/templates/*",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/webservices/",
+        "/wsrv/",
+        "/monatslos/",
+        "/div/pers-daten/",
+        "/div/login/login",
+        "/ds/ci-net/",
+        "/ds/div/account/",
+        "/ds/logo/",
+        "/lotterie/api/",
+        "/lotterie/gewinnerservice/ihredaten/",
+        "/lotterie/gewinnerservice/auszahlungsdaten/",
+        "/lotterie/gewinnerservice/vielendank/",
+        "/lotterie/gewinnerservice/letzteseite/",
+        "/lotterie/gewinnerservice/ihredatenbearbeiten/",
+        "/startseite/blog/beitraege.html?tags=*",
+        "/blog/beitraege.html?tags=*",
+        "/shariff?url=*",
+        "/empfehlungsmailer.html?page_url=*",
+        "/ortefueralle/templates/*",
+        "/ortefueralle/bahn/templates/*",
+        "/ortefueralle/club/templates/*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/webservices/",
+      "/wsrv/",
+      "/monatslos/",
+      "/div/pers-daten/",
+      "/div/login/login",
+      "/ds/ci-net/",
+      "/ds/div/account/",
+      "/ds/logo/",
+      "/lotterie/api/",
+      "/lotterie/gewinnerservice/ihredaten/",
+      "/lotterie/gewinnerservice/auszahlungsdaten/",
+      "/lotterie/gewinnerservice/vielendank/",
+      "/lotterie/gewinnerservice/letzteseite/",
+      "/lotterie/gewinnerservice/ihredatenbearbeiten/",
+      "/startseite/blog/beitraege.html?tags=*",
+      "/blog/beitraege.html?tags=*",
+      "/shariff?url=*",
+      "/empfehlungsmailer.html?page_url=*",
+      "/ortefueralle/templates/*",
+      "/ortefueralle/bahn/templates/*",
+      "/ortefueralle/club/templates/*"
+    ]
+  }
 }

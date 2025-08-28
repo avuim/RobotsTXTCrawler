@@ -1,14 +1,57 @@
 {
   "domain": "www.renault.de",
   "normalizedDomain": "www.renault.de",
-  "bots": [
+  "robotsTxt": "User-Agent: GoogleBot\r\nDisallow: *?conf=* \r\nDisallow: *?dealerId=*\r\nDisallow: *?rleads=*\r\n\r\nUser-Agent: bingbot\r\nDisallow: *?conf=* \r\nDisallow: *?dealerId=*\r\nDisallow: *?rleads=*",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
     {
       "name": "GoogleBot",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "*?conf=*",
+          "*?dealerId=*",
+          "*?rleads=*"
+        ]
+      }
     },
     {
       "name": "bingbot",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "*?conf=*",
+          "*?dealerId=*",
+          "*?rleads=*"
+        ]
+      }
     }
-  ]
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 2,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "GoogleBot",
+      "allowed": true
+    },
+    {
+      "name": "bingbot",
+      "allowed": true
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

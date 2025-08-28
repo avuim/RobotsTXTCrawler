@@ -1,7 +1,306 @@
 {
   "domain": "www.highlight-web.de",
   "normalizedDomain": "www.highlight-web.de",
+  "robotsTxt": "User-agent: AdsBot-Google\nDisallow: /\n\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Applebot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: AwarioRssBot\nDisallow: /\n\nUser-agent: AwarioSmartBot\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: DataForSeoBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: FacebookBot\nDisallow: /\n\nUser-agent: FriendlyCrawler\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GoogleOther\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: img2dataset\nDisallow: /\n\nUser-agent: ImagesiftBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: Meltwater\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: omgilibot\nDisallow: /\n\nUser-agent: peer39_crawler\nDisallow: /\n\nUser-agent: peer39_crawler/1.0\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: PiplBot\nDisallow: /\n\nUser-agent: scoop.it\nDisallow: /\n\nUser-agent: Seekr\nDisallow: /\n\nUser-agent: YouBot\nDisallow: /\n\nUser-agent: *\n\nDisallow: /admin/\nDisallow: /build/\nDisallow: /newsletterAds.php\nDisallow: /*/?print=1\nDisallow: /autor/*\nDisallow: /*?wordfence*\nDisallow: /abo-download/*\nDisallow: /firmen/?*\n\nAllow: *.css\nAllow: *.js\nAllow: /build/theme/*.css\nAllow: /build/theme/*.js\nAllow: /build/theme/images/*\nAllow: /build/theme/fonts/*\n\nSitemap: https://www.highlight-web.de/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "*.css",
+        "*.js",
+        "/build/theme/*.css",
+        "/build/theme/*.js",
+        "/build/theme/images/*",
+        "/build/theme/fonts/*"
+      ],
+      "disallowed": [
+        "/admin/",
+        "/build/",
+        "/newsletterAds.php",
+        "/*/?print=1",
+        "/autor/*",
+        "/*?wordfence*",
+        "/abo-download/*",
+        "/firmen/?*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AdsBot-Google",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AwarioRssBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AwarioSmartBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FriendlyCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GoogleOther",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "img2dataset",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "peer39_crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "peer39_crawler/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "scoop.it",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Seekr",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YouBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 33,
+    "allowedBots": 0,
+    "disallowedBots": 33,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "AdsBot-Google",
       "allowed": false
@@ -133,10 +432,26 @@
     {
       "name": "YouBot",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "*.css",
+      "*.js",
+      "/build/theme/*.css",
+      "/build/theme/*.js",
+      "/build/theme/images/*",
+      "/build/theme/fonts/*"
+    ],
+    "disallowed": [
+      "/admin/",
+      "/build/",
+      "/newsletterAds.php",
+      "/*/?print=1",
+      "/autor/*",
+      "/*?wordfence*",
+      "/abo-download/*",
+      "/firmen/?*"
+    ]
+  }
 }

@@ -1,14 +1,153 @@
 {
   "domain": "www.lenovo.com",
   "normalizedDomain": "www.lenovo.com",
-  "bots": [
+  "robotsTxt": "# For all robots\r\nUser-agent: *\r\n\r\n# Block access to specific groups of pages\r\nDisallow: /au/en/auweb/\r\nDisallow: /ca/en/webca/\r\nDisallow: /us/en/usweb/\r\nDisallow: /us/en/webus/\r\nDisallow: /le/\r\nDisallow: */fastsearch\r\nDisallow: */newhome\r\nDisallow: */newdeals\r\n\r\n#global sitemap\r\nSitemap: https://www.lenovo.com/sitemap.xml\r\n\r\n# Allow search crawlers to discover the sitemap\r\nSitemap: https://www.lenovo.com/au/en/googlesitemap.xml\r\nSitemap: https://www.lenovo.com/nz/en/googlesitemap.xml\r\n\r\n# Block access to below CA country directories\r\nDisallow: /ca/en/corpeppca/\r\n\r\n# Block access to below private stores\r\nDisallow: /us/en/csc/\r\nDisallow: /us/en/fepp/\r\nDisallow: /us/en/csus/\r\nDisallow: /us/en/nscs/\r\nDisallow: /us/en/cepp/\r\nDisallow: /us/en/army/\r\nDisallow: /us/en/gates/\r\nDisallow: /us/en/m1isaca/\r\nDisallow: /us/en/usstudents/\r\nDisallow: /us/en/calchamber/\r\nDisallow: /aviata/us/en/\r\n\r\n# Block access to below EMEA country directories\r\nDisallow: /gb/en/gbweb/\r\nDisallow: /ie/en/ieweb/\r\nDisallow: /de/de/deweb/\r\nDisallow: /nl/nl/nlweb/\r\nDisallow: /at/de/atweb/\r\nDisallow: /ch/fr/chweb/\r\nDisallow: /ch/de/chweb/\r\n\r\n# Block access to below AU pages\r\nDisallow: /au/en/consumer-all-in-one/\r\nDisallow: /au/en/commercial-desktop/\r\n\r\n# Block services URL\r\nDisallow: */service/services/*/c/Services*\r\n\r\n# Block url for Turkey\r\nDisallow: /tr/tr/*/gallery/image\r\n\r\n# Block US Cart url\r\nUser-agent: Googlebot\r\nUser-agent: AdsBot-Google\r\nDisallow: /us/en/cart\r\n\r\n\r\n# Block spam search links\r\nDisallow: */search?*\r\n\r\n#Testing parameter blocking\r\nUser-agent: *\r\nDisallow: */ar/es/*/*?IPromoID*\r\nDisallow: */ar/es/*/*?cid*\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/au/en/auweb/",
+        "/ca/en/webca/",
+        "/us/en/usweb/",
+        "/us/en/webus/",
+        "/le/",
+        "*/fastsearch",
+        "*/newhome",
+        "*/newdeals",
+        "/ca/en/corpeppca/",
+        "/us/en/csc/",
+        "/us/en/fepp/",
+        "/us/en/csus/",
+        "/us/en/nscs/",
+        "/us/en/cepp/",
+        "/us/en/army/",
+        "/us/en/gates/",
+        "/us/en/m1isaca/",
+        "/us/en/usstudents/",
+        "/us/en/calchamber/",
+        "/aviata/us/en/",
+        "/gb/en/gbweb/",
+        "/ie/en/ieweb/",
+        "/de/de/deweb/",
+        "/nl/nl/nlweb/",
+        "/at/de/atweb/",
+        "/ch/fr/chweb/",
+        "/ch/de/chweb/",
+        "/au/en/consumer-all-in-one/",
+        "/au/en/commercial-desktop/",
+        "*/service/services/*/c/Services*",
+        "/tr/tr/*/gallery/image"
+      ]
+    }
+  },
+  "specificBots": [
     {
-      "name": "*",
-      "allowed": false
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/us/en/cart",
+          "*/search?*"
+        ]
+      }
     },
     {
       "name": "AdsBot-Google",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/us/en/cart",
+          "*/search?*"
+        ]
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/us/en/cart",
+          "*/search?*"
+        ]
+      }
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/us/en/cart",
+          "*/search?*"
+        ]
+      }
     }
-  ]
+  ],
+  "stats": {
+    "totalSpecificBots": 4,
+    "allowedBots": 4,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/au/en/auweb/",
+      "/ca/en/webca/",
+      "/us/en/usweb/",
+      "/us/en/webus/",
+      "/le/",
+      "*/fastsearch",
+      "*/newhome",
+      "*/newdeals",
+      "/ca/en/corpeppca/",
+      "/us/en/csc/",
+      "/us/en/fepp/",
+      "/us/en/csus/",
+      "/us/en/nscs/",
+      "/us/en/cepp/",
+      "/us/en/army/",
+      "/us/en/gates/",
+      "/us/en/m1isaca/",
+      "/us/en/usstudents/",
+      "/us/en/calchamber/",
+      "/aviata/us/en/",
+      "/gb/en/gbweb/",
+      "/ie/en/ieweb/",
+      "/de/de/deweb/",
+      "/nl/nl/nlweb/",
+      "/at/de/atweb/",
+      "/ch/fr/chweb/",
+      "/ch/de/chweb/",
+      "/au/en/consumer-all-in-one/",
+      "/au/en/commercial-desktop/",
+      "*/service/services/*/c/Services*",
+      "/tr/tr/*/gallery/image"
+    ]
+  }
 }

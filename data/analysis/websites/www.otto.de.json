@@ -1,18 +1,61 @@
 {
   "domain": "www.otto.de",
   "normalizedDomain": "www.otto.de",
-  "bots": [
+  "robotsTxt": "User-agent: bingbot\r\nDisallow: /suche/\r\n\r\nUser-agent: Adsbot-Google\r\nDisallow: /gate/\r\n\r\nUser-agent: *\r\nDisallow: /gate/\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/gate/"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "bingbot",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/suche/"
+        ]
+      }
     },
     {
       "name": "Adsbot-Google",
-      "allowed": false
-    },
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/gate/"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 2,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
+    },
+    {
+      "name": "bingbot",
+      "allowed": true
+    },
+    {
+      "name": "Adsbot-Google",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/gate/"
+    ]
+  }
 }

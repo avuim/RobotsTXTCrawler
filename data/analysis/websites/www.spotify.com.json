@@ -1,10 +1,58 @@
 {
   "domain": "www.spotify.com",
   "normalizedDomain": "www.spotify.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /*/about-us/contact/contact-spotify-password/\r\nDisallow: /*/about-us/contact/contact-spotify-account/\r\nDisallow: /*/get-spotify/*\r\nDisallow: /*/xhr/*\r\nDisallow: /*/external/*\r\nDisallow: /*/legal/*?ets=\r\nDisallow: /*/legal/advertiser-terms-and-conditions/\r\nDisallow: /*/legal/gdpr-article-15-information/\r\nDisallow: /*/legal/spotify-controller-data-processing-terms/\r\nDisallow: /*/account/cls/*\r\nDisallow: /*/starbuckspartners\r\nDisallow: /starbuckspartners\r\nDisallow: /ppt/*?\r\nDisallow: /partner/*?\r\nSitemap: https://www.spotify.com/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*/about-us/contact/contact-spotify-password/",
+        "/*/about-us/contact/contact-spotify-account/",
+        "/*/get-spotify/*",
+        "/*/xhr/*",
+        "/*/external/*",
+        "/*/legal/*?ets=",
+        "/*/legal/advertiser-terms-and-conditions/",
+        "/*/legal/gdpr-article-15-information/",
+        "/*/legal/spotify-controller-data-processing-terms/",
+        "/*/account/cls/*",
+        "/*/starbuckspartners",
+        "/starbuckspartners",
+        "/ppt/*?",
+        "/partner/*?"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*/about-us/contact/contact-spotify-password/",
+      "/*/about-us/contact/contact-spotify-account/",
+      "/*/get-spotify/*",
+      "/*/xhr/*",
+      "/*/external/*",
+      "/*/legal/*?ets=",
+      "/*/legal/advertiser-terms-and-conditions/",
+      "/*/legal/gdpr-article-15-information/",
+      "/*/legal/spotify-controller-data-processing-terms/",
+      "/*/account/cls/*",
+      "/*/starbuckspartners",
+      "/starbuckspartners",
+      "/ppt/*?",
+      "/partner/*?"
+    ]
+  }
 }

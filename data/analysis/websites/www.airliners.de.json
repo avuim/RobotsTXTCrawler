@@ -1,6 +1,200 @@
 {
   "domain": "www.airliners.de",
   "normalizedDomain": "www.airliners.de",
+  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /karriere/r/ \nDisallow: /nova/ \nDisallow: /admin/ \nDisallow: /backend/ \nDisallow: /vendor/ \nDisallow: /settings/* \nDisallow: /page-cache/* \nDisallow: /firmen/*/visit/* \nDisallow: /*?*refinementList\nDisallow: /suche\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: ia_archiver\nDisallow: /\n\nUser-Agent: omgili\nDisallow: /\n\nUser-Agent: omgilibot\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: DataForSeoBot\nDisallow: /\n\nUser-agent: Yeti\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: sentibot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: SirdataBot\nDisallow: /\n\nUser-agent: LCC\nDisallow: /\n\nUser-agent: TurnitinBot\nDisallow: /\n\nUser-agent: BLEXBot\nDisallow: /\n\nUser-agent: dotbot\nDisallow: /\n\nUser-agent: GrapeshotCrawler\ncrawl-delay: 3\n\nSitemap: https://www.airliners.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/karriere/r/",
+        "/nova/",
+        "/admin/",
+        "/backend/",
+        "/vendor/",
+        "/settings/*",
+        "/page-cache/*",
+        "/firmen/*/visit/*",
+        "/*?*refinementList",
+        "/suche"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yeti",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SirdataBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LCC",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TurnitinBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GrapeshotCrawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 21,
+    "allowedBots": 1,
+    "disallowedBots": 20,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -85,6 +279,25 @@
     {
       "name": "dotbot",
       "allowed": false
+    },
+    {
+      "name": "GrapeshotCrawler",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/karriere/r/",
+      "/nova/",
+      "/admin/",
+      "/backend/",
+      "/vendor/",
+      "/settings/*",
+      "/page-cache/*",
+      "/firmen/*/visit/*",
+      "/*?*refinementList",
+      "/suche"
+    ]
+  }
 }

@@ -1,6 +1,173 @@
 {
   "domain": "www.mein-schoener-garten.de",
   "normalizedDomain": "www.mein-schoener-garten.de",
+  "robotsTxt": "#\r\n# robots.txt\r\n#\r\n# This file is to prevent the crawling and indexing of certain parts\r\n# of your site by web crawlers and spiders run by sites like Yahoo!\r\n# and Google. By telling these \"robots\" where not to go on your site,\r\n# you save bandwidth and server resources.\r\n#\r\n# This file will be ignored unless it is at the root of your host:\r\n# Used:    http://example.com/robots.txt\r\n# Ignored: http://example.com/site/robots.txt\r\n#\r\n# For more information about the robots.txt standard, see:\r\n# http://www.robotstxt.org/robotstxt.html\r\n\r\nUser-agent: *\r\n# CSS, JS, Images\r\nAllow: /core/*.css$\r\nAllow: /core/*.css?\r\nAllow: /core/*.js$\r\nAllow: /core/*.js?\r\nAllow: /core/*.gif\r\nAllow: /core/*.jpg\r\nAllow: /core/*.jpeg\r\nAllow: /core/*.png\r\nAllow: /core/*.svg\r\nAllow: /profiles/*.css$\r\nAllow: /profiles/*.css?\r\nAllow: /profiles/*.js$\r\nAllow: /profiles/*.js?\r\nAllow: /profiles/*.gif\r\nAllow: /profiles/*.jpg\r\nAllow: /profiles/*.jpeg\r\nAllow: /profiles/*.png\r\nAllow: /profiles/*.svg\r\n# Directories\r\nDisallow: /core/\r\nDisallow: /profiles/\r\n# Files\r\nDisallow: /README.txt\r\nDisallow: /web.config\r\n# Paths (clean URLs)\r\nDisallow: /admin/\r\nDisallow: /comment/reply/\r\nDisallow: /filter/tips\r\nDisallow: /node/add/\r\nDisallow: /search/\r\nDisallow: /user/register/\r\nDisallow: /user/password/\r\nDisallow: /user/login/\r\nDisallow: /user/logout/\r\n# Paths (no clean URLs)\r\nDisallow: /index.php/admin/\r\nDisallow: /index.php/comment/reply/\r\nDisallow: /index.php/filter/tips\r\nDisallow: /index.php/node/add/\r\nDisallow: /index.php/search/\r\nDisallow: /index.php/user/password/\r\nDisallow: /index.php/user/register/\r\nDisallow: /index.php/user/login/\r\nDisallow: /index.php/user/logout/\r\n# Seo Additions\r\nDisallow: /*?plants\r\nDisallow: /*?sort\r\nDisallow: /*&plants\r\nDisallow: /*&sort\r\nDisallow: /suche$\r\nDisallow: /suche/\r\nDisallow: /suche?*\r\nDisallow: /*?username=\r\nDisallow: /*&username=\r\nDisallow: /shariff/\r\nDisallow: /*?items_per_page\r\nDisallow: /*&items_per_page\r\nDisallow: /*?seite=\r\nDisallow: /*&seite=\r\nDisallow: /*?id=\r\nDisallow: /*&id=\r\nDisallow: /*?referrer=\r\nDisallow: /*&referrer=\r\nDisallow: /*?category=\r\nDisallow: /*&category=\r\nDisallow: /*?link=\r\nDisallow: /*&link=\r\nDisallow: /*?snr=\r\nDisallow: /*&snr=\r\nDisallow: /*?search=\r\nDisallow: /*&search=\r\nDisallow: /*?josso_back_to=\r\nDisallow: /*&josso_back_to=\r\nDisallow: /*?partner_cancel_back_to=\r\nDisallow: /*&partner_cancel_back_to=\r\nDisallow: /*?partner_success_back_to=\r\nDisallow: /*&partner_success_back_to=\r\nDisallow: /*?sprache=\r\nDisallow: /*&sprache=\r\nDisallow: /*?alpha=\r\nDisallow: /*&alpha=\r\nDisallow: /*?ressort=\r\nDisallow: /*&ressort=\r\nDisallow: /*?originalUrl=\r\nDisallow: /*&originalUrl=\r\nDisallow: /*?oberrub=\r\nDisallow: /*&oberrub=\r\nDisallow: /*?rub_snr=\r\nDisallow: /*&rub_snr=\r\nDisallow: /*?XTCsid=\r\nDisallow: /*&XTCsid=\r\nDisallow: /themes/custom/infinite/msg_infinite/fonts/\r\nDisallow: /themes/custom/infinite/infinite_theme/fonts/icons/\r\nDisallow: /themes/custom/infinite/infinite_theme/fonts/ionicons/\r\nDisallow: /themes/custom/infinite/msg_infinite/js/slick/fonts/\r\nDisallow: /libraries/shariff/dist/fa-*\r\nDisallow: /libraries/slick-carousel/slick/fonts/\r\nDisallow: /api/*\r\nDisallow: /autocomplete/*\r\nSitemap: https://www.mein-schoener-garten.de/sitemap.xml\r\nSitemap: https://www.mein-schoener-garten.de/article-news-sitemap.xml\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\nUser-agent: CCBot\r\nDisallow: /\r\nUser-agent: anthropic-ai\r\nDisallow: /\r\nUser-agent: Bytespider\r\nDisallow: /\r\nUser-agent: Claude-Web\r\nDisallow: /\r\nUser-agent: cohere-ai\r\nDisallow: /\r\nUser-agent: ClaudeBot\r\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/core/*.css$",
+        "/core/*.css?",
+        "/core/*.js$",
+        "/core/*.js?",
+        "/core/*.gif",
+        "/core/*.jpg",
+        "/core/*.jpeg",
+        "/core/*.png",
+        "/core/*.svg",
+        "/profiles/*.css$",
+        "/profiles/*.css?",
+        "/profiles/*.js$",
+        "/profiles/*.js?",
+        "/profiles/*.gif",
+        "/profiles/*.jpg",
+        "/profiles/*.jpeg",
+        "/profiles/*.png",
+        "/profiles/*.svg"
+      ],
+      "disallowed": [
+        "/core/",
+        "/profiles/",
+        "/README.txt",
+        "/web.config",
+        "/admin/",
+        "/comment/reply/",
+        "/filter/tips",
+        "/node/add/",
+        "/search/",
+        "/user/register/",
+        "/user/password/",
+        "/user/login/",
+        "/user/logout/",
+        "/index.php/admin/",
+        "/index.php/comment/reply/",
+        "/index.php/filter/tips",
+        "/index.php/node/add/",
+        "/index.php/search/",
+        "/index.php/user/password/",
+        "/index.php/user/register/",
+        "/index.php/user/login/",
+        "/index.php/user/logout/",
+        "/*?plants",
+        "/*?sort",
+        "/*&plants",
+        "/*&sort",
+        "/suche$",
+        "/suche/",
+        "/suche?*",
+        "/*?username=",
+        "/*&username=",
+        "/shariff/",
+        "/*?items_per_page",
+        "/*&items_per_page",
+        "/*?seite=",
+        "/*&seite=",
+        "/*?id=",
+        "/*&id=",
+        "/*?referrer=",
+        "/*&referrer=",
+        "/*?category=",
+        "/*&category=",
+        "/*?link=",
+        "/*&link=",
+        "/*?snr=",
+        "/*&snr=",
+        "/*?search=",
+        "/*&search=",
+        "/*?josso_back_to=",
+        "/*&josso_back_to=",
+        "/*?partner_cancel_back_to=",
+        "/*&partner_cancel_back_to=",
+        "/*?partner_success_back_to=",
+        "/*&partner_success_back_to=",
+        "/*?sprache=",
+        "/*&sprache=",
+        "/*?alpha=",
+        "/*&alpha=",
+        "/*?ressort=",
+        "/*&ressort=",
+        "/*?originalUrl=",
+        "/*&originalUrl=",
+        "/*?oberrub=",
+        "/*&oberrub=",
+        "/*?rub_snr=",
+        "/*&rub_snr=",
+        "/*?XTCsid=",
+        "/*&XTCsid=",
+        "/themes/custom/infinite/msg_infinite/fonts/",
+        "/themes/custom/infinite/infinite_theme/fonts/icons/",
+        "/themes/custom/infinite/infinite_theme/fonts/ionicons/",
+        "/themes/custom/infinite/msg_infinite/js/slick/fonts/",
+        "/libraries/shariff/dist/fa-*",
+        "/libraries/slick-carousel/slick/fonts/",
+        "/api/*",
+        "/autocomplete/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 7,
+    "allowedBots": 0,
+    "disallowedBots": 7,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -34,5 +201,105 @@
       "name": "ClaudeBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/core/*.css$",
+      "/core/*.css?",
+      "/core/*.js$",
+      "/core/*.js?",
+      "/core/*.gif",
+      "/core/*.jpg",
+      "/core/*.jpeg",
+      "/core/*.png",
+      "/core/*.svg",
+      "/profiles/*.css$",
+      "/profiles/*.css?",
+      "/profiles/*.js$",
+      "/profiles/*.js?",
+      "/profiles/*.gif",
+      "/profiles/*.jpg",
+      "/profiles/*.jpeg",
+      "/profiles/*.png",
+      "/profiles/*.svg"
+    ],
+    "disallowed": [
+      "/core/",
+      "/profiles/",
+      "/README.txt",
+      "/web.config",
+      "/admin/",
+      "/comment/reply/",
+      "/filter/tips",
+      "/node/add/",
+      "/search/",
+      "/user/register/",
+      "/user/password/",
+      "/user/login/",
+      "/user/logout/",
+      "/index.php/admin/",
+      "/index.php/comment/reply/",
+      "/index.php/filter/tips",
+      "/index.php/node/add/",
+      "/index.php/search/",
+      "/index.php/user/password/",
+      "/index.php/user/register/",
+      "/index.php/user/login/",
+      "/index.php/user/logout/",
+      "/*?plants",
+      "/*?sort",
+      "/*&plants",
+      "/*&sort",
+      "/suche$",
+      "/suche/",
+      "/suche?*",
+      "/*?username=",
+      "/*&username=",
+      "/shariff/",
+      "/*?items_per_page",
+      "/*&items_per_page",
+      "/*?seite=",
+      "/*&seite=",
+      "/*?id=",
+      "/*&id=",
+      "/*?referrer=",
+      "/*&referrer=",
+      "/*?category=",
+      "/*&category=",
+      "/*?link=",
+      "/*&link=",
+      "/*?snr=",
+      "/*&snr=",
+      "/*?search=",
+      "/*&search=",
+      "/*?josso_back_to=",
+      "/*&josso_back_to=",
+      "/*?partner_cancel_back_to=",
+      "/*&partner_cancel_back_to=",
+      "/*?partner_success_back_to=",
+      "/*&partner_success_back_to=",
+      "/*?sprache=",
+      "/*&sprache=",
+      "/*?alpha=",
+      "/*&alpha=",
+      "/*?ressort=",
+      "/*&ressort=",
+      "/*?originalUrl=",
+      "/*&originalUrl=",
+      "/*?oberrub=",
+      "/*&oberrub=",
+      "/*?rub_snr=",
+      "/*&rub_snr=",
+      "/*?XTCsid=",
+      "/*&XTCsid=",
+      "/themes/custom/infinite/msg_infinite/fonts/",
+      "/themes/custom/infinite/infinite_theme/fonts/icons/",
+      "/themes/custom/infinite/infinite_theme/fonts/ionicons/",
+      "/themes/custom/infinite/msg_infinite/js/slick/fonts/",
+      "/libraries/shariff/dist/fa-*",
+      "/libraries/slick-carousel/slick/fonts/",
+      "/api/*",
+      "/autocomplete/*"
+    ]
+  }
 }

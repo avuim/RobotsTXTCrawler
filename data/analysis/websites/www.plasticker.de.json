@@ -1,18 +1,80 @@
 {
   "domain": "www.plasticker.de",
   "normalizedDomain": "www.plasticker.de",
+  "robotsTxt": "User-agent: :newsexpress/1.0\nDisallow: /\n\nUser-agent: *\nDisallow: /admin/\nDisallow: /admin2/\nDisallow: /inkl/rate2.php\n\nUser-agent: Googlebot\nDisallow: /search\nDisallow: /requipment/requipment\nDisallow: /requipment/products\nDisallow: /requipment/preise\nDisallow: /requipment/marktplatz\nDisallow: /requipment/avz\nDisallow: /requipment/recybase\nDisallow: /requipment/news\nDisallow: /requipment/avz\nDisallow: /recybase/products\nDisallow: /recybase/news\nDisallow: /recybase/avz\nDisallow: /rohstoffe\nDisallow: /maschinen\nDisallow: /lohnarbeit\nDisallow: /service\nDisallow: /studien\nDisallow: /books\nDisallow: /bookshop",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/admin/",
+        "/admin2/",
+        "/inkl/rate2.php"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": ":newsexpress/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/search",
+          "/requipment/requipment",
+          "/requipment/products",
+          "/requipment/preise",
+          "/requipment/marktplatz",
+          "/requipment/avz",
+          "/requipment/recybase",
+          "/requipment/news",
+          "/recybase/products",
+          "/recybase/news",
+          "/recybase/avz",
+          "/rohstoffe",
+          "/maschinen",
+          "/lohnarbeit",
+          "/service",
+          "/studien",
+          "/books",
+          "/bookshop"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 1,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": ":newsexpress/1.0",
       "allowed": false
     },
     {
-      "name": "*",
-      "allowed": false
-    },
-    {
       "name": "Googlebot",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/admin/",
+      "/admin2/",
+      "/inkl/rate2.php"
+    ]
+  }
 }

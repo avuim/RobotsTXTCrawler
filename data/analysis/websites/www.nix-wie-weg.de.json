@@ -1,10 +1,74 @@
 {
   "domain": "www.nix-wie-weg.de",
   "normalizedDomain": "www.nix-wie-weg.de",
+  "robotsTxt": "Sitemap: https://www.nix-wie-weg.de/sitemap.xml.gz\n\nUser-agent: *\nDisallow: /vacancy_request\nDisallow: /buchung-*/*\nDisallow: /payment/*\nDisallow: /danke\nDisallow: /giata/\nDisallow: /hotel-*/question\nDisallow: /hotel-*/ratings\nDisallow: /hotel-*/ratings/*\nDisallow: /hotel-*/searched\nDisallow: /hotel-*/inquiry\nDisallow: /hotel-*/descriptions\nDisallow: /anfrage/inquiry\nDisallow: /urlaub-*/inquiry\nDisallow: /*-hotels-*/inquiry\nDisallow: /merkzettel/inquiry\nDisallow: /danke\nDisallow: /bestaetigung/danke\nDisallow: /admin\nDisallow: /events\nDisallow: /newsletter_subscription\nDisallow: /nl/*\nDisallow: /nl/*/*\nDisallow: /veranstalter_agb\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/vacancy_request",
+        "/buchung-*/*",
+        "/payment/*",
+        "/danke",
+        "/giata/",
+        "/hotel-*/question",
+        "/hotel-*/ratings",
+        "/hotel-*/ratings/*",
+        "/hotel-*/searched",
+        "/hotel-*/inquiry",
+        "/hotel-*/descriptions",
+        "/anfrage/inquiry",
+        "/urlaub-*/inquiry",
+        "/*-hotels-*/inquiry",
+        "/merkzettel/inquiry",
+        "/bestaetigung/danke",
+        "/admin",
+        "/events",
+        "/newsletter_subscription",
+        "/nl/*",
+        "/nl/*/*",
+        "/veranstalter_agb"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/vacancy_request",
+      "/buchung-*/*",
+      "/payment/*",
+      "/danke",
+      "/giata/",
+      "/hotel-*/question",
+      "/hotel-*/ratings",
+      "/hotel-*/ratings/*",
+      "/hotel-*/searched",
+      "/hotel-*/inquiry",
+      "/hotel-*/descriptions",
+      "/anfrage/inquiry",
+      "/urlaub-*/inquiry",
+      "/*-hotels-*/inquiry",
+      "/merkzettel/inquiry",
+      "/bestaetigung/danke",
+      "/admin",
+      "/events",
+      "/newsletter_subscription",
+      "/nl/*",
+      "/nl/*/*",
+      "/veranstalter_agb"
+    ]
+  }
 }

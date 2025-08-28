@@ -1,14 +1,2765 @@
 {
   "domain": "www.vorsprung-online.de",
   "normalizedDomain": "www.vorsprung-online.de",
+  "robotsTxt": "# If the Joomla site is installed within a folder such as at\n# e.g. www.example.com/joomla/ the robots.txt file MUST be\n# moved to the site root at e.g. www.example.com/robots.txt\n# AND the joomla folder name MUST be prefixed to the disallowed\n# path, e.g. the Disallow rule for the /administrator/ folder\n# MUST be changed to read Disallow: /joomla/administrator/\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/orig.html\n#\n# For syntax checking, see:\n# http://tool.motoricerca.info/robots-checker.phtml\n\nUser-agent: *\nAllow: /*.js*\nAllow: /*.css*\nAllow: /*.png*\nAllow: /*.jpg*\nAllow: /*.gif*\n\nDisallow: /administrator/\nDisallow: /bin/\nDisallow: /cache/\nDisallow: /cli/\n\nDisallow: /includes/\nDisallow: /installation/\nDisallow: /language/\nDisallow: /layouts/\nDisallow: /libraries/\nDisallow: /logs/\n\n\nDisallow: /tmp/\n\nUser-agent: bingbot\nUser-agent: WebReaper\nUser-agent: WebCopier\nUser-agent: Offline Explorer\nUser-agent: HTTrack\nUser-agent: Microsoft.URL.Control\nUser-agent: EmailCollector\nUser-agent: penthesilea\nUser-agent: Wfuzz\nUser-agent: casper\nUser-agent: checkpriv\nUser-agent: Seekport\nUser-agent: MegaIndex\nUser-agent: Scrapy\nUser-agent: PetalBot\nDisallow: /\nSitemap: https://vorsprung-online.de/sitemap-index.xml\n\n# JSitemap entries\nSitemap: https://vorsprung-online.de/index.php?option=com_jmap&view=sitemap&format=gnews\nSitemap: https://vorsprung-online.de/index.php?option=com_jmap&view=sitemap&format=xml\nSitemap: https://vorsprung-online.de/component/jmap/sitemap/gnews",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/*.js*",
+        "/*.css*",
+        "/*.png*",
+        "/*.jpg*",
+        "/*.gif*"
+      ],
+      "disallowed": [
+        "/administrator/",
+        "/bin/",
+        "/cache/",
+        "/cli/",
+        "/includes/",
+        "/installation/",
+        "/language/",
+        "/layouts/",
+        "/libraries/",
+        "/logs/",
+        "/tmp/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "casper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Seekport",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "casper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Seekport",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "casper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Seekport",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "casper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Seekport",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "casper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Seekport",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "casper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Seekport",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "casper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Seekport",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "casper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Seekport",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "casper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Seekport",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "casper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Seekport",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "casper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Seekport",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "casper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Seekport",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "casper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Seekport",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "casper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Seekport",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "casper",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Seekport",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 225,
+    "allowedBots": 0,
+    "disallowedBots": 225,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     },
     {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false
+    },
+    {
+      "name": "casper",
+      "allowed": false
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false
+    },
+    {
+      "name": "Seekport",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false
+    },
+    {
+      "name": "casper",
+      "allowed": false
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false
+    },
+    {
+      "name": "Seekport",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false
+    },
+    {
+      "name": "casper",
+      "allowed": false
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false
+    },
+    {
+      "name": "Seekport",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false
+    },
+    {
+      "name": "casper",
+      "allowed": false
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false
+    },
+    {
+      "name": "Seekport",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false
+    },
+    {
+      "name": "casper",
+      "allowed": false
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false
+    },
+    {
+      "name": "Seekport",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false
+    },
+    {
+      "name": "casper",
+      "allowed": false
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false
+    },
+    {
+      "name": "Seekport",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false
+    },
+    {
+      "name": "casper",
+      "allowed": false
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false
+    },
+    {
+      "name": "Seekport",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false
+    },
+    {
+      "name": "casper",
+      "allowed": false
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false
+    },
+    {
+      "name": "Seekport",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false
+    },
+    {
+      "name": "casper",
+      "allowed": false
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false
+    },
+    {
+      "name": "Seekport",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false
+    },
+    {
+      "name": "casper",
+      "allowed": false
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false
+    },
+    {
+      "name": "Seekport",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false
+    },
+    {
+      "name": "casper",
+      "allowed": false
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false
+    },
+    {
+      "name": "Seekport",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false
+    },
+    {
+      "name": "casper",
+      "allowed": false
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false
+    },
+    {
+      "name": "Seekport",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false
+    },
+    {
+      "name": "casper",
+      "allowed": false
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false
+    },
+    {
+      "name": "Seekport",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false
+    },
+    {
+      "name": "casper",
+      "allowed": false
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false
+    },
+    {
+      "name": "Seekport",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "bingbot",
+      "allowed": false
+    },
+    {
+      "name": "WebReaper",
+      "allowed": false
+    },
+    {
+      "name": "WebCopier",
+      "allowed": false
+    },
+    {
+      "name": "Offline Explorer",
+      "allowed": false
+    },
+    {
+      "name": "HTTrack",
+      "allowed": false
+    },
+    {
+      "name": "Microsoft.URL.Control",
+      "allowed": false
+    },
+    {
+      "name": "EmailCollector",
+      "allowed": false
+    },
+    {
+      "name": "penthesilea",
+      "allowed": false
+    },
+    {
+      "name": "Wfuzz",
+      "allowed": false
+    },
+    {
+      "name": "casper",
+      "allowed": false
+    },
+    {
+      "name": "checkpriv",
+      "allowed": false
+    },
+    {
+      "name": "Seekport",
+      "allowed": false
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false
+    },
+    {
       "name": "PetalBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/*.js*",
+      "/*.css*",
+      "/*.png*",
+      "/*.jpg*",
+      "/*.gif*"
+    ],
+    "disallowed": [
+      "/administrator/",
+      "/bin/",
+      "/cache/",
+      "/cli/",
+      "/includes/",
+      "/installation/",
+      "/language/",
+      "/layouts/",
+      "/libraries/",
+      "/logs/",
+      "/tmp/"
+    ]
+  }
 }

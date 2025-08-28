@@ -1,6 +1,290 @@
 {
   "domain": "www.faz.net",
   "normalizedDomain": "www.faz.net",
+  "robotsTxt": "# robots.txt updated 2025-06-17\n\nUser-agent: *\nDisallow: /json/\nDisallow: /cmlink/\nDisallow: /premiumContent\nDisallow: /*.pdf\nDisallow: /js/adobe/at.js\nDisallow: /redaktion?cache\nDisallow: *mostclicked.gfn\nDisallow: /;suche=artikelsuche/suche/\nDisallow: /suche/\nDisallow: *?sort=\nDisallow: /dist/scripts/main_faz-comment.js\nDisallow: /html-ajax*\nDisallow: /livewire*\nDisallow: *atarget.js\nDisallow: */sport-ergebnisse/*/ma*/$\nDisallow: */sport-ergebnisse/*/co*/$\nDisallow: /api/collect/\nDisallow: /podcast-service/\nDisallow: */event/widgets/\nDisallow: */event/*/live/\nDisallow: */event/*/html/\n\nDisallow: /allesbeste/*?s=*\nDisallow: /allesbeste/*&s=*\nDisallow: */asset-comment-info/*\nDisallow: /membership/*\nDisallow: /kaufkompass/wp-admin/\nDisallow: /kaufkompass/newsticker/\nDisallow: /kaufkompass/wp-content/ab_api_cache/*\nDisallow: /kaufkompass/search/\nDisallow: /kaufkompass/*?p=*\nDisallow: /kaufkompass/*&p=*\nDisallow: /kaufkompass/*&preview=*\nAllow: /kaufkompass/wp-admin/admin-ajax.php\n\nUser-agent: Meltwater\nDisallow: /\n\nUser-agent: NewsNow\nDisallow: /\n\nUser-agent: Bloodhound\nDisallow: /\n\nUser-agent: cydralspider\nDisallow: /\n\nUser-agent: downloadexpress\nDisallow: /\n\nUser-agent: gammaSpider\nDisallow: /\n\nUser-agent: ObjectsSearch\nDisallow: /\n\nUser-agent: Pimptrain\nDisallow: /\n\nUser-agent: Raven\nDisallow: /\n\nUser-agent: wapspider\nDisallow: /\n\nUser-agent: WebZinger\nDisallow: /\n\nUser-agent: Fasterfox\nDisallow: /\n\nUser-agent: sentibot\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\nAllow: /kaufkompass/\n\nUser-Agent: omgili\nDisallow: /\n\nUser-Agent: omgilibot\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: YouBot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: Meta-ExternalAgent\nDisallow: /\n\nUser-agent: DeepSeekBot\nDisallow: /\n\nUser-agent: DeepSeek\nDisallow: /\n\n# Legal notice: faz.net expressly reserves the right to use its content for commercial text and data mining (§44 b UrhG).\n# The use of robots or other automated means to access faz.net or collect or mine data without the express permission of faz.net is strictly prohibited.\n# faz.net may, in its discretion, permit certain automated access to certain faz.net pages.\n# If you would like to apply for permission to crawl faz.net, collect or use data, please email nutzungsrechte@faz.de.\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/kaufkompass/wp-admin/admin-ajax.php"
+      ],
+      "disallowed": [
+        "/json/",
+        "/cmlink/",
+        "/premiumContent",
+        "/*.pdf",
+        "/js/adobe/at.js",
+        "/redaktion?cache",
+        "*mostclicked.gfn",
+        "/;suche=artikelsuche/suche/",
+        "/suche/",
+        "*?sort=",
+        "/dist/scripts/main_faz-comment.js",
+        "/html-ajax*",
+        "/livewire*",
+        "*atarget.js",
+        "*/sport-ergebnisse/*/ma*/$",
+        "*/sport-ergebnisse/*/co*/$",
+        "/api/collect/",
+        "/podcast-service/",
+        "*/event/widgets/",
+        "*/event/*/live/",
+        "*/event/*/html/",
+        "/allesbeste/*?s=*",
+        "/allesbeste/*&s=*",
+        "*/asset-comment-info/*",
+        "/membership/*",
+        "/kaufkompass/wp-admin/",
+        "/kaufkompass/newsticker/",
+        "/kaufkompass/wp-content/ab_api_cache/*",
+        "/kaufkompass/search/",
+        "/kaufkompass/*?p=*",
+        "/kaufkompass/*&p=*",
+        "/kaufkompass/*&preview=*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/kaufkompass/"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YouBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DeepSeekBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DeepSeek",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 29,
+    "allowedBots": 0,
+    "disallowedBots": 29,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -60,7 +344,7 @@
     },
     {
       "name": "GPTBot",
-      "allowed": true
+      "allowed": false
     },
     {
       "name": "omgili",
@@ -122,5 +406,44 @@
       "name": "DeepSeek",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/kaufkompass/wp-admin/admin-ajax.php"
+    ],
+    "disallowed": [
+      "/json/",
+      "/cmlink/",
+      "/premiumContent",
+      "/*.pdf",
+      "/js/adobe/at.js",
+      "/redaktion?cache",
+      "*mostclicked.gfn",
+      "/;suche=artikelsuche/suche/",
+      "/suche/",
+      "*?sort=",
+      "/dist/scripts/main_faz-comment.js",
+      "/html-ajax*",
+      "/livewire*",
+      "*atarget.js",
+      "*/sport-ergebnisse/*/ma*/$",
+      "*/sport-ergebnisse/*/co*/$",
+      "/api/collect/",
+      "/podcast-service/",
+      "*/event/widgets/",
+      "*/event/*/live/",
+      "*/event/*/html/",
+      "/allesbeste/*?s=*",
+      "/allesbeste/*&s=*",
+      "*/asset-comment-info/*",
+      "/membership/*",
+      "/kaufkompass/wp-admin/",
+      "/kaufkompass/newsticker/",
+      "/kaufkompass/wp-content/ab_api_cache/*",
+      "/kaufkompass/search/",
+      "/kaufkompass/*?p=*",
+      "/kaufkompass/*&p=*",
+      "/kaufkompass/*&preview=*"
+    ]
+  }
 }

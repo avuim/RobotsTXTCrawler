@@ -1,6 +1,85 @@
 {
   "domain": "www.paulaner.de",
   "normalizedDomain": "www.paulaner.de",
+  "robotsTxt": "User-agent: AhrefsBot\r\nDisallow: /\r\nUser-agent: SemrushBot\r\nDisallow: /\r\nUser-agent: MJ12bot\r\nDisallow: /\r\nUser-agent: DotBot\r\nDisallow: /\r\nUser-agent: Exabot\r\nDisallow: /\r\nUser-agent: SeznamBot\r\nDisallow: /\r\nUser-agent: Amazonbot\r\nDisallow: /\r\nUser-agent: MegaIndex\r\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DotBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Exabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SeznamBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 8,
+    "allowedBots": 0,
+    "disallowedBots": 8,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "AhrefsBot",
@@ -34,5 +113,9 @@
       "name": "MegaIndex",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

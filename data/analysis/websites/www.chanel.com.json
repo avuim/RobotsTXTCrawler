@@ -1,6 +1,31 @@
 {
   "domain": "www.chanel.com",
   "normalizedDomain": "www.chanel.com",
+  "robotsTxt": "User-agent: *\r\n\r\n#GOOGLE SHOPPING\r\nAllow: /th/*?lang=en_TH\r\n\r\n\r\nUser-agent: *\r\n\r\n#Verbolia\r\nDisallow: /*?itemsperpage=\r\n\r\n#PRESSRELEASE\r\nDisallow: /pressrelease/*\r\n\r\n#MY-ACCOUNT\r\nDisallow : /my-account/*\r\n\r\n#CORPORATE\r\nDisallow: /*.swf\r\nDisallow: /*.json\r\ndisallow:*popup*\r\nDisallow: contents/images/nav/\r\nDisallow: /fr_FR/*/services/logout\r\n\r\n#SITEMAP\r\nAllow: /sitemap.xml\r\nAllow: /sitemap*.xml\r\nSitemap: https://www.chanel.com/sitemap.xml\r\n\r\n#NEW-WFJ\r\nDisallow: /*null/*\r\nDisallow: */w/wishlist*\r\nDisallow: */w/pdf*\r\nDisallow: */api/*\r\nDisallow: /*?lang=\r\nDisallow: /*?text=\r\nDisallow: /*?wfjpreview=\r\n\r\n#ONE\r\nDisallow: */search/*\r\nDisallow: */cart/*\r\nDisallow: */checkout/*\r\nDisallow: */wishlist/*\r\nDisallow: /*?q=*\r\nDisallow: /*?asm=*\r\nDisallow: /us/*?*\r\n\r\n#SRQ0140051\r\nDisallow: /*?token=*\r\n\r\n#FF LATAM\r\n\r\nAllow: /?utm_source=google&utm_medium=organic&utm_campaign=us_free-cpc-shopping\r\n\r\nDisallow : */yapi/*\r\nDisallow : */review/*\r\nDisallow : */notifyme/*\r\nDisallow : */loadVariant/*\r\nDisallow : */stock/*\r\nDisallow : */cybersource/*\r\nDisallow : */showQuickView/*\r\nDisallow : */popinComponent/*\r\nDisallow : */staticOverlay/*\r\nDisallow :/*$*\r\nDisallow :*/book-appointment/categorie*\r\nDisallow :*/book-appointment/date*\r\nDisallow :*/book-appointment/service*\r\nDisallow :*/book-appointment/question*\r\nAllow: /us/*?utm_source=google&utm_medium=organic&utm_campaign=us_free-cpc-shopping\r\n\r\nUser-agent: Baiduspider\r\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/th/*?lang=en_TH"
+      ],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -10,5 +35,11 @@
       "name": "Baiduspider",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/th/*?lang=en_TH"
+    ],
+    "disallowed": []
+  }
 }

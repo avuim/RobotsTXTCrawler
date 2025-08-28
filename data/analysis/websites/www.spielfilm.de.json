@@ -1,18 +1,80 @@
 {
   "domain": "www.spielfilm.de",
   "normalizedDomain": "www.spielfilm.de",
+  "robotsTxt": "# robots.txt file for http://www.spielfilm.de/\r\n# mail redaktion@spielfilm.de for constructive criticism\r\n\r\nSitemap: http://www.spielfilm.de/sitemap.xml\r\n\r\nUser-agent: *\r\nDisallow: /admin/\r\nDisallow: /ajax/\r\nDisallow: /login/\r\nDisallow: /layout/\r\nDisallow: /suche/\r\nDisallow: /suche.html\r\nDisallow: /spielfilm.html?*\r\nDisallow: /filme/*/*/dvd-blu-ray\r\n\r\nUser-agent: Googlebot\r\nDisallow: /admin/\r\nDisallow: /ajax/\r\nDisallow: /login/\r\nDisallow: /layout/\r\nDisallow: /suche/\r\nDisallow: /suche.html\r\nDisallow: /spielfilm.html?*\r\nDisallow: /filme/*/*/dvd-blu-ray\r\n\r\nUser-agent: GPTBot\r\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/admin/",
+        "/ajax/",
+        "/login/",
+        "/layout/",
+        "/suche/",
+        "/suche.html",
+        "/spielfilm.html?*",
+        "/filme/*/*/dvd-blu-ray"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/admin/",
+          "/ajax/",
+          "/login/",
+          "/layout/",
+          "/suche/",
+          "/suche.html",
+          "/spielfilm.html?*",
+          "/filme/*/*/dvd-blu-ray"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 1,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Googlebot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/admin/",
+      "/ajax/",
+      "/login/",
+      "/layout/",
+      "/suche/",
+      "/suche.html",
+      "/spielfilm.html?*",
+      "/filme/*/*/dvd-blu-ray"
+    ]
+  }
 }

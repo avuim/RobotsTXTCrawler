@@ -1,10 +1,56 @@
 {
   "domain": "www.borkenerzeitung.de",
   "normalizedDomain": "www.borkenerzeitung.de",
+  "robotsTxt": "# Robots.txt for crawler\r\n\r\nUser-agent: *\r\n\r\n# Disallow Crawler\r\nDisallow: /Sso\r\nDisallow: /Benutzer\r\nDisallow: /User\r\nDisallow: /Anzeigen\r\nDisallow: /Dateien\r\nDisallow: /Nachrichten/Suche\r\n# possibly do not allow motif pictures to prevent file generation in advance\r\n#Disallow: /Motif/*.jpg\r\n\r\n# disallow some KI bots\r\nUser-agent: ChatGPT-User\r\nDisallow: /\r\nUser-agent: GPTBot\r\nDisallow: /\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\n# Max crawler time per page in sec\r\nCrawl-Delay: 2\r\n\r\n#Sitemap\r\n#Sitemap: https://www.funkinform.digital/Sitemap_Index.xml.gz\r\n\r\n# Legal notice: Borkener Zeitung.de expressly reserves the right to use its content for commercial text and data mining (� 44b UrhG). \r\n# The use of robots or other automated means to access Borkener Zeitung.de or collect or mine data without the express permission of Borkener ZeitungBorkener Zeitung.de is strictly prohibited. \r\n# If you would like to apply for permission to crawl Borkener Zeitung.de, collect or use data, please contact syndication@Borkener Zeitung.de",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/Sso",
+        "/Benutzer",
+        "/User",
+        "/Anzeigen",
+        "/Dateien",
+        "/Nachrichten/Suche"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "ChatGPT-User",
@@ -18,5 +64,16 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/Sso",
+      "/Benutzer",
+      "/User",
+      "/Anzeigen",
+      "/Dateien",
+      "/Nachrichten/Suche"
+    ]
+  }
 }

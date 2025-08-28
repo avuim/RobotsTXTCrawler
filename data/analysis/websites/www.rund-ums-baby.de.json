@@ -1,10 +1,36 @@
 {
   "domain": "www.rund-ums-baby.de",
   "normalizedDomain": "www.rund-ums-baby.de",
+  "robotsTxt": "Sitemap: https://www.rund-ums-baby.de/rub_foren/public/sitemap/active/sitemap.xml\r\nSitemap: https://www.rund-ums-baby.de/sitemap.xml\r\n\r\nUser-agent: *\r\nAllow: /\r\nDisallow: /cookie_event_log\r\nDisallow: /ruba/\r\nDisallow: /rubtools/",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/cookie_event_log",
+        "/ruba/",
+        "/rubtools/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/cookie_event_log",
+      "/ruba/",
+      "/rubtools/"
+    ]
+  }
 }

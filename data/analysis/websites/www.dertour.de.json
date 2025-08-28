@@ -1,10 +1,66 @@
 {
   "domain": "www.dertour.de",
   "normalizedDomain": "www.dertour.de",
+  "robotsTxt": "User-agent: *\nDisallow: /hotel/search?*\nDisallow: /en/hotel/search?*\nDisallow: /de/hotel/search?*\nDisallow: /hotel/*?travelType=*\nDisallow: /hotel/*&travelType=*\nDisallow: *?icid=*\nDisallow: *?bcid=*\nDisallow: *?ap=*\nDisallow: *?refat=*\nDisallow: *?tab=*\nDisallow: *?provider=*\nDisallow: *?ecid=*\nDisallow: *?fbclid=*\nDisallow: *?web_winter*\nDisallow: *?ajax_handler=*\nDisallow: *earliestStart=*\nDisallow: *?__historyState=*\nDisallow:  /logos/holidaycheck.svg\n\nSitemap: https://www.dertour.de/sitemaps/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/hotel/search?*",
+        "/en/hotel/search?*",
+        "/de/hotel/search?*",
+        "/hotel/*?travelType=*",
+        "/hotel/*&travelType=*",
+        "*?icid=*",
+        "*?bcid=*",
+        "*?ap=*",
+        "*?refat=*",
+        "*?tab=*",
+        "*?provider=*",
+        "*?ecid=*",
+        "*?fbclid=*",
+        "*?web_winter*",
+        "*?ajax_handler=*",
+        "*earliestStart=*",
+        "*?__historyState=*",
+        "/logos/holidaycheck.svg"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/hotel/search?*",
+      "/en/hotel/search?*",
+      "/de/hotel/search?*",
+      "/hotel/*?travelType=*",
+      "/hotel/*&travelType=*",
+      "*?icid=*",
+      "*?bcid=*",
+      "*?ap=*",
+      "*?refat=*",
+      "*?tab=*",
+      "*?provider=*",
+      "*?ecid=*",
+      "*?fbclid=*",
+      "*?web_winter*",
+      "*?ajax_handler=*",
+      "*earliestStart=*",
+      "*?__historyState=*",
+      "/logos/holidaycheck.svg"
+    ]
+  }
 }

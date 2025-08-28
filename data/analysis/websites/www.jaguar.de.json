@@ -1,5 +1,28 @@
 {
   "domain": "www.jaguar.de",
   "normalizedDomain": "www.jaguar.de",
-  "bots": []
+  "robotsTxt": "# robots.txt https://www.jaguar.de/\r\nUser-agent: *\r\nSitemap: https://www.jaguar.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

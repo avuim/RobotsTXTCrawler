@@ -1,10 +1,38 @@
 {
   "domain": "www.teckbote.de",
   "normalizedDomain": "www.teckbote.de",
+  "robotsTxt": "# global live settings :\r\nUser-agent: *\r\nDisallow: /cms_addon\r\nDisallow: /cms_docs\r\nDisallow: /redFACT\r\nDisallow: /REST/frontend/itemstatistics\r\nSitemap: https://www.teckbote.de/sitemap-index_2-Google_Sitemap.xml\r\nSitemap: https://www.teckbote.de/sitemap-index_3-Google_News_Sitemap.xml\r\nSitemap: https://www.teckbote.de/sitemap-index_4-Artikel_Sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/cms_addon",
+        "/cms_docs",
+        "/redFACT",
+        "/REST/frontend/itemstatistics"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/cms_addon",
+      "/cms_docs",
+      "/redFACT",
+      "/REST/frontend/itemstatistics"
+    ]
+  }
 }

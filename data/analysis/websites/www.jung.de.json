@@ -1,7 +1,82 @@
 {
   "domain": "www.jung.de",
   "normalizedDomain": "www.jung.de",
+  "robotsTxt": "User-agent: SemrushBot\r\nDisallow: /\r\n\r\nUser-agent: AhrefsBot\r\nDisallow: /\r\n\r\nUser-agent: ltx71 - (http://ltx71.com/)\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\nUser-agent: MJ12bot\r\nDisallow: /\r\n\r\nUser-agent: *\r\nCrawl-delay: 5\r\n\r\nDisallow: /at/722/\r\nDisallow: /en/722/\r\nDisallow: /nl/722/\r\nDisallow: /es/722/\r\nDisallow: /fr/722/\r\nDisallow: /it/722/\r\nDisallow: /ru/722/\r\nDisallow: /lt/722/\r\nDisallow: /cn/722/\r\nDisallow: /pt/722/\r\nDisallow: /ua/722/\r\nDisallow: /pl/722/\r\nDisallow: /ee/722/\r\nDisallow: /lv/722/\r\n\r\nDisallow: *ajax*\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/at/722/",
+        "/en/722/",
+        "/nl/722/",
+        "/es/722/",
+        "/fr/722/",
+        "/it/722/",
+        "/ru/722/",
+        "/lt/722/",
+        "/cn/722/",
+        "/pt/722/",
+        "/ua/722/",
+        "/pl/722/",
+        "/ee/722/",
+        "/lv/722/",
+        "*ajax*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ltx71 - (http://ltx71.com/)",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 5,
+    "allowedBots": 0,
+    "disallowedBots": 5,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "SemrushBot",
       "allowed": false
@@ -21,10 +96,26 @@
     {
       "name": "MJ12bot",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/at/722/",
+      "/en/722/",
+      "/nl/722/",
+      "/es/722/",
+      "/fr/722/",
+      "/it/722/",
+      "/ru/722/",
+      "/lt/722/",
+      "/cn/722/",
+      "/pt/722/",
+      "/ua/722/",
+      "/pl/722/",
+      "/ee/722/",
+      "/lv/722/",
+      "*ajax*"
+    ]
+  }
 }

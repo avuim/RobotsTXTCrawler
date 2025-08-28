@@ -1,9 +1,136 @@
 {
   "domain": "www.onetz.de",
   "normalizedDomain": "www.onetz.de",
+  "robotsTxt": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n#\n# For syntax checking, see:\n# http://www.frobee.com/robots-txt-check\n\n# Legal notice: onetz.de expressly reserves the right to use its \n# content for commercial text and data mining (§ 44b UrhG).\n#\n# The use of robots or other automated means to access onetz.de or \n# collect or mine data without the express permission of onetz.de \n# is strictly prohibited.\n# \n# If you would like to apply for permission to crawl onetz.de, \n# collect or use data, please contact info@oberpfalzmedien.de\n\nUser-agent: *\nCrawl-delay: 4\n# Directories\nDisallow: /includes/\nDisallow: /misc/\nDisallow: /modules/\nDisallow: /profiles/\nDisallow: /scripts/\nDisallow: /themes/\n# Files\nDisallow: /CHANGELOG.txt\nDisallow: /cron.php\nDisallow: /INSTALL.mysql.txt\nDisallow: /INSTALL.pgsql.txt\nDisallow: /install.php\nDisallow: /INSTALL.txt\nDisallow: /LICENSE.txt\nDisallow: /MAINTAINERS.txt\nDisallow: /update.php\nDisallow: /UPGRADE.txt\nDisallow: /xmlrpc.php\n# Paths (clean URLs)\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips/\nDisallow: /logout/\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /user/register/\nDisallow: /user/password/\nDisallow: /user/login/\n# Paths (no clean URLs)\nDisallow: /?q=admin/\nDisallow: /?q=comment/reply/\nDisallow: /?q=filter/tips/\nDisallow: /?q=logout/\nDisallow: /?q=node/add/\nDisallow: /?q=search/\nDisallow: /?q=user/password/\nDisallow: /?q=user/register/\nDisallow: /?q=user/login/\n\nDisallow: /*?_ptid=*\nDisallow: /sites/all/modules/ad/serve.php\n#Disallow: /*?page=*\nDisallow: /*?destination=*\nDisallow: /*?vtd=*\nDisallow: /search/content/*\nDisallow: /adtest/*\nDisallow: /contact/*\nDisallow: /user/*\n\n\nUser-agent: grapeshot\nCrawl-delay: 1\n#Disallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\n#User-agent: Bingbot\n#Disallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/includes/",
+        "/misc/",
+        "/modules/",
+        "/profiles/",
+        "/scripts/",
+        "/themes/",
+        "/CHANGELOG.txt",
+        "/cron.php",
+        "/INSTALL.mysql.txt",
+        "/INSTALL.pgsql.txt",
+        "/install.php",
+        "/INSTALL.txt",
+        "/LICENSE.txt",
+        "/MAINTAINERS.txt",
+        "/update.php",
+        "/UPGRADE.txt",
+        "/xmlrpc.php",
+        "/admin/",
+        "/comment/reply/",
+        "/filter/tips/",
+        "/logout/",
+        "/node/add/",
+        "/search/",
+        "/user/register/",
+        "/user/password/",
+        "/user/login/",
+        "/?q=admin/",
+        "/?q=comment/reply/",
+        "/?q=filter/tips/",
+        "/?q=logout/",
+        "/?q=node/add/",
+        "/?q=search/",
+        "/?q=user/password/",
+        "/?q=user/register/",
+        "/?q=user/login/",
+        "/*?_ptid=*",
+        "/sites/all/modules/ad/serve.php",
+        "/*?destination=*",
+        "/*?vtd=*",
+        "/search/content/*",
+        "/adtest/*",
+        "/contact/*",
+        "/user/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "grapeshot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 7,
+    "allowedBots": 0,
+    "disallowedBots": 7,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "grapeshot",
       "allowed": false
     },
     {
@@ -22,5 +149,53 @@
       "name": "Google-Extended",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/includes/",
+      "/misc/",
+      "/modules/",
+      "/profiles/",
+      "/scripts/",
+      "/themes/",
+      "/CHANGELOG.txt",
+      "/cron.php",
+      "/INSTALL.mysql.txt",
+      "/INSTALL.pgsql.txt",
+      "/install.php",
+      "/INSTALL.txt",
+      "/LICENSE.txt",
+      "/MAINTAINERS.txt",
+      "/update.php",
+      "/UPGRADE.txt",
+      "/xmlrpc.php",
+      "/admin/",
+      "/comment/reply/",
+      "/filter/tips/",
+      "/logout/",
+      "/node/add/",
+      "/search/",
+      "/user/register/",
+      "/user/password/",
+      "/user/login/",
+      "/?q=admin/",
+      "/?q=comment/reply/",
+      "/?q=filter/tips/",
+      "/?q=logout/",
+      "/?q=node/add/",
+      "/?q=search/",
+      "/?q=user/password/",
+      "/?q=user/register/",
+      "/?q=user/login/",
+      "/*?_ptid=*",
+      "/sites/all/modules/ad/serve.php",
+      "/*?destination=*",
+      "/*?vtd=*",
+      "/search/content/*",
+      "/adtest/*",
+      "/contact/*",
+      "/user/*"
+    ]
+  }
 }

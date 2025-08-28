@@ -1,14 +1,59 @@
 {
   "domain": "www.wallstreet-online.de",
   "normalizedDomain": "www.wallstreet-online.de",
-  "bots": [
+  "robotsTxt": "User-agent: Mediapartners-Google\nAllow: /\n\nUser-agent: *\nSitemap: https://www.wallstreet-online.de/sitemap/index.xml\nSitemap: https://www.wallstreet-online.de/sitemap/news48h.xml\nDisallow: /adserver/\nDisallow: /eyewonder/\nDisallow: /charts/\nDisallow: /_print/\nDisallow: /_plain/\nDisallow: /_recache/\nDisallow: /_rpc/\nDisallow: /ratgeber/jl.include\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/adserver/",
+        "/eyewonder/",
+        "/charts/",
+        "/_print/",
+        "/_plain/",
+        "/_recache/",
+        "/_rpc/",
+        "/ratgeber/jl.include"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "Mediapartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
       "allowed": true
     },
     {
-      "name": "*",
-      "allowed": false
+      "name": "Mediapartners-Google",
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/adserver/",
+      "/eyewonder/",
+      "/charts/",
+      "/_print/",
+      "/_plain/",
+      "/_recache/",
+      "/_rpc/",
+      "/ratgeber/jl.include"
+    ]
+  }
 }

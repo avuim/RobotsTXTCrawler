@@ -1,10 +1,34 @@
 {
   "domain": "www.lufthansa.com",
   "normalizedDomain": "www.lufthansa.com",
+  "robotsTxt": "# robots.txt https://www.lufthansa.com/\r\n\r\nUser-agent: *\r\nAllow: /\r\nDisallow: /deeplink\nDisallow: /service/secured\n\r\nSitemap: https://www.lufthansa.com/sitemap/sitemap_lh.xml.gz\r\nSitemap: https://www.lufthansa.com/aircore/sitemaps/sitemap-index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/deeplink",
+        "/service/secured"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/deeplink",
+      "/service/secured"
+    ]
+  }
 }

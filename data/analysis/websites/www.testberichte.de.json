@@ -1,6 +1,480 @@
 {
   "domain": "www.testberichte.de",
   "normalizedDomain": "www.testberichte.de",
+  "robotsTxt": "User-agent: *\nDisallow: /c/\nDisallow: /d/\nDisallow: /ad/\nDisallow: /f/\nDisallow: /fx/\nDisallow: /px/\nDisallow: /t/\nDisallow: /b/\nDisallow: /m/\nDisallow: /mobile/\nDisallow: /r/datenblatt/\nDisallow: /r/meinung/neue-meinung.html\nDisallow: /r/preis-sieger/\nDisallow: /r/test-note/\nDisallow: /r/test-sieger/\nDisallow: /volltextsuche/\nDisallow: /ratgeber/\nDisallow: /article/\nDisallow: /gu/\nDisallow: /d/ajax/\nDisallow: /dimg/\nDisallow: /limg/\nDisallow: /djs/\nDisallow: /js/v3/\nDisallow: /css/v3/\nDisallow: /search/\nDisallow: /pm/\nDisallow: /pdb/c/\nAllow: /css/v3/index-all.css\nAllow: /css/v3/lvl2.css\nAllow: /css/v3/lvl3-all.css\nAllow: /css/v3/root-all.css\nAllow: /css/v3/lvl5-all.css\nAllow: /css/v3/lvl5product-all.css\nAllow: /css/v3/lvl5_opinion.css\nAllow: /css/v3/public-relations.css\nAllow: /css/v3/magazine-list-page.css\nAllow: /css/v3/magazine-page.css\nAllow: /css/v3/lvl4-review-all.css\nAllow: /css/v3/presse.css\nAllow: /css/v3/root-all_.css\n\n#v5 (TB2) syntax\nDisallow: /imgs/editors/\nDisallow: /pxr/\nDisallow: /js/v5/nfl/\nDisallow: /css/v5/nfl/\n\n#v4 syntax\nDisallow: /css/v4/nfl/\nDisallow: /js/v4/nfl/\nDisallow: /js/v4/jquery/\n\n#for google mobile-friendly\nAllow: /js/v4/jquery/jquery-1.9.0.min.js\nAllow: /js/v3/mobileswitch.min.js\n\nDisallow: /beta/\nDisallow: /downloads/\nAllow: /downloads/nl/\nAllow: /downloads/pdf/\nDisallow: /img-v3/press/\n#allow for schema attributes\nAllow: /img-v3/press/logo_print.jpg\nDisallow: /img-v3/pr/\nDisallow: /img-v3/employee/\n#Disallow: /files/\nDisallow: /partner/\nDisallow: /api/\nDisallow: /app/\nDisallow: /captcha/\nDisallow: /secure/\nAllow: /dimg/note*\nDisallow: /www/imgs/\nDisallow: /www/files/\nDisallow: /imgsrv/\n\n\n#for mobile desktop version\nAllow: /css/v3/mobile.css\n\nUser-agent: aipbot\nDisallow: /\n\nUser-agent: QihooBot 1.0\nDisallow: /\n\nUser-agent: Mediapartners-Google*\nAllow: /ad/\nDisallow: /d/so/\nDisallow: /mobile/\n\nUser-agent: ShopWiki\nDisallow: /\n\nUser-agent: cityreview\nDisallow: /\n\n#User-agent: MJ12bot\n#Disallow:\n\nUser-agent: suggybot\nDisallow: /\n\nUser-agent: sitebot\nDisallow: /\n\nUser-agent: rogerbot\nDisallow: /\n\n#User-agent: AhrefsBot\n#Disallow:\n\nUser-agent: iisbot\nDisallow: /\n\nUser-agent: Screaming Frog SEO Spider\nDisallow: /\n\nUser-agent: BacklinkCrawler\nDisallow: /\n\nUser-agent: Custo 3.0 (www.netwu.com)\nDisallow: /\n\nUser-agent: Custo 3 (Netwu.com)\nDisallow: /\n\nUser-agent: Scrapy*\nDisallow: /\n\nUser-agent: SEOkicks-Robot\nDisallow: /\n\nUser-agent: SearchmetricsBot\nDisallow: /\n\nUser-agent: NewspointBot/1.0 (http://www.netsprint.eu/)\nDisallow: /\n\nUser-agent: XoviBot\nDisallow: /\n\nUser-agent: BLEXBot\nDisallow: /\n\nUser-agent: SiteExplorer\nDisallow: /\n\nUser-agent: DotBot\nDisallow: /\n\nUser-agent: CrystalSemanticsBot\nDisallow: /\n\nUser-agent: spbot\nDisallow: /\n\nUser-agent: SEOdiver\nDisallow: /\n\nUser-agent: Xenu Link Sleuth\nDisallow: /\n\nUser-agent: GrapeshotCrawler\nDisallow: /\n\nUser-agent: Abonti\nDisallow: /\n\nUser-agent: BuiBui-Bot\nDisallow: /\n\nUser-agent: ZumBot\nDisallow: /\n\nUser-agent: LinkpadBot\nDisallow: /\n\nUser-agent: LinkWalker\nDisallow: /\n\nUser-agent: zyklop\nDisallow: /\n\nUser-agent: BUbiNG\nDisallow: /\n\nUser-agent: MegaIndex\nDisallow: /\n\nUser-agent: jsoup\nDisallow: /\n\nUser-agent: daumoa\nDisallow: /\n\nUser-agent: VegeBot\nDisallow: /\n\nUser-agent: Spiderbot\nDisallow: /\n\nUser-agent: Domain Re-Animator Bot\nDisallow: /\n\nUser-agent: ADmantX Platform Semantic Analyzer\nDisallow: /\n\nUser-agent: QCrawl\nDisallow: /\n\nUser-agent: bhcBot\nDisallow: /\n\nUser-agent: GetintentCrawler\nDisallow: /\n\nUser-agent: OnPageBot\nDisallow: /\n\nUser-agent: HybridBot\nDisallow: /\n\nUser-agent: Vegi bot\nDisallow: /\n\nUser-agent: SentiBot\nDisallow: /\n\nUser-agent: MagentaNews\nDisallow: /\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/css/v3/index-all.css",
+        "/css/v3/lvl2.css",
+        "/css/v3/lvl3-all.css",
+        "/css/v3/root-all.css",
+        "/css/v3/lvl5-all.css",
+        "/css/v3/lvl5product-all.css",
+        "/css/v3/lvl5_opinion.css",
+        "/css/v3/public-relations.css",
+        "/css/v3/magazine-list-page.css",
+        "/css/v3/magazine-page.css",
+        "/css/v3/lvl4-review-all.css",
+        "/css/v3/presse.css",
+        "/css/v3/root-all_.css",
+        "/js/v4/jquery/jquery-1.9.0.min.js",
+        "/js/v3/mobileswitch.min.js",
+        "/downloads/nl/",
+        "/downloads/pdf/",
+        "/img-v3/press/logo_print.jpg",
+        "/dimg/note*",
+        "/css/v3/mobile.css"
+      ],
+      "disallowed": [
+        "/c/",
+        "/d/",
+        "/ad/",
+        "/f/",
+        "/fx/",
+        "/px/",
+        "/t/",
+        "/b/",
+        "/m/",
+        "/mobile/",
+        "/r/datenblatt/",
+        "/r/meinung/neue-meinung.html",
+        "/r/preis-sieger/",
+        "/r/test-note/",
+        "/r/test-sieger/",
+        "/volltextsuche/",
+        "/ratgeber/",
+        "/article/",
+        "/gu/",
+        "/d/ajax/",
+        "/dimg/",
+        "/limg/",
+        "/djs/",
+        "/js/v3/",
+        "/css/v3/",
+        "/search/",
+        "/pm/",
+        "/pdb/c/",
+        "/imgs/editors/",
+        "/pxr/",
+        "/js/v5/nfl/",
+        "/css/v5/nfl/",
+        "/css/v4/nfl/",
+        "/js/v4/nfl/",
+        "/js/v4/jquery/",
+        "/beta/",
+        "/downloads/",
+        "/img-v3/press/",
+        "/img-v3/pr/",
+        "/img-v3/employee/",
+        "/partner/",
+        "/api/",
+        "/app/",
+        "/captcha/",
+        "/secure/",
+        "/www/imgs/",
+        "/www/files/",
+        "/imgsrv/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "aipbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "QihooBot 1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Mediapartners-Google*",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/ad/"
+        ],
+        "disallowed": [
+          "/d/so/",
+          "/mobile/"
+        ]
+      }
+    },
+    {
+      "name": "ShopWiki",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cityreview",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "suggybot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sitebot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "rogerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "iisbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Screaming Frog SEO Spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BacklinkCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Custo 3.0 (www.netwu.com)",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Custo 3 (Netwu.com)",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy*",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SearchmetricsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewspointBot/1.0 (http://www.netsprint.eu/)",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "XoviBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SiteExplorer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DotBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CrystalSemanticsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "spbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEOdiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Xenu Link Sleuth",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GrapeshotCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Abonti",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BuiBui-Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ZumBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkpadBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkWalker",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "zyklop",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BUbiNG",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "jsoup",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "daumoa",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "VegeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Spiderbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Domain Re-Animator Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ADmantX Platform Semantic Analyzer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "QCrawl",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bhcBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GetintentCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OnPageBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "HybridBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Vegi bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SentiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MagentaNews",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 48,
+    "allowedBots": 1,
+    "disallowedBots": 47,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -198,5 +672,79 @@
       "name": "MagentaNews",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/css/v3/index-all.css",
+      "/css/v3/lvl2.css",
+      "/css/v3/lvl3-all.css",
+      "/css/v3/root-all.css",
+      "/css/v3/lvl5-all.css",
+      "/css/v3/lvl5product-all.css",
+      "/css/v3/lvl5_opinion.css",
+      "/css/v3/public-relations.css",
+      "/css/v3/magazine-list-page.css",
+      "/css/v3/magazine-page.css",
+      "/css/v3/lvl4-review-all.css",
+      "/css/v3/presse.css",
+      "/css/v3/root-all_.css",
+      "/js/v4/jquery/jquery-1.9.0.min.js",
+      "/js/v3/mobileswitch.min.js",
+      "/downloads/nl/",
+      "/downloads/pdf/",
+      "/img-v3/press/logo_print.jpg",
+      "/dimg/note*",
+      "/css/v3/mobile.css"
+    ],
+    "disallowed": [
+      "/c/",
+      "/d/",
+      "/ad/",
+      "/f/",
+      "/fx/",
+      "/px/",
+      "/t/",
+      "/b/",
+      "/m/",
+      "/mobile/",
+      "/r/datenblatt/",
+      "/r/meinung/neue-meinung.html",
+      "/r/preis-sieger/",
+      "/r/test-note/",
+      "/r/test-sieger/",
+      "/volltextsuche/",
+      "/ratgeber/",
+      "/article/",
+      "/gu/",
+      "/d/ajax/",
+      "/dimg/",
+      "/limg/",
+      "/djs/",
+      "/js/v3/",
+      "/css/v3/",
+      "/search/",
+      "/pm/",
+      "/pdb/c/",
+      "/imgs/editors/",
+      "/pxr/",
+      "/js/v5/nfl/",
+      "/css/v5/nfl/",
+      "/css/v4/nfl/",
+      "/js/v4/nfl/",
+      "/js/v4/jquery/",
+      "/beta/",
+      "/downloads/",
+      "/img-v3/press/",
+      "/img-v3/pr/",
+      "/img-v3/employee/",
+      "/partner/",
+      "/api/",
+      "/app/",
+      "/captcha/",
+      "/secure/",
+      "/www/imgs/",
+      "/www/files/",
+      "/imgsrv/"
+    ]
+  }
 }

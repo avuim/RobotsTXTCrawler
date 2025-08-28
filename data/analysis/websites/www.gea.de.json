@@ -1,14 +1,51 @@
 {
   "domain": "www.gea.de",
   "normalizedDomain": "www.gea.de",
+  "robotsTxt": "# global live settings :\r\nUser-agent: *\r\nDisallow: /cms_addon\r\nDisallow: /cms_docs\r\nDisallow: /redFACT\r\nDisallow: /REST/frontend/itemstatistics\r\nSitemap: https://www.gea.de/sitemap-index/3-gea_de-sitemap.xml\r\nSitemap: https://www.gea.de/sitemap-index/4-gea_de_-_news-sitemap.xml\r\n# customised settings :\r\nUser-agent: Google-Extended\r\nDisallow: /\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/cms_addon",
+        "/cms_docs",
+        "/redFACT",
+        "/REST/frontend/itemstatistics"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Google-Extended",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/cms_addon",
+      "/cms_docs",
+      "/redFACT",
+      "/REST/frontend/itemstatistics"
+    ]
+  }
 }

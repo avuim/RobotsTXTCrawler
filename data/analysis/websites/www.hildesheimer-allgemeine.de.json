@@ -1,7 +1,224 @@
 {
   "domain": "www.hildesheimer-allgemeine.de",
   "normalizedDomain": "www.hildesheimer-allgemeine.de",
+  "robotsTxt": "# www.robotstxt.org/\r\n\r\n# Legal notice: www.hildesheimer-allgemeine.de expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG). \r\n\r\n# The use of robots or other automated means to access www.hildesheimer-allgemeine.de or collect or mine data without the express permission of www.hildesheimer-allgemeine.de is strictly prohibited. \r\n\r\n# If you would like to apply for permission to crawl www.hildesheimer-allgemeine.de, collect or use data, please contact info(at)hildesheimer-allgemeine.de\r\n\r\nUser-agent: backlink-check.de\r\nDisallow: /\r\n\r\nUser-agent: BacklinkCrawler\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\nUser-agent: Google-Extended{*}\r\nDisallow: /{*}\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nUser-agent: ExtractorPro\r\nDisallow: /\r\n\r\nUser-agent: Fasterfox\r\nDisallow: /\r\n\r\nUser-agent: LinkextractorPro\r\nDisallow: /\r\n\r\nUser-agent: LinkWalker\r\nDisallow: /\r\n\r\nUser-agent: MJ12bot\r\nDisallow: /\r\n\r\nUser-agent: Openbot\r\nDisallow: /\r\n\r\nUser-agent: rogerbot \r\nDisallow: /\r\n\r\nUser-agent: searchpreview\r\nDisallow: /\r\n\r\nUser-agent: SemrushBot\r\nDisallow: /\r\n\r\nUser-agent: SEODAT\r\nDisallow: /\r\n\r\nUser-agent: SEOENGBot\r\nDisallow: /\r\n\r\nUser-agent: SEOkicks-Robot\r\nDisallow: /\r\n\r\nUser-agent: sistrix\r\nDisallow: /\r\n\r\nUser-agent: True_Robot\r\nDisallow: /\r\n\r\nUser-agent: URL Control\r\nDisallow: /\r\n\r\nUser-agent: URL_Spider_Pro\r\nDisallow: /\r\n\r\nUser-agent: xovi\r\nDisallow: /\r\n\r\n\r\n# Allow crawling of some content\r\nUser-agent: *\r\n\r\nAllow: /fileadmin/templates/*.css\r\nAllow: /fileadmin/templates/*.js\r\nAllow: /fileadmin/templates/*.jpg\r\nAllow: /fileadmin/templates/*.png\r\nAllow: /fileadmin/templates/*.gif\r\nDisallow: /fileadmin/templates/\r\n\r\nDisallow: /t3lib/\r\nDisallow: /typo3/\r\nDisallow: /typo3_src/\r\n\r\nAllow: /typo3conf/*.css\r\nAllow: /typo3conf/*.js\r\nAllow: /typo3conf/*.jpg\r\nAllow: /typo3conf/*.png\r\nDisallow: /typo3conf/\r\n\r\nDisallow: /*.rss$\r\nDisallow: /suche.html\r\nDisallow: /newsletter-services/newsletter.html\r\nDisallow: /korrekturvorschlag.html*\r\n\r\nSitemap: https://www.hildesheimer-allgemeine.de/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/fileadmin/templates/*.css",
+        "/fileadmin/templates/*.js",
+        "/fileadmin/templates/*.jpg",
+        "/fileadmin/templates/*.png",
+        "/fileadmin/templates/*.gif",
+        "/typo3conf/*.css",
+        "/typo3conf/*.js",
+        "/typo3conf/*.jpg",
+        "/typo3conf/*.png"
+      ],
+      "disallowed": [
+        "/fileadmin/templates/",
+        "/t3lib/",
+        "/typo3/",
+        "/typo3_src/",
+        "/typo3conf/",
+        "/*.rss$",
+        "/suche.html",
+        "/newsletter-services/newsletter.html",
+        "/korrekturvorschlag.html*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "backlink-check.de",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BacklinkCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended{*}",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/{*}"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ExtractorPro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkextractorPro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkWalker",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Openbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "rogerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "searchpreview",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEODAT",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEOENGBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sistrix",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "True_Robot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "URL Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "URL_Spider_Pro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "xovi",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 22,
+    "allowedBots": 1,
+    "disallowedBots": 21,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "backlink-check.de",
       "allowed": false
@@ -16,7 +233,7 @@
     },
     {
       "name": "Google-Extended{*}",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "GPTBot",
@@ -89,10 +306,30 @@
     {
       "name": "xovi",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/fileadmin/templates/*.css",
+      "/fileadmin/templates/*.js",
+      "/fileadmin/templates/*.jpg",
+      "/fileadmin/templates/*.png",
+      "/fileadmin/templates/*.gif",
+      "/typo3conf/*.css",
+      "/typo3conf/*.js",
+      "/typo3conf/*.jpg",
+      "/typo3conf/*.png"
+    ],
+    "disallowed": [
+      "/fileadmin/templates/",
+      "/t3lib/",
+      "/typo3/",
+      "/typo3_src/",
+      "/typo3conf/",
+      "/*.rss$",
+      "/suche.html",
+      "/newsletter-services/newsletter.html",
+      "/korrekturvorschlag.html*"
+    ]
+  }
 }

@@ -2,7 +2,9 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import styled from 'styled-components';
 import Layout from '../common/Layout/Layout.tsx';
-import Table, { TableColumn, TableLink } from '../common/Table.tsx';
+import GlobalRulesCard from './GlobalRulesCard.tsx';
+import BotSpecificRulesCard from './BotSpecificRulesCard.tsx';
+import WebsiteDirectoryRulesCard from './WebsiteDirectoryRulesCard.tsx';
 import { useApi } from '../../hooks/useApi.ts';
 import { API } from '../../services/api.ts';
 import Loading from '../common/Loading.tsx';
@@ -46,47 +48,6 @@ const InfoValue = styled.span`
   font-weight: 600;
 `;
 
-const SectionTitle = styled.h3`
-  margin: 0 0 ${({ theme }) => theme.spacing.md} 0;
-  color: ${({ theme }) => theme.colors.primary};
-  font-size: 1.2rem;
-  font-weight: 600;
-`;
-
-const StatusBadge = styled.span<{ $allowed: boolean }>`
-  display: inline-block;
-  padding: ${({ theme }) => theme.spacing.xs} ${({ theme }) => theme.spacing.sm};
-  border-radius: ${({ theme }) => theme.borderRadius.small};
-  font-size: 0.8rem;
-  font-weight: 500;
-  color: white;
-  background-color: ${({ theme, $allowed }) => 
-    $allowed ? theme.colors.success : theme.colors.danger};
-`;
-
-const CategoryBadge = styled.span<{ $category: string }>`
-  display: inline-block;
-  padding: ${({ theme }) => theme.spacing.xs} ${({ theme }) => theme.spacing.sm};
-  border-radius: ${({ theme }) => theme.borderRadius.small};
-  font-size: 0.8rem;
-  font-weight: 500;
-  color: white;
-  background-color: ${({ theme, $category }) => {
-    switch ($category) {
-      case 'searchEngine': return theme.colors.searchEngine;
-      case 'seo': return theme.colors.seo;
-      case 'aiScraper': return theme.colors.aiScraper;
-      case 'other': return theme.colors.other;
-      default: return theme.colors.lightText;
-    }
-  }};
-`;
-
-interface BotEntry {
-  name: string;
-  category: string;
-  allowed: boolean;
-}
 
 const WebsiteDetailPage: React.FC = () => {
   const { domain } = useParams<{ domain: string }>();
@@ -99,13 +60,6 @@ const WebsiteDetailPage: React.FC = () => {
   // Lade Bot-Liste für Kategorien
   const { data: botList } = useApi(() => API.getBots());
 
-  const categoryLabels = {
-    searchEngine: 'Suchmaschine',
-    seo: 'SEO-Tool',
-    aiScraper: 'KI/LLM-Scraper',
-    other: 'Andere',
-  };
-
   // Funktion zum Ermitteln der Bot-Kategorie
   const getBotCategory = (botName: string): string => {
     if (!botList) return 'other';
@@ -113,41 +67,6 @@ const WebsiteDetailPage: React.FC = () => {
     const bot = botList.find((b: any) => b.name === botName);
     return bot?.category || 'other';
   };
-
-  // Funktion zum Formatieren des Bot-Namens
-  const formatBotName = (botName: string): string => {
-    return botName === '*' ? 'Bot Wildcard *' : botName;
-  };
-
-  const columns: TableColumn<BotEntry>[] = [
-    {
-      key: 'name',
-      header: 'Bot Name',
-      render: (entry) => (
-        <TableLink to={`/bots/${encodeURIComponent(entry.name)}`}>
-          {formatBotName(entry.name)}
-        </TableLink>
-      ),
-    },
-    {
-      key: 'category',
-      header: 'Kategorie',
-      render: (entry) => (
-        <CategoryBadge $category={entry.category}>
-          {categoryLabels[entry.category as keyof typeof categoryLabels] || entry.category}
-        </CategoryBadge>
-      ),
-    },
-    {
-      key: 'allowed',
-      header: 'Status',
-      render: (entry) => (
-        <StatusBadge $allowed={entry.allowed}>
-          {entry.allowed ? 'Erlaubt' : 'Verboten'}
-        </StatusBadge>
-      ),
-    },
-  ];
 
   if (loading) {
     return (
@@ -173,47 +92,38 @@ const WebsiteDetailPage: React.FC = () => {
     );
   }
 
-  // Erstelle Bot-Einträge aus den Website-Daten
-  const botEntries: BotEntry[] = [];
-  
-  // Verarbeite Bot-Array (neues Format)
-  if (website.bots && Array.isArray(website.bots)) {
-    website.bots.forEach((bot: any) => {
-      botEntries.push({
-        name: bot.name,
-        category: getBotCategory(bot.name),
-        allowed: bot.allowed
-      });
-    });
-  } else {
-    // Fallback für altes Format
-    // Verarbeite erlaubte Bots
-    if (website.bots?.allowed) {
-      website.bots.allowed.forEach((botName: string) => {
-        botEntries.push({
-          name: botName,
-          category: getBotCategory(botName),
-          allowed: true
-        });
-      });
-    }
-    
-    // Verarbeite verbotene Bots
-    if (website.bots?.disallowed) {
-      website.bots.disallowed.forEach((botName: string) => {
-        botEntries.push({
-          name: botName,
-          category: getBotCategory(botName),
-          allowed: false
-        });
-      });
-    }
-  }
 
-  // Verwende die Statistiken direkt aus der API-Antwort
-  const totalBots = website.totalBots || 0;
-  const allowedBots = website.allowedBots || 0;
-  const disallowedBots = website.disallowedBots || 0;
+  // Verwende neue Statistiken oder Fallback zu Legacy
+  const stats = website.stats || {
+    totalSpecificBots: website.totalBots || 0,
+    allowedBots: website.allowedBots || 0,
+    disallowedBots: website.disallowedBots || 0,
+    hasGlobalAllow: true
+  };
+
+  // Debug-Ausgabe - vollständige Website-Daten
+  console.log('🔍 Complete website object:', JSON.stringify(website, null, 2));
+  
+  console.log('🔍 Website data structure:', JSON.stringify({
+    hasGlobalRules: !!website.globalRules,
+    hasSpecificBots: !!website.specificBots,
+    specificBotsLength: website.specificBots?.length || 0,
+    stats,
+    allKeys: Object.keys(website)
+  }, null, 2));
+  
+  console.log('🔍 GlobalRules condition:', JSON.stringify({
+    hasGlobalRules: !!website.globalRules,
+    hasGlobalRulesPaths: !!(website.globalRules && website.globalRules.paths),
+    globalRulesData: website.globalRules
+  }, null, 2));
+  
+  console.log('🔍 SpecificBots condition:', JSON.stringify({
+    hasSpecificBots: !!website.specificBots,
+    specificBotsLength: website.specificBots?.length || 0,
+    condition: !!(website.specificBots && website.specificBots.length > 0),
+    specificBotsData: website.specificBots
+  }, null, 2));
 
   return (
     <Layout pageTitle={`Website: ${decodedDomain}`}>
@@ -225,44 +135,56 @@ const WebsiteDetailPage: React.FC = () => {
               <InfoValue>{decodedDomain}</InfoValue>
             </InfoItem>
             <InfoItem>
-              <InfoLabel>Anzahl Bots</InfoLabel>
-              <InfoValue>{totalBots.toLocaleString()}</InfoValue>
+              <InfoLabel>Global Status</InfoLabel>
+              <InfoValue style={{ color: stats.hasGlobalAllow ? '#10b981' : '#ef4444' }}>
+                {stats.hasGlobalAllow ? 'Erlaubt' : 'Verboten'}
+              </InfoValue>
             </InfoItem>
             <InfoItem>
-              <InfoLabel>Erlaubte Bots</InfoLabel>
+              <InfoLabel>Spezifische Bots</InfoLabel>
+              <InfoValue>{stats.totalSpecificBots.toLocaleString()}</InfoValue>
+            </InfoItem>
+            <InfoItem>
+              <InfoLabel>Davon erlaubt</InfoLabel>
               <InfoValue style={{ color: '#10b981' }}>
-                {allowedBots.toLocaleString()}
+                {stats.allowedBots.toLocaleString()}
               </InfoValue>
             </InfoItem>
             <InfoItem>
-              <InfoLabel>Verbotene Bots</InfoLabel>
+              <InfoLabel>Davon verboten</InfoLabel>
               <InfoValue style={{ color: '#ef4444' }}>
-                {disallowedBots.toLocaleString()}
-              </InfoValue>
-            </InfoItem>
-            <InfoItem>
-              <InfoLabel>Erlaubt-Quote</InfoLabel>
-              <InfoValue>
-                {totalBots > 0 
-                  ? `${((allowedBots / totalBots) * 100).toFixed(1)}%`
-                  : '0%'
-                }
+                {stats.disallowedBots.toLocaleString()}
               </InfoValue>
             </InfoItem>
           </InfoGrid>
         </InfoCard>
 
-        <InfoCard>
-          <SectionTitle>Bot-Details</SectionTitle>
-          {botEntries.length > 0 ? (
-            <Table 
-              data={botEntries} 
-              columns={columns}
-            />
-          ) : (
-            <p>Keine Bot-Details verfügbar</p>
-          )}
-        </InfoCard>
+        {/* Globale Regeln */}
+        {website.globalRules && website.globalRules.paths && (
+          <GlobalRulesCard 
+            hasGlobalAllow={stats.hasGlobalAllow}
+            paths={website.globalRules.paths}
+            domain={decodedDomain} 
+          />
+        )}
+
+        {/* Bot-spezifische Regeln */}
+        {website.specificBots && website.specificBots.length > 0 && (
+          <BotSpecificRulesCard 
+            specificBots={website.specificBots}
+            stats={stats}
+            getBotCategory={getBotCategory}
+          />
+        )}
+
+        {/* Fallback: Legacy Directory Rules (nur wenn neue Struktur nicht vorhanden) */}
+        {!website.globalRules && !website.specificBots && website.paths && (
+          <WebsiteDirectoryRulesCard 
+            paths={website.paths} 
+            domain={decodedDomain} 
+          />
+        )}
+
       </PageContainer>
     </Layout>
   );

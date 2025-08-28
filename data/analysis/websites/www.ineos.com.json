@@ -1,10 +1,28 @@
 {
   "domain": "www.ineos.com",
   "normalizedDomain": "www.ineos.com",
+  "robotsTxt": "# ---------------------------\r\nUser-agent: *\r\nDisallow:\r\n\r\nSitemap: https://www.ineos.com/sitemap.xml\r\n# ---------------------------",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

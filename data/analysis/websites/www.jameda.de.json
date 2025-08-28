@@ -1,18 +1,232 @@
 {
   "domain": "www.jameda.de",
   "normalizedDomain": "www.jameda.de",
+  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /stats.php\nDisallow: /ajax.php\n\nUser-agent: *\nDisallow: /_deploy/\nDisallow: /_php/\nAllow: /app/*\nDisallow: /css/\nDisallow: /lib/\nDisallow: /php/\nDisallow: /bewerten/\nDisallow: /termin-buchen/\nDisallow: /mein-jameda/\nAllow: /_php/cache_files/*\nAllow: /lib/ionic/fonts/\nDisallow: /plz-ort/\nDisallow: /?jamsess\nDisallow: /?new_search\nDisallow: /*&lng\nDisallow: /*&frage2all=ja\nDisallow: /?textonly\nDisallow: /*?methode=\nDisallow: /*?schritt=\nDisallow: /*&paket=\nDisallow: /?focus_sterne\nDisallow: /?missbrauch=melden\nDisallow: /*&usg=\nDisallow: /?&sa=\nDisallow: /*?tracking\nDisallow: /?gruppe\nDisallow: /?PHPSESSID\nDisallow: /*&fachgebiet\nDisallow: /*&signal_color\nDisallow: /*iframe\nDisallow: /*&amp;badge\nDisallow: /*&amp;art\nDisallow: /*&amp;amp;\nDisallow: /*&was\nDisallow: /*direktfrom\nDisallow: /aenderungs-formular.php\nDisallow: /bewerten/\nDisallow: /termin/\nDisallow: /kommentieren.php\nDisallow: /jam-opgfi/\nDisallow: /jam-opyi/\nDisallow: /overlays/\nDisallow: /*&bsort=*/\nDisallow: /arztsuche/profil/index.php?id=\nDisallow: /?shownoten\nDisallow: /login.php\nDisallow: /arztsuche/?geo\nDisallow: /ergebnisliste/?geo\nDisallow: /?textonly\nDisallow: /?focusfrage\nDisallow: /?gclid\nDisallow: /?bw=\nDisallow: /?from_tpf=\nDisallow: /?tpf=all\nDisallow: /index-*/index-*/\nDisallow: /otb-info.php*\nDisallow: /ergebnisliste/\nDisallow: /angstpatienten/\nDisallow: /kinderfreundlich/\nDisallow: /bewertungen/landaerzte/\nDisallow: /bewertungen/empfehlung-stadt/\nDisallow: /bewertungen/empfehlung-behandlung/\nDisallow: /karte/\nDisallow: /gesundheit/preview/\nDisallow: /arztsuche/profil/kommentieren.php\nDisallow: /arztsuche/profil/befragen.php\nDisallow: /arztsuche/profil/problem_melden.php\nDisallow: /arztsuche/profil/bewerten.php\nDisallow: /landing/weiterleitung.php\nDisallow: /fachkreise/aenderungs-formular.php\n\n# used to prevent overloading servers with too many requests. If search engines are able to overload a server, adding Crawl-delay to your robots.txt file is only a temporary fix\nUser-agent: BingBot\nCrawl-delay: 10\n\n# Archive.org Bot auf BWs ausschliessen, damit rechtlich kein Problem\nUser-agent: ia_archiver\nDisallow: /bewertungen/\nDisallow: /bewertung/\n\nUser-agent: *\nDisallow: /patient/chat/*\nDisallow: /registrierung-arzt\nDisallow: /kontrolle-uebernehmen/\nDisallow: /doctor-add\nDisallow: /profilaenderungen-beantragen/*\nDisallow: /bewertung-schreiben/*\nDisallow: /edit-opinion/\nDisallow: /suchen?\nDisallow: /registrierung-einrichtung\nDisallow: /social-connect\nDisallow: /marketing/\nDisallow: /*/marketing/\nDisallow: /ajax/\nDisallow: /api/\nDisallow: /link\nDisallow: /gesundheitseinrichtungen/link\nDisallow: *?white_label\n\nUser-Agent: AhrefsBot\nCrawl-Delay: 2\n\nUser-agent: bingbot\nCrawl-delay: 1\nDisallow: /patient/chat/*\nDisallow: /registrierung-arzt\nDisallow: /kontrolle-uebernehmen/\nDisallow: /doctor-add\nDisallow: /profilaenderungen-beantragen/*\nDisallow: /bewertung-schreiben/*\nDisallow: /edit-opinion/\nDisallow: /suchen?\nDisallow: /registrierung-einrichtung\nDisallow: /social-connect\nDisallow: /marketing/\nDisallow: /*/marketing/\nDisallow: /ajax/\nDisallow: /api/\nDisallow: /link\nDisallow: /gesundheitseinrichtungen/link\nDisallow: *?white_label\n\nUser-agent: PiplBot\nDisallow: /\n\nUser-agent: petalbot\nDisallow: /\n\nUser-agent: neticle.hu\nDisallow: /\n\nUser-agent: *\nDisallow: /public/doc",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/stats.php",
+        "/ajax.php"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "BingBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/bewertungen/",
+          "/bewertung/"
+        ]
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/bewertungen/",
+          "/bewertung/"
+        ]
+      }
+    },
+    {
+      "name": "BingBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/bewertungen/",
+          "/bewertung/"
+        ]
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/bewertungen/",
+          "/bewertung/"
+        ]
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/patient/chat/*",
+          "/registrierung-arzt",
+          "/kontrolle-uebernehmen/",
+          "/doctor-add",
+          "/profilaenderungen-beantragen/*",
+          "/bewertung-schreiben/*",
+          "/edit-opinion/",
+          "/suchen?",
+          "/registrierung-einrichtung",
+          "/social-connect",
+          "/marketing/",
+          "/*/marketing/",
+          "/ajax/",
+          "/api/",
+          "/link",
+          "/gesundheitseinrichtungen/link",
+          "*?white_label"
+        ]
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/patient/chat/*",
+          "/registrierung-arzt",
+          "/kontrolle-uebernehmen/",
+          "/doctor-add",
+          "/profilaenderungen-beantragen/*",
+          "/bewertung-schreiben/*",
+          "/edit-opinion/",
+          "/suchen?",
+          "/registrierung-einrichtung",
+          "/social-connect",
+          "/marketing/",
+          "/*/marketing/",
+          "/ajax/",
+          "/api/",
+          "/link",
+          "/gesundheitseinrichtungen/link",
+          "*?white_label"
+        ]
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/patient/chat/*",
+          "/registrierung-arzt",
+          "/kontrolle-uebernehmen/",
+          "/doctor-add",
+          "/profilaenderungen-beantragen/*",
+          "/bewertung-schreiben/*",
+          "/edit-opinion/",
+          "/suchen?",
+          "/registrierung-einrichtung",
+          "/social-connect",
+          "/marketing/",
+          "/*/marketing/",
+          "/ajax/",
+          "/api/",
+          "/link",
+          "/gesundheitseinrichtungen/link",
+          "*?white_label"
+        ]
+      }
+    },
+    {
+      "name": "bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/patient/chat/*",
+          "/registrierung-arzt",
+          "/kontrolle-uebernehmen/",
+          "/doctor-add",
+          "/profilaenderungen-beantragen/*",
+          "/bewertung-schreiben/*",
+          "/edit-opinion/",
+          "/suchen?",
+          "/registrierung-einrichtung",
+          "/social-connect",
+          "/marketing/",
+          "/*/marketing/",
+          "/ajax/",
+          "/api/",
+          "/link",
+          "/gesundheitseinrichtungen/link",
+          "*?white_label"
+        ]
+      }
+    },
+    {
+      "name": "PiplBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "petalbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "neticle.hu",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 11,
+    "allowedBots": 8,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     },
     {
+      "name": "BingBot",
+      "allowed": true
+    },
+    {
       "name": "ia_archiver",
-      "allowed": false
+      "allowed": true
+    },
+    {
+      "name": "BingBot",
+      "allowed": true
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": true
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": true
     },
     {
       "name": "bingbot",
-      "allowed": false
+      "allowed": true
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": true
+    },
+    {
+      "name": "bingbot",
+      "allowed": true
     },
     {
       "name": "PiplBot",
@@ -26,5 +240,12 @@
       "name": "neticle.hu",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/stats.php",
+      "/ajax.php"
+    ]
+  }
 }

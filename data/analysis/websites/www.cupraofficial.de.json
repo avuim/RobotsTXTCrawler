@@ -1,10 +1,36 @@
 {
   "domain": "www.cupraofficial.de",
   "normalizedDomain": "www.cupraofficial.de",
+  "robotsTxt": "User-Agent: *\r\nAllow: /\r\nDisallow: /private-area/\r\nDisallow: *seatIdLogin\r\nDisallow: *seatIdLogout\r\n\r\n\r\nSitemap: https://www.cupraofficial.de/sitemap.xml\r\nSitemap: https://www.cupraofficial.de/sitemap-hreflang.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/private-area/",
+        "*seatIdLogin",
+        "*seatIdLogout"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/private-area/",
+      "*seatIdLogin",
+      "*seatIdLogout"
+    ]
+  }
 }

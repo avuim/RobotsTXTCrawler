@@ -1,10 +1,42 @@
 {
   "domain": "www.europa.de",
   "normalizedDomain": "www.europa.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /typo3/\r\nDisallow: /typo3_src/\r\nDisallow: *.pdf\r\nDisallow: /unternehmen/presse/pressemitteilungen/*\r\nAllow: /typo3/sysext/frontend/Resources/Public/*\r\n\r\n# XML-Sitemap\r\nSitemap:https://www.europa.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/typo3/sysext/frontend/Resources/Public/*"
+      ],
+      "disallowed": [
+        "/typo3/",
+        "/typo3_src/",
+        "*.pdf",
+        "/unternehmen/presse/pressemitteilungen/*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/typo3/sysext/frontend/Resources/Public/*"
+    ],
+    "disallowed": [
+      "/typo3/",
+      "/typo3_src/",
+      "*.pdf",
+      "/unternehmen/presse/pressemitteilungen/*"
+    ]
+  }
 }

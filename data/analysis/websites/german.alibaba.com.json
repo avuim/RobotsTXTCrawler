@@ -1,10 +1,106 @@
 {
   "domain": "german.alibaba.com",
   "normalizedDomain": "german.alibaba.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /searchresult*\r\nDisallow: /searchsuppliers*\r\nDisallow: /trade/search*\r\nDisallow: /product-list*\r\nDisallow: /corporation*\r\nDisallow: /catalogs*\r\nDisallow: /wholesalers*\r\nDisallow: /suppliers*\r\nDisallow: /industry-promotion*\r\nDisallow: /activities\r\nDisallow: /country\r\nDisallow: /event/app/alisite/render.htm\r\nDisallow: /*?*isSpider=\r\nDisallow: /*?*redirect=\r\nDisallow: /*?*language=\r\nAllow:    /wholesale/product-gs/*?_escaped_fragment_\r\nAllow:    /wholesale/product-free/*?_escaped_fragment_\r\nAllow:    /wholesale/product-tp/*?_escaped_fragment_\r\nAllow:    /wholesale/p-detail/*?_escaped_fragment_\r\nAllow:    /product-gs/*?_escaped_fragment_\r\nAllow:    /product-free/*?_escaped_fragment_\r\nAllow:    /product-tp/*?_escaped_fragment_\r\nAllow:    /p-detail/*?_escaped_fragment_\r\nAllow:    /g/\r\nAllow: *?mark=google_shopping\r\nAllow: *?seo=1&mark=google_shopping\r\nAllow: *?src=sem_ggl\r\nDisallow: /RSS/\r\nDisallow: /product-detail/alisite-mobile.alibaba.com/minisite/\r\nDisallow: /\"https://\r\nDisallow:/kf/\r\nDisallow: /supplier_wc*\r\nDisallow: /g/g/\r\nDisallow: /supplier-report/\r\nDisallow: /photo-products/\r\nDisallow: /amp/\r\nDisallow: /g/fw/",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/wholesale/product-gs/*?_escaped_fragment_",
+        "/wholesale/product-free/*?_escaped_fragment_",
+        "/wholesale/product-tp/*?_escaped_fragment_",
+        "/wholesale/p-detail/*?_escaped_fragment_",
+        "/product-gs/*?_escaped_fragment_",
+        "/product-free/*?_escaped_fragment_",
+        "/product-tp/*?_escaped_fragment_",
+        "/p-detail/*?_escaped_fragment_",
+        "/g/",
+        "*?mark=google_shopping",
+        "*?seo=1&mark=google_shopping",
+        "*?src=sem_ggl"
+      ],
+      "disallowed": [
+        "/searchresult*",
+        "/searchsuppliers*",
+        "/trade/search*",
+        "/product-list*",
+        "/corporation*",
+        "/catalogs*",
+        "/wholesalers*",
+        "/suppliers*",
+        "/industry-promotion*",
+        "/activities",
+        "/country",
+        "/event/app/alisite/render.htm",
+        "/*?*isSpider=",
+        "/*?*redirect=",
+        "/*?*language=",
+        "/RSS/",
+        "/product-detail/alisite-mobile.alibaba.com/minisite/",
+        "/\"https://",
+        "/kf/",
+        "/supplier_wc*",
+        "/g/g/",
+        "/supplier-report/",
+        "/photo-products/",
+        "/amp/",
+        "/g/fw/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/wholesale/product-gs/*?_escaped_fragment_",
+      "/wholesale/product-free/*?_escaped_fragment_",
+      "/wholesale/product-tp/*?_escaped_fragment_",
+      "/wholesale/p-detail/*?_escaped_fragment_",
+      "/product-gs/*?_escaped_fragment_",
+      "/product-free/*?_escaped_fragment_",
+      "/product-tp/*?_escaped_fragment_",
+      "/p-detail/*?_escaped_fragment_",
+      "/g/",
+      "*?mark=google_shopping",
+      "*?seo=1&mark=google_shopping",
+      "*?src=sem_ggl"
+    ],
+    "disallowed": [
+      "/searchresult*",
+      "/searchsuppliers*",
+      "/trade/search*",
+      "/product-list*",
+      "/corporation*",
+      "/catalogs*",
+      "/wholesalers*",
+      "/suppliers*",
+      "/industry-promotion*",
+      "/activities",
+      "/country",
+      "/event/app/alisite/render.htm",
+      "/*?*isSpider=",
+      "/*?*redirect=",
+      "/*?*language=",
+      "/RSS/",
+      "/product-detail/alisite-mobile.alibaba.com/minisite/",
+      "/\"https://",
+      "/kf/",
+      "/supplier_wc*",
+      "/g/g/",
+      "/supplier-report/",
+      "/photo-products/",
+      "/amp/",
+      "/g/fw/"
+    ]
+  }
 }

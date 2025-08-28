@@ -1,10 +1,44 @@
 {
   "domain": "www.spd.de",
   "normalizedDomain": "www.spd.de",
+  "robotsTxt": "User-Agent: *\r\nAllow: /                #allow everything by default\r\nDisallow: /typo3/\r\nDisallow: /typo3conf/\r\nDisallow: /typo3temp/\r\nDisallow: /*?id=*\r\nDisallow: /suche\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/                #allow everything by default"
+      ],
+      "disallowed": [
+        "/typo3/",
+        "/typo3conf/",
+        "/typo3temp/",
+        "/*?id=*",
+        "/suche"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/                #allow everything by default"
+    ],
+    "disallowed": [
+      "/typo3/",
+      "/typo3conf/",
+      "/typo3temp/",
+      "/*?id=*",
+      "/suche"
+    ]
+  }
 }

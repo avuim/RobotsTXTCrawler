@@ -1,10 +1,76 @@
 {
   "domain": "www.waipu.tv",
   "normalizedDomain": "www.waipu.tv",
+  "robotsTxt": "##\r\n## Wordpress\r\n##\r\n\r\nUser-agent: *\r\n\r\n# Disallow PDFs\r\nDisallow: /*.pdf$\r\n\r\n# Only allow speaking URLs\r\nDisallow: /*?p=*\r\nDisallow: /*&p=*\r\n\r\nAllow: /app/uploads/\r\nAllow: /app/plugins/*/assets/\r\nAllow: /app/plugins/*/css/\r\nAllow: /app/plugins/*/images/\r\nAllow: /app/plugins/bb-plugin/\r\nAllow: /app/plugins/waipu-modules/\r\nAllow: /app/plugins/waipu-channels/\r\nDisallow: /trackback/\r\nDisallow: */trackback/\r\nDisallow: /feed/\r\nDisallow: */feed/\r\nDisallow: /comments/\r\nDisallow: */comments/\r\nDisallow: /xmlrpc.php\r\nDisallow: /cgi-bin/\r\nDisallow: /wp/wp-admin/\r\nAllow: /wp/wp-admin/admin-ajax.php\r\n\r\nSitemap: https://www.waipu.tv/sitemap_index.xml\r\n\r\n# Disallow db dumps\r\nDisallow: *.sql\r\nDisallow: *.sql.gz\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/app/uploads/",
+        "/app/plugins/*/assets/",
+        "/app/plugins/*/css/",
+        "/app/plugins/*/images/",
+        "/app/plugins/bb-plugin/",
+        "/app/plugins/waipu-modules/",
+        "/app/plugins/waipu-channels/",
+        "/wp/wp-admin/admin-ajax.php"
+      ],
+      "disallowed": [
+        "/*.pdf$",
+        "/*?p=*",
+        "/*&p=*",
+        "/trackback/",
+        "*/trackback/",
+        "/feed/",
+        "*/feed/",
+        "/comments/",
+        "*/comments/",
+        "/xmlrpc.php",
+        "/cgi-bin/",
+        "/wp/wp-admin/",
+        "*.sql",
+        "*.sql.gz"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/app/uploads/",
+      "/app/plugins/*/assets/",
+      "/app/plugins/*/css/",
+      "/app/plugins/*/images/",
+      "/app/plugins/bb-plugin/",
+      "/app/plugins/waipu-modules/",
+      "/app/plugins/waipu-channels/",
+      "/wp/wp-admin/admin-ajax.php"
+    ],
+    "disallowed": [
+      "/*.pdf$",
+      "/*?p=*",
+      "/*&p=*",
+      "/trackback/",
+      "*/trackback/",
+      "/feed/",
+      "*/feed/",
+      "/comments/",
+      "*/comments/",
+      "/xmlrpc.php",
+      "/cgi-bin/",
+      "/wp/wp-admin/",
+      "*.sql",
+      "*.sql.gz"
+    ]
+  }
 }

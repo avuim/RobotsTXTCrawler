@@ -1,10 +1,36 @@
 {
   "domain": "www.arlafoods.de",
   "normalizedDomain": "www.arlafoods.de",
+  "robotsTxt": "Sitemap:  https://www.arlafoods.de/sitemap.index.xml\r\nUser-agent: *\r\nDisallow: /toolkits\r\nDisallow: /*?query\r\nDisallow: /*&query",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/toolkits",
+        "/*?query",
+        "/*&query"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/toolkits",
+      "/*?query",
+      "/*&query"
+    ]
+  }
 }

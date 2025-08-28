@@ -1,17 +1,727 @@
 {
   "domain": "www.dastelefonbuch.de",
   "normalizedDomain": "www.dastelefonbuch.de",
-  "bots": [
-    {
-      "name": "*",
-      "allowed": false
-    },
+  "robotsTxt": "# robots.txt for https://www.dastelefonbuch.de/ ResponsiveApp\n# sc20250530; Vorgaengerversion: ne20241009\n\nUser-agent: *\nDisallow: /api-doc/\nDisallow: /catalogs/\nDisallow: /katalog/img/\nDisallow: /katalog/image/\nDisallow: /loglink.jsp\nDisallow: /nocrawl/\nDisallow: /Rubriken/\n\nUser-agent: Googlebot\nDisallow: /catalogs/\nDisallow: /katalog/img/\nDisallow: /katalog/image/\nDisallow: /loglink.jsp\nDisallow: /nocrawl/\nDisallow: /Rubriken/\n\nUser-agent: bingbot\nDisallow: /api-doc/\nDisallow: /catalogs/\nDisallow: /katalog/img/\nDisallow: /katalog/image/\nDisallow: /loglink.jsp\nDisallow: /nocrawl/\nDisallow: /Rubriken/\n\nCrawl-delay: 5\n# Eine Seite dieser Subdomain pro 5 Sekunden(=Crawl-delay) aufrufen\n\nUser-agent: AhrefsBot\nCrawl-delay: 5\n\nUser-agent: grapeshot\nCrawl-delay: 5\n\nUser-agent: SemrushBot\nCrawl-delay: 5\n\n\nUser-agent: Clickagy Intelligence Bot v2\nCrawl-delay: 10\n\nUser-agent: CriteoBot/0.1\nCrawl-delay: 10\n\nUser-agent: ias-va/3.1\nCrawl-delay: 10\n\n\nUser-agent: Cityreview\nDisallow: /\n\nUser-agent: trovitBot\nDisallow: /\n\nUser-agent: zyklop\nDisallow: /\n\nUser-agent: DataForSeoBot\nDisallow: /\n\nUser-agent: dotbot\nDisallow: /\n\nUser-Agent: Neevabot\nDisallow: /\n\nUser-agent: MegaIndex.ru\t\nDisallow: /\t\n\nUser-agent: Mega-Index\t\nDisallow: /\n\nUser-agent: Yandex\nDisallow: / \n\nUser-agent: ChatGPT-User\nDisallow: /\n\n# Sitemap files\nSitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_branchen_sitemap_index.xml\nSitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_branchen_ort_sitemap_index.xml\nSitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_branchen_ort_stadtteil_sitemap_index.xml\nSitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_firmen_sitemap_index.xml\nSitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_firmen_ort_sitemap_index.xml\nSitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_firmen_ort_stadtteil_sitemap_index.xml\nSitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_nachnamen_sitemap_index.xml\nSitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_nachnamen_ort_sitemap_index.xml\nSitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_nachnamen_ort_stadtteil_sitemap_index.xml\nSitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_vorname_nachname_sitemap_index.xml\nSitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_vorname_nachname_ort_sitemap_index.xml\nSitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_vorname_nachname_ort_stadtteil_sitemap_index.xml\nSitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_ort_sitemap_index.xml\n\nSitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_zip_search_sitemap_index.xml\nSitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_area_code_search_sitemap_index.xml\n\nSitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_apotheken-notdienste_ort_sitemap_00001.xml.gz\nSitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_apotheken-notdienste_ort_stadtteil_sitemap_00001.xml.gz\nSitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_ki_sitemap_index.xml\nSitemap: https://www.dastelefonbuch.de/xml-sitemaps/telefonbuch_video_sitemap_index.xml\n\nSitemap: https://www.dastelefonbuch.de/xml-sitemaps/statisch_sitemap_index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/api-doc/",
+        "/catalogs/",
+        "/katalog/img/",
+        "/katalog/image/",
+        "/loglink.jsp",
+        "/nocrawl/",
+        "/Rubriken/"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "Googlebot",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/catalogs/",
+          "/katalog/img/",
+          "/katalog/image/",
+          "/loglink.jsp",
+          "/nocrawl/",
+          "/Rubriken/"
+        ]
+      }
     },
     {
       "name": "bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/api-doc/",
+          "/catalogs/",
+          "/katalog/img/",
+          "/katalog/image/",
+          "/loglink.jsp",
+          "/nocrawl/",
+          "/Rubriken/"
+        ]
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Clickagy Intelligence Bot v2",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CriteoBot/0.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ias-va/3.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Cityreview",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Clickagy Intelligence Bot v2",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CriteoBot/0.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ias-va/3.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Cityreview",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Clickagy Intelligence Bot v2",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CriteoBot/0.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ias-va/3.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Cityreview",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Clickagy Intelligence Bot v2",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CriteoBot/0.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ias-va/3.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Cityreview",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Clickagy Intelligence Bot v2",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CriteoBot/0.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ias-va/3.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Cityreview",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Clickagy Intelligence Bot v2",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CriteoBot/0.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ias-va/3.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Cityreview",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Clickagy Intelligence Bot v2",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CriteoBot/0.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ias-va/3.1",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Cityreview",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "trovitBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "zyklop",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DataForSeoBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Neevabot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MegaIndex.ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Mega-Index",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Yandex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 60,
+    "allowedBots": 2,
+    "disallowedBots": 58,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "bingbot",
+      "allowed": true
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false
+    },
+    {
+      "name": "Clickagy Intelligence Bot v2",
+      "allowed": false
+    },
+    {
+      "name": "CriteoBot/0.1",
+      "allowed": false
+    },
+    {
+      "name": "ias-va/3.1",
+      "allowed": false
+    },
+    {
+      "name": "Cityreview",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false
+    },
+    {
+      "name": "Clickagy Intelligence Bot v2",
+      "allowed": false
+    },
+    {
+      "name": "CriteoBot/0.1",
+      "allowed": false
+    },
+    {
+      "name": "ias-va/3.1",
+      "allowed": false
+    },
+    {
+      "name": "Cityreview",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false
+    },
+    {
+      "name": "Clickagy Intelligence Bot v2",
+      "allowed": false
+    },
+    {
+      "name": "CriteoBot/0.1",
+      "allowed": false
+    },
+    {
+      "name": "ias-va/3.1",
+      "allowed": false
+    },
+    {
+      "name": "Cityreview",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false
+    },
+    {
+      "name": "Clickagy Intelligence Bot v2",
+      "allowed": false
+    },
+    {
+      "name": "CriteoBot/0.1",
+      "allowed": false
+    },
+    {
+      "name": "ias-va/3.1",
+      "allowed": false
+    },
+    {
+      "name": "Cityreview",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false
+    },
+    {
+      "name": "Clickagy Intelligence Bot v2",
+      "allowed": false
+    },
+    {
+      "name": "CriteoBot/0.1",
+      "allowed": false
+    },
+    {
+      "name": "ias-va/3.1",
+      "allowed": false
+    },
+    {
+      "name": "Cityreview",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false
+    },
+    {
+      "name": "Clickagy Intelligence Bot v2",
+      "allowed": false
+    },
+    {
+      "name": "CriteoBot/0.1",
+      "allowed": false
+    },
+    {
+      "name": "ias-va/3.1",
+      "allowed": false
+    },
+    {
+      "name": "Cityreview",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "grapeshot",
+      "allowed": false
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false
+    },
+    {
+      "name": "Clickagy Intelligence Bot v2",
+      "allowed": false
+    },
+    {
+      "name": "CriteoBot/0.1",
+      "allowed": false
+    },
+    {
+      "name": "ias-va/3.1",
       "allowed": false
     },
     {
@@ -54,5 +764,17 @@
       "name": "ChatGPT-User",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/api-doc/",
+      "/catalogs/",
+      "/katalog/img/",
+      "/katalog/image/",
+      "/loglink.jsp",
+      "/nocrawl/",
+      "/Rubriken/"
+    ]
+  }
 }

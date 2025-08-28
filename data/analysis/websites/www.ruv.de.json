@@ -1,10 +1,70 @@
 {
   "domain": "www.ruv.de",
   "normalizedDomain": "www.ruv.de",
+  "robotsTxt": "User-Agent: *\r\nAllow: /\r\n\r\nDisallow: /ms/auslandsreisekrankenversicherung/\r\nDisallow: /ms/handyversicherung/\r\nDisallow: /ms/hausrat-haftpflicht-kombi/\r\nDisallow: /ms/hausratversicherung/\r\nDisallow: /ms/hundehaftpflicht/\r\nDisallow: /ms/hundeversicherung/\r\nDisallow: /ms/kautionsversicherung/\r\nDisallow: /ms/mietkaution-aktion/\r\nDisallow: /ms/mietkautionsbuergschaft/\r\nDisallow: /ms/opk/hunde-op-thv-versicherung.html\r\nDisallow: /ms/opk/hunde-op-versicherung.html\r\nDisallow: /ms/opk/opk_hund.html\r\nDisallow: /ms/pannenhilfe/\r\nDisallow: /ms/privathaftpflichtversicherung/\r\nDisallow: /ms/privathaftpflichtversicherung/familien/\r\nDisallow: /ms/zahnzusatzversicherung/\r\nDisallow: /ms/pferdehaftpflicht/\r\nDisallow: /static-files/ruvde/downloads/presse/vita-rollinger.pdf\r\nDisallow: /mediacenter/\r\nDisallow: /dam/sitemap.xml\r\n\r\nSitemap: https://www.ruv.de/sitemap/sitemap-index.xml\r\n\r\n\r\n\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/ms/auslandsreisekrankenversicherung/",
+        "/ms/handyversicherung/",
+        "/ms/hausrat-haftpflicht-kombi/",
+        "/ms/hausratversicherung/",
+        "/ms/hundehaftpflicht/",
+        "/ms/hundeversicherung/",
+        "/ms/kautionsversicherung/",
+        "/ms/mietkaution-aktion/",
+        "/ms/mietkautionsbuergschaft/",
+        "/ms/opk/hunde-op-thv-versicherung.html",
+        "/ms/opk/hunde-op-versicherung.html",
+        "/ms/opk/opk_hund.html",
+        "/ms/pannenhilfe/",
+        "/ms/privathaftpflichtversicherung/",
+        "/ms/privathaftpflichtversicherung/familien/",
+        "/ms/zahnzusatzversicherung/",
+        "/ms/pferdehaftpflicht/",
+        "/static-files/ruvde/downloads/presse/vita-rollinger.pdf",
+        "/mediacenter/",
+        "/dam/sitemap.xml"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/ms/auslandsreisekrankenversicherung/",
+      "/ms/handyversicherung/",
+      "/ms/hausrat-haftpflicht-kombi/",
+      "/ms/hausratversicherung/",
+      "/ms/hundehaftpflicht/",
+      "/ms/hundeversicherung/",
+      "/ms/kautionsversicherung/",
+      "/ms/mietkaution-aktion/",
+      "/ms/mietkautionsbuergschaft/",
+      "/ms/opk/hunde-op-thv-versicherung.html",
+      "/ms/opk/hunde-op-versicherung.html",
+      "/ms/opk/opk_hund.html",
+      "/ms/pannenhilfe/",
+      "/ms/privathaftpflichtversicherung/",
+      "/ms/privathaftpflichtversicherung/familien/",
+      "/ms/zahnzusatzversicherung/",
+      "/ms/pferdehaftpflicht/",
+      "/static-files/ruvde/downloads/presse/vita-rollinger.pdf",
+      "/mediacenter/",
+      "/dam/sitemap.xml"
+    ]
+  }
 }

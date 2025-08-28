@@ -1,6 +1,95 @@
 {
   "domain": "www.apple.com",
   "normalizedDomain": "www.apple.com",
+  "robotsTxt": "# robots.txt for https://www.apple.com/\r\n\r\nUser-agent: *\r\nDisallow: /*shop/browse/overlay/*\r\nDisallow: /*shop/iphone/payments/overlay/*\r\nDisallow: /cn/*/aow/*\r\nDisallow: /tmall*\r\nAllow: /ac/globalnav/2.0/*/images/ac-globalnav/globalnav/search/* \t\r\n\r\nUser-agent: Baiduspider\r\nDisallow: /*\r\nAllow: /cn/*\r\nAllow: /cn-edu/*\r\nAllow: /cn-k12/*\r\n\r\nUser-agent: HaoSouSpider\r\nDisallow: /*\r\nAllow: /cn/*\r\nAllow: /cn-edu/*\r\nAllow: /cn-k12/*\r\n\r\nUser-agent: Sogou web spider\r\nDisallow: /*\r\nAllow: /cn/*\r\nAllow: /cn-k12/*\r\n\r\nUser-agent: Sogou inst spider\r\nDisallow: /*\r\nAllow: /cn/*\r\nAllow: /cn-k12/*\r\n\r\nUser-agent: Sogou spider2\r\nDisallow: /*\r\nAllow: /cn/*\r\nAllow: /cn-k12/*\r\n\r\n#DaumWebMasterTool:6ff40e0f09564a9d4e3bc80e7cbde7c196677a2f5f610eb9c029836774f9a8e9:D9a8IEFAzmC/NWsQ3tB0Wg==\r\n\r\nSitemap: https://www.apple.com/shop/sitemap.xml\r\nSitemap: https://www.apple.com/autopush/sitemap/sitemap-index.xml\r\nSitemap: https://www.apple.com/newsroom/sitemap.xml\r\nSitemap: https://www.apple.com/retail/sitemap/sitemap.xml\r\nSitemap: https://www.apple.com/today/sitemap-index.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/ac/globalnav/2.0/*/images/ac-globalnav/globalnav/search/*"
+      ],
+      "disallowed": [
+        "/*shop/browse/overlay/*",
+        "/*shop/iphone/payments/overlay/*",
+        "/cn/*/aow/*",
+        "/tmall*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Baiduspider",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/cn/*",
+          "/cn-edu/*",
+          "/cn-k12/*"
+        ],
+        "disallowed": [
+          "/*"
+        ]
+      }
+    },
+    {
+      "name": "HaoSouSpider",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/cn/*",
+          "/cn-edu/*",
+          "/cn-k12/*"
+        ],
+        "disallowed": [
+          "/*"
+        ]
+      }
+    },
+    {
+      "name": "Sogou web spider",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/cn/*",
+          "/cn-k12/*"
+        ],
+        "disallowed": [
+          "/*"
+        ]
+      }
+    },
+    {
+      "name": "Sogou inst spider",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/cn/*",
+          "/cn-k12/*"
+        ],
+        "disallowed": [
+          "/*"
+        ]
+      }
+    },
+    {
+      "name": "Sogou spider2",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/cn/*",
+          "/cn-k12/*"
+        ],
+        "disallowed": [
+          "/*"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 5,
+    "allowedBots": 5,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -26,5 +115,16 @@
       "name": "Sogou spider2",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/ac/globalnav/2.0/*/images/ac-globalnav/globalnav/search/*"
+    ],
+    "disallowed": [
+      "/*shop/browse/overlay/*",
+      "/*shop/iphone/payments/overlay/*",
+      "/cn/*/aow/*",
+      "/tmall*"
+    ]
+  }
 }

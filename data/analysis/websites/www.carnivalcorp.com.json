@@ -1,5 +1,23 @@
 {
   "domain": "www.carnivalcorp.com",
   "normalizedDomain": "www.carnivalcorp.com",
-  "bots": []
+  "robotsTxt": "\r\n\r\n\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head id=\"Head1\"><title>\r\n\tPage not found\r\n</title><meta content=\"text/html; charset=UTF-8\" http-equiv=\"Content-Type\" />\r\n    <style type=\"text/css\">\r\n   .noData {\r\n\tbackground-color:#F3F3FB;\r\n\tcolor:#000000;\r\n\tfont-weight:bold;\r\n\tfont-size:.9em;\r\n         }\r\n\t\tTD {\r\n\t\t\tFONT-FAMILY: Verdana,Arial, Helvetica\r\n\t\t}\r\n\t\tA {\r\n\t\t\tCOLOR: #0000ff; TEXT-DECORATION: none\r\n\t\t}\r\n\t\tA:hover {\r\n\t\t\tCOLOR: #9966ff; TEXT-DECORATION: underline\r\n\t\t}\r\n\t</style>\r\n</head>\r\n<body>\r\n        <table border=\"0\" cellpadding=\"30\" cellspacing=\"0\" width=\"100%\">\r\n            \r\n                <tr>\r\n                    <td>\r\n\t\t\t<h4>Page Cannot Be Found</h4>\r\n\t\t\t<p style=\"font-size: 12px\">\r\n\t\t\t<span id=\"lblErrorMessage\">The page you are looking for could not be found.  Please check your spelling and try again.<br/>\r\n\t\t\tThe page might have been removed, had its name changed, or is temporarily unavailable.</span></p><p style=\"font-size: 12px\">Click  <a href=\"javascript:history.go(-1)\" onclick=\"history.back(-1);\"><< Back</a>  to return to the page from which you came.</p>\r\n                    </td>\r\n                </tr>\r\n            \r\n        </table>\r\n</body>\r\n</html>\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

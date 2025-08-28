@@ -1,10 +1,38 @@
 {
   "domain": "www.whirlpool.de",
   "normalizedDomain": "www.whirlpool.de",
+  "robotsTxt": "User-Agent: *\r\nDisallow: /compare\r\nDisallow: /wp-search\r\nDisallow: /index.php/*\r\nDisallow: /sspp*\r\n\r\nSitemap: https://www.whirlpool.de/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/compare",
+        "/wp-search",
+        "/index.php/*",
+        "/sspp*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/compare",
+      "/wp-search",
+      "/index.php/*",
+      "/sspp*"
+    ]
+  }
 }

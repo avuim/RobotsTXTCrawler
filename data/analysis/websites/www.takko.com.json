@@ -1,10 +1,122 @@
 {
   "domain": "www.takko.com",
   "normalizedDomain": "www.takko.com",
+  "robotsTxt": "# I, For One, Welcome Our New Bot-Overlords\r\n#\r\n#      T   `~~~'   `~~~'   `~~'   )\r\n#      |   .    .   .  .   .      |\r\n#      t   |    |   |  |  /       )\r\n#       \\__ \\  _|...***\"\"T        )\r\n#          |\"\"\"           )       |\r\n#          L-~~|  |~~-|   |       )\r\n#          I~'''  '''~I   )       |\r\n#          r      r   2   |       )\r\n#         f____/ f_____g  )      _|\r\n#         t  @/  t   @ J  L____r _ 2\r\n#          q-/    g___J         /|  )\r\n#          if    ~~__          L___J\r\n#          i|                    |\r\n#          /°----~     \\         |\r\n#          |            H         \\  \r\n#          +~-.....---~~~\\        |\r\n#               | |####*, \\      /\r\n#               J L###_/_,P,    /\r\n#               1.._           /\r\n#                   \\        CN\r\n#\r\n\r\n\r\nUser-agent: *\r\n\r\n#Disallow URLs:\r\nDisallow: /on/demandware.store/Sites-DE-Site/de_DE/Product-Variation\r\nDisallow: /on/demandware.store/Sites-DE-Site/de_DE/Wishlist-Add\r\nDisallow: /on/demandware.store/Sites-DE-Site/*\r\nDisallow: /on/demandware.store/Sites-INT-Site/*\r\nDisallow: /on/demandware.store/Sites-INT-Site/default/Search-Show\r\n\r\nDisallow: /on/demandware.store/Sites-DE-Site/default/Account-StartRegister\r\nDisallow: /on/demandware.store/Sites-DE-Site/default/Account-PasswordResetDialog\r\nDisallow: /on/demandware.store/Sites-DE-Site/default/GiftCert-Purchase\r\nDisallow: /on/demandware.store/Sites-DE-Site/default/GiftRegistry-Start\r\nDisallow: /on/demandware.store/Sites-DE-Site/default/Page-Show\r\nDisallow: /on/demandware.store/Sites-DE-Site/default/Wishlist-SetShippingAddress\r\nDisallow: /on/demandware.static/-/Library-Sites-Library-Takko/default/\r\n\r\nDisallow: /on/demandware.store/Sites-INT-Site/default/Account-StartRegister\r\nDisallow: /on/demandware.store/Sites-INT-Site/default/Account-PasswordResetDialog\r\nDisallow: /on/demandware.store/Sites-INT-Site/default/GiftCert-Purchase\r\nDisallow: /on/demandware.store/Sites-INT-Site/default/GiftRegistry-Start\r\nDisallow: /on/demandware.store/Sites-INT-Site/default/Page-Show\r\nDisallow: /on/demandware.store/Sites-INT-Site/default/Wishlist-SetShippingAddress\r\n\r\nDisallow: /login/\r\nDisallow: /login/loginform/\r\nDisallow: /cart/\r\nDisallow: /Cart-SubmitForm/\r\nDisallow: /account/\r\nDisallow: /account-landing.html\r\n\r\nDisallow: /suchergebnis/*\r\nDisallow: /search/show/*\r\n\r\nDisallow: /de-de/cs-contact-number.html\r\nDisallow: /de-de/takko-checkout-terms.html\r\n\r\n#Disallow Parameters\r\nDisallow: /*?sz=*\r\nDisallow: /*?pid*\r\nDisallow: /*?q*\r\nDisallow: /*?srule*\r\nDisallow: /*?cgid*\r\nDisallow: /*?original*\r\nDisallow: /*?hid*\r\nDisallow: /*?offset*\r\nDisallow: /*?cHash*\r\nDisallow: /*?utm_source*\r\nDisallow: /*?utm_medium*\r\nDisallow: /*?utm_campaign*\r\nDisallow: /*?intProm*\r\n\r\n#Disallow Files:\r\nDisallow: /*.pdf$\r\n\r\n#Allow Files:\r\nAllow: /on/demandware.static/-/Library-Sites-Library-Takko/default/*.jpg$\r\nAllow: /on/demandware.static/-/Library-Sites-Library-Takko/default/*.png$\r\nAllow: /on/demandware.static/-/Library-Sites-Library-Takko/default/*.svg$\r\n\r\n#Sitemaps\r\nSitemap: https://www.takko.com/sitemap_0.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/on/demandware.static/-/Library-Sites-Library-Takko/default/*.jpg$",
+        "/on/demandware.static/-/Library-Sites-Library-Takko/default/*.png$",
+        "/on/demandware.static/-/Library-Sites-Library-Takko/default/*.svg$"
+      ],
+      "disallowed": [
+        "/on/demandware.store/Sites-DE-Site/de_DE/Product-Variation",
+        "/on/demandware.store/Sites-DE-Site/de_DE/Wishlist-Add",
+        "/on/demandware.store/Sites-DE-Site/*",
+        "/on/demandware.store/Sites-INT-Site/*",
+        "/on/demandware.store/Sites-INT-Site/default/Search-Show",
+        "/on/demandware.store/Sites-DE-Site/default/Account-StartRegister",
+        "/on/demandware.store/Sites-DE-Site/default/Account-PasswordResetDialog",
+        "/on/demandware.store/Sites-DE-Site/default/GiftCert-Purchase",
+        "/on/demandware.store/Sites-DE-Site/default/GiftRegistry-Start",
+        "/on/demandware.store/Sites-DE-Site/default/Page-Show",
+        "/on/demandware.store/Sites-DE-Site/default/Wishlist-SetShippingAddress",
+        "/on/demandware.static/-/Library-Sites-Library-Takko/default/",
+        "/on/demandware.store/Sites-INT-Site/default/Account-StartRegister",
+        "/on/demandware.store/Sites-INT-Site/default/Account-PasswordResetDialog",
+        "/on/demandware.store/Sites-INT-Site/default/GiftCert-Purchase",
+        "/on/demandware.store/Sites-INT-Site/default/GiftRegistry-Start",
+        "/on/demandware.store/Sites-INT-Site/default/Page-Show",
+        "/on/demandware.store/Sites-INT-Site/default/Wishlist-SetShippingAddress",
+        "/login/",
+        "/login/loginform/",
+        "/cart/",
+        "/Cart-SubmitForm/",
+        "/account/",
+        "/account-landing.html",
+        "/suchergebnis/*",
+        "/search/show/*",
+        "/de-de/cs-contact-number.html",
+        "/de-de/takko-checkout-terms.html",
+        "/*?sz=*",
+        "/*?pid*",
+        "/*?q*",
+        "/*?srule*",
+        "/*?cgid*",
+        "/*?original*",
+        "/*?hid*",
+        "/*?offset*",
+        "/*?cHash*",
+        "/*?utm_source*",
+        "/*?utm_medium*",
+        "/*?utm_campaign*",
+        "/*?intProm*",
+        "/*.pdf$"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/on/demandware.static/-/Library-Sites-Library-Takko/default/*.jpg$",
+      "/on/demandware.static/-/Library-Sites-Library-Takko/default/*.png$",
+      "/on/demandware.static/-/Library-Sites-Library-Takko/default/*.svg$"
+    ],
+    "disallowed": [
+      "/on/demandware.store/Sites-DE-Site/de_DE/Product-Variation",
+      "/on/demandware.store/Sites-DE-Site/de_DE/Wishlist-Add",
+      "/on/demandware.store/Sites-DE-Site/*",
+      "/on/demandware.store/Sites-INT-Site/*",
+      "/on/demandware.store/Sites-INT-Site/default/Search-Show",
+      "/on/demandware.store/Sites-DE-Site/default/Account-StartRegister",
+      "/on/demandware.store/Sites-DE-Site/default/Account-PasswordResetDialog",
+      "/on/demandware.store/Sites-DE-Site/default/GiftCert-Purchase",
+      "/on/demandware.store/Sites-DE-Site/default/GiftRegistry-Start",
+      "/on/demandware.store/Sites-DE-Site/default/Page-Show",
+      "/on/demandware.store/Sites-DE-Site/default/Wishlist-SetShippingAddress",
+      "/on/demandware.static/-/Library-Sites-Library-Takko/default/",
+      "/on/demandware.store/Sites-INT-Site/default/Account-StartRegister",
+      "/on/demandware.store/Sites-INT-Site/default/Account-PasswordResetDialog",
+      "/on/demandware.store/Sites-INT-Site/default/GiftCert-Purchase",
+      "/on/demandware.store/Sites-INT-Site/default/GiftRegistry-Start",
+      "/on/demandware.store/Sites-INT-Site/default/Page-Show",
+      "/on/demandware.store/Sites-INT-Site/default/Wishlist-SetShippingAddress",
+      "/login/",
+      "/login/loginform/",
+      "/cart/",
+      "/Cart-SubmitForm/",
+      "/account/",
+      "/account-landing.html",
+      "/suchergebnis/*",
+      "/search/show/*",
+      "/de-de/cs-contact-number.html",
+      "/de-de/takko-checkout-terms.html",
+      "/*?sz=*",
+      "/*?pid*",
+      "/*?q*",
+      "/*?srule*",
+      "/*?cgid*",
+      "/*?original*",
+      "/*?hid*",
+      "/*?offset*",
+      "/*?cHash*",
+      "/*?utm_source*",
+      "/*?utm_medium*",
+      "/*?utm_campaign*",
+      "/*?intProm*",
+      "/*.pdf$"
+    ]
+  }
 }

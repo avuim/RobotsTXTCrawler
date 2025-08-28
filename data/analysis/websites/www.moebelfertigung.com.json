@@ -1,10 +1,44 @@
 {
   "domain": "www.moebelfertigung.com",
   "normalizedDomain": "www.moebelfertigung.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /wp-admin/\r\nDisallow: /wp-includes/\r\nDisallow: /wp-content/plugins/\r\nDisallow: /wp-login.php\r\nDisallow: /xmlrpc.php\r\nAllow: /wp-content/uploads/\r\n\r\nSitemap: https://www.moebelfertigung.com/sitemap.xml\r\n\r\n# Legal notice: This domain expressly reserves the right to use its content for commercialtext and data mining (§ 44b UrhG).\r\n# The use of robots or other automated means to access this Domain or collect or mine data without the express permission of Vincentz Network is strictly prohibited.\r\n# If you would like to apply for permission to crawl thei Domain, collect or use data, please contact Vincentz Network\r\n\r\n#User-agent: GPTBot\r\n#Disallow: /\r\n\r\n#User-agent: ChatGPT-User\r\n#Disallow: /\r\n\r\n#User-agent: CCBot\r\n#Disallow: /\r\n\r\n#User-agent: Google-Extended\r\n#Disallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/wp-content/uploads/"
+      ],
+      "disallowed": [
+        "/wp-admin/",
+        "/wp-includes/",
+        "/wp-content/plugins/",
+        "/wp-login.php",
+        "/xmlrpc.php"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/wp-content/uploads/"
+    ],
+    "disallowed": [
+      "/wp-admin/",
+      "/wp-includes/",
+      "/wp-content/plugins/",
+      "/wp-login.php",
+      "/xmlrpc.php"
+    ]
+  }
 }

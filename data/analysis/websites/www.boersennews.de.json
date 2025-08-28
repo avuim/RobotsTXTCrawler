@@ -1,10 +1,48 @@
 {
   "domain": "www.boersennews.de",
   "normalizedDomain": "www.boersennews.de",
+  "robotsTxt": "\r\nUser-agent: *\r\nAllow: /\r\nDisallow: /maintancemode.html\r\nDisallow: /markt/anleihen/detail/\r\nDisallow: /markt/derivate/optionsscheine/detail/\r\nDisallow: /markt/derivate/zertifikate/detail/\r\nDisallow: /mobile/\r\nDisallow: /nutzer/\r\nDisallow: /premium/\r\nDisallow: /status/\r\nDisallow: /unternehmen/\r\n\r\nSitemap: https://www.boersennews.de/sitemap-index.xml\r\nSitemap: https://www.boersennews.de/sitemaps/\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/maintancemode.html",
+        "/markt/anleihen/detail/",
+        "/markt/derivate/optionsscheine/detail/",
+        "/markt/derivate/zertifikate/detail/",
+        "/mobile/",
+        "/nutzer/",
+        "/premium/",
+        "/status/",
+        "/unternehmen/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/maintancemode.html",
+      "/markt/anleihen/detail/",
+      "/markt/derivate/optionsscheine/detail/",
+      "/markt/derivate/zertifikate/detail/",
+      "/mobile/",
+      "/nutzer/",
+      "/premium/",
+      "/status/",
+      "/unternehmen/"
+    ]
+  }
 }

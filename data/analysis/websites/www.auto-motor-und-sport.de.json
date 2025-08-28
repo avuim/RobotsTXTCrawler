@@ -1,14 +1,823 @@
 {
   "domain": "www.auto-motor-und-sport.de",
   "normalizedDomain": "www.auto-motor-und-sport.de",
+  "robotsTxt": "# Allow sitemap\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/news-sitemap.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-index.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/markenbaum-sitemap-index.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/navigation-sitemap.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/themenseiten-sitemap.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/video-sitemap-index.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/authors-sitemap.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-kleinwagen.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Kompakt.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Mittelklasse.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-SUV.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Oberklasse.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Formel1.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Sportwagen.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Van.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Nutzfahrzeuge.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Oldtimer.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Verkehr.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-TechZukunft.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-kleinwagen_NeuvorstellungenAndErlkoenige.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-kleinwagen_Fahrberichtte.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-kleinwagen_Tests.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-kleinwagen_Tuning.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-kleinwagen_E-Auto.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-kleinwagen_Gebrauchtwagen.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-kleinwagen_Automarkt.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Kompakt_NeuvorstellungenAndErlkoenige.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Kompakt_Fahrberichte.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Kompakt_Tests.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Kompakt_Tuning.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Kompakt_E-Auto.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Kompakt_Gebrauchtwagen.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Mittelklasse_NeuvorstellungenAndErlkoenige.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Mittelklasse_Fahrberichte.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Mittelklasse_Tests.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Mittelklasse_Tuning.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Mittelklasse_E-Auto.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Mittelklasse_Gebrauchtwagen.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Mittelklasse_Automarkt.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-SUV_NeuvorstellungenAndErlkoenige.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-SUV_Fahrberichte.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-SUV_Tests.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-SUV_Vergleichstest.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-SUV_Tuning.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-SUV_E-Auto.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-SUV_Gebrauchtwagen.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Oberklasse_NeuvorstellungenAndErlkoenige.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Oberklasse_Fahrberichte.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Oberklasse_Tests.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Oberklasse_Tuning.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Oberklasse_E-Auto.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Oberklasse_Gebrauchtwagen.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Sportwagen_NeuvorstellungenAndErlkoenige.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Sportwagen_Fahrberichte.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Sportwagen_Tests.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Sportwagen_Tuning.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Sportwagen_E-Auto.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Sportwagen_Gebrauchtwagen.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Van_NeuvorstellungenAndErlkoenige.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Van_Fahrberichte.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Van_Tests.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Van_Tuning.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Van_E-Auto.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Van_Gebrauchtwagen.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Nutzfahrzeuge_NeuvorstellungenAndErlkoenige.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Nutzfahrzeuge_Fahrberichte.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Nutzfahrzeuge_Tests.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Nutzfahrzeuge_Tuning.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Nutzfahrzeuge_E-Auto.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Nutzfahrzeuge_Gebrauchtwagen.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Oldtimer_Fahrberichte.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Oldtimer_Rallyes.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Oldtimer_AuktionenAndEvents.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Oldtimer_Kaufberatung.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Oldtimer_Oldtimermarkt.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Oldtimer_Restaurierung.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Oldtimer_MehrOldtimer.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Verkehr_Reifen.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Verkehr_Zubehör.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Verkehr_Führerschein.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Verkehr_Sicherheit.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Verkehr_Bußgelder.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Verkehr_Politik&Wirtschaft.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Verkehr_Spritpreise.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Verkehr_Ladesaeulen.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Verkehr_Produkttest.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-TechZukunft_Werkstatt.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-TechZukunft_AlternativeAntriebe.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-TechZukunft_Mobilitaetsservices.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-TechZukunft_Startups.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-TechZukunft_TechnikErklaert.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Formel1_Aktuell.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Formel1_RennenUndTermine.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Formel1_Fahrer.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Formel1_Teams.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Formel1_FormelE.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/sitemap-Produkttest.xml\r\nsitemap: https://www.auto-motor-und-sport.de/sitemap/handbuch-sitemap.xml\r\n\r\n\r\n\r\n# disallow api calls\r\nUser-agent: *\r\nDisallow: /irapi/*\r\nDisallow: /irelements/element/*\r\nDisallow: /irelements/standalone/*\r\nDisallow: /irelements/element\r\nDisallow: /irelements/elements\r\nDisallow: /irelements/elements/*\r\n\r\nDisallow: *ePaper*.pdf\r\nDisallow: /sportauto-heft*\r\nDisallow: /heft*\r\nDisallow: /motor-klassik-heft*\r\nDisallow: /youngtimer-heft*\r\nDisallow: /autostrassenverkehr-heft*\r\nDisallow: /autostrassenverkehr-heft*\r\n\r\n# Diese Crawler blockieren\r\nUser-agent: AI2Bot\r\nUser-agent: omgili\r\nUser-agent: TimpiBot\r\nUser-agent: BLEXBot\r\nUser-agent: dotbot\r\nUser-agent: MJ12bot\r\nUser-agent: Barkrowler\r\nUser-agent: Optimizer\r\nDisallow: /\r\n\r\n# Legal notice: [https://www.auto-motor-und-sport.de/] expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).\r\n# The use of robots or other automated means to access [https://www.auto-motor-und-sport.de/] or collect or mine data without the express permission of [https://www.auto-motor-und-sport.de/] is strictly prohibited.\r\n# If you would like to apply for permission to crawl [https://www.auto-motor-und-sport.de/], collect or use data, please contact [ompi@motorpresse.de]",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/irapi/*",
+        "/irelements/element/*",
+        "/irelements/standalone/*",
+        "/irelements/element",
+        "/irelements/elements",
+        "/irelements/elements/*",
+        "*ePaper*.pdf",
+        "/sportauto-heft*",
+        "/heft*",
+        "/motor-klassik-heft*",
+        "/youngtimer-heft*",
+        "/autostrassenverkehr-heft*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 64,
+    "allowedBots": 0,
+    "disallowedBots": 64,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false
+    },
+    {
+      "name": "Optimizer",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "TimpiBot",
+      "allowed": false
+    },
+    {
+      "name": "BLEXBot",
+      "allowed": false
+    },
+    {
+      "name": "dotbot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Barkrowler",
       "allowed": false
     },
     {
       "name": "Optimizer",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/irapi/*",
+      "/irelements/element/*",
+      "/irelements/standalone/*",
+      "/irelements/element",
+      "/irelements/elements",
+      "/irelements/elements/*",
+      "*ePaper*.pdf",
+      "/sportauto-heft*",
+      "/heft*",
+      "/motor-klassik-heft*",
+      "/youngtimer-heft*",
+      "/autostrassenverkehr-heft*"
+    ]
+  }
 }

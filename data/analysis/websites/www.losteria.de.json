@@ -1,10 +1,32 @@
 {
   "domain": "www.losteria.de",
   "normalizedDomain": "www.losteria.de",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\nDisallow: /typo3/\r\n\r\nSitemap: https://losteria.net/de/sitemap.xml\r\nSitemap: https://losteria.net/at/sitemap.xml\r\nSitemap: https://losteria.net/ch/sitemap.xml\r\nSitemap: https://losteria.net/ch-fr/sitemap.xml\r\nSitemap: https://losteria.net/fr/sitemap.xml\r\nSitemap: https://losteria.net/en/sitemap.xml\r\nSitemap: https://losteria.net/nl/sitemap.xml\r\nSitemap: https://losteria.net/cz/sitemap.xml\r\nSitemap: https://losteria.net/lu/sitemap.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/typo3/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/typo3/"
+    ]
+  }
 }

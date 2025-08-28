@@ -1,10 +1,361 @@
 {
   "domain": "www.computerwoche.de",
   "normalizedDomain": "www.computerwoche.de",
+  "robotsTxt": "# ------------------------------------------------------\r\n# Global Rules\r\n# ------------------------------------------------------\r\n\r\nUser-agent: *\r\nDisallow: /search*\r\nDisallow: */filter/*\r\nDisallow: /*?utm_*\r\nDisallow: /*//*\r\nDisallow: /wp-admin/\r\nDisallow: /wp-login.php\r\nDisallow: /wp-register.php\r\nDisallow: /wp-includes/\r\nDisallow: /xmlrpc.php\r\nDisallow: /wp-json/\r\nDisallow: /feed/\r\nDisallow: /*/feed/\r\nDisallow: /*LICENSE.txt$\r\nDisallow: /*README.md$\r\nDisallow: /*README.txt$\r\nDisallow: /*license.txt$\r\nDisallow: /*readme.html$\r\nDisallow: /*readme.md$\r\nDisallow: /*readme.txt$\r\nDisallow: /*package.json$\r\nDisallow: /*composer.json$\r\nDisallow: /*composer.lock$\r\nDisallow: /*yarn.lock$\r\n\r\n# ------------------------------------------------------\r\n# Unwated Bots\r\n# ------------------------------------------------------\r\n\r\nUser-agent: Ai2Bot-Dolma\r\nDisallow: /\r\n\r\nUser-agent: AI2Bot\r\nDisallow: /\r\n\r\nUser-agent: anthropic-ai\r\nDisallow: /\r\n\r\nUser-agent: Applebot-Extended\r\nDisallow: /\r\n\r\nUser-agent: Arquivo-web-crawler\r\nDisallow: /\r\n\r\nUser-agent: AwarioRssBot\r\nDisallow: /\r\n\r\nUser-agent: AwarioSmartBot\r\nDisallow: /\r\n\r\nUser-agent: Barkrowler\r\nDisallow: /\r\n\r\nUser-agent: Bytespider\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\nUser-agent: ClaudeBot\r\nDisallow: /\r\n\r\nUser-agent: cohere-ai\r\nDisallow: /\r\n\r\nUser-agent: cohere-training-data-crawler\r\nDisallow: /\r\n\r\nUser-agent: crawler4j\r\nDisallow: /\r\n\r\nUser-agent: dotbot\r\nDisallow: /\r\n\r\nUser-agent: Diffbot\r\nDisallow: /\r\n\r\nUser-agent: FacebookBot\r\nDisallow: /\r\n\r\nUser-agent: FriendlyCrawler\r\nDisallow: /\r\n\r\nUser-agent: Google-CloudVertexBot\r\nDisallow: /\r\n\r\nUser-agent: Google-Extended\r\nDisallow: /\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nUser-agent: https://hada.news\r\nDisallow: /\r\n\r\nUser-agent: ICC-Crawler\r\nDisallow: /\r\n\r\nUser-agent: ImagesiftBot\r\nDisallow: /\r\n\r\nUser-agent: img2dataset\r\nDisallow: /\r\n\r\nUser-agent: ISSCyberRiskCrawler\r\nDisallow: /\r\n\r\nUser-agent: JenkersBot\r\nDisallow: /\r\n\r\nUser-agent: Kangaroo Bot\r\nDisallow: /\r\n\r\nUser-agent: Meltwater\r\nDisallow: /\r\n\r\nUser-agent: Meta-ExternalAgent\r\nDisallow: /\r\n\r\nUser-agent: Meta-ExternalFetcher\r\nDisallow: /\r\n\r\nUser-agent: MJ12bot\r\nDisallow: /\r\n\r\nUser-agent: PanguBot\r\nDisallow: /\r\n\r\nUser-agent: PerplexityBot\r\nDisallow: /\r\n\r\nUser-agent: Scrapy\r\nDisallow: /\r\n\r\nUser-agent: Seekr\r\nDisallow: /\r\n\r\nUser-agent: Timpibot\r\nDisallow: /\r\n\r\nUser-agent: VelenPublicWebCrawler\r\nDisallow: /\r\n\r\nUser-agent: Webzio-Extended\r\nDisallow: /\r\n\r\n\r\n# ------------------------------------------------------\r\n# Sitemaps\r\n# ------------------------------------------------------\r\n\r\nSitemap: https://www.computerwoche.de/sitemap-news-de.xml\r\nSitemap: https://www.computerwoche.de/sitemap-articles-de.xml\r\nSitemap: https://www.computerwoche.de/sitemap-podcast-episodes-de.xml\r\nSitemap: https://www.computerwoche.de/sitemap-video-episodes-de.xml\r\nSitemap: https://www.computerwoche.de/sitemap-pages.xml\r\nSitemap: https://www.computerwoche.de/sitemap-profiles.xml\r\nSitemap: https://www.computerwoche.de/sitemap-video-series.xml\r\nSitemap: https://www.computerwoche.de/sitemap-podcast-series.xml\r\nSitemap: https://www.computerwoche.de/sitemap-brandposts.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/search*",
+        "*/filter/*",
+        "/*?utm_*",
+        "/*//*",
+        "/wp-admin/",
+        "/wp-login.php",
+        "/wp-register.php",
+        "/wp-includes/",
+        "/xmlrpc.php",
+        "/wp-json/",
+        "/feed/",
+        "/*/feed/",
+        "/*LICENSE.txt$",
+        "/*README.md$",
+        "/*README.txt$",
+        "/*license.txt$",
+        "/*readme.html$",
+        "/*readme.md$",
+        "/*readme.txt$",
+        "/*package.json$",
+        "/*composer.json$",
+        "/*composer.lock$",
+        "/*yarn.lock$"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Ai2Bot-Dolma",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Arquivo-web-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AwarioRssBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AwarioSmartBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-training-data-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "crawler4j",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FriendlyCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-CloudVertexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "https://hada.news",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICC-Crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "img2dataset",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ISSCyberRiskCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "JenkersBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Kangaroo Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalFetcher",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PanguBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Seekr",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Timpibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "VelenPublicWebCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Webzio-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 39,
+    "allowedBots": 0,
+    "disallowedBots": 39,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Ai2Bot-Dolma",
@@ -162,5 +513,33 @@
       "name": "Webzio-Extended",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/search*",
+      "*/filter/*",
+      "/*?utm_*",
+      "/*//*",
+      "/wp-admin/",
+      "/wp-login.php",
+      "/wp-register.php",
+      "/wp-includes/",
+      "/xmlrpc.php",
+      "/wp-json/",
+      "/feed/",
+      "/*/feed/",
+      "/*LICENSE.txt$",
+      "/*README.md$",
+      "/*README.txt$",
+      "/*license.txt$",
+      "/*readme.html$",
+      "/*readme.md$",
+      "/*readme.txt$",
+      "/*package.json$",
+      "/*composer.json$",
+      "/*composer.lock$",
+      "/*yarn.lock$"
+    ]
+  }
 }

@@ -1,10 +1,183 @@
 {
   "domain": "www.muehlacker-tagblatt.de",
   "normalizedDomain": "www.muehlacker-tagblatt.de",
+  "robotsTxt": "# Robots.txt for crawler\r\n\r\nUser-agent: *\r\n\r\n# Disallow Crawler\r\nDisallow: /User\r\nDisallow: /Dateien\r\nDisallow: /Nachrichten/Suche\r\n# Crawler often creates invalid script/webresource resource request\r\nDisallow: /ScriptResource\r\nDisallow: /WebResource\r\n\r\nUser-agent: Meltwater\r\nDisallow: /\r\n\r\nUser-agent: NewsNow\r\nDisallow: /\r\n\r\nUser-agent: Bloodhound\r\nDisallow: /\r\n\r\nUser-agent: cydralspider\r\nDisallow: /\r\n\r\nUser-agent: downloadexpress\r\nDisallow: /\r\n\r\nUser-agent: gammaSpider\r\nDisallow: /\r\n\r\nUser-agent: ObjectsSearch\r\nDisallow: /\r\n\r\nUser-agent: Pimptrain\r\nDisallow: /\r\n\r\nUser-agent: Raven\r\nDisallow: /\r\n\r\nUser-agent: wapspider\r\nDisallow: /\r\n\r\nUser-agent: WebZinger\r\nDisallow: /\r\n\r\nUser-agent: Fasterfox\r\nDisallow: /\r\n\r\nUser-agent: sentibot\r\nDisallow: /\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nUser-agent: ChatGPT-User\r\nDisallow: /\r\n\r\nUser-Agent: omgili\r\nDisallow: /\r\n\r\nUser-Agent: omgilibot\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\nUser-agent: Google-Extended\r\nDisallow: /\r\n\r\n# Max crawler Time per page in sec\r\nCrawl-Delay: 2\r\n\r\n#Sitemap\r\n#Sitemap: https://www.muehlacker-tagblatt.de/Sitemap_Index.xml.gz\r\n\r\n# Legal notice: muehlacker-tagblatt.de / Karl Elser GmbH expressly reserves the right to use its content for commercial text and data mining (� 44 b UrhG).\r\n# The use of robots or other automated means to access muehlacker-tagblatt.de or collect or mine data without the express permission of muehlacker-tagblatt.de / Karl Elser GmbH is strictly prohibited.\r\n# muehlacker-tagblatt.de / Karl Elser GmbH may, in its discretion, permit certain automated access to certain muehlacker-tagblatt.de pages.\r\n# If you would like to apply for permission to crawl muehlacker-tagblatt.de / Karl Elser GmbH, collect or use data, please email info@muehlacker-tagblatt.de",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/User",
+        "/Dateien",
+        "/Nachrichten/Suche",
+        "/ScriptResource",
+        "/WebResource"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 19,
+    "allowedBots": 0,
+    "disallowedBots": 19,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Meltwater",
@@ -82,5 +255,15 @@
       "name": "Google-Extended",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/User",
+      "/Dateien",
+      "/Nachrichten/Suche",
+      "/ScriptResource",
+      "/WebResource"
+    ]
+  }
 }

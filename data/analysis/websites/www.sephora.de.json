@@ -1,10 +1,114 @@
 {
   "domain": "www.sephora.de",
   "normalizedDomain": "www.sephora.de",
+  "robotsTxt": "User-agent: * \r\n\r\n#Product\r\nDisallow: /*Product-Variation?pid=\r\nDisallow: /*Wishlist-Add?pid=\r\nDisallow: /*?source=quickview\r\nDisallow: /*bvrrp=\r\nDisallow: /*bvstate=\r\nDisallow: /checkout/*\r\nDisallow: /*productId=\r\nDisallow: /*randomJsCount=“ \r\n\r\n#Search\r\nDisallow: /fr/recherche/?\r\nDisallow: /suche/?\r\nDisallow: /*Search-Show?cgid=\r\n\r\n#Parmaters\r\nDisallow: /*cid=\r\nDisallow: /*prefn*=\r\nDisallow: /*prefv*=\r\nDisallow: /*pmin\r\nDisallow: /*pmax\r\nDisallow: /*srule\r\nDisallow: /*cart?dwcont\r\nDisallow: /*crefn*=\r\nDisallow: /*crefv*=\r\nDisallow: /*Product-Show\r\nDisallow: /*Page-Show\r\nDisallow: /*?sz=\r\nDisallow: */?listview=true\r\nDisallow: /*?listview=true&page=\r\n\r\n#Demandware\r\nDisallow: /on/demandware.store/*\r\nAllow: /on/demandware.store/*/Home-GetFooter\r\n\r\n#Brand\r\nDisallow: */*?scgid=*\r\nAllow: */*?scgid=C*\r\n\r\n#Store\r\nDisallow: /*serviceid=bar-a-sourcils&storeid=\r\nDisallow: /*serviceid=make-up-bar&storeid=\r\nDisallow: /*serviceid=service-atelier-gravure&storeid=\r\nDisallow: /*serviceid=service-gifting&storeid=\r\nDisallow: /*BookingServices-Show?storeid=\r\nDisallow: /*all-stores?storeID=\r\nDisallow: /Storefinder?storeID=\r\n\r\n#Beautyboard\r\nDisallow: /beautyboard/*\r\nAllow: /beautyboard/\r\n\r\n#Parameters\r\nDisallow: /*mc=\r\nDisallow: /*awc=\r\n\r\n#tcimage\r\nDisallow: /catalogs/mastercatalog_sephora/default/images",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/on/demandware.store/*/Home-GetFooter",
+        "*/*?scgid=C*",
+        "/beautyboard/"
+      ],
+      "disallowed": [
+        "/*Product-Variation?pid=",
+        "/*Wishlist-Add?pid=",
+        "/*?source=quickview",
+        "/*bvrrp=",
+        "/*bvstate=",
+        "/checkout/*",
+        "/*productId=",
+        "/*randomJsCount=“",
+        "/fr/recherche/?",
+        "/suche/?",
+        "/*Search-Show?cgid=",
+        "/*cid=",
+        "/*prefn*=",
+        "/*prefv*=",
+        "/*pmin",
+        "/*pmax",
+        "/*srule",
+        "/*cart?dwcont",
+        "/*crefn*=",
+        "/*crefv*=",
+        "/*Product-Show",
+        "/*Page-Show",
+        "/*?sz=",
+        "*/?listview=true",
+        "/*?listview=true&page=",
+        "/on/demandware.store/*",
+        "*/*?scgid=*",
+        "/*serviceid=bar-a-sourcils&storeid=",
+        "/*serviceid=make-up-bar&storeid=",
+        "/*serviceid=service-atelier-gravure&storeid=",
+        "/*serviceid=service-gifting&storeid=",
+        "/*BookingServices-Show?storeid=",
+        "/*all-stores?storeID=",
+        "/Storefinder?storeID=",
+        "/beautyboard/*",
+        "/*mc=",
+        "/*awc=",
+        "/catalogs/mastercatalog_sephora/default/images"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/on/demandware.store/*/Home-GetFooter",
+      "*/*?scgid=C*",
+      "/beautyboard/"
+    ],
+    "disallowed": [
+      "/*Product-Variation?pid=",
+      "/*Wishlist-Add?pid=",
+      "/*?source=quickview",
+      "/*bvrrp=",
+      "/*bvstate=",
+      "/checkout/*",
+      "/*productId=",
+      "/*randomJsCount=“",
+      "/fr/recherche/?",
+      "/suche/?",
+      "/*Search-Show?cgid=",
+      "/*cid=",
+      "/*prefn*=",
+      "/*prefv*=",
+      "/*pmin",
+      "/*pmax",
+      "/*srule",
+      "/*cart?dwcont",
+      "/*crefn*=",
+      "/*crefv*=",
+      "/*Product-Show",
+      "/*Page-Show",
+      "/*?sz=",
+      "*/?listview=true",
+      "/*?listview=true&page=",
+      "/on/demandware.store/*",
+      "*/*?scgid=*",
+      "/*serviceid=bar-a-sourcils&storeid=",
+      "/*serviceid=make-up-bar&storeid=",
+      "/*serviceid=service-atelier-gravure&storeid=",
+      "/*serviceid=service-gifting&storeid=",
+      "/*BookingServices-Show?storeid=",
+      "/*all-stores?storeID=",
+      "/Storefinder?storeID=",
+      "/beautyboard/*",
+      "/*mc=",
+      "/*awc=",
+      "/catalogs/mastercatalog_sephora/default/images"
+    ]
+  }
 }

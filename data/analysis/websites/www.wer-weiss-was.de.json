@@ -1,10 +1,91 @@
 {
   "domain": "www.wer-weiss-was.de",
   "normalizedDomain": "www.wer-weiss-was.de",
+  "robotsTxt": "# See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file\n#\nUser-agent: *\nDisallow: /auth/\nDisallow: /assets/browser-update*.js\nDisallow: /users/\nDisallow: /u/\nDisallow: /my/\nDisallow: /badges/\nDisallow: /search\nDisallow: /search/\nDisallow: /tags\nDisallow: /tags/\nDisallow: /email/\nDisallow: /session\nDisallow: /session/\nDisallow: /admin\nDisallow: /admin/\nDisallow: /user-api-key\nDisallow: /user-api-key/\nDisallow: /*?api_key*\nDisallow: /*?*api_key*\nDisallow: /groups\nDisallow: /groups/\nDisallow: /t/*/*.rss\nDisallow: /tags/*.rss\nDisallow: /c/*.rss\nDisallow:/t/faq/*\n\n\nUser-agent: mauibot\nDisallow: /\n\n\nUser-agent: semrushbot\nDisallow: /\n\n\nUser-agent: ahrefsbot\nDisallow: /\n\n\nUser-agent: blexbot\nDisallow: /\n\nUser-agent: sentibot\nDisallow: /\n\n\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/auth/",
+        "/assets/browser-update*.js",
+        "/users/",
+        "/u/",
+        "/my/",
+        "/badges/",
+        "/search",
+        "/search/",
+        "/tags",
+        "/tags/",
+        "/email/",
+        "/session",
+        "/session/",
+        "/admin",
+        "/admin/",
+        "/user-api-key",
+        "/user-api-key/",
+        "/*?api_key*",
+        "/*?*api_key*",
+        "/groups",
+        "/groups/",
+        "/t/*/*.rss",
+        "/tags/*.rss",
+        "/c/*.rss",
+        "/t/faq/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "mauibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "semrushbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ahrefsbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "blexbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sentibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 5,
+    "allowedBots": 0,
+    "disallowedBots": 5,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "mauibot",
@@ -26,5 +107,35 @@
       "name": "sentibot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/auth/",
+      "/assets/browser-update*.js",
+      "/users/",
+      "/u/",
+      "/my/",
+      "/badges/",
+      "/search",
+      "/search/",
+      "/tags",
+      "/tags/",
+      "/email/",
+      "/session",
+      "/session/",
+      "/admin",
+      "/admin/",
+      "/user-api-key",
+      "/user-api-key/",
+      "/*?api_key*",
+      "/*?*api_key*",
+      "/groups",
+      "/groups/",
+      "/t/*/*.rss",
+      "/tags/*.rss",
+      "/c/*.rss",
+      "/t/faq/*"
+    ]
+  }
 }

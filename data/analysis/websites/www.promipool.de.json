@@ -1,10 +1,58 @@
 {
   "domain": "www.promipool.de",
   "normalizedDomain": "www.promipool.de",
+  "robotsTxt": "User-agent: *\nDisallow: /layout/\nDisallow: /bm/ajax/*\nDisallow: /*?gallery&image=*\nDisallow: /*?gallery*\nDisallow: /?gallery\nDisallow: /tags/Rubriks/*\nDisallow: /search/*\nDisallow: /artikel/*\nDisallow: /bildergalerie-spezial/*\nDisallow: /bilder/*\nDisallow: /promis/*\nDisallow: /hollywood/*\nDisallow: /ngadminui/*\nDisallow: /administration/*\n\nSitemap: https://www.promipool.de/sitemap.xml\nSitemap: https://www.promipool.de/news-sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/layout/",
+        "/bm/ajax/*",
+        "/*?gallery&image=*",
+        "/*?gallery*",
+        "/?gallery",
+        "/tags/Rubriks/*",
+        "/search/*",
+        "/artikel/*",
+        "/bildergalerie-spezial/*",
+        "/bilder/*",
+        "/promis/*",
+        "/hollywood/*",
+        "/ngadminui/*",
+        "/administration/*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/layout/",
+      "/bm/ajax/*",
+      "/*?gallery&image=*",
+      "/*?gallery*",
+      "/?gallery",
+      "/tags/Rubriks/*",
+      "/search/*",
+      "/artikel/*",
+      "/bildergalerie-spezial/*",
+      "/bilder/*",
+      "/promis/*",
+      "/hollywood/*",
+      "/ngadminui/*",
+      "/administration/*"
+    ]
+  }
 }

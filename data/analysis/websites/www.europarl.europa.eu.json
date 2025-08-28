@@ -1,14 +1,101 @@
 {
   "domain": "www.europarl.europa.eu",
   "normalizedDomain": "www.europarl.europa.eu",
-  "bots": [
+  "robotsTxt": "User-agent: 008\r\nCrawl-delay: 3\r\nAllow: /portal/\r\nAllow: /news/\r\nAllow: /ep-live/\r\nDisallow: /\r\n\r\n# USD 119677 + USD I-88842\r\nUser-agent: *\r\nDisallow: /calendar/\r\nDisallow: /debats/\r\nDisallow: /pv1/\r\nDisallow: /pv2/\r\nDisallow: /searchdeb/\r\nDisallow: /guidemep_info_2009/\r\nDisallow: /votre-europarl/\r\n#DDU, REVAMPING : URL is now allowed Disallow: /committees/\r\nDisallow: /comparl/\r\nDisallow: /parliament/public/traineeship/secured/\r\nDisallow: /parliament/public/transltraineeship/secured\r\n# DDU, pb sur recherche des �tudes sans param�tres\r\nDisallow: /activities/committees/studies/\r\nDisallow: /activities/committees/studiesCom/\r\n#KAD, 08/11/2018 - ne pas indexer les g�n�rations de listes de MEP [ERPL-8599]\r\nDisallow: /meps/*/pdf*\r\nDisallow: /meps/*/xml*\r\n#DDU, 15/04/2013 - ne pas indexer les fichiers d'�tudes (pb timeout) [SDISPT-756]\r\nDisallow: /committees/*/studiesdownload.html\r\n#DDU, 03/02/2015 - pb registre REGI-1726\r\nDisallow: /RegistreWeb/search/simple.htm\r\n#DDU, 04/02/2015 - pb registre REGI-1726\r\nDisallow: /RegistreWeb/search/typedoc.htm\r\nDisallow: /RegistreWeb/search/advanced.htm\r\n# ERPL-4988\r\nDisallow: /common/mail/\r\n# ERPL-8599\r\nDisallow: /meps/*/eptvAjax\r\n# Discard thinktank PDF generators\r\nDisallow: /thinktank/*/pdf/search.html\r\n# R-1534197\r\nDisallow: /ecard/\r\nDisallow: /newsgate/\r\n#100Books RWD\r\nDisallow: /100books/*/downloadPDF\r\n#List of VOD - ERPL-7502\r\nDisallow: /plenary/*/vod.html\r\n# Discard MEP lists\r\nDisallow: /delegations/*/*/members/pdf.html\r\n# traineeships should not be indexed anymore\r\nDisallow: /pdf/traineeships/\r\n\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/calendar/",
+        "/debats/",
+        "/pv1/",
+        "/pv2/",
+        "/searchdeb/",
+        "/guidemep_info_2009/",
+        "/votre-europarl/",
+        "/comparl/",
+        "/parliament/public/traineeship/secured/",
+        "/parliament/public/transltraineeship/secured",
+        "/activities/committees/studies/",
+        "/activities/committees/studiesCom/",
+        "/meps/*/pdf*",
+        "/meps/*/xml*",
+        "/committees/*/studiesdownload.html",
+        "/RegistreWeb/search/simple.htm",
+        "/RegistreWeb/search/typedoc.htm",
+        "/RegistreWeb/search/advanced.htm",
+        "/common/mail/",
+        "/meps/*/eptvAjax",
+        "/thinktank/*/pdf/search.html",
+        "/ecard/",
+        "/newsgate/",
+        "/100books/*/downloadPDF",
+        "/plenary/*/vod.html",
+        "/delegations/*/*/members/pdf.html",
+        "/pdf/traineeships/"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "008",
+      "allowed": false,
+      "paths": {
+        "allowed": [
+          "/portal/",
+          "/news/",
+          "/ep-live/"
+        ],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
       "allowed": true
     },
     {
-      "name": "*",
+      "name": "008",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/calendar/",
+      "/debats/",
+      "/pv1/",
+      "/pv2/",
+      "/searchdeb/",
+      "/guidemep_info_2009/",
+      "/votre-europarl/",
+      "/comparl/",
+      "/parliament/public/traineeship/secured/",
+      "/parliament/public/transltraineeship/secured",
+      "/activities/committees/studies/",
+      "/activities/committees/studiesCom/",
+      "/meps/*/pdf*",
+      "/meps/*/xml*",
+      "/committees/*/studiesdownload.html",
+      "/RegistreWeb/search/simple.htm",
+      "/RegistreWeb/search/typedoc.htm",
+      "/RegistreWeb/search/advanced.htm",
+      "/common/mail/",
+      "/meps/*/eptvAjax",
+      "/thinktank/*/pdf/search.html",
+      "/ecard/",
+      "/newsgate/",
+      "/100books/*/downloadPDF",
+      "/plenary/*/vod.html",
+      "/delegations/*/*/members/pdf.html",
+      "/pdf/traineeships/"
+    ]
+  }
 }

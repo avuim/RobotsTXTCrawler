@@ -1,14 +1,301 @@
 {
   "domain": "www.wuv.de",
   "normalizedDomain": "www.wuv.de",
-  "bots": [
+  "robotsTxt": "# Robots.txt file for a standard eZ Platform website\n# All robots will spider all the domain, except for search\n\nUser-agent: *\nDisallow: /layout/set/\nDisallow: /ezjscore/call/\nDisallow: /content/\nDisallow: /content/search/\nDisallow: /content/advancedsearch/\nDisallow: /content/pdf/\nDisallow: /content/tipafriend/\nDisallow: /vote/add/\nDisallow: /leute/\nDisallow: /leute\nDisallow: /leute/personalien\nDisallow: /videos\nDisallow: /videos/redaktionsarchiv\nDisallow: /videos/events\nDisallow: /videos/empfohlen_von_der_redaktion\nDisallow: /videos/w_v_videos\nDisallow: /videos/featured\nDisallow: /Werbeformen/\nDisallow: /Werbeformen\nDisallow: /Werbeformen/test1\nDisallow: /Werbeformen/test2\nDisallow: /Werbeformen/debug1\nDisallow: /Werbeformen/debug2\n\n# Massendownloader vom CGI Verzeichnis fernhalten\nUser-agent: wget\nUser-agent: webzip\nUser-agent: webmirror\nUser-agent: webcopy\nDisallow: /cgi-bin/\n\nSitemap: https://www.wuv.de/sitemaps/index.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/layout/set/",
+        "/ezjscore/call/",
+        "/content/",
+        "/content/search/",
+        "/content/advancedsearch/",
+        "/content/pdf/",
+        "/content/tipafriend/",
+        "/vote/add/",
+        "/leute/",
+        "/leute",
+        "/leute/personalien",
+        "/videos",
+        "/videos/redaktionsarchiv",
+        "/videos/events",
+        "/videos/empfohlen_von_der_redaktion",
+        "/videos/w_v_videos",
+        "/videos/featured",
+        "/Werbeformen/",
+        "/Werbeformen",
+        "/Werbeformen/test1",
+        "/Werbeformen/test2",
+        "/Werbeformen/debug1",
+        "/Werbeformen/debug2"
+      ]
+    }
+  },
+  "specificBots": [
     {
-      "name": "*",
-      "allowed": false
+      "name": "wget",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/cgi-bin/"
+        ]
+      }
+    },
+    {
+      "name": "webzip",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/cgi-bin/"
+        ]
+      }
+    },
+    {
+      "name": "webmirror",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/cgi-bin/"
+        ]
+      }
     },
     {
       "name": "webcopy",
-      "allowed": false
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/cgi-bin/"
+        ]
+      }
+    },
+    {
+      "name": "wget",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/cgi-bin/"
+        ]
+      }
+    },
+    {
+      "name": "webzip",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/cgi-bin/"
+        ]
+      }
+    },
+    {
+      "name": "webmirror",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/cgi-bin/"
+        ]
+      }
+    },
+    {
+      "name": "webcopy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/cgi-bin/"
+        ]
+      }
+    },
+    {
+      "name": "wget",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/cgi-bin/"
+        ]
+      }
+    },
+    {
+      "name": "webzip",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/cgi-bin/"
+        ]
+      }
+    },
+    {
+      "name": "webmirror",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/cgi-bin/"
+        ]
+      }
+    },
+    {
+      "name": "webcopy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/cgi-bin/"
+        ]
+      }
+    },
+    {
+      "name": "wget",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/cgi-bin/"
+        ]
+      }
+    },
+    {
+      "name": "webzip",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/cgi-bin/"
+        ]
+      }
+    },
+    {
+      "name": "webmirror",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/cgi-bin/"
+        ]
+      }
+    },
+    {
+      "name": "webcopy",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/cgi-bin/"
+        ]
+      }
     }
-  ]
+  ],
+  "stats": {
+    "totalSpecificBots": 16,
+    "allowedBots": 16,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "wget",
+      "allowed": true
+    },
+    {
+      "name": "webzip",
+      "allowed": true
+    },
+    {
+      "name": "webmirror",
+      "allowed": true
+    },
+    {
+      "name": "webcopy",
+      "allowed": true
+    },
+    {
+      "name": "wget",
+      "allowed": true
+    },
+    {
+      "name": "webzip",
+      "allowed": true
+    },
+    {
+      "name": "webmirror",
+      "allowed": true
+    },
+    {
+      "name": "webcopy",
+      "allowed": true
+    },
+    {
+      "name": "wget",
+      "allowed": true
+    },
+    {
+      "name": "webzip",
+      "allowed": true
+    },
+    {
+      "name": "webmirror",
+      "allowed": true
+    },
+    {
+      "name": "webcopy",
+      "allowed": true
+    },
+    {
+      "name": "wget",
+      "allowed": true
+    },
+    {
+      "name": "webzip",
+      "allowed": true
+    },
+    {
+      "name": "webmirror",
+      "allowed": true
+    },
+    {
+      "name": "webcopy",
+      "allowed": true
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/layout/set/",
+      "/ezjscore/call/",
+      "/content/",
+      "/content/search/",
+      "/content/advancedsearch/",
+      "/content/pdf/",
+      "/content/tipafriend/",
+      "/vote/add/",
+      "/leute/",
+      "/leute",
+      "/leute/personalien",
+      "/videos",
+      "/videos/redaktionsarchiv",
+      "/videos/events",
+      "/videos/empfohlen_von_der_redaktion",
+      "/videos/w_v_videos",
+      "/videos/featured",
+      "/Werbeformen/",
+      "/Werbeformen",
+      "/Werbeformen/test1",
+      "/Werbeformen/test2",
+      "/Werbeformen/debug1",
+      "/Werbeformen/debug2"
+    ]
+  }
 }

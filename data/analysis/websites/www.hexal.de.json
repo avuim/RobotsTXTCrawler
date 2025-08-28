@@ -1,10 +1,60 @@
 {
   "domain": "www.hexal.de",
   "normalizedDomain": "www.hexal.de",
+  "robotsTxt": "User-agent: *\r\n\r\nAllow: /\r\n\r\nDisallow: /*/my-registration/\r\nDisallow: /*/my-profile/\r\nDisallow: /*/password-reset/\r\nDisallow: /*/api/\r\nDisallow: /*/invited-registration/\r\nDisallow: /*/newsletter-verification/\r\nDisallow: /*/preview/\r\nDisallow: /*/profile/\r\nDisallow: /*/validate-user-state/\r\nDisallow: /*/product-info/\r\nDisallow: /*/account/\r\nDisallow: /*/sign-up/\r\nDisallow: /*/404/\r\nDisallow: /*?*token=\r\nDisallow: /*?*deeplink_token=\r\n\r\nSitemap: http://www.hexal.de/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*/my-registration/",
+        "/*/my-profile/",
+        "/*/password-reset/",
+        "/*/api/",
+        "/*/invited-registration/",
+        "/*/newsletter-verification/",
+        "/*/preview/",
+        "/*/profile/",
+        "/*/validate-user-state/",
+        "/*/product-info/",
+        "/*/account/",
+        "/*/sign-up/",
+        "/*/404/",
+        "/*?*token=",
+        "/*?*deeplink_token="
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*/my-registration/",
+      "/*/my-profile/",
+      "/*/password-reset/",
+      "/*/api/",
+      "/*/invited-registration/",
+      "/*/newsletter-verification/",
+      "/*/preview/",
+      "/*/profile/",
+      "/*/validate-user-state/",
+      "/*/product-info/",
+      "/*/account/",
+      "/*/sign-up/",
+      "/*/404/",
+      "/*?*token=",
+      "/*?*deeplink_token="
+    ]
+  }
 }

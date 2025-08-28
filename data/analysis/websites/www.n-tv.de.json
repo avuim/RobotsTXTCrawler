@@ -1,6 +1,55 @@
 {
   "domain": "www.n-tv.de",
   "normalizedDomain": "www.n-tv.de",
+  "robotsTxt": "# robots.txt for n-tv.de\r\n\r\n\r\n\r\nUser-agent: *\r\nDisallow: /*?service=print\r\nDisallow: /*id9253371?ctxArt=*view=ajax-send\r\nDisallow: /ratgeber/check/*\r\nDisallow: /*-hds.f4m\r\nDisallow: /suche/\r\nDisallow: /boersenkurse/suche/\r\nDisallow: /stats/\r\nDisallow: /jobboerse/\r\nDisallow: /archiv/*\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nUser-agent: Google-Extended\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\nUser-agent: *\r\nAllow: /news.xml\r\nAllow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*?service=print",
+        "/*id9253371?ctxArt=*view=ajax-send",
+        "/ratgeber/check/*",
+        "/*-hds.f4m",
+        "/suche/",
+        "/boersenkurse/suche/",
+        "/stats/",
+        "/jobboerse/",
+        "/archiv/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -18,5 +67,19 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*?service=print",
+      "/*id9253371?ctxArt=*view=ajax-send",
+      "/ratgeber/check/*",
+      "/*-hds.f4m",
+      "/suche/",
+      "/boersenkurse/suche/",
+      "/stats/",
+      "/jobboerse/",
+      "/archiv/*"
+    ]
+  }
 }

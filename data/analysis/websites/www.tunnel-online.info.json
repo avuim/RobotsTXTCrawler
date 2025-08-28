@@ -1,6 +1,47 @@
 {
   "domain": "www.tunnel-online.info",
   "normalizedDomain": "www.tunnel-online.info",
+  "robotsTxt": "# This robots.txt file controls crawling of URLs under https://www.tunnel-online.info\n\nUser-agent: *\nAllow: /\n\nUser-agent: SiteAuditBot\nCrawl-delay: 1\nAllow: /\nDisallow: /download\nDisallow: /downloads_protected\nDisallow: /imgs\nDisallow: /media\n\nUser-agent: Semrushbot-SI\nAllow: /\nDisallow: /download\nDisallow: /downloads_protected\nDisallow: /imgs\nDisallow: /media\n\n# Sitemap file\nSitemap: https://www.tunnel-online.info/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "SiteAuditBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/download",
+          "/downloads_protected",
+          "/imgs",
+          "/media"
+        ]
+      }
+    },
+    {
+      "name": "Semrushbot-SI",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/download",
+          "/downloads_protected",
+          "/imgs",
+          "/media"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 2,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -14,5 +55,9 @@
       "name": "Semrushbot-SI",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

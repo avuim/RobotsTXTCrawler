@@ -1,6 +1,335 @@
 {
   "domain": "www.macwelt.de",
   "normalizedDomain": "www.macwelt.de",
+  "robotsTxt": "# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://www.macwelt.de/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK\nDisallow: /search*\nUser-agent: Ai2Bot-Dolma\nDisallow: /\nUser-agent: AI2Bot\nDisallow: /\nUser-agent: anthropic-ai\nDisallow: /\nUser-agent: Applebot-Extended\nDisallow: /\nUser-agent: Arquivo-web-crawler\nDisallow: /\nUser-agent: AwarioRssBot\nDisallow: /\nUser-agent: AwarioSmartBot\nDisallow: /\nUser-agent: Barkrowler\nDisallow: /\nUser-agent: Bytespider\nDisallow: /\nUser-agent: CCBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: / \nUser-agent: cohere-ai\nDisallow: /\nUser-agent: cohere-training-data-crawler\nDisallow: /\nUser-agent: crawler4j\nDisallow: /\nUser-agent: dotbot\nDisallow: /\nUser-agent: Diffbot\nDisallow: /\nUser-agent: FacebookBot\nDisallow: /\nUser-agent: FriendlyCrawler\nDisallow: /\nUser-agent: Google-CloudVertexBot\nDisallow: /\nUser-agent: Google-Extended\nDisallow: /\nUser-agent: GPTBot\nDisallow: /\nUser-agent: https://hada.news\nDisallow: /\nUser-agent: ICC-Crawler\nDisallow: /\nUser-agent: ImagesiftBot\nDisallow: /\nUser-agent: img2dataset\nDisallow: /\nUser-agent: ISSCyberRiskCrawler\nDisallow: /\nUser-agent: JenkersBot\nDisallow: /\nUser-agent: Kangaroo Bot\nDisallow: /\nUser-agent: Meltwater\nDisallow: /\nUser-agent: Meta-ExternalAgent\nDisallow: /\nUser-agent: Meta-ExternalFetcher\nDisallow: /\nUser-agent: MJ12bot\nDisallow: /\nUser-agent: PanguBot\nDisallow: /\nUser-agent: PerplexityBot\nDisallow: /\nUser-agent: Scrapy\nDisallow: /\nUser-agent: Seekr\nDisallow: /\nUser-agent: Timpibot\nDisallow: /\nUser-agent: VelenPublicWebCrawler\nDisallow: /\nUser-agent: Webzio-Extended\nDisallow: /\nSitemap: https://www.macwelt.de/news-sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/search*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Ai2Bot-Dolma",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Arquivo-web-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AwarioRssBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AwarioSmartBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Barkrowler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-training-data-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "crawler4j",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "dotbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FriendlyCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-CloudVertexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "https://hada.news",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICC-Crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "img2dataset",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ISSCyberRiskCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "JenkersBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Kangaroo Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalFetcher",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PanguBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Seekr",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Timpibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "VelenPublicWebCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Webzio-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 39,
+    "allowedBots": 0,
+    "disallowedBots": 39,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
@@ -162,5 +491,11 @@
       "name": "Webzio-Extended",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/search*"
+    ]
+  }
 }

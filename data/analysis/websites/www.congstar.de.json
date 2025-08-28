@@ -1,10 +1,74 @@
 {
   "domain": "www.congstar.de",
   "normalizedDomain": "www.congstar.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /aktivierung\r\nDisallow: /suche\r\nDisallow: /*gcb_captcha*\r\nDisallow: /*modf-*\r\nDisallow: /datacollection*\r\nDisallow: /*/postident-abgeschlossen*\r\nDisallow: /api/csc/password-reset*\r\nDisallow: /fileadmin/files_congstar/documents/hilfe-service/formulare/\r\nDisallow: /fileadmin/files_congstar/documents/hilfe-service/Archiv/\r\nAllow: /*?ids*=*\r\nAllow: /*device-teasers*\r\nAllow: /*?pagina=*\r\nAllow: /*glid*\r\nAllow: /*gdnid=*\r\nAllow: /*gosheg=*\r\nAllow: /*sp=gosh*\r\nAllow: /*sp=gose*\r\nAllow: /*sp=bish*\r\nAllow: /*mobile_redirect=*\r\nAllow: /*code=*\r\nAllow: /.well-known/assetlinks.json\r\nSitemap: https://www.congstar.de/typo3temp/congstar_xmlsitemap/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/*?ids*=*",
+        "/*device-teasers*",
+        "/*?pagina=*",
+        "/*glid*",
+        "/*gdnid=*",
+        "/*gosheg=*",
+        "/*sp=gosh*",
+        "/*sp=gose*",
+        "/*sp=bish*",
+        "/*mobile_redirect=*",
+        "/*code=*",
+        "/.well-known/assetlinks.json"
+      ],
+      "disallowed": [
+        "/aktivierung",
+        "/suche",
+        "/*gcb_captcha*",
+        "/*modf-*",
+        "/datacollection*",
+        "/*/postident-abgeschlossen*",
+        "/api/csc/password-reset*",
+        "/fileadmin/files_congstar/documents/hilfe-service/formulare/",
+        "/fileadmin/files_congstar/documents/hilfe-service/Archiv/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/*?ids*=*",
+      "/*device-teasers*",
+      "/*?pagina=*",
+      "/*glid*",
+      "/*gdnid=*",
+      "/*gosheg=*",
+      "/*sp=gosh*",
+      "/*sp=gose*",
+      "/*sp=bish*",
+      "/*mobile_redirect=*",
+      "/*code=*",
+      "/.well-known/assetlinks.json"
+    ],
+    "disallowed": [
+      "/aktivierung",
+      "/suche",
+      "/*gcb_captcha*",
+      "/*modf-*",
+      "/datacollection*",
+      "/*/postident-abgeschlossen*",
+      "/api/csc/password-reset*",
+      "/fileadmin/files_congstar/documents/hilfe-service/formulare/",
+      "/fileadmin/files_congstar/documents/hilfe-service/Archiv/"
+    ]
+  }
 }

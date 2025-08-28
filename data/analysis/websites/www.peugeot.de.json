@@ -1,10 +1,48 @@
 {
   "domain": "www.peugeot.de",
   "normalizedDomain": "www.peugeot.de",
+  "robotsTxt": "User-Agent: *\r\nDisallow: /*?lcdv\r\nDisallow: /*?gclsrc\r\nDisallow: /*?&gclid\r\nDisallow: /*utm_source\r\nDisallow: /api/\r\nDisallow: /*?id\r\nDisallow: /*utm_content\r\nDisallow: /*utm_campaign\r\nDisallow: /*utm_medium\r\nSitemap: https://www.peugeot.de/sitemap.xml?lg=de\r\n\r\n\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*?lcdv",
+        "/*?gclsrc",
+        "/*?&gclid",
+        "/*utm_source",
+        "/api/",
+        "/*?id",
+        "/*utm_content",
+        "/*utm_campaign",
+        "/*utm_medium"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*?lcdv",
+      "/*?gclsrc",
+      "/*?&gclid",
+      "/*utm_source",
+      "/api/",
+      "/*?id",
+      "/*utm_content",
+      "/*utm_campaign",
+      "/*utm_medium"
+    ]
+  }
 }

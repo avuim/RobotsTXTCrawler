@@ -1,14 +1,347 @@
 {
   "domain": "www.visitqatar.com",
   "normalizedDomain": "www.visitqatar.com",
+  "robotsTxt": "# Baidu\r\nUser-agent: Baiduspider\r\nUser-agent: Baiduspider-mobile\r\nUser-agent: Baiduspider-video\r\nUser-agent: Baiduspider-image\r\nUser-agent: Baiduspider-news\r\nDisallow: /\r\n\r\n# All others SE\r\nUser-agent: *\r\nUser-agent: AdsBot-Google\r\nAllow: /\r\nAllow: /bin/api/geolocation\r\nAllow: /bin/api/country\r\nDisallow: */sandbox\r\nDisallow: */api\r\nDisallow: */content/visitqatar/*\r\nDisallow: */profile\r\nDisallow: */login\r\n\r\nSitemap: https://visitqatar.com/sitemap_index.xml\r\nSitemap: https://visitqatar.com/intl-en/sitemap.xml\r\nSitemap: https://visitqatar.com/qa-ar/sitemap.xml\r\nSitemap: https://visitqatar.com/de-de/sitemap.xml\r\nSitemap: https://visitqatar.com/fr-fr/sitemap.xml\r\nSitemap: https://visitqatar.com/es-es/sitemap.xml\r\nSitemap: https://visitqatar.com/it-it/sitemap.xml\r\nSitemap: https://visitqatar.com/tr-tr/sitemap.xml\r\nSitemap: https://visitqatar.com/cn-zh/sitemap.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/bin/api/geolocation",
+        "/bin/api/country"
+      ],
+      "disallowed": [
+        "*/sandbox",
+        "*/api",
+        "*/content/visitqatar/*",
+        "*/profile",
+        "*/login"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-mobile",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-video",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-image",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-news",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-mobile",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-video",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-image",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-news",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-mobile",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-video",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-image",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-news",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-mobile",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-video",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-image",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-news",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-mobile",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-video",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-image",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Baiduspider-news",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 25,
+    "allowedBots": 0,
+    "disallowedBots": 25,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider-mobile",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider-video",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider-image",
+      "allowed": false
+    },
     {
       "name": "Baiduspider-news",
       "allowed": false
     },
     {
-      "name": "AdsBot-Google",
-      "allowed": true
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider-mobile",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider-video",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider-image",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider-news",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider-mobile",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider-video",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider-image",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider-news",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider-mobile",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider-video",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider-image",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider-news",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider-mobile",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider-video",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider-image",
+      "allowed": false
+    },
+    {
+      "name": "Baiduspider-news",
+      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/bin/api/geolocation",
+      "/bin/api/country"
+    ],
+    "disallowed": [
+      "*/sandbox",
+      "*/api",
+      "*/content/visitqatar/*",
+      "*/profile",
+      "*/login"
+    ]
+  }
 }

@@ -1,10 +1,90 @@
 {
   "domain": "www.ernstings-family.de",
   "normalizedDomain": "www.ernstings-family.de",
+  "robotsTxt": "User-agent: *\r\nAllow: /\r\nDisallow: /SearchDisplay\r\nDisallow: /UserRegistrationForm\r\nDisallow: /UserPasswordUpdate\r\nDisallow: /ShippingAddressView\r\nDisallow: /ProfileFormView\r\nDisallow: /WishListResultDisplayView\r\nDisallow: /TrackOrderStatus\r\nDisallow: /OrderDetail\r\nDisallow: /myAccountVoucher\r\nDisallow: /newsletterRegistration\r\nDisallow: /webapp/wcs/stores/  \r\nDisallow: /OrderBilling\r\nDisallow: /OrderShippingPayment\r\nDisallow: /personalkauf-online\r\nDisallow: /baby$\r\nDisallow: /befragung\r\nDisallow: /mab\r\nDisallow: /service\r\n\r\nDisallow: /api/tracking\r\nDisallow: /api/cart\r\nDisallow: /api/session\r\nDisallow: /api/wishlist\r\nDisallow: /api/auth\r\nDisallow: /my-account-\r\nDisallow: /checkout-login\r\nDisallow: /checkout-customer-data\r\nDisallow: /checkout-shipping-payment\r\nDisallow: /checkout-review\r\nDisallow: /checkout-success\r\nDisallow: /warenkorb\r\n\r\nSitemap: https://www.ernstings-family.de/sitemap.xml\r\nSitemap: https://filialen.ernstings-family.de/index.php?id=1&type=1533906435\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/SearchDisplay",
+        "/UserRegistrationForm",
+        "/UserPasswordUpdate",
+        "/ShippingAddressView",
+        "/ProfileFormView",
+        "/WishListResultDisplayView",
+        "/TrackOrderStatus",
+        "/OrderDetail",
+        "/myAccountVoucher",
+        "/newsletterRegistration",
+        "/webapp/wcs/stores/",
+        "/OrderBilling",
+        "/OrderShippingPayment",
+        "/personalkauf-online",
+        "/baby$",
+        "/befragung",
+        "/mab",
+        "/service",
+        "/api/tracking",
+        "/api/cart",
+        "/api/session",
+        "/api/wishlist",
+        "/api/auth",
+        "/my-account-",
+        "/checkout-login",
+        "/checkout-customer-data",
+        "/checkout-shipping-payment",
+        "/checkout-review",
+        "/checkout-success",
+        "/warenkorb"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/SearchDisplay",
+      "/UserRegistrationForm",
+      "/UserPasswordUpdate",
+      "/ShippingAddressView",
+      "/ProfileFormView",
+      "/WishListResultDisplayView",
+      "/TrackOrderStatus",
+      "/OrderDetail",
+      "/myAccountVoucher",
+      "/newsletterRegistration",
+      "/webapp/wcs/stores/",
+      "/OrderBilling",
+      "/OrderShippingPayment",
+      "/personalkauf-online",
+      "/baby$",
+      "/befragung",
+      "/mab",
+      "/service",
+      "/api/tracking",
+      "/api/cart",
+      "/api/session",
+      "/api/wishlist",
+      "/api/auth",
+      "/my-account-",
+      "/checkout-login",
+      "/checkout-customer-data",
+      "/checkout-shipping-payment",
+      "/checkout-review",
+      "/checkout-success",
+      "/warenkorb"
+    ]
+  }
 }

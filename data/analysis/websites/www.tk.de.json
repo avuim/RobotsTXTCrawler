@@ -1,10 +1,40 @@
 {
   "domain": "www.tk.de",
   "normalizedDomain": "www.tk.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /action/\r\nDisallow: /service/app/2009028/gesundheitskurs/auskunft.app\r\nDisallow: /europaservice-de/\r\nDisallow: /europaservice-en/\r\nDisallow: /vertriebspartner/faq/kuendigung*\r\n\r\nSitemap: https://www.tk.de/service-sitemap-df64b48e09a302e4e41fd396eef2c4e6-sitemap_index.xml\r\nSitemap: https://www.tk.de/service-sitemap-2ecb2b273028eed3a18040beab1f9c63-sitemap_index.xml\r\nSitemap: https://www.tk.de/service-sitemap-c869373a5d436713e3743337de219790-sitemap_index.xml\r\nSitemap: https://www.tk.de/service-sitemap-c5785c6d12af08b9b739cb97f2ab58ea-sitemap_index.xml\r\nSitemap: https://www.tk.de/service-sitemap-cc62f1cdd02cc335fcebbc06859fda90-sitemap_index.xml\r\nSitemap: https://www.tk.de/service-sitemap-be6e560ad0b085544b2fdf22d8e9a33c-sitemap_index.xml\r\nSitemap: https://www.tk.de/service-sitemap-09b30204e723d49e162d91827f85e5ba-sitemap_index.xml\r\nSitemap: https://www.tk.de/service-sitemap-5bc05f4edad9f46ee96665a745558785-sitemap_index.xml\r\nSitemap: https://www.tk.de/service-sitemap-3286e5cfe809898ae37fa5c5141142e0-sitemap_index.xml\r\nSitemap: https://www.tk.de/service-sitemap-a7c4cd0a9c0821a71e039cd2bcabe114-sitemap_index.xml\r\nSitemap: https://www.tk.de/service-sitemap-892db1e649ae1d585519e5fbd6f4e909-sitemap_index.xml\r\nSitemap: https://www.tk.de/service-sitemap-e1fd37f7f80b94823e9ed0108f4f616b-sitemap_index.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/action/",
+        "/service/app/2009028/gesundheitskurs/auskunft.app",
+        "/europaservice-de/",
+        "/europaservice-en/",
+        "/vertriebspartner/faq/kuendigung*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/action/",
+      "/service/app/2009028/gesundheitskurs/auskunft.app",
+      "/europaservice-de/",
+      "/europaservice-en/",
+      "/vertriebspartner/faq/kuendigung*"
+    ]
+  }
 }

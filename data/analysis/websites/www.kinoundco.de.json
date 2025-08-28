@@ -1,10 +1,40 @@
 {
   "domain": "www.kinoundco.de",
   "normalizedDomain": "www.kinoundco.de",
+  "robotsTxt": "User-agent: Googlebot-Image\nDisallow: /media/cache/castslider/*\nDisallow: /media/cache/stardetail/*\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot-Image",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/media/cache/castslider/*",
+          "/media/cache/stardetail/*"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 1,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "Googlebot-Image",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

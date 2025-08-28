@@ -1,10 +1,40 @@
 {
   "domain": "www.wochenblatt.net",
   "normalizedDomain": "www.wochenblatt.net",
+  "robotsTxt": "# www.robotstxt.org/\n# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449\n\nSitemap: https://www.wochenblatt.net/sitemap.xml\n\nUser-agent: *\nDisallow: /build/html/\nDisallow: /customerfonts/\nAllow: /resources/mediadb/\nDisallow: /resources/\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/resources/mediadb/"
+      ],
+      "disallowed": [
+        "/build/html/",
+        "/customerfonts/",
+        "/resources/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/resources/mediadb/"
+    ],
+    "disallowed": [
+      "/build/html/",
+      "/customerfonts/",
+      "/resources/"
+    ]
+  }
 }

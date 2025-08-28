@@ -1,6 +1,57 @@
 {
   "domain": "www.ehrlich-brothers.com",
   "normalizedDomain": "www.ehrlich-brothers.com",
+  "robotsTxt": "#Alle Suchmaschinen wird der Zugang verweigert zu den angegebenen Verzeichnissen\r\nUser-agent: *\r\nDisallow: /fileadmin/\r\nDisallow: /typo3conf/\r\nDisallow: /typo3temp/\r\nDisallow: /_BAK/\r\nDisallow: /uploads/\r\nDisallow: /DB_SICHERUNGEN/\r\n\r\nAllow: /typo3temp/*.css\r\nAllow: /typo3temp/*.css.*.gzip$\r\nAllow: /typo3temp/*.js\r\nAllow: /typo3temp/*.js.*.gzip$\r\nAllow: /typo3temp/*.jpg$\r\nAllow: /typo3temp/*.jpeg$\r\nAllow: /typo3temp/*.svg$\r\nAllow: /typo3temp/*.gif$\r\nAllow: /typo3temp/*.png$\r\n\r\nAllow: /fileadmin/*.png\r\nAllow: /fileadmin/*.jpg\r\nAllow: /fileadmin/*.jpeg\r\nAllow: /fileadmin/*.svg\r\nAllow: /fileadmin/*.gif\r\nAllow: /fileadmin/*.js\r\nAllow: /fileadmin/*.css\r\n\r\n# Only allow URLs generated with RealURL\r\nDisallow: /*?id=*\r\nDisallow: /*&id=*\r\nDisallow: /*&cHash=*\r\nDisallow: /*&tx_powermail_pi1*\r\n\r\n# DB\r\n# Disallow: *.sql\r\n\r\n#e-mail Sammler von der Site fernhalten\r\nUser-agent: EmailCollector\r\nDisallow: /\r\n\r\n# Sitemaps\r\nSitemap: https://www.ehrlich-brothers.com/index.php?eID=dd_googlesitemap&L=0\r\nSitemap: https://www.ehrlich-brothers.com/index.php?eID=dd_googlesitemap&L=1\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/typo3temp/*.css",
+        "/typo3temp/*.css.*.gzip$",
+        "/typo3temp/*.js",
+        "/typo3temp/*.js.*.gzip$",
+        "/typo3temp/*.jpg$",
+        "/typo3temp/*.jpeg$",
+        "/typo3temp/*.svg$",
+        "/typo3temp/*.gif$",
+        "/typo3temp/*.png$",
+        "/fileadmin/*.png",
+        "/fileadmin/*.jpg",
+        "/fileadmin/*.jpeg",
+        "/fileadmin/*.svg",
+        "/fileadmin/*.gif",
+        "/fileadmin/*.js",
+        "/fileadmin/*.css"
+      ],
+      "disallowed": [
+        "/fileadmin/",
+        "/typo3conf/",
+        "/typo3temp/",
+        "/_BAK/",
+        "/uploads/",
+        "/DB_SICHERUNGEN/",
+        "/*?id=*",
+        "/*&id=*",
+        "/*&cHash=*",
+        "/*&tx_powermail_pi1*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "EmailCollector",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -10,5 +61,37 @@
       "name": "EmailCollector",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/typo3temp/*.css",
+      "/typo3temp/*.css.*.gzip$",
+      "/typo3temp/*.js",
+      "/typo3temp/*.js.*.gzip$",
+      "/typo3temp/*.jpg$",
+      "/typo3temp/*.jpeg$",
+      "/typo3temp/*.svg$",
+      "/typo3temp/*.gif$",
+      "/typo3temp/*.png$",
+      "/fileadmin/*.png",
+      "/fileadmin/*.jpg",
+      "/fileadmin/*.jpeg",
+      "/fileadmin/*.svg",
+      "/fileadmin/*.gif",
+      "/fileadmin/*.js",
+      "/fileadmin/*.css"
+    ],
+    "disallowed": [
+      "/fileadmin/",
+      "/typo3conf/",
+      "/typo3temp/",
+      "/_BAK/",
+      "/uploads/",
+      "/DB_SICHERUNGEN/",
+      "/*?id=*",
+      "/*&id=*",
+      "/*&cHash=*",
+      "/*&tx_powermail_pi1*"
+    ]
+  }
 }

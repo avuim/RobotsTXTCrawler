@@ -1,10 +1,32 @@
 {
   "domain": "www.radsport-news.com",
   "normalizedDomain": "www.radsport-news.com",
+  "robotsTxt": "User-agent: *\nDisallow: /revive\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/revive"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/revive"
+    ]
+  }
 }

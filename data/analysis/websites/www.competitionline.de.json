@@ -1,14 +1,63 @@
 {
   "domain": "www.competitionline.de",
   "normalizedDomain": "www.competitionline.de",
+  "robotsTxt": "User-agent: *\nDisallow: /de/news/mitglied-werden/erfolgreich\nDisallow: /de/mitglied-werden/\nDisallow: /de/kontakt\nDisallow: /de/content-login\nDisallow: /de/ergebnisse/\nDisallow: /de/personenprofile\nDisallow: /de/personen/suche/erweitert/\nDisallow: /de/ergebnisse/anzeigen/suche\nDisallow: /api/modgnikehtotsyek\nDisallow: /index.php\n\nUser-agent: PetalBot\nDisallow: /\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/de/news/mitglied-werden/erfolgreich",
+        "/de/mitglied-werden/",
+        "/de/kontakt",
+        "/de/content-login",
+        "/de/ergebnisse/",
+        "/de/personenprofile",
+        "/de/personen/suche/erweitert/",
+        "/de/ergebnisse/anzeigen/suche",
+        "/api/modgnikehtotsyek",
+        "/index.php"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "PetalBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/de/news/mitglied-werden/erfolgreich",
+      "/de/mitglied-werden/",
+      "/de/kontakt",
+      "/de/content-login",
+      "/de/ergebnisse/",
+      "/de/personenprofile",
+      "/de/personen/suche/erweitert/",
+      "/de/ergebnisse/anzeigen/suche",
+      "/api/modgnikehtotsyek",
+      "/index.php"
+    ]
+  }
 }

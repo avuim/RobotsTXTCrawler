@@ -1,7 +1,106 @@
 {
   "domain": "www.volkswagen.de",
   "normalizedDomain": "www.volkswagen.de",
+  "robotsTxt": "### whitelist user agents / pages to visit for app-paths\r\n\r\nUser-agent: Googlebot\r\nAllow: /app/\r\nDisallow: /app/tbo/* \r\nDisallow: /*.integrator-includes.txt\nDisallow: /*.integrator-includes.json\n\r\nUser-agent: Slurp\r\nAllow: /app/\r\nDisallow: /*.integrator-includes.txt\nDisallow: /*.integrator-includes.json\n\r\nUser-Agent: Bingbot\r\nAllow: /app/\r\nDisallow: /*.integrator-includes.txt\nDisallow: /*.integrator-includes.json\n\r\nUser-Agent: msnbot\r\nAllow: /app/\r\nDisallow: /*.integrator-includes.txt\nDisallow: /*.integrator-includes.json\r\n\r\nUser-agent: gsa-crawler\r\nAllow:  /app/\r\n\r\nUser-agent: gsa-crawler\r\nAllow: /elektromobilitaet/ \r\n\r\n### default block\r\nUser-agent: *\r\nAllow: /app/\r\nDisallow: /*notification\r\nDisallow: /*.integrator-includes.txt\nDisallow: /*.integrator-includes.json\r\nDisallow: /de/modelle/verfuegbare-fahrzeuge-suche.html/__app/search/car/*\r\n\r\n### sitemap\r\nSitemap: https://www.volkswagen.de/de.sitemap.xml ",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/app/"
+      ],
+      "disallowed": [
+        "/*notification",
+        "/*.integrator-includes.txt",
+        "/*.integrator-includes.json",
+        "/de/modelle/verfuegbare-fahrzeuge-suche.html/__app/search/car/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/app/"
+        ],
+        "disallowed": [
+          "/app/tbo/*",
+          "/*.integrator-includes.txt",
+          "/*.integrator-includes.json"
+        ]
+      }
+    },
+    {
+      "name": "Slurp",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/app/"
+        ],
+        "disallowed": [
+          "/*.integrator-includes.txt",
+          "/*.integrator-includes.json"
+        ]
+      }
+    },
+    {
+      "name": "Bingbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/app/"
+        ],
+        "disallowed": [
+          "/*.integrator-includes.txt",
+          "/*.integrator-includes.json"
+        ]
+      }
+    },
+    {
+      "name": "msnbot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/app/"
+        ],
+        "disallowed": [
+          "/*.integrator-includes.txt",
+          "/*.integrator-includes.json"
+        ]
+      }
+    },
+    {
+      "name": "gsa-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/app/"
+        ],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gsa-crawler",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/elektromobilitaet/"
+        ],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 6,
+    "allowedBots": 6,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "Googlebot",
       "allowed": true
@@ -23,8 +122,19 @@
       "allowed": true
     },
     {
-      "name": "*",
+      "name": "gsa-crawler",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/app/"
+    ],
+    "disallowed": [
+      "/*notification",
+      "/*.integrator-includes.txt",
+      "/*.integrator-includes.json",
+      "/de/modelle/verfuegbare-fahrzeuge-suche.html/__app/search/car/*"
+    ]
+  }
 }

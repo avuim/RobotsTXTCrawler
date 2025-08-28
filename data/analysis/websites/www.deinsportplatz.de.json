@@ -1,10 +1,36 @@
 {
   "domain": "www.deinsportplatz.de",
   "normalizedDomain": "www.deinsportplatz.de",
+  "robotsTxt": "User-Agent: *\nCrawl-Delay: 10\nDisallow: /demo-paper/*\nDisallow: /blocks/image.block*\nDisallow: /spiel/zuschauerfotos/hochladen.page*\n\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/demo-paper/*",
+        "/blocks/image.block*",
+        "/spiel/zuschauerfotos/hochladen.page*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/demo-paper/*",
+      "/blocks/image.block*",
+      "/spiel/zuschauerfotos/hochladen.page*"
+    ]
+  }
 }

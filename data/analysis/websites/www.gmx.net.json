@@ -1,10 +1,83 @@
 {
   "domain": "www.gmx.net",
   "normalizedDomain": "www.gmx.net",
+  "robotsTxt": "User-agent: *\nDisallow: /test/\nUser-agent: Applebot\nDisallow: /magazine/\nAllow: /magazine/in-eigener-sache/\nAllow: /magazine/unicef/\nAllow: /magazine/so-arbeitet-die-redaktion/\nUser-agent: ChatGPT-User\nDisallow: /magazine/\nAllow: /magazine/in-eigener-sache/\nAllow: /magazine/unicef/\nAllow: /magazine/so-arbeitet-die-redaktion/\nUser-agent: GPTBot\nDisallow: /magazine/\nAllow: /magazine/in-eigener-sache/\nAllow: /magazine/unicef/\nAllow: /magazine/so-arbeitet-die-redaktion/\nUser-agent: Google-Extended\nDisallow: /magazine/\nAllow: /magazine/in-eigener-sache/\nAllow: /magazine/unicef/\nAllow: /magazine/so-arbeitet-die-redaktion/\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/test/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Applebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/magazine/in-eigener-sache/",
+          "/magazine/unicef/",
+          "/magazine/so-arbeitet-die-redaktion/"
+        ],
+        "disallowed": [
+          "/magazine/"
+        ]
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/magazine/in-eigener-sache/",
+          "/magazine/unicef/",
+          "/magazine/so-arbeitet-die-redaktion/"
+        ],
+        "disallowed": [
+          "/magazine/"
+        ]
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/magazine/in-eigener-sache/",
+          "/magazine/unicef/",
+          "/magazine/so-arbeitet-die-redaktion/"
+        ],
+        "disallowed": [
+          "/magazine/"
+        ]
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/magazine/in-eigener-sache/",
+          "/magazine/unicef/",
+          "/magazine/so-arbeitet-die-redaktion/"
+        ],
+        "disallowed": [
+          "/magazine/"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 4,
+    "allowedBots": 4,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Applebot",
@@ -22,5 +95,11 @@
       "name": "Google-Extended",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/test/"
+    ]
+  }
 }

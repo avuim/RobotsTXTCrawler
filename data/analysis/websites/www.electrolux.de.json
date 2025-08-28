@@ -1,14 +1,47 @@
 {
   "domain": "www.electrolux.de",
   "normalizedDomain": "www.electrolux.de",
+  "robotsTxt": "User-Agent: gsa-crawler\r\nDisallow:\r\nUser-Agent: *\r\nDisallow: /oidc-login-page/*\r\nDisallow:  */mypages/*\r\n\r\nSitemap: https://www.electrolux.de/globalassets/sitemaps/www.electrolux.de/sitemapindex.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/oidc-login-page/*",
+        "*/mypages/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "gsa-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "gsa-crawler",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/oidc-login-page/*",
+      "*/mypages/*"
+    ]
+  }
 }

@@ -1,10 +1,32 @@
 {
   "domain": "www.regionalheute.de",
   "normalizedDomain": "www.regionalheute.de",
+  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /suche/\nSitemap: https://regionalheute.de/sitemap/sitemap-index.xml\nSitemap: https://regionalheute.de/sitemap/themen-index.xml\nSitemap: https://regionalheute.de/news.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/suche/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/suche/"
+    ]
+  }
 }

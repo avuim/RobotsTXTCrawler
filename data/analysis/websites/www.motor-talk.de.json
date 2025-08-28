@@ -1,10 +1,124 @@
 {
   "domain": "www.motor-talk.de",
   "normalizedDomain": "www.motor-talk.de",
+  "robotsTxt": "User-agent: *\nDisallow: /out\nDisallow: /forum/erfahrungen-mit-www-reifenonlineversand-de-oder-www-stahlkomplettrad-de-t1263122.html\nDisallow: /forum/markenautoteile-de-da-bestelle-ich-nichts-mehr-t1048828.html\nDisallow: /forum/security-test-track-b157.html\nDisallow: /forum/fahrzeuge-b769.html\nDisallow: /2521ef5d58fc027d3121662b7d8f9ac2/images.html\nDisallow: /suche.html\nDisallow: /blogs/rogertennis2*\nDisallow: /blogs/technik-und-ot-blog*\nDisallow: /blogs/blogs/berlin-paul*\n\nUser-agent: 008\nDisallow: /\n\nUser-agent: sogou\nDisallow: /\n\nUser-agent: proximic\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-Agent: yacybot\nDisallow: /\n\nUser-agent: Mail.Ru\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: CrazyWebCrawler-Spider\nDisallow: /\n\nUser-agent: CrystalSemanticsBot\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/out",
+        "/forum/erfahrungen-mit-www-reifenonlineversand-de-oder-www-stahlkomplettrad-de-t1263122.html",
+        "/forum/markenautoteile-de-da-bestelle-ich-nichts-mehr-t1048828.html",
+        "/forum/security-test-track-b157.html",
+        "/forum/fahrzeuge-b769.html",
+        "/2521ef5d58fc027d3121662b7d8f9ac2/images.html",
+        "/suche.html",
+        "/blogs/rogertennis2*",
+        "/blogs/technik-und-ot-blog*",
+        "/blogs/blogs/berlin-paul*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "008",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sogou",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "proximic",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "yacybot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Mail.Ru",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "magpie-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CrazyWebCrawler-Spider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CrystalSemanticsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 11,
+    "allowedBots": 0,
+    "disallowedBots": 11,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "008",
@@ -50,5 +164,20 @@
       "name": "ChatGPT-User",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/out",
+      "/forum/erfahrungen-mit-www-reifenonlineversand-de-oder-www-stahlkomplettrad-de-t1263122.html",
+      "/forum/markenautoteile-de-da-bestelle-ich-nichts-mehr-t1048828.html",
+      "/forum/security-test-track-b157.html",
+      "/forum/fahrzeuge-b769.html",
+      "/2521ef5d58fc027d3121662b7d8f9ac2/images.html",
+      "/suche.html",
+      "/blogs/rogertennis2*",
+      "/blogs/technik-und-ot-blog*",
+      "/blogs/blogs/berlin-paul*"
+    ]
+  }
 }

@@ -1,10 +1,44 @@
 {
   "domain": "www.traceparts.com",
   "normalizedDomain": "www.traceparts.com",
+  "robotsTxt": "User-agent: *\r\nDisallow: /*/api/\r\nDisallow: /*/api/*\r\nDisallow: /zh/\r\nDisallow: /els/glenair/*\r\nDisallow: /*/sign-in\r\nDisallow: /*/sign-up\r\nDisallow: /*/goto\r\nSitemap: https://www.traceparts.com/sitemap_index.xml\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*/api/",
+        "/*/api/*",
+        "/zh/",
+        "/els/glenair/*",
+        "/*/sign-in",
+        "/*/sign-up",
+        "/*/goto"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*/api/",
+      "/*/api/*",
+      "/zh/",
+      "/els/glenair/*",
+      "/*/sign-in",
+      "/*/sign-up",
+      "/*/goto"
+    ]
+  }
 }

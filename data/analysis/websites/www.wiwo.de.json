@@ -1,7 +1,89 @@
 {
   "domain": "www.wiwo.de",
   "normalizedDomain": "www.wiwo.de",
+  "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: *\nDisallow: /*v_detail_tab_print*.html$\nDisallow: /ajaxentry/\nDisallow: /*imagelightbox?elementId*\nDisallow: /user-registrierung/\nDisallow: /*;jsessionid=*\nDisallow: /*jsessionid=*\nDisallow: /*action=activate*\nDisallow: /lesezeichen/\nDisallow: /registrierung/\nDisallow: /*?ajaxelementid=*\nDisallow: /*ajaxelementid=*\nDisallow: /*?view=print*\nDisallow: /*view=print*\nDisallow: /*?view=lightbox\nDisallow: /*view=lightbox*\nDisallow: /channelizer/*\nDisallow: /cdn-cgi/rum*\nDisallow: /ext/stepstone/*\nDisallow: /preparesite/empty.js*\nDisallow: /cdn-cgi/beacon/*\nDisallow: /amp-analytics-infonline.html*\nDisallow: /js/29202932*\n\nSitemap: https://www.wiwo.de/sitemapExternal/sitemaps_index.xml\nSitemap: https://www.wiwo.de/sitemapExternal/news.xml\nSitemap: https://www.wiwo.de/sitemapExternal/premium-news.xml\nSitemap: https://www.wiwo.de/sitemapExternal/agentur-news.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/*v_detail_tab_print*.html$",
+        "/ajaxentry/",
+        "/*imagelightbox?elementId*",
+        "/user-registrierung/",
+        "/*;jsessionid=*",
+        "/*jsessionid=*",
+        "/*action=activate*",
+        "/lesezeichen/",
+        "/registrierung/",
+        "/*?ajaxelementid=*",
+        "/*ajaxelementid=*",
+        "/*?view=print*",
+        "/*view=print*",
+        "/*?view=lightbox",
+        "/*view=lightbox*",
+        "/channelizer/*",
+        "/cdn-cgi/rum*",
+        "/ext/stepstone/*",
+        "/preparesite/empty.js*",
+        "/cdn-cgi/beacon/*",
+        "/amp-analytics-infonline.html*",
+        "/js/29202932*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 5,
+    "allowedBots": 0,
+    "disallowedBots": 5,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "GPTBot",
       "allowed": false
@@ -21,10 +103,33 @@
     {
       "name": "Applebot-Extended",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/*v_detail_tab_print*.html$",
+      "/ajaxentry/",
+      "/*imagelightbox?elementId*",
+      "/user-registrierung/",
+      "/*;jsessionid=*",
+      "/*jsessionid=*",
+      "/*action=activate*",
+      "/lesezeichen/",
+      "/registrierung/",
+      "/*?ajaxelementid=*",
+      "/*ajaxelementid=*",
+      "/*?view=print*",
+      "/*view=print*",
+      "/*?view=lightbox",
+      "/*view=lightbox*",
+      "/channelizer/*",
+      "/cdn-cgi/rum*",
+      "/ext/stepstone/*",
+      "/preparesite/empty.js*",
+      "/cdn-cgi/beacon/*",
+      "/amp-analytics-infonline.html*",
+      "/js/29202932*"
+    ]
+  }
 }
