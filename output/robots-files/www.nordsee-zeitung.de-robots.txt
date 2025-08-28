@@ -1,0 +1,97 @@
+# Robots.txt for crawler
+
+User-agent: *
+
+# Disallow Crawler
+Disallow: /User
+Disallow: /Dateien
+Disallow: /Nachrichten/Suche
+Disallow: /*?bPrint=true*
+Disallow: /Nachrichten/Archiv-Liste_*.html
+Disallow: /*/Zusammengefasst-*.html
+Disallow: /Zusammengefasst-*.html
+# Crawler often creates invalid script/webresource resource request
+Disallow: /ScriptResource
+Disallow: /WebResource
+
+User-agent: backlink-check.de
+Disallow: /
+
+User-agent: BacklinkCrawler
+Disallow: /
+
+User-agent: ExtractorPro
+Disallow: /
+
+User-agent: Fasterfox
+Disallow: /
+
+User-agent: LinkextractorPro
+Disallow: /
+
+User-agent: LinkWalker
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Openbot
+Disallow: /
+
+User-agent: rogerbot 
+Disallow: /
+
+User-agent: searchpreview
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SEODAT
+Disallow: /
+
+User-agent: SEOENGBot
+Disallow: /
+
+User-agent: SEOkicks-Robot
+Disallow: /
+
+User-agent: True_Robot
+Disallow: /
+
+User-agent: URL Control
+Disallow: /
+
+User-agent: URL_Spider_Pro
+Disallow: /
+
+User-agent: xovi
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+# Uber Metrics
+User-agent: um-IC
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+# Max crawler Time per page in sec
+Crawl-Delay: 2
+
+#Sitemap
+Sitemap: https://www.nordsee-zeitung.de/Sitemap_Index.xml.gz
+
+# Legal notice: nordsee-zeitung.de expressly reserves the right to use its content for commercial text and data mining (� 44 b UrhG).
+# The use of robots or other automated means to access nordsee-zeitung.de or collect or mine data without
+# the express permission of nordsee-zeitung.de is strictly prohibited.
+# nordsee-zeitung.de may, in its discretion, permit certain automated access to certain nordsee-zeitung.de pages,
+# If you would like to apply for permission to crawl nordsee-zeitung.de, collect or use data, please email syndication@nordmediagruppe.de

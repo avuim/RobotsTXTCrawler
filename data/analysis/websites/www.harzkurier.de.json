@@ -1,0 +1,26 @@
+{
+  "domain": "www.harzkurier.de",
+  "normalizedDomain": "www.harzkurier.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Yandex",
+      "allowed": false
+    },
+    {
+      "name": "SiteAuditBot",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "Yeti",
+      "allowed": false
+    }
+  ]
+}

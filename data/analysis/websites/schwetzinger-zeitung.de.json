@@ -1,0 +1,26 @@
+{
+  "domain": "schwetzinger-zeitung.de",
+  "normalizedDomain": "schwetzinger-zeitung.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    }
+  ]
+}

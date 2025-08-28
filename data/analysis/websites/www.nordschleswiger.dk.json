@@ -1,0 +1,154 @@
+{
+  "domain": "www.nordschleswiger.dk",
+  "normalizedDomain": "www.nordschleswiger.dk",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "Ai2Bot-Dolma",
+      "allowed": false
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Applebot",
+      "allowed": false
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "FriendlyCrawler",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "GoogleOther",
+      "allowed": false
+    },
+    {
+      "name": "GoogleOther-Image",
+      "allowed": false
+    },
+    {
+      "name": "GoogleOther-Video",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "iaskspider/2.0",
+      "allowed": false
+    },
+    {
+      "name": "ICC-Crawler",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "img2dataset",
+      "allowed": false
+    },
+    {
+      "name": "ISSCyberRiskCrawler",
+      "allowed": false
+    },
+    {
+      "name": "Kangaroo Bot",
+      "allowed": false
+    },
+    {
+      "name": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false
+    },
+    {
+      "name": "Sidetrade indexer bot",
+      "allowed": false
+    },
+    {
+      "name": "Timpibot",
+      "allowed": false
+    },
+    {
+      "name": "VelenPublicWebCrawler",
+      "allowed": false
+    },
+    {
+      "name": "Webzio-Extended",
+      "allowed": false
+    },
+    {
+      "name": "YouBot",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /search?q=*&p=*
+Disallow: /p/*/app 
+Disallow: /radio-stations/*/*
+Disallow: /s/*/stations
+Disallow: /amp/*
+Disallow: ?q=*
+
+Sitemap: https://www.radio.de/sitemap_index_de-DE.xml

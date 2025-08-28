@@ -1,0 +1,8 @@
+# START nuxt-robots (indexable)
+User-agent: *
+Disallow: /suche*
+Disallow: /*?*
+Disallow: /__proxy_content_api/
+Disallow: /__content-api/
+
+# END nuxt-robots

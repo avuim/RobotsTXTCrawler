@@ -1,153 +1,153 @@
 {
-  "lastUpdated": "2025-08-28T15:16:35.639Z",
-  "totalBots": 1322,
-  "totalWebsites": 1224,
+  "lastUpdated": "2025-08-28T06:31:46.262Z",
+  "totalBots": 1326,
+  "totalWebsites": 1358,
   "botCategories": {
-    "searchEngine": 71,
+    "searchEngine": 74,
     "seo": 52,
     "aiScraper": 34,
-    "other": 1165
+    "other": 1166
   },
   "topBots": [
     {
       "name": "*",
       "category": "other",
-      "totalWebsites": 1940,
-      "allowedWebsites": 1257,
-      "disallowedWebsites": 683
+      "totalWebsites": 2530,
+      "allowedWebsites": 807,
+      "disallowedWebsites": 1723
     },
     {
       "name": "GPTBot",
       "category": "aiScraper",
-      "totalWebsites": 511,
-      "allowedWebsites": 48,
-      "disallowedWebsites": 463
+      "totalWebsites": 658,
+      "allowedWebsites": 94,
+      "disallowedWebsites": 564
     },
     {
       "name": "CCBot",
       "category": "aiScraper",
-      "totalWebsites": 424,
-      "allowedWebsites": 37,
-      "disallowedWebsites": 387
+      "totalWebsites": 560,
+      "allowedWebsites": 85,
+      "disallowedWebsites": 475
     },
     {
       "name": "ChatGPT-User",
       "category": "aiScraper",
-      "totalWebsites": 305,
-      "allowedWebsites": 23,
-      "disallowedWebsites": 282
+      "totalWebsites": 383,
+      "allowedWebsites": 25,
+      "disallowedWebsites": 358
     },
     {
       "name": "Google-Extended",
       "category": "aiScraper",
-      "totalWebsites": 278,
-      "allowedWebsites": 21,
-      "disallowedWebsites": 257
+      "totalWebsites": 335,
+      "allowedWebsites": 23,
+      "disallowedWebsites": 312
     },
     {
       "name": "ClaudeBot",
       "category": "aiScraper",
-      "totalWebsites": 258,
-      "allowedWebsites": 6,
-      "disallowedWebsites": 252
-    },
-    {
-      "name": "anthropic-ai",
-      "category": "aiScraper",
-      "totalWebsites": 213,
-      "allowedWebsites": 10,
-      "disallowedWebsites": 203
+      "totalWebsites": 308,
+      "allowedWebsites": 8,
+      "disallowedWebsites": 300
     },
     {
       "name": "Bytespider",
       "category": "aiScraper",
-      "totalWebsites": 207,
-      "allowedWebsites": 4,
-      "disallowedWebsites": 203
+      "totalWebsites": 249,
+      "allowedWebsites": 7,
+      "disallowedWebsites": 242
+    },
+    {
+      "name": "anthropic-ai",
+      "category": "aiScraper",
+      "totalWebsites": 240,
+      "allowedWebsites": 14,
+      "disallowedWebsites": 226
     },
     {
       "name": "PerplexityBot",
       "category": "aiScraper",
-      "totalWebsites": 194,
-      "allowedWebsites": 16,
-      "disallowedWebsites": 178
+      "totalWebsites": 238,
+      "allowedWebsites": 19,
+      "disallowedWebsites": 219
     },
     {
       "name": "cohere-ai",
       "category": "aiScraper",
-      "totalWebsites": 161,
+      "totalWebsites": 184,
       "allowedWebsites": 0,
-      "disallowedWebsites": 161
+      "disallowedWebsites": 184
     },
     {
       "name": "Claude-Web",
       "category": "aiScraper",
-      "totalWebsites": 161,
-      "allowedWebsites": 4,
-      "disallowedWebsites": 157
+      "totalWebsites": 178,
+      "allowedWebsites": 8,
+      "disallowedWebsites": 170
     },
     {
       "name": "Applebot-Extended",
       "category": "other",
-      "totalWebsites": 143,
-      "allowedWebsites": 3,
-      "disallowedWebsites": 140
+      "totalWebsites": 165,
+      "allowedWebsites": 7,
+      "disallowedWebsites": 158
     },
     {
       "name": "MJ12bot",
       "category": "seo",
-      "totalWebsites": 136,
-      "allowedWebsites": 4,
-      "disallowedWebsites": 132
-    },
-    {
-      "name": "AhrefsBot",
-      "category": "seo",
-      "totalWebsites": 130,
-      "allowedWebsites": 11,
-      "disallowedWebsites": 119
+      "totalWebsites": 147,
+      "allowedWebsites": 2,
+      "disallowedWebsites": 145
     },
     {
       "name": "YouBot",
       "category": "searchEngine",
-      "totalWebsites": 125,
+      "totalWebsites": 147,
       "allowedWebsites": 0,
-      "disallowedWebsites": 125
+      "disallowedWebsites": 147
     },
     {
-      "name": "FacebookBot",
-      "category": "aiScraper",
-      "totalWebsites": 103,
-      "allowedWebsites": 1,
-      "disallowedWebsites": 102
-    },
-    {
-      "name": "Amazonbot",
-      "category": "other",
-      "totalWebsites": 102,
-      "allowedWebsites": 13,
-      "disallowedWebsites": 89
+      "name": "AhrefsBot",
+      "category": "seo",
+      "totalWebsites": 136,
+      "allowedWebsites": 2,
+      "disallowedWebsites": 134
     },
     {
       "name": "ImagesiftBot",
       "category": "other",
-      "totalWebsites": 101,
+      "totalWebsites": 131,
+      "allowedWebsites": 0,
+      "disallowedWebsites": 131
+    },
+    {
+      "name": "FacebookBot",
+      "category": "aiScraper",
+      "totalWebsites": 126,
       "allowedWebsites": 1,
-      "disallowedWebsites": 100
+      "disallowedWebsites": 125
     },
     {
       "name": "Diffbot",
       "category": "other",
-      "totalWebsites": 101,
+      "totalWebsites": 119,
       "allowedWebsites": 0,
-      "disallowedWebsites": 101
+      "disallowedWebsites": 119
     },
     {
-      "name": "OAI-SearchBot",
-      "category": "aiScraper",
-      "totalWebsites": 96,
-      "allowedWebsites": 31,
-      "disallowedWebsites": 65
+      "name": "xovi",
+      "category": "seo",
+      "totalWebsites": 118,
+      "allowedWebsites": 0,
+      "disallowedWebsites": 118
+    },
+    {
+      "name": "Amazonbot",
+      "category": "other",
+      "totalWebsites": 117,
+      "allowedWebsites": 12,
+      "disallowedWebsites": 105
     }
   ]
 }

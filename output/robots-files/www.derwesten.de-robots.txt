@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-include/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-content/plugins/fd-newspack-extension/public/assets/fonts
+Sitemap: https://www.derwesten.de/news-sitemap.xml
+Sitemap: https://www.derwesten.de/sitemap_index.xml
+# ai tools
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: Claude-Web
+User-agent: magpie-crawler
+User-agent: ia_archiver
+User-agent: Bytespider
+User-agent: Baiduspider
+Disallow: /

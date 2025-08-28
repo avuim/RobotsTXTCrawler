@@ -1,0 +1,20 @@
+# Legal notice: om-online.de expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).
+# The use of robots or other automated means to access om-online.de or collect or mine data without the express permission of om-online.de is strictly prohibited.
+# If you would like to apply for permission to crawl om-online.de, collect or use data, please contact redaktion@om-medien.de
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.om-online.de/sitemap.xml

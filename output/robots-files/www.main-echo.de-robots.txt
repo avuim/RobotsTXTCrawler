@@ -1,0 +1,121 @@
+# ID: 1
+User-agent: OGDWCtxCrawler
+Allow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: magpie-crawler
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+User-Agent: omgili
+Disallow: /
+
+User-Agent: omgilibot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: Yeti
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: sentibot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: SirdataBot
+Disallow: /
+
+User-agent: LCC
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-Agent: ImagesiftBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: *
+Disallow: /unternehmen/nativendo/
+Disallow: /technical-support/
+Disallow: /storage/epa/
+Disallow: /mntest/
+Disallow: /import/
+Disallow: /alter-content/
+Disallow: /demo/
+Disallow: /mobil/
+Disallow: /pressespiegel/
+Disallow: /admin/
+Disallow: /_/admin/
+Disallow: /_fWS/json/epaper/
+
+## Speziell weitere Ressorts fuer den Google-news Bot...
+User-agent: Googlebot-News
+Disallow: /mediathek/
+Disallow: /anzeigen/
+Disallow: /abo-service/
+Disallow: /e-paper/
+Disallow: /verlag/
+Disallow: /unternehmen/
+Disallow: /objects/
+Disallow: /_/
+
+# Legal notice: www.main-echo.de expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).
+
+# The use of robots or other automated means to access www.main-echo.de or collect or mine data without the express permission of www.main-echo.de is strictly prohibited.
+
+# If you would like to apply for permission to crawl www.main-echo.de, collect or use data, please contact admin@main-echo.de

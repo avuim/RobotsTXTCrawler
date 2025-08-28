@@ -1,0 +1,14 @@
+{
+  "domain": "www.azubi.ms",
+  "normalizedDomain": "www.azubi.ms",
+  "bots": [
+    {
+      "name": "Twitterbot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

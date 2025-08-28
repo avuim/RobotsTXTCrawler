@@ -1,0 +1,14 @@
+{
+  "domain": "www.thueringen24.de",
+  "normalizedDomain": "www.thueringen24.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    }
+  ]
+}

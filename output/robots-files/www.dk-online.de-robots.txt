@@ -1,0 +1,49 @@
+User-Agent: Mediapartners-Google
+Disallow:
+
+User-Agent: *
+Disallow: /pagebuilding/
+Disallow: /new-articles/
+Disallow: /suche
+Disallow: /*?q=*
+Disallow: /files/
+Disallow: /cre-1.0/tracking/
+
+Sitemap: https://www.dk-online.de/sitemap.xml
+Sitemap: https://www.dk-online.de/sitemap/googleNewsList.xml
+Sitemap: https://www.dk-online.de/sitemap/artikel/sitemap-current.xml
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+
+# Legal notice: dk-online.de expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).
+# The use of robots or other automated means to access dk-online.de or collect or mine data without the express permission of dk-online.de  is strictly prohibited.
+# If you would like to apply for permission to crawl dk-online.de, collect or use data, please contact info+nutzungsrecht@noz-digital.de

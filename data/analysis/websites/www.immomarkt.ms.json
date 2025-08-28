@@ -1,0 +1,14 @@
+{
+  "domain": "www.immomarkt.ms",
+  "normalizedDomain": "www.immomarkt.ms",
+  "bots": [
+    {
+      "name": "Twitterbot",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "www.derwesten.de",
+  "normalizedDomain": "www.derwesten.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "Baiduspider",
+      "allowed": false
+    }
+  ]
+}

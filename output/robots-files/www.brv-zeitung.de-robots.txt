@@ -1,0 +1,36 @@
+# Robots.txt for crawler
+
+User-agent: *
+
+# Disallow Crawler
+Disallow: /Sso
+Disallow: /Benutzer
+Disallow: /User
+Disallow: /Anzeigen
+Disallow: /Dateien
+Disallow: /Nachrichten/Suche
+
+# possibly do not allow motif pictures to prevent file generation in advance
+#Disallow: /Motif/*.jpg
+
+# disallow some KI bots
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: GPTBot
+Disallow: /
+User-agent: CCBot
+Disallow: /
+
+# Crawler often creates invalid script/webresource resource request
+Disallow: /ScriptResource
+Disallow: /WebResource
+
+# Max crawler time per page in sec
+Crawl-Delay: 2
+
+#Sitemap
+#Sitemap: https://www.nordsee-zeitung.de/Sitemap_Index.xml.gz
+
+# Legal notice: mittelbadische-online.de expressly reserves the right to use its content for commercial text and data mining (� 44b UrhG). 
+# The use of robots or other automated means to access mittelbadische-online.de or collect or mine data without the express permission of mittelbadische-online.de is strictly prohibited. 
+# If you would like to apply for permission to crawl mittelbadische-online.de, collect or use data, please contact syndication@mittelbadische-online.de

@@ -1,0 +1,27 @@
+
+Sitemap: https://www.wb-immo.de/sitemap.xml
+
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: zoomRank/2.0
+Disallow: /
+User-agent: zoomRank
+Disallow: /
+
+User-agent: sistrix
+Disallow: /
+
+User-agent: *
+Disallow: */2823228/
+Disallow: /drucken/*
+Disallow: /_widget/*
+Disallow: /search-widget/*
+Allow: /*sitemap*?*
+Allow: /css/*
+Allow: /js/*
+Allow: /images/*
+Allow: /bundles/*
+Allow: /fonts/*
+Allow: /vendor/*
+Allow: /immobilien/*

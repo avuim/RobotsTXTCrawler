@@ -1,0 +1,62 @@
+{
+  "domain": "www.wb-jobs.de",
+  "normalizedDomain": "www.wb-jobs.de",
+  "bots": [
+    {
+      "name": "Googlebot",
+      "allowed": true
+    },
+    {
+      "name": "googlebot-image",
+      "allowed": true
+    },
+    {
+      "name": "googlebot-mobile",
+      "allowed": true
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true
+    },
+    {
+      "name": "Adsbot-Google",
+      "allowed": true
+    },
+    {
+      "name": "MSNBot",
+      "allowed": true
+    },
+    {
+      "name": "Slurp",
+      "allowed": true
+    },
+    {
+      "name": "Teoma",
+      "allowed": true
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": true
+    },
+    {
+      "name": "yahoo-mmcrawler",
+      "allowed": true
+    },
+    {
+      "name": "psbot",
+      "allowed": true
+    },
+    {
+      "name": "Lycos_Spider_(T-Rex)",
+      "allowed": true
+    },
+    {
+      "name": "facebookexternalhit",
+      "allowed": true
+    },
+    {
+      "name": "*",
+      "allowed": false
+    }
+  ]
+}

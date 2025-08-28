@@ -1,0 +1,22 @@
+{
+  "domain": "www.mopo.de",
+  "normalizedDomain": "www.mopo.de",
+  "bots": [
+    {
+      "name": "Yandex",
+      "allowed": false
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false
+    },
+    {
+      "name": "OGDWCtxCrawler",
+      "allowed": false
+    },
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ]
+}

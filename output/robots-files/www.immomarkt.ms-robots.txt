@@ -1,0 +1,11 @@
+User-agent: Twitterbot
+Disallow:
+
+User-Agent: *
+Allow: /
+Disallow: /_em_oas_api
+
+Sitemap: https://immomarkt.ms/sitemap.xml
+Sitemap: https://immomarkt.ms/_em_oas/_em_daten/wnaoas/wnaimmo/_search/_sitemaps/sitemap_details_410.xml
+Sitemap: https://immomarkt.ms/_em_oas/_em_daten/wnaoas/wnaimmo/_search/_sitemaps/sitemap.xml
+Sitemap: https://immomarkt.ms/_em_oas/_em_daten/wnaoas/wnaimmo/_search/_sitemaps/sitemap_companyindex.xml

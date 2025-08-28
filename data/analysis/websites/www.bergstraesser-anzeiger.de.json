@@ -1,0 +1,26 @@
+{
+  "domain": "www.bergstraesser-anzeiger.de",
+  "normalizedDomain": "www.bergstraesser-anzeiger.de",
+  "bots": [
+    {
+      "name": "*",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    }
+  ]
+}

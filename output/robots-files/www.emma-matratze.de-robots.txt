@@ -1,0 +1,17 @@
+# START nuxt-robots (indexable)
+User-agent: *
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: Googlebot
+Disallow: /*?utm_source
+Disallow: /*?source
+
+User-agent: Googlebot-Image
+Disallow: /*?utm_source
+Disallow: /*?source
+
+Sitemap: https://www.emma-matratze.de/sitemap.xml
+# END nuxt-robots
