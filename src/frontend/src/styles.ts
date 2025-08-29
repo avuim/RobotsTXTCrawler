@@ -17,6 +17,11 @@ export const theme = {
     searchEngine: '#3498db',
     seo: '#2ecc71',
     aiScraper: '#e74c3c',
+    aiSearchCrawler: '#9b59b6',
+    aiAssistant: '#1abc9c',
+    aiAgent: '#e67e22',
+    archiver: '#34495e',
+    socialMedia: '#e91e63',
     other: '#f39c12'
   },
   fonts: {

@@ -50,6 +50,11 @@ const CategoryIcon = styled.div<{ category: string }>`
       case 'searchEngine': return theme.colors.searchEngine;
       case 'seo': return theme.colors.seo;
       case 'aiScraper': return theme.colors.aiScraper;
+      case 'aiSearchCrawler': return theme.colors.aiSearchCrawler;
+      case 'aiAssistant': return theme.colors.aiAssistant;
+      case 'aiAgent': return theme.colors.aiAgent;
+      case 'archiver': return theme.colors.archiver;
+      case 'socialMedia': return theme.colors.socialMedia;
       case 'other': return theme.colors.other;
       default: return theme.colors.lightText;
     }
@@ -72,6 +77,11 @@ interface BotCategoriesProps {
     searchEngine: number;
     seo: number;
     aiScraper: number;
+    aiSearchCrawler: number;
+    aiAssistant: number;
+    aiAgent: number;
+    archiver: number;
+    socialMedia: number;
     other: number;
   };
 }
@@ -81,6 +91,11 @@ const BotCategories: React.FC<BotCategoriesProps> = ({ categories }) => {
     searchEngine: 'Suchmaschinen',
     seo: 'SEO-Tools',
     aiScraper: 'KI/LLM-Scraper',
+    aiSearchCrawler: 'KI-Suchmaschinen',
+    aiAssistant: 'KI-Assistenten',
+    aiAgent: 'KI-Agenten',
+    archiver: 'Archivierungsdienste',
+    socialMedia: 'Social Media',
     other: 'Andere',
   };
 

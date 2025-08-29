@@ -460,7 +460,12 @@ export class BotAnalyzer {
     switch (categoryName) {
       case 'searchEngine': return 'Suchmaschinen';
       case 'seo': return 'SEO-Tools';
-      case 'aiScraper': return 'KI/LLM-Scraper';
+      case 'aiScraper': return 'KI-Scraper';
+      case 'aiSearchCrawler': return 'KI-Suchmaschinen';
+      case 'aiAssistant': return 'KI-Assistenten';
+      case 'aiAgent': return 'KI-Agenten';
+      case 'archiver': return 'Archivierungsdienste';
+      case 'socialMedia': return 'Social Media';
       case 'other': return 'Andere';
       default: return categoryName;
     }

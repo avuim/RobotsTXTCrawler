@@ -17,6 +17,11 @@ declare module 'styled-components' {
       searchEngine: string;
       seo: string;
       aiScraper: string;
+      aiSearchCrawler: string;
+      aiAssistant: string;
+      aiAgent: string;
+      archiver: string;
+      socialMedia: string;
       other: string;
     };
     fonts: {

@@ -17,6 +17,11 @@ export interface Summary {
     searchEngine: number;
     seo: number;
     aiScraper: number;
+    aiSearchCrawler: number;
+    aiAssistant: number;
+    aiAgent: number;
+    archiver: number;
+    socialMedia: number;
     other: number;
   };
 }
