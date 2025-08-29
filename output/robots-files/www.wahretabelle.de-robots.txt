@@ -71,7 +71,7 @@ window._sp_ = {
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" sizes="16x16" href="/favicon-16x16.png">
     <link rel="shortcut icon" sizes="192x192" href="/android-chrome-192x192.png">
-    <meta name="viewport" content="width=1206" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=no" />
 <meta name="description" content="WahreTabelle ist die zentrale Anlaufstelle für alle relevanten Themen und Abstimmungen rund um Schiedsrichter-Entscheidungen und Fehlentscheidungen sowie Schiedsrichter-Statistiken." />
 <meta property="og:type" content="article" />
 <meta property="og:image" content="https://tmssl.akamaized.net/images/tm_logo.png" />
@@ -160,7 +160,7 @@ window._sp_ = {
 <script type="text/javascript" src="https://tmssl.akamaized.net/assets/b7c5571cf8957553f95f6d9069eaed67/jquery.yii.js?lm=1756361931"></script>
 <script type="text/javascript" src="https://tmssl.akamaized.net/js/swiper.min.3.4.1.js?lm=1756361931"></script>
 <script type="text/javascript" src="https://tmssl.akamaized.net/js/startseite.js?lm=1756361931"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net/ads/tisoomi.de.min.js?lm=1756449902"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/ads/tisoomi.de.min.js?lm=1756451102"></script>
 <script type="text/javascript" src="https://tmssl.akamaized.net/js/tm-tabs.js?lm=1756361931"></script>
 <script type="text/javascript" src="https://tmssl.akamaized.net/js/main.js?lm=1756361931"></script>
 <script type="text/javascript" src="https://tmssl.akamaized.net/js/chosen.ajaxaddition.jquery.js?lm=1756361931"></script>
@@ -268,6 +268,12 @@ window.SDG.cmd.push(() => {
       centerAds: true,
     })
     .load();
+  SDG.Publisher.registerSlot("sky", "skyscraper")
+    .configure({
+      showAdvertLabel: false,
+      centerAds: true,
+    })
+    .load();
   SDG.Publisher.registerSlot("pubperform", "fullsize_contentad")
     .configure({
       reserveSpace: true,
@@ -330,7 +336,7 @@ console.info("%c [TM-ADs] Skipped external script https://imagesrv.adition.com/j
             isHomepage: 'false',
             name: 'Transfermarkt - Wahretabelle | Transfermarkt',
             URL: window.location.href,
-            server: 'prod-tm-web-server-1150'
+            server: 'prod-tm-web-server-12112'
     },
     };
 
@@ -631,14 +637,14 @@ function tmTiming(value, name, event_category, event_label) {
                             width="54"
                             height="36"
                         ></a></li><li><a
-                        href="/dfb-pokal/startseite/wettbewerb/DFB"
-                        title="DFB-Pokal"
+                        href="/premier-league/startseite/wettbewerb/GB1"
+                        title="Premier League"
                         target=""
                         class="tm-button-list__list-item tm-button-list__list-item--big "
-                        onclick="tmEvent('recommendations_recommendation', '/dfb-pokal/startseite/wettbewerb/DFB' , '1_4', 'buttonList');"
+                        onclick="tmEvent('recommendations_recommendation', '/premier-league/startseite/wettbewerb/GB1' , '1_4', 'buttonList');"
                     ><img
-                            src="https://tmssl.akamaized.net//images/logo/homepageWappen150x150/dfb.png?lm=1520938419"
-                            alt="DFB-Pokal"
+                            src="https://tmssl.akamaized.net//images/logo/homepageWappen150x150/gb1.png?lm=1521104656"
+                            alt="Premier League"
                             class="tm-button-list__image tm-button-list__image--big 1"
                             width="54"
                             height="36"
@@ -655,14 +661,14 @@ function tmTiming(value, name, event_category, event_label) {
                             width="54"
                             height="36"
                         ></a></li><li><a
-                        href="/premier-league/startseite/wettbewerb/GB1"
-                        title="Premier League"
+                        href="/dfb-pokal/startseite/wettbewerb/DFB"
+                        title="DFB-Pokal"
                         target=""
                         class="tm-button-list__list-item tm-button-list__list-item--big "
-                        onclick="tmEvent('recommendations_recommendation', '/premier-league/startseite/wettbewerb/GB1' , '1_6', 'buttonList');"
+                        onclick="tmEvent('recommendations_recommendation', '/dfb-pokal/startseite/wettbewerb/DFB' , '1_6', 'buttonList');"
                     ><img
-                            src="https://tmssl.akamaized.net//images/logo/homepageWappen150x150/gb1.png?lm=1521104656"
-                            alt="Premier League"
+                            src="https://tmssl.akamaized.net//images/logo/homepageWappen150x150/dfb.png?lm=1520938419"
+                            alt="DFB-Pokal"
                             class="tm-button-list__image tm-button-list__image--big 1"
                             width="54"
                             height="36"
@@ -1671,58 +1677,36 @@ function tmTiming(value, name, event_category, event_label) {
 </div>
 <div class="swiper-container" id="swiper-lesenswert-desktop">
     <div class="swiper-wrapper">
-                    <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/213077/thread/14619/board/895/tracking/_contentPos0">
+                    <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/202772/thread/4885/board/895/tracking/_contentPos0">
                 <div class="lesenswert-thread">
-                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/4-1-hatte-zahlen-mussen/thread/forum/895/thread_id/14619" onclick="tmEvent('wahretabelle', '/4-1-hatte-zahlen-mussen/thread/forum/895/thread_id/14619', 'lesenswertes')" name="_contentPos0" title="4-1-hatte-zahlen-mussen">4:1 hätte zählen müssen</a>
+                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/2-3-dortmund/thread/forum/895/thread_id/4885" onclick="tmEvent('wahretabelle', '/2-3-dortmund/thread/forum/895/thread_id/4885', 'lesenswertes')" name="_contentPos0" title="2-3-dortmund">2:3 Dortmund</a>
                 </div>
                 <div class="lesenswert">
                     <p class="lesenswert-user">
-                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos0" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/toni21/index/profil/487152">Toni21</a>                        &nbsp;
+                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos0" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/anfieldroad/index/profil/87628">AnfieldRoad</a>                        &nbsp;
                         schreibt:
                     </p>
                     <div class="lesenswert-text">
                         <blockquote>
-                            Also für mein Verständnis ist die Überprüfung Regelkonform. Die Spielfortsetzung war die erste Ballberührung. Die darf nicht überprüft werden. Die war aber auch nicht zu beanstanden. Danach ist der Ball im Spiel. Erst dann fand der Regelverstoß statt. Und da hat der Var die Angriffssequenz zu überprüfen. Und die fängt mit der erfolgten Spielfortsetzung an. <br />
-Bei Strafstößen hat der VAR ja schon mehrfach wegen Doppelberührung eingegriffen. [...]                            <div class="overlay"></div>
+                            Dieser Argumentation kann ich mich anschließen und es passt zu meiner Einschätzung: <br />
+Für mich bleibt folgendes festzuhalten: <br />
+1. Baumann geht zum Ball und trifft ihn auch. Kein Foul und damit natürlich auch kein Strafstroß. <br />
+2. Chukwuemeka geht im Lauf und Zweikampf zum Ball. Ein gestrecktes Bein in den Torwart ist nicht vorhanden. Ob er den Ball trifft, ist nicht abschließend und eindeutig zu klären. Eventuell ja, eventuell auch nicht. Und eben ob dieser Unklarheit (und nicht eindeutig falschen Wahrnehmung des Schiris) ist das ganze kein Fall für den VAR und die Entscheidung des Schiris, dass kein Foul vorliegt, bleibt bestehen. <br />
+3. Chukwuemeka trifft Baumann am Ende der Situation unglücklich mit dem Knie am Kopf. Dies ist eindeutig kein Foul, sondern vielmehr Marke "unglücklicher Zusammenpra [...]                            <div class="overlay"></div>
                             <div class="weiterlesen">
-                                                                                                        <a href="/4-1-hatte-zahlen-mussen/thread/forum/895/thread_id/14619/post_id/213077" onclick="tmEvent('wahretabelle', '/4-1-hatte-zahlen-mussen/thread/forum/895/thread_id/14619/post_id/213077', 'lesenswertes')" name="_contentPos0" title="4:1 hätte zählen müssen" class="news-weiterlesen">... weiterlesen</a>
+                                                                                                        <a href="/2-3-dortmund/thread/forum/895/thread_id/4885/post_id/202772" onclick="tmEvent('wahretabelle', '/2-3-dortmund/thread/forum/895/thread_id/4885/post_id/202772', 'lesenswertes')" name="_contentPos0" title="2:3 Dortmund" class="news-weiterlesen">... weiterlesen</a>
                                                             </div>
                         </blockquote>
                     </div>
                 </div>
             </div>
-                        <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/203124/thread/4911/board/895/tracking/_contentPos1">
+                        <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/200147/thread/4531/board/895/tracking/_contentPos1">
                 <div class="lesenswert-thread">
-                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/gelb-rot-vasilj/thread/forum/895/thread_id/4911" onclick="tmEvent('wahretabelle', '/gelb-rot-vasilj/thread/forum/895/thread_id/4911', 'lesenswertes')" name="_contentPos1" title="gelb-rot-vasilj">Gelb/Rot Vasilj</a>
+                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/halten-von-guirassy/thread/forum/895/thread_id/4531" onclick="tmEvent('wahretabelle', '/halten-von-guirassy/thread/forum/895/thread_id/4531', 'lesenswertes')" name="_contentPos1" title="halten-von-guirassy">Halten von guirassy</a>
                 </div>
                 <div class="lesenswert">
                     <p class="lesenswert-user">
-                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos1" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/bruddaal/index/profil/1606613">bruddaal</a>                        &nbsp;
-                        schreibt:
-                    </p>
-                    <div class="lesenswert-text">
-                        <blockquote>
-                            Ich habe mir gerade nochmal die Zusammenfassung in der Sportschau angeschaut, hier sieht man die gesamte Entstehung der gelb-roten Karte, und wie sich Vasilj chronologisch verhalten hat: <br />
-1. Wenige Sekunden (bzw. im Prinzip direkt) nachdem der Ball über die Grundlinie ins Aus zur Ecke gegangen ist, gestikuliert er wild in Richtung Schiedsrichter und tippt auf Handgelenk/Uhr um auf (vermeintliches) Zeitspiel vom VfB hinzuweisen <br />
-2. Er bringt den Ball zur Eckfahne <br />
-3. Auf dem Rückweg zum Tor redet er aufgebracht auf den zuerst noch von ihm weggedrehten Schiedsrichter ein und zeigt erneut auf Handgelenk/Uhr <br />
-4. Im Tor angekommen Wutausbruch mit wildem Gestikulieren und Schlägen in die Luft in Richtung Schiedsrichter <br />
-5. Applaudieren in Richtung Schiedsrichter <br />
-6. Daumen hoch in Richtung Schiedsrich [...]                            <div class="overlay"></div>
-                            <div class="weiterlesen">
-                                                                                                        <a href="/gelb-rot-vasilj/thread/forum/895/thread_id/4911/post_id/203124" onclick="tmEvent('wahretabelle', '/gelb-rot-vasilj/thread/forum/895/thread_id/4911/post_id/203124', 'lesenswertes')" name="_contentPos1" title="Gelb/Rot Vasilj" class="news-weiterlesen">... weiterlesen</a>
-                                                            </div>
-                        </blockquote>
-                    </div>
-                </div>
-            </div>
-                        <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/200147/thread/4531/board/895/tracking/_contentPos2">
-                <div class="lesenswert-thread">
-                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/halten-von-guirassy/thread/forum/895/thread_id/4531" onclick="tmEvent('wahretabelle', '/halten-von-guirassy/thread/forum/895/thread_id/4531', 'lesenswertes')" name="_contentPos2" title="halten-von-guirassy">Halten von guirassy</a>
-                </div>
-                <div class="lesenswert">
-                    <p class="lesenswert-user">
-                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos2" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/friedenreicha/index/profil/1590757">FriedenreichA</a>                        &nbsp;
+                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos1" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/friedenreicha/index/profil/1590757">FriedenreichA</a>                        &nbsp;
                         schreibt:
                     </p>
                     <div class="lesenswert-text">
@@ -1730,60 +1714,19 @@ Bei Strafstößen hat der VAR ja schon mehrfach wegen Doppelberührung eingegrif
                             Das war ja mehr ein Streicheln als ein Halten. 3% Halten, 97% Ichwilleinenelferundzwarjetzt! <br />
 An Schauspielerei nur noch übertroffen von dem Moment, wo er mit dem eigenen Spieler zusammenstößt und die Welt nicht mehr versteht, dass er dafür keinen Elfer kriegt. (Wobei das wahrscheinlich eher ein „Foul“ war 😀). [...]                            <div class="overlay"></div>
                             <div class="weiterlesen">
-                                                                                                        <a href="/halten-von-guirassy/thread/forum/895/thread_id/4531/post_id/200147" onclick="tmEvent('wahretabelle', '/halten-von-guirassy/thread/forum/895/thread_id/4531/post_id/200147', 'lesenswertes')" name="_contentPos2" title="Halten von guirassy" class="news-weiterlesen">... weiterlesen</a>
+                                                                                                        <a href="/halten-von-guirassy/thread/forum/895/thread_id/4531/post_id/200147" onclick="tmEvent('wahretabelle', '/halten-von-guirassy/thread/forum/895/thread_id/4531/post_id/200147', 'lesenswertes')" name="_contentPos1" title="Halten von guirassy" class="news-weiterlesen">... weiterlesen</a>
                                                             </div>
                         </blockquote>
                     </div>
                 </div>
             </div>
-                        <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/200150/thread/4531/board/895/tracking/_contentPos3">
+                        <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/199013/thread/4399/board/895/tracking/_contentPos2">
                 <div class="lesenswert-thread">
-                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/halten-von-guirassy/thread/forum/895/thread_id/4531" onclick="tmEvent('wahretabelle', '/halten-von-guirassy/thread/forum/895/thread_id/4531', 'lesenswertes')" name="_contentPos3" title="halten-von-guirassy">Halten von guirassy</a>
+                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/abeits-korrekt-/thread/forum/895/thread_id/4399" onclick="tmEvent('wahretabelle', '/abeits-korrekt-/thread/forum/895/thread_id/4399', 'lesenswertes')" name="_contentPos2" title="abeits-korrekt-">Abeits korrekt?</a>
                 </div>
                 <div class="lesenswert">
                     <p class="lesenswert-user">
-                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos3" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/betiha/index/profil/535455">BeTiHa</a>                        &nbsp;
-                        schreibt:
-                    </p>
-                    <div class="lesenswert-text">
-                        <blockquote>
-                            Klar, es gab einen Griff an den Arm/Schulter von Theate aber die Wirkung war nicht groß und vor allem überhaupt nicht ursächlich für den Fall. <br />
-Guirassy kann froh sein, dass er für sein Beifall klatschen nicht mit gelb-rot vom Platz geflogen ist. Da hat Schlager besonnen reagiert und damit eine Eskalation verhindern. Eigentlich wäre die gelbe Karte aber hier zwingend. [...]                            <div class="overlay"></div>
-                            <div class="weiterlesen">
-                                                                                                        <a href="/halten-von-guirassy/thread/forum/895/thread_id/4531/post_id/200150" onclick="tmEvent('wahretabelle', '/halten-von-guirassy/thread/forum/895/thread_id/4531/post_id/200150', 'lesenswertes')" name="_contentPos3" title="Halten von guirassy" class="news-weiterlesen">... weiterlesen</a>
-                                                            </div>
-                        </blockquote>
-                    </div>
-                </div>
-            </div>
-                        <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/199200/thread/4417/board/895/tracking/_contentPos4">
-                <div class="lesenswert-thread">
-                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/osmers/thread/forum/895/thread_id/4417" onclick="tmEvent('wahretabelle', '/osmers/thread/forum/895/thread_id/4417', 'lesenswertes')" name="_contentPos4" title="osmers">Osmers </a>
-                </div>
-                <div class="lesenswert">
-                    <p class="lesenswert-user">
-                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos4" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/maddias/index/profil/1636068">Maddias</a>                        &nbsp;
-                        schreibt:
-                    </p>
-                    <div class="lesenswert-text">
-                        <blockquote>
-                            Die rote Karte gegen Neuer geht 100% in Ordnung, wenngleich ich sie eher für das Foul an sich gegeben hätte, statt einer Notbremse. <br />
-Tapsoba muss in der 13. Minute mit gelb-rot runter (erstes Gelb für das Foul mit anschliessendem Ellenbogen, zweites Gelb für die Rudelbildung mit Upamecano). Dann später in der 1. HZ nochmal mit 1-2 Fouls, die hart an einer Gelben dran waren. <br />
-Was mich aber viel mehr genervt hat, waren die unglaublich vielen kleinen Fouls, taktische Fouls etc von Leverkusen, die nur darauf aus waren, den Spielfluss zu unterbinden. Das hat Osmers über das komplette Spiel entweder ganz durchgehen lassen oder eben nicht verwarnt, daher haben es die Spieler munter weiter betrieben. Sehr frustrierend, wenn man es mit den Bayern hält, als Leverkusener würde ich es allerdings auch ve [...]                            <div class="overlay"></div>
-                            <div class="weiterlesen">
-                                                                                                        <a href="/osmers/thread/forum/895/thread_id/4417/post_id/199200" onclick="tmEvent('wahretabelle', '/osmers/thread/forum/895/thread_id/4417/post_id/199200', 'lesenswertes')" name="_contentPos4" title="Osmers " class="news-weiterlesen">... weiterlesen</a>
-                                                            </div>
-                        </blockquote>
-                    </div>
-                </div>
-            </div>
-                        <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/199013/thread/4399/board/895/tracking/_contentPos5">
-                <div class="lesenswert-thread">
-                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/abeits-korrekt-/thread/forum/895/thread_id/4399" onclick="tmEvent('wahretabelle', '/abeits-korrekt-/thread/forum/895/thread_id/4399', 'lesenswertes')" name="_contentPos5" title="abeits-korrekt-">Abeits korrekt?</a>
-                </div>
-                <div class="lesenswert">
-                    <p class="lesenswert-user">
-                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos5" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/mcsquarepants/index/profil/469414">McSquarepants</a>                        &nbsp;
+                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos2" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/mcsquarepants/index/profil/469414">McSquarepants</a>                        &nbsp;
                         schreibt:
                     </p>
                     <div class="lesenswert-text">
@@ -1803,7 +1746,71 @@ Handspielen) liegt vor, wenn ein Spieler den Ball unter Kontrolle bringen <br />
 könnte und die Möglichkeit hat: <br />
 • den Ball  [...]                            <div class="overlay"></div>
                             <div class="weiterlesen">
-                                                                                                        <a href="/abeits-korrekt-/thread/forum/895/thread_id/4399/post_id/199013" onclick="tmEvent('wahretabelle', '/abeits-korrekt-/thread/forum/895/thread_id/4399/post_id/199013', 'lesenswertes')" name="_contentPos5" title="Abeits korrekt?" class="news-weiterlesen">... weiterlesen</a>
+                                                                                                        <a href="/abeits-korrekt-/thread/forum/895/thread_id/4399/post_id/199013" onclick="tmEvent('wahretabelle', '/abeits-korrekt-/thread/forum/895/thread_id/4399/post_id/199013', 'lesenswertes')" name="_contentPos2" title="Abeits korrekt?" class="news-weiterlesen">... weiterlesen</a>
+                                                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+                        <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/198476/thread/4305/board/895/tracking/_contentPos3">
+                <div class="lesenswert-thread">
+                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/hand-strafstoss-fur-sv-98/thread/forum/895/thread_id/4305" onclick="tmEvent('wahretabelle', '/hand-strafstoss-fur-sv-98/thread/forum/895/thread_id/4305', 'lesenswertes')" name="_contentPos3" title="hand-strafstoss-fur-sv-98">Hand-Strafstoß für SV 98</a>
+                </div>
+                <div class="lesenswert">
+                    <p class="lesenswert-user">
+                        <span class="mantelicon icon-mantel_rot" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos3" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/sciller/index/profil/393879">Sciller</a>                        &nbsp;
+                        schreibt:
+                    </p>
+                    <div class="lesenswert-text">
+                        <blockquote>
+                            Vorweg: Als Sympathisant des SSV Ulm bin ich grundsätzlich natürlich froh, dass es kein Elfmeter für Darmstadt gab. Und auch im Sinne des Fußballs finde ich es immer ein bisschen schwierig, wenn man in einer solchen Szene wie dieser auf strafbares Handspiel entscheidet. <br />
+Denn ich denke, wir sind uns alle einig, dass hier kein absichtliches Handspiel vorlag, zumal der Ball kurz vor der Berührung mit der Hand des Ulmers von der Hacke eines Darmstädter Spielers weitergeleitet wurde. <br />
+Und jetzt das große ABER. So wie ich die aktuellen Regeln bezüglich eines strafbaren Handspiels verstanden habe und meines Erachtens sogar schon öfter auch für "kleinere Handspiel-Vergehen" als das hier vorliegende abgepfiffen worden sind, wäre die regeltechnisch korrekte Entscheidung meiner Meinung nach Handelfmet [...]                            <div class="overlay"></div>
+                            <div class="weiterlesen">
+                                                                                                        <a href="/hand-strafstoss-fur-sv-98/thread/forum/895/thread_id/4305/post_id/198476" onclick="tmEvent('wahretabelle', '/hand-strafstoss-fur-sv-98/thread/forum/895/thread_id/4305/post_id/198476', 'lesenswertes')" name="_contentPos3" title="Hand-Strafstoß für SV 98" class="news-weiterlesen">... weiterlesen</a>
+                                                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+                        <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/198175/thread/4275/board/895/tracking/_contentPos4">
+                <div class="lesenswert-thread">
+                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/elfmeter-fur-frankfurt-tah-an-etikite-/thread/forum/895/thread_id/4275" onclick="tmEvent('wahretabelle', '/elfmeter-fur-frankfurt-tah-an-etikite-/thread/forum/895/thread_id/4275', 'lesenswertes')" name="_contentPos4" title="elfmeter-fur-frankfurt-tah-an-etikite-">Elfmeter für Frankfurt Tah an Etikite?</a>
+                </div>
+                <div class="lesenswert">
+                    <p class="lesenswert-user">
+                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos4" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/rollo158/index/profil/1260704">rollo158</a>                        &nbsp;
+                        schreibt:
+                    </p>
+                    <div class="lesenswert-text">
+                        <blockquote>
+                            Naja, hier haben wir ja den größten Einfluss auf das Spielgeschehen, nämlich eine verhindertes Tor. Interessant auch die Unterhaltung nach dem Spiel zwischen Tah und  Ekitike, wo Tah andeutet, er habe mit dem Körper geschoben - tatsächlich war es zunächst ein kräftiges Schieben mit dem linken Arm. <br />
+Tah kommt ja von hinten und schiebt, noch bevor er mit dem Körper abhebt. Das Schieben nach vorne erweckt natürlich den Eindruck des schlechten Timings.  Erst dann geht Tah auch mit dem Körper in den Luftkampf, was Ekitike dann in Rücklage und zu Fall bringt und ihm eine zweite Chance auf den Ball nimmt. <br />
+Es ist ja, wenn man auf die Spielsituation sieht, so, daß nur einer, nämlich Ekitike, die Chance hat, den Ball mit dem Kopf zu erreichen. Von daher ist hier auch ein Schieben/Stoßen sicher nicht  [...]                            <div class="overlay"></div>
+                            <div class="weiterlesen">
+                                                                                                        <a href="/elfmeter-fur-frankfurt-tah-an-etikite-/thread/forum/895/thread_id/4275/post_id/198175" onclick="tmEvent('wahretabelle', '/elfmeter-fur-frankfurt-tah-an-etikite-/thread/forum/895/thread_id/4275/post_id/198175', 'lesenswertes')" name="_contentPos4" title="Elfmeter für Frankfurt Tah an Etikite?" class="news-weiterlesen">... weiterlesen</a>
+                                                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+                        <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/196058/thread/4034/board/895/tracking/_contentPos5">
+                <div class="lesenswert-thread">
+                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/elfmeter-fur-leverkusen-gerechtfertigt-/thread/forum/895/thread_id/4034" onclick="tmEvent('wahretabelle', '/elfmeter-fur-leverkusen-gerechtfertigt-/thread/forum/895/thread_id/4034', 'lesenswertes')" name="_contentPos5" title="elfmeter-fur-leverkusen-gerechtfertigt-">Elfmeter für Leverkusen gerechtfertigt?</a>
+                </div>
+                <div class="lesenswert">
+                    <p class="lesenswert-user">
+                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos5" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/objektivistsub/index/profil/1063161">objektivIstSub</a>                        &nbsp;
+                        schreibt:
+                    </p>
+                    <div class="lesenswert-text">
+                        <blockquote>
+                            Bin mir nicht sicher, ob Itakura am Ball war. <br />
+Wenn er am Ball war, ist die Entscheidung nicht zu rechtfertigen in meinen Augen, wenn man halt sieht, wo man als VAR davor auf der anderen Seite bei möglichen Elfmeterentscheidungen wohl wie Justitia höchstpersönlich eine Augenbinde aufhatte. <br />
+Mit der Aussage, die ich höre, man möchte sich nicht mehr wegen jeder Kleinigkeit einmischen, hat das dann am Ende auch nicht mehr viel zu tun. <br />
+Es wäre schön, wenn Szenen, bei denen es um Torgefahr geht, auch mit Elfmeter bestraft würden, und Szenen, bei denen die Torgefahr nicht ganz so groß war, vielleicht nicht künstlich durch den VAR dramatisiert würden. [...]                            <div class="overlay"></div>
+                            <div class="weiterlesen">
+                                                                                                        <a href="/elfmeter-fur-leverkusen-gerechtfertigt-/thread/forum/895/thread_id/4034/post_id/196058" onclick="tmEvent('wahretabelle', '/elfmeter-fur-leverkusen-gerechtfertigt-/thread/forum/895/thread_id/4034/post_id/196058', 'lesenswertes')" name="_contentPos5" title="Elfmeter für Leverkusen gerechtfertigt?" class="news-weiterlesen">... weiterlesen</a>
                                                             </div>
                         </blockquote>
                     </div>
@@ -3347,12 +3354,12 @@ könnte und die Möglichkeit hat: <br />
                             <p class="fav-voting__question fav-voting__question--text-favorite">
                     Von diesen Schiedsrichtern ist <br />dir sympathischer...                </p>
                             <div class="fav-voting__wrapper">
-                                <a href="/beliebtheit/speichernSchiedsrichter?referee_id_winner=880&referee_id_loser=16018&wettbewerb=L1&referee_id_1=880" onclick="tmEvent('wahretabelle', '/beliebtheit/speichernSchiedsrichter?referee_id_winner=880&referee_id_loser=16018&wettbewerb=L1&referee_id_1=880', 'beliebtheitsspiel')" class="fav-voting__link-player fav-voting__link-player--red">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/880-1544186578.jpg?lm=1" title="Martin Petersen - Quelle: imago images" alt="Martin Petersen" class="lazy" />                    <div class="fav-voting__name">
-                        Martin Petersen                    </div>
+                                <a href="/beliebtheit/speichernSchiedsrichter?referee_id_winner=3564&referee_id_loser=16018&wettbewerb=L1&referee_id_1=3564" onclick="tmEvent('wahretabelle', '/beliebtheit/speichernSchiedsrichter?referee_id_winner=3564&referee_id_loser=16018&wettbewerb=L1&referee_id_1=3564', 'beliebtheitsspiel')" class="fav-voting__link-player fav-voting__link-player--red">
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/3564-1472047223.jpg?lm=1" title="Daniel Schlager - Quelle: imago images" alt="Daniel Schlager" class="lazy" />                    <div class="fav-voting__name">
+                        Daniel Schlager                    </div>
                 </a>
                 <img src="https://tmssl.akamaized.net//images/beliebtheit/versus.png" alt="versus" class="fav-voting__versus-image" width="39" height="35" />
-                                <a href="/beliebtheit/speichernSchiedsrichter?referee_id_winner=16018&referee_id_loser=880&wettbewerb=L1&referee_id_1=880" onclick="tmEvent('wahretabelle', '/beliebtheit/speichernSchiedsrichter?referee_id_winner=880&referee_id_loser=16018&wettbewerb=L1&referee_id_1=880', 'beliebtheitsspiel')" class="fav-voting__link-player fav-voting__link-player--black">
+                                <a href="/beliebtheit/speichernSchiedsrichter?referee_id_winner=16018&referee_id_loser=3564&wettbewerb=L1&referee_id_1=3564" onclick="tmEvent('wahretabelle', '/beliebtheit/speichernSchiedsrichter?referee_id_winner=3564&referee_id_loser=16018&wettbewerb=L1&referee_id_1=3564', 'beliebtheitsspiel')" class="fav-voting__link-player fav-voting__link-player--black">
                     <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/default.jpg?lm=1" title="Timo Gansloweit - Quelle: imago images" alt="Timo Gansloweit" class="lazy" />                    <div class="fav-voting__name">
                         Timo Gansloweit                    </div>
                 </a>
@@ -3859,7 +3866,7 @@ könnte und die Möglichkeit hat: <br />
 	var loginUrl='/profil/login';
 	var onlyDE = '1';
 	var onlyMobile = '';
-	var onlyTablet = '1';
+	var onlyTablet = '';
 	var getUserID = '';
 
 oddsServe("8b7ecddd3b6e5b2a65deb466d60355a7", -1);

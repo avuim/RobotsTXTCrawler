@@ -24,12 +24,12 @@
 <link rel="alternate" type="application/rss+xml" title="RSS Feed 2.0" href="https://www.nw.de/_export/site_rss/nw/index.rss" />
 <link rel="canonical" href="https://www.nw.de" />
 <!-- global/2-->
-<link rel="preload" href="https://www.nw.de/_em_cms/globals/csslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_load_restrict=2&amp;em_view=smartphone&amp;em_cache_css=1756392821" as="style" />
-<link rel="stylesheet" type="text/css" href="https://www.nw.de/_em_cms/globals/csslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_load_restrict=2&amp;em_view=smartphone&amp;em_cache_css=1756392821" />
+<link rel="preload" href="https://www.nw.de/_em_cms/globals/csslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_load_restrict=2&amp;em_view=desktop&amp;em_cache_css=1756392821" as="style" />
+<link rel="stylesheet" type="text/css" href="https://www.nw.de/_em_cms/globals/csslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_load_restrict=2&amp;em_view=desktop&amp;em_cache_css=1756392821" />
 <!-- global/0-->
-<link rel="preload" href="https://www.nw.de/_em_cms/globals/jslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_view=smartphone&amp;em_cache_js=1756392805" as="script" />
+<link rel="preload" href="https://www.nw.de/_em_cms/globals/jslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_view=desktop&amp;em_cache_js=1756392805" as="script" />
 <!-- global/0-->
-<script type="text/javascript" src="https://www.nw.de/_em_cms/globals/jslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_view=smartphone&amp;em_cache_js=1756392805"></script>
+<script type="text/javascript" src="https://www.nw.de/_em_cms/globals/jslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_view=desktop&amp;em_cache_js=1756392805"></script>
 <link href="/_em_daten/nw/_layout/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" /><meta name="apple-itunes-app" content="app-id=1532888930" app-argument="https://nw.de"><script type="text/javascript" src="https://script.ioam.de/iam.js"></script>
 
 <!--Nicht Löschen - AF-->
@@ -367,7 +367,7 @@ var strGlobalsSiteLoc  = "4738";
     <script type="text/javascript">
         var dn = mobileAccess ? 'data-81547504c8.nw.de' : 'data-83380557db.nw.de';
         IOMm('configure', {
-            st: 'mobnwnew',
+            st: 'nwnews',
             dn: dn,
             mh: 5
         }); // Configure IOMm
@@ -414,10 +414,15 @@ var strGlobalsSiteLoc  = "4738";
 <body id="em_body_top" onload="if(typeof init == 'function') init();">
 <!-- em-cms-cut --><!-- em-cms-cut -->
 <div class="nw-bg-gray-0 container site-source-home" data-site-id="4738" data-site-ressort="Startseite"><div id="em_ad_superbanner">
-    
+    <div id="leaderboard-wrapper">
+<div id="nw.de_lb_1" data-roles=""></div></div>
     
     <div id="em_ad_skyscraper" style="position: absolute; right:0px;width: 0px;">
         
+
+<div id="nw.de_sky_1" data-roles=""></div>
+
+
     </div>
 </div>
 
@@ -700,64 +705,64 @@ var strGlobalsSiteLoc  = "4738";
         <div class="embla-newsticker__viewport nw-overflow-hidden nw-w-full nw-rounded-md">
             <div class="embla-newsticker__container nw-flex nw-text-sm">
                                         <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/lokal/kreis_herford/herford/24164152_Nahe-des-Herforder-Bahnhofs-Exhibitionist-fasst-sich-vor-Radfahrerin-an.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 1', 'Startseite']);">
-                                    Nahe des Herforder Bahnhofs: Exhibitionist fasst sich vor Radfahrerin an
+                            <a href="https://www.nw.de/lokal/kreis_herford/loehne/24163917_Luebbecker-Strasse-in-Loehne-wegen-Nahwaerme-Baustelle-gesperrt.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 1', 'Startseite']);">
+                                    Lübbecker Straße in Löhne wegen Nahwärme-Baustelle gesperrt
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;4&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/lokal/bielefeld/mitte/24163900_Neue-Lidl-Filiale-in-Bielefeld-und-ein-Promi-uebt-sich-als-Kassierer.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 2', 'Startseite']);">
+                                    Neue Lidl-Filiale in Bielefeld – und ein Promi übt sich als Kassierer
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;4&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/lokal/kreis_minden_luebbecke/bad_oeynhausen/24163870_Ein-galaktisches-Erlebnis-Auftakt-der-Poetischen-Quellen-in-Bad-Oeynhausen-mit-Raoul-Schrott.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 3', 'Startseite']);">
+                                    Ein galaktisches Erlebnis: Auftakt der Poetischen Quellen in Bad Oeynhausen mit Raoul Schrott
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;4&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/lokal/kreis_paderborn/bad_lippspringe/24163865_Bad-Lippspringe-bekommt-einen-Memoriam-Garten-auf-dem-Waldfriedhof.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 4', 'Startseite']);">
+                                    Bad Lippspringe bekommt einen Memoriam-Garten auf dem Waldfriedhof
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;4&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/lokal/kreis_hoexter/beverungen/24163841_Beverunger-Geschaeftswelt-Umzuege-Renovierungen-Neueroeffnungen.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 5', 'Startseite']);">
+                                    Beverunger Geschäftswelt: Umzüge, Renovierungen, Neueröffnungen
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;4&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/lokal/kreis_herford/buende/24163839_Groesster-Irrsinn-ueberhaupt-Buender-kritisiert-Zeitplan-rund-um-Neubau-der-Skateanlage.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 6', 'Startseite']);">
+                                    „Größter Irrsinn überhaupt“: Bünder kritisiert Zeitplan rund um Neubau der Skateanlage
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;4&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/lokal/kreis_paderborn/altenbeken/24163654_In-Altenbeken-ab-sofort-moeglich-Heiraten-und-Bier-brauen-an-einem-Ort.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 7', 'Startseite']);">
+                                    In Altenbeken ab sofort möglich: Heiraten und Bier brauen an einem Ort
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;4&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/lokal/kreis_paderborn/paderborn/24163650_Mehr-Radwege-Mehr-Parkplaetze-Was-die-Paderborner-Buergermeister-Kandidaten-zum-Thema-Verkehr-sagen.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 8', 'Startseite']);">
+                                    Mehr Radwege? Mehr Parkplätze? Was die Paderborner Bürgermeister-Kandidaten zum Thema Verkehr sagen
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;4&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/sport/sport_nachrichten/24164169_Titel-Duell-Ferrari-Frust-Das-ist-in-der-Formel-1-wichtig.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 9', 'Startseite']);">
+                                    Titel-Duell, Ferrari-Frust: Das ist in der Formel 1 wichtig
                             </a>
                             <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;12&nbsp;Min.</span>
                         </div>
                                         <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/lokal/bielefeld/mitte/23511913_Veranstaltungstipps-fuer-Bielefeld-Weinfest-drei-Konzerte-im-Ravensberger-Park-und-mehr-ET.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 2', 'Startseite']);">
-                                    Veranstaltungstipps für Bielefeld: Weinfest, drei Konzerte im Ravensberger Park und mehr
+                            <a href="https://www.nw.de/sport/sport_nachrichten/24164165_Volleyballerinnen-gegen-Superteam-Ohne-Angst-und-Zweifel.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 10', 'Startseite']);">
+                                    Volleyballerinnen gegen Superteam: «Ohne Angst und Zweifel»
                             </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;12&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/lokal/kreis_paderborn/borchen/24163257_Das-sind-die-Bewerber-um-das-Buergermeisteramt-in-Borchen.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 3', 'Startseite']);">
-                                    Das sind die Bewerber um das Bürgermeisteramt in Borchen
-                            </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;14&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/nachrichten/panorama/24164153_Nach-Merkel-Selfie-Ein-Fluechtling-und-sein-neues-Leben.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 4', 'Startseite']);">
-                                    Nach Merkel-Selfie: Ein Flüchtling und sein neues Leben
-                            </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;18&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/sport/sc_paderborn_07/24045816_Live-im-TV-und-Stream-Hier-sehen-Sie-den-SC-Paderborn-07-gegen-den-1.-FC-Nuernberg.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 5', 'Startseite']);">
-                                    Live im TV und Stream: Hier sehen Sie den SC Paderborn 07 gegen den 1. FC Nürnberg
-                            </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;18&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/lokal/bielefeld/mitte/24161883_Bielefelds-OB-Bewerber-15-Dinge-die-Sie-ueber-Ingo-Nuernberger-wissen-sollten.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 6', 'Startseite']);">
-                                    Bielefelds OB-Bewerber: 15 Dinge, die Sie über Ingo Nürnberger wissen sollten
-                            </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;24&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/sport/sport_nachrichten/24164146_Havertz-am-Knie-operiert-Club-hofft-auf-schnelle-Rueckkehr.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 7', 'Startseite']);">
-                                    Havertz am Knie operiert - Club hofft auf schnelle Rückkehr
-                            </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;35&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/nachrichten/kultur/kultur/24164140_Bolschoi-Theater-Russischer-Komponist-Schtschedrin-ist-tot.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 8', 'Startseite']);">
-                                    Bolschoi Theater: Russischer Komponist Schtschedrin ist tot
-                            </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;45&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/lokal/kreis_herford/herford/23656765_Letzte-Party-in-Disco-und-Volksfeste-Wochenendtipps-fuer-Herford-und-Minden-Luebbecke.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 9', 'Startseite']);">
-                                    Letzte Party in Disco und Volksfeste: Wochenendtipps für Herford und Minden-Lübbecke
-                            </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;47&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/gesundheit/24164137_3-30-300-Drei-Zahlen-fuer-mehr-Wohlbefinden.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 10', 'Startseite']);">
-                                    3-30-300: Drei Zahlen für mehr Wohlbefinden
-                            </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;49&nbsp;Min.</span>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;13&nbsp;Min.</span>
                         </div>
                                 <div class="
                 embla-newsticker__slide
@@ -776,52 +781,52 @@ var strGlobalsSiteLoc  = "4738";
                 {
                 "@type":"ListItem",
                 "position":"1",
-                "url":"https://www.nw.de/lokal/kreis_herford/herford/24164152_Nahe-des-Herforder-Bahnhofs-Exhibitionist-fasst-sich-vor-Radfahrerin-an.html"
+                "url":"https://www.nw.de/lokal/kreis_herford/loehne/24163917_Luebbecker-Strasse-in-Loehne-wegen-Nahwaerme-Baustelle-gesperrt.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"2",
-                "url":"https://www.nw.de/lokal/bielefeld/mitte/23511913_Veranstaltungstipps-fuer-Bielefeld-Weinfest-drei-Konzerte-im-Ravensberger-Park-und-mehr-ET.html"
+                "url":"https://www.nw.de/lokal/bielefeld/mitte/24163900_Neue-Lidl-Filiale-in-Bielefeld-und-ein-Promi-uebt-sich-als-Kassierer.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"3",
-                "url":"https://www.nw.de/lokal/kreis_paderborn/borchen/24163257_Das-sind-die-Bewerber-um-das-Buergermeisteramt-in-Borchen.html"
+                "url":"https://www.nw.de/lokal/kreis_minden_luebbecke/bad_oeynhausen/24163870_Ein-galaktisches-Erlebnis-Auftakt-der-Poetischen-Quellen-in-Bad-Oeynhausen-mit-Raoul-Schrott.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"4",
-                "url":"https://www.nw.de/nachrichten/panorama/24164153_Nach-Merkel-Selfie-Ein-Fluechtling-und-sein-neues-Leben.html"
+                "url":"https://www.nw.de/lokal/kreis_paderborn/bad_lippspringe/24163865_Bad-Lippspringe-bekommt-einen-Memoriam-Garten-auf-dem-Waldfriedhof.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"5",
-                "url":"https://www.nw.de/sport/sc_paderborn_07/24045816_Live-im-TV-und-Stream-Hier-sehen-Sie-den-SC-Paderborn-07-gegen-den-1.-FC-Nuernberg.html"
+                "url":"https://www.nw.de/lokal/kreis_hoexter/beverungen/24163841_Beverunger-Geschaeftswelt-Umzuege-Renovierungen-Neueroeffnungen.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"6",
-                "url":"https://www.nw.de/lokal/bielefeld/mitte/24161883_Bielefelds-OB-Bewerber-15-Dinge-die-Sie-ueber-Ingo-Nuernberger-wissen-sollten.html"
+                "url":"https://www.nw.de/lokal/kreis_herford/buende/24163839_Groesster-Irrsinn-ueberhaupt-Buender-kritisiert-Zeitplan-rund-um-Neubau-der-Skateanlage.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"7",
-                "url":"https://www.nw.de/sport/sport_nachrichten/24164146_Havertz-am-Knie-operiert-Club-hofft-auf-schnelle-Rueckkehr.html"
+                "url":"https://www.nw.de/lokal/kreis_paderborn/altenbeken/24163654_In-Altenbeken-ab-sofort-moeglich-Heiraten-und-Bier-brauen-an-einem-Ort.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"8",
-                "url":"https://www.nw.de/nachrichten/kultur/kultur/24164140_Bolschoi-Theater-Russischer-Komponist-Schtschedrin-ist-tot.html"
+                "url":"https://www.nw.de/lokal/kreis_paderborn/paderborn/24163650_Mehr-Radwege-Mehr-Parkplaetze-Was-die-Paderborner-Buergermeister-Kandidaten-zum-Thema-Verkehr-sagen.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"9",
-                "url":"https://www.nw.de/lokal/kreis_herford/herford/23656765_Letzte-Party-in-Disco-und-Volksfeste-Wochenendtipps-fuer-Herford-und-Minden-Luebbecke.html"
+                "url":"https://www.nw.de/sport/sport_nachrichten/24164169_Titel-Duell-Ferrari-Frust-Das-ist-in-der-Formel-1-wichtig.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"10",
-                "url":"https://www.nw.de/gesundheit/24164137_3-30-300-Drei-Zahlen-fuer-mehr-Wohlbefinden.html"
+                "url":"https://www.nw.de/sport/sport_nachrichten/24164165_Volleyballerinnen-gegen-Superteam-Ohne-Angst-und-Zweifel.html"
             }
         ]
 }
@@ -2325,11 +2330,6 @@ var strGlobalsSiteLoc  = "4738";
     <div class="nw-pt-6 nw-mb-6 nw-rounded-b-md nw-container">
 
     
-<div class="box-ad-middle ads-box-content" style="min-height:80px">
-
-<div id="nw.de_lb_1" data-roles=""></div>
-</div>
-
 
 
 <style>
@@ -2450,7 +2450,17 @@ class="media-object img-responsive" />
 </div>
 </div>
 </a>
-</article><div class="row">
+</article>
+<div class="box-ad-middle nw-mb-4" style="
+display: flex;
+justify-content: center;
+min-height:310px;
+">
+<div class="em_ads_box_dynamic_remove">
+
+<div id="nw.de_bb_1" data-roles=""></div>
+</div>
+</div><div class="row">
 <div class="col-md-8 hcel">
 <div class="row">
 <div class="col-12">  
@@ -2582,9 +2592,9 @@ class="media-object img-responsive" />
 <div class="img-wrap">
 
 <img width="320" height="194" loading="lazy" 
-src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010dFNPaExDckgyNGN4alBFUFZRbDFOSmgyQ3dMc0NURnY3LzdlbE5yWHYxbnFoeTVsTmFEOWY1alVEUmRmblBFSEE9PQ/250828-1813-646050510.jpg" 
-srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005V0EyaUd5VnR2WkNRc0tKM3lZSEJ4Snl1QzhYb2dZL3FYeFdocWVjM1FSVmRQK0VrbmtXaUtuZWVFZ3hLYlF5Q2c9PQ/250828-1813-646050510.jpg 1440w"  
-alt="Kinder sollten zun&auml;chst den Umgang mit Bargeld lernen, bevor sie mit der Girokarte zahlen. Eine Expertin erkl&auml;rt, welches das richtige Alter ist. - picture alliance/dpa/dpa-tmn" 
+src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010bDNma2hzQnRJS1ErYkVkQ2kzdEZaeGxhY3lxZTF6WmpncTZrckVUa3l6Ylhzc3YzTEE2enR5L01tKzhJR2dkdDJPc1Q0MUJ3a1V4dXVWUENTMEZ2RG89/250828-1813-646050510.jpg" 
+srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005VnJWZHM3Qk80RnMrSkltcVFzVWZUNHhCM3hNaFVHWEJYclFaZXRYTnRRYzBiRkV2OStwMmRGbmtIRGllMGNpU3JuRmlTQ2tmaExIVUJGRGMvMHQ4WFk9/250828-1813-646050510.jpg 1440w"  
+alt="Kinder sollten zun&auml;chst den Umgang mit Bargeld lernen, bevor sie mit Karte zahlen. - picture alliance/dpa/dpa-tmn" 
 
 class="media-object img-responsive" />
 </div>
@@ -2915,12 +2925,12 @@ class="media-object img-responsive" />
 <div class="panel panel-default">
 <div class="panel-heading">
 <h4 class="panel-title">
-<a data-toggle="collapse" data-parent=".accordion-mosthits" href="#accordian-68b14d83860eb">
+<a data-toggle="collapse" data-parent=".accordion-mosthits" href="#accordian-68b150f16ce40">
 Meistgelesen
 </a>
 </h4>
 </div>
-<div id="accordian-68b14d83860eb" class="panel-collapse collapse in">
+<div id="accordian-68b150f16ce40" class="panel-collapse collapse in">
 <div class="panel-body">
 <ul class="aside-pos-list">
 
@@ -3356,6 +3366,16 @@ Zum Artikel
     </div>
 </div>
 
+<div class="box-ad-middle nw-mb-4" style="
+display: flex;
+justify-content: center;
+min-height:310px;
+">
+<div class="em_ads_box_dynamic_remove">
+
+<div id="nw.de_bb_2" data-roles=""></div>
+</div>
+</div>
 <section class="new-section with-vert-nav" id="lokales">
 <div class="row">
 <div class="sep-text single centered">
@@ -3375,6 +3395,73 @@ Lokales
 <div class="letzte-meldungen-mitte clearfix" data-upscore-zone="Lokales">
 <div class="row">
 
+<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24163839">
+<div class="article-image-container-main">
+
+
+<a href="https://www.nw.de/lokal/kreis_herford/buende/24163839_Groesster-Irrsinn-ueberhaupt-Buender-kritisiert-Zeitplan-rund-um-Neubau-der-Skateanlage.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010ditUaEhXdlFWRlB2U3JCYitSWkUva0tmVW1hU01lUE5XVmpRdmEzeHdISlFWcnhldDAvdUd2ZEtMRFRYb2pwd0tNSGNFYUVJM1ZSRi9BdXBJeG1WMEk9/250828-1626-646209731.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005YUY2a0MxSW1mT2RSaml1ZnVJQVRsN3ZWa284RHBWWkM1YXAzeXJXbWRhSWZoQm9VVHpRTFZOR0UwUVVWSHFVUm1DYXZxTFVraDhEN3Z5a3hpbjBpTjg9/250828-1626-646209731.jpg 1440w"  alt="So sieht es derzeit an der Anlage aus. - Peter Heidbrink"  class="media-object img-responsive" /></a>      
+</div>
+  
+<div class="media-body-main" style="width:100%">
+<a class="article-ressort nwplus" href="https://www.nw.de/lokal/kreis_herford/buende">Freizeit</a>
+<h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
+<a href="https://www.nw.de/lokal/kreis_herford/buende/24163839_Groesster-Irrsinn-ueberhaupt-Buender-kritisiert-Zeitplan-rund-um-Neubau-der-Skateanlage.html" data-upscore-url>
+<i class="fa fa-plus-square"></i> <span data-upscore-title>&bdquo;Gr&ouml;&szlig;ter Irrsinn &uuml;berhaupt&ldquo;: B&uuml;nder kritisiert Zeitplan rund um Neubau der Skateanlage</span>
+
+</a>
+</h3>
+<div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
+<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
+</svg><span class="article-id-noad-24163839 nw-egy-noad-item egyCounter" data-egy-dsc="article-24163839"></span></span></span> </div>
+</div>
+</article>
+<hr class="article-divider visible-xs"/>
+
+<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24163654">
+<div class="article-image-container-main">
+
+
+<a href="https://www.nw.de/lokal/kreis_paderborn/altenbeken/24163654_In-Altenbeken-ab-sofort-moeglich-Heiraten-und-Bier-brauen-an-einem-Ort.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010bnZTRlUwVTF0cGh6TFd3ZUhyMkVteC9yRTRKMUZydFZjRFJBWjVuODJ6Sk5pQnRWZzcyaDZ5aDVXelVtVlFBUGxCR0xuWWdJTmJWclZ5VCt6S0N4VEU9/250828-1303-646121975.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005Uks3aituTGFVMWpTVVRCUGZwZHhEcG54d2dyTkhVejNuRm1ENG9ZUlluR3dTTDJWTXlZV3VTK2hxNVhnVExXa1YzV09XTCt3RjRXcXlJcnhpQUVwTGs9/250828-1303-646121975.jpg 1440w"  alt="B&uuml;rgermeister Matthias M&ouml;llers, der auch als Standesbeamter fungiert, freut sich &uuml;ber die neue Hochzeitslocation. - Gemeinde Altenbeken"  class="media-object img-responsive" /></a>      
+</div>
+  
+<div class="media-body-main" style="width:100%">
+<a class="article-ressort" href="https://www.nw.de/lokal/kreis_paderborn/altenbeken">Alternative zum Standesamt</a>
+<h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
+<a href="https://www.nw.de/lokal/kreis_paderborn/altenbeken/24163654_In-Altenbeken-ab-sofort-moeglich-Heiraten-und-Bier-brauen-an-einem-Ort.html" data-upscore-url>
+<span data-upscore-title>In Altenbeken ab sofort m&ouml;glich: Heiraten und Bier brauen an einem Ort</span>
+
+</a>
+</h3>
+<div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
+<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
+</svg><span class="article-id-noad-24163654 nw-egy-noad-item egyCounter" data-egy-dsc="article-24163654"></span></span></span> </div>
+</div>
+</article>
+<hr class="article-divider visible-xs"/>
+
+<div class="clearfix"></div>
+<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24163650">
+<div class="article-image-container-main">
+
+
+<a href="https://www.nw.de/lokal/kreis_paderborn/paderborn/24163650_Mehr-Radwege-Mehr-Parkplaetze-Was-die-Paderborner-Buergermeister-Kandidaten-zum-Thema-Verkehr-sagen.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010b2xWVC9tTjVlTGEwemJGa3pKN2RRVHo2dVQySFpiYXlXR2VnQmtkRCtNUUdZU2lPR1Z6TEhsc2dacVlLb1FVZmdua2t4MGlZVlhHSGZnVy83VUFsOTg9/250828-1302-645358405.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005YVM1Q3ZhcHBUL0pTOXloSkRCWllXREQvNHc4VExESUgzQm13Ukt6a3BsOWw5alNrcnVnWGhDZFRVV2FIdkR2RXJNNE1hR1JGblIyRWxKSnlnekRhbTg9/250828-1302-645358405.jpg 1440w"  alt="Das politisch immer wieder diskutierte Integrierte Mobilit&auml;tskonzept (IMOK) soll seit ein paar Jahren die Basis bieten, um Paderborn verkehrstechnisch zukunftsfit zu machen. - Holger Kosbab"  class="media-object img-responsive" /></a>      
+</div>
+  
+<div class="media-body-main" style="width:100%">
+<a class="article-ressort nwplus" href="https://www.nw.de/lokal/kreis_paderborn/paderborn">Kommunalwahl 2025</a>
+<h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
+<a href="https://www.nw.de/lokal/kreis_paderborn/paderborn/24163650_Mehr-Radwege-Mehr-Parkplaetze-Was-die-Paderborner-Buergermeister-Kandidaten-zum-Thema-Verkehr-sagen.html" data-upscore-url>
+<i class="fa fa-plus-square"></i> <span data-upscore-title>Mehr Radwege? Mehr Parkpl&auml;tze? Was die Paderborner B&uuml;rgermeister-Kandidaten zum Thema Verkehr sagen</span>
+
+</a>
+</h3>
+<div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
+<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
+</svg><span class="article-id-noad-24163650 nw-egy-noad-item egyCounter" data-egy-dsc="article-24163650"></span></span></span> </div>
+</div>
+</article>
+<hr class="article-divider visible-xs"/>
+
 <article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164152">
 <div class="article-image-container-main">
 
@@ -3391,71 +3478,6 @@ Lokales
 </a>
 </h3>
 <div> </div>
-</div>
-</article>
-<hr class="article-divider visible-xs"/>
-
-<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="23511913">
-<div class="article-image-container-main">
-
-
-<a href="https://www.nw.de/lokal/bielefeld/mitte/23511913_Veranstaltungstipps-fuer-Bielefeld-Weinfest-drei-Konzerte-im-Ravensberger-Park-und-mehr-ET.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010dkNVNTNucEttZkdqeE5Wb0hqUEFtdVdCWDRzL0hwWWIwQS9BTGlVZEpGVGYwMStxcEZxKzJ2K252Q0E2aGJNVlVIOXNjdjNSbGRvT3FzakVhNTVsOWs9/250826-1709-645802436.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005ZVhhckMrTGdBRzVXY3Z1WVh4WDd1VnFtREdqS0R0dVV4M2UvNFlmbmg4VWQrSjZpTlVhOG1NcFJlKzQxRXBnQzRaNTE0RDYrcG9ydk1FblMzSlFVMzQ9/250826-1709-645802436.jpg 1440w"  alt="Wer sich am Wochenende nach Musik sehnt, hat Gl&uuml;ck: Neben Sarah Connor sind auch die Fantastischen Vier und die Band &#34;Provinz&#34; auf der gro&szlig;en B&uuml;hne im Ravensberger Park zu sehen. - picture alliance / Eibner-Pressefoto"  class="media-object img-responsive" /></a>      
-</div>
-  
-<div class="media-body-main" style="width:100%">
-<a class="article-ressort" href="https://www.nw.de/lokal/bielefeld/mitte">28. bis 31. August 2025</a>
-<h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
-<a href="https://www.nw.de/lokal/bielefeld/mitte/23511913_Veranstaltungstipps-fuer-Bielefeld-Weinfest-drei-Konzerte-im-Ravensberger-Park-und-mehr-ET.html" data-upscore-url>
-<span data-upscore-title>Veranstaltungstipps f&uuml;r Bielefeld: Weinfest, drei Konzerte im Ravensberger Park und mehr</span>
-
-</a>
-</h3>
-<div> </div>
-</div>
-</article>
-<hr class="article-divider visible-xs"/>
-
-<div class="clearfix"></div>
-<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24163257">
-<div class="article-image-container-main">
-
-
-<a href="https://www.nw.de/lokal/kreis_paderborn/borchen/24163257_Das-sind-die-Bewerber-um-das-Buergermeisteramt-in-Borchen.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010a08xK1EwUXJ3Nk8wYWZ5ajd3RG03bUlkYllmWkw1Tm5GaWQvdW9jMjZmQVViRXJSZ0FScGpxWTIvN1FZZjJ3d05DcnRHNXhhM1F4RjdlaElPRytacUE9/250827-2032-645412283.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005ZG9aMVRhbGtia0NFRi9OcFFBT3pWVURsMW01Z1J3RnQ5RHRWM0JMdEJmaWlIUW1wTTluNGFHRmQ4dmZKckVqTmVpWHJkS21NK0dvQllEaUdWZFVhU0k9/250827-2032-645412283.jpg 1440w"  alt="Anl&auml;sslich der Kommunalwahl am 14. September stellt die NW die Kandidatinnen und Kandidaten f&uuml;r Borchen vor. - picture alliance / dpa"  class="media-object img-responsive" /></a>      
-</div>
-  
-<div class="media-body-main" style="width:100%">
-<a class="article-ressort nwplus" href="https://www.nw.de/lokal/kreis_paderborn/borchen">Kommunalwahl 2025</a>
-<h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
-<a href="https://www.nw.de/lokal/kreis_paderborn/borchen/24163257_Das-sind-die-Bewerber-um-das-Buergermeisteramt-in-Borchen.html" data-upscore-url>
-<i class="fa fa-plus-square"></i> <span data-upscore-title>Das sind die Bewerber um das B&uuml;rgermeisteramt in Borchen</span>
-
-</a>
-</h3>
-<div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
-<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
-</svg><span class="article-id-noad-24163257 nw-egy-noad-item egyCounter" data-egy-dsc="article-24163257"></span></span></span> </div>
-</div>
-</article>
-<hr class="article-divider visible-xs"/>
-
-<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24161883">
-<div class="article-image-container-main">
-
-
-<a href="https://www.nw.de/lokal/bielefeld/mitte/24161883_Bielefelds-OB-Bewerber-15-Dinge-die-Sie-ueber-Ingo-Nuernberger-wissen-sollten.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010bDNma2hzQnRJS1ErYkVkQ2kzdEZadzJNY3ZQdm9qczdoUnBBSXgrNmxHL0NHc3A2N1dCb29mWVpTZ2lhUlVaNXVMQnFiS0hGd1orNXNzT1BGVElhUmc9/250825-2015-644504854.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005VnJWZHM3Qk80RnMrSkltcVFzVWZUNkgreHhhSE50eFFtNGQvQnhsQlBzclg3dGQxakVuRnRmeDg2aFg1WkY2cG50M2xENkJNejUxQjRYRktOUHpVVDg9/250825-2015-644504854.jpg 1440w"  alt="Ingo N&uuml;rnberger m&ouml;chte Oberb&uuml;rgermeister von Bielefeld werden. - Peter Unger"  class="media-object img-responsive" /></a>      
-</div>
-  
-<div class="media-body-main" style="width:100%">
-<a class="article-ressort nwplus" href="https://www.nw.de/lokal/bielefeld/mitte">Kommunalwahl 2025 in Bielefeld</a>
-<h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
-<a href="https://www.nw.de/lokal/bielefeld/mitte/24161883_Bielefelds-OB-Bewerber-15-Dinge-die-Sie-ueber-Ingo-Nuernberger-wissen-sollten.html" data-upscore-url>
-<i class="fa fa-plus-square"></i> <span data-upscore-title>Bielefelds OB-Bewerber: 15 Dinge, die Sie &uuml;ber Ingo N&uuml;rnberger wissen sollten</span>
-
-</a>
-</h3>
-<div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
-<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
-</svg><span class="article-id-noad-24161883 nw-egy-noad-item egyCounter" data-egy-dsc="article-24161883"></span></span></span> </div>
 </div>
 </article>
 <hr class="article-divider visible-xs"/>
@@ -4395,6 +4417,47 @@ Sport
 <div class="letzte-meldungen-mitte clearfix" data-upscore-zone="Sport">
 <div class="row">
 
+<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164169">
+<div class="article-image-container-main">
+
+
+<a href="https://www.nw.de/sport/sport_nachrichten/24164169_Titel-Duell-Ferrari-Frust-Das-ist-in-der-Formel-1-wichtig.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010Z01SUWpoY0JnRm15dElTS05wRXAzZGc3dHVxeXJ5NXorR2hFMmZ5Z3A3QjQ0ZE1KeG15TXNBV1ZxMlU2eFd1MnlXNUp0NkkxOUxWd0FsaUJpZjlFeGtUMlcyeVNtcUU5NFVNMmRBVlJVako/250829-0853-urn-newsml-dpa-com-20090101-250829-935-797807.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005VVUxaG1TUHA1MkNhTkl4UTdtQnZzc3VLQW41SFYzQnBKTjZnYVRscVV4clpGL0haa1pXVlFGTUlxNThkNlUvTGpMS1dpSnBTNjk2a3NKVFFKZWZ2MzA5RE4rNGROU2Rkd2tjdTFoeTJKRXM/250829-0853-urn-newsml-dpa-com-20090101-250829-935-797807.jpg 1440w"  alt="Der WM-Kampf wird zwischen Lando Norris (links) und Oscar Piastri entschieden. (Archivbild) - Denes Erdos/AP/dpa"  class="media-object img-responsive" /></a>      
+</div>
+  
+<div class="media-body-main" style="width:100%">
+<a class="article-ressort" href="https://www.nw.de/sport/sport_nachrichten">Grand Prix in Zandvoort</a>
+<h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
+<a href="https://www.nw.de/sport/sport_nachrichten/24164169_Titel-Duell-Ferrari-Frust-Das-ist-in-der-Formel-1-wichtig.html" data-upscore-url>
+<span data-upscore-title>Titel-Duell, Ferrari-Frust: Das ist in der Formel 1 wichtig</span>
+
+</a>
+</h3>
+<div> </div>
+</div>
+</article>
+<hr class="article-divider visible-xs"/>
+
+<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164165">
+<div class="article-image-container-main">
+
+
+<a href="https://www.nw.de/sport/sport_nachrichten/24164165_Volleyballerinnen-gegen-Superteam-Ohne-Angst-und-Zweifel.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010Z01SUWpoY0JnRm15dElTS05wRXAzZFE3WUZ6ZFA5T1FwRlZzYkZwK2lURDFMaFNhK3Z1Q0FZa1dpSTNvZExvYUFQSEpRbWpFV0RuL2c0L0NjQ25xUktEak9SN3IzQVh4OFl6RXlSSDFJb28/250829-0852-urn-newsml-dpa-com-20090101-250829-935-797795.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005VVUxaG1TUHA1MkNhTkl4UTdtQnZzdENvdURYRndqT011U1dWV0xRUk54S0wzdDIyZHJKVmxMMUdQUnJUM3pwRmRjS2dNQlZoR1J1YXFMTXdLRnpKWVdEWW5yNmgxZFRCdk1lMzFEdzk1NzU/250829-0852-urn-newsml-dpa-com-20090101-250829-935-797795.jpg 1440w"  alt="Das deutsche Team war gegen Polen ganz nah am Gruppensieg. - ---/Deutscher Volleyball-Verband /dpa"  class="media-object img-responsive" /></a>      
+</div>
+  
+<div class="media-body-main" style="width:100%">
+<a class="article-ressort" href="https://www.nw.de/sport/sport_nachrichten">WM in Thailand</a>
+<h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
+<a href="https://www.nw.de/sport/sport_nachrichten/24164165_Volleyballerinnen-gegen-Superteam-Ohne-Angst-und-Zweifel.html" data-upscore-url>
+<span data-upscore-title>Volleyballerinnen gegen Superteam: &laquo;Ohne Angst und Zweifel&raquo;</span>
+
+</a>
+</h3>
+<div> </div>
+</div>
+</article>
+<hr class="article-divider visible-xs"/>
+
+<div class="clearfix"></div>
 <article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24045816">
 <div class="article-image-container-main">
 
@@ -4435,51 +4498,6 @@ Sport
 <div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
 </svg><span class="article-id-noad-24164146 nw-egy-noad-item egyCounter" data-egy-dsc="article-24164146"></span></span></span> </div>
-</div>
-</article>
-<hr class="article-divider visible-xs"/>
-
-<div class="clearfix"></div>
-<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164130">
-<div class="article-image-container-main">
-
-
-<a href="https://www.nw.de/sport/sport_nachrichten/24164130_Woltemade-zu-Newcastle-Matthaeus-Passt-gut.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010c2psTGxacFlpZ0Y1L2kyUy9vU0h5VmtBb0NrNTh3SXEyTUJSaEhYcnZ5bWFva2dRQWZKNUo0OWN3UXh6U0czR3RkN1kzZDRueHZlQnNiTGhPNUlzekxjcjBOelBZMUNMaFJWVzRUZ2h3YUw/250829-0753-urn-newsml-dpa-com-20090101-250829-935-797697.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005VEowSEwrcFFnM3dvR0VSVWUzQVFPTkppV2pkTWVaRHlPUzEyU2lYTUdiUk41a2FDaWRFT1B2SEU3SWUwVWVZQW5BNEs4enNReWkyOHhWa3pUOXRUMkw2ei9hRkNlWFZ4VnJXTGp4RTVxMjU/250829-0753-urn-newsml-dpa-com-20090101-250829-935-797697.jpg 1440w"  alt="Abschied aus Stuttgart: Coach Sebastian Hoene&szlig; muss k&uuml;nftig auf Nick Woltemade verzichten. - Swen Pf&ouml;rtner/dpa"  class="media-object img-responsive" /></a>      
-</div>
-  
-<div class="media-body-main" style="width:100%">
-<a class="article-ressort" href="https://www.nw.de/sport/sport_nachrichten">Premier League statt FC Bayern</a>
-<h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
-<a href="https://www.nw.de/sport/sport_nachrichten/24164130_Woltemade-zu-Newcastle-Matthaeus-Passt-gut.html" data-upscore-url>
-<span data-upscore-title>Woltemade zu Newcastle? - Matth&auml;us: &laquo;Passt gut&raquo;</span>
-
-</a>
-</h3>
-<div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
-<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
-</svg><span class="article-id-noad-24164130 nw-egy-noad-item egyCounter" data-egy-dsc="article-24164130"></span></span></span> </div>
-</div>
-</article>
-<hr class="article-divider visible-xs"/>
-
-<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164125">
-<div class="article-image-container-main">
-
-
-<a href="https://www.nw.de/sport/fussball/24164125_Weiper-rechnet-ab-Viele-Fake-Nachrichten-verbreitet.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010cW0rK2JvTjVYQUd6d3d1K2pOZXFPZnZXQ2Z2ekxqRGVGS0p1WWdReDJDaFdEZTFZeXlnSVEzS0luWW9tcFVtOTN0THF3aFVGRi9PMWljVFFqNm11REp3UDJKQ01taHNLL01JVlEwQTA5ZlU/250829-0741-urn-newsml-dpa-com-20090101-250829-935-797685.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005U3BLT1EwSlZEUWUreGVCL2JYNmU2YW1WUytUUGRIak9wVCtZT3drVkNUMUE0K0RMZlZjQUx4YkhaQzI2TldsYy9SYm9iUzZ2RXVyb3pESkJTd3dCWEJsdUJXMDNaYlJsRHQyaE56cEtxL1M/250829-0741-urn-newsml-dpa-com-20090101-250829-935-797685.jpg 1440w"  alt="Angreifer Nelson Weiper erzielte das 3:1 f&uuml;r Mainz gegen Rosenborg Trondheim. - Torsten Silz/dpa"  class="media-object img-responsive" /></a>      
-</div>
-  
-<div class="media-body-main" style="width:100%">
-<a class="article-ressort" href="https://www.nw.de/sport/fussball">Nach Vertragsverl&auml;ngerung</a>
-<h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
-<a href="https://www.nw.de/sport/fussball/24164125_Weiper-rechnet-ab-Viele-Fake-Nachrichten-verbreitet.html" data-upscore-url>
-<span data-upscore-title>Weiper rechnet ab: &laquo;Viele Fake-Nachrichten verbreitet&raquo;</span>
-
-</a>
-</h3>
-<div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
-<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
-</svg><span class="article-id-noad-24164125 nw-egy-noad-item egyCounter" data-egy-dsc="article-24164125"></span></span></span> </div>
 </div>
 </article>
 <hr class="article-divider visible-xs"/>
@@ -5265,7 +5283,7 @@ Gesundheit
             "url": "https:\/\/www.nw.de\/nachrichten\/panorama\/24163912_Der-richtige-Umgang-mit-Geld-Ab-welchem-Alter-Kinder-mit-Karte-zahlen-sollten.html",
             "headline": "Der richtige Umgang mit Geld: Ab welchem Alter Kinder mit Karte zahlen sollten",
             "datePublished": "2025-08-29T05:00:00+02:00",
-            "dateModified": "2025-08-29T08:46:35+02:00",
+            "dateModified": "2025-08-29T08:47:09+02:00",
             "articleSection": "Mantel",
             "keywords": "Finanzerziehung,Girokarte,Deutsches Jugendinstitut,Deutschland,serie_nlmittagsnotiz,label_xl 160,label_plus ok,label_familie\/freizeit,label_hilf mir,meta_artikelklasse_Nachricht,meta_themen_Familie_Bildung_Freizeit,meta_copyrights_RND,meta_userneeds_hilfmir",
             "publisher": {
@@ -5304,7 +5322,7 @@ Gesundheit
             "image": [
                 {
                     "@type": "ImageObject",
-                    "url": "https:\/\/www.nw.de\/_em_daten\/_cache\/image\/1xanJPa1FYVnlqcnNrSFRaNTI2S25ZK250YXppdlNtaHFvVHpKZ1JIL0NZWkRud0dMYlNzVFgrY1NqSGY4TC9kaTJpVllwVzJMVnUydVN2Zi9udFlmMEo5QnBHZ0E4T1BQUjRCamRzd3FjZzg9\/250828-1813-646050510.jpg"
+                    "url": "https:\/\/www.nw.de\/_em_daten\/_cache\/image\/1xanJPa1FYVnlqcnNrSFRaNTI2S25ZMEl1bVMveW5BWXhYTFFhS2JwM3VldTVqcURLbDY3L3RRMzFnVHRPUXVsZ0RlVDI2dFl1UkNlOG9OZFFYQ2M5alVaSCtBdFU5UTNESXVVbGZYR2lodVU9\/250828-1813-646050510.jpg"
                 }
             ],
             "author": [
@@ -5511,10 +5529,10 @@ Gesundheit
             "@type": "NewsArticle",
             "url": "https:\/\/www.nw.de\/nachrichten\/zwischen_weser_und_rhein\/24163903_Konflikt-beim-Hermannslauf-Ausrichter-TSVE-Bielefeld-Ehrenamtler-verlassen-den-Verein.html",
             "headline": "Konflikt beim Hermannslauf-Ausrichter TSVE Bielefeld: Ehrenamtler verlassen den Verein",
-            "datePublished": "2025-08-28T18:00:00+02:00",
-            "dateModified": "2025-08-28T17:58:11+02:00",
+            "datePublished": "2025-08-29T08:51:00+02:00",
+            "dateModified": "2025-08-29T08:51:52+02:00",
             "articleSection": "Mantel",
-            "keywords": "Konflikt,Leichtathletikabteilung,Hermannslauf,Doris Buschmann,Bente Frodermann,Christoph Schneider,Wolfgang Kohn,Rudi Ostermann,Matth&auml;us Gruben,Bielefeld,serie_nlmittagsnotiz,label_xl 160,meta_artikelklasse_Nachricht,meta_themen_sport,meta_copyrights_NW,meta_userneeds_informieremich",
+            "keywords": "Konflikt,Leichtathletikabteilung,Hermannslauf,Doris Buschmann,Bente Frodermann,Christoph Schneider,Wolfgang Kohn,Rudi Ostermann,Matth&auml;us Gruben,Bielefeld,serie_nlmittagsnotiz,label_xl 160,label_startseite,label_push,label_informiere mich,meta_artikelklasse_Nachricht,meta_themen_sport,meta_copyrights_NW,meta_userneeds_informieremich",
             "publisher": {
                 "@type": "NewsMediaOrganization",
                 "name": "Neue Westf\u00e4lische",
