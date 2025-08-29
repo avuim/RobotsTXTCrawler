@@ -19,10 +19,6 @@ const DashboardGrid = styled.div`
   }
 `;
 
-const FullWidthSection = styled.div`
-  grid-column: 1 / -1;
-`;
-
 const Card = styled.div`
   background-color: ${({ theme }) => theme.colors.white};
   border-radius: ${({ theme }) => theme.borderRadius.medium};

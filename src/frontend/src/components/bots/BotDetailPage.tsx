@@ -203,7 +203,6 @@ const BotDetailPage: React.FC = () => {
   }
 
   // Aktueller Monat für die Statistiken
-  const currentMonth = new Date().toISOString().substring(0, 7); // Format: YYYY-MM
   const latestMonth = bot.monthlyStats ? Object.keys(bot.monthlyStats).sort().pop() : null;
   const currentStats = latestMonth ? bot.monthlyStats[latestMonth] : null;
   
