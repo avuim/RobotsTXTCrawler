@@ -1061,16 +1061,6 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Christkindlmärkte</a>
             <ul class="sub-menu-mm">
                             <li class="ressort-item-mm">
-    <a        href="/themen/christkindlmaerkte/christkindlmaerkte-pfaffenhofen"
-       target="_top"             data-preview=""
-             data-preview-count="4">Christkindlmärkte im Landkreis Pfaffenhofen</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/themen/christkindlmaerkte/christkindlmaerkte-neumarkt"
-       target="_top"             data-preview=""
-             data-preview-count="4">Christkindlmärkte im Landkreis Neumarkt</a>
-    </li>
-                            <li class="ressort-item-mm">
     <a        href="/themen/christkindlmaerkte/christkindlmaerkte-roth"
        target="_top"             data-preview=""
              data-preview-count="4">Christkindlmärkte im Landkreis Roth</a>
@@ -1081,6 +1071,11 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Christkindlmärkte im Landkreis Neuburg-Schrobenhausen</a>
     </li>
                             <li class="ressort-item-mm">
+    <a        href="/themen/christkindlmaerkte/christkindlmaerkte-pfaffenhofen"
+       target="_top"             data-preview=""
+             data-preview-count="4">Christkindlmärkte im Landkreis Pfaffenhofen</a>
+    </li>
+                            <li class="ressort-item-mm">
     <a        href="/themen/christkindlmaerkte/christkindlmaerkte-eichstaett"
        target="_top"             data-preview=""
              data-preview-count="4">Christkindlmärkte im Landkreis Eichstätt</a>
@@ -1089,6 +1084,11 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
     <a        href="/themen/christkindlmaerkte/christkindlmaerkte-ingolstadt"
        target="_top"             data-preview=""
              data-preview-count="4">Christkindlmärkte in und um Ingolstadt</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/themen/christkindlmaerkte/christkindlmaerkte-neumarkt"
+       target="_top"             data-preview=""
+             data-preview-count="4">Christkindlmärkte im Landkreis Neumarkt</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/themen/christkindlmaerkte/christkindlmaerkte-kelheim"
@@ -1118,6 +1118,11 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Fasching</a>
             <ul class="sub-menu-mm">
                             <li class="ressort-item-mm">
+    <a        href="/themen/fasching/fasching-aichach-friedberg"
+       target="_top"             data-preview=""
+             data-preview-count="4">Fasching Landkreis Aichach-Friedberg</a>
+    </li>
+                            <li class="ressort-item-mm">
     <a        href="/themen/fasching/fasching-neuburg-schrobenhausen"
        target="_top"             data-preview=""
              data-preview-count="4">Fasching Landkreis Neuburg-Schrobenhausen</a>
@@ -1137,11 +1142,6 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
        target="_top"             data-preview=""
              data-preview-count="4">Fasching Landkreis Roth</a>
     </li>
-                            <li class="ressort-item-mm">
-    <a        href="/themen/fasching/fasching-aichach-friedberg"
-       target="_top"             data-preview=""
-             data-preview-count="4">Fasching Landkreis Aichach-Friedberg</a>
-    </li>
                     </ul>
     </li>
                             <li class="ressort-item-mm">
@@ -1149,11 +1149,6 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
        target="_top"             data-preview=""
              data-preview-count="4">Feuerwehr in der Region</a>
             <ul class="sub-menu-mm">
-                            <li class="ressort-item-mm">
-    <a        href="/themen/feuerwehr/feuerwehr-neuburg-schrobenhausen"
-       target="_top"             data-preview=""
-             data-preview-count="4">Feuer, Brand und Feuerwehreinsatz im Landkreis Neuburg-Schrobenhausen</a>
-    </li>
                             <li class="ressort-item-mm">
     <a        href="/themen/feuerwehr/feuerwehr-aichach-friedberg"
        target="_top"             data-preview=""
@@ -1180,6 +1175,11 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Feuer, Brand und Feuerwehreinsatz im Landkreis Dachau</a>
     </li>
                             <li class="ressort-item-mm">
+    <a        href="/themen/feuerwehr/feuerwehr-neuburg-schrobenhausen"
+       target="_top"             data-preview=""
+             data-preview-count="4">Feuer, Brand und Feuerwehreinsatz im Landkreis Neuburg-Schrobenhausen</a>
+    </li>
+                            <li class="ressort-item-mm">
     <a        href="/themen/feuerwehr/feuerwehr-roth"
        target="_top"             data-preview=""
              data-preview-count="4">Feuer, Brand und Feuerwehreinsatz im Landkreis Roth</a>
@@ -1192,19 +1192,14 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Hochzeiten</a>
             <ul class="sub-menu-mm">
                             <li class="ressort-item-mm">
-    <a        href="/themen/hochzeiten/hochzeiten-neuburg-schrobenhausen"
+    <a        href="/themen/hochzeiten/hochzeiten-aichach-friedberg"
        target="_top"             data-preview=""
-             data-preview-count="4">Hochzeiten Landkreis Neuburg-Schrobenhausen</a>
+             data-preview-count="4">Hochzeiten Landkreis Aichach-Friedberg</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/themen/hochzeiten/hochzeiten-pfaffenhofen"
        target="_top"             data-preview=""
              data-preview-count="4">Hochzeiten Landkreis Pfaffenhofen</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/themen/hochzeiten/hochzeiten-eichstaett"
-       target="_top"             data-preview=""
-             data-preview-count="4">Hochzeiten Landkreis Eichstätt</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/themen/hochzeiten/hochzeiten-neumarkt"
@@ -1217,6 +1212,11 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Hochzeiten Landkreis Kelheim</a>
     </li>
                             <li class="ressort-item-mm">
+    <a        href="/themen/hochzeiten/hochzeiten-dachau"
+       target="_top"             data-preview=""
+             data-preview-count="4">Hochzeiten Landkreis Dachau</a>
+    </li>
+                            <li class="ressort-item-mm">
     <a        href="/themen/hochzeiten/hochzeiten-ingolstadt"
        target="_top"             data-preview=""
              data-preview-count="4">Hochzeiten Ingolstadt</a>
@@ -1227,19 +1227,19 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Hochzeiten Landkreis Roth</a>
     </li>
                             <li class="ressort-item-mm">
+    <a        href="/themen/hochzeiten/hochzeiten-eichstaett"
+       target="_top"             data-preview=""
+             data-preview-count="4">Hochzeiten Landkreis Eichstätt</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/themen/hochzeiten/hochzeiten-neuburg-schrobenhausen"
+       target="_top"             data-preview=""
+             data-preview-count="4">Hochzeiten Landkreis Neuburg-Schrobenhausen</a>
+    </li>
+                            <li class="ressort-item-mm">
     <a        href="/themen/hochzeiten/hochzeitsratgeber"
        target="_top"             data-preview=""
              data-preview-count="4">Hochzeitsratgeber</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/themen/hochzeiten/hochzeiten-aichach-friedberg"
-       target="_top"             data-preview=""
-             data-preview-count="4">Hochzeiten Landkreis Aichach-Friedberg</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/themen/hochzeiten/hochzeiten-dachau"
-       target="_top"             data-preview=""
-             data-preview-count="4">Hochzeiten Landkreis Dachau</a>
     </li>
                     </ul>
     </li>
@@ -1269,14 +1269,14 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Volksfeste Roth</a>
     </li>
                             <li class="ressort-item-mm">
-    <a        href="/themen/volksfeste/volksfeste-neumarkt"
-       target="_top"             data-preview=""
-             data-preview-count="4">Volksfeste Neumarkt</a>
-    </li>
-                            <li class="ressort-item-mm">
     <a        href="/themen/volksfeste/volksfeste-pfaffenhofen"
        target="_top"             data-preview=""
              data-preview-count="4">Volksfeste Pfaffenhofen</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/themen/volksfeste/volksfeste-neumarkt"
+       target="_top"             data-preview=""
+             data-preview-count="4">Volksfeste Neumarkt</a>
     </li>
                     </ul>
     </li>
@@ -1328,16 +1328,6 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Eichstätter Kurier</a>
     </li>
                             <li class="ressort-item-mm">
-    <a        href="/service/zeitungstitel/pfaffenhofener-kurier"
-       target="_top"             data-preview=""
-             data-preview-count="4">Pfaffenhofener Kurier</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/service/zeitungstitel/hilpoltsteiner-kurier"
-       target="_top"             data-preview=""
-             data-preview-count="4">Hilpoltsteiner Kurier</a>
-    </li>
-                            <li class="ressort-item-mm">
     <a        href="/service/zeitungstitel/donaukurier-beilngries-riedenburg"
        target="_top"             data-preview=""
              data-preview-count="4">Donaukurier (Beilngries-Riedenburg)</a>
@@ -1351,6 +1341,16 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
     <a        href="/service/zeitungstitel/donaukurier-neuburg"
        target="_top"             data-preview=""
              data-preview-count="4">Donaukurier (Neuburg)</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/service/zeitungstitel/pfaffenhofener-kurier"
+       target="_top"             data-preview=""
+             data-preview-count="4">Pfaffenhofener Kurier</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/service/zeitungstitel/hilpoltsteiner-kurier"
+       target="_top"             data-preview=""
+             data-preview-count="4">Hilpoltsteiner Kurier</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/service/zeitungstitel/aichacher-anzeiger"
@@ -1542,19 +1542,14 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Kommunalwahl 2026 in Bayern</a>
             <ul class="sub-menu-mm">
                             <li class="ressort-item-mm">
-    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-kelheim"
+    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-eichstaett"
        target="_top"             data-preview=""
-             data-preview-count="4">Landkreis Kelheim - Kommunalwahl 2026 in Bayern</a>
+             data-preview-count="4">Landkreis Eichstätt - Kommunalwahl 2026 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
-    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-dachau"
+    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-roth"
        target="_top"             data-preview=""
-             data-preview-count="4">Landkreis Dachau - Kommunalwahl 2026 in Bayern</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-neuburg-schrobenhausen"
-       target="_top"             data-preview=""
-             data-preview-count="4">Landkreis Neuburg-Schrobenhausen - Kommunalwahl 2026 in Bayern</a>
+             data-preview-count="4">Landkreis Roth - Kommunalwahl 2026 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/wahlen/kommunalwahl-bayern-2026/region-augsburg"
@@ -1562,14 +1557,9 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Region Augsburg - Kommunalwahl 2026 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
-    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-aichach-friedberg"
+    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-dachau"
        target="_top"             data-preview=""
-             data-preview-count="4">Landkreis Aichach-Friedberg - Kommunalwahl 2026 in Bayern</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-eichstaett"
-       target="_top"             data-preview=""
-             data-preview-count="4">Landkreis Eichstätt - Kommunalwahl 2026 in Bayern</a>
+             data-preview-count="4">Landkreis Dachau - Kommunalwahl 2026 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/wahlen/kommunalwahl-bayern-2026/stadt-ingolstadt"
@@ -1577,9 +1567,14 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Stadt Ingolstadt - Kommunalwahl 2026 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
-    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-roth"
+    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-kelheim"
        target="_top"             data-preview=""
-             data-preview-count="4">Landkreis Roth - Kommunalwahl 2026 in Bayern</a>
+             data-preview-count="4">Landkreis Kelheim - Kommunalwahl 2026 in Bayern</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-neuburg-schrobenhausen"
+       target="_top"             data-preview=""
+             data-preview-count="4">Landkreis Neuburg-Schrobenhausen - Kommunalwahl 2026 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-pfaffenhofen"
@@ -1590,6 +1585,11 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
     <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-neumarkt"
        target="_top"             data-preview=""
              data-preview-count="4">Landkreis Neumarkt - Kommunalwahl 2026 in Bayern</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-aichach-friedberg"
+       target="_top"             data-preview=""
+             data-preview-count="4">Landkreis Aichach-Friedberg - Kommunalwahl 2026 in Bayern</a>
     </li>
                     </ul>
     </li>
@@ -1609,11 +1609,6 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Wahlkreis Augsburg-Land - Bundestagswahl 2025 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
-    <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-amberg"
-       target="_top"             data-preview=""
-             data-preview-count="4">Wahlkreis Amberg - Bundestagswahl 2025 in Bayern</a>
-    </li>
-                            <li class="ressort-item-mm">
     <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-donau-ries"
        target="_top"             data-preview=""
              data-preview-count="4">Wahlkreis Donau-Ries - Bundestagswahl 2025 in Bayern</a>
@@ -1627,6 +1622,11 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
     <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-freising"
        target="_top"             data-preview=""
              data-preview-count="4">Wahlkreis Freising - Bundestagswahl 2025 in Bayern</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-amberg"
+       target="_top"             data-preview=""
+             data-preview-count="4">Wahlkreis Amberg - Bundestagswahl 2025 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-roth"
@@ -1651,6 +1651,11 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Stimmkreis Ingolstadt - Landtagswahl in Bayern 2023</a>
     </li>
                             <li class="ressort-item-mm">
+    <a        href="/wahlen/landtagswahl-bayern-2023/stimmkreis-kelheim"
+       target="_top"             data-preview=""
+             data-preview-count="4">Stimmkreis Kelheim - Landtagswahl in Bayern 2023</a>
+    </li>
+                            <li class="ressort-item-mm">
     <a        href="/wahlen/landtagswahl-bayern-2023/stimmkreis-neuburg-schrobenhausen"
        target="_top"             data-preview=""
              data-preview-count="4">Stimmkreis Neuburg-Schrobenhausen - Landtagswahl in Bayern 2023</a>
@@ -1664,11 +1669,6 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
     <a        href="/wahlen/landtagswahl-bayern-2023/stimmkreis-neumarkt"
        target="_top"             data-preview=""
              data-preview-count="4">Stimmkreis Neumarkt - Landtagswahl in Bayern 2023</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/wahlen/landtagswahl-bayern-2023/stimmkreis-kelheim"
-       target="_top"             data-preview=""
-             data-preview-count="4">Stimmkreis Kelheim - Landtagswahl in Bayern 2023</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/wahlen/landtagswahl-bayern-2023/stimmkreis-roth"
@@ -1966,9 +1966,9 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
                             <div class="landing-page__block" data-ez-block-id="5994737">
                         <div class="container article-highlight border-radius-top margin-bottom-10 padding-bottom-30 bg-white">
         
-<article class="article-teaser highlight small margin-bottom-10 d-block d-md-none" data-upscore-object-id="19374899">
+<article class="article-teaser highlight small margin-bottom-10 d-block d-md-none" data-upscore-object-id="19379735">
     <a
-     aria-label="Aichach-Rückkehrer Semih Coklar  und Marcus Wehren wieder vereint"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/rueckkehrer-semih-coklar-bildet-mit-marcus-wehren-wieder-ein-torgefaehrliches-duo-19374899"      target="_top"     class="article-link position-absolute inset-0 z-100"
+     aria-label="Keine „Weiße“ mehr am Donnerstag: Aus für die Baindlkirchener Wurstkuchl"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/aus-fuer-die-baindlkirchener-wurstkuchl-19379735"      target="_top"     class="article-link position-absolute inset-0 z-100"
     ></a>    <div class="card border-0 margin-bottom-10">
         <div>
                             
@@ -1982,40 +1982,40 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
 <picture
     class="image
                 "
-    data-img-width="1024"
-    data-img-height="802"
+    data-img-width="908"
+    data-img-height="584"
 >
     <img
         aria-hidden="true"
         loading="lazy"
         onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
         alt=""
-        src="https://img.donaukurier.de/ezplatform/images/4/9/3/4/401854394-1-ger-DE/9ba60febfa2b-29-130504101.jpg"
-         class="img-fluid w-100  h-100 "width="1024"
-        height="802"
+        src="https://img.donaukurier.de/ezplatform/images/2/2/1/6/401946122-2-ger-DE/8faf6d5c896c-29-130529802.jpg"
+         class="img-fluid w-100  h-100 "width="908"
+        height="584"
         />
 </picture>
                                         <span class="egy-comment-counter-top-news text-grey"
-                      data-egy-dsc="19374899"></span>
+                      data-egy-dsc="19379735"></span>
                         <span class="available-media top"></span>
         </div>
     </div>
-    <div class="mt-auto w-100 ">
+    <div class="mt-auto w-100 is-plus donaukurier">
         <p class="article-teaser-line-top media-top text-grey-1 margin-top-5 margin-bottom-2">
-            <span class="padding-right-5">40-Tore-Sturm für BCA</span>
+            <span class="padding-right-5">Fast 40 Jahre Tradition</span>
             <span class="reaction-prefix hidden">
 							/
 						</span>
-            <span class="padding-left-5 reaction" data-url="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/rueckkehrer-semih-coklar-bildet-mit-marcus-wehren-wieder-ein-torgefaehrliches-duo-19374899"></span>
+            <span class="padding-left-5 reaction" data-url="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/aus-fuer-die-baindlkirchener-wurstkuchl-19379735"></span>
         </p>
         <div class="article-teaser-headline type-2 font-weight-bold text-black margin-bottom-5 card-title">
-            <span data-upscore-title>Aichach-Rückkehrer Semih Coklar  und Marcus Wehren wieder vereint</span>
+            <span data-upscore-title>Keine „Weiße“ mehr am Donnerstag: Aus für die Baindlkirchener Wurstkuchl</span>
         </div>
     </div>
 </article>
-<article class="article-teaser highlight first d-none d-md-block" data-upscore-object-id="19374899">
+<article class="article-teaser highlight first d-none d-md-block" data-upscore-object-id="19379735">
     <a
-     aria-label="Aichach-Rückkehrer Semih Coklar  und Marcus Wehren wieder vereint"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/rueckkehrer-semih-coklar-bildet-mit-marcus-wehren-wieder-ein-torgefaehrliches-duo-19374899"      target="_top"     class="article-link position-absolute inset-0 z-100"
+     aria-label="Keine „Weiße“ mehr am Donnerstag: Aus für die Baindlkirchener Wurstkuchl"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/aus-fuer-die-baindlkirchener-wurstkuchl-19379735"      target="_top"     class="article-link position-absolute inset-0 z-100"
     ></a>    <div class="row no-gutters">
         <div class="col-md-7">
             <div class="media-image-container">
@@ -2031,21 +2031,21 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
 <picture
     class="image
                 "
-    data-img-width="1024"
-    data-img-height="802"
+    data-img-width="908"
+    data-img-height="584"
 >
     <img
         aria-hidden="true"
         loading="lazy"
         onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
         alt=""
-        src="https://img.donaukurier.de/ezplatform/images/4/9/3/4/401854394-1-ger-DE/9ba60febfa2b-29-130504101.jpg"
-         class="img-fluid w-100  h-100 "width="1024"
-        height="802"
+        src="https://img.donaukurier.de/ezplatform/images/2/2/1/6/401946122-2-ger-DE/8faf6d5c896c-29-130529802.jpg"
+         class="img-fluid w-100  h-100 "width="908"
+        height="584"
         />
 </picture>
                                                     <span class="egy-comment-counter-top-news text-grey"
-                                  data-egy-dsc="19374899"></span>
+                                  data-egy-dsc="19379735"></span>
                                             </div>
                                 <div class="available-media top"></div>
             </div>
@@ -2053,14 +2053,14 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         <div class="col-md-5 bg-main-color">
             <div class="article-teaser-headline-container highlight first">
                 <p class="font-size-14 text-white margin-bottom-10">
-                    <span class="padding-right-5">40-Tore-Sturm für BCA</span>
+                    <span class="padding-right-5">Fast 40 Jahre Tradition</span>
                     <span class="reaction-prefix hidden">
 						/
 					</span>
-                    <span class="padding-left-5 reaction" data-url="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/rueckkehrer-semih-coklar-bildet-mit-marcus-wehren-wieder-ein-torgefaehrliches-duo-19374899"></span>
+                    <span class="padding-left-5 reaction" data-url="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/aus-fuer-die-baindlkirchener-wurstkuchl-19379735"></span>
                 </p>
                 <div class="article-teaser-headline highlight first text-white">
-                    <span data-upscore-title>Aichach-Rückkehrer Semih Coklar  und Marcus Wehren wieder vereint</span><br>
+                    <span data-upscore-title>Keine „Weiße“ mehr am Donnerstag: Aus für die Baindlkirchener Wurstkuchl</span><br>
                 </div>
             </div>
         </div>
@@ -2079,7 +2079,242 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
             <!-- begin tpl artikel container (index_box) -->
                                                                                                                                                         <!--1|12-->
                         
-<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19374008">
+<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19381451">
+        <a
+     aria-label="Hollenbach fehlen in Durach mit Knauer, Baier und Burkhard drei Innenverteidiger"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/hollenbach-fehlen-in-durach-mit-knauer-baier-und-burkhard-drei-innenverteidiger-19381451"         class="article-link position-absolute inset-0 z-100"
+     data-upscore-url ></a>        <div class="media image-top">
+            <div class="media-image-container min-768px-w-100">
+                                    <div>
+                        
+
+
+                                        
+
+
+
+
+<picture
+    class="image
+     margin-right-10             "
+    data-img-width="168"
+    data-img-height="134"
+>
+    <img
+        aria-hidden="true"
+        loading="lazy"
+        onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
+        alt=""
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/6/8/1/5/401975186-1-ger-DE/c2a25c3ca28c-29-130538698.jpg"
+         class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
+        height="134"
+        />
+</picture>
+                                            </div>
+                
+                                   <div class="available-media bottom"></div>
+                            </div>
+            <div class="media-body">
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">TSV gehen Abwehrspieler aus</div>
+                <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
+                    <span data-upscore-title>Hollenbach fehlen in Durach mit Knauer, Baier und Burkhard drei Innenverteidiger</span>
+                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19381451"></span></div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+
+                        <div class="text-center col-md-6 col-lg-4 article-teaser-col nested-col"><div id="landingpage" class="adtag d-inline-block"><div id="traffective-ad-Native_9" class="Native_9"></div></div></div>                                                                                                                                                    <!--2|12-->
+                    
+<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19379762">
+        <a
+     aria-label="Kommandant der Heretshausener Feuerwehr ist unter der Haube"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/kommandant-der-heretshausener-feuerwehr-ist-unter-der-haube-19379762"         class="article-link position-absolute inset-0 z-100"
+     data-upscore-url ></a>        <div class="media image-top">
+            <div class="media-image-container min-768px-w-100">
+                                    <div>
+                        
+
+
+                                        
+
+
+
+
+<picture
+    class="image
+     margin-right-10             "
+    data-img-width="168"
+    data-img-height="134"
+>
+    <img
+        aria-hidden="true"
+        loading="lazy"
+        onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
+        alt=""
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/5/3/6/6/401946635-1-ger-DE/263ddc78f3e3-29-130532267.jpg"
+         class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
+        height="134"
+        />
+</picture>
+                                            </div>
+                
+                                   <div class="available-media bottom"></div>
+                            </div>
+            <div class="media-body">
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Korbinian heiratet Lena</div>
+                <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
+                    <span data-upscore-title>Kommandant der Heretshausener Feuerwehr ist unter der Haube</span>
+                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19379762"></span></div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+                                                                                                                <!--3|12-->
+                    
+<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19374482">
+        <a
+     aria-label="Der fliegende Mops: Seltene Fledermaus bei Unterbernbach entdeckt"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/der-fliegende-mops-seltene-fledermaus-entdeckt-19374482"         class="article-link position-absolute inset-0 z-100"
+     data-upscore-url ></a>        <div class="media image-top">
+            <div class="media-image-container min-768px-w-100">
+                                    <div>
+                        
+
+
+                                        
+
+
+
+
+<picture
+    class="image
+     margin-right-10             "
+    data-img-width="168"
+    data-img-height="134"
+>
+    <img
+        aria-hidden="true"
+        loading="lazy"
+        onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
+        alt=""
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/2/3/0/7/401847032-2-ger-DE/eb1a4b0623e1-29-130502626.jpg"
+         class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
+        height="134"
+        />
+</picture>
+                                            </div>
+                
+                                   <div class="available-media bottom"></div>
+                            </div>
+            <div class="media-body">
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">In Bayern gefährdet</div>
+                <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
+                    <span data-upscore-title>Der fliegende Mops: Seltene Fledermaus bei Unterbernbach entdeckt</span>
+                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="is-plus donaukurier"></span>
+                            <span class="egy-comment-counter-landingpage is-plus-article" data-egy-dsc="19374482"></span>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+                                                                                                                <!--4|12-->
+                    
+<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19379189">
+        <a
+     aria-label="Zwei Verletzte nach Überschlag bei Inchenhofen"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/zwei-verletzte-nach-ueberschlag-bei-inchenhofen-19379189"         class="article-link position-absolute inset-0 z-100"
+     data-upscore-url ></a>        <div class="media image-top">
+            <div class="media-image-container min-768px-w-100">
+                                    <div>
+                        
+
+
+                                        
+
+
+
+
+<picture
+    class="image
+     margin-right-10             "
+    data-img-width="168"
+    data-img-height="134"
+>
+    <img
+        aria-hidden="true"
+        loading="lazy"
+        onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
+        alt=""
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/8/8/5/6/401936588-1-ger-DE/aa22ceeb0ed2-29-130524683.jpg"
+         class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
+        height="134"
+        />
+</picture>
+                                            </div>
+                
+                                   <div class="available-media bottom"></div>
+                            </div>
+            <div class="media-body">
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Zu schnell in die Kurve</div>
+                <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
+                    <span data-upscore-title>Zwei Verletzte nach Überschlag bei Inchenhofen</span>
+                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19379189"></span></div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+                                                                                                                <!--5|12-->
+                    
+<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19374899">
+        <a
+     aria-label="Aichach-Rückkehrer Semih Coklar  und Marcus Wehren wieder vereint"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/rueckkehrer-semih-coklar-bildet-mit-marcus-wehren-wieder-ein-torgefaehrliches-duo-19374899"         class="article-link position-absolute inset-0 z-100"
+     data-upscore-url ></a>        <div class="media image-top">
+            <div class="media-image-container min-768px-w-100">
+                                    <div>
+                        
+
+
+                                        
+
+
+
+
+<picture
+    class="image
+     margin-right-10             "
+    data-img-width="168"
+    data-img-height="134"
+>
+    <img
+        aria-hidden="true"
+        loading="lazy"
+        onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
+        alt=""
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/4/9/3/4/401854394-1-ger-DE/9ba60febfa2b-29-130504101.jpg"
+         class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
+        height="134"
+        />
+</picture>
+                                            </div>
+                
+                                   <div class="available-media bottom"></div>
+                            </div>
+            <div class="media-body">
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">40-Tore-Sturm für BCA</div>
+                <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
+                    <span data-upscore-title>Aichach-Rückkehrer Semih Coklar  und Marcus Wehren wieder vereint</span>
+                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19374899"></span></div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+                                                                                                                                        <div class="col-md-6 col-lg-8 nested-col">
+                        <div class="row">
+                                                                <!--6|12-->
+                    
+<div class="col-md-12 col-lg-6 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19374008">
         <a
      aria-label="Fünf Aichacher CSU-Stadträte treten nicht mehr an"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/fuenf-aichacher-csu-stadtraete-treten-nicht-mehr-an-19374008"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
@@ -2125,10 +2360,9 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-
-                        <div class="text-center col-md-6 col-lg-4 article-teaser-col nested-col"><div id="landingpage" class="adtag d-inline-block"><div id="traffective-ad-Native_9" class="Native_9"></div></div></div>                                                                                                                                                    <!--2|12-->
+                                                                                                                                                                        <!--7|12-->
                     
-<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19374398">
+<div class="col-md-12 col-lg-6 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19374398">
         <a
      aria-label="Baustelle für Kanal und Wasser dauert noch länger"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/baustelle-fuer-kanal-und-wasser-dauert-noch-laenger-19374398"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
@@ -2172,9 +2406,9 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                                                                                                <!--3|12-->
+                                                                                                                                                                        <!--8|12-->
                     
-<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19368113">
+<div class="col-md-12 col-lg-6 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19368113">
         <a
      aria-label="Auf den Spuren der Jungsteinzeit"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/auf-den-spuren-der-jungsteinzeit-19368113"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
@@ -2220,9 +2454,9 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                                                                                                <!--4|12-->
+                                                                                                                                                                        <!--9|12-->
                     
-<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19368377">
+<div class="col-md-12 col-lg-6 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19368377">
         <a
      aria-label="BRK-Seniorengymnastik ehrt treue Aktivposten"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/brk-seniorengymnastik-ehrt-treue-aktivposten-19368377"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
@@ -2266,7 +2500,9 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                                                                                                <!--5|12-->
+                                            </div>
+                        </div>
+                                                <div class="text-center col-md-6 col-lg-4 nested-col"><div id="traffective-ad-HalfpageAd" class="HalfpageAd"></div></div>                                                                                                                                                    <!--10|12|15|18|21-->
                     
 <div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19366697">
         <a
@@ -2314,11 +2550,9 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                                                                                                                        <div class="col-md-6 col-lg-8 nested-col">
-                        <div class="row">
-                                                                <!--6|12-->
+                                                                                                                <!--11|12|15|18|21-->
                     
-<div class="col-md-12 col-lg-6 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19368011">
+<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19368011">
         <a
      aria-label="Der Körper als Kunstwerk: Heidi Zitna ist tätowiert von Kopf bis Fuß – „Ich bin richtig spießig“"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/taetowiert-von-kopf-bis-fuss-der-koerper-als-kunstwerk-19368011"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
@@ -2364,9 +2598,9 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                                                                                                                                                        <!--7|12-->
+                                                                                                                <!--12|12|15|18|21-->
                     
-<div class="col-md-12 col-lg-6 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19368872">
+<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19368872">
         <a
      aria-label="Geparkten Pkw übersehen"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/geparkten-pkw-uebersehen-19368872"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
@@ -2410,9 +2644,9 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                                                                                                                                                        <!--8|12-->
+                                                                                                                <!--13|12|15|18|21-->
                     
-<div class="col-md-12 col-lg-6 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19367114">
+<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19367114">
         <a
      aria-label="Badeverbot am Weitmannsee aufgehoben"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/badeverbot-am-weitmannsee-aufgehoben-19367114"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
@@ -2456,9 +2690,9 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                                                                                                                                                        <!--9|12-->
+                                                                                                                <!--14|12|15|18|21-->
                     
-<div class="col-md-12 col-lg-6 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19367159">
+<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19367159">
         <a
      aria-label="Umleitung sorgt für viel Verkehr auf Aichachs Straßen"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/umleitung-sorgt-fuer-viel-verkehr-auf-aichachs-strassen-19367159"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
@@ -2502,9 +2736,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                            </div>
-                        </div>
-                                                <div class="text-center col-md-6 col-lg-4 nested-col"><div id="traffective-ad-HalfpageAd" class="HalfpageAd"></div></div>                                                                                                                                                    <!--10|12|15|18|21-->
+                                                                                                                <!--15|12|15|18|21-->
                     
 <div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19362548">
         <a
@@ -2545,240 +2777,6 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
                 <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
                     <span data-upscore-title>Was bei Sonnenstich und Hitzschlag zu tun ist</span>
                     <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19362548"></span></div>
-                </div>
-            </div>
-        </div>
-    </article>
-</div>
-                                                                                                                <!--11|12|15|18|21-->
-                    
-<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19363124">
-        <a
-     aria-label="Löwen-Fans planen schon mal die Aufstiegsfeier"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/loewen-fans-planen-schon-mal-die-aufstiegsfeier-19363124"         class="article-link position-absolute inset-0 z-100"
-     data-upscore-url ></a>        <div class="media image-top">
-            <div class="media-image-container min-768px-w-100">
-                                    <div>
-                        
-
-
-                                        
-
-
-
-
-<picture
-    class="image
-     margin-right-10             "
-    data-img-width="168"
-    data-img-height="134"
->
-    <img
-        aria-hidden="true"
-        loading="lazy"
-        onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
-        alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/1/2/4/8/401638421-1-ger-DE/c66fb5cf7bd7-29-130441000.jpg"
-         class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
-        height="134"
-        />
-</picture>
-                                            </div>
-                
-                                   <div class="available-media bottom"></div>
-                            </div>
-            <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Burgadelzhauser Club ist zuversichtlich</div>
-                <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>Löwen-Fans planen schon mal die Aufstiegsfeier</span>
-                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19363124"></span></div>
-                </div>
-            </div>
-        </div>
-    </article>
-</div>
-                                                                                                                <!--12|12|15|18|21-->
-                    
-<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19321991">
-        <a
-     aria-label="Tour zu berühmtem Wallfahrtsort durch das geschichtsträchtige Wittelsbacher Land"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/tour-zu-beruehmtem-wallfahrtsortdurch-das-geschichtstraechtige-wittelsbacher-land-19321991"         class="article-link position-absolute inset-0 z-100"
-     data-upscore-url ></a>        <div class="media image-top">
-            <div class="media-image-container min-768px-w-100">
-                                    <div>
-                        
-
-
-                                        
-
-
-
-
-<picture
-    class="image
-     margin-right-10             "
-    data-img-width="168"
-    data-img-height="134"
->
-    <img
-        aria-hidden="true"
-        loading="lazy"
-        onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
-        alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/4/0/3/4/400924304-2-ger-DE/432495e4e5a3-29-130250619.jpg"
-         class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
-        height="134"
-        />
-</picture>
-                                            </div>
-                
-                                   <div class="available-media bottom"></div>
-                            </div>
-            <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">DK-Radlsommer</div>
-                <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>Tour zu berühmtem Wallfahrtsort durch das geschichtsträchtige Wittelsbacher Land</span>
-                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="is-plus donaukurier"></span>
-                            <span class="egy-comment-counter-landingpage is-plus-article" data-egy-dsc="19321991"></span>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </article>
-</div>
-                                                                                                                <!--13|12|15|18|21-->
-                    
-<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19362974">
-        <a
-     aria-label="Kühbacher Peterhof-Wirt übernimmt auch den Burghof"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/kuehbacher-peterhof-wirt-uebernimmt-auch-den-burghof-19362974"         class="article-link position-absolute inset-0 z-100"
-     data-upscore-url ></a>        <div class="media image-top">
-            <div class="media-image-container min-768px-w-100">
-                                    <div>
-                        
-
-
-                                        
-
-
-
-
-<picture
-    class="image
-     margin-right-10             "
-    data-img-width="168"
-    data-img-height="134"
->
-    <img
-        aria-hidden="true"
-        loading="lazy"
-        onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
-        alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/7/3/6/5/401635637-1-ger-DE/def48a6b5bea-29-130440839.jpg"
-         class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
-        height="134"
-        />
-</picture>
-                                            </div>
-                
-                                   <div class="available-media bottom"></div>
-                            </div>
-            <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Pächterwechsel in Oberwittelsbach</div>
-                <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>Kühbacher Peterhof-Wirt übernimmt auch den Burghof</span>
-                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19362974"></span></div>
-                </div>
-            </div>
-        </div>
-    </article>
-</div>
-                                                                                                                <!--14|12|15|18|21-->
-                    
-<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19368353">
-        <a
-     aria-label="Monika Koch feierte ihren 80. Geburtstag"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/monika-koch-feierte-ihren-80-geburtstag-19368353"         class="article-link position-absolute inset-0 z-100"
-     data-upscore-url ></a>        <div class="media image-top">
-            <div class="media-image-container min-768px-w-100">
-                                    <div>
-                        
-
-
-                                        
-
-
-
-
-<picture
-    class="image
-     margin-right-10             "
-    data-img-width="168"
-    data-img-height="134"
->
-    <img
-        aria-hidden="true"
-        loading="lazy"
-        onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
-        alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/6/2/3/3/401733326-1-ger-DE/0bf6388cb915-29-130466626.jpg"
-         class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
-        height="134"
-        />
-</picture>
-                                            </div>
-                
-                                   <div class="available-media bottom"></div>
-                            </div>
-            <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Eine „gute Seele“ aus Aichach</div>
-                <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>Monika Koch feierte ihren 80. Geburtstag</span>
-                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19368353"></span></div>
-                </div>
-            </div>
-        </div>
-    </article>
-</div>
-                                                                                                                <!--15|12|15|18|21-->
-                    
-<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19362899">
-        <a
-     aria-label="Energie für 21.000 Haushalte: Pöttmeser können Strom aus Schnellmannskreuth kaufen"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/poettmeser-koennen-strom-aus-schnellmannskreuth-kaufen-19362899"         class="article-link position-absolute inset-0 z-100"
-     data-upscore-url ></a>        <div class="media image-top">
-            <div class="media-image-container min-768px-w-100">
-                                    <div>
-                        
-
-
-                                        
-
-
-
-
-<picture
-    class="image
-     margin-right-10             "
-    data-img-width="168"
-    data-img-height="134"
->
-    <img
-        aria-hidden="true"
-        loading="lazy"
-        onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
-        alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/0/8/3/4/401634380-2-ger-DE/68dee92f6e0c-29-130440838.jpg"
-         class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
-        height="134"
-        />
-</picture>
-                                            </div>
-                
-                                   <div class="available-media bottom"></div>
-                            </div>
-            <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Solarpark liefert zum Jahresende</div>
-                <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>Energie für 21.000 Haushalte: Pöttmeser können Strom aus Schnellmannskreuth kaufen</span>
-                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="is-plus donaukurier"></span>
-                            <span class="egy-comment-counter-landingpage is-plus-article" data-egy-dsc="19362899"></span>
-                        </div>
                 </div>
             </div>
         </div>
@@ -3113,6 +3111,51 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
     </div>        
         <div class="row article-teaser-row">
                                                 
+<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19379189">
+        <a
+     aria-label="Zwei Verletzte nach Überschlag bei Inchenhofen"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/zwei-verletzte-nach-ueberschlag-bei-inchenhofen-19379189"         class="article-link position-absolute inset-0 z-100"
+     data-upscore-url ></a>        <div class="media image-top">
+            <div class="media-image-container min-768px-w-100">
+                                    <div>
+                        
+
+
+                                        
+
+
+
+
+<picture
+    class="image
+     margin-right-10             "
+    data-img-width="168"
+    data-img-height="134"
+>
+    <img
+        aria-hidden="true"
+        loading="lazy"
+        onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
+        alt=""
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/8/8/5/6/401936588-1-ger-DE/aa22ceeb0ed2-29-130524683.jpg"
+         class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
+        height="134"
+        />
+</picture>
+                                            </div>
+                
+                                   <div class="available-media bottom"></div>
+                            </div>
+            <div class="media-body">
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Zu schnell in die Kurve</div>
+                <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
+                    <span data-upscore-title>Zwei Verletzte nach Überschlag bei Inchenhofen</span>
+                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19379189"></span></div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+                                                                
 <div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19354160">
         <a
      aria-label="Autofahrer weicht Reh aus und landet bei Immendorf in einem Feld "      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/autofahrer-weicht-reh-aus-und-landet-bei-immendorf-in-einem-feld-19354160"         class="article-link position-absolute inset-0 z-100"
@@ -3247,51 +3290,6 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                                                
-<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19316117">
-        <a
-     aria-label="Lkw-Fahrer ist zu betrunken  für Alkoholtest"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/lkw-fahrer-ist-zu-betrunken-fuer-alkoholtest-19316117"         class="article-link position-absolute inset-0 z-100"
-     data-upscore-url ></a>        <div class="media image-top">
-            <div class="media-image-container min-768px-w-100">
-                                    <div>
-                        
-
-
-                                        
-
-
-
-
-<picture
-    class="image
-     margin-right-10             "
-    data-img-width="168"
-    data-img-height="134"
->
-    <img
-        aria-hidden="true"
-        loading="lazy"
-        onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
-        alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/5/1/4/6/400816415-1-ger-DE/bc9d2e6c9ca4-29-130229556.jpg"
-         class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
-        height="134"
-        />
-</picture>
-                                            </div>
-                
-                                   <div class="available-media bottom"></div>
-                            </div>
-            <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Friedberg</div>
-                <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>Lkw-Fahrer ist zu betrunken  für Alkoholtest</span>
-                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19316117"></span></div>
-                </div>
-            </div>
-        </div>
-    </article>
-</div>
                                     </div>
 
                     
@@ -3313,9 +3311,9 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
     </div>        
         <div class="row article-teaser-row">
                                                 
-<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19375853">
+<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19381562">
         <a
-     aria-label="Rückschlag für Mitte.Augsburg: Wahlbündnis verliert möglichen OB-Kandidat"      href="https://www.donaukurier.de/lokales/region-augsburg/rueckschlag-fuer-mitteaugsburg-wahlbuendnis-verliert-moeglichen-ob-kandidat-19375853"         class="article-link position-absolute inset-0 z-100"
+     aria-label="Weil Begleiter nicht ins Festzelt dürfen: 23-Jähriger geht auf Security-Mitarbeiter und Polizei los"      href="https://www.donaukurier.de/lokales/region-augsburg/weil-begleiter-nicht-ins-festzelt-duerfen-23-jaehriger-geht-auf-security-mitarbeiter-und-polizei-los-19381562"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
             <div class="media-image-container min-768px-w-100">
                                     <div>
@@ -3338,7 +3336,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         loading="lazy"
         onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
         alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/1/9/5/0/401870591-1-ger-DE/26ada03a4c08-29-130506716.jpg"
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/2/7/1/7/401977172-1-ger-DE/7c6dafacc15a-29-130538303.jpg"
          class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
         height="134"
         />
@@ -3348,21 +3346,19 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
                                    <div class="available-media bottom"></div>
                             </div>
             <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Ärger mit Digitalminister Fabian Mehring</div>
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Aggressive Plärrerbesucher</div>
                 <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>Rückschlag für Mitte.Augsburg: Wahlbündnis verliert möglichen OB-Kandidat</span>
-                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="is-plus donaukurier"></span>
-                            <span class="egy-comment-counter-landingpage is-plus-article" data-egy-dsc="19375853"></span>
-                        </div>
+                    <span data-upscore-title>Weil Begleiter nicht ins Festzelt dürfen: 23-Jähriger geht auf Security-Mitarbeiter und Polizei los</span>
+                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19381562"></span></div>
                 </div>
             </div>
         </div>
     </article>
 </div>
                                                                 
-<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19375577">
+<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19381013">
         <a
-     aria-label="Vier Jugendliche klauen Alkohol an Tankstelle in Augsburg"      href="https://www.donaukurier.de/lokales/region-augsburg/vier-jugendliche-klauen-alkohol-an-tankstelle-in-augsburg-19375577"         class="article-link position-absolute inset-0 z-100"
+     aria-label="Glück für betrunkenen Autofahrer (56) in Augsburg: Polizei verhindert Alkoholfahrt"      href="https://www.donaukurier.de/lokales/region-augsburg/glueck-fuer-betrunkenen-autofahrer-56-in-augsburg-polizei-verhindert-alkoholfahrt-19381013"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
             <div class="media-image-container min-768px-w-100">
                                     <div>
@@ -3385,7 +3381,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         loading="lazy"
         onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
         alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/7/9/0/6/401866097-1-ger-DE/8a3e1c6cd707-29-130506239.jpg"
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/8/6/6/7/401967668-1-ger-DE/e9ad49f1fcee-29-130538075.jpg"
          class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
         height="134"
         />
@@ -3395,19 +3391,19 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
                                    <div class="available-media bottom"></div>
                             </div>
             <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Zwischen 15 und 17 Jahre alt</div>
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Keine strafrechtlichen Konsequenzen</div>
                 <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>Vier Jugendliche klauen Alkohol an Tankstelle in Augsburg</span>
-                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19375577"></span></div>
+                    <span data-upscore-title>Glück für betrunkenen Autofahrer (56) in Augsburg: Polizei verhindert Alkoholfahrt</span>
+                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19381013"></span></div>
                 </div>
             </div>
         </div>
     </article>
 </div>
                                                                 
-<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19375043">
+<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19380308">
         <a
-     aria-label="Frau (39) aus Augsburg fällt auf Betrüger rein und verliert mehrere Tausend Euro"      href="https://www.donaukurier.de/lokales/region-augsburg/frau-39-aus-augsburg-faellt-auf-betrueger-rein-und-verliert-mehrere-tausend-euro-19375043"         class="article-link position-absolute inset-0 z-100"
+     aria-label="Trickbetrüger erbeuten von Frau aus dem Landkreis Augsburg mehrere Zehntausend Euro"      href="https://www.donaukurier.de/lokales/region-augsburg/trickbetrueger-erbeuten-von-frau-aus-dem-landkreis-augsburg-mehrere-zehntausend-euro-19380308"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
             <div class="media-image-container min-768px-w-100">
                                     <div>
@@ -3430,7 +3426,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         loading="lazy"
         onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
         alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/7/3/0/7/401857037-1-ger-DE/f53c6b1d65eb-29-130504639.jpg"
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/1/4/6/5/401955641-1-ger-DE/3ad1b4059129-29-130534498.jpg"
          class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
         height="134"
         />
@@ -3440,19 +3436,19 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
                                    <div class="available-media bottom"></div>
                             </div>
             <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Kontodaten ausgespäht</div>
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Erfolgreicher Schockanruf</div>
                 <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>Frau (39) aus Augsburg fällt auf Betrüger rein und verliert mehrere Tausend Euro</span>
-                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19375043"></span></div>
+                    <span data-upscore-title>Trickbetrüger erbeuten von Frau aus dem Landkreis Augsburg mehrere Zehntausend Euro</span>
+                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19380308"></span></div>
                 </div>
             </div>
         </div>
     </article>
 </div>
                                                                 
-<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19374836">
+<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19380236">
         <a
-     aria-label="Mann (38) prügelt sich in Augsburg mit Personengruppe und greift Polizei an"      href="https://www.donaukurier.de/lokales/region-augsburg/mann-38-pruegelt-sich-in-augsburg-mit-personengruppe-und-greift-polizei-an-19374836"         class="article-link position-absolute inset-0 z-100"
+     aria-label="Wechsel bei der Augsburger Kripo: Simon Crauser übernimmt Kriminalfachdezernat 1"      href="https://www.donaukurier.de/lokales/region-augsburg/wechsel-bei-der-augsburger-kripo-simon-crauser-uebernimmt-kriminalfachdezernat-1-19380236"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
             <div class="media-image-container min-768px-w-100">
                                     <div>
@@ -3475,7 +3471,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         loading="lazy"
         onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
         alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/4/9/1/3/401853194-1-ger-DE/73dfe61c88a0-29-130503851.jpg"
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/3/3/3/4/401954333-1-ger-DE/671491eebe1f-29-130534496.jpg"
          class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
         height="134"
         />
@@ -3485,10 +3481,10 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
                                    <div class="available-media bottom"></div>
                             </div>
             <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">An Plärrer-Haltestelle</div>
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Zuständig für Staatsschutz</div>
                 <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>Mann (38) prügelt sich in Augsburg mit Personengruppe und greift Polizei an</span>
-                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19374836"></span></div>
+                    <span data-upscore-title>Wechsel bei der Augsburger Kripo: Simon Crauser übernimmt Kriminalfachdezernat 1</span>
+                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19380236"></span></div>
                 </div>
             </div>
         </div>
@@ -3727,9 +3723,9 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
     </div>        
         <div class="row article-teaser-row">
                                                 
-<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19375211">
+<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19381673">
         <a
-     aria-label="Der Festplatz ist bereit: Heute startet der Barthelmarkt in Oberstimm"      href="https://www.donaukurier.de/lokales/landkreis-pfaffenhofen/der-festplatz-ist-bereit-heute-startet-der-barthelmarkt-in-oberstimm-19375211"         class="article-link position-absolute inset-0 z-100"
+     aria-label="Derbyzeit in Ilmmünster - Gebeutelte Wolnzacher schon heute Abend in Rottenegg"      href="https://www.donaukurier.de/lokales/landkreis-pfaffenhofen/derbyzeit-in-ilmmuenster-gebeutelte-wolnzacher-schon-heute-abend-in-rottenegg-19381673"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
             <div class="media-image-container min-768px-w-100">
                                     <div>
@@ -3752,7 +3748,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         loading="lazy"
         onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
         alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/5/7/5/9/401859575-2-ger-DE/847bd3d5dd54-29-130504638.jpg"
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/9/7/8/8/401978879-1-ger-DE/8cb90a361bc7-29-130539204.jpg"
          class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
         height="134"
         />
@@ -3762,19 +3758,19 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
                                    <div class="available-media bottom"></div>
                             </div>
             <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Mit Übersichtskarte</div>
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Vorschauen im Kreis Donau/Isar</div>
                 <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>Der Festplatz ist bereit: Heute startet der Barthelmarkt in Oberstimm</span>
-                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19375211"></span></div>
+                    <span data-upscore-title>Derbyzeit in Ilmmünster - Gebeutelte Wolnzacher schon heute Abend in Rottenegg</span>
+                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19381673"></span></div>
                 </div>
             </div>
         </div>
     </article>
 </div>
                                                                 
-<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19373960">
+<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19375736">
         <a
-     aria-label="Selbstmord doer Mord: Wie starb Pfarrer Braun?"      href="https://www.donaukurier.de/lokales/landkreis-pfaffenhofen/selbstmord-doer-mord-wie-starb-pfarrer-braun-19373960"         class="article-link position-absolute inset-0 z-100"
+     aria-label="Handy am Steuer: 53-Jähriger kommt vor Gericht dank kurioser Erklärung davon"      href="https://www.donaukurier.de/lokales/landkreis-pfaffenhofen/handy-am-steuer-53-jaehriger-kommt-vor-gericht-dank-kurioser-erklaerung-davon-19375736"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
             <div class="media-image-container min-768px-w-100">
                                     <div>
@@ -3797,7 +3793,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         loading="lazy"
         onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
         alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/9/5/3/8/401838359-2-ger-DE/3c379329574c-29-130498389.jpg"
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/8/4/5/8/401868548-1-ger-DE/9d20fcaeb007-29-130506381.jpg"
          class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
         height="134"
         />
@@ -3807,11 +3803,11 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
                                    <div class="available-media bottom"></div>
                             </div>
             <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Die Rätsel von Ainau</div>
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Verhandlung in Pfaffenhofen</div>
                 <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>Selbstmord doer Mord: Wie starb Pfarrer Braun?</span>
+                    <span data-upscore-title>Handy am Steuer: 53-Jähriger kommt vor Gericht dank kurioser Erklärung davon</span>
                     <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="is-plus donaukurier"></span>
-                            <span class="egy-comment-counter-landingpage is-plus-article" data-egy-dsc="19373960"></span>
+                            <span class="egy-comment-counter-landingpage is-plus-article" data-egy-dsc="19375736"></span>
                         </div>
                 </div>
             </div>
@@ -3819,9 +3815,9 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
     </article>
 </div>
                                                                 
-<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19375784">
+<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19380500">
         <a
-     aria-label="397 junge Leute in Ingolstadt und im Landkreis Pfaffenhofen starten Ausbildung im Handwerk"      href="https://www.donaukurier.de/lokales/landkreis-pfaffenhofen/397-junge-leute-in-ingolstadt-und-dem-landkreis-pfaffenhofen-starten-ausbildung-im-handwerk-19375784"         class="article-link position-absolute inset-0 z-100"
+     aria-label="Vandalen sprühen Fußballbotschaften an Hochwasserschutzmauer"      href="https://www.donaukurier.de/lokales/landkreis-pfaffenhofen/vandalen-spruehen-fussballbotschaften-an-hochwasserschutzmauer-19380500"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
             <div class="media-image-container min-768px-w-100">
                                     <div>
@@ -3844,7 +3840,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         loading="lazy"
         onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
         alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/3/1/3/9/401869313-2-ger-DE/fbee96432db8-29-130505641.jpg"
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/7/5/8/8/401958857-1-ger-DE/ed9e00948821-29-130536228.jpg"
          class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
         height="134"
         />
@@ -3854,19 +3850,19 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
                                    <div class="available-media bottom"></div>
                             </div>
             <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Zahl der Verträge gestiegen</div>
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">4000 Euro Schaden in Wolnzach</div>
                 <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>397 junge Leute in Ingolstadt und im Landkreis Pfaffenhofen starten Ausbildung im Handwerk</span>
-                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19375784"></span></div>
+                    <span data-upscore-title>Vandalen sprühen Fußballbotschaften an Hochwasserschutzmauer</span>
+                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19380500"></span></div>
                 </div>
             </div>
         </div>
     </article>
 </div>
                                                                 
-<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19374929">
+<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19375814">
         <a
-     aria-label="Unterschätzte Gefahr: So wird E-Bike-Fahren sicherer"      href="https://www.donaukurier.de/lokales/landkreis-pfaffenhofen/unterschaetzte-gefahr-so-wird-e-bike-fahren-sicherer-19374929"         class="article-link position-absolute inset-0 z-100"
+     aria-label="Liveblog zum Barthelmarkt 2025: Ozapft is – Das bekannteste Volksfest der Region läuft"      href="https://www.donaukurier.de/lokales/landkreis-pfaffenhofen/live-ticker-zum-barthelmarkt-2025-das-bekannteste-volksfest-der-region-beginnt-wieder-19375814"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
             <div class="media-image-container min-768px-w-100">
                                     <div>
@@ -3889,7 +3885,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         loading="lazy"
         onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
         alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/3/7/9/4/401854973-2-ger-DE/81deab1dd630-29-130504545.jpg"
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/3/2/0/3/401973023-3-ger-DE/548f819a9549-29-130538556.jpg"
          class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
         height="134"
         />
@@ -3899,10 +3895,10 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
                                    <div class="available-media bottom"></div>
                             </div>
             <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Tipps von der Pfaffenhofener Polizei</div>
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">DK-Redakteure unterwegs in Oberstimm</div>
                 <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>Unterschätzte Gefahr: So wird E-Bike-Fahren sicherer</span>
-                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19374929"></span></div>
+                    <span data-upscore-title>Liveblog zum Barthelmarkt 2025: O&#039;zapft is – Das bekannteste Volksfest der Region läuft</span>
+                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19375814"></span></div>
                 </div>
             </div>
         </div>
@@ -3929,9 +3925,9 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
     </div>        
         <div class="row article-teaser-row">
                                                 
-<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19374974">
+<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19381082">
         <a
-     aria-label="20 bis 30 neue Anlagen: So geht es mit der Windkraft im Schrobenhausener Land weiter"      href="https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/20-bis-30-neue-anlagen-so-geht-es-mit-der-windkraft-im-schrobenhausener-land-weiter-19374974"         class="article-link position-absolute inset-0 z-100"
+     aria-label="Sigs Kneipe: Der Lindenkeller in Schrobenhausen feiert 50. Geburtstag"      href="https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/sig-s-kneipe-der-lindenkeller-in-schrobenhausen-feiert-50-geburtstag-19381082"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
             <div class="media-image-container min-768px-w-100">
                                     <div>
@@ -3954,7 +3950,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         loading="lazy"
         onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
         alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/8/1/6/5/401855618-1-ger-DE/c3cb53dcbc7d-29-130503854.jpg"
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/6/0/7/8/401968706-1-ger-DE/3d431c2c2a47-29-130536778.jpg"
          class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
         height="134"
         />
@@ -3964,11 +3960,11 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
                                    <div class="available-media bottom"></div>
                             </div>
             <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Aktuell acht Windräder</div>
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Ideal und Institution</div>
                 <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>20 bis 30 neue Anlagen: So geht es mit der Windkraft im Schrobenhausener Land weiter</span>
+                    <span data-upscore-title>Sig&#039;s Kneipe: Der Lindenkeller in Schrobenhausen feiert 50. Geburtstag</span>
                     <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="is-plus donaukurier"></span>
-                            <span class="egy-comment-counter-landingpage is-plus-article" data-egy-dsc="19374974"></span>
+                            <span class="egy-comment-counter-landingpage is-plus-article" data-egy-dsc="19381082"></span>
                         </div>
                 </div>
             </div>
@@ -3976,9 +3972,9 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
     </article>
 </div>
                                                                 
-<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19374494">
+<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19374563">
         <a
-     aria-label="Ein schreibender Filmjunkie: Langenmosener veröffentlicht sein erstes Buch"      href="https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/ein-schreibender-filmjunkie-langenmosener-veroeffentlicht-sein-erstes-buch-19374494"         class="article-link position-absolute inset-0 z-100"
+     aria-label="Hunderte Besucher erwartet: Schutzengelfest in Halsbach findet am 7. September statt"      href="https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/hunderte-besucher-erwartet-schutzengelfest-in-halsbach-findet-am-7-september-statt-19374563"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
             <div class="media-image-container min-768px-w-100">
                                     <div>
@@ -4001,7 +3997,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         loading="lazy"
         onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
         alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/2/7/2/7/401847272-2-ger-DE/d816f020883d-29-130502716.jpg"
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/3/6/4/8/401848463-1-ger-DE/47affa77b3f1-29-130502718.jpg"
          class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
         height="134"
         />
@@ -4011,21 +4007,19 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
                                    <div class="available-media bottom"></div>
                             </div>
             <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Bei einem Band bleibt es nicht</div>
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">300-jährige Geschichte</div>
                 <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>Ein schreibender Filmjunkie: Langenmosener veröffentlicht sein erstes Buch</span>
-                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="is-plus donaukurier"></span>
-                            <span class="egy-comment-counter-landingpage is-plus-article" data-egy-dsc="19374494"></span>
-                        </div>
+                    <span data-upscore-title>Hunderte Besucher erwartet: Schutzengelfest in Halsbach findet am 7. September statt</span>
+                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19374563"></span></div>
                 </div>
             </div>
         </div>
     </article>
 </div>
                                                                 
-<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19375622">
+<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19375328">
         <a
-     aria-label="Delegation reiste zum 281. Saint-Louis-Fest in Neuburgs Partnerstadt Sète"      href="https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/delegation-reiste-zum-281-saint-louis-fest-in-neuburgs-partnerstadt-sete-19375622"         class="article-link position-absolute inset-0 z-100"
+     aria-label="Weinlese am Neuburger Stadtberg innerhalb weniger Stunden abgeschlossen "      href="https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/weinlese-am-neuburger-stadtberg-innerhalb-weniger-stunden-abgeschlossen-19375328"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
             <div class="media-image-container min-768px-w-100">
                                     <div>
@@ -4048,7 +4042,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         loading="lazy"
         onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
         alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/5/7/7/6/401866775-1-ger-DE/c5287abca4be-29-130506016.jpg"
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/8/3/7/1/401861738-1-ger-DE/964995f50f15-29-130505262.jpg"
          class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
         height="134"
         />
@@ -4058,21 +4052,19 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
                                    <div class="available-media bottom"></div>
                             </div>
             <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Fischerstechen, Festmusik und Freundschaften</div>
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Trauben gehen an die Tafel</div>
                 <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>Delegation reiste zum 281. Saint-Louis-Fest in Neuburgs Partnerstadt Sète</span>
-                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="is-plus donaukurier"></span>
-                            <span class="egy-comment-counter-landingpage is-plus-article" data-egy-dsc="19375622"></span>
-                        </div>
+                    <span data-upscore-title>Weinlese am Neuburger Stadtberg innerhalb weniger Stunden abgeschlossen </span>
+                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19375328"></span></div>
                 </div>
             </div>
         </div>
     </article>
 </div>
                                                                 
-<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19374272">
+<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19374923">
         <a
-     aria-label="Bekanntes Kanadisches Duo startet Deutschland-Tournee in Neuburg"      href="https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/bekanntes-kanadisches-duo-startet-deutschland-tournee-in-neuburg-19374272"         class="article-link position-absolute inset-0 z-100"
+     aria-label="Handwerksberufe: 165 Auszubildende starten im Kreis Neuburg-Schrobenhausen"      href="https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/handwerksberufe-165-auszubildende-starten-im-kreis-neuburg-schrobenhausen-19374923"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
             <div class="media-image-container min-768px-w-100">
                                     <div>
@@ -4095,7 +4087,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         loading="lazy"
         onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
         alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/8/8/5/3/401843588-1-ger-DE/700736122390-29-130500796.jpg"
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/3/5/8/4/401854853-1-ger-DE/c8f0f0dab0f7-29-130503539.jpg"
          class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
         height="134"
         />
@@ -4105,12 +4097,10 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
                                    <div class="available-media bottom"></div>
                             </div>
             <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Zwei Globetrotter an der Fiddle und am Banjo</div>
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">„Macher und Problemlöser“</div>
                 <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>Bekanntes Kanadisches Duo startet Deutschland-Tournee in Neuburg</span>
-                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="is-plus donaukurier"></span>
-                            <span class="egy-comment-counter-landingpage is-plus-article" data-egy-dsc="19374272"></span>
-                        </div>
+                    <span data-upscore-title>Handwerksberufe: 165 Auszubildende starten im Kreis Neuburg-Schrobenhausen</span>
+                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19374923"></span></div>
                 </div>
             </div>
         </div>

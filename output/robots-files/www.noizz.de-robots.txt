@@ -377,7 +377,7 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
 
     
         <style>#onet-ad-flat-belkagorna:before { content: ''; display: table; padding-top: 7.8125%; width:0; float: left} #onet-ad-flat-belkagorna:after {content: '';display: table;clear: both;}</style><script>(function (o,t,e,r,s){function d(){if(c||!l.meta||"tag"===l.meta.server||l.data&&l.data.meta&&l.data.meta.height){if(!t){var e=document.getElementById(l.id);if(!e)return void console.warn("BackRequest warning: ad container's expected id = "+l.id);e.className+=" dlapi-placeholder"}e=window.onetAds||window.dlApi;e?(e.cmd=e.cmd||[],e.cmd.push(function(a){function e(){if(r)return(t=a.defineSlot(l.slot,l.id)).setCollapseEmpty(!0),t.setProperty("backRender",!0),a.fetch();var t,e={};if((t=a.defineSlot(l.slot,l.id,{ir:a.prepareUniqueId()})).setProperty("backRender",!0),a.toFetch=a.toFetch.filter(function(e){return e!==t}),c)return t.noAd(),e={adserver:"das",slot:l.slot,type:"unfilled"},n(e);var d=a.defineAd(l.adid,t,l.type,l.html,l.js,l.data.meta.width,l.data.meta.height,l.data,l.meta,l.prio,void 0,l.gctx,l.lctx);d.prepareContainer(),t.registerAd(d),a.addLazyAd(d),e={adid:l.adid,adserver:"das",body:o,slot:l.slot,status:200,type:"filled"},n(e)}var t,d,i,n=function(e){var t={adsSlots:{}};t.adsSlots[l.id]=[e],a.fire("backendEmission",t)};a.isReady?e():a.on("onready",function(){e()}),t=s,d=l.id,(i=document.getElementById(d+"-fallback-styles"))||((i=document.createElement("style")).setAttribute("id",d+"-fallback-styles"),document.head.appendChild(i)),i.innerHTML=t})):console.warn("BackRequest warning: dlApi or oneAds object expected. adBody.id= "+l.id)}else console.warn("BackRequest warning: missing height in data.meta section")}var l=JSON.parse(o),c="empty"===l.type;e?d():(window.dlApiBackendRequesting=window.dlApiBackendRequesting||{},window.dlApiBackendRequesting[l.id]=d)}
-)('{\"lctx\":\"eJx1kN1OwzAMhd8ltzTgpNv68xrAdZUuprLIkinJKn7Eu-OsAzqJ3UTy8RefY3-KkewQTUbRwz1UYh_RZJpxICt60bUb1dRiJSf6YFSoTsNbs73quJC58-JMliO6VzOF6M2amDEmCp4hDXoroZVaPam2V9AD3EF5Gbdo3OKutNrVxR1TpgNn5KQ4oz_9hKU0oKOJRsdKjieshCOPlPFwmdDqumuVWOm3QsBViISRQYasSaW8tVtpLFbBY5bGyn-Y98TGf7PO5fKJleqSsfq9dT66YR_s-czNZqdV_fB4DD6FSH6Sz57KCsaJr2_8JYoz\",\"gctx\":\"eJwVjjGPgzAMhf-LZwYCpRVsN95yHcrU08kyxEURxEFJRGlP99_PTJbf5-f3foEsCudniDN0YC6nc2VqKIAikwrTEp5Cuo-SoTMFWN7cyJhfKyu2nOYcVuW8sWTMznPK5Fe9vTTnU2NM2xTgEvowuEUtD1oSFzDzSyNtgu4bvq6f9zv2tx5Nq5_SGJnFyYQTC0daVDvgh06hzQ1hx8gPrMtyr5py3eFHTTz5o0AkscFD19aquXx0lODeb_j7B5umTG8\",\"type\":\"tpl\",\"body\":\"\",\"adid\":\"das,1823981,984173\",\"slot\":\"flat-belkagorna\",\"width\":\"1920\",\"height\":\"150\",\"html\":\"\",\"js\":\"\",\"id\":\"onet-ad-flat-belkagorna\",\"prio\":10,\"data\":{\"fields\":{\"actionCountCollapse\":null,\"actionCountExpand\":null,\"collapseButton\":\"\",\"collapsedClick\":\"https://laczanasslowa.onet.pl/opowiesc/fortuna,7.html\",\"collapsedIframe\":null,\"collapsedImage\":\"https://ocdn.eu/lps/1746213/creative/000/000984/000984173/1755799803365/1755799803371/LaczaNasSlowa_1920x150opowiadania.jpg\",\"expandButton\":\"\",\"expandedClick1\":\"\",\"expandedHtml\":\"\",\"expandedImage\":\"\",\"gde_fastid\":null,\"gde_id\":null,\"gde_inscreen\":null,\"gde_stparam\":null,\"gde_subdomena\":\"onet\",\"impression1\":null,\"impression2\":null,\"impressionActiveview\":null,\"impressionJs\":null,\"infoText\":\"Autopromocja\",\"infoTextBackground\":\"transparent\",\"infoTextColor\":\"#000\",\"infoTextShow\":\"text-all\",\"screeningClick\":null,\"screeningImage\":null,\"separator\":null,\"stickyClick\":\"https://laczanasslowa.onet.pl/opowiesc/fortuna,7.html\",\"stickyIframe\":null,\"stickyImage\":\"https://ocdn.eu/lps/1746213/creative/000/000984/000984173/1755799807609/1755799807616/LaczaNasSlowa_1920x75opowiadania.jpg\"},\"meta\":{\"actioncount\":\"https://csr.onet.pl/eclk/das,1823981,984173/IP=202508290906357817946874/IV=202508290906357817946874/IR=202508290906357818081008/GCTX=eJyrVsouL0pRslLy8_eMiooPCQ6JN7TULk4uSk3Ny8xLj09PzUstSszRBkk4aucllmUm5VfEF6WmxRsbGFQYmRoUVCjpKOUkZpUAzTAAMvMKEqGs4tT0-KLEPJDhlsYgfnEOkGmoVAsAt0Ej9w/SLOT=flat-belkagorna/NID=1746213/S=NOIZZ/A=GLOWNA/SID=onet-ad-flat-belkagorna/DID=121633/\",\"adclick\":\"https://csr.onet.pl/1746213/clk/das,1823981,984173?gctx=eJyNUdtu2zAM_Re9xt4oO4kvb9laFMGKZoizDOiLwMSKoUaRDElOvRX991HZVmDYVvRF4uWQhzx8YgtWs5vb1de7BUvYhzWrIWEfm9vVhuIHjSHdSX3EzjqDBLhaXrGaZ3ye5wlbfiZMBtkMyqyCCub5rCh5UU3nZTEl8HL9r3wJJQcoY377ev2n7fHRtYS5Wy3v78Wm2QheTfzeSWmU6UQnjXSoJzGxmBg8q50dhZMHkQOM1LYfL100PgTqAhfH9Phie9kJhyZSVPnPiNfkcLKb37zRvl5vr-MyLfroRhGYNTKk2KZ_i_Rf9bA9SxeUl04oIp0WUCSM1hF7aw6qGxwGZY0gkKf_lzgplGnGN7ysOdQAE4gvNZM-qBMG2dLGZ2kGSad7R8eTY3AojmfP6ie2c_Yx0mk03YAdYVivqfiEZjjgPgxOOoo1vWrJeE6YVm8cBv4Ypne2HfbhslbOE-bV98jFqwzGYkYA_80HeXqRMPSaeNoLppjOM56_b3prvHV02PSLUZEWNXv-ARsaxWU&at=1756451195&uuid=734acf2e454b3cb189f274073dd1cd7c&URL=\",\"adid\":\"das,1823981,984173\",\"autoscale\":1,\"container_wrapper\":\"\",\"height\":\"150\",\"inIFrame\":false,\"isGamNativeFormat\":false,\"slot\":\"flat-belkagorna\",\"width\":\"1920\"},\"tplCode\":\"1746213/Sponsoring-Universal\",\"tplPath\":\"tpl/1eab0def8b178bbbae421de3bce125e8.js\"},\"meta\":{\"server\":\"das\",\"async_render\":false,\"mailing_meta\":null,\"set_slot_size\":true,\"viewability_cfg\":null,\"async_viewability\":true,\"enable_conversion_tracking\":true,\"viewability\":1},\"bid_rate\":0}',false,true,true,"#onet-ad-flat-belkagorna:before { content: ''; display: table; padding-top: 7.8125%; width:0; float: left} #onet-ad-flat-belkagorna:after {content: '';display: table;clear: both;}")</script>
+)('{\"lctx\":\"eJx1kN1OwzAMhd8ltzTgZPQvrwFcV-liKossmZKs4ke8O-46xiaNm0g-_uJz7C8xkhuSLSgM3EMltgltoRkHcsKIvtso1YoLOdMno0L1Gt7b-qrjY-HOq7dFjujf7BRTsJfEjClTDAxp0LWETqr-GXoDtQG4A-CXcYfWr-5Kq7rRLGEutOOMnBRnDIffsJQH9DTR6Fkp6YCV8BSQCu5OEzqt22ZZ4KzfDtGZ-ipExsQgQ87mpfxvt6WxWsWARVonbzAfmY3_Zh3L9RMr1Sljdb512fthG93xzO1jo9Xm4WkfQ46JwiRfAi0rWC--fwARtIpL\",\"gctx\":\"eJwVjjGPwjAMhf-L5w5NW6iu2423HANMIGSZxlRRG6dKolJA_HfcyfL7_PzeG8iicH6EOEIHpm32lamhAIpMKgxTeAjp3kuGzhRgeXE9Y37OrNhyGnOYlfPCkjE7zymTn_W23e2btjF1VYBL6MPNTWq505S4gJGfGmkTdBf4P_ydz3g6ntD86KfUR2ZxMuDAwpEm1Tb4q1NocbewYuQ71mW5VrtyXuGqJh78ViCS2OChaxvVXN46SnCvF3y-mYJMag\",\"type\":\"tpl\",\"body\":\"\",\"adid\":\"das,1822767,983117\",\"slot\":\"flat-belkagorna\",\"width\":\"1920\",\"height\":\"150\",\"html\":\"\",\"js\":\"\",\"id\":\"onet-ad-flat-belkagorna\",\"prio\":10,\"data\":{\"fields\":{\"actionCountCollapse\":null,\"actionCountExpand\":null,\"collapseButton\":\"\",\"collapsedClick\":\"https://laczanasslowa.onet.pl/\",\"collapsedIframe\":null,\"collapsedImage\":\"https://ocdn.eu/lps/1746213/creative/000/000983/000983117/1755594314377/1755594314382/LaczaNasSlowa_1920x150.jpg\",\"expandButton\":\"\",\"expandedClick1\":\"\",\"expandedHtml\":\"\",\"expandedImage\":\"\",\"gde_fastid\":null,\"gde_id\":null,\"gde_inscreen\":null,\"gde_stparam\":null,\"gde_subdomena\":\"onet\",\"impression1\":null,\"impression2\":null,\"impressionActiveview\":null,\"impressionJs\":null,\"infoText\":\"Autopromocja\",\"infoTextBackground\":\"transparent\",\"infoTextColor\":\"#000\",\"infoTextShow\":\"text-all\",\"screeningClick\":null,\"screeningImage\":null,\"separator\":null,\"stickyClick\":\"https://laczanasslowa.onet.pl/\",\"stickyIframe\":null,\"stickyImage\":\"https://ocdn.eu/lps/1746213/creative/000/000983/000983117/1755594318781/1755594318786/LaczaNasSlowa_1920x75.jpg\"},\"meta\":{\"actioncount\":\"https://csr.onet.pl/eclk/das,1822767,983117/IP=202508291528521606275106/IV=202508291528521606275106/IR=202508291528521606455825/GCTX=eJyrVsouL0pRslLy8_eMiooPCQ6JN7TULk4uSk3Ny8xLj09PzUstSszRBkk4aucllmUm5VfEF6WmxRsbGFQYmRoUVCjpKOUkZpUAzTAAMvMKEqGs4tT0-KLEPJDh5iYgfnEOkGmoVAsAtzIj9g/SLOT=flat-belkagorna/NID=1746213/S=NOIZZ/A=GLOWNA/SID=onet-ad-flat-belkagorna/DID=121562/\",\"adclick\":\"https://csr.onet.pl/1746213/clk/das,1822767,983117?gctx=eJyNUctu2zAQ_BdeLbUkbep1c5ugMBLYheW4QC7E2qIF1jQlkJSjNsi_d-kmAYo2QS_SLnc4w515JHNSkS-3q2_LOUnIpzWpaEI-17erDZ4fDIR0p8wR2s5ZQMDV4opUjDOR8YQsviKGUy5owUsmeCE4y2jGc8FohuDF-p_zmRAFF3G-ff_-zfb44BrELFeL-3u5qTeSlRO_d0pZbVvZKqscmEkczCcWznrXjdKpg5xSOiJtP15YDHwPyEIvje3htfaqlQ5slMhnv0-8wYZhXb_oxvp6vb2OyzTgYxtNIJ1VIYUm_dukN92D5qxc0F45qVF0ltM8IbiO3Hf2oNvBQdCdlQjy-H82J6VFysoNLSsqKkonlOIXyZQP-gRBNbjxWdlBYXQfMDw1BgfyePakeiQ71z1EOQO2HaBFDLlb3iwxbmQ4gR0OsA-DUw4Hda8bLJ4SYvR_vaioxB8v6l3XDPtw2W3KEuL1zyjISk7HPAbuf_igTq8-ht6gTnPB5LOMs-nHuu-s7xymm95ZHWXBkKdfbpfGnw&at=1756474132&uuid=98ca8b405a1b3cd0ad4f3dd6697336c2&URL=\",\"adid\":\"das,1822767,983117\",\"autoscale\":1,\"container_wrapper\":\"\",\"height\":\"150\",\"inIFrame\":false,\"isGamNativeFormat\":false,\"slot\":\"flat-belkagorna\",\"width\":\"1920\"},\"tplCode\":\"1746213/Sponsoring-Universal\",\"tplPath\":\"tpl/1eab0def8b178bbbae421de3bce125e8.js\"},\"meta\":{\"server\":\"das\",\"async_render\":false,\"mailing_meta\":null,\"set_slot_size\":true,\"viewability_cfg\":null,\"async_viewability\":true,\"enable_conversion_tracking\":true,\"viewability\":1},\"bid_rate\":0}',false,true,true,"#onet-ad-flat-belkagorna:before { content: ''; display: table; padding-top: 7.8125%; width:0; float: left} #onet-ad-flat-belkagorna:after {content: '';display: table;clear: both;}")</script>
     
 
 			<div class="containerHeader">
@@ -773,13 +773,13 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
 
 <div class="vertical itemList gridItem">
 
-    <a href="https://noizz.pl/spoleczenstwo/izraelskie-buldozery-rozjechaly-palestynski-gaj-oliwny-padly-tysiace-drzew/nnnqtw1" class="itemLink ">
+    <a href="https://noizz.pl/spoleczenstwo/prawicowy-komentator-o-zareczynach-taylor-swift-podporzadkuj-sie-mezowi/kz0yt8k" class="itemLink ">
         
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/B4Bk9kpTURBXy9kNzUxYjNjYzExMDQ4NTZmZjJmYWE2NDI4M2UxNThkMS5qcGeSlQMAAs0PYM0KQJMFzQJEzQNr3gACoTAGoTEA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/suwk9kpTURBXy9kNzUxYjNjYzExMDQ4NTZmZjJmYWE2NDI4M2UxNThkMS5qcGeSlQMAAs0PYM0KQJMFzQJEzQNr3gACoTAFoTEA" alt="Izraelskie buldożery rozjechały palestyński gaj oliwny. Padły tysiące drzew" width="580" height="875">
+                    <source srcset="//ocdn.eu/pulscms-transforms/1/EETk9kpTURBXy8xNjIyZTY0NjdkYWFiZjA4MjIwZTY1OTgyZjc3MTAwNi5qcGeSlQPNAfAAzQN5zQU1kwXNAkTNA2veAAKhMAahMQA" type="image/avif">
+                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/1mbk9kpTURBXy8xNjIyZTY0NjdkYWFiZjA4MjIwZTY1OTgyZjc3MTAwNi5qcGeSlQPNAfAAzQN5zQU1kwXNAkTNA2veAAKhMAWhMQA" alt="Prawicowy komentator o zaręczynach Taylor Swift. &quot;Podporządkuj się mężowi&quot;" width="580" height="875">
                 
             
         </picture>
@@ -797,7 +797,7 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
             
 
             
-                <h3 class="itemTitle itemTitleH3">Izraelskie buldożery rozjechały palestyński gaj oliwny. Padły tysiące drzew</h3>
+                <h3 class="itemTitle itemTitleH3">Prawicowy komentator o zaręczynach Taylor Swift. &quot;Podporządkuj się mężowi&quot;</h3>
             
 
             
@@ -807,7 +807,7 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
 							<svg class="authorIco" viewBox="0 0 88 88">
 								<use href="#authorIco"></use>
 							</svg>
-							Karolina Małas
+							Katarzyna Pruszkiewicz
 						</span>
 					
 					
@@ -832,13 +832,13 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
 
 <div class="default itemList gridItem">
 
-    <a href="https://noizz.pl/informacyjne/najglosniejsze-miasto-w-polsce-walczy-z-halasem-ruszyly-kontrole-halasu/by0nttr" class="itemLink ">
+    <a href="https://noizz.pl/podroze/danuta-mieszka-w-toskanii-to-najpiekniejsza-krajobrazowo-czesc/ctqsgb1" class="itemLink ">
         
         <picture class="itemPicture">
              
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/khak9kpTURBXy9mZGE1NDgwZWM3NTNkZTNkNmI4MmVlZWE2NjUyMjI0OC5qcGeSlQMAAs0cwM0TKpMFzQI1zQGG3gACoTAGoTEA" type="image/avif">
-                    <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/NgDk9kpTURBXy9mZGE1NDgwZWM3NTNkZTNkNmI4MmVlZWE2NjUyMjI0OC5qcGeSlQMAAs0cwM0TKpMFzQI1zQGG3gACoTAFoTEA" alt="Najgłośniejsze miasto w Polsce walczy z hałasem. Ruszyły kontrole" width="565" height="390">
+                    <source srcset="//ocdn.eu/pulscms-transforms/1/lO4k9kpTURBXy9jMDBlYjRkODkyZDUzOWI5MWE0Yjk5YWQ4NmI3OTM1ZS5qcGeSlQMAzLPNA8DNAhyTBc0CNc0Bht4AAqEwBqExAA" type="image/avif">
+                    <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/l7ak9kpTURBXy9jMDBlYjRkODkyZDUzOWI5MWE0Yjk5YWQ4NmI3OTM1ZS5qcGeSlQMAzLPNA8DNAhyTBc0CNc0Bht4AAqEwBaExAA" alt="Danuta mieszka w Toskanii. &quot;To najpiękniejsza jej część&quot;" width="565" height="390">
                 
             
         </picture>
@@ -847,7 +847,7 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
             
 				<span class="category">
 					
-						Informacyjne
+						Podróże
 					
                 </span>
             
@@ -856,7 +856,7 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
             
 
             
-                <h3 class="itemTitle itemTitleH3">Najgłośniejsze miasto w Polsce walczy z hałasem. Ruszyły kontrole</h3>
+                <h3 class="itemTitle itemTitleH3">Danuta mieszka w Toskanii. &quot;To najpiękniejsza jej część&quot;</h3>
             
 
             
@@ -866,7 +866,7 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
 							<svg class="authorIco" viewBox="0 0 88 88">
 								<use href="#authorIco"></use>
 							</svg>
-							Karolina Małas
+							Michał Bachowski
 						</span>
 					
 					
@@ -891,13 +891,13 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
 
 <div class="default itemList gridItem">
 
-    <a href="https://noizz.pl/spoleczenstwo/sztuczna-inteligencja-wspiera-studentow-w-holandii-ai-w-roli-promotora/6ldblg4" class="itemLink ">
+    <a href="https://noizz.pl/spoleczenstwo/wideo-o-ufaniu-ai-stalo-sie-viralem-halucynuje-bardziej-niz-twoj-wujek/ee52c1p" class="itemLink ">
         
         <picture class="itemPicture">
              
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/jU2k9kpTURBXy8wNTQ3MjI4MmVjNDFkYTBlZTdhZjM0YzQ3MTU1ZjMwYy5qcGeSlQMAzE3NEwvNDLKTBc0CNc0Bht4AAqEwBqExAA" type="image/avif">
-                    <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/-Yxk9kpTURBXy8wNTQ3MjI4MmVjNDFkYTBlZTdhZjM0YzQ3MTU1ZjMwYy5qcGeSlQMAzE3NEwvNDLKTBc0CNc0Bht4AAqEwBaExAA" alt="AI zamiast promotora na uczelni. Holandia testuje nowe rozwiązania" width="565" height="390">
+                    <source srcset="//ocdn.eu/pulscms-transforms/1/ru2k9kpTURBXy83MTAwZjMzZTc0NjBhMTNmNGZmMmI5MWQ2MDA5NjBlYy5qcGeSlQMAAM0P-M0KpZMFzQI1zQGG3gACoTAGoTEA" type="image/avif">
+                    <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/VHYk9kpTURBXy83MTAwZjMzZTc0NjBhMTNmNGZmMmI5MWQ2MDA5NjBlYy5qcGeSlQMAAM0P-M0KpZMFzQI1zQGG3gACoTAFoTEA" alt="Wideo o ufaniu AI stało się viralem. &quot;Halucynuje bardziej niż twój wujek po grzybach&quot;" width="565" height="390">
                 
             
         </picture>
@@ -915,7 +915,7 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
             
 
             
-                <h3 class="itemTitle itemTitleH3">AI zamiast promotora na uczelni. Holandia testuje nowe rozwiązania</h3>
+                <h3 class="itemTitle itemTitleH3">Wideo o ufaniu AI stało się viralem. &quot;Halucynuje bardziej niż twój wujek po grzybach&quot;</h3>
             
 
             
@@ -925,7 +925,7 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
 							<svg class="authorIco" viewBox="0 0 88 88">
 								<use href="#authorIco"></use>
 							</svg>
-							Natalia Żelazowska
+							Niko Graczyk
 						</span>
 					
 					
@@ -965,6 +965,65 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
             
         
         <div class="gridContainer gridContainer_widget_2x1">
+            
+                
+
+
+
+
+
+
+
+
+
+
+<div class="default itemList gridItem">
+
+    <a href="https://noizz.pl/design/stworzyli-dom-z-turbiny-wiatrowej-ma-wiecej-metrow-niz-niejedno-mieszkanie/dp8cd2k" class="itemLink ">
+        
+        <picture class="itemPicture">
+             
+                
+                    <source srcset="//ocdn.eu/pulscms-transforms/1/aiPk9kpTURBXy9hZGUyNjFhZTVhZjNhMzgyYzZmNGRlNWRkMGRlNTY3YS5wbmeSlQMAAM0KAM0GqpMFzQI1zQGG3gACoTAGoTEA" type="image/avif">
+                    <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/UcQk9kpTURBXy9hZGUyNjFhZTVhZjNhMzgyYzZmNGRlNWRkMGRlNTY3YS5wbmeSlQMAAM0KAM0GqpMFzQI1zQGG3gACoTAFoTEA" alt="Stworzyli dom z turbiny wiatrowej. Ma więcej metrów niż niejedno mieszkanie" width="565" height="390">
+                
+            
+        </picture>
+        <div class="blend">
+
+            
+				<span class="category">
+					
+						Design
+					
+                </span>
+            
+
+            
+            
+
+            
+                <h3 class="itemTitle itemTitleH3">Stworzyli dom z turbiny wiatrowej. Ma więcej metrów niż niejedno mieszkanie</h3>
+            
+
+            
+				<div class="description">
+					
+						<span class="author">
+							<svg class="authorIco" viewBox="0 0 88 88">
+								<use href="#authorIco"></use>
+							</svg>
+							Katarzyna Pruszkiewicz
+						</span>
+					
+					
+				</div>
+            
+
+        </div>
+    </a>
+</div>
+
             
                 
 
@@ -1036,74 +1095,15 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
 
 
 
-<div class="default itemList gridItem">
-
-    <a href="https://noizz.pl/design/robert-maklowicz-otwiera-apartamenty-w-chorwacji-laczy-sily-ze-znanym-architektem/rs8x9w8" class="itemLink ">
-        
-        <picture class="itemPicture">
-             
-                
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/gJik9kpTURBXy82ZTBhMjlkYTZmMDVmZDgzMDlhODVlY2QyMWVmMjQ1Ni5wbmeSlQMAzI7NBPfNA0-TBc0CNc0Bht4AAqEwBqExAA" type="image/avif">
-                    <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/jV0k9kpTURBXy82ZTBhMjlkYTZmMDVmZDgzMDlhODVlY2QyMWVmMjQ1Ni5wbmeSlQMAzI7NBPfNA0-TBc0CNc0Bht4AAqEwBaExAA" alt="Robert Makłowicz buduje apartamentowce w Chorwacji. Za projekt odpowiada znane studio" width="565" height="390">
-                
-            
-        </picture>
-        <div class="blend">
-
-            
-				<span class="category">
-					
-						Design
-					
-                </span>
-            
-
-            
-            
-
-            
-                <h3 class="itemTitle itemTitleH3">Robert Makłowicz buduje apartamentowce w Chorwacji. Za projekt odpowiada znane studio</h3>
-            
-
-            
-				<div class="description">
-					
-						<span class="author">
-							<svg class="authorIco" viewBox="0 0 88 88">
-								<use href="#authorIco"></use>
-							</svg>
-							Natalia Żelazowska
-						</span>
-					
-					
-				</div>
-            
-
-        </div>
-    </a>
-</div>
-
-            
-                
-
-
-
-
-
-
-
-
-
-
 <div class="vertical itemList gridItem">
 
-    <a href="https://noizz.pl/design/kupili-dom-kostke-z-prl-swoje-tajemnice-odkrywal-przed-nimi-stopniowo/lhzypw0" class="itemLink ">
+    <a href="https://noizz.pl/design/marysia-kupila-dom-w-hiszpanii-niektore-moga-okazac-sie-pulapka/mv7j680" class="itemLink ">
         
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/SLek9kpTURBXy9lMTBmZjA3ODcwNjI0OWE0OWM0M2E1YjAyMWM5NzZlZC5wbmeSlQMaAM0CmM0D5JMFzQJEzQNr3gACoTAGoTEA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/nRFk9kpTURBXy9lMTBmZjA3ODcwNjI0OWE0OWM0M2E1YjAyMWM5NzZlZC5wbmeSlQMaAM0CmM0D5JMFzQJEzQNr3gACoTAFoTEA" alt="Kupili dom kostkę z PRL. Swoje tajemnice odkrywał przed nimi stopniowo" width="580" height="875">
+                    <source srcset="//ocdn.eu/pulscms-transforms/1/Kh6k9kpTURBXy84OGNlZThiYjJhODc2NjYxYTk0YzZhMGE1NzU1NmYxNi5wbmeSlQM2AM0Cx80EKpMFzQJEzQNr3gACoTAGoTEA" type="image/avif">
+                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/fTik9kpTURBXy84OGNlZThiYjJhODc2NjYxYTk0YzZhMGE1NzU1NmYxNi5wbmeSlQM2AM0Cx80EKpMFzQJEzQNr3gACoTAFoTEA" alt="Marysia kupiła dom w Hiszpanii. &quot;Niektóre mogą okazać się pułapką&quot;" width="580" height="875">
                 
             
         </picture>
@@ -1121,7 +1121,7 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
             
 
             
-                <h3 class="itemTitle itemTitleH3">Kupili dom kostkę z PRL. Swoje tajemnice odkrywał przed nimi stopniowo</h3>
+                <h3 class="itemTitle itemTitleH3">Marysia kupiła dom w Hiszpanii. &quot;Niektóre mogą okazać się pułapką&quot;</h3>
             
 
             
@@ -1784,13 +1784,13 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
 
 <div class="vertical itemList gridItem">
 
-    <a href="https://noizz.pl/kultura/myslisz-ze-znasz-seriale-ten-quiz-szybko-zweryfikuje-twoja-pamiec/w2ett0x" class="itemLink ">
+    <a href="https://noizz.pl/kultura/znasz-te-slowa-nawet-jeden-punkt-w-tym-quizie-to-powod-do-dumy/m709w3p" class="itemLink ">
         
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/rV6k9kpTURBXy81NGZiNjhlY2Q0MWNmZWUxNjM4YjJjYzYwMTQzYzZhNS5qcGeSlQPNAy0AzQprzQ-gkwXNAkTNA2veAAKhMAahMQA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/HT0k9kpTURBXy81NGZiNjhlY2Q0MWNmZWUxNjM4YjJjYzYwMTQzYzZhNS5qcGeSlQPNAy0AzQprzQ-gkwXNAkTNA2veAAKhMAWhMQA" alt="Myślisz, że znasz seriale? Ten quiz szybko zweryfikuje twoją pamięć" width="580" height="875">
+                    <source srcset="//ocdn.eu/pulscms-transforms/1/fPRk9kpTURBXy82NDI5NGI4MmQyYThlZDRhMDBhNTIzOTZhZjY0YTdhMy5qcGeRkwXNAkTNA2veAAKhMAahMQA" type="image/avif">
+                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/pMZk9kpTURBXy82NDI5NGI4MmQyYThlZDRhMDBhNTIzOTZhZjY0YTdhMy5qcGeRkwXNAkTNA2veAAKhMAWhMQA" alt="Znasz te słowa? Nawet jeden punkt w tym quizie to powód do dumy" width="580" height="875">
                 
             
         </picture>
@@ -1808,9 +1808,21 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
             
 
             
-                <h3 class="itemTitle itemTitleH3">Myślisz, że znasz seriale? Ten quiz szybko zweryfikuje twoją pamięć</h3>
+                <h3 class="itemTitle itemTitleH3">Znasz te słowa? Nawet jeden punkt w tym quizie to powód do dumy</h3>
             
 
+            
+				<div class="description">
+					
+						<span class="author">
+							<svg class="authorIco" viewBox="0 0 88 88">
+								<use href="#authorIco"></use>
+							</svg>
+							Maciej Wernio
+						</span>
+					
+					
+				</div>
             
 
         </div>

@@ -4,10 +4,15 @@
     "totalBots": 1187,
     "totalWebsites": 653,
     "botCategories": {
-      "other": 1058,
-      "aiScraper": 31,
+      "other": 1036,
       "seo": 44,
-      "searchEngine": 54
+      "aiScraper": 32,
+      "searchEngine": 56,
+      "archiver": 4,
+      "aiAssistant": 6,
+      "aiSearchCrawler": 3,
+      "aiAgent": 3,
+      "socialMedia": 3
     },
     "topBots": [
       {
@@ -75,43 +80,48 @@
   {
     "month": "2025-08",
     "totalBots": 1326,
-    "totalWebsites": 1271,
+    "totalWebsites": 1251,
     "botCategories": {
-      "other": 1166,
-      "aiScraper": 34,
+      "other": 1142,
       "seo": 52,
-      "searchEngine": 74
+      "aiScraper": 35,
+      "searchEngine": 76,
+      "archiver": 4,
+      "aiAssistant": 7,
+      "aiSearchCrawler": 3,
+      "aiAgent": 3,
+      "socialMedia": 4
     },
     "topBots": [
       {
         "name": "*",
-        "websites": 1239,
-        "allowed": 1138,
-        "disallowed": 101
+        "websites": 1218,
+        "allowed": 1121,
+        "disallowed": 97
       },
       {
         "name": "GPTBot",
-        "websites": 349,
+        "websites": 347,
         "allowed": 13,
-        "disallowed": 336
+        "disallowed": 334
       },
       {
         "name": "CCBot",
-        "websites": 294,
+        "websites": 291,
         "allowed": 6,
-        "disallowed": 288
+        "disallowed": 285
       },
       {
         "name": "ChatGPT-User",
-        "websites": 224,
+        "websites": 221,
         "allowed": 13,
-        "disallowed": 211
+        "disallowed": 208
       },
       {
         "name": "Google-Extended",
-        "websites": 196,
+        "websites": 194,
         "allowed": 12,
-        "disallowed": 184
+        "disallowed": 182
       },
       {
         "name": "ClaudeBot",

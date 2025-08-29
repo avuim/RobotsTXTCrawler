@@ -1,0 +1,89 @@
+{
+  "domain": "de.scalable.capital",
+  "normalizedDomain": "de.scalable.capital",
+  "robotsTxt": "User-Agent: *\nAllow: /\nAllow: /?display=wide\n\nDisallow: /cgi-bin/\nDisallow: /readme.html\nDisallow: /refer/\nDisallow: /c4p_log/\nDisallow: /author\nDisallow: /feed/\nDisallow: /news/\nDisallow: /app/\nDisallow: /onboarding/\nDisallow: /cockpit/\nDisallow: /broker/\nDisallow: /faq_single/\nDisallow: /faq_archive/\nDisallow: /*preview=true\nDisallow: /scalable-capital-compared\n\nUser-Agent: AdsBot-Google\nAllow: /\n\nUser-Agent: AdsBot-Google-Mobile\nAllow: /\n\nSitemap: https://de.scalable.capital/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/?display=wide"
+      ],
+      "disallowed": [
+        "/cgi-bin/",
+        "/readme.html",
+        "/refer/",
+        "/c4p_log/",
+        "/author",
+        "/feed/",
+        "/news/",
+        "/app/",
+        "/onboarding/",
+        "/cockpit/",
+        "/broker/",
+        "/faq_single/",
+        "/faq_archive/",
+        "/*preview=true",
+        "/scalable-capital-compared"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AdsBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 2,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google",
+      "allowed": true
+    },
+    {
+      "name": "AdsBot-Google-Mobile",
+      "allowed": true
+    }
+  ],
+  "paths": {
+    "allowed": [
+      "/?display=wide"
+    ],
+    "disallowed": [
+      "/cgi-bin/",
+      "/readme.html",
+      "/refer/",
+      "/c4p_log/",
+      "/author",
+      "/feed/",
+      "/news/",
+      "/app/",
+      "/onboarding/",
+      "/cockpit/",
+      "/broker/",
+      "/faq_single/",
+      "/faq_archive/",
+      "/*preview=true",
+      "/scalable-capital-compared"
+    ]
+  }
+}
