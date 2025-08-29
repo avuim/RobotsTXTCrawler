@@ -1,7 +1,7 @@
 {
   "domain": "www.soll-galabau.de",
   "normalizedDomain": "www.soll-galabau.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /typo3/\r\nDisallow: /typo3_src/\r\nDisallow: /nc/\r\nDisallow: */katlist/*\r\nDisallow: *?tx_ttnews[swords]=*\r\nDisallow: *?tx_ttnews[tt_news]=*\r\nDisallow: *?tx_feuserfriends_pi1*\r\nDisallow: *?tx_bddbflvvideogallery_pi1[video]=*\r\nDisallow: *?utm_source=*\r\nDisallow: */haus-in-hamburg-zu-verkaufen.html\r\nAllow: /typo3/sysext/frontend/Resources/Public/*\r\n\r\nSitemap: https://www.soll-galabau.de/sitemap.xml\r\nllms: https://www.soll-galabau.de/llms.txt",
+  "robotsTxt": "User-agent: *\r\nDisallow: /typo3/\r\nDisallow: /typo3_src/\r\nDisallow: /nc/\r\nDisallow: */katlist/*\r\nDisallow: *?tx_ttnews[swords]=*\r\nDisallow: *?tx_ttnews[tt_news]=*\r\nDisallow: *?tx_feuserfriends_pi1*\r\nDisallow: *?tx_bddbflvvideogallery_pi1[video]=*\r\nDisallow: *?utm_source=*\r\nDisallow: */haus-in-hamburg-zu-verkaufen.html\r\nAllow: /typo3/sysext/frontend/Resources/Public/*\r\n\r\nSitemap: https://www.soll-galabau.de/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [

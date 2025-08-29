@@ -1,0 +1,40 @@
+{
+  "domain": "www.starlight-express.de",
+  "normalizedDomain": "www.starlight-express.de",
+  "robotsTxt": "User-Agent: *\nAllow: /\nAllow: /_next/static/\nAllow: /_next/image/\nDisallow: /api/*\nDisallow: /_next/*\n\nSitemap: https://www.atgtickets.de/sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/_next/static/",
+        "/_next/image/"
+      ],
+      "disallowed": [
+        "/api/*",
+        "/_next/*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    }
+  ],
+  "paths": {
+    "allowed": [
+      "/_next/static/",
+      "/_next/image/"
+    ],
+    "disallowed": [
+      "/api/*",
+      "/_next/*"
+    ]
+  }
+}

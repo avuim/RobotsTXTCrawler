@@ -1,33 +1,106 @@
-User-agent: *
-Disallow: /frontend_frontend/
-Disallow: /messe-ausdruck.html
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wartungsarbeiten – einstieg.com</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --brand-blue: #5b2fca; /* adjust if you want closer brand color */
+      --text: #111827;
+      --muted: #6B7280;
+      --bg: #F8FAFC;
+      --card: #FFFFFF;
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--text);
+      background: radial-gradient(1100px 500px at 50% -100px, rgba(37, 99, 235, .08), transparent 60%), var(--bg);
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+    .card {
+      width: min(780px, 92vw);
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: 0 10px 30px rgba(0,0,0,.06), 0 2px 10px rgba(0,0,0,.04);
+      padding: clamp(20px, 4.5vw, 40px);
+      text-align: center;
+      border: 1px solid rgba(0,0,0,.04);
+      animation: pop .4s ease-out;
+    }
+    h1 {
+      font-size: clamp(28px, 4.6vw, 44px);
+      line-height: 1.1;
+      margin: 20px 0 20px;
+      color: var(--brand-blue);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+    p.lead {
+      font-size: clamp(16px, 2.3vw, 20px);
+      line-height: 1.6;
+      margin: 12px 0 6px;
+      color: var(--text);
+      font-weight: 500;
+    }
+    p.muted {
+      color: var(--muted);
+      margin-top: 18px;
+      font-size: clamp(15px, 2.1vw, 18px);
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(37, 99, 235, .08);
+      color: var(--brand-blue);
+      font-weight: 600;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+    .dot {
+      width: 8px; height: 8px;
+      background: var(--brand-blue);
+      border-radius: 50%;
+      box-shadow: 0 0 0 0 rgba(37, 99, 235, .6);
+      animation: pulse 1.8s infinite;
+    }
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(37, 99, 235, .6); }
+      70% { box-shadow: 0 0 0 10px rgba(37, 99, 235, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0); }
+    }
+    @keyframes pop {
+      from { transform: translateY(4px) scale(.98); opacity: .0; }
+      to { transform: none; opacity: 1; }
+    }
+    footer {
+      margin-top: 22px;
+      font-size: 13px;
+      color: var(--muted);
+    }
 
-Disallow: /reload-teaser.json
-Disallow: /reload-reallife.html
-Disallow: /loadmore-trainingsearch.html
-Disallow: /loadmore-trainings.html
-Disallow: /loadmore-exhibitorsearch.html
-Disallow: /sms-validation.html
-Disallow: /profil-tracking.php
-Disallow: /inserat-tracking.php
-Disallow: /termine-mit-messe-ausstellern-vereinbaren.php
-Disallow: /termine-mit-messe-ausstellern-absagen.php
-Disallow: /profilebookmark.php
-
-Disallow: /*tx_solr*
-Disallow: *tx_twteinstiegfrontend_twteinstiegfrontend*
-Disallow: *type=1513157926*
-Disallow: /*?*tx_felogin_login=
-
-Disallow: /detailansichten/abe-vorschau
-
-Sitemap: https://www.einstieg.com/sitemap.xml?sitemap=pages
-Sitemap: https://www.einstieg.com/sitemap.xml?sitemap=inserat_beruf
-Sitemap: https://www.einstieg.com/sitemap.xml?sitemap=inserat_studium
-Sitemap: https://www.einstieg.com/sitemap.xml?sitemap=anbieterprofil
-Sitemap: https://www.einstieg.com/sitemap.xml?sitemap=beruf
-Sitemap: https://www.einstieg.com/sitemap.xml?sitemap=studiengang
-Sitemap: https://www.einstieg.com/sitemap.xml?sitemap=gapyear_option
-Sitemap: https://www.einstieg.com/sitemap.xml?sitemap=news_blog
-Sitemap: https://www.einstieg.com/sitemap.xml?sitemap=news_allgemein
-Sitemap: https://www.einstieg.com/sitemap.xml
+svg { fill:#5b2fca; width:200px;display:block;}
+  </style>
+</head>
+<body>
+  <main class="card" role="main" aria-label="Wartungsinformation">
+    <div class="badge"><span class="dot" aria-hidden="true"></span> Wartungsmodus</div>
+    <h1>Kurzzeitige Wartungsarbeiten</h1>
+    <p class="lead">Zurzeit werden einige Verbesserungen an der Website vorgenommen.<br/>Dadurch können einzelne Funktionen für ein paar Stunden eingeschränkt sein.</p>
+    <p class="muted">Bald läuft wieder alles wie gewohnt – danke für dein Verständnis!</p>
+    <footer>© 2025 einstieg.com</footer>
+  </main>
+</body>
+</html>
