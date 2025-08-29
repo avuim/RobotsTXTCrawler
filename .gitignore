@@ -80,3 +80,6 @@ coverage/
 # Lokale Konfigurationsüberschreibungen
 config.local.ts
 config.dev.ts
+
+# Auslagerungsdateien
+.MERGE_MSG.swp
