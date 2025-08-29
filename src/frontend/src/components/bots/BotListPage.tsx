@@ -131,19 +131,19 @@ const BotListPage: React.FC = () => {
     },
     {
       key: 'stats',
-      header: 'Erlaubt / Verboten',
+      header: 'Global Erlaubt / Verboten',
       width: '35%',
       align: 'right',
       render: (bot) => (
         <StatsContainer>
           <StatLine>
-            <span>Erlaubt:</span>
+            <span>Global erlaubt:</span>
             <StatValue type="allowed">
               {bot.allowedWebsites.toLocaleString()}
             </StatValue>
           </StatLine>
           <StatLine>
-            <span>Verboten:</span>
+            <span>Global verboten:</span>
             <StatValue type="disallowed">
               {bot.disallowedWebsites.toLocaleString()}
             </StatValue>
@@ -196,7 +196,8 @@ const BotListPage: React.FC = () => {
         </FilterContainer>
 
         <InfoText>
-          Es werden nur Bots gelistet, die auf mindestens 10 Webseiten in der robots.txt gefunden werden konnten.
+          Es werden nur Bots gelistet, die auf mindestens 10 Webseiten in der robots.txt gefunden werden konnten. 
+          Die Zahlen zeigen nur globale Allow/Disallow-Regeln (Allow: / oder Disallow: /), nicht verzeichnisspezifische Regeln.
         </InfoText>
 
         <Table 

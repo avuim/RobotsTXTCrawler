@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import Layout from '../common/Layout/Layout.tsx';
 import SummaryStats from './SummaryStats.tsx';
 import BotCategories from './BotCategories.tsx';
-import TopBotsList from './TopBotsList.tsx';
 import { useApi } from '../../hooks/useApi.ts';
 import { API } from '../../services/api.ts';
 import Loading from '../common/Loading.tsx';
@@ -125,11 +124,6 @@ const DashboardPage: React.FC = () => {
             </Card>
           </DashboardGrid>
           
-          <FullWidthSection>
-            <Card>
-              <TopBotsList bots={summary.topBots} />
-            </Card>
-          </FullWidthSection>
         </>
       )}
     </Layout>

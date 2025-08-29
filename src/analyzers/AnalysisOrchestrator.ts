@@ -79,17 +79,7 @@ export class AnalysisOrchestrator {
       lastUpdated: new Date().toISOString(),
       totalBots: botStats.totalBots,
       totalWebsites: botStats.totalWebsites,
-      botCategories: botStats.botCategories,
-      topBots: Object.entries(botStats.bots)
-        .map(([name, bot]: [string, any]) => ({
-          name,
-          category: bot.category,
-          totalWebsites: Object.values(bot.monthlyStats).reduce((sum: number, stats: any) => sum + stats.totalWebsites, 0),
-          allowedWebsites: Object.values(bot.monthlyStats).reduce((sum: number, stats: any) => sum + stats.allowedWebsites, 0),
-          disallowedWebsites: Object.values(bot.monthlyStats).reduce((sum: number, stats: any) => sum + stats.disallowedWebsites, 0)
-        }))
-        .sort((a: any, b: any) => b.totalWebsites - a.totalWebsites)
-        .slice(0, 20)
+      botCategories: botStats.botCategories
     };
     
     const filePath = path.join(this.config.paths.analysisOutput, 'summary.json');

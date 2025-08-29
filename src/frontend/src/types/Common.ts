@@ -19,11 +19,4 @@ export interface Summary {
     aiScraper: number;
     other: number;
   };
-  topBots: Array<{
-    name: string;
-    category: string;
-    totalWebsites: number;
-    allowedWebsites: number;
-    disallowedWebsites: number;
-  }>;
 }

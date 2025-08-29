@@ -202,18 +202,23 @@ const BotDetailPage: React.FC = () => {
     );
   }
 
-  // Berechne aggregierte Werte aus monthlyStats
-  const totalWebsites = bot.monthlyStats ? Object.values(bot.monthlyStats).reduce(
-    (sum: number, stats: any) => sum + (stats.totalWebsites || 0), 0
-  ) : 0;
+  // Aktueller Monat für die Statistiken
+  const currentMonth = new Date().toISOString().substring(0, 7); // Format: YYYY-MM
+  const latestMonth = bot.monthlyStats ? Object.keys(bot.monthlyStats).sort().pop() : null;
+  const currentStats = latestMonth ? bot.monthlyStats[latestMonth] : null;
   
-  const allowedWebsites = bot.monthlyStats ? Object.values(bot.monthlyStats).reduce(
-    (sum: number, stats: any) => sum + (stats.allowedWebsites || 0), 0
-  ) : 0;
+  // Verwende die Statistiken des aktuellsten Monats (normalerweise der aktuelle Monat)
+  const totalWebsites = currentStats ? currentStats.totalWebsites : 0;
+  const allowedWebsites = currentStats ? currentStats.allowedWebsites : 0;
+  const disallowedWebsites = currentStats ? currentStats.disallowedWebsites : 0;
   
-  const disallowedWebsites = bot.monthlyStats ? Object.values(bot.monthlyStats).reduce(
-    (sum: number, stats: any) => sum + (stats.disallowedWebsites || 0), 0
-  ) : 0;
+  // Berechne Verzeichnis-Regeln Statistiken
+  const directoryRulesStats = currentStats ? {
+    allowedPaths: Object.keys(currentStats.directoryRules?.allowed || {}).length,
+    disallowedPaths: Object.keys(currentStats.directoryRules?.disallowed || {}).length,
+    totalDirectoryRules: Object.keys(currentStats.directoryRules?.allowed || {}).length + 
+                        Object.keys(currentStats.directoryRules?.disallowed || {}).length
+  } : { allowedPaths: 0, disallowedPaths: 0, totalDirectoryRules: 0 };
 
   return (
     <Layout pageTitle={`Bot: ${decodedBotName}`}>
@@ -250,9 +255,9 @@ const BotDetailPage: React.FC = () => {
           </BotInfoCard>
         )}
 
-        {/* Statistiken */}
+        {/* Globale Statistiken */}
         <InfoCard>
-          <SectionTitle>Statistiken</SectionTitle>
+          <SectionTitle>Globale Bot-Regeln ({latestMonth || 'Aktueller Monat'})</SectionTitle>
           <InfoGrid>
             <InfoItem>
               <InfoLabel>Bot Name</InfoLabel>
@@ -265,23 +270,23 @@ const BotDetailPage: React.FC = () => {
               </CategoryBadge>
             </InfoItem>
             <InfoItem>
-              <InfoLabel>Anzahl Websites</InfoLabel>
+              <InfoLabel>Websites mit globalen Regeln</InfoLabel>
               <InfoValue>{totalWebsites.toLocaleString()}</InfoValue>
             </InfoItem>
             <InfoItem>
-              <InfoLabel>Erlaubte Websites</InfoLabel>
+              <InfoLabel>Global erlaubte Websites</InfoLabel>
               <InfoValue style={{ color: '#10b981' }}>
                 {allowedWebsites.toLocaleString()}
               </InfoValue>
             </InfoItem>
             <InfoItem>
-              <InfoLabel>Verbotene Websites</InfoLabel>
+              <InfoLabel>Global verbotene Websites</InfoLabel>
               <InfoValue style={{ color: '#ef4444' }}>
                 {disallowedWebsites.toLocaleString()}
               </InfoValue>
             </InfoItem>
             <InfoItem>
-              <InfoLabel>Erlaubt-Quote</InfoLabel>
+              <InfoLabel>Erlaubt-Quote (global)</InfoLabel>
               <InfoValue>
                 {totalWebsites > 0 
                   ? `${((allowedWebsites / totalWebsites) * 100).toFixed(1)}%`
@@ -290,7 +295,38 @@ const BotDetailPage: React.FC = () => {
               </InfoValue>
             </InfoItem>
           </InfoGrid>
+          <p style={{ marginTop: '1rem', fontSize: '0.9rem', color: '#6b7280', fontStyle: 'italic' }}>
+            Diese Statistiken zeigen nur Websites mit globalen Allow/Disallow-Regeln (Allow: / oder Disallow: /).
+          </p>
         </InfoCard>
+
+        {/* Verzeichnis-Regeln Statistiken */}
+        {directoryRulesStats.totalDirectoryRules > 0 && (
+          <InfoCard>
+            <SectionTitle>Verzeichnis-spezifische Regeln ({latestMonth || 'Aktueller Monat'})</SectionTitle>
+            <InfoGrid>
+              <InfoItem>
+                <InfoLabel>Verzeichnisse mit Regeln</InfoLabel>
+                <InfoValue>{directoryRulesStats.totalDirectoryRules.toLocaleString()}</InfoValue>
+              </InfoItem>
+              <InfoItem>
+                <InfoLabel>Erlaubte Verzeichnisse</InfoLabel>
+                <InfoValue style={{ color: '#10b981' }}>
+                  {directoryRulesStats.allowedPaths.toLocaleString()}
+                </InfoValue>
+              </InfoItem>
+              <InfoItem>
+                <InfoLabel>Verbotene Verzeichnisse</InfoLabel>
+                <InfoValue style={{ color: '#ef4444' }}>
+                  {directoryRulesStats.disallowedPaths.toLocaleString()}
+                </InfoValue>
+              </InfoItem>
+            </InfoGrid>
+            <p style={{ marginTop: '1rem', fontSize: '0.9rem', color: '#6b7280', fontStyle: 'italic' }}>
+              Diese Statistiken zeigen spezifische Verzeichnis-Regeln wie Allow: /blog/ oder Disallow: /admin/.
+            </p>
+          </InfoCard>
+        )}
 
         {/* Monatlicher Verlauf Chart */}
         <InfoCard>
@@ -303,40 +339,41 @@ const BotDetailPage: React.FC = () => {
         </InfoCard>
 
 
-        {/* Website-Details - Alle Websites */}
+        {/* Website-Details - Globale Regeln */}
         <InfoCard>
-          <SectionTitle>Website-Details (Aktueller Monat)</SectionTitle>
-          {bot.monthlyStats && Object.keys(bot.monthlyStats).length > 0 ? (
+          <SectionTitle>Websites mit globalen Regeln ({latestMonth || 'Aktueller Monat'})</SectionTitle>
+          {currentStats ? (
             (() => {
-              // Zeige nur den neuesten Monat
-              const latestMonth = Object.keys(bot.monthlyStats).sort().pop();
-              if (!latestMonth) return <p>Keine Daten verfügbar</p>;
-              
-              const stats = bot.monthlyStats[latestMonth];
-              // Zeige ALLE Websites, die den Bot in ihrer robots.txt haben
+              // Zeige nur Websites mit globalen Regeln
               const websiteEntries: WebsiteEntry[] = [
-                ...stats.websites.allowed.map(domain => ({
+                ...currentStats.websites.allowed.map(domain => ({
                   domain,
                   allowed: true,
-                  lastChecked: latestMonth
+                  lastChecked: latestMonth || ''
                 })),
-                ...stats.websites.disallowed.map(domain => ({
+                ...currentStats.websites.disallowed.map(domain => ({
                   domain,
                   allowed: false,
-                  lastChecked: latestMonth
+                  lastChecked: latestMonth || ''
                 }))
               ];
               
               return (
                 <div>
-                  <h4>Alle Websites mit {decodedBotName} in robots.txt</h4>
+                  <h4>Websites mit globalen Allow/Disallow-Regeln für {decodedBotName}</h4>
                   <p style={{ marginBottom: '1rem', color: '#6b7280', fontSize: '0.9rem' }}>
-                    Gesamt: {websiteEntries.length} Websites ({stats.websites.allowed.length} erlaubt, {stats.websites.disallowed.length} verboten)
+                    Gesamt: {websiteEntries.length} Websites ({currentStats.websites.allowed.length} global erlaubt, {currentStats.websites.disallowed.length} global verboten)
                   </p>
-                  <Table 
-                    data={websiteEntries} 
-                    columns={columns}
-                  />
+                  {websiteEntries.length > 0 ? (
+                    <Table 
+                      data={websiteEntries} 
+                      columns={columns}
+                    />
+                  ) : (
+                    <p style={{ fontStyle: 'italic', color: '#6b7280' }}>
+                      Keine Websites mit globalen Regeln für diesen Bot gefunden.
+                    </p>
+                  )}
                 </div>
               );
             })()
