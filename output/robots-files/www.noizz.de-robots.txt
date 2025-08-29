@@ -98,7 +98,7 @@
     'autoslot': 0,
     'lazy': 1,
     cmd: [],
-    'lazyPercentage': 100,
+    'lazyPercentage': 150,
     'mobile': 1024,
     'sgn_cookie': 1,
     'keywords': ["NOIZZ_TST_19","screening_general","TST_A","navibox_ref_300x250px","noizz-news-koncerty-i-festiwale-street-fashion-design-social-media","noizz"],
@@ -109,8 +109,8 @@
     kropka: {},
     'cookieInfo': Number(true),
     'noDfp': Number(false),
-    'target': 'NOIZZ/GLOWNA',
-    'DV': 'NOIZZ/GLOWNA',
+    'target': 'M_NOIZZ/GLOWNA',
+    'DV': 'M_NOIZZ/GLOWNA',
     'tid': '',
     'keyvalues': {
       
@@ -133,6 +133,11 @@
           }
           
         }
+        
+          if(e.slot === 'flat-belkagorna') {
+            var mutationObserver = new MutationObserver(hideOrShowBelkaGorna);
+            mutationObserver.observe(document.querySelector('body'), {attributes: true, attributeFilter: ['class']});
+          }
         
       }
     });
@@ -309,7 +314,7 @@ var d,e=null;return(c=b(c+""))&&!b(c.replace(a,function(a,b,c,f){d&&b&&(e=0);if(
             
             
 <script>
-var cookieName='sponsoringActiveDesktop';
+var cookieName='sponsoringActiveMobile';
 function setCookie(name,value,days) {
     var expires = "";
     if (days) {
@@ -348,7 +353,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 function setSponsoringCookie(event){
     setCookie(cookieName, '1', '1');
 
-    document.getElementById('sponsoring').classList.add('cookie');
+    document.getElementById('sponsDiv').classList.add('cookie');
 
 }
 </script>
@@ -358,7 +363,7 @@ function setSponsoringCookie(event){
 <meta property="fb:pages" content="415023695371209">
 <meta name="msvalidate.01" content="8C00DBCC884D856B99AFD2BD7A5E3BEB">
 <script charset="UTF-8" src="https://s-eu-1.pushpushgo.com/js/60cc5cd645b12f807f1b9082.js" async></script></head>
-    <body data-run-module="local/main.body" class="homepage desktop pl" id="homepage" data-page-type="homepage">    <!-- Google Tag Manager (noscript) -->
+    <body data-run-module="local/main.body" class="homepage mobile pl" id="homepage" data-page-type="homepage">    <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P85JQF"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
@@ -369,15 +374,15 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
 <!-- hide partnerPromoImage1 END -->
 		
         
-            <div id="onet-ad-flat-belkagorna"></div>
-        
-		<header id="stickyMenu" class="pageHeader " data-header data-screening-sticky-start>
+		<header id="stickyMenu" class="pageHeader fixed small" data-header data-screening-sticky-start>
+            
+                <div id="onet-ad-flat-belkagorna"></div>
             
             
 
     
-        <style>#onet-ad-flat-belkagorna:before { content: ''; display: table; padding-top: 7.8125%; width:0; float: left} #onet-ad-flat-belkagorna:after {content: '';display: table;clear: both;}</style><script>(function (o,t,e,r,s){function d(){if(c||!l.meta||"tag"===l.meta.server||l.data&&l.data.meta&&l.data.meta.height){if(!t){var e=document.getElementById(l.id);if(!e)return void console.warn("BackRequest warning: ad container's expected id = "+l.id);e.className+=" dlapi-placeholder"}e=window.onetAds||window.dlApi;e?(e.cmd=e.cmd||[],e.cmd.push(function(a){function e(){if(r)return(t=a.defineSlot(l.slot,l.id)).setCollapseEmpty(!0),t.setProperty("backRender",!0),a.fetch();var t,e={};if((t=a.defineSlot(l.slot,l.id,{ir:a.prepareUniqueId()})).setProperty("backRender",!0),a.toFetch=a.toFetch.filter(function(e){return e!==t}),c)return t.noAd(),e={adserver:"das",slot:l.slot,type:"unfilled"},n(e);var d=a.defineAd(l.adid,t,l.type,l.html,l.js,l.data.meta.width,l.data.meta.height,l.data,l.meta,l.prio,void 0,l.gctx,l.lctx);d.prepareContainer(),t.registerAd(d),a.addLazyAd(d),e={adid:l.adid,adserver:"das",body:o,slot:l.slot,status:200,type:"filled"},n(e)}var t,d,i,n=function(e){var t={adsSlots:{}};t.adsSlots[l.id]=[e],a.fire("backendEmission",t)};a.isReady?e():a.on("onready",function(){e()}),t=s,d=l.id,(i=document.getElementById(d+"-fallback-styles"))||((i=document.createElement("style")).setAttribute("id",d+"-fallback-styles"),document.head.appendChild(i)),i.innerHTML=t})):console.warn("BackRequest warning: dlApi or oneAds object expected. adBody.id= "+l.id)}else console.warn("BackRequest warning: missing height in data.meta section")}var l=JSON.parse(o),c="empty"===l.type;e?d():(window.dlApiBackendRequesting=window.dlApiBackendRequesting||{},window.dlApiBackendRequesting[l.id]=d)}
-)('{\"lctx\":\"eJx1kN1OwzAMhd8ltzTgZPQvrwFcV-liKossmZKs4ke8O-46xiaNm0g-_uJz7C8xkhuSLSgM3EMltgltoRkHcsKIvtso1YoLOdMno0L1Gt7b-qrjY-HOq7dFjujf7BRTsJfEjClTDAxp0LWETqr-GXoDtQG4A-CXcYfWr-5Kq7rRLGEutOOMnBRnDIffsJQH9DTR6Fkp6YCV8BSQCu5OEzqt22ZZ4KzfDtGZ-ipExsQgQ87mpfxvt6WxWsWARVonbzAfmY3_Zh3L9RMr1Sljdb512fthG93xzO1jo9Xm4WkfQ46JwiRfAi0rWC--fwARtIpL\",\"gctx\":\"eJwVjjGPwjAMhf-L5w5NW6iu2423HANMIGSZxlRRG6dKolJA_HfcyfL7_PzeG8iicH6EOEIHpm32lamhAIpMKgxTeAjp3kuGzhRgeXE9Y37OrNhyGnOYlfPCkjE7zymTn_W23e2btjF1VYBL6MPNTWq505S4gJGfGmkTdBf4P_ydz3g6ntD86KfUR2ZxMuDAwpEm1Tb4q1NocbewYuQ71mW5VrtyXuGqJh78ViCS2OChaxvVXN46SnCvF3y-mYJMag\",\"type\":\"tpl\",\"body\":\"\",\"adid\":\"das,1822767,983117\",\"slot\":\"flat-belkagorna\",\"width\":\"1920\",\"height\":\"150\",\"html\":\"\",\"js\":\"\",\"id\":\"onet-ad-flat-belkagorna\",\"prio\":10,\"data\":{\"fields\":{\"actionCountCollapse\":null,\"actionCountExpand\":null,\"collapseButton\":\"\",\"collapsedClick\":\"https://laczanasslowa.onet.pl/\",\"collapsedIframe\":null,\"collapsedImage\":\"https://ocdn.eu/lps/1746213/creative/000/000983/000983117/1755594314377/1755594314382/LaczaNasSlowa_1920x150.jpg\",\"expandButton\":\"\",\"expandedClick1\":\"\",\"expandedHtml\":\"\",\"expandedImage\":\"\",\"gde_fastid\":null,\"gde_id\":null,\"gde_inscreen\":null,\"gde_stparam\":null,\"gde_subdomena\":\"onet\",\"impression1\":null,\"impression2\":null,\"impressionActiveview\":null,\"impressionJs\":null,\"infoText\":\"Autopromocja\",\"infoTextBackground\":\"transparent\",\"infoTextColor\":\"#000\",\"infoTextShow\":\"text-all\",\"screeningClick\":null,\"screeningImage\":null,\"separator\":null,\"stickyClick\":\"https://laczanasslowa.onet.pl/\",\"stickyIframe\":null,\"stickyImage\":\"https://ocdn.eu/lps/1746213/creative/000/000983/000983117/1755594318781/1755594318786/LaczaNasSlowa_1920x75.jpg\"},\"meta\":{\"actioncount\":\"https://csr.onet.pl/eclk/das,1822767,983117/IP=202508291528521606275106/IV=202508291528521606275106/IR=202508291528521606455825/GCTX=eJyrVsouL0pRslLy8_eMiooPCQ6JN7TULk4uSk3Ny8xLj09PzUstSszRBkk4aucllmUm5VfEF6WmxRsbGFQYmRoUVCjpKOUkZpUAzTAAMvMKEqGs4tT0-KLEPJDh5iYgfnEOkGmoVAsAtzIj9g/SLOT=flat-belkagorna/NID=1746213/S=NOIZZ/A=GLOWNA/SID=onet-ad-flat-belkagorna/DID=121562/\",\"adclick\":\"https://csr.onet.pl/1746213/clk/das,1822767,983117?gctx=eJyNUctu2zAQ_BdeLbUkbep1c5ugMBLYheW4QC7E2qIF1jQlkJSjNsi_d-kmAYo2QS_SLnc4w515JHNSkS-3q2_LOUnIpzWpaEI-17erDZ4fDIR0p8wR2s5ZQMDV4opUjDOR8YQsviKGUy5owUsmeCE4y2jGc8FohuDF-p_zmRAFF3G-ff_-zfb44BrELFeL-3u5qTeSlRO_d0pZbVvZKqscmEkczCcWznrXjdKpg5xSOiJtP15YDHwPyEIvje3htfaqlQ5slMhnv0-8wYZhXb_oxvp6vb2OyzTgYxtNIJ1VIYUm_dukN92D5qxc0F45qVF0ltM8IbiO3Hf2oNvBQdCdlQjy-H82J6VFysoNLSsqKkonlOIXyZQP-gRBNbjxWdlBYXQfMDw1BgfyePakeiQ71z1EOQO2HaBFDLlb3iwxbmQ4gR0OsA-DUw4Hda8bLJ4SYvR_vaioxB8v6l3XDPtw2W3KEuL1zyjISk7HPAbuf_igTq8-ht6gTnPB5LOMs-nHuu-s7xymm95ZHWXBkKdfbpfGnw&at=1756474132&uuid=98ca8b405a1b3cd0ad4f3dd6697336c2&URL=\",\"adid\":\"das,1822767,983117\",\"autoscale\":1,\"container_wrapper\":\"\",\"height\":\"150\",\"inIFrame\":false,\"isGamNativeFormat\":false,\"slot\":\"flat-belkagorna\",\"width\":\"1920\"},\"tplCode\":\"1746213/Sponsoring-Universal\",\"tplPath\":\"tpl/1eab0def8b178bbbae421de3bce125e8.js\"},\"meta\":{\"server\":\"das\",\"async_render\":false,\"mailing_meta\":null,\"set_slot_size\":true,\"viewability_cfg\":null,\"async_viewability\":true,\"enable_conversion_tracking\":true,\"viewability\":1},\"bid_rate\":0}',false,true,true,"#onet-ad-flat-belkagorna:before { content: ''; display: table; padding-top: 7.8125%; width:0; float: left} #onet-ad-flat-belkagorna:after {content: '';display: table;clear: both;}")</script>
+        <style></style><script>(function (o,t,e,r,s){function d(){if(c||!l.meta||"tag"===l.meta.server||l.data&&l.data.meta&&l.data.meta.height){if(!t){var e=document.getElementById(l.id);if(!e)return void console.warn("BackRequest warning: ad container's expected id = "+l.id);e.className+=" dlapi-placeholder"}e=window.onetAds||window.dlApi;e?(e.cmd=e.cmd||[],e.cmd.push(function(a){function e(){if(r)return(t=a.defineSlot(l.slot,l.id)).setCollapseEmpty(!0),t.setProperty("backRender",!0),a.fetch();var t,e={};if((t=a.defineSlot(l.slot,l.id,{ir:a.prepareUniqueId()})).setProperty("backRender",!0),a.toFetch=a.toFetch.filter(function(e){return e!==t}),c)return t.noAd(),e={adserver:"das",slot:l.slot,type:"unfilled"},n(e);var d=a.defineAd(l.adid,t,l.type,l.html,l.js,l.data.meta.width,l.data.meta.height,l.data,l.meta,l.prio,void 0,l.gctx,l.lctx);d.prepareContainer(),t.registerAd(d),a.addLazyAd(d),e={adid:l.adid,adserver:"das",body:o,slot:l.slot,status:200,type:"filled"},n(e)}var t,d,i,n=function(e){var t={adsSlots:{}};t.adsSlots[l.id]=[e],a.fire("backendEmission",t)};a.isReady?e():a.on("onready",function(){e()}),t=s,d=l.id,(i=document.getElementById(d+"-fallback-styles"))||((i=document.createElement("style")).setAttribute("id",d+"-fallback-styles"),document.head.appendChild(i)),i.innerHTML=t})):console.warn("BackRequest warning: dlApi or oneAds object expected. adBody.id= "+l.id)}else console.warn("BackRequest warning: missing height in data.meta section")}var l=JSON.parse(o),c="empty"===l.type;e?d():(window.dlApiBackendRequesting=window.dlApiBackendRequesting||{},window.dlApiBackendRequesting[l.id]=d)}
+)('{\"lctx\":\"eJyrrgUAAXUA-Q\",\"gctx\":\"eJyrrgUAAXUA-Q\",\"id\":\"onet-ad-flat-belkagorna\",\"slot\":\"flat-belkagorna\",\"type\":\"empty\"}',false,true,true,"")</script>
     
 
 			<div class="containerHeader">
@@ -452,6 +457,12 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
             
             <div class="leftColumn column">
 			
+				
+					<span class="name">Tematy</span>
+					<form action="/szukaj" method="get" class="searchForm">
+						<input name="q" type="text" class="searchInput" placeholder="Szukaj" aria-label="search input">
+						<input type="submit" class="searchSubmit">
+					</form>
 				
 
                 <span class="name">Kategorie</span>
@@ -631,14 +642,6 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
             </div>
 
 			
-                <div class="rightColumn column">
-                    <span class="name">Tematy</span>
-                    <form action="/szukaj" method="get" class="searchForm">
-                        <input name="q" type="text" class="searchInput" placeholder="Szukaj" aria-label="search input">
-                        <input type="submit" class="searchSubmit">
-                    </form>
-                </div>
-            
         </div>
     </div>
 		</header>
@@ -674,8 +677,10 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/quYk9kpTURBXy9jYjI4ZWEyMmVlMGE1OTY1MDM1Nzg1ODczZjNiZWU0Yy5qcGeSlQMAzFrNEkHNDCuTBc0EsM0Chd4AAqEwBqExAA" type="image/avif">
-                    <img class="itemImg" fetchpriority="high" src="//ocdn.eu/pulscms-transforms/1/kkuk9kpTURBXy9jYjI4ZWEyMmVlMGE1OTY1MDM1Nzg1ODczZjNiZWU0Yy5qcGeSlQMAzFrNEkHNDCuTBc0EsM0Chd4AAqEwBaExAA" alt="Przez AI znikają etaty. &quot;Mam 35 lat. Pierwszy raz nie mogę znaleźć pracy&quot;" width="1200" height="645">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/x6Ek9kpTURBXy9jYjI4ZWEyMmVlMGE1OTY1MDM1Nzg1ODczZjNiZWU0Yy5qcGeSlQPNBWsAzQjRzQ06kwXNAWPNAZXeAAKhMAahMQA" type="image/avif">
+                        <img class="itemImg" fetchpriority="high" src="//ocdn.eu/pulscms-transforms/1/vKCk9kpTURBXy9jYjI4ZWEyMmVlMGE1OTY1MDM1Nzg1ODczZjNiZWU0Yy5qcGeSlQPNBWsAzQjRzQ06kwXNAWPNAZXeAAKhMAWhMQA" alt="Przez AI znikają etaty. &quot;Mam 35 lat. Pierwszy raz nie mogę znaleźć pracy&quot;" width="355" height="405">
+                    
                 
             
         </picture>
@@ -778,8 +783,10 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/EETk9kpTURBXy8xNjIyZTY0NjdkYWFiZjA4MjIwZTY1OTgyZjc3MTAwNi5qcGeSlQPNAfAAzQN5zQU1kwXNAkTNA2veAAKhMAahMQA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/1mbk9kpTURBXy8xNjIyZTY0NjdkYWFiZjA4MjIwZTY1OTgyZjc3MTAwNi5qcGeSlQPNAfAAzQN5zQU1kwXNAkTNA2veAAKhMAWhMQA" alt="Prawicowy komentator o zaręczynach Taylor Swift. &quot;Podporządkuj się mężowi&quot;" width="580" height="875">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/NRKk9kpTURBXy8xNjIyZTY0NjdkYWFiZjA4MjIwZTY1OTgyZjc3MTAwNi5qcGeSlQPNAfAAzQN5zQU1kwXNAWPNAZXeAAKhMAahMQA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/399k9kpTURBXy8xNjIyZTY0NjdkYWFiZjA4MjIwZTY1OTgyZjc3MTAwNi5qcGeSlQPNAfAAzQN5zQU1kwXNAWPNAZXeAAKhMAWhMQA" alt="Prawicowy komentator o zaręczynach Taylor Swift. &quot;Podporządkuj się mężowi&quot;" width="355" height="405">
+                    
                 
             
         </picture>
@@ -835,10 +842,12 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
     <a href="https://noizz.pl/podroze/danuta-mieszka-w-toskanii-to-najpiekniejsza-krajobrazowo-czesc/ctqsgb1" class="itemLink ">
         
         <picture class="itemPicture">
-             
+            
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/lO4k9kpTURBXy9jMDBlYjRkODkyZDUzOWI5MWE0Yjk5YWQ4NmI3OTM1ZS5qcGeSlQMAzLPNA8DNAhyTBc0CNc0Bht4AAqEwBqExAA" type="image/avif">
-                    <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/l7ak9kpTURBXy9jMDBlYjRkODkyZDUzOWI5MWE0Yjk5YWQ4NmI3OTM1ZS5qcGeSlQMAzLPNA8DNAhyTBc0CNc0Bht4AAqEwBaExAA" alt="Danuta mieszka w Toskanii. &quot;To najpiękniejsza jej część&quot;" width="565" height="390">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/MJBk9kpTURBXy82NDVjYjg2YmE1NWU0NjRlZjFlNjJkNWYyZGFhODJhMC5wbmeSlQPNARfNAafNAtHNBDqTBc0BY80Bld4AAqEwBqExAA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/-sck9kpTURBXy82NDVjYjg2YmE1NWU0NjRlZjFlNjJkNWYyZGFhODJhMC5wbmeSlQPNARfNAafNAtHNBDqTBc0BY80Bld4AAqEwBaExAA" alt="Danuta mieszka w Toskanii. &quot;To najpiękniejsza jej część&quot;" width="355" height="405">
+                    
                 
             
         </picture>
@@ -894,10 +903,12 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
     <a href="https://noizz.pl/spoleczenstwo/wideo-o-ufaniu-ai-stalo-sie-viralem-halucynuje-bardziej-niz-twoj-wujek/ee52c1p" class="itemLink ">
         
         <picture class="itemPicture">
-             
+            
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/ru2k9kpTURBXy83MTAwZjMzZTc0NjBhMTNmNGZmMmI5MWQ2MDA5NjBlYy5qcGeSlQMAAM0P-M0KpZMFzQI1zQGG3gACoTAGoTEA" type="image/avif">
-                    <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/VHYk9kpTURBXy83MTAwZjMzZTc0NjBhMTNmNGZmMmI5MWQ2MDA5NjBlYy5qcGeSlQMAAM0P-M0KpZMFzQI1zQGG3gACoTAFoTEA" alt="Wideo o ufaniu AI stało się viralem. &quot;Halucynuje bardziej niż twój wujek po grzybach&quot;" width="565" height="390">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/Ri6k9kpTURBXy83MTAwZjMzZTc0NjBhMTNmNGZmMmI5MWQ2MDA5NjBlYy5qcGeSlQPNCCgAzQcZzQqnkwXNAWPNAZXeAAKhMAahMQA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/bkAk9kpTURBXy83MTAwZjMzZTc0NjBhMTNmNGZmMmI5MWQ2MDA5NjBlYy5qcGeSlQPNCCgAzQcZzQqnkwXNAWPNAZXeAAKhMAWhMQA" alt="Wideo o ufaniu AI stało się viralem. &quot;Halucynuje bardziej niż twój wujek po grzybach&quot;" width="355" height="405">
+                    
                 
             
         </picture>
@@ -945,6 +956,34 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
 
     
         
+    
+        <div class="placeholder right"
+            data-placeholder-caption="Reklama"
+            data-placeholder-float-value="false"
+			
+			
+        >
+            <div class="slotContainer">
+                <div class="onet-ad " id="right"></div>
+            </div>
+        </div>
+    
+    <script>
+        (function () {
+            var slotName = "right";
+            var id = "right";
+            
+            var position = "1";
+            
+            onetAds.cmd.push(function (dlApi) {
+                dlApi.defineSlot(slotName, id, {pos: parseInt(position, 10)});
+            });
+        }());
+    </script>
+    
+
+    
+        
 
 
 
@@ -982,10 +1021,12 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
     <a href="https://noizz.pl/design/stworzyli-dom-z-turbiny-wiatrowej-ma-wiecej-metrow-niz-niejedno-mieszkanie/dp8cd2k" class="itemLink ">
         
         <picture class="itemPicture">
-             
+            
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/aiPk9kpTURBXy9hZGUyNjFhZTVhZjNhMzgyYzZmNGRlNWRkMGRlNTY3YS5wbmeSlQMAAM0KAM0GqpMFzQI1zQGG3gACoTAGoTEA" type="image/avif">
-                    <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/UcQk9kpTURBXy9hZGUyNjFhZTVhZjNhMzgyYzZmNGRlNWRkMGRlNTY3YS5wbmeSlQMAAM0KAM0GqpMFzQI1zQGG3gACoTAFoTEA" alt="Stworzyli dom z turbiny wiatrowej. Ma więcej metrów niż niejedno mieszkanie" width="565" height="390">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/c4mk9kpTURBXy9hZGUyNjFhZTVhZjNhMzgyYzZmNGRlNWRkMGRlNTY3YS5wbmeSlQPNARkAzQRxzQaskwXNAWPNAZXeAAKhMAahMQA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/KjMk9kpTURBXy9hZGUyNjFhZTVhZjNhMzgyYzZmNGRlNWRkMGRlNTY3YS5wbmeSlQPNARkAzQRxzQaskwXNAWPNAZXeAAKhMAWhMQA" alt="Stworzyli dom z turbiny wiatrowej. Ma więcej metrów niż niejedno mieszkanie" width="355" height="405">
+                    
                 
             
         </picture>
@@ -1041,10 +1082,12 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
     <a href="https://noizz.pl/spoleczenstwo/studenci-zamieszkali-w-starym-autokarze-kiedys-jezdzily-nim-sugababes/l8vw8k9" class="itemLink ">
         
         <picture class="itemPicture">
-             
+            
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/tH3k9kpTURBXy9jN2UzNjA4YWMwNDEyZjk2ZjcxMDdiNWNhNDZhNWNmYy5qcGeSlQPMZADNBDjNAtCTBc0CNc0Bht4AAqEwBqExAA" type="image/avif">
-                    <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/HKgk9kpTURBXy9jN2UzNjA4YWMwNDEyZjk2ZjcxMDdiNWNhNDZhNWNmYy5qcGeSlQPMZADNBDjNAtCTBc0CNc0Bht4AAqEwBaExAA" alt="Zamieszkali w starym autokarze, bo dobijały ich ceny wynajmu" width="565" height="390">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/xj5k9kpTURBXy9jN2UzNjA4YWMwNDEyZjk2ZjcxMDdiNWNhNDZhNWNmYy5qcGeSlQPMZADNBDjNAtCTBc0BY80Bld4AAqEwBqExAA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/xNuk9kpTURBXy9jN2UzNjA4YWMwNDEyZjk2ZjcxMDdiNWNhNDZhNWNmYy5qcGeSlQPMZADNBDjNAtCTBc0BY80Bld4AAqEwBaExAA" alt="Zamieszkali w starym autokarze, bo dobijały ich ceny wynajmu" width="355" height="405">
+                    
                 
             
         </picture>
@@ -1102,8 +1145,10 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/Kh6k9kpTURBXy84OGNlZThiYjJhODc2NjYxYTk0YzZhMGE1NzU1NmYxNi5wbmeSlQM2AM0Cx80EKpMFzQJEzQNr3gACoTAGoTEA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/fTik9kpTURBXy84OGNlZThiYjJhODc2NjYxYTk0YzZhMGE1NzU1NmYxNi5wbmeSlQM2AM0Cx80EKpMFzQJEzQNr3gACoTAFoTEA" alt="Marysia kupiła dom w Hiszpanii. &quot;Niektóre mogą okazać się pułapką&quot;" width="580" height="875">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/Y9Vk9kpTURBXy84OGNlZThiYjJhODc2NjYxYTk0YzZhMGE1NzU1NmYxNi5wbmeSlQM2AM0Cx80EKpMFzQFjzQGV3gACoTAGoTEA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/rVyk9kpTURBXy84OGNlZThiYjJhODc2NjYxYTk0YzZhMGE1NzU1NmYxNi5wbmeSlQM2AM0Cx80EKpMFzQFjzQGV3gACoTAFoTEA" alt="Marysia kupiła dom w Hiszpanii. &quot;Niektóre mogą okazać się pułapką&quot;" width="355" height="405">
+                    
                 
             
         </picture>
@@ -1190,8 +1235,10 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/IwIk9kpTURBXy84ODdiZTI1YTc0NWE0ZTRhOGRmMGJhYTBhMTQwMGYyMi5qcGeSlQPNBq8AzQkxzQ3MkwXNAkTNA2veAAKhMAahMQA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/9Obk9kpTURBXy84ODdiZTI1YTc0NWE0ZTRhOGRmMGJhYTBhMTQwMGYyMi5qcGeSlQPNBq8AzQkxzQ3MkwXNAkTNA2veAAKhMAWhMQA" alt="Dania odebrała dziecko Grenlandce. Wykonano dyskryminujące testy" width="580" height="875">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/WRsk9kpTURBXy84ODdiZTI1YTc0NWE0ZTRhOGRmMGJhYTBhMTQwMGYyMi5qcGeSlQPNBq8AzQkxzQ3MkwXNAWPNAZXeAAKhMAahMQA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/wtxk9kpTURBXy84ODdiZTI1YTc0NWE0ZTRhOGRmMGJhYTBhMTQwMGYyMi5qcGeSlQPNBq8AzQkxzQ3MkwXNAWPNAZXeAAKhMAWhMQA" alt="Dania odebrała dziecko Grenlandce. Wykonano dyskryminujące testy" width="355" height="405">
+                    
                 
             
         </picture>
@@ -1249,8 +1296,10 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/5nLk9kpTURBXy8zMDM2YzBlNGUwMjc0NWJjNmQyNmUwZDE2MzFiYjMwMi5wbmeSlQPMSADNAcLNAqOTBc0CRM0Da94AAqEwBqExAA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/m70k9kpTURBXy8zMDM2YzBlNGUwMjc0NWJjNmQyNmUwZDE2MzFiYjMwMi5wbmeSlQPMSADNAcLNAqOTBc0CRM0Da94AAqEwBaExAA" alt="Transpłciowa naukowczyni napisała list do biskupa. Wspomniała o &quot;grzechu śmiertelnym&quot;" width="580" height="875">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/M3vk9kpTURBXy8zMDM2YzBlNGUwMjc0NWJjNmQyNmUwZDE2MzFiYjMwMi5wbmeSlQPMSADNAcLNAqOTBc0BY80Bld4AAqEwBqExAA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/tvRk9kpTURBXy8zMDM2YzBlNGUwMjc0NWJjNmQyNmUwZDE2MzFiYjMwMi5wbmeSlQPMSADNAcLNAqOTBc0BY80Bld4AAqEwBaExAA" alt="Transpłciowa naukowczyni napisała list do biskupa. Wspomniała o &quot;grzechu śmiertelnym&quot;" width="355" height="405">
+                    
                 
             
         </picture>
@@ -1337,8 +1386,10 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/AK-k9kpTURBXy83NGZiNWU0M2QzZjgxZTgxYzQwZjE1ZDM3N2U0NTRkYi5qcGeSlQPNCawAzQurzRF_kwXNAkTNA2veAAKhMAahMQA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/8D8k9kpTURBXy83NGZiNWU0M2QzZjgxZTgxYzQwZjE1ZDM3N2U0NTRkYi5qcGeSlQPNCawAzQurzRF_kwXNAkTNA2veAAKhMAWhMQA" alt="Gdy pomoc zamienia się w biznes. Wolonturystyka to współczesny syndrom &quot;białego wybawcy&quot;" width="580" height="875">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/csvk9kpTURBXy83NGZiNWU0M2QzZjgxZTgxYzQwZjE1ZDM3N2U0NTRkYi5qcGeSlQPNCawAzQurzRF_kwXNAWPNAZXeAAKhMAahMQA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/E1Ok9kpTURBXy83NGZiNWU0M2QzZjgxZTgxYzQwZjE1ZDM3N2U0NTRkYi5qcGeSlQPNCawAzQurzRF_kwXNAWPNAZXeAAKhMAWhMQA" alt="Gdy pomoc zamienia się w biznes. Wolonturystyka to współczesny syndrom &quot;białego wybawcy&quot;" width="355" height="405">
+                    
                 
             
         </picture>
@@ -1394,10 +1445,12 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
     <a href="https://noizz.pl/podroze/wieloryb-do-kawy-i-zakupy-na-boso-w-supermarkecie-taka-australie-poznaja-nieliczni/m3fkfel" class="itemLink ">
         
         <picture class="itemPicture">
-             
+            
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/FbTk9kqTURBXy81YTUxNjA5M2E0OTUwZDA1MWQ3ODhhZWNhNzdiNjAyYy5qcGVnkZMFzQI1zQGG3gACoTAGoTEA" type="image/avif">
-                    <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/p9ik9kqTURBXy81YTUxNjA5M2E0OTUwZDA1MWQ3ODhhZWNhNzdiNjAyYy5qcGVnkZMFzQI1zQGG3gACoTAFoTEA" alt="Wieloryb do kawy i na boso w supermarkecie. Taką Australię poznają nieliczni" width="565" height="390">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/7tjk9kqTURBXy81YTUxNjA5M2E0OTUwZDA1MWQ3ODhhZWNhNzdiNjAyYy5qcGVnkZMFzQFjzQGV3gACoTAGoTEA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/3Czk9kqTURBXy81YTUxNjA5M2E0OTUwZDA1MWQ3ODhhZWNhNzdiNjAyYy5qcGVnkZMFzQFjzQGV3gACoTAFoTEA" alt="Wieloryb do kawy i na boso w supermarkecie. Taką Australię poznają nieliczni" width="355" height="405">
+                    
                 
             
         </picture>
@@ -1453,10 +1506,12 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
     <a href="https://noizz.pl/spoleczenstwo/zetki-ida-do-slubu-pospieszylismy-sie-z-pragmatycznego-powodu/hzwmqpm" class="itemLink ">
         
         <picture class="itemPicture">
-             
+            
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/C7Ck9kpTURBXy80N2M0NmY4NzhjZTUwMmRiOGE5ZTg3Yzg1MDQwMGU5YS5qcGeRkwXNAjXNAYbeAAKhMAahMQA" type="image/avif">
-                    <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/msTk9kpTURBXy80N2M0NmY4NzhjZTUwMmRiOGE5ZTg3Yzg1MDQwMGU5YS5qcGeRkwXNAjXNAYbeAAKhMAWhMQA" alt="Ani tradwife, ani situationship. Zetki idą do ślubu" width="565" height="390">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/QO5k9kpTURBXy80N2M0NmY4NzhjZTUwMmRiOGE5ZTg3Yzg1MDQwMGU5YS5qcGeSlQPNAZkAzQp1zQ-wkwXNAWPNAZXeAAKhMAahMQA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/VZlk9kpTURBXy80N2M0NmY4NzhjZTUwMmRiOGE5ZTg3Yzg1MDQwMGU5YS5qcGeSlQPNAZkAzQp1zQ-wkwXNAWPNAZXeAAKhMAWhMQA" alt="Ani tradwife, ani situationship. Zetki idą do ślubu" width="355" height="405">
+                    
                 
             
         </picture>
@@ -1537,10 +1592,12 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
     <a href="https://noizz.pl/lifestyle/huawei-matepad-115-2025-promocje-i-rabaty-dla-studentow/3f7fq0d" class="itemLink isSponsored">
         
         <picture class="itemPicture">
-             
+            
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/PoVk9kpTURBXy81NGRmZDNhZDEyZWNiOTY1OGU2NmU1YzRhYWUyYmM4NC5qcGeSlQPNAYEAzRA-zQrUkwXNAjXNAYbeAAKhMAahMQA" type="image/avif">
-                    <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/IDxk9kpTURBXy81NGRmZDNhZDEyZWNiOTY1OGU2NmU1YzRhYWUyYmM4NC5qcGeSlQPNAYEAzRA-zQrUkwXNAjXNAYbeAAKhMAWhMQA" alt="Sprawdziłam, do czego przydaje się tablet w 2025 r. Kilka funkcji mnie zaskoczyło" width="565" height="390">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/Odmk9kpTURBXy81NGRmZDNhZDEyZWNiOTY1OGU2NmU1YzRhYWUyYmM4NC5qcGeSlQPNAYEAzRA-zQrUkwXNAWPNAZXeAAKhMAahMQA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/gOUk9kpTURBXy81NGRmZDNhZDEyZWNiOTY1OGU2NmU1YzRhYWUyYmM4NC5qcGeSlQPNAYEAzRA-zQrUkwXNAWPNAZXeAAKhMAWhMQA" alt="Sprawdziłam, do czego przydaje się tablet w 2025 r. Kilka funkcji mnie zaskoczyło" width="355" height="405">
+                    
                 
             
         </picture>
@@ -1584,10 +1641,12 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
     <a href="https://noizz.pl/fashion/zycie-nad-morzem-zulu-kuki-o-pracy-pasjach-i-rytualach-w-gdansku/2e8be8g" class="itemLink isSponsored">
         
         <picture class="itemPicture">
-             
+            
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/3T_k9kpTURBXy85MTE4MTViOWZlMDlmMjc3NjgyZDQ5NjY0MWE1OWY2MS5qcGeSlQMAAM0XcM0PoJMFzQI1zQGG3gACoTAGoTEA" type="image/avif">
-                    <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/0e7k9kpTURBXy85MTE4MTViOWZlMDlmMjc3NjgyZDQ5NjY0MWE1OWY2MS5qcGeSlQMAAM0XcM0PoJMFzQI1zQGG3gACoTAFoTEA" alt="Noizz On Tour x Hyundai: zulu kuki pokazuje nam Gdańsk" width="565" height="390">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/fLlk9kpTURBXy85MTE4MTViOWZlMDlmMjc3NjgyZDQ5NjY0MWE1OWY2MS5qcGeSlQMAAM0XcM0PoJMFzQFjzQGV3gACoTAGoTEA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/6_yk9kpTURBXy85MTE4MTViOWZlMDlmMjc3NjgyZDQ5NjY0MWE1OWY2MS5qcGeSlQMAAM0XcM0PoJMFzQFjzQGV3gACoTAFoTEA" alt="Noizz On Tour x Hyundai: zulu kuki pokazuje nam Gdańsk" width="355" height="405">
+                    
                 
             
         </picture>
@@ -1631,10 +1690,12 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
     <a href="https://noizz.pl/muzyka/smakuj-lato-z-pepsi-festiwale-relaks-i-spontaniczne-przygody/mrfjlql" class="itemLink isSponsored">
         
         <picture class="itemPicture">
-             
+            
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/blEk9kpTURBXy8zNTIzNDNlYWI0MjMxZGE3ZDU1YTIyODUzZWQ4YzIyYy5qcGeSlQMAAM0XcM0PoJMFzQI1zQGG3gACoTAGoTEA" type="image/avif">
-                    <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/VS6k9kpTURBXy8zNTIzNDNlYWI0MjMxZGE3ZDU1YTIyODUzZWQ4YzIyYy5qcGeSlQMAAM0XcM0PoJMFzQI1zQGG3gACoTAFoTEA" alt="Zapytaliśmy młodych, jak spędzają lato po swojemu. Odpowiedź? Praca, festiwale i dużo luzu" width="565" height="390">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/JOYk9kpTURBXy8zNTIzNDNlYWI0MjMxZGE3ZDU1YTIyODUzZWQ4YzIyYy5qcGeSlQMAAM0XcM0PoJMFzQFjzQGV3gACoTAGoTEA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/rvmk9kpTURBXy8zNTIzNDNlYWI0MjMxZGE3ZDU1YTIyODUzZWQ4YzIyYy5qcGeSlQMAAM0XcM0PoJMFzQFjzQGV3gACoTAFoTEA" alt="Zapytaliśmy młodych, jak spędzają lato po swojemu. Odpowiedź? Praca, festiwale i dużo luzu" width="355" height="405">
+                    
                 
             
         </picture>
@@ -1678,10 +1739,12 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
     <a href="https://noizz.pl/nauka-i-technologia/odnowione-iphoney-z-ispot-jakosc-apple-w-nizszej-cenie/me3fcmw" class="itemLink isSponsored">
         
         <picture class="itemPicture">
-             
+            
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/_TJk9kpTURBXy82MGY1NTc4MDAyYmEwM2UyOWQyNjAyZjgzMGE3NDNjNi5qcGeSlQMFAM0Xcc0PoZMFzQI1zQGG3gACoTAGoTEA" type="image/avif">
-                    <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/t62k9kpTURBXy82MGY1NTc4MDAyYmEwM2UyOWQyNjAyZjgzMGE3NDNjNi5qcGeSlQMFAM0Xcc0PoZMFzQI1zQGG3gACoTAFoTEA" alt="Odnowione iPhone&#39;y z drugiej ręki w sieci iSpot. Wszystko, co trzeba wiedzieć na ich temat" width="565" height="390">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/X1zk9kpTURBXy82MGY1NTc4MDAyYmEwM2UyOWQyNjAyZjgzMGE3NDNjNi5qcGeSlQMFAM0Xcc0PoZMFzQFjzQGV3gACoTAGoTEA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/Khyk9kpTURBXy82MGY1NTc4MDAyYmEwM2UyOWQyNjAyZjgzMGE3NDNjNi5qcGeSlQMFAM0Xcc0PoZMFzQFjzQGV3gACoTAFoTEA" alt="Odnowione iPhone&#39;y z drugiej ręki w sieci iSpot. Wszystko, co trzeba wiedzieć na ich temat" width="355" height="405">
+                    
                 
             
         </picture>
@@ -1723,21 +1786,21 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
     
         
     
-        <div class="placeholder top2"
+        <div class="placeholder right2"
             data-placeholder-caption="Reklama"
             data-placeholder-float-value="false"
 			
 			
         >
             <div class="slotContainer">
-                <div class="onet-ad " id="top2-pos1"></div>
+                <div class="onet-ad " id="right2-pos1"></div>
             </div>
         </div>
     
     <script>
         (function () {
-            var slotName = "top2";
-            var id = "top2-pos1";
+            var slotName = "right2";
+            var id = "right2-pos1";
             
             var position = "1";
             
@@ -1789,8 +1852,10 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/fPRk9kpTURBXy82NDI5NGI4MmQyYThlZDRhMDBhNTIzOTZhZjY0YTdhMy5qcGeRkwXNAkTNA2veAAKhMAahMQA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/pMZk9kpTURBXy82NDI5NGI4MmQyYThlZDRhMDBhNTIzOTZhZjY0YTdhMy5qcGeRkwXNAkTNA2veAAKhMAWhMQA" alt="Znasz te słowa? Nawet jeden punkt w tym quizie to powód do dumy" width="580" height="875">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/6PQk9kpTURBXy82NDI5NGI4MmQyYThlZDRhMDBhNTIzOTZhZjY0YTdhMy5qcGeRkwXNAWPNAZXeAAKhMAahMQA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/bhqk9kpTURBXy82NDI5NGI4MmQyYThlZDRhMDBhNTIzOTZhZjY0YTdhMy5qcGeRkwXNAWPNAZXeAAKhMAWhMQA" alt="Znasz te słowa? Nawet jeden punkt w tym quizie to powód do dumy" width="355" height="405">
+                    
                 
             
         </picture>
@@ -1846,10 +1911,12 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
     <a href="https://noizz.pl/spoleczenstwo/ukryta-biblioteka-w-stolicy-pierwsze-tego-typu-miejsce-w-polsce/c8j2bqy" class="itemLink ">
         
         <picture class="itemPicture">
-             
+            
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/Ormk9kpTURBXy84Y2E1ODI0M2VmMzk3NjI3Mjg5NzFmOTFlZTA0ZDk3OS5qcGeRkwXNAjXNAYbeAAKhMAahMQA" type="image/avif">
-                    <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/vy1k9kpTURBXy84Y2E1ODI0M2VmMzk3NjI3Mjg5NzFmOTFlZTA0ZDk3OS5qcGeRkwXNAjXNAYbeAAKhMAWhMQA" alt="Ukryta biblioteka w stolicy. Pierwsze tego typu miejsce w Polsce" width="565" height="390">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/MsIk9kpTURBXy84Y2E1ODI0M2VmMzk3NjI3Mjg5NzFmOTFlZTA0ZDk3OS5qcGeSlQPNAQ0AzQQAzQYAkwXNAWPNAZXeAAKhMAahMQA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/Ma4k9kpTURBXy84Y2E1ODI0M2VmMzk3NjI3Mjg5NzFmOTFlZTA0ZDk3OS5qcGeSlQPNAQ0AzQQAzQYAkwXNAWPNAZXeAAKhMAWhMQA" alt="Ukryta biblioteka w stolicy. Pierwsze tego typu miejsce w Polsce" width="355" height="405">
+                    
                 
             
         </picture>
@@ -1893,10 +1960,12 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
     <a href="https://noizz.pl/design/talerz-za-grosze-z-second-handu-jest-warty-tysiace-sprzedawca-mial-nosa/cee7kp1" class="itemLink ">
         
         <picture class="itemPicture">
-             
+            
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/c45k9kpTURBXy9kYjk2MDQ1NGU5Y2JlNDc2ZDg3NWExMThjNTYwNDliMC5qcGeRkwXNAjXNAYbeAAKhMAahMQA" type="image/avif">
-                    <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/u6xk9kpTURBXy9kYjk2MDQ1NGU5Y2JlNDc2ZDg3NWExMThjNTYwNDliMC5qcGeRkwXNAjXNAYbeAAKhMAWhMQA" alt="Talerz za grosze z second handu jest warty tysiące. Sprzedawca miał nosa" width="565" height="390">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/AVWk9kpTURBXy9kYjk2MDQ1NGU5Y2JlNDc2ZDg3NWExMThjNTYwNDliMC5qcGeRkwXNAWPNAZXeAAKhMAahMQA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/oeOk9kpTURBXy9kYjk2MDQ1NGU5Y2JlNDc2ZDg3NWExMThjNTYwNDliMC5qcGeRkwXNAWPNAZXeAAKhMAWhMQA" alt="Talerz za grosze z second handu jest warty tysiące. Sprzedawca miał nosa" width="355" height="405">
+                    
                 
             
         </picture>
@@ -1970,8 +2039,10 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/vOUk9kpTURBXy8yMDdmYmQ4NjhkM2Y2NjQ1ZDY0ODBkYmM2ZTZjN2IxNy5wbmeRkwXNAy_NAibeAAKhMAahMQA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/YM3k9kpTURBXy8yMDdmYmQ4NjhkM2Y2NjQ1ZDY0ODBkYmM2ZTZjN2IxNy5wbmeRkwXNAy_NAibeAAKhMAWhMQA" alt="Skakała ze spadochronu w sukience. Historia Polki, która należała do cichociemnych" width="815" height="550">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/Aelk9kpTURBXy9jNmQ0ZTMwMWQxNTE5MGU0M2E0YTM4ZTM0OTIyOTMzNS5wbmeSlQPMTCLNATHNAcmTBc0BY80Bld4AAqEwBqExAA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/8Eyk9kpTURBXy9jNmQ0ZTMwMWQxNTE5MGU0M2E0YTM4ZTM0OTIyOTMzNS5wbmeSlQPMTCLNATHNAcmTBc0BY80Bld4AAqEwBaExAA" alt="Skakała ze spadochronu w sukience. Historia Polki, która należała do cichociemnych" width="355" height="405">
+                    
                 
             
         </picture>
@@ -2017,8 +2088,8 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/M4Sk9kpTURBXy9jZmZmYWU4OWY4M2I3ZmE2YzZiNDk1ZmI2NGU1ZWIxNC5qcGeRkwXMc8xz3gACoTAGoTEA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/cj7k9kpTURBXy9jZmZmYWU4OWY4M2I3ZmE2YzZiNDk1ZmI2NGU1ZWIxNC5qcGeRkwXMc8xz3gACoTAFoTEA" alt="Całkowicie zniosą VAT na książki. Tak chcą walczyć z kryzysem czytelnictwa" width="115" height="115">
+                    <source srcset="//ocdn.eu/pulscms-transforms/1/jQIk9kpTURBXy9jZmZmYWU4OWY4M2I3ZmE2YzZiNDk1ZmI2NGU1ZWIxNC5qcGeRkwXMeMx43gACoTAGoTEA" type="image/avif">
+                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/Nc0k9kpTURBXy9jZmZmYWU4OWY4M2I3ZmE2YzZiNDk1ZmI2NGU1ZWIxNC5qcGeRkwXMeMx43gACoTAFoTEA" alt="Całkowicie zniosą VAT na książki. Tak chcą walczyć z kryzysem czytelnictwa" width="120" height="120">
                 
             
         </picture>
@@ -2076,8 +2147,8 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/F6hk9kpTURBXy80OTcxNjc0Yjk0ODJkNWI4MDIxOTFjZWRmMzljYmM4ZC5qcGeRkwXMc8xz3gACoTAGoTEA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/n9Ok9kpTURBXy80OTcxNjc0Yjk0ODJkNWI4MDIxOTFjZWRmMzljYmM4ZC5qcGeRkwXMc8xz3gACoTAFoTEA" alt="&quot;Together&quot; przeraża, intryguje i zadaje trudne pytania. Na czym polega fenomen tego horroru?" width="115" height="115">
+                    <source srcset="//ocdn.eu/pulscms-transforms/1/3Czk9kpTURBXy80OTcxNjc0Yjk0ODJkNWI4MDIxOTFjZWRmMzljYmM4ZC5qcGeRkwXMeMx43gACoTAGoTEA" type="image/avif">
+                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/Mbvk9kpTURBXy80OTcxNjc0Yjk0ODJkNWI4MDIxOTFjZWRmMzljYmM4ZC5qcGeRkwXMeMx43gACoTAFoTEA" alt="&quot;Together&quot; przeraża, intryguje i zadaje trudne pytania. Na czym polega fenomen tego horroru?" width="120" height="120">
                 
             
         </picture>
@@ -2123,8 +2194,8 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/JS4k9kpTURBXy85NDUwZjg0YzRkZGJjZTJiY2RiNjA2NDVjMjY4YjM3Zi5qcGeRkwXMc8xz3gACoTAGoTEA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/jlqk9kpTURBXy85NDUwZjg0YzRkZGJjZTJiY2RiNjA2NDVjMjY4YjM3Zi5qcGeRkwXMc8xz3gACoTAFoTEA" alt="Quiz dla odważnych. Tylko kujon jest w stanie zdobyć 10/10" width="115" height="115">
+                    <source srcset="//ocdn.eu/pulscms-transforms/1/_6Ck9kpTURBXy85NDUwZjg0YzRkZGJjZTJiY2RiNjA2NDVjMjY4YjM3Zi5qcGeRkwXMeMx43gACoTAGoTEA" type="image/avif">
+                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/TYVk9kpTURBXy85NDUwZjg0YzRkZGJjZTJiY2RiNjA2NDVjMjY4YjM3Zi5qcGeRkwXMeMx43gACoTAFoTEA" alt="Quiz dla odważnych. Tylko kujon jest w stanie zdobyć 10/10" width="120" height="120">
                 
             
         </picture>
@@ -2170,8 +2241,8 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/fPfk9kpTURBXy9kMTBmNzJjMWJkYWQ2ZDQ4N2YyYjA0NmFkYTM3ZmU2ZS5qcGeRkwXMc8xz3gACoTAGoTEA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/Jfrk9kpTURBXy9kMTBmNzJjMWJkYWQ2ZDQ4N2YyYjA0NmFkYTM3ZmU2ZS5qcGeRkwXMc8xz3gACoTAFoTEA" alt="Quiz dla bystrzaków. Powoli, bo szybkie strzały mogą zaboleć" width="115" height="115">
+                    <source srcset="//ocdn.eu/pulscms-transforms/1/3D0k9kpTURBXy9kMTBmNzJjMWJkYWQ2ZDQ4N2YyYjA0NmFkYTM3ZmU2ZS5qcGeRkwXMeMx43gACoTAGoTEA" type="image/avif">
+                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/p9Jk9kpTURBXy9kMTBmNzJjMWJkYWQ2ZDQ4N2YyYjA0NmFkYTM3ZmU2ZS5qcGeRkwXMeMx43gACoTAFoTEA" alt="Quiz dla bystrzaków. Powoli, bo szybkie strzały mogą zaboleć" width="120" height="120">
                 
             
         </picture>
@@ -2201,6 +2272,34 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
             
         </div>
     </section>
+
+    
+        
+    
+        <div class="placeholder right2"
+            data-placeholder-caption="Reklama"
+            data-placeholder-float-value="false"
+			
+			
+        >
+            <div class="slotContainer">
+                <div class="onet-ad " id="right2-pos2"></div>
+            </div>
+        </div>
+    
+    <script>
+        (function () {
+            var slotName = "right2";
+            var id = "right2-pos2";
+            
+            var position = "2";
+            
+            onetAds.cmd.push(function (dlApi) {
+                dlApi.defineSlot(slotName, id, {pos: parseInt(position, 10)});
+            });
+        }());
+    </script>
+    
 
     
         
@@ -2241,8 +2340,10 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/NZNk9kpTURBXy83Mjk4OTgyODFmZjcxMDMxYzZmODhiNjgwZjQ5NzVhMi5qcGeRkwXNAy_NAibeAAKhMAahMQA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/RYLk9kpTURBXy83Mjk4OTgyODFmZjcxMDMxYzZmODhiNjgwZjQ5NzVhMi5qcGeRkwXNAy_NAibeAAKhMAWhMQA" alt="Meksyk zakazuje pokazów z udziałem ssaków. Setki delfinów odzyskają wolność" width="815" height="550">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/rwkk9kpTURBXy83Mjk4OTgyODFmZjcxMDMxYzZmODhiNjgwZjQ5NzVhMi5qcGeRkwXNAWPNAZXeAAKhMAahMQA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/eeKk9kpTURBXy83Mjk4OTgyODFmZjcxMDMxYzZmODhiNjgwZjQ5NzVhMi5qcGeRkwXNAWPNAZXeAAKhMAWhMQA" alt="Meksyk zakazuje pokazów z udziałem ssaków. Setki delfinów odzyskają wolność" width="355" height="405">
+                    
                 
             
         </picture>
@@ -2300,8 +2401,8 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/MXAk9kpTURBXy9lYTY1Nzg0MGYwYjJjNjIwODY0YzdiMGYyZGEzZWQzOC5qcGeRkwXMc8xz3gACoTAGoTEA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/Qxqk9kpTURBXy9lYTY1Nzg0MGYwYjJjNjIwODY0YzdiMGYyZGEzZWQzOC5qcGeRkwXMc8xz3gACoTAFoTEA" alt="Znalazła rzadkiego ślimaka. Cała Nowa Zelandia szuka dla niego partnera" width="115" height="115">
+                    <source srcset="//ocdn.eu/pulscms-transforms/1/FGyk9kpTURBXy9lYTY1Nzg0MGYwYjJjNjIwODY0YzdiMGYyZGEzZWQzOC5qcGeRkwXMeMx43gACoTAGoTEA" type="image/avif">
+                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/55Gk9kpTURBXy9lYTY1Nzg0MGYwYjJjNjIwODY0YzdiMGYyZGEzZWQzOC5qcGeRkwXMeMx43gACoTAFoTEA" alt="Znalazła rzadkiego ślimaka. Cała Nowa Zelandia szuka dla niego partnera" width="120" height="120">
                 
             
         </picture>
@@ -2359,8 +2460,8 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/ULPk9kpTURBXy8wZjE1OWVmNGNmOTJmYzI0NzVhZDFiYzM2ZGQwYWI2Zi5qcGeRkwXMc8xz3gACoTAGoTEA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/7lZk9kpTURBXy8wZjE1OWVmNGNmOTJmYzI0NzVhZDFiYzM2ZGQwYWI2Zi5qcGeRkwXMc8xz3gACoTAFoTEA" alt="&quot;Stres stomatologiczny&quot; zagraża rekinom. Eksperci biją na alarm" width="115" height="115">
+                    <source srcset="//ocdn.eu/pulscms-transforms/1/j2ek9kpTURBXy8wZjE1OWVmNGNmOTJmYzI0NzVhZDFiYzM2ZGQwYWI2Zi5qcGeRkwXMeMx43gACoTAGoTEA" type="image/avif">
+                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/jVCk9kpTURBXy8wZjE1OWVmNGNmOTJmYzI0NzVhZDFiYzM2ZGQwYWI2Zi5qcGeRkwXMeMx43gACoTAFoTEA" alt="&quot;Stres stomatologiczny&quot; zagraża rekinom. Eksperci biją na alarm" width="120" height="120">
                 
             
         </picture>
@@ -2418,8 +2519,8 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/y9Nk9kpTURBXy9kYWQ3MmYwNzY3NzFiNmYxZWQ3YzA5Yzc3N2M0NjU4My5qcGeRkwXMc8xz3gACoTAGoTEA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/cnkk9kpTURBXy9kYWQ3MmYwNzY3NzFiNmYxZWQ3YzA5Yzc3N2M0NjU4My5qcGeRkwXMc8xz3gACoTAFoTEA" alt="&quot;Jak ze »Stranger Things«&quot;. Portal z USA pod wrażeniem polskiego lasu" width="115" height="115">
+                    <source srcset="//ocdn.eu/pulscms-transforms/1/QnCk9kpTURBXy9kYWQ3MmYwNzY3NzFiNmYxZWQ3YzA5Yzc3N2M0NjU4My5qcGeRkwXMeMx43gACoTAGoTEA" type="image/avif">
+                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/2Zqk9kpTURBXy9kYWQ3MmYwNzY3NzFiNmYxZWQ3YzA5Yzc3N2M0NjU4My5qcGeRkwXMeMx43gACoTAFoTEA" alt="&quot;Jak ze »Stranger Things«&quot;. Portal z USA pod wrażeniem polskiego lasu" width="120" height="120">
                 
             
         </picture>
@@ -2465,8 +2566,8 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/TBSk9kpTURBXy9hYmQ4NmMyYzc0OTkzMzdjMTAwNGJhOWE4MWJkY2VmYy5qcGeRkwXMc8xz3gACoTAGoTEA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/222k9kpTURBXy9hYmQ4NmMyYzc0OTkzMzdjMTAwNGJhOWE4MWJkY2VmYy5qcGeRkwXMc8xz3gACoTAFoTEA" alt="Bambus zastąpi plastik? Może być wykorzystany w motoryzacji czy lotnictwie" width="115" height="115">
+                    <source srcset="//ocdn.eu/pulscms-transforms/1/Fhok9kpTURBXy9hYmQ4NmMyYzc0OTkzMzdjMTAwNGJhOWE4MWJkY2VmYy5qcGeRkwXMeMx43gACoTAGoTEA" type="image/avif">
+                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/XH5k9kpTURBXy9hYmQ4NmMyYzc0OTkzMzdjMTAwNGJhOWE4MWJkY2VmYy5qcGeRkwXMeMx43gACoTAFoTEA" alt="Bambus zastąpi plastik? Może być wykorzystany w motoryzacji czy lotnictwie" width="120" height="120">
                 
             
         </picture>
@@ -2511,34 +2612,6 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
 
     
         
-    
-        <div class="placeholder top2"
-            data-placeholder-caption="Reklama"
-            data-placeholder-float-value="false"
-			
-			
-        >
-            <div class="slotContainer">
-                <div class="onet-ad " id="top2-pos2"></div>
-            </div>
-        </div>
-    
-    <script>
-        (function () {
-            var slotName = "top2";
-            var id = "top2-pos2";
-            
-            var position = "2";
-            
-            onetAds.cmd.push(function (dlApi) {
-                dlApi.defineSlot(slotName, id, {pos: parseInt(position, 10)});
-            });
-        }());
-    </script>
-    
-
-    
-        
 
 
 
@@ -2573,8 +2646,10 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/iz3k9kpTURBXy80MjhhYzk4YzZhYzdkZDQ2YmIxYTY3ZWJiODc3ODhkYy5qcGeRkwXNBLDNAoXeAAKhMAahMQA" type="image/avif">
-                    <img class="itemImg" fetchpriority="high" src="//ocdn.eu/pulscms-transforms/1/xYFk9kpTURBXy80MjhhYzk4YzZhYzdkZDQ2YmIxYTY3ZWJiODc3ODhkYy5qcGeRkwXNBLDNAoXeAAKhMAWhMQA" alt="Kornelia Wieczorek została Dziewczynką Roku &quot;TIME&quot;. &quot;Płeć determinuje to, jak jesteśmy postrzegane&quot;" width="1200" height="645">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/Sx2k9kpTURBXy80MjhhYzk4YzZhYzdkZDQ2YmIxYTY3ZWJiODc3ODhkYy5qcGeRkwXNAWPNAZXeAAKhMAahMQA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/7jkk9kpTURBXy80MjhhYzk4YzZhYzdkZDQ2YmIxYTY3ZWJiODc3ODhkYy5qcGeRkwXNAWPNAZXeAAKhMAWhMQA" alt="Kornelia Wieczorek została Dziewczynką Roku &quot;TIME&quot;. &quot;Płeć determinuje to, jak jesteśmy postrzegane&quot;" width="355" height="405">
+                    
                 
             
         </picture>
@@ -2634,10 +2709,12 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
     <a href="https://noizz.pl/fashion/koronka-z-koniakowa-slynna-na-caly-swiat-powstaje-od-ponad-stu-lat/zexv8j9" class="itemLink ">
         
         <picture class="itemPicture">
-             
+            
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/hIok9kpTURBXy9mMzA3NjY4Njk4NzBlMjJmYWZmMDJjMjJiYzg2OGViNC5qcGeRkwXNAjXNAYbeAAKhMAahMQA" type="image/avif">
-                    <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/mLvk9kpTURBXy9mMzA3NjY4Njk4NzBlMjJmYWZmMDJjMjJiYzg2OGViNC5qcGeRkwXNAjXNAYbeAAKhMAWhMQA" alt="Koronka z Beskidów słynna na cały świat. Jej tradycja sięga ponad stu lat" width="565" height="390">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/ZGYk9kpTURBXy9kMGI5MDFlOTljZWM1NmFiNGZkNGQ1YmZhZGZjZWU3NC5qcGeSlQMCAM0FNc0H0JMFzQFjzQGV3gACoTAGoTEA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/TGfk9kpTURBXy9kMGI5MDFlOTljZWM1NmFiNGZkNGQ1YmZhZGZjZWU3NC5qcGeSlQMCAM0FNc0H0JMFzQFjzQGV3gACoTAFoTEA" alt="Koronka z Beskidów słynna na cały świat. Jej tradycja sięga ponad stu lat" width="355" height="405">
+                    
                 
             
         </picture>
@@ -2693,10 +2770,12 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
     <a href="https://noizz.pl/fashion/kampania-polskiej-marki-spadiora-apaszka-sprawia-ze-stroj-staje-sie-manifestem/b5v3qm3" class="itemLink ">
         
         <picture class="itemPicture">
-             
+            
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/jVSk9kpTURBXy9hN2E2OTIxMTUyMTRjNzM0YmRkYTg4ZTM1ZmJjYmEwZi5qcGeRkwXNAjXNAYbeAAKhMAahMQA" type="image/avif">
-                    <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/8KLk9kpTURBXy9hN2E2OTIxMTUyMTRjNzM0YmRkYTg4ZTM1ZmJjYmEwZi5qcGeRkwXNAjXNAYbeAAKhMAWhMQA" alt="Nowa kampania polskiej marki Spadiora. &quot;Apaszka sprawia, że strój staje się manifestem&quot;" width="565" height="390">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/xWsk9kpTURBXy8yYjMyNGY2NGJlZTRlZmNiZDE1ZWMwYjFmZGMxMTlmNS5qcGeSlQPNApEAzQ5TzRV-kwXNAWPNAZXeAAKhMAahMQA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/dibk9kpTURBXy8yYjMyNGY2NGJlZTRlZmNiZDE1ZWMwYjFmZGMxMTlmNS5qcGeSlQPNApEAzQ5TzRV-kwXNAWPNAZXeAAKhMAWhMQA" alt="Nowa kampania polskiej marki Spadiora. &quot;Apaszka sprawia, że strój staje się manifestem&quot;" width="355" height="405">
+                    
                 
             
         </picture>
@@ -2742,8 +2821,10 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/2H4k9kpTURBXy80NjkxMTExMThmOTJjZWY3MWI5MWI0MTRkZjc3OTcxMC5qcGeSlQPM5gDNDm_NFamTBc0CRM0Da94AAqEwBqExAA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/nbck9kpTURBXy80NjkxMTExMThmOTJjZWY3MWI5MWI0MTRkZjc3OTcxMC5qcGeSlQPM5gDNDm_NFamTBc0CRM0Da94AAqEwBaExAA" alt="Kolekcja L37 Jesień-Zima 2025/26. Nowa, dojrzała klasyka" width="580" height="875">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/wekk9kpTURBXy80NjkxMTExMThmOTJjZWY3MWI5MWI0MTRkZjc3OTcxMC5qcGeSlQPM5gDNDm_NFamTBc0BY80Bld4AAqEwBqExAA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/IvKk9kpTURBXy80NjkxMTExMThmOTJjZWY3MWI5MWI0MTRkZjc3OTcxMC5qcGeSlQPM5gDNDm_NFamTBc0BY80Bld4AAqEwBaExAA" alt="Kolekcja L37 Jesień-Zima 2025/26. Nowa, dojrzała klasyka" width="355" height="405">
+                    
                 
             
         </picture>
@@ -2818,8 +2899,10 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/yINk9kpTURBXy9mMTQ1MzJjYjA5MTQwY2VkNmI3NDJlNjZkY2QzMTViMS5wbmeSlQPNAd4AzQLQzQQ4kwXNAkTNA2veAAKhMAahMQA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/M6Ak9kpTURBXy9mMTQ1MzJjYjA5MTQwY2VkNmI3NDJlNjZkY2QzMTViMS5wbmeSlQPNAd4AzQLQzQQ4kwXNAkTNA2veAAKhMAWhMQA" alt="&quot;Nie potrzebuję penisa, by czuć się mężczyzną&quot;. Transpłciowy Kacper o tranzycji" width="580" height="875">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/Jfdk9kpTURBXy9mMTQ1MzJjYjA5MTQwY2VkNmI3NDJlNjZkY2QzMTViMS5wbmeSlQPNAd4AzQLQzQQ4kwXNAWPNAZXeAAKhMAahMQA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/3gVk9kpTURBXy9mMTQ1MzJjYjA5MTQwY2VkNmI3NDJlNjZkY2QzMTViMS5wbmeSlQPNAd4AzQLQzQQ4kwXNAWPNAZXeAAKhMAWhMQA" alt="&quot;Nie potrzebuję penisa, by czuć się mężczyzną&quot;. Transpłciowy Kacper o tranzycji" width="355" height="405">
+                    
                 
             
         </picture>
@@ -2877,8 +2960,10 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/gJIk9kpTURBXy84NWUwOGMzM2E1YmQwMDkyN2Y1MjRiYTQxZjI0ODdiYS5wbmeSlQPMTQDNAprNA-eTBc0CRM0Da94AAqEwBqExAA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/8Qak9kpTURBXy84NWUwOGMzM2E1YmQwMDkyN2Y1MjRiYTQxZjI0ODdiYS5wbmeSlQPMTQDNAprNA-eTBc0CRM0Da94AAqEwBaExAA" alt="Pojechałem do domu, który można ogrzać za kilkaset zł rocznie" width="580" height="875">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/7GBk9kpTURBXy84NWUwOGMzM2E1YmQwMDkyN2Y1MjRiYTQxZjI0ODdiYS5wbmeSlQPMTQDNAprNA-eTBc0BY80Bld4AAqEwBqExAA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/2Imk9kpTURBXy84NWUwOGMzM2E1YmQwMDkyN2Y1MjRiYTQxZjI0ODdiYS5wbmeSlQPMTQDNAprNA-eTBc0BY80Bld4AAqEwBaExAA" alt="Pojechałem do domu, który można ogrzać za kilkaset zł rocznie" width="355" height="405">
+                    
                 
             
         </picture>
@@ -2986,8 +3071,10 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/N3Pk9kpTURBXy8xYjM3MDVlNDMxNTgyODQ2MTI0ZDM0ODg5YjNhOGEzNi5qcGeSlQMAAM0TiM0NBZMFzQMvzQIm3gACoTAGoTEA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/1fbk9kpTURBXy8xYjM3MDVlNDMxNTgyODQ2MTI0ZDM0ODg5YjNhOGEzNi5qcGeSlQMAAM0TiM0NBZMFzQMvzQIm3gACoTAFoTEA" alt="Slow dating czy speed dating? Sprawdziliśmy, co wolą młodzi" width="815" height="550">
+                    
+                        <source srcset="//ocdn.eu/pulscms-transforms/1/JG8k9kpTURBXy8xYjM3MDVlNDMxNTgyODQ2MTI0ZDM0ODg5YjNhOGEzNi5qcGeSlQMAAM0TiM0NBZMFzQFjzQGV3gACoTAGoTEA" type="image/avif">
+                        <img class="itemImg"  loading="lazy" decoding="async"  src="//ocdn.eu/pulscms-transforms/1/4Cbk9kpTURBXy8xYjM3MDVlNDMxNTgyODQ2MTI0ZDM0ODg5YjNhOGEzNi5qcGeSlQMAAM0TiM0NBZMFzQFjzQGV3gACoTAFoTEA" alt="Slow dating czy speed dating? Sprawdziliśmy, co wolą młodzi" width="355" height="405">
+                    
                 
             
         </picture>
@@ -3033,8 +3120,8 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/ad2k9kpTURBXy8xNjQ4MTAzMGEwNDg3ZmY4NTFkNjU4YmQ2ZWY5MDdkMC5qcGeSlQPMnADNBpfNBGWTBcxzzHPeAAKhMAahMQA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/-NEk9kpTURBXy8xNjQ4MTAzMGEwNDg3ZmY4NTFkNjU4YmQ2ZWY5MDdkMC5qcGeSlQPMnADNBpfNBGWTBcxzzHPeAAKhMAWhMQA" alt="Świeżo i zdrowo! Międzypokoleniowy challenge sezonowy w kuchni" width="115" height="115">
+                    <source srcset="//ocdn.eu/pulscms-transforms/1/dy0k9kpTURBXy8xNjQ4MTAzMGEwNDg3ZmY4NTFkNjU4YmQ2ZWY5MDdkMC5qcGeSlQPMnADNBpfNBGWTBcx4zHjeAAKhMAahMQA" type="image/avif">
+                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/Frfk9kpTURBXy8xNjQ4MTAzMGEwNDg3ZmY4NTFkNjU4YmQ2ZWY5MDdkMC5qcGeSlQPMnADNBpfNBGWTBcx4zHjeAAKhMAWhMQA" alt="Świeżo i zdrowo! Międzypokoleniowy challenge sezonowy w kuchni" width="120" height="120">
                 
             
         </picture>
@@ -3080,8 +3167,8 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/BQzk9kpTURBXy9jNzJiZmU0ZDZhYzc0NTgxZDg2ODU0N2M2YjE1ZmU3Ni5qcGeSlQMAAM0TiM0NBZMFzHPMc94AAqEwBqExAA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/qgGk9kpTURBXy9jNzJiZmU0ZDZhYzc0NTgxZDg2ODU0N2M2YjE1ZmU3Ni5qcGeSlQMAAM0TiM0NBZMFzHPMc94AAqEwBaExAA" alt="Od garstki pasjonatów do 20-osobowego studia. Rozmawiamy z twórcą polskiej firmy produkującej gry planszowe" width="115" height="115">
+                    <source srcset="//ocdn.eu/pulscms-transforms/1/ZRMk9kpTURBXy9jNzJiZmU0ZDZhYzc0NTgxZDg2ODU0N2M2YjE1ZmU3Ni5qcGeSlQMAAM0TiM0NBZMFzHjMeN4AAqEwBqExAA" type="image/avif">
+                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/Q_uk9kpTURBXy9jNzJiZmU0ZDZhYzc0NTgxZDg2ODU0N2M2YjE1ZmU3Ni5qcGeSlQMAAM0TiM0NBZMFzHjMeN4AAqEwBaExAA" alt="Od garstki pasjonatów do 20-osobowego studia. Rozmawiamy z twórcą polskiej firmy produkującej gry planszowe" width="120" height="120">
                 
             
         </picture>
@@ -3127,8 +3214,8 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/COhk9kpTURBXy9kYTNkN2NkNzExMDdmMWQzZGZlZTczNGVhYmQzMjZkOS5qcGeSlQMAAM0TiM0NBZMFzHPMc94AAqEwBqExAA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/UJHk9kpTURBXy9kYTNkN2NkNzExMDdmMWQzZGZlZTczNGVhYmQzMjZkOS5qcGeSlQMAAM0TiM0NBZMFzHPMc94AAqEwBaExAA" alt="&quot;Jesteśmy grupą znajomych spotykających się na pogaduszki&quot; - założycielka klubu dyskusyjnego dla osób niemówiących" width="115" height="115">
+                    <source srcset="//ocdn.eu/pulscms-transforms/1/3tdk9kpTURBXy9kYTNkN2NkNzExMDdmMWQzZGZlZTczNGVhYmQzMjZkOS5qcGeSlQMAAM0TiM0NBZMFzHjMeN4AAqEwBqExAA" type="image/avif">
+                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/DOKk9kpTURBXy9kYTNkN2NkNzExMDdmMWQzZGZlZTczNGVhYmQzMjZkOS5qcGeSlQMAAM0TiM0NBZMFzHjMeN4AAqEwBaExAA" alt="&quot;Jesteśmy grupą znajomych spotykających się na pogaduszki&quot; - założycielka klubu dyskusyjnego dla osób niemówiących" width="120" height="120">
                 
             
         </picture>
@@ -3174,8 +3261,8 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
         <picture class="itemPicture">
             
                 
-                    <source srcset="//ocdn.eu/pulscms-transforms/1/cbuk9kpTURBXy9lNjVhNmRmNDhhM2IyMTI5YWE4MTE3NDAzZDE4NWFhMi5qcGeSlQMAAM0TiM0NBZMFzHPMc94AAqEwBqExAA" type="image/avif">
-                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/DWvk9kpTURBXy9lNjVhNmRmNDhhM2IyMTI5YWE4MTE3NDAzZDE4NWFhMi5qcGeSlQMAAM0TiM0NBZMFzHPMc94AAqEwBaExAA" alt="&quot;Dajemy robotom duszę&quot;. Polacy programujący maszyny opowiadają o swoim zawodzie" width="115" height="115">
+                    <source srcset="//ocdn.eu/pulscms-transforms/1/Kwsk9kpTURBXy9lNjVhNmRmNDhhM2IyMTI5YWE4MTE3NDAzZDE4NWFhMi5qcGeSlQMAAM0TiM0NBZMFzHjMeN4AAqEwBqExAA" type="image/avif">
+                    <img class="itemImg" loading="lazy" decoding="async" src="//ocdn.eu/pulscms-transforms/1/RLok9kpTURBXy9lNjVhNmRmNDhhM2IyMTI5YWE4MTE3NDAzZDE4NWFhMi5qcGeSlQMAAM0TiM0NBZMFzHjMeN4AAqEwBaExAA" alt="&quot;Dajemy robotom duszę&quot;. Polacy programujący maszyny opowiadają o swoim zawodzie" width="120" height="120">
                 
             
         </picture>
@@ -3395,7 +3482,7 @@ if (adiURL) {document.body.classList.add('adiArticle');}</script>
                 let placeholder = advert.closest('.placeholder');
                 if(placeholder){
                     delete placeholder.dataset.placeholderCaption;
-                    const isMobile = false;
+                    const isMobile = true;
                     if(isMobile){
                         if (advert.offsetHeight > 0 && advert.offsetHeight < maxHeight || shouldForceSticky(placeholder)) {
                             placeholder.classList.add('sticky');

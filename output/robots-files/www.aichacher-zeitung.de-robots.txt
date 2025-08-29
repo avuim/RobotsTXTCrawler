@@ -1036,14 +1036,14 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Themen</a>
             <ul class="sub-menu-mm">
                             <li class="ressort-item-mm">
-    <a        href="/themen/leser-aktionen"
-       target="_top"             data-preview=""
-             data-preview-count="4">Leser-Aktionen der Mediengruppe Bayern</a>
-    </li>
-                            <li class="ressort-item-mm">
     <a        href="/themen/trauer"
        target="_top"             data-preview=""
              data-preview-count="4">Trauer in Bayern und Deutschland</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/themen/leser-aktionen"
+       target="_top"             data-preview=""
+             data-preview-count="4">Leser-Aktionen der Mediengruppe Bayern</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/themen/azubiguide"
@@ -1118,11 +1118,6 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Fasching</a>
             <ul class="sub-menu-mm">
                             <li class="ressort-item-mm">
-    <a        href="/themen/fasching/fasching-aichach-friedberg"
-       target="_top"             data-preview=""
-             data-preview-count="4">Fasching Landkreis Aichach-Friedberg</a>
-    </li>
-                            <li class="ressort-item-mm">
     <a        href="/themen/fasching/fasching-neuburg-schrobenhausen"
        target="_top"             data-preview=""
              data-preview-count="4">Fasching Landkreis Neuburg-Schrobenhausen</a>
@@ -1141,6 +1136,11 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
     <a        href="/themen/fasching/fasching-roth"
        target="_top"             data-preview=""
              data-preview-count="4">Fasching Landkreis Roth</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/themen/fasching/fasching-aichach-friedberg"
+       target="_top"             data-preview=""
+             data-preview-count="4">Fasching Landkreis Aichach-Friedberg</a>
     </li>
                     </ul>
     </li>
@@ -1542,19 +1542,9 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Kommunalwahl 2026 in Bayern</a>
             <ul class="sub-menu-mm">
                             <li class="ressort-item-mm">
-    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-eichstaett"
+    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-aichach-friedberg"
        target="_top"             data-preview=""
-             data-preview-count="4">Landkreis Eichstätt - Kommunalwahl 2026 in Bayern</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-roth"
-       target="_top"             data-preview=""
-             data-preview-count="4">Landkreis Roth - Kommunalwahl 2026 in Bayern</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/wahlen/kommunalwahl-bayern-2026/region-augsburg"
-       target="_top"             data-preview=""
-             data-preview-count="4">Region Augsburg - Kommunalwahl 2026 in Bayern</a>
+             data-preview-count="4">Landkreis Aichach-Friedberg - Kommunalwahl 2026 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-dachau"
@@ -1562,19 +1552,9 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Landkreis Dachau - Kommunalwahl 2026 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
-    <a        href="/wahlen/kommunalwahl-bayern-2026/stadt-ingolstadt"
+    <a        href="/wahlen/kommunalwahl-bayern-2026/region-augsburg"
        target="_top"             data-preview=""
-             data-preview-count="4">Stadt Ingolstadt - Kommunalwahl 2026 in Bayern</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-kelheim"
-       target="_top"             data-preview=""
-             data-preview-count="4">Landkreis Kelheim - Kommunalwahl 2026 in Bayern</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-neuburg-schrobenhausen"
-       target="_top"             data-preview=""
-             data-preview-count="4">Landkreis Neuburg-Schrobenhausen - Kommunalwahl 2026 in Bayern</a>
+             data-preview-count="4">Region Augsburg - Kommunalwahl 2026 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-pfaffenhofen"
@@ -1582,14 +1562,34 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Landkreis Pfaffenhofen - Kommunalwahl 2026 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
+    <a        href="/wahlen/kommunalwahl-bayern-2026/stadt-ingolstadt"
+       target="_top"             data-preview=""
+             data-preview-count="4">Stadt Ingolstadt - Kommunalwahl 2026 in Bayern</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-neuburg-schrobenhausen"
+       target="_top"             data-preview=""
+             data-preview-count="4">Landkreis Neuburg-Schrobenhausen - Kommunalwahl 2026 in Bayern</a>
+    </li>
+                            <li class="ressort-item-mm">
     <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-neumarkt"
        target="_top"             data-preview=""
              data-preview-count="4">Landkreis Neumarkt - Kommunalwahl 2026 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
-    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-aichach-friedberg"
+    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-eichstaett"
        target="_top"             data-preview=""
-             data-preview-count="4">Landkreis Aichach-Friedberg - Kommunalwahl 2026 in Bayern</a>
+             data-preview-count="4">Landkreis Eichstätt - Kommunalwahl 2026 in Bayern</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-kelheim"
+       target="_top"             data-preview=""
+             data-preview-count="4">Landkreis Kelheim - Kommunalwahl 2026 in Bayern</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-roth"
+       target="_top"             data-preview=""
+             data-preview-count="4">Landkreis Roth - Kommunalwahl 2026 in Bayern</a>
     </li>
                     </ul>
     </li>
@@ -1599,19 +1599,29 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Bundestagswahl 2025 in Bayern</a>
             <ul class="sub-menu-mm">
                             <li class="ressort-item-mm">
-    <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-augsburg-stadt"
-       target="_top"             data-preview=""
-             data-preview-count="4">Wahlkreis Augsburg-Stadt - Bundestagswahl 2025 in Bayern</a>
-    </li>
-                            <li class="ressort-item-mm">
     <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-augsburg-land"
        target="_top"             data-preview=""
              data-preview-count="4">Wahlkreis Augsburg-Land - Bundestagswahl 2025 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
+    <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-amberg"
+       target="_top"             data-preview=""
+             data-preview-count="4">Wahlkreis Amberg - Bundestagswahl 2025 in Bayern</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-augsburg-stadt"
+       target="_top"             data-preview=""
+             data-preview-count="4">Wahlkreis Augsburg-Stadt - Bundestagswahl 2025 in Bayern</a>
+    </li>
+                            <li class="ressort-item-mm">
     <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-donau-ries"
        target="_top"             data-preview=""
              data-preview-count="4">Wahlkreis Donau-Ries - Bundestagswahl 2025 in Bayern</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-roth"
+       target="_top"             data-preview=""
+             data-preview-count="4">Wahlkreis Roth - Bundestagswahl 2025 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-ingolstadt"
@@ -1622,16 +1632,6 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
     <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-freising"
        target="_top"             data-preview=""
              data-preview-count="4">Wahlkreis Freising - Bundestagswahl 2025 in Bayern</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-amberg"
-       target="_top"             data-preview=""
-             data-preview-count="4">Wahlkreis Amberg - Bundestagswahl 2025 in Bayern</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-roth"
-       target="_top"             data-preview=""
-             data-preview-count="4">Wahlkreis Roth - Bundestagswahl 2025 in Bayern</a>
     </li>
                     </ul>
     </li>
@@ -1651,11 +1651,6 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Stimmkreis Ingolstadt - Landtagswahl in Bayern 2023</a>
     </li>
                             <li class="ressort-item-mm">
-    <a        href="/wahlen/landtagswahl-bayern-2023/stimmkreis-kelheim"
-       target="_top"             data-preview=""
-             data-preview-count="4">Stimmkreis Kelheim - Landtagswahl in Bayern 2023</a>
-    </li>
-                            <li class="ressort-item-mm">
     <a        href="/wahlen/landtagswahl-bayern-2023/stimmkreis-neuburg-schrobenhausen"
        target="_top"             data-preview=""
              data-preview-count="4">Stimmkreis Neuburg-Schrobenhausen - Landtagswahl in Bayern 2023</a>
@@ -1669,6 +1664,11 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
     <a        href="/wahlen/landtagswahl-bayern-2023/stimmkreis-neumarkt"
        target="_top"             data-preview=""
              data-preview-count="4">Stimmkreis Neumarkt - Landtagswahl in Bayern 2023</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/wahlen/landtagswahl-bayern-2023/stimmkreis-kelheim"
+       target="_top"             data-preview=""
+             data-preview-count="4">Stimmkreis Kelheim - Landtagswahl in Bayern 2023</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/wahlen/landtagswahl-bayern-2023/stimmkreis-roth"
@@ -2079,6 +2079,53 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
             <!-- begin tpl artikel container (index_box) -->
                                                                                                                                                         <!--1|12-->
                         
+<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19381787">
+        <a
+     aria-label="In Memmingen kassierte Fischer die bislang höchste Pleite als Aindlinger Trainer"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/in-memmingen-kassierte-fischer-die-bislang-hoechste-pleite-als-aindlinger-trainer-19381787"         class="article-link position-absolute inset-0 z-100"
+     data-upscore-url ></a>        <div class="media image-top">
+            <div class="media-image-container min-768px-w-100">
+                                    <div>
+                        
+
+
+                                        
+
+
+
+
+<picture
+    class="image
+     margin-right-10             "
+    data-img-width="168"
+    data-img-height="134"
+>
+    <img
+        aria-hidden="true"
+        loading="lazy"
+        onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
+        alt=""
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/9/8/8/0/401980889-1-ger-DE/392281d3e6f4-29-130540145.jpg"
+         class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
+        height="134"
+        />
+</picture>
+                                            </div>
+                
+                                   <div class="available-media bottom"></div>
+                            </div>
+            <div class="media-body">
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Kein beliebtes Reiseziel</div>
+                <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
+                    <span data-upscore-title>In Memmingen kassierte Fischer die bislang höchste Pleite als Aindlinger Trainer</span>
+                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19381787"></span></div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+
+                        <div class="text-center col-md-6 col-lg-4 article-teaser-col nested-col"><div id="landingpage" class="adtag d-inline-block"><div id="traffective-ad-Native_9" class="Native_9"></div></div></div>                                                                                                                                                    <!--2|12-->
+                    
 <div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19381451">
         <a
      aria-label="Hollenbach fehlen in Durach mit Knauer, Baier und Burkhard drei Innenverteidiger"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/hollenbach-fehlen-in-durach-mit-knauer-baier-und-burkhard-drei-innenverteidiger-19381451"         class="article-link position-absolute inset-0 z-100"
@@ -2123,8 +2170,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-
-                        <div class="text-center col-md-6 col-lg-4 article-teaser-col nested-col"><div id="landingpage" class="adtag d-inline-block"><div id="traffective-ad-Native_9" class="Native_9"></div></div></div>                                                                                                                                                    <!--2|12-->
+                                                                                                                <!--3|12-->
                     
 <div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19379762">
         <a
@@ -2170,7 +2216,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                                                                                                <!--3|12-->
+                                                                                                                <!--4|12-->
                     
 <div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19374482">
         <a
@@ -2218,7 +2264,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                                                                                                <!--4|12-->
+                                                                                                                <!--5|12-->
                     
 <div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19379189">
         <a
@@ -2264,9 +2310,11 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                                                                                                <!--5|12-->
+                                                                                                                                        <div class="col-md-6 col-lg-8 nested-col">
+                        <div class="row">
+                                                                <!--6|12-->
                     
-<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19374899">
+<div class="col-md-12 col-lg-6 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19374899">
         <a
      aria-label="Aichach-Rückkehrer Semih Coklar  und Marcus Wehren wieder vereint"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/rueckkehrer-semih-coklar-bildet-mit-marcus-wehren-wieder-ein-torgefaehrliches-duo-19374899"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
@@ -2310,9 +2358,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                                                                                                                        <div class="col-md-6 col-lg-8 nested-col">
-                        <div class="row">
-                                                                <!--6|12-->
+                                                                                                                                                                        <!--7|12-->
                     
 <div class="col-md-12 col-lg-6 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19374008">
         <a
@@ -2360,7 +2406,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                                                                                                                                                        <!--7|12-->
+                                                                                                                                                                        <!--8|12-->
                     
 <div class="col-md-12 col-lg-6 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19374398">
         <a
@@ -2406,7 +2452,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                                                                                                                                                        <!--8|12-->
+                                                                                                                                                                        <!--9|12-->
                     
 <div class="col-md-12 col-lg-6 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19368113">
         <a
@@ -2454,9 +2500,11 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                                                                                                                                                        <!--9|12-->
+                                            </div>
+                        </div>
+                                                <div class="text-center col-md-6 col-lg-4 nested-col"><div id="traffective-ad-HalfpageAd" class="HalfpageAd"></div></div>                                                                                                                                                    <!--10|12|15|18|21-->
                     
-<div class="col-md-12 col-lg-6 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19368377">
+<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19368377">
         <a
      aria-label="BRK-Seniorengymnastik ehrt treue Aktivposten"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/brk-seniorengymnastik-ehrt-treue-aktivposten-19368377"         class="article-link position-absolute inset-0 z-100"
      data-upscore-url ></a>        <div class="media image-top">
@@ -2500,9 +2548,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                            </div>
-                        </div>
-                                                <div class="text-center col-md-6 col-lg-4 nested-col"><div id="traffective-ad-HalfpageAd" class="HalfpageAd"></div></div>                                                                                                                                                    <!--10|12|15|18|21-->
+                                                                                                                <!--11|12|15|18|21-->
                     
 <div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19366697">
         <a
@@ -2550,7 +2596,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                                                                                                <!--11|12|15|18|21-->
+                                                                                                                <!--12|12|15|18|21-->
                     
 <div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19368011">
         <a
@@ -2598,7 +2644,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                                                                                                <!--12|12|15|18|21-->
+                                                                                                                <!--13|12|15|18|21-->
                     
 <div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19368872">
         <a
@@ -2644,7 +2690,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                                                                                                <!--13|12|15|18|21-->
+                                                                                                                <!--14|12|15|18|21-->
                     
 <div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19367114">
         <a
@@ -2690,7 +2736,7 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
         </div>
     </article>
 </div>
-                                                                                                                <!--14|12|15|18|21-->
+                                                                                                                <!--15|12|15|18|21-->
                     
 <div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19367159">
         <a
@@ -2731,52 +2777,6 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
                 <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
                     <span data-upscore-title>Umleitung sorgt für viel Verkehr auf Aichachs Straßen</span>
                     <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19367159"></span></div>
-                </div>
-            </div>
-        </div>
-    </article>
-</div>
-                                                                                                                <!--15|12|15|18|21-->
-                    
-<div class="col-md-6 col-lg-4 article-teaser-col nested-col">    <article class="article-teaser margin-bottom-20" data-upscore-object-id="19362548">
-        <a
-     aria-label="Was bei Sonnenstich und Hitzschlag zu tun ist"      href="https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/was-bei-sonnenstich-und-hitzschlag-zu-tun-ist-19362548"         class="article-link position-absolute inset-0 z-100"
-     data-upscore-url ></a>        <div class="media image-top">
-            <div class="media-image-container min-768px-w-100">
-                                    <div>
-                        
-
-
-                                        
-
-
-
-
-<picture
-    class="image
-     margin-right-10             "
-    data-img-width="168"
-    data-img-height="134"
->
-    <img
-        aria-hidden="true"
-        loading="lazy"
-        onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
-        alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/4/6/1/8/401628164-1-ger-DE/77d5ae3f2778-29-130439399.jpg"
-         class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
-        height="134"
-        />
-</picture>
-                                            </div>
-                
-                                   <div class="available-media bottom"></div>
-                            </div>
-            <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Wenn der Körper gefährlich überhitzt</div>
-                <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>Was bei Sonnenstich und Hitzschlag zu tun ist</span>
-                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19362548"></span></div>
                 </div>
             </div>
         </div>
@@ -3972,51 +3972,6 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
     </article>
 </div>
                                                                 
-<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19374563">
-        <a
-     aria-label="Hunderte Besucher erwartet: Schutzengelfest in Halsbach findet am 7. September statt"      href="https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/hunderte-besucher-erwartet-schutzengelfest-in-halsbach-findet-am-7-september-statt-19374563"         class="article-link position-absolute inset-0 z-100"
-     data-upscore-url ></a>        <div class="media image-top">
-            <div class="media-image-container min-768px-w-100">
-                                    <div>
-                        
-
-
-                                        
-
-
-
-
-<picture
-    class="image
-     margin-right-10             "
-    data-img-width="168"
-    data-img-height="134"
->
-    <img
-        aria-hidden="true"
-        loading="lazy"
-        onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
-        alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/3/6/4/8/401848463-1-ger-DE/47affa77b3f1-29-130502718.jpg"
-         class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
-        height="134"
-        />
-</picture>
-                                            </div>
-                
-                                   <div class="available-media bottom"></div>
-                            </div>
-            <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">300-jährige Geschichte</div>
-                <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>Hunderte Besucher erwartet: Schutzengelfest in Halsbach findet am 7. September statt</span>
-                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19374563"></span></div>
-                </div>
-            </div>
-        </div>
-    </article>
-</div>
-                                                                
 <div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19375328">
         <a
      aria-label="Weinlese am Neuburger Stadtberg innerhalb weniger Stunden abgeschlossen "      href="https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/weinlese-am-neuburger-stadtberg-innerhalb-weniger-stunden-abgeschlossen-19375328"         class="article-link position-absolute inset-0 z-100"
@@ -4056,6 +4011,51 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
                 <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
                     <span data-upscore-title>Weinlese am Neuburger Stadtberg innerhalb weniger Stunden abgeschlossen </span>
                     <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19375328"></span></div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+                                                                
+<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19374563">
+        <a
+     aria-label="Hunderte Besucher erwartet: Schutzengelfest in Halsbach findet am 7. September statt"      href="https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/hunderte-besucher-erwartet-schutzengelfest-in-halsbach-findet-am-7-september-statt-19374563"         class="article-link position-absolute inset-0 z-100"
+     data-upscore-url ></a>        <div class="media image-top">
+            <div class="media-image-container min-768px-w-100">
+                                    <div>
+                        
+
+
+                                        
+
+
+
+
+<picture
+    class="image
+     margin-right-10             "
+    data-img-width="168"
+    data-img-height="134"
+>
+    <img
+        aria-hidden="true"
+        loading="lazy"
+        onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
+        alt=""
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/3/6/4/8/401848463-1-ger-DE/47affa77b3f1-29-130502718.jpg"
+         class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
+        height="134"
+        />
+</picture>
+                                            </div>
+                
+                                   <div class="available-media bottom"></div>
+                            </div>
+            <div class="media-body">
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">300-jährige Geschichte</div>
+                <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
+                    <span data-upscore-title>Hunderte Besucher erwartet: Schutzengelfest in Halsbach findet am 7. September statt</span>
+                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="egy-comment-counter-landingpage" data-egy-dsc="19374563"></span></div>
                 </div>
             </div>
         </div>

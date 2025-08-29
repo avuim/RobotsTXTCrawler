@@ -24,12 +24,12 @@
 <link rel="alternate" type="application/rss+xml" title="RSS Feed 2.0" href="https://www.nw.de/_export/site_rss/nw/index.rss" />
 <link rel="canonical" href="https://www.nw.de" />
 <!-- global/2-->
-<link rel="preload" href="https://www.nw.de/_em_cms/globals/csslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_load_restrict=2&amp;em_view=tablet&amp;em_cache_css=1756392821" as="style" />
-<link rel="stylesheet" type="text/css" href="https://www.nw.de/_em_cms/globals/csslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_load_restrict=2&amp;em_view=tablet&amp;em_cache_css=1756392821" />
+<link rel="preload" href="https://www.nw.de/_em_cms/globals/csslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_load_restrict=2&amp;em_view=smartphone&amp;em_cache_css=1756392880" as="style" />
+<link rel="stylesheet" type="text/css" href="https://www.nw.de/_em_cms/globals/csslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_load_restrict=2&amp;em_view=smartphone&amp;em_cache_css=1756392880" />
 <!-- global/0-->
-<link rel="preload" href="https://www.nw.de/_em_cms/globals/jslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_view=tablet&amp;em_cache_js=1756392805" as="script" />
+<link rel="preload" href="https://www.nw.de/_em_cms/globals/jslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_view=smartphone&amp;em_cache_js=1756392793" as="script" />
 <!-- global/0-->
-<script type="text/javascript" src="https://www.nw.de/_em_cms/globals/jslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_view=tablet&amp;em_cache_js=1756392805"></script>
+<script type="text/javascript" src="https://www.nw.de/_em_cms/globals/jslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_view=smartphone&amp;em_cache_js=1756392793"></script>
 <link href="/_em_daten/nw/_layout/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" /><meta name="apple-itunes-app" content="app-id=1532888930" app-argument="https://nw.de"><script type="text/javascript" src="https://script.ioam.de/iam.js"></script>
 
 <!--Nicht Löschen - AF-->
@@ -367,7 +367,7 @@ var strGlobalsSiteLoc  = "4738";
     <script type="text/javascript">
         var dn = mobileAccess ? 'data-81547504c8.nw.de' : 'data-83380557db.nw.de';
         IOMm('configure', {
-            st: 'nwnews',
+            st: 'mobnwnew',
             dn: dn,
             mh: 5
         }); // Configure IOMm
@@ -414,15 +414,10 @@ var strGlobalsSiteLoc  = "4738";
 <body id="em_body_top" onload="if(typeof init == 'function') init();">
 <!-- em-cms-cut --><!-- em-cms-cut -->
 <div class="nw-bg-gray-0 container site-source-home" data-site-id="4738" data-site-ressort="Startseite"><div id="em_ad_superbanner">
-    <div id="leaderboard-wrapper">
-<div id="nw.de_lb_1" data-roles=""></div></div>
+    
     
     <div id="em_ad_skyscraper" style="position: absolute; right:0px;width: 0px;">
         
-
-<div id="nw.de_sky_1" data-roles=""></div>
-
-
     </div>
 </div>
 
@@ -705,64 +700,64 @@ var strGlobalsSiteLoc  = "4738";
         <div class="embla-newsticker__viewport nw-overflow-hidden nw-w-full nw-rounded-md">
             <div class="embla-newsticker__container nw-flex nw-text-sm">
                                         <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/lokal/kreis_guetersloh/harsewinkel/24164325_WG-im-Kreis-Guetersloh-terrorisiert-Nachbarn-Stadt-verhaengt-Verbot-bei-Kontrolle.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 1', 'Startseite']);">
+                            <a href="https://www.nw.de/sport/sc_paderborn_07/24164458_Zaehes-Ringen-um-Raphael-Obermair-Was-ein-Abgang-fuer-den-SC-Paderborn-bedeuten-wuerde.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 1', 'Startseite']);">
+                                    Zähes Ringen um Raphael Obermair: Was ein Abgang für den SC Paderborn bedeuten würde
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;6&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/nachrichten/zwischen_weser_und_rhein/24140989_Besondere-Ausflugsziele-in-NRW-Einzigartige-Erlebnisse-fuer-jede-Jahreszeit.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 2', 'Startseite']);">
+                                    Besondere Ausflugsziele in NRW: Einzigartige Erlebnisse für jede Jahreszeit
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;6&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/nachrichten/nachrichten/24164098_Deutschland-und-Frankreich-drohen-Putin-mit-Sanktionen.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 3', 'Startseite']);">
+                                    Deutschland und Frankreich drohen Putin mit Sanktionen
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;7&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/sport/lokalsport/sport_in_bielefeld/lokalsport_bielefeld/24164531_Nach-starkem-Debuet-Mustafa-Wendland-kehrt-mit-der-TSG-A-H-Bielefeld-zurueck-zum-Ex-Klub..html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 4', 'Startseite']);">
+                                    Nach starkem Debüt: Mustafa Wendland kehrt mit der TSG A-H Bielefeld zurück zum Ex-Klub.
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;8&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24132483_Kreis-Guetersloh-kompakt-Das-Wichtigste-des-Tages.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 5', 'Startseite']);">
+                                    Kreis Gütersloh kompakt - Das Wichtigste des Tages
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;11&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/sport/lokalsport/sport_in_bielefeld/lokalsport_bielefeld/24164528_Timur-Rieger-war-gedanklich-schon-mal-beim-Elfer-gegen-Arminia-Bielefelds-Torwart-Jonas-Kersken.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 6', 'Startseite']);">
+                                    Timur Rieger war gedanklich schon mal beim Elfer gegen Arminia Bielefelds Torwart Jonas Kersken
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;22&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/nachrichten/computer_internet/24164523_Strafvereitelung-Ermittlungen-gegen-Beschaeftigte-von-X.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 7', 'Startseite']);">
+                                    Strafvereitelung? Ermittlungen gegen Beschäftigte von X
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;23&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/lifestyle/mobilitaet/24164517_Wenn-der-Schlafplatz-mitfaehrt-Caravan-Salon-zeigt-Neuheiten.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 8', 'Startseite']);">
+                                    Wenn der Schlafplatz mitfährt: Caravan Salon zeigt Neuheiten
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;26&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/lokal/kreis_guetersloh/harsewinkel/24164325_WG-im-Kreis-Guetersloh-terrorisiert-Nachbarn-Stadt-verhaengt-Verbot-bei-Kontrolle.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 9', 'Startseite']);">
                                     WG im Kreis Gütersloh terrorisiert Nachbarn – Stadt verhängt Verbot bei Kontrolle
                             </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;2&nbsp;Min.</span>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;27&nbsp;Min.</span>
                         </div>
                                         <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163897_Spektakulaere-Plaene-fuer-Fabrik-Gelaende-in-Guetersloh-Hier-koennte-ein-Wohngebiet-entstehen.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 2', 'Startseite']);">
+                            <a href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163897_Spektakulaere-Plaene-fuer-Fabrik-Gelaende-in-Guetersloh-Hier-koennte-ein-Wohngebiet-entstehen.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 10', 'Startseite']);">
                                     Spektakuläre Pläne für Fabrik-Gelände in Gütersloh: Hier könnte ein Wohngebiet entstehen
                             </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;3&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/lokal/kreis_guetersloh/schloss_holte_stukenbrock/24162933_Neue-Privatschule-im-Kreis-Guetersloh-eroeffnet-18-Erstklaessler-werden-heute-eingeschult-v1.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 3', 'Startseite']);">
-                                    Neue Privatschule im Kreis Gütersloh eröffnet – 18 Erstklässler sind eingeschult worden
-                            </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;3&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/lokal/kreis_guetersloh/rheda_wiedenbrueck/24157477_Nach-schwerer-Erkrankung-Mann-aus-Kreis-Guetersloh-plant-besondere-Reise-und-will-helfen.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 4', 'Startseite']);">
-                                    Nach schwerer Erkrankung: Mann aus Kreis Gütersloh plant besondere Reise und will helfen
-                            </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;3&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163873_Ministerpraesident-Wuest-zu-Gast-in-Luxushotel-im-Kreis-Guetersloh-Deutliche-Kritik-an-AfD.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 5', 'Startseite']);">
-                                    Ministerpräsident Wüst zu Gast in Luxushotel im Kreis Gütersloh: Deutliche Kritik an AfD
-                            </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;4&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163589_Aerger-ueber-Trinkerszene-im-Guetersloher-Schenke-Park-Anwohnerin-verlegt-ihr-Schlafzimmer.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 6', 'Startseite']);">
-                                    Ärger über Trinkerszene im Gütersloher Schenke-Park – Anwohnerin verlegt ihr Schlafzimmer
-                            </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;4&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163480_Unternehmen-Bertelsmann-steigert-Umsatz-Hunderte-Arbeitsplaetze-in-Guetersloh-frei.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 7', 'Startseite']);">
-                                    Unternehmen Bertelsmann steigert Umsatz – Hunderte Arbeitsplätze in Gütersloh frei
-                            </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;4&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163176_Designermode-in-Guetersloh-zu-Outlet-Preisen-Unternehmerin-bezieht-Geschaeft-in-Innenstadt-v1.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 8', 'Startseite']);">
-                                    Designermode in Gütersloh zu Outlet-Preisen: Unternehmerin bezieht Geschäft in Innenstadt
-                            </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;5&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163035_Aerger-im-Schenke-Park-Guetersloher-Anwohner-entsetzt-ueber-Trinkerszene-v1.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 9', 'Startseite']);">
-                                    Ärger im Schenke-Park: Gütersloher Anwohner entsetzt über Trinkerszene
-                            </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;5&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24162465_Guetersloher-faehrt-seltenen-Oldtimer-Weltweit-einzigartiges-Gefaehrt-zieht-Blicke-auf-sich.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 10', 'Startseite']);">
-                                    Gütersloher fährt seltenen Oldtimer: Weltweit einzigartiges Gefährt zieht Blicke auf sich
-                            </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;5&nbsp;Min.</span>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;28&nbsp;Min.</span>
                         </div>
                                 <div class="
                 embla-newsticker__slide
@@ -781,52 +776,52 @@ var strGlobalsSiteLoc  = "4738";
                 {
                 "@type":"ListItem",
                 "position":"1",
-                "url":"https://www.nw.de/lokal/kreis_guetersloh/harsewinkel/24164325_WG-im-Kreis-Guetersloh-terrorisiert-Nachbarn-Stadt-verhaengt-Verbot-bei-Kontrolle.html"
+                "url":"https://www.nw.de/sport/sc_paderborn_07/24164458_Zaehes-Ringen-um-Raphael-Obermair-Was-ein-Abgang-fuer-den-SC-Paderborn-bedeuten-wuerde.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"2",
-                "url":"https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163897_Spektakulaere-Plaene-fuer-Fabrik-Gelaende-in-Guetersloh-Hier-koennte-ein-Wohngebiet-entstehen.html"
+                "url":"https://www.nw.de/nachrichten/zwischen_weser_und_rhein/24140989_Besondere-Ausflugsziele-in-NRW-Einzigartige-Erlebnisse-fuer-jede-Jahreszeit.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"3",
-                "url":"https://www.nw.dehttps://www.nw.de/lokal/kreis_guetersloh/schloss_holte_stukenbrock/24162933_Neue-Privatschule-im-Kreis-Guetersloh-eroeffnet-18-Erstklaessler-werden-heute-eingeschult-v1.html"
+                "url":"https://www.nw.de/nachrichten/nachrichten/24164098_Deutschland-und-Frankreich-drohen-Putin-mit-Sanktionen.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"4",
-                "url":"https://www.nw.de/lokal/kreis_guetersloh/rheda_wiedenbrueck/24157477_Nach-schwerer-Erkrankung-Mann-aus-Kreis-Guetersloh-plant-besondere-Reise-und-will-helfen.html"
+                "url":"https://www.nw.de/sport/lokalsport/sport_in_bielefeld/lokalsport_bielefeld/24164531_Nach-starkem-Debuet-Mustafa-Wendland-kehrt-mit-der-TSG-A-H-Bielefeld-zurueck-zum-Ex-Klub..html"
             },
                 {
                 "@type":"ListItem",
                 "position":"5",
-                "url":"https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163873_Ministerpraesident-Wuest-zu-Gast-in-Luxushotel-im-Kreis-Guetersloh-Deutliche-Kritik-an-AfD.html"
+                "url":"https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24132483_Kreis-Guetersloh-kompakt-Das-Wichtigste-des-Tages.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"6",
-                "url":"https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163589_Aerger-ueber-Trinkerszene-im-Guetersloher-Schenke-Park-Anwohnerin-verlegt-ihr-Schlafzimmer.html"
+                "url":"https://www.nw.de/sport/lokalsport/sport_in_bielefeld/lokalsport_bielefeld/24164528_Timur-Rieger-war-gedanklich-schon-mal-beim-Elfer-gegen-Arminia-Bielefelds-Torwart-Jonas-Kersken.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"7",
-                "url":"https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163480_Unternehmen-Bertelsmann-steigert-Umsatz-Hunderte-Arbeitsplaetze-in-Guetersloh-frei.html"
+                "url":"https://www.nw.de/nachrichten/computer_internet/24164523_Strafvereitelung-Ermittlungen-gegen-Beschaeftigte-von-X.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"8",
-                "url":"https://www.nw.dehttps://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163176_Designermode-in-Guetersloh-zu-Outlet-Preisen-Unternehmerin-bezieht-Geschaeft-in-Innenstadt-v1.html"
+                "url":"https://www.nw.de/lifestyle/mobilitaet/24164517_Wenn-der-Schlafplatz-mitfaehrt-Caravan-Salon-zeigt-Neuheiten.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"9",
-                "url":"https://www.nw.dehttps://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163035_Aerger-im-Schenke-Park-Guetersloher-Anwohner-entsetzt-ueber-Trinkerszene-v1.html"
+                "url":"https://www.nw.de/lokal/kreis_guetersloh/harsewinkel/24164325_WG-im-Kreis-Guetersloh-terrorisiert-Nachbarn-Stadt-verhaengt-Verbot-bei-Kontrolle.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"10",
-                "url":"https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24162465_Guetersloher-faehrt-seltenen-Oldtimer-Weltweit-einzigartiges-Gefaehrt-zieht-Blicke-auf-sich.html"
+                "url":"https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163897_Spektakulaere-Plaene-fuer-Fabrik-Gelaende-in-Guetersloh-Hier-koennte-ein-Wohngebiet-entstehen.html"
             }
         ]
 }
@@ -2330,6 +2325,11 @@ var strGlobalsSiteLoc  = "4738";
     <div class="nw-pt-6 nw-mb-6 nw-rounded-b-md nw-container">
 
     
+<div class="box-ad-middle ads-box-content" style="min-height:80px">
+
+<div id="nw.de_lb_1" data-roles=""></div>
+</div>
+
 
 
 <style>
@@ -2450,17 +2450,7 @@ class="media-object img-responsive" />
 </div>
 </div>
 </a>
-</article>
-<div class="box-ad-middle nw-mb-4" style="
-display: flex;
-justify-content: center;
-min-height:310px;
-">
-<div class="em_ads_box_dynamic_remove">
-
-<div id="nw.de_bb_1" data-roles=""></div>
-</div>
-</div><div class="row">
+</article><div class="row">
 <div class="col-md-8 hcel">
 <div class="row">
 <div class="col-12">  
@@ -2482,7 +2472,7 @@ class="media-object img-responsive" />
 </div>
 <div class="col-sm-6">
 <div class="row">
-<div style="float:none;" class="col-md-12 article-ressort nwplus">Brutale Gewalttat</div>
+<div style="float:none;" class="col-md-12 article-ressort nwplus">In Praxis bewusstlos gepr&uuml;gelt</div>
 </div>
 <h2 class="media-heading article-headline-container-main article-headline-object nw-mb-1">
 <i class="fa fa-plus-square"></i> <span class="article-headline-main hyphenate" data-upscore-title>Nach Angriff auf Spenger Hausarzt: Bleibt die Tat ohne Folgen?</span>
@@ -2592,8 +2582,8 @@ class="media-object img-responsive" />
 <div class="img-wrap">
 
 <img width="320" height="194" loading="lazy" 
-src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010dFNPaExDckgyNGN4alBFUFZRbDFOSXlidlV6aFhVTjJpSWVNV1RGSERoM3o1Q0k1U2hxS2VpOXZwSzA4bDZVWnc9PQ/250828-1751-646212087.jpg" 
-srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005V0EyaUd5VnR2WkNRc0tKM3lZSEJ4SnoxRW9zSTFycGlpMUVjZm04NVJUTWlyUzQ5L3M0SHVNc0NHTnFudWdSekE9PQ/250828-1751-646212087.jpg 1440w"  
+src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010a29PS2Q3b2JFQWYrZytkVDFMSHI3UmRHMXVqNUthRFhFZ0R4QUNpNzJaSTFGT2VabkdkUlR1OFJYQkZwODUzNGM2dW5DQUZUMmxaTHFuRFpERmlnUkk9/250828-1751-646212087.jpg" 
+srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005WjYvdGlkWDJWVURlblZHdHB2dUNXeVBNWTJxcEUrSC9CcGhjTVVXbU93QkR3ekM0RzVSeDk3aUhrVFIyVWp3SC9EaVB3d1BMYU9ULzJHcmJRNjJPdTQ9/250828-1751-646212087.jpg 1440w"  
 alt="Die Visualisierung zeigt, wie das Quartier gestaltet w&auml;re. Es umfasst 4,47 Hektar. Erschlossen w&uuml;rde das Quartier &uuml;ber eine sehr breite Sackgasse, die von der Senner Stra&szlig;e abzweigt und zwischen den zw&ouml;lf Firmenhallen (unten) und den vier Neubauten (oben) l&auml;ge. - Maas &amp; Partner , Fl&ouml;totto" 
 
 class="media-object img-responsive" />
@@ -2925,12 +2915,12 @@ class="media-object img-responsive" />
 <div class="panel panel-default">
 <div class="panel-heading">
 <h4 class="panel-title">
-<a data-toggle="collapse" data-parent=".accordion-mosthits" href="#accordian-68b1aa770ea93">
+<a data-toggle="collapse" data-parent=".accordion-mosthits" href="#accordian-68b1b07011ff7">
 Meistgelesen
 </a>
 </h4>
 </div>
-<div id="accordian-68b1aa770ea93" class="panel-collapse collapse in">
+<div id="accordian-68b1b07011ff7" class="panel-collapse collapse in">
 <div class="panel-body">
 <ul class="aside-pos-list">
 
@@ -3366,16 +3356,6 @@ Zum Artikel
     </div>
 </div>
 
-<div class="box-ad-middle nw-mb-4" style="
-display: flex;
-justify-content: center;
-min-height:310px;
-">
-<div class="em_ads_box_dynamic_remove">
-
-<div id="nw.de_bb_2" data-roles=""></div>
-</div>
-</div>
 <section class="new-section with-vert-nav" id="lokales">
 <div class="row">
 <div class="sep-text single centered">
@@ -3395,40 +3375,38 @@ Lokales
 <div class="letzte-meldungen-mitte clearfix" data-upscore-zone="Lokales">
 <div class="row">
 
-<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24162465">
+<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24132483">
 <div class="article-image-container-main">
 
 
-<a href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24162465_Guetersloher-faehrt-seltenen-Oldtimer-Weltweit-einzigartiges-Gefaehrt-zieht-Blicke-auf-sich.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010ckRKanNwczRBcklQZkdaZENGRy9pTGhqRVpIN1RSVC8zSDg1M052a0NQUEJ3Y1NOVmZKZ096QUVVZmV2Qi8zNGZQVTVBRzhyRERGR3ZDcExHdlg1Vjg9/250826-1655-645732549.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005U3o3NHp4d1U0aFQwRDFxQ1JOcTJYcHFvN1ZQUGZEWFQ1ZU1rUFhFaUtVU3NyUTVPVFhSajRyZVBxTU91RUxJVVhLdjN0cXVVRlRJQlE2T1BWVW5NVTQ9/250826-1655-645732549.jpg 1440w"  alt="Kurt Kimm ist Oldtimer-Fan und hat zwei historische Ford Taunus in seinem Besitz. Besonderer Hingucker ist jedoch der Anh&auml;nger, den der G&uuml;tersloher selber aus einem alten, schrottreifen Modell zusammengebaut hat. - Andreas Fr&uuml;cht"  class="media-object img-responsive" /></a>      
+<a href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24132483_Kreis-Guetersloh-kompakt-Das-Wichtigste-des-Tages.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010dFNPaExDckgyNGN4alBFUFZRbDFOSjZJeTZ0REgrTkt2M084N1BzSXFSRE83VXVwQ3NCc1UxM0NqQk5manYzTUVJY0grT0FkNDBTc3pZU0g1eEQyUkU9/250829-1540-24163897-0-1756474834.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005V0EyaUd5VnR2WkNRc0tKM3lZSEJ4SWN2VWd1Y09TcGRZbU5pd05ZM1U5YmVsRk0zalZwZ3RKcWNwd3djWjUwR0VZd0FGdEtkSDZkQ1N0d3c2eCtob1k9/250829-1540-24163897-0-1756474834.jpg 1440w"  alt="Die Visualisierung zeigt, wie das Quartier gestaltet w&auml;re. Es umfasst 4,47 Hektar. Erschlossen w&uuml;rde das Quartier &uuml;ber eine sehr breite Sackgasse, die von der Senner Stra&szlig;e abzweigt und zwischen den zw&ouml;lf Firmenhallen (unten) und den vier Neubauten (oben) l&auml;ge. - Neue Westf&auml;lische"  class="media-object img-responsive" /></a>      
 </div>
   
 <div class="media-body-main" style="width:100%">
-<a class="article-ressort nwplus" href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh">Mit Fotos und Video</a>
+<a class="article-ressort nwplus" href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh">Kurz und kompakt</a>
 <h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
-<a href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24162465_Guetersloher-faehrt-seltenen-Oldtimer-Weltweit-einzigartiges-Gefaehrt-zieht-Blicke-auf-sich.html" data-upscore-url>
-<i class="fa fa-plus-square"></i> <span data-upscore-title>G&uuml;tersloher f&auml;hrt seltenen Oldtimer: Weltweit einzigartiges Gef&auml;hrt zieht Blicke auf sich</span>
+<a href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24132483_Kreis-Guetersloh-kompakt-Das-Wichtigste-des-Tages.html" data-upscore-url>
+<i class="fa fa-plus-square"></i> <span data-upscore-title>Kreis G&uuml;tersloh kompakt - Das Wichtigste des Tages</span>
 
 </a>
 </h3>
-<div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
-<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
-</svg><span class="article-id-noad-24162465 nw-egy-noad-item egyCounter" data-egy-dsc="article-24162465"></span></span></span> <span class="has-media"><i class="fa fa-camera" title="mit Fotostrecke"></i></span></div>
+<div> </div>
 </div>
 </article>
 <hr class="article-divider visible-xs"/>
 
-<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24132034">
+<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164325">
 <div class="article-image-container-main">
 
 
-<a href="https://www.nw.de/lokal/kreis_paderborn/paderborn/24132034_Neue-Ortsumgehung-Wahlkampf-und-neue-Hochzeitslocation-Die-News-aus-dem-Kreis-Paderborn.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010c3BvcVViMG5mdWpBeTJ2cTFFZytNNEUyQklRbEpxNll5d29ZQTdBL0ZoaGhqSjFBNncydHlJMElkeTY3algwOVdERTk4cXFuZU8xa2tIL01TOXFFUVU9/250829-1520-24163680-0-1756473522.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005WURMOHVnOUN2WWJoczB3eTlzRDZVNlpFdjNQd0gzWFEzWERxaUp3N1BabEd2ZDdLYWprMFB6L05YK2JQbVBselBiSFR2UzZlR1hMd3RaV3RQczk5NlU9/250829-1520-24163680-0-1756473522.jpg 1440w"  alt="Die Ortsdurchfahrt in Salzkotten ist ein Nadel&ouml;hr f&uuml;r den Verkehr zwischen Paderborn und Soest. - Neue Westf&auml;lische"  class="media-object img-responsive" /></a>      
+<a href="https://www.nw.de/lokal/kreis_guetersloh/harsewinkel/24164325_WG-im-Kreis-Guetersloh-terrorisiert-Nachbarn-Stadt-verhaengt-Verbot-bei-Kontrolle.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010bnY3bzMrQkhjMnY2THl2blJiNlk1bG9jVW45OTVmMHhoUDFUY3VVU2N4dFhnNk1NVE1hWG8vNTc0eWgrWUliZ2c9PQ/250829-1229-646171851.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005YXJ2eEF3aW9XU2oyVE1Ea2FBWWNuOTQzODBTaExGVnJQMDRDWVpmTVNRZTRUNkZ5SXR2QjN5cnJWTU8vMExpT1E9PQ/250829-1229-646171851.jpg 1440w"  alt="In den vergangenen Monaten ist die Polizei mehrfach zu Eins&auml;tzen an der Immobilie grufen worden. Jetzt pr&uuml;ft das Ordnungsamt die Wohnverh&auml;ltnisse. - Robert Becker"  class="media-object img-responsive" /></a>      
 </div>
   
 <div class="media-body-main" style="width:100%">
-<a class="article-ressort nwplus" href="https://www.nw.de/lokal/kreis_paderborn/paderborn">Kurz und kompakt</a>
+<a class="article-ressort nwplus" href="https://www.nw.de/lokal/kreis_guetersloh/harsewinkel">Polizei ebenfalls vor Ort</a>
 <h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
-<a href="https://www.nw.de/lokal/kreis_paderborn/paderborn/24132034_Neue-Ortsumgehung-Wahlkampf-und-neue-Hochzeitslocation-Die-News-aus-dem-Kreis-Paderborn.html" data-upscore-url>
-<i class="fa fa-plus-square"></i> <span data-upscore-title>Neue Ortsumgehung, Wahlkampf und neue Hochzeitslocation: Die News aus dem Kreis Paderborn</span>
+<a href="https://www.nw.de/lokal/kreis_guetersloh/harsewinkel/24164325_WG-im-Kreis-Guetersloh-terrorisiert-Nachbarn-Stadt-verhaengt-Verbot-bei-Kontrolle.html" data-upscore-url>
+<i class="fa fa-plus-square"></i> <span data-upscore-title>WG im Kreis G&uuml;tersloh terrorisiert Nachbarn &ndash; Stadt verh&auml;ngt Verbot bei Kontrolle</span>
 
 </a>
 </h3>
@@ -3438,42 +3416,46 @@ Lokales
 <hr class="article-divider visible-xs"/>
 
 <div class="clearfix"></div>
-<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24132036">
+<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24162933">
 <div class="article-image-container-main">
 
 
-<a href="https://www.nw.de/lokal/kreis_minden_luebbecke/luebbecke/24132036_Kreis-Minden-Luebbecke-kompakt-Das-Wichtigste-des-Tages.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010dnhGZ0VlVjM1Rm42QlcrK1ZUUWo4UUxjeGhnaTY4M0tDa2dzeUV2ekM3citrbTZDTm1xL3p1NG5FNEtQWjlPUWU1VVZhUVNHdkFLZmNNeGJMSW96Ukk9/250829-1508-24163802-0-1756472915.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005VTFKWk1MTlRPYlM5bEI2c09RWGFDVEgxbU1jWUtScjVNRDQzdVhVekhmWjdzWlA0TkJkSHR6OHlrNnlDYUNuRlg3amhUQjVVUnJKNzhuL2xra3duQVE9/250829-1508-24163802-0-1756472915.jpg 1440w"  alt="Viktoria Kl&uuml;tz (v. l.) und Erna Triantafillou vom Bistro Vitalis im Atrium in Espelkamp begr&uuml;&szlig;en ihre G&auml;ste am Tag der offenen T&uuml;r, Julia Buha und Nataliia Rymarchuk. - Neue Westf&auml;lische"  class="media-object img-responsive" /></a>      
+<a href="https://www.nw.de/lokal/kreis_guetersloh/schloss_holte_stukenbrock/24162933_Neue-Privatschule-im-Kreis-Guetersloh-eroeffnet-18-Erstklaessler-sind-eingeschult-worden.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010bDNma2hzQnRJS1ErYkVkQ2kzdEZaekdRVE5OTjZOUTJ6SjdqRzVvU2Z2enZuNUt5SzhTM09XalFDQjROYW5zT3A1Y3ZLUFUzUzM4SDRDQVBXNTh1b1U9/250827-1258-645921282.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005VnJWZHM3Qk80RnMrSkltcVFzVWZUNGFRV3JzcEo3ckVyS2pwTVhNZ2dIL0JzWjIxZStsd3NlU0MrU3F4OFlvV3hxL0FYeFV5SktqUklPWTVLbTR5TlE9/250827-1258-645921282.jpg 1440w"  alt="Schulleiterin Natalie G&ouml;rzen (r.) und die ersten &#132;Energieb&uuml;ndelchen&#147; zerschneiden gemeinsam das Band zu ihrer neuen Schule. Circa 200 G&auml;ste nehmen an der Er&ouml;ffnungsfeier teil. Viele halten den Moment mit dem Smartphone fest. - Sigurd Gringel"  class="media-object img-responsive" /></a>      
 </div>
   
 <div class="media-body-main" style="width:100%">
-<a class="article-ressort nwplus" href="https://www.nw.de/lokal/kreis_minden_luebbecke/luebbecke">Kurz und kompakt</a>
+<a class="article-ressort" href="https://www.nw.de/lokal/kreis_guetersloh/schloss_holte_stukenbrock">Projekt von Unternehmern</a>
 <h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
-<a href="https://www.nw.de/lokal/kreis_minden_luebbecke/luebbecke/24132036_Kreis-Minden-Luebbecke-kompakt-Das-Wichtigste-des-Tages.html" data-upscore-url>
-<i class="fa fa-plus-square"></i> <span data-upscore-title>Kreis Minden-L&uuml;bbecke kompakt - Das Wichtigste des Tages</span>
+<a href="https://www.nw.de/lokal/kreis_guetersloh/schloss_holte_stukenbrock/24162933_Neue-Privatschule-im-Kreis-Guetersloh-eroeffnet-18-Erstklaessler-sind-eingeschult-worden.html" data-upscore-url>
+<span data-upscore-title>Neue Privatschule im Kreis G&uuml;tersloh er&ouml;ffnet &ndash; 18 Erstkl&auml;ssler sind eingeschult worden</span>
 
 </a>
 </h3>
-<div> </div>
+<div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
+<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
+</svg><span class="article-id-noad-24162933 nw-egy-noad-item egyCounter" data-egy-dsc="article-24162933"></span></span></span> </div>
 </div>
 </article>
 <hr class="article-divider visible-xs"/>
 
-<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24132519">
+<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24163488">
 <div class="article-image-container-main">
 
 
-<a href="https://www.nw.de/lokal/kreis_hoexter/hoexter/24132519_Neue-Laeden-Umzug-im-Shopping-Center-und-kostenlose-Tampons-die-News-aus-dem-Kreis-Hoexter.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010Z1YxOHFjRStDS1MwZGlERGt6d3JyNmZoWjdrUW9WVm5YLzN2QytjTWY0RGVqSnp5YTRCSUpPaE1qWW9FK3gyRUVJeDlXKzNjSkt5a3lranI3M2pGOXc9/250829-1506-24163841-0-1756472762.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005WlpTOUl0cHQ2Sm9aUDdxSE83cmtFckx5Q0JmbW9Ga2JvSXo2MmRaaXlQSU5uT2tCZlhoTlBtZWNKWldJY3JpcU9FRGRkTEljeGdkcWdhZG1DOWt2VFk9/250829-1506-24163841-0-1756472762.jpg 1440w"  alt="Platz f&uuml;r neue Ideen bietet sich ab Oktober in der rechten H&auml;lfte des Hauses an der Weserstra&szlig;e. Der Optiker schlie&szlig;t, die Verkaufsfl&auml;che soll neu vermietet werden. - Neue Westf&auml;lische"  class="media-object img-responsive" /></a>      
+<a href="https://www.nw.de/lokal/kreis_guetersloh/steinhagen/24163488_Wut-im-Kreis-Guetersloh-ueber-Rueckzug-von-Unternehmen-A33-ist-da-und-Schaeffler-geht.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010dUl1dC9hQWNBdWo1dW83ZGkyY2lkekRWQk02YUl6aHkxa2Eya1RoM2JSNno5dkVURlY5dGhWRCtwTmJ6NW52ZnE3STJCSkQrbHIxYlBYNGpkRUpDcHc9/250828-0926-645974718.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005YlJIeTYvSHNvc0xlTnNLYW9GT2oxYnl2YmxOL2xnelFZU0I2WGJCZ2drdDE4akFkaVdYTW10enRTcDR4WW1NZzVsQnFOMHQ2NzRtTDFWTVRTUEpyY3c9/250828-0926-645974718.jpg 1440w"  alt="D&uuml;stere Aussichten f&uuml;r das Schaeffler-Werk in Steinhagen. Es soll Ende 2026 geschlossen werden. - Jonas Damme"  class="media-object img-responsive" /></a>      
 </div>
   
 <div class="media-body-main" style="width:100%">
-<a class="article-ressort nwplus" href="https://www.nw.de/lokal/kreis_hoexter/hoexter">Kurz und kompakt</a>
+<a class="article-ressort nwplus" href="https://www.nw.de/lokal/kreis_guetersloh/steinhagen">Schlie&szlig;ung Ende 2026</a>
 <h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
-<a href="https://www.nw.de/lokal/kreis_hoexter/hoexter/24132519_Neue-Laeden-Umzug-im-Shopping-Center-und-kostenlose-Tampons-die-News-aus-dem-Kreis-Hoexter.html" data-upscore-url>
-<i class="fa fa-plus-square"></i> <span data-upscore-title>Neue L&auml;den, Umzug im Shopping-Center &amp; kostenlose Tampons -- die News aus dem Kreis H&ouml;xter</span>
+<a href="https://www.nw.de/lokal/kreis_guetersloh/steinhagen/24163488_Wut-im-Kreis-Guetersloh-ueber-Rueckzug-von-Unternehmen-A33-ist-da-und-Schaeffler-geht.html" data-upscore-url>
+<i class="fa fa-plus-square"></i> <span data-upscore-title>Wut im Kreis G&uuml;tersloh &uuml;ber R&uuml;ckzug von Unternehmen: A33 ist da &ndash; und Schaeffler geht</span>
 
 </a>
 </h3>
-<div> </div>
+<div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
+<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
+</svg><span class="article-id-noad-24163488 nw-egy-noad-item egyCounter" data-egy-dsc="article-24163488"></span></span></span> </div>
 </div>
 </article>
 <hr class="article-divider visible-xs"/>
@@ -4280,6 +4262,28 @@ Wirtschaft
 <div class="letzte-meldungen-mitte clearfix" data-upscore-zone="Wirtschaft">
 <div class="row">
 
+<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164523">
+<div class="article-image-container-main">
+
+
+<a href="https://www.nw.de/nachrichten/wirtschaft/24164523_Strafvereitelung-Ermittlungen-gegen-Beschaeftigte-von-X.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010bkNKTklraEFtd05qNmRYanlvaVZteWYxRjFBeDYyY1Q4aWJlYWhsKzVoSEVqQkhOWnRSRkhTRHJjR0ppMzhKMEFtaHlSQ3RuOTc0YU9pSGdDSkdnNmw1MzNTY2pXKzBPdFpXMU5wK1pZOVU/250829-1530-urn-newsml-dpa-com-20090101-250829-935-798886.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005UWVSejB5Zk5PT1dZYlZVaThXb3FYd3VjVjRiV2RsWklwZHpXeWRFeTJoazNmRXlvb3g1cmtZUDNmU0hsYkRDdFMwd1RsZTB1VUtXdzBMNTdhZWszWFJMQkJsRDQ5c1ZvVThRaXJNR3BVSVQ/250829-1530-urn-newsml-dpa-com-20090101-250829-935-798886.jpg 1440w"  alt="X soll sich bei der Zusammenarbeit mit den Beh&ouml;rden quer stellen. (Symbolbild) - Monika Skolimowska/dpa"  class="media-object img-responsive" /></a>      
+</div>
+  
+<div class="media-body-main" style="width:100%">
+<a class="article-ressort" href="https://www.nw.de/nachrichten/wirtschaft">Hasskriminalit&auml;t</a>
+<h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
+<a href="https://www.nw.de/nachrichten/wirtschaft/24164523_Strafvereitelung-Ermittlungen-gegen-Beschaeftigte-von-X.html" data-upscore-url>
+<span data-upscore-title>Strafvereitelung? Ermittlungen gegen Besch&auml;ftigte von X</span>
+
+</a>
+</h3>
+<div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
+<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
+</svg><span class="article-id-noad-24164523 nw-egy-noad-item egyCounter" data-egy-dsc="article-24164523"></span></span></span> </div>
+</div>
+</article>
+<hr class="article-divider visible-xs"/>
+
 <article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164442">
 <div class="article-image-container-main">
 
@@ -4302,6 +4306,7 @@ Wirtschaft
 </article>
 <hr class="article-divider visible-xs"/>
 
+<div class="clearfix"></div>
 <article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164432">
 <div class="article-image-container-main">
 
@@ -4324,7 +4329,6 @@ Wirtschaft
 </article>
 <hr class="article-divider visible-xs"/>
 
-<div class="clearfix"></div>
 <article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164402">
 <div class="article-image-container-main">
 
@@ -4343,28 +4347,6 @@ Wirtschaft
 <div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
 </svg><span class="article-id-noad-24164402 nw-egy-noad-item egyCounter" data-egy-dsc="article-24164402"></span></span></span> </div>
-</div>
-</article>
-<hr class="article-divider visible-xs"/>
-
-<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164382">
-<div class="article-image-container-main">
-
-
-<a href="https://www.nw.de/nachrichten/wirtschaft/24164382_Verkehrsminister-Erster-autonomer-Linienbus-wegweisend.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010bjZZSmJtQnNYT0lnUVFwaU1FdmtFYzd3MlczVlROUzBOS0VmN0svSkpveHVHN2RwS1JWeVE4Uis0YnhrN2IzMXFmNnNGV1ZmOEZZRlZGSFRrZVArc0F5L3ZpNll4a3dvV0k1MnBBQjJqTjE/250829-1327-urn-newsml-dpa-com-20090101-250829-935-798430.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005Y2k2MUhXd0FDK2dDUm9sdnJCN3pjTzliL2djcHBOWEdnUW5BNXJNdHJzSUZFQW9SSk9rNnV5OWNDYmUra1pSWkRuNmRBQktUTUxESDBJd040cGtGa3RtNHZpYzRYTjFCN21ZUWhqMzZmMVM/250829-1327-urn-newsml-dpa-com-20090101-250829-935-798430.jpg 1440w"  alt="Verkehrsminister Schnieder zeigt sich nach seiner Fahrt im autonomen Bus beeindruckt. - Moritz Frankenberg/dpa"  class="media-object img-responsive" /></a>      
-</div>
-  
-<div class="media-body-main" style="width:100%">
-<a class="article-ressort" href="https://www.nw.de/nachrichten/wirtschaft">Projekt &laquo;Albus&raquo;</a>
-<h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
-<a href="https://www.nw.de/nachrichten/wirtschaft/24164382_Verkehrsminister-Erster-autonomer-Linienbus-wegweisend.html" data-upscore-url>
-<span data-upscore-title>Verkehrsminister: Erster autonomer Linienbus &laquo;wegweisend&raquo;</span>
-
-</a>
-</h3>
-<div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
-<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
-</svg><span class="article-id-noad-24164382 nw-egy-noad-item egyCounter" data-egy-dsc="article-24164382"></span></span></span> </div>
 </div>
 </article>
 <hr class="article-divider visible-xs"/>
@@ -4411,6 +4393,28 @@ Sport
 <div class="letzte-meldungen-mitte clearfix" data-upscore-zone="Sport">
 <div class="row">
 
+<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164528">
+<div class="article-image-container-main">
+
+
+<a href="https://www.nw.de/sport/lokalsport/sport_in_bielefeld/lokalsport_bielefeld/24164528_Timur-Rieger-war-gedanklich-schon-mal-beim-Elfer-gegen-Arminia-Bielefelds-Torwart-Jonas-Kersken.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010cG9NWjhqbTI4Z1JNaTZMRWRHa1ZVRzVkRjdJdDNhYkM2UmlzZ09MVWJvcVUvV3o1ODdVUU96Y2E0K3ZWQVU4a0swb0krV2xZUUwvZFpRYW1vQURwbjA9/250829-1532-646347264.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005V0JkbGdtR1dHa2VBVVYwUW8vTGhXOGl4dEtkVTgrZzhlWUJVeEdGV0ZSSWlBaVNVVEZpZE5LVDBMakRTalRyeUJlcEZSMzdraFVxUUI2N25scnAvMlE9/250829-1532-646347264.jpg 1440w"  alt="Theesens Neuzugang Timur Rieger hat als vielseitiger Akteur in der Abwehr das Spiel des Westfalenligisten meistens vor sich. - J&ouml;rg Dieckmann"  class="media-object img-responsive" /></a>      
+</div>
+  
+<div class="media-body-main" style="width:100%">
+<a class="article-ressort nwplus" href="https://www.nw.de/sport/lokalsport/sport_in_bielefeld/lokalsport_bielefeld">Fragen an Bielefelder Sportler</a>
+<h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
+<a href="https://www.nw.de/sport/lokalsport/sport_in_bielefeld/lokalsport_bielefeld/24164528_Timur-Rieger-war-gedanklich-schon-mal-beim-Elfer-gegen-Arminia-Bielefelds-Torwart-Jonas-Kersken.html" data-upscore-url>
+<i class="fa fa-plus-square"></i> <span data-upscore-title>Timur Rieger war gedanklich schon mal beim Elfer gegen Arminia Bielefelds Torwart Jonas Kersken</span>
+
+</a>
+</h3>
+<div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
+<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
+</svg><span class="article-id-noad-24164528 nw-egy-noad-item egyCounter" data-egy-dsc="article-24164528"></span></span></span> </div>
+</div>
+</article>
+<hr class="article-divider visible-xs"/>
+
 <article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164458">
 <div class="article-image-container-main">
 
@@ -4422,7 +4426,7 @@ Sport
 <a class="article-ressort nwplus" href="https://www.nw.de/sport/sc_paderborn_07">1. FC K&ouml;ln will ihn</a>
 <h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
 <a href="https://www.nw.de/sport/sc_paderborn_07/24164458_Wechsel-oder-Verbleib-Was-der-Obermair-Poker-fuer-den-SC-Paderborn-07-bedeutet.html" data-upscore-url>
-<i class="fa fa-plus-square"></i> <span data-upscore-title>Wechsel oder Verbleib? Was der Obermair-Poker f&uuml;r den SC Paderborn 07 bedeutet</span>
+<i class="fa fa-plus-square"></i> <span data-upscore-title>Z&auml;hes Ringen um Raphael Obermair: Was ein Abgang f&uuml;r den SC Paderborn bedeuten w&uuml;rde</span>
 
 </a>
 </h3>
@@ -4433,6 +4437,7 @@ Sport
 </article>
 <hr class="article-divider visible-xs"/>
 
+<div class="clearfix"></div>
 <article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164494">
 <div class="article-image-container-main">
 
@@ -4455,7 +4460,6 @@ Sport
 </article>
 <hr class="article-divider visible-xs"/>
 
-<div class="clearfix"></div>
 <article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164490">
 <div class="article-image-container-main">
 
@@ -4474,28 +4478,6 @@ Sport
 <div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
 </svg><span class="article-id-noad-24164490 nw-egy-noad-item egyCounter" data-egy-dsc="article-24164490"></span></span></span> </div>
-</div>
-</article>
-<hr class="article-divider visible-xs"/>
-
-<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164290">
-<div class="article-image-container-main">
-
-
-<a href="https://www.nw.de/sport/sport_nachrichten/24164290_Der-Energie-Gipfel-Bayern-erwarten-heissen-Tanz-mit-Wagner.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010bWRvYlNGU2hjL003UVM1MVptOTlyMWJmeFFjNVpVMkNuUlF4dlFvS2x2SVdZTGt3aDNDVWhJc3YxR3ZlWUFWS2thTnN4dTd5MXF1bVFZRWNsc2NsWmhpRE5GMDRQR1ZCRjdJVm5NTjVWTmM/250829-1452-urn-newsml-dpa-com-20090101-250829-935-798333.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005Yk8vR2d6WFdPdi8xbjViZy9DY0ZJNmRlbXJVd2dvb09tODdjM3FIQ2dUSWxJd1ByM0cwNW45cjVLY2VtS2QxclM0bEtFUVVKU09ka1dWTUNWbXZLQUIvMXlkTTNUZWl4Y0VkVndTYTBjUWM/250829-1452-urn-newsml-dpa-com-20090101-250829-935-798333.jpg 1440w"  alt="Feiert am Samstag seine Heimpremiere als Augsburg-Trainer: Sandro Wagner. (Archivbild) - Hendrik Schmidt/dpa"  class="media-object img-responsive" /></a>      
-</div>
-  
-<div class="media-body-main" style="width:100%">
-<a class="article-ressort" href="https://www.nw.de/sport/sport_nachrichten">Fu&szlig;ball-Bundesliga</a>
-<h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
-<a href="https://www.nw.de/sport/sport_nachrichten/24164290_Der-Energie-Gipfel-Bayern-erwarten-heissen-Tanz-mit-Wagner.html" data-upscore-url>
-<span data-upscore-title>Der Energie-Gipfel: Bayern erwarten hei&szlig;en Tanz mit Wagner</span>
-
-</a>
-</h3>
-<div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
-<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
-</svg><span class="article-id-noad-24164290 nw-egy-noad-item egyCounter" data-egy-dsc="article-24164290"></span></span></span> </div>
 </div>
 </article>
 <hr class="article-divider visible-xs"/>
@@ -5095,7 +5077,7 @@ Gesundheit
     "headline": "Startseite",
     "url": "",
     "description": "Nachrichten aus OWL, Deutschland und aller Welt &#9658; Die NW berichtet &uuml;ber Politik &#9989; Wirtschaft &#9989; Sport &#9989; und mehr &#9658; Jetzt auf nw.de",
-    "dateModified": "2025-08-29T14:08:26+02:00",
+    "dateModified": "2025-08-29T15:41:06+02:00",
     "hasPart": [
         {
             "@context": "https:\/\/schema.org",
@@ -5103,9 +5085,9 @@ Gesundheit
             "url": "https:\/\/www.nw.de\/sport\/fussball\/dsc_arminia_bielefeld\/24164361_Backup-mit-Zweitligaerfahrung-Arminia-Bielefeld-geht-auf-Nummer-Sicker.html",
             "headline": "Backup mit Zweitligaerfahrung: Arminia Bielefeld geht auf Nummer Sicker",
             "datePublished": "2025-08-29T13:01:00+02:00",
-            "dateModified": "2025-08-29T14:08:26+02:00",
+            "dateModified": "2025-08-29T15:41:06+02:00",
             "articleSection": "Sport_Bund",
-            "keywords": "Transferfrist,Transferphase,Zweitligaerfahrung,Backup,SV Sandhausen,MSV Duisburg,Holstein Kiel,Arminia Bielefeld,Arne Sicker,Bielefeld,serie_nlarminia,label_s 50,label_startseite,label_top-news,label_push,label_arminia,label_informiere mich,meta_artikelklasse_Nachricht,meta_themen_Arminia_Bielefeld,meta_copyrights_RGOWL_Freier_Mitarbeiter,meta_userneeds_informieremich",
+            "keywords": "Transferfrist,Transferphase,Zweitligaerfahrung,Backup,SV Elversberg,SV Sandhausen,MSV Duisburg,Holstein Kiel,Arminia Bielefeld,Arne Sicker,Bielefeld,serie_nlarminia,label_s 50,label_startseite,label_top-news,label_umfrage,label_push,label_plus ok,label_arminia,label_informiere mich,meta_artikelklasse_Nachricht,meta_themen_Arminia_Bielefeld,meta_copyrights_RGOWL_Freier_Mitarbeiter,meta_userneeds_informieremich",
             "publisher": {
                 "@type": "NewsMediaOrganization",
                 "name": "Neue Westf\u00e4lische",
@@ -5149,16 +5131,16 @@ Gesundheit
                 [
                     {
                         "@type": "Person",
-                        "name": "Dirk Schuster",
+                        "name": "Gregor Winkler",
                         "jobTitle": "Sportredakteur",
-                        "url": "https:\/\/www.nw.de\/autoren\/dirk-schuster-12621",
+                        "url": "https:\/\/www.nw.de\/autoren\/gregor-winkler-429",
                         "sameAs": ""
                     },
                     {
                         "@type": "Person",
-                        "name": "Gregor Winkler",
+                        "name": "Dirk Schuster",
                         "jobTitle": "Sportredakteur",
-                        "url": "https:\/\/www.nw.de\/autoren\/gregor-winkler-429",
+                        "url": "https:\/\/www.nw.de\/autoren\/dirk-schuster-12621",
                         "sameAs": ""
                     }
                 ]
@@ -5170,9 +5152,9 @@ Gesundheit
             "url": "https:\/\/www.nw.de\/lokal\/kreis_herford\/spenge\/24163925_Nach-Angriff-auf-Spenger-Hausarzt-Bleibt-die-Tat-ohne-Folgen.html",
             "headline": "Nach Angriff auf Spenger Hausarzt: Bleibt die Tat ohne Folgen?",
             "datePublished": "2025-08-29T12:00:00+02:00",
-            "dateModified": "2025-08-29T14:43:46+02:00",
+            "dateModified": "2025-08-29T15:30:38+02:00",
             "articleSection": "Enger-Spenge",
-            "keywords": "Gewalttat,Angriff,Staatsanwaltschaft,Neue Westf&auml;lische,Staatsanwaltschaft Bielefeld,Philipp Kalbertodt,Andreas Schimke,Spenge,label_m 80,label_startseite,label_top-news,label_blaulicht,label_ordne f&uuml;r mich ein,meta_artikelklasse_Hintergrund,meta_themen_Blaulicht_Sicherheit,meta_copyrights_NW,meta_userneeds_ordneein,cnt_aufmacher",
+            "keywords": "Angriff,Staatsanwaltschaft,Neue Westf&auml;lische,Staatsanwaltschaft Bielefeld,Philipp Kalbertodt,Andreas Schimke,Spenge,label_m 80,label_startseite,label_top-news,label_plus ok,label_blaulicht,label_ordne f&uuml;r mich ein,meta_artikelklasse_Hintergrund,meta_themen_Blaulicht_Sicherheit,meta_copyrights_NW,meta_userneeds_ordneein,cnt_aufmacher",
             "publisher": {
                 "@type": "NewsMediaOrganization",
                 "name": "Neue Westf\u00e4lische",
@@ -5329,7 +5311,7 @@ Gesundheit
             "image": [
                 {
                     "@type": "ImageObject",
-                    "url": "https:\/\/www.nw.de\/_em_daten\/_cache\/image\/1xanJPa1FYVnlqcnNrSFRaNTI2S25ZK250YXppdlNtaHFvVHpKZ1JIL0NZWk5oRGVrOTkvUGVsbU1nUisrWU9kYU41aEVKVHJhMTVrcEZlM3RWNXlqbnhUT3REUjMyVmZGcWFnK2JJVm5ESDA9\/250828-1751-646212087.jpg"
+                    "url": "https:\/\/www.nw.de\/_em_daten\/_cache\/image\/1xanJPa1FYVnlqcnNrSFRaNTI2S25ZeGovRXZsdm8rWFRuWnA0SU5EandQd1V5L3Zyc3FvTnkyVG9SSHBjbTJGcEQ4VHNzYnpOQ0I0dXB0SUpFeTVGUGUreldwNHV6TWVEek5zSk1Qc01nV2c9\/250828-1751-646212087.jpg"
                 }
             ],
             "author": [
