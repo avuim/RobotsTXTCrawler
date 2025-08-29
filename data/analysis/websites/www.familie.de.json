@@ -1,7 +1,7 @@
 {
   "domain": "www.familie.de",
   "normalizedDomain": "www.familie.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /go.php?*\r\nDisallow: /:preview/*\r\nDisallow: /oembed/\r\nDisallow: */null$\r\nDisallow: /gtm.js\r\nDisallow: /metatag/\r\nDisallow: /quiz-enricher/*\r\nDisallow: /quiz-suggestions/*\r\n\r\nUser-agent: OAI-SearchBot\r\nAllow: /\r\nDisallow: /go.php?*\r\nDisallow: /:preview/*\r\nDisallow: /oembed/\r\nDisallow: */null$\r\nDisallow: /gtm.js\r\nDisallow: /metatag/\r\nDisallow: /quiz-enricher/*\r\nDisallow: /quiz-suggestions/*",
+  "robotsTxt": "User-agent: *\nDisallow: /go.php?*\nDisallow: /:preview/*\nDisallow: /oembed/\nDisallow: */null$\nDisallow: /gtm.js\nDisallow: /metatag/\nDisallow: /quiz-enricher/*\nDisallow: /quiz-suggestions/*\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /",
   "globalRules": {
     "paths": {
       "allowed": [],
@@ -19,27 +19,34 @@
   },
   "specificBots": [
     {
-      "name": "OAI-SearchBot",
-      "allowed": true,
+      "name": "GPTBot",
+      "allowed": false,
       "paths": {
         "allowed": [],
-        "disallowed": [
-          "/go.php?*",
-          "/:preview/*",
-          "/oembed/",
-          "*/null$",
-          "/gtm.js",
-          "/metatag/",
-          "/quiz-enricher/*",
-          "/quiz-suggestions/*"
-        ]
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
       }
     }
   ],
   "stats": {
-    "totalSpecificBots": 1,
-    "allowedBots": 1,
-    "disallowedBots": 0,
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
     "hasGlobalAllow": true
   },
   "bots": [
@@ -48,8 +55,16 @@
       "allowed": true
     },
     {
-      "name": "OAI-SearchBot",
-      "allowed": true
+      "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
     }
   ],
   "paths": {

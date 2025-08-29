@@ -1,11 +1,13 @@
 {
   "domain": "www.netzathleten.de",
   "normalizedDomain": "www.netzathleten.de",
-  "robotsTxt": "# START YOAST BLOCK\r\n# ---------------------------\r\nUser-agent: *\r\nDisallow:\r\n\r\nSitemap: https://www.netzathleten.de/sitemap_index.xml\r\n# ---------------------------\r\n# END YOAST BLOCK",
+  "robotsTxt": "User-agent: *\nDisallow: /wp-content/uploads/wpo/wpo-plugins-tables-list.json\n\n# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://www.netzathleten.de/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK",
   "globalRules": {
     "paths": {
       "allowed": [],
-      "disallowed": []
+      "disallowed": [
+        "/wp-content/uploads/wpo/wpo-plugins-tables-list.json"
+      ]
     }
   },
   "specificBots": [],
@@ -13,16 +15,18 @@
     "totalSpecificBots": 0,
     "allowedBots": 0,
     "disallowedBots": 0,
-    "hasGlobalAllow": false
+    "hasGlobalAllow": true
   },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
   ],
   "paths": {
     "allowed": [],
-    "disallowed": []
+    "disallowed": [
+      "/wp-content/uploads/wpo/wpo-plugins-tables-list.json"
+    ]
   }
 }

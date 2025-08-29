@@ -3,6 +3,7 @@
 # The use of robots or other automated means to access www.az-online.de or collect or mine data without the express permission of www.az-online.de is strictly prohibited.
 
 User-agent: *
+Disallow: /sub/paywall/js/
 Disallow: /lightweight-ajax
 Disallow: /*?trafficsource
 Disallow: /suche/

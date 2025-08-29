@@ -1,7 +1,7 @@
 {
   "domain": "www.misterspex.de",
   "normalizedDomain": "www.misterspex.de",
-  "robotsTxt": "User-agent: facebookexternalhit/1.1\r\nCrawl-delay: 10 \r\n\r\nUser-Agent: *\r\nDisallow: /*?SearchTerm\r\nDisallow: /cart\r\nDisallow: *.htm$\r\nDisallow: *MiniCart\r\nDisallow: *MiniWishlist\r\nDisallow: *GetWishlistJSON\r\nDisallow: /?PageletEntryPointID\r\nDisallow: /x-ray-ban-brillen-glasses\r\nDisallow: /*/ViewProductGallery-ViewTemplate\r\nDisallow: /l/*?\r\nDisallow: /c/tst/\r\nDisallow: *ViewTryOn-GetCustomerData\r\nDisallow: /*/ViewData-Start\r\n\r\nAllow: *CatalogID=catalog*\r\nAllow: *SearchParameter*\r\n\r\nSitemap: https://www.misterspex.de/__service/product-browse-service/categories.xml\r\nSitemap: https://www.misterspex.de/__service/product-browse-service/api/sitemaps\r\nSitemap: https://www.misterspex.de/__service/content-service/sitemap.xml\r\n",
+  "robotsTxt": "User-agent: facebookexternalhit/1.1\nCrawl-delay: 10 \n\nUser-Agent: *\nDisallow: /*?SearchTerm\nDisallow: /cart\nDisallow: *.htm$\nDisallow: *MiniCart\nDisallow: *MiniWishlist\nDisallow: *GetWishlistJSON\nDisallow: /?PageletEntryPointID\nDisallow: /x-ray-ban-brillen-glasses\nDisallow: /*/ViewProductGallery-ViewTemplate\nDisallow: /l/*?\nDisallow: /c/tst/\nDisallow: *ViewTryOn-GetCustomerData\nDisallow: /*/ViewData-Start\n\nAllow: *CatalogID=catalog*\nAllow: *SearchParameter*\n\nSitemap: https://www.misterspex.de/__service/product-browse-service/categories.xml\nSitemap: https://www.misterspex.de/__service/product-browse-service/api/sitemaps\nSitemap: https://www.misterspex.de/__service/content-service/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [

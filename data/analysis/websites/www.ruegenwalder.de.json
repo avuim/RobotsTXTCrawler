@@ -1,7 +1,7 @@
 {
   "domain": "www.ruegenwalder.de",
   "normalizedDomain": "www.ruegenwalder.de",
-  "robotsTxt": "User-agent: *\r\nDisallow:\r\n\r\nDisallow: /admin\r\nDisallow: /de/navigation/*\r\nDisallow: /de/404\r\nDisallow: /500\r\n\r\nNoindex: /admin\r\nNoindex: /de/navigation/*\r\nNoindex: /de/404\r\nNoindex: /500\r\n\r\nSitemap: https://www.ruegenwalder.de/sitemap.site_1.xml\r\n",
+  "robotsTxt": "User-agent: *\nDisallow:\n\nDisallow: /admin\nDisallow: /de/navigation/*\nDisallow: /de/404\nDisallow: /500\n\nNoindex: /admin\nNoindex: /de/navigation/*\nNoindex: /de/404\nNoindex: /500\n\nSitemap: https://www.ruegenwalder.de/sitemap.site_1.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

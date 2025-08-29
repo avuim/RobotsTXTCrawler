@@ -1,6 +1,51 @@
 {
   "domain": "www.emma-matratze.de",
   "normalizedDomain": "www.emma-matratze.de",
+  "robotsTxt": "# START nuxt-robots (indexable)\nUser-agent: *\nAllow: /\n\nUser-agent: AdsBot-Google\nAllow: /\n\nUser-agent: Googlebot\nDisallow: /*?utm_source\nDisallow: /*?source\n\nUser-agent: Googlebot-Image\nDisallow: /*?utm_source\nDisallow: /*?source\n\nSitemap: https://www.emma-matratze.de/sitemap.xml\n# END nuxt-robots",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AdsBot-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Googlebot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/*?utm_source",
+          "/*?source"
+        ]
+      }
+    },
+    {
+      "name": "Googlebot-Image",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/*?utm_source",
+          "/*?source"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 3,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -12,11 +57,15 @@
     },
     {
       "name": "Googlebot",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "Googlebot-Image",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

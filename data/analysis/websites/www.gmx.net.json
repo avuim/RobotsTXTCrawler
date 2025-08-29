@@ -1,12 +1,13 @@
 {
   "domain": "www.gmx.net",
   "normalizedDomain": "www.gmx.net",
-  "robotsTxt": "User-agent: *\nDisallow: /test/\nUser-agent: Applebot\nDisallow: /magazine/\nAllow: /magazine/in-eigener-sache/\nAllow: /magazine/unicef/\nAllow: /magazine/so-arbeitet-die-redaktion/\nUser-agent: ChatGPT-User\nDisallow: /magazine/\nAllow: /magazine/in-eigener-sache/\nAllow: /magazine/unicef/\nAllow: /magazine/so-arbeitet-die-redaktion/\nUser-agent: GPTBot\nDisallow: /magazine/\nAllow: /magazine/in-eigener-sache/\nAllow: /magazine/unicef/\nAllow: /magazine/so-arbeitet-die-redaktion/\nUser-agent: Google-Extended\nDisallow: /magazine/\nAllow: /magazine/in-eigener-sache/\nAllow: /magazine/unicef/\nAllow: /magazine/so-arbeitet-die-redaktion/\n",
+  "robotsTxt": "User-agent: *\nDisallow: /test/\nDisallow: /prototype\nUser-agent: Applebot\nDisallow: /magazine/\nAllow: /magazine/in-eigener-sache/\nAllow: /magazine/unicef/\nAllow: /magazine/so-arbeitet-die-redaktion/\nUser-agent: ChatGPT-User\nDisallow: /magazine/\nAllow: /magazine/in-eigener-sache/\nAllow: /magazine/unicef/\nAllow: /magazine/so-arbeitet-die-redaktion/\nUser-agent: GPTBot\nDisallow: /magazine/\nAllow: /magazine/in-eigener-sache/\nAllow: /magazine/unicef/\nAllow: /magazine/so-arbeitet-die-redaktion/\nUser-agent: Google-Extended\nDisallow: /magazine/\nAllow: /magazine/in-eigener-sache/\nAllow: /magazine/unicef/\nAllow: /magazine/so-arbeitet-die-redaktion/\n",
   "globalRules": {
     "paths": {
       "allowed": [],
       "disallowed": [
-        "/test/"
+        "/test/",
+        "/prototype"
       ]
     }
   },
@@ -99,7 +100,8 @@
   "paths": {
     "allowed": [],
     "disallowed": [
-      "/test/"
+      "/test/",
+      "/prototype"
     ]
   }
 }

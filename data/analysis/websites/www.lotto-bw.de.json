@@ -1,7 +1,7 @@
 {
   "domain": "www.lotto-bw.de",
   "normalizedDomain": "www.lotto-bw.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /mein-konto/*\r\nDisallow: /automatenspiele/suche*\r\nSitemap: https://www.lotto-bw.de/sitemap.xml\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /mein-konto/*\nDisallow: /automatenspiele/suche*\nSitemap: https://www.lotto-bw.de/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

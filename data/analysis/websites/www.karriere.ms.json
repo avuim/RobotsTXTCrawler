@@ -1,14 +1,41 @@
 {
   "domain": "www.karriere.ms",
   "normalizedDomain": "www.karriere.ms",
-  "bots": [
+  "robotsTxt": "User-agent: Twitterbot\nDisallow:\n\nUser-Agent: *\nAllow: /\n\nSitemap: https://www.karriere.ms/sitemap.xml\nSitemap: https://www.karriere.ms/_em_oas/_em_daten/wnaoas/wnakar/_search/_sitemaps/sitemap_region.xml\nSitemap: https://www.karriere.ms/_em_oas/_em_daten/wnaoas/wnakar/_search/_sitemaps/sitemap_details_410.xml\nSitemap: https://www.karriere.ms/_em_oas/_em_daten/wnaoas/wnakar/_search/_sitemaps/sitemap_cluster_by_cities.xml\nSitemap: https://www.karriere.ms/_em_oas/_em_daten/wnaoas/wnakar/_search/_sitemaps/sitemap_berufsfeld.xml\nSitemap: https://www.karriere.ms/_em_oas/_em_daten/wnaoas/wnakar/_search/_sitemaps/sitemap.xml\nSitemap: https://www.karriere.ms/_em_oas/_em_daten/wnaoas/wnakar/_search/_sitemaps/sitemap_companyindex.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [
     {
       "name": "Twitterbot",
-      "allowed": false
-    },
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
+  "bots": [
     {
       "name": "*",
       "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

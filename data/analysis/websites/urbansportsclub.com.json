@@ -1,7 +1,7 @@
 {
   "domain": "urbansportsclub.com",
   "normalizedDomain": "urbansportsclub.com",
-  "robotsTxt": "User-agent: *\r\nDisallow: /membership\r\nDisallow: /reservations\r\nDisallow: /account\r\nDisallow: /rev.txt\r\n\r\nUser-agent: AhrefsBot\r\nDisallow: /\r\n\r\nUser-agent: MJ12bot\r\nDisallow: /\r\n\r\nUser-agent: spider@seoscanners.net\r\nDisallow: /",
+  "robotsTxt": "User-agent: *\nDisallow: /membership\nDisallow: /reservations\nDisallow: /account\nDisallow: /rev.txt\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: spider@seoscanners.net\nDisallow: /",
   "globalRules": {
     "paths": {
       "allowed": [],

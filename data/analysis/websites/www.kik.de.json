@@ -1,7 +1,7 @@
 {
   "domain": "www.kik.de",
   "normalizedDomain": "www.kik.de",
-  "robotsTxt": "# START nuxt-robots (indexable)\r\nUser-agent: *\r\nAllow: /*css?\r\nAllow: /*js?\r\nAllow: /filialfinder/\r\nAllow: /vyhledat-prodejnu/\r\nAllow: /znajdz-sklep/\r\nAllow: /filiaalzoeker/\r\nAllow: /*?*page=1&\r\nAllow: /*?*page=2&\r\nAllow: /*?*page=3&\r\nAllow: /*?*page=1$\r\nAllow: /*?*page=2$\r\nAllow: /*?*page=3$\r\nAllow: /search?*search=*\r\nAllow: /*?utm_source=SEA*\r\nAllow: /*?utm_source=SEAB*\r\nDisallow: /*?\r\nDisallow: /c/searchresult/\r\nDisallow: /my-account/\r\nDisallow: /checkout/\r\nDisallow: /*?*page=\r\nDisallow: /storefinderAssets\r\n\r\nSitemap: https://www.kik.de/sitemap-index.xml\r\n# END nuxt-robots",
+  "robotsTxt": "# START nuxt-robots (indexable)\nUser-agent: *\nAllow: /*css?\nAllow: /*js?\nAllow: /filialfinder/\nAllow: /vyhledat-prodejnu/\nAllow: /znajdz-sklep/\nAllow: /filiaalzoeker/\nAllow: /*?*page=1&\nAllow: /*?*page=2&\nAllow: /*?*page=3&\nAllow: /*?*page=1$\nAllow: /*?*page=2$\nAllow: /*?*page=3$\nAllow: /search?*search=*\nAllow: /*?utm_source=SEA*\nAllow: /*?utm_source=SEAB*\nDisallow: /*?\nDisallow: /c/searchresult/\nDisallow: /my-account/\nDisallow: /checkout/\nDisallow: /*?*page=\nDisallow: /storefinderAssets\n\nSitemap: https://www.kik.de/sitemap-index.xml\n# END nuxt-robots",
   "globalRules": {
     "paths": {
       "allowed": [

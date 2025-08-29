@@ -1,10 +1,32 @@
 {
   "domain": "www.mz.de",
   "normalizedDomain": "www.mz.de",
+  "robotsTxt": "# robots.txt https://www.mz.de\n\nUser-agent: *\nDisallow: /api/\n\nSitemap: https://www.mz.de/sitemaps/newssitemap-index.xml\nSitemap: https://www.mz.de/sitemaps/sitemap-index.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/api/"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/api/"
+    ]
+  }
 }

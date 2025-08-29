@@ -1,7 +1,7 @@
 {
   "domain": "www.tageblatt.de",
   "normalizedDomain": "www.tageblatt.de",
-  "robotsTxt": "# Robots.txt for crawler\r\n\r\nUser-agent: *\r\n\r\n# Disallow Crawler\r\nDisallow: /User\r\nDisallow: /Dateien\r\nDisallow: /Nachrichten/Suche\r\n# Crawler often creates invalid script/webresource resource request\r\nDisallow: /ScriptResource\r\nDisallow: /WebResource\r\n\r\nUser-agent: Google-Extended\r\nDisallow: /\r\n\r\nUser-agent: GPTBot \r\nDisallow: /\r\n\r\nUser agent: ChatGPT User\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\n# Max crawler Time per page in sec\r\nCrawl-Delay: 2\r\n\r\n#Sitemap\r\n#Sitemap: http://www.funkinform.de/Sitemap_Index.xml.gz",
+  "robotsTxt": "# Robots.txt � Zugriffskontrolle & rechtlicher Hinweis / Access Control & Legal Notice\r\n# Diese Datei steuert das Crawling durch Webcrawler (User-Agents) und dokumentiert\r\n# den Widerspruch gegen kommerzielles Text- und Data Mining gem�� � 44b UrhG.\r\n# This file controls crawling by web crawlers (user-agents) and documents\r\n# the objection to commercial text and data mining according to � 44b UrhG.\r\n\r\n# =====================================================\r\n# Allgemeine Regeln f�r alle Bots / General rules for all bots\r\n# =====================================================\r\nUser-agent: *\r\nDisallow: /User\r\nDisallow: /Dateien\r\nDisallow: /Nachrichten/Suche\r\nDisallow: /ScriptResource\r\nDisallow: /WebResource\r\nDisallow: /*?bPrint=true*\r\nDisallow: /Nachrichten/Archiv-Liste_*.html\r\nDisallow: /*/Zusammengefasst-*.html\r\nDisallow: /Zusammengefasst-*.html\r\n\r\n# Crawl-Delay, um Serverlast zu reduzieren / Reduce server load\r\nCrawl-Delay: 2\r\n\r\n# Sitemap f�r erlaubte Inhalte / Sitemap for allowed content\r\nSitemap: https://www.tageblatt.de/Sitemap_Index.xml.gz\r\n\r\n# =====================================================\r\n# Blockade spezieller Bots (Scraper, SEO-Tools, KI-Crawler) / Blocking specific bots (scrapers, SEO tools, AI crawlers)\r\n# =====================================================\r\nUser-agent: backlink-check.de\r\nDisallow: /\r\n\r\nUser-agent: BacklinkCrawler\r\nDisallow: /\r\n\r\nUser-agent: ExtractorPro\r\nDisallow: /\r\n\r\nUser-agent: Fasterfox\r\nDisallow: /\r\n\r\nUser-agent: LinkextractorPro\r\nDisallow: /\r\n\r\nUser-agent: LinkWalker\r\nDisallow: /\r\n\r\nUser-agent: MJ12bot\r\nDisallow: /\r\n\r\nUser-agent: Openbot\r\nDisallow: /\r\n\r\nUser-agent: rogerbot\r\nDisallow: /\r\n\r\nUser-agent: searchpreview\r\nDisallow: /\r\n\r\nUser-agent: SemrushBot\r\nDisallow: /\r\n\r\nUser-agent: SEODAT\r\nDisallow: /\r\n\r\nUser-agent: SEOENGBot\r\nDisallow: /\r\n\r\nUser-agent: SEOkicks-Robot\r\nDisallow: /\r\n\r\nUser-agent: True_Robot\r\nDisallow: /\r\n\r\nUser-agent: URL Control\r\nDisallow: /\r\n\r\nUser-agent: URL_Spider_Pro\r\nDisallow: /\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nUser-agent: ChatGPT-User\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\nUser-agent: um-IC\r\nDisallow: /\r\n\r\nUser-agent: Google-Extended\r\nDisallow: /\r\n\r\n# =====================================================\r\n# Rechtlicher Hinweis (� 44b UrhG � Text- und Data Mining) / Legal Notice (� 44b UrhG � Text and Data Mining)\r\n# =====================================================\r\n# DE: Die Inhalte dieser Website sind urheberrechtlich gesch�tzt.\r\n#     Eine automatisierte Auswertung, Vervielf�ltigung oder Nutzung der Inhalte \r\n#     zu kommerziellen Zwecken ist ohne vorherige schriftliche Genehmigung untersagt.\r\n#     Die Betreiber widersprechen hiermit ausdr�cklich der kommerziellen Nutzung\r\n#     durch Text- und Data-Mining-Technologien gem�� � 44b UrhG.\r\n#     F�r Anfragen zur Nutzung wenden Sie sich bitte an: legal@tageblatt.de\r\n#\r\n# EN: The content of this website is protected by copyright.\r\n#     Automated analysis, reproduction, or use of the content \r\n#     for commercial purposes is prohibited without prior written permission.\r\n#     The operators explicitly object to any commercial use\r\n#     by text and data mining technologies pursuant to � 44b UrhG (German Copyright Act).\r\n#     For permission requests, please contact: legal@tageblatt.de",
   "globalRules": {
     "paths": {
       "allowed": [],
@@ -10,13 +10,145 @@
         "/Dateien",
         "/Nachrichten/Suche",
         "/ScriptResource",
-        "/WebResource"
+        "/WebResource",
+        "/*?bPrint=true*",
+        "/Nachrichten/Archiv-Liste_*.html",
+        "/*/Zusammengefasst-*.html",
+        "/Zusammengefasst-*.html"
       ]
     }
   },
   "specificBots": [
     {
-      "name": "Google-Extended",
+      "name": "backlink-check.de",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BacklinkCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ExtractorPro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkextractorPro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkWalker",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Openbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "rogerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "searchpreview",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEODAT",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEOENGBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "True_Robot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "URL Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "URL_Spider_Pro",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -32,7 +164,31 @@
       }
     },
     {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
       "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "um-IC",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -41,9 +197,9 @@
     }
   ],
   "stats": {
-    "totalSpecificBots": 3,
+    "totalSpecificBots": 22,
     "allowedBots": 0,
-    "disallowedBots": 3,
+    "disallowedBots": 22,
     "hasGlobalAllow": true
   },
   "bots": [
@@ -52,7 +208,71 @@
       "allowed": true
     },
     {
-      "name": "Google-Extended",
+      "name": "backlink-check.de",
+      "allowed": false
+    },
+    {
+      "name": "BacklinkCrawler",
+      "allowed": false
+    },
+    {
+      "name": "ExtractorPro",
+      "allowed": false
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false
+    },
+    {
+      "name": "LinkextractorPro",
+      "allowed": false
+    },
+    {
+      "name": "LinkWalker",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "Openbot",
+      "allowed": false
+    },
+    {
+      "name": "rogerbot",
+      "allowed": false
+    },
+    {
+      "name": "searchpreview",
+      "allowed": false
+    },
+    {
+      "name": "SemrushBot",
+      "allowed": false
+    },
+    {
+      "name": "SEODAT",
+      "allowed": false
+    },
+    {
+      "name": "SEOENGBot",
+      "allowed": false
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": false
+    },
+    {
+      "name": "True_Robot",
+      "allowed": false
+    },
+    {
+      "name": "URL Control",
+      "allowed": false
+    },
+    {
+      "name": "URL_Spider_Pro",
       "allowed": false
     },
     {
@@ -60,7 +280,19 @@
       "allowed": false
     },
     {
+      "name": "ChatGPT-User",
+      "allowed": false
+    },
+    {
       "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "um-IC",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
       "allowed": false
     }
   ],
@@ -71,7 +303,11 @@
       "/Dateien",
       "/Nachrichten/Suche",
       "/ScriptResource",
-      "/WebResource"
+      "/WebResource",
+      "/*?bPrint=true*",
+      "/Nachrichten/Archiv-Liste_*.html",
+      "/*/Zusammengefasst-*.html",
+      "/Zusammengefasst-*.html"
     ]
   }
 }

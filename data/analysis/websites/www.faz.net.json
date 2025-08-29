@@ -1,7 +1,7 @@
 {
   "domain": "www.faz.net",
   "normalizedDomain": "www.faz.net",
-  "robotsTxt": "# robots.txt updated 2025-06-17\n\nUser-agent: *\nDisallow: /json/\nDisallow: /cmlink/\nDisallow: /premiumContent\nDisallow: /*.pdf\nDisallow: /js/adobe/at.js\nDisallow: /redaktion?cache\nDisallow: *mostclicked.gfn\nDisallow: /;suche=artikelsuche/suche/\nDisallow: /suche/\nDisallow: *?sort=\nDisallow: /dist/scripts/main_faz-comment.js\nDisallow: /html-ajax*\nDisallow: /livewire*\nDisallow: *atarget.js\nDisallow: */sport-ergebnisse/*/ma*/$\nDisallow: */sport-ergebnisse/*/co*/$\nDisallow: /api/collect/\nDisallow: /podcast-service/\nDisallow: */event/widgets/\nDisallow: */event/*/live/\nDisallow: */event/*/html/\n\nDisallow: /allesbeste/*?s=*\nDisallow: /allesbeste/*&s=*\nDisallow: */asset-comment-info/*\nDisallow: /membership/*\nDisallow: /kaufkompass/wp-admin/\nDisallow: /kaufkompass/newsticker/\nDisallow: /kaufkompass/wp-content/ab_api_cache/*\nDisallow: /kaufkompass/search/\nDisallow: /kaufkompass/*?p=*\nDisallow: /kaufkompass/*&p=*\nDisallow: /kaufkompass/*&preview=*\nAllow: /kaufkompass/wp-admin/admin-ajax.php\n\nUser-agent: Meltwater\nDisallow: /\n\nUser-agent: NewsNow\nDisallow: /\n\nUser-agent: Bloodhound\nDisallow: /\n\nUser-agent: cydralspider\nDisallow: /\n\nUser-agent: downloadexpress\nDisallow: /\n\nUser-agent: gammaSpider\nDisallow: /\n\nUser-agent: ObjectsSearch\nDisallow: /\n\nUser-agent: Pimptrain\nDisallow: /\n\nUser-agent: Raven\nDisallow: /\n\nUser-agent: wapspider\nDisallow: /\n\nUser-agent: WebZinger\nDisallow: /\n\nUser-agent: Fasterfox\nDisallow: /\n\nUser-agent: sentibot\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\nAllow: /kaufkompass/\n\nUser-Agent: omgili\nDisallow: /\n\nUser-Agent: omgilibot\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: YouBot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: Meta-ExternalAgent\nDisallow: /\n\nUser-agent: DeepSeekBot\nDisallow: /\n\nUser-agent: DeepSeek\nDisallow: /\n\n# Legal notice: faz.net expressly reserves the right to use its content for commercial text and data mining (§44 b UrhG).\n# The use of robots or other automated means to access faz.net or collect or mine data without the express permission of faz.net is strictly prohibited.\n# faz.net may, in its discretion, permit certain automated access to certain faz.net pages.\n# If you would like to apply for permission to crawl faz.net, collect or use data, please email nutzungsrechte@faz.de.\n",
+  "robotsTxt": "# robots.txt updated 2025-08-27\n\nUser-agent: *\nDisallow: /json/\nDisallow: /cmlink/\nDisallow: /premiumContent\nDisallow: /*.pdf\nDisallow: /js/adobe/at.js\nDisallow: /redaktion?cache\nDisallow: *mostclicked.gfn\nDisallow: /;suche=artikelsuche/suche/\nDisallow: /suche/\nDisallow: *?sort=\nDisallow: /dist/scripts/main_faz-comment.js\nDisallow: /html-ajax*\nDisallow: /livewire*\nDisallow: *atarget.js\nDisallow: */sport-ergebnisse/*/ma*/$\nDisallow: */sport-ergebnisse/*/co*/$\nDisallow: /api/collect/\nDisallow: /podcast-service/\nDisallow: */event/widgets/\nDisallow: */event/*/live/\nDisallow: */event/*/html/\nDisallow: /source/\n\nDisallow: /allesbeste/*?s=*\nDisallow: /allesbeste/*&s=*\nDisallow: */asset-comment-info/*\nDisallow: /membership/*\nDisallow: /kaufkompass/wp-admin/\nDisallow: /kaufkompass/newsticker/\nDisallow: /kaufkompass/wp-content/ab_api_cache/*\nDisallow: /kaufkompass/search/\nDisallow: /kaufkompass/*?p=*\nDisallow: /kaufkompass/*&p=*\nDisallow: /kaufkompass/*&preview=*\nAllow: /kaufkompass/wp-admin/admin-ajax.php\n\nUser-agent: Meltwater\nDisallow: /\n\nUser-agent: NewsNow\nDisallow: /\n\nUser-agent: Bloodhound\nDisallow: /\n\nUser-agent: cydralspider\nDisallow: /\n\nUser-agent: downloadexpress\nDisallow: /\n\nUser-agent: gammaSpider\nDisallow: /\n\nUser-agent: ObjectsSearch\nDisallow: /\n\nUser-agent: Pimptrain\nDisallow: /\n\nUser-agent: Raven\nDisallow: /\n\nUser-agent: wapspider\nDisallow: /\n\nUser-agent: WebZinger\nDisallow: /\n\nUser-agent: Fasterfox\nDisallow: /\n\nUser-agent: sentibot\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\nAllow: /kaufkompass/\n\nUser-Agent: omgili\nDisallow: /\n\nUser-Agent: omgilibot\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\nAllow: /source/\nAllow: /*-accg-\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: YouBot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: Meta-ExternalAgent\nDisallow: /\n\nUser-agent: DeepSeekBot\nDisallow: /\n\nUser-agent: DeepSeek\nDisallow: /\n\nuser-agent: GoogleOther\nallow: /source/\n\n# Legal notice: faz.net expressly reserves the right to use its content for commercial text and data mining (§44 b UrhG).\n# The use of robots or other automated means to access faz.net or collect or mine data without the express permission of faz.net is strictly prohibited.\n# faz.net may, in its discretion, permit certain automated access to certain faz.net pages.\n# If you would like to apply for permission to crawl faz.net, collect or use data, please email nutzungsrechte@faz.de.",
   "globalRules": {
     "paths": {
       "allowed": [
@@ -29,6 +29,7 @@
         "*/event/widgets/",
         "*/event/*/live/",
         "*/event/*/html/",
+        "/source/",
         "/allesbeste/*?s=*",
         "/allesbeste/*&s=*",
         "*/asset-comment-info/*",
@@ -186,7 +187,10 @@
       "name": "Google-Extended",
       "allowed": false,
       "paths": {
-        "allowed": [],
+        "allowed": [
+          "/source/",
+          "/*-accg-"
+        ],
         "disallowed": []
       }
     },
@@ -277,11 +281,21 @@
         "allowed": [],
         "disallowed": []
       }
+    },
+    {
+      "name": "GoogleOther",
+      "allowed": true,
+      "paths": {
+        "allowed": [
+          "/source/"
+        ],
+        "disallowed": []
+      }
     }
   ],
   "stats": {
-    "totalSpecificBots": 29,
-    "allowedBots": 0,
+    "totalSpecificBots": 30,
+    "allowedBots": 1,
     "disallowedBots": 29,
     "hasGlobalAllow": true
   },
@@ -405,6 +419,10 @@
     {
       "name": "DeepSeek",
       "allowed": false
+    },
+    {
+      "name": "GoogleOther",
+      "allowed": true
     }
   ],
   "paths": {
@@ -433,6 +451,7 @@
       "*/event/widgets/",
       "*/event/*/live/",
       "*/event/*/html/",
+      "/source/",
       "/allesbeste/*?s=*",
       "/allesbeste/*&s=*",
       "*/asset-comment-info/*",

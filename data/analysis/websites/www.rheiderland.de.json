@@ -1,10 +1,28 @@
 {
   "domain": "www.rheiderland.de",
   "normalizedDomain": "www.rheiderland.de",
+  "robotsTxt": "User-agent: *\nAllow: /\nsitemap:https://msnord.rheiderland.de/sitemap.xml\nsitemap:https://msnord.rheiderland.de/sitemap-1.xml\nsitemap:https://msnord.rheiderland.de/sitemap-2.xml\nsitemap:https://msnord.rheiderland.de/sitemap-3.xml\nsitemap:https://msnord.rheiderland.de/sitemap-4.xml\nsitemap:https://msnord.rheiderland.de/sitemap-5.xml\nsitemap:https://msnord.rheiderland.de/sitemap-6.xml\nsitemap:https://msnord.rheiderland.de/sitemap-7.xml\nsitemap:https://msnord.rheiderland.de/sitemap-8.xml\nsitemap:https://msnord.rheiderland.de/sitemap-9.xml\nsitemap:https://msnord.rheiderland.de/sitemap-10.xml\nsitemap:https://msnord.rheiderland.de/sitemap-11.xml\nsitemap:https://msnord.rheiderland.de/sitemap-12.xml\nsitemap:https://msnord.rheiderland.de/sitemap-13.xml\nsitemap:https://msnord.rheiderland.de/sitemap-14.xml\nsitemap:https://msnord.rheiderland.de/sitemap-15.xml\nsitemap:https://msnord.rheiderland.de/sitemap-16.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

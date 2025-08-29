@@ -1,7 +1,7 @@
 {
   "domain": "www.nfl.com",
   "normalizedDomain": "www.nfl.com",
-  "robotsTxt": "User-agent: *\r\nDisallow: /_ctv/\r\nDisallow: /_fantasy-app/\r\nDisallow: /_libraries/\r\nDisallow: /_mobile-app/\r\nDisallow: /_mobileview/\r\nDisallow: /_phs/\r\nDisallow: /_sponsors/\r\nDisallow: /account/\r\nDisallow: /nfl-films-beta/\r\nDisallow: /search/\r\nSitemap: https://www.nfl.com/sitemap-index.xml\r\n\r\nUser-agent: Mediapartners-Google\r\nDisallow: /stats/player-stats/*",
+  "robotsTxt": "User-agent: *\nDisallow: /_ctv/\nDisallow: /_fantasy-app/\nDisallow: /_libraries/\nDisallow: /_mobile-app/\nDisallow: /_mobileview/\nDisallow: /_phs/\nDisallow: /_sponsors/\nDisallow: /account/\nDisallow: /nfl-films-beta/\nDisallow: /search/\nSitemap: https://www.nfl.com/sitemap-index.xml\n\nUser-agent: Mediapartners-Google\nDisallow: /stats/player-stats/*",
   "globalRules": {
     "paths": {
       "allowed": [],

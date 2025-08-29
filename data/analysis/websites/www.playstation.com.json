@@ -1,7 +1,7 @@
 {
   "domain": "www.playstation.com",
   "normalizedDomain": "www.playstation.com",
-  "robotsTxt": "# PlayStation Robots.txt\r\n\r\nUser-agent: *\r\n\r\nDisallow: */explore/testing/\r\nDisallow: */community/community-score*\r\nDisallow: */?category*\r\nDisallow: */content/usergenerated/asi/mongo/content/sites/activitystreams/activities/community/*\r\nDisallow: */search/?q*\r\nDisallow: */content/experience-fragments/global_pdc/*\r\n\r\nUser-agent: *\r\nCrawl-delay: 5\r\n\r\nUser-agent:  AhrefsBot\r\nCrawl-delay: 10\r\n \r\nUser-agent:  YandexBot\r\nCrawl-delay: 10\r\n\r\nUser-agent:  bingbot\r\nCrawl-delay: 10\r\n\r\nUser-agent: *\r\nDisallow: */sitemap_gpdc.xml\r\n\r\nUser-agent: Algolia Crawler \r\nAllow: */sitemap_gpdc.xml\r\n\r\nUser-agent: PetalBot\r\nDisallow: /\r\n\r\n# Sitemaps\r\nSitemap: https://www.playstation.com/sitemap_index.xml",
+  "robotsTxt": "# PlayStation Robots.txt\n\nUser-agent: *\n\nDisallow: */explore/testing/\nDisallow: */community/community-score*\nDisallow: */?category*\nDisallow: */content/usergenerated/asi/mongo/content/sites/activitystreams/activities/community/*\nDisallow: */search/?q*\nDisallow: */content/experience-fragments/global_pdc/*\n\nUser-agent: *\nCrawl-delay: 5\n\nUser-agent:  AhrefsBot\nCrawl-delay: 10\n \nUser-agent:  YandexBot\nCrawl-delay: 10\n\nUser-agent:  bingbot\nCrawl-delay: 10\n\nUser-agent: *\nDisallow: */sitemap_gpdc.xml\n\nUser-agent: Algolia Crawler \nAllow: */sitemap_gpdc.xml\n\nUser-agent: PetalBot\nDisallow: /\n\n# Sitemaps\nSitemap: https://www.playstation.com/sitemap_index.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

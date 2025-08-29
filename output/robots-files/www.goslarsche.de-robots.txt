@@ -1,29 +1,111 @@
-# Robots.txt for crawler
+# Robots.txt � Zugriffskontrolle & rechtlicher Hinweis / Access Control & Legal Notice
+# Diese Datei steuert das Crawling durch Webcrawler (User-Agents) und dokumentiert
+# den Widerspruch gegen kommerzielles Text- und Data Mining gem�� � 44b UrhG.
+# This file controls crawling by web crawlers (user-agents) and documents
+# the objection to commercial text and data mining according to � 44b UrhG.
 
+# =====================================================
+# Allgemeine Regeln f�r alle Bots / General rules for all bots
+# =====================================================
 User-agent: *
-
-# Disallow Crawler
 Disallow: /User
 Disallow: /Dateien
 Disallow: /Nachrichten/Suche
-# Crawler often creates invalid script/webresource resource request
 Disallow: /ScriptResource
 Disallow: /WebResource
+Disallow: /*?bPrint=true*
+Disallow: /Nachrichten/Archiv-Liste_*.html
+Disallow: /*/Zusammengefasst-*.html
+Disallow: /Zusammengefasst-*.html
 
-User-agent: Google-Extended
+# Crawl-Delay, um Serverlast zu reduzieren / Reduce server load
+Crawl-Delay: 2
+
+# Sitemap f�r erlaubte Inhalte / Sitemap for allowed content
+Sitemap: https://www.goslarsche.de/Sitemap_Index.xml.gz
+
+# =====================================================
+# Blockade spezieller Bots (Scraper, SEO-Tools, KI-Crawler) / Blocking specific bots (scrapers, SEO tools, AI crawlers)
+# =====================================================
+User-agent: backlink-check.de
 Disallow: /
 
-User-agent: GPTBot 
+User-agent: BacklinkCrawler
 Disallow: /
 
-User agent: ChatGPT User
+User-agent: ExtractorPro
+Disallow: /
+
+User-agent: Fasterfox
+Disallow: /
+
+User-agent: LinkextractorPro
+Disallow: /
+
+User-agent: LinkWalker
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Openbot
+Disallow: /
+
+User-agent: rogerbot
+Disallow: /
+
+User-agent: searchpreview
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SEODAT
+Disallow: /
+
+User-agent: SEOENGBot
+Disallow: /
+
+User-agent: SEOkicks-Robot
+Disallow: /
+
+User-agent: True_Robot
+Disallow: /
+
+User-agent: URL Control
+Disallow: /
+
+User-agent: URL_Spider_Pro
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
 Disallow: /
 
 User-agent: CCBot
 Disallow: /
 
-# Max crawler Time per page in sec
-Crawl-Delay: 2
+User-agent: um-IC
+Disallow: /
 
-#Sitemap
-#Sitemap: http://www.funkinform.de/Sitemap_Index.xml.gz
+User-agent: Google-Extended
+Disallow: /
+
+# =====================================================
+# Rechtlicher Hinweis (� 44b UrhG � Text- und Data Mining) / Legal Notice (� 44b UrhG � Text and Data Mining)
+# =====================================================
+# DE: Die Inhalte dieser Website sind urheberrechtlich gesch�tzt.
+#     Eine automatisierte Auswertung, Vervielf�ltigung oder Nutzung der Inhalte 
+#     zu kommerziellen Zwecken ist ohne vorherige schriftliche Genehmigung untersagt.
+#     Die Betreiber widersprechen hiermit ausdr�cklich der kommerziellen Nutzung
+#     durch Text- und Data-Mining-Technologien gem�� � 44b UrhG.
+#     F�r Anfragen zur Nutzung wenden Sie sich bitte an: legal@goslarsche.de
+#
+# EN: The content of this website is protected by copyright.
+#     Automated analysis, reproduction, or use of the content 
+#     for commercial purposes is prohibited without prior written permission.
+#     The operators explicitly object to any commercial use
+#     by text and data mining technologies pursuant to � 44b UrhG (German Copyright Act).
+#     For permission requests, please contact: legal@goslarsche.de

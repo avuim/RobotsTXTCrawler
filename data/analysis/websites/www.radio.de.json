@@ -1,10 +1,42 @@
 {
   "domain": "www.radio.de",
   "normalizedDomain": "www.radio.de",
+  "robotsTxt": "User-agent: *\nDisallow: /search?q=*&p=*\nDisallow: /p/*/app \nDisallow: /radio-stations/*/*\nDisallow: /s/*/stations\nDisallow: /amp/*\nDisallow: ?q=*\n\nSitemap: https://www.radio.de/sitemap_index_de-DE.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/search?q=*&p=*",
+        "/p/*/app",
+        "/radio-stations/*/*",
+        "/s/*/stations",
+        "/amp/*",
+        "?q=*"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/search?q=*&p=*",
+      "/p/*/app",
+      "/radio-stations/*/*",
+      "/s/*/stations",
+      "/amp/*",
+      "?q=*"
+    ]
+  }
 }

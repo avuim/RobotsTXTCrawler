@@ -1,7 +1,7 @@
 {
   "domain": "www.teekanne.de",
   "normalizedDomain": "www.teekanne.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /wp-admin/\r\n\r\n\r\n# START YOAST BLOCK\r\n# ---------------------------\r\nUser-agent: *\r\nDisallow:\r\n\r\nSitemap: https://www.teekanne.de/sitemap_index.xml\r\nSitemap: https://www.teekanne.de/de-de/sitemap_index.xml\r\n# ---------------------------\r\n# END YOAST BLOCKDisallow: /shop/de-de/customer/account/*\r\nDisallow: /shop/de-de/support/*\r\nDisallow: /shop/de-de/checkout/*\r\nDisallow: /shop/de-de/productalert/*\r\nDisallow: /de-de/teanetwork-registrierung/\r\n\r\nSitemap: https://www.teekanne.de/de-de/sitemap_index.xml\r\nSitemap: https://www.teekanne.de/shop/pub/sitemaps/sitemap_www_teekanne_de.xml\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /wp-admin/\n\n\n# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://www.teekanne.de/sitemap_index.xml\nSitemap: https://www.teekanne.de/de-de/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCKDisallow: /shop/de-de/customer/account/*\nDisallow: /shop/de-de/support/*\nDisallow: /shop/de-de/checkout/*\nDisallow: /shop/de-de/productalert/*\nDisallow: /de-de/teanetwork-registrierung/\n\nSitemap: https://www.teekanne.de/de-de/sitemap_index.xml\nSitemap: https://www.teekanne.de/shop/pub/sitemaps/sitemap_www_teekanne_de.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

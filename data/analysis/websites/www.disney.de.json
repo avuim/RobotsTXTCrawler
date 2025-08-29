@@ -1,7 +1,7 @@
 {
   "domain": "www.disney.de",
   "normalizedDomain": "www.disney.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: \r\n\r\nSitemap: https://www.disney.de/sitemap.xml\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nUser-agent: Google-Extended\r\nDisallow: /",
+  "robotsTxt": "User-agent: *\nDisallow: \n\nSitemap: https://www.disney.de/sitemap.xml\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /",
   "globalRules": {
     "paths": {
       "allowed": [],

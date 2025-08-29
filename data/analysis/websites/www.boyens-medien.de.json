@@ -1,10 +1,28 @@
 {
   "domain": "www.boyens-medien.de",
   "normalizedDomain": "www.boyens-medien.de",
+  "robotsTxt": "User-agent: *\r\nDisallow:",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": []
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": false
+  },
   "bots": [
     {
       "name": "*",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": []
+  }
 }

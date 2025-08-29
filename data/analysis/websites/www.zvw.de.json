@@ -1,10 +1,72 @@
 {
   "domain": "www.zvw.de",
   "normalizedDomain": "www.zvw.de",
+  "robotsTxt": "# global live settings :\r\nUser-agent: *\r\nDisallow: /cms_addon\r\nDisallow: /cms_docs\r\nDisallow: /redFACT\r\nDisallow: /REST/frontend/itemstatistics\r\nSitemap: https://www.zvw.de/sitemap-index/46-Google_News_Sitemap.xml\r\nSitemap: https://www.zvw.de/sitemap-index/49-Google_Sitemap.xml\r\n# customised settings :\r\nDisallow: /cms/hitcount\r\nDisallow: /suche_org\r\nDisallow: /pu_zvw/fonts/\r\nDisallow: /pu_zvw/ajax/traffective.php\r\nDisallow: /pu_zvw/ajax/upscore.php\r\nDisallow: /pu_zvw/ajax/rpd.php\r\nDisallow: /REST/community/status/\r\nDisallow: /REST/community/login/js\r\nDisallow: *redirect_uri=\r\nDisallow: /pu_zvw/ajax/comment.php\r\nUser-agent: ChatGPT-User\r\nDisallow: /\r\nUser-agent: CCBot\r\nDisallow: /\r\nUser-agent: GPTBot\r\nDisallow: /\r\nUser-agent: Google-Extended\r\nDisallow: /\r\n# Legal notice: zvw.de expressly reserves the right to use its content for commercial text and data mining (§44b UrhG).\r\n# The use of robots or other automated means to access zvw.de or collect or mine data without the express permission of zvw.de is strictly prohibited.\r\n# If you would like to apply for permission to crawl zvw.de, collect or use data, please contact redaktion@zvw.de\r\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/cms_addon",
+        "/cms_docs",
+        "/redFACT",
+        "/REST/frontend/itemstatistics",
+        "/cms/hitcount",
+        "/suche_org",
+        "/pu_zvw/fonts/",
+        "/pu_zvw/ajax/traffective.php",
+        "/pu_zvw/ajax/upscore.php",
+        "/pu_zvw/ajax/rpd.php",
+        "/REST/community/status/",
+        "/REST/community/login/js",
+        "*redirect_uri=",
+        "/pu_zvw/ajax/comment.php"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 4,
+    "allowedBots": 0,
+    "disallowedBots": 4,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "ChatGPT-User",
@@ -22,5 +84,24 @@
       "name": "Google-Extended",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/cms_addon",
+      "/cms_docs",
+      "/redFACT",
+      "/REST/frontend/itemstatistics",
+      "/cms/hitcount",
+      "/suche_org",
+      "/pu_zvw/fonts/",
+      "/pu_zvw/ajax/traffective.php",
+      "/pu_zvw/ajax/upscore.php",
+      "/pu_zvw/ajax/rpd.php",
+      "/REST/community/status/",
+      "/REST/community/login/js",
+      "*redirect_uri=",
+      "/pu_zvw/ajax/comment.php"
+    ]
+  }
 }

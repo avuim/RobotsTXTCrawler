@@ -1,7 +1,7 @@
 {
   "domain": "www.enbw.com",
   "normalizedDomain": "www.enbw.com",
-  "robotsTxt": "User-agent: *\r\nDisallow: /*.htm$\r\nDisallow: /*.json$\r\nDisallow: /api/\r\nDisallow: /business-service-hidden/\r\n\r\nSitemap: https://www.enbw.com/sitemap-de-vertrieb.xml\r\nSitemap: https://www.enbw.com/blog/sitemap_index.xml\r\nSitemap: https://www.enbw.com/sitemap-de.xml\r\nSitemap: https://www.enbw.com/sitemap-en.xml\r\nSitemap: https://www.enbw.com/sitemap-fr.xml\r\nSitemap: https://www.enbw.com/sitemap-se.xml\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /*.htm$\nDisallow: /*.json$\nDisallow: /api/\nDisallow: /business-service-hidden/\n\nSitemap: https://www.enbw.com/sitemap-de-vertrieb.xml\nSitemap: https://www.enbw.com/blog/sitemap_index.xml\nSitemap: https://www.enbw.com/sitemap-de.xml\nSitemap: https://www.enbw.com/sitemap-en.xml\nSitemap: https://www.enbw.com/sitemap-fr.xml\nSitemap: https://www.enbw.com/sitemap-se.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

@@ -1,7 +1,7 @@
 {
   "domain": "www.dvag.de",
   "normalizedDomain": "www.dvag.de",
-  "robotsTxt": "# disable bots\r\nUser-agent: AhrefsBot\r\nUser-agent: Amazonbot\r\nUser-agent: Applebot\r\nUser-agent: BLEXBot\r\nUser-agent: ClaudeBot\r\nUser-agent: Claude-Web\r\nUser-agent: DataForSeoBot\r\nUser-agent: Pandalytics/1.0\r\nUser-agent: Pandalytics\r\nUser-agent: domainsbot\r\nUser-agent: trustoo\r\nDisallow: /\r\n\r\n\r\n# disable pages\r\nuser-agent: *\r\nDisallow: *.lightbox*\r\nDisallow: /maria.muster/\r\nDisallow: /Maria.Muster/\r\nDisallow: /klaus.schultze.\r\nDisallow: /Klaus.Schultze.\r\nDisallow: /servlets/search\r\nDisallow: *search_result*\r\nDisallow: /etc/clientlibs/dvag/*/js\r\nDisallow: /servlets/vbfinder\r\n# Sitemap Path\r\nSitemap: https://www.dvag.de/content/dvag-ug/tenants/dvag/sitemap-index.xml\r\n",
+  "robotsTxt": "# disable bots\nUser-agent: AhrefsBot\nUser-agent: Amazonbot\nUser-agent: Applebot\nUser-agent: BLEXBot\nUser-agent: ClaudeBot\nUser-agent: Claude-Web\nUser-agent: DataForSeoBot\nUser-agent: Pandalytics/1.0\nUser-agent: Pandalytics\nUser-agent: domainsbot\nUser-agent: trustoo\nDisallow: /\n\n\n# disable pages\nuser-agent: *\nDisallow: *.lightbox*\nDisallow: /maria.muster/\nDisallow: /Maria.Muster/\nDisallow: /klaus.schultze.\nDisallow: /Klaus.Schultze.\nDisallow: /servlets/search\nDisallow: *search_result*\nDisallow: /etc/clientlibs/dvag/*/js\nDisallow: /servlets/vbfinder\n# Sitemap Path\nSitemap: https://www.dvag.de/content/dvag-ug/tenants/dvag/sitemap-index.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

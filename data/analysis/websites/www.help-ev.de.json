@@ -1,7 +1,7 @@
 {
   "domain": "www.help-ev.de",
   "normalizedDomain": "www.help-ev.de",
-  "robotsTxt": "User-agent: *\r\nAllow: /\r\n# folders\r\nDisallow: /typo3/\r\nDisallow: /typo3conf/\r\nDisallow: /typo3conf/ext/\r\nDisallow: /typo3temp/\r\n# parameters\r\nDisallow: /*?id=*\r\nDisallow: /*?tx_*\r\nDisallow: /*?donation_custom_field_*\r\nDisallow: /*?fbclid*\r\nDisallow: /*?gclid*\r\nDisallow: /*?fb_item_id*\r\nDisallow: /*?sv*\r\nDisallow: /*?amount*\r\nSitemap: https://www.help-ev.de/sitemap.xml\r\nSitemap: https://www.help-ev.de/en/sitemap.xml\r\n",
+  "robotsTxt": "User-agent: *\nAllow: /\n# folders\nDisallow: /typo3/\nDisallow: /typo3conf/\nDisallow: /typo3conf/ext/\nDisallow: /typo3temp/\n# parameters\nDisallow: /*?id=*\nDisallow: /*?tx_*\nDisallow: /*?donation_custom_field_*\nDisallow: /*?fbclid*\nDisallow: /*?gclid*\nDisallow: /*?fb_item_id*\nDisallow: /*?sv*\nDisallow: /*?amount*\nSitemap: https://www.help-ev.de/sitemap.xml\nSitemap: https://www.help-ev.de/en/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

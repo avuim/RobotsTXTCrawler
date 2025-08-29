@@ -1,7 +1,7 @@
 {
   "domain": "www.klarmobil.de",
   "normalizedDomain": "www.klarmobil.de",
-  "robotsTxt": "Sitemap: https://www.klarmobil.de/sitemap.xml\r\nSitemap: https://www.klarmobil.de/mic/sitemap.xml\r\n\r\nUser-agent: *\r\nDisallow: /cc/\r\nDisallow: /error/\r\nDisallow: /handyshop/\r\nDisallow: /images/\r\nDisallow: /kmadmin/\r\nDisallow: /login/\r\nDisallow: /tracking/\r\nDisallow: /order.php\r\nDisallow: /wartung/\r\nDisallow: /snippets/\r\nDisallow: /shop/cart/\r\nDisallow: /shop/checkout/\r\nDisallow: /shop/my-account/\r\nDisallow: /shop/personal-data/\r\nDisallow: /shop/compare/\r\nDisallow: /shop/rest/\r\nDisallow: /shop/ws410/\r\nDisallow: /shop/*?q=*\r\nDisallow: /shop/*?sort=*\r\nDisallow: /shop/*?*&sort=*\r\nDisallow: /shop/*?text=*\r\nDisallow: /shop/*?*&text=*\r\n",
+  "robotsTxt": "Sitemap: https://www.klarmobil.de/sitemap.xml\nSitemap: https://www.klarmobil.de/mic/sitemap.xml\n\nUser-agent: *\nDisallow: /cc/\nDisallow: /error/\nDisallow: /handyshop/\nDisallow: /images/\nDisallow: /kmadmin/\nDisallow: /login/\nDisallow: /tracking/\nDisallow: /order.php\nDisallow: /wartung/\nDisallow: /snippets/\nDisallow: /shop/cart/\nDisallow: /shop/checkout/\nDisallow: /shop/my-account/\nDisallow: /shop/personal-data/\nDisallow: /shop/compare/\nDisallow: /shop/rest/\nDisallow: /shop/ws410/\nDisallow: /shop/*?q=*\nDisallow: /shop/*?sort=*\nDisallow: /shop/*?*&sort=*\nDisallow: /shop/*?text=*\nDisallow: /shop/*?*&text=*\n",
   "globalRules": {
     "paths": {
       "allowed": [],

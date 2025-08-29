@@ -1,7 +1,7 @@
 {
   "domain": "www.seenotretter.de",
   "normalizedDomain": "www.seenotretter.de",
-  "robotsTxt": "User-Agent: *\r\nAllow: /\r\nDisallow: /typo3/\r\nAllow: /typo3/sysext/frontend/Resources/Public/*\r\nDisallow: /typo3conf/\r\nAllow: /typo3conf/ext/\r\nDisallow: /*?id=*\r\nDisallow: /*tx_powermail_pi1\r\nDisallow: /ajax.call?*\r\nUser-agent: Twitterbot\r\nDisallow:\r\nSitemap: https://www.seenotretter.de/sitemap.xml\r\n",
+  "robotsTxt": "User-Agent: *\nAllow: /\nDisallow: /typo3/\nAllow: /typo3/sysext/frontend/Resources/Public/*\nDisallow: /typo3conf/\nAllow: /typo3conf/ext/\nDisallow: /*?id=*\nDisallow: /*tx_powermail_pi1\nDisallow: /ajax.call?*\nUser-agent: Twitterbot\nDisallow:\nSitemap: https://www.seenotretter.de/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [

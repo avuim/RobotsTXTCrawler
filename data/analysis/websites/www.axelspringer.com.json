@@ -1,7 +1,7 @@
 {
   "domain": "www.axelspringer.com",
   "normalizedDomain": "www.axelspringer.com",
-  "robotsTxt": "User-agent: *\r\nDisallow: /wp-admin/\r\nAllow: /wp-admin/admin-ajax.php\r\n\r\nSitemap: https://www.axelspringer.com/wp-sitemap.xml\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://www.axelspringer.com/wp-sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [

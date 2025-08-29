@@ -30,9 +30,28 @@ Disallow: */ajax
 Disallow: *_modal
 Disallow: *_ratings_detail
 Disallow: */anlageprodukte*
+Disallow: */kurse/handelsplaetze*
+Disallow: */kurse/times-sales*
+Disallow: */kurse/historische-kurse*
+Disallow: */dividende-split*
+Disallow: */topflop*
+Disallow: */realtime-kurse*
+Disallow: */marktkapitalisierung*
+Disallow: */historische_performance*
+Disallow: */52w_hoch_tief*
+Disallow: */outperformances*
+Disallow: */chart/chartanalyse*
+Disallow: */chart/realtime-push*
+Disallow: */chart-album*
+Disallow: */zusammensetzung*
+Disallow: */aktien/finder*
+Disallow: */fonds/finder*
+Disallow: */etf/finder*
+Disallow: */zertifikate/finder*
+Disallow: */hebelprodukte/finder*
+Disallow: */anleihen/finder*
 
 
-Disallow: /aktien/finder
 Disallow: */chart?
 Disallow: /push?
 Disallow: /api/

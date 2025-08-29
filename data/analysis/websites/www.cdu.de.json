@@ -1,7 +1,7 @@
 {
   "domain": "www.cdu.de",
   "normalizedDomain": "www.cdu.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /wp/wp-admin/\r\nAllow: /wp/wp-admin/admin-ajax.php\r\n\r\n# START WPFORMS BLOCK\r\n# ---------------------------\r\nUser-agent: *\r\nDisallow: /wphttps://www.cdu.de/app/uploads/wpforms/\r\n# ---------------------------\r\n# END WPFORMS BLOCK\r\n\r\n# START YOAST BLOCK\r\n# ---------------------------\r\nUser-agent: *\r\nDisallow:\r\n\r\nSitemap: https://www.cdu.de/sitemap_index.xml\r\n# ---------------------------\r\n# END YOAST BLOCK",
+  "robotsTxt": "User-agent: *\nDisallow: /wp/wp-admin/\nAllow: /wp/wp-admin/admin-ajax.php\n\n# START WPFORMS BLOCK\n# ---------------------------\nUser-agent: *\nDisallow: /wphttps://www.cdu.de/app/uploads/wpforms/\n# ---------------------------\n# END WPFORMS BLOCK\n\n# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://www.cdu.de/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK",
   "globalRules": {
     "paths": {
       "allowed": [

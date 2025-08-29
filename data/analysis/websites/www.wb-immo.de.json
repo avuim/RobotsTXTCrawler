@@ -1,7 +1,72 @@
 {
   "domain": "www.wb-immo.de",
   "normalizedDomain": "www.wb-immo.de",
+  "robotsTxt": "\nSitemap: https://www.wb-immo.de/sitemap.xml\n\nUser-agent: Mediapartners-Google\nDisallow:\n\nUser-agent: zoomRank/2.0\nDisallow: /\nUser-agent: zoomRank\nDisallow: /\n\nUser-agent: sistrix\nDisallow: /\n\nUser-agent: *\nDisallow: */2823228/\nDisallow: /drucken/*\nDisallow: /_widget/*\nDisallow: /search-widget/*\nAllow: /*sitemap*?*\nAllow: /css/*\nAllow: /js/*\nAllow: /images/*\nAllow: /bundles/*\nAllow: /fonts/*\nAllow: /vendor/*\nAllow: /immobilien/*\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/*sitemap*?*",
+        "/css/*",
+        "/js/*",
+        "/images/*",
+        "/bundles/*",
+        "/fonts/*",
+        "/vendor/*",
+        "/immobilien/*"
+      ],
+      "disallowed": [
+        "*/2823228/",
+        "/drucken/*",
+        "/_widget/*",
+        "/search-widget/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Mediapartners-Google",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "zoomRank/2.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "zoomRank",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "sistrix",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 4,
+    "allowedBots": 0,
+    "disallowedBots": 4,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "Mediapartners-Google",
       "allowed": false
@@ -17,10 +82,24 @@
     {
       "name": "sistrix",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/*sitemap*?*",
+      "/css/*",
+      "/js/*",
+      "/images/*",
+      "/bundles/*",
+      "/fonts/*",
+      "/vendor/*",
+      "/immobilien/*"
+    ],
+    "disallowed": [
+      "*/2823228/",
+      "/drucken/*",
+      "/_widget/*",
+      "/search-widget/*"
+    ]
+  }
 }

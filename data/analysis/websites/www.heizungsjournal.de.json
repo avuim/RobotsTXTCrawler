@@ -1,7 +1,7 @@
 {
   "domain": "www.heizungsjournal.de",
   "normalizedDomain": "www.heizungsjournal.de",
-  "robotsTxt": "User-agent: *\nDisallow:\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: Yandex\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: Sogou\nDisallow: /\n\nUser-agent: Exabot\nDisallow: /\n\nUser-agent: facebot\nDisallow: /\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: DotBot\nDisallow: /\n\nUser-agent: BLEXBot\nDisallow: /\n\nUser-agent: UptimeRobot\nDisallow: /",
+  "robotsTxt": "User-agent: *\nDisallow:\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: FacebookBot\nDisallow: /\n\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Yandex\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: Sogou\nDisallow: /\n\nUser-agent: Exabot\nDisallow: /\n\nUser-agent: facebot\nDisallow: /\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: DotBot\nDisallow: /\n\nUser-agent: BLEXBot\nDisallow: /\n\nUser-agent: UptimeRobot\nDisallow: /",
   "globalRules": {
     "paths": {
       "allowed": [],
@@ -18,6 +18,14 @@
       }
     },
     {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
       "name": "CCBot",
       "allowed": false,
       "paths": {
@@ -27,6 +35,46 @@
     },
     {
       "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Amazonbot",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -123,9 +171,9 @@
     }
   ],
   "stats": {
-    "totalSpecificBots": 14,
+    "totalSpecificBots": 20,
     "allowedBots": 0,
-    "disallowedBots": 14,
+    "disallowedBots": 20,
     "hasGlobalAllow": false
   },
   "bots": [
@@ -138,11 +186,35 @@
       "allowed": false
     },
     {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
       "name": "CCBot",
       "allowed": false
     },
     {
       "name": "GPTBot",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "Amazonbot",
       "allowed": false
     },
     {

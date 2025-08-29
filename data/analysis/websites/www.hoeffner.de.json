@@ -1,7 +1,7 @@
 {
   "domain": "www.hoeffner.de",
   "normalizedDomain": "www.hoeffner.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /warenkorb\r\nDisallow: /kundenkonto\r\nDisallow: /bestellung\r\nDisallow: /newsletter-einstellungen\r\nDisallow: /stoffmuster-\r\nDisallow: /konfigurator\r\nDisallow: /*.htm$\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /warenkorb\nDisallow: /kundenkonto\nDisallow: /bestellung\nDisallow: /newsletter-einstellungen\nDisallow: /stoffmuster-\nDisallow: /konfigurator\nDisallow: /*.htm$\n",
   "globalRules": {
     "paths": {
       "allowed": [],

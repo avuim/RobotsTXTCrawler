@@ -1,7 +1,7 @@
 {
   "domain": "www.visitsaudi.com",
   "normalizedDomain": "www.visitsaudi.com",
-  "robotsTxt": "User-Agent: *\r\n# Disallow mobile app pages\r\nDisallow: /*.app$\r\nAllow: /\r\nSitemap: https://www.visitsaudi.com/content/sauditourism/ar/sitemap.xml\r\nSitemap: https://www.visitsaudi.com/content/sauditourism/de/sitemap.xml\r\nSitemap: https://www.visitsaudi.com/content/sauditourism/en/sitemap.xml\r\nSitemap: https://www.visitsaudi.com/content/sauditourism/fr/sitemap.xml\r\nSitemap: https://www.visitsaudi.com/content/sauditourism/ja/sitemap.xml\r\nSitemap: https://www.visitsaudi.com/content/sauditourism/es/sitemap.xml\r\nSitemap: https://www.visitsaudi.com/content/sauditourism/ru/sitemap.xml\r\nSitemap: https://www.visitsaudi.com/content/sauditourism/zh/sitemap.xml",
+  "robotsTxt": "User-Agent: *\n# Disallow mobile app pages\nDisallow: /*.app$\nAllow: /\nSitemap: https://www.visitsaudi.com/content/sauditourism/ar/sitemap.xml\nSitemap: https://www.visitsaudi.com/content/sauditourism/de/sitemap.xml\nSitemap: https://www.visitsaudi.com/content/sauditourism/en/sitemap.xml\nSitemap: https://www.visitsaudi.com/content/sauditourism/fr/sitemap.xml\nSitemap: https://www.visitsaudi.com/content/sauditourism/ja/sitemap.xml\nSitemap: https://www.visitsaudi.com/content/sauditourism/es/sitemap.xml\nSitemap: https://www.visitsaudi.com/content/sauditourism/ru/sitemap.xml\nSitemap: https://www.visitsaudi.com/content/sauditourism/zh/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

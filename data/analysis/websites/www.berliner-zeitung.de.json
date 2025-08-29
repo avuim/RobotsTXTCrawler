@@ -1,7 +1,99 @@
 {
   "domain": "www.berliner-zeitung.de",
   "normalizedDomain": "www.berliner-zeitung.de",
+  "robotsTxt": "User-agent: EchoboxBot\nAllow: /\nUser-agent: Mozilla/5.0 (compatible; OGDWCtxCrawler)\nAllow: /\nUser-agent: Mediapartners-Google\nAllow: /\nUser-agent: Verity/1.1 (https://gumgum.com/verity; verity-support@gumgum.com)\nAllow: /\n\nUser-agent: GPTBot\nDisallow: /\nUser-agent: ChatGPT-User\nDisallow: /\nUser-agent: Google-Extended\nDisallow: /\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: *\nDisallow: /suche?q=\nDisallow: /jos-data\nDisallow: /api/reactions\nDisallow: /api/profile\nDisallow: /*.woff2$\nDisallow: /*.woff$\nDisallow: /*.ttf$\nDisallow: /en-US/\n\nSitemap: https://www.berliner-zeitung.de/feed.xml\nSitemap: https://www.berliner-zeitung.de/sitemap.xml\nSitemap: https://www.berliner-zeitung.de/news-sitemap.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/suche?q=",
+        "/jos-data",
+        "/api/reactions",
+        "/api/profile",
+        "/*.woff2$",
+        "/*.woff$",
+        "/*.ttf$",
+        "/en-US/"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "EchoboxBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Mozilla/5.0 (compatible; OGDWCtxCrawler)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Mediapartners-Google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Verity/1.1 (https://gumgum.com/verity; verity-support@gumgum.com)",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 8,
+    "allowedBots": 4,
+    "disallowedBots": 4,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "EchoboxBot",
       "allowed": true
@@ -33,10 +125,19 @@
     {
       "name": "CCBot",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/suche?q=",
+      "/jos-data",
+      "/api/reactions",
+      "/api/profile",
+      "/*.woff2$",
+      "/*.woff$",
+      "/*.ttf$",
+      "/en-US/"
+    ]
+  }
 }

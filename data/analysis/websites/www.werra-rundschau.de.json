@@ -1,11 +1,12 @@
 {
   "domain": "www.werra-rundschau.de",
   "normalizedDomain": "www.werra-rundschau.de",
-  "robotsTxt": "# robots.txt www.werra-rundschau.de\n# Legal notice: www.werra-rundschau.de expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).\n# The use of robots or other automated means to access www.werra-rundschau.de or collect or mine data without the express permission of www.werra-rundschau.de is strictly prohibited.\n\nUser-agent: *\nDisallow: /lightweight-ajax\nDisallow: /*?trafficsource\nDisallow: /suche/\nDisallow: /*?cmp=defrss\nDisallow: /test/\nDisallow: /fdn/bootstrap/\nDisallow: /bi/bootstrap/\nDisallow: /bi/doop/\nDisallow: /bi/dev/\nDisallow: /sso/\nDisallow: /*?utm_source=\nDisallow: /*?utm_medium=\nDisallow: /*?utm_campaign=\n\nUser-agent: xovi\nDisallow: /\n\nUser-agent: sistrix\nDisallow: /\n\nUser-agent: SearchmetricsBot\nDisallow: /\n\nUser-agent: bingbot\nDisallow: /test/\n\nUser-agent: GPTBot\nAllow: /ueber-uns/\nDisallow: /\n\nUser-agent: CCBot\nAllow: /ueber-uns/\nDisallow: /\n\nUser-agent: msnbot\nCrawl-delay: 5\nDisallow: /test/\n\nUser-agent: Amazonbot\nUser-agent: Anthropic-ai\nUser-agent: Applebot-Extended\nUser-agent: AwarioRssBot\nUser-agent: AwarioSmartBot\nUser-agent: Bytespider\nUser-agent: CCBot\nUser-agent: ChatGPT-User\nUser-agent: ClaudeBot\nUser-agent: Claude-Web\nUser-agent: Cohere-ai\nUser-agent: DataForSeoBot\nUser-agent: FacebookBot\nUser-agent: Google-Extended\nUser-agent: ImagesiftBot\nUser-agent: Magpie-crawler\nUser-agent: Omgili\nUser-agent: Omgilibot\nUser-agent: Peer39_crawler\nUser-agent: Peer39_crawler/1.0\nUser-agent: PerplexityBot\nUser-agent: YouBot\nDisallow: /",
+  "robotsTxt": "# robots.txt www.werra-rundschau.de\n# Legal notice: www.werra-rundschau.de expressly reserves the right to use its content for commercial text and data mining (§ 44b UrhG).\n# The use of robots or other automated means to access www.werra-rundschau.de or collect or mine data without the express permission of www.werra-rundschau.de is strictly prohibited.\n\nUser-agent: *\nDisallow: /sub/paywall/js/\nDisallow: /lightweight-ajax\nDisallow: /*?trafficsource\nDisallow: /suche/\nDisallow: /*?cmp=defrss\nDisallow: /test/\nDisallow: /fdn/bootstrap/\nDisallow: /bi/bootstrap/\nDisallow: /bi/doop/\nDisallow: /bi/dev/\nDisallow: /sso/\nDisallow: /*?utm_source=\nDisallow: /*?utm_medium=\nDisallow: /*?utm_campaign=\n\nUser-agent: xovi\nDisallow: /\n\nUser-agent: sistrix\nDisallow: /\n\nUser-agent: SearchmetricsBot\nDisallow: /\n\nUser-agent: bingbot\nDisallow: /test/\n\nUser-agent: GPTBot\nAllow: /ueber-uns/\nDisallow: /\n\nUser-agent: CCBot\nAllow: /ueber-uns/\nDisallow: /\n\nUser-agent: msnbot\nCrawl-delay: 5\nDisallow: /test/\n\nUser-agent: Amazonbot\nUser-agent: Anthropic-ai\nUser-agent: Applebot-Extended\nUser-agent: AwarioRssBot\nUser-agent: AwarioSmartBot\nUser-agent: Bytespider\nUser-agent: CCBot\nUser-agent: ChatGPT-User\nUser-agent: ClaudeBot\nUser-agent: Claude-Web\nUser-agent: Cohere-ai\nUser-agent: DataForSeoBot\nUser-agent: FacebookBot\nUser-agent: Google-Extended\nUser-agent: ImagesiftBot\nUser-agent: Magpie-crawler\nUser-agent: Omgili\nUser-agent: Omgilibot\nUser-agent: Peer39_crawler\nUser-agent: Peer39_crawler/1.0\nUser-agent: PerplexityBot\nUser-agent: YouBot\nDisallow: /",
   "globalRules": {
     "paths": {
       "allowed": [],
       "disallowed": [
+        "/sub/paywall/js/",
         "/lightweight-ajax",
         "/*?trafficsource",
         "/suche/",
@@ -5939,6 +5940,7 @@
   "paths": {
     "allowed": [],
     "disallowed": [
+      "/sub/paywall/js/",
       "/lightweight-ajax",
       "/*?trafficsource",
       "/suche/",

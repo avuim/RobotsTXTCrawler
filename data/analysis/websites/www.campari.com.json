@@ -1,7 +1,7 @@
 {
   "domain": "www.campari.com",
   "normalizedDomain": "www.campari.com",
-  "robotsTxt": "User-agent: *\r\nDisallow: /wp/wp-admin/\r\nAllow: /wp/wp-admin/admin-ajax.php\r\nSitemap: https://www.campari.com/sitemap_index.xml",
+  "robotsTxt": "User-agent: *\nDisallow: /wp/wp-admin/\nAllow: /wp/wp-admin/admin-ajax.php\nSitemap: https://www.campari.com/sitemap_index.xml",
   "globalRules": {
     "paths": {
       "allowed": [

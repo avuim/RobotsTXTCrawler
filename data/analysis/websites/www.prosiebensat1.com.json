@@ -1,7 +1,7 @@
 {
   "domain": "www.prosiebensat1.com",
   "normalizedDomain": "www.prosiebensat1.com",
-  "robotsTxt": "User-agent: BLP_bbot/0.1\r\nDisallow: /\r\n\r\nUser-agent: BLP_bbot\r\nDisallow: /\r\n\r\nUser-agent: Rigor\r\nDisallow: /\r\n\r\nUser-agent: *\r\nSitemap: https://www.prosiebensat1.com/sitemap.xml\r\nDisallow: /unternehmen/events/feedback\r\nDisallow: /unternehmen/events/newsletter-optout\r\nDisallow: /e-sign_erfolgreich-abgeschlossen\r\nDisallow: /e-sign_successfully-completed\r\nDisallow: /e-sign_abgebrochen\r\nDisallow: /e-sign_canceled\r\nDisallow: /e-sign_vorgang_abgebrochen\r\nDisallow: /e-sign_signing_process_canceled\r\n\r\nAllow: /",
+  "robotsTxt": "User-agent: BLP_bbot/0.1\nDisallow: /\n\nUser-agent: BLP_bbot\nDisallow: /\n\nUser-agent: Rigor\nDisallow: /\n\nUser-agent: *\nSitemap: https://www.prosiebensat1.com/sitemap.xml\nDisallow: /unternehmen/events/feedback\nDisallow: /unternehmen/events/newsletter-optout\nDisallow: /e-sign_erfolgreich-abgeschlossen\nDisallow: /e-sign_successfully-completed\nDisallow: /e-sign_abgebrochen\nDisallow: /e-sign_canceled\nDisallow: /e-sign_vorgang_abgebrochen\nDisallow: /e-sign_signing_process_canceled\n\nAllow: /",
   "globalRules": {
     "paths": {
       "allowed": [],

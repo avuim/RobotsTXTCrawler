@@ -1,7 +1,7 @@
 {
   "domain": "www.haribo.com",
   "normalizedDomain": "www.haribo.com",
-  "robotsTxt": "# robots.txt for https://www.haribo.com/\r\n\r\nSitemap: https://www.haribo.com/sitemap.xml\r\n\r\n\r\n# live - don't allow web crawlers to index cpresources/ or vendor/\r\n\r\nUser-agent: *\r\nDisallow: /cpresources/\r\nDisallow: /vendor/\r\nDisallow: /.env\r\nDisallow: /cache/\r\nDisallow: /admin/\r\nDisallow: /overview/\r\nDisallow: /website-manual/\r\nDisallow: /social-media-styleguide/\r\nDisallow: /playbook-e-commerce/\r\n#Disallow: /*/preview/*\r\n\r\n",
+  "robotsTxt": "# robots.txt for https://www.haribo.com/\n\nSitemap: https://www.haribo.com/sitemap.xml\n\n\n# live - don't allow web crawlers to index cpresources/ or vendor/\n\nUser-agent: *\nDisallow: /cpresources/\nDisallow: /vendor/\nDisallow: /.env\nDisallow: /cache/\nDisallow: /admin/\nDisallow: /overview/\nDisallow: /website-manual/\nDisallow: /social-media-styleguide/\nDisallow: /playbook-e-commerce/\n#Disallow: /*/preview/*\n\n",
   "globalRules": {
     "paths": {
       "allowed": [],

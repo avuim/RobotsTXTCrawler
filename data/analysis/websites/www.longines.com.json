@@ -1,7 +1,7 @@
 {
   "domain": "www.longines.com",
   "normalizedDomain": "www.longines.com",
-  "robotsTxt": "\r\nUser-agent: *\r\nAllow: /\r\nSitemap: https://www.longines.com/sitemap.xml\r\n\r\nDisallow: *?filter_*\r\nDisallow: */reserve/*\r\nDisallow: */gallery/*\r\nDisallow: */watch-configurator/*\r\n  ",
+  "robotsTxt": "\nUser-agent: *\nAllow: /\nSitemap: https://www.longines.com/sitemap.xml\n\nDisallow: *?filter_*\nDisallow: */reserve/*\nDisallow: */gallery/*\nDisallow: */watch-configurator/*\n  ",
   "globalRules": {
     "paths": {
       "allowed": [],

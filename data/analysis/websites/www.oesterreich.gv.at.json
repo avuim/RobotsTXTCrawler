@@ -1,7 +1,7 @@
 {
   "domain": "www.oesterreich.gv.at",
   "normalizedDomain": "www.oesterreich.gv.at",
-  "robotsTxt": "User-agent: *\r\nDisallow: /.search/\r\nDisallow: /Portal.Node/\r\nDisallow: /testordner/\r\nDisallow: /testordner0/\r\nDisallow: /testordner1/\r\nDisallow: /testordner2/\r\nDisallow: /testordner3/\r\nDisallow: /en/testordner/\r\nDisallow: /.syndication/\r\nDisallow: /testordner\r\nDisallow: /testordner0\r\nDisallow: /testordner1\r\nDisallow: /testordner2\r\nDisallow: /testordner3\r\nDisallow: /en/testordner\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /.search/\nDisallow: /Portal.Node/\nDisallow: /testordner/\nDisallow: /testordner0/\nDisallow: /testordner1/\nDisallow: /testordner2/\nDisallow: /testordner3/\nDisallow: /en/testordner/\nDisallow: /.syndication/\nDisallow: /testordner\nDisallow: /testordner0\nDisallow: /testordner1\nDisallow: /testordner2\nDisallow: /testordner3\nDisallow: /en/testordner\n",
   "globalRules": {
     "paths": {
       "allowed": [],

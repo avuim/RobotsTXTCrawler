@@ -1,7 +1,7 @@
 {
   "domain": "www.saalbach.com",
   "normalizedDomain": "www.saalbach.com",
-  "robotsTxt": "User-agent: *\r\nDisallow: /*download__\r\nDisallow: /*?sa=X\r\nDisallow: /*?filtered-list\r\nDisallow: /*suche?q=\r\n\r\nSitemap: https://www.saalbach.com/sitemap.xml",
+  "robotsTxt": "User-agent: *\nDisallow: /*download__\nDisallow: /*?sa=X\nDisallow: /*?filtered-list\nDisallow: /*suche?q=\n\nSitemap: https://www.saalbach.com/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

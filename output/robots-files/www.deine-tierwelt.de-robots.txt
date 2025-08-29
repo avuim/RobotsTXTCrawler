@@ -16,6 +16,7 @@ Disallow: /
 ########################################################
 User-agent: Adsbot-Google
 User-agent: AhrefsSiteAudit
+User-agent: anthropic-ai
 User-agent: Applebot # Apple Siri
 User-agent: Baiduspider # Chinese search engine Baidu
 User-agent: Bingbot
@@ -36,6 +37,7 @@ User-agent: Googlebot-Image
 User-agent: Googlebot-Mobile
 User-agent: Googlebot-News
 User-agent: Googlebot-Video
+User-agent: GPTBot
 User-agent: grapeshot
 User-agent: GumGum
 User-agent: Heritrix

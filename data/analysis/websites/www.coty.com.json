@@ -1,7 +1,7 @@
 {
   "domain": "www.coty.com",
   "normalizedDomain": "www.coty.com",
-  "robotsTxt": "\r\nUser-agent: *\r\nAllow: /\r\nDisallow: /en-us/\r\n\r\nHost: https://www.coty.com\r\n\r\nSitemap: https://www.coty.com/sitemap.xml\r\nSitemap: https://www.coty.com/fr-fr/sitemap.xml\r\n\r\n",
+  "robotsTxt": "\nUser-agent: *\nAllow: /\nDisallow: /en-us/\n\nHost: https://www.coty.com\n\nSitemap: https://www.coty.com/sitemap.xml\nSitemap: https://www.coty.com/fr-fr/sitemap.xml\n\n",
   "globalRules": {
     "paths": {
       "allowed": [],

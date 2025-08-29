@@ -1,7 +1,7 @@
 {
   "domain": "de.caudalie.com",
   "normalizedDomain": "de.caudalie.com",
-  "robotsTxt": "User-agent: *\r\nDisallow: \r\n\r\nDisallow: /*.css$\r\nDisallow: /*.js$\r\nDisallow: /*.php$\r\n\r\nSitemap: https://de.caudalie.com/sitemap.xml\r\nCrawl-delay: 5",
+  "robotsTxt": "User-agent: *\nDisallow: \n\nDisallow: /*.css$\nDisallow: /*.js$\nDisallow: /*.php$\n\nSitemap: https://de.caudalie.com/sitemap.xml\nCrawl-delay: 5",
   "globalRules": {
     "paths": {
       "allowed": [],

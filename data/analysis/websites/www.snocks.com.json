@@ -1,0 +1,297 @@
+{
+  "domain": "www.snocks.com",
+  "normalizedDomain": "www.snocks.com",
+  "robotsTxt": "# we use Shopify as our ecommerce platform\n\n#  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\n#  ┃  Robots & Agent policy                                               ┃\n#  ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n#  ┃  Checkouts are for humans.                                           ┃\n#  ┃  * Automated scraping, “buy-for-me” agents, or any end-to-end flow   ┃\n#  ┃    that completes payment without a final human review step is not   ┃\n#  ┃    permitted.                                                        ┃\n#  ┃  * Legitimate integrators must use the official Checkout Kit:        ┃\n#  ┃      https://www.shopify.com/checkout-kit                            ┃\n#  ┃                                                                      ┃\n#  ┃  Terms of Service: https://www.shopify.com/legal/terms               ┃\n#  ┃  Contact: bots@shopify.com                                           ┃\n#  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\n\nUser-agent: *\nDisallow: /a/downloads/-/*\nDisallow: /admin\nDisallow: /cart\nDisallow: /orders\nDisallow: /checkouts/\nDisallow: /checkout\nDisallow: /4882858054/checkouts\nDisallow: /4882858054/orders\nDisallow: /carts\nDisallow: /account\nDisallow: /collections/*sort_by*\nDisallow: /*/collections/*sort_by*\nDisallow: /collections/*+*\nDisallow: /collections/*%2B*\nDisallow: /collections/*%2b*\nDisallow: /*/collections/*+*\nDisallow: /*/collections/*%2B*\nDisallow: /*/collections/*%2b*\nDisallow: */collections/*filter*&*filter*\nDisallow: /blogs/*+*\nDisallow: /blogs/*%2B*\nDisallow: /blogs/*%2b*\nDisallow: /*/blogs/*+*\nDisallow: /*/blogs/*%2B*\nDisallow: /*/blogs/*%2b*\nDisallow: /*?*oseid=*\nDisallow: /*preview_theme_id*\nDisallow: /*preview_script_id*\nDisallow: /policies/\nDisallow: /*/policies/\nDisallow: /*/*?*ls=*&ls=*\nDisallow: /*/*?*ls%3D*%3Fls%3D*\nDisallow: /*/*?*ls%3d*%3fls%3d*\nDisallow: /search\nDisallow: /sf_private_access_tokens\nDisallow: /.well-known/shopify/monorail\nDisallow: /cdn/wpm/*.js\nDisallow: /recommendations/products\nDisallow: /*/recommendations/products\nSitemap: https://snocks.com/sitemap.xml\n\n# Google adsbot ignores robots.txt unless specifically named!\nUser-agent: adsbot-google\nDisallow: /checkouts/\nDisallow: /checkout\nDisallow: /carts\nDisallow: /orders\nDisallow: /4882858054/checkouts\nDisallow: /4882858054/orders\nDisallow: /*?*oseid=*\nDisallow: /*preview_theme_id*\nDisallow: /*preview_script_id*\nDisallow: /cdn/wpm/*.js\nDisallow: /sf_private_access_tokens\n\nUser-agent: Nutch\nDisallow: /\n\nUser-agent: AhrefsBot\nCrawl-delay: 10\nDisallow: /a/downloads/-/*\nDisallow: /admin\nDisallow: /cart\nDisallow: /orders\nDisallow: /checkouts/\nDisallow: /checkout\nDisallow: /4882858054/checkouts\nDisallow: /4882858054/orders\nDisallow: /carts\nDisallow: /account\nDisallow: /collections/*sort_by*\nDisallow: /*/collections/*sort_by*\nDisallow: /collections/*+*\nDisallow: /collections/*%2B*\nDisallow: /collections/*%2b*\nDisallow: /*/collections/*+*\nDisallow: /*/collections/*%2B*\nDisallow: /*/collections/*%2b*\nDisallow: */collections/*filter*&*filter*\nDisallow: /blogs/*+*\nDisallow: /blogs/*%2B*\nDisallow: /blogs/*%2b*\nDisallow: /*/blogs/*+*\nDisallow: /*/blogs/*%2B*\nDisallow: /*/blogs/*%2b*\nDisallow: /*?*oseid=*\nDisallow: /*preview_theme_id*\nDisallow: /*preview_script_id*\nDisallow: /policies/\nDisallow: /*/policies/\nDisallow: /*/*?*ls=*&ls=*\nDisallow: /*/*?*ls%3D*%3Fls%3D*\nDisallow: /*/*?*ls%3d*%3fls%3d*\nDisallow: /search\nDisallow: /sf_private_access_tokens\nDisallow: /.well-known/shopify/monorail\nDisallow: /cdn/wpm/*.js\nDisallow: /recommendations/products\nDisallow: /*/recommendations/products\nSitemap: https://snocks.com/sitemap.xml\n\nUser-agent: AhrefsSiteAudit\nCrawl-delay: 10\nDisallow: /a/downloads/-/*\nDisallow: /admin\nDisallow: /cart\nDisallow: /orders\nDisallow: /checkouts/\nDisallow: /checkout\nDisallow: /4882858054/checkouts\nDisallow: /4882858054/orders\nDisallow: /carts\nDisallow: /account\nDisallow: /collections/*sort_by*\nDisallow: /*/collections/*sort_by*\nDisallow: /collections/*+*\nDisallow: /collections/*%2B*\nDisallow: /collections/*%2b*\nDisallow: /*/collections/*+*\nDisallow: /*/collections/*%2B*\nDisallow: /*/collections/*%2b*\nDisallow: */collections/*filter*&*filter*\nDisallow: /blogs/*+*\nDisallow: /blogs/*%2B*\nDisallow: /blogs/*%2b*\nDisallow: /*/blogs/*+*\nDisallow: /*/blogs/*%2B*\nDisallow: /*/blogs/*%2b*\nDisallow: /*?*oseid=*\nDisallow: /*preview_theme_id*\nDisallow: /*preview_script_id*\nDisallow: /policies/\nDisallow: /*/policies/\nDisallow: /*/*?*ls=*&ls=*\nDisallow: /*/*?*ls%3D*%3Fls%3D*\nDisallow: /*/*?*ls%3d*%3fls%3d*\nDisallow: /search\nDisallow: /sf_private_access_tokens\nDisallow: /.well-known/shopify/monorail\nDisallow: /cdn/wpm/*.js\nDisallow: /recommendations/products\nDisallow: /*/recommendations/products\nSitemap: https://snocks.com/sitemap.xml\n\nUser-agent: MJ12bot\nCrawl-delay: 10\n\nUser-agent: Pinterest\nCrawl-delay: 1\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/a/downloads/-/*",
+        "/admin",
+        "/cart",
+        "/orders",
+        "/checkouts/",
+        "/checkout",
+        "/4882858054/checkouts",
+        "/4882858054/orders",
+        "/carts",
+        "/account",
+        "/collections/*sort_by*",
+        "/*/collections/*sort_by*",
+        "/collections/*+*",
+        "/collections/*%2B*",
+        "/collections/*%2b*",
+        "/*/collections/*+*",
+        "/*/collections/*%2B*",
+        "/*/collections/*%2b*",
+        "*/collections/*filter*&*filter*",
+        "/blogs/*+*",
+        "/blogs/*%2B*",
+        "/blogs/*%2b*",
+        "/*/blogs/*+*",
+        "/*/blogs/*%2B*",
+        "/*/blogs/*%2b*",
+        "/*?*oseid=*",
+        "/*preview_theme_id*",
+        "/*preview_script_id*",
+        "/policies/",
+        "/*/policies/",
+        "/*/*?*ls=*&ls=*",
+        "/*/*?*ls%3D*%3Fls%3D*",
+        "/*/*?*ls%3d*%3fls%3d*",
+        "/search",
+        "/sf_private_access_tokens",
+        "/.well-known/shopify/monorail",
+        "/cdn/wpm/*.js",
+        "/recommendations/products",
+        "/*/recommendations/products"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "adsbot-google",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/checkouts/",
+          "/checkout",
+          "/carts",
+          "/orders",
+          "/4882858054/checkouts",
+          "/4882858054/orders",
+          "/*?*oseid=*",
+          "/*preview_theme_id*",
+          "/*preview_script_id*",
+          "/cdn/wpm/*.js",
+          "/sf_private_access_tokens"
+        ]
+      }
+    },
+    {
+      "name": "Nutch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/a/downloads/-/*",
+          "/admin",
+          "/cart",
+          "/orders",
+          "/checkouts/",
+          "/checkout",
+          "/4882858054/checkouts",
+          "/4882858054/orders",
+          "/carts",
+          "/account",
+          "/collections/*sort_by*",
+          "/*/collections/*sort_by*",
+          "/collections/*+*",
+          "/collections/*%2B*",
+          "/collections/*%2b*",
+          "/*/collections/*+*",
+          "/*/collections/*%2B*",
+          "/*/collections/*%2b*",
+          "*/collections/*filter*&*filter*",
+          "/blogs/*+*",
+          "/blogs/*%2B*",
+          "/blogs/*%2b*",
+          "/*/blogs/*+*",
+          "/*/blogs/*%2B*",
+          "/*/blogs/*%2b*",
+          "/*?*oseid=*",
+          "/*preview_theme_id*",
+          "/*preview_script_id*",
+          "/policies/",
+          "/*/policies/",
+          "/*/*?*ls=*&ls=*",
+          "/*/*?*ls%3D*%3Fls%3D*",
+          "/*/*?*ls%3d*%3fls%3d*",
+          "/search",
+          "/sf_private_access_tokens",
+          "/.well-known/shopify/monorail",
+          "/cdn/wpm/*.js",
+          "/recommendations/products",
+          "/*/recommendations/products"
+        ]
+      }
+    },
+    {
+      "name": "AhrefsSiteAudit",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/a/downloads/-/*",
+          "/admin",
+          "/cart",
+          "/orders",
+          "/checkouts/",
+          "/checkout",
+          "/4882858054/checkouts",
+          "/4882858054/orders",
+          "/carts",
+          "/account",
+          "/collections/*sort_by*",
+          "/*/collections/*sort_by*",
+          "/collections/*+*",
+          "/collections/*%2B*",
+          "/collections/*%2b*",
+          "/*/collections/*+*",
+          "/*/collections/*%2B*",
+          "/*/collections/*%2b*",
+          "*/collections/*filter*&*filter*",
+          "/blogs/*+*",
+          "/blogs/*%2B*",
+          "/blogs/*%2b*",
+          "/*/blogs/*+*",
+          "/*/blogs/*%2B*",
+          "/*/blogs/*%2b*",
+          "/*?*oseid=*",
+          "/*preview_theme_id*",
+          "/*preview_script_id*",
+          "/policies/",
+          "/*/policies/",
+          "/*/*?*ls=*&ls=*",
+          "/*/*?*ls%3D*%3Fls%3D*",
+          "/*/*?*ls%3d*%3fls%3d*",
+          "/search",
+          "/sf_private_access_tokens",
+          "/.well-known/shopify/monorail",
+          "/cdn/wpm/*.js",
+          "/recommendations/products",
+          "/*/recommendations/products"
+        ]
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 8,
+    "allowedBots": 7,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "adsbot-google",
+      "allowed": true
+    },
+    {
+      "name": "Nutch",
+      "allowed": false
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": true
+    },
+    {
+      "name": "AhrefsSiteAudit",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": true
+    },
+    {
+      "name": "Pinterest",
+      "allowed": true
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/a/downloads/-/*",
+      "/admin",
+      "/cart",
+      "/orders",
+      "/checkouts/",
+      "/checkout",
+      "/4882858054/checkouts",
+      "/4882858054/orders",
+      "/carts",
+      "/account",
+      "/collections/*sort_by*",
+      "/*/collections/*sort_by*",
+      "/collections/*+*",
+      "/collections/*%2B*",
+      "/collections/*%2b*",
+      "/*/collections/*+*",
+      "/*/collections/*%2B*",
+      "/*/collections/*%2b*",
+      "*/collections/*filter*&*filter*",
+      "/blogs/*+*",
+      "/blogs/*%2B*",
+      "/blogs/*%2b*",
+      "/*/blogs/*+*",
+      "/*/blogs/*%2B*",
+      "/*/blogs/*%2b*",
+      "/*?*oseid=*",
+      "/*preview_theme_id*",
+      "/*preview_script_id*",
+      "/policies/",
+      "/*/policies/",
+      "/*/*?*ls=*&ls=*",
+      "/*/*?*ls%3D*%3Fls%3D*",
+      "/*/*?*ls%3d*%3fls%3d*",
+      "/search",
+      "/sf_private_access_tokens",
+      "/.well-known/shopify/monorail",
+      "/cdn/wpm/*.js",
+      "/recommendations/products",
+      "/*/recommendations/products"
+    ]
+  }
+}

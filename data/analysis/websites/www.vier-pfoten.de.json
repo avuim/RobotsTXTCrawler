@@ -1,7 +1,7 @@
 {
   "domain": "www.vier-pfoten.de",
   "normalizedDomain": "www.vier-pfoten.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /neos/",
+  "robotsTxt": "User-agent: *\nDisallow: /neos/",
   "globalRules": {
     "paths": {
       "allowed": [],

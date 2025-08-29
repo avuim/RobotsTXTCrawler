@@ -1,7 +1,7 @@
 {
   "domain": "www.nabu.de",
   "normalizedDomain": "www.nabu.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /modules/\r\nAllow: /modules/jscalendar/calendar.js\r\nAllow: /modules/jscalendar/lang/calendar-de.js\r\nAllow: /modules/jscalendar/calendar-setup.js\r\nAllow: /modules/jscalendar/calendar-blue.css\r\nAllow: /modules/piwik/\r\nAllow: /modules/vogelarten/\r\nDisallow: /imperia/temp/\r\nDisallow: /content-container/\r\nDisallow: /presse/pressemitteilungen/index.html?\r\nDisallow: /presse/pressemitteilungen/index.php?\r\nDisallow: /presse/pressemitteilungen/?\r\nDisallow: /natur-und-landschaft/natur-erleben/termine/?\r\nDisallow: /naturerleben/\r\nDisallow: /testbereich/\r\nDisallow: /include/\r\nDisallow: /mobil/\r\nDisallow: /untermenue/\r\nDisallow: /info/linkkatalog/",
+  "robotsTxt": "User-agent: *\nDisallow: /modules/\nAllow: /modules/jscalendar/calendar.js\nAllow: /modules/jscalendar/lang/calendar-de.js\nAllow: /modules/jscalendar/calendar-setup.js\nAllow: /modules/jscalendar/calendar-blue.css\nAllow: /modules/piwik/\nAllow: /modules/vogelarten/\nDisallow: /imperia/temp/\nDisallow: /content-container/\nDisallow: /presse/pressemitteilungen/index.html?\nDisallow: /presse/pressemitteilungen/index.php?\nDisallow: /presse/pressemitteilungen/?\nDisallow: /natur-und-landschaft/natur-erleben/termine/?\nDisallow: /naturerleben/\nDisallow: /testbereich/\nDisallow: /include/\nDisallow: /mobil/\nDisallow: /untermenue/\nDisallow: /info/linkkatalog/",
   "globalRules": {
     "paths": {
       "allowed": [

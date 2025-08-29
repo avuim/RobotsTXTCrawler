@@ -3,6 +3,7 @@
 # The use of robots or other automated means to access www.heidelberg24.de or collect or mine data without the express permission of www.heidelberg24.de is strictly prohibited.
 
 User-agent: *
+Disallow: /sub/paywall/js/
 Disallow: /lightweight-ajax
 Disallow: /*?trafficsource
 Disallow: /suche/

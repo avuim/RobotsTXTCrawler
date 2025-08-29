@@ -1,7 +1,7 @@
 {
   "domain": "www.fressnapf.de",
   "normalizedDomain": "www.fressnapf.de",
-  "robotsTxt": "#For all robots\r\nUser-agent: *\r\n#Block access to specific groups of pages\r\nDisallow: */cart/\r\nDisallow: */checkout\r\nDisallow: */my-account\r\nDisallow: /s/\r\nDisallow: */search\r\nDisallow: */displayShader\r\nDisallow: */account\r\nDisallow: */pvz\r\nDisallow: *viewtype=*\r\nDisallow: *sort=*\r\nDisallow: /*?q=%3AtopSeller\r\nDisallow: */modal\r\nDisallow: */register\r\nDisallow: *bvstate=*\r\nDisallow: *bvroute=*\r\n\r\n#Sitemap\r\nSitemap: https://www.fressnapf.de/sitemap.xml",
+  "robotsTxt": "#For all robots\nUser-agent: *\n#Block access to specific groups of pages\nDisallow: */cart/\nDisallow: */checkout\nDisallow: */my-account\nDisallow: /s/\nDisallow: */search\nDisallow: */displayShader\nDisallow: */account\nDisallow: */pvz\nDisallow: *viewtype=*\nDisallow: *sort=*\nDisallow: /*?q=%3AtopSeller\nDisallow: */modal\nDisallow: */register\nDisallow: *bvstate=*\nDisallow: *bvroute=*\n\n#Sitemap\nSitemap: https://www.fressnapf.de/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

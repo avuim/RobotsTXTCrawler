@@ -1,7 +1,7 @@
 {
   "domain": "www.allianz.de",
   "normalizedDomain": "www.allianz.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /newsletter-rest\r\nDisallow: /rootpage.silentlogin-callback.html\r\nDisallow: /rootpage.loginstatechanged-callback.html\r\nDisallow: /libs/granite/csrf/token.json\r\nDisallow: /azonetrust/AZD/*\r\nDisallow: /azutils/prod/atl/cross-domain-storage/page-to-embed.html\r\n\r\nSitemap: https://www.allianz.de/sitemap.xml\r\nSitemap: https://www.allianz.de/content/dam/onemarketing/azde/azd/sitemap/ansprechpartner-vor-ort.xml",
+  "robotsTxt": "User-agent: *\nDisallow: /newsletter-rest\nDisallow: /rootpage.silentlogin-callback.html\nDisallow: /rootpage.loginstatechanged-callback.html\nDisallow: /libs/granite/csrf/token.json\nDisallow: /azonetrust/AZD/*\nDisallow: /azutils/prod/atl/cross-domain-storage/page-to-embed.html\n\nSitemap: https://www.allianz.de/sitemap.xml\nSitemap: https://www.allianz.de/content/dam/onemarketing/azde/azd/sitemap/ansprechpartner-vor-ort.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

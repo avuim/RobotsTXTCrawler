@@ -1,7 +1,53 @@
 {
   "domain": "www.mopo.de",
   "normalizedDomain": "www.mopo.de",
+  "robotsTxt": "User-agent: Yandex\nDisallow: /\n\nUser-agent: ia_archiver\nDisallow:\n\nUser-agent: OGDWCtxCrawler\nDisallow:\n\nUser-agent: *\nAllow: /\nDisallow: */1000$\nDisallow: */1000/$\nSitemap: https://www.mopo.de/sitemap_index.xml\n",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "*/1000$",
+        "*/1000/$"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "Yandex",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ia_archiver",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "OGDWCtxCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
     {
       "name": "Yandex",
       "allowed": false
@@ -13,10 +59,13 @@
     {
       "name": "OGDWCtxCrawler",
       "allowed": false
-    },
-    {
-      "name": "*",
-      "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "*/1000$",
+      "*/1000/$"
+    ]
+  }
 }

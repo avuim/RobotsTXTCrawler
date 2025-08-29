@@ -1,7 +1,7 @@
 {
   "domain": "www.hgtv.com",
   "normalizedDomain": "www.hgtv.com",
-  "robotsTxt": "User-agent: *\r\nAllow: /content/dam/\r\nAllow: /content/hgtv-com/jcr:content/analytics.sitecatalyst.js\r\nDisallow: /content/\r\nAllow: /libs/granite/\r\nDisallow: /libs/\r\nDisallow: /services/\r\nDisallow: /features/apple-news/\r\nDisallow: /shows/tv-schedule-*\r\nDisallow: *.embed\r\nAllow: *.lazy-fetch*\r\nAllow: *hotspot*\r\n\r\nUser-agent: Mediapartners-Google\r\nDisallow:\r\n\r\nUser-agent: Pinterest\r\nCrawl-delay: 5\r\n\r\nUser-agent: GPTBot\r\nDisallow: /\r\n\r\nUser-agent: ChatGPT-User\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nDisallow: /\r\n\r\nUser-agent: ClaudeBot\r\nDisallow: /\r\n\r\nUser-agent: PerplexityBot\r\nDisallow: /\r\n\r\nSitemap: https://www.hgtv.com/sitemaps/sitemap_hgtv_index.xml\r\n",
+  "robotsTxt": "User-agent: *\nAllow: /content/dam/\nAllow: /content/hgtv-com/jcr:content/analytics.sitecatalyst.js\nDisallow: /content/\nAllow: /libs/granite/\nDisallow: /libs/\nDisallow: /services/\nDisallow: /features/apple-news/\nDisallow: /shows/tv-schedule-*\nDisallow: *.embed\nAllow: *.lazy-fetch*\nAllow: *hotspot*\n\nUser-agent: Mediapartners-Google\nDisallow:\n\nUser-agent: Pinterest\nCrawl-delay: 5\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nSitemap: https://www.hgtv.com/sitemaps/sitemap_hgtv_index.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [

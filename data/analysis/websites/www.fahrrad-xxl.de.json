@@ -1,7 +1,7 @@
 {
   "domain": "www.fahrrad-xxl.de",
   "normalizedDomain": "www.fahrrad-xxl.de",
-  "robotsTxt": "User-agent: Googlebot-Image\r\nDisallow: /media/branch/k11899/\r\n\r\nUser-agent: *\r\nDisallow: /stat.php\r\nDisallow: /antibot.php\r\nDisallow: /a.php\r\nDisallow: /soap.php\r\nDisallow: /json.php\r\nDisallow: /index.php\r\nDisallow: /suche/\r\nDisallow: /suche/\r\n",
+  "robotsTxt": "User-agent: Googlebot-Image\nDisallow: /media/branch/k11899/\n\nUser-agent: *\nDisallow: /stat.php\nDisallow: /antibot.php\nDisallow: /a.php\nDisallow: /soap.php\nDisallow: /json.php\nDisallow: /index.php\nDisallow: /suche/\nDisallow: /suche/\n",
   "globalRules": {
     "paths": {
       "allowed": [],

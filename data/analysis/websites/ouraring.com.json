@@ -1,7 +1,7 @@
 {
   "domain": "ouraring.com",
   "normalizedDomain": "ouraring.com",
-  "robotsTxt": "# *\r\nUser-agent: *\r\nAllow: /\r\nDisallow: /partners\r\nDisallow: /discount\r\nDisallow: /discount/*\r\nDisallow: /invite\r\nDisallow: /invite/*\r\nDisallow: /order-status\r\nDisallow: /wip\r\nDisallow: /cart\r\nDisallow: /checkout\r\nDisallow: /dev/*\r\nDisallow: /hrm-terms-and-conditions\r\n\r\n# Host\r\nHost: https://ouraring.com\r\n\r\n# Sitemaps\r\nSitemap: https://ouraring.com/sitemap.xml\r\nSitemap: https://ouraring.com/growth/sitemap.xml\r\n",
+  "robotsTxt": "# *\nUser-agent: *\nAllow: /\nDisallow: /partners\nDisallow: /discount\nDisallow: /discount/*\nDisallow: /invite\nDisallow: /invite/*\nDisallow: /order-status\nDisallow: /wip\nDisallow: /cart\nDisallow: /checkout\nDisallow: /dev/*\nDisallow: /hrm-terms-and-conditions\n\n# Host\nHost: https://ouraring.com\n\n# Sitemaps\nSitemap: https://ouraring.com/sitemap.xml\nSitemap: https://ouraring.com/growth/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

@@ -1,7 +1,7 @@
 {
   "domain": "www.livenation.de",
   "normalizedDomain": "www.livenation.de",
-  "robotsTxt": "# robots.txt for www.livenation.de\r\nUser-agent: *\r\nDisallow: /myln\r\nDisallow: /subscription\r\nDisallow: /account\r\nDisallow: /culture\r\nDisallow: /health\r\nDisallow: /login\r\nDisallow: /register\r\nUser-agent: msnbot\r\nCrawl-delay: 2",
+  "robotsTxt": "# robots.txt for www.livenation.de\nUser-agent: *\nDisallow: /myln\nDisallow: /subscription\nDisallow: /account\nDisallow: /culture\nDisallow: /health\nDisallow: /login\nDisallow: /register\nUser-agent: msnbot\nCrawl-delay: 2",
   "globalRules": {
     "paths": {
       "allowed": [],

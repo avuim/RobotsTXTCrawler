@@ -1,7 +1,7 @@
 {
   "domain": "croatia.hr",
   "normalizedDomain": "croatia.hr",
-  "robotsTxt": "User-agent: *\r\nAllow: /\r\n\r\nDisallow: /hr-hr/gdje-odsjesti/*/*\r\nDisallow: /en-gb/where-to-stay/*/*\r\nDisallow: /cs-cz/kde-se-ubytovat/*/*\r\nDisallow: /de-de/wo-absteigen/*/*\r\nDisallow: /es-es/donde-quedarse/*/*\r\nDisallow: /fr-fr/ou-loger/*/*\r\nDisallow: /it-it/dove-alloggiare/*/*\r\nDisallow: /hu-hu/hol-szalljon-meg/*/*\r\nDisallow: /pl-pl/gdzie-sie-zatrzymac/*/*\r\nDisallow: /ru-ru/where-to-stay/*/*\r\nDisallow: /sl-si/kje-prenociti/*/*\r\n\r\nDisallow: /health_check_ok.html\r\nDisallow: /status.html\r\n\r\nSitemap: https://croatia.hr/sitemap_croatia.xml",
+  "robotsTxt": "User-agent: *\nAllow: /\n\nDisallow: /hr-hr/gdje-odsjesti/*/*\nDisallow: /en-gb/where-to-stay/*/*\nDisallow: /cs-cz/kde-se-ubytovat/*/*\nDisallow: /de-de/wo-absteigen/*/*\nDisallow: /es-es/donde-quedarse/*/*\nDisallow: /fr-fr/ou-loger/*/*\nDisallow: /it-it/dove-alloggiare/*/*\nDisallow: /hu-hu/hol-szalljon-meg/*/*\nDisallow: /pl-pl/gdzie-sie-zatrzymac/*/*\nDisallow: /ru-ru/where-to-stay/*/*\nDisallow: /sl-si/kje-prenociti/*/*\n\nDisallow: /health_check_ok.html\nDisallow: /status.html\n\nSitemap: https://croatia.hr/sitemap_croatia.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

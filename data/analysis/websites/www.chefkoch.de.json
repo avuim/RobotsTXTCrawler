@@ -1,14 +1,11 @@
 {
   "domain": "www.chefkoch.de",
   "normalizedDomain": "www.chefkoch.de",
-  "robotsTxt": "User-agent: *\nDisallow: /cgi-bin\nDisallow: /stats\nDisallow: /pictures/fotoalben/\nDisallow: /forumuploads/\nDisallow: /pictures/user/\nDisallow: /avatar/\nDisallow: /cms/\nDisallow: /produkte/\nDisallow: /how2videos/\nDisallow: /.well-known/amphtml/apikey.pub\nDisallow: /user/profil/\nDisallow: /user/rezepte/\nDisallow: /rezeptbilder/\nDisallow: /rezepte/bildupload-mobil/\nDisallow: /rezepte/drucken/\nDisallow: /rezepte/wertungen/\nDisallow: /rezepte/bilderuebersicht/\nDisallow: /rezepte/bildupload/\nDisallow: /rezepte/kommentare/\nDisallow: /rezepte/*?*\nDisallow: /rs/s0t*\nDisallow: /rs/s0o*\nDisallow: /rs/s0e*\nDisallow: /rs/s0g*\nDisallow: /rs/s0r*\nDisallow: /rs/s0p*\nDisallow: /rs/s0ip*\nDisallow: /ms/\nDisallow: /zs/\nDisallow: /amp/rs/s0t*\nDisallow: /amp/rs/s0o*\nDisallow: /amp/rs/s0e*\nDisallow: /amp/rs/s0g*\nDisallow: /newsletter/rs/\nDisallow: /kochbuch/\nDisallow: /mein-kochbuch/rezept-import/auto\nDisallow: /new-rds/\nDisallow: /new-user/\nAllow: /rs/s0o6/Rezepte.html\nAllow: /new-rds/1291441234448983/Nudeln-mit-Tomatensauce.html\nAllow: /new-rds/358201121197047/Gebackene-Auberginen.html\nAllow: /new-rds/708551173448508/Tiroler-Groestl.html\n\nUser-agent: Googlebot\nDisallow: /cgi-bin\nDisallow: /stats\nDisallow: /pictures/fotoalben/\nDisallow: /forumuploads/\nDisallow: /pictures/user/\nDisallow: /avatar/\nDisallow: /cms/\nDisallow: /produkte/\nDisallow: /how2videos/\nDisallow: /.well-known/amphtml/apikey.pub\nDisallow: /user/profil/\nDisallow: /user/rezepte/\nDisallow: /rezeptbilder/\nDisallow: /rezepte/bildupload-mobil/\nDisallow: /rezepte/drucken/\nDisallow: /rezepte/wertungen/\nDisallow: /rezepte/bilderuebersicht/\nDisallow: /rezepte/bildupload/\nDisallow: /rezepte/kommentare/\nDisallow: /rezepte/*?*\nDisallow: /rs/s0o*\nDisallow: /rs/s0e*\nDisallow: /rs/s0g*\nDisallow: /rs/s0r*\nDisallow: /rs/s0p*\nDisallow: /rs/s0ip*\nDisallow: /ms/\nDisallow: /zs/\nDisallow: /amp/rs/s0t*\nDisallow: /amp/rs/s0o*\nDisallow: /amp/rs/s0e*\nDisallow: /amp/rs/s0g*\nDisallow: /newsletter/rs/\nDisallow: /kochbuch/\nDisallow: /mein-kochbuch/rezept-import/auto\nDisallow: /new-rds/\nDisallow: /new-user/\nAllow: /rs/s0o6/Rezepte.html\nAllow: /new-rds/1291441234448983/Nudeln-mit-Tomatensauce.html\nAllow: /new-rds/358201121197047/Gebackene-Auberginen.html\nAllow: /new-rds/708551173448508/Tiroler-Groestl.html\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: scrapy\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: Timpibot\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: omgilibot\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Opebot-v (https://www.1plusx.com)\nAllow: /\n",
+  "robotsTxt": "User-agent: *\nDisallow: /cgi-bin\nDisallow: /stats\nDisallow: /pictures/fotoalben/\nDisallow: /forumuploads/\nDisallow: /pictures/user/\nDisallow: /avatar/\nDisallow: /cms/\nDisallow: /produkte/\nDisallow: /how2videos/\nDisallow: /.well-known/amphtml/apikey.pub\nDisallow: /user/profil/\nDisallow: /user/rezepte/\nDisallow: /rezeptbilder/\nDisallow: /rezepte/bildupload-mobil/\nDisallow: /rezepte/drucken/\nDisallow: /rezepte/wertungen/\nDisallow: /rezepte/bilderuebersicht/\nDisallow: /rezepte/bildupload/\nDisallow: /rezepte/kommentare/\nDisallow: /rezepte/*?*\nDisallow: /rs/s0t*\nDisallow: /rs/s0o*\nDisallow: /rs/s0e*\nDisallow: /rs/s0g*\nDisallow: /rs/s0r*\nDisallow: /rs/s0p*\nDisallow: /rs/s0ip*\nDisallow: /ms/\nDisallow: /zs/\nDisallow: /amp/rs/s0t*\nDisallow: /amp/rs/s0o*\nDisallow: /amp/rs/s0e*\nDisallow: /amp/rs/s0g*\nDisallow: /newsletter/rs/\nDisallow: /kochbuch/\nDisallow: /mein-kochbuch/rezept-import/auto\nDisallow: /new-rds/\nDisallow: /new-user/\nAllow: /rs/s0o6/Rezepte.html\n\nUser-agent: Googlebot\nDisallow: /cgi-bin\nDisallow: /stats\nDisallow: /pictures/fotoalben/\nDisallow: /forumuploads/\nDisallow: /pictures/user/\nDisallow: /avatar/\nDisallow: /cms/\nDisallow: /produkte/\nDisallow: /how2videos/\nDisallow: /.well-known/amphtml/apikey.pub\nDisallow: /user/profil/\nDisallow: /user/rezepte/\nDisallow: /rezeptbilder/\nDisallow: /rezepte/bildupload-mobil/\nDisallow: /rezepte/drucken/\nDisallow: /rezepte/wertungen/\nDisallow: /rezepte/bilderuebersicht/\nDisallow: /rezepte/bildupload/\nDisallow: /rezepte/kommentare/\nDisallow: /rezepte/*?*\nDisallow: /rs/s0o*\nDisallow: /rs/s0e*\nDisallow: /rs/s0g*\nDisallow: /rs/s0r*\nDisallow: /rs/s0p*\nDisallow: /rs/s0ip*\nDisallow: /ms/\nDisallow: /zs/\nDisallow: /amp/rs/s0t*\nDisallow: /amp/rs/s0o*\nDisallow: /amp/rs/s0e*\nDisallow: /amp/rs/s0g*\nDisallow: /newsletter/rs/\nDisallow: /kochbuch/\nDisallow: /mein-kochbuch/rezept-import/auto\nDisallow: /new-rds/\nDisallow: /new-user/\nAllow: /rs/s0o6/Rezepte.html\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: scrapy\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: Timpibot\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: omgilibot\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Opebot-v (https://www.1plusx.com)\nAllow: /\n",
   "globalRules": {
     "paths": {
       "allowed": [
-        "/rs/s0o6/Rezepte.html",
-        "/new-rds/1291441234448983/Nudeln-mit-Tomatensauce.html",
-        "/new-rds/358201121197047/Gebackene-Auberginen.html",
-        "/new-rds/708551173448508/Tiroler-Groestl.html"
+        "/rs/s0o6/Rezepte.html"
       ],
       "disallowed": [
         "/cgi-bin",
@@ -58,10 +55,7 @@
       "allowed": true,
       "paths": {
         "allowed": [
-          "/rs/s0o6/Rezepte.html",
-          "/new-rds/1291441234448983/Nudeln-mit-Tomatensauce.html",
-          "/new-rds/358201121197047/Gebackene-Auberginen.html",
-          "/new-rds/708551173448508/Tiroler-Groestl.html"
+          "/rs/s0o6/Rezepte.html"
         ],
         "disallowed": [
           "/cgi-bin",
@@ -291,10 +285,7 @@
   ],
   "paths": {
     "allowed": [
-      "/rs/s0o6/Rezepte.html",
-      "/new-rds/1291441234448983/Nudeln-mit-Tomatensauce.html",
-      "/new-rds/358201121197047/Gebackene-Auberginen.html",
-      "/new-rds/708551173448508/Tiroler-Groestl.html"
+      "/rs/s0o6/Rezepte.html"
     ],
     "disallowed": [
       "/cgi-bin",

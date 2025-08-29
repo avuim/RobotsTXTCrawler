@@ -1,7 +1,7 @@
 {
   "domain": "www.toyota.de",
   "normalizedDomain": "www.toyota.de",
-  "robotsTxt": "User-agent: *\r\nSitemap: https://www.toyota.de/sitemap.xml\r\nDisallow: /content/forms/af/\r\nDisallow: */_jcr_content/*\r\nDisallow: /header-and-footer/\r\nDisallow: *?focusImage*\r\nDisallow: /bin/cocadap*\r\nDisallow: /sys*\r\nDisallow: /libs/cq/i18n/\r\nDisallow: /test-playground/\r\nDisallow: /var/dxp/forms/datasources/\r\nDisallow: /backup-pages/\r\nDisallow: /pkw/\r\nDisallow: *pdp*",
+  "robotsTxt": "User-agent: *\nSitemap: https://www.toyota.de/sitemap.xml\nDisallow: /content/forms/af/\nDisallow: */_jcr_content/*\nDisallow: /header-and-footer/\nDisallow: *?focusImage*\nDisallow: /bin/cocadap*\nDisallow: /sys*\nDisallow: /libs/cq/i18n/\nDisallow: /test-playground/\nDisallow: /var/dxp/forms/datasources/\nDisallow: /backup-pages/\nDisallow: /pkw/\nDisallow: *pdp*",
   "globalRules": {
     "paths": {
       "allowed": [],

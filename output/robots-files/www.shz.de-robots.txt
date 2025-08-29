@@ -4,9 +4,10 @@ Disallow:
 User-Agent: *
 Disallow: /pagebuilding/
 Disallow: /new-articles/
+Disallow: /suche
+Disallow: /*?q=*
 Disallow: /files/
 Disallow: /cre-1.0/tracking/
-Disallow:
 
 Sitemap: https://www.shz.de/sitemap.xml
 Sitemap: https://www.shz.de/sitemap/googleNewsList.xml

@@ -1,6 +1,46 @@
 {
   "domain": "www.cnv-medien.de",
   "normalizedDomain": "www.cnv-medien.de",
+  "robotsTxt": "User-agent: *\r\nDisallow: /typo3/\r\nDisallow: /typo3_src/\r\nAllow: /typo3/sysext/frontend/Resources/Public/*\r\nDisallow: /*?id=*\r\nDisallow: /*tx_powermail_pi1\r\nDisallow: /*tx_cnvnews_ajaxnewsincrementviews\r\nDisallow: /*tx_solr\r\n \r\nUser-agent: GPTBot\r\nDisallow: /\r\n \r\nUser agent: ChatGPT User\r\nDisallow: /\r\n \r\nUser-agent: CCBot\r\nDisallow: /\r\n \r\n# Legal notice: expressly reserves the right to use its content for commercial\r\n# The use of robots or other automated means to access cnv-medien.de or collect or mine data without the express permission of cnv-medien.de is strictly prohibited.\r\n# If you would like to apply for permission to crawl cnv-medien.de, collect or use data, please contact redaktion@cuxonline.de",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/typo3/sysext/frontend/Resources/Public/*"
+      ],
+      "disallowed": [
+        "/typo3/",
+        "/typo3_src/",
+        "/*?id=*",
+        "/*tx_powermail_pi1",
+        "/*tx_cnvnews_ajaxnewsincrementviews",
+        "/*tx_solr"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 2,
+    "allowedBots": 0,
+    "disallowedBots": 2,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -14,5 +54,18 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/typo3/sysext/frontend/Resources/Public/*"
+    ],
+    "disallowed": [
+      "/typo3/",
+      "/typo3_src/",
+      "/*?id=*",
+      "/*tx_powermail_pi1",
+      "/*tx_cnvnews_ajaxnewsincrementviews",
+      "/*tx_solr"
+    ]
+  }
 }

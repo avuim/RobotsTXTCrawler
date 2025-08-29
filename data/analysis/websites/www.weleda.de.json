@@ -1,7 +1,7 @@
 {
   "domain": "www.weleda.de",
   "normalizedDomain": "www.weleda.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /restapi/\r\nDisallow: /checkout/\r\nDisallow: *?*srsltid=\r\nDisallow: /search?searchKey=\r\nDisallow: /api/\r\n\r\n\r\nUser-agent: *\r\nDisallow: /api\r\n\r\nSitemap: https://www.weleda.de/sitemap_index.xml\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /restapi/\nDisallow: /checkout/\nDisallow: *?*srsltid=\nDisallow: /search?searchKey=\nDisallow: /api/\n\n\nUser-agent: *\nDisallow: /api\n\nSitemap: https://www.weleda.de/sitemap_index.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

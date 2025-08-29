@@ -1,7 +1,7 @@
 {
   "domain": "www.teambank.de",
   "normalizedDomain": "www.teambank.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /wp/wp-admin/\r\nAllow: /wp/wp-admin/admin-ajax.php\r\n\r\n# START YOAST BLOCK\r\n# ---------------------------\r\nUser-agent: *\r\nDisallow:\r\n\r\nSitemap: https://www.teambank.de/sitemap_index.xml\r\n# ---------------------------\r\n# END YOAST BLOCK",
+  "robotsTxt": "User-agent: *\nDisallow: /wp/wp-admin/\nAllow: /wp/wp-admin/admin-ajax.php\n\n# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://www.teambank.de/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK",
   "globalRules": {
     "paths": {
       "allowed": [

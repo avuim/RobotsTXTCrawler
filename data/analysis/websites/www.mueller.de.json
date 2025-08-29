@@ -1,7 +1,7 @@
 {
   "domain": "www.mueller.de",
   "normalizedDomain": "www.mueller.de",
-  "robotsTxt": "# 1st section\r\nUser-agent: *\r\nDisallow: /cart/\r\nDisallow: /checkout/\r\nDisallow: /my-account/\r\nSitemap: https://www.mueller.de/sitemaps/sitemap.xml",
+  "robotsTxt": "# 1st section\nUser-agent: *\nDisallow: /cart/\nDisallow: /checkout/\nDisallow: /my-account/\nSitemap: https://www.mueller.de/sitemaps/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

@@ -1,7 +1,7 @@
 {
   "domain": "www.hengstenberg.de",
   "normalizedDomain": "www.hengstenberg.de",
-  "robotsTxt": "User-agent: *\r\nAllow: /\r\nDisallow: /apps/\r\nDisallow: /captcha/\r\nDisallow: /cms/\r\nDisallow: /data/\r\nDisallow: /extern/\r\nDisallow: /int/\r\nDisallow: /test/\r\nDisallow: /upload/\r\nDisallow: /usage/\r\nDisallow: /vendor/\r\nSitemap: https://www.hengstenberg.de/sitemap.xml",
+  "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /apps/\nDisallow: /captcha/\nDisallow: /cms/\nDisallow: /data/\nDisallow: /extern/\nDisallow: /int/\nDisallow: /test/\nDisallow: /upload/\nDisallow: /usage/\nDisallow: /vendor/\nSitemap: https://www.hengstenberg.de/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

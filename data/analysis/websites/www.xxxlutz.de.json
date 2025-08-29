@@ -1,7 +1,7 @@
 {
   "domain": "www.xxxlutz.de",
   "normalizedDomain": "www.xxxlutz.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /account\r\nDisallow: /checkout\r\nDisallow: /e-billing\r\nDisallow: /error\r\nDisallow: /cart\r\nDisallow: /feedexport/export/google/products/xml\r\nDisallow: /feedexport/export/criteo/products/xml\r\nDisallow: /feedexport/export/criteo/products/csv\r\nDisallow: /mpp/register\r\nDisallow: /newsletter\r\nDisallow: /reservation\r\nDisallow: /return\r\nDisallow: /wishlist\r\nDisallow: /s?encodedfhlink=*\r\nDisallow: /api/tracking\r\nDisallow: /s/\r\nDisallow: /h/\r\nDisallow: /orders/\r\nSitemap: https://www.xxxlutz.de/sitemap-categories.xml\r\nSitemap: https://www.xxxlutz.de/sitemap-images.xml\r\nSitemap: https://www.xxxlutz.de/sitemap-cms.xml\r\nSitemap: https://www.xxxlutz.de/sitemap-subsidiaries.xml\r\nSitemap: https://www.xxxlutz.de/sitemap-showrooms.xml",
+  "robotsTxt": "User-agent: *\nDisallow: /account\nDisallow: /checkout\nDisallow: /e-billing\nDisallow: /error\nDisallow: /cart\nDisallow: /feedexport/export/google/products/xml\nDisallow: /feedexport/export/criteo/products/xml\nDisallow: /feedexport/export/criteo/products/csv\nDisallow: /mpp/register\nDisallow: /newsletter\nDisallow: /reservation\nDisallow: /return\nDisallow: /wishlist\nDisallow: /s?encodedfhlink=*\nDisallow: /api/tracking\nDisallow: /s/\nDisallow: /h/\nDisallow: /orders/\nSitemap: https://www.xxxlutz.de/sitemap-categories.xml\nSitemap: https://www.xxxlutz.de/sitemap-images.xml\nSitemap: https://www.xxxlutz.de/sitemap-cms.xml\nSitemap: https://www.xxxlutz.de/sitemap-subsidiaries.xml\nSitemap: https://www.xxxlutz.de/sitemap-showrooms.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

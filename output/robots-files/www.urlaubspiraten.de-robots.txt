@@ -1,6 +1,9 @@
 User-agent: *
 Allow: /
-Disallow: /search
+Disallow: /explore
+Disallow: /suche
+Disallow: /*?*ref=
+Disallow: /*?*clickout_id=
 
 Sitemap: https://www.urlaubspiraten.de/sitemap/sitemap_index.xml.gz
 Sitemap: https://www.urlaubspiraten.de/sitemap/sitemap_news.xml

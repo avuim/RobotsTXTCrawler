@@ -1,7 +1,7 @@
 {
   "domain": "www.neudorff.de",
   "normalizedDomain": "www.neudorff.de",
-  "robotsTxt": "User-agent: ClaudeBot\r\nDisallow: /\r\n\r\nUser-agent: Claude-Web\r\nDisallow: /\r\n\r\nUser-agent: *\r\nAllow: /\r\n\r\nSitemap: https://www.neudorff.de/sitemap.xml",
+  "robotsTxt": "User-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: *\nAllow: /\n\nSitemap: https://www.neudorff.de/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

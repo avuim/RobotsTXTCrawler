@@ -1,7 +1,7 @@
 {
   "domain": "www.liebherr.com",
   "normalizedDomain": "www.liebherr.com",
-  "robotsTxt": "User-agent: *\r\ndisallow: /shared/media/corporate/documents/terms-and-conditions/\r\nDisallow: /WebResource.axd\r\nDisallow: /Data/Einkaufsbedingungen/\r\nDisallow: /Data/DEV/\r\nDisallow: /*partsshop/\r\nDisallow: /_api/app/job/speculative_application/\r\nDisallow: /wip/\r\nDisallow: /_wip/\r\nSitemap: https://www.liebherr.com/sitemap-index.xml",
+  "robotsTxt": "User-agent: *\ndisallow: /shared/media/corporate/documents/terms-and-conditions/\nDisallow: /WebResource.axd\nDisallow: /Data/Einkaufsbedingungen/\nDisallow: /Data/DEV/\nDisallow: /*partsshop/\nDisallow: /_api/app/job/speculative_application/\nDisallow: /wip/\nDisallow: /_wip/\nSitemap: https://www.liebherr.com/sitemap-index.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

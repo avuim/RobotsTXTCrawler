@@ -1,7 +1,7 @@
 {
   "domain": "www.wochenblatt-dlv.de",
   "normalizedDomain": "www.wochenblatt-dlv.de",
-  "robotsTxt": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n\nUser-agent: *\n# CSS, JS, Images\nAllow: /core/*.css$\nAllow: /core/*.css?\nAllow: /core/*.js$\nAllow: /core/*.js?\nAllow: /core/*.gif\nAllow: /core/*.jpg\nAllow: /core/*.jpeg\nAllow: /core/*.png\nAllow: /core/*.svg\nAllow: /profiles/*.css$\nAllow: /profiles/*.css?\nAllow: /profiles/*.js$\nAllow: /profiles/*.js?\nAllow: /profiles/*.gif\nAllow: /profiles/*.jpg\nAllow: /profiles/*.jpeg\nAllow: /profiles/*.png\nAllow: /profiles/*.svg\n# Directories\nDisallow: /core/\nDisallow: /profiles/\n# Files\nDisallow: /README.md\nDisallow: /composer/Metapackage/README.txt\nDisallow: /composer/Plugin/ProjectMessage/README.md\nDisallow: /composer/Plugin/Scaffold/README.md\nDisallow: /composer/Plugin/VendorHardening/README.txt\nDisallow: /composer/Template/README.txt\nDisallow: /modules/README.txt\nDisallow: /sites/README.txt\nDisallow: /themes/README.txt\nDisallow: /web.config\n# Paths (clean URLs)\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /user/register\nDisallow: /user/password\nDisallow: /user/login\nDisallow: /user/logout\nDisallow: /media/oembed\nDisallow: /*/media/oembed\n# Paths (no clean URLs)\nDisallow: /index.php/admin/\nDisallow: /index.php/comment/reply/\nDisallow: /index.php/filter/tips\nDisallow: /index.php/node/add/\nDisallow: /index.php/search/\nDisallow: /index.php/user/password\nDisallow: /index.php/user/register\nDisallow: /index.php/user/login\nDisallow: /index.php/user/logout\nDisallow: /index.php/media/oembed\nDisallow: /index.php/*/media/oembed\n\n# AI Bots\n# Allen Institute (AI2Bot)\nUser-agent: AI2Bot\nDisallow: /\n\n# Amazon (Amazonbot)\nUser-agent: Amazonbot\nDisallow: /\n\n# Anthropic (Anthropic AI Bot)\nUser-agent: anthropic-ai\nDisallow: /\n\n# Anthropic (ClaudeBot)\nUser-agent: ClaudeBot\nDisallow: /\n\n# Anthropic (Claude Web)\nUser-agent: claude-web\nDisallow: /\n\n# Apple (Applebot)\nUser-agent: Applebot\nDisallow: /\n\n# Apple (Applebot-Extended)\nUser-agent: Applebot-Extended\nDisallow: /\n\n# ByteDance (Bytespider)\nUser-agent: Bytespider\nDisallow: /\n\n# Common Crawl (CCBot)\nUser-agent: CCBot\nDisallow: /\n\n# OpenAI (ChatGPT-User)\nUser-agent: ChatGPT-User\nDisallow: /\n\n# OpenAI (GPTBot)\nUser-agent: GPTBot\nDisallow: /\n\n# OpenAI (OAI-SearchBot)\nUser-agent: OAI-SearchBot\nDisallow: /\n\n# Cohere (cohere-ai)\nUser-agent: cohere-ai\nDisallow: /\n\n# Diffbot (DiffBot)\nUser-agent: DiffBot\nDisallow: /\n\n# DuckDuckGo (DuckAssistBot)\nUser-agent: DuckAssistBot\nDisallow: /\n\n# Meta (FacebookBot)\nUser-agent: FacebookBot\nDisallow: /\n\n# Meta (Meta External Fetcher)\nUser-agent: meta-externalagent\nDisallow: /\n\n# Google (Google-Extended)\nUser-agent: Google-Extended\nDisallow: /\n\n# LinkedIn (LinkedInBot)\nUser-agent: LinkedInBot\nDisallow: /\n\n# Omgili (omgili)\nUser-agent: omgili\nDisallow: /\n\n# Perplexity (PerplexityBot)\nUser-agent: PerplexityBot\nDisallow: /\n\n# Timpi (Timpibot)\nUser-agent: Timpibot\nDisallow: /\n\n# You.com (YouBot)\nUser-agent: YouBot\nDisallow: /",
+  "robotsTxt": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n\nUser-agent: *\n# CSS, JS, Images\nAllow: /core/*.css$\nAllow: /core/*.css?\nAllow: /core/*.js$\nAllow: /core/*.js?\nAllow: /core/*.gif\nAllow: /core/*.jpg\nAllow: /core/*.jpeg\nAllow: /core/*.png\nAllow: /core/*.svg\nAllow: /profiles/*.css$\nAllow: /profiles/*.css?\nAllow: /profiles/*.js$\nAllow: /profiles/*.js?\nAllow: /profiles/*.gif\nAllow: /profiles/*.jpg\nAllow: /profiles/*.jpeg\nAllow: /profiles/*.png\nAllow: /profiles/*.svg\n# Directories\nDisallow: /core/\nDisallow: /profiles/\n# Files\nDisallow: /README.md\nDisallow: /composer/Metapackage/README.txt\nDisallow: /composer/Plugin/ProjectMessage/README.md\nDisallow: /composer/Plugin/Scaffold/README.md\nDisallow: /composer/Plugin/VendorHardening/README.txt\nDisallow: /composer/Template/README.txt\nDisallow: /modules/README.txt\nDisallow: /sites/README.txt\nDisallow: /themes/README.txt\nDisallow: /web.config\n# Paths (clean URLs)\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /user/register\nDisallow: /user/password\nDisallow: /user/login\nDisallow: /user/logout\nDisallow: /media/oembed\nDisallow: /*/media/oembed\n# Paths (no clean URLs)\nDisallow: /index.php/admin/\nDisallow: /index.php/comment/reply/\nDisallow: /index.php/filter/tips\nDisallow: /index.php/node/add/\nDisallow: /index.php/search/\nDisallow: /index.php/user/password\nDisallow: /index.php/user/register\nDisallow: /index.php/user/login\nDisallow: /index.php/user/logout\nDisallow: /index.php/media/oembed\nDisallow: /index.php/*/media/oembed\n\n# AI Bots\n# Allen Institute (AI2Bot)\nUser-agent: AI2Bot\nDisallow: /\n\n# Amazon (Amazonbot)\nUser-agent: Amazonbot\nDisallow: /\n\n# Anthropic (Anthropic AI Bot)\nUser-agent: anthropic-ai\nDisallow: /\n\n# Anthropic (ClaudeBot)\nUser-agent: ClaudeBot\nDisallow: /\n\n# Anthropic (Claude Web)\nUser-agent: claude-web\nDisallow: /\n\n# Apple (Applebot)\nUser-agent: Applebot\nDisallow: /\n\n# Apple (Applebot-Extended)\nUser-agent: Applebot-Extended\nDisallow: /\n\n# ByteDance (Bytespider)\nUser-agent: Bytespider\nDisallow: /\n\n# Common Crawl (CCBot)\nUser-agent: CCBot\nDisallow: /\n\n# OpenAI (ChatGPT-User)\nUser-agent: ChatGPT-User\nDisallow: /\n\n# OpenAI (GPTBot)\nUser-agent: GPTBot\nDisallow: /\n\n# OpenAI (OAI-SearchBot)\nUser-agent: OAI-SearchBot\nDisallow: /\n\n# Cohere (cohere-ai)\nUser-agent: cohere-ai\nDisallow: /\n\n# Diffbot (DiffBot)\nUser-agent: DiffBot\nDisallow: /\n\n# DuckDuckGo (DuckAssistBot)\nUser-agent: DuckAssistBot\nDisallow: /\n\n# Meta (FacebookBot)\nUser-agent: FacebookBot\nDisallow: /\n\n# Meta (Meta External Fetcher)\nUser-agent: meta-externalagent\nDisallow: /\n\n# Google (Google-Extended)\nUser-agent: Google-Extended\nDisallow: /\n\n# Omgili (omgili)\nUser-agent: omgili\nDisallow: /\n\n# Perplexity (PerplexityBot)\nUser-agent: PerplexityBot\nDisallow: /\n\n# Timpi (Timpibot)\nUser-agent: Timpibot\nDisallow: /\n\n# You.com (YouBot)\nUser-agent: YouBot\nDisallow: /\n",
   "globalRules": {
     "paths": {
       "allowed": [
@@ -208,14 +208,6 @@
       }
     },
     {
-      "name": "LinkedInBot",
-      "allowed": false,
-      "paths": {
-        "allowed": [],
-        "disallowed": []
-      }
-    },
-    {
       "name": "omgili",
       "allowed": false,
       "paths": {
@@ -249,9 +241,9 @@
     }
   ],
   "stats": {
-    "totalSpecificBots": 23,
+    "totalSpecificBots": 22,
     "allowedBots": 0,
-    "disallowedBots": 23,
+    "disallowedBots": 22,
     "hasGlobalAllow": true
   },
   "bots": [
@@ -329,10 +321,6 @@
     },
     {
       "name": "Google-Extended",
-      "allowed": false
-    },
-    {
-      "name": "LinkedInBot",
       "allowed": false
     },
     {

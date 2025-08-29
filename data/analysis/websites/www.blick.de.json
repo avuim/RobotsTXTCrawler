@@ -1,6 +1,316 @@
 {
   "domain": "www.blick.de",
   "normalizedDomain": "www.blick.de",
+  "robotsTxt": "Sitemap: https://www.blick.de/sitemap/sitemap.xml\nSitemap: https://www.blick.de/erfahrungen/sitemap_index.xml\nSitemap: https://www.blick.de/vergleich/sitemap_index.xml\n\nUser-agent: *\nDisallow: /suche$\nDisallow: /suche?*\nDisallow: /SOCIALPLUGINS/twitter.php*\nDisallow: /erfahrungen/go/*\nDisallow: /erfahrungen/wp-admin/*\nAllow: /erfahrungen/wp-admin/admin-ajax.php\nDisallow: /vergleich/go/*\nDisallow: /vergleich/wp-admin/*\nAllow: /vergleich/wp-admin/admin-ajax.php\nDisallow: /ct\nDisallow: /pm\nDisallow: /ampaccess\nDisallow: /ampaccess/*\n\n# Exclude SEO-Tools & SPAM-Bots\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: backlink-check.de\nDisallow: /\n\nUser-agent: BacklinkCrawler\nDisallow: /\n\nUser-agent: Bloodhound\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: cydralspider\nDisallow: /\n\nUser-agent: downloadexpress\nDisallow: /\n\nUser-agent: ExtractorPro\nDisallow: /\n\nUser-agent: Fasterfox\nDisallow: /\n\nUser-agent: gammaSpider\nDisallow: /\n\nUser-agent: LinkextractorPro\nDisallow: /\n\nUser-agent: LinkWalker\nDisallow: /\n\nUser-agent: Meltwater\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: NewsNow\nDisallow: /\n\nUser-agent: Node/simplecrawler\nDisallow: /\n\nUser-agent: Node/simplecrawler 0.7.0 (git+https://github.com/cgiffard/node-simplecrawler.git)\nDisallow: /\n\nUser-agent: ObjectsSearch\nDisallow: /\n\nUser-agent: Openbot\nDisallow: /\n\nUser-agent: Pimptrain\nDisallow: /\n\nUser-agent: Raven\nDisallow: /\n\nUser-agent: rogerbot\nDisallow: /\n\nUser-agent: searchpreview\nDisallow: /\n\nUser-agent: simplecrawler\nDisallow: /\n\nUser-agent: SEODAT\nDisallow: /\n\nUser-agent: SEOENGBot\nDisallow: /\n\nUser-agent: SEOkicks-Robot\nDisallow: /\n\nUser-agent: True_Robot\nDisallow: /\n\nUser-agent: URL Control\nDisallow: /\n\nUser-agent: URL_Spider_Pro\nDisallow: /\n\nUser-agent: wapspider\nDisallow: /\n\nUser-agent: WebZinger\nDisallow: /\n\nUser-agent: xovi\nDisallow: /\n\n# Legal notice: blick.de expressly reserves the right to use its content for commercial text and data mining (§ 44 b UrhG).\n# The use of robots or other automated means to access blick.de or collect or mine data without\n# the express permission of blick.de is strictly prohibited.\n# blick.de may, in its discretion, permit certain automated access to certain blick.de pages.\n# If you would like to apply for permission to crawl blick.de, collect or use data, please email Kontakt@freiepresse-mediengruppe.de",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/erfahrungen/wp-admin/admin-ajax.php",
+        "/vergleich/wp-admin/admin-ajax.php"
+      ],
+      "disallowed": [
+        "/suche$",
+        "/suche?*",
+        "/SOCIALPLUGINS/twitter.php*",
+        "/erfahrungen/go/*",
+        "/erfahrungen/wp-admin/*",
+        "/vergleich/go/*",
+        "/vergleich/wp-admin/*",
+        "/ct",
+        "/pm",
+        "/ampaccess",
+        "/ampaccess/*"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "backlink-check.de",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "BacklinkCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bloodhound",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cydralspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "downloadexpress",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ExtractorPro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Fasterfox",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "gammaSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkextractorPro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "LinkWalker",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meltwater",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NewsNow",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Node/simplecrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Node/simplecrawler 0.7.0 (git+https://github.com/cgiffard/node-simplecrawler.git)",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ObjectsSearch",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Openbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Pimptrain",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Raven",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "rogerbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "searchpreview",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "simplecrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEODAT",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEOENGBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SEOkicks-Robot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "True_Robot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "URL Control",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "URL_Spider_Pro",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wapspider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WebZinger",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "xovi",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 35,
+    "allowedBots": 0,
+    "disallowedBots": 35,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
@@ -146,5 +456,24 @@
       "name": "xovi",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/erfahrungen/wp-admin/admin-ajax.php",
+      "/vergleich/wp-admin/admin-ajax.php"
+    ],
+    "disallowed": [
+      "/suche$",
+      "/suche?*",
+      "/SOCIALPLUGINS/twitter.php*",
+      "/erfahrungen/go/*",
+      "/erfahrungen/wp-admin/*",
+      "/vergleich/go/*",
+      "/vergleich/wp-admin/*",
+      "/ct",
+      "/pm",
+      "/ampaccess",
+      "/ampaccess/*"
+    ]
+  }
 }

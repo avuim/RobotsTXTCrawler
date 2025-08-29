@@ -1,10 +1,58 @@
 {
   "domain": "www.gandersheimer-kreisblatt.de",
   "normalizedDomain": "www.gandersheimer-kreisblatt.de",
+  "robotsTxt": "User-agent: *\nDisallow: /check/\nDisallow: /contao/\nDisallow: /system/\nDisallow: /templates/\nDisallow: /vendor/\nDisallow: /share/index.php\nDisallow: /build.xml\nDisallow: /composer.json\nDisallow: /composer.lock\nDisallow: /README.md\nAllow: /system/cron/cron.txt\nAllow: /system/modules/*/assets/\nAllow: /system/modules/*/html/",
+  "globalRules": {
+    "paths": {
+      "allowed": [
+        "/system/cron/cron.txt",
+        "/system/modules/*/assets/",
+        "/system/modules/*/html/"
+      ],
+      "disallowed": [
+        "/check/",
+        "/contao/",
+        "/system/",
+        "/templates/",
+        "/vendor/",
+        "/share/index.php",
+        "/build.xml",
+        "/composer.json",
+        "/composer.lock",
+        "/README.md"
+      ]
+    }
+  },
+  "specificBots": [],
+  "stats": {
+    "totalSpecificBots": 0,
+    "allowedBots": 0,
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
       "allowed": true
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [
+      "/system/cron/cron.txt",
+      "/system/modules/*/assets/",
+      "/system/modules/*/html/"
+    ],
+    "disallowed": [
+      "/check/",
+      "/contao/",
+      "/system/",
+      "/templates/",
+      "/vendor/",
+      "/share/index.php",
+      "/build.xml",
+      "/composer.json",
+      "/composer.lock",
+      "/README.md"
+    ]
+  }
 }

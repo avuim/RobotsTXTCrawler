@@ -1,7 +1,7 @@
 {
   "domain": "www.spotify.com",
   "normalizedDomain": "www.spotify.com",
-  "robotsTxt": "User-agent: *\r\nDisallow: /*/about-us/contact/contact-spotify-password/\r\nDisallow: /*/about-us/contact/contact-spotify-account/\r\nDisallow: /*/get-spotify/*\r\nDisallow: /*/xhr/*\r\nDisallow: /*/external/*\r\nDisallow: /*/legal/*?ets=\r\nDisallow: /*/legal/advertiser-terms-and-conditions/\r\nDisallow: /*/legal/gdpr-article-15-information/\r\nDisallow: /*/legal/spotify-controller-data-processing-terms/\r\nDisallow: /*/account/cls/*\r\nDisallow: /*/starbuckspartners\r\nDisallow: /starbuckspartners\r\nDisallow: /ppt/*?\r\nDisallow: /partner/*?\r\nSitemap: https://www.spotify.com/sitemap.xml\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /*/about-us/contact/contact-spotify-password/\nDisallow: /*/about-us/contact/contact-spotify-account/\nDisallow: /*/get-spotify/*\nDisallow: /*/xhr/*\nDisallow: /*/external/*\nDisallow: /*/legal/*?ets=\nDisallow: /*/legal/advertiser-terms-and-conditions/\nDisallow: /*/legal/gdpr-article-15-information/\nDisallow: /*/legal/spotify-controller-data-processing-terms/\nDisallow: /*/account/cls/*\nDisallow: /*/starbuckspartners\nDisallow: /starbuckspartners\nDisallow: /ppt/*?\nDisallow: /partner/*?\nSitemap: https://www.spotify.com/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

@@ -8,8 +8,13 @@ Disallow: /vendor/
 Disallow: /settings/* 
 Disallow: /page-cache/* 
 Disallow: /firmen/*/visit/* 
+Disallow: /firmen/*/claim
 Disallow: /*?*refinementList
 Disallow: /suche
+Allow: /karriere/search?q=*&c=
+Disallow: /karriere/search*?q*&c=*&*
+Allow: /karriere/*-jobs
+Disallow: /karriere/*-jobs?*
 
 User-agent: GPTBot
 Disallow: /

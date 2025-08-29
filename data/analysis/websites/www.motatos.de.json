@@ -1,7 +1,7 @@
 {
   "domain": "www.motatos.de",
   "normalizedDomain": "www.motatos.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /search?q=*\r\n\r\nUser-agent: Googlebot\r\nDisallow:\r\n\r\nUser-agent: Googlebot-image\r\nDisallow:",
+  "robotsTxt": "User-agent: *\nDisallow: /search?q=*\n\nUser-agent: Googlebot\nDisallow:\n\nUser-agent: Googlebot-image\nDisallow:",
   "globalRules": {
     "paths": {
       "allowed": [],

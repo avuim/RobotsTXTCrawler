@@ -1,7 +1,7 @@
 {
   "domain": "www.gala.de",
   "normalizedDomain": "www.gala.de",
-  "robotsTxt": "User-agent: msnbot-media/1.1\nDisallow: /\n\nUser-agent: msnbot-media/2.0b\nDisallow: /\n\nUser-agent: scrapy\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: proximic\nDisallow: /*&ampshare=*\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Timpibot\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: omgilibot\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: *\nDisallow: /p/\nDisallow: /p-api/\nDisallow: /action/\nDisallow: /sn/\nDisallow: /syndication/\nDisallow: /elastic/\nDisallow: /search?\nDisallow: /gutscheine/wp-admin/\n\n",
+  "robotsTxt": "User-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: DeepSeek\nDisallow: /\n\nUser-agent: DeepSeekBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: msnbot-media/1.1\nDisallow: /\n\nUser-agent: msnbot-media/2.0b\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: omgilibot\nDisallow: /\n\nUser-agent: proximic\nDisallow: /*&ampshare=*\n\nUser-agent: scrapy\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: Timpibot\nDisallow: /\n\nUser-agent: *\nDisallow: /p/\nDisallow: /p-api/\nDisallow: /action/\nDisallow: /sn/\nDisallow: /syndication/\nDisallow: /elastic/\nDisallow: /search?\n\n",
   "globalRules": {
     "paths": {
       "allowed": [],
@@ -12,12 +12,107 @@
         "/sn/",
         "/syndication/",
         "/elastic/",
-        "/search?",
-        "/gutscheine/wp-admin/"
+        "/search?"
       ]
     }
   },
   "specificBots": [
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DeepSeek",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DeepSeekBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
     {
       "name": "msnbot-media/1.1",
       "allowed": false,
@@ -35,7 +130,7 @@
       }
     },
     {
-      "name": "scrapy",
+      "name": "omgili",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -43,7 +138,7 @@
       }
     },
     {
-      "name": "Diffbot",
+      "name": "omgilibot",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -61,39 +156,15 @@
       }
     },
     {
+      "name": "scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
       "name": "SemrushBot",
-      "allowed": false,
-      "paths": {
-        "allowed": [],
-        "disallowed": []
-      }
-    },
-    {
-      "name": "GPTBot",
-      "allowed": false,
-      "paths": {
-        "allowed": [],
-        "disallowed": []
-      }
-    },
-    {
-      "name": "CCBot",
-      "allowed": false,
-      "paths": {
-        "allowed": [],
-        "disallowed": []
-      }
-    },
-    {
-      "name": "Google-Extended",
-      "allowed": false,
-      "paths": {
-        "allowed": [],
-        "disallowed": []
-      }
-    },
-    {
-      "name": "Applebot-Extended",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -107,74 +178,66 @@
         "allowed": [],
         "disallowed": []
       }
-    },
-    {
-      "name": "cohere-ai",
-      "allowed": false,
-      "paths": {
-        "allowed": [],
-        "disallowed": []
-      }
-    },
-    {
-      "name": "Bytespider",
-      "allowed": false,
-      "paths": {
-        "allowed": [],
-        "disallowed": []
-      }
-    },
-    {
-      "name": "omgili",
-      "allowed": false,
-      "paths": {
-        "allowed": [],
-        "disallowed": []
-      }
-    },
-    {
-      "name": "omgilibot",
-      "allowed": false,
-      "paths": {
-        "allowed": [],
-        "disallowed": []
-      }
-    },
-    {
-      "name": "anthropic-ai",
-      "allowed": false,
-      "paths": {
-        "allowed": [],
-        "disallowed": []
-      }
-    },
-    {
-      "name": "Claude-Web",
-      "allowed": false,
-      "paths": {
-        "allowed": [],
-        "disallowed": []
-      }
-    },
-    {
-      "name": "ClaudeBot",
-      "allowed": false,
-      "paths": {
-        "allowed": [],
-        "disallowed": []
-      }
     }
   ],
   "stats": {
-    "totalSpecificBots": 18,
+    "totalSpecificBots": 20,
     "allowedBots": 1,
-    "disallowedBots": 17,
+    "disallowedBots": 19,
     "hasGlobalAllow": true
   },
   "bots": [
     {
       "name": "*",
       "allowed": true
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "DeepSeek",
+      "allowed": false
+    },
+    {
+      "name": "DeepSeekBot",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false
     },
     {
       "name": "msnbot-media/1.1",
@@ -185,50 +248,6 @@
       "allowed": false
     },
     {
-      "name": "scrapy",
-      "allowed": false
-    },
-    {
-      "name": "Diffbot",
-      "allowed": false
-    },
-    {
-      "name": "proximic",
-      "allowed": true
-    },
-    {
-      "name": "SemrushBot",
-      "allowed": false
-    },
-    {
-      "name": "GPTBot",
-      "allowed": false
-    },
-    {
-      "name": "CCBot",
-      "allowed": false
-    },
-    {
-      "name": "Google-Extended",
-      "allowed": false
-    },
-    {
-      "name": "Applebot-Extended",
-      "allowed": false
-    },
-    {
-      "name": "Timpibot",
-      "allowed": false
-    },
-    {
-      "name": "cohere-ai",
-      "allowed": false
-    },
-    {
-      "name": "Bytespider",
-      "allowed": false
-    },
-    {
       "name": "omgili",
       "allowed": false
     },
@@ -237,15 +256,19 @@
       "allowed": false
     },
     {
-      "name": "anthropic-ai",
+      "name": "proximic",
+      "allowed": true
+    },
+    {
+      "name": "scrapy",
       "allowed": false
     },
     {
-      "name": "Claude-Web",
+      "name": "SemrushBot",
       "allowed": false
     },
     {
-      "name": "ClaudeBot",
+      "name": "Timpibot",
       "allowed": false
     }
   ],
@@ -258,8 +281,7 @@
       "/sn/",
       "/syndication/",
       "/elastic/",
-      "/search?",
-      "/gutscheine/wp-admin/"
+      "/search?"
     ]
   }
 }

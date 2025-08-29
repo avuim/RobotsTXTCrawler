@@ -1,7 +1,7 @@
 {
   "domain": "www.dmk.de",
   "normalizedDomain": "www.dmk.de",
-  "robotsTxt": "User-Agent: *\r\nAllow: /\r\n\r\n# folders\r\nDisallow: /typo3/\r\nAllow: /typo3temp/\r\nAllow: /fileadmin/\r\n\r\n# parameters\r\nDisallow: /*cHash               # no cHash\r\n#Disallow: /*?id=*               # non-realurl URLs\r\nDisallow: /*?\t\t\t\t\t# all Parameter Urls that are not enhanced\r\n\r\nAllow: /*/sitemap.xml?sitemap=*&cHash=*\r\n\r\nSitemap: https://www.dmk.de/de/sitemap.xml\r\nSitemap: https://www.dmk.de/en/sitemap.xml\r\n",
+  "robotsTxt": "User-Agent: *\nAllow: /\n\n# folders\nDisallow: /typo3/\nAllow: /typo3temp/\nAllow: /fileadmin/\n\n# parameters\nDisallow: /*cHash               # no cHash\n#Disallow: /*?id=*               # non-realurl URLs\nDisallow: /*?\t\t\t\t\t# all Parameter Urls that are not enhanced\n\nAllow: /*/sitemap.xml?sitemap=*&cHash=*\n\nSitemap: https://www.dmk.de/de/sitemap.xml\nSitemap: https://www.dmk.de/en/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [

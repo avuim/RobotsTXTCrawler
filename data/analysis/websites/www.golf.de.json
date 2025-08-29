@@ -1,7 +1,7 @@
 {
   "domain": "www.golf.de",
   "normalizedDomain": "www.golf.de",
-  "robotsTxt": "User-Agent: *\r\nAllow: /\r\n\r\n# folders\r\nDisallow: /fileadmin/_temp_/\r\nDisallow: /t3lib/\r\nDisallow: /typo3/\r\nAllow: /typo3/sysext/frontend/Resources/Public/*\r\nDisallow: /typo3_src/\r\nDisallow: /typo3conf/\r\nDisallow: /piwik/\r\nDisallow: /matomo/\r\nDisallow: /fileadmin/\r\nAllow: /fileadmin/content/\r\nAllow: /fileadmin/user_upload/\r\nDisallow: /fileadmin/content/Intern/\r\n\r\n# parameters\r\nDisallow: /*?id=*\r\nDisallow: /*cHash\r\nAllow: /*sitemap*cHash\r\nDisallow: /*tx_powermail_pi1\r\nDisallow: /*&type=9818\r\n\r\n# sitemap\r\nSitemap: https://p-vj0njy.project.space/sitemap.xml",
+  "robotsTxt": "User-Agent: *\r\nAllow: /\r\n\r\n# folders\r\nDisallow: /fileadmin/_temp_/\r\nDisallow: /t3lib/\r\nDisallow: /typo3/\r\nAllow: /typo3/sysext/frontend/Resources/Public/*\r\nDisallow: /typo3_src/\r\nDisallow: /typo3conf/\r\nDisallow: /piwik/\r\nDisallow: /matomo/\r\nDisallow: /fileadmin/\r\nAllow: /fileadmin/content/\r\nAllow: /fileadmin/user_upload/\r\nDisallow: /fileadmin/content/Intern/\r\n\r\n# parameters\r\nDisallow: /*?id=*\r\nDisallow: /*cHash\r\nAllow: /*sitemap*cHash\r\nDisallow: /*tx_powermail_pi1\r\nDisallow: /*&type=9818\r\n\r\n# sitemap\r\nSitemap: https://www.golf.de/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [

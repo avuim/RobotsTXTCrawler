@@ -1,7 +1,7 @@
 {
   "domain": "www.universal-music.de",
   "normalizedDomain": "www.universal-music.de",
-  "robotsTxt": "# robots.txt\r\n\r\nUser-agent: msnbot\r\nCrawl-delay: 1\r\n\r\nUser-agent: bingbot\r\nCrawl-delay: 1\r\n\r\nUser-agent: lyticsbot\r\nCrawl-delay: 10\r\n\r\nUser-agent: *\r\n\r\nSitemap: https://www.universal-music.de/sitemap/www.universal-music.de_sitemap.xml\r\nSitemap: https://www.universal-music.de/sitemap/www.universal-music.de_news_sitemap.xml\r\nSitemap: https://www.universal-music.de/sitemap/www.universal-music.de_images_sitemap.xml\r\nSitemap: https://www.universal-music.de/sitemap/www.universal-music.de_video_sitemap.xml\r\n",
+  "robotsTxt": "# robots.txt\n\nUser-agent: msnbot\nCrawl-delay: 1\n\nUser-agent: bingbot\nCrawl-delay: 1\n\nUser-agent: lyticsbot\nCrawl-delay: 10\n\nUser-agent: *\n\nSitemap: https://www.universal-music.de/sitemap/www.universal-music.de_sitemap.xml\nSitemap: https://www.universal-music.de/sitemap/www.universal-music.de_news_sitemap.xml\nSitemap: https://www.universal-music.de/sitemap/www.universal-music.de_images_sitemap.xml\nSitemap: https://www.universal-music.de/sitemap/www.universal-music.de_video_sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

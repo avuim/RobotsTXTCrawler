@@ -1,14 +1,45 @@
 {
   "domain": "www.immomarkt.ms",
   "normalizedDomain": "www.immomarkt.ms",
-  "bots": [
+  "robotsTxt": "User-agent: Twitterbot\nDisallow:\n\nUser-Agent: *\nAllow: /\nDisallow: /_em_oas_api\n\nSitemap: https://immomarkt.ms/sitemap.xml\nSitemap: https://immomarkt.ms/_em_oas/_em_daten/wnaoas/wnaimmo/_search/_sitemaps/sitemap_details_410.xml\nSitemap: https://immomarkt.ms/_em_oas/_em_daten/wnaoas/wnaimmo/_search/_sitemaps/sitemap.xml\nSitemap: https://immomarkt.ms/_em_oas/_em_daten/wnaoas/wnaimmo/_search/_sitemaps/sitemap_companyindex.xml",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/_em_oas_api"
+      ]
+    }
+  },
+  "specificBots": [
     {
       "name": "Twitterbot",
-      "allowed": false
-    },
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 1,
+    "allowedBots": 0,
+    "disallowedBots": 1,
+    "hasGlobalAllow": true
+  },
+  "bots": [
     {
       "name": "*",
       "allowed": true
+    },
+    {
+      "name": "Twitterbot",
+      "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/_em_oas_api"
+    ]
+  }
 }

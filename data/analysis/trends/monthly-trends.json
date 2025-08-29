@@ -75,7 +75,7 @@
   {
     "month": "2025-08",
     "totalBots": 1326,
-    "totalWebsites": 1261,
+    "totalWebsites": 1271,
     "botCategories": {
       "other": 1166,
       "aiScraper": 34,
@@ -85,63 +85,63 @@
     "topBots": [
       {
         "name": "*",
-        "websites": 1687,
-        "allowed": 545,
-        "disallowed": 1142
+        "websites": 1239,
+        "allowed": 1138,
+        "disallowed": 101
       },
       {
         "name": "GPTBot",
-        "websites": 396,
-        "allowed": 59,
-        "disallowed": 337
+        "websites": 349,
+        "allowed": 13,
+        "disallowed": 336
       },
       {
         "name": "CCBot",
-        "websites": 342,
-        "allowed": 54,
+        "websites": 294,
+        "allowed": 6,
         "disallowed": 288
       },
       {
         "name": "ChatGPT-User",
-        "websites": 232,
-        "allowed": 15,
-        "disallowed": 217
+        "websites": 224,
+        "allowed": 13,
+        "disallowed": 211
       },
       {
         "name": "Google-Extended",
-        "websites": 200,
-        "allowed": 14,
-        "disallowed": 186
+        "websites": 196,
+        "allowed": 12,
+        "disallowed": 184
       },
       {
         "name": "ClaudeBot",
-        "websites": 184,
-        "allowed": 6,
-        "disallowed": 178
+        "websites": 188,
+        "allowed": 4,
+        "disallowed": 184
       },
       {
         "name": "Bytespider",
-        "websites": 150,
-        "allowed": 5,
-        "disallowed": 145
+        "websites": 149,
+        "allowed": 2,
+        "disallowed": 147
       },
       {
         "name": "PerplexityBot",
-        "websites": 144,
-        "allowed": 12,
-        "disallowed": 132
+        "websites": 149,
+        "allowed": 9,
+        "disallowed": 140
       },
       {
         "name": "anthropic-ai",
         "websites": 136,
-        "allowed": 9,
-        "disallowed": 127
+        "allowed": 5,
+        "disallowed": 131
       },
       {
         "name": "cohere-ai",
-        "websites": 106,
+        "websites": 107,
         "allowed": 0,
-        "disallowed": 106
+        "disallowed": 107
       }
     ]
   }

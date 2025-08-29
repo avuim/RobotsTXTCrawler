@@ -1,7 +1,7 @@
 {
   "domain": "www.presseportal.de",
   "normalizedDomain": "www.presseportal.de",
-  "robotsTxt": "# robots.txt\n# Server: presseportal.de\n# last change: 2025-07-10 automatic\n\n#Sitemaps\nSitemap: https://www.presseportal.de/sitemap-de-index-stories-blaulicht.xml\nSitemap: https://www.presseportal.de/sitemap-de-index-stories-portal.xml\nSitemap: https://www.presseportal.de/sitemap-de-index-stories-newsroom.xml\nSitemap: https://www.presseportal.de/sitemap-de-index-keywords.xml\nSitemap: https://www.presseportal.de/sitemap-de-index-newsrooms.xml\nSitemap: https://www.presseportal.de/sitemap-de-latestnews.xml\nSitemap: https://www.presseportal.de/sitemap-de-topics.xml\nSitemap: https://www.presseportal.de/sitemap-de-index-cities.xml\n\n\nUser-agent: BurdaForward\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\n\nUser-agent: *\nDisallow: /images/\nDisallow: /text/\n\n\n\n",
+  "robotsTxt": "# robots.txt\n# Server: presseportal.de\n# last change: 2025-08-20 automatic\n\n#Sitemaps\nSitemap: https://www.presseportal.de/sitemap-de-index-stories-blaulicht.xml\nSitemap: https://www.presseportal.de/sitemap-de-index-stories-portal.xml\nSitemap: https://www.presseportal.de/sitemap-de-index-stories-newsroom.xml\nSitemap: https://www.presseportal.de/sitemap-de-index-keywords.xml\nSitemap: https://www.presseportal.de/sitemap-de-index-newsrooms.xml\nSitemap: https://www.presseportal.de/sitemap-de-latestnews.xml\nSitemap: https://www.presseportal.de/sitemap-de-topics.xml\nSitemap: https://www.presseportal.de/sitemap-de-index-cities.xml\n\n\nUser-agent: BurdaForward\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\n\nUser-agent: *\nDisallow: /images/\nDisallow: /text/\n\n\n\n",
   "globalRules": {
     "paths": {
       "allowed": [],

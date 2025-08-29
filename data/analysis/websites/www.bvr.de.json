@@ -1,7 +1,7 @@
 {
   "domain": "www.bvr.de",
   "normalizedDomain": "www.bvr.de",
-  "robotsTxt": "User-agent: *\r\nDisallow:\r\nDisallow: /cgi-bin/\r\nDisallow: /admin/\r\nSitemap: https://www.bvr.de/p.nsf/sitemap.xsp",
+  "robotsTxt": "User-agent: *\nDisallow:\nDisallow: /cgi-bin/\nDisallow: /admin/\nSitemap: https://www.bvr.de/p.nsf/sitemap.xsp",
   "globalRules": {
     "paths": {
       "allowed": [],

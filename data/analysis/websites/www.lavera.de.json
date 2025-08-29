@@ -1,7 +1,7 @@
 {
   "domain": "www.lavera.de",
   "normalizedDomain": "www.lavera.de",
-  "robotsTxt": "User-agent: *\r\nDisallow:/checkout/\r\nDisallow:/cookie/\r\nDisallow:/maintenance/\r\nDisallow:/export/\r\nDisallow:/suggest/\r\nDisallow:/preview/\r\n\r\nSitemap: https://www.lavera.de/sitemap.xml\r\n",
+  "robotsTxt": "User-agent: *\nDisallow:/checkout/\nDisallow:/cookie/\nDisallow:/maintenance/\nDisallow:/export/\nDisallow:/suggest/\nDisallow:/preview/\n\nSitemap: https://www.lavera.de/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

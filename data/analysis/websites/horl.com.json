@@ -1,7 +1,7 @@
 {
   "domain": "horl.com",
   "normalizedDomain": "horl.com",
-  "robotsTxt": "# robots.txt\r\nUser-agent: *\r\nAllow: All\r\nDisallow: /checkout/\r\nSitemap: https://www.horl.com/sitemap.xml\r\n",
+  "robotsTxt": "# robots.txt\nUser-agent: *\nAllow: All\nDisallow: /checkout/\nSitemap: https://www.horl.com/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [

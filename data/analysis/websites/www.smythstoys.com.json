@@ -1,7 +1,7 @@
 {
   "domain": "www.smythstoys.com",
   "normalizedDomain": "www.smythstoys.com",
-  "robotsTxt": "User-agent: *\r\nDisallow: */warenkorb\r\nDisallow: */checkout\r\nDisallow: */my-account\r\nDisallow: */mein-konto\r\nDisallow: */mon-compte\r\nDisallow: */confirm-order\r\nUser-agent: OAI-SearchBot\r\nAllow: /\r\nUser-agent: GPTBot\r\nAllow: /\r\nUser-agent: PerplexityBot\r\nAllow: /\r\nUser-agent: CazoodleBot\r\nDisallow: /\r\nUser-agent: dotbot\r\nDisallow: /\r\nUser-agent: Gigabot\r\nDisallow: /\r\nSitemap: https://www.smythstoys.com/uk/en-gb/sitemap.xml\r\nSitemap: https://www.smythstoys.com/ie/en-ie/sitemap.xml\r\nSitemap: https://www.smythstoys.com/de/de-de/sitemap.xml\r\nSitemap: https://www.smythstoys.com/at/de-at/sitemap.xml\r\nSitemap: https://www.smythstoys.com/ch/de-ch/sitemap.xml\r\nSitemap: https://www.smythstoys.com/fr/fr-fr/sitemap.xml\r\nSitemap: https://www.smythstoys.com/nl/nl-nl/sitemap.xml\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: */warenkorb\nDisallow: */checkout\nDisallow: */my-account\nDisallow: */mein-konto\nDisallow: */mon-compte\nDisallow: */confirm-order\nUser-agent: OAI-SearchBot\nAllow: /\nUser-agent: GPTBot\nAllow: /\nUser-agent: PerplexityBot\nAllow: /\nUser-agent: CazoodleBot\nDisallow: /\nUser-agent: dotbot\nDisallow: /\nUser-agent: Gigabot\nDisallow: /\nSitemap: https://www.smythstoys.com/uk/en-gb/sitemap.xml\nSitemap: https://www.smythstoys.com/ie/en-ie/sitemap.xml\nSitemap: https://www.smythstoys.com/de/de-de/sitemap.xml\nSitemap: https://www.smythstoys.com/at/de-at/sitemap.xml\nSitemap: https://www.smythstoys.com/ch/de-ch/sitemap.xml\nSitemap: https://www.smythstoys.com/fr/fr-fr/sitemap.xml\nSitemap: https://www.smythstoys.com/nl/nl-nl/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

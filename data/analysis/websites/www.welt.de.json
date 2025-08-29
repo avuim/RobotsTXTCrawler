@@ -1,7 +1,7 @@
 {
   "domain": "www.welt.de",
   "normalizedDomain": "www.welt.de",
-  "robotsTxt": "# The Facebook Crawler\nUser-agent: Facebot\nAllow: /\n\nUser-agent: sogou spider\nUser-agent: Baiduspider\nUser-agent: AhrefsBot\nUser-agent: SemrushBot-SA\nUser-agent: Flamingo_SearchEngine\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: AI2Bot\nUser-agent: Ai2Bot-Dolma\nUser-agent: aiHitBot\nUser-agent: Amazonbot\nUser-agent: Andibot\nUser-agent: anthropic-ai\nUser-agent: Applebot-Extended\nUser-agent: Awario\nUser-agent: bedrockbot\nUser-agent: Brightbot 1.0\nUser-agent: Bytespider\nUser-agent: CCBot\nUser-agent: Claude-SearchBot\nUser-agent: Claude-User\nUser-agent: Claude-Web\nUser-agent: ClaudeBot\nUser-agent: cohere-ai\nUser-agent: cohere-training-data-crawler\nUser-agent: Cotoyogi\nUser-agent: Crawlspace\nUser-agent: Datenbank Crawler\nUser-agent: Devin\nUser-agent: Diffbot\nUser-agent: DuckAssistBot\nUser-agent: Echobot Bot\nUser-agent: EchoboxBot\nUser-agent: FacebookBot\nUser-agent: Factset_spyderbot\nUser-agent: FirecrawlAgent\nUser-agent: FriendlyCrawler\nUser-agent: Gemini-Deep-Research\nUser-agent: Google-CloudVertexBot\nUser-agent: Google-Extended\nUser-agent: GoogleAgent-Mariner\nUser-agent: GoogleOther\nUser-agent: GoogleOther-Image\nUser-agent: GoogleOther-Video\nUser-agent: iaskspider/2.0\nUser-agent: ICC-Crawler\nUser-agent: ImagesiftBot\nUser-agent: img2dataset\nUser-agent: ISSCyberRiskCrawler\nUser-agent: Kangaroo Bot\nUser-agent: meta-externalagent\nUser-agent: Meta-ExternalAgent\nUser-agent: meta-externalfetcher\nUser-agent: Meta-ExternalFetcher\nUser-agent: MistralAI-User\nUser-agent: MistralAI-User/1.0\nUser-agent: MyCentralAIScraperBot\nUser-agent: netEstate Imprint Crawler\nUser-agent: NovaAct\nUser-agent: omgili\nUser-agent: omgilibot\nUser-agent: Operator\nUser-agent: PanguBot\nUser-agent: Panscient\nUser-agent: panscient.com\nUser-agent: Perplexity-User\nUser-agent: PerplexityBot\nUser-agent: PetalBot\nUser-agent: PhindBot\nUser-agent: Poseidon Research Crawler\nUser-agent: QualifiedBot\nUser-agent: QuillBot\nUser-agent: quillbot.com\nUser-agent: SBIntuitionsBot\nUser-agent: Scrapy\nUser-agent: SemrushBot-OCOB\nUser-agent: SemrushBot-SWA\nUser-agent: Sidetrade indexer bot\nUser-agent: SummalyBot\nUser-agent: Thinkbot\nUser-agent: TikTokSpider\nUser-agent: Timpibot\nUser-agent: VelenPublicWebCrawler\nUser-agent: WARDBot\nUser-agent: Webzio-Extended\nUser-agent: wpbot\nUser-agent: YandexAdditional\nUser-agent: YandexAdditionalBot\nUser-agent: YouBot\nDisallow: /\n\n\nUser-agent: *\nDisallow: /channels-extern/\nDisallow: /sportdaten/\nDisallow: /testgpr/\nDisallow: /boerse/data/\nDisallow: /partner/\nDisallow: /reisetipps/\nDisallow: /z/\nDisallow: /appl/\nDisallow: /woa/\nDisallow: /am-sonntag/vorproduktion/\nDisallow: /audiofiles/\nDisallow: /out-of-home/\nDisallow: /immobilien/expose\nDisallow: /suche\nDisallow: /onward/\nDisallow: /api/\nDisallow: /*?config\nDisallow: /*?config=newsmli_bloomberg2\nDisallow: /*.xmli\nDisallow: /*?service=ajax\nDisallow: /*?service=Ajax\nDisallow: /*?ajax\nDisallow: /*?ajax&wid\nDisallow: /*?config=print\nDisallow: /*?config=articleidfromurl\nDisallow: /*?config=endscreen\nDisallow: /*?config=iframewelt\nDisallow: /*?config=langeslestueck\nDisallow: /*?config=latest_videos\nDisallow: /*?config=menu_home\nDisallow: /*?config=mostviewed_videos\nDisallow: /*?config=recommended_videos\nDisallow: /*?config=regioarticlemarginal\nDisallow: /*?config=zoom\nDisallow: /*?config=zoomopener\nDisallow: /*?noredirect=true&config=standalone\nDisallow: /*?config=standalone\nDisallow: /*?wtmc=XING\nDisallow: /*?config=articleidfromurl\nDisallow: /*?print=yes\nDisallow: /*?tabPane\nDisallow: /video/embeded/\nDisallow: /img/*-wWIDTH*.jpg\nDisallow: /assets/public/fonts/\n\n\nSitemap: https://www.welt.de/sitemaps/newssitemap/newssitemap.xml\nSitemap: https://www.welt.de/sitemaps/sitemap/sitemap.xml\nSitemap: https://www.welt.de/sitemaps/videositemap/videositemap.xml",
+  "robotsTxt": "# The Facebook Crawler\nUser-agent: Facebot\nAllow: /\n\nUser-agent: sogou spider\nUser-agent: Baiduspider\nUser-agent: AhrefsBot\nUser-agent: SemrushBot-SA\nUser-agent: Flamingo_SearchEngine\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: AI2Bot\nUser-agent: Ai2Bot-Dolma\nUser-agent: aiHitBot\nUser-agent: Amazonbot\nUser-agent: Andibot\nUser-agent: anthropic-ai\nUser-agent: Applebot-Extended\nUser-agent: Awario\nUser-agent: bedrockbot\nUser-agent: Brightbot 1.0\nUser-agent: Bytespider\nUser-agent: CCBot\nUser-agent: Claude-SearchBot\nUser-agent: Claude-User\nUser-agent: Claude-Web\nUser-agent: ClaudeBot\nUser-agent: cohere-ai\nUser-agent: cohere-training-data-crawler\nUser-agent: Cotoyogi\nUser-agent: Crawlspace\nUser-agent: Datenbank Crawler\nUser-agent: Devin\nUser-agent: Diffbot\nUser-agent: DuckAssistBot\nUser-agent: Echobot Bot\nUser-agent: EchoboxBot\nUser-agent: FacebookBot\nUser-agent: Factset_spyderbot\nUser-agent: FirecrawlAgent\nUser-agent: FriendlyCrawler\nUser-agent: Gemini-Deep-Research\nUser-agent: Google-CloudVertexBot\nUser-agent: Google-Extended\nUser-agent: GoogleAgent-Mariner\nUser-agent: GoogleOther\nUser-agent: GoogleOther-Image\nUser-agent: GoogleOther-Video\nUser-agent: iaskspider/2.0\nUser-agent: ICC-Crawler\nUser-agent: ImagesiftBot\nUser-agent: img2dataset\nUser-agent: ISSCyberRiskCrawler\nUser-agent: Kangaroo Bot\nUser-agent: meta-externalagent\nUser-agent: Meta-ExternalAgent\nUser-agent: meta-externalfetcher\nUser-agent: Meta-ExternalFetcher\nUser-agent: MistralAI-User\nUser-agent: MistralAI-User/1.0\nUser-agent: MyCentralAIScraperBot\nUser-agent: netEstate Imprint Crawler\nUser-agent: NovaAct\nUser-agent: omgili\nUser-agent: omgilibot\nUser-agent: Operator\nUser-agent: PanguBot\nUser-agent: Panscient\nUser-agent: panscient.com\nUser-agent: Perplexity-User\nUser-agent: PerplexityBot\nUser-agent: PetalBot\nUser-agent: PhindBot\nUser-agent: Poseidon Research Crawler\nUser-agent: QualifiedBot\nUser-agent: QuillBot\nUser-agent: quillbot.com\nUser-agent: SBIntuitionsBot\nUser-agent: Scrapy\nUser-agent: SemrushBot-OCOB\nUser-agent: SemrushBot-SWA\nUser-agent: Sidetrade indexer bot\nUser-agent: SummalyBot\nUser-agent: TerraCotta\nUser-agent: Thinkbot\nUser-agent: TikTokSpider\nUser-agent: Timpibot\nUser-agent: VelenPublicWebCrawler\nUser-agent: WARDBot\nUser-agent: Webzio-Extended\nUser-agent: wpbot\nUser-agent: YandexAdditional\nUser-agent: YandexAdditionalBot\nUser-agent: YouBot\nDisallow: /\n\n\nUser-agent: *\nDisallow: /channels-extern/\nDisallow: /sportdaten/\nDisallow: /testgpr/\nDisallow: /boerse/data/\nDisallow: /partner/\nDisallow: /reisetipps/\nDisallow: /z/\nDisallow: /appl/\nDisallow: /woa/\nDisallow: /am-sonntag/vorproduktion/\nDisallow: /audiofiles/\nDisallow: /out-of-home/\nDisallow: /immobilien/expose\nDisallow: /suche\nDisallow: /onward/\nDisallow: /api/\nDisallow: /*?config\nDisallow: /*?config=newsmli_bloomberg2\nDisallow: /*.xmli\nDisallow: /*?service=ajax\nDisallow: /*?service=Ajax\nDisallow: /*?ajax\nDisallow: /*?ajax&wid\nDisallow: /*?config=print\nDisallow: /*?config=articleidfromurl\nDisallow: /*?config=endscreen\nDisallow: /*?config=iframewelt\nDisallow: /*?config=langeslestueck\nDisallow: /*?config=latest_videos\nDisallow: /*?config=menu_home\nDisallow: /*?config=mostviewed_videos\nDisallow: /*?config=recommended_videos\nDisallow: /*?config=regioarticlemarginal\nDisallow: /*?config=zoom\nDisallow: /*?config=zoomopener\nDisallow: /*?noredirect=true&config=standalone\nDisallow: /*?config=standalone\nDisallow: /*?wtmc=XING\nDisallow: /*?config=articleidfromurl\nDisallow: /*?print=yes\nDisallow: /*?tabPane\nDisallow: /video/embeded/\nDisallow: /img/*-wWIDTH*.jpg\nDisallow: /assets/public/fonts/\n\n\nSitemap: https://www.welt.de/sitemaps/newssitemap/newssitemap.xml\nSitemap: https://www.welt.de/sitemaps/sitemap/sitemap.xml\nSitemap: https://www.welt.de/sitemaps/videositemap/videositemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [],
@@ -926,6 +926,14 @@
       }
     },
     {
+      "name": "TerraCotta",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
       "name": "Thinkbot",
       "allowed": false,
       "paths": {
@@ -1575,6 +1583,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -2231,6 +2247,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -2887,6 +2911,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -3543,6 +3575,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -4199,6 +4239,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -4855,6 +4903,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -5511,6 +5567,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -6174,6 +6238,14 @@
       }
     },
     {
+      "name": "TerraCotta",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
       "name": "Thinkbot",
       "allowed": false,
       "paths": {
@@ -6823,6 +6895,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -7479,6 +7559,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -8135,6 +8223,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -8791,6 +8887,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -9447,6 +9551,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -10103,6 +10215,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -10759,6 +10879,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -11422,6 +11550,14 @@
       }
     },
     {
+      "name": "TerraCotta",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
       "name": "Thinkbot",
       "allowed": false,
       "paths": {
@@ -12071,6 +12207,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -12727,6 +12871,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -13383,6 +13535,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -14039,6 +14199,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -14695,6 +14863,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -15351,6 +15527,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -16007,6 +16191,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -16670,6 +16862,14 @@
       }
     },
     {
+      "name": "TerraCotta",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
       "name": "Thinkbot",
       "allowed": false,
       "paths": {
@@ -17319,6 +17519,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -17975,6 +18183,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -18631,6 +18847,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -19287,6 +19511,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -19943,6 +20175,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -20599,6 +20839,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -21255,6 +21503,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -21918,6 +22174,14 @@
       }
     },
     {
+      "name": "TerraCotta",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
       "name": "Thinkbot",
       "allowed": false,
       "paths": {
@@ -22567,6 +22831,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -23223,6 +23495,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -23879,6 +24159,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -24542,7 +24830,7 @@
       }
     },
     {
-      "name": "Thinkbot",
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -24550,7 +24838,7 @@
       }
     },
     {
-      "name": "TikTokSpider",
+      "name": "Thinkbot",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -24558,7 +24846,7 @@
       }
     },
     {
-      "name": "Timpibot",
+      "name": "TikTokSpider",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -24566,6 +24854,678 @@
       }
     },
     {
+      "name": "Timpibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "VelenPublicWebCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "WARDBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Webzio-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "wpbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexAdditional",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YandexAdditionalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "YouBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Ai2Bot-Dolma",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "aiHitBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Andibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Awario",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "bedrockbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Brightbot 1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-SearchBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "cohere-training-data-crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Cotoyogi",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Crawlspace",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Datenbank Crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Devin",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Echobot Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "EchoboxBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Factset_spyderbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FirecrawlAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "FriendlyCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Gemini-Deep-Research",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-CloudVertexBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GoogleAgent-Mariner",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GoogleOther",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GoogleOther-Image",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GoogleOther-Video",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "iaskspider/2.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ICC-Crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "img2dataset",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "ISSCyberRiskCrawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Kangaroo Bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "meta-externalfetcher",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Meta-ExternalFetcher",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MistralAI-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MistralAI-User/1.0",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MyCentralAIScraperBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "netEstate Imprint Crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "NovaAct",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgili",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Operator",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PanguBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Panscient",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "panscient.com",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Perplexity-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "PhindBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Poseidon Research Crawler",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "QualifiedBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "QuillBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "quillbot.com",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SBIntuitionsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot-OCOB",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot-SWA",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Sidetrade indexer bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Thinkbot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TikTokSpider",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "Timpibot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
       "name": "VelenPublicWebCrawler",
       "allowed": false,
       "paths": {
@@ -25191,6 +26151,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -25854,6 +26822,14 @@
       }
     },
     {
+      "name": "TerraCotta",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
       "name": "Thinkbot",
       "allowed": false,
       "paths": {
@@ -26503,6 +27479,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -27159,6 +28143,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -27815,6 +28807,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -28471,6 +29471,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -29127,6 +30135,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -29783,6 +30799,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -30415,6 +31439,14 @@
     },
     {
       "name": "SemrushBot-OCOB",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "SemrushBot-SWA",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -30422,7 +31454,7 @@
       }
     },
     {
-      "name": "SemrushBot-SWA",
+      "name": "Sidetrade indexer bot",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -30430,7 +31462,7 @@
       }
     },
     {
-      "name": "Sidetrade indexer bot",
+      "name": "SummalyBot",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -30438,7 +31470,7 @@
       }
     },
     {
-      "name": "SummalyBot",
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -31095,6 +32127,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -31751,6 +32791,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -32407,6 +33455,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -33063,6 +34119,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -33719,6 +34783,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -34382,6 +35454,14 @@
       }
     },
     {
+      "name": "TerraCotta",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
       "name": "Thinkbot",
       "allowed": false,
       "paths": {
@@ -35031,6 +36111,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -35687,6 +36775,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -36343,6 +37439,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -36999,6 +38103,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -37655,6 +38767,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -38311,6 +39431,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -38967,6 +40095,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -39630,6 +40766,14 @@
       }
     },
     {
+      "name": "TerraCotta",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
       "name": "Thinkbot",
       "allowed": false,
       "paths": {
@@ -40279,6 +41423,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -40935,6 +42087,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -41591,6 +42751,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -42247,6 +43415,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -42903,6 +44079,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -43559,6 +44743,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -44215,6 +45407,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -44878,6 +46078,14 @@
       }
     },
     {
+      "name": "TerraCotta",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
       "name": "Thinkbot",
       "allowed": false,
       "paths": {
@@ -45527,6 +46735,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -46183,6 +47399,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -46839,6 +48063,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -47495,6 +48727,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -48151,6 +49391,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -48807,6 +50055,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -49463,6 +50719,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -50126,6 +51390,14 @@
       }
     },
     {
+      "name": "TerraCotta",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
       "name": "Thinkbot",
       "allowed": false,
       "paths": {
@@ -50775,6 +52047,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -51431,6 +52711,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -52087,6 +53375,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -52743,6 +54039,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -53399,6 +54703,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -54055,6 +55367,14 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false,
       "paths": {
         "allowed": [],
@@ -54143,9 +55463,9 @@
     }
   ],
   "stats": {
-    "totalSpecificBots": 6761,
+    "totalSpecificBots": 6926,
     "allowedBots": 1,
-    "disallowedBots": 6760,
+    "disallowedBots": 6925,
     "hasGlobalAllow": true
   },
   "bots": [
@@ -54590,6 +55910,342 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
+      "name": "Thinkbot",
+      "allowed": false
+    },
+    {
+      "name": "TikTokSpider",
+      "allowed": false
+    },
+    {
+      "name": "Timpibot",
+      "allowed": false
+    },
+    {
+      "name": "VelenPublicWebCrawler",
+      "allowed": false
+    },
+    {
+      "name": "WARDBot",
+      "allowed": false
+    },
+    {
+      "name": "Webzio-Extended",
+      "allowed": false
+    },
+    {
+      "name": "wpbot",
+      "allowed": false
+    },
+    {
+      "name": "YandexAdditional",
+      "allowed": false
+    },
+    {
+      "name": "YandexAdditionalBot",
+      "allowed": false
+    },
+    {
+      "name": "YouBot",
+      "allowed": false
+    },
+    {
+      "name": "AI2Bot",
+      "allowed": false
+    },
+    {
+      "name": "Ai2Bot-Dolma",
+      "allowed": false
+    },
+    {
+      "name": "aiHitBot",
+      "allowed": false
+    },
+    {
+      "name": "Amazonbot",
+      "allowed": false
+    },
+    {
+      "name": "Andibot",
+      "allowed": false
+    },
+    {
+      "name": "anthropic-ai",
+      "allowed": false
+    },
+    {
+      "name": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "name": "Awario",
+      "allowed": false
+    },
+    {
+      "name": "bedrockbot",
+      "allowed": false
+    },
+    {
+      "name": "Brightbot 1.0",
+      "allowed": false
+    },
+    {
+      "name": "Bytespider",
+      "allowed": false
+    },
+    {
+      "name": "CCBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-SearchBot",
+      "allowed": false
+    },
+    {
+      "name": "Claude-User",
+      "allowed": false
+    },
+    {
+      "name": "Claude-Web",
+      "allowed": false
+    },
+    {
+      "name": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "name": "cohere-ai",
+      "allowed": false
+    },
+    {
+      "name": "cohere-training-data-crawler",
+      "allowed": false
+    },
+    {
+      "name": "Cotoyogi",
+      "allowed": false
+    },
+    {
+      "name": "Crawlspace",
+      "allowed": false
+    },
+    {
+      "name": "Datenbank Crawler",
+      "allowed": false
+    },
+    {
+      "name": "Devin",
+      "allowed": false
+    },
+    {
+      "name": "Diffbot",
+      "allowed": false
+    },
+    {
+      "name": "DuckAssistBot",
+      "allowed": false
+    },
+    {
+      "name": "Echobot Bot",
+      "allowed": false
+    },
+    {
+      "name": "EchoboxBot",
+      "allowed": false
+    },
+    {
+      "name": "FacebookBot",
+      "allowed": false
+    },
+    {
+      "name": "Factset_spyderbot",
+      "allowed": false
+    },
+    {
+      "name": "FirecrawlAgent",
+      "allowed": false
+    },
+    {
+      "name": "FriendlyCrawler",
+      "allowed": false
+    },
+    {
+      "name": "Gemini-Deep-Research",
+      "allowed": false
+    },
+    {
+      "name": "Google-CloudVertexBot",
+      "allowed": false
+    },
+    {
+      "name": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "name": "GoogleAgent-Mariner",
+      "allowed": false
+    },
+    {
+      "name": "GoogleOther",
+      "allowed": false
+    },
+    {
+      "name": "GoogleOther-Image",
+      "allowed": false
+    },
+    {
+      "name": "GoogleOther-Video",
+      "allowed": false
+    },
+    {
+      "name": "iaskspider/2.0",
+      "allowed": false
+    },
+    {
+      "name": "ICC-Crawler",
+      "allowed": false
+    },
+    {
+      "name": "ImagesiftBot",
+      "allowed": false
+    },
+    {
+      "name": "img2dataset",
+      "allowed": false
+    },
+    {
+      "name": "ISSCyberRiskCrawler",
+      "allowed": false
+    },
+    {
+      "name": "Kangaroo Bot",
+      "allowed": false
+    },
+    {
+      "name": "meta-externalagent",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "name": "meta-externalfetcher",
+      "allowed": false
+    },
+    {
+      "name": "Meta-ExternalFetcher",
+      "allowed": false
+    },
+    {
+      "name": "MistralAI-User",
+      "allowed": false
+    },
+    {
+      "name": "MistralAI-User/1.0",
+      "allowed": false
+    },
+    {
+      "name": "MyCentralAIScraperBot",
+      "allowed": false
+    },
+    {
+      "name": "netEstate Imprint Crawler",
+      "allowed": false
+    },
+    {
+      "name": "NovaAct",
+      "allowed": false
+    },
+    {
+      "name": "omgili",
+      "allowed": false
+    },
+    {
+      "name": "omgilibot",
+      "allowed": false
+    },
+    {
+      "name": "Operator",
+      "allowed": false
+    },
+    {
+      "name": "PanguBot",
+      "allowed": false
+    },
+    {
+      "name": "Panscient",
+      "allowed": false
+    },
+    {
+      "name": "panscient.com",
+      "allowed": false
+    },
+    {
+      "name": "Perplexity-User",
+      "allowed": false
+    },
+    {
+      "name": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "name": "PetalBot",
+      "allowed": false
+    },
+    {
+      "name": "PhindBot",
+      "allowed": false
+    },
+    {
+      "name": "Poseidon Research Crawler",
+      "allowed": false
+    },
+    {
+      "name": "QualifiedBot",
+      "allowed": false
+    },
+    {
+      "name": "QuillBot",
+      "allowed": false
+    },
+    {
+      "name": "quillbot.com",
+      "allowed": false
+    },
+    {
+      "name": "SBIntuitionsBot",
+      "allowed": false
+    },
+    {
+      "name": "Scrapy",
+      "allowed": false
+    },
+    {
+      "name": "SemrushBot-OCOB",
+      "allowed": false
+    },
+    {
+      "name": "SemrushBot-SWA",
+      "allowed": false
+    },
+    {
+      "name": "Sidetrade indexer bot",
+      "allowed": false
+    },
+    {
+      "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -54915,6 +56571,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -55243,6 +56903,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -55574,6 +57238,10 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -55899,6 +57567,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -56227,6 +57899,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -56555,6 +58231,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -56886,6 +58566,10 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -57211,6 +58895,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -57539,6 +59227,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -57867,6 +59559,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -58198,6 +59894,10 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -58523,6 +60223,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -58851,6 +60555,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -59179,6 +60887,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -59510,6 +61222,10 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -59835,6 +61551,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -60163,6 +61883,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -60491,6 +62215,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -60822,6 +62550,10 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -61147,6 +62879,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -61475,6 +63211,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -61803,6 +63543,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -62134,6 +63878,10 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -62459,6 +64207,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -62787,6 +64539,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -63115,6 +64871,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -63446,6 +65206,10 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -63771,6 +65535,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -64099,6 +65867,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -64427,6 +66199,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -64758,6 +66534,10 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -65083,6 +66863,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -65411,6 +67195,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -65739,6 +67527,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -66070,6 +67862,10 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -66395,6 +68191,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -66723,6 +68523,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -67051,6 +68855,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -67382,6 +69190,10 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -67707,6 +69519,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -68035,6 +69851,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -68363,6 +70183,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -68694,6 +70518,10 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -69019,6 +70847,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -69347,6 +71179,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -69675,6 +71511,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -70006,6 +71846,10 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -70331,6 +72175,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -70659,6 +72507,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -70987,6 +72839,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -71318,6 +73174,10 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -71643,6 +73503,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -71971,6 +73835,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -72299,6 +74167,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -72630,6 +74502,10 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -72955,6 +74831,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -73283,6 +75163,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -73611,6 +75495,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -73942,6 +75830,10 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -74267,6 +76159,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -74595,6 +76491,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -74923,6 +76823,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -75254,6 +77158,10 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -75579,6 +77487,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -75907,6 +77819,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -76235,6 +78151,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -76566,6 +78486,10 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -76891,6 +78815,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -77219,6 +79147,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -77547,6 +79479,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -77878,6 +79814,10 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -78203,6 +80143,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -78531,6 +80475,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -78859,6 +80807,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -79190,6 +81142,10 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -79515,6 +81471,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -79843,6 +81803,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -80171,6 +82135,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -80502,6 +82470,10 @@
       "allowed": false
     },
     {
+      "name": "TerraCotta",
+      "allowed": false
+    },
+    {
       "name": "Thinkbot",
       "allowed": false
     },
@@ -80827,6 +82799,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {
@@ -81155,6 +83131,10 @@
     },
     {
       "name": "SummalyBot",
+      "allowed": false
+    },
+    {
+      "name": "TerraCotta",
       "allowed": false
     },
     {

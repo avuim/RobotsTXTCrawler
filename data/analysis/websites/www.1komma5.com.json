@@ -1,7 +1,7 @@
 {
   "domain": "www.1komma5.com",
   "normalizedDomain": "www.1komma5.com",
-  "robotsTxt": "User-Agent: *\r\nAllow: /\r\nDisallow: */_include/\r\nDisallow: */_testing/\r\n\r\nSitemap: https://1komma5.com/sitemap/de.xml\r\nSitemap: https://1komma5.com/sitemap/es.xml\r\nSitemap: https://1komma5.com/sitemap/au.xml\r\n",
+  "robotsTxt": "User-Agent: *\nAllow: /\nDisallow: */_include/\nDisallow: */_testing/\n\nSitemap: https://1komma5.com/sitemap/de.xml\nSitemap: https://1komma5.com/sitemap/es.xml\nSitemap: https://1komma5.com/sitemap/au.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

@@ -1,7 +1,7 @@
 {
   "domain": "www.whirlpool.de",
   "normalizedDomain": "www.whirlpool.de",
-  "robotsTxt": "User-Agent: *\r\nDisallow: /compare\r\nDisallow: /wp-search\r\nDisallow: /index.php/*\r\nDisallow: /sspp*\r\n\r\nSitemap: https://www.whirlpool.de/sitemap.xml\r\n",
+  "robotsTxt": "User-Agent: *\nDisallow: /compare\nDisallow: /wp-search\nDisallow: /index.php/*\nDisallow: /sspp*\n\nSitemap: https://www.whirlpool.de/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

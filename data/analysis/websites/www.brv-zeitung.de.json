@@ -1,10 +1,59 @@
 {
   "domain": "www.brv-zeitung.de",
   "normalizedDomain": "www.brv-zeitung.de",
+  "robotsTxt": "# Robots.txt for crawler\n\nUser-agent: *\n\n# Disallow Crawler\nDisallow: /Sso\nDisallow: /Benutzer\nDisallow: /User\nDisallow: /Anzeigen\nDisallow: /Dateien\nDisallow: /Nachrichten/Suche\n\n# possibly do not allow motif pictures to prevent file generation in advance\n#Disallow: /Motif/*.jpg\n\n# disallow some KI bots\nUser-agent: ChatGPT-User\nDisallow: /\nUser-agent: GPTBot\nDisallow: /\nUser-agent: CCBot\nDisallow: /\n\n# Crawler often creates invalid script/webresource resource request\nDisallow: /ScriptResource\nDisallow: /WebResource\n\n# Max crawler time per page in sec\nCrawl-Delay: 2\n\n#Sitemap\n#Sitemap: https://www.nordsee-zeitung.de/Sitemap_Index.xml.gz\n\n# Legal notice: mittelbadische-online.de expressly reserves the right to use its content for commercial text and data mining (� 44b UrhG). \n# The use of robots or other automated means to access mittelbadische-online.de or collect or mine data without the express permission of mittelbadische-online.de is strictly prohibited. \n# If you would like to apply for permission to crawl mittelbadische-online.de, collect or use data, please contact syndication@mittelbadische-online.de",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/Sso",
+        "/Benutzer",
+        "/User",
+        "/Anzeigen",
+        "/Dateien",
+        "/Nachrichten/Suche"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "ChatGPT-User",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "GPTBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "CCBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": [
+          "/ScriptResource",
+          "/WebResource"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
   "bots": [
     {
       "name": "*",
-      "allowed": false
+      "allowed": true
     },
     {
       "name": "ChatGPT-User",
@@ -18,5 +67,16 @@
       "name": "CCBot",
       "allowed": false
     }
-  ]
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/Sso",
+      "/Benutzer",
+      "/User",
+      "/Anzeigen",
+      "/Dateien",
+      "/Nachrichten/Suche"
+    ]
+  }
 }

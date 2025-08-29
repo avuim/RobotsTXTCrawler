@@ -1,19 +1,15 @@
-
-# Technische Ordner blockieren (keine Inhalte für Suchmaschinen)
+User-agent: *
 Disallow: /ajax/
 Disallow: /class/
 Disallow: /crons/
+Disallow: /css/
 Disallow: /exec/
+Disallow: /fonts/
 Disallow: /functions/
 Disallow: /include/
+Disallow: /js/
 Disallow: /smtp/
+Disallow: /templates/
 Disallow: /tracking/
 
-# WICHTIG: Diese Ressourcen nicht blockieren – Google braucht sie zum Rendern
-# Disallow: /css/
-# Disallow: /js/
-# Disallow: /fonts/
-# Disallow: /templates/
-
-# Sitemap für Google & Co.
 Sitemap: https://cinemaxxl.de/sitemap/sitemap_1.xml

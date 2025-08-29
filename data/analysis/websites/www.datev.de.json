@@ -1,7 +1,7 @@
 {
   "domain": "www.datev.de",
   "normalizedDomain": "www.datev.de",
-  "robotsTxt": "User-agent: *\r\n\r\nAllow: /web/de/media/datev_de/img/\r\nAllow: /web/de/media/tech_datev/\r\nAllow: /dnlexom/help-center/\r\nDisallow: /*?\r\nDisallow: /web/de/media/\r\nDisallow: /errorpages/\r\nDisallow: /statistik/\r\nDisallow: /wartung/\r\nDisallow: /failuredoc/\r\nDisallow: /wartungdoc/\r\nDisallow: /adserver-dateien/\r\n\r\n\r\nSitemap: https://www.datev.de/web/de/sitemapxml.xml",
+  "robotsTxt": "User-agent: *\n\nAllow: /web/de/media/datev_de/img/\nAllow: /web/de/media/tech_datev/\nAllow: /dnlexom/help-center/\nDisallow: /*?\nDisallow: /web/de/media/\nDisallow: /errorpages/\nDisallow: /statistik/\nDisallow: /wartung/\nDisallow: /failuredoc/\nDisallow: /wartungdoc/\nDisallow: /adserver-dateien/\n\n\nSitemap: https://www.datev.de/web/de/sitemapxml.xml",
   "globalRules": {
     "paths": {
       "allowed": [

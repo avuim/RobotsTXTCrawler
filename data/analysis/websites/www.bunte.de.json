@@ -1,63 +1,21 @@
 {
   "domain": "www.bunte.de",
   "normalizedDomain": "www.bunte.de",
-  "robotsTxt": "User-agent: *\nDisallow:\n\n# GPTBot - OpenAI\nUser-agent: GPTBot\nDisallow: /\n\n# ChatGPT - OpenAI\nUser-agent: ChatGPT-User\nDisallow: /\n\n# Common Crawl\nUser-agent: CCBot\nDisallow: /",
+  "robotsTxt": "# robots.txt for https://www.bunte.de .\n# TODO",
   "globalRules": {
     "paths": {
       "allowed": [],
       "disallowed": []
     }
   },
-  "specificBots": [
-    {
-      "name": "GPTBot",
-      "allowed": false,
-      "paths": {
-        "allowed": [],
-        "disallowed": []
-      }
-    },
-    {
-      "name": "ChatGPT-User",
-      "allowed": false,
-      "paths": {
-        "allowed": [],
-        "disallowed": []
-      }
-    },
-    {
-      "name": "CCBot",
-      "allowed": false,
-      "paths": {
-        "allowed": [],
-        "disallowed": []
-      }
-    }
-  ],
+  "specificBots": [],
   "stats": {
-    "totalSpecificBots": 3,
+    "totalSpecificBots": 0,
     "allowedBots": 0,
-    "disallowedBots": 3,
-    "hasGlobalAllow": false
+    "disallowedBots": 0,
+    "hasGlobalAllow": true
   },
-  "bots": [
-    {
-      "name": "*",
-      "allowed": false
-    },
-    {
-      "name": "GPTBot",
-      "allowed": false
-    },
-    {
-      "name": "ChatGPT-User",
-      "allowed": false
-    },
-    {
-      "name": "CCBot",
-      "allowed": false
-    }
-  ],
+  "bots": [],
   "paths": {
     "allowed": [],
     "disallowed": []

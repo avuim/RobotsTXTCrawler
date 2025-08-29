@@ -1,0 +1,75 @@
+{
+  "domain": "www.urbansportsclub.com",
+  "normalizedDomain": "www.urbansportsclub.com",
+  "robotsTxt": "User-agent: *\nDisallow: /membership\nDisallow: /reservations\nDisallow: /account\nDisallow: /rev.txt\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: spider@seoscanners.net\nDisallow: /",
+  "globalRules": {
+    "paths": {
+      "allowed": [],
+      "disallowed": [
+        "/membership",
+        "/reservations",
+        "/account",
+        "/rev.txt"
+      ]
+    }
+  },
+  "specificBots": [
+    {
+      "name": "AhrefsBot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    },
+    {
+      "name": "spider@seoscanners.net",
+      "allowed": false,
+      "paths": {
+        "allowed": [],
+        "disallowed": []
+      }
+    }
+  ],
+  "stats": {
+    "totalSpecificBots": 3,
+    "allowedBots": 0,
+    "disallowedBots": 3,
+    "hasGlobalAllow": true
+  },
+  "bots": [
+    {
+      "name": "*",
+      "allowed": true
+    },
+    {
+      "name": "AhrefsBot",
+      "allowed": false
+    },
+    {
+      "name": "MJ12bot",
+      "allowed": false
+    },
+    {
+      "name": "spider@seoscanners.net",
+      "allowed": false
+    }
+  ],
+  "paths": {
+    "allowed": [],
+    "disallowed": [
+      "/membership",
+      "/reservations",
+      "/account",
+      "/rev.txt"
+    ]
+  }
+}

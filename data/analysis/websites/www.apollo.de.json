@@ -1,7 +1,7 @@
 {
   "domain": "www.apollo.de",
   "normalizedDomain": "www.apollo.de",
-  "robotsTxt": "User-agent: *\r\nDisallow: /cart\r\nDisallow: /my-account/*\r\nDisallow: /wishlist\r\nDisallow: /voucher\r\nDisallow: /checkout\r\nDisallow: *?storeId=\r\nDisallow: /write-review?\r\nDisallow: /termin-stornieren\r\nDisallow: /termin-verschieben\r\n\r\nSitemap: https://www.apollo.de/sitemap.xml\r\n",
+  "robotsTxt": "User-agent: *\nDisallow: /cart\nDisallow: /my-account/*\nDisallow: /wishlist\nDisallow: /voucher\nDisallow: /checkout\nDisallow: *?storeId=\nDisallow: /write-review?\nDisallow: /termin-stornieren\nDisallow: /termin-verschieben\n\nSitemap: https://www.apollo.de/sitemap.xml\n",
   "globalRules": {
     "paths": {
       "allowed": [],

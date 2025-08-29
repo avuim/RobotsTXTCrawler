@@ -1,7 +1,7 @@
 {
   "domain": "www.waipu.tv",
   "normalizedDomain": "www.waipu.tv",
-  "robotsTxt": "##\r\n## Wordpress\r\n##\r\n\r\nUser-agent: *\r\n\r\n# Disallow PDFs\r\nDisallow: /*.pdf$\r\n\r\n# Only allow speaking URLs\r\nDisallow: /*?p=*\r\nDisallow: /*&p=*\r\n\r\nAllow: /app/uploads/\r\nAllow: /app/plugins/*/assets/\r\nAllow: /app/plugins/*/css/\r\nAllow: /app/plugins/*/images/\r\nAllow: /app/plugins/bb-plugin/\r\nAllow: /app/plugins/waipu-modules/\r\nAllow: /app/plugins/waipu-channels/\r\nDisallow: /trackback/\r\nDisallow: */trackback/\r\nDisallow: /feed/\r\nDisallow: */feed/\r\nDisallow: /comments/\r\nDisallow: */comments/\r\nDisallow: /xmlrpc.php\r\nDisallow: /cgi-bin/\r\nDisallow: /wp/wp-admin/\r\nAllow: /wp/wp-admin/admin-ajax.php\r\n\r\nSitemap: https://www.waipu.tv/sitemap_index.xml\r\n\r\n# Disallow db dumps\r\nDisallow: *.sql\r\nDisallow: *.sql.gz\r\n",
+  "robotsTxt": "##\n## Wordpress\n##\n\nUser-agent: *\n\n# Disallow PDFs\nDisallow: /*.pdf$\n\n# Only allow speaking URLs\nDisallow: /*?p=*\nDisallow: /*&p=*\n\nAllow: /app/uploads/\nAllow: /app/plugins/*/assets/\nAllow: /app/plugins/*/css/\nAllow: /app/plugins/*/images/\nAllow: /app/plugins/bb-plugin/\nAllow: /app/plugins/waipu-modules/\nAllow: /app/plugins/waipu-channels/\nDisallow: /trackback/\nDisallow: */trackback/\nDisallow: /feed/\nDisallow: */feed/\nDisallow: /comments/\nDisallow: */comments/\nDisallow: /xmlrpc.php\nDisallow: /cgi-bin/\nDisallow: /wp/wp-admin/\nAllow: /wp/wp-admin/admin-ajax.php\n\nSitemap: https://www.waipu.tv/sitemap_index.xml\n\n# Disallow db dumps\nDisallow: *.sql\nDisallow: *.sql.gz\n",
   "globalRules": {
     "paths": {
       "allowed": [
