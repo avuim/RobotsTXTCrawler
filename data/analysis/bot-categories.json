@@ -7,43 +7,43 @@
         "Googlebot": {
           "name": "Googlebot",
           "owner": "Google",
-          "description": "Der Hauptcrawler von Google für die Websuche",
+          "description": "Google's web crawler that discovers and indexes web content for Google Search, including both mobile and desktop variants that crawl websites to understand their content.",
           "website": "https://developers.google.com/search/docs/crawling-indexing/googlebot"
         },
         "bingbot": {
           "name": "Bingbot",
           "owner": "Microsoft",
-          "description": "Der Crawler von Microsoft Bing",
+          "description": "Microsoft's standard web crawler that handles most of Bing's crawling needs each day, indexing web content for Bing search results using both desktop and mobile variants.",
           "website": "https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0"
         },
         "Slurp": {
           "name": "Yahoo Slurp",
           "owner": "Yahoo",
-          "description": "Der Crawler von Yahoo",
+          "description": "Yahoo! Slurp crawls and indexes web content for Yahoo's search engine, collecting data to power search results and web discovery features.",
           "website": "https://help.yahoo.com/kb/search/slurp-crawling-page-sln22600.html"
         },
         "DuckDuckBot": {
           "name": "DuckDuckBot",
           "owner": "DuckDuckGo",
-          "description": "Der Crawler von DuckDuckGo",
+          "description": "DuckDuckGo's web crawler that constantly improves search results by indexing web content, respecting robots.txt and providing users the best search experience.",
           "website": "https://duckduckgo.com/duckduckbot"
         },
         "Baiduspider": {
           "name": "Baiduspider",
           "owner": "Baidu",
-          "description": "Der Crawler der chinesischen Suchmaschine Baidu",
+          "description": "Baidu's web crawler that indexes web content for China's largest search engine, crawling and analyzing websites to provide search results for Baidu users.",
           "website": "https://www.baidu.com/search/spider.html"
         },
         "YandexBot": {
           "name": "YandexBot",
           "owner": "Yandex",
-          "description": "Der Crawler der russischen Suchmaschine Yandex",
+          "description": "Yandex's web crawler that systematically discovers and indexes web content for Russia's largest search engine, supporting various platform services.",
           "website": "https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html"
         },
         "Sogou": {
           "name": "Sogou Spider",
           "owner": "Sogou",
-          "description": "Der Crawler der chinesischen Suchmaschine Sogou",
+          "description": "Web crawler for Sogou, a Chinese search engine, that indexes websites to provide search results for Chinese users.",
           "website": "http://www.sogou.com/docs/help/webmasters.html"
         },
         "Exabot": {
@@ -51,6 +51,42 @@
           "owner": "Exalead",
           "description": "Der Crawler der französischen Suchmaschine Exalead",
           "website": "http://www.exabot.com/go/robot"
+        },
+        "PetalBot": {
+          "name": "PetalBot",
+          "owner": "Huawei",
+          "description": "Huawei's web crawler that indexes PC and mobile websites to build search databases for Petal Search engine and provide AI-powered content recommendations for Huawei Assistant and other Huawei AI services.",
+          "website": "https://aspiegel.com/petalbot"
+        },
+        "Yeti": {
+          "name": "Yeti",
+          "owner": "Naver Corp.",
+          "description": "Naver's web crawler that systematically discovers and indexes web content for South Korea's largest search engine. It crawls websites to build Naver's search index and support various platform services.",
+          "website": "https://naver.com"
+        },
+        "Flamingo_SearchEngine": {
+          "name": "Flamingo_SearchEngine",
+          "owner": "Unknown",
+          "description": "Appears to be related to a search engine with web crawling and indexing capabilities.",
+          "website": ""
+        },
+        "YouBot": {
+          "name": "YouBot",
+          "owner": "You.com",
+          "description": "A web crawler used by You.com to index search results that allow their AI Assistant to answer user questions. The assistant's answers normally contain references to the website as inline sources.",
+          "website": "https://you.com"
+        },
+        "GoogleOther": {
+          "name": "GoogleOther",
+          "owner": "Google LLC",
+          "description": "Google's generic crawler used by various product teams for fetching publicly accessible content, including one-off crawls for internal research and development.",
+          "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
+        },
+        "omgili": {
+          "name": "Omgili",
+          "owner": "Webz.io",
+          "description": "A web crawler used by Webz.io to maintain a repository of web crawl data that it sells to other companies, including those using it to train AI models.",
+          "website": "https://webz.io"
         },
         "Googlebot-News": {
           "name": "Googlebot-News",
@@ -67,49 +103,73 @@
         "msnbot": {
           "name": "msnbot",
           "owner": "Microsoft",
-          "description": "Microsoft's bot for Bing Search, crawling the web to index and update content for search results.",
+          "description": "MSNBot is Microsoft's legacy web crawler that indexed web pages for the MSN Search engine, which has since been replaced by Bing's crawling infrastructure.",
           "website": "https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0"
         },
-        "PetalBot": {
-          "name": "PetalBot",
-          "owner": "Huawei",
-          "description": "Der Crawler von Huawei für Petal Search",
-          "website": "https://aspiegel.com/petalbot"
+        "GoogleOther-Image": {
+          "name": "GoogleOther-Image",
+          "owner": "Google LLC",
+          "description": "Google's specialized crawler for image content discovery and indexing as part of various Google products and research initiatives.",
+          "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
         },
-        "Yeti": {
-          "name": "Yeti",
-          "owner": "Naver Corp.",
-          "description": "Web crawler for Naver, a leading Korean search engine, tasked with content discovery and indexing.",
-          "website": "https://naver.com"
+        "Googlebot-Image": {
+          "name": "Googlebot-Image",
+          "owner": "Google LLC",
+          "description": "Google's specialized search engine crawler that discovers and indexes images across the web for inclusion in Google Images search results, analyzing visual content and metadata.",
+          "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
         },
-        "Flamingo_SearchEngine": {
-          "name": "Flamingo_SearchEngine",
-          "owner": "Unknown",
-          "description": "Appears to be related to a search engine with web crawling and indexing capabilities.",
+        "GoogleOther-Video": {
+          "name": "GoogleOther-Video",
+          "owner": "Google LLC",
+          "description": "Google's specialized crawler for video content discovery and indexing as part of various Google products and research initiatives.",
+          "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
+        },
+        "YandexAdditional": {
+          "name": "YandexAdditional",
+          "owner": "Yandex LLC",
+          "description": "Additional Yandex crawler for specialized indexing tasks beyond the main YandexBot crawler.",
+          "website": "https://yandex.com/bots"
+        },
+        "YandexAdditionalBot": {
+          "name": "YandexAdditionalBot",
+          "owner": "Yandex LLC",
+          "description": "Additional Yandex crawler for specialized indexing tasks beyond the main YandexBot crawler.",
+          "website": "https://yandex.com/bots"
+        },
+        "msnbot-media": {
+          "name": "msnbot-media",
+          "owner": "Microsoft",
+          "description": "Microsoft's specialized media crawler for indexing multimedia content for Bing search results.",
+          "website": "https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0"
+        },
+        "sogou spider": {
+          "name": "sogou spider",
+          "owner": "Sogou",
+          "description": "Web crawler for Sogou, a Chinese search engine, that indexes websites to provide search results for Chinese users.",
+          "website": "http://www.sogou.com/docs/help/webmasters.html"
+        },
+        "googlebot-news": {
+          "name": "googlebot-news",
+          "owner": "Google LLC",
+          "description": "A specialized crawler for Google News that discovers, indexes, and keeps news content up to date for Google's search index and news portal.",
+          "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
+        },
+        "Gigabot": {
+          "name": "Gigabot",
+          "owner": "Gigablast",
+          "description": "The web crawler used by Gigablast, an independent U.S. search engine that crawls and indexes web content using its own proprietary search algorithms and database.",
           "website": ""
         },
-        "YouBot": {
-          "name": "YouBot",
-          "owner": "You.com",
-          "description": "Crawler for You.com's AI-powered search engine, indexing web content for discovery and analysis.",
-          "website": "https://you.com"
-        },
-        "GoogleOther": {
-          "name": "GoogleOther",
-          "owner": "Google LLC",
-          "description": "A generic Google crawler for various internal research, indexing, and analysis not related to search.",
-          "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
+        "SeznamBot": {
+          "name": "SeznamBot",
+          "owner": "Seznam",
+          "description": "Seznam's web crawler that indexes websites for their Czech search engine, providing localized search results primarily for Czech and Slovak users.",
+          "website": ""
         },
         "OmgiliBot": {
           "name": "OmgiliBot",
           "owner": "Webz.io",
           "description": "Forum and discussion board indexing bot for Omgili's proprietary search and aggregation engine.",
-          "website": "https://webz.io"
-        },
-        "omgili": {
-          "name": "Omgili",
-          "owner": "Webz.io",
-          "description": "Specialized web crawler indexing discussion forums and user-generated content to power their conversational search engine and data products.",
           "website": "https://webz.io"
         },
         "omgilibot": {
@@ -120,80 +180,266 @@
         },
         "Omgilibot": {
           "name": "Omgilibot",
-          "owner": "",
-          "description": "",
-          "website": ""
-        },
-        "GoogleOther-Image": {
-          "name": "GoogleOther-Image",
-          "owner": "",
-          "description": "",
-          "website": ""
-        },
-        "Googlebot-Image": {
-          "name": "Googlebot-Image",
-          "owner": "",
-          "description": "",
-          "website": ""
-        },
-        "GoogleOther-Video": {
-          "name": "GoogleOther-Video",
-          "owner": "",
-          "description": "",
-          "website": ""
-        },
-        "YandexAdditional": {
-          "name": "YandexAdditional",
-          "owner": "",
-          "description": "",
-          "website": ""
-        },
-        "YandexAdditionalBot": {
-          "name": "YandexAdditionalBot",
-          "owner": "",
-          "description": "",
-          "website": ""
+          "owner": "Webz.io",
+          "description": "Forum and discussion board indexing bot for Omgili's proprietary search and aggregation engine.",
+          "website": "https://webz.io"
         },
         "msnbot-media/1.1": {
           "name": "msnbot-media/1.1",
-          "owner": "",
-          "description": "",
-          "website": ""
+          "owner": "Microsoft",
+          "description": "Microsoft's specialized media crawler for indexing multimedia content for Bing search results.",
+          "website": "https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0"
         },
         "msnbot-media/2.0b": {
           "name": "msnbot-media/2.0b",
-          "owner": "",
-          "description": "",
-          "website": ""
-        },
-        "sogou spider": {
-          "name": "sogou spider",
-          "owner": "",
-          "description": "",
-          "website": ""
-        },
-        "googlebot-news": {
-          "name": "googlebot-news",
-          "owner": "",
-          "description": "",
-          "website": ""
+          "owner": "Microsoft",
+          "description": "Microsoft's specialized media crawler for indexing multimedia content for Bing search results.",
+          "website": "https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0"
         },
         "Bingbot": {
           "name": "Bingbot",
-          "owner": "",
-          "description": "",
-          "website": ""
-        },
-        "msnbot-media": {
-          "name": "msnbot-media",
-          "owner": "",
-          "description": "",
-          "website": ""
+          "owner": "Microsoft",
+          "description": "Microsoft's standard web crawler that handles most of Bing's crawling needs each day, indexing web content for Bing search results using both desktop and mobile variants.",
+          "website": "https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0"
         },
         "Omgili": {
           "name": "Omgili",
-          "owner": "",
-          "description": "",
+          "owner": "Webz.io",
+          "description": "A web crawler used by Webz.io to maintain a repository of web crawl data that it sells to other companies, including those using it to train AI models.",
+          "website": "https://webz.io"
+        }
+      }
+    },
+    "aiScraper": {
+      "name": "KI/LLM-Scraper",
+      "description": "Bots, die Websites für KI-Trainingsdaten crawlen",
+      "bots": {
+        "GPTBot": {
+          "name": "GPTBot",
+          "owner": "OpenAI",
+          "description": "OpenAI's web crawler that collects data from publicly accessible web pages to improve AI models like ChatGPT, while respecting robots.txt and opt-out preferences.",
+          "website": "https://platform.openai.com/docs/gptbot"
+        },
+        "CCBot": {
+          "name": "CCBot",
+          "owner": "Common Crawl",
+          "description": "Common Crawl's web crawler that creates an open repository of web data, making crawled content universally accessible for research, analysis, and AI training purposes.",
+          "website": "https://commoncrawl.org/ccbot"
+        },
+        "ClaudeBot": {
+          "name": "ClaudeBot",
+          "owner": "Anthropic",
+          "description": "A web crawler operated by Anthropic to download training data for its LLMs (Large Language Models) that power AI products like Claude.",
+          "website": "https://www.anthropic.com/"
+        },
+        "Bytespider": {
+          "name": "Bytespider",
+          "owner": "ByteDance",
+          "description": "A web crawler operated by ByteDance, the Chinese owner of TikTok. It's allegedly used to download training data for its LLMs (Large Language Model) including those powering ChatGPT competitor Doubao.",
+          "website": "https://www.bytedance.com/"
+        },
+        "Google-Extended": {
+          "name": "Google-Extended",
+          "owner": "Google LLC",
+          "description": "A user agent to control content access for AI model training in Google Gemini Apps and Vertex AI, providing opt-out capability for web publishers.",
+          "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
+        },
+        "Meta-ExternalAgent": {
+          "name": "Meta-ExternalAgent",
+          "owner": "Meta Platforms, Inc.",
+          "description": "Crawls web content for training AI models and improving Meta's products by indexing content directly across the internet.",
+          "website": "https://developers.facebook.com/docs/sharing/webmasters/crawler"
+        },
+        "AI2Bot": {
+          "name": "AI2Bot",
+          "owner": "Allen Institute for AI",
+          "description": "Bot operated by AI2, a non-profit AI research institute. It's used to download data to train open source AI models.",
+          "website": "https://allenai.org/crawler"
+        },
+        "Applebot-Extended": {
+          "name": "Applebot-Extended",
+          "owner": "Apple",
+          "description": "Used to train Apple's foundation LLM models powering generative AI features across Apple products, including Apple Intelligence, Services, and Developer Tools.",
+          "website": "https://support.apple.com/en-us/HT204683"
+        },
+        "cohere-training-data-crawler": {
+          "name": "cohere-training-data-crawler",
+          "owner": "Cohere",
+          "description": "Web crawler collecting publicly available data to train Cohere's enterprise large language models (LLMs).",
+          "website": "https://cohere.com"
+        },
+        "Diffbot": {
+          "name": "Diffbot",
+          "owner": "Diffbot, Inc.",
+          "description": "An intelligent web crawler used to understand, aggregate, and ultimately sell structured website data for real-time monitoring and training other AI models.",
+          "website": "https://www.diffbot.com"
+        },
+        "FacebookBot": {
+          "name": "FacebookBot",
+          "owner": "Meta",
+          "description": "A web crawler used by Meta to download training data for its AI speech recognition technology.",
+          "website": "https://www.facebook.com/"
+        },
+        "Timpibot": {
+          "name": "Timpibot",
+          "owner": "Timpi",
+          "description": "Used by Timpi's decentralized network of independent node operators. The index they build can be used to train LLMs (Large Language Models).",
+          "website": "https://www.timpi.io"
+        },
+        "anthropic-ai": {
+          "name": "Anthropic AI",
+          "owner": "Anthropic",
+          "description": "Unconfirmed agent possibly used by Anthropic to download training data for its LLMs (Large Language Models) that power AI products like Claude.",
+          "website": "https://www.anthropic.com/"
+        },
+        "Claude-Web": {
+          "name": "Claude Web",
+          "owner": "Anthropic",
+          "description": "AI-related agent operated by Anthropic. It's currently unclear exactly what it's used for, since there's no official documentation.",
+          "website": "https://www.anthropic.com/"
+        },
+        "cohere-ai": {
+          "name": "Cohere AI",
+          "owner": "Cohere",
+          "description": "Unconfirmed agent possibly dispatched by Cohere's AI chat products in response to user prompts when it needs to retrieve content on the internet.",
+          "website": "https://cohere.com/"
+        },
+        "CCbot": {
+          "name": "CCBot",
+          "owner": "Common Crawl",
+          "description": "Crawls the web on behalf of Common Crawl to build open datasets used for research, analytics, and training AI models.",
+          "website": "https://commoncrawl.org/faq/"
+        },
+        "Google-CloudVertexBot": {
+          "name": "Google-CloudVertexBot",
+          "owner": "Google LLC",
+          "description": "Crawls websites on behalf of Google Cloud Vertex AI customers for AI agent training and data integration (not public search).",
+          "website": "https://cloud.google.com/vertex-ai"
+        },
+        "meta-externalagent": {
+          "name": "Meta-ExternalAgent",
+          "owner": "Meta Platforms, Inc.",
+          "description": "Crawls web content for training AI models and improving Meta's products by indexing content directly across the internet.",
+          "website": "https://developers.facebook.com/docs/sharing/webmasters/crawler"
+        },
+        "Ai2Bot-Dolma": {
+          "name": "Ai2Bot-Dolma",
+          "owner": "Allen Institute for AI",
+          "description": "Crawling agent for academic data collection or LLM research, managed by the Allen Institute for AI.",
+          "website": "https://allenai.org"
+        },
+        "DeepSeek": {
+          "name": "DeepSeekBot",
+          "owner": "DeepSeek",
+          "description": "Crawling agent associated with deep learning or web content indexing for AI purposes.",
+          "website": "https://deepseek.com"
+        },
+        "DeepSeekBot": {
+          "name": "DeepSeekBot",
+          "owner": "DeepSeek",
+          "description": "Crawling agent associated with deep learning or web content indexing for AI purposes.",
+          "website": "https://deepseek.com"
+        },
+        "img2dataset": {
+          "name": "img2dataset",
+          "owner": "Unknown/Open source community",
+          "description": "Open source tool for downloading images and metadata from URLs to build datasets, commonly used in AI research.",
+          "website": "https://github.com/rom1504/img2dataset"
+        }
+      }
+    },
+    "aiSearchCrawler": {
+      "name": "KI-Suchmaschinen",
+      "description": "Bots von KI-gestützten Suchmaschinen, die Websites für Such- und Antwortfunktionen indexieren",
+      "bots": {
+        "PerplexityBot": {
+          "name": "PerplexityBot",
+          "owner": "Perplexity AI",
+          "description": "The web crawler for Perplexity AI that indexes web content to power the AI search engine's real-time information retrieval and answer generation capabilities, enabling conversational search experiences.",
+          "website": "https://perplexity.ai/perplexitybot"
+        },
+        "OAI-SearchBot": {
+          "name": "OAI-SearchBot",
+          "owner": "OpenAI",
+          "description": "OpenAI's web crawler that indexes websites for SearchGPT, collecting and analyzing web content to power AI-driven search results and real-time information retrieval in OpenAI's search applications.",
+          "website": "https://openai.com/searchbot"
+        },
+        "Claude-SearchBot": {
+          "name": "Claude-SearchBot",
+          "owner": "Anthropic",
+          "description": "Used to create an index of websites that can be surfaced as results in Anthropic's Claude AI assistant search feature.",
+          "website": ""
+        }
+      }
+    },
+    "aiAssistant": {
+      "name": "KI-Assistenten",
+      "description": "Bots von KI-Assistenten, die Websites besuchen, um Benutzeranfragen zu beantworten",
+      "bots": {
+        "ChatGPT-User": {
+          "name": "ChatGPT-User",
+          "owner": "OpenAI",
+          "description": "OpenAI's web crawler that visits websites when ChatGPT users request information. This enables ChatGPT to include links in its responses.",
+          "website": "https://www.openai.com"
+        },
+        "Claude-User": {
+          "name": "Claude-User",
+          "owner": "Anthropic",
+          "description": "Dispatched by Anthropic's Claude AI assistant in response to user prompts, when it needs to fetch content to include in its answers.",
+          "website": "https://www.anthropic.com"
+        },
+        "Perplexity-User": {
+          "name": "Perplexity-User",
+          "owner": "Perplexity AI",
+          "description": "Supports user actions within Perplexity. When users ask Perplexity a question, it might visit a web page to help provide an accurate answer and include a link to the page in its response.",
+          "website": "https://perplexity.ai"
+        },
+        "DuckAssistBot": {
+          "name": "DuckAssistBot",
+          "owner": "DuckDuckGo",
+          "description": "On-demand bot fetching content from trusted sources such as Wikipedia to generate real-time answers in DuckDuckGo's DuckAssist feature.",
+          "website": "https://duckduckgo.com/duckassistbot.html"
+        },
+        "MistralAI-User": {
+          "name": "MistralAI-User",
+          "owner": "Mistral AI",
+          "description": "Mistral's AI assistant bot that performs web browsing and data gathering tasks for users in Le Chat, including opening web pages and retrieving information to answer user queries.",
+          "website": ""
+        },
+        "MistralAI-User/1.0": {
+          "name": "MistralAI-User/1.0",
+          "owner": "Mistral AI",
+          "description": "Mistral's AI assistant bot that performs web browsing and data gathering tasks for users in Le Chat.",
+          "website": ""
+        }
+      }
+    },
+    "aiAgent": {
+      "name": "KI-Agenten",
+      "description": "Autonome KI-Agenten, die Websites intelligent navigieren und mit ihnen interagieren können",
+      "bots": {
+        "ChatGPT Agent": {
+          "name": "ChatGPT Agent",
+          "owner": "OpenAI",
+          "description": "An AI agent created by OpenAI that can use a web browser. It can intelligently navigate and interact with websites to complete multi-step tasks on behalf of a human user.",
+          "website": ""
+        },
+        "GoogleAgent-Mariner": {
+          "name": "GoogleAgent-Mariner",
+          "owner": "Google",
+          "description": "An AI agent created by Google that can use a web browser. It can intelligently navigate and interact with websites to complete multi-step tasks on behalf of a human user.",
+          "website": ""
+        },
+        "NovaAct": {
+          "name": "NovaAct",
+          "owner": "Amazon",
+          "description": "An AI agent created by Amazon that can use a web browser. It can intelligently navigate and interact with websites to complete multi-step tasks on behalf of a human user.",
+          "website": ""
+        },
+        "Devin": {
+          "name": "Devin",
+          "owner": "Cognition AI",
+          "description": "A software engineering AI assistant that can browse websites and perform web-based tasks, functioning as a collaborative AI teammate for engineering teams.",
           "website": ""
         }
       }
@@ -205,19 +451,19 @@
         "AhrefsBot": {
           "name": "AhrefsBot",
           "owner": "Ahrefs",
-          "description": "Der Crawler des SEO-Tools Ahrefs",
+          "description": "Ahrefs' web crawler that powers both the Ahrefs marketing intelligence platform and Yep search engine, constantly crawling the web to build a comprehensive link database.",
           "website": "https://ahrefs.com/robot"
         },
         "SemrushBot": {
           "name": "SemrushBot",
           "owner": "Semrush",
-          "description": "Der Crawler des SEO-Tools Semrush",
+          "description": "The web crawler and search bot software that Semrush sends out to discover and collect web data for their SEO platform including backlink analytics, site audit, content research and SEO tools.",
           "website": "https://www.semrush.com/bot/"
         },
         "MJ12bot": {
           "name": "MJ12bot",
           "owner": "Majestic",
-          "description": "Der Crawler des SEO-Tools Majestic",
+          "description": "Majestic's web crawler that maps link relationships between websites to build a comprehensive link graph for SEO analysis, providing backlink data and domain authority metrics without caching personal content.",
           "website": "https://majestic.com/support/about-majestic-robot"
         },
         "Screaming Frog SEO Spider": {
@@ -241,13 +487,13 @@
         "BLEXBot": {
           "name": "BLEXBot",
           "owner": "WebMeUp",
-          "description": "Der Crawler des SEO-Tools WebMeUp",
+          "description": "WebMeUp's web crawler that builds the world's freshest backlink index for SEO PowerSuite Link Explorer, providing comprehensive backlink data for SEO analysis tools.",
           "website": "http://webmeup-crawler.com/"
         },
         "DataForSeoBot": {
           "name": "DataForSeoBot",
           "owner": "DataForSEO",
-          "description": "Der Crawler des SEO-API-Dienstes DataForSEO",
+          "description": "Powers DataForSEO's Backlinks API by crawling websites to analyze backlink data, providing comprehensive link analytics for SEO professionals and website optimization.",
           "website": "https://dataforseo.com/dataforseo-bot"
         },
         "Semrushbot-SI": {
@@ -318,177 +564,69 @@
         },
         "DotBot": {
           "name": "DotBot",
-          "owner": "",
-          "description": "",
-          "website": ""
+          "owner": "Moz",
+          "description": "Moz's web crawler that gathers web data for the Moz Link Index, providing data used in Moz Pro campaigns, Link Explorer, and the Moz Links API to analyze website backlinks and SEO metrics.",
+          "website": "https://moz.com"
         },
         "SemrushBot-OCOB": {
           "name": "SemrushBot-OCOB",
-          "owner": "",
-          "description": "",
-          "website": ""
+          "owner": "Semrush",
+          "description": "The web crawler component used by Semrush's Content Toolkit for gathering and analyzing website content, supporting content marketing research, competitive analysis and SEO optimization.",
+          "website": "https://www.semrush.com/bot/"
         },
         "SemrushBot-SWA": {
           "name": "SemrushBot-SWA",
-          "owner": "",
-          "description": "",
-          "website": ""
+          "owner": "Semrush",
+          "description": "A specialized crawler used by Semrush's SEO Writing Assistant tool to check if URLs are accessible and verify content availability for SEO analysis.",
+          "website": "https://www.semrush.com/bot/"
         },
         "SemrushBot-SA": {
           "name": "SemrushBot-SA",
-          "owner": "",
-          "description": "",
-          "website": ""
+          "owner": "Semrush",
+          "description": "Crawls websites to perform comprehensive SEO analysis and identify technical issues for site audit and optimization recommendations.",
+          "website": "https://www.semrush.com/bot/"
         }
       }
     },
-    "aiScraper": {
-      "name": "KI/LLM-Scraper",
-      "description": "Bots, die Websites für KI-Trainingsdaten crawlen",
+    "archiver": {
+      "name": "Archivierungsdienste",
+      "description": "Bots, die Websites für historische Aufbewahrung und Forschung archivieren",
       "bots": {
-        "GPTBot": {
-          "name": "GPTBot",
-          "owner": "OpenAI",
-          "description": "Der Crawler von OpenAI für ChatGPT-Trainingsdaten",
-          "website": "https://platform.openai.com/docs/gptbot"
+        "ia_archiver": {
+          "name": "Internet Archive",
+          "owner": "Internet Archive",
+          "description": "The Internet Archive's web crawler for the Wayback Machine, systematically crawling and preserving publicly accessible web pages for historical record and research.",
+          "website": "https://archive.org/details/archive.org_bot"
         },
-        "CCBot": {
-          "name": "CCBot",
-          "owner": "Common Crawl",
-          "description": "Der Crawler von Common Crawl, dessen Daten von vielen KI-Modellen genutzt werden",
-          "website": "https://commoncrawl.org/ccbot"
+        "TurnitinBot": {
+          "name": "TurnitinBot",
+          "owner": "Turnitin LLC",
+          "description": "Crawls web content to support Turnitin's plagiarism detection database, focusing on academic and educational resources.",
+          "website": "https://turnitin.com/robot/crawlerinfo.html"
+        }
+      }
+    },
+    "socialMedia": {
+      "name": "Social Media",
+      "description": "Bots von Social Media Plattformen für Link-Vorschauen und Content-Sharing",
+      "bots": {
+        "Twitterbot": {
+          "name": "Twitterbot",
+          "owner": "X (Twitter)",
+          "description": "Crawls web pages to generate Twitter Cards, fetching metadata like titles, descriptions, and images for link previews when URLs are shared on X (formerly Twitter).",
+          "website": "https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started"
         },
-        "anthropic-ai": {
-          "name": "Anthropic AI",
-          "owner": "Anthropic",
-          "description": "Der Crawler von Anthropic für Claude-Trainingsdaten",
-          "website": "https://www.anthropic.com/"
+        "LinkedInBot": {
+          "name": "LinkedInBot",
+          "owner": "LinkedIn",
+          "description": "LinkedIn's web crawler that fetches webpage content to generate link previews and rich cards when URLs are shared on the LinkedIn platform, extracting Open Graph metadata and images for social sharing.",
+          "website": "https://www.linkedin.com/legal/crawler-statement"
         },
-        "Claude-Web": {
-          "name": "Claude Web",
-          "owner": "Anthropic",
-          "description": "Der Web-Crawler für Claude",
-          "website": "https://www.anthropic.com/"
-        },
-        "ClaudeBot": {
-          "name": "ClaudeBot",
-          "owner": "Anthropic",
-          "description": "Der Bot für Claude",
-          "website": "https://www.anthropic.com/"
-        },
-        "cohere-ai": {
-          "name": "Cohere AI",
-          "owner": "Cohere",
-          "description": "Der Crawler von Cohere für KI-Trainingsdaten",
-          "website": "https://cohere.com/"
-        },
-        "FacebookBot": {
-          "name": "FacebookBot",
+        "facebookexternalhit": {
+          "name": "FacebookExternalHit",
           "owner": "Meta",
-          "description": "Der Crawler von Meta für KI-Trainingsdaten",
-          "website": "https://www.facebook.com/"
-        },
-        "Bytespider": {
-          "name": "Bytespider",
-          "owner": "ByteDance",
-          "description": "Der Crawler von ByteDance (TikTok) für KI-Trainingsdaten",
-          "website": "https://www.bytedance.com/"
-        },
-        "CCbot": {
-          "name": "CCBot",
-          "owner": "Common Crawl",
-          "description": "Crawls the web on behalf of Common Crawl to build open datasets used for research, analytics, and training AI models.",
-          "website": "https://commoncrawl.org/faq/"
-        },
-        "Google-CloudVertexBot": {
-          "name": "Google-CloudVertexBot",
-          "owner": "Google LLC",
-          "description": "Crawls websites on behalf of Google Cloud Vertex AI customers for AI agent training and data integration (not public search).",
-          "website": "https://cloud.google.com/vertex-ai"
-        },
-        "Google-Extended": {
-          "name": "Google-Extended",
-          "owner": "Google LLC",
-          "description": "A user agent to control content access for AI model training in Google Gemini Apps and Vertex AI, providing opt-out capability for web publishers.",
-          "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
-        },
-        "Meta-ExternalAgent": {
-          "name": "Meta-ExternalAgent",
-          "owner": "Meta Platforms, Inc.",
-          "description": "Crawling tool used to index and retrieve external website data for services like Facebook link previews and AI training.",
+          "description": "Meta's web crawler that fetches content from apps or websites shared on Facebook, Instagram, or Messenger to gather, cache, and display information like titles, descriptions, and thumbnail images.",
           "website": "https://developers.facebook.com/docs/sharing/webmasters/crawler"
-        },
-        "meta-externalagent": {
-          "name": "Meta-ExternalAgent",
-          "owner": "Meta Platforms, Inc.",
-          "description": "See Meta-ExternalAgent entry above.",
-          "website": "https://developers.facebook.com/docs/sharing/webmasters/crawler"
-        },
-        "ChatGPT-User": {
-          "name": "ChatGPT-User",
-          "owner": "OpenAI",
-          "description": "Automates user-like web browsing to gather data for AI model training, research, and enhancement of ChatGPT's capabilities.",
-          "website": "https://www.openai.com"
-        },
-        "PerplexityBot": {
-          "name": "PerplexityBot",
-          "owner": "Perplexity AI",
-          "description": "Crawls web pages to index and surface content in Perplexity's AI-powered search engine without training foundation models.",
-          "website": "https://perplexity.ai/perplexitybot"
-        },
-        "Perplexity-User": {
-          "name": "Perplexity-User",
-          "owner": "Perplexity AI",
-          "description": "User or agent representing queries from Perplexity's search and answer platform.",
-          "website": "https://perplexity.ai"
-        },
-        "AI2Bot": {
-          "name": "AI2Bot",
-          "owner": "Allen Institute for AI",
-          "description": "Bot operated by AI2 to gather open web data for training open-source AI models.",
-          "website": "https://allenai.org/crawler"
-        },
-        "Ai2Bot-Dolma": {
-          "name": "Ai2Bot-Dolma",
-          "owner": "Allen Institute for AI",
-          "description": "Crawling agent for academic data collection or LLM research, managed by the Allen Institute for AI.",
-          "website": "https://allenai.org"
-        },
-        "DeepSeek": {
-          "name": "DeepSeekBot",
-          "owner": "DeepSeek",
-          "description": "Crawling agent associated with deep learning or web content indexing for AI purposes.",
-          "website": "https://deepseek.com"
-        },
-        "DeepSeekBot": {
-          "name": "DeepSeekBot",
-          "owner": "DeepSeek",
-          "description": "See DeepSeek entry above.",
-          "website": "https://deepseek.com"
-        },
-        "img2dataset": {
-          "name": "img2dataset",
-          "owner": "Unknown/Open source community",
-          "description": "Open source tool for downloading images and metadata from URLs to build datasets, commonly used in AI research.",
-          "website": "https://github.com/rom1504/img2dataset"
-        },
-        "OAI-SearchBot": {
-          "name": "OAI-SearchBot",
-          "owner": "OpenAI",
-          "description": "OpenAI's bot for search indexing in SearchGPT, collecting content for search result inclusion (not for AI model training).",
-          "website": "https://openai.com/searchbot"
-        },
-        "Claude-User": {
-          "name": "Claude-User",
-          "owner": "Anthropic",
-          "description": "Bots or agents acting as external agents for Anthropic's Claude AI assistant, potentially browsing or querying web data.",
-          "website": "https://www.anthropic.com"
-        },
-        "cohere-training-data-crawler": {
-          "name": "cohere-training-data-crawler",
-          "owner": "Cohere",
-          "description": "Web crawler collecting publicly available data to train Cohere's enterprise large language models (LLMs).",
-          "website": "https://cohere.com"
         }
       }
     },
@@ -496,59 +634,23 @@
       "name": "Andere",
       "description": "Andere Arten von Bots",
       "bots": {
-        "ia_archiver": {
-          "name": "Internet Archive",
-          "owner": "Internet Archive",
-          "description": "Der Crawler des Internet Archive (Wayback Machine)",
-          "website": "https://archive.org/details/archive.org_bot"
-        },
-        "Twitterbot": {
-          "name": "Twitterbot",
-          "owner": "Twitter",
-          "description": "Der Crawler von Twitter für Link-Vorschauen",
-          "website": "https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started"
-        },
-        "LinkedInBot": {
-          "name": "LinkedInBot",
-          "owner": "LinkedIn",
-          "description": "Der Crawler von LinkedIn für Link-Vorschauen",
-          "website": "https://www.linkedin.com/legal/crawler-statement"
-        },
         "Applebot": {
           "name": "Applebot",
           "owner": "Apple",
-          "description": "Der Crawler von Apple für Siri und Spotlight-Vorschläge",
+          "description": "Apple's web crawler that gathers data to power search features across Apple's ecosystem including Spotlight, Siri, and Safari search functionality.",
           "website": "https://support.apple.com/en-us/HT204683"
-        },
-        "Applebot-Extended": {
-          "name": "Applebot Extended",
-          "owner": "Apple",
-          "description": "Der erweiterte Crawler von Apple",
-          "website": "https://support.apple.com/en-us/HT204683"
-        },
-        "Mediapartners-Google": {
-          "name": "Mediapartners-Google",
-          "owner": "Google",
-          "description": "Der Crawler von Google AdSense",
-          "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
         },
         "Amazonbot": {
           "name": "Amazonbot",
           "owner": "Amazon",
-          "description": "Der Crawler von Amazon",
+          "description": "Amazon's web crawler that collects web content to improve services like Alexa and other AI-powered features, while respecting robots.txt and standard crawling protocols.",
           "website": "https://developer.amazon.com/support/amazonbot"
         },
-        "TurnitinBot": {
-          "name": "TurnitinBot",
-          "owner": "Turnitin LLC",
-          "description": "Crawls web content to support Turnitin's plagiarism detection database, focusing on academic and educational resources.",
-          "website": "https://turnitin.com/robot/crawlerinfo.html"
-        },
-        "Timpibot": {
-          "name": "Timpibot",
-          "owner": "Timpi",
-          "description": "Decentralized web crawler operated by Timpi nodes, gathering diverse content to support a decentralized search and AI training dataset.",
-          "website": "https://www.timpi.io"
+        "Mediapartners-Google": {
+          "name": "Mediapartners-Google",
+          "owner": "Google",
+          "description": "Crawls website content to analyze page context and keywords for Google AdSense ad targeting, determining appropriate advertisements to display based on site content and user demographics.",
+          "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
         },
         "ImagesiftBot": {
           "name": "ImagesiftBot",
@@ -556,16 +658,10 @@
           "description": "Specialized image crawler designed to discover and index images for visual intelligence solutions and AI dataset creation.",
           "website": "https://imagesift.com"
         },
-        "Diffbot": {
-          "name": "Diffbot",
-          "owner": "Diffbot, Inc.",
-          "description": "AI-powered web crawler and data extraction platform that creates structured knowledge graphs from web content using computer vision.",
-          "website": "https://www.diffbot.com"
-        },
         "*": {
           "name": "*",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Wildcard entry representing various unspecified bots.",
           "website": ""
         },
         "magpie-crawler": {
@@ -664,12 +760,6 @@
           "description": "Open-source framework and bot for building custom web scrapers and spiders in Python.",
           "website": "https://scrapy.org"
         },
-        "DuckAssistBot": {
-          "name": "DuckAssistBot",
-          "owner": "DuckDuckGo",
-          "description": "On-demand bot fetching content from trusted sources such as Wikipedia to generate real-time answers in DuckDuckGo's DuckAssist feature.",
-          "website": "https://duckduckgo.com/duckassistbot.html"
-        },
         "FriendlyCrawler": {
           "name": "FriendlyCrawler",
           "owner": "Unknown",
@@ -678,8 +768,8 @@
         },
         "ICC-Crawler": {
           "name": "ICC-Crawler",
-          "owner": "Unknown",
-          "description": "Crawling agent possibly associated with institutional or academic content cataloging.",
+          "owner": "NICT (Japan)",
+          "description": "NICT's research crawler that automatically collects web pages from the Internet for academic research at Japan's National Institute of Information and Communications Technology.",
           "website": ""
         },
         "ISSCyberRiskCrawler": {
@@ -690,8 +780,8 @@
         },
         "Kangaroo Bot": {
           "name": "Kangaroo Bot",
-          "owner": "Unknown",
-          "description": "Ambiguous; likely a web crawler or site auditor related to web measurement or security.",
+          "owner": "Kangaroo LLM",
+          "description": "Used by the company Kangaroo LLM to download data to train open source AI models tailored to Australian language and culture.",
           "website": ""
         },
         "Meta-ExternalFetcher": {
@@ -702,14 +792,14 @@
         },
         "PanguBot": {
           "name": "PanguBot",
-          "owner": "Unknown",
-          "description": "Web crawler possibly related to research or analytics; exact scope unclear.",
+          "owner": "Huawei",
+          "description": "A web crawler operated by the Chinese company Huawei. It's used to download training data for its multimodal LLM (Large Language Model) called PanGu.",
           "website": ""
         },
         "Webzio-Extended": {
           "name": "Webzio-Extended",
-          "owner": "Webzio",
-          "description": "Presumed crawler or data collection agent from Webzio, for web indexing or AI research.",
+          "owner": "Webz.io",
+          "description": "A web crawler used by Webz.io to maintain a repository of web crawl data that it sells to other companies, including those using it to train AI models.",
           "website": ""
         },
         "um-IC": {
@@ -720,932 +810,878 @@
         },
         "Meltwater": {
           "name": "Meltwater",
-          "owner": "",
-          "description": "",
-          "website": ""
+          "owner": "Meltwater",
+          "description": "Media monitoring and social listening platform crawler for tracking brand mentions and media coverage.",
+          "website": "https://meltwater.com"
         },
         "SirdataBot": {
           "name": "SirdataBot",
-          "owner": "",
-          "description": "",
+          "owner": "Sirdata",
+          "description": "Data collection bot for audience intelligence and marketing analytics.",
           "website": ""
         },
         "LCC": {
           "name": "LCC",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "SpankBot": {
           "name": "SpankBot",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "spanner": {
           "name": "spanner",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "meta-externalfetcher": {
           "name": "meta-externalfetcher",
-          "owner": "",
-          "description": "",
-          "website": ""
+          "owner": "Meta Platforms, Inc.",
+          "description": "A web crawler used by Meta that performs user-initiated fetches of individual links to support specific product functions.",
+          "website": "https://developers.facebook.com/docs/sharing/webmasters/crawler"
         },
         "Google-InspectionTool": {
           "name": "Google-InspectionTool",
-          "owner": "",
-          "description": "",
-          "website": ""
+          "owner": "Google",
+          "description": "Powers Search Console's URL Inspection tool and Rich Results Test, crawling pages to validate indexability, structured data markup, and search feature compatibility on user request.",
+          "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
         },
         "psbot": {
           "name": "psbot",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "EmailCollector": {
           "name": "EmailCollector",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot designed to collect email addresses from websites.",
           "website": ""
         },
         "WebBandit": {
           "name": "WebBandit",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "CopyRightCheck": {
           "name": "CopyRightCheck",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot for checking copyright violations or content plagiarism.",
           "website": ""
         },
         "Crescent": {
           "name": "Crescent",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "ProWebWalker": {
           "name": "ProWebWalker",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Web crawling tool for automated website navigation and data extraction.",
           "website": ""
         },
         "CheeseBot": {
           "name": "CheeseBot",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "Telesoft": {
           "name": "Telesoft",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "Website Quester": {
           "name": "Website Quester",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Website downloading and offline browsing tool.",
           "website": ""
         },
         "WebSauger": {
           "name": "WebSauger",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Website downloading tool for offline browsing.",
           "website": ""
         },
         "NetAnts": {
           "name": "NetAnts",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Download manager and web crawler tool.",
           "website": ""
         },
         "Mister PiX": {
           "name": "Mister PiX",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "WebAuto": {
           "name": "WebAuto",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Automated web browsing and data extraction tool.",
           "website": ""
         },
         "TheNomad": {
           "name": "TheNomad",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "WWW-Collector-E": {
           "name": "WWW-Collector-E",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Web content collection tool.",
           "website": ""
         },
         "NICErsPRO": {
           "name": "NICErsPRO",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "DittoSpyder": {
           "name": "DittoSpyder",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Web crawling and site mirroring tool.",
           "website": ""
         },
         "lwp-trivial": {
           "name": "lwp-trivial",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Simple web client library bot.",
           "website": ""
         },
         "BunnySlippers": {
           "name": "BunnySlippers",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "URLy Warning": {
           "name": "URLy Warning",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot for URL analysis or warning systems.",
           "website": ""
         },
         "Mata Hari": {
           "name": "Mata Hari",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "larbin": {
           "name": "larbin",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Open source web crawler.",
           "website": ""
         },
         "NetMechanic": {
           "name": "NetMechanic",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Website analysis and monitoring tool.",
           "website": ""
         },
         "CherryPicker": {
           "name": "CherryPicker",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Selective web content extraction tool.",
           "website": ""
         },
         "EmailSiphon": {
           "name": "EmailSiphon",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Email address harvesting tool.",
           "website": ""
         },
         "SiteSnagger": {
           "name": "SiteSnagger",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Website downloading and mirroring tool.",
           "website": ""
         },
         "LNSpiderguy": {
           "name": "LNSpiderguy",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Web crawling tool.",
           "website": ""
         },
         "Teleport": {
           "name": "Teleport",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Website downloading tool.",
           "website": ""
         },
         "TeleportPro": {
           "name": "TeleportPro",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Professional website downloading and mirroring tool.",
           "website": ""
         },
         "MIIxpc": {
           "name": "MIIxpc",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "WebStripper": {
           "name": "WebStripper",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Web content extraction tool.",
           "website": ""
         },
         "WebCopier": {
           "name": "WebCopier",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Website copying and mirroring tool.",
           "website": ""
         },
         "InfoNaviRobot": {
           "name": "InfoNaviRobot",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Information navigation and indexing bot.",
           "website": ""
         },
         "Foobot": {
           "name": "Foobot",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "WebmasterWorldForumBot": {
           "name": "WebmasterWorldForumBot",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Forum crawling bot for webmaster communities.",
           "website": ""
         },
         "BotALot": {
           "name": "BotALot",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "Offline Explorer": {
           "name": "Offline Explorer",
-          "owner": "",
-          "description": "",
+          "owner": "MetaProducts",
+          "description": "Website downloading tool for offline browsing.",
           "website": ""
         },
         "BuiltBotTough": {
           "name": "BuiltBotTough",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "LexiBot": {
           "name": "LexiBot",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "JennyBot": {
           "name": "JennyBot",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "The Intraformant": {
           "name": "The Intraformant",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Information gathering bot.",
           "website": ""
         },
         "MSIECrawler": {
           "name": "MSIECrawler",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Internet Explorer-based web crawler.",
           "website": ""
         },
         "Cliqzbot": {
           "name": "Cliqzbot",
-          "owner": "",
-          "description": "",
+          "owner": "Cliqz",
+          "description": "Web crawler for the Cliqz browser and search engine.",
           "website": ""
         },
         "Optimizer": {
           "name": "Optimizer",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Website optimization analysis tool.",
           "website": ""
         },
         "AdsBot-Google": {
           "name": "AdsBot-Google",
-          "owner": "",
-          "description": "",
-          "website": ""
+          "owner": "Google",
+          "description": "A specialized Google crawler that monitors and analyzes websites where Google Ads are served to ensure quality and policy compliance.",
+          "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
         },
         "Kraken": {
           "name": "Kraken",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "Quora-Bot": {
           "name": "Quora-Bot",
-          "owner": "",
-          "description": "",
+          "owner": "Quora",
+          "description": "Quora's web crawler for content indexing and analysis.",
           "website": ""
         },
         "peer39_crawler/1.0": {
           "name": "peer39_crawler/1.0",
-          "owner": "",
-          "description": "",
+          "owner": "Peer39",
+          "description": "Content classification and brand safety crawler.",
           "website": ""
         },
         "Axiom": {
           "name": "Axiom",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "panscient.com": {
           "name": "panscient.com",
-          "owner": "",
-          "description": "",
+          "owner": "Panscient",
+          "description": "Intelligence gathering and analysis bot.",
           "website": ""
         },
         "Raven": {
           "name": "Raven",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "aiHitBot": {
           "name": "aiHitBot",
-          "owner": "",
-          "description": "",
+          "owner": "aiHit",
+          "description": "AI-powered web crawler and analysis tool.",
           "website": ""
         },
         "Andibot": {
           "name": "Andibot",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "Awario": {
           "name": "Awario",
-          "owner": "",
-          "description": "",
-          "website": ""
+          "owner": "Awario",
+          "description": "Social media monitoring bot that crawls over 13 billion web pages daily to track brand mentions, conversations, and social media content across platforms for reputation management and market intelligence.",
+          "website": "https://awario.com"
         },
         "bedrockbot": {
           "name": "bedrockbot",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "Brightbot 1.0": {
           "name": "Brightbot 1.0",
-          "owner": "",
-          "description": "",
-          "website": ""
-        },
-        "Claude-SearchBot": {
-          "name": "Claude-SearchBot",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "Cotoyogi": {
           "name": "Cotoyogi",
-          "owner": "",
-          "description": "",
+          "owner": "Research Organization of Information and Systems (Japan)",
+          "description": "A research crawler operated by Japan's Research Organization of Information and Systems that collects web content to build AI training datasets for research purposes.",
           "website": ""
         },
         "Crawlspace": {
           "name": "Crawlspace",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "Datenbank Crawler": {
           "name": "Datenbank Crawler",
-          "owner": "",
-          "description": "",
-          "website": ""
-        },
-        "Devin": {
-          "name": "Devin",
-          "owner": "",
-          "description": "",
+          "owner": "netEstate",
+          "description": "A web crawler operated by German company netEstate used for collecting and selling international website data.",
           "website": ""
         },
         "Echobot Bot": {
           "name": "Echobot Bot",
-          "owner": "",
-          "description": "",
+          "owner": "Echobox",
+          "description": "Social media automation and content optimization bot.",
           "website": ""
         },
         "EchoboxBot": {
           "name": "EchoboxBot",
-          "owner": "",
-          "description": "",
+          "owner": "Echobox",
+          "description": "Social media automation and content optimization bot.",
           "website": ""
         },
         "Factset_spyderbot": {
           "name": "Factset_spyderbot",
-          "owner": "",
-          "description": "",
+          "owner": "FactSet",
+          "description": "A web crawler operated by FactSet that gathers financial and business data from websites to support their comprehensive financial data platform and analytics services.",
           "website": ""
         },
         "FirecrawlAgent": {
           "name": "FirecrawlAgent",
-          "owner": "",
-          "description": "",
+          "owner": "Firecrawl",
+          "description": "Web crawling agent for data extraction and website analysis.",
           "website": ""
         },
         "Gemini-Deep-Research": {
           "name": "Gemini-Deep-Research",
-          "owner": "",
-          "description": "",
-          "website": ""
-        },
-        "GoogleAgent-Mariner": {
-          "name": "GoogleAgent-Mariner",
-          "owner": "",
-          "description": "",
+          "owner": "Google",
+          "description": "The agent responsible for collecting and scanning resources used in Google Gemini's Deep Research feature, which acts as a personal research assistant.",
           "website": ""
         },
         "iaskspider/2.0": {
           "name": "iaskspider/2.0",
-          "owner": "",
-          "description": "",
-          "website": ""
-        },
-        "MistralAI-User": {
-          "name": "MistralAI-User",
-          "owner": "",
-          "description": "",
-          "website": ""
-        },
-        "MistralAI-User/1.0": {
-          "name": "MistralAI-User/1.0",
-          "owner": "",
-          "description": "",
+          "owner": "iAsk",
+          "description": "Web crawler for the iAsk search engine.",
           "website": ""
         },
         "MyCentralAIScraperBot": {
           "name": "MyCentralAIScraperBot",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "AI-powered web scraping bot.",
           "website": ""
         },
         "netEstate Imprint Crawler": {
           "name": "netEstate Imprint Crawler",
-          "owner": "",
-          "description": "",
-          "website": ""
-        },
-        "NovaAct": {
-          "name": "NovaAct",
-          "owner": "",
-          "description": "",
+          "owner": "netEstate",
+          "description": "An AI data scraper operated by netEstate for collecting website data.",
           "website": ""
         },
         "Operator": {
           "name": "Operator",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "Panscient": {
           "name": "Panscient",
-          "owner": "",
-          "description": "",
+          "owner": "Panscient",
+          "description": "Intelligence gathering and analysis platform.",
           "website": ""
         },
         "PhindBot": {
           "name": "PhindBot",
-          "owner": "",
-          "description": "",
+          "owner": "Phind",
+          "description": "AI-powered search and coding assistant bot.",
           "website": ""
         },
         "Poseidon Research Crawler": {
           "name": "Poseidon Research Crawler",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Research-focused web crawler.",
           "website": ""
         },
         "QualifiedBot": {
           "name": "QualifiedBot",
-          "owner": "",
-          "description": "",
+          "owner": "Qualified",
+          "description": "Qualified's web crawler that analyzes customer websites to provide contextual information for their AI-powered chatbots and conversational marketing platform.",
           "website": ""
         },
         "QuillBot": {
           "name": "QuillBot",
-          "owner": "",
-          "description": "",
+          "owner": "QuillBot",
+          "description": "AI writing and paraphrasing tool bot.",
           "website": ""
         },
         "quillbot.com": {
           "name": "quillbot.com",
-          "owner": "",
-          "description": "",
+          "owner": "QuillBot",
+          "description": "AI writing and paraphrasing tool bot.",
           "website": ""
         },
         "SBIntuitionsBot": {
           "name": "SBIntuitionsBot",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "Sidetrade indexer bot": {
           "name": "Sidetrade indexer bot",
-          "owner": "",
-          "description": "",
+          "owner": "Sidetrade",
+          "description": "Business intelligence and data indexing bot for financial analytics.",
           "website": ""
         },
         "SummalyBot": {
           "name": "SummalyBot",
-          "owner": "",
-          "description": "",
+          "owner": "Summaly",
+          "description": "Content summarization and analysis bot.",
           "website": ""
         },
         "Thinkbot": {
           "name": "Thinkbot",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "TikTokSpider": {
           "name": "TikTokSpider",
-          "owner": "",
-          "description": "",
+          "owner": "TikTok/ByteDance",
+          "description": "Web crawler operated by TikTok for content discovery and analysis.",
           "website": ""
         },
         "WARDBot": {
           "name": "WARDBot",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "wpbot": {
           "name": "wpbot",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "scrapy": {
           "name": "scrapy",
-          "owner": "",
-          "description": "",
-          "website": ""
+          "owner": "Scrapy Project/Scrapinghub",
+          "description": "Open-source framework and bot for building custom web scrapers and spiders in Python.",
+          "website": "https://scrapy.org"
         },
         "MegaIndex.ru": {
           "name": "MegaIndex.ru",
-          "owner": "",
-          "description": "",
+          "owner": "MegaIndex",
+          "description": "Russian SEO and web analytics platform crawler.",
           "website": ""
         },
         "Arquivo-web-crawler": {
           "name": "Arquivo-web-crawler",
-          "owner": "",
-          "description": "",
+          "owner": "Arquivo.pt",
+          "description": "Portuguese web archive crawler for preserving web content.",
           "website": ""
         },
         "AwarioRssBot": {
           "name": "AwarioRssBot",
-          "owner": "",
-          "description": "",
-          "website": ""
+          "owner": "Awario",
+          "description": "RSS feed monitoring bot by Awario for social media listening.",
+          "website": "https://awario.com"
         },
         "Barkrowler": {
           "name": "Barkrowler",
-          "owner": "",
-          "description": "",
+          "owner": "Babbar",
+          "description": "SEO crawler for backlink analysis and website auditing.",
           "website": ""
         },
         "crawler4j": {
           "name": "crawler4j",
-          "owner": "",
-          "description": "",
+          "owner": "Open source community",
+          "description": "Open source Java web crawler framework.",
           "website": ""
         },
         "Seekr": {
           "name": "Seekr",
-          "owner": "",
-          "description": "",
+          "owner": "Seekr Technologies",
+          "description": "AI-powered search engine crawler.",
           "website": ""
         },
         "Mozilla/5.0 (compatible; OGDWCtxCrawler)": {
-          "name": "Mozilla/5.0 (compatible; OGDWCtxCrawler)",
-          "owner": "",
-          "description": "",
+          "name": "OGDWCtxCrawler",
+          "owner": "Unknown",
+          "description": "Context-aware web crawler with Mozilla compatibility.",
           "website": ""
         },
         "Pcore-HTTP/v0.44.0": {
           "name": "Pcore-HTTP/v0.44.0",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "HTTP client library bot.",
           "website": ""
         },
         "Pcore-HTTP": {
           "name": "Pcore-HTTP",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "HTTP client library bot.",
           "website": ""
         },
         "GumGum Bot": {
           "name": "GumGum Bot",
-          "owner": "",
-          "description": "",
+          "owner": "GumGum",
+          "description": "Ad tech crawler for contextual advertising analysis.",
           "website": ""
         },
         "BLP_bbot": {
           "name": "BLP_bbot",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "PaperLiBot": {
           "name": "PaperLiBot",
-          "owner": "",
-          "description": "",
+          "owner": "PaperLi",
+          "description": "Content curation and social media publishing bot.",
           "website": ""
         },
         "Neticle": {
           "name": "Neticle",
-          "owner": "",
-          "description": "",
+          "owner": "Neticle",
+          "description": "Text analytics and sentiment analysis crawler.",
           "website": ""
         },
         "NewsNow": {
           "name": "NewsNow",
-          "owner": "",
-          "description": "",
+          "owner": "NewsNow Publishing",
+          "description": "News aggregation and monitoring crawler.",
           "website": ""
         },
         "Bloodhound": {
           "name": "Bloodhound",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "cydralspider": {
           "name": "cydralspider",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "downloadexpress": {
           "name": "downloadexpress",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Download management tool.",
           "website": ""
         },
         "gammaSpider": {
           "name": "gammaSpider",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "ObjectsSearch": {
           "name": "ObjectsSearch",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Search and indexing bot.",
           "website": ""
         },
         "Pimptrain": {
           "name": "Pimptrain",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "wapspider": {
           "name": "wapspider",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Mobile web crawler.",
           "website": ""
         },
         "RyteBot": {
           "name": "RyteBot",
-          "owner": "",
-          "description": "",
+          "owner": "Ryte",
+          "description": "Website optimization and SEO analysis crawler.",
           "website": ""
         },
         "Nutch": {
           "name": "Nutch",
-          "owner": "",
-          "description": "",
+          "owner": "Apache Software Foundation",
+          "description": "Open source web crawler and search engine.",
           "website": ""
         },
         "AdsBot-Google-Mobile": {
           "name": "AdsBot-Google-Mobile",
-          "owner": "",
-          "description": "",
-          "website": ""
+          "owner": "Google",
+          "description": "Mobile-specific Google Ads crawler for quality monitoring.",
+          "website": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
         },
         "b2w/0.1": {
           "name": "b2w/0.1",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "EmailWolf": {
           "name": "EmailWolf",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Email harvesting tool.",
           "website": ""
         },
         "moget": {
           "name": "moget",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "libWeb/clsHTTP": {
           "name": "libWeb/clsHTTP",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "HTTP library bot.",
           "website": ""
         },
         "asterias": {
           "name": "asterias",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "httplib": {
           "name": "httplib",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "HTTP library bot.",
           "website": ""
         },
         "turingos": {
           "name": "turingos",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "lwp-trivial/1.34": {
           "name": "lwp-trivial/1.34",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Simple web client library bot.",
           "website": ""
         },
         "Wget/1.5.3": {
           "name": "Wget/1.5.3",
-          "owner": "",
-          "description": "",
+          "owner": "GNU Project",
+          "description": "Command-line web retrieval tool.",
           "website": ""
         },
         "Wget": {
           "name": "Wget",
-          "owner": "",
-          "description": "",
+          "owner": "GNU Project",
+          "description": "Command-line web retrieval tool.",
           "website": ""
         },
         "cosmos": {
           "name": "cosmos",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "hloader": {
           "name": "hloader",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "humanlinks": {
           "name": "humanlinks",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "grub-client": {
           "name": "grub-client",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "WebZip": {
           "name": "WebZip",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Website archiving tool.",
           "website": ""
         },
         "Python-urllib": {
           "name": "Python-urllib",
-          "owner": "",
-          "description": "",
+          "owner": "Python Software Foundation",
+          "description": "Python's built-in URL handling library.",
           "website": ""
         },
         "RMA": {
           "name": "RMA",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "Microsoft URL Control": {
           "name": "Microsoft URL Control",
-          "owner": "",
-          "description": "",
+          "owner": "Microsoft",
+          "description": "Microsoft's URL handling component.",
           "website": ""
         },
         "Web Image Collector": {
           "name": "Web Image Collector",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Image harvesting tool.",
           "website": ""
         },
         "toCrawl/UrlDispatcher": {
           "name": "toCrawl/UrlDispatcher",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "URL dispatching crawler.",
           "website": ""
         },
         "WebEnhancer": {
           "name": "WebEnhancer",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Web enhancement tool.",
           "website": ""
         },
         "VCI": {
           "name": "VCI",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "QueryN Metasearch": {
           "name": "QueryN Metasearch",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Metasearch engine crawler.",
           "website": ""
         },
         "Openfind": {
           "name": "Openfind",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Search engine crawler.",
           "website": ""
         },
         "Zeus": {
           "name": "Zeus",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "RepoMonkey": {
           "name": "RepoMonkey",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Repository monitoring bot.",
           "website": ""
         },
         "EroCrawler": {
           "name": "EroCrawler",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Adult content crawler.",
           "website": ""
         },
         "Kenjin Spider": {
           "name": "Kenjin Spider",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "Zeus Link Scout": {
           "name": "Zeus Link Scout",
-          "owner": "",
-          "description": "",
-          "website": ""
-        },
-        "facebookexternalhit": {
-          "name": "facebookexternalhit",
-          "owner": "",
-          "description": "",
-          "website": ""
-        },
-        "Gigabot": {
-          "name": "Gigabot",
-          "owner": "",
-          "description": "",
-          "website": ""
-        },
-        "SeznamBot": {
-          "name": "SeznamBot",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Link discovery bot.",
           "website": ""
         },
         "008": {
           "name": "008",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "MyBot Disallow: /": {
           "name": "MyBot Disallow: /",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         },
         "Mediatoolkitbot": {
           "name": "Mediatoolkitbot",
-          "owner": "",
-          "description": "",
+          "owner": "Mediatoolkit",
+          "description": "Media monitoring and analytics bot.",
           "website": ""
         },
         "WebZinger": {
           "name": "WebZinger",
-          "owner": "",
-          "description": "",
+          "owner": "Unknown",
+          "description": "Bot with unclear purpose and ownership.",
           "website": ""
         }
       }
