@@ -1036,14 +1036,14 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Themen</a>
             <ul class="sub-menu-mm">
                             <li class="ressort-item-mm">
-    <a        href="/themen/leser-aktionen"
-       target="_top"             data-preview=""
-             data-preview-count="4">Leser-Aktionen der Mediengruppe Bayern</a>
-    </li>
-                            <li class="ressort-item-mm">
     <a        href="/themen/trauer"
        target="_top"             data-preview=""
              data-preview-count="4">Trauer in Bayern und Deutschland</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/themen/leser-aktionen"
+       target="_top"             data-preview=""
+             data-preview-count="4">Leser-Aktionen der Mediengruppe Bayern</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/themen/azubiguide"
@@ -1061,16 +1061,6 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Christkindlmärkte</a>
             <ul class="sub-menu-mm">
                             <li class="ressort-item-mm">
-    <a        href="/themen/christkindlmaerkte/christkindlmaerkte-pfaffenhofen"
-       target="_top"             data-preview=""
-             data-preview-count="4">Christkindlmärkte im Landkreis Pfaffenhofen</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/themen/christkindlmaerkte/christkindlmaerkte-neumarkt"
-       target="_top"             data-preview=""
-             data-preview-count="4">Christkindlmärkte im Landkreis Neumarkt</a>
-    </li>
-                            <li class="ressort-item-mm">
     <a        href="/themen/christkindlmaerkte/christkindlmaerkte-roth"
        target="_top"             data-preview=""
              data-preview-count="4">Christkindlmärkte im Landkreis Roth</a>
@@ -1081,6 +1071,11 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Christkindlmärkte im Landkreis Neuburg-Schrobenhausen</a>
     </li>
                             <li class="ressort-item-mm">
+    <a        href="/themen/christkindlmaerkte/christkindlmaerkte-pfaffenhofen"
+       target="_top"             data-preview=""
+             data-preview-count="4">Christkindlmärkte im Landkreis Pfaffenhofen</a>
+    </li>
+                            <li class="ressort-item-mm">
     <a        href="/themen/christkindlmaerkte/christkindlmaerkte-eichstaett"
        target="_top"             data-preview=""
              data-preview-count="4">Christkindlmärkte im Landkreis Eichstätt</a>
@@ -1089,6 +1084,11 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
     <a        href="/themen/christkindlmaerkte/christkindlmaerkte-ingolstadt"
        target="_top"             data-preview=""
              data-preview-count="4">Christkindlmärkte in und um Ingolstadt</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/themen/christkindlmaerkte/christkindlmaerkte-neumarkt"
+       target="_top"             data-preview=""
+             data-preview-count="4">Christkindlmärkte im Landkreis Neumarkt</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/themen/christkindlmaerkte/christkindlmaerkte-kelheim"
@@ -1150,11 +1150,6 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Feuerwehr in der Region</a>
             <ul class="sub-menu-mm">
                             <li class="ressort-item-mm">
-    <a        href="/themen/feuerwehr/feuerwehr-neuburg-schrobenhausen"
-       target="_top"             data-preview=""
-             data-preview-count="4">Feuer, Brand und Feuerwehreinsatz im Landkreis Neuburg-Schrobenhausen</a>
-    </li>
-                            <li class="ressort-item-mm">
     <a        href="/themen/feuerwehr/feuerwehr-aichach-friedberg"
        target="_top"             data-preview=""
              data-preview-count="4">Feuer, Brand und Feuerwehreinsatz im Landkreis Aichach-Friedberg</a>
@@ -1180,6 +1175,11 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Feuer, Brand und Feuerwehreinsatz im Landkreis Dachau</a>
     </li>
                             <li class="ressort-item-mm">
+    <a        href="/themen/feuerwehr/feuerwehr-neuburg-schrobenhausen"
+       target="_top"             data-preview=""
+             data-preview-count="4">Feuer, Brand und Feuerwehreinsatz im Landkreis Neuburg-Schrobenhausen</a>
+    </li>
+                            <li class="ressort-item-mm">
     <a        href="/themen/feuerwehr/feuerwehr-roth"
        target="_top"             data-preview=""
              data-preview-count="4">Feuer, Brand und Feuerwehreinsatz im Landkreis Roth</a>
@@ -1192,19 +1192,19 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Hochzeiten</a>
             <ul class="sub-menu-mm">
                             <li class="ressort-item-mm">
-    <a        href="/themen/hochzeiten/hochzeiten-neuburg-schrobenhausen"
+    <a        href="/themen/hochzeiten/hochzeitsratgeber"
        target="_top"             data-preview=""
-             data-preview-count="4">Hochzeiten Landkreis Neuburg-Schrobenhausen</a>
+             data-preview-count="4">Hochzeitsratgeber</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/themen/hochzeiten/hochzeiten-aichach-friedberg"
+       target="_top"             data-preview=""
+             data-preview-count="4">Hochzeiten Landkreis Aichach-Friedberg</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/themen/hochzeiten/hochzeiten-pfaffenhofen"
        target="_top"             data-preview=""
              data-preview-count="4">Hochzeiten Landkreis Pfaffenhofen</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/themen/hochzeiten/hochzeiten-eichstaett"
-       target="_top"             data-preview=""
-             data-preview-count="4">Hochzeiten Landkreis Eichstätt</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/themen/hochzeiten/hochzeiten-neumarkt"
@@ -1217,6 +1217,11 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Hochzeiten Landkreis Kelheim</a>
     </li>
                             <li class="ressort-item-mm">
+    <a        href="/themen/hochzeiten/hochzeiten-dachau"
+       target="_top"             data-preview=""
+             data-preview-count="4">Hochzeiten Landkreis Dachau</a>
+    </li>
+                            <li class="ressort-item-mm">
     <a        href="/themen/hochzeiten/hochzeiten-ingolstadt"
        target="_top"             data-preview=""
              data-preview-count="4">Hochzeiten Ingolstadt</a>
@@ -1227,19 +1232,14 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Hochzeiten Landkreis Roth</a>
     </li>
                             <li class="ressort-item-mm">
-    <a        href="/themen/hochzeiten/hochzeitsratgeber"
+    <a        href="/themen/hochzeiten/hochzeiten-eichstaett"
        target="_top"             data-preview=""
-             data-preview-count="4">Hochzeitsratgeber</a>
+             data-preview-count="4">Hochzeiten Landkreis Eichstätt</a>
     </li>
                             <li class="ressort-item-mm">
-    <a        href="/themen/hochzeiten/hochzeiten-aichach-friedberg"
+    <a        href="/themen/hochzeiten/hochzeiten-neuburg-schrobenhausen"
        target="_top"             data-preview=""
-             data-preview-count="4">Hochzeiten Landkreis Aichach-Friedberg</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/themen/hochzeiten/hochzeiten-dachau"
-       target="_top"             data-preview=""
-             data-preview-count="4">Hochzeiten Landkreis Dachau</a>
+             data-preview-count="4">Hochzeiten Landkreis Neuburg-Schrobenhausen</a>
     </li>
                     </ul>
     </li>
@@ -1269,14 +1269,14 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Volksfeste Roth</a>
     </li>
                             <li class="ressort-item-mm">
-    <a        href="/themen/volksfeste/volksfeste-neumarkt"
-       target="_top"             data-preview=""
-             data-preview-count="4">Volksfeste Neumarkt</a>
-    </li>
-                            <li class="ressort-item-mm">
     <a        href="/themen/volksfeste/volksfeste-pfaffenhofen"
        target="_top"             data-preview=""
              data-preview-count="4">Volksfeste Pfaffenhofen</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/themen/volksfeste/volksfeste-neumarkt"
+       target="_top"             data-preview=""
+             data-preview-count="4">Volksfeste Neumarkt</a>
     </li>
                     </ul>
     </li>
@@ -1328,16 +1328,6 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Eichstätter Kurier</a>
     </li>
                             <li class="ressort-item-mm">
-    <a        href="/service/zeitungstitel/pfaffenhofener-kurier"
-       target="_top"             data-preview=""
-             data-preview-count="4">Pfaffenhofener Kurier</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/service/zeitungstitel/hilpoltsteiner-kurier"
-       target="_top"             data-preview=""
-             data-preview-count="4">Hilpoltsteiner Kurier</a>
-    </li>
-                            <li class="ressort-item-mm">
     <a        href="/service/zeitungstitel/donaukurier-beilngries-riedenburg"
        target="_top"             data-preview=""
              data-preview-count="4">Donaukurier (Beilngries-Riedenburg)</a>
@@ -1351,6 +1341,16 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
     <a        href="/service/zeitungstitel/donaukurier-neuburg"
        target="_top"             data-preview=""
              data-preview-count="4">Donaukurier (Neuburg)</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/service/zeitungstitel/pfaffenhofener-kurier"
+       target="_top"             data-preview=""
+             data-preview-count="4">Pfaffenhofener Kurier</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/service/zeitungstitel/hilpoltsteiner-kurier"
+       target="_top"             data-preview=""
+             data-preview-count="4">Hilpoltsteiner Kurier</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/service/zeitungstitel/aichacher-anzeiger"
@@ -1542,9 +1542,9 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Kommunalwahl 2026 in Bayern</a>
             <ul class="sub-menu-mm">
                             <li class="ressort-item-mm">
-    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-kelheim"
+    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-aichach-friedberg"
        target="_top"             data-preview=""
-             data-preview-count="4">Landkreis Kelheim - Kommunalwahl 2026 in Bayern</a>
+             data-preview-count="4">Landkreis Aichach-Friedberg - Kommunalwahl 2026 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-dachau"
@@ -1552,34 +1552,9 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Landkreis Dachau - Kommunalwahl 2026 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
-    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-neuburg-schrobenhausen"
-       target="_top"             data-preview=""
-             data-preview-count="4">Landkreis Neuburg-Schrobenhausen - Kommunalwahl 2026 in Bayern</a>
-    </li>
-                            <li class="ressort-item-mm">
     <a        href="/wahlen/kommunalwahl-bayern-2026/region-augsburg"
        target="_top"             data-preview=""
              data-preview-count="4">Region Augsburg - Kommunalwahl 2026 in Bayern</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-aichach-friedberg"
-       target="_top"             data-preview=""
-             data-preview-count="4">Landkreis Aichach-Friedberg - Kommunalwahl 2026 in Bayern</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-eichstaett"
-       target="_top"             data-preview=""
-             data-preview-count="4">Landkreis Eichstätt - Kommunalwahl 2026 in Bayern</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/wahlen/kommunalwahl-bayern-2026/stadt-ingolstadt"
-       target="_top"             data-preview=""
-             data-preview-count="4">Stadt Ingolstadt - Kommunalwahl 2026 in Bayern</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-roth"
-       target="_top"             data-preview=""
-             data-preview-count="4">Landkreis Roth - Kommunalwahl 2026 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-pfaffenhofen"
@@ -1587,9 +1562,34 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Landkreis Pfaffenhofen - Kommunalwahl 2026 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
+    <a        href="/wahlen/kommunalwahl-bayern-2026/stadt-ingolstadt"
+       target="_top"             data-preview=""
+             data-preview-count="4">Stadt Ingolstadt - Kommunalwahl 2026 in Bayern</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-neuburg-schrobenhausen"
+       target="_top"             data-preview=""
+             data-preview-count="4">Landkreis Neuburg-Schrobenhausen - Kommunalwahl 2026 in Bayern</a>
+    </li>
+                            <li class="ressort-item-mm">
     <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-neumarkt"
        target="_top"             data-preview=""
              data-preview-count="4">Landkreis Neumarkt - Kommunalwahl 2026 in Bayern</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-eichstaett"
+       target="_top"             data-preview=""
+             data-preview-count="4">Landkreis Eichstätt - Kommunalwahl 2026 in Bayern</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-kelheim"
+       target="_top"             data-preview=""
+             data-preview-count="4">Landkreis Kelheim - Kommunalwahl 2026 in Bayern</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/wahlen/kommunalwahl-bayern-2026/landkreis-roth"
+       target="_top"             data-preview=""
+             data-preview-count="4">Landkreis Roth - Kommunalwahl 2026 in Bayern</a>
     </li>
                     </ul>
     </li>
@@ -1598,11 +1598,6 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
        target="_top"             data-preview=""
              data-preview-count="4">Bundestagswahl 2025 in Bayern</a>
             <ul class="sub-menu-mm">
-                            <li class="ressort-item-mm">
-    <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-augsburg-stadt"
-       target="_top"             data-preview=""
-             data-preview-count="4">Wahlkreis Augsburg-Stadt - Bundestagswahl 2025 in Bayern</a>
-    </li>
                             <li class="ressort-item-mm">
     <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-augsburg-land"
        target="_top"             data-preview=""
@@ -1614,9 +1609,19 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
              data-preview-count="4">Wahlkreis Amberg - Bundestagswahl 2025 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
+    <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-augsburg-stadt"
+       target="_top"             data-preview=""
+             data-preview-count="4">Wahlkreis Augsburg-Stadt - Bundestagswahl 2025 in Bayern</a>
+    </li>
+                            <li class="ressort-item-mm">
     <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-donau-ries"
        target="_top"             data-preview=""
              data-preview-count="4">Wahlkreis Donau-Ries - Bundestagswahl 2025 in Bayern</a>
+    </li>
+                            <li class="ressort-item-mm">
+    <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-roth"
+       target="_top"             data-preview=""
+             data-preview-count="4">Wahlkreis Roth - Bundestagswahl 2025 in Bayern</a>
     </li>
                             <li class="ressort-item-mm">
     <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-ingolstadt"
@@ -1627,11 +1632,6 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
     <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-freising"
        target="_top"             data-preview=""
              data-preview-count="4">Wahlkreis Freising - Bundestagswahl 2025 in Bayern</a>
-    </li>
-                            <li class="ressort-item-mm">
-    <a        href="/wahlen/bundestagswahl-2025/bundestagswahl-2025-roth"
-       target="_top"             data-preview=""
-             data-preview-count="4">Wahlkreis Roth - Bundestagswahl 2025 in Bayern</a>
     </li>
                     </ul>
     </li>
@@ -3929,6 +3929,53 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
     </div>        
         <div class="row article-teaser-row">
                                                 
+<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19375793">
+        <a
+     aria-label="Könnten die Neuburger Schmid- und die Färberstraße auch ohne Autos funktionieren?"      href="https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/koennten-die-schmid-und-die-faerberstrasse-auch-ohne-autos-funktionieren-19375793"         class="article-link position-absolute inset-0 z-100"
+     data-upscore-url ></a>        <div class="media image-top">
+            <div class="media-image-container min-768px-w-100">
+                                    <div>
+                        
+
+
+                                        
+
+
+
+
+<picture
+    class="image
+     margin-right-10             "
+    data-img-width="168"
+    data-img-height="134"
+>
+    <img
+        aria-hidden="true"
+        loading="lazy"
+        onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
+        alt=""
+        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/6/6/4/9/401869466-2-ger-DE/4f3071bb2546-29-130504491.jpg"
+         class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
+        height="134"
+        />
+</picture>
+                                            </div>
+                
+                                   <div class="available-media bottom"></div>
+                            </div>
+            <div class="media-body">
+                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Debatte um Fußgängerzone</div>
+                <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
+                    <span data-upscore-title>Könnten die Neuburger Schmid- und die Färberstraße auch ohne Autos funktionieren?</span>
+                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="is-plus donaukurier"></span>
+                            <span class="egy-comment-counter-landingpage is-plus-article" data-egy-dsc="19375793"></span>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+                                                                
 <div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19374974">
         <a
      aria-label="20 bis 30 neue Anlagen: So geht es mit der Windkraft im Schrobenhausener Land weiter"      href="https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/20-bis-30-neue-anlagen-so-geht-es-mit-der-windkraft-im-schrobenhausener-land-weiter-19374974"         class="article-link position-absolute inset-0 z-100"
@@ -4063,53 +4110,6 @@ __tcfapi("addEventListener", 2, function (tcData, success) {
                     <span data-upscore-title>Delegation reiste zum 281. Saint-Louis-Fest in Neuburgs Partnerstadt Sète</span>
                     <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="is-plus donaukurier"></span>
                             <span class="egy-comment-counter-landingpage is-plus-article" data-egy-dsc="19375622"></span>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </article>
-</div>
-                                                                
-<div class="col-md-3 article-teaser-col">    <article class="article-teaser image-first margin-bottom-20" data-upscore-object-id="19374272">
-        <a
-     aria-label="Bekanntes Kanadisches Duo startet Deutschland-Tournee in Neuburg"      href="https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/bekanntes-kanadisches-duo-startet-deutschland-tournee-in-neuburg-19374272"         class="article-link position-absolute inset-0 z-100"
-     data-upscore-url ></a>        <div class="media image-top">
-            <div class="media-image-container min-768px-w-100">
-                                    <div>
-                        
-
-
-                                        
-
-
-
-
-<picture
-    class="image
-     margin-right-10             "
-    data-img-width="168"
-    data-img-height="134"
->
-    <img
-        aria-hidden="true"
-        loading="lazy"
-        onload="this.parentNode.style.backgroundColor='transparent';this.parentNode.style.backgroundImage='none';"
-        alt=""
-        src="https://img.donaukurier.de/ezplatform/images/_aliases/block_gallery_item_image_variation/8/8/5/3/401843588-1-ger-DE/700736122390-29-130500796.jpg"
-         class="media-image image-first img-fluid margin-right-10  h-100 "width="168"
-        height="134"
-        />
-</picture>
-                                            </div>
-                
-                                   <div class="available-media bottom"></div>
-                            </div>
-            <div class="media-body">
-                <div class="article-teaser-line-top media-top text-grey-1 margin-top-10 margin-bottom-2">Zwei Globetrotter an der Fiddle und am Banjo</div>
-                <div class="article-teaser-headline type-2 media-heading d-block font-weight-bold text-black margin-bottom-5">
-                    <span data-upscore-title>Bekanntes Kanadisches Duo startet Deutschland-Tournee in Neuburg</span>
-                    <div class="meta-wrapper article-teaser-meta text-grey">                            <span class="is-plus donaukurier"></span>
-                            <span class="egy-comment-counter-landingpage is-plus-article" data-egy-dsc="19374272"></span>
                         </div>
                 </div>
             </div>

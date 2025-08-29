@@ -24,12 +24,12 @@
 <link rel="alternate" type="application/rss+xml" title="RSS Feed 2.0" href="https://www.nw.de/_export/site_rss/nw/index.rss" />
 <link rel="canonical" href="https://www.nw.de" />
 <!-- global/2-->
-<link rel="preload" href="https://www.nw.de/_em_cms/globals/csslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_load_restrict=2&amp;em_view=desktop&amp;em_cache_css=1756392821" as="style" />
-<link rel="stylesheet" type="text/css" href="https://www.nw.de/_em_cms/globals/csslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_load_restrict=2&amp;em_view=desktop&amp;em_cache_css=1756392821" />
+<link rel="preload" href="https://www.nw.de/_em_cms/globals/csslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_load_restrict=2&amp;em_view=smartphone&amp;em_cache_css=1756392821" as="style" />
+<link rel="stylesheet" type="text/css" href="https://www.nw.de/_em_cms/globals/csslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_load_restrict=2&amp;em_view=smartphone&amp;em_cache_css=1756392821" />
 <!-- global/0-->
-<link rel="preload" href="https://www.nw.de/_em_cms/globals/jslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_view=desktop&amp;em_cache_js=1756392805" as="script" />
+<link rel="preload" href="https://www.nw.de/_em_cms/globals/jslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_view=smartphone&amp;em_cache_js=1756392805" as="script" />
 <!-- global/0-->
-<script type="text/javascript" src="https://www.nw.de/_em_cms/globals/jslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_view=desktop&amp;em_cache_js=1756392805"></script>
+<script type="text/javascript" src="https://www.nw.de/_em_cms/globals/jslibs.php?em_client=nw&amp;em_subclient=nw&amp;em_ssc=LCwsLA==&amp;em_view=smartphone&amp;em_cache_js=1756392805"></script>
 <link href="/_em_daten/nw/_layout/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" /><meta name="apple-itunes-app" content="app-id=1532888930" app-argument="https://nw.de"><script type="text/javascript" src="https://script.ioam.de/iam.js"></script>
 
 <!--Nicht Löschen - AF-->
@@ -367,7 +367,7 @@ var strGlobalsSiteLoc  = "4738";
     <script type="text/javascript">
         var dn = mobileAccess ? 'data-81547504c8.nw.de' : 'data-83380557db.nw.de';
         IOMm('configure', {
-            st: 'nwnews',
+            st: 'mobnwnew',
             dn: dn,
             mh: 5
         }); // Configure IOMm
@@ -414,15 +414,10 @@ var strGlobalsSiteLoc  = "4738";
 <body id="em_body_top" onload="if(typeof init == 'function') init();">
 <!-- em-cms-cut --><!-- em-cms-cut -->
 <div class="nw-bg-gray-0 container site-source-home" data-site-id="4738" data-site-ressort="Startseite"><div id="em_ad_superbanner">
-    <div id="leaderboard-wrapper">
-<div id="nw.de_lb_1" data-roles=""></div></div>
+    
     
     <div id="em_ad_skyscraper" style="position: absolute; right:0px;width: 0px;">
         
-
-<div id="nw.de_sky_1" data-roles=""></div>
-
-
     </div>
 </div>
 
@@ -705,64 +700,64 @@ var strGlobalsSiteLoc  = "4738";
         <div class="embla-newsticker__viewport nw-overflow-hidden nw-w-full nw-rounded-md">
             <div class="embla-newsticker__container nw-flex nw-text-sm">
                                         <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/lokal/bielefeld/mitte/24161883_Bielefelds-OB-Bewerber-15-Dinge-die-Sie-ueber-Ingo-Nuernberger-wissen-sollten.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 1', 'Startseite']);">
-                                    Bielefelds OB-Bewerber: 15 Dinge, die Sie über Ingo Nürnberger wissen sollten
+                            <a href="https://www.nw.de/lokal/kreis_herford/herford/24164152_Nahe-des-Herforder-Bahnhofs-Exhibitionist-fasst-sich-vor-Radfahrerin-an.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 1', 'Startseite']);">
+                                    Nahe des Herforder Bahnhofs: Exhibitionist fasst sich vor Radfahrerin an
                             </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;4&nbsp;Min.</span>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;12&nbsp;Min.</span>
                         </div>
                                         <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/sport/sport_nachrichten/24164146_Havertz-am-Knie-operiert-Club-hofft-auf-schnelle-Rueckkehr.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 2', 'Startseite']);">
-                                    Havertz am Knie operiert - Club hofft auf schnelle Rückkehr
+                            <a href="https://www.nw.de/lokal/bielefeld/mitte/23511913_Veranstaltungstipps-fuer-Bielefeld-Weinfest-drei-Konzerte-im-Ravensberger-Park-und-mehr-ET.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 2', 'Startseite']);">
+                                    Veranstaltungstipps für Bielefeld: Weinfest, drei Konzerte im Ravensberger Park und mehr
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;12&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/lokal/kreis_paderborn/borchen/24163257_Das-sind-die-Bewerber-um-das-Buergermeisteramt-in-Borchen.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 3', 'Startseite']);">
+                                    Das sind die Bewerber um das Bürgermeisteramt in Borchen
                             </a>
                             <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;14&nbsp;Min.</span>
                         </div>
                                         <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/nachrichten/kultur/kultur/24164140_Bolschoi-Theater-Russischer-Komponist-Schtschedrin-ist-tot.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 3', 'Startseite']);">
-                                    Bolschoi Theater: Russischer Komponist Schtschedrin ist tot
+                            <a href="https://www.nw.de/nachrichten/panorama/24164153_Nach-Merkel-Selfie-Ein-Fluechtling-und-sein-neues-Leben.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 4', 'Startseite']);">
+                                    Nach Merkel-Selfie: Ein Flüchtling und sein neues Leben
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;18&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/sport/sc_paderborn_07/24045816_Live-im-TV-und-Stream-Hier-sehen-Sie-den-SC-Paderborn-07-gegen-den-1.-FC-Nuernberg.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 5', 'Startseite']);">
+                                    Live im TV und Stream: Hier sehen Sie den SC Paderborn 07 gegen den 1. FC Nürnberg
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;18&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/lokal/bielefeld/mitte/24161883_Bielefelds-OB-Bewerber-15-Dinge-die-Sie-ueber-Ingo-Nuernberger-wissen-sollten.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 6', 'Startseite']);">
+                                    Bielefelds OB-Bewerber: 15 Dinge, die Sie über Ingo Nürnberger wissen sollten
                             </a>
                             <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;24&nbsp;Min.</span>
                         </div>
                                         <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/lokal/kreis_herford/herford/23656765_Letzte-Party-in-Disco-und-Volksfeste-Wochenendtipps-fuer-Herford-und-Minden-Luebbecke.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 4', 'Startseite']);">
+                            <a href="https://www.nw.de/sport/sport_nachrichten/24164146_Havertz-am-Knie-operiert-Club-hofft-auf-schnelle-Rueckkehr.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 7', 'Startseite']);">
+                                    Havertz am Knie operiert - Club hofft auf schnelle Rückkehr
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;35&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/nachrichten/kultur/kultur/24164140_Bolschoi-Theater-Russischer-Komponist-Schtschedrin-ist-tot.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 8', 'Startseite']);">
+                                    Bolschoi Theater: Russischer Komponist Schtschedrin ist tot
+                            </a>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;45&nbsp;Min.</span>
+                        </div>
+                                        <div class="embla-newsticker__slide">
+                            <a href="https://www.nw.de/lokal/kreis_herford/herford/23656765_Letzte-Party-in-Disco-und-Volksfeste-Wochenendtipps-fuer-Herford-und-Minden-Luebbecke.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 9', 'Startseite']);">
                                     Letzte Party in Disco und Volksfeste: Wochenendtipps für Herford und Minden-Lübbecke
                             </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;27&nbsp;Min.</span>
+                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;47&nbsp;Min.</span>
                         </div>
                                         <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/gesundheit/24164137_3-30-300-Drei-Zahlen-fuer-mehr-Wohlbefinden.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 5', 'Startseite']);">
+                            <a href="https://www.nw.de/gesundheit/24164137_3-30-300-Drei-Zahlen-fuer-mehr-Wohlbefinden.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 10', 'Startseite']);">
                                     3-30-300: Drei Zahlen für mehr Wohlbefinden
                             </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;28&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163589_Aerger-ueber-Trinkerszene-im-Guetersloher-Schenke-Park-Anwohnerin-verlegt-ihr-Schlafzimmer.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 6', 'Startseite']);">
-                                    Ärger über Trinkerszene im Gütersloher Schenke-Park – Anwohnerin verlegt ihr Schlafzimmer
-                            </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;29&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/sport/sport_nachrichten/24164130_Woltemade-zu-Newcastle-Matthaeus-Passt-gut.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 7', 'Startseite']);">
-                                    Woltemade zu Newcastle? - Matthäus: «Passt gut»
-                            </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;38&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163897_Spektakulaere-Plaene-in-Guetersloh-Aus-alten-Hallen-koennte-ein-Wohngebiet-entstehen.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 8', 'Startseite']);">
-                                    Spektakuläre Pläne in Gütersloh: Aus alten Hallen könnte ein Wohngebiet entstehen
-                            </a>
                             <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;49&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/sport/fussball/24164125_Weiper-rechnet-ab-Viele-Fake-Nachrichten-verbreitet.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 9', 'Startseite']);">
-                                    Weiper rechnet ab: «Viele Fake-Nachrichten verbreitet»
-                            </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;49&nbsp;Min.</span>
-                        </div>
-                                        <div class="embla-newsticker__slide">
-                            <a href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163873_Hendrik-Wuest-im-Kreis-Guetersloh-Scharfe-AfD-Kritik-und-Lob-fuer-die-CDU-Kandidaten.html"  onclick="_paq.push(['trackEvent', 'Newsticker', 'Position 10', 'Startseite']);">
-                                    Hendrik Wüst im Kreis Gütersloh: Scharfe AfD-Kritik und Lob für die CDU-Kandidaten
-                            </a>
-                            <span class="nw-text-xs nw-text-gray-400 nw-pt-1 nw-font-normal">vor&nbsp;50&nbsp;Min.</span>
                         </div>
                                 <div class="
                 embla-newsticker__slide
@@ -781,52 +776,52 @@ var strGlobalsSiteLoc  = "4738";
                 {
                 "@type":"ListItem",
                 "position":"1",
-                "url":"https://www.nw.de/lokal/bielefeld/mitte/24161883_Bielefelds-OB-Bewerber-15-Dinge-die-Sie-ueber-Ingo-Nuernberger-wissen-sollten.html"
+                "url":"https://www.nw.de/lokal/kreis_herford/herford/24164152_Nahe-des-Herforder-Bahnhofs-Exhibitionist-fasst-sich-vor-Radfahrerin-an.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"2",
-                "url":"https://www.nw.de/sport/sport_nachrichten/24164146_Havertz-am-Knie-operiert-Club-hofft-auf-schnelle-Rueckkehr.html"
+                "url":"https://www.nw.de/lokal/bielefeld/mitte/23511913_Veranstaltungstipps-fuer-Bielefeld-Weinfest-drei-Konzerte-im-Ravensberger-Park-und-mehr-ET.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"3",
-                "url":"https://www.nw.de/nachrichten/kultur/kultur/24164140_Bolschoi-Theater-Russischer-Komponist-Schtschedrin-ist-tot.html"
+                "url":"https://www.nw.de/lokal/kreis_paderborn/borchen/24163257_Das-sind-die-Bewerber-um-das-Buergermeisteramt-in-Borchen.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"4",
-                "url":"https://www.nw.de/lokal/kreis_herford/herford/23656765_Letzte-Party-in-Disco-und-Volksfeste-Wochenendtipps-fuer-Herford-und-Minden-Luebbecke.html"
+                "url":"https://www.nw.de/nachrichten/panorama/24164153_Nach-Merkel-Selfie-Ein-Fluechtling-und-sein-neues-Leben.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"5",
-                "url":"https://www.nw.de/gesundheit/24164137_3-30-300-Drei-Zahlen-fuer-mehr-Wohlbefinden.html"
+                "url":"https://www.nw.de/sport/sc_paderborn_07/24045816_Live-im-TV-und-Stream-Hier-sehen-Sie-den-SC-Paderborn-07-gegen-den-1.-FC-Nuernberg.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"6",
-                "url":"https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163589_Aerger-ueber-Trinkerszene-im-Guetersloher-Schenke-Park-Anwohnerin-verlegt-ihr-Schlafzimmer.html"
+                "url":"https://www.nw.de/lokal/bielefeld/mitte/24161883_Bielefelds-OB-Bewerber-15-Dinge-die-Sie-ueber-Ingo-Nuernberger-wissen-sollten.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"7",
-                "url":"https://www.nw.de/sport/sport_nachrichten/24164130_Woltemade-zu-Newcastle-Matthaeus-Passt-gut.html"
+                "url":"https://www.nw.de/sport/sport_nachrichten/24164146_Havertz-am-Knie-operiert-Club-hofft-auf-schnelle-Rueckkehr.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"8",
-                "url":"https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163897_Spektakulaere-Plaene-in-Guetersloh-Aus-alten-Hallen-koennte-ein-Wohngebiet-entstehen.html"
+                "url":"https://www.nw.de/nachrichten/kultur/kultur/24164140_Bolschoi-Theater-Russischer-Komponist-Schtschedrin-ist-tot.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"9",
-                "url":"https://www.nw.de/sport/fussball/24164125_Weiper-rechnet-ab-Viele-Fake-Nachrichten-verbreitet.html"
+                "url":"https://www.nw.de/lokal/kreis_herford/herford/23656765_Letzte-Party-in-Disco-und-Volksfeste-Wochenendtipps-fuer-Herford-und-Minden-Luebbecke.html"
             },
                 {
                 "@type":"ListItem",
                 "position":"10",
-                "url":"https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163873_Hendrik-Wuest-im-Kreis-Guetersloh-Scharfe-AfD-Kritik-und-Lob-fuer-die-CDU-Kandidaten.html"
+                "url":"https://www.nw.de/gesundheit/24164137_3-30-300-Drei-Zahlen-fuer-mehr-Wohlbefinden.html"
             }
         ]
 }
@@ -2330,6 +2325,11 @@ var strGlobalsSiteLoc  = "4738";
     <div class="nw-pt-6 nw-mb-6 nw-rounded-b-md nw-container">
 
     
+<div class="box-ad-middle ads-box-content" style="min-height:80px">
+
+<div id="nw.de_lb_1" data-roles=""></div>
+</div>
+
 
 
 <style>
@@ -2450,17 +2450,7 @@ class="media-object img-responsive" />
 </div>
 </div>
 </a>
-</article>
-<div class="box-ad-middle nw-mb-4" style="
-display: flex;
-justify-content: center;
-min-height:310px;
-">
-<div class="em_ads_box_dynamic_remove">
-
-<div id="nw.de_bb_1" data-roles=""></div>
-</div>
-</div><div class="row">
+</article><div class="row">
 <div class="col-md-8 hcel">
 <div class="row">
 <div class="col-12">  
@@ -2592,16 +2582,16 @@ class="media-object img-responsive" />
 <div class="img-wrap">
 
 <img width="320" height="194" loading="lazy" 
-src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010bDNma2hzQnRJS1ErYkVkQ2kzdEZaeGxhY3lxZTF6WmpncTZrckVUa3l6Ylhzc3YzTEE2enR5L01tKzhJR2dkdDJPc1Q0MUJ3a1V4dXVWUENTMEZ2RG89/250828-1813-646050510.jpg" 
-srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005VnJWZHM3Qk80RnMrSkltcVFzVWZUNHhCM3hNaFVHWEJYclFaZXRYTnRRYzBiRkV2OStwMmRGbmtIRGllMGNpU3JuRmlTQ2tmaExIVUJGRGMvMHQ4WFk9/250828-1813-646050510.jpg 1440w"  
-alt="Kinder sollten zun&auml;chst den Umgang mit Bargeld lernen, bevor sie mit Karte zahlen. - picture alliance/dpa/dpa-tmn" 
+src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010dFNPaExDckgyNGN4alBFUFZRbDFOSmgyQ3dMc0NURnY3LzdlbE5yWHYxbnFoeTVsTmFEOWY1alVEUmRmblBFSEE9PQ/250828-1813-646050510.jpg" 
+srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005V0EyaUd5VnR2WkNRc0tKM3lZSEJ4Snl1QzhYb2dZL3FYeFdocWVjM1FSVmRQK0VrbmtXaUtuZWVFZ3hLYlF5Q2c9PQ/250828-1813-646050510.jpg 1440w"  
+alt="Kinder sollten zun&auml;chst den Umgang mit Bargeld lernen, bevor sie mit der Girokarte zahlen. Eine Expertin erkl&auml;rt, welches das richtige Alter ist. - picture alliance/dpa/dpa-tmn" 
 
 class="media-object img-responsive" />
 </div>
 </div>
 <div class="col-sm-6">
 <div class="row">
-<div style="float:none;" class="col-md-12 article-ressort nwplus">Tipps f&uuml;r Eltern</div>
+<div style="float:none;" class="col-md-12 article-ressort nwplus">Finanzerziehung</div>
 </div>
 <h2 class="media-heading article-headline-container-main article-headline-object nw-mb-1">
 <i class="fa fa-plus-square"></i> <span class="article-headline-main hyphenate" data-upscore-title>Der richtige Umgang mit Geld: Ab welchem Alter Kinder mit Karte zahlen sollten</span>
@@ -2925,12 +2915,12 @@ class="media-object img-responsive" />
 <div class="panel panel-default">
 <div class="panel-heading">
 <h4 class="panel-title">
-<a data-toggle="collapse" data-parent=".accordion-mosthits" href="#accordian-68b148bd7e875">
+<a data-toggle="collapse" data-parent=".accordion-mosthits" href="#accordian-68b14d83860eb">
 Meistgelesen
 </a>
 </h4>
 </div>
-<div id="accordian-68b148bd7e875" class="panel-collapse collapse in">
+<div id="accordian-68b14d83860eb" class="panel-collapse collapse in">
 <div class="panel-body">
 <ul class="aside-pos-list">
 
@@ -3366,16 +3356,6 @@ Zum Artikel
     </div>
 </div>
 
-<div class="box-ad-middle nw-mb-4" style="
-display: flex;
-justify-content: center;
-min-height:310px;
-">
-<div class="em_ads_box_dynamic_remove">
-
-<div id="nw.de_bb_2" data-roles=""></div>
-</div>
-</div>
 <section class="new-section with-vert-nav" id="lokales">
 <div class="row">
 <div class="sep-text single centered">
@@ -3395,40 +3375,38 @@ Lokales
 <div class="letzte-meldungen-mitte clearfix" data-upscore-zone="Lokales">
 <div class="row">
 
-<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="23656765">
+<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164152">
 <div class="article-image-container-main">
 
 
-<a href="https://www.nw.de/lokal/kreis_herford/buende/23656765_Letzte-Party-in-Disco-und-Volksfeste-Wochenendtipps-fuer-Herford-und-Minden-Luebbecke.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010bXBpSUk4VWc1M0VpbVBhU0JEcFN4NjAyS2tSaHRsZXBiL0luMkwraUVVbTB5Qllwb0lBZkozNmRuakk4WEhpbkJibjVteUFlallhcENvZjV0VXJ1R2c9/250828-1110-646122350.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005ZVNCZTdMY1hVZFFiNlNBeXFmanNXLyt3UG1HK2dYR1JPQTB1cUlQcFNIalJEejQ1RGRLWGZ3cE5qcXYrM0pjT3VyMUVGZFZXTlk0bWxjK0U3M3VTTWc9/250828-1110-646122350.jpg 1440w"  alt="Glitzernde Abschiedsparty im &#34;King&rsquo;s Castle&#34;: Die Disco &ouml;ffnet zum letzten Mal ihre T&uuml;ren und l&auml;dt zum Tanz ein. - (Symbolbild): Pixabay"  class="media-object img-responsive" /></a>      
+<a href="https://www.nw.de/lokal/kreis_herford/herford/24164152_Nahe-des-Herforder-Bahnhofs-Exhibitionist-fasst-sich-vor-Radfahrerin-an.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010djQxMXdnc1JzMXlsSzFYUXd3QjFtUHd4bHUyL1lTN2FIa2VycmYwWVhrSFpkbTdMeXJXNDd4RDBGY0E2dFZqVXNYL0NsWUtTUVpVdTFERWowTFlaakU9/250829-0837-646253313.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005ZENyMDZIdUs5djVDUklCaHdvNlBuNTI5eGUrRExKeldjVE80SDRhTDQ5MTNiS0lFTGhOMkpSL2t5SWYrdzRYeWVTclhvWTIrdk90NU5vSFMyQTZ4OVU9/250829-0837-646253313.jpg 1440w"  alt="Die Radfahrerin alarmierte die Polizei, nachdem sich der Mann in unschicklicher Art und Weise vor ihr gezeigt hatte. - (Symbolbild): Pixabay"  class="media-object img-responsive" /></a>      
 </div>
   
 <div class="media-body-main" style="width:100%">
-<a class="article-ressort" href="https://www.nw.de/lokal/kreis_herford/buende">27. bis 31. August</a>
+<a class="article-ressort nwplus" href="https://www.nw.de/lokal/kreis_herford/herford">Exhibitionist aufgegriffen</a>
 <h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
-<a href="https://www.nw.de/lokal/kreis_herford/buende/23656765_Letzte-Party-in-Disco-und-Volksfeste-Wochenendtipps-fuer-Herford-und-Minden-Luebbecke.html" data-upscore-url>
-<span data-upscore-title>Letzte Party in Disco und Volksfeste: Wochenendtipps f&uuml;r Herford und Minden-L&uuml;bbecke</span>
+<a href="https://www.nw.de/lokal/kreis_herford/herford/24164152_Nahe-des-Herforder-Bahnhofs-Exhibitionist-fasst-sich-vor-Radfahrerin-an.html" data-upscore-url>
+<i class="fa fa-plus-square"></i> <span data-upscore-title>Nahe des Herforder Bahnhofs: Exhibitionist fasst sich vor Radfahrerin an</span>
 
 </a>
 </h3>
-<div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
-<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
-</svg><span class="article-id-noad-23656765 nw-egy-noad-item egyCounter" data-egy-dsc="article-23656765-2"></span></span></span> </div>
+<div> </div>
 </div>
 </article>
 <hr class="article-divider visible-xs"/>
 
-<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24163589">
+<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="23511913">
 <div class="article-image-container-main">
 
 
-<a href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163589_Aerger-ueber-Trinkerszene-im-Guetersloher-Schenke-Park-Anwohnerin-verlegt-ihr-Schlafzimmer.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010clBmUzgvYUJ6Mmd1eXFJUTl3NTNZcE9RM1EvT3B0NGN1a284bHB3RHZGLytXejdtNXlSU0NOaHVPOFpSNXpNd3hEQ1BOK1pKMmpRL0dWNjhlY3hsSTA9/250828-1148-646108979.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005Y1gxdzB3ckc1WjVVbUM1eTNIcUhQZWFhaFh4aXBsb0E0TFNLU2NlY2Q3SXA2L2N1MjB1SGlaYUVZa1U3b1FSbDlsVFlheU5BQ0EwS1NMVkdDSkc4Tmc9/250828-1148-646108979.jpg 1440w"  alt="Bei seinem Besuch des Schenke-Parks nimmt FDP-Fraktionsvorsitzender Sascha Priebe auch die Jahre gekommenen Spielger&auml;te auf dem angrenzenden Spielplatz in den Blick. - Patrick Menzel"  class="media-object img-responsive" /></a>      
+<a href="https://www.nw.de/lokal/bielefeld/mitte/23511913_Veranstaltungstipps-fuer-Bielefeld-Weinfest-drei-Konzerte-im-Ravensberger-Park-und-mehr-ET.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010dkNVNTNucEttZkdqeE5Wb0hqUEFtdVdCWDRzL0hwWWIwQS9BTGlVZEpGVGYwMStxcEZxKzJ2K252Q0E2aGJNVlVIOXNjdjNSbGRvT3FzakVhNTVsOWs9/250826-1709-645802436.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005ZVhhckMrTGdBRzVXY3Z1WVh4WDd1VnFtREdqS0R0dVV4M2UvNFlmbmg4VWQrSjZpTlVhOG1NcFJlKzQxRXBnQzRaNTE0RDYrcG9ydk1FblMzSlFVMzQ9/250826-1709-645802436.jpg 1440w"  alt="Wer sich am Wochenende nach Musik sehnt, hat Gl&uuml;ck: Neben Sarah Connor sind auch die Fantastischen Vier und die Band &#34;Provinz&#34; auf der gro&szlig;en B&uuml;hne im Ravensberger Park zu sehen. - picture alliance / Eibner-Pressefoto"  class="media-object img-responsive" /></a>      
 </div>
   
 <div class="media-body-main" style="width:100%">
-<a class="article-ressort nwplus" href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh">Ruhest&ouml;rung</a>
+<a class="article-ressort" href="https://www.nw.de/lokal/bielefeld/mitte">28. bis 31. August 2025</a>
 <h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
-<a href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163589_Aerger-ueber-Trinkerszene-im-Guetersloher-Schenke-Park-Anwohnerin-verlegt-ihr-Schlafzimmer.html" data-upscore-url>
-<i class="fa fa-plus-square"></i> <span data-upscore-title>&Auml;rger &uuml;ber Trinkerszene im G&uuml;tersloher Schenke-Park &ndash; Anwohnerin verlegt ihr Schlafzimmer</span>
+<a href="https://www.nw.de/lokal/bielefeld/mitte/23511913_Veranstaltungstipps-fuer-Bielefeld-Weinfest-drei-Konzerte-im-Ravensberger-Park-und-mehr-ET.html" data-upscore-url>
+<span data-upscore-title>Veranstaltungstipps f&uuml;r Bielefeld: Weinfest, drei Konzerte im Ravensberger Park und mehr</span>
 
 </a>
 </h3>
@@ -3438,46 +3416,46 @@ Lokales
 <hr class="article-divider visible-xs"/>
 
 <div class="clearfix"></div>
-<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24163488">
+<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24163257">
 <div class="article-image-container-main">
 
 
-<a href="https://www.nw.de/lokal/kreis_guetersloh/steinhagen/24163488_Wut-im-Kreis-Guetersloh-ueber-Rueckzug-von-Unternehmen-A33-ist-da-und-Schaeffler-geht.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010dUl1dC9hQWNBdWo1dW83ZGkyY2lkekRWQk02YUl6aHkxa2Eya1RoM2JSNno5dkVURlY5dGhWRCtwTmJ6NW52ZnE3STJCSkQrbHIxYlBYNGpkRUpDcHc9/250828-0926-645974718.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005YlJIeTYvSHNvc0xlTnNLYW9GT2oxYnl2YmxOL2xnelFZU0I2WGJCZ2drdDE4akFkaVdYTW10enRTcDR4WW1NZzVsQnFOMHQ2NzRtTDFWTVRTUEpyY3c9/250828-0926-645974718.jpg 1440w"  alt="D&uuml;stere Aussichten f&uuml;r das Schaeffler-Werk in Steinhagen. Es soll Ende 2026 geschlossen werden. - Jonas Damme"  class="media-object img-responsive" /></a>      
+<a href="https://www.nw.de/lokal/kreis_paderborn/borchen/24163257_Das-sind-die-Bewerber-um-das-Buergermeisteramt-in-Borchen.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010a08xK1EwUXJ3Nk8wYWZ5ajd3RG03bUlkYllmWkw1Tm5GaWQvdW9jMjZmQVViRXJSZ0FScGpxWTIvN1FZZjJ3d05DcnRHNXhhM1F4RjdlaElPRytacUE9/250827-2032-645412283.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005ZG9aMVRhbGtia0NFRi9OcFFBT3pWVURsMW01Z1J3RnQ5RHRWM0JMdEJmaWlIUW1wTTluNGFHRmQ4dmZKckVqTmVpWHJkS21NK0dvQllEaUdWZFVhU0k9/250827-2032-645412283.jpg 1440w"  alt="Anl&auml;sslich der Kommunalwahl am 14. September stellt die NW die Kandidatinnen und Kandidaten f&uuml;r Borchen vor. - picture alliance / dpa"  class="media-object img-responsive" /></a>      
 </div>
   
 <div class="media-body-main" style="width:100%">
-<a class="article-ressort nwplus" href="https://www.nw.de/lokal/kreis_guetersloh/steinhagen">Schlie&szlig;ung Ende 2026</a>
+<a class="article-ressort nwplus" href="https://www.nw.de/lokal/kreis_paderborn/borchen">Kommunalwahl 2025</a>
 <h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
-<a href="https://www.nw.de/lokal/kreis_guetersloh/steinhagen/24163488_Wut-im-Kreis-Guetersloh-ueber-Rueckzug-von-Unternehmen-A33-ist-da-und-Schaeffler-geht.html" data-upscore-url>
-<i class="fa fa-plus-square"></i> <span data-upscore-title>Wut im Kreis G&uuml;tersloh &uuml;ber R&uuml;ckzug von Unternehmen: A33 ist da &ndash; und Schaeffler geht</span>
+<a href="https://www.nw.de/lokal/kreis_paderborn/borchen/24163257_Das-sind-die-Bewerber-um-das-Buergermeisteramt-in-Borchen.html" data-upscore-url>
+<i class="fa fa-plus-square"></i> <span data-upscore-title>Das sind die Bewerber um das B&uuml;rgermeisteramt in Borchen</span>
 
 </a>
 </h3>
 <div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
-</svg><span class="article-id-noad-24163488 nw-egy-noad-item egyCounter" data-egy-dsc="article-24163488"></span></span></span> </div>
+</svg><span class="article-id-noad-24163257 nw-egy-noad-item egyCounter" data-egy-dsc="article-24163257"></span></span></span> </div>
 </div>
 </article>
 <hr class="article-divider visible-xs"/>
 
-<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24163873">
+<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24161883">
 <div class="article-image-container-main">
 
 
-<a href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163873_Hendrik-Wuest-im-Kreis-Guetersloh-Scharfe-AfD-Kritik-und-Lob-fuer-die-CDU-Kandidaten.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010cVhjcW5YWWxxNWxOcjdJRldrbmx6ekpQNWdxOUc0NURzYmluelgrMTlnRDJMR1BNdlRLdEozUklrdFFSR09JaUtIMUhSQlI2L0VvMmtkVkxxOHBnd2c9/250828-1807-646225169.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005ZjZzTS9VU0syL2N0WEZRbzZ3cmRPbytoRDF3OWNLZW5zdmVZVVUyYmxHNWRlUm9MekRCWjJ4UnM3WU9PVmd1R2djeXRDbFllUUcrNE9odzEvNDl3ZTA9/250828-1807-646225169.jpg 1440w"  alt="Die CDU-B&uuml;rgermeisterkandidatin aus Harsewinkel, Pamela Westmeyer (links) zusammen mit Ministerpr&auml;sident Hendrik W&uuml;st und CDU-Landratskandidatin Ina Lauk&ouml;tter auf dem Podium der Lokalrunde in der Klosterpforte. - Andreas Fr&uuml;cht"  class="media-object img-responsive" /></a>      
+<a href="https://www.nw.de/lokal/bielefeld/mitte/24161883_Bielefelds-OB-Bewerber-15-Dinge-die-Sie-ueber-Ingo-Nuernberger-wissen-sollten.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010bDNma2hzQnRJS1ErYkVkQ2kzdEZadzJNY3ZQdm9qczdoUnBBSXgrNmxHL0NHc3A2N1dCb29mWVpTZ2lhUlVaNXVMQnFiS0hGd1orNXNzT1BGVElhUmc9/250825-2015-644504854.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005VnJWZHM3Qk80RnMrSkltcVFzVWZUNkgreHhhSE50eFFtNGQvQnhsQlBzclg3dGQxakVuRnRmeDg2aFg1WkY2cG50M2xENkJNejUxQjRYRktOUHpVVDg9/250825-2015-644504854.jpg 1440w"  alt="Ingo N&uuml;rnberger m&ouml;chte Oberb&uuml;rgermeister von Bielefeld werden. - Peter Unger"  class="media-object img-responsive" /></a>      
 </div>
   
 <div class="media-body-main" style="width:100%">
-<a class="article-ressort nwplus" href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh">Klare Worte</a>
+<a class="article-ressort nwplus" href="https://www.nw.de/lokal/bielefeld/mitte">Kommunalwahl 2025 in Bielefeld</a>
 <h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
-<a href="https://www.nw.de/lokal/kreis_guetersloh/guetersloh/24163873_Hendrik-Wuest-im-Kreis-Guetersloh-Scharfe-AfD-Kritik-und-Lob-fuer-die-CDU-Kandidaten.html" data-upscore-url>
-<i class="fa fa-plus-square"></i> <span data-upscore-title>Hendrik W&uuml;st im Kreis G&uuml;tersloh: Scharfe AfD-Kritik und Lob f&uuml;r die CDU-Kandidaten</span>
+<a href="https://www.nw.de/lokal/bielefeld/mitte/24161883_Bielefelds-OB-Bewerber-15-Dinge-die-Sie-ueber-Ingo-Nuernberger-wissen-sollten.html" data-upscore-url>
+<i class="fa fa-plus-square"></i> <span data-upscore-title>Bielefelds OB-Bewerber: 15 Dinge, die Sie &uuml;ber Ingo N&uuml;rnberger wissen sollten</span>
 
 </a>
 </h3>
 <div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
-</svg><span class="article-id-noad-24163873 nw-egy-noad-item egyCounter" data-egy-dsc="article-24163873"></span></span></span> </div>
+</svg><span class="article-id-noad-24161883 nw-egy-noad-item egyCounter" data-egy-dsc="article-24161883"></span></span></span> </div>
 </div>
 </article>
 <hr class="article-divider visible-xs"/>
@@ -4159,6 +4137,28 @@ Panorama
 <div class="letzte-meldungen-mitte clearfix" data-upscore-zone="Panorama">
 <div class="row">
 
+<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164153">
+<div class="article-image-container-main">
+
+
+<a href="https://www.nw.de/nachrichten/panorama/24164153_Nach-Merkel-Selfie-Ein-Fluechtling-und-sein-neues-Leben.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010b3ZKYS93SUxmVkxOck10ZFZabitROGhnVVZ5eTdTNDgvdjJpZXhSOHZ5K0tKR1krTFhubHQrSHAxRUVpcDhkQkR3d3pSWjQ2TVJzSUhzT3BXQmgyK009/250829-0837-646253499.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005ZGlDQzRQcTVYc0o2b3lkRWZwdVdxckF4UzU4KzlHV1NSRGM4aitMajBFS1B6eDQxOXU3MEl0bjlsL3ZCaytvZFdWZzJ6Y3V4SnZTUldCZkp1NlpVbWM9/250829-0837-646253499.jpg 1440w"  alt="Anas Modamani steht auf der Sonnenallee in Berlin und zeigt auf seinem Handy ein Selfie mit der damaligen Bundeskanzlerin Angela Merkel. Das Motiv ging damals weltweit durch die sozialen Medien. - Manuel Genolet/dpa"  class="media-object img-responsive" /></a>      
+</div>
+  
+<div class="media-body-main" style="width:100%">
+<a class="article-ressort" href="https://www.nw.de/nachrichten/panorama">Fluchtgeschichte</a>
+<h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
+<a href="https://www.nw.de/nachrichten/panorama/24164153_Nach-Merkel-Selfie-Ein-Fluechtling-und-sein-neues-Leben.html" data-upscore-url>
+<span data-upscore-title>Nach Merkel-Selfie: Ein Fl&uuml;chtling und sein neues Leben</span>
+
+</a>
+</h3>
+<div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
+<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
+</svg><span class="article-id-noad-24164153 nw-egy-noad-item egyCounter" data-egy-dsc="article-24164153"></span></span></span> </div>
+</div>
+</article>
+<hr class="article-divider visible-xs"/>
+
 <article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164120">
 <div class="article-image-container-main">
 
@@ -4181,6 +4181,7 @@ Panorama
 </article>
 <hr class="article-divider visible-xs"/>
 
+<div class="clearfix"></div>
 <article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164094">
 <div class="article-image-container-main">
 
@@ -4201,7 +4202,6 @@ Panorama
 </article>
 <hr class="article-divider visible-xs"/>
 
-<div class="clearfix"></div>
 <article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164051">
 <div class="article-image-container-main">
 
@@ -4214,26 +4214,6 @@ Panorama
 <h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
 <a href="https://www.nw.de/nachrichten/panorama/24164051_Taylor-Swift-verlobt-Ist-das-eigentlich-noch-zeitgemaess.html" data-upscore-url>
 <span data-upscore-title>Taylor Swift verlobt: Ist das eigentlich noch zeitgem&auml;&szlig;?</span>
-
-</a>
-</h3>
-<div> </div>
-</div>
-</article>
-<hr class="article-divider visible-xs"/>
-
-<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24163373">
-<div class="article-image-container-main">
-
-
-<a href="https://www.nw.de/nachrichten/panorama/24163373_George-Clooney-trotz-Krankheit-auf-dem-roten-Teppich.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010dktOdVhZRnVaTlhyeVdnNldNVzFUWWlOUEROUFYzUzI0N2hwUVBhZnZqVlNuM0J6ZndEdVNiNTE2NS8wQWNsWU5xZkh0QmFadWRrYy9YVmFIaFZVeTRJakxSbzV2bjVxUHRuelZXOEdHb3o/250828-2229-urn-newsml-dpa-com-20090101-250828-935-797170.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005ZnNlTkdScnhXN01iaG91TVNxZ2toMVkrMmFYUmNUV3J3S0VkOCsxSHVZRTJ5ajk4cDhQdDRCb2s0OElsa0Qwd2JUMXc4SXlHVXVCUmloODdqS2NFR2Y3cEljTkY4ZHpoOEk4U1ZhYmx5LzE/250828-2229-urn-newsml-dpa-com-20090101-250828-935-797170.jpg 1440w"  alt="Trotz Krankheit mit guter Laune: George Clooney. - Scott A Garfitt/Invision/AP/dpa"  class="media-object img-responsive" /></a>      
-</div>
-  
-<div class="media-body-main" style="width:100%">
-<a class="article-ressort" href="https://www.nw.de/nachrichten/panorama">Festspiele haben begonnen</a>
-<h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
-<a href="https://www.nw.de/nachrichten/panorama/24163373_George-Clooney-trotz-Krankheit-auf-dem-roten-Teppich.html" data-upscore-url>
-<span data-upscore-title>George Clooney trotz Krankheit auf dem roten Teppich</span>
 
 </a>
 </h3>
@@ -4415,6 +4395,28 @@ Sport
 <div class="letzte-meldungen-mitte clearfix" data-upscore-zone="Sport">
 <div class="row">
 
+<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24045816">
+<div class="article-image-container-main">
+
+
+<a href="https://www.nw.de/sport/sc_paderborn_07/24045816_Live-im-TV-und-Stream-Hier-sehen-Sie-den-SC-Paderborn-07-gegen-den-1.-FC-Nuernberg.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010alBhRnNROHNCZnVDOUdiNERJTCs5d0lRL2JSbVhUQkdPTWpuVE8vYjg2VFVWZ3ZZaXhGZ25hcm9yVXovOWd1cTBsb2RkMjdUbWdrRGQzeTc2cFAyNXc9/250220-1103-516707518.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005ZEY1VFppSzgxT0dEYjNwZkpzUVZPZWcwV2RzMi9ncS85dWJwR2Z6ZmRReUc4L08xNVByYXJXTUdCR01rUGl0bE9Fc3QxeExEc3dZcHphSXpzbXdqVUU9/250220-1103-516707518.jpg 1440w"  alt="Die Fu&szlig;ballspiele des SC Paderborn in 2. Bundesliga werden stets im TV und Stream &uuml;bertragen. - Besim Mazhiqi"  class="media-object img-responsive" /></a>      
+</div>
+  
+<div class="media-body-main" style="width:100%">
+<a class="article-ressort" href="https://www.nw.de/sport/sc_paderborn_07">2. Bundesliga und DFB-Pokal</a>
+<h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
+<a href="https://www.nw.de/sport/sc_paderborn_07/24045816_Live-im-TV-und-Stream-Hier-sehen-Sie-den-SC-Paderborn-07-gegen-den-1.-FC-Nuernberg.html" data-upscore-url>
+<span data-upscore-title>Live im TV und Stream: Hier sehen Sie den SC Paderborn 07 gegen den 1. FC N&uuml;rnberg</span>
+
+</a>
+</h3>
+<div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
+<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
+</svg><span class="article-id-noad-24045816 nw-egy-noad-item egyCounter" data-egy-dsc="article-24045816"></span></span></span> </div>
+</div>
+</article>
+<hr class="article-divider visible-xs"/>
+
 <article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164146">
 <div class="article-image-container-main">
 
@@ -4437,6 +4439,7 @@ Sport
 </article>
 <hr class="article-divider visible-xs"/>
 
+<div class="clearfix"></div>
 <article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164130">
 <div class="article-image-container-main">
 
@@ -4459,7 +4462,6 @@ Sport
 </article>
 <hr class="article-divider visible-xs"/>
 
-<div class="clearfix"></div>
 <article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164125">
 <div class="article-image-container-main">
 
@@ -4478,26 +4480,6 @@ Sport
 <div><span class="article-comments nw-pt-0" style="vertical-align: middle;line-height: 1.2;"><span class="nw-flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nw-w-6 nw-h-6 sm:nw-mt-0 nw-mt-1 " style="height: 16px;">
 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
 </svg><span class="article-id-noad-24164125 nw-egy-noad-item egyCounter" data-egy-dsc="article-24164125"></span></span></span> </div>
-</div>
-</article>
-<hr class="article-divider visible-xs"/>
-
-<article class="article media clearfix col-xs-12 col-sm-6 col-md-6" data-upscore-object-id="24164055">
-<div class="article-image-container-main">
-
-
-<a href="https://www.nw.de/sport/sport_nachrichten/24164055_Zverev-schafft-zweiten-Schritt-Altmaier-glueckt-Tennis-Coup.html" class="article-image"><img width="320" height="194" loading="lazy" src="/_em_daten/_cache/image/1xNmJ2L3E5dS84SXhPcUlVeGJ6N010bE9xY3BEVE9GVWRJM1BIQU4vR0F4QmlrY2xGbU5kZTFTL0xLSG94VG9KemQ0THVlQ3pCaVIrMWkzR1EyRUIwUERzMzVIakJFOWd3Qjc0ZFdyQlptS3NCdUhxNDYrR1BXQ3lpRWQvUTlyMXY/250829-0659-urn-newsml-dpa-com-20090101-250829-935-797655.jpg" srcset="/_em_daten/_cache/image/1xQlZGemRjVGV0SjJjc3dRdXNqS005Zm1aT3Q2WkdaYWsvejkyZXg2SzBuWTN6WVJ2eGtqVXF6RWIvNnA0N0E5dmt6Y0RDdWRyZU5CQUlRdzAyY1ZuQ08ycUN5Qm1xbG9oelU5NEE5L1RRaVJpejc2SkoxVmQzN2c0aWNRdE4wMEg/250829-0659-urn-newsml-dpa-com-20090101-250829-935-797655.jpg 1440w"  alt="Alexander Zverev hat in New York die dritte Runde erreicht. - Adam Hunger/AP/dpa"  class="media-object img-responsive" /></a>      
-</div>
-  
-<div class="media-body-main" style="width:100%">
-<a class="article-ressort" href="https://www.nw.de/sport/sport_nachrichten">US Open</a>
-<h3 class="hyphenate media-heading article-headline-container-main article-headline-object">
-<a href="https://www.nw.de/sport/sport_nachrichten/24164055_Zverev-schafft-zweiten-Schritt-Altmaier-glueckt-Tennis-Coup.html" data-upscore-url>
-<span data-upscore-title>Zverev schafft zweiten Schritt - Altmaier gl&uuml;ckt Tennis-Coup</span>
-
-</a>
-</h3>
-<div> </div>
 </div>
 </article>
 <hr class="article-divider visible-xs"/>
@@ -5283,9 +5265,9 @@ Gesundheit
             "url": "https:\/\/www.nw.de\/nachrichten\/panorama\/24163912_Der-richtige-Umgang-mit-Geld-Ab-welchem-Alter-Kinder-mit-Karte-zahlen-sollten.html",
             "headline": "Der richtige Umgang mit Geld: Ab welchem Alter Kinder mit Karte zahlen sollten",
             "datePublished": "2025-08-29T05:00:00+02:00",
-            "dateModified": "2025-08-28T18:13:32+02:00",
+            "dateModified": "2025-08-29T08:46:35+02:00",
             "articleSection": "Mantel",
-            "keywords": "Girokarte,Deutsches Jugendinstitut,Deutschland,serie_nlmittagsnotiz,label_xl 160,label_familie\/freizeit,label_hilf mir,meta_artikelklasse_Nachricht,meta_themen_Familie_Bildung_Freizeit,meta_copyrights_RND,meta_userneeds_hilfmir",
+            "keywords": "Finanzerziehung,Girokarte,Deutsches Jugendinstitut,Deutschland,serie_nlmittagsnotiz,label_xl 160,label_plus ok,label_familie\/freizeit,label_hilf mir,meta_artikelklasse_Nachricht,meta_themen_Familie_Bildung_Freizeit,meta_copyrights_RND,meta_userneeds_hilfmir",
             "publisher": {
                 "@type": "NewsMediaOrganization",
                 "name": "Neue Westf\u00e4lische",
@@ -5322,7 +5304,7 @@ Gesundheit
             "image": [
                 {
                     "@type": "ImageObject",
-                    "url": "https:\/\/www.nw.de\/_em_daten\/_cache\/image\/1xanJPa1FYVnlqcnNrSFRaNTI2S25ZMEl1bVMveW5BWXhYTFFhS2JwM3VldTVqcURLbDY3L3RRMzFnVHRPUXVsZ0RlVDI2dFl1UkNlOG9OZFFYQ2M5alVaSCtBdFU5UTNESXVVbGZYR2lodVU9\/250828-1813-646050510.jpg"
+                    "url": "https:\/\/www.nw.de\/_em_daten\/_cache\/image\/1xanJPa1FYVnlqcnNrSFRaNTI2S25ZK250YXppdlNtaHFvVHpKZ1JIL0NZWkRud0dMYlNzVFgrY1NqSGY4TC9kaTJpVllwVzJMVnUydVN2Zi9udFlmMEo5QnBHZ0E4T1BQUjRCamRzd3FjZzg9\/250828-1813-646050510.jpg"
                 }
             ],
             "author": [
