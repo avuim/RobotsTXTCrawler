@@ -72,15 +72,13 @@ export const API = {
       
       // Transformiere die Bots in das erwartete Format
       const botList = Object.entries(botStats.bots).map(([name, botInfo]: [string, any]) => {
-        const totalWebsites = Object.values(botInfo.monthlyStats).reduce(
-          (sum: number, stats: any) => sum + stats.totalWebsites, 0
-        );
-        const allowedWebsites = Object.values(botInfo.monthlyStats).reduce(
-          (sum: number, stats: any) => sum + stats.allowedWebsites, 0
-        );
-        const disallowedWebsites = Object.values(botInfo.monthlyStats).reduce(
-          (sum: number, stats: any) => sum + stats.disallowedWebsites, 0
-        );
+        // Verwende nur den aktuellsten Monat (wie in der Live-API)
+        const latestMonth = Object.keys(botInfo.monthlyStats).sort().pop();
+        const currentStats = latestMonth ? botInfo.monthlyStats[latestMonth] : null;
+        
+        const totalWebsites = currentStats ? currentStats.totalWebsites : 0;
+        const allowedWebsites = currentStats ? currentStats.allowedWebsites : 0;
+        const disallowedWebsites = currentStats ? currentStats.disallowedWebsites : 0;
         
         return {
           name,
