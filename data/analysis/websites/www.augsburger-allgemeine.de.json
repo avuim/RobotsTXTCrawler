@@ -1,7 +1,7 @@
 {
   "domain": "www.augsburger-allgemeine.de",
   "normalizedDomain": "www.augsburger-allgemeine.de",
-  "robotsTxt": "User-agent: *\r\nUser-agent: GPTBot Disallow: /\r\nUser-agent: ChatGPT-User Disallow: /\r\nUser-agent: CCBot Disallow: /\r\nUser-agent: MMETest Disallow: /\r\nUser-agent: MyBot Disallow: /\r\n\r\n# Sitemaps\r\nSitemap: https://www.augsburger-allgemeine.de/sitemap.xml\r\nSitemap: https://www.augsburger-allgemeine.de/sitemap-image.xml\r\nSitemap: https://www.augsburger-allgemeine.de/sitemap-video.xml\r\nSitemap: https://www.augsburger-allgemeine.de/news.xml\r\n\r\n\r\nDisallow: /*.ece*\r\nDisallow: /titelseiten/\r\nDisallow: /verwaltung/\r\nDisallow: /werbung/\r\nDisallow: /meine*\r\nDisallow: /community*\r\nDisallow: /*?wt_*\r\nDisallow: /*?utm_campaign*\r\nDisallow: /suche?q=",
+  "robotsTxt": "User-agent: *\nUser-agent: GPTBot Disallow: /\nUser-agent: ChatGPT-User Disallow: /\nUser-agent: CCBot Disallow: /\nUser-agent: MMETest Disallow: /\nUser-agent: MyBot Disallow: /\n\n# Sitemaps\nSitemap: https://www.augsburger-allgemeine.de/sitemap.xml\nSitemap: https://www.augsburger-allgemeine.de/sitemap-image.xml\nSitemap: https://www.augsburger-allgemeine.de/sitemap-video.xml\nSitemap: https://www.augsburger-allgemeine.de/news.xml\n\n\nDisallow: /*.ece*\nDisallow: /titelseiten/\nDisallow: /verwaltung/\nDisallow: /werbung/\nDisallow: /meine*\nDisallow: /community*\nDisallow: /*?wt_*\nDisallow: /*?utm_campaign*\nDisallow: /suche?q=",
   "globalRules": {
     "paths": {
       "allowed": [],

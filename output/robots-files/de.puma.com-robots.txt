@@ -1,0 +1,67 @@
+User-agent: *
+Crawl-delay: 10
+
+Disallow: /cgi-bin/
+Disallow: *srule
+Disallow: *cgid
+Disallow: *demandware.store
+Disallow: *Product-Variation
+Disallow: *Product-Detail
+Disallow: *selvar
+Disallow: *prefn
+Disallow: *prefv
+Disallow: *mktid
+Disallow: *?source=
+Disallow: *?sz=
+Disallow: *utm_campaign
+Disallow: *affid
+Disallow: *psortd
+Disallow: *pmax
+Disallow: *pmin
+Disallow: *?q=
+Disallow: *?location=
+Disallow: *start=
+
+Disallow: /Account-Show
+Disallow: /Account-EditProfile
+Disallow: /Address-List
+Disallow: /Cart-AddProduct
+Disallow: /Cart-Show
+Disallow: /COBilling-Start
+Disallow: /COShipping-Start
+Disallow: /COSummary-Start
+Disallow: /COSummary-Submit
+Disallow: /Login-Show
+Disallow: /Order-History
+Disallow: /PaymentInstruments-Add
+Disallow: /PaymentInstruments-List
+Disallow: /search
+Disallow: /Wishlist-Add
+Disallow: /Wishlist-ShowOther
+
+Disallow: /*/account/
+Disallow: /*/checkout/
+Disallow: /*/cart
+
+User-agent: MJ12bot
+Disallow: /
+
+User-Agent: trendictionbot
+Disallow: /
+
+user-agent: MegaIndex.ru
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+user-agent: 360Spider
+Disallow: /
+
+user-agent: HaosouSpider
+Disallow: /
+
+User-Agent: Pinterestbot
+Disallow: /
+
+Sitemap: https://eu.puma.com/sitemap_index.xml

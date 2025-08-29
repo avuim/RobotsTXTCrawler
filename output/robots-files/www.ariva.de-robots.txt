@@ -6,6 +6,13 @@ Disallow: /forum/bewertung/bewertung.js
 Disallow: /forum/buddy/
 Disallow: /forum/lesezeichen
 Disallow: /forum/rater.m
+Disallow: /forum/*?page=*
+Disallow: /profil/*-*
+Disallow: /*-index/forum*
+Disallow: /*-kurs/forum*
+Disallow: /aktien/*-aktie/forum*
+Disallow: /*/forum*
+Disallow: /blocks/profil/forum/thread_list
 Disallow: /search/
 Disallow: /suche_result
 Disallow: /suche/
@@ -23,6 +30,7 @@ Disallow: /zertifikate/*/kurse/*
 Disallow: /js/prg*
 Disallow: /js/menu*
 Disallow: /js/progressive/menu*
+Disallow: /_bottom/markierung.js
 Disallow: /media*
 Disallow: *_ajax.m
 Disallow: *_ajax
