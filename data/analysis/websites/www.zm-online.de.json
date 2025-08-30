@@ -1,7 +1,7 @@
 {
   "domain": "www.zm-online.de",
   "normalizedDomain": "www.zm-online.de",
-  "robotsTxt": "# robots.txt for www.zm-online.de\r\n# IP: 10.66.80.200\r\nUser-agent: *\r\nAllow: /\r\nDisallow: /typo3/\r\nDisallow: /*?id=*\r\nDisallow: /*&type=123\r\nDisallow: /suche\r\nDisallow: /suche-nach-autoren\r\nSitemap: https://www.zm-online.de/sitemap.xml",
+  "robotsTxt": "# robots.txt for www.zm-online.de\n# IP: 10.66.80.200\nUser-agent: *\nAllow: /\nDisallow: /typo3/\nDisallow: /*?id=*\nDisallow: /*&type=123\nDisallow: /suche\nDisallow: /suche-nach-autoren\nSitemap: https://www.zm-online.de/sitemap.xml",
   "globalRules": {
     "paths": {
       "allowed": [],

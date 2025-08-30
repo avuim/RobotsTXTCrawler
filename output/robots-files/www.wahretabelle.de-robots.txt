@@ -71,7 +71,7 @@ window._sp_ = {
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" sizes="16x16" href="/favicon-16x16.png">
     <link rel="shortcut icon" sizes="192x192" href="/android-chrome-192x192.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=no" />
+    <meta name="viewport" content="width=1206" />
 <meta name="description" content="WahreTabelle ist die zentrale Anlaufstelle für alle relevanten Themen und Abstimmungen rund um Schiedsrichter-Entscheidungen und Fehlentscheidungen sowie Schiedsrichter-Statistiken." />
 <meta property="og:type" content="article" />
 <meta property="og:image" content="https://tmssl.akamaized.net/images/tm_logo.png" />
@@ -160,7 +160,7 @@ window._sp_ = {
 <script type="text/javascript" src="https://tmssl.akamaized.net/assets/b7c5571cf8957553f95f6d9069eaed67/jquery.yii.js?lm=1756472993"></script>
 <script type="text/javascript" src="https://tmssl.akamaized.net/js/swiper.min.3.4.1.js?lm=1756472993"></script>
 <script type="text/javascript" src="https://tmssl.akamaized.net/js/startseite.js?lm=1756472993"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net/ads/tisoomi.de.min.js?lm=1756475103"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/ads/tisoomi.de.min.js?lm=1756535103"></script>
 <script type="text/javascript" src="https://tmssl.akamaized.net/js/tm-tabs.js?lm=1756472993"></script>
 <script type="text/javascript" src="https://tmssl.akamaized.net/js/main.js?lm=1756472993"></script>
 <script type="text/javascript" src="https://tmssl.akamaized.net/js/chosen.ajaxaddition.jquery.js?lm=1756472993"></script>
@@ -263,12 +263,6 @@ window.SDG.cmd.push(() => {
     })
     .load();
   SDG.Publisher.registerSlot("sky2", "skyscraper2")
-    .configure({
-      showAdvertLabel: false,
-      centerAds: true,
-    })
-    .load();
-  SDG.Publisher.registerSlot("sky", "skyscraper")
     .configure({
       showAdvertLabel: false,
       centerAds: true,
@@ -1320,19 +1314,19 @@ function tmTiming(value, name, event_category, event_label) {
 </div>
 <ul id="spielboxen">
     
-        <li  class="">
+        <li  class=" strittig">
                         <a href="/wahretabelle-forum/detail/forum/895/begegnung/4634145"
                onClick="tmEvent('wahretabelle', '/wahretabelle-forum/detail/forum/895/begegnung/4634145', 'spieltagsuebersicht')"
                title="Spieltagsübersicht und Vorschläge anzeigen"
             >
                 <div>
                     <h4 class="">
-                        <div class="match-boxes__wrapper--corrections"> Keine strittige Szene </div>
-                        <div class="match-boxes__wrapper--suggestions">  </div>
+                        <div class="match-boxes__wrapper--corrections"> <img src="https://tmsi.akamaized.net/wahretabelle/whistle.png" alt="whistle"> 0 </div>
+                        <div class="match-boxes__wrapper--suggestions"> <img src="https://tmsi.akamaized.net/wahretabelle/forum-not-sure.png" alt="forum bubble">3 </div>
                     </h4>
                 </div>
                                 <p class="  wahres_ergebnis">
-                    - : -                </p>
+                    0 : 2                </p>
 
                                 <div class="ergebnis-box">
                     <img src="https://tmssl.akamaized.net//images/wappen/homepageNewsLogo80x80/41.png?lm=1597319274" title="name" alt="name" class="heim" class="heim" />                                        <img src="https://tmssl.akamaized.net//images/wappen/homepageNewsLogo80x80/35.png?lm=1521036360" title="name" alt="name" class="gast" class="gast" />                </div>
@@ -1677,101 +1671,57 @@ function tmTiming(value, name, event_category, event_label) {
 </div>
 <div class="swiper-container" id="swiper-lesenswert-desktop">
     <div class="swiper-wrapper">
-                    <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/213077/thread/14619/board/895/tracking/_contentPos0">
+                    <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/202161/thread/4789/board/895/tracking/_contentPos0">
                 <div class="lesenswert-thread">
-                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/4-1-hatte-zahlen-mussen/thread/forum/895/thread_id/14619" onclick="tmEvent('wahretabelle', '/4-1-hatte-zahlen-mussen/thread/forum/895/thread_id/14619', 'lesenswertes')" name="_contentPos0" title="4-1-hatte-zahlen-mussen">4:1 hätte zählen müssen</a>
+                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/gelb-rot-zasiger/thread/forum/895/thread_id/4789" onclick="tmEvent('wahretabelle', '/gelb-rot-zasiger/thread/forum/895/thread_id/4789', 'lesenswertes')" name="_contentPos0" title="gelb-rot-zasiger">Gelb-Rot Zäsiger</a>
                 </div>
                 <div class="lesenswert">
                     <p class="lesenswert-user">
-                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos0" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/toni21/index/profil/487152">Toni21</a>                        &nbsp;
+                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos0" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/web-assistant-ref/index/profil/1540859">Web Assistant Ref</a>                        &nbsp;
                         schreibt:
                     </p>
                     <div class="lesenswert-text">
                         <blockquote>
-                            Also für mein Verständnis ist die Überprüfung Regelkonform. Die Spielfortsetzung war die erste Ballberührung. Die darf nicht überprüft werden. Die war aber auch nicht zu beanstanden. Danach ist der Ball im Spiel. Erst dann fand der Regelverstoß statt. Und da hat der Var die Angriffssequenz zu überprüfen. Und die fängt mit der erfolgten Spielfortsetzung an. <br />
-Bei Strafstößen hat der VAR ja schon mehrfach wegen Doppelberührung eingegriffen. [...]                            <div class="overlay"></div>
+                            Ball gespielt ist, wie bereits erwähnt wurde, niemals ein Freifahrtschein für jegliche Foulspiele. Insbesondere dann nicht, wenn der Ball "zufällig" gespielt wurde oder minimal berührt wurde. Beziehungsweise schützt dieser Umstand oftmals Spieler vor einer direkten roten Karte. <br />
+Ich habe mir die Szene gerade mehrfach angeschaut. Aus dem Spiel heraus sieht das nach einem klaren Foulspiel aus. Die anschließende Zeitlupe zeigt dann, dass der erste Blick täuschen kann, und nicht das vermeintliche rücksichtslose Foulspiel vorlag, das ich hier zuerst gemeint habe zu sehen. <br />
+Was aber genau ist passiert? <br />
+Zesiger grätscht riskant von hinten zum Ball. Soweit so gut. <br />
+Er berührt den Ball extrem minimal - ohne jedoch den Ball überhaupt "richtig" zu spielen. Das bedeutet aber auch, dass ein rein regelkonf [...]                            <div class="overlay"></div>
                             <div class="weiterlesen">
-                                                                                                        <a href="/4-1-hatte-zahlen-mussen/thread/forum/895/thread_id/14619/post_id/213077" onclick="tmEvent('wahretabelle', '/4-1-hatte-zahlen-mussen/thread/forum/895/thread_id/14619/post_id/213077', 'lesenswertes')" name="_contentPos0" title="4:1 hätte zählen müssen" class="news-weiterlesen">... weiterlesen</a>
+                                                                                                        <a href="/gelb-rot-zasiger/thread/forum/895/thread_id/4789/post_id/202161" onclick="tmEvent('wahretabelle', '/gelb-rot-zasiger/thread/forum/895/thread_id/4789/post_id/202161', 'lesenswertes')" name="_contentPos0" title="Gelb-Rot Zäsiger" class="news-weiterlesen">... weiterlesen</a>
                                                             </div>
                         </blockquote>
                     </div>
                 </div>
             </div>
-                        <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/201518/thread/4714/board/895/tracking/_contentPos1">
+                        <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/202172/thread/4789/board/895/tracking/_contentPos1">
                 <div class="lesenswert-thread">
-                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/rote-karte-fur-notbremse-/thread/forum/895/thread_id/4714" onclick="tmEvent('wahretabelle', '/rote-karte-fur-notbremse-/thread/forum/895/thread_id/4714', 'lesenswertes')" name="_contentPos1" title="rote-karte-fur-notbremse-">Rote Karte für Notbremse?</a>
+                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/gelb-rot-zasiger/thread/forum/895/thread_id/4789" onclick="tmEvent('wahretabelle', '/gelb-rot-zasiger/thread/forum/895/thread_id/4789', 'lesenswertes')" name="_contentPos1" title="gelb-rot-zasiger">Gelb-Rot Zäsiger</a>
                 </div>
                 <div class="lesenswert">
                     <p class="lesenswert-user">
-                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos1" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/waldi87/index/profil/917174">Waldi87</a>                        &nbsp;
+                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos1" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/rollo158/index/profil/1260704">rollo158</a>                        &nbsp;
                         schreibt:
                     </p>
                     <div class="lesenswert-text">
                         <blockquote>
-                            Auszug aus den Regeln <br />
-Wenn ein Spieler mit einem Vergehen gegen einen Gegner im eigenen <br />
-Strafraum eine offensichtliche Torchance vereitelt und der Schiedsrichter auf <br />
-Strafstoß entscheidet, wird der Spieler verwarnt, wenn das Vergehen bei dem <br />
-Versuch, den Ball zu spielen, oder bei einem Zweikampf um den Ball begangen <br />
-wurde. In allen anderen Situationen (z. B. Halten, Ziehen, Stoßen oder keine <br />
-Möglichkeit, den Ball zu spielen) ist der Spieler, der das Vergehen begeht, des <br />
-Feldes zu verweisen [...]                            <div class="overlay"></div>
+                            Aber: <br />
+Zesiger spielt den Ball mit dem linken Fuß, zwar nicht stark, aber genug, daß Kane das, was er versucht, den Ball mit seinem rechten Fuß sich weiter vorzulegen, nicht machen kann. Und da sind dann schon Wolf und Gouweleuw eingriffsbereit direkt bei ihm. In diesem Moment, schon vor dem Fall, also kein aussichtsreicher Angriff mehr. Es fehlt nämlich Ballkontrolle und viel Rasen vor sich als Merkmale für einen aussichtsreichen Angriff. <br />
+Nicht nur in Bezug auf Foul kann man sich hier also durchaus streiten, in Bezug auf die Spielkonsequenz eben auch. Und wenn man sich dann noch die Art des Fallens von Kane ansieht, dann hat er aus einer zufälligen Spielsituation, die in Bezug auf die Spielkonsequenz nicht eindeutig ist, denn er hatte eben nicht viel Rasen vor sich, sondern war umrahmt von [...]                            <div class="overlay"></div>
                             <div class="weiterlesen">
-                                                                                                        <a href="/rote-karte-fur-notbremse-/thread/forum/895/thread_id/4714/post_id/201518" onclick="tmEvent('wahretabelle', '/rote-karte-fur-notbremse-/thread/forum/895/thread_id/4714/post_id/201518', 'lesenswertes')" name="_contentPos1" title="Rote Karte für Notbremse?" class="news-weiterlesen">... weiterlesen</a>
+                                                                                                        <a href="/gelb-rot-zasiger/thread/forum/895/thread_id/4789/post_id/202172" onclick="tmEvent('wahretabelle', '/gelb-rot-zasiger/thread/forum/895/thread_id/4789/post_id/202172', 'lesenswertes')" name="_contentPos1" title="Gelb-Rot Zäsiger" class="news-weiterlesen">... weiterlesen</a>
                                                             </div>
                         </blockquote>
                     </div>
                 </div>
             </div>
-                        <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/196587/thread/4064/board/895/tracking/_contentPos2">
+                        <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/198991/thread/4390/board/895/tracking/_contentPos2">
                 <div class="lesenswert-thread">
-                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/foulelfmeter-nach-zweikampf-millot-an-burkhardt/thread/forum/895/thread_id/4064" onclick="tmEvent('wahretabelle', '/foulelfmeter-nach-zweikampf-millot-an-burkhardt/thread/forum/895/thread_id/4064', 'lesenswertes')" name="_contentPos2" title="foulelfmeter-nach-zweikampf-millot-an-burkhardt">Foulelfmeter nach Zweikampf Millot an Burkhardt</a>
+                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/sule-kopfverletzung/thread/forum/895/thread_id/4390" onclick="tmEvent('wahretabelle', '/sule-kopfverletzung/thread/forum/895/thread_id/4390', 'lesenswertes')" name="_contentPos2" title="sule-kopfverletzung">Süle Kopfverletzung</a>
                 </div>
                 <div class="lesenswert">
                     <p class="lesenswert-user">
-                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos2" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/justalittlethought/index/profil/529761">justalittlethought</a>                        &nbsp;
-                        schreibt:
-                    </p>
-                    <div class="lesenswert-text">
-                        <blockquote>
-                            Gut hier halt nochmal: <br />
-Wenn das überhaupt eine Berührung war (für mich sah es in der Zeitlupe, wenn dann eher nach Oberschenkel als nach Hacke aus), dann war die Berührung so leicht, dass sie nicht ursächlich für den Fall ist.Der Arm war ja 0 angespannt. Im besten Fall hat Burkhardt den Kontakt gerne angenommen und ist gefallen. <br />
-Es ist eine Unsitte in diesen Superslomo und VAR-Zeiten, dass selbst der geringste Kontakt, den man sogar in der Superslomo kaum erkennt, als elfmeterwürdig bezeichnet wird, selbst wenn er nicht ursächlich für den Fall war. Weil ggf. der VAR eingreift und sagt, da war ein Kontakt. Im Mittelfeld würde Burkhardt da nie fallen. Das ist ja das, was Gräfe zurecht immer betont. Dass das Fallbild (er achtet da immer auch auf den nicht getroffenen Fuß) auch zu Art und Inte [...]                            <div class="overlay"></div>
-                            <div class="weiterlesen">
-                                                                                                        <a href="/foulelfmeter-nach-zweikampf-millot-an-burkhardt/thread/forum/895/thread_id/4064/post_id/196587" onclick="tmEvent('wahretabelle', '/foulelfmeter-nach-zweikampf-millot-an-burkhardt/thread/forum/895/thread_id/4064/post_id/196587', 'lesenswertes')" name="_contentPos2" title="Foulelfmeter nach Zweikampf Millot an Burkhardt" class="news-weiterlesen">... weiterlesen</a>
-                                                            </div>
-                        </blockquote>
-                    </div>
-                </div>
-            </div>
-                        <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/199200/thread/4417/board/895/tracking/_contentPos3">
-                <div class="lesenswert-thread">
-                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/osmers/thread/forum/895/thread_id/4417" onclick="tmEvent('wahretabelle', '/osmers/thread/forum/895/thread_id/4417', 'lesenswertes')" name="_contentPos3" title="osmers">Osmers </a>
-                </div>
-                <div class="lesenswert">
-                    <p class="lesenswert-user">
-                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos3" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/maddias/index/profil/1636068">Maddias</a>                        &nbsp;
-                        schreibt:
-                    </p>
-                    <div class="lesenswert-text">
-                        <blockquote>
-                            Die rote Karte gegen Neuer geht 100% in Ordnung, wenngleich ich sie eher für das Foul an sich gegeben hätte, statt einer Notbremse. <br />
-Tapsoba muss in der 13. Minute mit gelb-rot runter (erstes Gelb für das Foul mit anschliessendem Ellenbogen, zweites Gelb für die Rudelbildung mit Upamecano). Dann später in der 1. HZ nochmal mit 1-2 Fouls, die hart an einer Gelben dran waren. <br />
-Was mich aber viel mehr genervt hat, waren die unglaublich vielen kleinen Fouls, taktische Fouls etc von Leverkusen, die nur darauf aus waren, den Spielfluss zu unterbinden. Das hat Osmers über das komplette Spiel entweder ganz durchgehen lassen oder eben nicht verwarnt, daher haben es die Spieler munter weiter betrieben. Sehr frustrierend, wenn man es mit den Bayern hält, als Leverkusener würde ich es allerdings auch ve [...]                            <div class="overlay"></div>
-                            <div class="weiterlesen">
-                                                                                                        <a href="/osmers/thread/forum/895/thread_id/4417/post_id/199200" onclick="tmEvent('wahretabelle', '/osmers/thread/forum/895/thread_id/4417/post_id/199200', 'lesenswertes')" name="_contentPos3" title="Osmers " class="news-weiterlesen">... weiterlesen</a>
-                                                            </div>
-                        </blockquote>
-                    </div>
-                </div>
-            </div>
-                        <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/198991/thread/4390/board/895/tracking/_contentPos4">
-                <div class="lesenswert-thread">
-                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/sule-kopfverletzung/thread/forum/895/thread_id/4390" onclick="tmEvent('wahretabelle', '/sule-kopfverletzung/thread/forum/895/thread_id/4390', 'lesenswertes')" name="_contentPos4" title="sule-kopfverletzung">Süle Kopfverletzung</a>
-                </div>
-                <div class="lesenswert">
-                    <p class="lesenswert-user">
-                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos4" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/djhaax/index/profil/28492">djhaax</a>                        &nbsp;
+                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos2" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/djhaax/index/profil/28492">djhaax</a>                        &nbsp;
                         schreibt:
                     </p>
                     <div class="lesenswert-text">
@@ -1779,26 +1729,70 @@ Was mich aber viel mehr genervt hat, waren die unglaublich vielen kleinen Fouls,
                             Man muss sich in dieser speziellen Szene fragen: War hier Süles Leben gefährdet? <br />
 Die Sicht des Schiedsrichter ist frei und man sieht klar, dass Süle hier den Schuss ungebremst ins Gesicht bekommt. Ist dieses Treffermuster geeignet, eine lebensgefährliche Verletzung zu verursachen, in der jede Sekunde zählt? Wahrscheinlich nicht. Es ist ein luftgefüllter Ball, der nicht unnatürlch stark beschleunigt gewesen ist. Leichtere Verletzung im Sinne einer Gehirnerschüterung? Klar. Schwerere Verletzung z.B. im Sinne eines Nasenbeinbruches? Klar. Aber lebensgefährlich? Nein. Süle wird hart getroffen, er  rollt sich aber auf den Bauch und hält die Hände vors Gesicht. Wäre er wie ein nasser Sacke zusammengesackt, wäre es eine andere Geschichte gewesen. Dann hätte der Schiri sicher auch direkt gepfiffen [...]                            <div class="overlay"></div>
                             <div class="weiterlesen">
-                                                                                                        <a href="/sule-kopfverletzung/thread/forum/895/thread_id/4390/post_id/198991" onclick="tmEvent('wahretabelle', '/sule-kopfverletzung/thread/forum/895/thread_id/4390/post_id/198991', 'lesenswertes')" name="_contentPos4" title="Süle Kopfverletzung" class="news-weiterlesen">... weiterlesen</a>
+                                                                                                        <a href="/sule-kopfverletzung/thread/forum/895/thread_id/4390/post_id/198991" onclick="tmEvent('wahretabelle', '/sule-kopfverletzung/thread/forum/895/thread_id/4390/post_id/198991', 'lesenswertes')" name="_contentPos2" title="Süle Kopfverletzung" class="news-weiterlesen">... weiterlesen</a>
                                                             </div>
                         </blockquote>
                     </div>
                 </div>
             </div>
-                        <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/196690/thread/4083/board/895/tracking/_contentPos5">
+                        <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/198259/thread/4275/board/895/tracking/_contentPos3">
                 <div class="lesenswert-thread">
-                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/foul-leipzig-/thread/forum/895/thread_id/4083" onclick="tmEvent('wahretabelle', '/foul-leipzig-/thread/forum/895/thread_id/4083', 'lesenswertes')" name="_contentPos5" title="foul-leipzig-">Foul Leipzig?</a>
+                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/elfmeter-fur-frankfurt-tah-an-etikite-/thread/forum/895/thread_id/4275" onclick="tmEvent('wahretabelle', '/elfmeter-fur-frankfurt-tah-an-etikite-/thread/forum/895/thread_id/4275', 'lesenswertes')" name="_contentPos3" title="elfmeter-fur-frankfurt-tah-an-etikite-">Elfmeter für Frankfurt Tah an Etikite?</a>
                 </div>
                 <div class="lesenswert">
                     <p class="lesenswert-user">
-                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos5" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/rollo158/index/profil/1260704">rollo158</a>                        &nbsp;
+                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos3" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/frankfurterbuubb/index/profil/191611">FrankfurterBuubb</a>                        &nbsp;
                         schreibt:
                     </p>
                     <div class="lesenswert-text">
                         <blockquote>
-                            Eingriffsgrund hier war: missed incident - falscher Ort. Stellt sich ein weiterer Fehler bei der review heraus, hier das übersehene Ziehen Schicks und dass es kein Schlag ins Gesicht war, sondern ein Abwehren des Ziehens Schicks, dann darf der SR auch die Entscheidung auf Foul von Schick ändern. Alles korrekt. [...]                            <div class="overlay"></div>
+                            Ein Tag darüber geschlafen und ich empfinde es als noch größeren Skandal! Es gab quasi nichts was pro Frankfurt gepfiffen wurde im Spiel. Habe lange nicht ein Spiel gesehen was so einseitig gepfiffen wurde. Ja Leverkusen hatte mehr Chancen aber wie willst du dir Chancen erspielen wenn alle möglichen Situationen gegen dich gepfiffen werden. Wie viele gelbe Karten hat Leverkusen nicht bekommen? Wie viele Konter wurden von Fouls unterbrochen, die nicht Mal mit einem Freistoß geahndet wurden? Wie viele Fouls darfst sich Leverkusen erlauben bis ein Freistoß am Strafraum oder ein Elfer gepfiffen wird? Wie frei und nah am leeren Tor muss ein Spieler sein den man umstößt um nicht einen Elfer gegen sich zu riskieren. <br />
+Wenn so unterschiedlich gepfiffen wird kann man auch nicht mehr von einer Linie sp [...]                            <div class="overlay"></div>
                             <div class="weiterlesen">
-                                                                                                        <a href="/foul-leipzig-/thread/forum/895/thread_id/4083/post_id/196690" onclick="tmEvent('wahretabelle', '/foul-leipzig-/thread/forum/895/thread_id/4083/post_id/196690', 'lesenswertes')" name="_contentPos5" title="Foul Leipzig?" class="news-weiterlesen">... weiterlesen</a>
+                                                                                                        <a href="/elfmeter-fur-frankfurt-tah-an-etikite-/thread/forum/895/thread_id/4275/post_id/198259" onclick="tmEvent('wahretabelle', '/elfmeter-fur-frankfurt-tah-an-etikite-/thread/forum/895/thread_id/4275/post_id/198259', 'lesenswertes')" name="_contentPos3" title="Elfmeter für Frankfurt Tah an Etikite?" class="news-weiterlesen">... weiterlesen</a>
+                                                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+                        <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/198175/thread/4275/board/895/tracking/_contentPos4">
+                <div class="lesenswert-thread">
+                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/elfmeter-fur-frankfurt-tah-an-etikite-/thread/forum/895/thread_id/4275" onclick="tmEvent('wahretabelle', '/elfmeter-fur-frankfurt-tah-an-etikite-/thread/forum/895/thread_id/4275', 'lesenswertes')" name="_contentPos4" title="elfmeter-fur-frankfurt-tah-an-etikite-">Elfmeter für Frankfurt Tah an Etikite?</a>
+                </div>
+                <div class="lesenswert">
+                    <p class="lesenswert-user">
+                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos4" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/rollo158/index/profil/1260704">rollo158</a>                        &nbsp;
+                        schreibt:
+                    </p>
+                    <div class="lesenswert-text">
+                        <blockquote>
+                            Naja, hier haben wir ja den größten Einfluss auf das Spielgeschehen, nämlich eine verhindertes Tor. Interessant auch die Unterhaltung nach dem Spiel zwischen Tah und  Ekitike, wo Tah andeutet, er habe mit dem Körper geschoben - tatsächlich war es zunächst ein kräftiges Schieben mit dem linken Arm. <br />
+Tah kommt ja von hinten und schiebt, noch bevor er mit dem Körper abhebt. Das Schieben nach vorne erweckt natürlich den Eindruck des schlechten Timings.  Erst dann geht Tah auch mit dem Körper in den Luftkampf, was Ekitike dann in Rücklage und zu Fall bringt und ihm eine zweite Chance auf den Ball nimmt. <br />
+Es ist ja, wenn man auf die Spielsituation sieht, so, daß nur einer, nämlich Ekitike, die Chance hat, den Ball mit dem Kopf zu erreichen. Von daher ist hier auch ein Schieben/Stoßen sicher nicht  [...]                            <div class="overlay"></div>
+                            <div class="weiterlesen">
+                                                                                                        <a href="/elfmeter-fur-frankfurt-tah-an-etikite-/thread/forum/895/thread_id/4275/post_id/198175" onclick="tmEvent('wahretabelle', '/elfmeter-fur-frankfurt-tah-an-etikite-/thread/forum/895/thread_id/4275/post_id/198175', 'lesenswertes')" name="_contentPos4" title="Elfmeter für Frankfurt Tah an Etikite?" class="news-weiterlesen">... weiterlesen</a>
+                                                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+                        <div class="swiper-slide" data-src="/seo/lesenswerteBeitraege/startseiteAjax/196058/thread/4034/board/895/tracking/_contentPos5">
+                <div class="lesenswert-thread">
+                    <a onclick="tmEventForLink('wahretabelle', this, 'lesenswertes')" href="/spielszenen/detail/forum/895">Spielszenen</a> - <a href="/elfmeter-fur-leverkusen-gerechtfertigt-/thread/forum/895/thread_id/4034" onclick="tmEvent('wahretabelle', '/elfmeter-fur-leverkusen-gerechtfertigt-/thread/forum/895/thread_id/4034', 'lesenswertes')" name="_contentPos5" title="elfmeter-fur-leverkusen-gerechtfertigt-">Elfmeter für Leverkusen gerechtfertigt?</a>
+                </div>
+                <div class="lesenswert">
+                    <p class="lesenswert-user">
+                        <span class="mantelicon icon-profil-icon-forum" style="margin-top: 5px !important;margin-right: 1px;">&nbsp;</span><a class="forum-user link--wt" name="_contentPos5" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;lesenswertes&#039;)" href="/objektivistsub/index/profil/1063161">objektivIstSub</a>                        &nbsp;
+                        schreibt:
+                    </p>
+                    <div class="lesenswert-text">
+                        <blockquote>
+                            Bin mir nicht sicher, ob Itakura am Ball war. <br />
+Wenn er am Ball war, ist die Entscheidung nicht zu rechtfertigen in meinen Augen, wenn man halt sieht, wo man als VAR davor auf der anderen Seite bei möglichen Elfmeterentscheidungen wohl wie Justitia höchstpersönlich eine Augenbinde aufhatte. <br />
+Mit der Aussage, die ich höre, man möchte sich nicht mehr wegen jeder Kleinigkeit einmischen, hat das dann am Ende auch nicht mehr viel zu tun. <br />
+Es wäre schön, wenn Szenen, bei denen es um Torgefahr geht, auch mit Elfmeter bestraft würden, und Szenen, bei denen die Torgefahr nicht ganz so groß war, vielleicht nicht künstlich durch den VAR dramatisiert würden. [...]                            <div class="overlay"></div>
+                            <div class="weiterlesen">
+                                                                                                        <a href="/elfmeter-fur-leverkusen-gerechtfertigt-/thread/forum/895/thread_id/4034/post_id/196058" onclick="tmEvent('wahretabelle', '/elfmeter-fur-leverkusen-gerechtfertigt-/thread/forum/895/thread_id/4034/post_id/196058', 'lesenswertes')" name="_contentPos5" title="Elfmeter für Leverkusen gerechtfertigt?" class="news-weiterlesen">... weiterlesen</a>
                                                             </div>
                         </blockquote>
                     </div>
@@ -1874,7 +1868,7 @@ Die Sicht des Schiedsrichter ist frei und man sieht klar, dass Süle hier den Sc
             <td class="wappen_verysmall">
                 <a title="Hamburger SVHamburger SV" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;wettbewerbsset&#039;)" name="_contentPos0" href="/hamburger-sv/startseite/verein/41"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://tmssl.akamaized.net//images/wappen/homepage/41.png?lm=1597319274" title="Hamburger SV" alt="Hamburger SV" class="lazy" /></a>            </td>
 
-            <td class="zentriert"><a title="Zum Vorbericht" href="/spielbericht/index/spielbericht/4634145"><span class="matchresult">20:30</span></a></td>
+            <td class="zentriert"><a title="Spielbericht" href="/spielbericht/index/spielbericht/4634145"><span class="matchresult finished">0:2</span></a></td>
 
             <td class="wappen_verysmall">
                 <a title="FC St. PauliFC St. Pauli" onclick="tmEventForLink(&#039;wahretabelle&#039;, this, &#039;wettbewerbsset&#039;)" name="_contentPos0" href="/fc-st-pauli/startseite/verein/35"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://tmssl.akamaized.net//images/wappen/homepage/35.png?lm=1521036360" title="FC St. Pauli" alt="FC St. Pauli" class="lazy" /></a>            </td>
@@ -2107,14 +2101,14 @@ Die Sicht des Schiedsrichter ist frei und man sieht klar, dass Süle hier den Sc
                             </td>
 
             <td class="spieltagsthread home-sst">
-                                    <a href="/forum/detail/forum/88"
-                       title="Zum Vereinsforum"
-                       onclick="tmEvent('wahretabelle', '/forum/detail/forum/88', 'wettbewerbsset')"
+                                    <a href="/forum/thread/forum/88/thread_id/71918"
+                       title="Zum Spieltagsthread"
+                       onclick="tmEvent('wahretabelle', '/forum/thread/forum/88/thread_id/71918', 'wettbewerbsset')"
                        name="_contentPos4"
                     >
-                        <div class="sstwrap"><span class="nosst"></span></div>
+                        <div class="sstwrap"><span></span></div>
                     </a>
-                            </td>
+                                </td>
 
             <td class="rechts bold">
                     <span class="vereinsname ">
@@ -2374,14 +2368,14 @@ Die Sicht des Schiedsrichter ist frei und man sieht klar, dass Süle hier den Sc
             </td>
 
             <td class="spieltagsthread">
-                                    <a href="/forum/detail/forum/25"
-                       title="Zum Vereinsforum"
-                       onclick="tmEvent('wahretabelle', '/forum/detail/forum/25', 'wettbewerbsset')"
+                                    <a href="/forum/thread/forum/25/thread_id/66717"
+                       title="Zum Spieltagsthread"
+                       onclick="tmEvent('wahretabelle', '/forum/thread/forum/25/thread_id/66717', 'wettbewerbsset')"
                        name="_contentPos8"
                     >
-                        <div class="sstwrap"><span class="nosst"></span></div>
+                        <div class="sstwrap"><span></span></div>
                     </a>
-                            </td>
+                                </td>
 
             <td class="zentriert quotenzelle" onclick="tmEvent('werbung','click','wettbewerbsset');">
                 <span class='oddsServe' data-match='4634144' data-gameday='2' data-competition='L1'></span>            </td>
@@ -2892,8 +2886,8 @@ Die Sicht des Schiedsrichter ist frei und man sieht klar, dass Süle hier den Sc
                                         <span class="wechseltabelle-gesamtpunkte">0</span> (0)                </div>
             </li>
             </ul>
-            <span class="wechseltabelle-stand">
-            Status: aktuell        </span>
+            <span class="wechseltabelle-stand continue red-text">
+            Status: nicht aktuell (Auswertung folgt)        </span>
     </div>
 <div class="tm-tab__content "
      id="standardtable"
@@ -3327,13 +3321,214 @@ Die Sicht des Schiedsrichter ist frei und man sieht klar, dass Süle hier den Sc
                                         <span class="wechseltabelle-gesamtpunkte">0</span> (0)                </div>
             </li>
             </ul>
-            <span class="wechseltabelle-stand">
-            Status: aktuell        </span>
+            <span class="wechseltabelle-stand continue red-text">
+            Status: nicht aktuell (Auswertung folgt)        </span>
     </div>
     </div>
 </div>
             
-                     <section class="fav-voting">
+                 <section class="critical-scene box">
+        <section class="slider-container">
+            <h2 class="content-box-headline content-box-headline--wt">
+                Strittige Szenen - 2. Spieltag            </h2>
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+            <div class="slider">
+                                    <a href="/spielbericht/index/spielbericht/4634145" class="slide">
+                        <div class="critical-scene__box">
+                            <div class="critical-scene__wrapper">
+                                <img src="https://tmssl.akamaized.net//images/wappen/homepageNewsLogo80x80/41.png?lm=1597319274" title="Hamburger SV" alt="Hamburger SV" class="" />                                Hamburger SV                            </div>
+                            <p class="critical-scene__comment">
+                                0 : 2                            </p>
+                            <div class="critical-scene__wrapper">
+                                <img src="https://tmssl.akamaized.net//images/wappen/homepageNewsLogo80x80/35.png?lm=1521036360" title="FC St. Pauli" alt="FC St. Pauli" class="" />                                FC St. Pauli                            </div>
+                        </div>
+                        <hr>
+                        <div class="critical-scene__result-wrapper"><img src="https://tmsi.akamaized.net/wahretabelle/daumen_runter.png" alt="Daumen runter" width="16" height="16"><p class="text-wrong">Fehlentscheidung</p></div>                        <div class="critical-scene__title-wrapper">
+                            Tor St. Pauli                        </div>
+                                                <div class="critical-scene__chart-container">
+                            <div class="critical-scene__vote-teams">
+                                <span>Kompetenzteam</span>
+                                <span>Community</span>
+                            </div>
+                            <div class="critical-scene__chart">
+                                <div class="critical-scene__vote critical-scene__vote--left">0</div>
+                                <div class="critical-scene__bar competence--correct" style="width: 0px;"></div>
+                                <div class="critical-scene__label">
+                                    <img src="https://tmsi.akamaized.net/wahretabelle/daumen_hoch.png"
+                                         alt="Daumen hoch"
+                                    >
+                                </div>
+                                <div class="critical-scene__bar community--correct no-votes"
+                                     style="width: 0%;"
+                                >
+                                </div>
+                                <div class="critical-scene__vote critical-scene__vote--right">0%</div>
+                            </div>
+                            <div class="critical-scene__chart">
+                                <div class="critical-scene__vote critical-scene__vote--left">0</div>
+                                <div class="critical-scene__bar competence--undecided" style="width: 0px;"></div>
+                                <div class="critical-scene__label">
+                                    <img src="https://tmsi.akamaized.net/wahretabelle/daumen_neutral.png"
+                                         alt="Neutral"
+                                    >
+                                </div>
+                                <div class="critical-scene__bar no-votes"></div>
+                                <div class="critical-scene__vote critical-scene__vote--right">0%</div>
+                            </div>
+                            <div class="critical-scene__chart">
+                                <div class="critical-scene__vote critical-scene__vote--left">1</div>
+                                <div class="critical-scene__bar competence--wrong" style="width: 10px;"></div>
+                                <div class="critical-scene__label">
+                                    <img src="https://tmsi.akamaized.net/wahretabelle/daumen_runter.png"
+                                         alt="Daumen runter"
+                                    >
+                                </div>
+                                <div class="critical-scene__bar community--wrong "
+                                     style="width: 100%;"
+                                >
+                                </div>
+                                <div class="critical-scene__vote critical-scene__vote--right">100%</div>
+                            </div>
+                        </div>
+                    </a>
+                                    <a href="/spielbericht/index/spielbericht/4634145" class="slide">
+                        <div class="critical-scene__box">
+                            <div class="critical-scene__wrapper">
+                                <img src="https://tmssl.akamaized.net//images/wappen/homepageNewsLogo80x80/41.png?lm=1597319274" title="Hamburger SV" alt="Hamburger SV" class="" />                                Hamburger SV                            </div>
+                            <p class="critical-scene__comment">
+                                0 : 2                            </p>
+                            <div class="critical-scene__wrapper">
+                                <img src="https://tmssl.akamaized.net//images/wappen/homepageNewsLogo80x80/35.png?lm=1521036360" title="FC St. Pauli" alt="FC St. Pauli" class="" />                                FC St. Pauli                            </div>
+                        </div>
+                        <hr>
+                        <div class="critical-scene__result-wrapper"><img src="https://tmsi.akamaized.net/wahretabelle/daumen_hoch.png" alt="Daumen hoch" width="16" height="16"><p class="text-correct">Richtig entschieden</p></div>                        <div class="critical-scene__title-wrapper">
+                            Platzverweis für St. Pauli                         </div>
+                                                <div class="critical-scene__chart-container">
+                            <div class="critical-scene__vote-teams">
+                                <span>Kompetenzteam</span>
+                                <span>Community</span>
+                            </div>
+                            <div class="critical-scene__chart">
+                                <div class="critical-scene__vote critical-scene__vote--left">1</div>
+                                <div class="critical-scene__bar competence--correct" style="width: 10px;"></div>
+                                <div class="critical-scene__label">
+                                    <img src="https://tmsi.akamaized.net/wahretabelle/daumen_hoch.png"
+                                         alt="Daumen hoch"
+                                    >
+                                </div>
+                                <div class="critical-scene__bar community--correct "
+                                     style="width: 62.5%;"
+                                >
+                                </div>
+                                <div class="critical-scene__vote critical-scene__vote--right">62.5%</div>
+                            </div>
+                            <div class="critical-scene__chart">
+                                <div class="critical-scene__vote critical-scene__vote--left">0</div>
+                                <div class="critical-scene__bar competence--undecided" style="width: 0px;"></div>
+                                <div class="critical-scene__label">
+                                    <img src="https://tmsi.akamaized.net/wahretabelle/daumen_neutral.png"
+                                         alt="Neutral"
+                                    >
+                                </div>
+                                <div class="critical-scene__bar no-votes"></div>
+                                <div class="critical-scene__vote critical-scene__vote--right">0%</div>
+                            </div>
+                            <div class="critical-scene__chart">
+                                <div class="critical-scene__vote critical-scene__vote--left">0</div>
+                                <div class="critical-scene__bar competence--wrong" style="width: 0px;"></div>
+                                <div class="critical-scene__label">
+                                    <img src="https://tmsi.akamaized.net/wahretabelle/daumen_runter.png"
+                                         alt="Daumen runter"
+                                    >
+                                </div>
+                                <div class="critical-scene__bar community--wrong "
+                                     style="width: 37.5%;"
+                                >
+                                </div>
+                                <div class="critical-scene__vote critical-scene__vote--right">37.5%</div>
+                            </div>
+                        </div>
+                    </a>
+                                    <a href="/spielbericht/index/spielbericht/4634145" class="slide">
+                        <div class="critical-scene__box">
+                            <div class="critical-scene__wrapper">
+                                <img src="https://tmssl.akamaized.net//images/wappen/homepageNewsLogo80x80/41.png?lm=1597319274" title="Hamburger SV" alt="Hamburger SV" class="" />                                Hamburger SV                            </div>
+                            <p class="critical-scene__comment">
+                                0 : 2                            </p>
+                            <div class="critical-scene__wrapper">
+                                <img src="https://tmssl.akamaized.net//images/wappen/homepageNewsLogo80x80/35.png?lm=1521036360" title="FC St. Pauli" alt="FC St. Pauli" class="" />                                FC St. Pauli                            </div>
+                        </div>
+                        <hr>
+                        <div class="critical-scene__result-wrapper"><img src="https://tmsi.akamaized.net/wahretabelle/daumen_runter.png" alt="Daumen runter" width="16" height="16"><p class="text-wrong">Fehlentscheidung</p></div>                        <div class="critical-scene__title-wrapper">
+                            Elfmeter St Pauli?                        </div>
+                                                <div class="critical-scene__chart-container">
+                            <div class="critical-scene__vote-teams">
+                                <span>Kompetenzteam</span>
+                                <span>Community</span>
+                            </div>
+                            <div class="critical-scene__chart">
+                                <div class="critical-scene__vote critical-scene__vote--left">0</div>
+                                <div class="critical-scene__bar competence--correct" style="width: 0px;"></div>
+                                <div class="critical-scene__label">
+                                    <img src="https://tmsi.akamaized.net/wahretabelle/daumen_hoch.png"
+                                         alt="Daumen hoch"
+                                    >
+                                </div>
+                                <div class="critical-scene__bar community--correct "
+                                     style="width: 16.666666666667%;"
+                                >
+                                </div>
+                                <div class="critical-scene__vote critical-scene__vote--right">16.67%</div>
+                            </div>
+                            <div class="critical-scene__chart">
+                                <div class="critical-scene__vote critical-scene__vote--left">0</div>
+                                <div class="critical-scene__bar competence--undecided" style="width: 0px;"></div>
+                                <div class="critical-scene__label">
+                                    <img src="https://tmsi.akamaized.net/wahretabelle/daumen_neutral.png"
+                                         alt="Neutral"
+                                    >
+                                </div>
+                                <div class="critical-scene__bar no-votes"></div>
+                                <div class="critical-scene__vote critical-scene__vote--right">0%</div>
+                            </div>
+                            <div class="critical-scene__chart">
+                                <div class="critical-scene__vote critical-scene__vote--left">1</div>
+                                <div class="critical-scene__bar competence--wrong" style="width: 10px;"></div>
+                                <div class="critical-scene__label">
+                                    <img src="https://tmsi.akamaized.net/wahretabelle/daumen_runter.png"
+                                         alt="Daumen runter"
+                                    >
+                                </div>
+                                <div class="critical-scene__bar community--wrong "
+                                     style="width: 83.333333333333%;"
+                                >
+                                </div>
+                                <div class="critical-scene__vote critical-scene__vote--right">83.33%</div>
+                            </div>
+                        </div>
+                    </a>
+                            </div>
+        </section>
+    </section>
+
+    <script>
+        let currentSlide = 0;
+
+        function changeSlide(direction) {
+            const slides = document.querySelectorAll('.slide');
+            currentSlide += direction;
+
+            if (currentSlide >= slides.length) {
+                currentSlide = 0;
+            } else if (currentSlide < 0) {
+                currentSlide = slides.length - 1;
+            }
+
+            document.querySelector('.slider').style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+    </script>
+        <section class="fav-voting">
         <header class="content-box-headline content-box-headline--wt">
             <h2 class="fav-voting__headline">
                 Wer ist dir lieber?            </h2>
@@ -3342,14 +3537,14 @@ Die Sicht des Schiedsrichter ist frei und man sieht klar, dass Süle hier den Sc
                             <p class="fav-voting__question fav-voting__question--text-favorite">
                     Von diesen Schiedsrichtern ist <br />dir sympathischer...                </p>
                             <div class="fav-voting__wrapper">
-                                <a href="/beliebtheit/speichernSchiedsrichter?referee_id_winner=16018&referee_id_loser=283&wettbewerb=L1&referee_id_1=16018" onclick="tmEvent('wahretabelle', '/beliebtheit/speichernSchiedsrichter?referee_id_winner=16018&referee_id_loser=283&wettbewerb=L1&referee_id_1=16018', 'beliebtheitsspiel')" class="fav-voting__link-player fav-voting__link-player--red">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/default.jpg?lm=1" title="Timo Gansloweit" alt="Timo Gansloweit" class="lazy" />                    <div class="fav-voting__name">
-                        Timo Gansloweit                    </div>
+                                <a href="/beliebtheit/speichernSchiedsrichter?referee_id_winner=2658&referee_id_loser=124&wettbewerb=L1&referee_id_1=2658" onclick="tmEvent('wahretabelle', '/beliebtheit/speichernSchiedsrichter?referee_id_winner=2658&referee_id_loser=124&wettbewerb=L1&referee_id_1=2658', 'beliebtheitsspiel')" class="fav-voting__link-player fav-voting__link-player--red">
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/2658-1581352286.jpg?lm=1" title="Max Burda - Quelle: imago images" alt="Max Burda" class="lazy" />                    <div class="fav-voting__name">
+                        Max Burda                    </div>
                 </a>
                 <img src="https://tmssl.akamaized.net//images/beliebtheit/versus.png" alt="versus" class="fav-voting__versus-image" width="39" height="35" />
-                                <a href="/beliebtheit/speichernSchiedsrichter?referee_id_winner=283&referee_id_loser=16018&wettbewerb=L1&referee_id_1=16018" onclick="tmEvent('wahretabelle', '/beliebtheit/speichernSchiedsrichter?referee_id_winner=16018&referee_id_loser=283&wettbewerb=L1&referee_id_1=16018', 'beliebtheitsspiel')" class="fav-voting__link-player fav-voting__link-player--black">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/283-1581071571.jpg?lm=1" title="Robert Hartmann" alt="Robert Hartmann" class="lazy" />                    <div class="fav-voting__name">
-                        Robert Hartmann                    </div>
+                                <a href="/beliebtheit/speichernSchiedsrichter?referee_id_winner=124&referee_id_loser=2658&wettbewerb=L1&referee_id_1=2658" onclick="tmEvent('wahretabelle', '/beliebtheit/speichernSchiedsrichter?referee_id_winner=2658&referee_id_loser=124&wettbewerb=L1&referee_id_1=2658', 'beliebtheitsspiel')" class="fav-voting__link-player fav-voting__link-player--black">
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/124-1581064353.jpg?lm=1" title="Felix Zwayer - Quelle: imago images" alt="Felix Zwayer" class="lazy" />                    <div class="fav-voting__name">
+                        Felix Zwayer                    </div>
                 </a>
             </div>
         </div>
@@ -3407,20 +3602,6 @@ Die Sicht des Schiedsrichter ist frei und man sieht klar, dass Süle hier den Sc
                                         <img src="https://tmssl.akamaized.net//images/wappen/homepageSmall/167.png?lm=1656582897" title="FC Augsburg" alt="FC Augsburg" class="" />                                    </div>
                                     <div class="sperren-daten">
                                         Essende                                    </div>
-                                </div>
-                                <div style="font-size: 12px;">
-                                                                    </div>
-                            </div>
-                        </div>
-                                                <div class="carousel-item" data-index="3">
-                            <div class="standardbox-inhalt-content sperren">
-                                <div class="schiris-name">
-                                    RB Leipzig                                </div>
-                                <div style="margin-top:10px">
-                                    <div>
-                                        <img src="https://tmssl.akamaized.net//images/wappen/homepageSmall/23826.png?lm=1619431624" title="RB Leipzig" alt="RB Leipzig" class="" />                                    </div>
-                                    <div class="sperren-daten">
-                                        Simons                                    </div>
                                 </div>
                                 <div style="font-size: 12px;">
                                                                     </div>
@@ -3868,7 +4049,7 @@ Die Sicht des Schiedsrichter ist frei und man sieht klar, dass Süle hier den Sc
 	var loginUrl='/profil/login';
 	var onlyDE = '1';
 	var onlyMobile = '';
-	var onlyTablet = '';
+	var onlyTablet = '1';
 	var getUserID = '';
 
 oddsServe("8b7ecddd3b6e5b2a65deb466d60355a7", -1);
